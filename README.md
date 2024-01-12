@@ -48,4 +48,4 @@ Information about the licensing of the repository.
 
 ## Contact
 
-For feedback and inquiries, please contact us at [Email Address].
+For feedback and inquiries, please contact us at [@Huskynarr](https://x.com/Huskynarr).
