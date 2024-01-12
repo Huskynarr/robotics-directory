@@ -24,7 +24,7 @@ In this category, you will find robots that are designed to resemble and functio
 
 Robotic Dogs are fascinating examples of technological innovation. They can be used for tasks such as surveillance, assistance, and research.
 
-![Image of a robotic dog]([link-to-image](https://github.com/Huskynarr/robotics-directory/blob/main/robodog/Cover.png))
+![Image of a robotic dog](https://github.com/Huskynarr/robotics-directory/blob/main/robodog/Cover.png)
 (Source: DALL-E3 - ChatGPT - A dynamic and engaging scene of robotic dogs, known as robodogs. These robodogs should appear sophisticated and technologically advanced, showcasing features like sensors, mechanical limbs, and futuristic design. The setting should be either a modern urban landscape or a high-tech facility, emphasizing the practical applications of these robodogs in various environments. The image should capture the agility, functionality, and the cutting-edge technology of these robotic canines.)
 
 ## Using the Repository
