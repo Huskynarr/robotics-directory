@@ -18,3 +18,5 @@
 | Xiaomi              | CyberOne             |                |
 | PAL Robotics        | TALOS                |                |
 | PAL Robotics        | REEM-C               |                |
+|Kepler Exploration Robot Company|Kepler Forerunner|30.000 USD|
+|Figure|Figure 01||
