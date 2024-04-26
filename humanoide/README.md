@@ -11,13 +11,14 @@
 | Hanson Robotics     | Sophia               |                |
 | Honda               | ASIMO                | Nicht kommerziell |
 | Kepler Exploration Robot Company | Kepler Forerunner | 30.000 USD |
-| OpenAI               | Figure 01 |           |
+| OpenAI              | Figure 01            |                |
 | SoftBank Robotics   | Pepper               | ~25.000 USD    |
 | SoftBank Robotics   | NAO                  | ~8.000 USD     |
 | Tesla               | Optimus              |                |
 | Tesla               | Optimus Gen 2        |                |
 | UBTECH Robotics     | Walker               |                |
 | Unitree             | H1                   | 25.000 USD     |
+| Sanctuary AI        | Phoenix              |                |
 | PAL Robotics        | TALOS                |                |
 | PAL Robotics        | REEM-C               |                |
 | Xiaomi              | CyberOne             |                |
