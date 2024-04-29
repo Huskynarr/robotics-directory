@@ -5,6 +5,7 @@
 | Ameca               |                      |                |
 | Agility Robotics    | Digit                |                |
 | Apptronik           | Apollo               |                |
+| Astribot            | S1                   |                |
 | Boston Dynamics     | Atlas                | Nicht kommerziell |
 | Hyundai             | DAL-e                |                |
 | Fourier Intelligence| GR-1                 |                |
