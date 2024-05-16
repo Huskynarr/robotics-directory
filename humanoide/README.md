@@ -18,7 +18,8 @@
 | Tesla               | Optimus              |                |
 | Tesla               | Optimus Gen 2        |                |
 | UBTECH Robotics     | Walker               |                |
-| Unitree             | H1                   | 25.000 USD     |
+| Unitree             | G1                   | 16.000 USD     |
+| Unitree             | H1                   | 90.000 USD     |
 | Sanctuary AI        | Phoenix              |                |
 | PAL Robotics        | TALOS                |                |
 | PAL Robotics        | REEM-C               |                |
