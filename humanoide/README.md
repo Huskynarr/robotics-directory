@@ -24,3 +24,5 @@
 | PAL Robotics        | TALOS                |                |
 | PAL Robotics        | REEM-C               |                |
 | Xiaomi              | CyberOne             |                |
+| 1X                  | Neo                  |                |
+| 1X                  | Eve                  |                |
