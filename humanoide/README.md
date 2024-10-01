@@ -9,6 +9,7 @@
 | Boston Dynamics     | Atlas                | Nicht kommerziell |
 | Hyundai             | DAL-e                |                |
 | Fourier Intelligence| GR-1                 |                |
+| Fourier Intelligence| GR-2                 |                |
 | Hanson Robotics     | Sophia               |                |
 | Honda               | ASIMO                | Nicht kommerziell |
 | Kepler Exploration Robot Company | Kepler Forerunner | 30.000 USD |
