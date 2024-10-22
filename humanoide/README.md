@@ -22,6 +22,7 @@
 | Unitree             | G1                   | 16.000 USD     |
 | Unitree             | H1                   | 90.000 USD     |
 | Sanctuary AI        | Phoenix              |                |
+| Robot Era           | Star1                |                |
 | PAL Robotics        | TALOS                |                |
 | PAL Robotics        | REEM-C               |                |
 | Xiaomi              | CyberOne             |                |
