@@ -13,6 +13,7 @@
 | Hanson Robotics     | Sophia               |                |
 | Honda               | ASIMO                | Nicht kommerziell |
 | Kepler Exploration Robot Company | Kepler Forerunner | 30.000 USD |
+| LimX Dynamics       | CL-1                 |                |
 | OpenAI              | Figure 01            |                |
 | SoftBank Robotics   | Pepper               | ~25.000 USD    |
 | SoftBank Robotics   | NAO                  | ~8.000 USD     |
