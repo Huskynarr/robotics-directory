@@ -19,6 +19,7 @@
 | SoftBank Robotics   | NAO                  | ~8.000 USD     |
 | Tesla               | Optimus              |                |
 | Tesla               | Optimus Gen 2        |                |
+| Toyota              | CUE6                 |                |
 | UBTECH Robotics     | Walker               |                |
 | Unitree             | G1                   | 16.000 USD     |
 | Unitree             | H1                   | 90.000 USD     |
