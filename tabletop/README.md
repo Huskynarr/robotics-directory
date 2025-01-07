@@ -1,46 +1,15 @@
 # Tabletop Robots
 
-This repository is dedicated to the fascinating world of tabletop robots. Here, you'll find a curated list of various miniature, desktop, and personal companion robots, each unique in its features and capabilities. 
+This repository is dedicated to the fascinating world of tabletop robots. Here, you'll find a curated list of various miniature, desktop, and personal companion robots, each unique in its features and capabilities.
 
-## List of Tabletop Robots
-
-1. **Vector by Anki**
-   - Description: A small robot with interactive features, capable of voice recognition and autonomous movement.
-   - Features: Voice control, AI assistance.
-   - [More Info](#)
-
-2. **Eilik by Living.AI**
-   - Description: An interactive desktop companion robot with emotional expressions and touch sensors.
-   - Features: Emotional interaction, touch response.
-   - [More Info](#)
-
-3. **Cozmo by Anki**
-   - Description: A playful and educational robot, designed with a variety of games and learning activities.
-   - Features: Educational programming, interactive games.
-   - [More Info](#)
-
-4. **Miro by Consequential Robotics**
-   - Description: A biomimetic robot designed to mimic the behavior and appearance of a small animal.
-   - Features: Emotional engagement, sensory response.
-   - [More Info](#)
-
-5. **MOSS by Modular Robotics**
-   - Description: A modular robotic construction system that allows building various robotic creations.
-   - Features: Modular design, easy to assemble.
-   - [More Info](#)
-
-6. **RoboHon by Sharp**
-   - Description: A small humanoid robot that doubles as a mobile phone.
-   - Features: Mobile phone capabilities, interactive engagement.
-   - [More Info](#)
-
-7. **Sphero Mini**
-   - Description: A tiny, app-enabled robotic ball, perfect for learning programming through play.
-   - Features: Programmable, gaming functions.
-   - [More Info](#)
-
-8. **Ozobot**
-   - Description: A small, smart toy robot that teaches coding and creativity.
-   - Features: Coding education, color & line detection.
-   - [More Info](#)
-
+| **Robot Name**       | **Manufacturer**          | **Description**                                                                                                                                               | **Features**                              | **Price**   | **Website**                                      |
+|-----------------------|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------|-------------------------------------------------|
+| **Vector by Anki**    | Anki                     | A small robot with interactive features, capable of voice recognition and autonomous movement.                                                               | Voice control, AI assistance             | $249.99     | [More Info](https://anki.com/en-us/vector.html) |
+| **Eilik by Energize Lab** | Energize Lab              | An interactive desktop companion robot with emotional expressions and touch sensors.                                                                          | Emotional interaction, touch response    | $199.00     | [More Info](https://energizelab.com/consumerview/eilik) |
+| **Cozmo by Anki**     | Anki                     | A playful and educational robot, designed with a variety of games and learning activities.                                                                   | Educational programming, interactive games | $179.99    | [More Info](https://anki.com/en-us/cozmo.html)  |
+| **Miro by Consequential Robotics** | Consequential Robotics | A biomimetic robot designed to mimic the behavior and appearance of a small animal.                                                                          | Emotional engagement, sensory response   | $2,000.00   | [More Info](https://consequentialrobotics.com/miro) |
+| **MOSS by Modular Robotics** | Modular Robotics         | A modular robotic construction system that allows building various robotic creations.                                                                         | Modular design, easy to assemble         | $149.00     | [More Info](https://www.modrobotics.com/moss/)  |
+| **RoboHon by Sharp**  | Sharp                   | A small humanoid robot that doubles as a mobile phone.                                                                                                       | Mobile phone capabilities, interactive engagement | $1,800.00 | [More Info](https://robohon.com/)               |
+| **Sphero Mini**       | Sphero                  | A tiny, app-enabled robotic ball, perfect for learning programming through play.                                                                             | Programmable, gaming functions           | $49.99      | [More Info](https://sphero.com/products/sphero-mini) |
+| **Ozobot**            | Ozobot                  | A small, smart toy robot that teaches coding and creativity.                                                                                                | Coding education, color & line detection | $59.99      | [More Info](https://ozobot.com/)               |
+| **EMO by Living.AI**  | Living.AI               | A desktop robot with AI-powered emotional interactions and fun capabilities.                                                                                 | AI-powered interaction, emotional display | $299.00    | [More Info](https://living.ai/emo/)            |
