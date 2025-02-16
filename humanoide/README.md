@@ -20,6 +20,7 @@
 | **LimX Dynamics**         | CL-1                  |                            | N/A              | N/A               | N/A                             | [LimX Dynamics](https://www.limxdynamics.com/) |
 | **LimX Dynamics**         | W1                    |                            | ~70 kg           | ~6 hours          | Modular manipulators           | [LimX Dynamics W1](https://www.limxdynamics.com/products/w1) |
 | **Mentee**                | MenteeBot             |                            | N/A              | N/A               | N/A                             | N/A                                    |
+| **Neura Robotics**        | 4NE-1                 |                            | N/A              | N/A               | N/A                             | [Neura Robotics](https://neura-robotics.com/) |
 | **OpenAI**                | Figure 01             | Research prototype         | ~65 kg           | ~5 hours          | Articulated fingers            | [Figure AI](https://www.figure.ai/) |
 | **Robot Era**             | Star1                 |                            | N/A              | N/A               | N/A                             | N/A                                    |
 | **Sanctuary AI**          | Phoenix               | Research purposes          | ~70 kg           | ~6 hours          | Advanced hands                 | [Sanctuary AI](https://www.sanctuary.ai/) |
