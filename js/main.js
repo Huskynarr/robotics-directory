@@ -1,269 +1,277 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Elemente aus dem DOM abrufen
+/**
+ * Main JavaScript for Robotics Directory
+ * Handles UI interactions, filtering, and displaying robot data
+ */
+
+document.addEventListener('DOMContentLoaded', async function() {
+    // Load robot data from CSV files
+    const robotsData = await initializeRobotsData();
+    if (!robotsData) {
+        console.error('Failed to load robot data');
+        return;
+    }
+
+    const allRobots = robotsData.allRobots;
+    const robotsByCategory = robotsData.robotsByCategory;
+    const manufacturers = robotsData.manufacturers;
+
+    // DOM elements
     const robotsGrid = document.getElementById('robotsGrid');
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.getElementById('searchButton');
     const manufacturerFilter = document.getElementById('manufacturerFilter');
     const priceFilter = document.getElementById('priceFilter');
     const resetFiltersButton = document.getElementById('resetFilters');
+    const noResults = document.getElementById('noResults');
     const categoryLinks = document.querySelectorAll('nav a');
     const robotDetails = document.getElementById('robotDetails');
     const closeDetailsButton = document.getElementById('closeDetails');
-    const noResults = document.getElementById('noResults');
 
-    // Hersteller für das Filter-Dropdown sammeln
-    const manufacturers = new Set();
-    allRobots.forEach(robot => {
-        manufacturers.add(robot.manufacturer);
+    // Current filter state
+    let currentCategory = 'all';
+    let currentManufacturer = '';
+    let currentPrice = '';
+    let currentSearch = '';
+
+    // Populate manufacturer filter
+    populateManufacturerFilter(manufacturers);
+
+    // Initial display of robots
+    displayRobots(allRobots);
+
+    // Event listeners
+    searchButton.addEventListener('click', handleSearch);
+    searchInput.addEventListener('keyup', function(event) {
+        if (event.key === 'Enter') {
+            handleSearch();
+        }
     });
 
-    // Hersteller-Filter befüllen
-    manufacturers.forEach(manufacturer => {
-        const option = document.createElement('option');
-        option.value = manufacturer;
-        option.textContent = manufacturer;
-        manufacturerFilter.appendChild(option);
+    manufacturerFilter.addEventListener('change', applyFilters);
+    priceFilter.addEventListener('change', applyFilters);
+    resetFiltersButton.addEventListener('click', resetFilters);
+
+    // Category navigation
+    categoryLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            // Update active class
+            categoryLinks.forEach(l => l.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Update current category and apply filters
+            currentCategory = this.getAttribute('data-category');
+            applyFilters();
+        });
     });
 
-    // Aktuelle Filter
-    let currentFilters = {
-        category: 'all',
-        search: '',
-        manufacturer: '',
-        price: ''
-    };
+    // Close details panel
+    closeDetailsButton.addEventListener('click', function() {
+        robotDetails.classList.remove('active');
+    });
 
-    // Roboter anzeigen
-    function displayRobots() {
-        // Grid leeren
+    /**
+     * Display robots in the grid
+     * @param {Array} robots - Array of robot objects to display
+     */
+    function displayRobots(robots) {
         robotsGrid.innerHTML = '';
         
-        // Roboter filtern
-        let filteredRobots = allRobots;
-        
-        // Nach Kategorie filtern
-        if (currentFilters.category !== 'all') {
-            filteredRobots = filteredRobots.filter(robot => robot.category === currentFilters.category);
-        }
-        
-        // Nach Suchbegriff filtern
-        if (currentFilters.search) {
-            const searchTerm = currentFilters.search.toLowerCase();
-            filteredRobots = filteredRobots.filter(robot => 
-                robot.manufacturer.toLowerCase().includes(searchTerm) || 
-                robot.model.toLowerCase().includes(searchTerm)
-            );
-        }
-        
-        // Nach Hersteller filtern
-        if (currentFilters.manufacturer) {
-            filteredRobots = filteredRobots.filter(robot => robot.manufacturer === currentFilters.manufacturer);
-        }
-        
-        // Nach Preis filtern
-        if (currentFilters.price) {
-            filteredRobots = filteredRobots.filter(robot => {
-                const price = robot.price.toLowerCase();
-                
-                switch(currentFilters.price) {
-                    case 'low':
-                        return price.includes('€') && parseFloat(price.replace(/[^0-9,.]/g, '').replace(',', '.')) < 5000;
-                    case 'medium':
-                        const priceValue = parseFloat(price.replace(/[^0-9,.]/g, '').replace(',', '.'));
-                        return price.includes('€') && priceValue >= 5000 && priceValue <= 50000;
-                    case 'high':
-                        return price.includes('€') && parseFloat(price.replace(/[^0-9,.]/g, '').replace(',', '.')) > 50000 || 
-                               price.includes('$') && parseFloat(price.replace(/[^0-9,.]/g, '').replace(',', '.')) > 50000;
-                    case 'request':
-                        return price.toLowerCase().includes('request') || price.toLowerCase().includes('anfrage');
-                    default:
-                        return true;
-                }
-            });
-        }
-        
-        // Keine Ergebnisse anzeigen
-        if (filteredRobots.length === 0) {
+        if (robots.length === 0) {
             noResults.classList.remove('hidden');
-        } else {
-            noResults.classList.add('hidden');
+            return;
         }
         
-        // Roboter-Karten erstellen
-        filteredRobots.forEach(robot => {
-            const robotCard = document.createElement('div');
-            robotCard.className = 'robot-card';
-            robotCard.dataset.robot = JSON.stringify(robot);
-            
-            // Platzhalter-Bild verwenden, wenn kein Bild vorhanden ist
-            const imageSrc = robot.image || 'images/placeholder.jpg';
-            
-            // Kategorie-Text
-            const categoryText = robot.category === 'humanoid' ? 'Humanoid' : 'Robohund';
-            
-            // Preis formatieren
-            let priceText = robot.price;
-            if (priceText.toLowerCase().includes('request') || priceText.toLowerCase().includes('anfrage')) {
-                priceText = 'Preis auf Anfrage';
-            }
-            
-            // Specs für die Karte auswählen
-            let specsHTML = '';
-            if (robot.category === 'humanoid') {
-                specsHTML = `
-                    <div class="spec-item">${robot.weight}</div>
-                    <div class="spec-item">${robot.batteryLife}</div>
-                `;
-            } else {
-                specsHTML = `
-                    <div class="spec-item">${robot.ipRating || 'IP-?'}</div>
-                    <div class="spec-item">${robot.maxRuntime}</div>
-                    <div class="spec-item">${robot.speed || '-'}</div>
-                `;
-            }
-            
-            robotCard.innerHTML = `
-                <div class="robot-image">
-                    <img src="${imageSrc}" alt="${robot.model}">
-                    <div class="robot-category">${categoryText}</div>
-                </div>
-                <div class="robot-info">
-                    <h3>${robot.model}</h3>
-                    <div class="robot-manufacturer">${robot.manufacturer}</div>
-                    <div class="robot-specs">
-                        ${specsHTML}
-                    </div>
-                    <div class="robot-price">${priceText}</div>
-                </div>
-            `;
-            
-            // Event-Listener für Klick auf Karte
-            robotCard.addEventListener('click', function() {
-                showRobotDetails(robot);
-            });
-            
+        noResults.classList.add('hidden');
+        
+        robots.forEach(robot => {
+            const robotCard = createRobotCard(robot);
             robotsGrid.appendChild(robotCard);
         });
     }
 
-    // Roboter-Details anzeigen
+    /**
+     * Create a robot card element
+     * @param {Object} robot - Robot data object
+     * @returns {HTMLElement} - Robot card element
+     */
+    function createRobotCard(robot) {
+        const card = document.createElement('div');
+        card.className = 'robot-card';
+        card.setAttribute('data-category', robot.category);
+        
+        // Default image path if not specified
+        const imagePath = robot.image || 'images/placeholder.jpg';
+        
+        card.innerHTML = `
+            <div class="robot-image">
+                <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}">
+            </div>
+            <div class="robot-info">
+                <h3>${robot.model}</h3>
+                <p class="manufacturer">${robot.manufacturer}</p>
+                <p class="price">${robot.price}</p>
+            </div>
+        `;
+        
+        card.addEventListener('click', () => showRobotDetails(robot));
+        
+        return card;
+    }
+
+    /**
+     * Show detailed information about a robot
+     * @param {Object} robot - Robot data object
+     */
     function showRobotDetails(robot) {
-        // Details-Elemente abrufen
-        const detailsTitle = document.getElementById('detailsTitle');
-        const detailsManufacturer = document.getElementById('detailsManufacturer');
-        const detailsImage = document.getElementById('detailsImage');
-        const detailsSpecs = document.getElementById('detailsSpecs');
-        const detailsWebsite = document.getElementById('detailsWebsite');
+        // Set basic details
+        document.getElementById('detailsTitle').textContent = robot.model;
+        document.getElementById('detailsManufacturer').textContent = robot.manufacturer;
         
-        // Daten einfügen
-        detailsTitle.textContent = robot.model;
-        detailsManufacturer.textContent = robot.manufacturer;
+        // Set image
+        const imagePath = robot.image || 'images/placeholder.jpg';
+        document.getElementById('detailsImage').src = imagePath;
+        document.getElementById('detailsImage').alt = `${robot.model} by ${robot.manufacturer}`;
         
-        // Platzhalter-Bild verwenden, wenn kein Bild vorhanden ist
-        detailsImage.src = robot.image || 'images/placeholder.jpg';
-        detailsImage.alt = robot.model;
-        
-        // Spezifikationstabelle erstellen
-        detailsSpecs.innerHTML = '';
-        
-        for (const [key, value] of Object.entries(robot.specs)) {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${key}</td>
-                <td>${value}</td>
-            `;
-            detailsSpecs.appendChild(row);
+        // Set website link
+        const websiteLink = document.getElementById('detailsWebsite');
+        if (robot.website && robot.website !== 'N/A') {
+            websiteLink.href = robot.website;
+            websiteLink.classList.remove('hidden');
+        } else {
+            websiteLink.classList.add('hidden');
         }
         
-        // Website-Link setzen
-        detailsWebsite.href = robot.website;
+        // Build specifications table
+        const specsTable = document.getElementById('detailsSpecs');
+        specsTable.innerHTML = '';
         
-        // Details-Bereich anzeigen
+        // Add common specifications
+        addSpecRow(specsTable, 'Price', robot.price);
+        addSpecRow(specsTable, 'Weight', robot.weight);
+        addSpecRow(specsTable, 'Battery Life', robot.batteryLife);
+        
+        // Add category-specific specifications
+        switch (robot.category) {
+            case 'humanoid':
+                addSpecRow(specsTable, 'Hands', robot.hands);
+                break;
+            case 'robodog':
+                addSpecRow(specsTable, 'Sensors', robot.sensors);
+                break;
+            case 'table':
+            case 'household':
+            case 'entertainment':
+            case 'educational':
+            case 'vacuum':
+                addSpecRow(specsTable, 'Features', robot.features);
+                break;
+        }
+        
+        // Show the details panel
         robotDetails.classList.add('active');
+    }
+
+    /**
+     * Add a row to the specifications table
+     * @param {HTMLElement} table - Table element
+     * @param {string} label - Specification label
+     * @param {string} value - Specification value
+     */
+    function addSpecRow(table, label, value) {
+        if (!value || value === 'N/A') return;
         
-        // Body-Scrolling deaktivieren
-        document.body.style.overflow = 'hidden';
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td>${label}</td>
+            <td>${value}</td>
+        `;
+        table.appendChild(row);
     }
 
-    // Details-Bereich schließen
-    function closeRobotDetails() {
-        robotDetails.classList.remove('active');
-        document.body.style.overflow = '';
+    /**
+     * Populate the manufacturer filter dropdown
+     * @param {Array} manufacturers - Array of manufacturer names
+     */
+    function populateManufacturerFilter(manufacturers) {
+        manufacturers.forEach(manufacturer => {
+            const option = document.createElement('option');
+            option.value = manufacturer;
+            option.textContent = manufacturer;
+            manufacturerFilter.appendChild(option);
+        });
     }
 
-    // Event-Listener für Suche
-    searchButton.addEventListener('click', function() {
-        currentFilters.search = searchInput.value.trim();
-        displayRobots();
-    });
-    
-    searchInput.addEventListener('keyup', function(event) {
-        if (event.key === 'Enter') {
-            currentFilters.search = searchInput.value.trim();
-            displayRobots();
+    /**
+     * Handle search button click
+     */
+    function handleSearch() {
+        currentSearch = searchInput.value.trim().toLowerCase();
+        applyFilters();
+    }
+
+    /**
+     * Apply all current filters to the robot data
+     */
+    function applyFilters() {
+        // Get filter values
+        currentManufacturer = manufacturerFilter.value;
+        currentPrice = priceFilter.value;
+        
+        // Start with all robots or category-specific robots
+        let filteredRobots = currentCategory === 'all' ? allRobots : robotsByCategory[currentCategory] || [];
+        
+        // Apply manufacturer filter
+        if (currentManufacturer) {
+            filteredRobots = filteredRobots.filter(robot => robot.manufacturer === currentManufacturer);
         }
-    });
+        
+        // Apply price filter
+        if (currentPrice) {
+            filteredRobots = filteredRobots.filter(robot => {
+                const price = robot.price.toLowerCase();
+                
+                if (currentPrice === 'low') {
+                    return price.includes('under') || (price.includes('$') && parseInt(price.replace(/[^0-9]/g, '')) < 5000);
+                } else if (currentPrice === 'medium') {
+                    const priceNum = parseInt(price.replace(/[^0-9]/g, ''));
+                    return price.includes('$') && priceNum >= 5000 && priceNum <= 50000;
+                } else if (currentPrice === 'high') {
+                    return price.includes('over') || (price.includes('$') && parseInt(price.replace(/[^0-9]/g, '')) > 50000);
+                } else if (currentPrice === 'request') {
+                    return price.includes('request') || price.includes('not') || price.includes('n/a');
+                }
+                return true;
+            });
+        }
+        
+        // Apply search filter
+        if (currentSearch) {
+            filteredRobots = filteredRobots.filter(robot => {
+                return robot.model.toLowerCase().includes(currentSearch) || 
+                       robot.manufacturer.toLowerCase().includes(currentSearch);
+            });
+        }
+        
+        // Display filtered robots
+        displayRobots(filteredRobots);
+    }
 
-    // Event-Listener für Hersteller-Filter
-    manufacturerFilter.addEventListener('change', function() {
-        currentFilters.manufacturer = this.value;
-        displayRobots();
-    });
-
-    // Event-Listener für Preis-Filter
-    priceFilter.addEventListener('change', function() {
-        currentFilters.price = this.value;
-        displayRobots();
-    });
-
-    // Event-Listener für Filter zurücksetzen
-    resetFiltersButton.addEventListener('click', function() {
+    /**
+     * Reset all filters to default values
+     */
+    function resetFilters() {
         searchInput.value = '';
         manufacturerFilter.value = '';
         priceFilter.value = '';
         
-        currentFilters = {
-            category: currentFilters.category,
-            search: '',
-            manufacturer: '',
-            price: ''
-        };
+        // Reset filter state
+        currentSearch = '';
+        currentManufacturer = '';
+        currentPrice = '';
         
-        displayRobots();
-    });
-
-    // Event-Listener für Kategorie-Links
-    categoryLinks.forEach(link => {
-        link.addEventListener('click', function(event) {
-            event.preventDefault();
-            
-            // Aktiven Link markieren
-            categoryLinks.forEach(l => l.classList.remove('active'));
-            this.classList.add('active');
-            
-            // Kategorie-Filter setzen
-            currentFilters.category = this.dataset.category;
-            displayRobots();
-        });
-    });
-
-    // Event-Listener für Schließen-Button
-    closeDetailsButton.addEventListener('click', closeRobotDetails);
-
-    // Event-Listener für Klick außerhalb des Detail-Bereichs
-    robotDetails.addEventListener('click', function(event) {
-        if (event.target === robotDetails) {
-            closeRobotDetails();
-        }
-    });
-
-    // Escape-Taste zum Schließen der Details
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'Escape' && robotDetails.classList.contains('active')) {
-            closeRobotDetails();
-        }
-    });
-
-    // Initiale Anzeige aller Roboter
-    displayRobots();
+        // Re-apply filters (will use the reset values)
+        applyFilters();
+    }
 });

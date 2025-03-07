@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +18,13 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#" class="active" data-category="all">Alle</a></li>
-                    <li><a href="#" data-category="humanoid">Humanoide</a></li>
-                    <li><a href="#" data-category="robodog">Robohunde</a></li>
+                    <li><a href="#" class="active" data-category="all">All</a></li>
+                    <li><a href="#" data-category="humanoid">Humanoids</a></li>
+                    <li><a href="#" data-category="robodog">Dogs</a></li>
+                    <li><a href="#" data-category="table">Table</a></li>
+                    <li><a href="#" data-category="entertainment">Entertainment</a></li>
+                    <li><a href="#" data-category="educational">Educational</a></li>
+                    <li><a href="#" data-category="household">Household</a></li>
                 </ul>
             </nav>
         </div>
@@ -28,35 +32,48 @@
 
     <section class="hero">
         <div class="container">
-            <h2>Entdecke die Welt der Robotik</h2>
-            <p>Eine umfassende Sammlung von Robotern, kategorisiert und interaktiv durchsuchbar</p>
+            <h2>Discover the World of Robotics</h2>
+            <p>A comprehensive collection of robots, categorized and interactively searchable</p>
         </div>
     </section>
 
     <section class="search-section">
         <div class="container">
             <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Suche nach Robotern, Herstellern...">
+                <input type="text" id="searchInput" placeholder="Search for robots, manufacturers...">
                 <button id="searchButton"><i class="fas fa-search"></i></button>
             </div>
             <div class="filter-container">
                 <div class="filter-group">
-                    <label for="manufacturerFilter">Hersteller:</label>
+                    <label for="manufacturerFilter">Manufacturer:</label>
                     <select id="manufacturerFilter">
-                        <option value="">Alle</option>
+                        <option value="">All</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="priceFilter">Preis:</label>
-                    <select id="priceFilter">
-                        <option value="">Alle</option>
-                        <option value="low">Unter 5.000 €</option>
-                        <option value="medium">5.000 € - 50.000 €</option>
-                        <option value="high">Über 50.000 €</option>
-                        <option value="request">Auf Anfrage</option>
+                    <label for="categoryFilter">Category:</label>
+                    <select id="categoryFilter">
+                        <option data-category="all" value="">All</option>
+                        <option data-category="humanoid" value="humanoid">Humanoids</option>
+                        <option data-category="robodog" value="robodog">Dogs</option>
+                        <option data-category="table" value="table">Table</option>
+                        <option data-category="entertainment" value="entertainment">Entertainment</option>
+                        <option data-category="educational" value="educational">Educational</option>
+                        <option data-category="household"  value="household">Household</option>
+                        <option data-category="vacuum" value="vacuum">Vacuum</option>
                     </select>
                 </div>
-                <button id="resetFilters">Filter zurücksetzen</button>
+                <div class="filter-group">
+                    <label for="priceFilter">Price:</label>
+                    <select id="priceFilter">
+                        <option value="">All</option>
+                        <option value="low">Under $5,000</option>
+                        <option value="medium">$5,000 - $50,000</option>
+                        <option value="high">Over $50,000</option>
+                        <option value="request">On Request</option>
+                    </select>
+                </div>
+                <button id="resetFilters">Reset Filters</button>
             </div>
         </div>
     </section>
@@ -64,10 +81,10 @@
     <section class="robots-section">
         <div class="container">
             <div class="robots-grid" id="robotsGrid">
-                <!-- Roboter werden hier dynamisch eingefügt -->
+                <!-- Robots will be dynamically inserted here -->
             </div>
             <div id="noResults" class="no-results hidden">
-                <p>Keine Ergebnisse gefunden. Bitte versuche andere Suchkriterien.</p>
+                <p>No results found. Please try different search criteria.</p>
             </div>
         </div>
     </section>
@@ -77,22 +94,22 @@
             <div class="robot-details-content">
                 <button class="close-button" id="closeDetails"><i class="fas fa-times"></i></button>
                 <div class="robot-details-header">
-                    <h2 id="detailsTitle">Roboter Name</h2>
-                    <p id="detailsManufacturer">Hersteller</p>
+                    <h2 id="detailsTitle">Robot Name</h2>
+                    <p id="detailsManufacturer">Manufacturer</p>
                 </div>
                 <div class="robot-details-body">
                     <div class="robot-image">
-                        <img id="detailsImage" src="images/placeholder.jpg" alt="Roboter Bild">
+                        <img id="detailsImage" src="images/placeholder.jpg" alt="Robot Image">
                     </div>
                     <div class="robot-specs">
-                        <h3>Spezifikationen</h3>
+                        <h3>Specifications</h3>
                         <table id="detailsSpecs">
-                            <!-- Spezifikationen werden hier dynamisch eingefügt -->
+                            <!-- Specifications will be dynamically inserted here -->
                         </table>
                     </div>
                 </div>
                 <div class="robot-details-footer">
-                    <a id="detailsWebsite" href="#" target="_blank" class="button">Offizielle Website <i class="fas fa-external-link-alt"></i></a>
+                    <a id="detailsWebsite" href="#" target="_blank" class="button">Official Website <i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         </div>
@@ -103,19 +120,19 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <h3><i class="fas fa-robot"></i> Robotics Directory</h3>
-                    <p>Eine umfassende Sammlung von Robotern</p>
+                    <p>A comprehensive collection of robots</p>
                 </div>
                 <div class="footer-links">
                     <h3>Links</h3>
                     <ul>
                         <li><a href="https://github.com/Huskynarr/robotics-directory">GitHub Repository</a></li>
-                        <li><a href="https://github.com/Huskynarr/robotics-directory/blob/main/CONTRIBUTING.md">Mitwirken</a></li>
-                        <li><a href="https://x.com/Huskynarr">Kontakt</a></li>
+                        <li><a href="https://github.com/Huskynarr/robotics-directory/blob/main/CONTRIBUTING.md">Contribute</a></li>
+                        <li><a href="https://x.com/Huskynarr">Contact</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Robotics Directory. Alle Rechte vorbehalten.</p>
+                <p>&copy; 2025 Robotics Directory. Made with <span style="color: red;">&hearts;</span> and AI Power by <img src="images/logos/huskynarr.svg" alt="Huskynarr Logo" style="vertical-align: middle; height: 1em;"> Huskynarr &amp; contributors. All images and trademarks are property of their respective owners.</p>
                 <div class="contributors">
                     <a href="https://github.com/Huskynarr/robotics-directory/graphs/contributors">
                         <img src="https://contrib.rocks/image?repo=Huskynarr/robotics-directory" alt="Contributors" />
@@ -125,7 +142,7 @@
         </div>
     </footer>
 
-    <script src="js/data.js"></script>
+    <script src="js/csv-loader.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
