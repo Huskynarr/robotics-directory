@@ -20,6 +20,7 @@
 | **LimX Dynamics**         | CL-1                  |                            | N/A              | N/A               | N/A                             | [LimX Dynamics](https://www.limxdynamics.com/) |
 | **LimX Dynamics**         | W1                    |                            | ~70 kg           | ~6 hours          | Modular manipulators           | [LimX Dynamics W1](https://www.limxdynamics.com/products/w1) |
 | **Mentee**                | MenteeBot             |                            | N/A              | N/A               | N/A                             | N/A                                    |
+| **Neura Robotics**        | 4NE-1                 |                            | N/A              | N/A               | N/A                             | [Neura Robotics](https://neura-robotics.com/) |
 | **OpenAI**                | Figure 01             | Research prototype         | ~65 kg           | ~5 hours          | Articulated fingers            | [Figure AI](https://www.figure.ai/) |
 | **Robot Era**             | Star1                 |                            | N/A              | N/A               | N/A                             | N/A                                    |
 | **Sanctuary AI**          | Phoenix               | Research purposes          | ~70 kg           | ~6 hours          | Advanced hands                 | [Sanctuary AI](https://www.sanctuary.ai/) |
@@ -29,6 +30,9 @@
 | **Tesla**                 | Optimus Gen 2         | Early development phase    | ~75 kg           | ~8 hours          | Advanced manipulators          | [Tesla Optimus](https://www.tesla.com/) |
 | **Toyota**                | CUE6                  | Basketball-playing robot (non-commercial) | ~95 kg | N/A | None (sports focus)            | [Toyota CUE](https://global.toyota/en/mobility/robot/) |
 | **UBTECH Robotics**       | Walker                | Advanced prototype         | ~60 kg           | ~5 hours          | Basic manipulators             | [UBTECH Walker](https://www.ubtrobot.com/) |
+| **UBTECH Robotics**       | Walker S              | Advanced prototype         | N/A              | N/A              | Basic manipulators             | [UBTECH Walker](https://www.ubtrobot.com/) |
+| **UBTECH Robotics**       | Walker S1             | Advanced prototype         | N/A              | N/A               | Basic manipulators             | [UBTECH Walker](https://www.ubtrobot.com/) |
+| **UBTECH Robotics**       | Walker S2             | Advanced prototype         | N/A              | N/A               | Basic manipulators             | [UBTECH Walker](https://www.ubtrobot.com/) |
 | **Unitree**               | G1                    | ~16,000 USD                | ~18 kg           | ~4 hours          | N/A (quadrupedal focus)        | [Unitree Robotics](https://www.unitree.com/) |
 | **Unitree**               | H1                    | ~90,000 USD                | ~55 kg           | ~6 hours          | Advanced grippers              | [Unitree Robotics](https://www.unitree.com/) |
 | **PAL Robotics**          | TALOS                 | Industrial, price on request | ~95 kg        | ~8 hours          | Fully articulated hands        | [PAL Robotics TALOS](https://pal-robotics.com/) |
