@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robotics Directory</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-robot"></i> Robotics Directory</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-category="all">Alle</a></li>
+                    <li><a href="#" data-category="humanoid">Humanoide</a></li>
+                    <li><a href="#" data-category="robodog">Robohunde</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Entdecke die Welt der Robotik</h2>
+            <p>Eine umfassende Sammlung von Robotern, kategorisiert und interaktiv durchsuchbar</p>
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Suche nach Robotern, Herstellern...">
+                <button id="searchButton"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label for="manufacturerFilter">Hersteller:</label>
+                    <select id="manufacturerFilter">
+                        <option value="">Alle</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="priceFilter">Preis:</label>
+                    <select id="priceFilter">
+                        <option value="">Alle</option>
+                        <option value="low">Unter 5.000 €</option>
+                        <option value="medium">5.000 € - 50.000 €</option>
+                        <option value="high">Über 50.000 €</option>
+                        <option value="request">Auf Anfrage</option>
+                    </select>
+                </div>
+                <button id="resetFilters">Filter zurücksetzen</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="robots-section">
+        <div class="container">
+            <div class="robots-grid" id="robotsGrid">
+                <!-- Roboter werden hier dynamisch eingefügt -->
+            </div>
+            <div id="noResults" class="no-results hidden">
+                <p>Keine Ergebnisse gefunden. Bitte versuche andere Suchkriterien.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="robot-details" id="robotDetails">
+        <div class="container">
+            <div class="robot-details-content">
+                <button class="close-button" id="closeDetails"><i class="fas fa-times"></i></button>
+                <div class="robot-details-header">
+                    <h2 id="detailsTitle">Roboter Name</h2>
+                    <p id="detailsManufacturer">Hersteller</p>
+                </div>
+                <div class="robot-details-body">
+                    <div class="robot-image">
+                        <img id="detailsImage" src="images/placeholder.jpg" alt="Roboter Bild">
+                    </div>
+                    <div class="robot-specs">
+                        <h3>Spezifikationen</h3>
+                        <table id="detailsSpecs">
+                            <!-- Spezifikationen werden hier dynamisch eingefügt -->
+                        </table>
+                    </div>
+                </div>
+                <div class="robot-details-footer">
+                    <a id="detailsWebsite" href="#" target="_blank" class="button">Offizielle Website <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-robot"></i> Robotics Directory</h3>
+                    <p>Eine umfassende Sammlung von Robotern</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="https://github.com/Huskynarr/robotics-directory">GitHub Repository</a></li>
+                        <li><a href="https://github.com/Huskynarr/robotics-directory/blob/main/CONTRIBUTING.md">Mitwirken</a></li>
+                        <li><a href="https://x.com/Huskynarr">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Robotics Directory. Alle Rechte vorbehalten.</p>
+                <div class="contributors">
+                    <a href="https://github.com/Huskynarr/robotics-directory/graphs/contributors">
+                        <img src="https://contrib.rocks/image?repo=Huskynarr/robotics-directory" alt="Contributors" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
