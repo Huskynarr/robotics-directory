@@ -1,12 +1,12 @@
-# Bilder von Roboterhunden
+# Images of Robot Dogs
 
-Dieses Verzeichnis enthält Bilder von Roboterhunden für die Robotics Directory Website.
+This directory contains images of robot dogs for the Robotics Directory website.
 
-## Hinweis
+## Note
 
-Bitte speichere hier Bilder im Format JPG oder PNG mit einer empfohlenen Auflösung von mindestens 600x400 Pixeln.
+Please save images here in JPG or PNG format with a recommended resolution of at least 600x400 pixels.
 
-Beispiel für Dateinamen:
+Examples of filenames:
 - spot.jpg
 - anymal.jpg
 - go1.jpg

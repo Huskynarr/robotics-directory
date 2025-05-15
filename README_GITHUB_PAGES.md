@@ -1,81 +1,81 @@
 # Robotics Directory - GitHub Pages Setup
 
-Diese Anleitung erklärt, wie du die Robotics Directory als interaktive Webseite mit GitHub Pages einrichtest.
+This guide explains how to set up the Robotics Directory as an interactive website with GitHub Pages.
 
-## Übersicht
+## Overview
 
-Die Robotics Directory wurde von einer einfachen README-Tabelle zu einer vollständig interaktiven Webseite umgewandelt. Die Webseite bietet:
+The Robotics Directory has been transformed from a simple README table to a fully interactive website. The website offers:
 
-- Kategorisierte Ansicht von Humanoiden und Roboterhunden
-- Suchfunktion für schnelles Finden von Robotern
-- Filter nach Hersteller und Preis
-- Detailansicht mit allen Spezifikationen
-- Responsive Design für alle Geräte
+- Categorized view of humanoids and robot dogs
+- Search function for quickly finding robots
+- Filters by manufacturer and price
+- Detailed view with all specifications
+- Responsive design for all devices
 
-## GitHub Pages Einrichtung
+## GitHub Pages Setup
 
-1. **Repository-Einstellungen öffnen**
-   - Gehe zu deinem Repository auf GitHub
-   - Klicke auf "Settings" (Zahnrad-Symbol)
+1. **Open Repository Settings**
+   - Go to your repository on GitHub
+   - Click on "Settings" (gear icon)
 
-2. **GitHub Pages aktivieren**
-   - Scrolle nach unten zum Abschnitt "GitHub Pages"
-   - Wähle unter "Source" den Branch "main" aus
-   - Klicke auf "Save"
+2. **Enable GitHub Pages**
+   - Scroll down to the "GitHub Pages" section
+   - Select "main" as the branch under "Source"
+   - Click on "Save"
 
-3. **Webseite aufrufen**
-   - Nach der Aktivierung wird dir eine URL angezeigt (z.B. https://huskynarr.github.io/robotics-directory/)
-   - Die Veröffentlichung kann einige Minuten dauern
+3. **Access the Website**
+   - After activation, you'll see a URL (e.g., https://huskynarr.github.io/robotics-directory/)
+   - Publication may take a few minutes
 
-## Bilder hinzufügen
+## Adding Images
 
-Um die Webseite mit Bildern zu vervollständigen:
+To complete the website with images:
 
-1. Lade Bilder der Roboter in die entsprechenden Verzeichnisse hoch:
-   - Humanoide Roboter: `/images/humanoid/`
-   - Roboterhunde: `/images/robodog/`
+1. Upload images of the robots to the appropriate directories:
+   - Humanoid robots: `/images/humanoid/`
+   - Robot dogs: `/images/robodog/`
 
-2. Benenne die Bilder entsprechend dem Robotermodell, wie in der `data.js` Datei angegeben:
-   - Beispiel: `ameca.jpg`, `spot.jpg`, usw.
+2. Name the images according to the robot model, as specified in the `data.js` file:
+   - Example: `ameca.jpg`, `spot.jpg`, etc.
 
-3. Ersetze das Platzhalter-Bild (`placeholder.jpg`) durch ein generisches Roboter-Bild
+3. Replace the placeholder image (`placeholder.jpg`) with a generic robot image
 
-## Anpassung und Erweiterung
+## Customization and Extension
 
-### Neue Roboter hinzufügen
+### Adding New Robots
 
-Um neue Roboter zur Datenbank hinzuzufügen:
+To add new robots to the database:
 
-1. Öffne die Datei `js/data.js`
-2. Füge einen neuen Eintrag zum entsprechenden Array hinzu (humanoid oder robodog)
-3. Stelle sicher, dass alle erforderlichen Felder vorhanden sind
-4. Lade ein Bild für den neuen Roboter hoch
+1. Open the file `js/data.js`
+2. Add a new entry to the appropriate array (humanoid or robodog)
+3. Make sure all required fields are present
+4. Upload an image for the new robot
 
-### Design anpassen
+### Customizing the Design
 
-Das Design kann über die CSS-Datei angepasst werden:
+The design can be customized via the CSS file:
 
-1. Öffne die Datei `css/style.css`
-2. Passe die Farbvariablen im `:root`-Selektor an
-3. Ändere Schriftarten, Abstände und andere Stilelemente nach Bedarf
+1. Open the file `css/style.css`
+2. Adjust the color variables in the `:root` selector
+3. Change fonts, spacing, and other style elements as needed
 
-## Lokale Entwicklung
+## Local Development
 
-Um die Webseite lokal zu entwickeln:
+To develop the website locally:
 
-1. Klone das Repository auf deinen Computer
-2. Öffne die `index.html` Datei in einem Browser
-3. Für eine bessere Entwicklungsumgebung kannst du einen lokalen Server verwenden:
-   - Mit Python: `python -m http.server`
-   - Mit Node.js: `npx serve`
+1. Clone the repository to your computer
+2. Open the `index.html` file in a browser
+3. For a better development environment, you can use a local server:
+   - With Python: `python -m http.server`
+   - With Node.js: `npx serve`
 
-## Fehlerbehebung
+## Troubleshooting
 
-Wenn Bilder nicht angezeigt werden:
-- Überprüfe, ob die Dateinamen in `data.js` mit den tatsächlichen Bilddateien übereinstimmen
-- Stelle sicher, dass die Bilder im richtigen Verzeichnis liegen
-- Überprüfe die Dateipfade (Groß-/Kleinschreibung beachten)
+If images are not displayed:
+- Check if the filenames in `data.js` match the actual image files
+- Make sure the images are in the correct directory
+- Check the file paths (note case sensitivity)
 
-## Mitwirken
+## Contributing
 
-Beiträge zur Verbesserung der Webseite sind willkommen! Siehe [CONTRIBUTING.md](CONTRIBUTING.md) für Details.
+Contributions to improve the website are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.

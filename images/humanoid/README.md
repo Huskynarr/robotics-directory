@@ -1,12 +1,12 @@
-# Bilder von humanoiden Robotern
+# Images of Humanoid Robots
 
-Dieses Verzeichnis enthält Bilder von humanoiden Robotern für die Robotics Directory Website.
+This directory contains images of humanoid robots for the Robotics Directory website.
 
-## Hinweis
+## Note
 
-Bitte speichere hier Bilder im Format JPG oder PNG mit einer empfohlenen Auflösung von mindestens 600x400 Pixeln.
+Please save images here in JPG or PNG format with a recommended resolution of at least 600x400 pixels.
 
-Beispiel für Dateinamen:
+Examples of filenames:
 - ameca.jpg
 - digit.jpg
 - atlas.jpg

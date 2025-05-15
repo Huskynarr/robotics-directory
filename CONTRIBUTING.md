@@ -1,6 +1,6 @@
-# Contributing to [Project Name]
+# Contributing to Robotics Directory
 
-We appreciate your interest in contributing to [Project Name]! Every contribution, no matter how big or small, is greatly valued.
+We appreciate your interest in contributing to Robotics Directory! Every contribution, no matter how big or small, is greatly valued.
 
 ## How to Contribute?
 
