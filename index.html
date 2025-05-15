@@ -16,17 +16,32 @@
             <div class="logo">
                 <h1><i class="fas fa-robot"></i> Robotics Directory</h1>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#" class="active" data-category="all">All</a></li>
-                    <li><a href="#" data-category="humanoid">Humanoids</a></li>
-                    <li><a href="#" data-category="robodog">Dogs</a></li>
-                    <li><a href="#" data-category="table">Table</a></li>
-                    <li><a href="#" data-category="entertainment">Entertainment</a></li>
-                    <li><a href="#" data-category="educational">Educational</a></li>
-                    <li><a href="#" data-category="household">Household</a></li>
-                </ul>
-            </nav>
+            <div class="header-controls">
+                <nav>
+                    <ul>
+                        <li><a href="#" class="active" data-category="all">All</a></li>
+                        <li><a href="#" data-category="humanoid">Humanoids</a></li>
+                        <li><a href="#" data-category="robodog">Dogs</a></li>
+                        <li><a href="#" data-category="table">Table</a></li>
+                        <li><a href="#" data-category="entertainment">Entertainment</a></li>
+                        <li><a href="#" data-category="educational">Educational</a></li>
+                        <li><a href="#" data-category="household">Household</a></li>
+                        <li><a href="#" data-category="vacuum">Vacuum</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-actions">
+                    <button id="favoritesToggle" class="button"><i class="fas fa-heart"></i></button>
+                    <div class="mode-toggle">
+                        <label for="darkModeToggle">
+                            <span id="darkModeIcon"><i class="fas fa-moon"></i></span>
+                        </label>
+                        <div class="switch">
+                            <input type="checkbox" id="darkModeToggle">
+                            <span class="slider"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -59,7 +74,7 @@
                         <option data-category="table" value="table">Table</option>
                         <option data-category="entertainment" value="entertainment">Entertainment</option>
                         <option data-category="educational" value="educational">Educational</option>
-                        <option data-category="household"  value="household">Household</option>
+                        <option data-category="household" value="household">Household</option>
                         <option data-category="vacuum" value="vacuum">Vacuum</option>
                     </select>
                 </div>
@@ -81,10 +96,73 @@
                             <option value="name">Name</option>
                             <option value="manufacturer">Manufacturer</option>
                             <option value="price">Price</option>
+                            <option value="weight">Weight</option>
+                            <option value="batteryLife">Battery Life</option>
                         </select>
                     </div>
                 </div>
                 <button id="resetFilters">Reset Filters</button>
+            </div>
+            
+            <div class="filter-toggle">
+                Advanced Filters <i class="fas fa-chevron-down"></i>
+            </div>
+            
+            <div class="advanced-filters">
+                <div class="filter-group">
+                    <label for="weightFilter">Weight:</label>
+                    <select id="weightFilter">
+                        <option value="">All</option>
+                        <option value="light">Light (< 10 kg)</option>
+                        <option value="medium">Medium (10-50 kg)</option>
+                        <option value="heavy">Heavy (> 50 kg)</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="batteryFilter">Battery Life:</label>
+                    <select id="batteryFilter">
+                        <option value="">All</option>
+                        <option value="short">Short (< 2 hours)</option>
+                        <option value="medium">Medium (2-5 hours)</option>
+                        <option value="long">Long (> 5 hours)</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="featuresFilter">Features:</label>
+                    <select id="featuresFilter">
+                        <option value="">All</option>
+                        <option value="autonomous">Autonomous Navigation</option>
+                        <option value="voice">Voice Control</option>
+                        <option value="ai">AI Powered</option>
+                        <option value="app">App Control</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="purposeFilter">Purpose:</label>
+                    <select id="purposeFilter">
+                        <option value="">All</option>
+                        <option value="home">Home</option>
+                        <option value="industry">Industry</option>
+                        <option value="education">Education</option>
+                        <option value="entertainment">Entertainment</option>
+                        <option value="research">Research</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="favorites-section" id="favoritesSection">
+        <div class="container">
+            <div class="favorites-header">
+                <h2><i class="fas fa-heart"></i> Your Favorite Robots</h2>
+                <button id="clearFavorites" class="button"><i class="fas fa-trash"></i> Clear All</button>
+            </div>
+            <div class="favorites-grid" id="favoritesGrid">
+                <!-- Favorites will be dynamically inserted -->
+            </div>
+            <div id="noFavorites" class="no-results">
+                <p>You haven't added any favorites yet. Click the heart icon on a robot card to add it to your favorites.</p>
             </div>
         </div>
     </section>
@@ -120,8 +198,49 @@
                     </div>
                 </div>
                 <div class="robot-details-footer">
-                    <a id="detailsWebsite" href="#" target="_blank" class="button">Official Website <i class="fas fa-external-link-alt"></i></a>
+                    <div class="details-actions">
+                        <a id="detailsWebsite" href="#" target="_blank" class="button">Official Website <i class="fas fa-external-link-alt"></i></a>
+                        <button id="detailsAddCompare" class="button"><i class="fas fa-balance-scale"></i> Add to Compare</button>
+                        <div class="share-button" id="shareButton">
+                            <i class="fas fa-share-alt"></i> Share
+                        </div>
+                        <div class="share-options" id="shareOptions">
+                            <div class="share-option" data-type="twitter">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </div>
+                            <div class="share-option" data-type="facebook">
+                                <i class="fab fa-facebook"></i> Facebook
+                            </div>
+                            <div class="share-option" data-type="whatsapp">
+                                <i class="fab fa-whatsapp"></i> WhatsApp
+                            </div>
+                            <div class="share-option" data-type="email">
+                                <i class="fas fa-envelope"></i> Email
+                            </div>
+                            <div class="share-option" data-type="link">
+                                <i class="fas fa-link"></i> Copy Link
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="compare-section" id="compareSection">
+        <div class="container">
+            <div class="compare-header">
+                <h3><i class="fas fa-balance-scale"></i> Compare Robots</h3>
+                <div class="compare-actions">
+                    <button id="closeCompare" class="button"><i class="fas fa-times"></i> Close</button>
+                    <button id="clearCompare" class="button"><i class="fas fa-trash"></i> Clear All</button>
+                </div>
+            </div>
+            <div class="compare-container" id="compareContainer">
+                <!-- Compare items will be dynamically inserted here -->
+            </div>
+            <div id="compareTable" class="compare-table-container">
+                <!-- Compare table will be dynamically inserted here -->
             </div>
         </div>
     </section>
@@ -153,7 +272,9 @@
         </div>
     </footer>
 
+    <script src="js/debug.js"></script>
     <script src="js/csv-loader.js"></script>
+    <script src="js/features.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

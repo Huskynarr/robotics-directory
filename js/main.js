@@ -3,6 +3,10 @@
  * Handles UI interactions, filtering, and displaying robot data
  */
 
+// Global variables for Features.js
+window.robotsDataLoaded = false;
+window.allRobots = [];
+
 document.addEventListener('DOMContentLoaded', async function() {
     // Load robot data from CSV files
     const robotsData = await initializeRobotsData();
@@ -10,6 +14,10 @@ document.addEventListener('DOMContentLoaded', async function() {
         console.error('Failed to load robot data');
         return;
     }
+
+    // Set global variables for features.js
+    window.allRobots = robotsData.allRobots;
+    window.robotsDataLoaded = true;
 
     const allRobots = robotsData.allRobots;
     const robotsByCategory = robotsData.robotsByCategory;
@@ -20,7 +28,9 @@ document.addEventListener('DOMContentLoaded', async function() {
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.getElementById('searchButton');
     const manufacturerFilter = document.getElementById('manufacturerFilter');
+    const categoryFilter = document.getElementById('categoryFilter');
     const priceFilter = document.getElementById('priceFilter');
+    const sortFilter = document.getElementById('sortFilter');
     const resetFiltersButton = document.getElementById('resetFilters');
     const noResults = document.getElementById('noResults');
     const categoryLinks = document.querySelectorAll('nav a');
@@ -32,6 +42,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     let currentManufacturer = '';
     let currentPrice = '';
     let currentSearch = '';
+    let currentSort = '';
 
     // Populate manufacturer filter
     populateManufacturerFilter(manufacturers);
@@ -47,8 +58,25 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
     });
 
-    manufacturerFilter.addEventListener('change', applyFilters);
-    priceFilter.addEventListener('change', applyFilters);
+    manufacturerFilter.addEventListener('change', function() {
+        currentManufacturer = this.value;
+        applyFilters(); 
+    });
+    categoryFilter.addEventListener('change', function() {
+        currentCategory = this.value;
+        categoryLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('data-category') === currentCategory || (currentCategory === '' && link.getAttribute('data-category') === 'all'));
+        });
+        applyFilters();
+    });
+    priceFilter.addEventListener('change', function() {
+        currentPrice = this.value;
+        applyFilters();
+    });
+    sortFilter.addEventListener('change', function() {
+        currentSort = this.value;
+        applyFilters();
+    });
     resetFiltersButton.addEventListener('click', resetFilters);
 
     // Category navigation
@@ -60,8 +88,10 @@ document.addEventListener('DOMContentLoaded', async function() {
             categoryLinks.forEach(l => l.classList.remove('active'));
             this.classList.add('active');
             
-            // Update current category and apply filters
+            // Update current category and category filter
             currentCategory = this.getAttribute('data-category');
+            categoryFilter.value = currentCategory === 'all' ? '' : currentCategory;
+            
             applyFilters();
         });
     });
@@ -86,7 +116,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         noResults.classList.add('hidden');
         
         robots.forEach(robot => {
-            const robotCard = createRobotCard(robot);
+            // Using the window.createRobotCard function which may be overridden by features.js
+            const robotCard = window.createRobotCard(robot);
             robotsGrid.appendChild(robotCard);
         });
     }
@@ -96,7 +127,7 @@ document.addEventListener('DOMContentLoaded', async function() {
      * @param {Object} robot - Robot data object
      * @returns {HTMLElement} - Robot card element
      */
-    function createRobotCard(robot) {
+    window.createRobotCard = function(robot) {
         const card = document.createElement('div');
         card.className = 'robot-card';
         card.setAttribute('data-category', robot.category);
@@ -118,13 +149,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         card.addEventListener('click', () => showRobotDetails(robot));
         
         return card;
-    }
+    };
 
     /**
      * Show detailed information about a robot
      * @param {Object} robot - Robot data object
      */
-    function showRobotDetails(robot) {
+    window.showRobotDetails = function(robot) {
         // Set basic details
         document.getElementById('detailsTitle').textContent = robot.model;
         document.getElementById('detailsManufacturer').textContent = robot.manufacturer;
@@ -158,7 +189,11 @@ document.addEventListener('DOMContentLoaded', async function() {
                 addSpecRow(specsTable, 'Hands', robot.hands);
                 break;
             case 'robodog':
-                addSpecRow(specsTable, 'Sensors', robot.sensors);
+                addSpecRow(specsTable, 'IP Rating', robot.ipRating);
+                addSpecRow(specsTable, 'Max Runtime', robot.maxRuntime);
+                addSpecRow(specsTable, 'Payload', robot.payload);
+                addSpecRow(specsTable, 'Speed', robot.speed);
+                addSpecRow(specsTable, 'Terrain', robot.terrain);
                 break;
             case 'table':
             case 'household':
@@ -166,12 +201,35 @@ document.addEventListener('DOMContentLoaded', async function() {
             case 'educational':
             case 'vacuum':
                 addSpecRow(specsTable, 'Features', robot.features);
+                addSpecRow(specsTable, 'Purpose', robot.purpose);
+                addSpecRow(specsTable, 'Connectivity', robot.connectivity);
+                addSpecRow(specsTable, 'Age Group', robot.ageGroup);
                 break;
         }
         
+        // Display all available specifications that are not empty
+        Object.keys(robot).forEach(key => {
+            // Skip already added or empty values
+            if (['model', 'manufacturer', 'price', 'weight', 'batteryLife', 'website', 'image', 'category', 
+                 'hands', 'features', 'ipRating', 'maxRuntime', 'payload', 'speed', 'terrain', 
+                 'purpose', 'connectivity', 'ageGroup'].includes(key) || !robot[key]) {
+                return;
+            }
+            
+            // Format the key for display
+            const label = key.replace(/([A-Z])/g, ' $1')
+                            .replace(/^./, str => str.toUpperCase())
+                            .replace(/Specs_/g, '');
+            
+            addSpecRow(specsTable, label, robot[key]);
+        });
+        
         // Show the details panel
         robotDetails.classList.add('active');
-    }
+        
+        // Dispatch event for features.js
+        document.dispatchEvent(new CustomEvent('robotDetailsOpened', { detail: { robot } }));
+    };
 
     /**
      * Add a row to the specifications table
@@ -212,49 +270,95 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 
     /**
-     * Apply all current filters to the robot data
+     * Apply all current filters and re-display robots
      */
     function applyFilters() {
-        // Get filter values
+        currentSearch = searchInput.value.toLowerCase();
         currentManufacturer = manufacturerFilter.value;
+        currentCategory = categoryFilter.value;
         currentPrice = priceFilter.value;
-        
-        // Start with all robots or category-specific robots
-        let filteredRobots = currentCategory === 'all' ? allRobots : robotsByCategory[currentCategory] || [];
-        
-        // Apply manufacturer filter
+        currentSort = sortFilter.value; 
+
+        let filteredRobots = [...allRobots];
+
+        // Search filter
+        if (currentSearch) {
+            filteredRobots = filteredRobots.filter(robot =>
+                robot.model.toLowerCase().includes(currentSearch) ||
+                robot.manufacturer.toLowerCase().includes(currentSearch) ||
+                (robot.keywords && robot.keywords.toLowerCase().includes(currentSearch))
+            );
+        }
+
+        // Category filter
+        if (currentCategory && currentCategory !== 'all') {
+            filteredRobots = filteredRobots.filter(robot => robot.category === currentCategory);
+        }
+
+        // Manufacturer filter
         if (currentManufacturer) {
             filteredRobots = filteredRobots.filter(robot => robot.manufacturer === currentManufacturer);
         }
-        
-        // Apply price filter
+
+        // Price filter
         if (currentPrice) {
             filteredRobots = filteredRobots.filter(robot => {
-                const price = robot.price.toLowerCase();
-                
-                if (currentPrice === 'low') {
-                    return price.includes('under') || (price.includes('$') && parseInt(price.replace(/[^0-9]/g, '')) < 5000);
-                } else if (currentPrice === 'medium') {
-                    const priceNum = parseInt(price.replace(/[^0-9]/g, ''));
-                    return price.includes('$') && priceNum >= 5000 && priceNum <= 50000;
-                } else if (currentPrice === 'high') {
-                    return price.includes('over') || (price.includes('$') && parseInt(price.replace(/[^0-9]/g, '')) > 50000);
-                } else if (currentPrice === 'request') {
-                    return price.includes('request') || price.includes('not') || price.includes('n/a');
+                const price = parseFloat(robot.price.replace(/[^\d.-]/g, ''));
+                if (isNaN(price)) return currentPrice === 'request'; // Handle "On Request"
+
+                switch (currentPrice) {
+                    case 'low': return price < 5000;
+                    case 'medium': return price >= 5000 && price <= 50000;
+                    case 'high': return price > 50000;
+                    default: return true;
                 }
-                return true;
             });
         }
-        
-        // Apply search filter
-        if (currentSearch) {
-            filteredRobots = filteredRobots.filter(robot => {
-                return robot.model.toLowerCase().includes(currentSearch) || 
-                       robot.manufacturer.toLowerCase().includes(currentSearch);
-            });
+
+        // Advanced Filters from features.js
+        if (window.applyAdvancedFilters && typeof window.applyAdvancedFilters === 'function' &&
+            window.getAdditionalFilters && typeof window.getAdditionalFilters === 'function') {
+            const additionalFilters = window.getAdditionalFilters();
+            if (additionalFilters) {
+                filteredRobots = window.applyAdvancedFilters(filteredRobots, additionalFilters);
+            }
         }
         
-        // Display filtered robots
+        // Sorting
+        if (currentSort) {
+            filteredRobots.sort((a, b) => {
+                let valA, valB;
+                switch (currentSort) {
+                    case 'name':
+                        valA = a.model.toLowerCase();
+                        valB = b.model.toLowerCase();
+                        break;
+                    case 'manufacturer':
+                        valA = a.manufacturer.toLowerCase();
+                        valB = b.manufacturer.toLowerCase();
+                        break;
+                    case 'price':
+                        valA = getPriceValue(a.price);
+                        valB = getPriceValue(b.price);
+                        break;
+                    case 'weight':
+                        valA = parseFloat(a.weight) || Infinity;
+                        valB = parseFloat(b.weight) || Infinity;
+                        break;
+                    case 'batteryLife':
+                        valA = parseFloat(a.batteryLife) || 0;
+                        valB = parseFloat(b.batteryLife) || 0;
+                        break;
+                    default:
+                        return 0;
+                }
+
+                if (valA < valB) return -1;
+                if (valA > valB) return 1;
+                return 0;
+            });
+        }
+
         displayRobots(filteredRobots);
     }
 
@@ -264,14 +368,38 @@ document.addEventListener('DOMContentLoaded', async function() {
     function resetFilters() {
         searchInput.value = '';
         manufacturerFilter.value = '';
+        categoryFilter.value = '';
         priceFilter.value = '';
-        
-        // Reset filter state
-        currentSearch = '';
+        sortFilter.value = '';
+
+        currentCategory = 'all';
         currentManufacturer = '';
         currentPrice = '';
+        currentSearch = '';
+        currentSort = '';
+
+        // Reset active class on category links
+        categoryLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute('data-category') === 'all');
+        });
         
-        // Re-apply filters (will use the reset values)
-        applyFilters();
+        // If advanced filters are handled by features.js, its reset logic should handle their UI and re-application of filters
+        // The reset button in features.js already calls applyFilters() from main.js after resetting its own state.
+
+        applyFilters(); // Re-apply filters which will now be empty
+    }
+
+    /**
+     * Format the key for display
+     */
+    function formatKey(key) {
+        // ... existing code ...
+    }
+
+    /**
+     * Extract numbers from prices for numeric sorting
+     */
+    function getPriceValue(price) {
+        // ... existing code ...
     }
 });

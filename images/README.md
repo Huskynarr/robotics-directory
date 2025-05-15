@@ -1,12 +1,12 @@
-# Bilder für Robotics Directory
+# Images for Robotics Directory
 
-Dieses Verzeichnis enthält Bilder für die Robotics Directory Website.
+This directory contains images for the Robotics Directory website.
 
-## Struktur
+## Structure
 
-- `humanoid/` - Bilder von humanoiden Robotern
-- `robodog/` - Bilder von Roboterhunden
+- `humanoid/` - Images of humanoid robots
+- `robodog/` - Images of robot dogs
 
-## Platzhalter-Bild
+## Placeholder Image
 
-Wenn kein Bild für einen Roboter verfügbar ist, wird ein Platzhalter-Bild verwendet.
+If no image is available for a robot, a placeholder image is used.
