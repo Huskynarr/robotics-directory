@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import csv
 import os
+import os.path
+from pathlib import Path
 
 def read_csv(file_path):
     """Read a CSV file and return its contents as a list of dictionaries"""
@@ -40,6 +42,58 @@ def merge_robots(robots_from_main, existing_robots, key_fields=('manufacturer', 
         key = tuple(robot.get(field, '').lower() for field in key_fields)
         if key not in merged_keys:
             merged.append(robot)
+    
+    # Check image existence for all robots
+    for robot in merged:
+        if not robot.get('image'):
+            continue
+            
+        # Get the image path from the robot data
+        image_path = robot['image']
+        
+        # Normalize path separators to forward slashes
+        image_path = image_path.replace('\\', '/')
+        
+        # If the path contains 'images/', extract the relative path
+        if 'images/' in image_path.lower():
+            # Extract the relative path from images/
+            rel_path = image_path[image_path.lower().find('images/') + 7:]
+        else:
+            rel_path = image_path.lstrip('/')
+        
+        # Build the full path to check (using pathlib for cross-platform compatibility)
+        full_path = Path('images') / rel_path
+        
+        # Check if the image exists (case-insensitive)
+        if full_path.exists():
+            # Keep the original path if the image exists
+            robot['image'] = str(Path('images') / rel_path).replace('\\', '/')
+        else:
+            # Try to find a matching file (case-insensitive)
+            parent_dir = full_path.parent
+            if parent_dir.exists():
+                # Get all files in the directory
+                try:
+                    files = [f.name for f in parent_dir.iterdir() if f.is_file()]
+                    # Look for a matching filename (case-insensitive)
+                    filename = full_path.name.lower()
+                    matching_files = [f for f in files if f.lower() == filename]
+                    
+                    if matching_files:
+                        # Found a matching file with different case
+                        robot['image'] = str(Path('images') / rel_path.parent / matching_files[0]).replace('\\', '/')
+                        print(f"Found matching file with different case: {robot['image']}")
+                    else:
+                        # No match found, use fallback
+                        print(f"Image not found: {full_path}, using fallback image")
+                        robot['image'] = 'images/image-not-found.png'
+                except Exception as e:
+                    print(f"Error checking files in {parent_dir}: {e}")
+                    robot['image'] = 'images/image-not-found.png'
+            else:
+                # Directory doesn't exist, use fallback
+                print(f"Directory not found: {parent_dir}, using fallback image")
+                robot['image'] = 'images/image-not-found.png'
     
     return merged
 

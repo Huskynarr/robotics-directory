@@ -132,12 +132,12 @@ document.addEventListener('DOMContentLoaded', async function() {
         card.className = 'robot-card';
         card.setAttribute('data-category', robot.category);
         
-        // Default image path if not specified
-        const imagePath = robot.image || 'images/placeholder.jpg';
+        // Default image path
+        const imagePath = robot.image ? `images/${robot.image}` : 'images/placeholder.jpg';
         
         card.innerHTML = `
             <div class="robot-image">
-                <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}">
+                <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}" onerror="this.src='images/image-not-found.png';">
             </div>
             <div class="robot-info">
                 <h3>${robot.model}</h3>
@@ -160,10 +160,14 @@ document.addEventListener('DOMContentLoaded', async function() {
         document.getElementById('detailsTitle').textContent = robot.model;
         document.getElementById('detailsManufacturer').textContent = robot.manufacturer;
         
-        // Set image
-        const imagePath = robot.image || 'images/placeholder.jpg';
-        document.getElementById('detailsImage').src = imagePath;
-        document.getElementById('detailsImage').alt = `${robot.model} by ${robot.manufacturer}`;
+        // Set image with error handling
+        const imagePath = robot.image ? `images/${robot.image}` : 'images/placeholder.jpg';
+        const detailsImage = document.getElementById('detailsImage');
+        detailsImage.src = imagePath;
+        detailsImage.alt = `${robot.model} by ${robot.manufacturer}`;
+        detailsImage.onerror = function() {
+            this.src = 'images/image-not-found.png';
+        };
         
         // Set website link
         const websiteLink = document.getElementById('detailsWebsite');
