@@ -185,12 +185,16 @@ document.addEventListener('DOMContentLoaded', async function() {
             // Extract YouTube video ID and create embed
             const videoId = extractYouTubeId(robot.video);
             if (videoId) {
-                videoEmbed.innerHTML = `<iframe 
-                    src="https://www.youtube.com/embed/${videoId}" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
-                </iframe>`;
+                // Create iframe using DOM methods for security
+                const iframe = document.createElement('iframe');
+                iframe.src = `https://www.youtube.com/embed/${videoId}`;
+                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+                iframe.allowFullscreen = true;
+                iframe.title = 'Robot demonstration video';
+                
+                // Clear and append iframe
+                videoEmbed.innerHTML = '';
+                videoEmbed.appendChild(iframe);
                 videoContainer.classList.add('active');
             } else {
                 videoContainer.classList.remove('active');
@@ -264,16 +268,23 @@ document.addEventListener('DOMContentLoaded', async function() {
     function extractYouTubeId(url) {
         if (!url) return null;
         
+        // YouTube video IDs are always 11 characters long
+        const YOUTUBE_VIDEO_ID_LENGTH = 11;
+        
         // Regular expressions to match different YouTube URL formats
         const patterns = [
             /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&\?\/]+)/,
-            /^([a-zA-Z0-9_-]{11})$/ // Direct video ID
+            new RegExp(`^([a-zA-Z0-9_-]{${YOUTUBE_VIDEO_ID_LENGTH}})$`) // Direct video ID
         ];
         
         for (const pattern of patterns) {
             const match = url.match(pattern);
             if (match && match[1]) {
-                return match[1];
+                // Validate that the extracted ID is exactly 11 characters
+                const videoId = match[1];
+                if (videoId.length === YOUTUBE_VIDEO_ID_LENGTH && /^[a-zA-Z0-9_-]+$/.test(videoId)) {
+                    return videoId;
+                }
             }
         }
         
