@@ -1,0 +1,14 @@
+
+# Robot Data Entry Template
+# Copy this template and fill in the information for each new robot
+
+manufacturer,model,category,price,weight,batteryLife,hands,website,image,ipRating,maxRuntime,payload,speed,terrain,purpose,size,features,ageGroup,interactionType,learningFocus,connectivity,video
+ExampleCorp,Robot X1,humanoid,50000 USD,45 kg,4 hours,Articulated hands,https://example.com,images/humanoid/robotx1.jpg,,,,,,,,,,,,,https://youtu.be/VIDEOID
+
+# Categories: humanoid, robodog, table, entertainment, educational, household, vacuum
+# Required fields: manufacturer, model, category, price, website
+# Important fields: image, video, weight, batteryLife
+# Category-specific fields:
+#   - humanoid: hands
+#   - robodog: ipRating, maxRuntime, payload, speed, terrain
+#   - table/household/entertainment/educational/vacuum: features, purpose, connectivity, ageGroup
