@@ -3,6 +3,9 @@
  * Handles UI interactions, filtering, and displaying robot data
  */
 
+// Configuration constants
+const EXCLUDED_SPEC_FIELDS = ['manufacturer', 'model', 'category', 'image', 'website', 'video'];
+
 // Global variables for Features.js
 window.robotsDataLoaded = false;
 window.allRobots = [];
@@ -238,10 +241,10 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         // Display all available specifications that are not empty
         Object.keys(robot).forEach(key => {
-            // Skip already added or empty values
-            if (['model', 'manufacturer', 'price', 'weight', 'batteryLife', 'website', 'image', 'category', 
-                 'hands', 'features', 'ipRating', 'maxRuntime', 'payload', 'speed', 'terrain', 
-                 'purpose', 'connectivity', 'ageGroup', 'video'].includes(key) || !robot[key]) {
+            // Skip excluded fields and empty values
+            const extendedExcludedFields = [...EXCLUDED_SPEC_FIELDS, 'hands', 'features', 'ipRating', 
+                'maxRuntime', 'payload', 'speed', 'terrain', 'purpose', 'connectivity', 'ageGroup'];
+            if (extendedExcludedFields.includes(key) || !robot[key]) {
                 return;
             }
             
