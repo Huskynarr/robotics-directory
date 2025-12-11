@@ -4,11 +4,12 @@ This guide helps expand the Robotics Directory with new robots and complete miss
 
 ## Current Status
 
-As of the latest analysis:
-- **Total Robots**: 103
+**Note**: Run `python3 data_helper.py` to get the current status. The numbers below are from the initial analysis:
+
+- **Total Robots**: 103 (as of initial analysis)
 - **Missing Videos**: 55 (53.4%)
 - **Placeholder Images**: 67 (65%)
-- **Target**: ~200 robots (need to add ~100 more)
+- **Target**: ~200 robots (approximately double the current count)
 
 ## Quick Start
 
