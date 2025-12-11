@@ -178,6 +178,27 @@ document.addEventListener('DOMContentLoaded', async function() {
             websiteLink.classList.add('hidden');
         }
         
+        // Handle video embedding
+        const videoContainer = document.getElementById('robotVideoContainer');
+        const videoEmbed = document.getElementById('detailsVideo');
+        if (robot.video && robot.video.trim() !== '') {
+            // Extract YouTube video ID and create embed
+            const videoId = extractYouTubeId(robot.video);
+            if (videoId) {
+                videoEmbed.innerHTML = `<iframe 
+                    src="https://www.youtube.com/embed/${videoId}" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>`;
+                videoContainer.classList.add('active');
+            } else {
+                videoContainer.classList.remove('active');
+            }
+        } else {
+            videoContainer.classList.remove('active');
+        }
+        
         // Build specifications table
         const specsTable = document.getElementById('detailsSpecs');
         specsTable.innerHTML = '';
@@ -216,7 +237,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             // Skip already added or empty values
             if (['model', 'manufacturer', 'price', 'weight', 'batteryLife', 'website', 'image', 'category', 
                  'hands', 'features', 'ipRating', 'maxRuntime', 'payload', 'speed', 'terrain', 
-                 'purpose', 'connectivity', 'ageGroup'].includes(key) || !robot[key]) {
+                 'purpose', 'connectivity', 'ageGroup', 'video'].includes(key) || !robot[key]) {
                 return;
             }
             
@@ -234,6 +255,30 @@ document.addEventListener('DOMContentLoaded', async function() {
         // Dispatch event for features.js
         document.dispatchEvent(new CustomEvent('robotDetailsOpened', { detail: { robot } }));
     };
+
+    /**
+     * Extract YouTube video ID from various URL formats
+     * @param {string} url - YouTube URL
+     * @returns {string|null} - Video ID or null if not found
+     */
+    function extractYouTubeId(url) {
+        if (!url) return null;
+        
+        // Regular expressions to match different YouTube URL formats
+        const patterns = [
+            /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([^&\?\/]+)/,
+            /^([a-zA-Z0-9_-]{11})$/ // Direct video ID
+        ];
+        
+        for (const pattern of patterns) {
+            const match = url.match(pattern);
+            if (match && match[1]) {
+                return match[1];
+            }
+        }
+        
+        return null;
+    }
 
     /**
      * Add a row to the specifications table
