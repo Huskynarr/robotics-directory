@@ -133,7 +133,7 @@ ExampleCorp,Robot X1,humanoid,50000 USD,45 kg,4 hours,Articulated hands,https://
 #   - table/household/entertainment/educational/vacuum: features, purpose, connectivity, ageGroup
 """
     
-    with open('robot_data_template.txt', 'w') as f:
+    with open('robot_data_template.txt', 'w', encoding='utf-8') as f:
         f.write(template)
     
     print("\n\n✅ Robot data entry template created: robot_data_template.txt")
