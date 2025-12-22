@@ -104,6 +104,18 @@ header .container {
     padding: 15px;
 }
 
+.logo-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.logo-link:visited {
+    color: var(--dark-color);
+}
+
 .logo h1 {
     font-size: 1.8rem;
     margin-bottom: 0;
@@ -522,7 +534,17 @@ nav ul li a:hover, nav ul li a.active {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    align-items: stretch;
+}
+
+.details-actions .button,
+.details-actions .share-button {
+    flex: 1 1 180px;
+    min-height: 44px;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* Footer */
@@ -591,6 +613,25 @@ footer {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    header .container {
+        flex-wrap: wrap;
+    }
+
+    .header-controls {
+        align-items: flex-start;
+    }
+
+    nav {
+        overflow-x: visible;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        white-space: normal;
+    }
+}
+
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
@@ -656,6 +697,19 @@ body.dark-mode footer {
     color: var(--dark-text);
 }
 
+body.dark-mode .hero {
+    background: linear-gradient(135deg, #0b1324, #1f2a44);
+}
+
+body.dark-mode .logo-link,
+body.dark-mode .logo-link:visited {
+    color: var(--dark-text);
+}
+
+body.dark-mode .logo i {
+    color: #7dd3fc;
+}
+
 body.dark-mode .robot-card {
     border-color: var(--dark-border);
 }
@@ -683,6 +737,13 @@ body.dark-mode .robot-specs table td {
 
 body.dark-mode .robot-details-footer {
     border-color: var(--dark-border);
+}
+
+body.dark-mode .robot-manufacturer,
+body.dark-mode .robot-details-header p,
+body.dark-mode .no-results p,
+body.dark-mode .close-button {
+    color: #cbd5e1;
 }
 
 /* Dark Mode Toggle */
@@ -917,7 +978,6 @@ body.dark-mode .robot-details-footer {
     color: white;
     padding: 8px 15px;
     border-radius: var(--border-radius);
-    margin-right: 10px;
     cursor: pointer;
     transition: var(--transition);
 }
