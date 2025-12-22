@@ -40,6 +40,14 @@ This script will:
 - Merge it with existing data in category CSV files
 - Update all category CSV files while preserving robots not in the main file
 
+### Update SEO Index
+
+After updating `data.csv`, regenerate the on-page robot index and JSON-LD:
+
+```
+python generate_seo_index.py
+```
+
 ## Robot Image Guidelines
 
 1. Place robot images in the appropriate category subfolder:
