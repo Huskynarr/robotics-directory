@@ -631,15 +631,23 @@ footer {
 
     .header-controls {
         align-items: flex-start;
+        flex-wrap: wrap;
     }
 
     nav {
+        width: 100%;
         overflow-x: visible;
     }
 
     nav ul {
         flex-wrap: wrap;
         white-space: normal;
+    }
+
+    .nav-actions {
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
 }
 
@@ -657,10 +665,26 @@ footer {
 
     nav {
         width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    nav ul {
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    nav ul li a {
+        padding: 6px 10px;
+        font-size: 0.9rem;
     }
     
     .robot-details-body {
         grid-template-columns: 1fr;
+    }
+
+    .robot-details-content {
+        padding: 20px;
     }
     
     .footer-bottom {
@@ -679,6 +703,10 @@ footer {
     .hero h2 {
         font-size: 2rem;
     }
+
+    .hero {
+        padding: 45px 0;
+    }
     
     .filter-container {
         flex-direction: column;
@@ -696,6 +724,20 @@ footer {
     
     .filter-group select {
         width: 100%;
+    }
+
+    .search-container {
+        flex-direction: column;
+    }
+
+    .search-container input {
+        border-radius: var(--border-radius);
+    }
+
+    .search-container button {
+        margin-top: 10px;
+        padding: 12px 16px;
+        border-radius: var(--border-radius);
     }
 }
 
@@ -1055,6 +1097,14 @@ body.dark-mode .compare-table-render tr:nth-child(even) {
     background-color: var(--light-color);
 }
 
+.compare-table-container {
+    overflow-x: auto;
+}
+
+.compare-table-render {
+    min-width: 520px;
+}
+
 /* SEO Robot Index */
 .robot-index {
     padding: 40px 0;
@@ -1228,7 +1278,9 @@ body.dark-mode .compare-table-render tr:nth-child(even) {
 
 @media (max-width: 768px) {
     .nav-actions {
-        justify-content: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
         margin-top: 0;
     }
 }
@@ -1243,5 +1295,24 @@ body.dark-mode .compare-table-render tr:nth-child(even) {
     .details-actions > * {
         width: 100%;
         margin-bottom: 10px;
+    }
+
+    .robots-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .robot-image {
+        height: 180px;
+    }
+
+    .robot-details-body .robot-image {
+        min-height: 220px;
+    }
+
+    .compare-section {
+        max-height: 60vh;
+        overflow-y: auto;
+        padding-bottom: 20px;
     }
 }
