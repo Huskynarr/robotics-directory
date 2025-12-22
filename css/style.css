@@ -669,6 +669,12 @@ footer {
     }
 }
 
+@media (max-width: 900px) {
+    .robot-index-list {
+        column-count: 1;
+    }
+}
+
 @media (max-width: 480px) {
     .hero h2 {
         font-size: 2rem;
@@ -704,6 +710,11 @@ body.dark-mode .search-section,
 body.dark-mode .robot-card,
 body.dark-mode .robot-details-content,
 body.dark-mode footer {
+    background-color: var(--dark-card-bg);
+    color: var(--dark-text);
+}
+
+body.dark-mode .robot-index {
     background-color: var(--dark-card-bg);
     color: var(--dark-text);
 }
@@ -755,6 +766,18 @@ body.dark-mode .robot-details-header p,
 body.dark-mode .no-results p,
 body.dark-mode .close-button {
     color: #cbd5e1;
+}
+
+body.dark-mode .robot-index p {
+    color: #cbd5e1;
+}
+
+body.dark-mode .robot-index-category {
+    color: #94a3b8;
+}
+
+body.dark-mode .robot-index-link {
+    color: #93c5fd;
 }
 
 body.dark-mode .compare-checkbox {
@@ -1030,6 +1053,46 @@ body.dark-mode .compare-table-render tr:nth-child(even) {
 .compare-table tr:nth-child(even),
 .compare-table-render tr:nth-child(even) {
     background-color: var(--light-color);
+}
+
+/* SEO Robot Index */
+.robot-index {
+    padding: 40px 0;
+    background-color: white;
+}
+
+.robot-index p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.robot-index-list {
+    list-style: none;
+    column-count: 2;
+    column-gap: 32px;
+    margin-top: 20px;
+}
+
+.robot-index-list li {
+    break-inside: avoid;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: baseline;
+}
+
+.robot-index-name {
+    font-weight: 500;
+}
+
+.robot-index-category {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.robot-index-link {
+    font-size: 0.85rem;
 }
 
 /* Share Function */
