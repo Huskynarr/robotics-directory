@@ -39,7 +39,11 @@
                 </h1>
             </div>
             <div class="header-controls">
-                <nav>
+                <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+                    <span class="nav-toggle-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Menu</span>
+                </button>
+                <nav id="siteNav">
                     <ul>
                         <li><a href="#" class="active" data-category="all" data-i18n="nav.all">All</a></li>
                         <li><a href="#" data-category="humanoid" data-i18n="nav.humanoid">Humanoids</a></li>

@@ -183,6 +183,60 @@ nav ul li a:hover, nav ul li a.active {
     color: white;
 }
 
+.nav-toggle {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.nav-toggle-icon {
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background-color: var(--dark-color);
+    transition: var(--transition);
+}
+
+.nav-toggle-icon::before,
+.nav-toggle-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 2px;
+    background-color: var(--dark-color);
+    transition: var(--transition);
+}
+
+.nav-toggle-icon::before {
+    top: -6px;
+}
+
+.nav-toggle-icon::after {
+    top: 6px;
+}
+
+header.menu-open .nav-toggle-icon {
+    background-color: transparent;
+}
+
+header.menu-open .nav-toggle-icon::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+header.menu-open .nav-toggle-icon::after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
 .language-switch select {
     background-color: white;
     border: 1px solid #ddd;
@@ -668,20 +722,41 @@ footer {
         gap: 12px;
     }
 
-    nav {
+    .nav-toggle {
+        display: inline-flex;
+    }
+
+    header .header-controls nav,
+    header .header-controls .nav-actions {
+        display: none;
+    }
+
+    header.menu-open .header-controls nav {
+        display: block;
         width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
     }
 
-    nav ul {
-        flex-wrap: nowrap;
-        white-space: nowrap;
+    header.menu-open nav ul {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
     }
 
-    nav ul li a {
-        padding: 6px 10px;
-        font-size: 0.9rem;
+    header.menu-open nav ul li a {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 0.95rem;
+    }
+
+    header.menu-open .nav-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    header.menu-open .nav-actions > * {
+        width: 100%;
     }
     
     .robot-details-body {
@@ -785,6 +860,17 @@ body.dark-mode .robot-card {
 
 body.dark-mode nav ul li a {
     color: var(--dark-text);
+}
+
+body.dark-mode .nav-toggle {
+    background-color: var(--dark-card-bg);
+    border-color: var(--dark-border);
+}
+
+body.dark-mode .nav-toggle-icon,
+body.dark-mode .nav-toggle-icon::before,
+body.dark-mode .nav-toggle-icon::after {
+    background-color: var(--dark-text);
 }
 
 body.dark-mode .search-container input,

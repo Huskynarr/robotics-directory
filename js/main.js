@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     const robotDetails = document.getElementById('robotDetails');
     const detailsContent = robotDetails ? robotDetails.querySelector('.robot-details-content') : null;
     const closeDetailsButton = document.getElementById('closeDetails');
+    const headerEl = document.querySelector('header');
+    const navToggle = document.getElementById('navToggle');
 
     // Current filter state
     let currentCategory = 'all';
@@ -101,8 +103,20 @@ document.addEventListener('DOMContentLoaded', async function() {
             categoryFilter.value = currentCategory === 'all' ? '' : currentCategory;
             
             applyFilters();
+
+            if (headerEl && navToggle && headerEl.classList.contains('menu-open')) {
+                headerEl.classList.remove('menu-open');
+                navToggle.setAttribute('aria-expanded', 'false');
+            }
         });
     });
+
+    if (navToggle && headerEl) {
+        navToggle.addEventListener('click', function() {
+            const isOpen = headerEl.classList.toggle('menu-open');
+            navToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+    }
 
     // Close details panel
     closeDetailsButton.addEventListener('click', function() {
