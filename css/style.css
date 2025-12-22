@@ -407,18 +407,22 @@ nav ul li a:hover, nav ul li a.active {
     overflow-y: auto;
     position: relative;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .close-button {
-    position: absolute;
+    position: sticky;
     top: 15px;
-    right: 15px;
+    align-self: flex-end;
     background: none;
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
     color: #777;
     transition: var(--transition);
+    z-index: 2;
+    margin-bottom: 10px;
 }
 
 .close-button:hover {
