@@ -549,6 +549,12 @@ footer {
     margin-bottom: 15px;
 }
 
+.footer-links-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 24px;
+}
+
 .footer-links ul {
     list-style: none;
 }
