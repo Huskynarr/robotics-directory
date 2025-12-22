@@ -636,12 +636,17 @@ footer {
 
     nav {
         width: 100%;
-        overflow-x: visible;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     nav ul {
-        flex-wrap: wrap;
-        white-space: normal;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    nav ul li {
+        flex: 0 0 auto;
     }
 
     .nav-actions {
