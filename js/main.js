@@ -131,6 +131,12 @@ document.addEventListener('DOMContentLoaded', async function() {
             }
         });
 
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeMobileMenu();
+            }
+        });
+
         window.addEventListener('scroll', function() {
             if (headerEl.classList.contains('menu-open')) {
                 closeMobileMenu();
