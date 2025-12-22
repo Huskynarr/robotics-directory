@@ -45,11 +45,14 @@ let SCRIPT_CURRENT_ROBOT = null; // For share and details context
 
 // --- Core createRobotCard (defined early, depends on global functions that will be attached to window) ---
 function _createRobotCardForWindow(robot) {
+    const t = window.i18n && typeof window.i18n.t === 'function'
+        ? window.i18n.t
+        : (key, fallback) => fallback || key;
     const card = document.createElement('div');
     card.className = 'robot-card';
     card.setAttribute('data-category', robot.category);
 
-    const imagePath = robot.image || 'images/placeholder.jpg';
+    const imagePath = robot.image || 'images/placeholder.svg';
     const robotId = window.createRobotId(robot); // Uses a function that will be on window
     const isFav = SCRIPT_FAVORITES.includes(robotId);
     const isCompare = SCRIPT_COMPARE_ROBOT_IDS.includes(robotId);
@@ -60,7 +63,7 @@ function _createRobotCardForWindow(robot) {
         </div>
         <div class="compare-checkbox">
             <input type="checkbox" id="compare-${robotId}" class="compare-check" ${isCompare ? 'checked' : ''}>
-            <label for="compare-${robotId}">Compare</label>
+            <label for="compare-${robotId}">${t('compare.label', 'Compare')}</label>
         </div>
         <div class="robot-image">
             <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}">
@@ -188,7 +191,7 @@ function _updateCompareView() {
         const robotId = window.createRobotId(robot);
         const compareItem = document.createElement('div');
         compareItem.className = 'compare-item';
-        const imagePath = robot.image || 'images/placeholder.jpg';
+        const imagePath = robot.image || 'images/placeholder.svg';
         compareItem.innerHTML = `
             <button class="compare-remove" data-id="${robotId}">×</button>
             <img src="${imagePath}" alt="${robot.model}">
@@ -236,33 +239,45 @@ function _updateCompareTable() {
 
 
     if (SCRIPT_COMPARE_ROBOTS.length < 2) {
-        compareTableEl.innerHTML = '<p>Add at least two robots to compare them.</p>';
+        const t = window.i18n && typeof window.i18n.t === 'function'
+            ? window.i18n.t
+            : (key, fallback) => fallback || key;
+        compareTableEl.innerHTML = `<p>${t('compare.minimum', 'Add at least two robots to compare them.')}</p>`;
         return;
     }
 
     const table = document.createElement('table');
     table.className = 'compare-table-render'; // New class to avoid conflict if any css targets .compare-table directly
     const headerRow = document.createElement('tr');
-    headerRow.innerHTML = '<th>Specification</th>';
+    const t = window.i18n && typeof window.i18n.t === 'function'
+        ? window.i18n.t
+        : (key, fallback) => fallback || key;
+    headerRow.innerHTML = `<th>${t('compare.specification', 'Specification')}</th>`;
     SCRIPT_COMPARE_ROBOTS.forEach(robot => {
         headerRow.innerHTML += `<th>${robot.model}</th>`;
     });
     table.appendChild(headerRow);
 
     const specs = [
-        { key: 'manufacturer', label: 'Manufacturer' }, { key: 'price', label: 'Price' },
-        { key: 'weight', label: 'Weight' }, { key: 'batteryLife', label: 'Battery Life' },
-        { key: 'features', label: 'Features' }, { key: 'hands', label: 'Hands' },
-        { key: 'sensors', label: 'Sensors' }, { key: 'purpose', label: 'Purpose' },
-        { key: 'connectivity', label: 'Connectivity' }, { key: 'maxRuntime', label: 'Max Runtime' },
-        { key: 'speed', label: 'Speed' }, { key: 'terrain', label: 'Terrain' }
+        { key: 'manufacturer', labelKey: 'spec.manufacturer', labelFallback: 'Manufacturer' },
+        { key: 'price', labelKey: 'spec.price', labelFallback: 'Price' },
+        { key: 'weight', labelKey: 'spec.weight', labelFallback: 'Weight' },
+        { key: 'batteryLife', labelKey: 'spec.batteryLife', labelFallback: 'Battery Life' },
+        { key: 'features', labelKey: 'spec.features', labelFallback: 'Features' },
+        { key: 'hands', labelKey: 'spec.hands', labelFallback: 'Hands' },
+        { key: 'sensors', labelKey: 'spec.sensors', labelFallback: 'Sensors' },
+        { key: 'purpose', labelKey: 'spec.purpose', labelFallback: 'Purpose' },
+        { key: 'connectivity', labelKey: 'spec.connectivity', labelFallback: 'Connectivity' },
+        { key: 'maxRuntime', labelKey: 'spec.maxRuntime', labelFallback: 'Max Runtime' },
+        { key: 'speed', labelKey: 'spec.speed', labelFallback: 'Speed' },
+        { key: 'terrain', labelKey: 'spec.terrain', labelFallback: 'Terrain' }
     ];
 
     specs.forEach(spec => {
         const hasSpec = SCRIPT_COMPARE_ROBOTS.some(robot => robot[spec.key] && robot[spec.key] !== '');
         if (!hasSpec) return;
         const row = document.createElement('tr');
-        row.innerHTML = `<td>${spec.label}</td>`;
+        row.innerHTML = `<td>${t(spec.labelKey, spec.labelFallback)}</td>`;
         SCRIPT_COMPARE_ROBOTS.forEach(robot => {
             row.innerHTML += `<td>${robot[spec.key] || '-'}</td>`;
         });
@@ -351,8 +366,8 @@ function _shareRobot(shareType) {
         case 'email': shareUrl = `mailto:?subject=${encodeURIComponent('Check out this robot!')}&body=${encodeURIComponent(text + '\n\n' + url)}`; break;
         case 'link':
             navigator.clipboard.writeText(url)
-                .then(() => alert('Link copied to clipboard!'))
-                .catch(() => alert('Failed to copy link.'));
+                .then(() => alert(window.i18n?.t('share.linkCopied', 'Link copied to clipboard!') || 'Link copied to clipboard!'))
+                .catch(() => alert(window.i18n?.t('share.linkFailed', 'Failed to copy link.') || 'Failed to copy link.'));
             return;
     }
     if (shareUrl) window.open(shareUrl, '_blank');
@@ -568,5 +583,12 @@ document.addEventListener('DOMContentLoaded', async function() {
     if (window.updateRobotCardsState) window.updateRobotCardsState();
     if (window.updateCompareView) window.updateCompareView();
 
+    document.addEventListener('languageChanged', function() {
+        const labelText = window.i18n?.t('compare.label', 'Compare') || 'Compare';
+        document.querySelectorAll('.compare-checkbox label').forEach(label => {
+            label.textContent = labelText;
+        });
+        if (window.updateCompareTable) window.updateCompareTable();
+    });
 
 }); 

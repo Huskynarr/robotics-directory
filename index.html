@@ -14,23 +14,30 @@
     <header>
         <div class="container">
             <div class="logo">
-                <h1><i class="fas fa-robot"></i> Robotics Directory</h1>
+                <h1><i class="fas fa-robot"></i> <span data-i18n="app.title">Robotics Directory</span></h1>
             </div>
             <div class="header-controls">
                 <nav>
                     <ul>
-                        <li><a href="#" class="active" data-category="all">All</a></li>
-                        <li><a href="#" data-category="humanoid">Humanoids</a></li>
-                        <li><a href="#" data-category="robodog">Dogs</a></li>
-                        <li><a href="#" data-category="table">Table</a></li>
-                        <li><a href="#" data-category="entertainment">Entertainment</a></li>
-                        <li><a href="#" data-category="educational">Educational</a></li>
-                        <li><a href="#" data-category="household">Household</a></li>
-                        <li><a href="#" data-category="vacuum">Vacuum</a></li>
+                        <li><a href="#" class="active" data-category="all" data-i18n="nav.all">All</a></li>
+                        <li><a href="#" data-category="humanoid" data-i18n="nav.humanoid">Humanoids</a></li>
+                        <li><a href="#" data-category="robodog" data-i18n="nav.robodog">Dogs</a></li>
+                        <li><a href="#" data-category="table" data-i18n="nav.table">Table</a></li>
+                        <li><a href="#" data-category="entertainment" data-i18n="nav.entertainment">Entertainment</a></li>
+                        <li><a href="#" data-category="educational" data-i18n="nav.educational">Educational</a></li>
+                        <li><a href="#" data-category="household" data-i18n="nav.household">Household</a></li>
+                        <li><a href="#" data-category="vacuum" data-i18n="nav.vacuum">Vacuum</a></li>
                     </ul>
                 </nav>
                 <div class="nav-actions">
                     <button id="favoritesToggle" class="button"><i class="fas fa-heart"></i></button>
+                    <div class="language-switch">
+                        <label class="visually-hidden" for="languageSelect" data-i18n="lang.label">Language</label>
+                        <select id="languageSelect" aria-label="Language">
+                            <option value="en">EN</option>
+                            <option value="de">DE</option>
+                        </select>
+                    </div>
                     <div class="mode-toggle">
                         <label for="darkModeToggle">
                             <span id="darkModeIcon"><i class="fas fa-moon"></i></span>
@@ -47,105 +54,105 @@
 
     <section class="hero">
         <div class="container">
-            <h2>Discover the World of Robotics</h2>
-            <p>A comprehensive collection of robots, categorized and interactively searchable</p>
+            <h2 data-i18n="hero.title">Discover the World of Robotics</h2>
+            <p data-i18n="hero.subtitle">A comprehensive collection of robots, categorized and interactively searchable</p>
         </div>
     </section>
 
     <section class="search-section">
         <div class="container">
             <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search for robots, manufacturers...">
+                <input type="text" id="searchInput" placeholder="Search for robots, manufacturers..." data-i18n-placeholder="search.placeholder">
                 <button id="searchButton"><i class="fas fa-search"></i></button>
             </div>
             <div class="filter-container">
                 <div class="filter-group">
-                    <label for="manufacturerFilter">Manufacturer:</label>
+                    <label for="manufacturerFilter" data-i18n="filters.manufacturer">Manufacturer:</label>
                     <select id="manufacturerFilter">
-                        <option value="">All</option>
+                        <option value="" data-i18n="filters.all">All</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="categoryFilter">Category:</label>
+                    <label for="categoryFilter" data-i18n="filters.category">Category:</label>
                     <select id="categoryFilter">
-                        <option data-category="all" value="">All</option>
-                        <option data-category="humanoid" value="humanoid">Humanoids</option>
-                        <option data-category="robodog" value="robodog">Dogs</option>
-                        <option data-category="table" value="table">Table</option>
-                        <option data-category="entertainment" value="entertainment">Entertainment</option>
-                        <option data-category="educational" value="educational">Educational</option>
-                        <option data-category="household" value="household">Household</option>
-                        <option data-category="vacuum" value="vacuum">Vacuum</option>
+                        <option data-category="all" value="" data-i18n="filters.all">All</option>
+                        <option data-category="humanoid" value="humanoid" data-i18n="nav.humanoid">Humanoids</option>
+                        <option data-category="robodog" value="robodog" data-i18n="nav.robodog">Dogs</option>
+                        <option data-category="table" value="table" data-i18n="nav.table">Table</option>
+                        <option data-category="entertainment" value="entertainment" data-i18n="nav.entertainment">Entertainment</option>
+                        <option data-category="educational" value="educational" data-i18n="nav.educational">Educational</option>
+                        <option data-category="household" value="household" data-i18n="nav.household">Household</option>
+                        <option data-category="vacuum" value="vacuum" data-i18n="nav.vacuum">Vacuum</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="priceFilter">Price:</label>
+                    <label for="priceFilter" data-i18n="filters.price">Price:</label>
                     <select id="priceFilter">
-                        <option value="">All</option>
-                        <option value="low">Under $5,000</option>
-                        <option value="medium">$5,000 - $50,000</option>
-                        <option value="high">Over $50,000</option>
-                        <option value="request">On Request</option>
+                        <option value="" data-i18n="filters.all">All</option>
+                        <option value="low" data-i18n="filters.price.low">Under $5,000</option>
+                        <option value="medium" data-i18n="filters.price.medium">$5,000 - $50,000</option>
+                        <option value="high" data-i18n="filters.price.high">Over $50,000</option>
+                        <option value="request" data-i18n="filters.price.request">On Request</option>
                     </select>
                 </div>
                 <div>
                     <div class="filter-group">
-                        <label for="sortFilter">Sort by:</label>
+                        <label for="sortFilter" data-i18n="filters.sort">Sort by:</label>
                         <select id="sortFilter">
-                            <option value="">Default</option>
-                            <option value="name">Name</option>
-                            <option value="manufacturer">Manufacturer</option>
-                            <option value="price">Price</option>
-                            <option value="weight">Weight</option>
-                            <option value="batteryLife">Battery Life</option>
+                            <option value="" data-i18n="filters.sort.default">Default</option>
+                            <option value="name" data-i18n="filters.sort.name">Name</option>
+                            <option value="manufacturer" data-i18n="filters.sort.manufacturer">Manufacturer</option>
+                            <option value="price" data-i18n="filters.price">Price</option>
+                            <option value="weight" data-i18n="spec.weight">Weight</option>
+                            <option value="batteryLife" data-i18n="spec.batteryLife">Battery Life</option>
                         </select>
                     </div>
                 </div>
-                <button id="resetFilters">Reset Filters</button>
+                <button id="resetFilters" data-i18n="filters.reset">Reset Filters</button>
             </div>
             
             <div class="filter-toggle">
-                Advanced Filters <i class="fas fa-chevron-down"></i>
+                <span data-i18n="filters.advanced">Advanced Filters</span> <i class="fas fa-chevron-down"></i>
             </div>
             
             <div class="advanced-filters">
                 <div class="filter-group">
-                    <label for="weightFilter">Weight:</label>
+                    <label for="weightFilter" data-i18n="spec.weight">Weight:</label>
                     <select id="weightFilter">
-                        <option value="">All</option>
-                        <option value="light">Light (< 10 kg)</option>
-                        <option value="medium">Medium (10-50 kg)</option>
-                        <option value="heavy">Heavy (> 50 kg)</option>
+                        <option value="" data-i18n="filters.all">All</option>
+                        <option value="light" data-i18n="filters.weight.light">Light (&lt; 10 kg)</option>
+                        <option value="medium" data-i18n="filters.weight.medium">Medium (10-50 kg)</option>
+                        <option value="heavy" data-i18n="filters.weight.heavy">Heavy (&gt; 50 kg)</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="batteryFilter">Battery Life:</label>
+                    <label for="batteryFilter" data-i18n="spec.batteryLife">Battery Life:</label>
                     <select id="batteryFilter">
-                        <option value="">All</option>
-                        <option value="short">Short (< 2 hours)</option>
-                        <option value="medium">Medium (2-5 hours)</option>
-                        <option value="long">Long (> 5 hours)</option>
+                        <option value="" data-i18n="filters.all">All</option>
+                        <option value="short" data-i18n="filters.battery.short">Short (&lt; 2 hours)</option>
+                        <option value="medium" data-i18n="filters.battery.medium">Medium (2-5 hours)</option>
+                        <option value="long" data-i18n="filters.battery.long">Long (&gt; 5 hours)</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="featuresFilter">Features:</label>
+                    <label for="featuresFilter" data-i18n="spec.features">Features:</label>
                     <select id="featuresFilter">
-                        <option value="">All</option>
-                        <option value="autonomous">Autonomous Navigation</option>
-                        <option value="voice">Voice Control</option>
-                        <option value="ai">AI Powered</option>
-                        <option value="app">App Control</option>
+                        <option value="" data-i18n="filters.all">All</option>
+                        <option value="autonomous" data-i18n="filters.features.autonomous">Autonomous Navigation</option>
+                        <option value="voice" data-i18n="filters.features.voice">Voice Control</option>
+                        <option value="ai" data-i18n="filters.features.ai">AI Powered</option>
+                        <option value="app" data-i18n="filters.features.app">App Control</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="purposeFilter">Purpose:</label>
+                    <label for="purposeFilter" data-i18n="spec.purpose">Purpose:</label>
                     <select id="purposeFilter">
-                        <option value="">All</option>
-                        <option value="home">Home</option>
-                        <option value="industry">Industry</option>
-                        <option value="education">Education</option>
-                        <option value="entertainment">Entertainment</option>
-                        <option value="research">Research</option>
+                        <option value="" data-i18n="filters.all">All</option>
+                        <option value="home" data-i18n="filters.purpose.home">Home</option>
+                        <option value="industry" data-i18n="filters.purpose.industry">Industry</option>
+                        <option value="education" data-i18n="filters.purpose.education">Education</option>
+                        <option value="entertainment" data-i18n="filters.purpose.entertainment">Entertainment</option>
+                        <option value="research" data-i18n="filters.purpose.research">Research</option>
                     </select>
                 </div>
             </div>
@@ -155,14 +162,14 @@
     <section class="favorites-section" id="favoritesSection">
         <div class="container">
             <div class="favorites-header">
-                <h2><i class="fas fa-heart"></i> Your Favorite Robots</h2>
-                <button id="clearFavorites" class="button"><i class="fas fa-trash"></i> Clear All</button>
+                <h2><i class="fas fa-heart"></i> <span data-i18n="favorites.title">Your Favorite Robots</span></h2>
+                <button id="clearFavorites" class="button"><i class="fas fa-trash"></i> <span data-i18n="favorites.clear">Clear All</span></button>
             </div>
             <div class="favorites-grid" id="favoritesGrid">
                 <!-- Favorites will be dynamically inserted -->
             </div>
             <div id="noFavorites" class="no-results">
-                <p>You haven't added any favorites yet. Click the heart icon on a robot card to add it to your favorites.</p>
+                <p data-i18n="favorites.empty">You haven't added any favorites yet. Click the heart icon on a robot card to add it to your favorites.</p>
             </div>
         </div>
     </section>
@@ -173,7 +180,7 @@
                 <!-- Robots will be dynamically inserted here -->
             </div>
             <div id="noResults" class="no-results hidden">
-                <p>No results found. Please try different search criteria.</p>
+                <p data-i18n="results.empty">No results found. Please try different search criteria.</p>
             </div>
         </div>
     </section>
@@ -188,43 +195,43 @@
                 </div>
                 <div class="robot-details-body">
                     <div class="robot-image">
-                        <img id="detailsImage" src="images/placeholder.jpg" alt="Robot Image">
+                        <img id="detailsImage" src="images/placeholder.svg" alt="Robot Image">
                     </div>
                     <div class="robot-specs">
-                        <h3>Specifications</h3>
+                        <h3 data-i18n="details.specs">Specifications</h3>
                         <table id="detailsSpecs">
                             <!-- Specifications will be dynamically inserted here -->
                         </table>
                     </div>
                 </div>
                 <div class="robot-video-container" id="robotVideoContainer">
-                    <h3>Video</h3>
+                    <h3 data-i18n="details.video">Video</h3>
                     <div class="video-embed" id="detailsVideo">
                         <!-- Video will be embedded here -->
                     </div>
                 </div>
                 <div class="robot-details-footer">
                     <div class="details-actions">
-                        <a id="detailsWebsite" href="#" target="_blank" class="button">Official Website <i class="fas fa-external-link-alt"></i></a>
-                        <button id="detailsAddCompare" class="button"><i class="fas fa-balance-scale"></i> Add to Compare</button>
+                        <a id="detailsWebsite" href="#" target="_blank" class="button"><span data-i18n="details.website">Official Website</span> <i class="fas fa-external-link-alt"></i></a>
+                        <button id="detailsAddCompare" class="button"><i class="fas fa-balance-scale"></i> <span data-i18n="details.addCompare">Add to Compare</span></button>
                         <div class="share-button" id="shareButton">
-                            <i class="fas fa-share-alt"></i> Share
+                            <i class="fas fa-share-alt"></i> <span data-i18n="details.share">Share</span>
                         </div>
                         <div class="share-options" id="shareOptions">
                             <div class="share-option" data-type="twitter">
-                                <i class="fab fa-twitter"></i> Twitter
+                                <i class="fab fa-twitter"></i> <span data-i18n="share.twitter">Twitter</span>
                             </div>
                             <div class="share-option" data-type="facebook">
-                                <i class="fab fa-facebook"></i> Facebook
+                                <i class="fab fa-facebook"></i> <span data-i18n="share.facebook">Facebook</span>
                             </div>
                             <div class="share-option" data-type="whatsapp">
-                                <i class="fab fa-whatsapp"></i> WhatsApp
+                                <i class="fab fa-whatsapp"></i> <span data-i18n="share.whatsapp">WhatsApp</span>
                             </div>
                             <div class="share-option" data-type="email">
-                                <i class="fas fa-envelope"></i> Email
+                                <i class="fas fa-envelope"></i> <span data-i18n="share.email">Email</span>
                             </div>
                             <div class="share-option" data-type="link">
-                                <i class="fas fa-link"></i> Copy Link
+                                <i class="fas fa-link"></i> <span data-i18n="share.copy">Copy Link</span>
                             </div>
                         </div>
                     </div>
@@ -236,10 +243,10 @@
     <section class="compare-section" id="compareSection">
         <div class="container">
             <div class="compare-header">
-                <h3><i class="fas fa-balance-scale"></i> Compare Robots</h3>
+                <h3><i class="fas fa-balance-scale"></i> <span data-i18n="compare.title">Compare Robots</span></h3>
                 <div class="compare-actions">
-                    <button id="closeCompare" class="button"><i class="fas fa-times"></i> Close</button>
-                    <button id="clearCompare" class="button"><i class="fas fa-trash"></i> Clear All</button>
+                    <button id="closeCompare" class="button"><i class="fas fa-times"></i> <span data-i18n="compare.close">Close</span></button>
+                    <button id="clearCompare" class="button"><i class="fas fa-trash"></i> <span data-i18n="compare.clear">Clear All</span></button>
                 </div>
             </div>
             <div class="compare-container" id="compareContainer">
@@ -255,20 +262,32 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h3><i class="fas fa-robot"></i> Robotics Directory</h3>
-                    <p>A comprehensive collection of robots</p>
+                    <h3><i class="fas fa-robot"></i> <span data-i18n="app.title">Robotics Directory</span></h3>
+                    <p data-i18n="footer.subtitle">A comprehensive collection of robots</p>
                 </div>
                 <div class="footer-links">
-                    <h3>Links</h3>
+                    <h3 data-i18n="footer.links">Links</h3>
                     <ul>
-                        <li><a href="https://github.com/Huskynarr/robotics-directory">GitHub Repository</a></li>
-                        <li><a href="https://github.com/Huskynarr/robotics-directory/blob/main/CONTRIBUTING.md">Contribute</a></li>
-                        <li><a href="https://x.com/Huskynarr">Contact</a></li>
+                        <li><a href="https://github.com/Huskynarr/robotics-directory" data-i18n="footer.link.github">GitHub Repository</a></li>
+                        <li><a href="https://github.com/Huskynarr/robotics-directory/blob/main/CONTRIBUTING.md" data-i18n="footer.link.contribute">Contribute</a></li>
+                        <li><a href="https://MyRobotCenter.de" data-i18n="footer.link.myrobotcenter">MyRobotCenter</a></li>
+                        <li><a href="https://www.mybotshop.de/" data-i18n="footer.link.mybotshop">MyBotShop</a></li>
+                        <li><a href="https://huskynarr.de" data-i18n="footer.link.huskynarr">Huskynarr</a></li>
+                        <li><a href="https://x.com/Huskynarr" data-i18n="footer.link.contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Robotics Directory. Made with <span style="color: red;">&hearts;</span> and AI Power by <img src="images/logos/huskynarr.svg" alt="Huskynarr Logo" style="vertical-align: middle; height: 1em;"> Huskynarr &amp; contributors. <br> All images and trademarks are property of their respective owners.</p>
+                <p>
+                    <span data-i18n="footer.copyright">&copy; 2025 Robotics Directory.</span>
+                    <span data-i18n="footer.madeWith">Made with</span>
+                    <span style="color: red;">&hearts;</span>
+                    <span data-i18n="footer.ai">and AI Power by</span>
+                    <img src="images/logos/huskynarr.svg" alt="Huskynarr Logo" style="vertical-align: middle; height: 1em;">
+                    <span data-i18n="footer.by">Huskynarr &amp; contributors.</span>
+                    <br>
+                    <span data-i18n="footer.disclaimer">All images and trademarks are property of their respective owners.</span>
+                </p>
                 <div class="contributors">
                     <a href="https://github.com/Huskynarr/robotics-directory/graphs/contributors">
                         <img src="https://contrib.rocks/image?repo=Huskynarr/robotics-directory" alt="Contributors" />
@@ -278,8 +297,8 @@
         </div>
     </footer>
 
-    <script src="js/debug.js"></script>
     <script src="js/csv-loader.js"></script>
+    <script src="js/i18n.js"></script>
     <script src="js/features.js"></script>
     <script src="js/main.js"></script>
 </body>

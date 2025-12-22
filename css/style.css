@@ -74,6 +74,17 @@ a:hover {
     display: none !important;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 /* Header */
 header {
     background-color: white;
@@ -85,7 +96,11 @@ header {
 
 header .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
     padding: 15px;
 }
 
@@ -104,27 +119,43 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
+    flex: 1;
+    flex-wrap: nowrap;
+    gap: 16px;
+    margin-top: 0;
+    min-width: 0;
 }
 
 .nav-actions {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 10px;
+}
+
+nav {
+    flex: 1;
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+nav::-webkit-scrollbar {
+    display: none;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    gap: 8px;
+    white-space: nowrap;
 }
 
 nav ul li {
-    margin-right: 10px;
-    margin-bottom: 5px;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 nav ul li a {
@@ -138,6 +169,15 @@ nav ul li a {
 nav ul li a:hover, nav ul li a.active {
     background-color: var(--primary-color);
     color: white;
+}
+
+.language-switch select {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    padding: 6px 8px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 /* Hero Section */
@@ -544,14 +584,17 @@ footer {
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
+        align-items: stretch;
     }
     
-    nav ul {
-        margin-top: 15px;
+    .header-controls {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
     }
-    
-    nav ul li {
-        margin: 0 10px;
+
+    nav {
+        width: 100%;
     }
     
     .robot-details-body {
@@ -613,6 +656,12 @@ body.dark-mode nav ul li a {
 
 body.dark-mode .search-container input,
 body.dark-mode .filter-group select {
+    background-color: var(--dark-card-bg);
+    color: var(--dark-text);
+    border-color: var(--dark-border);
+}
+
+body.dark-mode .language-switch select {
     background-color: var(--dark-card-bg);
     color: var(--dark-text);
     border-color: var(--dark-border);
@@ -983,13 +1032,9 @@ body.dark-mode .robot-details-footer {
 }
 
 @media (max-width: 768px) {
-    .header-controls {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    
     .nav-actions {
-        margin-top: 10px;
+        justify-content: flex-end;
+        margin-top: 0;
     }
 }
 

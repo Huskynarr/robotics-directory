@@ -38,7 +38,7 @@ To complete the website with images:
 2. Name the images according to the robot model, as specified in the `data.js` file:
    - Example: `ameca.jpg`, `spot.jpg`, etc.
 
-3. Replace the placeholder image (`placeholder.jpg`) with a generic robot image
+3. Replace the placeholder image (`placeholder.svg`) with a generic robot image
 
 ## Customization and Extension
 

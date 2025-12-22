@@ -11,6 +11,10 @@ window.robotsDataLoaded = false;
 window.allRobots = [];
 
 document.addEventListener('DOMContentLoaded', async function() {
+    const t = window.i18n && typeof window.i18n.t === 'function'
+        ? window.i18n.t
+        : (key, fallback) => fallback || key;
+
     // Load robot data from CSV files
     const robotsData = await initializeRobotsData();
     if (!robotsData) {
@@ -136,11 +140,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         card.setAttribute('data-category', robot.category);
         
         // Default image path
-        const imagePath = robot.image ? `images/${robot.image}` : 'images/placeholder.jpg';
+        const imagePath = resolveImagePath(robot.image);
         
         card.innerHTML = `
             <div class="robot-image">
-                <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}" onerror="this.src='images/image-not-found.png';">
+                <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}" onerror="this.src='images/image-not-found.webp';">
             </div>
             <div class="robot-info">
                 <h3>${robot.model}</h3>
@@ -159,17 +163,18 @@ document.addEventListener('DOMContentLoaded', async function() {
      * @param {Object} robot - Robot data object
      */
     window.showRobotDetails = function(robot) {
+        window.currentRobotDetails = robot;
         // Set basic details
         document.getElementById('detailsTitle').textContent = robot.model;
         document.getElementById('detailsManufacturer').textContent = robot.manufacturer;
         
         // Set image with error handling
-        const imagePath = robot.image ? `images/${robot.image}` : 'images/placeholder.jpg';
+        const imagePath = resolveImagePath(robot.image);
         const detailsImage = document.getElementById('detailsImage');
         detailsImage.src = imagePath;
         detailsImage.alt = `${robot.model} by ${robot.manufacturer}`;
         detailsImage.onerror = function() {
-            this.src = 'images/image-not-found.png';
+            this.src = 'images/image-not-found.webp';
         };
         
         // Set website link
@@ -211,31 +216,31 @@ document.addEventListener('DOMContentLoaded', async function() {
         specsTable.innerHTML = '';
         
         // Add common specifications
-        addSpecRow(specsTable, 'Price', robot.price);
-        addSpecRow(specsTable, 'Weight', robot.weight);
-        addSpecRow(specsTable, 'Battery Life', robot.batteryLife);
+        addSpecRow(specsTable, t('spec.price', 'Price'), robot.price);
+        addSpecRow(specsTable, t('spec.weight', 'Weight'), robot.weight);
+        addSpecRow(specsTable, t('spec.batteryLife', 'Battery Life'), robot.batteryLife);
         
         // Add category-specific specifications
         switch (robot.category) {
             case 'humanoid':
-                addSpecRow(specsTable, 'Hands', robot.hands);
+                addSpecRow(specsTable, t('spec.hands', 'Hands'), robot.hands);
                 break;
             case 'robodog':
-                addSpecRow(specsTable, 'IP Rating', robot.ipRating);
-                addSpecRow(specsTable, 'Max Runtime', robot.maxRuntime);
-                addSpecRow(specsTable, 'Payload', robot.payload);
-                addSpecRow(specsTable, 'Speed', robot.speed);
-                addSpecRow(specsTable, 'Terrain', robot.terrain);
+                addSpecRow(specsTable, t('spec.ipRating', 'IP Rating'), robot.ipRating);
+                addSpecRow(specsTable, t('spec.maxRuntime', 'Max Runtime'), robot.maxRuntime);
+                addSpecRow(specsTable, t('spec.payload', 'Payload'), robot.payload);
+                addSpecRow(specsTable, t('spec.speed', 'Speed'), robot.speed);
+                addSpecRow(specsTable, t('spec.terrain', 'Terrain'), robot.terrain);
                 break;
             case 'table':
             case 'household':
             case 'entertainment':
             case 'educational':
             case 'vacuum':
-                addSpecRow(specsTable, 'Features', robot.features);
-                addSpecRow(specsTable, 'Purpose', robot.purpose);
-                addSpecRow(specsTable, 'Connectivity', robot.connectivity);
-                addSpecRow(specsTable, 'Age Group', robot.ageGroup);
+                addSpecRow(specsTable, t('spec.features', 'Features'), robot.features);
+                addSpecRow(specsTable, t('spec.purpose', 'Purpose'), robot.purpose);
+                addSpecRow(specsTable, t('spec.connectivity', 'Connectivity'), robot.connectivity);
+                addSpecRow(specsTable, t('spec.ageGroup', 'Age Group'), robot.ageGroup);
                 break;
         }
         
@@ -262,6 +267,12 @@ document.addEventListener('DOMContentLoaded', async function() {
         // Dispatch event for features.js
         document.dispatchEvent(new CustomEvent('robotDetailsOpened', { detail: { robot } }));
     };
+
+    document.addEventListener('languageChanged', function() {
+        if (window.currentRobotDetails && robotDetails.classList.contains('active')) {
+            window.showRobotDetails(window.currentRobotDetails);
+        }
+    });
 
     /**
      * Extract YouTube video ID from various URL formats
@@ -309,6 +320,20 @@ document.addEventListener('DOMContentLoaded', async function() {
             <td>${value}</td>
         `;
         table.appendChild(row);
+    }
+
+    /**
+     * Resolve image paths from CSV data (supports absolute URLs and paths with/without images/ prefix)
+     * @param {string} imageValue
+     * @returns {string}
+     */
+    function resolveImagePath(imageValue) {
+        if (!imageValue) return 'images/placeholder.svg';
+        const trimmed = imageValue.trim();
+        if (trimmed === '') return 'images/placeholder.svg';
+        if (/^(https?:)?\/\//.test(trimmed) || trimmed.startsWith('data:')) return trimmed;
+        if (trimmed.startsWith('images/')) return trimmed;
+        return `images/${trimmed}`;
     }
 
     /**
