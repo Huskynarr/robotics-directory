@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const noResults = document.getElementById('noResults');
     const categoryLinks = document.querySelectorAll('nav a');
     const robotDetails = document.getElementById('robotDetails');
+    const detailsContent = robotDetails ? robotDetails.querySelector('.robot-details-content') : null;
     const closeDetailsButton = document.getElementById('closeDetails');
 
     // Current filter state
@@ -106,6 +107,12 @@ document.addEventListener('DOMContentLoaded', async function() {
     // Close details panel
     closeDetailsButton.addEventListener('click', function() {
         robotDetails.classList.remove('active');
+    });
+
+    robotDetails.addEventListener('click', function(event) {
+        if (detailsContent && !detailsContent.contains(event.target)) {
+            robotDetails.classList.remove('active');
+        }
     });
 
     /**
