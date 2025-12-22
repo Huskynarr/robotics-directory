@@ -86,14 +86,14 @@ def merge_robots(robots_from_main, existing_robots, key_fields=('manufacturer', 
                     else:
                         # No match found, use fallback
                         print(f"Image not found: {full_path}, using fallback image")
-                        robot['image'] = 'images/image-not-found.png'
+                        robot['image'] = 'images/image-not-found.webp'
                 except Exception as e:
                     print(f"Error checking files in {parent_dir}: {e}")
-                    robot['image'] = 'images/image-not-found.png'
+                    robot['image'] = 'images/image-not-found.webp'
             else:
                 # Directory doesn't exist, use fallback
                 print(f"Directory not found: {parent_dir}, using fallback image")
-                robot['image'] = 'images/image-not-found.png'
+                robot['image'] = 'images/image-not-found.webp'
     
     return merged
 
