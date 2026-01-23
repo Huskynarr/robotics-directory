@@ -8,7 +8,7 @@ Welcome to the Robotics Directory! This repository provides an extensive collect
 
 The website is available live at [robodirectory.huskynarr.de](https://robodirectory.huskynarr.de/).
 
-![Screenshot of the Robotics Directory](images/screenshot.jpg)
+![Robotics Directory - A searchable collection of robots](images/placeholder.svg)
 
 ## Table of Contents
 
