@@ -52,7 +52,7 @@ function _createRobotCardForWindow(robot) {
     card.className = 'robot-card';
     card.setAttribute('data-category', robot.category);
 
-    const imagePath = robot.image || 'images/placeholder.svg';
+    const imagePath = robot.image ? (robot.image.startsWith('/') || robot.image.startsWith('http') || robot.image.startsWith('data:') ? robot.image : (robot.image.startsWith('images/') ? '/' + robot.image : '/images/' + robot.image)) : '/images/placeholder.svg';
     const robotId = window.createRobotId(robot); // Uses a function that will be on window
     const isFav = SCRIPT_FAVORITES.includes(robotId);
     const isCompare = SCRIPT_COMPARE_ROBOT_IDS.includes(robotId);
@@ -66,7 +66,7 @@ function _createRobotCardForWindow(robot) {
             <label for="compare-${robotId}">${t('compare.label', 'Compare')}</label>
         </div>
         <div class="robot-image">
-            <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}">
+            <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}" onerror="this.src='/images/image-not-found.webp';">
         </div>
         <div class="robot-info">
             <h3>${robot.model}</h3>
@@ -191,10 +191,10 @@ function _updateCompareView() {
         const robotId = window.createRobotId(robot);
         const compareItem = document.createElement('div');
         compareItem.className = 'compare-item';
-        const imagePath = robot.image || 'images/placeholder.svg';
+        const imagePath = robot.image ? (robot.image.startsWith('/') || robot.image.startsWith('http') || robot.image.startsWith('data:') ? robot.image : (robot.image.startsWith('images/') ? '/' + robot.image : '/images/' + robot.image)) : '/images/placeholder.svg';
         compareItem.innerHTML = `
             <button class="compare-remove" data-id="${robotId}">×</button>
-            <img src="${imagePath}" alt="${robot.model}">
+            <img src="${imagePath}" alt="${robot.model}" onerror="this.src='/images/image-not-found.webp';">
             <h4>${robot.model}</h4>
             <p>${robot.manufacturer}</p>
         `;
