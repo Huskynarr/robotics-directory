@@ -17,9 +17,8 @@ window.allRobots = [];
  * @returns {string}
  */
 window.resolveImagePath = function(imageValue) {
-    if (!imageValue) return '/images/placeholder.svg';
+    if (!imageValue || imageValue.trim() === '') return '/images/placeholder.svg';
     const trimmed = imageValue.trim();
-    if (trimmed === '') return '/images/placeholder.svg';
     if (/^(https?:)?\/\//.test(trimmed) || trimmed.startsWith('data:')) return trimmed;
     if (trimmed.startsWith('/')) return trimmed;
     if (trimmed.startsWith('images/')) return '/' + trimmed;
