@@ -52,7 +52,7 @@ function _createRobotCardForWindow(robot) {
     card.className = 'robot-card';
     card.setAttribute('data-category', robot.category);
 
-    const imagePath = robot.image ? (robot.image.startsWith('/') || robot.image.startsWith('http') || robot.image.startsWith('data:') ? robot.image : (robot.image.startsWith('images/') ? '/' + robot.image : '/images/' + robot.image)) : '/images/placeholder.svg';
+    const imagePath = window.resolveImagePath(robot.image);
     const robotId = window.createRobotId(robot); // Uses a function that will be on window
     const isFav = SCRIPT_FAVORITES.includes(robotId);
     const isCompare = SCRIPT_COMPARE_ROBOT_IDS.includes(robotId);
@@ -191,7 +191,7 @@ function _updateCompareView() {
         const robotId = window.createRobotId(robot);
         const compareItem = document.createElement('div');
         compareItem.className = 'compare-item';
-        const imagePath = robot.image ? (robot.image.startsWith('/') || robot.image.startsWith('http') || robot.image.startsWith('data:') ? robot.image : (robot.image.startsWith('images/') ? '/' + robot.image : '/images/' + robot.image)) : '/images/placeholder.svg';
+        const imagePath = window.resolveImagePath(robot.image);
         compareItem.innerHTML = `
             <button class="compare-remove" data-id="${robotId}">×</button>
             <img src="${imagePath}" alt="${robot.model}" onerror="this.src='/images/image-not-found.webp';">

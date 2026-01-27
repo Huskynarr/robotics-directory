@@ -10,6 +10,22 @@ const EXCLUDED_SPEC_FIELDS = ['manufacturer', 'model', 'category', 'image', 'web
 window.robotsDataLoaded = false;
 window.allRobots = [];
 
+/**
+ * Resolve image paths from CSV data (supports absolute URLs and paths with/without images/ prefix)
+ * This is a global utility function that can be used by other scripts
+ * @param {string} imageValue
+ * @returns {string}
+ */
+window.resolveImagePath = function(imageValue) {
+    if (!imageValue) return '/images/placeholder.svg';
+    const trimmed = imageValue.trim();
+    if (trimmed === '') return '/images/placeholder.svg';
+    if (/^(https?:)?\/\//.test(trimmed) || trimmed.startsWith('data:')) return trimmed;
+    if (trimmed.startsWith('/')) return trimmed;
+    if (trimmed.startsWith('images/')) return '/' + trimmed;
+    return `/images/${trimmed}`;
+};
+
 document.addEventListener('DOMContentLoaded', async function() {
     const t = window.i18n && typeof window.i18n.t === 'function'
         ? window.i18n.t
@@ -186,8 +202,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         card.className = 'robot-card';
         card.setAttribute('data-category', robot.category);
         
-        // Default image path
-        const imagePath = resolveImagePath(robot.image);
+        // Default image path - use global resolveImagePath
+        const imagePath = window.resolveImagePath(robot.image);
         
         card.innerHTML = `
             <div class="robot-image">
@@ -215,8 +231,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         document.getElementById('detailsTitle').textContent = robot.model;
         document.getElementById('detailsManufacturer').textContent = robot.manufacturer;
         
-        // Set image with error handling
-        const imagePath = resolveImagePath(robot.image);
+        // Set image with error handling - use global resolveImagePath
+        const imagePath = window.resolveImagePath(robot.image);
         const detailsImage = document.getElementById('detailsImage');
         detailsImage.src = imagePath;
         detailsImage.alt = `${robot.model} by ${robot.manufacturer}`;
@@ -367,21 +383,6 @@ document.addEventListener('DOMContentLoaded', async function() {
             <td>${value}</td>
         `;
         table.appendChild(row);
-    }
-
-    /**
-     * Resolve image paths from CSV data (supports absolute URLs and paths with/without images/ prefix)
-     * @param {string} imageValue
-     * @returns {string}
-     */
-    function resolveImagePath(imageValue) {
-        if (!imageValue) return '/images/placeholder.svg';
-        const trimmed = imageValue.trim();
-        if (trimmed === '') return '/images/placeholder.svg';
-        if (/^(https?:)?\/\//.test(trimmed) || trimmed.startsWith('data:')) return trimmed;
-        if (trimmed.startsWith('/')) return trimmed;
-        if (trimmed.startsWith('images/')) return '/' + trimmed;
-        return `/images/${trimmed}`;
     }
 
     /**
