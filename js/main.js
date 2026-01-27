@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         card.innerHTML = `
             <div class="robot-image">
-                <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}" onerror="this.src='images/image-not-found.webp';">
+                <img src="${imagePath}" alt="${robot.model} by ${robot.manufacturer}" onerror="this.src='/images/image-not-found.webp';">
             </div>
             <div class="robot-info">
                 <h3>${robot.model}</h3>
@@ -221,7 +221,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         detailsImage.src = imagePath;
         detailsImage.alt = `${robot.model} by ${robot.manufacturer}`;
         detailsImage.onerror = function() {
-            this.src = 'images/image-not-found.webp';
+            this.src = '/images/image-not-found.webp';
         };
         
         // Set website link
@@ -375,12 +375,13 @@ document.addEventListener('DOMContentLoaded', async function() {
      * @returns {string}
      */
     function resolveImagePath(imageValue) {
-        if (!imageValue) return 'images/placeholder.svg';
+        if (!imageValue) return '/images/placeholder.svg';
         const trimmed = imageValue.trim();
-        if (trimmed === '') return 'images/placeholder.svg';
+        if (trimmed === '') return '/images/placeholder.svg';
         if (/^(https?:)?\/\//.test(trimmed) || trimmed.startsWith('data:')) return trimmed;
-        if (trimmed.startsWith('images/')) return trimmed;
-        return `images/${trimmed}`;
+        if (trimmed.startsWith('/')) return trimmed;
+        if (trimmed.startsWith('images/')) return '/' + trimmed;
+        return `/images/${trimmed}`;
     }
 
     /**
