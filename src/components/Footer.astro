@@ -1,0 +1,57 @@
+---
+import { translations } from '../data/translations.js';
+const t = translations.en;
+---
+
+<footer class="mt-auto border-t border-border py-12 bg-surface" role="contentinfo">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <!-- Brand -->
+      <div class="md:col-span-1">
+        <div class="flex items-center gap-2 mb-3">
+          <i class="fas fa-robot text-primary text-xl"></i>
+          <span class="font-heading font-semibold text-text-base" data-i18n="app.title">{t['app.title']}</span>
+        </div>
+        <p class="text-sm text-text-secondary" data-i18n="footer.subtitle">{t['footer.subtitle']}</p>
+      </div>
+
+      <!-- Support -->
+      <div>
+        <h3 class="font-semibold text-sm text-text-base mb-3" data-i18n="footer.support">{t['footer.support']}</h3>
+        <ul class="space-y-2">
+          <li><a href="https://github.com/Huskynarr/robotics-directory" target="_blank" rel="noopener noreferrer" class="text-sm text-text-secondary hover:text-primary transition-colors" data-i18n="footer.link.github">{t['footer.link.github']}</a></li>
+          <li><a href="https://github.com/Huskynarr/robotics-directory/issues" target="_blank" rel="noopener noreferrer" class="text-sm text-text-secondary hover:text-primary transition-colors" data-i18n="footer.link.contribute">{t['footer.link.contribute']}</a></li>
+        </ul>
+      </div>
+
+      <!-- Essentials -->
+      <div>
+        <h3 class="font-semibold text-sm text-text-base mb-3" data-i18n="footer.essentials">{t['footer.essentials']}</h3>
+        <ul class="space-y-2">
+          <li><a href="https://huskynarr.de" target="_blank" rel="noopener noreferrer" class="text-sm text-text-secondary hover:text-primary transition-colors" data-i18n="footer.link.huskynarr">{t['footer.link.huskynarr']}</a></li>
+          <li><a href="https://huskynarr.de/contact" target="_blank" rel="noopener noreferrer" class="text-sm text-text-secondary hover:text-primary transition-colors" data-i18n="footer.link.contact">{t['footer.link.contact']}</a></li>
+        </ul>
+      </div>
+
+      <!-- Shops -->
+      <div>
+        <h3 class="font-semibold text-sm text-text-base mb-3" data-i18n="footer.shops">{t['footer.shops']}</h3>
+        <ul class="space-y-2">
+          <li><a href="https://www.myrobotcenter.de/" target="_blank" rel="noopener noreferrer" class="text-sm text-text-secondary hover:text-primary transition-colors" data-i18n="footer.link.myrobotcenter">{t['footer.link.myrobotcenter']}</a></li>
+          <li><a href="https://mybotshop.de/" target="_blank" rel="noopener noreferrer" class="text-sm text-text-secondary hover:text-primary transition-colors" data-i18n="footer.link.mybotshop">{t['footer.link.mybotshop']}</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="border-border mb-6" />
+
+    <div class="flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-text-muted">
+      <p>
+        <span data-i18n="footer.copyright">{t['footer.copyright']}</span>
+        <span data-i18n="footer.madeWith">{t['footer.madeWith']}</span> &#10084;&#65039;
+        <span data-i18n="footer.by">{t['footer.by']}</span>
+      </p>
+      <p data-i18n="footer.disclaimer">{t['footer.disclaimer']}</p>
+    </div>
+  </div>
+</footer>

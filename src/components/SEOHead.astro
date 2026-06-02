@@ -1,0 +1,50 @@
+---
+import { CATEGORY_LABELS } from '../data/categories.js';
+import { SITE_URL } from '../config/site.js';
+
+interface Props {
+  robot: Record<string, string>;
+}
+
+const { robot } = Astro.props;
+
+const name = `${robot.manufacturer} ${robot.model}`;
+const catLabel = CATEGORY_LABELS[robot.category] || robot.category;
+const description = `${name} - ${catLabel} by ${robot.manufacturer}. View specs, images and compare with other robots.`;
+const url = `${SITE_URL}/robot/${robot.id}/`;
+
+const imageUrl = robot.image && robot.image !== 'images/image-not-found.webp'
+  ? `${SITE_URL}/${robot.image.replace(/^\//, '')}`
+  : undefined;
+
+// Build JSON-LD
+const jsonLd: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name,
+  description,
+  category: catLabel,
+  brand: { '@type': 'Organization', name: robot.manufacturer },
+  url,
+};
+if (imageUrl) jsonLd.image = imageUrl;
+if (robot.website) jsonLd.sameAs = robot.website;
+
+// Add offers if price is numeric
+if (robot.price && !/not disclosed|on request|prototype|discontinued/i.test(robot.price)) {
+  const priceMatch = robot.price.match(/([\d,.\s]+)\s*(USD|EUR)?/i);
+  if (priceMatch) {
+    const priceNum = parseFloat(priceMatch[1].replace(/[,\s]/g, ''));
+    if (!isNaN(priceNum)) {
+      jsonLd.offers = {
+        '@type': 'Offer',
+        availability: 'https://schema.org/InStock',
+        priceCurrency: (priceMatch[2] || 'USD').toUpperCase(),
+        price: priceNum,
+      };
+    }
+  }
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />
