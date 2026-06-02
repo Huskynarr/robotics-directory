@@ -1,195 +1,128 @@
 # Robotics Directory
 
-A comprehensive, interactive collection of robots with filtering, comparison functionality, and more.
+A comprehensive, interactive directory of robots with search, filtering and
+side-by-side comparison. Built as a static site with [Astro](https://astro.build/)
+and [Tailwind CSS](https://tailwindcss.com/).
 
-## About this Repository
+🔗 **Live:** [robodirectory.huskynarr.de](https://robodirectory.huskynarr.de/)
 
-Welcome to the Robotics Directory! This repository provides an extensive collection of robots, categorized into various types such as humanoids, robot dogs, household robots, and more. Here you'll find information, images, and technical details about a variety of innovative robots.
-
-The website is available live at [robodirectory.huskynarr.de](https://robodirectory.huskynarr.de/).
-
-![Robotics Directory - A searchable collection of robots](images/placeholder.svg)
-
-## Table of Contents
-
-- [Robotics Directory](#robotics-directory)
-  - [About this Repository](#about-this-repository)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Robot Categories](#robot-categories)
-    - [Humanoid Robots](#humanoid-robots)
-    - [Robot Dogs](#robot-dogs)
-    - [Additional Categories](#additional-categories)
-  - [Installation and Setup](#installation-and-setup)
-    - [Local Development](#local-development)
-    - [Deployment on GitHub Pages](#deployment-on-github-pages)
-  - [Data Structure](#data-structure)
-  - [Updating Data](#updating-data)
-  - [Using the Website](#using-the-website)
-    - [Searching and Filtering Robots](#searching-and-filtering-robots)
-    - [Detail View](#detail-view)
-    - [Saving Favorites](#saving-favorites)
-    - [Comparing Robots](#comparing-robots)
-    - [Dark Mode](#dark-mode)
-    - [Sharing Function](#sharing-function)
-  - [Contributions](#contributions)
-  - [License](#license)
-  - [Contact](#contact)
+![Robotics Directory - a searchable collection of robots](public/images/placeholder.svg)
 
 ## Features
 
-The Robotics Directory offers the following main features:
+- **Seven categories** - humanoids, quadrupeds, companions, cleaning, outdoor,
+  educational and smart-home robots, each with subcategory filters.
+- **Search & advanced filters** - by name, manufacturer, price, weight, battery
+  life, use case and more, with shareable URL state.
+- **Detail pages** for every robot with specifications, image gallery and video.
+- **Compare** up to four robots side by side.
+- **Favorites** persisted in the browser.
+- **Dark mode** and a **share** function.
+- **28 UI languages** with client-side switching.
+- **Responsive** layout for all devices.
 
-- **Categorized view** of different robot types
-- **Advanced search function** with multiple filter options:
-  - Category
-  - Manufacturer
-  - Price
-  - Weight
-  - Battery life
-  - Features
-  - Purpose
-- **Detailed view** with comprehensive specifications for each robot
-- **Comparison function** for direct comparison of multiple robots
-- **Favorites feature** to save interesting robots
-- **Dark Mode** for comfortable viewing at night
-- **Sharing function** via social media and link
-- **Responsive design** for optimal use on all devices
+## Tech Stack
 
-## Robot Categories
+- **Astro** - static site generation
+- **Tailwind CSS v4** - styling
+- **pnpm** - package manager
+- **Vitest** - unit tests
+- **Playwright** - end-to-end tests
+- **GitHub Actions** - CI and deployment to GitHub Pages
 
-### Humanoid Robots
+**Requirements:** Node.js 24 (see `.nvmrc`) and pnpm.
 
-In this category, you'll find robots designed to resemble humans and function similarly. These robots are used in various fields such as industry, healthcare, and entertainment.
+## Local Development
 
-### Robot Dogs
+```bash
+git clone https://github.com/Huskynarr/robotics-directory.git
+cd robotics-directory
+pnpm install
+pnpm dev          # http://localhost:4321
+```
 
-Robot dogs are fascinating examples of technological innovation. They can be used for tasks such as surveillance, assistance, and research.
+### Scripts
 
-### Additional Categories
+| Command            | Description                                   |
+|--------------------|-----------------------------------------------|
+| `pnpm dev`         | Start the dev server                          |
+| `pnpm build`       | Build the static site to `dist/`              |
+| `pnpm preview`     | Preview the production build locally          |
+| `pnpm lint`        | Run ESLint                                     |
+| `pnpm format`      | Format `src/` with Prettier                   |
+| `pnpm test:unit`   | Run unit tests (Vitest)                       |
+| `pnpm test:e2e`    | Run end-to-end tests (Playwright)             |
+| `pnpm test`        | Run unit and E2E tests                        |
 
-- **Table Robots**: Robots designed to be placed on tables for interaction and entertainment
-- **Entertainment Robots**: Robots primarily used for entertainment purposes
-- **Educational Robots**: Robots used in educational settings
-- **Household Robots**: Robots for various household tasks
-- **Vacuum Robots**: Specialized robots for automatic cleaning
+## Deployment
 
-## Installation and Setup
+Pushes to `main` are built and deployed to GitHub Pages by the
+[`deploy`](.github/workflows/deploy.yml) workflow: it runs lint, unit tests,
+the build and E2E tests, then publishes `dist/` to the custom domain configured
+via `CNAME`.
 
-### Local Development
+## Project Structure
 
-To set up the repository locally, follow these steps:
+```
+data/                 Robot data - one CSV per category (source of truth)
+public/               Static assets (images, robots.txt, CNAME, favicon)
+src/
+  components/         Astro UI components
+  data/               Data loading, categories, subcategory filters, i18n
+  layouts/            Base layout
+  pages/              Routes (index + robot/[id])
+  scripts/            Client-side behaviour (search, compare, favorites, ...)
+  utils/              CSV parser and formatting helpers
+tests/
+  unit/               Vitest unit tests
+  e2e/                Playwright end-to-end tests
+```
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Huskynarr/robotics-directory.git
-   cd robotics-directory
-   ```
+## Data Model
 
-2. Start a local web server. You can use Python's built-in server:
-   ```bash
-   # Python 3
-   python -m http.server
-   
-   # Python 2
-   python -m SimpleHTTPServer
-   ```
-   
-   Alternatively, you can use other local servers such as [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for VS Code.
+The robot data lives in `data/`, with **one CSV per category** that the build
+(`src/data/robots.js`) reads directly. There is no master file or generator
+script - the category CSVs are the single source of truth.
 
-3. Open the website in your browser at `http://localhost:8000`
+Files: `humanoid.csv`, `quadruped.csv`, `companion.csv`, `cleaning.csv`,
+`outdoor.csv`, `educational.csv`, `smarthome.csv`.
 
-### Deployment on GitHub Pages
+Every file shares the same 21-column header:
 
-1. Fork the repository on GitHub
-2. Go to the repository settings
-3. Navigate to the "Pages" section
-4. Select the branch `main` or `master` as the source
-5. Save the settings and wait for your page to be deployed
+```
+category,manufacturer,model,price,weight,size,batteryLife,maxRuntime,tags,handType,dof,payload,speed,terrain,ipRating,ageRange,website,image,video,gallery,description
+```
 
-## Data Structure
+- `category` must match the file's category id.
+- `tags` is a `;`-separated list (e.g. `consumer;vacuum;mop`) and drives the
+  subcategory filters in `src/data/subcategory-filters.js`.
+- `image` is a path relative to `public/`, e.g. `images/cleaning/foo.webp`.
+- `gallery` uses `path|label;path|label` entries.
+- Wrap any field containing a comma in double quotes.
 
-The robot data is stored in CSV files in the `data/` directory:
+### Adding or Updating Robots
 
-- `data/humanoid.csv` - Humanoid robots
-- `data/robodog.csv` - Robot dogs 
-- `data/table.csv` - Table robots
-- `data/entertainment.csv` - Entertainment robots
-- `data/educational.csv` - Educational robots
-- `data/household.csv` - Household robots
-- `data/vacuum.csv` - Vacuum robots
+1. Add or edit a row in the matching `data/<category>.csv`. Leave unknown fields
+   empty rather than inventing values.
+2. Put any image in `public/images/<category>/` and reference it from the
+   `image` column. Use only images you are licensed to use.
+3. Add at least one `tags` value that matches a subcategory filter, otherwise
+   the robot will not appear under any subcategory.
+4. Run `pnpm build` and `pnpm test` to verify the site builds and stays
+   consistent, then commit `data/` and `public/images/`.
 
-The main file `data.csv` contains a summary of all robots and is used as a source for generating the category-specific CSV files.
+## Contributing
 
-## Updating Data
-
-The repository contains a Python script `generate_category_csvs.py` that generates the category-specific CSV files from the main file `data.csv`:
-
-1. Update the data in `data.csv`
-2. Run the Python script:
-   ```bash
-   python generate_category_csvs.py
-   ```
-3. The script updates the CSV files in the `data/` directory while considering existing entries
-
-Detailed instructions can be found in the `ROBOT_DATA_MAINTENANCE.md` file.
-
-## Using the Website
-
-### Searching and Filtering Robots
-
-- Use the search bar to search for robot names or manufacturers
-- Use the dropdown filters to filter by category, manufacturer, or price
-- Click on "Advanced Filters" to use additional filters such as weight, battery life, etc.
-- Sort the results by various criteria such as name, manufacturer, or price
-
-### Detail View
-
-- Click on a robot card to display detailed information
-- In the detail view, you'll find:
-  - Image of the robot
-  - General specifications
-  - Category-specific properties
-  - Link to the official website
-
-### Saving Favorites
-
-- Click on the heart icon on a robot card to add the robot to your favorites
-- Click on the "Favorites" button in the navigation bar to display all your saved favorites
-- The favorites are stored in your browser's local storage and will persist even after reloading the page
-
-### Comparing Robots
-
-- Activate the "Compare" checkbox on a robot card to select the robot for comparison
-- Choose at least two robots to compare them
-- Click on the "Compare" button in the navigation bar or use the automatically displayed comparison view
-- In the comparison, the properties of the selected robots are presented in a clear table
-
-### Dark Mode
-
-- Click on the switch with the moon icon in the navigation bar to toggle between light and dark design
-- The setting is saved and maintained for your next visit
-
-### Sharing Function
-
-- In the detail view of a robot, you'll find a "Share" button
-- Choose one of the sharing options: Twitter, Facebook, WhatsApp, Email, or copy link
-- Share your discoveries with friends and colleagues
-
-## Contributions
-
-We welcome contributions from the community! Please read our contribution guidelines in the `CONTRIBUTING.md` file before submitting changes.
+Contributions are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 <a href="https://github.com/Huskynarr/robotics-directory/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Huskynarr/robotics-directory" />
+  <img src="https://contrib.rocks/image?repo=Huskynarr/robotics-directory" alt="Contributors" />
 </a>
-
-Created with [contrib.rocks](https://contrib.rocks).
 
 ## License
 
-This project is licensed under the MIT License. For more information, see the `LICENSE` file.
+Licensed under the MIT License - see [LICENSE](LICENSE).
 
 ## Contact
 
-For feedback and inquiries, please contact us via [@Huskynarr](https://x.com/Huskynarr) on X (formerly Twitter).
+For feedback and inquiries, reach out via [@Huskynarr](https://x.com/Huskynarr) on X.
