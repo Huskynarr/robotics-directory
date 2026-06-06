@@ -1,0 +1,42 @@
+---
+import { translations } from '../data/translations.js';
+
+interface Props {
+  url: string;
+  title: string;
+}
+
+const { url, title } = Astro.props;
+const t = translations.en;
+
+const shareText = encodeURIComponent(title);
+const shareUrl = encodeURIComponent(url);
+---
+
+<div class="relative inline-block">
+  <button
+    id="shareButton"
+    class="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium bg-surface border border-border text-text-secondary hover:border-primary hover:text-primary transition-colors"
+    type="button"
+  >
+    <i class="fas fa-share-alt"></i>
+    <span data-i18n="details.share">{t['details.share']}</span>
+  </button>
+  <div id="shareDropdown" class="share-dropdown">
+    <a href={`https://twitter.com/intent/tweet?text=${shareText}&url=${shareUrl}`} target="_blank" rel="noopener">
+      <i class="fab fa-twitter text-[#1da1f2]"></i> <span data-i18n="share.twitter">{t['share.twitter']}</span>
+    </a>
+    <a href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`} target="_blank" rel="noopener">
+      <i class="fab fa-facebook text-[#4267b2]"></i> <span data-i18n="share.facebook">{t['share.facebook']}</span>
+    </a>
+    <a href={`https://wa.me/?text=${shareText}%20${shareUrl}`} target="_blank" rel="noopener">
+      <i class="fab fa-whatsapp text-[#25d366]"></i> <span data-i18n="share.whatsapp">{t['share.whatsapp']}</span>
+    </a>
+    <a href={`mailto:?subject=${shareText}&body=${shareText}%0A%0A${shareUrl}`}>
+      <i class="fas fa-envelope text-text-muted"></i> <span data-i18n="share.email">{t['share.email']}</span>
+    </a>
+    <button type="button" id="copyLinkBtn" data-url={url}>
+      <i class="fas fa-link text-text-muted"></i> <span data-i18n="share.copy">{t['share.copy']}</span>
+    </button>
+  </div>
+</div>

@@ -24,7 +24,8 @@ We appreciate your interest in contributing to Robotics Directory! Every contrib
 
 ## Code of Conduct
 
-All contributors are expected to adhere to the [Code of Conduct](CODE_OF_CONDUCT.md). Please read it to ensure the community remains welcoming and respectful.
+All contributors are expected to be respectful and considerate, and to help keep
+the community welcoming and harassment-free.
 
 ## Questions?
 

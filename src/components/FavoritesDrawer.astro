@@ -1,0 +1,31 @@
+---
+import { translations } from '../data/translations.js';
+const t = translations.en;
+---
+
+<!-- Favorites overlay -->
+<div id="favoritesOverlay" class="drawer-overlay"></div>
+
+<!-- Favorites drawer -->
+<aside id="favoritesDrawer" class="favorites-drawer" aria-label="Favorites">
+  <div class="p-5">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="font-heading text-lg font-semibold" data-i18n="favorites.title">{t['favorites.title']}</h2>
+      <div class="flex gap-2">
+        <button id="clearFavorites" class="text-sm text-text-muted hover:text-danger transition-colors" data-i18n="favorites.clear">{t['favorites.clear']}</button>
+        <button id="favoritesClose" class="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-bg text-text-secondary" aria-label="Close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="favoritesGrid" class="grid grid-cols-1 gap-4">
+      <!-- Filled by JS -->
+    </div>
+
+    <div id="noFavorites" class="text-center py-8">
+      <i class="fas fa-heart text-3xl text-text-muted mb-3"></i>
+      <p class="text-sm text-text-secondary" data-i18n="favorites.empty">{t['favorites.empty']}</p>
+    </div>
+  </div>
+</aside>

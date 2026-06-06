@@ -1,0 +1,366 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #2563eb;
+  --color-primary-light: #3b82f6;
+  --color-primary-dark: #1d4ed8;
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-900: #1e3a5f;
+
+  --color-accent: #0ea5e9;
+  --color-accent-light: #38bdf8;
+
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+  --color-warning: #f59e0b;
+
+  --color-surface: #ffffff;
+  --color-surface-elevated: #ffffff;
+  --color-bg: #f8fafc;
+  --color-text-base: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94a3b8;
+  --color-border: #e2e8f0;
+
+  --font-heading: 'Orbitron', 'Inter', sans-serif;
+  --font-body: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text-base);
+  line-height: 1.6;
+  min-height: 100dvh;
+}
+
+/* Dark mode overrides */
+.dark {
+  --color-surface: #1e293b;
+  --color-surface-elevated: #334155;
+  --color-bg: #0f172a;
+  --color-text-base: #f1f5f9;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: #64748b;
+  --color-border: #334155;
+}
+
+/* Font heading utility */
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Skip to content */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--color-primary);
+  color: white;
+}
+.skip-to-content:focus {
+  left: 0;
+}
+
+/* Category pills */
+.category-pill {
+  @apply inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium
+    transition-all cursor-pointer select-none whitespace-nowrap;
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+}
+.category-pill:hover {
+  border-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+.category-pill.active {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+/* Use-case pills */
+.usecase-pill.active {
+  background: var(--uc-color);
+  color: white;
+  border-color: var(--uc-color);
+}
+.usecase-pill:hover:not(.active) {
+  color: var(--uc-color);
+  border-color: var(--uc-color);
+}
+
+/* Filter chip (dismissible) */
+.filter-chip {
+  @apply inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium;
+  background: var(--color-primary-50);
+  color: var(--color-primary-dark);
+}
+.dark .filter-chip {
+  background: rgba(37, 99, 235, 0.2);
+  color: var(--color-primary-light);
+}
+.filter-chip button {
+  @apply ml-0.5 hover:text-danger;
+}
+
+/* Price pill */
+.price-pill {
+  @apply inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium
+    transition-all cursor-pointer select-none;
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+}
+.price-pill:hover {
+  border-color: var(--color-primary-light);
+}
+.price-pill.active {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+
+/* Robot card */
+.robot-card {
+  @apply relative rounded-2xl overflow-hidden transition-all;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+.robot-card:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  transform: translateY(-2px);
+}
+.dark .robot-card:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+.robot-card .card-image {
+  @apply relative aspect-[4/3] overflow-hidden;
+  background: var(--color-bg);
+}
+.robot-card .card-image img {
+  @apply w-full h-full object-contain p-4;
+}
+
+.robot-card .favorite-btn {
+  @apply absolute top-3 right-3 z-10 w-9 h-9 rounded-full flex items-center justify-center
+    transition-all text-text-muted hover:text-danger;
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(4px);
+}
+.dark .robot-card .favorite-btn {
+  background: rgba(30,41,59,0.9);
+}
+.robot-card .favorite-btn.active {
+  color: var(--color-danger);
+}
+.robot-card .favorite-btn.active i {
+  font-weight: 900;
+}
+
+.robot-card .category-badge {
+  @apply absolute top-3 left-3 z-10 px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wide;
+  background: rgba(255,255,255,0.9);
+  color: var(--color-primary);
+  backdrop-filter: blur(4px);
+}
+.dark .robot-card .category-badge {
+  background: rgba(30,41,59,0.9);
+}
+
+.robot-card .card-info {
+  @apply p-4;
+}
+.robot-card .card-info h3 {
+  @apply text-base font-semibold truncate;
+  color: var(--color-text-base);
+}
+.robot-card .card-info .manufacturer {
+  @apply text-sm truncate mt-0.5;
+  color: var(--color-text-secondary);
+}
+.robot-card .card-info .price {
+  @apply text-sm font-semibold mt-2;
+  color: var(--color-primary);
+}
+
+/* Pagination */
+.pagination {
+  @apply flex items-center justify-center gap-2 py-8 flex-wrap;
+}
+.pagination-btn {
+  @apply px-3 py-2 rounded-lg text-sm font-medium transition-colors;
+  background: var(--color-surface);
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-border);
+}
+.pagination-btn:hover:not(:disabled) {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.pagination-btn.active {
+  background: var(--color-primary);
+  color: white;
+  border-color: var(--color-primary);
+}
+.pagination-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.pagination-info {
+  @apply text-sm;
+  color: var(--color-text-muted);
+}
+.pagination-dots {
+  @apply px-1;
+  color: var(--color-text-muted);
+}
+
+/* Specs table */
+.specs-table {
+  @apply w-full;
+  border-collapse: collapse;
+}
+.specs-table tr {
+  border-bottom: 1px solid var(--color-border);
+}
+.specs-table td {
+  @apply py-3 px-4 text-sm;
+}
+.specs-table td:first-child {
+  @apply font-medium whitespace-nowrap;
+  color: var(--color-text-secondary);
+  width: 40%;
+}
+.specs-table td:last-child {
+  color: var(--color-text-base);
+}
+
+/* Compare table */
+.compare-table {
+  @apply w-full overflow-x-auto;
+}
+.compare-table table {
+  @apply w-full min-w-[600px];
+  border-collapse: collapse;
+}
+.compare-table th,
+.compare-table td {
+  @apply py-3 px-4 text-sm text-left;
+  border-bottom: 1px solid var(--color-border);
+}
+.compare-table th {
+  @apply font-semibold;
+  background: var(--color-bg);
+  color: var(--color-text-base);
+}
+.compare-table td:first-child {
+  @apply font-medium;
+  color: var(--color-text-secondary);
+}
+
+/* Compare bar (fixed bottom) */
+.compare-bar {
+  @apply fixed bottom-0 left-0 right-0 z-30 px-4 py-3 flex items-center gap-3
+    translate-y-full transition-transform;
+  background: var(--color-surface-elevated);
+  border-top: 1px solid var(--color-border);
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+}
+.compare-bar.active {
+  @apply translate-y-0;
+}
+
+/* Favorites drawer */
+.favorites-drawer {
+  @apply fixed top-0 right-0 bottom-0 z-50 w-full max-w-md translate-x-full transition-transform overflow-y-auto;
+  background: var(--color-surface);
+  box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+}
+.favorites-drawer.active {
+  @apply translate-x-0;
+}
+
+/* Mobile drawer (hamburger menu) */
+.mobile-drawer {
+  @apply fixed top-0 right-0 bottom-0 z-50 w-72 translate-x-full transition-transform overflow-y-auto;
+  background: var(--color-surface);
+  box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+}
+.mobile-drawer.active {
+  @apply translate-x-0;
+}
+
+/* Drawer overlay */
+.drawer-overlay {
+  @apply fixed inset-0 z-40 bg-black/50 opacity-0 pointer-events-none transition-opacity;
+}
+.drawer-overlay.active {
+  @apply opacity-100 pointer-events-auto;
+}
+
+/* Video embed */
+.video-embed {
+  @apply relative w-full rounded-xl overflow-hidden;
+  aspect-ratio: 16/9;
+}
+.video-embed iframe {
+  @apply absolute inset-0 w-full h-full;
+}
+
+/* Share dropdown */
+.share-dropdown {
+  @apply absolute right-0 top-full mt-2 rounded-xl py-2 min-w-[180px] opacity-0 pointer-events-none
+    transition-all translate-y-1 z-20;
+  background: var(--color-surface-elevated);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+.share-dropdown.active {
+  @apply opacity-100 pointer-events-auto translate-y-0;
+}
+.share-dropdown a,
+.share-dropdown button {
+  @apply flex items-center gap-3 w-full px-4 py-2.5 text-sm transition-colors text-left;
+  color: var(--color-text-base);
+}
+.share-dropdown a:hover,
+.share-dropdown button:hover {
+  background: var(--color-bg);
+}
+
+/* Gallery & lightbox */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,135 @@
+---
+import { translations } from '../data/translations.js';
+import { CATEGORIES, USE_CASES } from '../data/categories.js';
+const t = translations.en;
+
+interface Props {
+  manufacturers: string[];
+}
+
+const { manufacturers } = Astro.props;
+---
+
+<section class="py-6 bg-bg" id="filtersSection">
+  <div class="max-w-7xl mx-auto px-4 space-y-4">
+    <!-- Search bar -->
+    <div class="relative">
+      <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-text-muted"></i>
+      <input
+        type="search"
+        id="searchInput"
+        class="w-full pl-11 pr-4 py-3 rounded-xl text-sm bg-surface border border-border text-text-base placeholder:text-text-muted focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
+        data-i18n-placeholder="search.placeholder"
+        placeholder={t['search.placeholder']}
+        autocomplete="off"
+      />
+    </div>
+
+    <!-- Use-case pills -->
+    <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-hide" id="useCasePills">
+      {USE_CASES.map(uc => (
+        <button
+          class="usecase-pill shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold border border-border bg-surface text-text-secondary hover:border-current transition-all"
+          data-usecase={uc.id}
+          data-i18n={uc.i18nKey}
+          style={`--uc-color: ${uc.color}`}
+        >
+          <i class={`fas ${uc.icon} text-[0.65rem]`}></i>
+          <span>{t[uc.i18nKey] || uc.id}</span>
+        </button>
+      ))}
+    </div>
+
+    <!-- Category pills (mobile only) -->
+    <div class="flex md:hidden gap-2 overflow-x-auto pb-1 scrollbar-hide" id="mobileCategoryPills">
+      <button class="category-pill active shrink-0" data-category="all" data-i18n="nav.all">{t['nav.all']}</button>
+      {CATEGORIES.map(cat => (
+        <button class="category-pill shrink-0" data-category={cat.id} data-i18n={`nav.${cat.id}`}>{t[`nav.${cat.id}`]}</button>
+      ))}
+    </div>
+
+    <!-- Filter row -->
+    <div class="flex flex-wrap items-center gap-2">
+      <!-- Manufacturer dropdown -->
+      <select id="manufacturerFilter" class="text-sm rounded-lg px-3 py-2 bg-surface border border-border text-text-base cursor-pointer" aria-label="Manufacturer">
+        <option value="" data-i18n="filters.all">{t['filters.all']}</option>
+        {manufacturers.map(m => <option value={m}>{m}</option>)}
+      </select>
+
+      <!-- Price pills -->
+      <button class="price-pill" data-price="low" data-i18n="filters.price.low">{t['filters.price.low']}</button>
+      <button class="price-pill" data-price="medium" data-i18n="filters.price.medium">{t['filters.price.medium']}</button>
+      <button class="price-pill" data-price="high" data-i18n="filters.price.high">{t['filters.price.high']}</button>
+      <button class="price-pill" data-price="request" data-i18n="filters.price.request">{t['filters.price.request']}</button>
+
+      <!-- Size pills -->
+      <span class="text-xs font-medium text-text-muted uppercase tracking-wider" data-i18n="filter.size">{t['filter.size'] || 'Size'}</span>
+      <button class="filter-pill" data-size="verysmall" data-i18n="filter.size.verySmall">{t['filter.size.verySmall'] || 'Very Small'}</button>
+      <button class="filter-pill" data-size="small" data-i18n="filter.size.small">{t['filter.size.small'] || 'Small'}</button>
+      <button class="filter-pill" data-size="medium" data-i18n="filter.size.medium">{t['filter.size.medium'] || 'Medium'}</button>
+      <button class="filter-pill" data-size="large" data-i18n="filter.size.large">{t['filter.size.large'] || 'Large'}</button>
+
+      <!-- Sort dropdown -->
+      <select id="sortFilter" class="text-sm rounded-lg px-3 py-2 bg-surface border border-border text-text-base cursor-pointer ml-auto" aria-label="Sort">
+        <option value="" data-i18n="filters.sort.default">{t['filters.sort.default']}</option>
+        <option value="name" data-i18n="filters.sort.name">{t['filters.sort.name']}</option>
+        <option value="manufacturer" data-i18n="filters.sort.manufacturer">{t['filters.sort.manufacturer']}</option>
+        <option value="price" data-i18n="filters.sort.price">{t['filters.sort.price'] || 'Price'}</option>
+      </select>
+
+      <!-- Advanced toggle -->
+      <button id="advancedToggle" class="text-sm text-primary hover:text-primary-dark font-medium transition-colors" data-i18n="filters.advanced">
+        + {t['filters.advanced']}
+      </button>
+
+      <!-- Reset -->
+      <button id="resetFilters" class="text-sm text-text-muted hover:text-danger font-medium transition-colors" data-i18n="filters.reset">
+        {t['filters.reset']}
+      </button>
+    </div>
+
+    <!-- Active filter chips -->
+    <div id="activeFilters" class="flex flex-wrap gap-2 empty:hidden"></div>
+
+    <!-- Advanced filters (hidden by default) -->
+    <div id="advancedFilters" class="hidden grid grid-cols-2 md:grid-cols-4 gap-3 p-4 rounded-xl bg-surface border border-border">
+      <!-- Weight -->
+      <div>
+        <label class="text-xs font-medium text-text-muted uppercase tracking-wider mb-1.5 block" data-i18n="spec.weight">Weight</label>
+        <select id="weightFilter" class="w-full text-sm rounded-lg px-3 py-2 bg-bg border border-border text-text-base">
+          <option value="" data-i18n="filters.all">{t['filters.all']}</option>
+          <option value="light" data-i18n="filters.weight.light">{t['filters.weight.light']}</option>
+          <option value="medium" data-i18n="filters.weight.medium">{t['filters.weight.medium']}</option>
+          <option value="heavy" data-i18n="filters.weight.heavy">{t['filters.weight.heavy']}</option>
+        </select>
+      </div>
+      <!-- Battery -->
+      <div>
+        <label class="text-xs font-medium text-text-muted uppercase tracking-wider mb-1.5 block" data-i18n="spec.batteryLife">Battery</label>
+        <select id="batteryFilter" class="w-full text-sm rounded-lg px-3 py-2 bg-bg border border-border text-text-base">
+          <option value="" data-i18n="filters.all">{t['filters.all']}</option>
+          <option value="short" data-i18n="filters.battery.short">{t['filters.battery.short']}</option>
+          <option value="medium" data-i18n="filters.battery.medium">{t['filters.battery.medium']}</option>
+          <option value="long" data-i18n="filters.battery.long">{t['filters.battery.long']}</option>
+        </select>
+      </div>
+      <!-- IP Rating -->
+      <div>
+        <label class="text-xs font-medium text-text-muted uppercase tracking-wider mb-1.5 block" data-i18n="spec.ipRating">IP Rating</label>
+        <select id="ipRatingFilter" class="w-full text-sm rounded-lg px-3 py-2 bg-bg border border-border text-text-base">
+          <option value="" data-i18n="filters.all">{t['filters.all']}</option>
+          <option value="any" data-i18n="filters.ip.any">{t['filters.ip.any'] || 'Any IP Rating'}</option>
+        </select>
+      </div>
+      <!-- Has Video -->
+      <div>
+        <label class="text-xs font-medium text-text-muted uppercase tracking-wider mb-1.5 block" data-i18n="spec.video">{t['spec.video'] || 'Video'}</label>
+        <select id="videoFilter" class="w-full text-sm rounded-lg px-3 py-2 bg-bg border border-border text-text-base">
+          <option value="" data-i18n="filters.all">{t['filters.all']}</option>
+          <option value="yes" data-i18n="filters.video">{t['filters.video'] || 'Has Video'}</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</section>
+
