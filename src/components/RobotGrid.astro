@@ -1,0 +1,28 @@
+---
+import RobotCard from './RobotCard.astro';
+
+interface Props {
+  robots: Record<string, string>[];
+}
+
+const { robots } = Astro.props;
+---
+
+<section class="py-8" aria-label="Robot catalog" id="robotGrid">
+  <div class="max-w-7xl mx-auto px-4">
+    <div
+      id="robotsGrid"
+      class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
+      role="list"
+    >
+      {robots.map(robot => <RobotCard robot={robot} />)}
+    </div>
+
+    <div id="noResults" class="hidden text-center py-16">
+      <i class="fas fa-search text-4xl text-text-muted mb-4"></i>
+      <p class="text-text-secondary" data-i18n="results.empty">No results found. Please try different search criteria.</p>
+    </div>
+
+    <div id="pagination" class="pagination"></div>
+  </div>
+</section>

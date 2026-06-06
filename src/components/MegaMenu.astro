@@ -1,0 +1,176 @@
+---
+import { CATEGORIES, CATEGORY_COLORS } from '../data/categories.js';
+import { getAllRobots } from '../data/robots.js';
+import { matchesSubcategoryFilter } from '../data/subcategory-filters.js';
+import { translations } from '../data/translations.js';
+
+const t = translations.en;
+const { allRobots } = getAllRobots();
+
+// Compute subcategory counts at build time
+const panelData = CATEGORIES.map((cat) => {
+  const catRobots = allRobots.filter((r) => r.category === cat.id);
+  const subcategories = (cat.subcategories || []).map((sub) => {
+    const count = catRobots.filter((r) => matchesSubcategoryFilter(r, sub.filter)).length;
+    return { ...sub, count };
+  });
+  return { ...cat, totalCount: catRobots.length, subcategories };
+});
+---
+
+<div class="mega-menu absolute left-0 right-0 top-full z-29" id="megaMenu" role="region" aria-label="Category navigation">
+  <!-- Subtle circuit-board grid background -->
+  <div class="mega-menu-bg absolute inset-0"></div>
+
+  {panelData.map((cat) => (
+    <div
+      class="mega-panel relative max-w-7xl mx-auto px-4 py-6"
+      data-panel={cat.id}
+      hidden
+      role="tabpanel"
+      aria-labelledby={`megatab-${cat.id}`}
+      style={`--cat-accent: ${CATEGORY_COLORS[cat.id] || '#2563eb'}`}
+    >
+      <!-- Panel header -->
+      <div class="flex items-center justify-between mb-5 pb-3 border-b border-white/10 dark:border-white/5">
+        <div class="flex items-center gap-3">
+          <div class="mega-cat-icon w-10 h-10 rounded-xl flex items-center justify-center text-white text-lg">
+            <i class={`fas ${cat.icon}`}></i>
+          </div>
+          <div>
+            <span class="font-heading text-base font-bold text-text-base tracking-wide" data-i18n={`nav.${cat.id}`}>
+              {t[`nav.${cat.id}`]}
+            </span>
+            <span class="block text-xs text-text-muted mt-0.5">
+              {cat.totalCount} <span data-i18n="mega.robots">{t['mega.robots']}</span>
+            </span>
+          </div>
+        </div>
+        <button
+          class="mega-view-all group inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-all cursor-pointer border-none"
+          data-category={cat.id}
+          data-i18n="mega.viewAll"
+        >
+          {t['mega.viewAll']}
+          <i class="fas fa-arrow-right text-xs transition-transform group-hover:translate-x-0.5"></i>
+        </button>
+      </div>
+
+      <!-- Subcategory grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+        {cat.subcategories.map((sub) => (
+          <button
+            class="mega-subcategory group relative flex flex-col items-start px-4 py-3.5 rounded-xl text-left transition-all cursor-pointer border"
+            data-subcategory={sub.id}
+            data-subcategory-category={cat.id}
+          >
+            <span class="text-sm font-bold text-text-base group-hover:text-white transition-colors" data-i18n={sub.i18nKey}>
+              {t[sub.i18nKey] || sub.id}
+            </span>
+            <span class="text-xs mt-1 text-text-muted group-hover:text-white/70 transition-colors" data-i18n={sub.detailKey}>
+              {t[sub.detailKey] || ''}
+            </span>
+            <span class="mega-subcategory-count text-xs font-bold mt-2 tabular-nums">{sub.count}</span>
+            <!-- Hover glow -->
+            <div class="mega-subcategory-glow absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity -z-10"></div>
+          </button>
+        ))}
+      </div>
+    </div>
+  ))}
+</div>
+
+<style>
+  /* Mega menu container - glass effect */
+  .mega-menu {
+    opacity: 0;
+    transform: translateY(-8px);
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.16, 1, 0.3, 1), transform 250ms cubic-bezier(0.16, 1, 0.3, 1);
+    backdrop-filter: blur(20px) saturate(180%);
+    background: rgba(255, 255, 255, 0.88);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+  :global(.dark) .mega-menu {
+    background: rgba(15, 23, 42, 0.92);
+    border-bottom-color: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 1px rgba(255, 255, 255, 0.1);
+  }
+  .mega-menu:global(.open) {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  /* Subtle grid background pattern */
+  .mega-menu-bg {
+    background-image:
+      linear-gradient(rgba(37, 99, 235, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(37, 99, 235, 0.03) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+  }
+  :global(.dark) .mega-menu-bg {
+    background-image:
+      linear-gradient(rgba(37, 99, 235, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(37, 99, 235, 0.06) 1px, transparent 1px);
+  }
+
+  /* Category icon badge with accent color glow */
+  .mega-cat-icon {
+    background: var(--cat-accent);
+    box-shadow: 0 2px 12px color-mix(in srgb, var(--cat-accent) 40%, transparent);
+  }
+
+  /* View All button */
+  .mega-view-all {
+    color: var(--cat-accent);
+    background: color-mix(in srgb, var(--cat-accent) 8%, transparent);
+  }
+  .mega-view-all:hover {
+    background: color-mix(in srgb, var(--cat-accent) 15%, transparent);
+  }
+
+  /* Subcategory cards */
+  .mega-subcategory {
+    background: var(--color-surface);
+    border-color: var(--color-border);
+    border-left: 3px solid var(--cat-accent);
+  }
+  .mega-subcategory:hover {
+    background: var(--cat-accent);
+    border-color: var(--cat-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--cat-accent) 30%, transparent);
+  }
+  :global(.dark) .mega-subcategory {
+    background: rgba(30, 41, 59, 0.6);
+  }
+  :global(.dark) .mega-subcategory:hover {
+    background: var(--cat-accent);
+  }
+
+  /* Count badge uses accent */
+  .mega-subcategory-count {
+    color: var(--cat-accent);
+  }
+  .mega-subcategory:hover .mega-subcategory-count {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  /* Subtle glow layer on hover */
+  .mega-subcategory-glow {
+    background: radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--cat-accent) 15%, transparent), transparent 70%);
+  }
+
+  /* Staggered fade-up animation */
+  @keyframes megaFadeUp {
+    from { opacity: 0; transform: translateY(10px) scale(0.97); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  .mega-subcategory:global(.mega-fade-up) {
+    animation: megaFadeUp 300ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0;
+  }
+</style>

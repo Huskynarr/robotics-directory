@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { translations } from '../data/translations.js';
+import { SITE_NAME } from '../config/site.js';
+import '../styles/global.css';
+
+const t = translations.en;
+---
+
+<Base title={`Page Not Found | ${SITE_NAME}`}>
+  <Header />
+  <main class="flex-1 flex items-center justify-center py-20">
+    <div class="text-center px-4">
+      <div class="text-8xl font-heading font-bold text-primary/20 mb-4">404</div>
+      <h1 class="text-2xl font-heading font-semibold text-text-base mb-3" data-i18n="notfound.title">{t['notfound.title']}</h1>
+      <p class="text-text-secondary mb-8" data-i18n="notfound.message">{t['notfound.message']}</p>
+      <a href="/" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-white font-medium hover:bg-primary-dark transition-colors">
+        <i class="fas fa-arrow-left"></i>
+        <span data-i18n="notfound.back">{t['notfound.back']}</span>
+      </a>
+    </div>
+  </main>
+  <Footer />
+  <script>
+    import '../scripts/i18n.js';
+    import '../scripts/dark-mode.js';
+  </script>
+</Base>

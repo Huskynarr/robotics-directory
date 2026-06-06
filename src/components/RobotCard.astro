@@ -1,0 +1,38 @@
+---
+import { resolveImagePath, formatPrice } from '../utils/format.js';
+import { translations } from '../data/translations.js';
+
+interface Props {
+  robot: Record<string, string>;
+}
+
+const { robot } = Astro.props;
+const t = translations.en;
+const imagePath = resolveImagePath(robot.image);
+const formattedPrice = formatPrice(robot.price, 'en', (k, fb) => fb || k);
+const detailUrl = `/robot/${robot.id}/`;
+---
+
+<a href={detailUrl} class="robot-card block no-underline" data-category={robot.category} data-robot-id={robot.id} role="listitem">
+  <div class="card-image">
+    <span class="category-badge" data-i18n={`nav.${robot.category}`}>{t[`nav.${robot.category}`] || robot.category}</span>
+    <button class="favorite-btn" data-robot-id={robot.id} aria-label="Add to favorites" type="button">
+      <i class="far fa-heart"></i>
+    </button>
+    <img src={imagePath} alt={`${robot.model} by ${robot.manufacturer}`} loading="lazy" width="400" height="300" />
+  </div>
+  <div class="card-info">
+    <h3>{robot.model}</h3>
+    <p class="manufacturer">{robot.manufacturer}</p>
+    <p class="price" data-raw-price={robot.price}>{formattedPrice}</p>
+  </div>
+</a>
+
+<script>
+  document.addEventListener('error', (e) => {
+    const target = e.target;
+    if (target instanceof HTMLImageElement && target.closest('.robot-card') && target.src !== window.location.origin + '/images/image-not-found.webp') {
+      target.src = '/images/image-not-found.webp';
+    }
+  }, true);
+</script>

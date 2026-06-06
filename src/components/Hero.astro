@@ -1,0 +1,53 @@
+---
+import { translations } from '../data/translations.js';
+import { getAllRobots } from '../data/robots.js';
+import { CATEGORIES } from '../data/categories.js';
+
+const t = translations.en;
+const { allRobots } = getAllRobots();
+const robotCount = allRobots.length;
+const categoryCount = CATEGORIES.length;
+const languageCount = Object.keys(translations).length;
+---
+
+<section class="relative overflow-hidden py-14 md:py-18">
+  <!-- Gradient background - catalog-specific warm blue -->
+  <div class="absolute inset-0 bg-gradient-to-br from-primary-dark via-primary to-accent opacity-95"></div>
+  <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent_60%)]"></div>
+  <!-- Circuit grid overlay for tech feel -->
+  <div class="absolute inset-0 opacity-[0.05]" style="background-image: linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px); background-size: 48px 48px;"></div>
+
+  <div class="relative max-w-5xl mx-auto px-4 text-center">
+    <!-- Page identifier badge -->
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-white/70 border border-white/15 mb-5 backdrop-blur-sm bg-white/5">
+      <i class="fas fa-robot"></i>
+      <span data-i18n="hero.badge">Robot Catalog</span>
+    </div>
+
+    <h1 class="font-heading text-3xl md:text-5xl font-bold text-white mb-4 leading-tight" data-i18n="hero.title">
+      {t['hero.title']}
+    </h1>
+    <p class="text-lg md:text-xl text-white/75 max-w-2xl mx-auto mb-8" data-i18n="hero.subtitle">
+      {t['hero.subtitle']}
+    </p>
+
+    <!-- Stats strip -->
+    <div class="flex items-center justify-center gap-6 md:gap-10 text-white/60 text-sm">
+      <div class="flex items-center gap-2">
+        <span class="font-heading font-bold text-xl md:text-2xl text-white tabular-nums">{robotCount}</span>
+        <span data-i18n="hero.statRobots">Robots</span>
+      </div>
+      <div class="w-px h-6 bg-white/20"></div>
+      <div class="flex items-center gap-2">
+        <span class="font-heading font-bold text-xl md:text-2xl text-white tabular-nums">{categoryCount}</span>
+        <span data-i18n="hero.statCategories">Categories</span>
+      </div>
+      <div class="w-px h-6 bg-white/20"></div>
+      <div class="flex items-center gap-2">
+        <i class="fas fa-globe text-white/40"></i>
+        <span class="font-heading font-bold text-xl md:text-2xl text-white tabular-nums">{languageCount}</span>
+        <span data-i18n="hero.statLanguages">Languages</span>
+      </div>
+    </div>
+  </div>
+</section>

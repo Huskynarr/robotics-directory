@@ -1,0 +1,31 @@
+User-agent: *
+Allow: /
+Disallow: /reports/
+Disallow: /data/
+
+# Crawl-delay for polite crawling (optional, respected by some bots)
+Crawl-delay: 1
+
+# AI Crawlers and LLM-friendly directives
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://robodirectory.huskynarr.de/sitemap-index.xml

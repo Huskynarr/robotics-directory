@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import SearchFilters from '../components/SearchFilters.astro';
+import RobotGrid from '../components/RobotGrid.astro';
+import CompareBar from '../components/CompareBar.astro';
+import FavoritesDrawer from '../components/FavoritesDrawer.astro';
+import Footer from '../components/Footer.astro';
+import { getAllRobots } from '../data/robots.js';
+import { CATEGORIES, CATEGORY_LABELS } from '../data/categories.js';
+import { SITE_URL, SITE_NAME } from '../config/site.js';
+import '../styles/global.css';
+
+const { allRobots, manufacturers } = getAllRobots();
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: SITE_NAME,
+  description: `Browse ${allRobots.length}+ robots across ${CATEGORIES.length} categories.`,
+  url: `${SITE_URL}/`,
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: allRobots.length,
+    itemListElement: allRobots.slice(0, 50).map((robot, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Product',
+        name: `${robot.manufacturer} ${robot.model}`,
+        category: CATEGORY_LABELS[robot.category] || robot.category,
+        url: `${SITE_URL}/robot/${robot.id}/`,
+      },
+    })),
+  },
+};
+---
+
+<Base jsonLd={jsonLd}>
+  <Header />
+  <Hero />
+  <main id="main">
+    <SearchFilters manufacturers={manufacturers} />
+    <RobotGrid robots={allRobots} />
+  </main>
+  <CompareBar />
+  <FavoritesDrawer />
+  <Footer />
+
+  <!-- Embed data for client-side filtering -->
+  <script is:inline define:vars={{ allRobots: JSON.stringify(allRobots) }}>
+    document.body.setAttribute('data-catalog-page', '');
+    window.__ROBOTS_DATA__ = JSON.parse(allRobots);
+  </script>
+
+  <script>
+    import '../scripts/catalog.js';
+    import '../scripts/mega-menu.js';
+    import '../scripts/i18n.js';
+    import '../scripts/dark-mode.js';
+    import '../scripts/favorites.js';
+    import '../scripts/compare.js';
+  </script>
+</Base>
