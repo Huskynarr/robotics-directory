@@ -75,6 +75,8 @@ const { manufacturers } = Astro.props;
         <option value="name" data-i18n="filters.sort.name">{t['filters.sort.name']}</option>
         <option value="manufacturer" data-i18n="filters.sort.manufacturer">{t['filters.sort.manufacturer']}</option>
         <option value="price" data-i18n="filters.sort.price">{t['filters.sort.price'] || 'Price'}</option>
+        <option value="price-desc" data-i18n="filters.sort.priceDesc">{t['filters.sort.priceDesc'] || 'Price ↓'}</option>
+        <option value="weight" data-i18n="spec.weight">{t['spec.weight'] || 'Weight'}</option>
       </select>
 
       <!-- Advanced toggle -->

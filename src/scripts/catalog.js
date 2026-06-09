@@ -425,16 +425,21 @@ function applyFilters() {
   robots = applyAdvancedFilters(robots);
 
   if (currentSort) {
+    const dir = currentSort === 'price-desc' ? -1 : 1;
     const val = (r) => {
       switch (currentSort) {
         case 'name': return r.model.toLowerCase();
         case 'manufacturer': return r.manufacturer.toLowerCase();
         case 'price': return getPriceValue(r.price);
+        case 'price-desc': {
+          const v = getPriceValue(r.price);
+          return v === Infinity ? -Infinity : v; // unknown prices last in descending order
+        }
         case 'weight': return parseFloat(r.weight) || Infinity;
         default: return 0;
       }
     };
-    robots.sort((a, b) => { const va = val(a), vb = val(b); return va < vb ? -1 : va > vb ? 1 : 0; });
+    robots.sort((a, b) => { const va = val(a), vb = val(b); return va < vb ? -dir : va > vb ? dir : 0; });
   }
 
   filteredRobots = robots;
