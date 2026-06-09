@@ -8,7 +8,7 @@ import CompareBar from '../../components/CompareBar.astro';
 import FavoritesDrawer from '../../components/FavoritesDrawer.astro';
 import Footer from '../../components/Footer.astro';
 import { getAllRobots } from '../../data/robots.js';
-import { resolveImagePath, formatPrice, extractYouTubeId, parseGallery } from '../../utils/format.js';
+import { resolveImagePath, formatPrice, extractYouTubeId, parseGallery, getPriceValue } from '../../utils/format.js';
 import { CATEGORIES, CATEGORY_LABELS, CATEGORY_COLORS } from '../../data/categories.js';
 import { translations } from '../../data/translations.js';
 import { SITE_URL, SITE_NAME } from '../../config/site.js';
@@ -40,14 +40,26 @@ const pageDesc = robot.description && robot.description.trim() && robot.descript
   ? robot.description
   : `${robot.manufacturer} ${robot.model} - ${catLabel}. View specifications, images and compare with other robots.`;
 const catColor = CATEGORY_COLORS[robot.category] || '#2563eb';
+const ogImage = robot.image && !robot.image.includes('image-not-found')
+  ? `${SITE_URL}${resolveImagePath(robot.image)}`
+  : undefined;
 
-// Related robots: same category, exclude self, max 4
-const related = allRobots
-  .filter(r => r.category === robot.category && r.id !== robot.id)
-  .slice(0, 4);
+// Related robots: prefer same manufacturer, then same category by price proximity, max 4
+const ownPrice = getPriceValue(robot.price);
+const sameCategory = allRobots.filter(r => r.category === robot.category && r.id !== robot.id);
+const sameManufacturer = sameCategory.filter(r => r.manufacturer === robot.manufacturer);
+const others = sameCategory
+  .filter(r => r.manufacturer !== robot.manufacturer)
+  .sort((a, b) => {
+    if (ownPrice === Infinity) return 0;
+    const da = Math.abs(getPriceValue(a.price) - ownPrice);
+    const db = Math.abs(getPriceValue(b.price) - ownPrice);
+    return da - db;
+  });
+const related = [...sameManufacturer, ...others].slice(0, 4);
 ---
 
-<Base title={pageTitle} description={pageDesc} canonical={pageUrl}>
+<Base title={pageTitle} description={pageDesc} canonical={pageUrl} ogImage={ogImage}>
   <SEOHead robot={robot} />
   <Header />
 

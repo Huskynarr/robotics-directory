@@ -10,7 +10,9 @@ const { robot } = Astro.props;
 
 const name = `${robot.manufacturer} ${robot.model}`;
 const catLabel = CATEGORY_LABELS[robot.category] || robot.category;
-const description = `${name} - ${catLabel} by ${robot.manufacturer}. View specs, images and compare with other robots.`;
+const description = robot.description && robot.description.trim() && robot.description !== 'N/A'
+  ? `${name} - ${catLabel}: ${robot.description}`
+  : `${name} - ${catLabel} by ${robot.manufacturer}. View specs, images and compare with other robots.`;
 const url = `${SITE_URL}/robot/${robot.id}/`;
 
 const imageUrl = robot.image && robot.image !== 'images/image-not-found.webp'
@@ -30,6 +32,37 @@ const jsonLd: Record<string, unknown> = {
 if (imageUrl) jsonLd.image = imageUrl;
 if (robot.website) jsonLd.sameAs = robot.website;
 
+// Expose key specs as structured product properties
+const SPEC_PROPS: Array<{ key: string; name: string }> = [
+  { key: 'weight', name: 'Weight' },
+  { key: 'size', name: 'Size' },
+  { key: 'batteryLife', name: 'Battery life' },
+  { key: 'maxRuntime', name: 'Max runtime' },
+  { key: 'dof', name: 'Degrees of freedom' },
+  { key: 'payload', name: 'Payload' },
+  { key: 'speed', name: 'Max speed' },
+  { key: 'ipRating', name: 'IP rating' },
+  { key: 'terrain', name: 'Terrain' },
+];
+const additionalProperty = SPEC_PROPS
+  .filter(({ key }) => robot[key] && robot[key].trim() && !robot[key].trim().startsWith('N/A'))
+  .map(({ key, name: propName }) => ({
+    '@type': 'PropertyValue',
+    name: propName,
+    value: robot[key].trim(),
+  }));
+if (additionalProperty.length > 0) jsonLd.additionalProperty = additionalProperty;
+
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+    { '@type': 'ListItem', position: 2, name: catLabel, item: `${SITE_URL}/?category=${robot.category}` },
+    { '@type': 'ListItem', position: 3, name, item: url },
+  ],
+};
+
 // Add offers if price is numeric
 if (robot.price && !/not disclosed|on request|prototype|discontinued/i.test(robot.price)) {
   const priceMatch = robot.price.match(/([\d,.\s]+)\s*(USD|EUR)?/i);
@@ -48,3 +81,4 @@ if (robot.price && !/not disclosed|on request|prototype|discontinued/i.test(robo
 ---
 
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd).replace(/</g, '\\u003c')} />
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd).replace(/</g, '\\u003c')} />
