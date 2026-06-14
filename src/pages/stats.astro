@@ -1,0 +1,249 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { getAllRobots } from '../data/robots.js';
+import { CATEGORIES, CATEGORY_LABELS, CATEGORY_COLORS } from '../data/categories.js';
+import { getPriceValue } from '../utils/format.js';
+import { SITE_URL, SITE_NAME } from '../config/site.js';
+import '../styles/global.css';
+
+const { allRobots, robotsByCategory, manufacturers } = getAllRobots();
+
+const total = allRobots.length;
+const manufacturerCount = manufacturers.length;
+const withImage = allRobots.filter((r) => (r.image || '').trim()).length;
+const withPrice = allRobots.filter((r) => getPriceValue(r.price) !== Infinity).length;
+const imagePct = Math.round((withImage / total) * 100);
+const pricePct = Math.round((withPrice / total) * 100);
+
+// By category (sorted desc), with colour + icon
+const byCategory = CATEGORIES.map((cat) => ({
+  id: cat.id,
+  label: CATEGORY_LABELS[cat.id] || cat.id,
+  icon: cat.icon,
+  color: CATEGORY_COLORS[cat.id] || '#2563eb',
+  count: (robotsByCategory[cat.id] || []).length,
+})).sort((a, b) => b.count - a.count);
+const maxCat = Math.max(...byCategory.map((c) => c.count));
+
+// Top manufacturers
+const mfrCounts = {};
+for (const r of allRobots) mfrCounts[r.manufacturer] = (mfrCounts[r.manufacturer] || 0) + 1;
+const topManufacturers = Object.entries(mfrCounts)
+  .map(([name, count]) => ({ name, count }))
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+  .slice(0, 20);
+const maxMfr = Math.max(...topManufacturers.map((m) => m.count));
+const soloManufacturers = Object.values(mfrCounts).filter((c) => c === 1).length;
+
+// Price distribution
+const prices = allRobots.map((r) => getPriceValue(r.price)).filter((v) => v !== Infinity && v > 0);
+prices.sort((a, b) => a - b);
+const median = prices.length ? prices[Math.floor(prices.length / 2)] : 0;
+const cheapest = [...allRobots]
+  .filter((r) => getPriceValue(r.price) > 0 && getPriceValue(r.price) !== Infinity)
+  .sort((a, b) => getPriceValue(a.price) - getPriceValue(b.price))[0];
+const priciest = [...allRobots]
+  .filter((r) => getPriceValue(r.price) !== Infinity)
+  .sort((a, b) => getPriceValue(b.price) - getPriceValue(a.price))[0];
+const usd = (n) => '$' + Math.round(n).toLocaleString('en-US');
+
+const buckets = [
+  { label: '< $300', min: 0, max: 300 },
+  { label: '$300 – $700', min: 300, max: 700 },
+  { label: '$700 – $1,500', min: 700, max: 1500 },
+  { label: '$1,500 – $5,000', min: 1500, max: 5000 },
+  { label: '> $5,000', min: 5000, max: Infinity },
+].map((b) => ({ ...b, count: prices.filter((p) => p >= b.min && p < b.max).length }));
+const maxBucket = Math.max(...buckets.map((b) => b.count));
+
+// Most common capabilities (tags)
+const tagCounts = {};
+for (const r of allRobots) for (const t of r.tagsArray || []) tagCounts[t] = (tagCounts[t] || 0) + 1;
+const topTags = Object.entries(tagCounts)
+  .map(([tag, count]) => ({ tag, count }))
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 24);
+
+const prettyTag = (t) => t.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
+const title = `Robot Statistics & Insights – ${total} robots compared | ${SITE_NAME}`;
+const description = `Data insights across ${total} robots from ${manufacturerCount} manufacturers in ${CATEGORIES.length} categories: counts by category, top makers, price distribution and the most common capabilities.`;
+const canonical = `${SITE_URL}/stats/`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: `${SITE_NAME} – Robot Statistics`,
+  description,
+  url: canonical,
+  creator: { '@type': 'Organization', name: SITE_NAME },
+  variableMeasured: ['robot count', 'manufacturer count', 'price distribution', 'capabilities'],
+};
+
+const kpis = [
+  { value: total.toLocaleString('en-US'), label: 'Robots', i18n: 'stats.kpi.robots', icon: 'fa-robot' },
+  { value: manufacturerCount.toLocaleString('en-US'), label: 'Manufacturers', i18n: 'stats.kpi.manufacturers', icon: 'fa-industry' },
+  { value: String(CATEGORIES.length), label: 'Categories', i18n: 'stats.kpi.categories', icon: 'fa-layer-group' },
+  { value: imagePct + '%', label: 'With photo', i18n: 'stats.kpi.images', icon: 'fa-image' },
+];
+---
+
+<Base title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
+  <Header />
+  <main id="main" class="max-w-7xl mx-auto px-4 py-8">
+    <!-- Heading -->
+    <div class="mb-8">
+      <nav class="text-sm text-text-muted mb-2">
+        <a href="/" class="hover:text-primary transition-colors" data-i18n="nav.home">Home</a>
+        <span class="mx-1">/</span>
+        <span data-i18n="stats.title">Statistics</span>
+      </nav>
+      <h1 class="font-heading text-2xl md:text-3xl font-bold text-text-base mb-2" data-i18n="stats.heading">
+        Robot Directory in Numbers
+      </h1>
+      <p class="text-text-secondary max-w-2xl" data-i18n="stats.intro">
+        Live insights across the whole catalog — generated at build time from {total} robot entries.
+      </p>
+    </div>
+
+    <!-- KPI cards -->
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+      {kpis.map((k) => (
+        <div class="bg-surface border border-border rounded-xl p-5 flex flex-col gap-1">
+          <i class={`fas ${k.icon} text-primary text-lg mb-1`}></i>
+          <span class="text-3xl font-bold text-text-base tabular-nums">{k.value}</span>
+          <span class="text-sm text-text-secondary" data-i18n={k.i18n}>{k.label}</span>
+        </div>
+      ))}
+    </section>
+
+    <!-- By category -->
+    <section class="mb-12">
+      <h2 class="font-heading text-xl font-semibold text-text-base mb-4" data-i18n="stats.byCategory">Robots by category</h2>
+      <div class="bg-surface border border-border rounded-xl p-5 space-y-3">
+        {byCategory.map((c) => (
+          <a href={`/?category=${c.id}`} class="group flex items-center gap-3 no-underline">
+            <span class="w-32 shrink-0 flex items-center gap-2 text-sm text-text-base">
+              <i class={`fas ${c.icon}`} style={`color:${c.color}`}></i>
+              <span data-i18n={`nav.${c.id}`}>{c.label}</span>
+            </span>
+            <span class="flex-1 h-6 rounded bg-bg overflow-hidden">
+              <span class="block h-full rounded transition-all group-hover:opacity-80" style={`width:${Math.round((c.count / maxCat) * 100)}%;background:${c.color}`}></span>
+            </span>
+            <span class="w-12 text-right text-sm font-semibold text-text-base tabular-nums">{c.count}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- Two column: manufacturers + price -->
+    <div class="grid lg:grid-cols-2 gap-8 mb-12">
+      <!-- Top manufacturers -->
+      <section>
+        <h2 class="font-heading text-xl font-semibold text-text-base mb-4" data-i18n="stats.topMakers">Top manufacturers</h2>
+        <div class="bg-surface border border-border rounded-xl p-5 space-y-2.5">
+          {topManufacturers.map((m, i) => (
+            <a href={`/?mfr=${encodeURIComponent(m.name)}`} class="group flex items-center gap-3 no-underline">
+              <span class="w-5 text-right text-xs text-text-muted tabular-nums">{i + 1}</span>
+              <span class="w-36 shrink-0 truncate text-sm text-text-base" title={m.name}>{m.name}</span>
+              <span class="flex-1 h-4 rounded bg-bg overflow-hidden">
+                <span class="block h-full rounded bg-primary transition-all group-hover:opacity-80" style={`width:${Math.round((m.count / maxMfr) * 100)}%`}></span>
+              </span>
+              <span class="w-8 text-right text-sm font-semibold text-text-base tabular-nums">{m.count}</span>
+            </a>
+          ))}
+        </div>
+        <p class="text-xs text-text-muted mt-2">
+          <span data-i18n="stats.soloNote">Manufacturers with a single model:</span> <strong>{soloManufacturers}</strong>
+        </p>
+      </section>
+
+      <!-- Price distribution -->
+      <section>
+        <h2 class="font-heading text-xl font-semibold text-text-base mb-4" data-i18n="stats.priceDist">Price distribution</h2>
+        <div class="bg-surface border border-border rounded-xl p-5 space-y-3 mb-4">
+          {buckets.map((b) => (
+            <div class="flex items-center gap-3">
+              <span class="w-28 shrink-0 text-sm text-text-secondary">{b.label}</span>
+              <span class="flex-1 h-5 rounded bg-bg overflow-hidden">
+                <span class="block h-full rounded bg-accent transition-all" style={`width:${maxBucket ? Math.round((b.count / maxBucket) * 100) : 0}%`}></span>
+              </span>
+              <span class="w-10 text-right text-sm font-semibold text-text-base tabular-nums">{b.count}</span>
+            </div>
+          ))}
+        </div>
+        <div class="grid grid-cols-3 gap-3">
+          <div class="bg-surface border border-border rounded-xl p-3 text-center">
+            <div class="text-xs text-text-muted mb-0.5" data-i18n="stats.median">Median</div>
+            <div class="text-lg font-bold text-text-base">{usd(median)}</div>
+          </div>
+          {cheapest && (
+            <a href={`/robot/${cheapest.id}/`} class="bg-surface border border-border rounded-xl p-3 text-center no-underline hover:border-primary transition-colors">
+              <div class="text-xs text-text-muted mb-0.5" data-i18n="stats.cheapest">Cheapest</div>
+              <div class="text-lg font-bold text-text-base">{usd(getPriceValue(cheapest.price))}</div>
+              <div class="text-[11px] text-text-muted truncate">{cheapest.manufacturer} {cheapest.model}</div>
+            </a>
+          )}
+          {priciest && (
+            <a href={`/robot/${priciest.id}/`} class="bg-surface border border-border rounded-xl p-3 text-center no-underline hover:border-primary transition-colors">
+              <div class="text-xs text-text-muted mb-0.5" data-i18n="stats.priciest">Most expensive</div>
+              <div class="text-lg font-bold text-text-base">{usd(getPriceValue(priciest.price))}</div>
+              <div class="text-[11px] text-text-muted truncate">{priciest.manufacturer} {priciest.model}</div>
+            </a>
+          )}
+        </div>
+        <p class="text-xs text-text-muted mt-2">
+          <span data-i18n="stats.priceNote">Based on</span> {withPrice} <span data-i18n="stats.priceNote2">robots with a listed price ({pricePct}% of all).</span>
+        </p>
+      </section>
+    </div>
+
+    <!-- Capabilities -->
+    <section class="mb-12">
+      <h2 class="font-heading text-xl font-semibold text-text-base mb-4" data-i18n="stats.capabilities">Most common capabilities</h2>
+      <div class="bg-surface border border-border rounded-xl p-5 flex flex-wrap gap-2">
+        {topTags.map((t) => (
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-bg border border-border text-sm text-text-base">
+            {prettyTag(t.tag)}
+            <span class="text-xs font-semibold text-text-muted tabular-nums">{t.count}</span>
+          </span>
+        ))}
+      </div>
+    </section>
+
+    <p class="text-xs text-text-muted text-center" data-i18n="stats.footnote">
+      Counts update automatically whenever the catalog data changes.
+    </p>
+  </main>
+  <Footer />
+
+  <script>
+    import '../scripts/mega-menu.js';
+    import '../scripts/i18n.js';
+    import '../scripts/dark-mode.js';
+  </script>
+
+  <!-- Make header category navigation work from this non-catalog page -->
+  <script is:inline>
+    document.addEventListener('click', (e) => {
+      const sub = e.target.closest('[data-subcategory]');
+      if (sub && sub.dataset.subcategory) {
+        e.preventDefault();
+        window.location.href = '/?sub=' + encodeURIComponent(sub.dataset.subcategory);
+        return;
+      }
+      const viewAll = e.target.closest('.mega-view-all, [data-mobile-viewall]');
+      if (viewAll && viewAll.dataset.category) {
+        e.preventDefault();
+        window.location.href = '/?category=' + encodeURIComponent(viewAll.dataset.category);
+        return;
+      }
+      const allTab = e.target.closest('.mega-tab[data-category="all"]');
+      if (allTab) {
+        e.preventDefault();
+        window.location.href = '/';
+      }
+    });
+  </script>
+</Base>
