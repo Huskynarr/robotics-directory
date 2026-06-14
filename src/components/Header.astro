@@ -68,6 +68,9 @@ const mobileData = CATEGORIES.map((cat) => {
 
     <!-- Desktop controls -->
     <div class="hidden md:flex items-center gap-2 shrink-0">
+      <a href="/stats/" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary" aria-label="Statistics" data-i18n-aria="stats.title" title="Statistics">
+        <i class="fas fa-chart-column"></i>
+      </a>
       <select id="languageSelect" class="text-sm rounded-lg px-2 py-1.5 bg-surface border border-border text-text-base cursor-pointer" aria-label="Language" data-i18n-aria="lang.label">
         {availableLanguages.map(lang => (
           <option value={lang}>{lang.toUpperCase()}</option>
@@ -149,6 +152,11 @@ const mobileData = CATEGORIES.map((cat) => {
     </div>
 
     <hr class="border-border mb-4" />
+
+    <!-- Statistics -->
+    <a href="/stats/" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mb-4 no-underline">
+      <i class="fas fa-chart-column"></i> <span data-i18n="stats.title">Statistics</span>
+    </a>
 
     <!-- Language -->
     <div class="mb-4">
