@@ -71,7 +71,7 @@ const { manufacturers } = Astro.props;
 
       <!-- Sort dropdown -->
       <select id="sortFilter" class="text-sm rounded-lg px-3 py-2 bg-surface border border-border text-text-base cursor-pointer ml-auto" aria-label="Sort">
-        <option value="" data-i18n="filters.sort.default">{t['filters.sort.default']}</option>
+        <option value="newest" data-i18n="filters.sort.newest">{t['filters.sort.newest'] || 'Newest'}</option>
         <option value="name" data-i18n="filters.sort.name">{t['filters.sort.name']}</option>
         <option value="manufacturer" data-i18n="filters.sort.manufacturer">{t['filters.sort.manufacturer']}</option>
         <option value="price" data-i18n="filters.sort.price">{t['filters.sort.price'] || 'Price'}</option>

@@ -21,7 +21,7 @@ COLUMNS = [
     "category", "manufacturer", "model", "price", "weight", "size",
     "batteryLife", "maxRuntime", "tags", "handType", "dof", "payload",
     "speed", "terrain", "ipRating", "ageRange", "website", "image",
-    "video", "gallery", "description",
+    "video", "gallery", "description", "releaseDate",
 ]
 CATEGORIES = ["humanoid", "quadruped", "companion", "cleaning", "outdoor", "educational", "smarthome"]
 
