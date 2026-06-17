@@ -33,7 +33,7 @@ function serializeStateToURL(replace = false) {
   if (currentSubcategory) params.set('sub', currentSubcategory);
   if (currentUseCase) params.set('usecase', currentUseCase);
   if (currentSearch) params.set('q', currentSearch);
-  if (currentSort) params.set('sort', currentSort);
+  if (currentSort && currentSort !== 'newest') params.set('sort', currentSort);
   if (currentPage > 1) params.set('page', String(currentPage));
   if (currentManufacturer) params.set('mfr', currentManufacturer);
   if (currentPrice) params.set('price', currentPrice);
@@ -61,7 +61,7 @@ function restoreStateFromURL() {
   currentSubcategory = params.get('sub') || null;
   currentUseCase = params.get('usecase') || null;
   currentSearch = params.get('q') || '';
-  currentSort = params.get('sort') || '';
+  currentSort = params.get('sort') || 'newest';
   currentManufacturer = params.get('mfr') || '';
   currentPrice = params.get('price') || '';
   currentSize = params.get('size') || '';
@@ -130,7 +130,7 @@ function syncDOMToState() {
 }
 
 function init() {
-  allRobots = window.__ROBOTS_DATA__ || [];
+  allRobots = (window.__ROBOTS_DATA__ || []).map((r, i) => ({ ...r, __idx: i }));
   currentLang = getLang();
 
   restoreStateFromURL();
@@ -424,7 +424,17 @@ function applyFilters() {
 
   robots = applyAdvancedFilters(robots);
 
-  if (currentSort) {
+  if (currentSort === 'newest') {
+    // Newest release year first; robots without a known year fall back to recently-added order.
+    robots.sort((a, b) => {
+      const ya = parseInt(a.releaseDate, 10);
+      const yb = parseInt(b.releaseDate, 10);
+      const va = Number.isFinite(ya) ? ya : -1;
+      const vb = Number.isFinite(yb) ? yb : -1;
+      if (va !== vb) return vb - va;
+      return (b.__idx || 0) - (a.__idx || 0);
+    });
+  } else if (currentSort) {
     const dir = currentSort === 'price-desc' ? -1 : 1;
     const val = (r) => {
       switch (currentSort) {

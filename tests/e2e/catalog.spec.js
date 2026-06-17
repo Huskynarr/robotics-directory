@@ -31,8 +31,9 @@ test.describe('Catalog page', () => {
       const humanoidBtn = page.locator('.mobile-nav-item[data-category="humanoid"]');
       await humanoidBtn.click();
     } else {
-      const humanoidPill = page.locator('[data-category="humanoid"]').first();
-      await humanoidPill.click();
+      // On desktop the mega-tab opens the panel; the "View All" button performs the filter.
+      await page.locator('[data-megatab="humanoid"]').click();
+      await page.locator('.mega-view-all[data-category="humanoid"]').first().click();
     }
 
     await page.waitForTimeout(200);
