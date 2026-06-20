@@ -34,6 +34,7 @@ const UI = {
   viewAll: { en: 'Browse all in the catalog', de: 'Alle im Katalog ansehen' },
   inBudget: { en: 'in budget', de: 'im Budget' },
   forAge: { en: 'right age', de: 'passendes Alter' },
+  recent: { en: 'recent model', de: 'aktuelles Modell' },
   noneTitle: { en: 'No strong matches', de: 'Keine starken Treffer' },
   noneBody: {
     en: 'Try removing a filter or widening your budget.',
@@ -74,7 +75,14 @@ const BUDGET_OPTIONS = [
   { value: 'any', min: 0, max: Infinity, icon: 'fa-infinity', label: { en: 'Budget doesn’t matter', de: 'Budget egal' } },
 ];
 
-// Step 4 — child age, only shown for the educational path
+// Step 3 — how recent the model should be (uses the releaseDate field, ~92% filled)
+const RECENCY_OPTIONS = [
+  { value: 'r1', minYear: 2024, icon: 'fa-bolt', label: { en: 'Latest models', de: 'Neueste Modelle' }, desc: { en: 'Released 2024 or newer', de: 'Erschienen ab 2024' } },
+  { value: 'r2', minYear: 2021, icon: 'fa-clock-rotate-left', label: { en: 'Fairly recent', de: 'Relativ aktuell' }, desc: { en: 'Released 2021 or newer', de: 'Erschienen ab 2021' } },
+  { value: 'any', minYear: null, icon: 'fa-infinity', label: { en: 'Age doesn’t matter', de: 'Alter egal' }, desc: { en: 'Classics welcome too', de: 'Auch Klassiker willkommen' } },
+];
+
+// Step 5 — child age, only shown for the educational path
 const AGE_OPTIONS = [
   { value: 'a1', age: 5, icon: 'fa-baby', label: { en: 'Under 6', de: 'Unter 6' } },
   { value: 'a2', age: 8, icon: 'fa-child', label: { en: '6 – 9 years', de: '6 – 9 Jahre' } },
@@ -156,6 +164,7 @@ const FEATURES = {
 const STEP_META = {
   need: { icon: 'fa-compass', title: { en: 'What should it help with?', de: 'Wobei soll er helfen?' } },
   budget: { icon: 'fa-wallet', title: { en: 'What’s your budget?', de: 'Wie hoch ist dein Budget?' } },
+  recency: { icon: 'fa-bolt', title: { en: 'How recent should it be?', de: 'Wie aktuell soll er sein?' } },
   features: { icon: 'fa-sliders', title: { en: 'What matters most?', de: 'Was ist dir wichtig?' } },
   age: { icon: 'fa-child', title: { en: 'Who is it for?', de: 'Für wen ist er?' } },
 };
@@ -163,19 +172,23 @@ const STEP_META = {
 const FEATURE_WEIGHT = 12;
 const BUDGET_BONUS = 30;
 const AGE_BONUS = 25;
+const RECENCY_BONUS = 20;
 
 let ROBOTS = [];
-const answers = { need: null, budget: null, features: [], age: null };
+const answers = { need: null, budget: null, recency: null, features: [], age: null };
 let index = 0;
 
 function steps() {
-  const s = ['need', 'budget', 'features'];
+  const s = ['need', 'budget', 'recency', 'features'];
   if (answers.need === 'educational') s.push('age');
   return s;
 }
 
 function budgetDef() {
   return BUDGET_OPTIONS.find((b) => b.value === answers.budget) || null;
+}
+function recencyDef() {
+  return RECENCY_OPTIONS.find((r) => r.value === answers.recency) || null;
 }
 function ageDef() {
   return AGE_OPTIONS.find((a) => a.value === answers.age) || null;
@@ -220,6 +233,22 @@ function scoreRobot(r) {
     }
   }
 
+  // Recency (release year)
+  const rec = recencyDef();
+  if (rec && rec.minYear != null) {
+    const y = parseInt(r.releaseDate, 10);
+    if (Number.isFinite(y)) {
+      if (y >= rec.minYear) {
+        score += RECENCY_BONUS;
+        reasons.push({ icon: 'fa-bolt', text: L(UI.recent) });
+      } else {
+        score -= 15;
+      }
+    } else {
+      score -= 5; // unknown year ranks below confirmed-recent models
+    }
+  }
+
   // Age (educational)
   const a = ageDef();
   if (a && a.age != null) {
@@ -241,6 +270,7 @@ function scoreRobot(r) {
 function bestPossible() {
   let max = answers.features.length * FEATURE_WEIGHT;
   if (answers.budget && answers.budget !== 'any') max += BUDGET_BONUS;
+  if (answers.recency && answers.recency !== 'any') max += RECENCY_BONUS;
   if (answers.need === 'educational' && answers.age && answers.age !== 'any') max += AGE_BONUS;
   return max;
 }
@@ -294,6 +324,10 @@ function renderStep() {
   } else if (id === 'budget') {
     optionsHTML = BUDGET_OPTIONS.map((o) => optionButton({
       value: o.value, icon: o.icon, title: L(o.label), selected: answers.budget === o.value,
+    })).join('');
+  } else if (id === 'recency') {
+    optionsHTML = RECENCY_OPTIONS.map((o) => optionButton({
+      value: o.value, icon: o.icon, title: L(o.label), desc: L(o.desc), selected: answers.recency === o.value,
     })).join('');
   } else if (id === 'age') {
     optionsHTML = AGE_OPTIONS.map((o) => optionButton({
@@ -355,6 +389,8 @@ function onOption(stepId, value) {
     answers.need = value;
   } else if (stepId === 'budget') {
     answers.budget = value;
+  } else if (stepId === 'recency') {
+    answers.recency = value;
   } else if (stepId === 'age') {
     answers.age = value;
   }
@@ -443,7 +479,7 @@ function renderResults() {
 }
 
 function restart() {
-  answers.need = null; answers.budget = null; answers.features = []; answers.age = null;
+  answers.need = null; answers.budget = null; answers.recency = null; answers.features = []; answers.age = null;
   index = 0;
   document.getElementById('finderResults').classList.add('hidden');
   document.getElementById('finderWizard').classList.remove('hidden');
