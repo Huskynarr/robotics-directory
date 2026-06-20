@@ -317,7 +317,7 @@ function renderStep() {
 
   // Option clicks
   stepEl().querySelectorAll('.finder-option').forEach((btn) => {
-    btn.addEventListener('click', () => onOption(id, btn.dataset.value, isMulti));
+    btn.addEventListener('click', () => onOption(id, btn.dataset.value));
   });
 
   renderNav(id, isMulti);
@@ -343,7 +343,7 @@ function renderNav(id, isMulti) {
   if (next) next.addEventListener('click', () => { advance(); });
 }
 
-function onOption(stepId, value, isMulti) {
+function onOption(stepId, value) {
   if (stepId === 'features') {
     const i = answers.features.indexOf(value);
     if (i >= 0) answers.features.splice(i, 1); else answers.features.push(value);
