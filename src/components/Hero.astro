@@ -27,9 +27,17 @@ const languageCount = Object.keys(translations).length;
     <h1 class="font-heading text-3xl md:text-5xl font-bold text-white mb-4 leading-tight" data-i18n="hero.title">
       {t['hero.title']}
     </h1>
-    <p class="text-lg md:text-xl text-white/75 max-w-2xl mx-auto mb-8" data-i18n="hero.subtitle">
+    <p class="text-lg md:text-xl text-white/75 max-w-2xl mx-auto mb-7" data-i18n="hero.subtitle">
       {t['hero.subtitle']}
     </p>
+
+    <!-- Guided finder CTA -->
+    <div class="mb-9">
+      <a href="/finder/" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-primary font-semibold text-sm md:text-base shadow-lg hover:bg-white/90 transition-colors no-underline">
+        <i class="fas fa-wand-magic-sparkles"></i>
+        <span data-i18n="hero.finderCta">Find my robot</span>
+      </a>
+    </div>
 
     <!-- Stats strip -->
     <div class="flex items-center justify-center gap-6 md:gap-10 text-white/60 text-sm">
