@@ -20,7 +20,10 @@ test.describe('Robot Finder', () => {
     // Step 2: budget -> any (auto-advances)
     await page.locator('#finderStep .finder-option[data-value="any"]').click();
     await page.waitForTimeout(350);
-    // Step 3: features -> pick mop, then continue
+    // Step 3: recency -> any (auto-advances)
+    await page.locator('#finderStep .finder-option[data-value="any"]').click();
+    await page.waitForTimeout(350);
+    // Step 4: features -> pick mop, then continue
     await page.locator('#finderStep .finder-option[data-value="mop"]').click();
     await page.locator('#finderNext').click();
     await page.waitForTimeout(250);
@@ -39,7 +42,9 @@ test.describe('Robot Finder', () => {
     await page.waitForTimeout(350);
     await page.locator('#finderStep .finder-option[data-value="b5"]').click();
     await page.waitForTimeout(350);
-    await page.locator('#finderSkip').click();
+    await page.locator('#finderStep .finder-option[data-value="r2"]').click(); // recency
+    await page.waitForTimeout(350);
+    await page.locator('#finderSkip').click(); // skip features
     await page.waitForTimeout(250);
     await expect(page.locator('#finderResults')).toBeVisible();
     expect(await page.locator('#finderResults .finder-result').count()).toBeGreaterThan(0);
@@ -48,13 +53,15 @@ test.describe('Robot Finder', () => {
   test('educational path reveals the age question', async ({ page }) => {
     await page.locator('#finderStep .finder-option[data-value="educational"]').click();
     await page.waitForTimeout(350);
-    await page.locator('#finderStep .finder-option[data-value="any"]').click();
+    await page.locator('#finderStep .finder-option[data-value="any"]').click(); // budget
+    await page.waitForTimeout(350);
+    await page.locator('#finderStep .finder-option[data-value="any"]').click(); // recency
     await page.waitForTimeout(350);
     await page.locator('#finderSkip').click(); // skip features
     await page.waitForTimeout(250);
     // Age step should now be visible (child age icons)
     const label = await page.locator('#finderProgressLabel').textContent();
-    expect(label).toMatch(/4|of|von/);
+    expect(label).toMatch(/5|of|von/);
     const ageOptions = page.locator('#finderStep .finder-option');
     await expect(ageOptions.first()).toBeVisible();
     await ageOptions.first().click();
