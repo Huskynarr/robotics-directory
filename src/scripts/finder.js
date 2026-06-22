@@ -53,16 +53,18 @@ const CAT_LABELS = {
   smarthome: { en: 'Smart home', de: 'Smart Home' },
 };
 
-// Step 1 — what the robot is for (maps to category, or "any")
+// Step 1 — what kind of robot you're after (maps to category, or "any").
+// Ordered humanoid-first: humanoids and other "real" robots lead; home-helper
+// appliances (cleaning/outdoor/smart home) follow as the nice-to-have tail.
 const NEED_OPTIONS = [
-  { value: 'cleaning', icon: 'fa-broom', color: '#0d9488', label: { en: 'Clean my home', de: 'Zuhause putzen' }, desc: { en: 'Vacuum, mop, windows', de: 'Saugen, wischen, Fenster' } },
-  { value: 'outdoor', icon: 'fa-tree', color: '#059669', label: { en: 'Garden & outdoors', de: 'Garten & Außen' }, desc: { en: 'Lawn, pool, garden', de: 'Rasen, Pool, Garten' } },
-  { value: 'companion', icon: 'fa-heart', color: '#db2777', label: { en: 'Company & emotion', de: 'Gesellschaft & Emotion' }, desc: { en: 'Social, therapeutic, fun', de: 'Sozial, therapeutisch, Spaß' } },
-  { value: 'educational', icon: 'fa-graduation-cap', color: '#10b981', label: { en: 'Learn & code', de: 'Lernen & Coden' }, desc: { en: 'STEM, kids, programming', de: 'MINT, Kinder, Programmieren' } },
-  { value: 'humanoid', icon: 'fa-person', color: '#2563eb', label: { en: 'Humanoid robot', de: 'Humanoider Roboter' }, desc: { en: 'General-purpose, work', de: 'Allzweck, Arbeit' } },
-  { value: 'quadruped', icon: 'fa-dog', color: '#d97706', label: { en: 'Four-legged robot', de: 'Vierbeiner-Roboter' }, desc: { en: 'Robot dogs, inspection', de: 'Roboterhunde, Inspektion' } },
+  { value: 'humanoid', icon: 'fa-person', color: '#2563eb', label: { en: 'Humanoid robot', de: 'Humanoider Roboter' }, desc: { en: 'General-purpose, work & research', de: 'Allzweck, Arbeit & Forschung' } },
+  { value: 'quadruped', icon: 'fa-dog', color: '#d97706', label: { en: 'Four-legged robot', de: 'Vierbeiner-Roboter' }, desc: { en: 'Robot dogs & inspection', de: 'Roboterhunde & Inspektion' } },
+  { value: 'companion', icon: 'fa-heart', color: '#db2777', label: { en: 'Companion & social', de: 'Begleiter & Sozial' }, desc: { en: 'Emotion, assistance, fun', de: 'Emotion, Hilfe, Spaß' } },
+  { value: 'educational', icon: 'fa-graduation-cap', color: '#10b981', label: { en: 'Learn & build', de: 'Lernen & Bauen' }, desc: { en: 'STEM, coding, kids', de: 'MINT, Coding, Kinder' } },
   { value: 'smarthome', icon: 'fa-house-signal', color: '#ea580c', label: { en: 'Smart home & service', de: 'Smart Home & Service' }, desc: { en: 'Kitchen, delivery, security', de: 'Küche, Lieferung, Sicherheit' } },
-  { value: 'any', icon: 'fa-shuffle', color: '#6b7280', label: { en: 'Not sure yet', de: 'Noch unsicher' }, desc: { en: 'Show me everything', de: 'Zeig mir alles' } },
+  { value: 'cleaning', icon: 'fa-broom', color: '#0d9488', label: { en: 'Home cleaning', de: 'Reinigung zuhause' }, desc: { en: 'Vacuum, mop, windows', de: 'Saugen, Wischen, Fenster' } },
+  { value: 'outdoor', icon: 'fa-tree', color: '#059669', label: { en: 'Garden & outdoors', de: 'Garten & Außen' }, desc: { en: 'Lawn, pool, garden', de: 'Rasen, Pool, Garten' } },
+  { value: 'any', icon: 'fa-shuffle', color: '#6b7280', label: { en: 'Just show me robots', de: 'Zeig mir einfach Roboter' }, desc: { en: 'Browse everything', de: 'Alles durchstöbern' } },
 ];
 
 // Step 2 — budget buckets (USD), matched against getPriceValue
@@ -162,7 +164,7 @@ const FEATURES = {
 };
 
 const STEP_META = {
-  need: { icon: 'fa-compass', title: { en: 'What should it help with?', de: 'Wobei soll er helfen?' } },
+  need: { icon: 'fa-compass', title: { en: 'What kind of robot are you after?', de: 'Welche Art Roboter suchst du?' } },
   budget: { icon: 'fa-wallet', title: { en: 'What’s your budget?', de: 'Wie hoch ist dein Budget?' } },
   recency: { icon: 'fa-bolt', title: { en: 'How recent should it be?', de: 'Wie aktuell soll er sein?' } },
   features: { icon: 'fa-sliders', title: { en: 'What matters most?', de: 'Was ist dir wichtig?' } },
