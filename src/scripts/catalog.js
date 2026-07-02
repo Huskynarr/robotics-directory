@@ -3,6 +3,18 @@ import { matchesSubcategoryFilter, getSubcategoryDef, getUseCaseDef } from '../d
 import { trapFocus } from './focus-trap.js';
 
 const ROBOTS_PER_PAGE = 24;
+const DEFAULT_SORT = 'recommended';
+const RECOMMENDED_PRIORITY = [
+  { manufacturer: 'Neura Robotics' },
+  { manufacturer: '1X Technologies', model: 'NEO' },
+  { manufacturer: 'Figure' },
+  { manufacturer: 'Hugging Face', model: 'Reachy Mini' },
+  { manufacturer: 'Pollen Robotics', model: 'Reachy Mini' },
+  { manufacturer: 'Faraday Future', model: 'FF Master' },
+  { manufacturer: 'Faraday Future', model: 'FF Futurist' },
+  { manufacturer: 'Faraday Future', model: 'FX Aegis' },
+  { manufacturer: 'Faraday Future' },
+];
 let allRobots = [];
 let filteredRobots = [];
 let currentPage = 1;
@@ -11,7 +23,7 @@ let currentSubcategory = null;
 let currentUseCase = null;
 let currentManufacturer = '';
 let currentPrice = '';
-let currentSort = '';
+let currentSort = DEFAULT_SORT;
 let currentSearch = '';
 let currentSize = '';
 let advancedFilters = { weight: '', battery: '', ipRating: '', video: '' };
@@ -33,7 +45,7 @@ function serializeStateToURL(replace = false) {
   if (currentSubcategory) params.set('sub', currentSubcategory);
   if (currentUseCase) params.set('usecase', currentUseCase);
   if (currentSearch) params.set('q', currentSearch);
-  if (currentSort && currentSort !== 'newest') params.set('sort', currentSort);
+  if (currentSort && currentSort !== DEFAULT_SORT) params.set('sort', currentSort);
   if (currentPage > 1) params.set('page', String(currentPage));
   if (currentManufacturer) params.set('mfr', currentManufacturer);
   if (currentPrice) params.set('price', currentPrice);
@@ -61,7 +73,7 @@ function restoreStateFromURL() {
   currentSubcategory = params.get('sub') || null;
   currentUseCase = params.get('usecase') || null;
   currentSearch = params.get('q') || '';
-  currentSort = params.get('sort') || 'newest';
+  currentSort = params.get('sort') || DEFAULT_SORT;
   currentManufacturer = params.get('mfr') || '';
   currentPrice = params.get('price') || '';
   currentSize = params.get('size') || '';
@@ -424,16 +436,15 @@ function applyFilters() {
 
   robots = applyAdvancedFilters(robots);
 
-  if (currentSort === 'newest') {
-    // Newest release year first; robots without a known year fall back to recently-added order.
+  if (currentSort === 'recommended') {
     robots.sort((a, b) => {
-      const ya = parseInt(a.releaseDate, 10);
-      const yb = parseInt(b.releaseDate, 10);
-      const va = Number.isFinite(ya) ? ya : -1;
-      const vb = Number.isFinite(yb) ? yb : -1;
-      if (va !== vb) return vb - va;
-      return (b.__idx || 0) - (a.__idx || 0);
+      const ra = getRecommendedRank(a);
+      const rb = getRecommendedRank(b);
+      if (ra !== rb) return ra - rb;
+      return compareNewest(a, b);
     });
+  } else if (currentSort === 'newest') {
+    robots.sort(compareNewest);
   } else if (currentSort) {
     const dir = currentSort === 'price-desc' ? -1 : 1;
     const val = (r) => {
@@ -455,6 +466,26 @@ function applyFilters() {
   filteredRobots = robots;
   renderCards();
   updateActiveChips();
+}
+
+function getRecommendedRank(robot) {
+  const manufacturer = (robot.manufacturer || '').toLowerCase();
+  const model = (robot.model || '').toLowerCase();
+  const rank = RECOMMENDED_PRIORITY.findIndex((item) => {
+    const itemManufacturer = item.manufacturer.toLowerCase();
+    const itemModel = item.model?.toLowerCase();
+    return manufacturer === itemManufacturer && (!itemModel || model === itemModel);
+  });
+  return rank === -1 ? Number.POSITIVE_INFINITY : rank;
+}
+
+function compareNewest(a, b) {
+  const ya = parseInt(a.releaseDate, 10);
+  const yb = parseInt(b.releaseDate, 10);
+  const va = Number.isFinite(ya) ? ya : -1;
+  const vb = Number.isFinite(yb) ? yb : -1;
+  if (va !== vb) return vb - va;
+  return (b.__idx || 0) - (a.__idx || 0);
 }
 
 function applyAdvancedFilters(robots) {
@@ -714,7 +745,7 @@ function resetFilters() {
   currentManufacturer = '';
   currentPrice = '';
   currentSize = '';
-  currentSort = '';
+  currentSort = DEFAULT_SORT;
   currentSearch = '';
   advancedFilters = { weight: '', battery: '', ipRating: '', video: '' };
   currentPage = 1;
@@ -726,7 +757,7 @@ function resetFilters() {
   if (mf) mf.value = '';
 
   const sf = document.getElementById('sortFilter');
-  if (sf) sf.value = '';
+  if (sf) sf.value = DEFAULT_SORT;
 
   document.querySelectorAll('[data-category]').forEach(b => {
     if (b.tagName !== 'A') b.classList.toggle('active', b.dataset.category === 'all');

@@ -1,6 +1,13 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Dark mode', () => {
+  test('defaults to system dark mode when no user preference is saved', async ({ page }) => {
+    await page.emulateMedia({ colorScheme: 'dark' });
+    await page.goto('/');
+
+    await expect(page.locator('html')).toHaveClass(/dark/);
+  });
+
   test('dark mode toggle switches theme', async ({ page, viewport }) => {
     await page.goto('/');
     const isMobile = viewport.width < 768;

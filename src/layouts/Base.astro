@@ -58,10 +58,14 @@ const {
     <script is:inline>
       // Inline dark mode init to prevent FOUC.
       (function() {
+        var storedMode = null;
         try {
-          const d = localStorage.getItem('darkMode');
-          if (d === 'true') document.documentElement.classList.add('dark');
+          storedMode = localStorage.getItem('darkMode');
         } catch { /* localStorage unavailable */ }
+        var systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (storedMode === 'true' || (storedMode === null && systemPrefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
       })();
     </script>
   </head>
