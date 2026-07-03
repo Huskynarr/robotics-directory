@@ -14,6 +14,8 @@ const RECOMMENDED_PRIORITY = [
   { manufacturer: 'Figure' },
   { manufacturer: 'Hugging Face', model: 'Reachy Mini' },
   { manufacturer: 'Pollen Robotics', model: 'Reachy Mini' },
+  { manufacturer: 'Westwood Robotics', model: 'THEMIS V2' },
+  { manufacturer: 'Ameca', model: 'Ameca' },
   { manufacturer: 'Faraday Future', model: 'FF Master' },
   { manufacturer: 'Faraday Future', model: 'FF Futurist' },
   { manufacturer: 'Faraday Future', model: 'FX Aegis' },
