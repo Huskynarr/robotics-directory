@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @variant dark (&:where(.dark, .dark *));
 
@@ -143,14 +143,14 @@ body {
   @apply relative rounded-2xl overflow-hidden transition-all;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 .robot-card:hover {
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   transform: translateY(-2px);
 }
 .dark .robot-card:hover {
-  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 .robot-card .card-image {
@@ -164,11 +164,11 @@ body {
 .robot-card .favorite-btn {
   @apply absolute top-3 right-3 z-10 w-9 h-9 rounded-full flex items-center justify-center
     transition-all text-text-muted hover:text-danger;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(4px);
 }
 .dark .robot-card .favorite-btn {
-  background: rgba(30,41,59,0.9);
+  background: rgba(30, 41, 59, 0.9);
 }
 .robot-card .favorite-btn.active {
   color: var(--color-danger);
@@ -179,12 +179,12 @@ body {
 
 .robot-card .category-badge {
   @apply absolute top-3 left-3 z-10 px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wide;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255, 255, 255, 0.9);
   color: var(--color-primary);
   backdrop-filter: blur(4px);
 }
 .dark .robot-card .category-badge {
-  background: rgba(30,41,59,0.9);
+  background: rgba(30, 41, 59, 0.9);
 }
 
 .robot-card .card-info {
@@ -284,7 +284,7 @@ body {
     translate-y-full transition-transform;
   background: var(--color-surface-elevated);
   border-top: 1px solid var(--color-border);
-  box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
 }
 .compare-bar.active {
   @apply translate-y-0;
@@ -294,7 +294,7 @@ body {
 .favorites-drawer {
   @apply fixed top-0 right-0 bottom-0 z-50 w-full max-w-md translate-x-full transition-transform overflow-y-auto;
   background: var(--color-surface);
-  box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
 }
 .favorites-drawer.active {
   @apply translate-x-0;
@@ -304,7 +304,7 @@ body {
 .mobile-drawer {
   @apply fixed top-0 right-0 bottom-0 z-50 w-72 translate-x-full transition-transform overflow-y-auto;
   background: var(--color-surface);
-  box-shadow: -4px 0 20px rgba(0,0,0,0.15);
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
 }
 .mobile-drawer.active {
   @apply translate-x-0;
@@ -333,7 +333,7 @@ body {
     transition-all translate-y-1 z-20;
   background: var(--color-surface-elevated);
   border: 1px solid var(--color-border);
-  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 .share-dropdown.active {
   @apply opacity-100 pointer-events-auto translate-y-0;

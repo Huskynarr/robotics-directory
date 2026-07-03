@@ -22,17 +22,17 @@ function applyTranslations(lang) {
   const table = translations[lang] || translations.en;
   const resolve = (key) => table[key] || translations.en[key];
 
-  document.querySelectorAll('[data-i18n]').forEach(el => {
+  document.querySelectorAll('[data-i18n]').forEach((el) => {
     const value = resolve(el.getAttribute('data-i18n'));
     if (value) el.textContent = value;
   });
 
-  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+  document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
     const value = resolve(el.getAttribute('data-i18n-placeholder'));
     if (value) el.setAttribute('placeholder', value);
   });
 
-  document.querySelectorAll('[data-i18n-aria]').forEach(el => {
+  document.querySelectorAll('[data-i18n-aria]').forEach((el) => {
     const value = resolve(el.getAttribute('data-i18n-aria'));
     if (value) el.setAttribute('aria-label', value);
   });
@@ -45,7 +45,7 @@ function applyTranslations(lang) {
   }
 
   // Update prices with correct locale
-  document.querySelectorAll('[data-raw-price]').forEach(el => {
+  document.querySelectorAll('[data-raw-price]').forEach((el) => {
     const raw = el.getAttribute('data-raw-price');
     if (raw) {
       el.textContent = formatPrice(raw, lang, (k, fb) => tFn(k, lang, fb));
@@ -53,13 +53,14 @@ function applyTranslations(lang) {
   });
 
   // Update spec values
-  document.querySelectorAll('[data-raw-value]').forEach(el => {
+  document.querySelectorAll('[data-raw-value]').forEach((el) => {
     const raw = el.getAttribute('data-raw-value');
     const specKey = el.getAttribute('data-spec-key');
     if (raw) {
-      el.textContent = specKey === 'price'
-        ? formatPrice(raw, lang, (k, fb) => tFn(k, lang, fb))
-        : formatSpec(raw, lang);
+      el.textContent =
+        specKey === 'price'
+          ? formatPrice(raw, lang, (k, fb) => tFn(k, lang, fb))
+          : formatSpec(raw, lang);
     }
   });
 }
@@ -87,11 +88,11 @@ function init() {
 
   window.__I18N__ = { translations, currentLang: () => currentLang };
 
-  document.querySelectorAll('#languageSelect, #languageSelectMobile').forEach(select => {
+  document.querySelectorAll('#languageSelect, #languageSelectMobile').forEach((select) => {
     select.value = initial;
     select.addEventListener('change', () => {
       setLanguage(select.value);
-      document.querySelectorAll('#languageSelect, #languageSelectMobile').forEach(s => {
+      document.querySelectorAll('#languageSelect, #languageSelectMobile').forEach((s) => {
         s.value = select.value;
       });
     });

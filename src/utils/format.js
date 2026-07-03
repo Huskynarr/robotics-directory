@@ -134,13 +134,16 @@ export function getPriceValue(price) {
  */
 export function parseGallery(raw) {
   if (!raw || typeof raw !== 'string' || !raw.trim()) return [];
-  return raw.split(';').map(entry => {
-    const parts = entry.trim().split('|');
-    const src = parts[0]?.trim();
-    const label = parts[1]?.trim() || '';
-    if (!src) return null;
-    return { src: resolveImagePath(src), label };
-  }).filter(Boolean);
+  return raw
+    .split(';')
+    .map((entry) => {
+      const parts = entry.trim().split('|');
+      const src = parts[0]?.trim();
+      const label = parts[1]?.trim() || '';
+      if (!src) return null;
+      return { src: resolveImagePath(src), label };
+    })
+    .filter(Boolean);
 }
 
 /**

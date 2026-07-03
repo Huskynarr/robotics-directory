@@ -8,7 +8,13 @@ import CompareBar from '../../components/CompareBar.astro';
 import FavoritesDrawer from '../../components/FavoritesDrawer.astro';
 import Footer from '../../components/Footer.astro';
 import { getAllRobots } from '../../data/robots.js';
-import { resolveImagePath, formatPrice, extractYouTubeId, parseGallery, getPriceValue } from '../../utils/format.js';
+import {
+  resolveImagePath,
+  formatPrice,
+  extractYouTubeId,
+  parseGallery,
+  getPriceValue,
+} from '../../utils/format.js';
 import { CATEGORIES, CATEGORY_LABELS, CATEGORY_COLORS } from '../../data/categories.js';
 import { translations } from '../../data/translations.js';
 import { SITE_URL, SITE_NAME } from '../../config/site.js';
@@ -16,7 +22,7 @@ import '../../styles/global.css';
 
 export function getStaticPaths() {
   const { allRobots } = getAllRobots();
-  return allRobots.map(robot => ({
+  return allRobots.map((robot) => ({
     params: { id: robot.id },
     props: { robot },
   }));
@@ -29,27 +35,29 @@ const t = translations.en;
 const imagePath = resolveImagePath(robot.image);
 const formattedPrice = formatPrice(robot.price, 'en', (k, fb) => fb || k);
 const catLabel = CATEGORY_LABELS[robot.category] || robot.category;
-const catDef = CATEGORIES.find(c => c.id === robot.category);
+const catDef = CATEGORIES.find((c) => c.id === robot.category);
 const catIcon = catDef?.icon || 'fa-robot';
 const videoId = extractYouTubeId(robot.video);
 const gallery = parseGallery(robot.gallery);
 const allImages = [{ src: imagePath, label: 'Main' }, ...gallery];
 const pageUrl = `${SITE_URL}/robot/${robot.id}/`;
 const pageTitle = `${robot.manufacturer} ${robot.model} - ${catLabel} | ${SITE_NAME}`;
-const pageDesc = robot.description && robot.description.trim() && robot.description !== 'N/A'
-  ? robot.description
-  : `${robot.manufacturer} ${robot.model} - ${catLabel}. View specifications, images and compare with other robots.`;
+const pageDesc =
+  robot.description && robot.description.trim() && robot.description !== 'N/A'
+    ? robot.description
+    : `${robot.manufacturer} ${robot.model} - ${catLabel}. View specifications, images and compare with other robots.`;
 const catColor = CATEGORY_COLORS[robot.category] || '#2563eb';
-const ogImage = robot.image && !robot.image.includes('image-not-found')
-  ? `${SITE_URL}${resolveImagePath(robot.image)}`
-  : undefined;
+const ogImage =
+  robot.image && !robot.image.includes('image-not-found')
+    ? `${SITE_URL}${resolveImagePath(robot.image)}`
+    : undefined;
 
 // Related robots: prefer same manufacturer, then same category by price proximity, max 4
 const ownPrice = getPriceValue(robot.price);
-const sameCategory = allRobots.filter(r => r.category === robot.category && r.id !== robot.id);
-const sameManufacturer = sameCategory.filter(r => r.manufacturer === robot.manufacturer);
+const sameCategory = allRobots.filter((r) => r.category === robot.category && r.id !== robot.id);
+const sameManufacturer = sameCategory.filter((r) => r.manufacturer === robot.manufacturer);
 const others = sameCategory
-  .filter(r => r.manufacturer !== robot.manufacturer)
+  .filter((r) => r.manufacturer !== robot.manufacturer)
   .sort((a, b) => {
     if (ownPrice === Infinity) return 0;
     const da = Math.abs(getPriceValue(a.price) - ownPrice);
@@ -67,22 +75,40 @@ const related = [...sameManufacturer, ...others].slice(0, 4);
   <section class="detail-header relative overflow-hidden" style={`--cat-color: ${catColor}`}>
     <!-- Angled background with category color -->
     <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
-    <div class="absolute inset-0 opacity-20" style={`background: linear-gradient(135deg, ${catColor}, transparent 60%)`}></div>
+    <div
+      class="absolute inset-0 opacity-20"
+      style={`background: linear-gradient(135deg, ${catColor}, transparent 60%)`}
+    >
+    </div>
     <!-- Circuit grid overlay -->
-    <div class="absolute inset-0 opacity-[0.04]" style="background-image: linear-gradient(rgba(255,255,255,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px); background-size: 40px 40px;"></div>
+    <div
+      class="absolute inset-0 opacity-[0.04]"
+      style="background-image: linear-gradient(rgba(255,255,255,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px); background-size: 40px 40px;"
+    >
+    </div>
     <!-- Diagonal accent line -->
-    <div class="absolute bottom-0 left-0 right-0 h-1" style={`background: linear-gradient(90deg, ${catColor}, transparent)`}></div>
+    <div
+      class="absolute bottom-0 left-0 right-0 h-1"
+      style={`background: linear-gradient(90deg, ${catColor}, transparent)`}
+    >
+    </div>
 
     <div class="relative max-w-5xl mx-auto px-4 py-8 md:py-12">
       <!-- Breadcrumb -->
       <nav class="text-sm mb-6" aria-label="Breadcrumb">
         <ol class="flex items-center gap-2 flex-wrap text-white/50">
           <li>
-            <a href="/" class="hover:text-white transition-colors" data-i18n="breadcrumb.home">{t['breadcrumb.home']}</a>
+            <a href="/" class="hover:text-white transition-colors" data-i18n="breadcrumb.home"
+              >{t['breadcrumb.home']}</a
+            >
           </li>
           <li aria-hidden="true"><i class="fas fa-chevron-right text-[10px]"></i></li>
           <li>
-            <a href={`/?category=${robot.category}`} class="hover:text-white transition-colors" data-i18n={`nav.${robot.category}`}>{catLabel}</a>
+            <a
+              href={`/?category=${robot.category}`}
+              class="hover:text-white transition-colors"
+              data-i18n={`nav.${robot.category}`}>{catLabel}</a
+            >
           </li>
           <li aria-hidden="true"><i class="fas fa-chevron-right text-[10px]"></i></li>
           <li><span class="text-white/80">{robot.model}</span></li>
@@ -92,34 +118,50 @@ const related = [...sameManufacturer, ...others].slice(0, 4);
       <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
         <div class="flex items-start gap-4">
           <!-- Category icon badge -->
-          <div class="hidden md:flex w-14 h-14 rounded-2xl items-center justify-center text-white text-xl shrink-0 shadow-lg" style={`background: ${catColor}; box-shadow: 0 4px 20px ${catColor}66`}>
+          <div
+            class="hidden md:flex w-14 h-14 rounded-2xl items-center justify-center text-white text-xl shrink-0 shadow-lg"
+            style={`background: ${catColor}; box-shadow: 0 4px 20px ${catColor}66`}
+          >
             <i class={`fas ${catIcon}`}></i>
           </div>
           <div>
             <div class="flex items-center gap-2 mb-1">
-              <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wide text-white/90" style={`background: ${catColor}33; border: 1px solid ${catColor}55`}>
+              <span
+                class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wide text-white/90"
+                style={`background: ${catColor}33; border: 1px solid ${catColor}55`}
+              >
                 <i class={`fas ${catIcon} text-[0.6rem] md:hidden`}></i>
                 <span data-i18n={`nav.${robot.category}`}>{catLabel}</span>
               </span>
             </div>
-            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-1 tracking-wide">{robot.model}</h1>
+            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white mb-1 tracking-wide">
+              {robot.model}
+            </h1>
             <p class="text-lg text-white/60">{robot.manufacturer}</p>
           </div>
         </div>
 
         <div class="flex items-center gap-3 shrink-0">
-          <p class="text-xl md:text-2xl font-heading font-bold text-white" data-raw-price={robot.price}>{formattedPrice}</p>
-          {robot.website && robot.website !== 'N/A' && (
-            <a
-              href={robot.website}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-white text-sm font-medium transition-colors" style={`background: ${catColor}; hover:opacity 0.9`}
-            >
-              <span data-i18n="details.website">{t['details.website']}</span>
-              <i class="fas fa-external-link-alt text-xs"></i>
-            </a>
-          )}
+          <p
+            class="text-xl md:text-2xl font-heading font-bold text-white"
+            data-raw-price={robot.price}
+          >
+            {formattedPrice}
+          </p>
+          {
+            robot.website && robot.website !== 'N/A' && (
+              <a
+                href={robot.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-white text-sm font-medium transition-colors"
+                style={`background: ${catColor}; hover:opacity 0.9`}
+              >
+                <span data-i18n="details.website">{t['details.website']}</span>
+                <i class="fas fa-external-link-alt text-xs" />
+              </a>
+            )
+          }
           <button
             class="favorite-btn-detail w-10 h-10 rounded-lg flex items-center justify-center border border-white/20 text-white/50 hover:text-danger hover:border-danger transition-colors"
             data-robot-id={robot.id}
@@ -128,7 +170,10 @@ const related = [...sameManufacturer, ...others].slice(0, 4);
           >
             <i class="far fa-heart text-lg"></i>
           </button>
-          <ShareButtons url={pageUrl} title={`${robot.manufacturer} ${robot.model} - ${SITE_NAME}`} />
+          <ShareButtons
+            url={pageUrl}
+            title={`${robot.manufacturer} ${robot.model} - ${SITE_NAME}`}
+          />
         </div>
       </div>
     </div>
@@ -137,9 +182,18 @@ const related = [...sameManufacturer, ...others].slice(0, 4);
   <main id="main" class="flex-1 py-8">
     <div class="max-w-5xl mx-auto px-4">
       <!-- Image gallery -->
-      <div class="rounded-2xl overflow-hidden bg-surface border border-border mb-8 -mt-0 md:-mt-4 relative z-10 shadow-lg" id="imageGallery">
+      <div
+        class="rounded-2xl overflow-hidden bg-surface border border-border mb-8 -mt-0 md:-mt-4 relative z-10 shadow-lg"
+        id="imageGallery"
+      >
         <!-- Main image viewer -->
-        <div class="aspect-[16/9] flex items-center justify-center p-8 bg-bg relative cursor-zoom-in" id="mainImageWrap" role="button" tabindex="0" aria-label="Open image lightbox">
+        <div
+          class="aspect-[16/9] flex items-center justify-center p-8 bg-bg relative cursor-zoom-in"
+          id="mainImageWrap"
+          role="button"
+          tabindex="0"
+          aria-label="Open image lightbox"
+        >
           <img
             src={imagePath}
             alt={`${robot.model} by ${robot.manufacturer}`}
@@ -148,121 +202,200 @@ const related = [...sameManufacturer, ...others].slice(0, 4);
             width="800"
             height="600"
           />
-          {allImages.length > 1 && (
-            <div class="absolute bottom-3 right-3 bg-black/60 text-white text-xs px-2.5 py-1 rounded-full backdrop-blur-sm">
-              <i class="fas fa-images mr-1"></i>
-              <span id="imageCounter">1 / {allImages.length}</span>
-            </div>
-          )}
+          {
+            allImages.length > 1 && (
+              <div class="absolute bottom-3 right-3 bg-black/60 text-white text-xs px-2.5 py-1 rounded-full backdrop-blur-sm">
+                <i class="fas fa-images mr-1" />
+                <span id="imageCounter">1 / {allImages.length}</span>
+              </div>
+            )
+          }
         </div>
         <!-- Thumbnail strip -->
-        {allImages.length > 1 && (
-          <div class="flex gap-1.5 p-2.5 bg-bg/50 border-t border-border overflow-x-auto scrollbar-hide" id="thumbStrip">
-            {allImages.map((img, i) => (
-              <button
-                class={`gallery-thumb shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-lg overflow-hidden border-2 transition-all ${i === 0 ? 'border-primary ring-1 ring-primary/30' : 'border-transparent hover:border-white/30'}`}
-                data-gallery-index={i}
-                data-gallery-src={img.src}
-                data-gallery-label={img.label}
-                aria-label={img.label || `Image ${i + 1}`}
-                type="button"
-              >
-                <img src={img.src} alt={img.label || `View ${i + 1}`} class="w-full h-full object-cover" loading="lazy" width="80" height="80" />
-              </button>
-            ))}
-          </div>
-        )}
+        {
+          allImages.length > 1 && (
+            <div
+              class="flex gap-1.5 p-2.5 bg-bg/50 border-t border-border overflow-x-auto scrollbar-hide"
+              id="thumbStrip"
+            >
+              {allImages.map((img, i) => (
+                <button
+                  class={`gallery-thumb shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-lg overflow-hidden border-2 transition-all ${i === 0 ? 'border-primary ring-1 ring-primary/30' : 'border-transparent hover:border-white/30'}`}
+                  data-gallery-index={i}
+                  data-gallery-src={img.src}
+                  data-gallery-label={img.label}
+                  aria-label={img.label || `Image ${i + 1}`}
+                  type="button"
+                >
+                  <img
+                    src={img.src}
+                    alt={img.label || `View ${i + 1}`}
+                    class="w-full h-full object-cover"
+                    loading="lazy"
+                    width="80"
+                    height="80"
+                  />
+                </button>
+              ))}
+            </div>
+          )
+        }
       </div>
 
       <!-- Lightbox -->
-      <div id="lightbox" class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/90 backdrop-blur-sm" role="dialog" aria-label="Image lightbox" aria-modal="true">
-        <button id="lightboxClose" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10" aria-label="Close lightbox" type="button">
+      <div
+        id="lightbox"
+        class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/90 backdrop-blur-sm"
+        role="dialog"
+        aria-label="Image lightbox"
+        aria-modal="true"
+      >
+        <button
+          id="lightboxClose"
+          class="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10"
+          aria-label="Close lightbox"
+          type="button"
+        >
           <i class="fas fa-times text-lg"></i>
         </button>
-        {allImages.length > 1 && (
-          <button id="lightboxPrev" class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10" aria-label="Previous image" type="button">
-            <i class="fas fa-chevron-left"></i>
-          </button>
-        )}
-        {allImages.length > 1 && (
-          <button id="lightboxNext" class="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10" aria-label="Next image" type="button">
-            <i class="fas fa-chevron-right"></i>
-          </button>
-        )}
+        {
+          allImages.length > 1 && (
+            <button
+              id="lightboxPrev"
+              class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10"
+              aria-label="Previous image"
+              type="button"
+            >
+              <i class="fas fa-chevron-left" />
+            </button>
+          )
+        }
+        {
+          allImages.length > 1 && (
+            <button
+              id="lightboxNext"
+              class="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors z-10"
+              aria-label="Next image"
+              type="button"
+            >
+              <i class="fas fa-chevron-right" />
+            </button>
+          )
+        }
         <div class="max-w-[90vw] max-h-[85vh] flex items-center justify-center">
-          <img id="lightboxImg" src="" alt="" class="max-w-full max-h-[85vh] object-contain" width="1200" height="900" />
+          <img
+            id="lightboxImg"
+            src=""
+            alt=""
+            class="max-w-full max-h-[85vh] object-contain"
+            width="1200"
+            height="900"
+          />
         </div>
         <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-3">
-          <span id="lightboxLabel" class="text-white/80 text-sm bg-black/50 px-3 py-1 rounded-full backdrop-blur-sm"></span>
-          {allImages.length > 1 && (
-            <span id="lightboxCounter" class="text-white/60 text-xs bg-black/50 px-2.5 py-1 rounded-full"></span>
-          )}
+          <span
+            id="lightboxLabel"
+            class="text-white/80 text-sm bg-black/50 px-3 py-1 rounded-full backdrop-blur-sm"
+          ></span>
+          {
+            allImages.length > 1 && (
+              <span
+                id="lightboxCounter"
+                class="text-white/60 text-xs bg-black/50 px-2.5 py-1 rounded-full"
+              />
+            )
+          }
         </div>
       </div>
 
       <!-- Description -->
-      {robot.description && robot.description.trim() && robot.description !== 'N/A' && (
-        <div class="bg-surface rounded-2xl border border-border p-6 mb-8">
-          <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.description">{t['details.description'] || 'Description'}</h2>
-          <p class="text-text-secondary leading-relaxed">{robot.description}</p>
-        </div>
-      )}
+      {
+        robot.description && robot.description.trim() && robot.description !== 'N/A' && (
+          <div class="bg-surface rounded-2xl border border-border p-6 mb-8">
+            <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.description">
+              {t['details.description'] || 'Description'}
+            </h2>
+            <p class="text-text-secondary leading-relaxed">{robot.description}</p>
+          </div>
+        )
+      }
 
       <!-- Tags -->
-      {robot.tagsArray && robot.tagsArray.length > 0 && (
-        <div class="flex flex-wrap gap-2 mb-8">
-          {robot.tagsArray.map(tag => (
-            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-surface border border-border text-text-secondary">
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
+      {
+        robot.tagsArray && robot.tagsArray.length > 0 && (
+          <div class="flex flex-wrap gap-2 mb-8">
+            {robot.tagsArray.map((tag) => (
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-surface border border-border text-text-secondary">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )
+      }
 
       <!-- Specs -->
       <div class="bg-surface rounded-2xl border border-border p-6 mb-8">
-        <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.specs">{t['details.specs']}</h2>
+        <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.specs">
+          {t['details.specs']}
+        </h2>
         <SpecsTable robot={robot} />
       </div>
 
       <!-- Video -->
-      {videoId && (
-        <div class="mb-8">
-          <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.video">{t['details.video']}</h2>
-          <div class="video-embed">
-            <iframe
-              src={`https://www.youtube.com/embed/${videoId}`}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              title="Robot demonstration video"
-              loading="lazy"
-            ></iframe>
+      {
+        videoId && (
+          <div class="mb-8">
+            <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.video">
+              {t['details.video']}
+            </h2>
+            <div class="video-embed">
+              <iframe
+                src={`https://www.youtube.com/embed/${videoId}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                title="Robot demonstration video"
+                loading="lazy"
+              />
+            </div>
           </div>
-        </div>
-      )}
+        )
+      }
 
       <!-- Related robots -->
-      {related.length > 0 && (
-        <div class="mb-8">
-          <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.related">{t['details.related']}</h2>
-          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {related.map(r => (
-              <a href={`/robot/${r.id}/`} class="robot-card block no-underline">
-                <div class="card-image">
-                  <img src={resolveImagePath(r.image)} alt={`${r.model}`} loading="lazy" width="400" height="300" />
-                </div>
-                <div class="card-info">
-                  <h3 class="text-sm">{r.model}</h3>
-                  <p class="manufacturer text-xs">{r.manufacturer}</p>
-                </div>
-              </a>
-            ))}
+      {
+        related.length > 0 && (
+          <div class="mb-8">
+            <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.related">
+              {t['details.related']}
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {related.map((r) => (
+                <a href={`/robot/${r.id}/`} class="robot-card block no-underline">
+                  <div class="card-image">
+                    <img
+                      src={resolveImagePath(r.image)}
+                      alt={`${r.model}`}
+                      loading="lazy"
+                      width="400"
+                      height="300"
+                    />
+                  </div>
+                  <div class="card-info">
+                    <h3 class="text-sm">{r.model}</h3>
+                    <p class="manufacturer text-xs">{r.manufacturer}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )
+      }
 
       <!-- Back link -->
-      <a href="/" class="inline-flex items-center gap-2 text-sm text-primary hover:text-primary-dark font-medium transition-colors">
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 text-sm text-primary hover:text-primary-dark font-medium transition-colors"
+      >
         <i class="fas fa-arrow-left"></i>
         <span data-i18n="details.back">{t['details.back']}</span>
       </a>
@@ -273,7 +406,10 @@ const related = [...sameManufacturer, ...others].slice(0, 4);
   <FavoritesDrawer />
   <Footer />
 
-  <script is:inline define:vars={{ allRobots: JSON.stringify(allRobots), galleryData: JSON.stringify(allImages) }}>
+  <script
+    is:inline
+    define:vars={{ allRobots: JSON.stringify(allRobots), galleryData: JSON.stringify(allImages) }}
+  >
     window.__ROBOTS_DATA__ = JSON.parse(allRobots);
     window.__GALLERY_DATA__ = JSON.parse(galleryData);
   </script>
@@ -286,11 +422,18 @@ const related = [...sameManufacturer, ...others].slice(0, 4);
     import '../../scripts/share.js';
     import '../../scripts/gallery.js';
 
-    document.addEventListener('error', (e) => {
-      const target = e.target;
-      if (target instanceof HTMLImageElement && target.src !== window.location.origin + '/images/image-not-found.webp') {
-        target.src = '/images/image-not-found.webp';
-      }
-    }, true);
+    document.addEventListener(
+      'error',
+      (e) => {
+        const target = e.target;
+        if (
+          target instanceof HTMLImageElement &&
+          target.src !== window.location.origin + '/images/image-not-found.webp'
+        ) {
+          target.src = '/images/image-not-found.webp';
+        }
+      },
+      true,
+    );
   </script>
 </Base>

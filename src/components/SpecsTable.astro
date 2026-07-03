@@ -9,7 +9,19 @@ interface Props {
 const { robot } = Astro.props;
 const t = translations.en;
 
-const EXCLUDED = ['manufacturer', 'model', 'category', 'image', 'website', 'video', 'id', 'tags', 'tagsArray', 'gallery', 'description'];
+const EXCLUDED = [
+  'manufacturer',
+  'model',
+  'category',
+  'image',
+  'website',
+  'video',
+  'id',
+  'tags',
+  'tagsArray',
+  'gallery',
+  'description',
+];
 
 // Common specs
 const commonSpecs = [
@@ -34,60 +46,71 @@ const categorySpecs: Record<string, { key: string; labelKey: string }[]> = {
     { key: 'speed', labelKey: 'spec.speed' },
     { key: 'terrain', labelKey: 'spec.terrain' },
   ],
-  companion: [
-    { key: 'ageRange', labelKey: 'spec.ageGroup' },
-  ],
-  cleaning: [
-    { key: 'ipRating', labelKey: 'spec.ipRating' },
-  ],
+  companion: [{ key: 'ageRange', labelKey: 'spec.ageGroup' }],
+  cleaning: [{ key: 'ipRating', labelKey: 'spec.ipRating' }],
   outdoor: [
     { key: 'ipRating', labelKey: 'spec.ipRating' },
     { key: 'speed', labelKey: 'spec.speed' },
     { key: 'terrain', labelKey: 'spec.terrain' },
   ],
-  educational: [
-    { key: 'ageRange', labelKey: 'spec.ageGroup' },
-  ],
+  educational: [{ key: 'ageRange', labelKey: 'spec.ageGroup' }],
   smarthome: [],
 };
 
 const allSpecKeys = [
-  ...commonSpecs.map(s => s.key),
-  ...Object.values(categorySpecs).flat().map(s => s.key),
+  ...commonSpecs.map((s) => s.key),
+  ...Object.values(categorySpecs)
+    .flat()
+    .map((s) => s.key),
 ];
 const specificSpecs = categorySpecs[robot.category] || [];
 const specsToShow = [...commonSpecs, ...specificSpecs];
 
 // Additional specs not in the predefined list
 const additionalSpecs = Object.entries(robot)
-  .filter(([key, val]) => val && typeof val === 'string' && val.trim() && !EXCLUDED.includes(key) && !allSpecKeys.includes(key))
+  .filter(
+    ([key, val]) =>
+      val &&
+      typeof val === 'string' &&
+      val.trim() &&
+      !EXCLUDED.includes(key) &&
+      !allSpecKeys.includes(key),
+  )
   .map(([key, val]) => ({
     key,
-    label: key.replace(/([A-Z])/g, ' $1').replace(/^./, s => s.toUpperCase()),
+    label: key.replace(/([A-Z])/g, ' $1').replace(/^./, (s) => s.toUpperCase()),
     value: val,
   }));
 ---
 
 <table class="specs-table">
   <tbody>
-    {specsToShow.map(spec => {
-      const val = robot[spec.key];
-      if (!val || typeof val !== 'string' || val.trim() === '' || val.trim().startsWith('N/A')) return null;
-      const display = spec.format === 'price'
-        ? formatPrice(val, 'en', (k: string, fb: string) => fb || k)
-        : formatSpec(val, 'en');
-      return (
+    {
+      specsToShow.map((spec) => {
+        const val = robot[spec.key];
+        if (!val || typeof val !== 'string' || val.trim() === '' || val.trim().startsWith('N/A'))
+          return null;
+        const display =
+          spec.format === 'price'
+            ? formatPrice(val, 'en', (k: string, fb: string) => fb || k)
+            : formatSpec(val, 'en');
+        return (
+          <tr>
+            <td data-i18n={spec.labelKey}>{t[spec.labelKey]}</td>
+            <td data-spec-key={spec.key} data-raw-value={val}>
+              {display}
+            </td>
+          </tr>
+        );
+      })
+    }
+    {
+      additionalSpecs.map((spec) => (
         <tr>
-          <td data-i18n={spec.labelKey}>{t[spec.labelKey]}</td>
-          <td data-spec-key={spec.key} data-raw-value={val}>{display}</td>
+          <td>{spec.label}</td>
+          <td>{formatSpec(spec.value, 'en')}</td>
         </tr>
-      );
-    })}
-    {additionalSpecs.map(spec => (
-      <tr>
-        <td>{spec.label}</td>
-        <td>{formatSpec(spec.value, 'en')}</td>
-      </tr>
-    ))}
+      ))
+    }
   </tbody>
 </table>

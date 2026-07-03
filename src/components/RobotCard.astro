@@ -13,13 +13,32 @@ const formattedPrice = formatPrice(robot.price, 'en', (k, fb) => fb || k);
 const detailUrl = `/robot/${robot.id}/`;
 ---
 
-<a href={detailUrl} class="robot-card block no-underline" data-category={robot.category} data-robot-id={robot.id} role="listitem">
+<a
+  href={detailUrl}
+  class="robot-card block no-underline"
+  data-category={robot.category}
+  data-robot-id={robot.id}
+  role="listitem"
+>
   <div class="card-image">
-    <span class="category-badge" data-i18n={`nav.${robot.category}`}>{t[`nav.${robot.category}`] || robot.category}</span>
-    <button class="favorite-btn" data-robot-id={robot.id} aria-label="Add to favorites" type="button">
+    <span class="category-badge" data-i18n={`nav.${robot.category}`}
+      >{t[`nav.${robot.category}`] || robot.category}</span
+    >
+    <button
+      class="favorite-btn"
+      data-robot-id={robot.id}
+      aria-label="Add to favorites"
+      type="button"
+    >
       <i class="far fa-heart"></i>
     </button>
-    <img src={imagePath} alt={`${robot.model} by ${robot.manufacturer}`} loading="lazy" width="400" height="300" />
+    <img
+      src={imagePath}
+      alt={`${robot.model} by ${robot.manufacturer}`}
+      loading="lazy"
+      width="400"
+      height="300"
+    />
   </div>
   <div class="card-info">
     <h3>{robot.model}</h3>
@@ -29,10 +48,18 @@ const detailUrl = `/robot/${robot.id}/`;
 </a>
 
 <script>
-  document.addEventListener('error', (e) => {
-    const target = e.target;
-    if (target instanceof HTMLImageElement && target.closest('.robot-card') && target.src !== window.location.origin + '/images/image-not-found.webp') {
-      target.src = '/images/image-not-found.webp';
-    }
-  }, true);
+  document.addEventListener(
+    'error',
+    (e) => {
+      const target = e.target;
+      if (
+        target instanceof HTMLImageElement &&
+        target.closest('.robot-card') &&
+        target.src !== window.location.origin + '/images/image-not-found.webp'
+      ) {
+        target.src = '/images/image-not-found.webp';
+      }
+    },
+    true,
+  );
 </script>

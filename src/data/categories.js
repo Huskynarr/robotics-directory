@@ -31,7 +31,14 @@ export const CATEGORIES = [
         filter: {
           field: 'tagsArray',
           op: 'tags-include-any',
-          values: ['industrial', 'commercial', 'warehouse', 'programmable', 'ai-powered', 'cellular'],
+          values: [
+            'industrial',
+            'commercial',
+            'warehouse',
+            'programmable',
+            'ai-powered',
+            'cellular',
+          ],
         },
       },
       {
@@ -338,7 +345,7 @@ export const CATEGORY_LABELS = {
   smarthome: 'Smart Home Robot',
 };
 
-export const CATEGORY_COLORS = Object.fromEntries(CATEGORIES.map(c => [c.id, c.color]));
+export const CATEGORY_COLORS = Object.fromEntries(CATEGORIES.map((c) => [c.id, c.color]));
 
 /**
  * Cross-category use-case filters.

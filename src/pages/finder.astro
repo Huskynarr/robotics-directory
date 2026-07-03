@@ -42,14 +42,25 @@ const jsonLd = {
 
   <!-- Compact hero -->
   <section class="relative overflow-hidden py-12 md:py-14">
-    <div class="absolute inset-0 bg-gradient-to-br from-primary-dark via-primary to-accent opacity-95"></div>
-    <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.12),transparent_60%)]"></div>
+    <div
+      class="absolute inset-0 bg-gradient-to-br from-primary-dark via-primary to-accent opacity-95"
+    >
+    </div>
+    <div
+      class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.12),transparent_60%)]"
+    >
+    </div>
     <div class="relative max-w-3xl mx-auto px-4 text-center">
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-white/70 border border-white/15 mb-5 backdrop-blur-sm bg-white/5">
+      <div
+        class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-white/70 border border-white/15 mb-5 backdrop-blur-sm bg-white/5"
+      >
         <i class="fas fa-wand-magic-sparkles"></i>
         <span data-i18n="finder.badge">Robot Finder</span>
       </div>
-      <h1 class="font-heading text-3xl md:text-4xl font-bold text-white mb-3 leading-tight" data-i18n="finder.heading">
+      <h1
+        class="font-heading text-3xl md:text-4xl font-bold text-white mb-3 leading-tight"
+        data-i18n="finder.heading"
+      >
         Find the right robot for you
       </h1>
       <p class="text-base md:text-lg text-white/75 max-w-xl mx-auto" data-i18n="finder.intro">
@@ -68,7 +79,9 @@ const jsonLd = {
     <!-- Wizard -->
     <div id="finderWizard" class="finder-card">
       <div class="finder-progress">
-        <div class="finder-progress-track"><div id="finderProgressBar" class="finder-progress-bar"></div></div>
+        <div class="finder-progress-track">
+          <div id="finderProgressBar" class="finder-progress-bar"></div>
+        </div>
         <span id="finderProgressLabel" class="finder-progress-label"></span>
       </div>
       <div id="finderStep" class="finder-step"></div>
@@ -97,90 +110,279 @@ const jsonLd = {
       padding: 1.5rem;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
     }
-    @media (min-width: 768px) { .finder-card { padding: 2rem; } }
-
-    .finder-progress { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; }
-    .finder-progress-track { flex: 1; height: 6px; border-radius: 999px; background: var(--color-bg); overflow: hidden; }
-    .finder-progress-bar { height: 100%; width: 0; border-radius: 999px; background: var(--color-primary); transition: width 280ms ease; }
-    .finder-progress-label { font-size: 0.75rem; font-weight: 600; color: var(--color-text-muted); white-space: nowrap; }
-
-    .finder-q-head { margin-bottom: 1.25rem; }
-    .finder-q-icon {
-      display: inline-flex; align-items: center; justify-content: center;
-      width: 2.25rem; height: 2.25rem; border-radius: 0.75rem;
-      background: var(--color-primary-50); color: var(--color-primary); margin-bottom: 0.75rem;
+    @media (min-width: 768px) {
+      .finder-card {
+        padding: 2rem;
+      }
     }
-    :global(.dark) .finder-q-icon { background: rgba(37, 99, 235, 0.15); }
-    .finder-q-title { font-family: var(--font-heading, inherit); font-size: 1.35rem; font-weight: 700; color: var(--color-text-base); line-height: 1.25; }
-    .finder-q-hint { font-size: 0.875rem; color: var(--color-text-muted); margin-top: 0.35rem; }
 
-    .finder-options { display: grid; grid-template-columns: 1fr; gap: 0.625rem; }
-    @media (min-width: 640px) { .finder-options { grid-template-columns: 1fr 1fr; } }
+    .finder-progress {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .finder-progress-track {
+      flex: 1;
+      height: 6px;
+      border-radius: 999px;
+      background: var(--color-bg);
+      overflow: hidden;
+    }
+    .finder-progress-bar {
+      height: 100%;
+      width: 0;
+      border-radius: 999px;
+      background: var(--color-primary);
+      transition: width 280ms ease;
+    }
+    .finder-progress-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--color-text-muted);
+      white-space: nowrap;
+    }
+
+    .finder-q-head {
+      margin-bottom: 1.25rem;
+    }
+    .finder-q-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 0.75rem;
+      background: var(--color-primary-50);
+      color: var(--color-primary);
+      margin-bottom: 0.75rem;
+    }
+    :global(.dark) .finder-q-icon {
+      background: rgba(37, 99, 235, 0.15);
+    }
+    .finder-q-title {
+      font-family: var(--font-heading, inherit);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--color-text-base);
+      line-height: 1.25;
+    }
+    .finder-q-hint {
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      margin-top: 0.35rem;
+    }
+
+    .finder-options {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.625rem;
+    }
+    @media (min-width: 640px) {
+      .finder-options {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
 
     .finder-option {
-      display: flex; align-items: center; gap: 0.875rem; text-align: left;
-      padding: 0.875rem 1rem; border-radius: 0.75rem;
-      border: 1.5px solid var(--color-border); background: var(--color-bg);
-      cursor: pointer; transition: border-color 150ms ease, background 150ms ease, transform 100ms ease; width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 0.875rem;
+      text-align: left;
+      padding: 0.875rem 1rem;
+      border-radius: 0.75rem;
+      border: 1.5px solid var(--color-border);
+      background: var(--color-bg);
+      cursor: pointer;
+      transition:
+        border-color 150ms ease,
+        background 150ms ease,
+        transform 100ms ease;
+      width: 100%;
     }
-    .finder-option:hover { border-color: var(--color-primary); }
-    .finder-option:active { transform: scale(0.99); }
-    .finder-option.is-selected { border-color: var(--color-primary); background: var(--color-primary-50); }
-    :global(.dark) .finder-option.is-selected { background: rgba(37, 99, 235, 0.15); }
+    .finder-option:hover {
+      border-color: var(--color-primary);
+    }
+    .finder-option:active {
+      transform: scale(0.99);
+    }
+    .finder-option.is-selected {
+      border-color: var(--color-primary);
+      background: var(--color-primary-50);
+    }
+    :global(.dark) .finder-option.is-selected {
+      background: rgba(37, 99, 235, 0.15);
+    }
 
     .finder-option-icon {
-      flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center;
-      width: 2.25rem; height: 2.25rem; border-radius: 0.625rem;
-      background: var(--color-surface); border: 1px solid var(--color-border);
-      font-size: 1rem; color: var(--color-primary);
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 0.625rem;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      font-size: 1rem;
+      color: var(--color-primary);
     }
-    .finder-option-body { display: flex; flex-direction: column; min-width: 0; flex: 1; }
-    .finder-option-title { font-size: 0.95rem; font-weight: 600; color: var(--color-text-base); }
-    .finder-option-desc { font-size: 0.8rem; color: var(--color-text-muted); }
+    .finder-option-body {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      flex: 1;
+    }
+    .finder-option-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--color-text-base);
+    }
+    .finder-option-desc {
+      font-size: 0.8rem;
+      color: var(--color-text-muted);
+    }
     .finder-option-check {
-      flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center;
-      width: 1.4rem; height: 1.4rem; border-radius: 999px; background: var(--color-primary); color: #fff; font-size: 0.7rem;
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.4rem;
+      height: 1.4rem;
+      border-radius: 999px;
+      background: var(--color-primary);
+      color: #fff;
+      font-size: 0.7rem;
     }
 
-    .finder-nav { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; margin-top: 1.5rem; }
-    .finder-nav-right { display: flex; align-items: center; gap: 0.5rem; margin-left: auto; }
+    .finder-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+    .finder-nav-right {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-left: auto;
+    }
     .finder-btn {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      padding: 0.6rem 1.1rem; border-radius: 0.625rem; font-size: 0.9rem; font-weight: 600;
-      cursor: pointer; border: 1px solid transparent; transition: background 150ms ease, border-color 150ms ease, color 150ms ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.6rem 1.1rem;
+      border-radius: 0.625rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition:
+        background 150ms ease,
+        border-color 150ms ease,
+        color 150ms ease;
     }
-    .finder-btn-primary { background: var(--color-primary); color: #fff; }
-    .finder-btn-primary:hover { background: var(--color-primary-dark, var(--color-primary)); }
-    .finder-btn-ghost { background: transparent; color: var(--color-text-secondary); border-color: var(--color-border); }
-    .finder-btn-ghost:hover { color: var(--color-text-base); border-color: var(--color-text-muted); }
-    .finder-btn.invisible { visibility: hidden; }
+    .finder-btn-primary {
+      background: var(--color-primary);
+      color: #fff;
+    }
+    .finder-btn-primary:hover {
+      background: var(--color-primary-dark, var(--color-primary));
+    }
+    .finder-btn-ghost {
+      background: transparent;
+      color: var(--color-text-secondary);
+      border-color: var(--color-border);
+    }
+    .finder-btn-ghost:hover {
+      color: var(--color-text-base);
+      border-color: var(--color-text-muted);
+    }
+    .finder-btn.invisible {
+      visibility: hidden;
+    }
 
-    .finder-results-head { margin-bottom: 1.25rem; }
+    .finder-results-head {
+      margin-bottom: 1.25rem;
+    }
     .finder-result-grid {
-      display: grid; grid-template-columns: 1fr; gap: 1rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
     }
-    @media (min-width: 640px) { .finder-result-grid { grid-template-columns: 1fr 1fr; } }
-    @media (min-width: 900px) { .finder-result-grid { grid-template-columns: 1fr 1fr 1fr; } }
+    @media (min-width: 640px) {
+      .finder-result-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (min-width: 900px) {
+      .finder-result-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
 
-    .finder-result .card-image { position: relative; }
+    .finder-result .card-image {
+      position: relative;
+    }
     .finder-match-badge {
-      position: absolute; top: 0.5rem; right: 0.5rem; z-index: 2;
-      background: var(--color-primary); color: #fff; font-size: 0.7rem; font-weight: 700;
-      padding: 0.2rem 0.5rem; border-radius: 999px; box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      z-index: 2;
+      background: var(--color-primary);
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
     }
-    .finder-why { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.5rem; }
+    .finder-why {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-top: 0.5rem;
+    }
     .finder-why-chip {
-      display: inline-flex; align-items: center; gap: 0.3rem;
-      font-size: 0.7rem; font-weight: 600; color: var(--color-text-secondary);
-      background: var(--color-bg); border: 1px solid var(--color-border);
-      padding: 0.2rem 0.5rem; border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--color-text-secondary);
+      background: var(--color-bg);
+      border: 1px solid var(--color-border);
+      padding: 0.2rem 0.5rem;
+      border-radius: 999px;
     }
-    .finder-why-chip i { color: var(--color-primary); font-size: 0.65rem; }
+    .finder-why-chip i {
+      color: var(--color-primary);
+      font-size: 0.65rem;
+    }
 
-    .finder-results-actions { display: flex; flex-wrap: wrap; gap: 0.625rem; margin-top: 1.75rem; }
-    .finder-empty { text-align: center; padding: 2.5rem 1rem; color: var(--color-text-muted); }
-    .finder-empty i { font-size: 2rem; margin-bottom: 0.75rem; opacity: 0.5; }
-    .finder-empty h3 { font-size: 1.1rem; font-weight: 700; color: var(--color-text-base); margin-bottom: 0.35rem; }
+    .finder-results-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.625rem;
+      margin-top: 1.75rem;
+    }
+    .finder-empty {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--color-text-muted);
+    }
+    .finder-empty i {
+      font-size: 2rem;
+      margin-bottom: 0.75rem;
+      opacity: 0.5;
+    }
+    .finder-empty h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--color-text-base);
+      margin-bottom: 0.35rem;
+    }
   </style>
 
   <!-- Embed slim robot data for the client-side finder -->

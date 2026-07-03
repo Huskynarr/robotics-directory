@@ -60,7 +60,8 @@ const maxBucket = Math.max(...buckets.map((b) => b.count));
 
 // Most common capabilities (tags)
 const tagCounts = {};
-for (const r of allRobots) for (const t of r.tagsArray || []) tagCounts[t] = (tagCounts[t] || 0) + 1;
+for (const r of allRobots)
+  for (const t of r.tagsArray || []) tagCounts[t] = (tagCounts[t] || 0) + 1;
 const topTags = Object.entries(tagCounts)
   .map(([tag, count]) => ({ tag, count }))
   .sort((a, b) => b.count - a.count)
@@ -82,9 +83,24 @@ const jsonLd = {
 };
 
 const kpis = [
-  { value: total.toLocaleString('en-US'), label: 'Robots', i18n: 'stats.kpi.robots', icon: 'fa-robot' },
-  { value: manufacturerCount.toLocaleString('en-US'), label: 'Manufacturers', i18n: 'stats.kpi.manufacturers', icon: 'fa-industry' },
-  { value: String(CATEGORIES.length), label: 'Categories', i18n: 'stats.kpi.categories', icon: 'fa-layer-group' },
+  {
+    value: total.toLocaleString('en-US'),
+    label: 'Robots',
+    i18n: 'stats.kpi.robots',
+    icon: 'fa-robot',
+  },
+  {
+    value: manufacturerCount.toLocaleString('en-US'),
+    label: 'Manufacturers',
+    i18n: 'stats.kpi.manufacturers',
+    icon: 'fa-industry',
+  },
+  {
+    value: String(CATEGORIES.length),
+    label: 'Categories',
+    i18n: 'stats.kpi.categories',
+    icon: 'fa-layer-group',
+  },
   { value: imagePct + '%', label: 'With photo', i18n: 'stats.kpi.images', icon: 'fa-image' },
 ];
 ---
@@ -99,7 +115,10 @@ const kpis = [
         <span class="mx-1">/</span>
         <span data-i18n="stats.title">Statistics</span>
       </nav>
-      <h1 class="font-heading text-2xl md:text-3xl font-bold text-text-base mb-2" data-i18n="stats.heading">
+      <h1
+        class="font-heading text-2xl md:text-3xl font-bold text-text-base mb-2"
+        data-i18n="stats.heading"
+      >
         Robot Directory in Numbers
       </h1>
       <p class="text-text-secondary max-w-2xl" data-i18n="stats.intro">
@@ -109,31 +128,47 @@ const kpis = [
 
     <!-- KPI cards -->
     <section class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
-      {kpis.map((k) => (
-        <div class="bg-surface border border-border rounded-xl p-5 flex flex-col gap-1">
-          <i class={`fas ${k.icon} text-primary text-lg mb-1`}></i>
-          <span class="text-3xl font-bold text-text-base tabular-nums">{k.value}</span>
-          <span class="text-sm text-text-secondary" data-i18n={k.i18n}>{k.label}</span>
-        </div>
-      ))}
+      {
+        kpis.map((k) => (
+          <div class="bg-surface border border-border rounded-xl p-5 flex flex-col gap-1">
+            <i class={`fas ${k.icon} text-primary text-lg mb-1`} />
+            <span class="text-3xl font-bold text-text-base tabular-nums">{k.value}</span>
+            <span class="text-sm text-text-secondary" data-i18n={k.i18n}>
+              {k.label}
+            </span>
+          </div>
+        ))
+      }
     </section>
 
     <!-- By category -->
     <section class="mb-12">
-      <h2 class="font-heading text-xl font-semibold text-text-base mb-4" data-i18n="stats.byCategory">Robots by category</h2>
+      <h2
+        class="font-heading text-xl font-semibold text-text-base mb-4"
+        data-i18n="stats.byCategory"
+      >
+        Robots by category
+      </h2>
       <div class="bg-surface border border-border rounded-xl p-5 space-y-3">
-        {byCategory.map((c) => (
-          <a href={`/?category=${c.id}`} class="group flex items-center gap-3 no-underline">
-            <span class="w-32 shrink-0 flex items-center gap-2 text-sm text-text-base">
-              <i class={`fas ${c.icon}`} style={`color:${c.color}`}></i>
-              <span data-i18n={`nav.${c.id}`}>{c.label}</span>
-            </span>
-            <span class="flex-1 h-6 rounded bg-bg overflow-hidden">
-              <span class="block h-full rounded transition-all group-hover:opacity-80" style={`width:${Math.round((c.count / maxCat) * 100)}%;background:${c.color}`}></span>
-            </span>
-            <span class="w-12 text-right text-sm font-semibold text-text-base tabular-nums">{c.count}</span>
-          </a>
-        ))}
+        {
+          byCategory.map((c) => (
+            <a href={`/?category=${c.id}`} class="group flex items-center gap-3 no-underline">
+              <span class="w-32 shrink-0 flex items-center gap-2 text-sm text-text-base">
+                <i class={`fas ${c.icon}`} style={`color:${c.color}`} />
+                <span data-i18n={`nav.${c.id}`}>{c.label}</span>
+              </span>
+              <span class="flex-1 h-6 rounded bg-bg overflow-hidden">
+                <span
+                  class="block h-full rounded transition-all group-hover:opacity-80"
+                  style={`width:${Math.round((c.count / maxCat) * 100)}%;background:${c.color}`}
+                />
+              </span>
+              <span class="w-12 text-right text-sm font-semibold text-text-base tabular-nums">
+                {c.count}
+              </span>
+            </a>
+          ))
+        }
       </div>
     </section>
 
@@ -141,74 +176,135 @@ const kpis = [
     <div class="grid lg:grid-cols-2 gap-8 mb-12">
       <!-- Top manufacturers -->
       <section>
-        <h2 class="font-heading text-xl font-semibold text-text-base mb-4" data-i18n="stats.topMakers">Top manufacturers</h2>
+        <h2
+          class="font-heading text-xl font-semibold text-text-base mb-4"
+          data-i18n="stats.topMakers"
+        >
+          Top manufacturers
+        </h2>
         <div class="bg-surface border border-border rounded-xl p-5 space-y-2.5">
-          {topManufacturers.map((m, i) => (
-            <a href={`/?mfr=${encodeURIComponent(m.name)}`} class="group flex items-center gap-3 no-underline">
-              <span class="w-5 text-right text-xs text-text-muted tabular-nums">{i + 1}</span>
-              <span class="w-36 shrink-0 truncate text-sm text-text-base" title={m.name}>{m.name}</span>
-              <span class="flex-1 h-4 rounded bg-bg overflow-hidden">
-                <span class="block h-full rounded bg-primary transition-all group-hover:opacity-80" style={`width:${Math.round((m.count / maxMfr) * 100)}%`}></span>
-              </span>
-              <span class="w-8 text-right text-sm font-semibold text-text-base tabular-nums">{m.count}</span>
-            </a>
-          ))}
+          {
+            topManufacturers.map((m, i) => (
+              <a
+                href={`/?mfr=${encodeURIComponent(m.name)}`}
+                class="group flex items-center gap-3 no-underline"
+              >
+                <span class="w-5 text-right text-xs text-text-muted tabular-nums">{i + 1}</span>
+                <span class="w-36 shrink-0 truncate text-sm text-text-base" title={m.name}>
+                  {m.name}
+                </span>
+                <span class="flex-1 h-4 rounded bg-bg overflow-hidden">
+                  <span
+                    class="block h-full rounded bg-primary transition-all group-hover:opacity-80"
+                    style={`width:${Math.round((m.count / maxMfr) * 100)}%`}
+                  />
+                </span>
+                <span class="w-8 text-right text-sm font-semibold text-text-base tabular-nums">
+                  {m.count}
+                </span>
+              </a>
+            ))
+          }
         </div>
         <p class="text-xs text-text-muted mt-2">
-          <span data-i18n="stats.soloNote">Manufacturers with a single model:</span> <strong>{soloManufacturers}</strong>
+          <span data-i18n="stats.soloNote">Manufacturers with a single model:</span>
+          <strong>{soloManufacturers}</strong>
         </p>
       </section>
 
       <!-- Price distribution -->
       <section>
-        <h2 class="font-heading text-xl font-semibold text-text-base mb-4" data-i18n="stats.priceDist">Price distribution</h2>
+        <h2
+          class="font-heading text-xl font-semibold text-text-base mb-4"
+          data-i18n="stats.priceDist"
+        >
+          Price distribution
+        </h2>
         <div class="bg-surface border border-border rounded-xl p-5 space-y-3 mb-4">
-          {buckets.map((b) => (
-            <div class="flex items-center gap-3">
-              <span class="w-28 shrink-0 text-sm text-text-secondary">{b.label}</span>
-              <span class="flex-1 h-5 rounded bg-bg overflow-hidden">
-                <span class="block h-full rounded bg-accent transition-all" style={`width:${maxBucket ? Math.round((b.count / maxBucket) * 100) : 0}%`}></span>
-              </span>
-              <span class="w-10 text-right text-sm font-semibold text-text-base tabular-nums">{b.count}</span>
-            </div>
-          ))}
+          {
+            buckets.map((b) => (
+              <div class="flex items-center gap-3">
+                <span class="w-28 shrink-0 text-sm text-text-secondary">{b.label}</span>
+                <span class="flex-1 h-5 rounded bg-bg overflow-hidden">
+                  <span
+                    class="block h-full rounded bg-accent transition-all"
+                    style={`width:${maxBucket ? Math.round((b.count / maxBucket) * 100) : 0}%`}
+                  />
+                </span>
+                <span class="w-10 text-right text-sm font-semibold text-text-base tabular-nums">
+                  {b.count}
+                </span>
+              </div>
+            ))
+          }
         </div>
         <div class="grid grid-cols-3 gap-3">
           <div class="bg-surface border border-border rounded-xl p-3 text-center">
             <div class="text-xs text-text-muted mb-0.5" data-i18n="stats.median">Median</div>
             <div class="text-lg font-bold text-text-base">{usd(median)}</div>
           </div>
-          {cheapest && (
-            <a href={`/robot/${cheapest.id}/`} class="bg-surface border border-border rounded-xl p-3 text-center no-underline hover:border-primary transition-colors">
-              <div class="text-xs text-text-muted mb-0.5" data-i18n="stats.cheapest">Cheapest</div>
-              <div class="text-lg font-bold text-text-base">{usd(getPriceValue(cheapest.price))}</div>
-              <div class="text-[11px] text-text-muted truncate">{cheapest.manufacturer} {cheapest.model}</div>
-            </a>
-          )}
-          {priciest && (
-            <a href={`/robot/${priciest.id}/`} class="bg-surface border border-border rounded-xl p-3 text-center no-underline hover:border-primary transition-colors">
-              <div class="text-xs text-text-muted mb-0.5" data-i18n="stats.priciest">Most expensive</div>
-              <div class="text-lg font-bold text-text-base">{usd(getPriceValue(priciest.price))}</div>
-              <div class="text-[11px] text-text-muted truncate">{priciest.manufacturer} {priciest.model}</div>
-            </a>
-          )}
+          {
+            cheapest && (
+              <a
+                href={`/robot/${cheapest.id}/`}
+                class="bg-surface border border-border rounded-xl p-3 text-center no-underline hover:border-primary transition-colors"
+              >
+                <div class="text-xs text-text-muted mb-0.5" data-i18n="stats.cheapest">
+                  Cheapest
+                </div>
+                <div class="text-lg font-bold text-text-base">
+                  {usd(getPriceValue(cheapest.price))}
+                </div>
+                <div class="text-[11px] text-text-muted truncate">
+                  {cheapest.manufacturer} {cheapest.model}
+                </div>
+              </a>
+            )
+          }
+          {
+            priciest && (
+              <a
+                href={`/robot/${priciest.id}/`}
+                class="bg-surface border border-border rounded-xl p-3 text-center no-underline hover:border-primary transition-colors"
+              >
+                <div class="text-xs text-text-muted mb-0.5" data-i18n="stats.priciest">
+                  Most expensive
+                </div>
+                <div class="text-lg font-bold text-text-base">
+                  {usd(getPriceValue(priciest.price))}
+                </div>
+                <div class="text-[11px] text-text-muted truncate">
+                  {priciest.manufacturer} {priciest.model}
+                </div>
+              </a>
+            )
+          }
         </div>
         <p class="text-xs text-text-muted mt-2">
-          <span data-i18n="stats.priceNote">Based on</span> {withPrice} <span data-i18n="stats.priceNote2">robots with a listed price ({pricePct}% of all).</span>
+          <span data-i18n="stats.priceNote">Based on</span>
+          {withPrice}
+          <span data-i18n="stats.priceNote2">robots with a listed price ({pricePct}% of all).</span>
         </p>
       </section>
     </div>
 
     <!-- Capabilities -->
     <section class="mb-12">
-      <h2 class="font-heading text-xl font-semibold text-text-base mb-4" data-i18n="stats.capabilities">Most common capabilities</h2>
+      <h2
+        class="font-heading text-xl font-semibold text-text-base mb-4"
+        data-i18n="stats.capabilities"
+      >
+        Most common capabilities
+      </h2>
       <div class="bg-surface border border-border rounded-xl p-5 flex flex-wrap gap-2">
-        {topTags.map((t) => (
-          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-bg border border-border text-sm text-text-base">
-            {prettyTag(t.tag)}
-            <span class="text-xs font-semibold text-text-muted tabular-nums">{t.count}</span>
-          </span>
-        ))}
+        {
+          topTags.map((t) => (
+            <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-bg border border-border text-sm text-text-base">
+              {prettyTag(t.tag)}
+              <span class="text-xs font-semibold text-text-muted tabular-nums">{t.count}</span>
+            </span>
+          ))
+        }
       </div>
     </section>
 

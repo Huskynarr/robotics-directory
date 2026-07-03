@@ -11,7 +11,9 @@ function detectLang() {
     const url = new URLSearchParams(location.search).get('lang');
     if (url) return url;
     return (navigator.language || 'en').toLowerCase().split('-')[0] || 'en';
-  } catch { return 'en'; }
+  } catch {
+    return 'en';
+  }
 }
 let lang = detectLang();
 const L = (o) => (o && (o[lang] || o.en)) || '';
@@ -40,7 +42,10 @@ const UI = {
     en: 'Try removing a filter or widening your budget.',
     de: 'Entferne ein Kriterium oder weite dein Budget aus.',
   },
-  multiHint: { en: 'Pick any that matter — or skip.', de: 'Wähle, was dir wichtig ist — oder überspringe.' },
+  multiHint: {
+    en: 'Pick any that matter — or skip.',
+    de: 'Wähle, was dir wichtig ist — oder überspringe.',
+  },
 };
 
 const CAT_LABELS = {
@@ -57,39 +62,151 @@ const CAT_LABELS = {
 // Ordered humanoid-first: humanoids and other "real" robots lead; home-helper
 // appliances (cleaning/outdoor/smart home) follow as the nice-to-have tail.
 const NEED_OPTIONS = [
-  { value: 'humanoid', icon: 'fa-person', color: '#2563eb', label: { en: 'Humanoid robot', de: 'Humanoider Roboter' }, desc: { en: 'General-purpose, work & research', de: 'Allzweck, Arbeit & Forschung' } },
-  { value: 'quadruped', icon: 'fa-dog', color: '#d97706', label: { en: 'Four-legged robot', de: 'Vierbeiner-Roboter' }, desc: { en: 'Robot dogs & inspection', de: 'Roboterhunde & Inspektion' } },
-  { value: 'companion', icon: 'fa-heart', color: '#db2777', label: { en: 'Companion & social', de: 'Begleiter & Sozial' }, desc: { en: 'Emotion, assistance, fun', de: 'Emotion, Hilfe, Spaß' } },
-  { value: 'educational', icon: 'fa-graduation-cap', color: '#10b981', label: { en: 'Learn & build', de: 'Lernen & Bauen' }, desc: { en: 'STEM, coding, kids', de: 'MINT, Coding, Kinder' } },
-  { value: 'smarthome', icon: 'fa-house-signal', color: '#ea580c', label: { en: 'Smart home & service', de: 'Smart Home & Service' }, desc: { en: 'Kitchen, delivery, security', de: 'Küche, Lieferung, Sicherheit' } },
-  { value: 'cleaning', icon: 'fa-broom', color: '#0d9488', label: { en: 'Home cleaning', de: 'Reinigung zuhause' }, desc: { en: 'Vacuum, mop, windows', de: 'Saugen, Wischen, Fenster' } },
-  { value: 'outdoor', icon: 'fa-tree', color: '#059669', label: { en: 'Garden & outdoors', de: 'Garten & Außen' }, desc: { en: 'Lawn, pool, garden', de: 'Rasen, Pool, Garten' } },
-  { value: 'any', icon: 'fa-shuffle', color: '#6b7280', label: { en: 'Just show me robots', de: 'Zeig mir einfach Roboter' }, desc: { en: 'Browse everything', de: 'Alles durchstöbern' } },
+  {
+    value: 'humanoid',
+    icon: 'fa-person',
+    color: '#2563eb',
+    label: { en: 'Humanoid robot', de: 'Humanoider Roboter' },
+    desc: { en: 'General-purpose, work & research', de: 'Allzweck, Arbeit & Forschung' },
+  },
+  {
+    value: 'quadruped',
+    icon: 'fa-dog',
+    color: '#d97706',
+    label: { en: 'Four-legged robot', de: 'Vierbeiner-Roboter' },
+    desc: { en: 'Robot dogs & inspection', de: 'Roboterhunde & Inspektion' },
+  },
+  {
+    value: 'companion',
+    icon: 'fa-heart',
+    color: '#db2777',
+    label: { en: 'Companion & social', de: 'Begleiter & Sozial' },
+    desc: { en: 'Emotion, assistance, fun', de: 'Emotion, Hilfe, Spaß' },
+  },
+  {
+    value: 'educational',
+    icon: 'fa-graduation-cap',
+    color: '#10b981',
+    label: { en: 'Learn & build', de: 'Lernen & Bauen' },
+    desc: { en: 'STEM, coding, kids', de: 'MINT, Coding, Kinder' },
+  },
+  {
+    value: 'smarthome',
+    icon: 'fa-house-signal',
+    color: '#ea580c',
+    label: { en: 'Smart home & service', de: 'Smart Home & Service' },
+    desc: { en: 'Kitchen, delivery, security', de: 'Küche, Lieferung, Sicherheit' },
+  },
+  {
+    value: 'cleaning',
+    icon: 'fa-broom',
+    color: '#0d9488',
+    label: { en: 'Home cleaning', de: 'Reinigung zuhause' },
+    desc: { en: 'Vacuum, mop, windows', de: 'Saugen, Wischen, Fenster' },
+  },
+  {
+    value: 'outdoor',
+    icon: 'fa-tree',
+    color: '#059669',
+    label: { en: 'Garden & outdoors', de: 'Garten & Außen' },
+    desc: { en: 'Lawn, pool, garden', de: 'Rasen, Pool, Garten' },
+  },
+  {
+    value: 'any',
+    icon: 'fa-shuffle',
+    color: '#6b7280',
+    label: { en: 'Just show me robots', de: 'Zeig mir einfach Roboter' },
+    desc: { en: 'Browse everything', de: 'Alles durchstöbern' },
+  },
 ];
 
 // Step 2 — budget buckets (USD), matched against getPriceValue
 const BUDGET_OPTIONS = [
-  { value: 'b1', min: 0, max: 300, icon: 'fa-piggy-bank', label: { en: 'Under $300', de: 'Unter 300 $' } },
-  { value: 'b2', min: 300, max: 700, icon: 'fa-wallet', label: { en: '$300 – $700', de: '300 – 700 $' } },
-  { value: 'b3', min: 700, max: 1500, icon: 'fa-credit-card', label: { en: '$700 – $1,500', de: '700 – 1.500 $' } },
-  { value: 'b4', min: 1500, max: 5000, icon: 'fa-sack-dollar', label: { en: '$1,500 – $5,000', de: '1.500 – 5.000 $' } },
-  { value: 'b5', min: 5000, max: Infinity, icon: 'fa-gem', label: { en: 'Over $5,000', de: 'Über 5.000 $' } },
-  { value: 'any', min: 0, max: Infinity, icon: 'fa-infinity', label: { en: 'Budget doesn’t matter', de: 'Budget egal' } },
+  {
+    value: 'b1',
+    min: 0,
+    max: 300,
+    icon: 'fa-piggy-bank',
+    label: { en: 'Under $300', de: 'Unter 300 $' },
+  },
+  {
+    value: 'b2',
+    min: 300,
+    max: 700,
+    icon: 'fa-wallet',
+    label: { en: '$300 – $700', de: '300 – 700 $' },
+  },
+  {
+    value: 'b3',
+    min: 700,
+    max: 1500,
+    icon: 'fa-credit-card',
+    label: { en: '$700 – $1,500', de: '700 – 1.500 $' },
+  },
+  {
+    value: 'b4',
+    min: 1500,
+    max: 5000,
+    icon: 'fa-sack-dollar',
+    label: { en: '$1,500 – $5,000', de: '1.500 – 5.000 $' },
+  },
+  {
+    value: 'b5',
+    min: 5000,
+    max: Infinity,
+    icon: 'fa-gem',
+    label: { en: 'Over $5,000', de: 'Über 5.000 $' },
+  },
+  {
+    value: 'any',
+    min: 0,
+    max: Infinity,
+    icon: 'fa-infinity',
+    label: { en: 'Budget doesn’t matter', de: 'Budget egal' },
+  },
 ];
 
 // Step 3 — how recent the model should be (uses the releaseDate field, ~92% filled)
 const RECENCY_OPTIONS = [
-  { value: 'r1', minYear: 2024, icon: 'fa-bolt', label: { en: 'Latest models', de: 'Neueste Modelle' }, desc: { en: 'Released 2024 or newer', de: 'Erschienen ab 2024' } },
-  { value: 'r2', minYear: 2021, icon: 'fa-clock-rotate-left', label: { en: 'Fairly recent', de: 'Relativ aktuell' }, desc: { en: 'Released 2021 or newer', de: 'Erschienen ab 2021' } },
-  { value: 'any', minYear: null, icon: 'fa-infinity', label: { en: 'Age doesn’t matter', de: 'Alter egal' }, desc: { en: 'Classics welcome too', de: 'Auch Klassiker willkommen' } },
+  {
+    value: 'r1',
+    minYear: 2024,
+    icon: 'fa-bolt',
+    label: { en: 'Latest models', de: 'Neueste Modelle' },
+    desc: { en: 'Released 2024 or newer', de: 'Erschienen ab 2024' },
+  },
+  {
+    value: 'r2',
+    minYear: 2021,
+    icon: 'fa-clock-rotate-left',
+    label: { en: 'Fairly recent', de: 'Relativ aktuell' },
+    desc: { en: 'Released 2021 or newer', de: 'Erschienen ab 2021' },
+  },
+  {
+    value: 'any',
+    minYear: null,
+    icon: 'fa-infinity',
+    label: { en: 'Age doesn’t matter', de: 'Alter egal' },
+    desc: { en: 'Classics welcome too', de: 'Auch Klassiker willkommen' },
+  },
 ];
 
 // Step 5 — child age, only shown for the educational path
 const AGE_OPTIONS = [
   { value: 'a1', age: 5, icon: 'fa-baby', label: { en: 'Under 6', de: 'Unter 6' } },
   { value: 'a2', age: 8, icon: 'fa-child', label: { en: '6 – 9 years', de: '6 – 9 Jahre' } },
-  { value: 'a3', age: 12, icon: 'fa-child-reaching', label: { en: '10 – 13 years', de: '10 – 13 Jahre' } },
-  { value: 'a4', age: 16, icon: 'fa-user-graduate', label: { en: '14+ / adult', de: '14+ / Erwachsen' } },
+  {
+    value: 'a3',
+    age: 12,
+    icon: 'fa-child-reaching',
+    label: { en: '10 – 13 years', de: '10 – 13 Jahre' },
+  },
+  {
+    value: 'a4',
+    age: 16,
+    icon: 'fa-user-graduate',
+    label: { en: '14+ / adult', de: '14+ / Erwachsen' },
+  },
   { value: 'any', age: null, icon: 'fa-users', label: { en: 'Any age', de: 'Jedes Alter' } },
 ];
 
@@ -97,66 +214,178 @@ const AGE_OPTIONS = [
 const FEATURES = {
   cleaning: [
     { tag: 'mop', icon: 'fa-droplet', label: { en: 'Mops too', de: 'Wischt auch' } },
-    { tag: 'auto-empty', icon: 'fa-trash-can-arrow-up', label: { en: 'Self-emptying dock', de: 'Selbstentleerende Station' } },
-    { tag: 'lidar', icon: 'fa-satellite-dish', label: { en: 'Laser navigation', de: 'Lasernavigation' } },
-    { tag: 'obstacle-avoidance', icon: 'fa-eye', label: { en: 'Obstacle avoidance', de: 'Hinderniserkennung' } },
-    { tag: 'app-control', icon: 'fa-mobile-screen', label: { en: 'App control', de: 'App-Steuerung' } },
-    { tag: 'self-wash', icon: 'fa-soap', label: { en: 'Self-cleaning mop', de: 'Mopp-Selbstreinigung' } },
-    { tag: 'window-clean', icon: 'fa-window-maximize', label: { en: 'Cleans windows', de: 'Fensterreinigung' } },
+    {
+      tag: 'auto-empty',
+      icon: 'fa-trash-can-arrow-up',
+      label: { en: 'Self-emptying dock', de: 'Selbstentleerende Station' },
+    },
+    {
+      tag: 'lidar',
+      icon: 'fa-satellite-dish',
+      label: { en: 'Laser navigation', de: 'Lasernavigation' },
+    },
+    {
+      tag: 'obstacle-avoidance',
+      icon: 'fa-eye',
+      label: { en: 'Obstacle avoidance', de: 'Hinderniserkennung' },
+    },
+    {
+      tag: 'app-control',
+      icon: 'fa-mobile-screen',
+      label: { en: 'App control', de: 'App-Steuerung' },
+    },
+    {
+      tag: 'self-wash',
+      icon: 'fa-soap',
+      label: { en: 'Self-cleaning mop', de: 'Mopp-Selbstreinigung' },
+    },
+    {
+      tag: 'window-clean',
+      icon: 'fa-window-maximize',
+      label: { en: 'Cleans windows', de: 'Fensterreinigung' },
+    },
     { tag: 'pet', icon: 'fa-paw', label: { en: 'Good with pet hair', de: 'Tierhaar-geeignet' } },
   ],
   outdoor: [
     { tag: 'lawn-mow', icon: 'fa-seedling', label: { en: 'Mows the lawn', de: 'Rasenmähen' } },
     { tag: 'pool-clean', icon: 'fa-water', label: { en: 'Cleans the pool', de: 'Poolreinigung' } },
     { tag: 'garden', icon: 'fa-leaf', label: { en: 'Garden care', de: 'Gartenpflege' } },
-    { tag: 'autonomous-nav', icon: 'fa-route', label: { en: 'Autonomous nav', de: 'Autonome Navigation' } },
-    { tag: 'obstacle-avoidance', icon: 'fa-eye', label: { en: 'Obstacle avoidance', de: 'Hinderniserkennung' } },
-    { tag: 'app-control', icon: 'fa-mobile-screen', label: { en: 'App control', de: 'App-Steuerung' } },
+    {
+      tag: 'autonomous-nav',
+      icon: 'fa-route',
+      label: { en: 'Autonomous nav', de: 'Autonome Navigation' },
+    },
+    {
+      tag: 'obstacle-avoidance',
+      icon: 'fa-eye',
+      label: { en: 'Obstacle avoidance', de: 'Hinderniserkennung' },
+    },
+    {
+      tag: 'app-control',
+      icon: 'fa-mobile-screen',
+      label: { en: 'App control', de: 'App-Steuerung' },
+    },
   ],
   companion: [
-    { tag: 'voice-control', icon: 'fa-microphone', label: { en: 'Voice control', de: 'Sprachsteuerung' } },
-    { tag: 'emotion-recognition', icon: 'fa-face-smile', label: { en: 'Reads emotions', de: 'Emotionserkennung' } },
+    {
+      tag: 'voice-control',
+      icon: 'fa-microphone',
+      label: { en: 'Voice control', de: 'Sprachsteuerung' },
+    },
+    {
+      tag: 'emotion-recognition',
+      icon: 'fa-face-smile',
+      label: { en: 'Reads emotions', de: 'Emotionserkennung' },
+    },
     { tag: 'pet', icon: 'fa-paw', label: { en: 'Robot pet', de: 'Roboter-Haustier' } },
-    { tag: 'therapeutic', icon: 'fa-hand-holding-heart', label: { en: 'Therapeutic', de: 'Therapeutisch' } },
+    {
+      tag: 'therapeutic',
+      icon: 'fa-hand-holding-heart',
+      label: { en: 'Therapeutic', de: 'Therapeutisch' },
+    },
     { tag: 'toy', icon: 'fa-gamepad', label: { en: 'Fun & play', de: 'Spiel & Spaß' } },
-    { tag: 'app-control', icon: 'fa-mobile-screen', label: { en: 'App control', de: 'App-Steuerung' } },
+    {
+      tag: 'app-control',
+      icon: 'fa-mobile-screen',
+      label: { en: 'App control', de: 'App-Steuerung' },
+    },
   ],
   educational: [
     { tag: 'programmable', icon: 'fa-code', label: { en: 'Programmable', de: 'Programmierbar' } },
     { tag: 'stem', icon: 'fa-flask', label: { en: 'STEM learning', de: 'MINT-Lernen' } },
     { tag: 'robotic-arm', icon: 'fa-robot', label: { en: 'Robotic arm', de: 'Roboterarm' } },
     { tag: 'ai-powered', icon: 'fa-brain', label: { en: 'AI features', de: 'KI-Funktionen' } },
-    { tag: 'dev-platform', icon: 'fa-screwdriver-wrench', label: { en: 'Dev platform', de: 'Entwicklerplattform' } },
-    { tag: 'app-control', icon: 'fa-mobile-screen', label: { en: 'App control', de: 'App-Steuerung' } },
+    {
+      tag: 'dev-platform',
+      icon: 'fa-screwdriver-wrench',
+      label: { en: 'Dev platform', de: 'Entwicklerplattform' },
+    },
+    {
+      tag: 'app-control',
+      icon: 'fa-mobile-screen',
+      label: { en: 'App control', de: 'App-Steuerung' },
+    },
   ],
   humanoid: [
-    { tag: 'industrial', icon: 'fa-industry', label: { en: 'Industrial work', de: 'Industrie/Arbeit' } },
-    { tag: 'service', icon: 'fa-bell-concierge', label: { en: 'Service & reception', de: 'Service/Empfang' } },
+    {
+      tag: 'industrial',
+      icon: 'fa-industry',
+      label: { en: 'Industrial work', de: 'Industrie/Arbeit' },
+    },
+    {
+      tag: 'service',
+      icon: 'fa-bell-concierge',
+      label: { en: 'Service & reception', de: 'Service/Empfang' },
+    },
     { tag: 'research', icon: 'fa-flask', label: { en: 'Research', de: 'Forschung' } },
-    { tag: 'dev-platform', icon: 'fa-screwdriver-wrench', label: { en: 'Dev platform', de: 'Entwicklerplattform' } },
+    {
+      tag: 'dev-platform',
+      icon: 'fa-screwdriver-wrench',
+      label: { en: 'Dev platform', de: 'Entwicklerplattform' },
+    },
     { tag: 'ai-powered', icon: 'fa-brain', label: { en: 'AI-driven', de: 'KI-gesteuert' } },
     { tag: 'consumer', icon: 'fa-house', label: { en: 'For the home', de: 'Für Zuhause' } },
   ],
   quadruped: [
-    { tag: 'inspection', icon: 'fa-magnifying-glass', label: { en: 'Inspection', de: 'Inspektion' } },
+    {
+      tag: 'inspection',
+      icon: 'fa-magnifying-glass',
+      label: { en: 'Inspection', de: 'Inspektion' },
+    },
     { tag: 'all-terrain', icon: 'fa-mountain', label: { en: 'All-terrain', de: 'Geländegängig' } },
-    { tag: 'stair-climbing', icon: 'fa-stairs', label: { en: 'Climbs stairs', de: 'Treppensteigen' } },
+    {
+      tag: 'stair-climbing',
+      icon: 'fa-stairs',
+      label: { en: 'Climbs stairs', de: 'Treppensteigen' },
+    },
     { tag: 'security', icon: 'fa-shield-halved', label: { en: 'Security', de: 'Sicherheit' } },
     { tag: 'research', icon: 'fa-flask', label: { en: 'Research', de: 'Forschung' } },
     { tag: 'pet', icon: 'fa-paw', label: { en: 'Fun robot dog', de: 'Roboterhund (Spaß)' } },
   ],
   smarthome: [
-    { tag: 'kitchen', icon: 'fa-utensils', label: { en: 'Kitchen & cooking', de: 'Küche & Kochen' } },
-    { tag: 'delivery', icon: 'fa-box', label: { en: 'Delivery & transport', de: 'Lieferung/Transport' } },
-    { tag: 'security', icon: 'fa-shield-halved', label: { en: 'Security & monitoring', de: 'Sicherheit/Überwachung' } },
-    { tag: 'voice-control', icon: 'fa-microphone', label: { en: 'Voice control', de: 'Sprachsteuerung' } },
-    { tag: 'home-assistant', icon: 'fa-house-signal', label: { en: 'Home assistant', de: 'Smart-Home-Assistent' } },
-    { tag: 'service', icon: 'fa-bell-concierge', label: { en: 'Service & reception', de: 'Service/Empfang' } },
+    {
+      tag: 'kitchen',
+      icon: 'fa-utensils',
+      label: { en: 'Kitchen & cooking', de: 'Küche & Kochen' },
+    },
+    {
+      tag: 'delivery',
+      icon: 'fa-box',
+      label: { en: 'Delivery & transport', de: 'Lieferung/Transport' },
+    },
+    {
+      tag: 'security',
+      icon: 'fa-shield-halved',
+      label: { en: 'Security & monitoring', de: 'Sicherheit/Überwachung' },
+    },
+    {
+      tag: 'voice-control',
+      icon: 'fa-microphone',
+      label: { en: 'Voice control', de: 'Sprachsteuerung' },
+    },
+    {
+      tag: 'home-assistant',
+      icon: 'fa-house-signal',
+      label: { en: 'Home assistant', de: 'Smart-Home-Assistent' },
+    },
+    {
+      tag: 'service',
+      icon: 'fa-bell-concierge',
+      label: { en: 'Service & reception', de: 'Service/Empfang' },
+    },
   ],
   any: [
     { tag: 'ai-powered', icon: 'fa-brain', label: { en: 'AI-powered', de: 'KI-gestützt' } },
-    { tag: 'voice-control', icon: 'fa-microphone', label: { en: 'Voice control', de: 'Sprachsteuerung' } },
-    { tag: 'app-control', icon: 'fa-mobile-screen', label: { en: 'App control', de: 'App-Steuerung' } },
+    {
+      tag: 'voice-control',
+      icon: 'fa-microphone',
+      label: { en: 'Voice control', de: 'Sprachsteuerung' },
+    },
+    {
+      tag: 'app-control',
+      icon: 'fa-mobile-screen',
+      label: { en: 'App control', de: 'App-Steuerung' },
+    },
     { tag: 'autonomous-nav', icon: 'fa-route', label: { en: 'Autonomous', de: 'Autonom' } },
     { tag: 'consumer', icon: 'fa-house', label: { en: 'For consumers', de: 'Für Verbraucher' } },
     { tag: 'programmable', icon: 'fa-code', label: { en: 'Programmable', de: 'Programmierbar' } },
@@ -164,9 +393,18 @@ const FEATURES = {
 };
 
 const STEP_META = {
-  need: { icon: 'fa-compass', title: { en: 'What kind of robot are you after?', de: 'Welche Art Roboter suchst du?' } },
-  budget: { icon: 'fa-wallet', title: { en: 'What’s your budget?', de: 'Wie hoch ist dein Budget?' } },
-  recency: { icon: 'fa-bolt', title: { en: 'How recent should it be?', de: 'Wie aktuell soll er sein?' } },
+  need: {
+    icon: 'fa-compass',
+    title: { en: 'What kind of robot are you after?', de: 'Welche Art Roboter suchst du?' },
+  },
+  budget: {
+    icon: 'fa-wallet',
+    title: { en: 'What’s your budget?', de: 'Wie hoch ist dein Budget?' },
+  },
+  recency: {
+    icon: 'fa-bolt',
+    title: { en: 'How recent should it be?', de: 'Wie aktuell soll er sein?' },
+  },
   features: { icon: 'fa-sliders', title: { en: 'What matters most?', de: 'Was ist dir wichtig?' } },
   age: { icon: 'fa-child', title: { en: 'Who is it for?', de: 'Für wen ist er?' } },
 };
@@ -279,7 +517,8 @@ function bestPossible() {
 
 function computeResults() {
   let pool = ROBOTS;
-  if (answers.need && answers.need !== 'any') pool = pool.filter((r) => r.category === answers.need);
+  if (answers.need && answers.need !== 'any')
+    pool = pool.filter((r) => r.category === answers.need);
   const scored = pool.map((r) => ({ r, ...scoreRobot(r) }));
   scored.sort((x, y) => y.score - x.score);
   return scored;
@@ -319,28 +558,57 @@ function renderStep() {
   let isMulti = false;
 
   if (id === 'need') {
-    optionsHTML = NEED_OPTIONS.map((o) => optionButton({
-      value: o.value, icon: o.icon, color: o.color, title: L(o.label), desc: L(o.desc),
-      selected: answers.need === o.value,
-    })).join('');
+    optionsHTML = NEED_OPTIONS.map((o) =>
+      optionButton({
+        value: o.value,
+        icon: o.icon,
+        color: o.color,
+        title: L(o.label),
+        desc: L(o.desc),
+        selected: answers.need === o.value,
+      }),
+    ).join('');
   } else if (id === 'budget') {
-    optionsHTML = BUDGET_OPTIONS.map((o) => optionButton({
-      value: o.value, icon: o.icon, title: L(o.label), selected: answers.budget === o.value,
-    })).join('');
+    optionsHTML = BUDGET_OPTIONS.map((o) =>
+      optionButton({
+        value: o.value,
+        icon: o.icon,
+        title: L(o.label),
+        selected: answers.budget === o.value,
+      }),
+    ).join('');
   } else if (id === 'recency') {
-    optionsHTML = RECENCY_OPTIONS.map((o) => optionButton({
-      value: o.value, icon: o.icon, title: L(o.label), desc: L(o.desc), selected: answers.recency === o.value,
-    })).join('');
+    optionsHTML = RECENCY_OPTIONS.map((o) =>
+      optionButton({
+        value: o.value,
+        icon: o.icon,
+        title: L(o.label),
+        desc: L(o.desc),
+        selected: answers.recency === o.value,
+      }),
+    ).join('');
   } else if (id === 'age') {
-    optionsHTML = AGE_OPTIONS.map((o) => optionButton({
-      value: o.value, icon: o.icon, title: L(o.label), selected: answers.age === o.value,
-    })).join('');
+    optionsHTML = AGE_OPTIONS.map((o) =>
+      optionButton({
+        value: o.value,
+        icon: o.icon,
+        title: L(o.label),
+        selected: answers.age === o.value,
+      }),
+    ).join('');
   } else if (id === 'features') {
     isMulti = true;
     const list = FEATURES[answers.need] || FEATURES.any;
-    optionsHTML = list.map((o) => optionButton({
-      value: o.tag, icon: o.icon, title: L(o.label), selected: answers.features.includes(o.tag),
-    })).join('');
+    optionsHTML = list
+      .map((o) =>
+        optionButton({
+          value: o.tag,
+          icon: o.icon,
+          title: L(o.label),
+          selected: answers.features.includes(o.tag),
+        }),
+      )
+      .join('');
   }
 
   stepEl().innerHTML = `
@@ -352,9 +620,11 @@ function renderStep() {
     <div class="finder-options${isMulti ? ' is-multi' : ''}">${optionsHTML}</div>`;
 
   // Option clicks
-  stepEl().querySelectorAll('.finder-option').forEach((btn) => {
-    btn.addEventListener('click', () => onOption(id, btn.dataset.value));
-  });
+  stepEl()
+    .querySelectorAll('.finder-option')
+    .forEach((btn) => {
+      btn.addEventListener('click', () => onOption(id, btn.dataset.value));
+    });
 
   renderNav(id, isMulti);
   renderProgress();
@@ -374,15 +644,22 @@ function renderNav(id, isMulti) {
   const back = document.getElementById('finderBack');
   if (back && showBack) back.addEventListener('click', goBack);
   const skip = document.getElementById('finderSkip');
-  if (skip) skip.addEventListener('click', () => { advance(); });
+  if (skip)
+    skip.addEventListener('click', () => {
+      advance();
+    });
   const next = document.getElementById('finderNext');
-  if (next) next.addEventListener('click', () => { advance(); });
+  if (next)
+    next.addEventListener('click', () => {
+      advance();
+    });
 }
 
 function onOption(stepId, value) {
   if (stepId === 'features') {
     const i = answers.features.indexOf(value);
-    if (i >= 0) answers.features.splice(i, 1); else answers.features.push(value);
+    if (i >= 0) answers.features.splice(i, 1);
+    else answers.features.push(value);
     renderStep(); // re-render to reflect toggles
     return;
   }
@@ -415,8 +692,13 @@ function resultCard(entry, pct) {
   const cat = CAT_LABELS[r.category] ? L(CAT_LABELS[r.category]) : r.category;
   const img = resolveImagePath(r.image);
   const price = formatPrice(r.price, lang, (k, fb) => fb || k);
-  const chips = entry.reasons.slice(0, 3).map((why) =>
-    `<span class="finder-why-chip"><i class="fas ${why.icon}"></i> ${escapeHTML(why.text)}</span>`).join('');
+  const chips = entry.reasons
+    .slice(0, 3)
+    .map(
+      (why) =>
+        `<span class="finder-why-chip"><i class="fas ${why.icon}"></i> ${escapeHTML(why.text)}</span>`,
+    )
+    .join('');
   return `<a href="/robot/${encodeURIComponent(r.id)}/" class="robot-card finder-result block no-underline">
     <div class="card-image">
       <span class="category-badge">${escapeHTML(cat)}</span>
@@ -440,14 +722,16 @@ function renderResults() {
   const scored = computeResults();
   const top = scored.slice(0, 12);
 
-  const catLink = answers.need && answers.need !== 'any'
-    ? '/?category=' + encodeURIComponent(answers.need) : '/';
+  const catLink =
+    answers.need && answers.need !== 'any' ? '/?category=' + encodeURIComponent(answers.need) : '/';
 
-  const cards = top.map((e) => {
-    let pct = null;
-    if (max > 0) pct = Math.max(5, Math.min(100, Math.round((e.score / max) * 100)));
-    return resultCard(e, pct);
-  }).join('');
+  const cards = top
+    .map((e) => {
+      let pct = null;
+      if (max > 0) pct = Math.max(5, Math.min(100, Math.round((e.score / max) * 100)));
+      return resultCard(e, pct);
+    })
+    .join('');
 
   const wizard = document.getElementById('finderWizard');
   const results = document.getElementById('finderResults');
@@ -458,12 +742,16 @@ function renderResults() {
       <h2 class="finder-q-title">${escapeHTML(L(UI.resultsTitle))}</h2>
       <p class="finder-q-hint">${escapeHTML(L(UI.resultsLead))}</p>
     </div>
-    ${top.length ? `<div class="finder-result-grid">${cards}</div>` : `
+    ${
+      top.length
+        ? `<div class="finder-result-grid">${cards}</div>`
+        : `
       <div class="finder-empty">
         <i class="fas fa-robot"></i>
         <h3>${escapeHTML(L(UI.noneTitle))}</h3>
         <p>${escapeHTML(L(UI.noneBody))}</p>
-      </div>`}
+      </div>`
+    }
     <div class="finder-results-actions">
       <a href="${catLink}" class="finder-btn finder-btn-primary no-underline"><i class="fas fa-grip"></i> ${escapeHTML(L(UI.viewAll))}</a>
       <button type="button" id="finderRefine" class="finder-btn finder-btn-ghost"><i class="fas fa-sliders"></i> ${escapeHTML(L(UI.refine))}</button>
@@ -481,7 +769,11 @@ function renderResults() {
 }
 
 function restart() {
-  answers.need = null; answers.budget = null; answers.recency = null; answers.features = []; answers.age = null;
+  answers.need = null;
+  answers.budget = null;
+  answers.recency = null;
+  answers.features = [];
+  answers.age = null;
   index = 0;
   document.getElementById('finderResults').classList.add('hidden');
   document.getElementById('finderWizard').classList.remove('hidden');
@@ -496,7 +788,7 @@ function rerender() {
 }
 
 function start() {
-  ROBOTS = (window.__ROBOTS_DATA__ || []);
+  ROBOTS = window.__ROBOTS_DATA__ || [];
   if (!stepEl()) return;
   // Re-render in the new language when the visitor switches it in the header.
   document.addEventListener('languageChanged', (e) => {

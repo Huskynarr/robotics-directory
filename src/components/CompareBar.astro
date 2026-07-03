@@ -9,10 +9,18 @@ const t = translations.en;
       <!-- Thumbnails injected by JS -->
     </div>
     <span id="compareBarCount" class="text-sm font-medium text-text-secondary shrink-0">0</span>
-    <button id="compareBarBtn" class="px-4 py-2 rounded-lg bg-primary text-white text-sm font-medium hover:bg-primary-dark transition-colors shrink-0" data-i18n="compare.label">
+    <button
+      id="compareBarBtn"
+      class="px-4 py-2 rounded-lg bg-primary text-white text-sm font-medium hover:bg-primary-dark transition-colors shrink-0"
+      data-i18n="compare.label"
+    >
       {t['compare.label']}
     </button>
-    <button id="compareBarClear" class="text-sm text-text-muted hover:text-danger transition-colors shrink-0" data-i18n="compare.clear">
+    <button
+      id="compareBarClear"
+      class="text-sm text-text-muted hover:text-danger transition-colors shrink-0"
+      data-i18n="compare.clear"
+    >
       {t['compare.clear']}
     </button>
   </div>
@@ -24,16 +32,28 @@ const t = translations.en;
   <div class="absolute inset-4 md:inset-8 rounded-2xl overflow-y-auto bg-surface">
     <div class="p-6">
       <div class="flex items-center justify-between mb-6">
-        <h2 class="font-heading text-xl font-semibold" data-i18n="compare.title">{t['compare.title']}</h2>
+        <h2 class="font-heading text-xl font-semibold" data-i18n="compare.title">
+          {t['compare.title']}
+        </h2>
         <div class="flex gap-2">
-          <button id="compareClear" class="px-3 py-1.5 rounded-lg text-sm text-text-muted hover:text-danger transition-colors" data-i18n="compare.clear">{t['compare.clear']}</button>
-          <button id="compareClose" class="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-bg text-text-secondary transition-colors" aria-label="Close">
+          <button
+            id="compareClear"
+            class="px-3 py-1.5 rounded-lg text-sm text-text-muted hover:text-danger transition-colors"
+            data-i18n="compare.clear">{t['compare.clear']}</button
+          >
+          <button
+            id="compareClose"
+            class="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-bg text-text-secondary transition-colors"
+            aria-label="Close"
+          >
             <i class="fas fa-times"></i>
           </button>
         </div>
       </div>
       <div id="compareTableContainer" class="compare-table">
-        <p class="text-text-muted text-center py-8" data-i18n="compare.minimum">{t['compare.minimum']}</p>
+        <p class="text-text-muted text-center py-8" data-i18n="compare.minimum">
+          {t['compare.minimum']}
+        </p>
       </div>
     </div>
   </div>

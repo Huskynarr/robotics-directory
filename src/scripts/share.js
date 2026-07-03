@@ -19,16 +19,19 @@ function init() {
   if (copyBtn) {
     copyBtn.addEventListener('click', () => {
       const url = copyBtn.dataset.url || window.location.href;
-      navigator.clipboard.writeText(url)
+      navigator.clipboard
+        .writeText(url)
         .then(() => {
           const span = copyBtn.querySelector('span');
           if (span) {
             const orig = span.textContent;
             const i18n = window.__I18N__;
             const lang = i18n ? i18n.currentLang() : 'en';
-            const tbl = i18n ? (i18n.translations[lang] || i18n.translations.en) : {};
+            const tbl = i18n ? i18n.translations[lang] || i18n.translations.en : {};
             span.textContent = tbl['share.linkCopied'] || '\u2713 Copied!';
-            setTimeout(() => { span.textContent = orig; }, 2000);
+            setTimeout(() => {
+              span.textContent = orig;
+            }, 2000);
           }
         })
         .catch(() => {

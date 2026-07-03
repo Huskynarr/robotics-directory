@@ -14,7 +14,7 @@ function toggleFavorite(robotId) {
 }
 
 function updateFavoritesUI() {
-  ['favoritesCount', 'favoritesCountMobile'].forEach(id => {
+  ['favoritesCount', 'favoritesCountMobile'].forEach((id) => {
     const el = document.getElementById(id);
     if (el) {
       el.textContent = favorites.length;
@@ -33,12 +33,13 @@ function updateFavoritesUI() {
   }
 
   if (empty) empty.classList.add('hidden');
-  const robots = fetchAllRobots().filter(r => favorites.includes(r.id));
+  const robots = fetchAllRobots().filter((r) => favorites.includes(r.id));
 
-  grid.innerHTML = robots.map(r => {
-    const img = escapeHTML(resolveImagePath(r.image));
-    const safeId = escapeHTML(r.id);
-    return `<a href="/robot/${safeId}/" class="flex items-center gap-3 p-3 rounded-xl hover:bg-bg transition-colors no-underline">
+  grid.innerHTML = robots
+    .map((r) => {
+      const img = escapeHTML(resolveImagePath(r.image));
+      const safeId = escapeHTML(r.id);
+      return `<a href="/robot/${safeId}/" class="flex items-center gap-3 p-3 rounded-xl hover:bg-bg transition-colors no-underline">
       <img src="${img}" alt="${escapeHTML(r.model)}" class="w-12 h-12 rounded-lg object-contain bg-bg" />
       <div class="flex-1 min-w-0">
         <p class="text-sm font-medium text-text-base truncate">${escapeHTML(r.model)}</p>
@@ -48,13 +49,16 @@ function updateFavoritesUI() {
         <i class="fas fa-heart"></i>
       </button>
     </a>`;
-  }).join('');
+    })
+    .join('');
 
-  grid.querySelectorAll('img').forEach(img => {
-    img.addEventListener('error', () => { img.src = '/images/image-not-found.webp'; });
+  grid.querySelectorAll('img').forEach((img) => {
+    img.addEventListener('error', () => {
+      img.src = '/images/image-not-found.webp';
+    });
   });
 
-  grid.querySelectorAll('.fav-remove-btn').forEach(btn => {
+  grid.querySelectorAll('.fav-remove-btn').forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       e.stopPropagation();
@@ -64,7 +68,7 @@ function updateFavoritesUI() {
 }
 
 function updateCardStates() {
-  document.querySelectorAll('.favorite-btn, .favorite-btn-detail').forEach(btn => {
+  document.querySelectorAll('.favorite-btn, .favorite-btn-detail').forEach((btn) => {
     const id = btn.dataset.robotId;
     if (!id) return;
     const isFav = favorites.includes(id);
@@ -92,7 +96,7 @@ function closeDrawer() {
 function init() {
   window.__toggleFavorite = toggleFavorite;
 
-  ['favoritesToggle', 'favoritesToggleMobile'].forEach(id => {
+  ['favoritesToggle', 'favoritesToggleMobile'].forEach((id) => {
     const btn = document.getElementById(id);
     if (btn) btn.addEventListener('click', openDrawer);
   });
@@ -114,7 +118,7 @@ function init() {
     });
   }
 
-  document.querySelectorAll('.favorite-btn-detail').forEach(btn => {
+  document.querySelectorAll('.favorite-btn-detail').forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       toggleFavorite(btn.dataset.robotId);

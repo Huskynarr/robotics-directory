@@ -1,11 +1,17 @@
 import { saveToLocalStorage, loadArrayFromLocalStorage } from './storage.js';
-import { escapeHTML, fetchAllRobots, resolveImagePath, formatPrice, formatSpec } from '../utils/format.js';
+import {
+  escapeHTML,
+  fetchAllRobots,
+  resolveImagePath,
+  formatPrice,
+  formatSpec,
+} from '../utils/format.js';
 
 const MAX_COMPARE = 4;
 let compareIds = loadArrayFromLocalStorage('compareRobots');
 
 function getCompareRobots() {
-  return fetchAllRobots().filter(r => compareIds.includes(r.id));
+  return fetchAllRobots().filter((r) => compareIds.includes(r.id));
 }
 
 function addToCompare(robotId) {
@@ -16,7 +22,7 @@ function addToCompare(robotId) {
 }
 
 function removeFromCompare(robotId) {
-  compareIds = compareIds.filter(id => id !== robotId);
+  compareIds = compareIds.filter((id) => id !== robotId);
   saveToLocalStorage('compareRobots', compareIds);
   updateCompareUI();
 }
@@ -42,19 +48,23 @@ function updateCompareUI() {
 
   if (barItems) {
     const robots = getCompareRobots();
-    barItems.innerHTML = robots.map(r => {
-      const img = escapeHTML(resolveImagePath(r.image));
-      return `<div class="relative shrink-0">
+    barItems.innerHTML = robots
+      .map((r) => {
+        const img = escapeHTML(resolveImagePath(r.image));
+        return `<div class="relative shrink-0">
         <img src="${img}" alt="${escapeHTML(r.model)}" class="w-10 h-10 rounded-lg object-contain bg-bg border border-border" />
         <button class="absolute -top-1 -right-1 w-4 h-4 bg-danger text-white rounded-full text-[10px] flex items-center justify-center" data-remove="${escapeHTML(r.id)}">&times;</button>
       </div>`;
-    }).join('');
+      })
+      .join('');
 
-    barItems.querySelectorAll('img').forEach(img => {
-      img.addEventListener('error', () => { img.src = '/images/image-not-found.webp'; });
+    barItems.querySelectorAll('img').forEach((img) => {
+      img.addEventListener('error', () => {
+        img.src = '/images/image-not-found.webp';
+      });
     });
 
-    barItems.querySelectorAll('[data-remove]').forEach(btn => {
+    barItems.querySelectorAll('[data-remove]').forEach((btn) => {
       btn.addEventListener('click', () => removeFromCompare(btn.dataset.remove));
     });
   }
@@ -88,16 +98,17 @@ function renderCompareTable() {
   ];
 
   const rows = specs
-    .filter(spec => robots.some(r => r[spec.key] && r[spec.key].trim()))
-    .map(spec => {
-      const cells = robots.map(r => {
+    .filter((spec) => robots.some((r) => r[spec.key] && r[spec.key].trim()))
+    .map((spec) => {
+      const cells = robots.map((r) => {
         const val = r[spec.key] || '-';
         return escapeHTML(spec.key === 'price' ? formatPrice(val, lang, t) : formatSpec(val, lang));
       });
-      return `<tr><td>${escapeHTML(t(spec.labelKey, spec.fb))}</td>${cells.map(c => `<td>${c}</td>`).join('')}</tr>`;
-    }).join('');
+      return `<tr><td>${escapeHTML(t(spec.labelKey, spec.fb))}</td>${cells.map((c) => `<td>${c}</td>`).join('')}</tr>`;
+    })
+    .join('');
 
-  const headers = `<th>${escapeHTML(t('compare.specification', 'Specification'))}</th>${robots.map(r => `<th>${escapeHTML(r.model)}</th>`).join('')}`;
+  const headers = `<th>${escapeHTML(t('compare.specification', 'Specification'))}</th>${robots.map((r) => `<th>${escapeHTML(r.model)}</th>`).join('')}`;
 
   container.innerHTML = `<table><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table>`;
 }
@@ -132,10 +143,11 @@ function init() {
   if (modalOverlay) modalOverlay.addEventListener('click', closeCompareModal);
 
   const modalClear = document.getElementById('compareClear');
-  if (modalClear) modalClear.addEventListener('click', () => {
-    clearCompare();
-    closeCompareModal();
-  });
+  if (modalClear)
+    modalClear.addEventListener('click', () => {
+      clearCompare();
+      closeCompareModal();
+    });
 
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;

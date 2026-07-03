@@ -16,13 +16,17 @@ const CATEGORIES = [
 function loadCategory(categoryId, filePath) {
   const fullPath = path.resolve(filePath);
   if (!fs.existsSync(fullPath)) {
-    throw new Error(`[robots] Category "${categoryId}" expects a CSV at ${fullPath} but the file is missing.`);
+    throw new Error(
+      `[robots] Category "${categoryId}" expects a CSV at ${fullPath} but the file is missing.`,
+    );
   }
   let csvText;
   try {
     csvText = fs.readFileSync(fullPath, 'utf-8');
   } catch (err) {
-    throw new Error(`[robots] Failed to read CSV for category "${categoryId}" at ${fullPath}`, { cause: err });
+    throw new Error(`[robots] Failed to read CSV for category "${categoryId}" at ${fullPath}`, {
+      cause: err,
+    });
   }
   const robots = parseCSV(csvText);
   if (robots.length === 0) {
@@ -31,7 +35,12 @@ function loadCategory(categoryId, filePath) {
   robots.forEach((robot) => {
     robot.category = categoryId;
     robot.id = createRobotId(robot);
-    robot.tagsArray = robot.tags ? robot.tags.split(';').map(t => t.trim()).filter(Boolean) : [];
+    robot.tagsArray = robot.tags
+      ? robot.tags
+          .split(';')
+          .map((t) => t.trim())
+          .filter(Boolean)
+      : [];
   });
   return robots;
 }

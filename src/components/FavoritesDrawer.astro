@@ -10,10 +10,20 @@ const t = translations.en;
 <aside id="favoritesDrawer" class="favorites-drawer" aria-label="Favorites">
   <div class="p-5">
     <div class="flex items-center justify-between mb-6">
-      <h2 class="font-heading text-lg font-semibold" data-i18n="favorites.title">{t['favorites.title']}</h2>
+      <h2 class="font-heading text-lg font-semibold" data-i18n="favorites.title">
+        {t['favorites.title']}
+      </h2>
       <div class="flex gap-2">
-        <button id="clearFavorites" class="text-sm text-text-muted hover:text-danger transition-colors" data-i18n="favorites.clear">{t['favorites.clear']}</button>
-        <button id="favoritesClose" class="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-bg text-text-secondary" aria-label="Close">
+        <button
+          id="clearFavorites"
+          class="text-sm text-text-muted hover:text-danger transition-colors"
+          data-i18n="favorites.clear">{t['favorites.clear']}</button
+        >
+        <button
+          id="favoritesClose"
+          class="w-9 h-9 flex items-center justify-center rounded-lg hover:bg-bg text-text-secondary"
+          aria-label="Close"
+        >
           <i class="fas fa-times"></i>
         </button>
       </div>

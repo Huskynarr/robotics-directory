@@ -14,9 +14,17 @@ const t = translations.en;
   <main class="flex-1 flex items-center justify-center py-20">
     <div class="text-center px-4">
       <div class="text-8xl font-heading font-bold text-primary/20 mb-4">404</div>
-      <h1 class="text-2xl font-heading font-semibold text-text-base mb-3" data-i18n="notfound.title">{t['notfound.title']}</h1>
+      <h1
+        class="text-2xl font-heading font-semibold text-text-base mb-3"
+        data-i18n="notfound.title"
+      >
+        {t['notfound.title']}
+      </h1>
       <p class="text-text-secondary mb-8" data-i18n="notfound.message">{t['notfound.message']}</p>
-      <a href="/" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-white font-medium hover:bg-primary-dark transition-colors">
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-white font-medium hover:bg-primary-dark transition-colors"
+      >
         <i class="fas fa-arrow-left"></i>
         <span data-i18n="notfound.back">{t['notfound.back']}</span>
       </a>

@@ -1,5 +1,9 @@
 import { escapeHTML, formatPrice, getPriceValue } from '../utils/format.js';
-import { matchesSubcategoryFilter, getSubcategoryDef, getUseCaseDef } from '../data/subcategory-filters.js';
+import {
+  matchesSubcategoryFilter,
+  getSubcategoryDef,
+  getUseCaseDef,
+} from '../data/subcategory-filters.js';
 import { trapFocus } from './focus-trap.js';
 
 const ROBOTS_PER_PAGE = 24;
@@ -79,7 +83,7 @@ function restoreStateFromURL() {
   currentSize = params.get('size') || '';
 
   const page = parseInt(params.get('page'), 10);
-  currentPage = (page && page > 0) ? page : 1;
+  currentPage = page && page > 0 ? page : 1;
 
   advancedFilters.weight = params.get('weight') || '';
   advancedFilters.battery = params.get('battery') || '';
@@ -99,34 +103,34 @@ function syncDOMToState() {
   const sf = document.getElementById('sortFilter');
   if (sf) sf.value = currentSort;
 
-  document.querySelectorAll('[data-category]').forEach(b => {
+  document.querySelectorAll('[data-category]').forEach((b) => {
     if (b.tagName !== 'A') b.classList.toggle('active', b.dataset.category === currentCategory);
   });
 
-  document.querySelectorAll('.mobile-nav-item').forEach(b => {
+  document.querySelectorAll('.mobile-nav-item').forEach((b) => {
     b.classList.toggle('active', b.dataset.category === currentCategory);
   });
 
-  document.querySelectorAll('[data-megatab]').forEach(tab => {
+  document.querySelectorAll('[data-megatab]').forEach((tab) => {
     tab.classList.toggle('active', tab.dataset.category === currentCategory);
   });
   // The "All" tab doesn't have data-megatab, so handle it via data-category
   const allTab = document.querySelector('header .mega-tab[data-category="all"]');
   if (allTab) allTab.classList.toggle('active', currentCategory === 'all');
 
-  document.querySelectorAll('[data-usecase]').forEach(b => {
+  document.querySelectorAll('[data-usecase]').forEach((b) => {
     b.classList.toggle('active', b.dataset.usecase === currentUseCase);
   });
 
-  document.querySelectorAll('[data-price]').forEach(b => {
+  document.querySelectorAll('[data-price]').forEach((b) => {
     b.classList.toggle('active', b.dataset.price === currentPrice);
   });
 
-  document.querySelectorAll('[data-size]').forEach(b => {
+  document.querySelectorAll('[data-size]').forEach((b) => {
     b.classList.toggle('active', b.dataset.size === currentSize);
   });
 
-  ['weightFilter', 'batteryFilter', 'ipRatingFilter', 'videoFilter'].forEach(id => {
+  ['weightFilter', 'batteryFilter', 'ipRatingFilter', 'videoFilter'].forEach((id) => {
     const el = document.getElementById(id);
     if (el) {
       const key = id.replace('Filter', '');
@@ -134,7 +138,7 @@ function syncDOMToState() {
     }
   });
 
-  const hasAdvanced = Object.values(advancedFilters).some(v => v);
+  const hasAdvanced = Object.values(advancedFilters).some((v) => v);
   if (hasAdvanced) {
     const advancedPanel = document.getElementById('advancedFilters');
     if (advancedPanel) advancedPanel.classList.remove('hidden');
@@ -183,7 +187,7 @@ function init() {
     });
   }
 
-  document.querySelectorAll('[data-category]').forEach(btn => {
+  document.querySelectorAll('[data-category]').forEach((btn) => {
     if (btn.tagName === 'A') return; // skip link cards
     // Skip mega-tab buttons with megatab (handled by mega-menu.js)
     if (btn.dataset.megatab) return;
@@ -193,12 +197,12 @@ function init() {
       currentSubcategory = null;
       currentUseCase = null;
       currentPage = 1;
-      document.querySelectorAll('[data-usecase]').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('[data-usecase]').forEach((b) => b.classList.remove('active'));
 
-      document.querySelectorAll('[data-category]').forEach(b => {
+      document.querySelectorAll('[data-category]').forEach((b) => {
         if (b.tagName !== 'A') b.classList.toggle('active', b.dataset.category === currentCategory);
       });
-      document.querySelectorAll('.mobile-nav-item').forEach(b => {
+      document.querySelectorAll('.mobile-nav-item').forEach((b) => {
         b.classList.toggle('active', b.dataset.category === currentCategory);
       });
       updateMegaTabActiveStates();
@@ -213,7 +217,7 @@ function init() {
     });
   });
 
-  document.querySelectorAll('[data-usecase]').forEach(btn => {
+  document.querySelectorAll('[data-usecase]').forEach((btn) => {
     btn.addEventListener('click', () => {
       const val = btn.dataset.usecase;
       if (currentUseCase === val) {
@@ -222,38 +226,44 @@ function init() {
         currentUseCase = val;
         currentCategory = 'all';
         currentSubcategory = null;
-        document.querySelectorAll('[data-category]').forEach(b => {
+        document.querySelectorAll('[data-category]').forEach((b) => {
           if (b.tagName !== 'A') b.classList.toggle('active', b.dataset.category === 'all');
         });
-        document.querySelectorAll('.mobile-nav-item').forEach(b => {
+        document.querySelectorAll('.mobile-nav-item').forEach((b) => {
           b.classList.toggle('active', b.dataset.category === 'all');
         });
         updateMegaTabActiveStates();
       }
       currentPage = 1;
-      document.querySelectorAll('[data-usecase]').forEach(b => b.classList.toggle('active', b.dataset.usecase === currentUseCase));
+      document
+        .querySelectorAll('[data-usecase]')
+        .forEach((b) => b.classList.toggle('active', b.dataset.usecase === currentUseCase));
       applyFilters();
       serializeStateToURL();
     });
   });
 
-  document.querySelectorAll('[data-price]').forEach(btn => {
+  document.querySelectorAll('[data-price]').forEach((btn) => {
     btn.addEventListener('click', () => {
       const val = btn.dataset.price;
       currentPrice = currentPrice === val ? '' : val;
       currentPage = 1;
-      document.querySelectorAll('[data-price]').forEach(b => b.classList.toggle('active', b.dataset.price === currentPrice));
+      document
+        .querySelectorAll('[data-price]')
+        .forEach((b) => b.classList.toggle('active', b.dataset.price === currentPrice));
       applyFilters();
       serializeStateToURL();
     });
   });
 
-  document.querySelectorAll('[data-size]').forEach(btn => {
+  document.querySelectorAll('[data-size]').forEach((btn) => {
     btn.addEventListener('click', () => {
       const val = btn.dataset.size;
       currentSize = currentSize === val ? '' : val;
       currentPage = 1;
-      document.querySelectorAll('[data-size]').forEach(b => b.classList.toggle('active', b.dataset.size === currentSize));
+      document
+        .querySelectorAll('[data-size]')
+        .forEach((b) => b.classList.toggle('active', b.dataset.size === currentSize));
       applyFilters();
       serializeStateToURL();
     });
@@ -265,7 +275,7 @@ function init() {
     });
   }
 
-  ['weightFilter', 'batteryFilter', 'ipRatingFilter', 'videoFilter'].forEach(id => {
+  ['weightFilter', 'batteryFilter', 'ipRatingFilter', 'videoFilter'].forEach((id) => {
     const el = document.getElementById(id);
     if (el) {
       const key = id.replace('Filter', '');
@@ -300,12 +310,12 @@ function init() {
     currentSubcategory = subcategory;
     currentUseCase = null;
     currentPage = 1;
-    document.querySelectorAll('[data-usecase]').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('[data-usecase]').forEach((b) => b.classList.remove('active'));
 
-    document.querySelectorAll('[data-category]').forEach(b => {
+    document.querySelectorAll('[data-category]').forEach((b) => {
       if (b.tagName !== 'A') b.classList.toggle('active', b.dataset.category === currentCategory);
     });
-    document.querySelectorAll('.mobile-nav-item').forEach(b => {
+    document.querySelectorAll('.mobile-nav-item').forEach((b) => {
       b.classList.toggle('active', b.dataset.category === currentCategory);
     });
     updateMegaTabActiveStates();
@@ -324,7 +334,7 @@ function init() {
 }
 
 function updateMegaTabActiveStates() {
-  document.querySelectorAll('[data-megatab]').forEach(tab => {
+  document.querySelectorAll('[data-megatab]').forEach((tab) => {
     tab.classList.toggle('active', tab.dataset.category === currentCategory);
   });
   // The "All" tab in header doesn't have data-megatab
@@ -371,51 +381,56 @@ function applyFilters() {
   let robots = [...allRobots];
 
   if (currentSearch) {
-    robots = robots.filter(r =>
-      r.model.toLowerCase().includes(currentSearch) ||
-      r.manufacturer.toLowerCase().includes(currentSearch) ||
-      (r.description && r.description.toLowerCase().includes(currentSearch)) ||
-      (r.tagsArray && r.tagsArray.some(tag => tag.toLowerCase().includes(currentSearch)))
+    robots = robots.filter(
+      (r) =>
+        r.model.toLowerCase().includes(currentSearch) ||
+        r.manufacturer.toLowerCase().includes(currentSearch) ||
+        (r.description && r.description.toLowerCase().includes(currentSearch)) ||
+        (r.tagsArray && r.tagsArray.some((tag) => tag.toLowerCase().includes(currentSearch))),
     );
   }
 
   if (currentUseCase) {
     const ucDef = getUseCaseDef(currentUseCase);
     if (ucDef) {
-      robots = robots.filter(r => matchesSubcategoryFilter(r, ucDef.filter));
+      robots = robots.filter((r) => matchesSubcategoryFilter(r, ucDef.filter));
     }
   }
 
   if (currentCategory && currentCategory !== 'all') {
-    robots = robots.filter(r => r.category === currentCategory);
+    robots = robots.filter((r) => r.category === currentCategory);
   }
 
   if (currentSubcategory) {
     const def = getSubcategoryDef(currentSubcategory);
     if (def) {
-      robots = robots.filter(r => matchesSubcategoryFilter(r, def.subcategory.filter));
+      robots = robots.filter((r) => matchesSubcategoryFilter(r, def.subcategory.filter));
     }
   }
 
   if (currentManufacturer) {
-    robots = robots.filter(r => r.manufacturer === currentManufacturer);
+    robots = robots.filter((r) => r.manufacturer === currentManufacturer);
   }
 
   if (currentPrice) {
-    robots = robots.filter(r => {
+    robots = robots.filter((r) => {
       const price = parseFloat((r.price || '').replace(/[^\d.-]/g, ''));
       if (isNaN(price)) return currentPrice === 'request';
       switch (currentPrice) {
-        case 'low': return price < 5000;
-        case 'medium': return price >= 5000 && price <= 50000;
-        case 'high': return price > 50000;
-        default: return true;
+        case 'low':
+          return price < 5000;
+        case 'medium':
+          return price >= 5000 && price <= 50000;
+        case 'high':
+          return price > 50000;
+        default:
+          return true;
       }
     });
   }
 
   if (currentSize) {
-    robots = robots.filter(r => {
+    robots = robots.filter((r) => {
       const size = (r.size || '').trim().toLowerCase();
       if (!size) return false;
       const target = currentSize.toLowerCase();
@@ -449,18 +464,27 @@ function applyFilters() {
     const dir = currentSort === 'price-desc' ? -1 : 1;
     const val = (r) => {
       switch (currentSort) {
-        case 'name': return r.model.toLowerCase();
-        case 'manufacturer': return r.manufacturer.toLowerCase();
-        case 'price': return getPriceValue(r.price);
+        case 'name':
+          return r.model.toLowerCase();
+        case 'manufacturer':
+          return r.manufacturer.toLowerCase();
+        case 'price':
+          return getPriceValue(r.price);
         case 'price-desc': {
           const v = getPriceValue(r.price);
           return v === Infinity ? -Infinity : v; // unknown prices last in descending order
         }
-        case 'weight': return parseFloat(r.weight) || Infinity;
-        default: return 0;
+        case 'weight':
+          return parseFloat(r.weight) || Infinity;
+        default:
+          return 0;
       }
     };
-    robots.sort((a, b) => { const va = val(a), vb = val(b); return va < vb ? -dir : va > vb ? dir : 0; });
+    robots.sort((a, b) => {
+      const va = val(a),
+        vb = val(b);
+      return va < vb ? -dir : va > vb ? dir : 0;
+    });
   }
 
   filteredRobots = robots;
@@ -492,42 +516,50 @@ function applyAdvancedFilters(robots) {
   let result = robots;
 
   if (advancedFilters.weight) {
-    result = result.filter(r => {
+    result = result.filter((r) => {
       const m = (r.weight || '').match(/(\d+(\.\d+)?)/);
       if (!m) return false;
       const w = parseFloat(m[0]);
       switch (advancedFilters.weight) {
-        case 'light': return w < 10;
-        case 'medium': return w >= 10 && w <= 50;
-        case 'heavy': return w > 50;
-        default: return true;
+        case 'light':
+          return w < 10;
+        case 'medium':
+          return w >= 10 && w <= 50;
+        case 'heavy':
+          return w > 50;
+        default:
+          return true;
       }
     });
   }
 
   if (advancedFilters.battery) {
-    result = result.filter(r => {
+    result = result.filter((r) => {
       const m = (r.batteryLife || '').match(/(\d+(\.\d+)?)/);
       if (!m) return false;
       const h = parseFloat(m[0]);
       switch (advancedFilters.battery) {
-        case 'short': return h < 2;
-        case 'medium': return h >= 2 && h <= 5;
-        case 'long': return h > 5;
-        default: return true;
+        case 'short':
+          return h < 2;
+        case 'medium':
+          return h >= 2 && h <= 5;
+        case 'long':
+          return h > 5;
+        default:
+          return true;
       }
     });
   }
 
   if (advancedFilters.ipRating) {
-    result = result.filter(r => {
+    result = result.filter((r) => {
       const ip = (r.ipRating || '').trim();
       return ip !== '' && ip !== 'N/A';
     });
   }
 
   if (advancedFilters.video) {
-    result = result.filter(r => {
+    result = result.filter((r) => {
       const v = (r.video || '').trim();
       return v !== '' && v !== 'N/A';
     });
@@ -558,7 +590,11 @@ function renderCards() {
   const pageRobots = filteredRobots.slice(start, start + ROBOTS_PER_PAGE);
 
   let favs = [];
-  try { favs = JSON.parse(localStorage.getItem('robotFavorites') || '[]'); } catch { /* ignore */ }
+  try {
+    favs = JSON.parse(localStorage.getItem('robotFavorites') || '[]');
+  } catch {
+    /* ignore */
+  }
 
   const { translations } = window.__I18N__ || { translations: {} };
   const lang = currentLang;
@@ -566,19 +602,24 @@ function renderCards() {
   const tFn = (key, fb) => tbl[key] || fb || key;
   const catLabel = (cat) => tbl[`nav.${cat}`] || cat;
 
-  grid.innerHTML = pageRobots.map(robot => {
-    const imgPath = robot.image ? (robot.image.startsWith('images/') ? '/' + robot.image : robot.image) : '/images/placeholder.svg';
-    const isFav = favs.includes(robot.id);
-    const price = formatPrice(robot.price, lang, tFn);
-    const safeId = escapeHTML(robot.id);
-    const safeModel = escapeHTML(robot.model);
-    const safeManufacturer = escapeHTML(robot.manufacturer);
-    const safeCategory = escapeHTML(robot.category);
-    const safeImg = escapeHTML(imgPath);
-    const safePrice = escapeHTML(price);
-    const safeCatLabel = escapeHTML(catLabel(robot.category));
+  grid.innerHTML = pageRobots
+    .map((robot) => {
+      const imgPath = robot.image
+        ? robot.image.startsWith('images/')
+          ? '/' + robot.image
+          : robot.image
+        : '/images/placeholder.svg';
+      const isFav = favs.includes(robot.id);
+      const price = formatPrice(robot.price, lang, tFn);
+      const safeId = escapeHTML(robot.id);
+      const safeModel = escapeHTML(robot.model);
+      const safeManufacturer = escapeHTML(robot.manufacturer);
+      const safeCategory = escapeHTML(robot.category);
+      const safeImg = escapeHTML(imgPath);
+      const safePrice = escapeHTML(price);
+      const safeCatLabel = escapeHTML(catLabel(robot.category));
 
-    return `<a href="/robot/${safeId}/" class="robot-card block no-underline" data-category="${safeCategory}" data-robot-id="${safeId}" role="listitem">
+      return `<a href="/robot/${safeId}/" class="robot-card block no-underline" data-category="${safeCategory}" data-robot-id="${safeId}" role="listitem">
       <div class="card-image">
         <span class="category-badge">${safeCatLabel}</span>
         <button class="favorite-btn${isFav ? ' active' : ''}" data-robot-id="${safeId}" aria-label="Add to favorites" type="button">
@@ -592,7 +633,8 @@ function renderCards() {
         <p class="price">${safePrice}</p>
       </div>
     </a>`;
-  }).join('');
+    })
+    .join('');
 
   grid.querySelectorAll('.favorite-btn').forEach((btn) => {
     btn.addEventListener('click', (e) => {
@@ -610,7 +652,10 @@ function renderPagination(total) {
   if (!el) return;
 
   const totalPages = Math.ceil(total / ROBOTS_PER_PAGE);
-  if (totalPages <= 1) { el.innerHTML = ''; return; }
+  if (totalPages <= 1) {
+    el.innerHTML = '';
+    return;
+  }
 
   const start = (currentPage - 1) * ROBOTS_PER_PAGE + 1;
   const end = Math.min(currentPage * ROBOTS_PER_PAGE, total);
@@ -622,17 +667,20 @@ function renderPagination(total) {
       <i class="fas fa-chevron-left"></i>
     </button>
     <div class="flex gap-1">
-      ${pages.map(p => p === '...'
-        ? '<span class="pagination-dots">...</span>'
-        : `<button class="pagination-btn${p === currentPage ? ' active' : ''}" data-page="${p}">${p}</button>`
-      ).join('')}
+      ${pages
+        .map((p) =>
+          p === '...'
+            ? '<span class="pagination-dots">...</span>'
+            : `<button class="pagination-btn${p === currentPage ? ' active' : ''}" data-page="${p}">${p}</button>`,
+        )
+        .join('')}
     </div>
     <button class="pagination-btn" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}">
       <i class="fas fa-chevron-right"></i>
     </button>
   `;
 
-  el.querySelectorAll('[data-page]').forEach(btn => {
+  el.querySelectorAll('[data-page]').forEach((btn) => {
     btn.addEventListener('click', () => {
       currentPage = parseInt(btn.dataset.page, 10);
       renderCards();
@@ -664,7 +712,7 @@ function updateActiveChips() {
 
   if (currentUseCase) {
     const ucDef = getUseCaseDef(currentUseCase);
-    const ucLabel = ucDef ? (tbl[ucDef.i18nKey] || ucDef.i18nKey) : currentUseCase;
+    const ucLabel = ucDef ? tbl[ucDef.i18nKey] || ucDef.i18nKey : currentUseCase;
     chips.push({ label: ucLabel, type: 'usecase' });
   }
   if (currentCategory && currentCategory !== 'all') {
@@ -673,7 +721,9 @@ function updateActiveChips() {
   }
   if (currentSubcategory) {
     const def = getSubcategoryDef(currentSubcategory);
-    const subLabel = def ? (tbl[def.subcategory.i18nKey] || def.subcategory.i18nKey) : currentSubcategory;
+    const subLabel = def
+      ? tbl[def.subcategory.i18nKey] || def.subcategory.i18nKey
+      : currentSubcategory;
     chips.push({ label: subLabel, type: 'subcategory' });
   }
   if (currentManufacturer) {
@@ -688,7 +738,12 @@ function updateActiveChips() {
     const sizeLabel = tbl['filter.size.' + (sizeKeyMap[currentSize] || currentSize)] || currentSize;
     chips.push({ label: sizeLabel, type: 'size' });
   }
-  const advKeyMap = { weight: 'spec.weight', battery: 'spec.batteryLife', ipRating: 'spec.ipRating', video: 'filters.video' };
+  const advKeyMap = {
+    weight: 'spec.weight',
+    battery: 'spec.batteryLife',
+    ipRating: 'spec.ipRating',
+    video: 'filters.video',
+  };
   Object.entries(advancedFilters).forEach(([key, val]) => {
     if (val) {
       const keyLabel = tbl[advKeyMap[key] || key] || key;
@@ -697,20 +752,23 @@ function updateActiveChips() {
     }
   });
 
-  container.innerHTML = chips.map(c =>
-    `<span class="filter-chip">${escapeHTML(c.label)} <button data-clear="${escapeHTML(c.type)}" aria-label="Remove filter">&times;</button></span>`
-  ).join('');
+  container.innerHTML = chips
+    .map(
+      (c) =>
+        `<span class="filter-chip">${escapeHTML(c.label)} <button data-clear="${escapeHTML(c.type)}" aria-label="Remove filter">&times;</button></span>`,
+    )
+    .join('');
 
-  container.querySelectorAll('[data-clear]').forEach(btn => {
+  container.querySelectorAll('[data-clear]').forEach((btn) => {
     btn.addEventListener('click', () => {
       const type = btn.dataset.clear;
       if (type === 'usecase') {
         currentUseCase = null;
-        document.querySelectorAll('[data-usecase]').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('[data-usecase]').forEach((b) => b.classList.remove('active'));
       } else if (type === 'category') {
         currentCategory = 'all';
         currentSubcategory = null;
-        document.querySelectorAll('[data-category]').forEach(b => {
+        document.querySelectorAll('[data-category]').forEach((b) => {
           if (b.tagName !== 'A') b.classList.toggle('active', b.dataset.category === 'all');
         });
         updateMegaTabActiveStates();
@@ -722,10 +780,10 @@ function updateActiveChips() {
         if (mf) mf.value = '';
       } else if (type === 'price') {
         currentPrice = '';
-        document.querySelectorAll('[data-price]').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('[data-price]').forEach((b) => b.classList.remove('active'));
       } else if (type === 'size') {
         currentSize = '';
-        document.querySelectorAll('[data-size]').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('[data-size]').forEach((b) => b.classList.remove('active'));
       } else if (advancedFilters[type] !== undefined) {
         advancedFilters[type] = '';
         const el = document.getElementById(`${type}Filter`);
@@ -759,13 +817,13 @@ function resetFilters() {
   const sf = document.getElementById('sortFilter');
   if (sf) sf.value = DEFAULT_SORT;
 
-  document.querySelectorAll('[data-category]').forEach(b => {
+  document.querySelectorAll('[data-category]').forEach((b) => {
     if (b.tagName !== 'A') b.classList.toggle('active', b.dataset.category === 'all');
   });
-  document.querySelectorAll('[data-price]').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('[data-size]').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('[data-usecase]').forEach(b => b.classList.remove('active'));
-  ['weightFilter', 'batteryFilter', 'ipRatingFilter', 'videoFilter'].forEach(id => {
+  document.querySelectorAll('[data-price]').forEach((b) => b.classList.remove('active'));
+  document.querySelectorAll('[data-size]').forEach((b) => b.classList.remove('active'));
+  document.querySelectorAll('[data-usecase]').forEach((b) => b.classList.remove('active'));
+  ['weightFilter', 'batteryFilter', 'ipRatingFilter', 'videoFilter'].forEach((id) => {
     const el = document.getElementById(id);
     if (el) el.value = '';
   });

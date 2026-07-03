@@ -45,7 +45,7 @@ function init() {
     });
   }
 
-  document.querySelectorAll('.gallery-thumb').forEach(thumb => {
+  document.querySelectorAll('.gallery-thumb').forEach((thumb) => {
     thumb.addEventListener('click', () => {
       const idx = parseInt(thumb.dataset.galleryIndex, 10);
       setMainImage(idx);
@@ -59,7 +59,8 @@ function init() {
     lightboxImg.src = img.src;
     lightboxImg.alt = img.label || `Image ${index + 1}`;
     if (lightboxLabel) lightboxLabel.textContent = img.label || '';
-    if (lightboxCounter && images.length > 1) lightboxCounter.textContent = `${index + 1} / ${images.length}`;
+    if (lightboxCounter && images.length > 1)
+      lightboxCounter.textContent = `${index + 1} / ${images.length}`;
     lightbox.classList.remove('hidden');
     lightbox.classList.add('flex');
     document.body.style.overflow = 'hidden';
@@ -92,7 +93,10 @@ function init() {
   if (mainWrap) {
     mainWrap.addEventListener('click', () => openLightbox(currentIndex));
     mainWrap.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLightbox(currentIndex); }
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openLightbox(currentIndex);
+      }
     });
   }
   if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);

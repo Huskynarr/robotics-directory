@@ -9,12 +9,34 @@ const t = translations.en;
 const { allRobots } = getAllRobots();
 const availableLanguages = Object.keys(translations);
 const LANG_NAMES = {
-  en: 'English', de: 'Deutsch', fr: 'Français', es: 'Español', zh: '中文',
-  ja: '日本語', ko: '한국어', pt: 'Português', it: 'Italiano', ru: 'Русский',
-  ar: 'العربية', hi: 'हिन्दी', tr: 'Türkçe', pl: 'Polski', nl: 'Nederlands',
-  sv: 'Svenska', da: 'Dansk', no: 'Norsk', fi: 'Suomi', cs: 'Čeština',
-  hu: 'Magyar', ro: 'Română', uk: 'Українська', th: 'ไทย', vi: 'Tiếng Việt',
-  id: 'Indonesia', ms: 'Melayu', he: 'עברית',
+  en: 'English',
+  de: 'Deutsch',
+  fr: 'Français',
+  es: 'Español',
+  zh: '中文',
+  ja: '日本語',
+  ko: '한국어',
+  pt: 'Português',
+  it: 'Italiano',
+  ru: 'Русский',
+  ar: 'العربية',
+  hi: 'हिन्दी',
+  tr: 'Türkçe',
+  pl: 'Polski',
+  nl: 'Nederlands',
+  sv: 'Svenska',
+  da: 'Dansk',
+  no: 'Norsk',
+  fi: 'Suomi',
+  cs: 'Čeština',
+  hu: 'Magyar',
+  ro: 'Română',
+  uk: 'Українська',
+  th: 'ไทย',
+  vi: 'Tiếng Việt',
+  id: 'Indonesia',
+  ms: 'Melayu',
+  he: 'עברית',
 };
 
 // Build mobile accordion data at build time
@@ -28,16 +50,30 @@ const mobileData = CATEGORIES.map((cat) => {
 });
 ---
 
-<header class="sticky top-0 z-30 backdrop-blur-md border-b border-border bg-surface/90" role="banner">
+<header
+  class="sticky top-0 z-30 backdrop-blur-md border-b border-border bg-surface/90"
+  role="banner"
+>
   <div class="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
     <!-- Logo -->
-    <a href="/" class="flex items-center gap-2 shrink-0 no-underline" aria-label="Robotics Directory Home">
+    <a
+      href="/"
+      class="flex items-center gap-2 shrink-0 no-underline"
+      aria-label="Robotics Directory Home"
+    >
       <i class="fas fa-robot text-primary text-xl"></i>
-      <span class="font-heading font-semibold text-text-base text-sm md:text-base" data-i18n="app.title">{t['app.title']}</span>
+      <span
+        class="font-heading font-semibold text-text-base text-sm md:text-base"
+        data-i18n="app.title">{t['app.title']}</span
+      >
     </a>
 
     <!-- Desktop mega tabs -->
-    <nav class="hidden md:flex items-center gap-0.5 overflow-x-auto scrollbar-hide flex-1 justify-center" aria-label="Category navigation" role="tablist">
+    <nav
+      class="hidden md:flex items-center gap-0.5 overflow-x-auto scrollbar-hide flex-1 justify-center"
+      aria-label="Category navigation"
+      role="tablist"
+    >
       <button
         class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium transition-all cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent active"
         data-category="all"
@@ -47,49 +83,83 @@ const mobileData = CATEGORIES.map((cat) => {
       >
         {t['nav.all']}
       </button>
-      {CATEGORIES.map(cat => (
-        <button
-          class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium transition-all cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent"
-          data-category={cat.id}
-          data-megatab={cat.id}
-          role="tab"
-          aria-selected="false"
-          aria-haspopup="true"
-          aria-expanded="false"
-          aria-controls={`megapanel-${cat.id}`}
-          id={`megatab-${cat.id}`}
-          data-i18n={`nav.${cat.id}`}
-        >
-          {t[`nav.${cat.id}`]}
-          <i class="fas fa-chevron-down text-[0.6rem] transition-transform duration-200"></i>
-        </button>
-      ))}
+      {
+        CATEGORIES.map((cat) => (
+          <button
+            class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium transition-all cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent"
+            data-category={cat.id}
+            data-megatab={cat.id}
+            role="tab"
+            aria-selected="false"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls={`megapanel-${cat.id}`}
+            id={`megatab-${cat.id}`}
+            data-i18n={`nav.${cat.id}`}
+          >
+            {t[`nav.${cat.id}`]}
+            <i class="fas fa-chevron-down text-[0.6rem] transition-transform duration-200" />
+          </button>
+        ))
+      }
     </nav>
 
     <!-- Desktop controls -->
     <div class="hidden md:flex items-center gap-2 shrink-0">
-      <a href="/finder/" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary" aria-label="Robot Finder" data-i18n-aria="finder.title" title="Robot Finder">
+      <a
+        href="/finder/"
+        class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
+        aria-label="Robot Finder"
+        data-i18n-aria="finder.title"
+        title="Robot Finder"
+      >
         <i class="fas fa-wand-magic-sparkles"></i>
       </a>
-      <a href="/stats/" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary" aria-label="Statistics" data-i18n-aria="stats.title" title="Statistics">
+      <a
+        href="/stats/"
+        class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
+        aria-label="Statistics"
+        data-i18n-aria="stats.title"
+        title="Statistics"
+      >
         <i class="fas fa-chart-column"></i>
       </a>
-      <select id="languageSelect" class="text-sm rounded-lg px-2 py-1.5 bg-surface border border-border text-text-base cursor-pointer" aria-label="Language" data-i18n-aria="lang.label">
-        {availableLanguages.map(lang => (
-          <option value={lang}>{lang.toUpperCase()}</option>
-        ))}
+      <select
+        id="languageSelect"
+        class="text-sm rounded-lg px-2 py-1.5 bg-surface border border-border text-text-base cursor-pointer"
+        aria-label="Language"
+        data-i18n-aria="lang.label"
+      >
+        {availableLanguages.map((lang) => <option value={lang}>{lang.toUpperCase()}</option>)}
       </select>
-      <button id="darkModeToggle" class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary" aria-label="Switch to dark mode">
+      <button
+        id="darkModeToggle"
+        class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
+        aria-label="Switch to dark mode"
+      >
         <i class="fas fa-moon"></i>
       </button>
-      <button id="favoritesToggle" class="relative w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary" aria-label="Favorites">
+      <button
+        id="favoritesToggle"
+        class="relative w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
+        aria-label="Favorites"
+      >
         <i class="fas fa-heart"></i>
-        <span id="favoritesCount" class="absolute -top-1 -right-1 bg-danger text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center hidden">0</span>
+        <span
+          id="favoritesCount"
+          class="absolute -top-1 -right-1 bg-danger text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center hidden"
+          >0</span
+        >
       </button>
     </div>
 
     <!-- Mobile hamburger -->
-    <button id="mobileMenuToggle" class="md:hidden w-10 h-10 flex items-center justify-center text-text-base" aria-label="Open menu" aria-expanded="false">
+    <button
+      id="mobileMenuToggle"
+      class="md:hidden w-10 h-10 flex items-center justify-center text-text-base"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
       <i class="fas fa-bars text-lg"></i>
     </button>
   </div>
@@ -105,86 +175,129 @@ const mobileData = CATEGORIES.map((cat) => {
 <nav id="mobileDrawer" class="mobile-drawer" aria-label="Mobile navigation">
   <div class="p-5">
     <div class="flex items-center justify-between mb-6">
-      <span class="font-heading font-semibold text-lg text-text-base" data-i18n="app.title">{t['app.title']}</span>
-      <button id="mobileMenuClose" class="w-9 h-9 flex items-center justify-center text-text-secondary" aria-label="Close menu">
+      <span class="font-heading font-semibold text-lg text-text-base" data-i18n="app.title"
+        >{t['app.title']}</span
+      >
+      <button
+        id="mobileMenuClose"
+        class="w-9 h-9 flex items-center justify-center text-text-secondary"
+        aria-label="Close menu"
+      >
         <i class="fas fa-times text-lg"></i>
       </button>
     </div>
 
     <!-- Categories with accordion -->
     <div class="space-y-0.5 mb-6">
-      <button class="mobile-nav-item active w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium transition-colors" data-category="all" data-i18n="nav.all">{t['nav.all']}</button>
+      <button
+        class="mobile-nav-item active w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium transition-colors"
+        data-category="all"
+        data-i18n="nav.all">{t['nav.all']}</button
+      >
 
-      {mobileData.map(cat => (
-        <div class="mobile-accordion" data-accordion={cat.id}>
-          <button
-            class="mobile-accordion-trigger mobile-nav-item flex items-center w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-text-secondary hover:bg-bg"
-            data-category={cat.id}
-            data-i18n={`nav.${cat.id}`}
-            aria-expanded="false"
-          >
-            <i class={`fas ${cat.icon} mr-2`}></i>
-            <span data-i18n={`nav.${cat.id}`}>{t[`nav.${cat.id}`]}</span>
-            <span class="ml-auto flex items-center gap-2">
-              <span class="text-xs text-text-muted">{cat.totalCount}</span>
-              <i class="fas fa-chevron-down text-[0.6rem] text-text-muted transition-transform duration-200 mobile-accordion-arrow"></i>
-            </span>
-          </button>
-          <div class="mobile-accordion-panel pl-6 py-1" hidden>
+      {
+        mobileData.map((cat) => (
+          <div class="mobile-accordion" data-accordion={cat.id}>
             <button
-              class="flex items-center justify-between w-full text-left px-3 py-2 rounded-md text-sm transition-colors text-text-secondary hover:bg-bg hover:text-text-base cursor-pointer bg-transparent border-none"
+              class="mobile-accordion-trigger mobile-nav-item flex items-center w-full text-left px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-text-secondary hover:bg-bg"
               data-category={cat.id}
-              data-mobile-viewall
+              data-i18n={`nav.${cat.id}`}
+              aria-expanded="false"
             >
-              <span data-i18n="mega.viewAll">{t['mega.viewAll']}</span>
-              <span class="text-xs text-text-muted">{cat.totalCount}</span>
+              <i class={`fas ${cat.icon} mr-2`} />
+              <span data-i18n={`nav.${cat.id}`}>{t[`nav.${cat.id}`]}</span>
+              <span class="ml-auto flex items-center gap-2">
+                <span class="text-xs text-text-muted">{cat.totalCount}</span>
+                <i class="fas fa-chevron-down text-[0.6rem] text-text-muted transition-transform duration-200 mobile-accordion-arrow" />
+              </span>
             </button>
-            {cat.subcategories.map(sub => (
+            <div class="mobile-accordion-panel pl-6 py-1" hidden>
               <button
                 class="flex items-center justify-between w-full text-left px-3 py-2 rounded-md text-sm transition-colors text-text-secondary hover:bg-bg hover:text-text-base cursor-pointer bg-transparent border-none"
-                data-subcategory={sub.id}
-                data-subcategory-category={cat.id}
+                data-category={cat.id}
+                data-mobile-viewall
               >
-                <span data-i18n={sub.i18nKey}>{t[sub.i18nKey] || sub.id}</span>
-                <span class="text-xs text-text-muted">{sub.count}</span>
+                <span data-i18n="mega.viewAll">{t['mega.viewAll']}</span>
+                <span class="text-xs text-text-muted">{cat.totalCount}</span>
               </button>
-            ))}
+              {cat.subcategories.map((sub) => (
+                <button
+                  class="flex items-center justify-between w-full text-left px-3 py-2 rounded-md text-sm transition-colors text-text-secondary hover:bg-bg hover:text-text-base cursor-pointer bg-transparent border-none"
+                  data-subcategory={sub.id}
+                  data-subcategory-category={cat.id}
+                >
+                  <span data-i18n={sub.i18nKey}>{t[sub.i18nKey] || sub.id}</span>
+                  <span class="text-xs text-text-muted">{sub.count}</span>
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))
+      }
     </div>
 
     <hr class="border-border mb-4" />
 
     <!-- Robot Finder -->
-    <a href="/finder/" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mb-1 no-underline">
-      <i class="fas fa-wand-magic-sparkles"></i> <span data-i18n="finder.title">Robot Finder</span>
+    <a
+      href="/finder/"
+      class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mb-1 no-underline"
+    >
+      <i class="fas fa-wand-magic-sparkles"></i>
+      <span data-i18n="finder.title">Robot Finder</span>
     </a>
 
     <!-- Statistics -->
-    <a href="/stats/" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mb-4 no-underline">
-      <i class="fas fa-chart-column"></i> <span data-i18n="stats.title">Statistics</span>
+    <a
+      href="/stats/"
+      class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mb-4 no-underline"
+    >
+      <i class="fas fa-chart-column"></i>
+      <span data-i18n="stats.title">Statistics</span>
     </a>
 
     <!-- Language -->
     <div class="mb-4">
-      <label class="text-xs font-medium text-text-muted uppercase tracking-wider mb-2 block" data-i18n="lang.label">{t['lang.label']}</label>
-      <select id="languageSelectMobile" class="w-full text-sm rounded-lg px-3 py-2.5 bg-bg border border-border text-text-base" aria-label="Language" data-i18n-aria="lang.label">
-        {availableLanguages.map(lang => (
-          <option value={lang}>{LANG_NAMES[lang] || lang.toUpperCase()}</option>
-        ))}
+      <label
+        class="text-xs font-medium text-text-muted uppercase tracking-wider mb-2 block"
+        data-i18n="lang.label">{t['lang.label']}</label
+      >
+      <select
+        id="languageSelectMobile"
+        class="w-full text-sm rounded-lg px-3 py-2.5 bg-bg border border-border text-text-base"
+        aria-label="Language"
+        data-i18n-aria="lang.label"
+      >
+        {
+          availableLanguages.map((lang) => (
+            <option value={lang}>{LANG_NAMES[lang] || lang.toUpperCase()}</option>
+          ))
+        }
       </select>
     </div>
 
     <!-- Dark mode -->
-    <button id="darkModeToggleMobile" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors" aria-label="Switch to dark mode">
-      <i class="fas fa-moon"></i> <span data-i18n="darkMode.darkLabel">{t['darkMode.darkLabel'] || 'Dark Mode'}</span>
+    <button
+      id="darkModeToggleMobile"
+      class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors"
+      aria-label="Switch to dark mode"
+    >
+      <i class="fas fa-moon"></i>
+      <span data-i18n="darkMode.darkLabel">{t['darkMode.darkLabel'] || 'Dark Mode'}</span>
     </button>
 
     <!-- Favorites -->
-    <button id="favoritesToggleMobile" class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mt-1">
-      <i class="fas fa-heart"></i> <span data-i18n="favorites.title">{t['favorites.title']}</span>
-      <span id="favoritesCountMobile" class="ml-auto bg-danger text-white text-[10px] font-bold rounded-full w-5 h-5 flex items-center justify-center hidden">0</span>
+    <button
+      id="favoritesToggleMobile"
+      class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mt-1"
+    >
+      <i class="fas fa-heart"></i>
+      <span data-i18n="favorites.title">{t['favorites.title']}</span>
+      <span
+        id="favoritesCountMobile"
+        class="ml-auto bg-danger text-white text-[10px] font-bold rounded-full w-5 h-5 flex items-center justify-center hidden"
+        >0</span
+      >
     </button>
   </div>
 </nav>
@@ -208,7 +321,9 @@ const mobileData = CATEGORIES.map((cat) => {
     height: 2px;
     background: var(--color-primary);
     border-radius: 1px;
-    transition: width 200ms ease, left 200ms ease;
+    transition:
+      width 200ms ease,
+      left 200ms ease;
   }
   .mega-tab:hover {
     color: var(--color-primary);
@@ -244,8 +359,7 @@ const mobileData = CATEGORIES.map((cat) => {
   }
 
   /* Mobile accordion arrow rotation */
-  .mobile-accordion-trigger[aria-expanded="true"] .mobile-accordion-arrow {
+  .mobile-accordion-trigger[aria-expanded='true'] .mobile-accordion-arrow {
     transform: rotate(180deg);
   }
-
 </style>

@@ -181,7 +181,9 @@ function setupKeyboardNav(tabs) {
         c[(idx - 1 + c.length) % c.length]?.focus();
       } else if (e.key === 'Escape') {
         closeMegaMenu();
-        const activeTab = document.querySelector(`[data-megatab="${openPanel || panel.dataset.panel}"]`);
+        const activeTab = document.querySelector(
+          `[data-megatab="${openPanel || panel.dataset.panel}"]`,
+        );
         if (activeTab) activeTab.focus();
       }
     });
