@@ -18,6 +18,9 @@ const RECOMMENDED_PRIORITY = [
   { manufacturer: 'Faraday Future', model: 'FF Futurist' },
   { manufacturer: 'Faraday Future', model: 'FX Aegis' },
   { manufacturer: 'Faraday Future' },
+  { manufacturer: 'SwitchBot', model: 'Onero H1' },
+  { manufacturer: 'Weave Robotics', model: 'Isaac 1' },
+  { manufacturer: 'UBTECH', model: 'U1 (U World)' },
 ];
 let allRobots = [];
 let filteredRobots = [];
