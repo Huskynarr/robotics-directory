@@ -58,6 +58,7 @@ test.describe('Catalog page', () => {
     await page.locator('#searchInput').fill('Atlas');
     await page.waitForTimeout(500);
     // Reset
+    await page.locator('#advancedToggle').click();
     await page.locator('#resetFilters').click();
     await page.waitForTimeout(200);
     const searchVal = await page.locator('#searchInput').inputValue();

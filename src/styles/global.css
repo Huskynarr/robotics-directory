@@ -3,15 +3,15 @@
 @variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary: #4338ca;
-  --color-primary-light: #6366f1;
-  --color-primary-dark: #3730a3;
-  --color-primary-50: #eef2ff;
-  --color-primary-100: #e0e7ff;
-  --color-primary-900: #312e81;
+  --color-primary: #1e40af;
+  --color-primary-light: #1d4ed8;
+  --color-primary-dark: #172554;
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-900: #172554;
 
-  --color-accent: #0891b2;
-  --color-accent-light: #22d3ee;
+  --color-accent: #115e59;
+  --color-accent-light: #0f766e;
 
   --color-success: #10b981;
   --color-danger: #ef4444;
@@ -25,7 +25,7 @@
   --color-text-muted: #475569;
   --color-border: #e2e8f0;
 
-  --font-heading: 'Orbitron', 'Inter', sans-serif;
+  --font-heading: 'Space Grotesk', 'Inter', sans-serif;
   --font-body: 'Inter', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
@@ -54,6 +54,14 @@ body {
   background-attachment: fixed;
 }
 
+button:not(:disabled),
+select {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+
 /* Dark mode overrides */
 .dark {
   --color-surface: #151d31;
@@ -68,10 +76,39 @@ body {
 .dark .text-primary,
 .dark .robot-card .card-info .price,
 .dark .filter-chip {
-  color: #a5b4fc;
+  color: #bfdbfe;
 }
 .dark :focus-visible {
-  outline-color: #a5b4fc;
+  outline-color: #bfdbfe;
+}
+
+.stats-chart-row {
+  transition:
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+.stats-chart-row:hover,
+.stats-chart-row:focus-within {
+  transform: translateX(3px);
+}
+.stats-chart-bar {
+  transform-origin: left center;
+  animation: stats-chart-grow 700ms cubic-bezier(0.16, 1, 0.3, 1) both;
+  transition:
+    filter 180ms ease,
+    transform 180ms ease;
+}
+.stats-chart-row:hover .stats-chart-bar,
+.stats-chart-row:focus-within .stats-chart-bar {
+  filter: brightness(1.12) saturate(1.08);
+}
+@keyframes stats-chart-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
 }
 
 /* Font heading utility */
@@ -213,12 +250,19 @@ body {
 
 .robot-card .category-badge {
   @apply absolute top-3 left-3 z-10 px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wide;
-  background: rgba(255, 255, 255, 0.9);
-  color: var(--color-primary);
-  backdrop-filter: blur(4px);
+  background: #ffffff;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
 }
 .dark .robot-card .category-badge {
-  background: rgba(30, 41, 59, 0.9);
+  background: #172554;
+  color: #ffffff;
+  border-color: #3b82f6;
+}
+
+html[data-i18n-loading] [data-i18n],
+html[data-i18n-loading] [data-i18n-placeholder] {
+  visibility: hidden;
 }
 
 .robot-card .card-info {
@@ -374,6 +418,8 @@ body {
 .video-embed {
   @apply relative w-full rounded-xl overflow-hidden;
   aspect-ratio: 16/9;
+  background: #000;
+  border: 1px solid var(--color-border);
 }
 .video-embed iframe {
   @apply absolute inset-0 w-full h-full;

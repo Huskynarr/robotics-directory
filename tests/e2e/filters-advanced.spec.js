@@ -49,6 +49,7 @@ test.describe('Advanced filters', () => {
   });
 
   test('manufacturer filter works', async ({ page }) => {
+    await page.locator('#advancedToggle').click();
     await page.selectOption('#manufacturerFilter', { index: 1 }); // first manufacturer
     await page.waitForTimeout(500);
     const cards = page.locator('#robotsGrid .robot-card');
@@ -61,6 +62,7 @@ test.describe('Advanced filters', () => {
   });
 
   test('price pills filter by price range', async ({ page }) => {
+    await page.locator('#advancedToggle').click();
     const lowPill = page.locator('[data-price="low"]');
     await lowPill.click();
     await page.waitForTimeout(500);
@@ -72,6 +74,7 @@ test.describe('Advanced filters', () => {
 
   test('use case pills filter cross-category', async ({ page, viewport }) => {
     if (viewport.width < 768) return;
+    await page.locator('#advancedToggle').click();
     const usecasePill = page.locator('[data-usecase]').first();
     if (await usecasePill.isVisible()) {
       await usecasePill.click();

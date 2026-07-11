@@ -148,10 +148,12 @@ function syncDOMToState() {
     }
   });
 
-  const hasAdvanced = Object.values(advancedFilters).some((v) => v);
+  const hasAdvanced =
+    currentPrice || currentSize || Object.values(advancedFilters).some((value) => value);
   if (hasAdvanced) {
     const advancedPanel = document.getElementById('advancedFilters');
     if (advancedPanel) advancedPanel.classList.remove('hidden');
+    document.getElementById('advancedToggle')?.setAttribute('aria-expanded', 'true');
   }
 }
 
@@ -282,6 +284,10 @@ function init() {
   if (advancedToggle && advancedPanel) {
     advancedToggle.addEventListener('click', () => {
       advancedPanel.classList.toggle('hidden');
+      advancedToggle.setAttribute(
+        'aria-expanded',
+        String(!advancedPanel.classList.contains('hidden')),
+      );
     });
   }
 
@@ -617,20 +623,20 @@ function renderPagination(total) {
 
   el.innerHTML = `
     <span class="pagination-info">${start}-${end} / ${total}</span>
-    <button class="pagination-btn" ${currentPage === 1 ? 'disabled' : ''} data-page="${currentPage - 1}">
-      <i class="fas fa-chevron-left"></i>
+    <button class="pagination-btn" aria-label="Previous page" ${currentPage === 1 ? 'disabled' : ''} data-page="${currentPage - 1}">
+      <i class="fas fa-chevron-left" aria-hidden="true"></i>
     </button>
     <div class="flex gap-1">
       ${pages
         .map((p) =>
           p === '...'
             ? '<span class="pagination-dots">...</span>'
-            : `<button class="pagination-btn${p === currentPage ? ' active' : ''}" data-page="${p}">${p}</button>`,
+            : `<button class="pagination-btn${p === currentPage ? ' active' : ''}" aria-label="Page ${p}" ${p === currentPage ? 'aria-current="page"' : ''} data-page="${p}">${p}</button>`,
         )
         .join('')}
     </div>
-    <button class="pagination-btn" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}">
-      <i class="fas fa-chevron-right"></i>
+    <button class="pagination-btn" aria-label="Next page" ${currentPage === totalPages ? 'disabled' : ''} data-page="${currentPage + 1}">
+      <i class="fas fa-chevron-right" aria-hidden="true"></i>
     </button>
   `;
 

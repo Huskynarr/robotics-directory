@@ -163,7 +163,7 @@ const coverage = [
       <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {
           coverage.map((item) => (
-            <article class="bg-surface border border-border rounded-xl p-4">
+            <article class="stats-chart-row bg-surface border border-border rounded-xl p-4">
               <div class="flex items-center justify-between gap-3 mb-3">
                 <span class="flex items-center gap-2 font-semibold text-text-base">
                   <i class={`fas ${item.icon} text-primary`} aria-hidden="true" />
@@ -180,8 +180,9 @@ const coverage = [
                 aria-valuemax="100"
               >
                 <span
-                  class="block h-full bg-primary rounded-full"
+                  class="stats-chart-bar block h-full bg-primary rounded-full"
                   style={`width:${item.percent}%`}
+                  title={`${item.percent}% ${item.label} coverage`}
                 />
               </div>
               <p class="text-xs text-text-muted mt-2 tabular-nums">
@@ -204,15 +205,19 @@ const coverage = [
       <div class="bg-surface border border-border rounded-xl p-5 space-y-3">
         {
           byCategory.map((c) => (
-            <a href={`/?category=${c.id}`} class="group flex items-center gap-3 no-underline">
+            <a
+              href={`/?category=${c.id}`}
+              class="stats-chart-row group flex items-center gap-3 no-underline"
+            >
               <span class="w-32 shrink-0 flex items-center gap-2 text-sm text-text-base">
                 <i class={`fas ${c.icon}`} style={`color:${c.color}`} />
                 <span data-i18n={`nav.${c.id}`}>{c.label}</span>
               </span>
               <span class="flex-1 h-6 rounded bg-bg overflow-hidden">
                 <span
-                  class="block h-full rounded transition-all group-hover:opacity-80"
+                  class="stats-chart-bar block h-full rounded transition-all group-hover:opacity-80"
                   style={`width:${Math.round((c.count / maxCat) * 100)}%;background:${c.color}`}
+                  title={`${c.count} ${c.label} robots`}
                 />
               </span>
               <span class="w-12 text-right text-sm font-semibold text-text-base tabular-nums">
@@ -239,7 +244,7 @@ const coverage = [
             topManufacturers.map((m, i) => (
               <a
                 href={`/?mfr=${encodeURIComponent(m.name)}`}
-                class="group flex items-center gap-3 no-underline"
+                class="stats-chart-row group flex items-center gap-3 no-underline"
               >
                 <span class="w-5 text-right text-xs text-text-muted tabular-nums">{i + 1}</span>
                 <span class="w-36 shrink-0 truncate text-sm text-text-base" title={m.name}>
@@ -247,8 +252,9 @@ const coverage = [
                 </span>
                 <span class="flex-1 h-4 rounded bg-bg overflow-hidden">
                   <span
-                    class="block h-full rounded bg-primary transition-all group-hover:opacity-80"
+                    class="stats-chart-bar block h-full rounded bg-primary transition-all group-hover:opacity-80"
                     style={`width:${Math.round((m.count / maxMfr) * 100)}%`}
+                    title={`${m.name}: ${m.count} robots`}
                   />
                 </span>
                 <span class="w-8 text-right text-sm font-semibold text-text-base tabular-nums">
@@ -275,12 +281,13 @@ const coverage = [
         <div class="bg-surface border border-border rounded-xl p-5 space-y-3 mb-4">
           {
             buckets.map((b) => (
-              <div class="flex items-center gap-3">
+              <div class="stats-chart-row flex items-center gap-3">
                 <span class="w-28 shrink-0 text-sm text-text-secondary">{b.label}</span>
                 <span class="flex-1 h-5 rounded bg-bg overflow-hidden">
                   <span
-                    class="block h-full rounded bg-accent transition-all"
+                    class="stats-chart-bar block h-full rounded bg-accent transition-all"
                     style={`width:${maxBucket ? Math.round((b.count / maxBucket) * 100) : 0}%`}
+                    title={`${b.label}: ${b.count} robots`}
                   />
                 </span>
                 <span class="w-10 text-right text-sm font-semibold text-text-base tabular-nums">

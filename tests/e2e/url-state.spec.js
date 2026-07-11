@@ -64,6 +64,7 @@ test.describe('URL state persistence', () => {
   test('reset clears all URL parameters', async ({ page }) => {
     await page.goto('/?category=humanoid&q=atlas&sort=name');
     await page.waitForTimeout(500);
+    await page.locator('#advancedToggle').click();
     await page.locator('#resetFilters').click();
     await page.waitForTimeout(500);
     const url = await page.evaluate(() => window.location.href);

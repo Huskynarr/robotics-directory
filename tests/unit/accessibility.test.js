@@ -41,6 +41,6 @@ describe('AAA color tokens', () => {
     for (const token of ['--color-text-base', '--color-text-secondary', '--color-text-muted']) {
       expect(contrast(colorFrom(dark, token), background), token).toBeGreaterThanOrEqual(7);
     }
-    expect(contrast('#a5b4fc', background), 'dark accent text').toBeGreaterThanOrEqual(7);
+    expect(contrast('#bfdbfe', background), 'dark accent text').toBeGreaterThanOrEqual(7);
   });
 });

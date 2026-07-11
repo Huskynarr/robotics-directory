@@ -99,6 +99,7 @@ function init() {
   });
 
   applyTranslations(initial);
+  document.documentElement.removeAttribute('data-i18n-loading');
 
   if (initial !== 'en') {
     document.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang: initial } }));

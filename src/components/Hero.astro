@@ -10,10 +10,15 @@ const stats = [
   { value: CATEGORIES.length, key: 'hero.statCategories', label: 'Categories' },
   { value: Object.keys(translations).length, key: 'hero.statLanguages', label: 'Languages' },
 ];
+const categoryHighlights = CATEGORIES.slice(0, 4).map((category) => ({
+  ...category,
+  count: allRobots.filter((robot) => robot.category === category.id).length,
+  label: t[`nav.${category.id}`] || category.id,
+}));
 ---
 
 <section class="relative overflow-hidden py-11 md:py-15 border-b border-white/10">
-  <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-primary-dark to-cyan-900"></div>
+  <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-primary-dark to-teal-900"></div>
   <div
     class="absolute inset-0 bg-[radial-gradient(circle_at_78%_20%,rgba(103,232,249,0.12),transparent_30%),radial-gradient(circle_at_16%_90%,rgba(129,140,248,0.16),transparent_34%)]"
   >
@@ -24,8 +29,10 @@ const stats = [
   >
   </div>
 
-  <div class="relative max-w-7xl mx-auto px-4">
-    <div class="max-w-4xl">
+  <div
+    class="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-[1.25fr_0.75fr] gap-10 items-center"
+  >
+    <div>
       <div
         class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-white mb-3"
       >
@@ -39,7 +46,7 @@ const stats = [
         {t['hero.title']}
       </h1>
       <p
-        class="text-base md:text-lg text-white max-w-2xl mb-6 leading-relaxed"
+        class="text-base md:text-lg text-white mb-6 leading-relaxed lg:whitespace-nowrap"
         data-i18n="hero.subtitle"
       >
         {t['hero.subtitle']}
@@ -66,5 +73,29 @@ const stats = [
         </dl>
       </div>
     </div>
+    <aside class="hidden lg:block" aria-label="Popular robot categories">
+      <div class="grid grid-cols-2 gap-3">
+        {
+          categoryHighlights.map((category) => (
+            <a
+              href={`/?category=${category.id}`}
+              class="group rounded-2xl border border-white/30 bg-slate-950/35 p-4 text-white no-underline backdrop-blur-sm transition-all hover:-translate-y-1 hover:border-white/70 hover:bg-slate-950/55 focus-visible:border-white"
+            >
+              <span class="flex items-center justify-between gap-3">
+                <i class={`fas ${category.icon} text-lg`} aria-hidden="true" />
+                <i
+                  class="fas fa-arrow-up-right-from-square text-xs transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                  aria-hidden="true"
+                />
+              </span>
+              <strong class="block mt-5 text-base" data-i18n={`nav.${category.id}`}>
+                {category.label}
+              </strong>
+              <span class="block mt-0.5 text-sm text-white">{category.count} robots</span>
+            </a>
+          ))
+        }
+      </div>
+    </aside>
   </div>
 </section>
