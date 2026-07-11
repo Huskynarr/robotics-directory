@@ -5,12 +5,12 @@ import { SITE_TAGLINE } from '../config/site.js';
 let currentLang = 'en';
 
 function getInitialLanguage() {
-  const stored = localStorage.getItem('lang');
-  if (stored && translations[stored]) return stored;
-
   const urlParams = new URLSearchParams(window.location.search);
   const urlLang = urlParams.get('lang');
   if (urlLang && translations[urlLang]) return urlLang;
+
+  const stored = localStorage.getItem('lang');
+  if (stored && translations[stored]) return stored;
 
   const browser = (navigator.language || 'en').toLowerCase();
   const langCode = browser.split('-')[0];
@@ -99,11 +99,16 @@ function init() {
   });
 
   applyTranslations(initial);
-  document.documentElement.removeAttribute('data-i18n-loading');
 
   if (initial !== 'en') {
     document.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang: initial } }));
   }
+
+  // Let every languageChanged listener finish before translated content becomes visible.
+  // This prevents catalog components from exposing an intermediate language for one frame.
+  requestAnimationFrame(() => {
+    document.documentElement.removeAttribute('data-i18n-loading');
+  });
 }
 
 document.addEventListener('DOMContentLoaded', init);

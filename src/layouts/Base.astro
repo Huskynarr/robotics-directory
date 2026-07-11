@@ -103,18 +103,21 @@ const {
       // Inline appearance and language init to prevent theme/language flashes.
       (function () {
         var storedMode = null;
-        var expectedLanguage = 'en';
+        var storedLanguage = null;
         try {
           storedMode = localStorage.getItem('darkMode');
-          expectedLanguage = localStorage.getItem('lang') || 'en';
+          storedLanguage = localStorage.getItem('lang');
         } catch {
           /* localStorage unavailable */
         }
         var urlLanguage = new URLSearchParams(window.location.search).get('lang');
-        if (urlLanguage) expectedLanguage = urlLanguage;
-        if (expectedLanguage === 'en' && !urlLanguage) {
+        var expectedLanguage = supportedLanguages.includes(urlLanguage) ? urlLanguage : null;
+        if (!expectedLanguage && supportedLanguages.includes(storedLanguage)) {
+          expectedLanguage = storedLanguage;
+        }
+        if (!expectedLanguage) {
           var browserLanguage = (navigator.language || 'en').toLowerCase().split('-')[0];
-          if (supportedLanguages.includes(browserLanguage)) expectedLanguage = browserLanguage;
+          expectedLanguage = supportedLanguages.includes(browserLanguage) ? browserLanguage : 'en';
         }
         if (expectedLanguage !== 'en') {
           document.documentElement.setAttribute('data-i18n-loading', '');

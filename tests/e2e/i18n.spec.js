@@ -31,11 +31,44 @@ test.describe('Internationalization', () => {
     await expect(title).toContainText('Entdecke die Welt der Robotik');
   });
 
+  test('URL language overrides a previously stored language without a visible flash', async ({
+    page,
+  }) => {
+    await page.addInitScript(() => {
+      localStorage.setItem('lang', 'en');
+      window.__wrongLanguageSeen = false;
+      const observePaintedFrames = () => {
+        const title = document.querySelector('[data-i18n="hero.title"]');
+        if (
+          title &&
+          title.textContent.includes('Discover') &&
+          getComputedStyle(title).visibility !== 'hidden'
+        ) {
+          window.__wrongLanguageSeen = true;
+        }
+        if (!title || document.documentElement.hasAttribute('data-i18n-loading')) {
+          requestAnimationFrame(observePaintedFrames);
+        }
+      };
+      requestAnimationFrame(observePaintedFrames);
+    });
+
+    await page.goto('/?lang=de');
+    await expect(page.locator('[data-i18n="hero.title"]')).toContainText(
+      'Entdecke die Welt der Robotik',
+    );
+    await page.waitForTimeout(250);
+    await expect(page.locator('[data-i18n="hero.title"]')).toContainText(
+      'Entdecke die Welt der Robotik',
+    );
+    expect(await page.evaluate(() => window.__wrongLanguageSeen)).toBe(false);
+  });
+
   test('does not flash English before restoring German', async ({ page }) => {
     await page.addInitScript(() => {
       localStorage.setItem('lang', 'de');
       window.__englishFlashSeen = false;
-      new MutationObserver(() => {
+      const observePaintedFrames = () => {
         const title = document.querySelector('[data-i18n="hero.title"]');
         if (
           title &&
@@ -44,9 +77,17 @@ test.describe('Internationalization', () => {
         ) {
           window.__englishFlashSeen = true;
         }
-      }).observe(document, { childList: true, subtree: true, characterData: true });
+        if (!title || document.documentElement.hasAttribute('data-i18n-loading')) {
+          requestAnimationFrame(observePaintedFrames);
+        }
+      };
+      requestAnimationFrame(observePaintedFrames);
     });
     await page.goto('/');
+    await expect(page.locator('[data-i18n="hero.title"]')).toContainText(
+      'Entdecke die Welt der Robotik',
+    );
+    await page.waitForTimeout(250);
     await expect(page.locator('[data-i18n="hero.title"]')).toContainText(
       'Entdecke die Welt der Robotik',
     );
@@ -59,7 +100,7 @@ test.describe('Internationalization', () => {
     await page.addInitScript(() => {
       localStorage.removeItem('lang');
       window.__englishFlashSeen = false;
-      new MutationObserver(() => {
+      const observePaintedFrames = () => {
         const title = document.querySelector('[data-i18n="hero.title"]');
         if (
           title &&
@@ -68,9 +109,17 @@ test.describe('Internationalization', () => {
         ) {
           window.__englishFlashSeen = true;
         }
-      }).observe(document, { childList: true, subtree: true, characterData: true });
+        if (!title || document.documentElement.hasAttribute('data-i18n-loading')) {
+          requestAnimationFrame(observePaintedFrames);
+        }
+      };
+      requestAnimationFrame(observePaintedFrames);
     });
     await page.goto('/');
+    await expect(page.locator('[data-i18n="hero.title"]')).toContainText(
+      'Entdecke die Welt der Robotik',
+    );
+    await page.waitForTimeout(250);
     await expect(page.locator('[data-i18n="hero.title"]')).toContainText(
       'Entdecke die Welt der Robotik',
     );

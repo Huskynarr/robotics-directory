@@ -46,7 +46,16 @@ let currentLang = 'en';
 let searchTimeout = null;
 
 function getLang() {
-  return localStorage.getItem('lang') || 'en';
+  const i18nLanguage = window.__I18N__?.currentLang?.();
+  if (i18nLanguage) return i18nLanguage;
+
+  const urlLanguage = new URLSearchParams(window.location.search).get('lang');
+  if (urlLanguage) return urlLanguage;
+
+  const storedLanguage = localStorage.getItem('lang');
+  if (storedLanguage) return storedLanguage;
+
+  return (navigator.language || 'en').toLowerCase().split('-')[0];
 }
 
 function serializeStateToURL(replace = false) {
