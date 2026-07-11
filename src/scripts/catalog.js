@@ -5,6 +5,7 @@ import {
   getUseCaseDef,
 } from '../data/subcategory-filters.js';
 import { trapFocus } from './focus-trap.js';
+import { applyAdvancedRobotFilters, parseWeightKg } from '../utils/robot-filters.js';
 
 const ROBOTS_PER_PAGE = 24;
 const DEFAULT_SORT = 'recommended';
@@ -458,7 +459,7 @@ function applyFilters() {
     });
   }
 
-  robots = applyAdvancedFilters(robots);
+  robots = applyAdvancedRobotFilters(robots, advancedFilters);
 
   if (currentSort === 'recommended') {
     robots.sort((a, b) => {
@@ -484,7 +485,7 @@ function applyFilters() {
           return v === Infinity ? -Infinity : v; // unknown prices last in descending order
         }
         case 'weight':
-          return parseFloat(r.weight) || Infinity;
+          return parseWeightKg(r.weight) ?? Infinity;
         default:
           return 0;
       }
@@ -519,62 +520,6 @@ function compareNewest(a, b) {
   const vb = Number.isFinite(yb) ? yb : -1;
   if (va !== vb) return vb - va;
   return (b.__idx || 0) - (a.__idx || 0);
-}
-
-function applyAdvancedFilters(robots) {
-  let result = robots;
-
-  if (advancedFilters.weight) {
-    result = result.filter((r) => {
-      const m = (r.weight || '').match(/(\d+(\.\d+)?)/);
-      if (!m) return false;
-      const w = parseFloat(m[0]);
-      switch (advancedFilters.weight) {
-        case 'light':
-          return w < 10;
-        case 'medium':
-          return w >= 10 && w <= 50;
-        case 'heavy':
-          return w > 50;
-        default:
-          return true;
-      }
-    });
-  }
-
-  if (advancedFilters.battery) {
-    result = result.filter((r) => {
-      const m = (r.batteryLife || '').match(/(\d+(\.\d+)?)/);
-      if (!m) return false;
-      const h = parseFloat(m[0]);
-      switch (advancedFilters.battery) {
-        case 'short':
-          return h < 2;
-        case 'medium':
-          return h >= 2 && h <= 5;
-        case 'long':
-          return h > 5;
-        default:
-          return true;
-      }
-    });
-  }
-
-  if (advancedFilters.ipRating) {
-    result = result.filter((r) => {
-      const ip = (r.ipRating || '').trim();
-      return ip !== '' && ip !== 'N/A';
-    });
-  }
-
-  if (advancedFilters.video) {
-    result = result.filter((r) => {
-      const v = (r.video || '').trim();
-      return v !== '' && v !== 'N/A';
-    });
-  }
-
-  return result;
 }
 
 function renderCards() {

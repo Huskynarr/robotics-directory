@@ -1,99 +1,66 @@
-import { describe, it, expect } from 'vitest';
+import { describe, expect, it } from 'vitest';
+import {
+  applyAdvancedRobotFilters,
+  parseDurationHours,
+  parseWeightKg,
+} from '../../src/utils/robot-filters.js';
 import { getPriceValue } from '../../src/utils/format.js';
 
-// Re-implement filter logic for testing (same logic as catalog.js)
-function applyAdvancedFilters(robots, filters) {
-  let result = [...robots];
-
-  if (filters.weight) {
-    result = result.filter(r => {
-      const m = (r.weight || '').match(/(\d+(\.\d+)?)/);
-      if (!m) return false;
-      const w = parseFloat(m[0]);
-      switch (filters.weight) {
-        case 'light': return w < 10;
-        case 'medium': return w >= 10 && w <= 50;
-        case 'heavy': return w > 50;
-        default: return true;
-      }
-    });
-  }
-
-  if (filters.battery) {
-    result = result.filter(r => {
-      const m = (r.batteryLife || '').match(/(\d+(\.\d+)?)/);
-      if (!m) return false;
-      const h = parseFloat(m[0]);
-      switch (filters.battery) {
-        case 'short': return h < 2;
-        case 'medium': return h >= 2 && h <= 5;
-        case 'long': return h > 5;
-        default: return true;
-      }
-    });
-  }
-
-  return result;
-}
-
-const sampleRobots = [
-  { model: 'Atlas', manufacturer: 'Boston Dynamics', weight: '89 kg', batteryLife: '1 hour', price: '150000 USD', category: 'humanoid' },
-  { model: 'Go1', manufacturer: 'Unitree', weight: '12 kg', batteryLife: '1.5 hours', price: '~2700 USD', category: 'quadruped' },
-  { model: 'Pepper', manufacturer: 'SoftBank', weight: '28 kg', batteryLife: '12 hours', price: '20000 USD', category: 'companion' },
-  { model: 'Roomba', manufacturer: 'iRobot', weight: '3.4 kg', batteryLife: '2 hours', price: '500 USD', category: 'cleaning' },
-  { model: 'Sophia', manufacturer: 'Hanson', weight: '50 kg', batteryLife: '8 hours', price: 'Not disclosed', category: 'humanoid' },
+const robots = [
+  { model: 'Atlas', weight: '196 lbs', batteryLife: '60 min', price: '150000 USD' },
+  { model: 'Go1', weight: '12 kg', batteryLife: '1.5 hours', price: '~2700 USD' },
+  { model: 'Pepper', weight: '28 kg', batteryLife: '12 hours', price: '20000 USD' },
+  { model: 'Roomba', weight: '3400 g', batteryLife: '120 min', price: '500 USD' },
+  { model: 'Sophia', weight: '50 kg', batteryLife: '8 hours', price: 'Not disclosed' },
 ];
 
-describe('Weight filter', () => {
-  it('filters light robots (< 10kg)', () => {
-    const result = applyAdvancedFilters(sampleRobots, { weight: 'light' });
-    expect(result).toHaveLength(1);
-    expect(result[0].model).toBe('Roomba');
+describe('robot measurement parsing', () => {
+  it.each([
+    ['90 min', 1.5],
+    ['2.5 hours', 2.5],
+    ['1 day', 24],
+  ])('normalizes duration %s to hours', (value, expected) => {
+    expect(parseDurationHours(value)).toBe(expected);
   });
 
-  it('filters medium robots (10-50kg)', () => {
-    const result = applyAdvancedFilters(sampleRobots, { weight: 'medium' });
-    expect(result).toHaveLength(3);
-  });
-
-  it('filters heavy robots (> 50kg)', () => {
-    const result = applyAdvancedFilters(sampleRobots, { weight: 'heavy' });
-    expect(result).toHaveLength(1);
-    expect(result[0].model).toBe('Atlas');
+  it('normalizes grams and pounds to kilograms', () => {
+    expect(parseWeightKg('3400 g')).toBe(3.4);
+    expect(parseWeightKg('22 lbs')).toBeCloseTo(9.98, 1);
   });
 });
 
-describe('Battery filter', () => {
-  it('filters short battery (< 2h)', () => {
-    const result = applyAdvancedFilters(sampleRobots, { battery: 'short' });
-    expect(result).toHaveLength(2); // Atlas (1h), Go1 (1.5h)
+describe('advanced robot filters', () => {
+  it.each([
+    ['light', ['Roomba']],
+    ['medium', ['Go1', 'Pepper', 'Sophia']],
+    ['heavy', ['Atlas']],
+  ])('filters the %s weight range using normalized units', (filter, expected) => {
+    expect(applyAdvancedRobotFilters(robots, { weight: filter }).map((r) => r.model)).toEqual(
+      expected,
+    );
   });
 
-  it('filters medium battery (2-5h)', () => {
-    const result = applyAdvancedFilters(sampleRobots, { battery: 'medium' });
-    expect(result).toHaveLength(1); // Roomba (2h)
+  it.each([
+    ['short', ['Atlas', 'Go1']],
+    ['medium', ['Roomba']],
+    ['long', ['Pepper', 'Sophia']],
+  ])('filters the %s battery range using normalized units', (filter, expected) => {
+    expect(applyAdvancedRobotFilters(robots, { battery: filter }).map((r) => r.model)).toEqual(
+      expected,
+    );
   });
 
-  it('filters long battery (> 5h)', () => {
-    const result = applyAdvancedFilters(sampleRobots, { battery: 'long' });
-    expect(result).toHaveLength(2); // Pepper (12h), Sophia (8h)
+  it('combines filters without mutating the input array', () => {
+    const result = applyAdvancedRobotFilters(robots, { weight: 'medium', battery: 'long' });
+    expect(result.map((r) => r.model)).toEqual(['Pepper', 'Sophia']);
+    expect(robots).toHaveLength(5);
   });
 });
 
-describe('Price sorting', () => {
-  it('sorts by price value', () => {
-    const sorted = [...sampleRobots].sort((a, b) => getPriceValue(a.price) - getPriceValue(b.price));
-    expect(sorted[0].model).toBe('Roomba');
-    expect(sorted[sorted.length - 1].model).toBe('Sophia'); // Not disclosed = Infinity
-  });
-});
-
-describe('Combined filters', () => {
-  it('applies multiple filters', () => {
-    const result = applyAdvancedFilters(sampleRobots, { weight: 'medium', battery: 'long' });
-    expect(result).toHaveLength(2); // Pepper (28kg, 12h) and Sophia (50kg, 8h)
-    const models = result.map(r => r.model);
-    expect(models).toContain('Pepper');
-    expect(models).toContain('Sophia');
+describe('price sorting', () => {
+  it('sorts unknown prices last', () => {
+    const sorted = [...robots].sort((a, b) => getPriceValue(a.price) - getPriceValue(b.price));
+    expect(sorted.at(0).model).toBe('Roomba');
+    expect(sorted.at(-1).model).toBe('Sophia');
   });
 });

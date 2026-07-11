@@ -1,21 +1,25 @@
 import { test, expect } from '@playwright/test';
 
-const CATEGORIES = ['humanoid', 'quadruped', 'companion', 'cleaning', 'outdoor', 'educational', 'smarthome'];
+const CATEGORIES = [
+  'humanoid',
+  'quadruped',
+  'companion',
+  'cleaning',
+  'outdoor',
+  'educational',
+  'smarthome',
+];
 
 test.describe('All 7 categories filter correctly', () => {
   for (const catId of CATEGORIES) {
     test(`category "${catId}" via URL shows only matching robots`, async ({ page }) => {
       await page.goto(`/?category=${catId}`);
-      await page.waitForTimeout(500);
       const cards = page.locator('#robotsGrid .robot-card');
-      const count = await cards.count();
-      expect(count).toBeGreaterThan(0);
-      // Verify all visible robots belong to this category by checking
-      // that no other category badges appear (robot-card data attribute)
-      const robotIds = await page.locator('#robotsGrid .robot-card').evaluateAll(
-        (cards) => cards.map(c => c.dataset.robotId)
+      await expect(cards.first()).toBeVisible();
+      const categories = await cards.evaluateAll((items) =>
+        items.map((item) => item.dataset.category),
       );
-      expect(robotIds.length).toBeGreaterThan(0);
+      expect(new Set(categories)).toEqual(new Set([catId]));
     });
   }
 
