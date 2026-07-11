@@ -6,6 +6,7 @@ import {
 } from '../data/subcategory-filters.js';
 import { trapFocus } from './focus-trap.js';
 import { applyAdvancedRobotFilters, parseWeightKg } from '../utils/robot-filters.js';
+import { CATEGORIES } from '../data/categories.js';
 
 const ROBOTS_PER_PAGE = 24;
 const DEFAULT_SORT = 'recommended';
@@ -316,6 +317,7 @@ function init() {
 
   document.addEventListener('languageChanged', (e) => {
     currentLang = e.detail.lang;
+    updateHeroContext();
     renderCards();
     updateActiveChips();
   });
@@ -504,8 +506,38 @@ function applyFilters() {
   }
 
   filteredRobots = robots;
+  updateHeroContext();
   renderCards();
   updateActiveChips();
+}
+
+function updateHeroContext() {
+  const title = document.getElementById('heroTitle');
+  const subtitle = document.getElementById('heroSubtitle');
+  const badge = document.getElementById('heroBadgeText');
+  const icon = document.getElementById('heroBadgeIcon');
+  if (!title || !subtitle || !badge || !icon) return;
+
+  const table = window.__I18N__?.translations?.[currentLang] || {};
+  if (!currentCategory || currentCategory === 'all') {
+    title.textContent = table['hero.title'] || 'Discover the World of Robotics';
+    subtitle.textContent =
+      table['hero.subtitle'] ||
+      'A comprehensive collection of robots, categorized and interactively searchable';
+    badge.textContent = table['hero.badge'] || 'Robot Catalog';
+    icon.className = 'fas fa-robot';
+    document.title = `${table['app.title'] || 'Robotics Directory'} - Comprehensive Robot Database & Comparison Tool`;
+    return;
+  }
+
+  const category = CATEGORIES.find((item) => item.id === currentCategory);
+  const label = table[`nav.${currentCategory}`] || currentCategory;
+  const robotLabel = table['hero.statRobots'] || 'Robots';
+  title.textContent = label;
+  subtitle.textContent = `${filteredRobots.length.toLocaleString()} ${robotLabel}`;
+  badge.textContent = label;
+  icon.className = `fas ${category?.icon || 'fa-robot'}`;
+  document.title = `${label} · ${table['app.title'] || 'Robotics Directory'}`;
 }
 
 function getRecommendedRank(robot) {
@@ -563,7 +595,7 @@ function renderCards() {
   const catLabel = (cat) => tbl[`nav.${cat}`] || cat;
 
   grid.innerHTML = pageRobots
-    .map((robot) => {
+    .map((robot, index) => {
       const imgPath = robot.image
         ? robot.image.startsWith('images/')
           ? '/' + robot.image
@@ -578,6 +610,9 @@ function renderCards() {
       const safeImg = escapeHTML(imgPath);
       const safePrice = escapeHTML(price);
       const safeCatLabel = escapeHTML(catLabel(robot.category));
+      const isLcpCandidate = start === 0 && index === 0;
+      const imageLoading = isLcpCandidate ? 'eager' : 'lazy';
+      const imagePriority = isLcpCandidate ? ' fetchpriority="high"' : '';
 
       return `<a href="/robot/${safeId}/" class="robot-card block no-underline" data-category="${safeCategory}" data-robot-id="${safeId}" role="listitem">
       <div class="card-image">
@@ -585,7 +620,8 @@ function renderCards() {
         <button class="favorite-btn${isFav ? ' active' : ''}" data-robot-id="${safeId}" aria-label="Add to favorites" type="button">
           <i class="${isFav ? 'fas' : 'far'} fa-heart"></i>
         </button>
-        <img src="${safeImg}" alt="${safeModel} by ${safeManufacturer}" loading="lazy" width="400" height="300" onerror="this.src='/images/image-not-found.webp';" />
+        ${robot.image ? `<img src="${safeImg}" alt="" class="card-image-backdrop" aria-hidden="true" loading="${imageLoading}"${imagePriority} />` : ''}
+        <img src="${safeImg}" alt="${safeModel} by ${safeManufacturer}" class="card-image-main" loading="${imageLoading}"${imagePriority} width="400" height="300" onerror="this.src='/images/image-not-found.webp';" />
       </div>
       <div class="card-info">
         <h3>${safeModel}</h3>

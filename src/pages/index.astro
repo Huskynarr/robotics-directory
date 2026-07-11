@@ -10,6 +10,7 @@ import Footer from '../components/Footer.astro';
 import { getAllRobots } from '../data/robots.js';
 import { CATEGORIES, CATEGORY_LABELS } from '../data/categories.js';
 import { SITE_URL, SITE_NAME } from '../config/site.js';
+import { resolveImagePath } from '../utils/format.js';
 import '../styles/global.css';
 
 const { allRobots, manufacturers } = getAllRobots();
@@ -37,12 +38,12 @@ const jsonLd = {
 };
 ---
 
-<Base jsonLd={jsonLd}>
+<Base jsonLd={jsonLd} preloadImage={resolveImagePath(allRobots[0]?.image)}>
   <Header />
   <Hero />
   <main id="main">
     <SearchFilters manufacturers={manufacturers} />
-    <RobotGrid robots={allRobots} />
+    <RobotGrid robots={allRobots.slice(0, 24)} />
   </main>
   <CompareBar />
   <FavoritesDrawer />

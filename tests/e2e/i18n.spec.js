@@ -53,6 +53,31 @@ test.describe('Internationalization', () => {
     expect(await page.evaluate(() => window.__englishFlashSeen)).toBe(false);
   });
 
+  test('does not flash English when German comes from the browser', async ({ browser }) => {
+    const context = await browser.newContext({ locale: 'de-DE' });
+    const page = await context.newPage();
+    await page.addInitScript(() => {
+      localStorage.removeItem('lang');
+      window.__englishFlashSeen = false;
+      new MutationObserver(() => {
+        const title = document.querySelector('[data-i18n="hero.title"]');
+        if (
+          title &&
+          title.textContent.includes('Discover') &&
+          getComputedStyle(title).visibility !== 'hidden'
+        ) {
+          window.__englishFlashSeen = true;
+        }
+      }).observe(document, { childList: true, subtree: true, characterData: true });
+    });
+    await page.goto('/');
+    await expect(page.locator('[data-i18n="hero.title"]')).toContainText(
+      'Entdecke die Welt der Robotik',
+    );
+    expect(await page.evaluate(() => window.__englishFlashSeen)).toBe(false);
+    await context.close();
+  });
+
   test('price formatting changes with language', async ({ page, viewport }) => {
     await page.goto('/robot/westwood-robotics-themis-v2/');
     // English format

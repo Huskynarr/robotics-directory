@@ -4,9 +4,10 @@ import { translations } from '../data/translations.js';
 
 interface Props {
   robot: Record<string, string>;
+  eager?: boolean;
 }
 
-const { robot } = Astro.props;
+const { robot, eager = false } = Astro.props;
 const t = translations.en;
 const imagePath = resolveImagePath(robot.image);
 const formattedPrice = formatPrice(robot.price, 'en', (k, fb) => fb || k);
@@ -32,10 +33,24 @@ const detailUrl = `/robot/${robot.id}/`;
     >
       <i class="far fa-heart"></i>
     </button>
+    {
+      robot.image && (
+        <img
+          src={imagePath}
+          alt=""
+          class="card-image-backdrop"
+          aria-hidden="true"
+          loading={eager ? 'eager' : 'lazy'}
+          fetchpriority={eager ? 'high' : undefined}
+        />
+      )
+    }
     <img
       src={imagePath}
       alt={`${robot.model} by ${robot.manufacturer}`}
-      loading="lazy"
+      class="card-image-main"
+      loading={eager ? 'eager' : 'lazy'}
+      fetchpriority={eager ? 'high' : undefined}
       width="400"
       height="300"
     />

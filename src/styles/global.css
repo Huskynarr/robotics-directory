@@ -228,7 +228,19 @@ button:disabled {
   @apply w-full h-full object-contain p-4;
   transition: transform 350ms ease;
 }
-.robot-card:hover .card-image img {
+.robot-card .card-image .card-image-backdrop {
+  @apply absolute inset-0 p-0 object-cover;
+  filter: blur(22px) saturate(0.8);
+  opacity: 0.2;
+  transform: scale(1.16);
+}
+.dark .robot-card .card-image .card-image-backdrop {
+  opacity: 0.14;
+}
+.robot-card .card-image .card-image-main {
+  @apply relative z-[1];
+}
+.robot-card:hover .card-image .card-image-main {
   transform: scale(1.035);
 }
 

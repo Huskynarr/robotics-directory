@@ -10,12 +10,13 @@ const { robots } = Astro.props;
 
 <section class="py-8 md:py-12" aria-label="Robot catalog" id="robotGrid">
   <div class="max-w-7xl mx-auto px-4">
+    <h2 class="sr-only">Robot catalog</h2>
     <div
       id="robotsGrid"
       class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-5"
       role="list"
     >
-      {robots.map((robot) => <RobotCard robot={robot} />)}
+      {robots.map((robot, index) => <RobotCard robot={robot} eager={index === 0} />)}
     </div>
 
     <div id="noResults" class="hidden text-center py-16">

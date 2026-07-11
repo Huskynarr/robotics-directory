@@ -17,7 +17,7 @@ const categoryHighlights = CATEGORIES.slice(0, 4).map((category) => ({
 }));
 ---
 
-<section class="relative overflow-hidden py-11 md:py-15 border-b border-white/10">
+<section id="catalogHero" class="relative overflow-hidden py-11 md:py-15 border-b border-white/10">
   <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-primary-dark to-teal-900"></div>
   <div
     class="absolute inset-0 bg-[radial-gradient(circle_at_78%_20%,rgba(103,232,249,0.12),transparent_30%),radial-gradient(circle_at_16%_90%,rgba(129,140,248,0.16),transparent_34%)]"
@@ -36,16 +36,18 @@ const categoryHighlights = CATEGORIES.slice(0, 4).map((category) => ({
       <div
         class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-white mb-3"
       >
-        <i class="fas fa-robot" aria-hidden="true"></i>
-        <span data-i18n="hero.badge">Robot Catalog</span>
+        <i id="heroBadgeIcon" class="fas fa-robot" aria-hidden="true"></i>
+        <span id="heroBadgeText" data-i18n="hero.badge">Robot Catalog</span>
       </div>
       <h1
+        id="heroTitle"
         class="font-heading text-3xl md:text-5xl font-bold text-white mb-3 leading-[1.08] tracking-tight"
         data-i18n="hero.title"
       >
         {t['hero.title']}
       </h1>
       <p
+        id="heroSubtitle"
         class="text-base md:text-lg text-white mb-6 leading-relaxed lg:whitespace-nowrap"
         data-i18n="hero.subtitle"
       >
@@ -59,7 +61,7 @@ const categoryHighlights = CATEGORIES.slice(0, 4).map((category) => ({
           <i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i>
           <span data-i18n="hero.finderCta">Find my robot</span>
         </a>
-        <dl class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white">
+        <dl id="heroStats" class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white">
           {
             stats.map((stat) => (
               <div class="flex items-baseline gap-1.5">

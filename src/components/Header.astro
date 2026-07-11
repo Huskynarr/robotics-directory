@@ -56,11 +56,7 @@ const mobileData = CATEGORIES.map((cat) => {
 >
   <div class="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
     <!-- Logo -->
-    <a
-      href="/"
-      class="flex items-center gap-2 shrink-0 no-underline"
-      aria-label="Robotics Directory Home"
-    >
+    <a href="/" class="flex items-center gap-2 shrink-0 no-underline">
       <i class="fas fa-robot text-primary text-xl"></i>
       <span
         class="font-heading font-semibold text-text-base text-sm md:text-base"
@@ -344,6 +340,15 @@ const mobileData = CATEGORIES.map((cat) => {
     color: var(--color-primary);
     font-weight: 600;
   }
+  :global(.dark) .mega-tab.active,
+  :global(.dark) .mega-tab:global(.mega-tab-open) {
+    color: #bfdbfe;
+  }
+  :global(.dark) .mega-tab.active::after,
+  :global(.dark) .mega-tab:global(.mega-tab-open)::after {
+    background: #93c5fd;
+    box-shadow: 0 0 8px rgba(147, 197, 253, 0.35);
+  }
   .mega-tab:global(.mega-tab-open) i {
     transform: rotate(180deg);
   }
@@ -354,8 +359,8 @@ const mobileData = CATEGORIES.map((cat) => {
     color: var(--color-primary);
   }
   :global(.dark) .mobile-nav-item.active {
-    background: rgba(37, 99, 235, 0.15);
-    color: var(--color-primary-light);
+    background: #172554;
+    color: #dbeafe;
   }
 
   /* Mobile accordion arrow rotation */
