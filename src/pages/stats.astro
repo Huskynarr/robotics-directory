@@ -14,6 +14,8 @@ const total = allRobots.length;
 const manufacturerCount = manufacturers.length;
 const withImage = allRobots.filter((r) => (r.image || '').trim()).length;
 const withPrice = allRobots.filter((r) => getPriceValue(r.price) !== Infinity).length;
+const withVideo = allRobots.filter((r) => (r.video || '').trim()).length;
+const withDescription = allRobots.filter((r) => (r.description || '').trim()).length;
 const imagePct = Math.round((withImage / total) * 100);
 const pricePct = Math.round((withPrice / total) * 100);
 
@@ -47,14 +49,14 @@ const cheapest = [...allRobots]
 const priciest = [...allRobots]
   .filter((r) => getPriceValue(r.price) !== Infinity)
   .sort((a, b) => getPriceValue(b.price) - getPriceValue(a.price))[0];
-const usd = (n) => '$' + Math.round(n).toLocaleString('en-US');
+const usd = (n) => 'USD ' + Math.round(n).toLocaleString('en-US');
 
 const buckets = [
-  { label: '< $300', min: 0, max: 300 },
-  { label: '$300 – $700', min: 300, max: 700 },
-  { label: '$700 – $1,500', min: 700, max: 1500 },
-  { label: '$1,500 – $5,000', min: 1500, max: 5000 },
-  { label: '> $5,000', min: 5000, max: Infinity },
+  { label: '< USD 300', min: 0, max: 300 },
+  { label: 'USD 300 – 700', min: 300, max: 700 },
+  { label: 'USD 700 – 1,500', min: 700, max: 1500 },
+  { label: 'USD 1,500 – 5,000', min: 1500, max: 5000 },
+  { label: '> USD 5,000', min: 5000, max: Infinity },
 ].map((b) => ({ ...b, count: prices.filter((p) => p >= b.min && p < b.max).length }));
 const maxBucket = Math.max(...buckets.map((b) => b.count));
 
@@ -103,6 +105,12 @@ const kpis = [
   },
   { value: imagePct + '%', label: 'With photo', i18n: 'stats.kpi.images', icon: 'fa-image' },
 ];
+const coverage = [
+  { label: 'Photo', value: withImage, icon: 'fa-image' },
+  { label: 'Price', value: withPrice, icon: 'fa-tag' },
+  { label: 'Description', value: withDescription, icon: 'fa-align-left' },
+  { label: 'Video', value: withVideo, icon: 'fa-circle-play' },
+].map((item) => ({ ...item, percent: Math.round((item.value / total) * 100) }));
 ---
 
 <Base title={title} description={description} canonical={canonical} jsonLd={jsonLd}>
@@ -139,6 +147,50 @@ const kpis = [
           </div>
         ))
       }
+    </section>
+
+    <section class="mb-12" aria-labelledby="coverage-heading">
+      <div class="flex items-end justify-between gap-4 mb-4">
+        <div>
+          <h2 id="coverage-heading" class="font-heading text-xl font-semibold text-text-base">
+            Data coverage
+          </h2>
+          <p class="text-sm text-text-secondary mt-1">
+            How complete the catalog is across fields that help people evaluate a robot.
+          </p>
+        </div>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {
+          coverage.map((item) => (
+            <article class="bg-surface border border-border rounded-xl p-4">
+              <div class="flex items-center justify-between gap-3 mb-3">
+                <span class="flex items-center gap-2 font-semibold text-text-base">
+                  <i class={`fas ${item.icon} text-primary`} aria-hidden="true" />
+                  {item.label}
+                </span>
+                <strong class="text-text-base tabular-nums">{item.percent}%</strong>
+              </div>
+              <div
+                class="h-2.5 rounded-full bg-bg overflow-hidden border border-border"
+                role="progressbar"
+                aria-label={`${item.label} coverage`}
+                aria-valuenow={item.percent}
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                <span
+                  class="block h-full bg-primary rounded-full"
+                  style={`width:${item.percent}%`}
+                />
+              </div>
+              <p class="text-xs text-text-muted mt-2 tabular-nums">
+                {item.value} of {total} robots
+              </p>
+            </article>
+          ))
+        }
+      </div>
     </section>
 
     <!-- By category -->

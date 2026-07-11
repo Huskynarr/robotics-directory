@@ -37,6 +37,7 @@ test.describe('Internationalization', () => {
     const priceEl = page.locator('[data-raw-price]').first();
     const enPrice = await priceEl.textContent();
     expect(enPrice).toContain('69');
+    expect(enPrice).toContain('USD');
 
     const isMobile = viewport.width < 768;
 
@@ -52,5 +53,6 @@ test.describe('Internationalization', () => {
     await page.waitForTimeout(500);
     const dePrice = await priceEl.textContent();
     expect(dePrice).toContain('69');
+    expect(dePrice).toContain('USD');
   });
 });

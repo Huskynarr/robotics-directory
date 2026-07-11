@@ -66,15 +66,16 @@ export function formatPrice(raw, lang = 'en', t = (k, fb) => fb || k) {
   if (lower.includes('prototype')) return t('price.prototype', 'Prototype');
   if (lower.includes('discontinued')) return t('price.discontinued', 'Discontinued');
 
-  const match = s.match(/^(~?)[\s]*([\d,.\s]+)\s*(USD|EUR|usd|eur)?\s*(\(.*\))?$/i);
+  const match = s.match(/^(~?)\s*([$€])?\s*([\d,.\s]+)\s*(USD|EUR)?\s*(\(.*\))?$/i);
   if (!match) return s;
 
   const isApprox = match[1] === '~';
-  const num = parseFloat(match[2].replace(/[,\s]/g, ''));
+  const num = parseFloat(match[3].replace(/[,\s]/g, ''));
   if (isNaN(num)) return s;
 
-  const currency = (match[3] || 'USD').toUpperCase();
-  const suffix = match[4] || '';
+  const symbolCurrency = match[2] === '€' ? 'EUR' : match[2] === '$' ? 'USD' : null;
+  const currency = (match[4] || symbolCurrency || 'USD').toUpperCase();
+  const suffix = match[5] || '';
   const locale = lang || 'en';
 
   let formatted;
@@ -82,6 +83,7 @@ export function formatPrice(raw, lang = 'en', t = (k, fb) => fb || k) {
     formatted = new Intl.NumberFormat(locale, {
       style: 'currency',
       currency,
+      currencyDisplay: 'code',
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
     }).format(num);

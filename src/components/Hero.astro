@@ -5,83 +5,65 @@ import { CATEGORIES } from '../data/categories.js';
 
 const t = translations.en;
 const { allRobots } = getAllRobots();
-const robotCount = allRobots.length;
-const categoryCount = CATEGORIES.length;
-const languageCount = Object.keys(translations).length;
+const stats = [
+  { value: allRobots.length, key: 'hero.statRobots', label: 'Robots' },
+  { value: CATEGORIES.length, key: 'hero.statCategories', label: 'Categories' },
+  { value: Object.keys(translations).length, key: 'hero.statLanguages', label: 'Languages' },
+];
 ---
 
-<section class="relative overflow-hidden py-16 md:py-24 border-b border-white/10">
-  <!-- Gradient background - catalog-specific warm blue -->
+<section class="relative overflow-hidden py-11 md:py-15 border-b border-white/10">
+  <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-primary-dark to-cyan-900"></div>
   <div
-    class="absolute inset-0 bg-gradient-to-br from-slate-950 via-primary-dark to-accent opacity-[0.97]"
+    class="absolute inset-0 bg-[radial-gradient(circle_at_78%_20%,rgba(103,232,249,0.12),transparent_30%),radial-gradient(circle_at_16%_90%,rgba(129,140,248,0.16),transparent_34%)]"
   >
   </div>
   <div
-    class="absolute inset-0 bg-[radial-gradient(circle_at_72%_28%,rgba(103,232,249,0.24),transparent_32%),radial-gradient(circle_at_18%_80%,rgba(129,140,248,0.28),transparent_38%)]"
-  >
-  </div>
-  <!-- Circuit grid overlay for tech feel -->
-  <div
-    class="absolute inset-0 opacity-[0.05]"
+    class="absolute inset-0 opacity-[0.04]"
     style="background-image: linear-gradient(rgba(255,255,255,0.35) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.35) 1px, transparent 1px); background-size: 56px 56px; mask-image: linear-gradient(to bottom, black, transparent);"
   >
   </div>
 
-  <div class="relative max-w-5xl mx-auto px-4 text-center">
-    <!-- Page identifier badge -->
-    <div
-      class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest text-white/70 border border-white/15 mb-5 backdrop-blur-sm bg-white/5"
-    >
-      <i class="fas fa-robot"></i>
-      <span data-i18n="hero.badge">Robot Catalog</span>
-    </div>
-
-    <h1
-      class="font-heading text-4xl md:text-6xl font-bold text-white mb-5 leading-[1.08] tracking-tight"
-      data-i18n="hero.title"
-    >
-      {t['hero.title']}
-    </h1>
-    <p
-      class="text-base md:text-xl text-white/75 max-w-2xl mx-auto mb-8 leading-relaxed"
-      data-i18n="hero.subtitle"
-    >
-      {t['hero.subtitle']}
-    </p>
-
-    <!-- Guided finder CTA -->
-    <div class="mb-9">
-      <a
-        href="/finder/"
-        class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-white text-primary-dark font-semibold text-sm md:text-base shadow-[0_12px_40px_rgba(0,0,0,0.24)] hover:-translate-y-0.5 hover:shadow-[0_16px_48px_rgba(0,0,0,0.3)] transition-all no-underline"
+  <div class="relative max-w-7xl mx-auto px-4">
+    <div class="max-w-4xl">
+      <div
+        class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-white mb-3"
       >
-        <i class="fas fa-wand-magic-sparkles"></i>
-        <span data-i18n="hero.finderCta">Find my robot</span>
-      </a>
-    </div>
-
-    <!-- Stats strip -->
-    <div class="flex items-center justify-center gap-6 md:gap-10 text-white/60 text-sm">
-      <div class="flex items-center gap-2">
-        <span class="font-heading font-bold text-xl md:text-2xl text-white tabular-nums"
-          >{robotCount}</span
-        >
-        <span data-i18n="hero.statRobots">Robots</span>
+        <i class="fas fa-robot" aria-hidden="true"></i>
+        <span data-i18n="hero.badge">Robot Catalog</span>
       </div>
-      <div class="w-px h-6 bg-white/20"></div>
-      <div class="flex items-center gap-2">
-        <span class="font-heading font-bold text-xl md:text-2xl text-white tabular-nums"
-          >{categoryCount}</span
+      <h1
+        class="font-heading text-3xl md:text-5xl font-bold text-white mb-3 leading-[1.08] tracking-tight"
+        data-i18n="hero.title"
+      >
+        {t['hero.title']}
+      </h1>
+      <p
+        class="text-base md:text-lg text-white max-w-2xl mb-6 leading-relaxed"
+        data-i18n="hero.subtitle"
+      >
+        {t['hero.subtitle']}
+      </p>
+      <div class="flex flex-col sm:flex-row sm:items-center gap-5 sm:gap-7">
+        <a
+          href="/finder/"
+          class="inline-flex self-start items-center gap-2 px-5 py-3 rounded-xl bg-white text-primary-dark font-bold text-sm shadow-[0_10px_30px_rgba(0,0,0,0.24)] hover:-translate-y-0.5 hover:shadow-[0_14px_36px_rgba(0,0,0,0.3)] transition-all no-underline"
         >
-        <span data-i18n="hero.statCategories">Categories</span>
-      </div>
-      <div class="w-px h-6 bg-white/20"></div>
-      <div class="flex items-center gap-2">
-        <i class="fas fa-globe text-white/40"></i>
-        <span class="font-heading font-bold text-xl md:text-2xl text-white tabular-nums"
-          >{languageCount}</span
-        >
-        <span data-i18n="hero.statLanguages">Languages</span>
+          <i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i>
+          <span data-i18n="hero.finderCta">Find my robot</span>
+        </a>
+        <dl class="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white">
+          {
+            stats.map((stat) => (
+              <div class="flex items-baseline gap-1.5">
+                <dt class="order-2 font-medium" data-i18n={stat.key}>
+                  {stat.label}
+                </dt>
+                <dd class="font-heading font-bold text-lg tabular-nums">{stat.value}</dd>
+              </div>
+            ))
+          }
+        </dl>
       </div>
     </div>
   </div>

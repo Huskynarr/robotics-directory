@@ -1,15 +1,22 @@
 import { describe, it, expect } from 'vitest';
-import { createRobotId, resolveImagePath, formatPrice, formatSpec, getPriceValue, extractYouTubeId } from '../../src/utils/format.js';
+import {
+  createRobotId,
+  resolveImagePath,
+  formatPrice,
+  formatSpec,
+  getPriceValue,
+  extractYouTubeId,
+} from '../../src/utils/format.js';
 
 describe('createRobotId', () => {
   it('creates kebab-case ID from manufacturer and model', () => {
-    expect(createRobotId({ manufacturer: 'Boston Dynamics', model: 'Atlas' }))
-      .toBe('boston-dynamics-atlas');
+    expect(createRobotId({ manufacturer: 'Boston Dynamics', model: 'Atlas' })).toBe(
+      'boston-dynamics-atlas',
+    );
   });
 
   it('handles single-word names', () => {
-    expect(createRobotId({ manufacturer: 'Unitree', model: 'H1' }))
-      .toBe('unitree-h1');
+    expect(createRobotId({ manufacturer: 'Unitree', model: 'H1' })).toBe('unitree-h1');
   });
 
   it('returns unknown-robot for invalid input', () => {
@@ -48,6 +55,7 @@ describe('formatPrice', () => {
     const result = formatPrice('69800 USD', 'en');
     expect(result).toContain('69');
     expect(result).toContain('800');
+    expect(result).toContain('USD');
   });
 
   it('formats USD prices in German with correct separator', () => {
@@ -91,6 +99,14 @@ describe('formatPrice', () => {
   it('handles EUR currency', () => {
     const result = formatPrice('5000 EUR', 'en');
     expect(result).toContain('5,000');
+    expect(result).toContain('EUR');
+  });
+
+  it.each([
+    ['$19,990', 'USD'],
+    ['€5,000', 'EUR'],
+  ])('normalizes a leading currency symbol in %s', (raw, currency) => {
+    expect(formatPrice(raw, 'en')).toContain(currency);
   });
 
   it('handles estimated suffix', () => {

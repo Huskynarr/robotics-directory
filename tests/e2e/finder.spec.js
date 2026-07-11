@@ -13,6 +13,13 @@ test.describe('Robot Finder', () => {
     expect(await options.count()).toBeGreaterThanOrEqual(6);
   });
 
+  test('identifies the budget currency explicitly', async ({ page }) => {
+    await page.locator('#finderStep .finder-option[data-value="cleaning"]').click();
+    const budgetOptions = page.locator('#finderStep .finder-option-title');
+    await expect(budgetOptions.first()).toContainText('USD');
+    expect(await budgetOptions.allTextContents()).not.toContainEqual(expect.stringMatching(/\$/));
+  });
+
   test('completing the flow shows ranked matches', async ({ page }) => {
     // Step 1: need -> cleaning (auto-advances)
     await page.locator('#finderStep .finder-option[data-value="cleaning"]').click();

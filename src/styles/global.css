@@ -3,7 +3,7 @@
 @variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary: #4f46e5;
+  --color-primary: #4338ca;
   --color-primary-light: #6366f1;
   --color-primary-dark: #3730a3;
   --color-primary-50: #eef2ff;
@@ -22,7 +22,7 @@
   --color-bg: #f8fafc;
   --color-text-base: #0f172a;
   --color-text-secondary: #475569;
-  --color-text-muted: #94a3b8;
+  --color-text-muted: #475569;
   --color-border: #e2e8f0;
 
   --font-heading: 'Orbitron', 'Inter', sans-serif;
@@ -61,8 +61,17 @@ body {
   --color-bg: #090f1f;
   --color-text-base: #f8fafc;
   --color-text-secondary: #cbd5e1;
-  --color-text-muted: #8491a8;
+  --color-text-muted: #cbd5e1;
   --color-border: #2a3854;
+}
+
+.dark .text-primary,
+.dark .robot-card .card-info .price,
+.dark .filter-chip {
+  color: #a5b4fc;
+}
+.dark :focus-visible {
+  outline-color: #a5b4fc;
 }
 
 /* Font heading utility */
