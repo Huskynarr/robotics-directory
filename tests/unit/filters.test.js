@@ -5,6 +5,7 @@ import {
   parseWeightKg,
 } from '../../src/utils/robot-filters.js';
 import { getPriceValue } from '../../src/utils/format.js';
+import { translations } from '../../src/data/translations.js';
 
 const robots = [
   { model: 'Atlas', weight: '196 lbs', batteryLife: '60 min', price: '150000 USD' },
@@ -62,5 +63,25 @@ describe('price sorting', () => {
     const sorted = [...robots].sort((a, b) => getPriceValue(a.price) - getPriceValue(b.price));
     expect(sorted.at(0).model).toBe('Roomba');
     expect(sorted.at(-1).model).toBe('Sophia');
+  });
+});
+
+describe('localized price filter labels', () => {
+  it('uses the actual 5,000 and 50,000 USD boundaries in every language', () => {
+    for (const [language, table] of Object.entries(translations)) {
+      const normalized = [
+        table['filters.price.low'],
+        table['filters.price.medium'],
+        table['filters.price.high'],
+      ]
+        .join(' ')
+        .replace(/[.,\s]/g, '');
+
+      expect(normalized, `${language} has stale price filter boundaries`).toContain('5000');
+      expect(normalized, `${language} has stale price filter boundaries`).toContain('50000');
+      expect(normalized, `${language} still exposes the old 1,000 USD boundary`).not.toMatch(
+        /(^|\D)1000(\D|$)/,
+      );
+    }
   });
 });

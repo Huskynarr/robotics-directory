@@ -14,6 +14,8 @@
     "lint": "eslint src/",
     "format": "prettier --write src/",
     "format:check": "prettier --check src/",
+    "audit:data": "node scripts/audit-data.mjs",
+    "audit:data:links": "node scripts/audit-data.mjs --links",
     "test:unit": "vitest run",
     "test:unit:watch": "vitest",
     "test:e2e": "playwright test",

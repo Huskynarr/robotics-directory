@@ -70,8 +70,14 @@ export function parseCSV(csvText) {
   return lines
     .slice(1)
     .filter((line) => line.trim() !== '')
-    .map((line) => {
+    .map((line, index) => {
       const values = parseCSVLine(line);
+      if (values.length !== headers.length) {
+        throw new Error(
+          `CSV record ${index + 2} has ${values.length} columns; expected ${headers.length}. ` +
+            'Fields containing commas must be quoted.',
+        );
+      }
       const obj = {};
       headers.forEach((header, i) => {
         if (i < values.length) obj[header] = values[i];

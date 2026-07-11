@@ -4,6 +4,17 @@ import path from 'node:path';
 import { getAllRobots } from '../../src/data/robots.js';
 
 describe('robot catalog data', () => {
+  const normalizeProductPart = (value) =>
+    String(value || '')
+      .toLowerCase()
+      .replace(/\+/g, 'plus')
+      .replace(/\([^)]*\)/g, '')
+      .replace(
+        /\b(robotics|robots|robot|technology|technologies|tech|industries|industry|inc|ltd|corp|corporation)\b/g,
+        '',
+      )
+      .replace(/[^a-z0-9]+/g, '');
+
   it('generates a unique detail-page ID for every robot', () => {
     const { allRobots } = getAllRobots();
     const robotsById = new Map();
@@ -26,6 +37,21 @@ describe('robot catalog data', () => {
       .map((robot) => `${robot.id}: ${robot.image}`);
 
     expect(missing, 'broken image paths degrade cards and social metadata').toEqual([]);
+  });
+
+  it('does not list the same product twice under corporate-name variants', () => {
+    const { allRobots } = getAllRobots();
+    const products = new Map();
+
+    for (const robot of allRobots) {
+      const key = `${normalizeProductPart(robot.manufacturer)}:${normalizeProductPart(robot.model)}`;
+      const matches = products.get(key) || [];
+      matches.push(robot.id);
+      products.set(key, matches);
+    }
+
+    const duplicates = [...products.entries()].filter(([, matches]) => matches.length > 1);
+    expect(duplicates, 'company aliases must not create duplicate product pages').toEqual([]);
   });
 
   it('has the fields required to build stable cards and detail pages', () => {

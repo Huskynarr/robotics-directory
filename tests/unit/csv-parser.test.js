@@ -48,4 +48,13 @@ describe('parseCSV', () => {
     const result = parseCSV(csv);
     expect(result[0].price).toBe('~90,000 USD');
   });
+
+  it('rejects malformed rows instead of silently shifting or dropping fields', () => {
+    expect(() => parseCSV('model,description,year\nMoflin,touch, light,2024')).toThrow(
+      /record 2 has 4 columns; expected 3/i,
+    );
+    expect(() => parseCSV('model,description,year\nMoflin,touch')).toThrow(
+      /record 2 has 2 columns; expected 3/i,
+    );
+  });
 });
