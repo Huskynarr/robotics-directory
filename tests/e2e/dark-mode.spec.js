@@ -22,14 +22,14 @@ test.describe('Dark mode', () => {
     await expect(toggle).toBeVisible();
 
     // Get initial state
-    const wasDark = await page.locator('html').evaluate(el => el.classList.contains('dark'));
+    const wasDark = await page.locator('html').evaluate((el) => el.classList.contains('dark'));
 
     // Click toggle
     await toggle.click();
     await page.waitForTimeout(200);
 
     // State should have changed
-    const isDark = await page.locator('html').evaluate(el => el.classList.contains('dark'));
+    const isDark = await page.locator('html').evaluate((el) => el.classList.contains('dark'));
     expect(isDark).not.toBe(wasDark);
   });
 
@@ -44,18 +44,36 @@ test.describe('Dark mode', () => {
     }
 
     // Enable dark mode
-    const wasDark = await page.locator('html').evaluate(el => el.classList.contains('dark'));
+    const wasDark = await page.locator('html').evaluate((el) => el.classList.contains('dark'));
     if (!wasDark) {
       await page.locator(toggleId).click();
       await page.waitForTimeout(200);
     }
-    expect(await page.locator('html').evaluate(el => el.classList.contains('dark'))).toBe(true);
+    expect(await page.locator('html').evaluate((el) => el.classList.contains('dark'))).toBe(true);
 
     // Navigate to a detail page
     await page.goto('/robot/westwood-robotics-themis-v2/');
     await page.waitForTimeout(300);
 
     // Dark mode should still be active
-    expect(await page.locator('html').evaluate(el => el.classList.contains('dark'))).toBe(true);
+    expect(await page.locator('html').evaluate((el) => el.classList.contains('dark'))).toBe(true);
+  });
+
+  test('navigation keeps the same accessible color from hover through open state', async ({
+    page,
+  }) => {
+    await page.addInitScript(() => localStorage.setItem('darkMode', 'true'));
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/');
+
+    const tab = page.locator('[data-megatab="humanoid"]');
+    await tab.hover();
+    await page.waitForTimeout(180);
+    const hoverColor = await tab.evaluate((element) => getComputedStyle(element).color);
+    await expect(tab).toHaveClass(/mega-tab-open/);
+    const openColor = await tab.evaluate((element) => getComputedStyle(element).color);
+
+    expect(hoverColor).toBe('rgb(191, 219, 254)');
+    expect(openColor).toBe(hoverColor);
   });
 });

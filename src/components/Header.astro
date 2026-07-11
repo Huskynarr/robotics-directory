@@ -71,7 +71,7 @@ const mobileData = CATEGORIES.map((cat) => {
       role="tablist"
     >
       <button
-        class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium transition-all cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent active"
+        class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent active"
         data-category="all"
         role="tab"
         aria-selected="true"
@@ -82,7 +82,7 @@ const mobileData = CATEGORIES.map((cat) => {
       {
         CATEGORIES.map((cat) => (
           <button
-            class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium transition-all cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent"
+            class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent"
             data-category={cat.id}
             data-megatab={cat.id}
             role="tab"
@@ -307,6 +307,7 @@ const mobileData = CATEGORIES.map((cat) => {
     border-left: none;
     border-right: none;
     position: relative;
+    transition: color 160ms ease;
   }
   .mega-tab::after {
     content: '';
@@ -327,6 +328,12 @@ const mobileData = CATEGORIES.map((cat) => {
   .mega-tab:hover::after {
     width: 60%;
     left: 20%;
+  }
+  :global(.dark) .mega-tab:hover {
+    color: #bfdbfe;
+  }
+  :global(.dark) .mega-tab:hover::after {
+    background: #93c5fd;
   }
   .mega-tab.active::after,
   .mega-tab:global(.mega-tab-open)::after {
