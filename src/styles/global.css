@@ -3,15 +3,15 @@
 @variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-primary: #2563eb;
-  --color-primary-light: #3b82f6;
-  --color-primary-dark: #1d4ed8;
-  --color-primary-50: #eff6ff;
-  --color-primary-100: #dbeafe;
-  --color-primary-900: #1e3a5f;
+  --color-primary: #4f46e5;
+  --color-primary-light: #6366f1;
+  --color-primary-dark: #3730a3;
+  --color-primary-50: #eef2ff;
+  --color-primary-100: #e0e7ff;
+  --color-primary-900: #312e81;
 
-  --color-accent: #0ea5e9;
-  --color-accent-light: #38bdf8;
+  --color-accent: #0891b2;
+  --color-accent-light: #22d3ee;
 
   --color-success: #10b981;
   --color-danger: #ef4444;
@@ -40,17 +40,29 @@ body {
   color: var(--color-text-base);
   line-height: 1.6;
   min-height: 100dvh;
+  background-image:
+    radial-gradient(
+      circle at 10% 0%,
+      color-mix(in srgb, var(--color-primary) 8%, transparent),
+      transparent 28rem
+    ),
+    linear-gradient(
+      180deg,
+      var(--color-bg),
+      color-mix(in srgb, var(--color-bg) 94%, var(--color-primary-50))
+    );
+  background-attachment: fixed;
 }
 
 /* Dark mode overrides */
 .dark {
-  --color-surface: #1e293b;
-  --color-surface-elevated: #334155;
-  --color-bg: #0f172a;
-  --color-text-base: #f1f5f9;
+  --color-surface: #151d31;
+  --color-surface-elevated: #1d2942;
+  --color-bg: #090f1f;
+  --color-text-base: #f8fafc;
   --color-text-secondary: #cbd5e1;
-  --color-text-muted: #64748b;
-  --color-border: #334155;
+  --color-text-muted: #8491a8;
+  --color-border: #2a3854;
 }
 
 /* Font heading utility */
@@ -143,11 +155,14 @@ body {
   @apply relative rounded-2xl overflow-hidden transition-all;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    0 8px 24px rgba(15, 23, 42, 0.04);
 }
 .robot-card:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--color-primary) 45%, var(--color-border));
+  box-shadow: 0 18px 45px rgba(30, 41, 59, 0.14);
+  transform: translateY(-4px);
 }
 .dark .robot-card:hover {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
@@ -155,10 +170,20 @@ body {
 
 .robot-card .card-image {
   @apply relative aspect-[4/3] overflow-hidden;
-  background: var(--color-bg);
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      color-mix(in srgb, var(--color-primary) 7%, transparent),
+      transparent 60%
+    ),
+    color-mix(in srgb, var(--color-bg) 88%, var(--color-surface));
 }
 .robot-card .card-image img {
   @apply w-full h-full object-contain p-4;
+  transition: transform 350ms ease;
+}
+.robot-card:hover .card-image img {
+  transform: scale(1.035);
 }
 
 .robot-card .favorite-btn {
@@ -188,7 +213,7 @@ body {
 }
 
 .robot-card .card-info {
-  @apply p-4;
+  @apply p-4 border-t border-border;
 }
 .robot-card .card-info h3 {
   @apply text-base font-semibold truncate;
@@ -201,6 +226,24 @@ body {
 .robot-card .card-info .price {
   @apply text-sm font-semibold mt-2;
   color: var(--color-primary);
+}
+
+@media (max-width: 639px) {
+  .robot-card {
+    @apply rounded-xl;
+  }
+  .robot-card .card-image img {
+    @apply p-2;
+  }
+  .robot-card .card-info {
+    @apply p-3;
+  }
+  .robot-card .category-badge {
+    @apply top-2 left-2 px-1.5 text-[0.6rem];
+  }
+  .robot-card .favorite-btn {
+    @apply top-2 right-2 w-8 h-8;
+  }
 }
 
 /* Pagination */

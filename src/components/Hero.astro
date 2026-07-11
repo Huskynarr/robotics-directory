@@ -10,20 +10,20 @@ const categoryCount = CATEGORIES.length;
 const languageCount = Object.keys(translations).length;
 ---
 
-<section class="relative overflow-hidden py-14 md:py-18">
+<section class="relative overflow-hidden py-16 md:py-24 border-b border-white/10">
   <!-- Gradient background - catalog-specific warm blue -->
   <div
-    class="absolute inset-0 bg-gradient-to-br from-primary-dark via-primary to-accent opacity-95"
+    class="absolute inset-0 bg-gradient-to-br from-slate-950 via-primary-dark to-accent opacity-[0.97]"
   >
   </div>
   <div
-    class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(255,255,255,0.1),transparent_60%)]"
+    class="absolute inset-0 bg-[radial-gradient(circle_at_72%_28%,rgba(103,232,249,0.24),transparent_32%),radial-gradient(circle_at_18%_80%,rgba(129,140,248,0.28),transparent_38%)]"
   >
   </div>
   <!-- Circuit grid overlay for tech feel -->
   <div
     class="absolute inset-0 opacity-[0.05]"
-    style="background-image: linear-gradient(rgba(255,255,255,0.4) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.4) 1px, transparent 1px); background-size: 48px 48px;"
+    style="background-image: linear-gradient(rgba(255,255,255,0.35) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.35) 1px, transparent 1px); background-size: 56px 56px; mask-image: linear-gradient(to bottom, black, transparent);"
   >
   </div>
 
@@ -37,12 +37,15 @@ const languageCount = Object.keys(translations).length;
     </div>
 
     <h1
-      class="font-heading text-3xl md:text-5xl font-bold text-white mb-4 leading-tight"
+      class="font-heading text-4xl md:text-6xl font-bold text-white mb-5 leading-[1.08] tracking-tight"
       data-i18n="hero.title"
     >
       {t['hero.title']}
     </h1>
-    <p class="text-lg md:text-xl text-white/75 max-w-2xl mx-auto mb-7" data-i18n="hero.subtitle">
+    <p
+      class="text-base md:text-xl text-white/75 max-w-2xl mx-auto mb-8 leading-relaxed"
+      data-i18n="hero.subtitle"
+    >
       {t['hero.subtitle']}
     </p>
 
@@ -50,7 +53,7 @@ const languageCount = Object.keys(translations).length;
     <div class="mb-9">
       <a
         href="/finder/"
-        class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white text-primary font-semibold text-sm md:text-base shadow-lg hover:bg-white/90 transition-colors no-underline"
+        class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-white text-primary-dark font-semibold text-sm md:text-base shadow-[0_12px_40px_rgba(0,0,0,0.24)] hover:-translate-y-0.5 hover:shadow-[0_16px_48px_rgba(0,0,0,0.3)] transition-all no-underline"
       >
         <i class="fas fa-wand-magic-sparkles"></i>
         <span data-i18n="hero.finderCta">Find my robot</span>
