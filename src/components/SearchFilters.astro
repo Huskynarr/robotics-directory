@@ -11,11 +11,11 @@ const { manufacturers } = Astro.props;
 ---
 
 <section class="relative z-10 -mt-5 pb-2" id="filtersSection" aria-label="Catalog filters">
-  <div class="max-w-7xl mx-auto px-4">
+  <div class="max-w-6xl mx-auto px-4">
     <div
       class="rounded-2xl border border-border bg-surface/95 p-3 md:p-4 shadow-[0_12px_40px_rgba(15,23,42,0.1)] backdrop-blur-xl"
     >
-      <div class="flex flex-col lg:flex-row gap-3">
+      <div class="grid lg:grid-cols-[minmax(0,1fr)_auto] gap-2.5">
         <div class="relative flex-1">
           <i
             class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-text-muted"
@@ -23,17 +23,17 @@ const { manufacturers } = Astro.props;
           <input
             type="search"
             id="searchInput"
-            class="w-full pl-11 pr-4 py-3 rounded-xl text-sm bg-bg border border-border text-text-base placeholder:text-text-muted focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
+            class="form-control h-12 w-full pl-11 pr-4 rounded-xl text-sm placeholder:text-text-muted"
             data-i18n-placeholder="search.placeholder"
             placeholder={t['search.placeholder']}
             autocomplete="off"
           />
         </div>
 
-        <div class="flex items-center gap-2">
+        <div class="grid grid-cols-[minmax(0,1fr)_auto] gap-2.5">
           <select
             id="sortFilter"
-            class="min-w-0 flex-1 lg:w-40 text-sm rounded-xl px-3 py-3 bg-bg border border-border text-text-base cursor-pointer"
+            class="form-control form-select h-12 min-w-0 lg:w-44 text-sm rounded-xl pl-3"
             aria-label="Sort"
           >
             <option value="recommended" data-i18n="filters.sort.recommended">Recommended</option>
@@ -46,12 +46,14 @@ const { manufacturers } = Astro.props;
           </select>
           <button
             id="advancedToggle"
-            class="shrink-0 inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-3 text-sm font-bold text-white hover:bg-primary-dark transition-colors"
+            class="filter-toggle h-12 shrink-0 inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-4 text-sm font-bold text-white hover:bg-primary-dark transition-colors"
             aria-expanded="false"
             aria-controls="advancedFilters"
+            aria-label={t['filters.advanced']}
+            data-i18n-aria="filters.advanced"
           >
             <i class="fas fa-sliders" aria-hidden="true"></i>
-            <span data-i18n="filters.advanced">Filters</span>
+            <span class="filter-toggle-label" data-i18n="filters.advanced">Filters</span>
           </button>
         </div>
       </div>
@@ -84,7 +86,7 @@ const { manufacturers } = Astro.props;
             Manufacturer
             <select
               id="manufacturerFilter"
-              class="mt-2 w-full text-sm rounded-lg px-3 py-2.5 bg-bg border border-border text-text-base"
+              class="form-control form-select mt-2 w-full text-sm rounded-lg px-3 py-2.5"
             >
               <option value="" data-i18n="filters.all">{t['filters.all']}</option>
               {
@@ -162,7 +164,7 @@ const { manufacturers } = Astro.props;
               <span data-i18n="spec.weight">Weight</span>
               <select
                 id="weightFilter"
-                class="mt-2 w-full text-sm rounded-lg px-3 py-2.5 bg-bg border border-border text-text-base"
+                class="form-control form-select mt-2 w-full text-sm rounded-lg px-3 py-2.5"
               >
                 <option value="" data-i18n="filters.all">All</option>
                 <option value="light" data-i18n="filters.weight.light">Light</option>
@@ -174,7 +176,7 @@ const { manufacturers } = Astro.props;
               <span data-i18n="spec.batteryLife">Battery</span>
               <select
                 id="batteryFilter"
-                class="mt-2 w-full text-sm rounded-lg px-3 py-2.5 bg-bg border border-border text-text-base"
+                class="form-control form-select mt-2 w-full text-sm rounded-lg px-3 py-2.5"
               >
                 <option value="" data-i18n="filters.all">All</option>
                 <option value="short" data-i18n="filters.battery.short">Short</option>
@@ -189,7 +191,7 @@ const { manufacturers } = Astro.props;
               <span data-i18n="spec.ipRating">IP rating</span>
               <select
                 id="ipRatingFilter"
-                class="mt-2 w-full text-sm rounded-lg px-3 py-2.5 bg-bg border border-border text-text-base"
+                class="form-control form-select mt-2 w-full text-sm rounded-lg px-3 py-2.5"
               >
                 <option value="" data-i18n="filters.all">All</option>
                 <option value="any" data-i18n="filters.ip.any">Any rating</option>
@@ -199,7 +201,7 @@ const { manufacturers } = Astro.props;
               <span data-i18n="spec.video">Video</span>
               <select
                 id="videoFilter"
-                class="mt-2 w-full text-sm rounded-lg px-3 py-2.5 bg-bg border border-border text-text-base"
+                class="form-control form-select mt-2 w-full text-sm rounded-lg px-3 py-2.5"
               >
                 <option value="" data-i18n="filters.all">All</option>
                 <option value="yes" data-i18n="filters.video">Has video</option>

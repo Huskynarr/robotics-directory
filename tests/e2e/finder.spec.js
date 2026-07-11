@@ -30,9 +30,10 @@ test.describe('Robot Finder', () => {
     // Step 3: recency -> any (auto-advances)
     await page.locator('#finderStep .finder-option[data-value="any"]').click();
     await page.waitForTimeout(350);
-    // Step 4: features -> pick mop, then continue
+    // Step 4: features supports multiple choices, then explicitly shows results
     await page.locator('#finderStep .finder-option[data-value="mop"]').click();
-    await page.locator('#finderNext').click();
+    await expect(page.locator('#finderShowResults')).toContainText(/matches|Treffer/i);
+    await page.locator('#finderShowResults').click();
     await page.waitForTimeout(250);
 
     const results = page.locator('#finderResults');

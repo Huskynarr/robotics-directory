@@ -22,7 +22,6 @@ const UI = {
   stepOf: { en: 'Question', de: 'Frage' },
   of: { en: 'of', de: 'von' },
   back: { en: 'Back', de: 'Zurück' },
-  next: { en: 'Continue', de: 'Weiter' },
   skip: { en: 'Skip', de: 'Überspringen' },
   showResults: { en: 'Show my matches', de: 'Treffer anzeigen' },
   resultsTitle: { en: 'Your best matches', de: 'Deine besten Treffer' },
@@ -639,7 +638,7 @@ function renderNav(id, isMulti) {
     </button>
     <div class="finder-nav-right">
       ${optional ? `<button type="button" id="finderSkip" class="finder-btn finder-btn-ghost">${escapeHTML(L(UI.skip))}</button>` : ''}
-      ${isMulti ? `<button type="button" id="finderNext" class="finder-btn finder-btn-primary">${escapeHTML(L(UI.next))} <i class="fas fa-arrow-right"></i></button>` : ''}
+      ${isMulti ? `<button type="button" id="finderShowResults" class="finder-btn finder-btn-primary">${escapeHTML(L(UI.showResults))} <i class="fas fa-arrow-right"></i></button>` : ''}
     </div>`;
   const back = document.getElementById('finderBack');
   if (back && showBack) back.addEventListener('click', goBack);
@@ -648,7 +647,7 @@ function renderNav(id, isMulti) {
     skip.addEventListener('click', () => {
       advance();
     });
-  const next = document.getElementById('finderNext');
+  const next = document.getElementById('finderShowResults');
   if (next)
     next.addEventListener('click', () => {
       advance();

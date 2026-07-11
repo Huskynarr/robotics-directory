@@ -62,6 +62,51 @@ button:disabled {
   cursor: not-allowed;
 }
 
+/* Native form controls with one consistent cross-browser presentation. */
+.form-control {
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+  color: var(--color-text-base);
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    background-color 160ms ease;
+}
+.form-control:hover:not(:disabled) {
+  border-color: color-mix(in srgb, var(--color-primary) 55%, var(--color-border));
+}
+.form-control:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 18%, transparent);
+  outline: none;
+}
+.form-control:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='m6 8 4 4 4-4' stroke='%23475569' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-position: right 0.875rem center;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  padding-inline-end: 2.75rem !important;
+}
+.dark .form-select {
+  color-scheme: dark;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 20 20' fill='none'%3E%3Cpath d='m6 8 4 4 4-4' stroke='%23cbd5e1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+@media (max-width: 420px) {
+  .filter-toggle {
+    width: 3rem;
+    padding-inline: 0;
+  }
+  .filter-toggle-label {
+    display: none;
+  }
+}
+
 /* Dark mode overrides */
 .dark {
   --color-surface: #151d31;
@@ -180,17 +225,20 @@ button:disabled {
 }
 
 /* Price pill */
-.price-pill {
+.price-pill,
+.filter-pill {
   @apply inline-flex items-center px-3 py-1.5 rounded-full text-sm font-medium
     transition-all cursor-pointer select-none;
   background: var(--color-surface);
   color: var(--color-text-secondary);
   border: 1px solid var(--color-border);
 }
-.price-pill:hover {
+.price-pill:hover,
+.filter-pill:hover {
   border-color: var(--color-primary-light);
 }
-.price-pill.active {
+.price-pill.active,
+.filter-pill.active {
   background: var(--color-primary);
   color: white;
   border-color: var(--color-primary);
