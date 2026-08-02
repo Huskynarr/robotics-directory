@@ -1,4 +1,5 @@
 import { translations, t as tFn } from '../data/translations.js';
+import { descriptions } from '../data/descriptions.js';
 import { formatPrice, formatSpec } from '../utils/format.js';
 import { SITE_TAGLINE } from '../config/site.js';
 
@@ -35,6 +36,16 @@ function applyTranslations(lang) {
   document.querySelectorAll('[data-i18n-aria]').forEach((el) => {
     const value = resolve(el.getAttribute('data-i18n-aria'));
     if (value) el.setAttribute('aria-label', value);
+  });
+
+  // Per-robot description translations (opt-in via src/data/descriptions.js); falls back to EN, then to the server-rendered CSV text.
+  document.querySelectorAll('[data-i18n-desc]').forEach((el) => {
+    const id = el.getAttribute('data-i18n-desc');
+    if (!id) return;
+    const entry = descriptions[id];
+    if (!entry) return;
+    const text = entry[lang] || entry.en;
+    if (text) el.textContent = text;
   });
 
   document.documentElement.lang = lang;
