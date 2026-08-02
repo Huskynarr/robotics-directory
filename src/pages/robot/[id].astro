@@ -254,7 +254,10 @@ const quickSpecs = [
           >
           {
             robot.description && robot.description.trim() && robot.description !== 'N/A' && (
-              <p class="mt-3 text-sm text-text-secondary leading-relaxed line-clamp-4">
+              <p
+                class="mt-3 text-sm text-text-secondary leading-relaxed line-clamp-4"
+                data-i18n-desc={robot.id}
+              >
                 {robot.description}
               </p>
             )
@@ -361,7 +364,9 @@ const quickSpecs = [
             <h2 class="font-heading text-lg font-semibold mb-4" data-i18n="details.description">
               {t['details.description'] || 'Description'}
             </h2>
-            <p class="text-text-secondary leading-relaxed">{robot.description}</p>
+            <p class="text-text-secondary leading-relaxed" data-i18n-desc={robot.id}>
+              {robot.description}
+            </p>
           </div>
         )
       }
