@@ -1,6 +1,9 @@
 ---
 import { translations } from '../data/translations.js';
+import { formatDeployTimestamp } from '../utils/format.js';
 const t = translations.en;
+// Captured at static build time — the deploy timestamp shown in the footer.
+const buildTimestamp = new Date().toISOString();
 ---
 
 <footer class="mt-auto border-t border-border py-12 bg-surface" role="contentinfo">
@@ -127,5 +130,12 @@ const t = translations.en;
       </p>
       <p data-i18n="footer.disclaimer">{t['footer.disclaimer']}</p>
     </div>
+
+    <p class="mt-3 text-center text-xs text-text-muted">
+      <span data-i18n="footer.lastDeploy">{t['footer.lastDeploy']}</span>
+      <time data-build-timestamp={buildTimestamp} datetime={buildTimestamp}>
+        {formatDeployTimestamp(buildTimestamp, 'en')}
+      </time>
+    </p>
   </div>
 </footer>

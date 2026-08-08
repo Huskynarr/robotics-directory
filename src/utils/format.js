@@ -149,6 +149,25 @@ export function parseGallery(raw) {
 }
 
 /**
+ * Format an ISO build/deploy timestamp for the footer.
+ * @param {string} iso - ISO 8601 timestamp captured at static build time
+ * @param {string} lang - Language code (en, de, fr, ...)
+ */
+export function formatDeployTimestamp(iso, lang = 'en') {
+  if (!iso || typeof iso !== 'string') return '';
+  const date = new Date(iso);
+  if (isNaN(date.getTime())) return iso;
+  const locale = lang || 'en';
+  try {
+    return new Intl.DateTimeFormat(locale, { dateStyle: 'medium', timeStyle: 'short' }).format(
+      date,
+    );
+  } catch {
+    return new Intl.DateTimeFormat('en', { dateStyle: 'medium', timeStyle: 'short' }).format(date);
+  }
+}
+
+/**
  * Extract a YouTube video ID from various URL formats.
  */
 export function extractYouTubeId(url) {

@@ -1,6 +1,6 @@
 import { translations, t as tFn } from '../data/translations.js';
 import { descriptions } from '../data/descriptions.js';
-import { formatPrice, formatSpec } from '../utils/format.js';
+import { formatPrice, formatSpec, formatDeployTimestamp } from '../utils/format.js';
 import { SITE_TAGLINE } from '../config/site.js';
 
 let currentLang = 'en';
@@ -73,6 +73,12 @@ function applyTranslations(lang) {
           ? formatPrice(raw, lang, (k, fb) => tFn(k, lang, fb))
           : formatSpec(raw, lang);
     }
+  });
+
+  // Localize the static build/deploy timestamp shown in the footer
+  document.querySelectorAll('[data-build-timestamp]').forEach((el) => {
+    const iso = el.getAttribute('data-build-timestamp');
+    if (iso) el.textContent = formatDeployTimestamp(iso, lang);
   });
 }
 

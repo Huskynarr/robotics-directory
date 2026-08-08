@@ -4,6 +4,7 @@ import {
   resolveImagePath,
   formatPrice,
   formatSpec,
+  formatDeployTimestamp,
   getPriceValue,
   extractYouTubeId,
 } from '../../src/utils/format.js';
@@ -134,6 +135,42 @@ describe('formatSpec', () => {
 
   it('keeps Chinese format same as English', () => {
     expect(formatSpec('3.5 m/s', 'zh')).toBe('3.5 m/s');
+  });
+});
+
+describe('formatDeployTimestamp', () => {
+  const iso = '2026-08-08T14:30:00.000Z';
+
+  it('returns an empty string for null/empty input', () => {
+    expect(formatDeployTimestamp(null)).toBe('');
+    expect(formatDeployTimestamp('')).toBe('');
+    expect(formatDeployTimestamp(undefined)).toBe('');
+  });
+
+  it('returns the raw input for an unparseable timestamp', () => {
+    expect(formatDeployTimestamp('not-a-date')).toBe('not-a-date');
+  });
+
+  it('formats an ISO timestamp into a localized string containing the year', () => {
+    const result = formatDeployTimestamp(iso, 'en');
+    expect(result).toContain('2026');
+    expect(result.length).toBeGreaterThan(0);
+  });
+
+  it('localizes differently for German than English', () => {
+    const en = formatDeployTimestamp(iso, 'en');
+    const de = formatDeployTimestamp(iso, 'de');
+    expect(de).toContain('2026');
+    // German medium dateStyle uses numeric day/month with dots (e.g. "08.08.2026")
+    expect(de).toContain('.');
+    // English medium dateStyle uses a comma before the year (e.g. "Aug 8, 2026")
+    expect(en).toContain(',');
+    expect(de).not.toEqual(en);
+  });
+
+  it('falls back to English formatting for an unknown locale', () => {
+    const result = formatDeployTimestamp(iso, 'xx-XX');
+    expect(result).toContain('2026');
   });
 });
 
