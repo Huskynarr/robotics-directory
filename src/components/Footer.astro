@@ -132,7 +132,7 @@ const buildTimestamp = new Date().toISOString();
     </div>
 
     <p class="mt-3 text-center text-xs text-text-muted">
-      <span data-i18n="footer.lastDeploy">{t['footer.lastDeploy']}</span>
+      <span data-i18n="footer.lastDeploy">{t['footer.lastDeploy']}</span>{' '}
       <time data-build-timestamp={buildTimestamp} datetime={buildTimestamp}>
         {formatDeployTimestamp(buildTimestamp, 'en')}
       </time>
