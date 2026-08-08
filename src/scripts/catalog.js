@@ -7,29 +7,10 @@ import {
 import { trapFocus } from './focus-trap.js';
 import { applyAdvancedRobotFilters, parseWeightKg } from '../utils/robot-filters.js';
 import { CATEGORIES } from '../data/categories.js';
+import { RECOMMENDED_PRIORITY } from '../data/recommended-sort.js';
 
 const ROBOTS_PER_PAGE = 24;
 const DEFAULT_SORT = 'recommended';
-const RECOMMENDED_PRIORITY = [
-  // New UBTECH UWORLD U1 ultra-bionic series (2026 launch) — pinned to the top
-  { manufacturer: 'UBTECH', model: 'UWORLD U1 Ultra' },
-  { manufacturer: 'UBTECH', model: 'UWORLD U1 Pro' },
-  { manufacturer: 'UBTECH', model: 'UWORLD U1 Lite' },
-  { manufacturer: 'UBTECH', model: 'U1 (U World)' },
-  { manufacturer: 'Neura Robotics' },
-  { manufacturer: '1X Technologies', model: 'NEO' },
-  { manufacturer: 'Figure' },
-  { manufacturer: 'Hugging Face', model: 'Reachy Mini' },
-  { manufacturer: 'Pollen Robotics', model: 'Reachy Mini' },
-  { manufacturer: 'Westwood Robotics', model: 'THEMIS V2' },
-  { manufacturer: 'Ameca', model: 'Ameca' },
-  { manufacturer: 'Faraday Future', model: 'FF Master' },
-  { manufacturer: 'Faraday Future', model: 'FF Futurist' },
-  { manufacturer: 'Faraday Future', model: 'FX Aegis' },
-  { manufacturer: 'Faraday Future' },
-  { manufacturer: 'SwitchBot', model: 'Onero H1' },
-  { manufacturer: 'Weave Robotics', model: 'Isaac 1' },
-];
 let allRobots = [];
 let filteredRobots = [];
 let currentPage = 1;

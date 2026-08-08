@@ -6,6 +6,7 @@ import {
 } from '../../src/utils/robot-filters.js';
 import { getPriceValue } from '../../src/utils/format.js';
 import { translations } from '../../src/data/translations.js';
+import { RECOMMENDED_PRIORITY } from '../../src/data/recommended-sort.js';
 
 const robots = [
   { model: 'Atlas', weight: '196 lbs', batteryLife: '60 min', price: '150000 USD' },
@@ -83,5 +84,60 @@ describe('localized price filter labels', () => {
         /(^|\D)1000(\D|$)/,
       );
     }
+  });
+});
+
+describe('recommended sort priority', () => {
+  function getRecommendedRank(robot, priority) {
+    const list = priority || RECOMMENDED_PRIORITY;
+    const manufacturer = (robot.manufacturer || '').toLowerCase();
+    const model = (robot.model || '').toLowerCase();
+    const rank = list.findIndex((item) => {
+      const itemManufacturer = item.manufacturer.toLowerCase();
+      const itemModel = item.model?.toLowerCase();
+      return manufacturer === itemManufacturer && (!itemModel || model === itemModel);
+    });
+    return rank === -1 ? Number.POSITIVE_INFINITY : rank;
+  }
+
+  it('places latest high-tech humanoids before older pinned recommendations', () => {
+    const panda = { manufacturer: 'UBTECH', model: 'Panda Robot (Youyou)' };
+    const luna = { manufacturer: 'LimX Dynamics', model: 'Luna' };
+    const friday = { manufacturer: 'Holiday Robotics', model: 'FRIDAY' };
+    const igrisC = { manufacturer: 'ROBROS', model: 'IGRIS-C' };
+    const neura = { manufacturer: 'Neura Robotics', model: 'B1' };
+
+    const pandaRank = getRecommendedRank(panda);
+    const lunaRank = getRecommendedRank(luna);
+    const fridayRank = getRecommendedRank(friday);
+    const igrisRank = getRecommendedRank(igrisC);
+    const neuraRank = getRecommendedRank(neura);
+
+    expect(pandaRank).toBe(0);
+    expect(lunaRank).toBeGreaterThan(pandaRank);
+    expect(neuraRank).toBeGreaterThan(igrisRank);
+  });
+
+  it('sorts unmatched robots to the end', () => {
+    const unknown = { manufacturer: 'Unknown Corp', model: 'X1' };
+    const panda = { manufacturer: 'UBTECH', model: 'Panda Robot (Youyou)' };
+
+    expect(getRecommendedRank(unknown)).toBe(Number.POSITIVE_INFINITY);
+    expect(getRecommendedRank(panda)).toBeLessThan(getRecommendedRank(unknown));
+  });
+
+  it('matches manufacturer-only entries against any model', () => {
+    const figureA = { manufacturer: 'Figure', model: 'Figure 01' };
+    const figureB = { manufacturer: 'Figure', model: 'Figure 02' };
+
+    expect(getRecommendedRank(figureA)).toBe(getRecommendedRank(figureB));
+    expect(getRecommendedRank(figureA)).toBeLessThan(Number.POSITIVE_INFINITY);
+  });
+
+  it('prefers specific model entries over broad manufacturer matches', () => {
+    const panda = { manufacturer: 'UBTECH', model: 'Panda Robot (Youyou)' };
+    const genericUbt = { manufacturer: 'UBTECH', model: 'Other Model' };
+
+    expect(getRecommendedRank(panda)).toBeLessThan(getRecommendedRank(genericUbt));
   });
 });
