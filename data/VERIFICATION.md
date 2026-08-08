@@ -50,6 +50,42 @@ the same row.
 - [AGIBOT WAIC 2026 product announcement](https://www.prnewswire.com/apac/news-releases/agibot-unveils-four-new-products-at-waic-2026-showcasing-embodied-ai-in-real-world-operations-302829347.html)
 - [Dax Robotics Qiji T1000](https://www.daxrobotics.cn/)
 
+## Sources for the 2026-08-08 UBTECH + humanoid additions
+
+Ten verified missing robots were added, sourced from the user's UBTECH product
+pages and the RoboSphäre RoboNews video. Panda, Walker Tienkung, UGOT, uKit AI,
+Yanshee and Alpha 1E come from official UBTECH product pages; LimX Luna,
+VinRobotics H3/H5 and DroidUp Moya come from the RoboSphäre episode below,
+cross-checked against the manufacturers' official product pages. The second
+video was also reviewed; its Walker S2 and UWorld U1 models were already in the
+catalog and were not duplicated.
+Unknown specifications are left blank rather than invented; prices are recorded
+as "Not disclosed" where the official page does not publish one. Local product
+images were taken from the same manufacturer product pages.
+
+Source videos:
+
+- [RoboSphäre RoboNews: Während Figure 03 in den USA schuftet, sind Chinas Bots ab 18?!](https://www.youtube.com/watch?v=ERUEwRAVvmE) (2026-06) — chapters cover LimX Luna, VinRobotics H3 & H5, UBTECH U1 and DroidUp Moya
+- [Everlast Robotics: Diese KI-Roboter sind ZU ECHT!](https://www.youtube.com/watch?v=_jIVP2QCZcM&t=627s) (2026-08) — Walker S2 and UWorld U1 confirmed as existing catalog entries; no additional named robot could be verified at the requested timestamp
+
+Official product sources for the added robots:
+
+- [UBTECH Panda Robot (Youyou)](https://www.ubtrobot.com/en/humanoid/products/panda-robot) — official AI robot partner of the China Pavilion at Expo 2020 Dubai
+- [LimX Luna](https://www.limxdynamics.com/en/products/luna) — 160 cm, 27 DoF, commercial performance use
+- [VinRobotics H3](https://vinrobotics.net/product) — third prototype of VinRobotics' high-end humanoid series
+- [VinRobotics H5](https://vinrobotics.net/product) — flagship model for advanced industrial applications
+- [DroidUp Moya](https://www.droidup.com/) — fully bionic android (WAIC 2026, Davos 2026)
+- [UBTECH Walker Tienkung](https://www.ubtrobot.com/en/ai-education/products/walker-tienkung) — full-size research/education humanoid
+- [UBTECH UGOT](https://www.ubtrobot.com/en/ai-education/products/ugot/) — 7-in-1 AI education robotic kit
+- [UBTECH uKit AI](https://www.ubtrobot.com/en/ai-education/products/ukit-ai) — buildable programming robot for AI learning
+- [UBTECH Yanshee](https://www.ubtrobot.com/en/ai-education/products/yanshee) — open-source educational humanoid platform
+- [UBTECH Alpha 1E](https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-1e) — consumer educational humanoid
+
+The Daxbot outdoor row's column alignment was also corrected in this pass: the
+website field is restored to `https://daxbot.com/security-robots/products` and
+the local image path `images/outdoor/daxbot-helium-security-robot.webp` now sits
+in the image column.
+
 ## Sources for the 2026-08-05 RoboNews video additions
 
 Robots added from the RoboSphäre video
