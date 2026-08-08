@@ -106,6 +106,39 @@ of each row is the image source.
 
 ## Historical availability sources
 
+## Sources for the 2026-08-08 image backfill pass
+
+This pass added only images that could be matched to the exact catalog model
+from an official product page or a clearly attributed source image. Files were
+converted to local WebP assets with `scripts/import-images.py`. Corporate product
+images retain the manufacturer page as provenance; the two Wikimedia images are
+public-domain/CC material as noted below. Rows without a safe exact-model asset
+remain on the transparent placeholder rather than using a successor or similar
+robot.
+
+Added image sources:
+
+- Cop Rose X6 — [product page](http://www.coprose.net/Window-Cleaning-Robot-X62)
+- Blaupunkt Bluebot XTREME — [product page](https://blaupunkt.com/product/blaupunkt-bluebot-xtreme-bpk-vcbb1xte/)
+- Dreame L10s Pro Ultra Heat — [Dreame source](https://global.dreametech.com)
+- iRobot Roomba Combo 10 Max — [iRobot source](https://www.irobot.com)
+- Roborock Qrevo Pro — [Roborock source](https://us.roborock.com)
+- LEGO Mindstorms NXT — [Wikimedia Commons image](https://commons.wikimedia.org/wiki/File:Lego_Mindstorms_kit.jpg), CC BY-SA 3.0
+- Sphero Mini — [Sphero source](https://sphero.com)
+- DJI RoboMaster TT — [DJI source](https://www.dji.com/robomaster-tt)
+- Husqvarna Automower 305 — [Husqvarna source](https://www.husqvarna.com)
+- Boston Dynamics LS3 — [Wikimedia Commons image](https://commons.wikimedia.org/wiki/File:Legged_Squad_Support_System_robot_prototype.jpg), public-domain U.S. Marine Corps image
+- Figure 01 — [Figure 01 press coverage](https://techcrunch.com/2023/03/02/figure-emerges-from-stealth-with-the-first-images-of-its-humanoid-robot/), image credit Figure AI
+- LG CLOi ServeBot LDLIM21 — [LG source](https://www.lg.com/us/business/robotics)
+- Vorwerk Thermomix TM6 — [Vorwerk source](https://thermomix.vorwerk.com)
+- Suvie 3.0 Plus — [Suvie source](https://www.suvie.com)
+- Segway ServeBot S1 — [Segway Robotics source](https://robotics.segway.com/)
+
+The remaining empty-image rows were not filled with substitute imagery. They
+include discontinued products, blocked manufacturer CDNs, ambiguous successor
+pages, and records whose available source does not expose an exact model image.
+They remain candidates for a later source-specific pass.
+
 - [Kuri cancellation (IEEE Spectrum)](https://spectrum.ieee.org/mayfield-robotics-shuts-down-kuri)
 - [Laundroid bankruptcy (TechCrunch)](https://techcrunch.com/2019/04/23/seven-dreamers-laundroid-bankruptcy/)
 
