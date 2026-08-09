@@ -101,19 +101,22 @@ describe('recommended sort priority', () => {
   }
 
   it('places latest high-tech humanoids before older pinned recommendations', () => {
+    const xiaoDi = { manufacturer: 'BYD', model: 'Xiao Di' };
     const panda = { manufacturer: 'UBTECH', model: 'Panda Robot (Youyou)' };
     const luna = { manufacturer: 'LimX Dynamics', model: 'Luna' };
     const friday = { manufacturer: 'Holiday Robotics', model: 'FRIDAY' };
     const igrisC = { manufacturer: 'ROBROS', model: 'IGRIS-C' };
     const neura = { manufacturer: 'Neura Robotics', model: 'B1' };
 
+    const xiaoDiRank = getRecommendedRank(xiaoDi);
     const pandaRank = getRecommendedRank(panda);
     const lunaRank = getRecommendedRank(luna);
     const fridayRank = getRecommendedRank(friday);
     const igrisRank = getRecommendedRank(igrisC);
     const neuraRank = getRecommendedRank(neura);
 
-    expect(pandaRank).toBe(0);
+    expect(xiaoDiRank).toBe(0);
+    expect(pandaRank).toBeGreaterThan(xiaoDiRank);
     expect(lunaRank).toBeGreaterThan(pandaRank);
     expect(neuraRank).toBeGreaterThan(igrisRank);
   });

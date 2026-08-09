@@ -5,6 +5,8 @@
  * Entries are matched by manufacturer (case-insensitive) and optionally by model.
  */
 export const RECOMMENDED_PRIORITY = [
+  // BYD's first humanoid robot (August 2026)
+  { manufacturer: 'BYD', model: 'Xiao Di' },
   // Latest high-tech humanoids (2025–2026)
   { manufacturer: 'UBTECH', model: 'Panda Robot (Youyou)' },
   { manufacturer: 'LimX Dynamics', model: 'Luna' },

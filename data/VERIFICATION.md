@@ -134,6 +134,17 @@ Added image sources:
 - Suvie 3.0 Plus — [Suvie source](https://www.suvie.com)
 - Segway ServeBot S1 — [Segway Robotics source](https://robotics.segway.com/)
 
+## BYD Xiao Di — new entry (2026-08-09)
+
+- [SCMP: BYD to debut first humanoid robots in August](https://www.scmp.com/business/china-business/article/3362362/byd-debut-first-humanoid-robots-august-rivalry-tesla-intensifies) — official company statement, August debut at Di Space
+- [CnEVPost: BYD confirms plan to unveil humanoid robot in August](https://cnevpost.com/2026/07/28/byd-confirms-plan-humanoid-robot-aug/) — confirmation to China Securities Journal
+- [TechFastForward: BYD Launches Xiao Di Humanoid Robot](https://techfastforward.com/articles/byd-launches-xiao-di-humanoid-robot-in-its-showrooms) — specs: 1.61 m, 58.5 kg, 31 DoF, 6+6 language translation
+- [TMTPost: BYD to Debut Humanoid AI Robot](https://en.tmtpost.com/news/8081705) — 360-degree vision, multimodal interaction, codename Xiao Di
+- [Notebookcheck: BYD officially unveils AI robot Xiao Di](https://www.notebookcheck.net/BYD-officially-unveils-AI-robot-Xiao-Di-Tesla-Optimus-faces-a-new-rival-as-the-U-S-blocks-it.1359680.0.html) — functional prototype, FCC import restrictions context
+
+No image added: BYD press images are copyrighted and no CC-licensed or
+manufacturer-published product image was available at the time of entry.
+
 The remaining empty-image rows were not filled with substitute imagery. They
 include discontinued products, blocked manufacturer CDNs, ambiguous successor
 pages, and records whose available source does not expose an exact model image.
