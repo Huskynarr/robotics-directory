@@ -8,9 +8,10 @@ const CATEGORIES = [
   'outdoor',
   'educational',
   'smarthome',
+  'robotic-arm',
 ];
 
-test.describe('All 7 categories filter correctly', () => {
+test.describe('All 8 categories filter correctly', () => {
   for (const catId of CATEGORIES) {
     test(`category "${catId}" via URL shows only matching robots`, async ({ page }) => {
       await page.goto(`/?category=${catId}`);

@@ -156,3 +156,18 @@ They remain candidates for a later source-specific pass.
 The audit intentionally keeps unverified release years blank and retired product URLs empty when a
 domain has been repurposed. This prevents an apparently complete catalog from silently presenting
 fabricated dates or linking visitors to unrelated businesses.
+
+## Sources for the 2026-08-13 additions
+
+- [Luwu Dynamics XGO-mini2SW](https://www.xgorobot.com/en/miniw.html) — wheel-legged desktop robot and development/AI features
+- [EngineAI JS01](https://en.engineai.com.cn/product-js01.html) — heavy-duty quadruped, payload, speed, perception and navigation features
+- [EngineAI product family](https://en.engineai.com.cn/) and [S2 product page](https://en.engineai.com.cn/product-s2.html) — current EngineAI lineup and S2 service-robot positioning
+
+## Sources for the 2026-08-15 WAIC 2026 additions
+
+- [Shanghai government WAIC 2026 overview](https://english.shanghai.gov.cn/en-Events/20260624/9cc202d708504b56ba32f70fbd61ef79.html) and [Pudong government report](https://www.shanghai.gov.cn/nw15343/20260722/4514c99cfd364c3ba7d1b81790a09163.html) — official count of more than 1,100 participating companies and more than 3,000 exhibits
+- [AheadForm Origin F1](https://www.aheadform.com/origin-f1), [Origin M1](https://www.aheadform.com/origin-m1) and [Elf Xuan](https://www.aheadform.com/elf-xuan) — desktop bionic interaction, character robot and reception/display use cases
+- [Fourier GR Nano WAIC report](https://auto.gasgoo.com/news/202607/17I70466305C601.shtml) and [Fourier product site](https://www.fftai.com/) — desktop companion concept and company/product context
+- [DEEP Robotics WAIC 2026 release](https://www.globenewswire.com/news-release/2026/07/22/3331079/0/en/new-product-lineup-and-six-industry-solutions-deep-robotics-makes-a-major-appearance-at-waic-2026.html), [official Lynx page](https://www.deeprobotics.cn/en/index/lynx.html) and [official Yunju mention](https://deeprobotics.cn/robot/wap/article/id/291.html) — Lynx M20S and the Yunju robot horse
+- [Spirit AI Moz2 WAIC report](https://autonews.gasgoo.com/articles/news/waic-2026-spirit-ai-commercial-service-robot-moz2-makes-public-debut-2079208558850711553) — confirms the likely correction from “Sprint AI” to Spirit AI
+- [UNIUBI Lingmao/Cyvet product page](https://www.uniubi.com/embodied-ai/robot), [official product details](https://www.uniubi.com/shop/buy?product=max) and [official 720° backflip report](https://www.uniubi.com/about/news/222) — product specifications, development/companion positioning and WAIC 2026 dynamic demonstration

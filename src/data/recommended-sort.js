@@ -7,6 +7,13 @@
 export const RECOMMENDED_PRIORITY = [
   // BYD's first humanoid robot (August 2026)
   { manufacturer: 'BYD', model: 'Xiao Di' },
+  // WAIC 2026 highlights: fresh models with strong visual or technical impact
+  { manufacturer: 'Dobot', model: 'LUMO' },
+  { manufacturer: 'UNIUBI AI', model: 'Lingmao (Cyberling / Cyvet)' },
+  { manufacturer: 'Fourier Intelligence', model: 'GR Nano' },
+  { manufacturer: 'AheadForm', model: 'Origin F1' },
+  { manufacturer: 'Spirit AI', model: 'Moz2' },
+  { manufacturer: 'DEEP Robotics', model: 'Lynx M20S' },
   // Latest high-tech humanoids (2025–2026)
   { manufacturer: 'UBTECH', model: 'Panda Robot (Youyou)' },
   { manufacturer: 'LimX Dynamics', model: 'Luna' },

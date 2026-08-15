@@ -102,6 +102,9 @@ describe('recommended sort priority', () => {
 
   it('places latest high-tech humanoids before older pinned recommendations', () => {
     const xiaoDi = { manufacturer: 'BYD', model: 'Xiao Di' };
+    const lumo = { manufacturer: 'Dobot', model: 'LUMO' };
+    const lingmao = { manufacturer: 'UNIUBI AI', model: 'Lingmao (Cyberling / Cyvet)' };
+    const grNano = { manufacturer: 'Fourier Intelligence', model: 'GR Nano' };
     const panda = { manufacturer: 'UBTECH', model: 'Panda Robot (Youyou)' };
     const luna = { manufacturer: 'LimX Dynamics', model: 'Luna' };
     const friday = { manufacturer: 'Holiday Robotics', model: 'FRIDAY' };
@@ -109,6 +112,9 @@ describe('recommended sort priority', () => {
     const neura = { manufacturer: 'Neura Robotics', model: 'B1' };
 
     const xiaoDiRank = getRecommendedRank(xiaoDi);
+    const lumoRank = getRecommendedRank(lumo);
+    const lingmaoRank = getRecommendedRank(lingmao);
+    const grNanoRank = getRecommendedRank(grNano);
     const pandaRank = getRecommendedRank(panda);
     const lunaRank = getRecommendedRank(luna);
     const fridayRank = getRecommendedRank(friday);
@@ -116,6 +122,9 @@ describe('recommended sort priority', () => {
     const neuraRank = getRecommendedRank(neura);
 
     expect(xiaoDiRank).toBe(0);
+    expect(lumoRank).toBeLessThan(pandaRank);
+    expect(lingmaoRank).toBeLessThan(pandaRank);
+    expect(grNanoRank).toBeLessThan(pandaRank);
     expect(pandaRank).toBeGreaterThan(xiaoDiRank);
     expect(lunaRank).toBeGreaterThan(pandaRank);
     expect(neuraRank).toBeGreaterThan(igrisRank);
