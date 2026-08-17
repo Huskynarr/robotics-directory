@@ -4,9 +4,10 @@ import { getAllRobots } from '../data/robots.js';
 import { CATEGORIES } from '../data/categories.js';
 
 const t = translations.en;
-const { allRobots } = getAllRobots();
+const { allRobots, manufacturers } = getAllRobots();
 const stats = [
   { value: allRobots.length, key: 'hero.statRobots', label: 'Robots' },
+  { value: manufacturers.length, key: 'hero.statManufacturers', label: 'Manufacturers' },
   { value: CATEGORIES.length, key: 'hero.statCategories', label: 'Categories' },
   { value: Object.keys(translations).length, key: 'hero.statLanguages', label: 'Languages' },
 ];
