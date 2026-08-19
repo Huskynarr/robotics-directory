@@ -11,6 +11,7 @@ const t = translations.en;
 
 const shareText = encodeURIComponent(title);
 const shareUrl = encodeURIComponent(url);
+const redditTitle = encodeURIComponent(title);
 ---
 
 <div class="relative inline-block">
@@ -39,6 +40,30 @@ const shareUrl = encodeURIComponent(url);
       <i class="fab fa-facebook text-[#4267b2]"></i>
       <span data-i18n="share.facebook">{t['share.facebook']}</span>
     </a>
+    <a
+      href={`https://www.linkedin.com/sharing/share-offsite/?url=${shareUrl}`}
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-linkedin text-[#0a66c2]"></i>
+      <span data-i18n="share.linkedin">{t['share.linkedin'] || 'LinkedIn'}</span>
+    </a>
+    <a
+      href={`https://www.reddit.com/submit?url=${shareUrl}&title=${redditTitle}`}
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fab fa-reddit text-[#ff4500]"></i>
+      <span data-i18n="share.reddit">{t['share.reddit'] || 'Reddit'}</span>
+    </a>
+    <a
+      href={`https://bsky.app/intent/compose?text=${shareText}%20${shareUrl}`}
+      target="_blank"
+      rel="noopener"
+    >
+      <i class="fas fa-cloud text-[#1185fe]"></i>
+      <span data-i18n="share.bluesky">{t['share.bluesky'] || 'Bluesky'}</span>
+    </a>
     <a href={`https://wa.me/?text=${shareText}%20${shareUrl}`} target="_blank" rel="noopener">
       <i class="fab fa-whatsapp text-[#25d366]"></i>
       <span data-i18n="share.whatsapp">{t['share.whatsapp']}</span>
@@ -47,6 +72,10 @@ const shareUrl = encodeURIComponent(url);
       <i class="fas fa-envelope text-text-muted"></i>
       <span data-i18n="share.email">{t['share.email']}</span>
     </a>
+    <button type="button" id="nativeShareBtn" data-url={url} data-title={title} hidden>
+      <i class="fas fa-share-nodes text-text-muted"></i>
+      <span data-i18n="share.nativeShare">{t['share.nativeShare'] || 'Share…'}</span>
+    </button>
     <button type="button" id="copyLinkBtn" data-url={url}>
       <i class="fas fa-link text-text-muted"></i>
       <span data-i18n="share.copy">{t['share.copy']}</span>

@@ -1,6 +1,7 @@
 ---
 import { translations } from '../data/translations.js';
 import { formatDeployTimestamp } from '../utils/format.js';
+import { CATEGORIES, CATEGORY_LABELS } from '../data/categories.js';
 const t = translations.en;
 // Captured at static build time — the deploy timestamp shown in the footer.
 const buildTimestamp = new Date().toISOString();
@@ -8,7 +9,7 @@ const buildTimestamp = new Date().toISOString();
 
 <footer class="mt-auto border-t border-border py-12 bg-surface" role="contentinfo">
   <div class="max-w-7xl mx-auto px-4">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-8">
       <!-- Brand -->
       <div class="md:col-span-1">
         <div class="flex items-center gap-2 mb-3">
@@ -49,6 +50,26 @@ const buildTimestamp = new Date().toISOString();
         </ul>
       </div>
 
+      <!-- Categories -->
+      <div>
+        <h3 class="font-semibold text-sm text-text-base mb-3">Categories</h3>
+        <ul class="space-y-2">
+          {
+            CATEGORIES.map((cat) => (
+              <li>
+                <a
+                  href={`/category/${cat.id}/`}
+                  class="text-sm text-text-secondary hover:text-primary transition-colors"
+                  data-i18n={`nav.${cat.id}`}
+                >
+                  {t[`nav.${cat.id}`] || CATEGORY_LABELS[cat.id]}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+
       <!-- Essentials -->
       <div>
         <h3 class="font-semibold text-sm text-text-base mb-3" data-i18n="footer.essentials">
@@ -86,6 +107,14 @@ const buildTimestamp = new Date().toISOString();
               class="text-sm text-text-secondary hover:text-primary transition-colors"
               data-i18n="footer.link.contact">{t['footer.link.contact']}</a
             >
+          </li>
+          <li>
+            <a
+              href="/rss.xml"
+              class="text-sm text-text-secondary hover:text-primary transition-colors"
+            >
+              <i class="fas fa-rss text-[0.7rem] mr-1"></i>RSS Feed
+            </a>
           </li>
         </ul>
       </div>
