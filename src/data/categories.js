@@ -333,6 +333,43 @@ export const CATEGORIES = [
       },
     ],
   },
+  {
+    id: 'robotic-arm',
+    icon: 'fa-microchip',
+    color: '#7c3aed',
+    subcategories: [
+      {
+        id: 'arm-dev',
+        i18nKey: 'sub.robotic-arm.dev',
+        detailKey: 'sub.robotic-arm.dev.detail',
+        filter: {
+          field: 'tagsArray',
+          op: 'tags-include-any',
+          values: ['dev-platform', 'stem', 'maker', 'research'],
+        },
+      },
+      {
+        id: 'arm-industrial',
+        i18nKey: 'sub.robotic-arm.industrial',
+        detailKey: 'sub.robotic-arm.industrial.detail',
+        filter: {
+          field: 'tagsArray',
+          op: 'tags-include',
+          value: 'industrial',
+        },
+      },
+      {
+        id: 'arm-service',
+        i18nKey: 'sub.robotic-arm.service',
+        detailKey: 'sub.robotic-arm.service.detail',
+        filter: {
+          field: 'tagsArray',
+          op: 'tags-include-any',
+          values: ['service', 'commercial', 'consumer'],
+        },
+      },
+    ],
+  },
 ];
 
 export const CATEGORY_LABELS = {
@@ -343,6 +380,7 @@ export const CATEGORY_LABELS = {
   outdoor: 'Outdoor Robot',
   educational: 'Educational Robot',
   smarthome: 'Smart Home Robot',
+  'robotic-arm': 'Robotic Arm',
 };
 
 export const CATEGORY_COLORS = Object.fromEntries(CATEGORIES.map((c) => [c.id, c.color]));

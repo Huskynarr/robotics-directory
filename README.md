@@ -10,8 +10,8 @@ and [Tailwind CSS](https://tailwindcss.com/).
 
 ## Features
 
-- **Seven categories** - humanoids, quadrupeds, companions, cleaning, outdoor,
-  educational and smart-home robots, each with subcategory filters.
+- **Eight categories** - humanoids, quadrupeds, companions, cleaning, outdoor,
+  educational, smart-home robots and robotic arms, each with subcategory filters.
 - **Search & advanced filters** - by name, manufacturer, price, weight, battery
   life, use case and more, with shareable URL state.
 - **Detail pages** for every robot with specifications, image gallery and video.
@@ -85,7 +85,7 @@ The robot data lives in `data/`, with **one CSV per category** that the build
 script - the category CSVs are the single source of truth.
 
 Files: `humanoid.csv`, `quadruped.csv`, `companion.csv`, `cleaning.csv`,
-`outdoor.csv`, `educational.csv`, `smarthome.csv`.
+`outdoor.csv`, `educational.csv`, `smarthome.csv`, `robotic-arm.csv`.
 
 Every file shares the same 21-column header:
 

@@ -26,14 +26,15 @@ The Robotics Directory acts as an interactive catalog for various kinds of robot
 ├── package.json            # Scripts, dependency management, and Node requirements
 ├── playwright.config.js    # Playwright E2E configuration (desktop & mobile projects)
 ├── vitest.config.js        # Vitest unit test configuration
-├── data/                   # Source of truth: robot data divided into 7 category CSVs
+├── data/                   # Source of truth: robot data divided into 8 category CSVs
 │   ├── cleaning.csv
 │   ├── companion.csv
 │   ├── educational.csv
 │   ├── humanoid.csv
 │   ├── outdoor.csv
 │   ├── quadruped.csv
-│   └── smarthome.csv
+│   ├── smarthome.csv
+│   └── robotic-arm.csv
 ├── public/                 # Static assets, including CNAME, favicon, robots.txt, and image assets
 │   └── images/             # Robot images structured by category (mostly WebP)
 ├── scripts/                # Python helper scripts for data merging and image ingestion

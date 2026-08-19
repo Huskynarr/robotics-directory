@@ -23,7 +23,7 @@ COLUMNS = [
     "speed", "terrain", "ipRating", "ageRange", "website", "image",
     "video", "gallery", "description", "releaseDate",
 ]
-CATEGORIES = ["humanoid", "quadruped", "companion", "cleaning", "outdoor", "educational", "smarthome"]
+CATEGORIES = ["humanoid", "quadruped", "companion", "cleaning", "outdoor", "educational", "smarthome", "robotic-arm"]
 
 
 def slugify(s: str) -> str:
