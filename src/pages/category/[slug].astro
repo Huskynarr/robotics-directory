@@ -1,0 +1,172 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getAllRobots } from '../../data/robots.js';
+import { CATEGORIES, CATEGORY_LABELS, CATEGORY_COLORS } from '../../data/categories.js';
+import { translations } from '../../data/translations.js';
+import { resolveImagePath, formatPrice } from '../../utils/format.js';
+import { SITE_URL, SITE_NAME } from '../../config/site.js';
+import '../../styles/global.css';
+
+export function getStaticPaths() {
+  return CATEGORIES.map((cat) => ({ params: { slug: cat.id }, props: { cat } }));
+}
+
+const { cat } = Astro.props;
+const t = translations.en;
+const { allRobots } = getAllRobots();
+const robots = allRobots.filter((r) => r.category === cat.id);
+const catColor = CATEGORY_COLORS[cat.id] || '#2563eb';
+const catIcon = cat.icon || 'fa-robot';
+const catLabel = CATEGORY_LABELS[cat.id] || cat.id;
+const catLabelPlural = catLabel.endsWith('s') ? catLabel : `${catLabel}s`;
+const manufacturers = [...new Set(robots.map((r) => r.manufacturer))].length;
+const pageUrl = `${SITE_URL}/category/${cat.id}/`;
+const pageTitle = `${catLabelPlural} - Browse ${robots.length} Models | ${SITE_NAME}`;
+const pageDesc = `Browse ${robots.length} ${catLabelPlural.toLowerCase()} from ${manufacturers} manufacturers. Compare specs, prices, images and find the right ${catLabel.toLowerCase()}. Free open-source robot database.`;
+
+const subcats = (cat.subcategories || []).map((sub) => ({
+  ...sub,
+  label: t[sub.i18nKey] || sub.id,
+}));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: catLabelPlural,
+  description: pageDesc,
+  url: pageUrl,
+  mainEntity: {
+    '@type': 'ItemList',
+    numberOfItems: robots.length,
+    itemListElement: robots.map((robot, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      item: {
+        '@type': 'Product',
+        name: `${robot.manufacturer} ${robot.model}`,
+        category: catLabel,
+        url: `${SITE_URL}/robot/${robot.id}/`,
+      },
+    })),
+  },
+};
+---
+
+<Base title={pageTitle} description={pageDesc} canonical={pageUrl} jsonLd={jsonLd}>
+  <Header />
+  <main id="main">
+    <section
+      class="relative overflow-hidden border-b border-border"
+      style={`--cat-color: ${catColor}`}
+    >
+      <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      </div>
+      <div
+        class="absolute inset-0 opacity-20"
+        style={`background: linear-gradient(135deg, ${catColor}, transparent 60%)`}
+      >
+      </div>
+      <div class="relative max-w-7xl mx-auto px-4 py-10 md:py-14">
+        <nav class="text-sm mb-6" aria-label="Breadcrumb">
+          <ol class="flex items-center gap-2 flex-wrap text-white/50">
+            <li>
+              <a href="/" class="hover:text-white transition-colors" data-i18n="breadcrumb.home"
+                >{t['breadcrumb.home']}</a
+              >
+            </li>
+            <li aria-hidden="true"><i class="fas fa-chevron-right text-[10px]"></i></li>
+            <li><span class="text-white/80">{catLabelPlural}</span></li>
+          </ol>
+        </nav>
+        <div class="flex items-center gap-4">
+          <div
+            class="w-14 h-14 rounded-2xl flex items-center justify-center text-white text-xl shrink-0 shadow-lg"
+            style={`background: ${catColor}; box-shadow: 0 4px 20px ${catColor}66`}
+          >
+            <i class={`fas ${catIcon}`}></i>
+          </div>
+          <div>
+            <h1 class="font-heading text-2xl md:text-4xl font-bold text-white tracking-wide">
+              {catLabelPlural}
+            </h1>
+            <p class="text-white/60 mt-1">{robots.length} models · {manufacturers} manufacturers</p>
+          </div>
+        </div>
+        <p class="mt-5 text-white/70 max-w-2xl leading-relaxed">{pageDesc}</p>
+
+        {
+          subcats.length > 0 && (
+            <div class="mt-6 flex flex-wrap gap-2">
+              <a
+                href={`/?category=${cat.id}`}
+                class="px-3 py-1.5 rounded-full text-sm font-medium text-white/90 transition-colors"
+                style={`background: ${catColor}33; border: 1px solid ${catColor}55`}
+              >
+                {t['mega.viewAll']} · {robots.length}
+              </a>
+              {subcats.map((sub) => (
+                <a
+                  href={`/?category=${cat.id}&sub=${sub.id}`}
+                  class="px-3 py-1.5 rounded-full text-sm font-medium text-white/70 hover:text-white transition-colors border border-white/15 hover:border-white/40"
+                >
+                  {sub.label}
+                </a>
+              ))}
+            </div>
+          )
+        }
+      </div>
+    </section>
+
+    <div class="max-w-7xl mx-auto px-4 py-8">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+        {
+          robots.map((robot) => (
+            <a href={`/robot/${robot.id}/`} class="robot-card block no-underline">
+              <div class="card-image">
+                <img
+                  src={resolveImagePath(robot.image)}
+                  alt={`${robot.model} by ${robot.manufacturer}`}
+                  loading="lazy"
+                  width="400"
+                  height="300"
+                />
+              </div>
+              <div class="card-info">
+                <h3 class="text-sm">{robot.model}</h3>
+                <p class="manufacturer text-xs">{robot.manufacturer}</p>
+                <p class="price text-xs">{formatPrice(robot.price, 'en', (k, fb) => fb || k)}</p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+
+      <div class="mt-10 flex flex-wrap items-center gap-4">
+        <a
+          href={`/?category=${cat.id}`}
+          class="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-semibold text-white transition-colors"
+          style={`background: ${catColor}`}
+        >
+          <i class="fas fa-filter"></i>
+          Filter &amp; compare {catLabelPlural.toLowerCase()} interactively
+        </a>
+        <a
+          href="/finder/"
+          class="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary-dark"
+        >
+          <i class="fas fa-wand-magic-sparkles"></i>
+          Try the Robot Finder
+        </a>
+      </div>
+    </div>
+  </main>
+  <Footer />
+
+  <script>
+    import '../../scripts/i18n.js';
+    import '../../scripts/dark-mode.js';
+  </script>
+</Base>

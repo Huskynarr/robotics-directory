@@ -2,6 +2,7 @@ function init() {
   const shareBtn = document.getElementById('shareButton');
   const dropdown = document.getElementById('shareDropdown');
   const copyBtn = document.getElementById('copyLinkBtn');
+  const nativeBtn = document.getElementById('nativeShareBtn');
 
   if (shareBtn && dropdown) {
     shareBtn.addEventListener('click', (e) => {
@@ -13,6 +14,21 @@ function init() {
       if (!dropdown.contains(e.target) && e.target !== shareBtn) {
         dropdown.classList.remove('active');
       }
+    });
+  }
+
+  // Reveal native Web Share API button only where supported
+  if (nativeBtn && typeof navigator !== 'undefined' && navigator.share) {
+    nativeBtn.hidden = false;
+    nativeBtn.addEventListener('click', async () => {
+      const url = nativeBtn.dataset.url || window.location.href;
+      const title = nativeBtn.dataset.title || document.title;
+      try {
+        await navigator.share({ title, url });
+      } catch {
+        /* user cancelled or share failed */
+      }
+      if (dropdown) dropdown.classList.remove('active');
     });
   }
 
