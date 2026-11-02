@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T21:47:25.352Z",
+  "generatedAt": "2026-11-02T22:00:12.935Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 440,
-    "withoutSelectedFieldReview": 78,
-    "selectedFields": 7995,
+    "withSelectedFieldReview": 442,
+    "withoutSelectedFieldReview": 76,
+    "selectedFields": 8052,
     "selectedFieldStatuses": {
-      "documented": 3244,
-      "not-documented": 4562,
+      "documented": 3253,
+      "not-documented": 4610,
       "conflicting": 173,
       "roadmap": 16
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 108,
+    "sourceGroupsWithCompanyAuthoredFocus": 109,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -281,29 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "irobot",
-      "name": "iRobot",
-      "aliases": [
-        "IRobot"
-      ],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/irobot"
-      ],
-      "catalogModels": 21,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "irobot-ava-500",
-        "irobot-roomba-max-875-combo"
-      ]
-    },
     {
       "brandId": "kawasaki-robotics",
       "name": "Kawasaki Robotics",
@@ -3537,6 +3514,29 @@
       "robotIds": [
         "inspired-flight-technologies-if1200",
         "inspired-flight-technologies-if800-tomcat"
+      ]
+    },
+    {
+      "brandId": "irobot",
+      "name": "iRobot",
+      "aliases": [
+        "IRobot"
+      ],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/irobot"
+      ],
+      "catalogModels": 27,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "irobot-ava-500",
+        "irobot-roomba-max-875-combo"
       ]
     },
     {
@@ -8527,14 +8527,14 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/irobot"
       ],
-      "catalogModels": 21,
+      "catalogModels": 27,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "irobot-ava-500",
         "irobot-roomba-max-875-combo"
@@ -31841,24 +31841,43 @@
       "brandId": "irobot",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "iRobot",
+          "name": "iRobot — March 17, 2014 Ava 500 delivery announcement",
           "type": "manufacturer",
           "url": "https://media.irobot.com/2014-03-17-iRobot-Announces-Availability-of-Ava-500",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "iRobot — historical Ava 500 solution overview, Cisco video/navigation roles",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/download/iRobot-Ava-500-Solution-Overview.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 4,
+        "not-documented": 33,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "iRobot — March 17, 2014 Ava 500 delivery announcement",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/2014-03-17-iRobot-Announces-Availability-of-Ava-500",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "iRobot — historical Ava 500 solution overview, Cisco video/navigation roles",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/download/iRobot-Ava-500-Solution-Overview.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -31880,24 +31899,31 @@
       "brandId": "irobot",
       "category": "cleaning",
       "hasDatedHighlights": true,
-      "highlightStatements": 4,
+      "highlightStatements": 9,
       "highlightSources": [
         {
-          "name": "iRobot — September 2, 2026 manufacturer launch announcement",
+          "name": "iRobot — September 2, 2026 Max 875 and Plus 678 launch, model-specific features and MSRP",
           "type": "manufacturer",
           "url": "https://media.irobot.com/2026-09-02-iRobot-Redefines-Hands-Free-Cleaning-with-its-Most-Powerful-Robot-Ever,-the-Roomba-R-Max-875-Combo",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 20,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 15,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "iRobot — September 2, 2026 Max 875 and Plus 678 launch, model-specific features and MSRP",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/2026-09-02-iRobot-Redefines-Hands-Free-Cleaning-with-its-Most-Powerful-Robot-Ever,-the-Roomba-R-Max-875-Combo",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
