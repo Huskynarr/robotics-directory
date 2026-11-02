@@ -140,7 +140,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-02, all source company names are represented in 591 competitor
-groups. The catalog contains 2,115 model/configuration entries and 1,027 dated primary-source highlight
+groups. The catalog contains 2,122 model/configuration entries and 1,034 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -153,7 +153,7 @@ model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
-The heuristic gap file now compares all 2,115 rows using same-brand matches only.
+The heuristic gap file now compares all 2,122 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
 reviewed aliases, components and services; the strict unresolved counts remain
 three model identities and nine listings.
@@ -370,6 +370,17 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Neuromeka's mobile/humanoid review adds seven named platforms/configurations:
+ZEN, current NAMI, EIR, historical RAXIS, Moby-RP V3.3 and Moby-Agri 600/650 Type.
+The 179 selected fields retain body/hand versus upper-body DOF, per-arm/platform
+versus component loads and camera lift versus chassis motion. Historical NAMY
+remains an unresolved name lead; unnamed service/factory/surgical table columns
+are not mapped. EIR's December 29, 2025 article described planned production from
+March 2026, without proving actual production or delivery. Moby-Agri's additional
+unscoped dimension row remains visible. Three fresh HTML sources and three saved
+batch104 sources were used, with PDF text/coordinates on pages 4/14/15 and no
+visual inspection. See `reports/competitor-batch-105-evidence.json`.
 
 Neuromeka now has 23 selected arm identities with 414 reviewed fields, including
 21 additions: named Indy generations/research variants and historical releases,
@@ -804,18 +815,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-15,068 fields across 891 models, distinguishing documented, undisclosed, conflicting and
+15,247 fields across 898 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 3,935 kB JSON response loads only for search or comparison;
+A separate 3,980 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 4,475 reviewed highlight statements as well as
+Catalog search now includes all 4,518 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing

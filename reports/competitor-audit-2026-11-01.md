@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 592 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.115 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 861 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1027 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.122 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 868 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1034 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
 | Firmenfokus-Prüfungen mit Quellen | 98 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 861 ergänzte Modelle ergeben 2.115 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 868 ergänzte Modelle ergeben 2.122 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -43,7 +43,7 @@ bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Fir
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
 98 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1027 Datensätze
+Modellseiten verlinken Markenprofile. Die 1034 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 490 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 492 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -8708,3 +8708,83 @@ bedürfen weiterer Prüfung. Keine vollständige aktuelle/historische Hersteller
 unabhängige Sicherheits-/Wirtschaftlichkeits-/Leistungs-, exklusive USP- oder
 Markt-/Suchführerschaft nachgewiesen. Datencommit `a908d4ebe5654982f1d218c73dd496118c499148` gepusht,
 Main unverändert. Nachweis: `reports/competitor-batch-104-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Neuromeka mobile und humanoide Plattformen (Batch 105)
+
+Sieben neue benannte Plattformen/Konfigurationen, 179 ausgewählte Felder:
+41 dokumentiert und 138 nicht dokumentiert. 43 Merkmalsaussagen mit 18 Quellenverweisen.
+Firmenfokus erweitert, alle bisherigen Aussagen/Quellen erhalten. Alle 2115 vorherigen
+CSV-Zeilen, 891 bisherigen Feldprüfungen, 1027 Produktbelege, 97 anderen Firmenfokusse
+und 1961 Wettbewerber-Quellenidentitäten unverändert. Keine neue Spalte oder Änderung
+an Anwendungslogik. Konfigurationen zählen nicht zwingend verschiedene Hardwaregenerationen.
+
+ZEN: klappbare Höhe 1,46–1,86 m; 21 Körper-DOF ausdrücklich ohne Hände
+(19 Gelenke plus zwei Antriebsräder). Pro Hand vier Finger und 13 aktive DOF;
+keine stillschweigende Summierung. 5 kg horizontale Last je Arm einschließlich Hand,
+96,5 cm maximale Arm-/Handlänge nicht pauschal als konventionelle Reichweite eingesetzt.
+0,5 mm Arm-Wiederholpositionierung und 1,5 cm Punkt-zu-Punkt-Chassiswiederholung
+sind unterschiedliche Metriken; letzteres kein Dockingversprechen. Herstellerwerte:
+0,6 m/s, 2 cm Hindernis, 7° Steigung, 40 Ah, acht Stunden Betrieb, sechs Stunden
+Laden; Spannung und vollständige Testbedingungen fehlen. Fünf RGB-Kameras,
+2280 duale Hand-ITPU, 6840 Kanäle sind Architekturangaben, kein unabhängiger Sensortest.
+
+NAMI ist auf der aktuellen Plattformseite explizit benannt. Ältere Historie nennt
+NAMY; Bild-Alttext NAMY.png beweist weder Gleichheit noch unterschiedliche Hardware.
+Aktuellen Namen einmal gezählt, historischen NAMY-Namenslead erhalten. RAXIS ist in
+der Historie ausdrücklich mit September-2025-Vorstellung benannt, technische Daten
+und heutige Lieferung offen. Unbenannte Service-/Fabrik-/Chirurgie-Spalten des Katalogs
+werden keinem NAMI/EIR/RAXIS nach Bildreihenfolge, Einsatzzweck oder Achsenzahl zugeordnet.
+
+EIR: ausdrücklich 18 unabhängig angetriebene Oberkörperachsen (sieben pro Arm,
+vier Hals/Taille), kein belegter Gesamtwert einschließlich Basis/Händen. Mobiler
+Wagen belegt weder zweibeiniges Gehen noch autonome AMR-Navigation. VisionX/MimicX
+sind Herstellerpositionierung; 100-µm-Regelpräzision ist keine belegte Wiederholgenauigkeit.
+Neuromekas gehosteter Artikel trägt Metadatum 29. Dezember 2025 und nennt Pinpointnews
+als Quelle. CES-2026-Debüt und stufenweise Produktion ab März 2026 waren damalige
+Pläne; tatsächliche Produktion, Verkauf, Lieferung und finale Daten daraus nicht
+bewiesen. September-2025-Vorstellung ist eine separate Historiennennung, kein
+Erstverkaufsnachweis. Keine chirurgische Zulassung aus unbenannter Tabelle abgeleitet.
+
+Moby-RP V3.3: 180 kg Basis beziehungsweise 210 kg mit Indy; 40 kg Plattformlast,
+660×960×600 mm ohne explizite Achsenreihenfolge, 2D-LiDAR/SLAM, Quad Drive, maximal
+1 m/s. Vier zweiachsige Lenkradmodule sind keine Armachsen. 75 kg je Antriebsrad
+nicht zu 300 kg Plattformlast addiert; Indy7-Last 7 kg getrennt. Akku 48 VDC/4624 Wh,
+2500-W-Lader ist keine Ladezeit. Optionaler Sensor-/Sicherheitsblock bleibt paketabhängig.
+
+Moby-Agri 600/650 Type: 1400×805×491 mm/254 kg beziehungsweise
+1400×855×491 mm/255 kg. Zusätzliche unklare Dimension-Zeile 1400×1900×450 mm bleibt
+als Zuordnungsunsicherheit sichtbar. Keine zusätzliche generische Dublette.
+Gemeinsame Tabelle: Differenzialantrieb Boden/Schiene, 2D-LiDAR/SLAM, maximal
+1 m/s Boden oder 0,4 m/s Schiene, 48 VDC/9250 Wh, maximal zehn Stunden Fahrzeit
+mit ungenannten Last-/Modusbedingungen. 150 kg je Lenkrolle ist keine Plattformlast.
+Kameramodul zwei DOF, Hubgrenzen 2000–4100 mm, ±5 mm und 200 mm/s sind keine
+Körper-DOF, Außenhöhe, Transporthub-, Navigations-/Docking- oder Fahrgeschwindigkeitswerte.
+10.000 m² Gewächshausfläche keine Stundenleistung oder bewiesene Ertragssteigerung.
+Beide mobilen Katalogkapitel ausdrücklich KOREA ONLY, keine globale Verfügbarkeitszusage.
+
+Drei neue HTTP200-HTML-Antworten plus drei gespeicherte Batch104-Antworten mit
+ursprünglichen Zeitstempeln und SHA-256 geprüft, keine erneuten Abrufe der Archive.
+PDF 36 Seiten zu Text extrahiert; Seiten 4/14/15 anhand Text und Koordinaten geprüft,
+keine visuelle Bild-/PDF-/Zeichnungs-/Videoprüfung. Downloadlabel V20260903 gegenüber
+tatsächlichem PDF-Cover V20251205 bleibt erhalten. Kein Bilddownload in diesem Batch.
+
+807 Unit-Tests/64 Dateien, Build 3172 Seiten, Audit null Fehler/1025 Hinweise.
+Sieben neue unbekannte Erstveröffentlichungsjahre erklären sämtliche zusätzlichen
+Hinweise. Erste Unit-Runde 805/807 erkannte fehlendes Subkategorie-Tag und alte
+Gesamtzahl-Erwartung. Liefer-Tag anhand Moby-Familientext ergänzt, Zähler auf
+898 Modelle/15247 Felder aktualisiert; volle Suite und Build anschließend bestanden.
+16 Desktop-/Mobilfälle einschließlich vier Axe-Läufe mit einem Worker bestanden.
+Sieben Seiten/179 Felder/43 Aussagen, erweiterter Firmenfokus, strukturierte Daten
+und Exportgrenzen geprüft. Die sieben Neuzugänge sind keine zusätzlichen Original-
+Quellenziele. Vergleich vollständig für 1034 Produkte/4518 Aussagen/2035 Verweise
+und 898 Prüfungen/15247 Felder kontrolliert. Lint/Format und Wiederimport ohne
+Ergänzungen bestanden. Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei.
+
+Gesamt 2122 Einträge, 868 Ergänzungen und 166 bestehende Modelle mit Merkmalsanreicherung,
+98 Firmenfokusse. Originale Zielmenge unverändert 403 geprüft/115 ausstehend von 518.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte weiter offen.
+NAMY-Beziehung, unbenannte Matrix und weitere historische/revidierte Modelle offen;
+keine vollständige Herstellerpalette, unabhängige Leistungs-/Sicherheitsbestätigung,
+exklusive USP- oder Markt-/Suchführerschaft bewiesen. Datencommit `ac52c1051eabf9f763e9debf5058c2b0a3973ddc` gepusht;
+Main unverändert, kein Deployment. Nachweis: `reports/competitor-batch-105-evidence.json`.
