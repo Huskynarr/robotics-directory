@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,053 catalog rows**, with 644 exact
-manufacturer spellings. Batch 97 refreshed the separate heuristic gap file offline
-against all 2,053 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,066 catalog rows**, with 644 exact
+manufacturer spellings. Batch 98 refreshed the separate heuristic gap file offline
+against all 2,066 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 951 dated records across the catalog, including
-152 existing-model enrichments and 799 task additions. All 430 catalog models
+Current product-highlight coverage: 973 dated records across the catalog, including
+161 existing-model enrichments and 812 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 799 task additions, totaling 2,053.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 812 task additions, totaling 2,066.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 385 have selected-field reviews and 133 await those reviews. Family and
+highlights; 387 have selected-field reviews and 131 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 13,340 fields across 797 catalog models: 5,753 documented,
-7,272 not documented, 252 conflicting and sixty-three roadmap fields. They do not certify whole
+Selected specification checks cover 13,769 fields across 821 catalog models: 5,972 documented,
+7,480 not documented, 254 conflicting and sixty-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -5813,3 +5813,101 @@ weiterhin belegt. Zwei Größen-Feldhinweise nennen den 38-cm-Bezugsumfang der
 BlueBoat-Zeichnung nun ausdrücklich ungeklärt. Tabellenwerte und Modellidentitäten
 bleiben unverändert. Ursprungsaussagen bleiben in Git und im Korrekturbericht
 nachvollziehbar. Siehe `reports/competitor-evidence-inspection-correction-2026-11-02.json`.
+
+
+## Ergänzung vom 2. November 2026 – AgiBot-Varianten und aktuelle Produkte (Batch 98)
+
+13 neue Modellkarten: A2 Ultra, A2 Lite, X2 Ultra, X2 REC, X2 EDU, G1 MAX,
+D1 Edu, D1 Max, D1 MaxPro, C5, C4, C2 und C2P. Zwölf bestehende Modelle geprüft:
+A2, A3, A3 Ultra, Lingxi X1/X2, Genie G1, G2, G2 Max, G2 Air, D1 Pro,
+D1 Ultra und D1 Ultra-W. 431 ausgewählte Felder: 220 dokumentiert, 209 unbekannt,
+zwei mit ungeklärtem Quellen-/Zählumfang. 24 neue Feldprüfungen, bestehende
+Ultra-W-Prüfung erweitert. Ein Firmenfokus ergänzt, insgesamt 92. Die 2041 anderen
+bisherigen Katalogzeilen, 796 übrigen Feldprüfungen, 91 bisherigen Firmenfokusse,
+Profile/Aliasse und alle 1961 ursprünglichen Quellenidentitäten unverändert.
+Vorherige Produktbelege und die ersetzte Ultra-W-Feldprüfung bleiben im Manifest.
+
+A3 Ultra: Herstellerankündigung vom 18. Juli 2026 nennt 174 cm, 60 kg, 51 aktive
+Freiheitsgrade, 5 kg je Arm und bis zu acht Stunden kombinierte Betriebszeit.
+55 kg und zehn Stunden gehören zum Grundmodell A3. Broschüren-Handangabe bis
+20 DOF wird nicht zum Ganzkörperwert addiert. Zehn Sekunden Akkutausch sind keine
+Ladedauer. A2 Ultra/Lite behalten eigene Tabellenspalten; der Pfad A2_Pro nennt
+heute A2 Lite und belegt kein zusätzliches Modell A2 Pro. Der alte A2_W-Pfad
+liefert A2-Ultra-Inhalt. A2 Max und Yuanzheng A2-W daher nicht umgedeutet, sondern
+unverändert mit offener historischer Identitäts-/Versionsprüfung belassen.
+G1 MAX wird trotz ähnlicher 230-kg-Angabe nicht als belegter A2-W-Alias behandelt.
+
+X2: vorhandenen Lingxi-X2-Datensatz als aktuelle Grundmodellkarte behalten,
+keine zusätzliche Dublette erzeugt. Aktuelle Basisdaten 35 kg/25 DOF/fünf je Arm;
+Ultra 39 kg/30 DOF/sieben je Arm, REC 40 kg/30 DOF, EDU 35 kg/29 DOF.
+Historische Revisionsgleichheit ist damit nicht bewiesen. Die Serienseite
+schließt Ultra-Navigation und Hindernisvermeidung ausdrücklich für Basis-X2 aus.
+REC erhält nicht automatisch Laufzeit und Geschwindigkeit der Nachbarspalte.
+EDU-Höhe enthält einen Dummy-Kopf; optionale Hände und Rechenmodule sind kein
+serienmäßig enthaltenes Komplettsystem. G1 nennt 20 DOF ohne Endeffektor in der
+Tabelle und 26 im Text ohne vollständige Aufschlüsselung; Zählumfang bleibt sichtbar.
+
+G2 Max: Bekanntmachung im Juli, formeller Start am 29. Oktober 2026.
+Letztere Herstellerquelle nennt 21 DOF, bis 40 kg gemeinsame Zweiarmlast und
+0,1–2,5 m Arbeitshöhe. Keine 40 kg je Arm und keine Armreichweite daraus abgeleitet.
+G2-Grundplattform hat eine eigene 5-kg-je-Arm-/26-DOF-Spezifikation; Jetson-T5000-
+2070-TFLOPS(FP4)-Angabe bleibt mit Präzisionsformat, ohne TOPS-Umrechnung.
+Herstellerberichtete Tablet-Linienkennzahlen sind keine Akkulaufzeit oder
+unabhängige universelle Produktivitätsmessung. G2 Air bleibt ein betreutes,
+einarmiges System; vollständige Autonomie ist ein Entwicklungspfad.
+
+D1 Pro/Edu: aktuell 15,5 kg inklusive Akku und 3,5 m/s; SDK-Entwicklung ist
+ausdrücklich Edu zugeordnet. Ultra/Ultra-W: 16/22 kg und 12/16 DOF; allgemeine
+1–2 Stunden Betrieb und eine Stunde unter Last behalten ihre Bedingungen.
+Ultra-W hat 16 cm kontinuierliche Treppen und separat 60 cm maximale Kletterhöhe.
+D1 Max: 25 cm kontinuierliche Treppen sind nicht 80 cm einzelne Hindernishöhe;
+HTML-Mindestlaufzeiten ≥5/≥3,5 h bleiben gegenüber PDF 5±0,5/3,5±0,5 h ungeklärt.
+D1 MaxPro: 50 kg Last, 2081 Wh, 5,5±0,5 h ohne Last/zwei Stunden mit 50 kg.
+3 m/s sind Labor-Extremwert; Produkt laut Fußnote auf 2 m/s begrenzt.
+Laden 10–90 Prozent ungefähr 4,5 Stunden. 30-cm-Treppen, 20-cm-Waten,
+LiDAR-Sensorgenauigkeit und Ganzfahrzeug-IP67 bleiben getrennte Messgrößen.
+
+C5/C4/C2/C2P: Reinigungsleistung und Werkzeugbreiten getrennt nach Modell und
+theoretischem/maximalem bzw. genanntem Stundenwert. 25 kg C5-Bürstendruck ist keine
+Nutzlast; vier Minuten Tankselbstreinigung keine Akkuladedauer. Stations- und
+Roboterbehälter werden nicht addiert oder doppelt als Frisch-/Schmutzwasser vergeben.
+C2P: vier Stunden Laufzeit, zwei Stunden kontinuierlicher Betrieb mit vollem
+Wassertank und zwei Stunden Laden sind drei unterschiedliche Angaben.
+700 mm Mindest-Durchfahrtshöhe wird nicht als horizontale Gangbreite übernommen.
+Bei C4 wird 800 mm tabellierter Wenderadius nicht in einen Durchmesser umgerechnet.
+
+Worken bleibt ein vorgeschlagener Produktivitätsrahmen; AHA3, GO-Modelle,
+Link-U OS, Genie Studio/Sim, Datensätze, Hände, Gelenke und Stationen sind keine
+weiteren vollständigen Roboterkarten. Link-U-Komplettveröffentlichung als Open Source
+bis Ende 2026 bleibt am 2. November eine Zukunftsangabe. Keine unabhängigen,
+exklusiven USPs oder erreichte Marktführerschaft abgeleitet.
+
+36 gespeicherte Collector-Versuche: 33 HTTP200-Bodies einschließlich sechs PDFs,
+zwei vermutete Pfade mit404, Store429 ohne Wiederholung. Alle Body-Hashes geprüft.
+Eine überlappende Collector-Ausführung verursachte einen Index-/Manifestkonflikt;
+ursprüngliche Request-Metadaten und Bodies wiederhergestellt und sämtliche Hashes
+abgeglichen, ohne Wiederabruf. Danach sequenziell abgerufen. PDF-Tabellen als Text
+geprüft; keine visuelle Sichtung oder Zeichnungsinterpretation behauptet.
+Die separate Inspektionskorrektur früherer Batches bleibt dokumentiert in
+`reports/competitor-evidence-inspection-correction-2026-11-02.json`.
+
+Aktuell 2066 Modelle/Konfigurationen, 973 Produktmerkmal-Datensätze, 4239 Aussagen,
+1881 Produktquellenverweise. Ausgewählte Prüfungen: 13769 Felder auf 821 Modellen;
+5972 dokumentiert, 7480 unbekannt, 254 widersprüchlich/ungeklärt und 63 Roadmap.
+Ursprüngliche 518 Ziele: 387 mit Feldprüfungen, 131 offen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte weiter offen.
+
+793 Unit-Tests/64 Dateien, 14 ausgewählte Desktop-/Mobilfälle einschließlich vier
+Axe-Läufen bestanden. Alle 821 gerenderten Prüfseiten/13769 Felder, 25 aktuelle
+Modellseiten/431 Felder, Firmenfokus, Exporte, Suche und exakter Vergleichs-Payload
+geprüft. Zwei anfängliche Suchtests verlangten einen Merkmalstreffer-Satz für eine
+auch in der Beschreibung vorhandene Phrase. Bestehendes Verhalten war korrekt;
+Test auf tatsächlich ausschließlich im Merkmal vorkommende Phrase geändert und
+alle 14 Fälle bestanden. Keine Anwendungs- oder Datenänderung daraus abgeleitet.
+Build 3116 Seiten/ca. 483 MB. Audit null Fehler/966 Warnungen: alle 19 zusätzlichen
+Warnungen betreffen ausdrücklich unbekannte Erscheinungsjahre. Offline-Refresh und
+Import-Trockenlauf mit null Ergänzungen bestanden. Geänderte Testdatei gelintet und
+formatiert. Keine Anwendungslogik geändert; frühere vollständige Browser-/Python-
+Prüfungen bleiben historische Ergebnisse. Eigene Test-/Browserprozesse geschlossen,
+Port4321 frei; andere Aufgaben unangetastet. Dauerhafter Beleg:
+`reports/competitor-batch-98-evidence.json`.
