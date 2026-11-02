@@ -92345,6 +92345,306 @@
           "note": "No per-hour treated-area throughput established. Bed/planting area in m² is not m²/h, assembly duration is not work time and crop output claims are not independently tested rates."
         }
       }
+    },
+    {
+      "robotId": "magazino-soto",
+      "manufacturer": "Magazino",
+      "model": "SOTO",
+      "sources": [
+        {
+          "name": "Magazino — SOTO manufacturer page:250 kg, 20 kg per tote and aisle/energy conditions",
+          "type": "manufacturer",
+          "url": "https://www.magazino.eu/en/production-logistics/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Jungheinrich — Jungheinrich SOTO German technical data, revision 12.2023, text only",
+          "type": "manufacturer",
+          "url": "https://media-live2.prod.scw.jungheinrichcloud.com/resource/blob/1684414/44dc1ae5747aab5c880552694be9f887/download-technical-data-amr-soto-data.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Jungheinrich — Jungheinrich UK SOTO page:240 kg and 1.5 h charging",
+          "type": "manufacturer",
+          "url": "https://www.jungheinrich.co.uk/automation/mobile-robots/soto-1684506",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-103/source-1.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric complete-system purchase, rental or service quote with exact configuration/currency/tax scope established. NEO pay-per-pick and cost-saving marketing are not a TORU purchase price."
+        },
+        "weight": {
+          "value": "686–735 kg by backpack; 695 kg standard (Dec 2023 datasheet)",
+          "status": "documented",
+          "note": "German manufacturer/parent-company technical sheet revision 12.2023 distinguishes own mass 686–735 kg by backpack configuration and 695 kg standard; no unqualified current-generation universal mass asserted."
+        },
+        "size": {
+          "value": "2230 x 1060 x 2160 mm; operating height adds 80 mm laser scanner (Dec 2023 datasheet)",
+          "status": "documented",
+          "note": "Exact sheet revision 12.2023 L×B×H2230×1060×2160 mm; its separate operating-height laser-scanner addition+80 mm is retained rather than omitted or treated as a carton."
+        },
+        "batteryLife": {
+          "value": "Up to 8 h between charging (manufacturer rating)",
+          "status": "documented",
+          "note": "No battery-only endurance established for this model. TORU up-to 20 hours per day, 24/7 marketing and remote operations 24 hours/6 days per week are separate service/duty-cycle statements."
+        },
+        "maxRuntime": {
+          "value": "Up to 8 h between charging (manufacturer rating)",
+          "status": "documented",
+          "note": "No distinct continuous operating endurance established for this model. Daily operating schedule or fleet/service availability cannot be substituted for hours between charging."
+        },
+        "payload": {
+          "value": "Up to 20 kg per tote (handling limit)",
+          "status": "documented",
+          "note": "All selected relevant SOTO handling statements specify maximum 20 kg per KLT. Total mobile transport load is recorded separately in transportPayload, whose sources disagree; 24 loaded totes cannot all independently carry 20 kg."
+        },
+        "speed": {
+          "value": "Up to 1.5 m/s; full-speed aisle:2.5 m Magazino page versus 2.510 m Dec 2023 sheet",
+          "status": "conflicting",
+          "note": "All selected sources give maximum 1.5 m/s, but required full-speed aisle is 2500 mm on Magazino versus 2510 mm in the December 2023 sheet. Exact full-speed clearance remains conflicting."
+        },
+        "ipRating": {
+          "value": "IP20 (Dec 2023 datasheet; indoor)",
+          "status": "documented",
+          "note": "Whole-product IP20 expressly in December 2023 SOTO technical sheet. No weatherproof/outdoor-use claim; revision and indoor scope retained."
+        },
+        "chargingTime": {
+          "value": "1.5 h Jungheinrich UK page versus 1.6 h Dec 2023 datasheet; charging ratio 5:1, charge-state scope unspecified",
+          "status": "conflicting",
+          "note": "Parent UK page 1.5 h versus December 2023 technical sheet 1.6 h. Both manufacturer operating/charging 5:1 ratio and unspecified charge-state boundary remain qualified; no independent timing performed."
+        },
+        "handType": {
+          "value": "Conveyor tote gripper; left/right/front transfer and tote rotation ±90°/±180°",
+          "status": "documented",
+          "note": "Page describes conveyor gripper left/right/front, rotation 90°/180° and 0.4–1.7 m transfer range; December 2023 sheet restricts frontal minimum to 500 mm versus 400 mm lateral."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Omnidirectional travel, turning totes and vertical gripper movement do not establish a whole-robot articulation count."
+        },
+        "terrain": {
+          "value": "Level indoor industrial floor; Dec 2023 sheet:5 mm traversable unevenness and DIN18202:2019-07 floor quality",
+          "status": "documented",
+          "note": "Indoor warehouse/production application; no outdoor, slope, stairs or general terrain certification inferred."
+        },
+        "website": {
+          "value": "https://www.magazino.eu/en/production-logistics/",
+          "status": "documented",
+          "note": "Successfully retrieved official product page; page existence does not establish current quote, exact revision or independent performance."
+        },
+        "description": {
+          "value": "SOTO is Magazino’s autonomous tote-handling mobile robot for transfer between warehouse and production stations. A conveyor gripper transfers KLTs from three sides, with backpack capacity 8–24 totes depending on their dimensions. Each handled tote is limited to 20 kg. Total load differs across sources: Magazino 250 kg, Jungheinrich UK240 kg and the December 2023 sheet 200–249 kg by backpack, 240 kg standard. The sheet supplies configuration-qualified mass/dimensions/IP20 and distinguishes 500 mm minimum frontal gripping height from 400 mm lateral height. Up-to 8 h endurance is a manufacturer rating; charging 1.5 h versus 1.6 h and full-speed aisle 2500 mm versus 2510 mm remain visible source differences.",
+          "status": "documented",
+          "note": "Synthesis of manufacturer/parent-company sources, with model, revision, object versus chassis, and application versus robot performance scope retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first-release year established. The technical sheet revisionDecember 2023 and the February 2025 NEO application article are not launch dates."
+        },
+        "driveMode": {
+          "value": "Omnidirectional drive (manufacturer)",
+          "status": "documented",
+          "note": "No numeric or named drive layout established for this selected model. Autonomous navigation does not by itself prove omnidirectional motion."
+        },
+        "minAisleWidth": {
+          "value": "1650 mm at 0.3 m/s (Dec 2023 datasheet)",
+          "status": "documented",
+          "note": "December 2023 sheet pairs 1650 mm minimum aisle with safe speed 0.3 m/s; 2.510 m width needed for maximum speed. This is not an unconditional 1.5 m/s clearance."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot turning radius established. SOTO sheet specifies minimum turning circle 3100 mm; circle is not radius and no half-value is inferred."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No fork/lift travel rating established. A minimum-to-maximum gripper height interval is not automatically a mechanical stroke."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum fork height established. SOTO0.4–1.7 m and TORU0.08–2.5 m are gripper transfer/action heights; NEO application 2.2 m is separate."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No conventional mechanical arm reach rating established. Vertical action range, gripper rotation and pick direction are not radial reach."
+        },
+        "transportPayload": {
+          "value": "Magazino page:250 kg; Jungheinrich page:240 kg; Dec 2023 sheet:200–249 kg by backpack, 240 kg standard",
+          "status": "conflicting",
+          "note": "Magazino live page 250 kg conflicts with parent UK page 240 kg. December 2023 sheet technical row 200–249 kg by backpack/240 kg standard and load-carrier row 240 kg are preserved with their configuration scope; no chosen value silently resolves the disagreement."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No per-robot pick-per-hour rating established. NEO350+picks/hour, >3000 picks/day suitability and commissioning 6–8 weeks concern the integrated system/business case, not one TORU."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric localization accuracy established. 2D/3D cameras, laser scanning, mapping and object perception are not a metric tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric docking tolerance established. Precision adjectives and tote handling alone do not establish a positional value."
+        }
+      }
+    },
+    {
+      "robotId": "magazino-toru",
+      "manufacturer": "Magazino",
+      "model": "TORU",
+      "sources": [
+        {
+          "name": "Magazino — TORU manufacturer page:gripping envelope, backpack and daily operation",
+          "type": "manufacturer",
+          "url": "https://www.magazino.eu/en/shoe-logistics/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Magazino — TORU within NEO system, February 6, 2025:application and system-level performance",
+          "type": "manufacturer",
+          "url": "https://www.magazino.eu/en/tech-articles/commissioning-robot-toru-neointralogistics/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-103/source-2.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric complete-system purchase, rental or service quote with exact configuration/currency/tax scope established. NEO pay-per-pick and cost-saving marketing are not a TORU purchase price."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact full robot mass established for this selected model. Tote/carton handling loads, transported items, objects and customer system equipment are not chassis mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full chassis dimensions established. TORU object envelope 390 x 280 x 145 mm, NEO content envelope 380 x 240 x 140 mm, transfer height and rack dimensions are not robot body size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery-only endurance established for this model. TORU up-to 20 hours per day, 24/7 marketing and remote operations 24 hours/6 days per week are separate service/duty-cycle statements."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct continuous operating endurance established for this model. Daily operating schedule or fleet/service availability cannot be substituted for hours between charging."
+        },
+        "payload": {
+          "value": "Up to 5.8 kg gripped carton/special tote; NEO application limits loaded KLT to 5 kg",
+          "status": "documented",
+          "note": "Product page maximum 5.8 kg per gripped carton/special tote. February 2025 NEO application explicitly states maximum 5 kg total KLT; application-specific scope differs and is not silently overwritten with general hardware limit."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric travel speed established for this selected model. Gripper action range, pick rates and maximum object height are different measures."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP class established for this selected model. Laser/camera safety features or use in a warehouse do not establish ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unconditional start-to-finish robot charging cycle established. A drive/charge ratio without charge-state scope is not independently timed charging."
+        },
+        "handType": {
+          "value": "Vacuum gripper on lifting column; shoeboxes or supported special KLTs",
+          "status": "documented",
+          "note": "Exact TORU page describes suction/vacuum gripping, lifting column, onboard storage and shoebox/special-KLT handling. Separate cobot in NEO’s buffer workstation is not an included onboard TORU arm."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Omnidirectional travel, turning totes and vertical gripper movement do not establish a whole-robot articulation count."
+        },
+        "terrain": {
+          "value": "Indoor shelving-rack warehouse; no floor lines/barcodes required for navigation",
+          "status": "documented",
+          "note": "Indoor warehouse/production application; no outdoor, slope, stairs or general terrain certification inferred."
+        },
+        "website": {
+          "value": "https://www.magazino.eu/en/shoe-logistics/",
+          "status": "documented",
+          "note": "Successfully retrieved official product page; page existence does not establish current quote, exact revision or independent performance."
+        },
+        "description": {
+          "value": "TORU is Magazino’s autonomous mobile picking robot for shoeboxes and supported standardized KLTs, using a vacuum gripper, lifting column and onboard backpack. The product page specifies up to 5.8 kg per gripped object and a 390×280×145 mm maximum object envelope, with up to 16 objects transported and 0.08–2.5 m action height. The February 6, 2025 NEO system article instead limits loaded KLTs to 5 kg, contents to 380×240×140 mm and picking height to 2.2 m for that application. NEO buffer stations, a separate cobot and 350+picks/hour belong to the integrated system. Up to 20 hours/day operation does not establish battery endurance, and object dimensions are not chassis dimensions.",
+          "status": "documented",
+          "note": "General TORU envelope/height/object limit and narrower dated NEO application scope kept separate. NEO350+picks/hour is an integrated-system claim; up-to 20 hours/day is not battery endurance. Manufacturer uniqueness/cost/labor/safety outcomes not independently proven."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first-release year established. The technical sheet revisionDecember 2023 and the February 2025 NEO application article are not launch dates."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric or named drive layout established for this selected model. Autonomous navigation does not by itself prove omnidirectional motion."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric minimum aisle width established for this selected model. Qualitative narrow-aisle claims are not measured clearance."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot turning radius established. SOTO sheet specifies minimum turning circle 3100 mm; circle is not radius and no half-value is inferred."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No fork/lift travel rating established. A minimum-to-maximum gripper height interval is not automatically a mechanical stroke."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum fork height established. SOTO0.4–1.7 m and TORU0.08–2.5 m are gripper transfer/action heights; NEO application 2.2 m is separate."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No conventional mechanical arm reach rating established. Vertical action range, gripper rotation and pick direction are not radial reach."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact total mobile-robot transport payload established. TORU16-object capacity does not prove 16×5.8 kg simultaneous rated load; NEO station/buffer throughput is a whole system."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No per-robot pick-per-hour rating established. NEO350+picks/hour, >3000 picks/day suitability and commissioning 6–8 weeks concern the integrated system/business case, not one TORU."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric localization accuracy established. 2D/3D cameras, laser scanning, mapping and object perception are not a metric tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric docking tolerance established. Precision adjectives and tote handling alone do not establish a positional value."
+        }
+      }
     }
   ]
 }

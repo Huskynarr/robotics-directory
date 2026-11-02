@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T17:45:34.632Z",
+  "generatedAt": "2026-11-02T17:56:05.505Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 399,
-    "withoutSelectedFieldReview": 119,
-    "selectedFields": 6636,
+    "withSelectedFieldReview": 401,
+    "withoutSelectedFieldReview": 117,
+    "selectedFields": 6686,
     "selectedFieldStatuses": {
-      "documented": 2980,
-      "not-documented": 3484,
-      "conflicting": 161,
+      "documented": 2997,
+      "not-documented": 3514,
+      "conflicting": 164,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 92,
+    "sourceGroupsWithCompanyAuthoredFocus": 93,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -539,26 +539,6 @@
       "robotIds": [
         "kawasaki-yf002n",
         "kawasaki-yf003n"
-      ]
-    },
-    {
-      "brandId": "magazino",
-      "name": "Magazino",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/magazino"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "magazino-soto",
-        "magazino-toru"
       ]
     },
     {
@@ -3705,6 +3685,26 @@
       "robotIds": [
         "farmbot-genesis-v1-8",
         "farmbot-genesis-xl-v1-8"
+      ]
+    },
+    {
+      "brandId": "magazino",
+      "name": "Magazino",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/magazino"
+      ],
+      "catalogModels": 2,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "magazino-soto",
+        "magazino-toru"
       ]
     },
     {
@@ -9289,10 +9289,10 @@
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "magazino-soto",
         "magazino-toru"
@@ -32900,24 +32900,55 @@
       "brandId": "magazino",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 6,
       "highlightSources": [
         {
-          "name": "Magazino",
+          "name": "Magazino — SOTO manufacturer page:250 kg, 20 kg per tote and aisle/energy conditions",
           "type": "manufacturer",
           "url": "https://www.magazino.eu/en/production-logistics/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Jungheinrich — Jungheinrich SOTO German technical data, revision 12.2023, text only",
+          "type": "manufacturer",
+          "url": "https://media-live2.prod.scw.jungheinrichcloud.com/resource/blob/1684414/44dc1ae5747aab5c880552694be9f887/download-technical-data-amr-soto-data.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Jungheinrich — Jungheinrich UK SOTO page:240 kg and 1.5 h charging",
+          "type": "manufacturer",
+          "url": "https://www.jungheinrich.co.uk/automation/mobile-robots/soto-1684506",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 25,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 12,
+        "not-documented": 10,
+        "conflicting": 3,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Magazino — SOTO manufacturer page:250 kg, 20 kg per tote and aisle/energy conditions",
+          "type": "manufacturer",
+          "url": "https://www.magazino.eu/en/production-logistics/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Jungheinrich — Jungheinrich SOTO German technical data, revision 12.2023, text only",
+          "type": "manufacturer",
+          "url": "https://media-live2.prod.scw.jungheinrichcloud.com/resource/blob/1684414/44dc1ae5747aab5c880552694be9f887/download-technical-data-amr-soto-data.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Jungheinrich — Jungheinrich UK SOTO page:240 kg and 1.5 h charging",
+          "type": "manufacturer",
+          "url": "https://www.jungheinrich.co.uk/automation/mobile-robots/soto-1684506",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -32939,24 +32970,43 @@
       "brandId": "magazino",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "Magazino",
+          "name": "Magazino — TORU manufacturer page:gripping envelope, backpack and daily operation",
           "type": "manufacturer",
           "url": "https://www.magazino.eu/en/shoe-logistics/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Magazino — TORU within NEO system, February 6, 2025:application and system-level performance",
+          "type": "manufacturer",
+          "url": "https://www.magazino.eu/en/tech-articles/commissioning-robot-toru-neointralogistics/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 25,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 20,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Magazino — TORU manufacturer page:gripping envelope, backpack and daily operation",
+          "type": "manufacturer",
+          "url": "https://www.magazino.eu/en/shoe-logistics/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Magazino — TORU within NEO system, February 6, 2025:application and system-level performance",
+          "type": "manufacturer",
+          "url": "https://www.magazino.eu/en/tech-articles/commissioning-robot-toru-neointralogistics/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

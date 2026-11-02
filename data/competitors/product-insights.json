@@ -6656,16 +6656,31 @@
       "manufacturer": "Magazino",
       "model": "SOTO",
       "highlights": [
-        "Autonomous mobile manipulator transfers totes between warehouse and production stations",
-        "Handles up to 24 totes by backpack configuration; total load is limited to 250 kg and each tote to 20 kg",
-        "Conveyor gripper transfers totes at heights of 0.4 to 1.7 m; fleet control supports WMS integration and VDA5050"
+        "SOTO transfers KLTs between warehouse and production with a conveyor gripper, three-sided pickup and configurable backpack. Capacity 8–24 totes depends on tote size; 24 totes at 20 kg each is not a permitted 480 kg load.",
+        "Handling limit is 20 kg per tote. Total transport load differs: Magazino 250 kg; Jungheinrich UK240 kg; December 2023 technical sheet 200–249 kg by backpack and 240 kg standard, with its load-carrier row also specifying 240 kg total.",
+        "The December 2023 sheet gives 686–735 kg own mass by backpack (695 kg standard), 2230×1060×2160 mm body dimensions plus 80 mm operating laser-scanner height, IP20 and indoor industrial-floor conditions. These are revision/configuration-qualified manufacturer data.",
+        "Omnidirectional drive reaches up to 1.5 m/s. Minimum aisle 1650 mm is associated with 0.3 m/s; maximum-speed aisle is 2500 mm on Magazino’s page versus 2510 mm in the sheet. The stated 3100 mm minimum turning circle is not a turning-radius value.",
+        "Magazino gives 0.4–1.7 m tote transfer height; the sheet distinguishes minimum 500 mm frontal versus 400 mm lateral gripping height and 1700 mm maximum. These are gripper heights rather than fork height, stroke or arm reach.",
+        "Up to 8 h between charges is manufacturer-rated. UK page states 1.5 h charging versus 1.6 h in the December 2023 sheet; 5:1 drive/charge ratio lacks stated start/end charge levels. WMS/REST and VDA5050 integration do not establish a protocol version, independent safety certification or guaranteed fleet performance."
       ],
       "sources": [
         {
-          "name": "Magazino",
+          "name": "Magazino — SOTO manufacturer page:250 kg, 20 kg per tote and aisle/energy conditions",
           "type": "manufacturer",
           "url": "https://www.magazino.eu/en/production-logistics/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Jungheinrich — Jungheinrich SOTO German technical data, revision 12.2023, text only",
+          "type": "manufacturer",
+          "url": "https://media-live2.prod.scw.jungheinrichcloud.com/resource/blob/1684414/44dc1ae5747aab5c880552694be9f887/download-technical-data-amr-soto-data.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Jungheinrich — Jungheinrich UK SOTO page:240 kg and 1.5 h charging",
+          "type": "manufacturer",
+          "url": "https://www.jungheinrich.co.uk/automation/mobile-robots/soto-1684506",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -6677,16 +6692,24 @@
       "manufacturer": "Magazino",
       "model": "TORU",
       "highlights": [
-        "Mobile picking robot retrieves and stores individual shoeboxes or supported NEO totes",
-        "Suction gripper and lifting column transfer boxes between racks and onboard storage",
-        "Autonomous navigation and Wi-Fi WMS integration support conveyor, cart and putwall handovers"
+        "TORU picks and returns individual shoeboxes or supported special KLTs using a vacuum gripper on a lifting column. The product page permits gripped objects up to 5.8 kg and 390×280×145 mm (L×W×H); these are object limits, not robot mass or chassis dimensions.",
+        "The product page specifies up to 16 objects in its backpack and an action range 0.08–2.5 m above the floor. Sixteen objects is a count, not proof of a 92.8 kg total transport rating or a 2.5 m radial arm reach.",
+        "The February 6, 2025 NEO application combines TORUs, standardized totes, an automated buffer, a separate goods-to-employee cobot and operating software. It states loaded KLT limit 5 kg, content envelope 380×240×140 mm and picking height up to 2.2 m; those application limits remain separate from the general TORU page.",
+        "NEO350+picks/hour, more-than 3000 picks/day suitability, pay-per-pick terms and 6–8 week implementation describe the integrated system/business offer, not an independently measured one-robot throughput, TORU price or guaranteed ROI.",
+        "ARC fleet control connects to warehouse management over WLAN and exposes maps, orders and assistance. Up-to 20 hours/day operation, generic 24/7 positioning and remote monitoring 24 hours/6 days per week are distinct schedules rather than one-charge endurance or a charge duration."
       ],
       "sources": [
         {
-          "name": "Magazino",
+          "name": "Magazino — TORU manufacturer page:gripping envelope, backpack and daily operation",
           "type": "manufacturer",
           "url": "https://www.magazino.eu/en/shoe-logistics/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Magazino — TORU within NEO system, February 6, 2025:application and system-level performance",
+          "type": "manufacturer",
+          "url": "https://www.magazino.eu/en/tech-articles/commissioning-robot-toru-neointralogistics/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [

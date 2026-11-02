@@ -8,6 +8,34 @@ import { getAllRobots } from '../../src/data/robots.js';
 import { t } from '../../src/data/translations.js';
 
 describe('field-specific primary-source reviews', () => {
+  it('separates SOTO tote handling from conflicting total payload and charging claims', () => {
+    const fields = getSpecificationReview('magazino-soto').fields;
+    expect(fields.payload.value).toContain('20 kg per tote');
+    expect(fields.transportPayload.status).toBe('conflicting');
+    expect(fields.transportPayload.value).toContain('250 kg');
+    expect(fields.transportPayload.value).toContain('240 kg');
+    expect(fields.chargingTime.status).toBe('conflicting');
+    expect(fields.speed.status).toBe('conflicting');
+    expect(fields.turningRadius.value).toBe('');
+  });
+
+  it('does not convert TORU object limits or NEO system throughput into robot ratings', () => {
+    const fields = getSpecificationReview('magazino-toru').fields;
+    expect(fields.payload.value).toContain('5.8 kg');
+    expect(fields.payload.value).toContain('5 kg');
+    for (const key of [
+      'weight',
+      'size',
+      'batteryLife',
+      'maxRuntime',
+      'throughput',
+      'transportPayload',
+    ]) {
+      expect(fields[key].value).toBe('');
+    }
+    expect(fields.description.value).toContain('350+picks/hour');
+  });
+
   it('keeps FarmBot preorder tooling separate from the documented v1.8 generation', () => {
     const old = getSpecificationReview('farmbot-genesis-v1-8');
     const next = getSpecificationReview('farmbot-genesis-v1-9');
@@ -489,9 +517,9 @@ describe('field-specific primary-source reviews', () => {
 
   it('reports reviewed fields separately from whole-model certification', () => {
     const coverage = getSpecificationReviewCoverage();
-    expect(coverage.reviewedCatalogModels).toBe(866);
-    expect(coverage.reviewedFields).toBe(14604);
-    expect(coverage.fieldStatuses.conflicting).toBe(257);
+    expect(coverage.reviewedCatalogModels).toBe(868);
+    expect(coverage.reviewedFields).toBe(14654);
+    expect(coverage.fieldStatuses.conflicting).toBe(260);
     expect(coverage.scope).toContain('unmarked fields remain unverified');
     expect(getSpecificationReview('unitree-go2-w').fields.weight.status).toBe('documented');
     expect(getSpecificationReview('unitree-go2-pro').fields.speed.value).toBe('0-3.5 m/s');
