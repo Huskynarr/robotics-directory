@@ -17,12 +17,12 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
 | Eigener Katalog vorher / nachher | 1.255 / 2.013 Modelle/Konfigurationen |
 | Neue Modelle mit Primärbelegen und Produktmerkmalen | 759 |
-| Datierte Produktmerkmal-Datensätze einschließlich 144 bestehender Modelle | 903 |
+| Datierte Produktmerkmal-Datensätze einschließlich 145 bestehender Modelle | 904 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 643 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 632 / 404 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 81 |
+| Firmenfokus-Prüfungen mit Quellen | 82 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 759 ergänzte Modelle ergeben 2.013 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-81 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+82 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 903 Datensätze
+Modellseiten verlinken Markenprofile. Die 904 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 360 haben ausgewählte Datenfeldprüfungen und 158
+haben datierte Merkmalsbelege; 363 haben ausgewählte Datenfeldprüfungen und 155
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -7248,3 +7248,71 @@ links erneut auf dem endgültigen Datenstand gebaut; kein Anwendungsalgorithmus
 geändert. Eigene Testserver, Browser und Hilfsprozesse beendet und geprüft.
 
 Dauerhafter Beleg: `reports/competitor-batch-87-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Realbotix (Batch 88)
+
+Sechs bestehende Identitäten geprüft: Aria, B-Series, M-Series, F-Series,
+Echo Tabletop und Echo Full Body. Keine neue Modellkarte. 102 Felder: 21
+dokumentiert, 74 unbekannt und sieben Roadmap. Ein Herstellerfokus ergänzt.
+Alle 2007 unbeteiligten Katalogzeilen, 722 früheren Feldprüfungen, 81 früheren
+Firmenfokusse und 1961 ursprünglichen Quellenidentitäten bleiben unverändert.
+
+Aria bleibt als historische Demonstrator-Identität erreichbar, bezeichnet im
+aktuellen Echo-Angebot aber eine wählbare Persona auf zwei Hardwareplattformen.
+Die alten unbelegten Preis-, Masse-, Fahrtempo-, Laufzeit- und Alterswerte sind
+entfernt. Aria/Mila/Dave/Amar ergeben keine acht zusätzlichen Roboter; die
+Ereignisnamen David und Melody sind ohne eindeutige Hardwarezuordnung keine
+neuen Standardmodelle. Die CES-Gesprächsdauer ist kein Akkulaufzeittest.
+
+Der Herstellerbericht von 2025 beschreibt B-Series als Büste mit 17 bewegten
+Gesichtspunkten, nicht mit verifizierten 17 mechanischen DOF. M-Series hat 39 DOF
+und bleibt ab der Taille stationär. F-Series hat 44 DOF, eine motorisierte
+Radbasis und eine geschätzte Akkulaufzeit von 4–8 Stunden ohne Testprofil.
+Die frühere Angabe „480 min“ als Maximaldauer ist entfernt. Berichtspreise sind
+historische Startbeträge; aktuelle Lieferkonfigurationen und Erstveröffentlichung
+bleiben unbekannt. Die bisher unbelegten vier Erscheinungsjahre sind entfernt.
+
+Die aktuelle Echo-Matrix wurde mit getrennten Hardware- und Persona-Spalten
+geprüft: Tabletop 17 DOF, ca. 25 lb, 13 × 13 in Grundfläche und 31/32 in Höhe;
+Full Body 39 DOF, ca. 88 lb, 28 × 28 in und 72/77 in. Höhen unterscheiden
+weibliche/männliche Konfigurationen. Full-Body-Finger, Stereo-Kameras und vier
+Mikrofone werden nicht automatisch auf Tabletop übertragen. Produktionswerte
+bleiben angekündigt; Gehen, Last und Akkulaufzeit sind nicht belegt.
+
+Die Preise werden als angezeigte Dollarbeträge ohne unbelegte ISO-Währung
+geführt. Kaufbetrag, 199-Dollar-Reservierung, Pflicht-KI-Abo ab 19,99/Monat,
+Steuern/Versand und optionale Vinci-Hardware bleiben getrennt. Gesprächsstunden
+sind Tarifkontingente. Vinci benötigt Enterprise with Vision; dessen lokale
+Verarbeitung belegt keinen pauschalen Offlinebetrieb sämtlicher KI-Funktionen.
+Die Datenschutzerklärung beschreibt auch externe KI-/Sprachverarbeitung.
+
+Die Veröffentlichung vom 26. Oktober 2026 plant Lieferung ab dem zweiten
+Halbjahr 2027: zunächst 225 Tabletop und 25 Full Body. Reservierungen sind laut
+Bedingungen auf 50 US-Staaten/DC begrenzt; Termine sind unverbindliche Schätzungen.
+Der digitale Zwilling ist für 2027 angekündigt. Volljährigkeit des Kontoinhabers
+ist keine 18–99-Nutzerfreigabe; Wellness-Themen belegen keine klinische Wirkung.
+
+Aktuell: 2013 Katalogeinträge, 643 exakte Herstellernamen, 1036 Profile, 632 mit
+und 404 ohne Modelle. 904 Merkmalsdatensätze (759 Ergänzungen/145 bestehende
+Anreicherungen), 3916 Aussagen, 1693 Produkt-Quellenreferenzen. 82 Firmenfokusse
+auf 78 der 591 Quellen-Firmengruppen. 12084 Felder auf 728 Modellseiten:
+5384 dokumentiert, 6402 unbekannt, 246 widersprüchlich und 52 Roadmap.
+Von 518 ursprünglichen Prüf-Zielen haben 363 Feldprüfungen, 155 warten;
+die 5955 Zielfelder enthalten 2734 dokumentierte, 3058 unbekannte,
+153 widersprüchliche und zehn Roadmap-Werte. Offen bleiben drei Modellidentitäten,
+neun Listingidentitäten und alle 862 Buy-Detailinhalte. Vollständige historische
+Herstellerabdeckung oder Marktführerschaft ist nicht bewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte Browserfälle
+bestanden (16 Realbotix/18 Vergleich, einschließlich acht Axe-Läufen). Build:
+3063 Seiten, ca. 474 MB; Audit: null Fehler/904 Warnungen. Vier zusätzliche
+Warnungen stammen von entfernten unbelegten Erscheinungsjahren. Lint, Format,
+Import-Trockenlauf (null Ergänzungen), Offline-Refresh, sechs Modellseiten/
+Exporte, vollständiger Vergleichsdatentransport und alle 728 gerenderten
+Prüfseiten geprüft. Ein kopierter Scratch-Checker erwartete zunächst 54 statt
+51 Exportfelder aus drei Humanoid-Prüfungen; nach Korrektur bestanden. Keine
+Anwendungsänderung erforderlich. 14 Quellenversuche, 13 HTTP-200-Antworten,
+darunter zwei PDF-Dokumente/28 Textseiten; ein FAQ-DNS-Fehler ausgeschlossen.
+Keine visuelle PDF-Prüfung. Eigene Testprozesse und Browserressourcen beendet.
+Dauerhafter Beleg: `reports/competitor-batch-88-evidence.json`.
