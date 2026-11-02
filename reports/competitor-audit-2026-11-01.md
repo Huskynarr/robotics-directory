@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 592 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.122 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 868 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1034 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.125 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 871 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1037 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 101 |
+| Firmenfokus-Prüfungen mit Quellen | 102 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 868 ergänzte Modelle ergeben 2.122 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 871 ergänzte Modelle ergeben 2.125 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-101 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+102 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1034 Datensätze
+Modellseiten verlinken Markenprofile. Die 1037 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 409 haben ausgewählte Datenfeldprüfungen und 109
+haben datierte Merkmalsbelege; 411 haben ausgewählte Datenfeldprüfungen und 107
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -8986,3 +8986,78 @@ Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte blei
 Vollständige Quellen-/Herstellerpalette und Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `bac134113a25f1fe7bc99b837c49d267b871cf70` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-108-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Badger-Plattform und historische Roboter (Batch 109)
+
+Digital Teammate und PatrolBot als bestehende Einträge erweitert; drei ausdrücklich
+benannte historische Roboter ergänzt: Retail inSight, Retail inSpect und UV Disinfect Robot.
+Fünf Prüfungen mit 168 ausgewählten Feldern: 22 dokumentiert und 146 unbekannt.
+23 zusätzliche Merkmalsaussagen, netto 13 Quellenverweise; sechs bisherige Aussagen
+und Entdeckungsprovenienz erhalten. Ein neuer Firmenfokus, keine neuen CSV-Spalten.
+
+Digital Teammate: aktuelle Plattformankündigung vom 8. Mai 2025 mit angekündigter
+Sommerverfügbarkeit, keine pauschale Datierung aller älteren Badger-Chassis.
+Hersteller nennt 16 Stunden Batteriebetrieb; Text des 2025-Datenblatts ungefähr
+16 Stunden Lithiumbatterie, ohne vollständige Testbedingungen. Autonome Bewegung,
+Hindernisreaktion und Rückkehr zur Ladestation, keine bestimmte Vollladedauer oder
+vermessene Navigations-/Dockingtoleranz. RFID setzt Tags und passende Ausstattung
+voraus; Ablaufdaten erfordern entsprechende Taginformationen. Überkopfkameras,
+Tablet/Media, Mobilaufgaben und APIs bleiben konfigurationsabhängig. Alarmdaten sind
+keine physische Regalauffüllung, Nassreinigung oder garantierte Wirtschaftlichkeit.
+
+PatrolBot: Einführung vom 29. Juni 2020 und Museumspilot vom 9. November 2021 nennen
+zwölf Stunden je Ladung, nicht die 16 Stunden der anderen Plattform. Rundgänge durch
+Geschäfte, Lager und Bürogebäude, Hindernisumfahrung, Livevideo und Bilddokumentation;
+keine Türverriegelung, Brandbekämpfung oder bestätigte Temperaturmessung. TrackTik-
+API und Sicherheitssoftware-Integration als datierte Funktionsbelege. Deborah ist der
+Name des Museumspiloten, kein weiteres Modell; 24/7-Team kein Roboter-Dauerbetrieb.
+
+Retail inSight und inSpect werden in Herstellerlineups 2020/2021 ausdrücklich als
+Regal- bzw. Bodenprüfroboter benannt. Exakter ursprünglicher Modellstart ungeklärt;
+keine Übernahme heutiger Batterien, Maße oder Generationen. Woodman’s-spezifische
+historische Aussagen über >95% Bestandslücken- und >90% Fehlartikel/Preiserkennung
+sind keine unabhängig geprüfte universelle Visionstoleranz. Die Vier-Fuß-Regalsektion
+beschreibt Artikellokalisation, nicht Fahrzeugnavigation. inSpect erkennt/berichtet
+Flüssigkeiten und Abfälle, ist dadurch kein Mop oder Sauger. Aktuelles Badger-Inspect-
+Lösungsbranding beweist keine identische historische Hardware. Marty ist eine
+Händler-Einsatzbenennung mit dokumentiertem Upgrade 2023, keine erzwungene SKU-Aliasregel.
+
+UV Disinfect: Einführung vom 2. Februar 2021 mit UVDI-254-nm-Technik. Frühe Hersteller-
+Tests nennen 40.000 Quadratfuß in etwa zwei Stunden und mindestens 99% Inaktivierung
+bestimmter Testkeime, ohne universelle Dosis-/Layoutgarantie. Weitere Mikrowirksamkeits-
+Tests und Ladenpiloten wurden für Q1 2021 angekündigt; keine Bestätigung abgeschlossener
+Versuche, breiter Auslieferung oder heutiger Verfügbarkeit. Separate Laborergebnisse
+zu UVDI-Technologie sind keine Ganzroboter-/Ganzladen-/klinische Zertifizierung.
+Sicherheitsinterlocks, sichere Personennähe, UV-Dosis und Infektionsschutz bleiben
+ungeprüft. UV-Test-Areal/Zeit bleibt qualifiziert im areaRate-Feld, keine beliebige
+Hochrechnung oder mechanische Reinigungsbreite.
+
+20 erfolgreiche öffentliche Herstellerantworten mit Hashnachweis, darunter ein
+sechsseitiges PDF und eine XML-Sitemap. Zwei geschätzte alte Artikelpfade lieferten
+404 und wurden nicht als Inhaltsbeleg verwendet; anschließend echte Archivlinks
+geprüft. Nur Text und PDF-Wortkoordinaten inspiziert, keine visuelle Bild-/PDF-/
+Videoinspektion, keine Formular-/Demo-/Bestellanfragen. Vollständige historische
+Palette und unabhängig einzigartige USPs/Marktführerschaft nicht bewiesen.
+
+Alle 2120 übrigen vorherigen CSV-Zeilen, 904 bisherigen Feldprüfungen, 101 bisherigen
+Firmenfokusse, 1032 anderen Produktbelege und 1961 Quellenidentitäten unverändert.
+Keine Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle mit
+vier Axe-Läufen, Build 3175 Seiten, Lint/Format, Refresh und Wiederimport ohne
+Ergänzungen bestanden. Audit null Fehler/1027 Hinweise: zwei fehlende Jahresangaben
+für Digital Teammate/PatrolBot aufgelöst und zwei neue für inSight/inSpect ergänzt;
+übrige Hinweiszeilen unverändert. Fünf Seiten/168 Felder/29 Aussagen, Firmenfokus,
+strukturierte Eigenschaften, eine Modell-Exportzeile, ein Firmenproduktziel und
+zwei ursprüngliche Queue-Ziele geprüft. Vergleich insgesamt 1037 Produktbelege,
+4572 Aussagen, 2063 Quellenverweise sowie 909 Prüfungen/15575 Felder. Eigene Browser-,
+Server- und Hilfsprozesse beendet, Port 4321 frei, kein Deployment. Frühere externe
+YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2125 Modelle/Konfigurationen, 871 Ergänzungen und 166 bestehende Modelle mit
+Merkmalsanreicherung, 102 Firmenfokusse. Ursprüngliche Quellenziele: 411 geprüft,
+107 ausstehend von 518, 6956 Felder (3047 dokumentiert, 3733 unbekannt, 165 Konflikte,
+elf Roadmap), Firmenfokus für 98 von 591 Quellengruppen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte offen. Keine vollständige Quellen-/
+Herstellerabdeckung oder Markt-/Suchführerschaft nachgewiesen.
+Datencommit `4e3f9ee77a55ac867dd11b01e3117dbd2fa4304a` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-109-evidence.json`.

@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,122 catalog rows**, with 644 exact
-manufacturer spellings. Batch 108 refreshed the separate heuristic gap file offline
-against all 2,122 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,125 catalog rows**, with 644 exact
+manufacturer spellings. Batch 109 refreshed the separate heuristic gap file offline
+against all 2,125 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1034 dated records across the catalog, including
-166 existing-model enrichments and 868 task additions. All 430 catalog models
+Current product-highlight coverage: 1037 dated records across the catalog, including
+166 existing-model enrichments and 871 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 868 task additions, totaling 2,122.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 871 task additions, totaling 2,125.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 409 have selected-field reviews and 109 await those reviews. Family and
+highlights; 411 have selected-field reviews and 107 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 15,407 fields across 904 catalog models: 6,430 documented,
-8,644 not documented, 263 conflicting and seventy roadmap fields. They do not certify whole
+Selected specification checks cover 15,575 fields across 909 catalog models: 6,452 documented,
+8,790 not documented, 263 conflicting and seventy roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -6751,3 +6751,78 @@ Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte blei
 Vollständige Quellen-/Herstellerpalette und Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `bac134113a25f1fe7bc99b837c49d267b871cf70` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-108-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Badger-Plattform und historische Roboter (Batch 109)
+
+Digital Teammate und PatrolBot als bestehende Einträge erweitert; drei ausdrücklich
+benannte historische Roboter ergänzt: Retail inSight, Retail inSpect und UV Disinfect Robot.
+Fünf Prüfungen mit 168 ausgewählten Feldern: 22 dokumentiert und 146 unbekannt.
+23 zusätzliche Merkmalsaussagen, netto 13 Quellenverweise; sechs bisherige Aussagen
+und Entdeckungsprovenienz erhalten. Ein neuer Firmenfokus, keine neuen CSV-Spalten.
+
+Digital Teammate: aktuelle Plattformankündigung vom 8. Mai 2025 mit angekündigter
+Sommerverfügbarkeit, keine pauschale Datierung aller älteren Badger-Chassis.
+Hersteller nennt 16 Stunden Batteriebetrieb; Text des 2025-Datenblatts ungefähr
+16 Stunden Lithiumbatterie, ohne vollständige Testbedingungen. Autonome Bewegung,
+Hindernisreaktion und Rückkehr zur Ladestation, keine bestimmte Vollladedauer oder
+vermessene Navigations-/Dockingtoleranz. RFID setzt Tags und passende Ausstattung
+voraus; Ablaufdaten erfordern entsprechende Taginformationen. Überkopfkameras,
+Tablet/Media, Mobilaufgaben und APIs bleiben konfigurationsabhängig. Alarmdaten sind
+keine physische Regalauffüllung, Nassreinigung oder garantierte Wirtschaftlichkeit.
+
+PatrolBot: Einführung vom 29. Juni 2020 und Museumspilot vom 9. November 2021 nennen
+zwölf Stunden je Ladung, nicht die 16 Stunden der anderen Plattform. Rundgänge durch
+Geschäfte, Lager und Bürogebäude, Hindernisumfahrung, Livevideo und Bilddokumentation;
+keine Türverriegelung, Brandbekämpfung oder bestätigte Temperaturmessung. TrackTik-
+API und Sicherheitssoftware-Integration als datierte Funktionsbelege. Deborah ist der
+Name des Museumspiloten, kein weiteres Modell; 24/7-Team kein Roboter-Dauerbetrieb.
+
+Retail inSight und inSpect werden in Herstellerlineups 2020/2021 ausdrücklich als
+Regal- bzw. Bodenprüfroboter benannt. Exakter ursprünglicher Modellstart ungeklärt;
+keine Übernahme heutiger Batterien, Maße oder Generationen. Woodman’s-spezifische
+historische Aussagen über >95% Bestandslücken- und >90% Fehlartikel/Preiserkennung
+sind keine unabhängig geprüfte universelle Visionstoleranz. Die Vier-Fuß-Regalsektion
+beschreibt Artikellokalisation, nicht Fahrzeugnavigation. inSpect erkennt/berichtet
+Flüssigkeiten und Abfälle, ist dadurch kein Mop oder Sauger. Aktuelles Badger-Inspect-
+Lösungsbranding beweist keine identische historische Hardware. Marty ist eine
+Händler-Einsatzbenennung mit dokumentiertem Upgrade 2023, keine erzwungene SKU-Aliasregel.
+
+UV Disinfect: Einführung vom 2. Februar 2021 mit UVDI-254-nm-Technik. Frühe Hersteller-
+Tests nennen 40.000 Quadratfuß in etwa zwei Stunden und mindestens 99% Inaktivierung
+bestimmter Testkeime, ohne universelle Dosis-/Layoutgarantie. Weitere Mikrowirksamkeits-
+Tests und Ladenpiloten wurden für Q1 2021 angekündigt; keine Bestätigung abgeschlossener
+Versuche, breiter Auslieferung oder heutiger Verfügbarkeit. Separate Laborergebnisse
+zu UVDI-Technologie sind keine Ganzroboter-/Ganzladen-/klinische Zertifizierung.
+Sicherheitsinterlocks, sichere Personennähe, UV-Dosis und Infektionsschutz bleiben
+ungeprüft. UV-Test-Areal/Zeit bleibt qualifiziert im areaRate-Feld, keine beliebige
+Hochrechnung oder mechanische Reinigungsbreite.
+
+20 erfolgreiche öffentliche Herstellerantworten mit Hashnachweis, darunter ein
+sechsseitiges PDF und eine XML-Sitemap. Zwei geschätzte alte Artikelpfade lieferten
+404 und wurden nicht als Inhaltsbeleg verwendet; anschließend echte Archivlinks
+geprüft. Nur Text und PDF-Wortkoordinaten inspiziert, keine visuelle Bild-/PDF-/
+Videoinspektion, keine Formular-/Demo-/Bestellanfragen. Vollständige historische
+Palette und unabhängig einzigartige USPs/Marktführerschaft nicht bewiesen.
+
+Alle 2120 übrigen vorherigen CSV-Zeilen, 904 bisherigen Feldprüfungen, 101 bisherigen
+Firmenfokusse, 1032 anderen Produktbelege und 1961 Quellenidentitäten unverändert.
+Keine Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle mit
+vier Axe-Läufen, Build 3175 Seiten, Lint/Format, Refresh und Wiederimport ohne
+Ergänzungen bestanden. Audit null Fehler/1027 Hinweise: zwei fehlende Jahresangaben
+für Digital Teammate/PatrolBot aufgelöst und zwei neue für inSight/inSpect ergänzt;
+übrige Hinweiszeilen unverändert. Fünf Seiten/168 Felder/29 Aussagen, Firmenfokus,
+strukturierte Eigenschaften, eine Modell-Exportzeile, ein Firmenproduktziel und
+zwei ursprüngliche Queue-Ziele geprüft. Vergleich insgesamt 1037 Produktbelege,
+4572 Aussagen, 2063 Quellenverweise sowie 909 Prüfungen/15575 Felder. Eigene Browser-,
+Server- und Hilfsprozesse beendet, Port 4321 frei, kein Deployment. Frühere externe
+YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2125 Modelle/Konfigurationen, 871 Ergänzungen und 166 bestehende Modelle mit
+Merkmalsanreicherung, 102 Firmenfokusse. Ursprüngliche Quellenziele: 411 geprüft,
+107 ausstehend von 518, 6956 Felder (3047 dokumentiert, 3733 unbekannt, 165 Konflikte,
+elf Roadmap), Firmenfokus für 98 von 591 Quellengruppen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte offen. Keine vollständige Quellen-/
+Herstellerabdeckung oder Markt-/Suchführerschaft nachgewiesen.
+Datencommit `4e3f9ee77a55ac867dd11b01e3117dbd2fa4304a` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-109-evidence.json`.
