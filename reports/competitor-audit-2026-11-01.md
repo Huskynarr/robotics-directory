@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 98 |
+| Firmenfokus-Prüfungen mit Quellen | 99 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 868 ergänzte Modelle ergeben 2.122 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-98 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+99 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1034 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 403 haben ausgewählte Datenfeldprüfungen und 115
+haben datierte Merkmalsbelege; 405 haben ausgewählte Datenfeldprüfungen und 113
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -8788,3 +8788,79 @@ NAMY-Beziehung, unbenannte Matrix und weitere historische/revidierte Modelle off
 keine vollständige Herstellerpalette, unabhängige Leistungs-/Sicherheitsbestätigung,
 exklusive USP- oder Markt-/Suchführerschaft bewiesen. Datencommit `ac52c1051eabf9f763e9debf5058c2b0a3973ddc` gepusht;
 Main unverändert, kein Deployment. Nachweis: `reports/competitor-batch-105-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Originale Anki-Roboter und SDK-/Dienstgrenzen (Batch 106)
+
+Vector und Cozmo als zwei bestehende ursprüngliche Anki-Identitäten überprüft:
+33 ausgewählte Felder, sieben dokumentiert und 26 nicht dokumentiert. Keine neuen
+Katalogmodelle. Zwei Produktbelege erweitert, alle vier früheren schmalen SDK-
+Merkmalsbelege erhalten; zehn zusätzliche Aussagen, netto neun zusätzliche Verweise.
+Ein Firmenfokus zum historischen SDK-/Roboterumfang, keine neu bewiesene heutige
+DDL-Gesellschafts-/Eigentümer-/Dienst-/Produktionsidentität. Die vorhandene
+Quellen-Firmengruppe Anki (Digital Dream Labs) bleibt unverändert.
+
+Vector: historische SDK-Alpha-Dokumentation nennt direkten Entwicklerzugang vom
+Rechner im selben Netzwerk bei getrennter Companion-App. Kamera, Touch/Nähe,
+Gesichtserkennung/-enrollment und Ausdrucksanimationen sind APIs, keine unabhängigen
+Genauigkeitsmessungen. Charger-Verhalten sucht visuelle Ladestationsmarkierung und
+versucht bei Erfolg anzudocken, keine Erfolgsgarantie. Lift-Höhen 32–92 mm sind
+Software-/Mechanismusgrenzen, keine Außenmaße, Nutzlast oder vollständigen DOF.
+
+Cozmo: historischer SDK-Pfad verlangt Telefon-App mit WLAN-Verbindung zum Roboter
+und USB-Verbindung vom Telefon zum Rechner sowie aktivierten SDK-Modus. Bluetooth
+wird dafür nicht eingesetzt. Gesichtserkennung/-enrollment, Objekt-/Würfelaktionen,
+Anzeige/Animation und separate linke/rechte Radansteuerung sind dokumentiert.
+Vorgegebener Sprachausgabetext beweist kein autonomes Gespräch oder Sprachsteuerung.
+Lift 32–92 mm, Armlänge 66 mm, Drehpunkthöhe 45 mm sind Geometrie, keine Gesamtgröße
+oder Traglast. Die Rückwärtsfahrt zur Ladestation setzt diese direkt hinter dem
+Roboter voraus und stoppt bei Kontakt oder Timeout; kein gleichwertiger Nachweis
+der Vector-Markierungssuche. Beispielgeschwindigkeiten sind keine Fahrleistungswerte.
+
+Frühere geschätzte Gewichte 0,2/0,3 kg, qualitative very-small-Größe,
+45/30-Minuten-Akku-/Maximalzeiten, Alter 0–99/6–99, alter Preis beziehungsweise
+Discontinued-Preistext und Erstveröffentlichungsjahre 2018/2016 sind in den gewählten
+Herstellerquellen nicht explizit belegt und stehen deshalb nicht als dokumentierte
+Datenfelder. Quellen-/Copyright-/SDK-Gerüstzeitstempel sind keine Produktstarts.
+Vorhandene Bilder/Videos bleiben erhalten, ohne Identität oder sichtbaren Inhalt
+neu zu zertifizieren. Vector2-Bilddateiname beweist keine spätere Modellkonfiguration.
+Vector-Sprachsteuerungs-Tag entfernt, weil TTS allein diese Funktion nicht belegt;
+Cozmo-Bluetooth-Tag durch dokumentierten WLAN-Pfad ersetzt. Kein neuer Vergleichs-
+oder CSV-Feldtyp und keine Änderung an der Anwendung.
+
+Zwölf offizielle Anki-GitHub-Rohdokumente erfolgreich mit HTTP200 abgerufen,
+Text/RST/Python-Code und gespeicherte SHA-256 geprüft. Code nicht ausgeführt.
+DDL-Hauptseite HTTP429, weitere Hostabrufe sofort gestoppt. Support scheiterte
+separat an abgelaufenem TLS-Zertifikat, ohne HTTP-Antwort; keine Wiederholung oder
+abgeschaltete Zertifikatsprüfung. Bei der Quellenrecherche kein separater Bild-/PDF-/Videoabruf und keine visuelle Inspektion.
+Spätere Vector2.0-/Cozmo2.0-Hardware, aktuelle App-/Betriebssystemunterstützung,
+Cloud/Abonnement, Verkauf, Auslieferung und vollständige Portfolioprüfung bleiben offen.
+
+Alle 2120 anderen CSV-Zeilen, 898 vorigen Feldprüfungen, 98 bisherigen Firmenfokusse,
+1032 anderen Produktbelege und 1961 Wettbewerber-Quellenidentitäten unverändert.
+807 Unit-Tests/64 Dateien bestanden. Build 3172 Seiten, Audit null Fehler/1027 Hinweise;
+zwei zusätzliche unbekannte Erstveröffentlichungsjahre erklären die gesamte Änderung.
+Lint/Format, Refresh und Wiederimport ohne Ergänzungen bestanden. 16 Desktop-/Mobil-
+Fälle mit einem Worker einschließlich vier Axe-Läufe mit festem YouTube-Testframe
+bestanden. Erster Durchlauf mit echtem Player: 14 bestanden, zwei Vector-Axe-Fälle
+fehlgeschlagen. YouTube-Link mit unzulässigem aria-level und Player-Div mit
+aria-label ohne zulässige Rolle; beide Befunde ausschließlich im fremden Frame.
+Nicht behoben und keine vollständige Live-Player-Barrierefreiheit behauptet.
+Nach bestehender page-quality-Testpraxis festen Videoframe eingesetzt und eigene
+iframe-src/title/loading-Attribute ausdrücklich geprüft. Erster Testframe führte
+zu vier landmark-unique-Befunden wegen eines zusätzlich unbenannten main-Landmarks
+im Frame. Fixture-main mit eigenem aria-label versehen; Produktions-HTML unverändert,
+vollständige 16 Fälle danach erneut ausgeführt. Zwei gerenderte
+Seiten/33 Felder/14 Aussagen, Firmenfokus, strukturierte Daten, zwei Modell-Exportzeilen
+und zwei Queue-Ziele geprüft. Vergleich vollständig gegen 1034 Produktbelege,
+4528 Aussagen, 2044 Quellenverweise und 900 Prüfungen/15280 Felder abgeglichen.
+Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei, kein Deployment.
+
+Gesamt 2122 Modelle/Konfigurationen, 868 Ergänzungen und 166 bestehende Modelle mit
+Merkmalsanreicherung; 99 Firmenfokusse. Ursprüngliche Quellenzielmenge: 405 geprüft
+und 113 ausstehend von 518, 6755 ausgewählte Felder (3012 dokumentiert,
+3568 nicht dokumentiert, 164 Quellenabweichungen, elf Roadmap). Firmenfokus für
+95 von 591 Quellengruppen. Drei Modellidentitäten, neun Listingidentitäten und
+862 Buy-Detailinhalte bleiben offen; keine Vollständigkeit oder Markt-/Suchführung
+bewiesen. Datencommit `375ba3e4c5d334e06f7cf0726d6384a9cbb9b092` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-106-evidence.json`.

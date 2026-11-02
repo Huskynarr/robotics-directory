@@ -147,7 +147,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 403 and 115 still awaiting those reviews.
+selected technical-field reviews for 405 and 113 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -370,6 +370,18 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Original Anki Vector and Cozmo now have 33 selected field checks and expanded
+historical SDK highlights. Unsupported approximate mass, battery/runtime, body
+size, age, price and first-release values are omitted. Vector's same-network SDK
+connection with companion app disconnected differs from Cozmo's app/Wi-Fi/USB
+path. Vector's documented visual-marker charger search differs from Cozmo's
+position-dependent reverse-to-charger operation. Lift geometry is not payload,
+body size or rated speed; scripted speech does not establish autonomous dialogue.
+Original narrow SDK highlights are retained. The Digital Dream Labs homepage
+returned HTTP 429; further product-page requests stopped. Support failed expired-certificate TLS validation;
+current app/cloud/stock, corporate scope and later 2.0 models remain unverified.
+See `reports/competitor-batch-106-evidence.json`.
 
 Neuromeka's mobile/humanoid review adds seven named platforms/configurations:
 ZEN, current NAMI, EIR, historical RAXIS, Moby-RP V3.3 and Moby-Agri 600/650 Type.
@@ -815,18 +827,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-15,247 fields across 898 models, distinguishing documented, undisclosed, conflicting and
+15,280 fields across 900 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 3,980 kB JSON response loads only for search or comparison;
+A separate 3,993 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 4,518 reviewed highlight statements as well as
+Catalog search now includes all 4,528 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -939,7 +951,7 @@ product catalogs; aliases and repeated source mentions are intentionally retaine
 Company exports include source positioning and factual feature themes; reseller
 listing themes are kept separate from claims about a manufacturer. Brand profiles
 and brand search now expose these source-attributed themes. Company-authored focus
-reviews now cover 98 profiles, including autonomy software, open-source platforms,
+reviews now cover 99 profiles, including autonomy software, open-source platforms,
 robotic cafes, welding integration, DealMaker, TGW Logistics and T-Chef. They are recorded in
 `company-evidence.json` and in the company export; directory themes remain unverified.
 Three named TGW RovoFlex systems are included with dated first-party highlights.

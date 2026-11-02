@@ -1,0 +1,1194 @@
+{
+  "batch": 106,
+  "checkedAt": "2026-11-02",
+  "manufacturers": [
+    "Anki"
+  ],
+  "catalogModelsBefore": 2122,
+  "catalogModelsAfter": 2122,
+  "newModels": 0,
+  "existingModelsReviewed": 2,
+  "newSpecificationReviews": 2,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 33,
+  "fieldStatuses": {
+    "not-documented": 26,
+    "documented": 7
+  },
+  "newCompanyFocusReviews": 1,
+  "expandedCompanyFocusReviews": 0,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "allPreconditionsCheckedBeforeTrackedWrites": true,
+  "netNewSelectedFields": 33,
+  "newProductHighlightRecords": 0,
+  "expandedProductHighlightRecords": 2,
+  "additionalHighlightStatements": 10,
+  "netAdditionalProductSourceReferences": 9,
+  "totalProductHighlightRecords": 1034,
+  "totalHighlightStatements": 4528,
+  "totalProductSourceReferences": 2044,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "sourceRecords": 13,
+    "successfulHttp200Responses": 12,
+    "rateLimitedHttpResponses": 1,
+    "additionalTlsFailures": [
+      {
+        "url": "https://support.digitaldreamlabs.com/",
+        "checkedAt": "2026-11-02T18:39:45.184007+00:00",
+        "error": "SSLError: certificate verify failed: certificate has expired",
+        "httpResponse": null,
+        "retried": false,
+        "certificateVerificationDisabled": false
+      }
+    ],
+    "allSavedBodyHashesVerified": true,
+    "proofTerms": {
+      "2": [
+        "alpha version",
+        "not yet feature complete"
+      ],
+      "5": [
+        "companion app is *not* currently connected",
+        "same network as your computer"
+      ],
+      "6": [
+        "def touch",
+        "def proximity",
+        "def camera",
+        "def lift_height_mm"
+      ],
+      "7": [
+        "visual marker",
+        "for self-docking",
+        "MIN_LIFT_HEIGHT_MM = 32.0",
+        "MAX_LIFT_HEIGHT_MM = 92.0"
+      ],
+      "8": [
+        "Cozmo mobile app must be installed",
+        "USB cable",
+        "WiFi connection"
+      ],
+      "9": [
+        "connected to the app via WiFi",
+        "Enable SDK",
+        "say_text"
+      ],
+      "10": [
+        "MIN_LIFT_HEIGHT_MM = 32.0",
+        "MAX_LIFT_HEIGHT_MM = 92.0",
+        "directly behind the robot",
+        "def drive_wheels"
+      ],
+      "11": [
+        "Face recognition and enrollment",
+        "assigning names"
+      ],
+      "12": [
+        "Face recognition and enrollment",
+        "assigning names"
+      ],
+      "13": [
+        "robot.say_text"
+      ]
+    },
+    "plainRstAndPythonBodiesInspected": true,
+    "downloadedSourceCodeExecuted": false,
+    "imageVisualInspectionPerformed": false,
+    "pdfVisualInspectionPerformed": false,
+    "researchBrowsersOpened": 0,
+    "scope": "Twelve successful official Anki raw GitHub text/code responses, one DDL main-host429, one separate support TLS certificate-expired failure with no HTTP response. Host requests stopped after429, no insecure TLS bypass or retry. No current DDL commerce, corporate, app/cloud or model2.0 certification. No image/PDF/video inspection."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.digitaldreamlabs.com/",
+      "finalUrl": "https://www.digitaldreamlabs.com/",
+      "status": 429,
+      "checkedAt": "2026-11-02T18:39:29.805212+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "fa2dd01ed96d38758e89e354653c39f366bc7a34e485772c8aa2174b53a465d3",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain"
+    },
+    {
+      "id": 2,
+      "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst",
+      "finalUrl": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:39:46.685948+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "42bab6ebdaa8951786207f94e26e79318169b29c589714b96703dabbc2cae776",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/index.rst",
+      "finalUrl": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/index.rst",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:39:47.057146+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "97b8a7473837785ec8d705fae669424735034857c52a2c7c3ef6a1f601813279",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/initial.rst",
+      "finalUrl": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/initial.rst",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:40:29.551927+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "ae29b637899a7935166e75adcd96b1ead2f47a8b72632794ab7dd35cb887a1a7",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 5,
+      "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+      "finalUrl": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:40:29.840112+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "1ab79d57e263938ff2d16b190d82d68ae5f40d901e1ccfe31535aab607b3cd92",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 6,
+      "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/robot.py",
+      "finalUrl": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/robot.py",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:40:30.142070+00:00",
+      "bodyFile": "source-6.html",
+      "bodySha256": "90fe23b9dfdd0dfafa1b2d1a2b711b7ab262c0a4323b381fc6a5c15957640347",
+      "textFile": "source-6.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 7,
+      "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/behavior.py",
+      "finalUrl": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/behavior.py",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:40:30.421566+00:00",
+      "bodyFile": "source-7.html",
+      "bodySha256": "3d983b883aa0533a9bdd8390536059f7ef34c3ad322d3b48d9d43f3f2966853e",
+      "textFile": "source-7.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 8,
+      "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+      "finalUrl": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:40:30.701841+00:00",
+      "bodyFile": "source-8.html",
+      "bodySha256": "bf1c4fbe2df5242e691b5df13f3bd7ce2c746ce9585a8b4fe8d955f48ca14438",
+      "textFile": "source-8.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 9,
+      "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/getstarted.rst",
+      "finalUrl": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/getstarted.rst",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:40:30.952916+00:00",
+      "bodyFile": "source-9.html",
+      "bodySha256": "be9d83148ee7d5716c1c1353d6c85d14982f9ef42085dc07fbd31820222f60f7",
+      "textFile": "source-9.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 10,
+      "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/robot.py",
+      "finalUrl": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/robot.py",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:40:31.231017+00:00",
+      "bodyFile": "source-10.html",
+      "bodySha256": "0b1767d73baf108b1a06b8fdb211fdaf09f409ca9073255b9a283b24648d153c",
+      "textFile": "source-10.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 11,
+      "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/faces.py",
+      "finalUrl": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/faces.py",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:41:10.589467+00:00",
+      "bodyFile": "source-11.html",
+      "bodySha256": "dcd78d7adf77c50ed3ae06e827e58a50fa050c0e75296a7a74b172d8568bab7e",
+      "textFile": "source-11.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 12,
+      "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/faces.py",
+      "finalUrl": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/faces.py",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:41:10.850916+00:00",
+      "bodyFile": "source-12.html",
+      "bodySha256": "6518cbf41feef7be2e52431b992e016f1f4919538bb19eb3d147b93813f86742",
+      "textFile": "source-12.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "id": 13,
+      "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/examples/tutorials/01_basics/01_hello_world.py",
+      "finalUrl": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/examples/tutorials/01_basics/01_hello_world.py",
+      "status": 200,
+      "checkedAt": "2026-11-02T18:41:11.114849+00:00",
+      "bodyFile": "source-13.html",
+      "bodySha256": "d6ed8fa7426e00dfd34b790d6e1d60d390bd332bd2b62668298c9c9b7142b847",
+      "textFile": "source-13.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "anki-vector",
+      "manufacturer": "Anki",
+      "model": "Vector",
+      "category": "companion",
+      "new": false,
+      "tags": "ai-powered;companion;touch-control;facial-recognition;programmable;wifi",
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "Motorized lift for compatible light cubes (historical SDK); no rated payload established",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+        "description": "Vector is the historical Anki companion robot addressed by the official Vector SDK Alpha. The SDK exposes camera, proximity/touch sensing, facial recognition/enrollment, expressive animation and text-to-speech. Its documented setup has Vector and the computer on the same network while the companion app is disconnected; this differs from Cozmo’s phone-app/USB SDK path. The behavior API describes attempting to locate a visual charger marker for docking and provides a motorized lift with software height limits of 32–92 mm. Those API limits are not body dimensions, payload or guaranteed docking performance. These records do not establish Vector 2.0 specifications, current voice/cloud service, app compatibility, a current sale price or present delivery.",
+        "releaseDate": "",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "No current complete-device sale price, currency or tax/accessory scope established. Former price and lifecycle text are not current quotations.",
+        "weight": "No exact-model assembled mass established by the selected official SDK sources. Earlier approximate weight is not retained as documented.",
+        "size": "No complete robot outer dimensions established. Lift geometry and qualitative very-small labels do not supply body dimensions.",
+        "batteryLife": "No standardized battery operating duration established. SDK battery/charger state does not establish a 30- or 45-minute endurance rating.",
+        "maxRuntime": "No separately specified maximum continuous runtime established. Prior duplicated battery/runtime estimates are not manufacturer guarantees.",
+        "handType": "Official Vector behavior API explicitly supplies lift positioning and compatible light-cube pickup operations; no dexterous hand or rated general payload is inferred.",
+        "dof": "No complete mechanical DOF count established. Head/lift/wheel APIs are not silently summed into a whole-body count.",
+        "payload": "No rated payload established. SDK cube pickup examples and lift travel limits do not establish a load in kilograms.",
+        "speed": "No rated maximum chassis speed established. Requested motor speeds, API examples and charger reversal commands are not performance ratings.",
+        "terrain": "No complete terrain, slope or outdoor rating established. Cliff detection or navigation software does not prove an environmental qualification.",
+        "ipRating": "No exact-device IP rating established. Consumer indoor positioning is not an ingress certification.",
+        "ageRange": "No chronological manufacturer age rating established. Educational examples and novice programmers do not establish 6–99 or 0–99 eligibility.",
+        "website": "Vector: historical official Anki SDK explicitly supports this qualified website description; current app, firmware and cloud compatibility remain unverified.",
+        "description": "Vector: historical official Anki SDK explicitly supports this qualified description description; current app, firmware and cloud compatibility remain unverified.",
+        "releaseDate": "No explicit exact-model first-release year established in the inspected official documents. SDK scaffold timestamps, repository copyright years and examples are not product launch evidence.",
+        "chargingTime": "No complete-device charging duration established. Docking API presence and battery state are not a charging-time specification."
+      },
+      "highlights": [
+        "Historical Anki SDK exposes Vector sensing, vision, mapping and animation functions",
+        "Documentation labels this SDK as alpha and not feature complete",
+        "The historical Vector SDK setup requires the robot and computer on the same network while the companion app is disconnected. This SDK workflow does not establish current cloud authentication or app-store support.",
+        "The SDK exposes camera, touch/proximity sensing and face recognition/enrollment. Recognition functions and expressive animations are documented interfaces, not independently measured accuracy or human emotion understanding.",
+        "The charger behavior attempts to find a visual marker and dock if successful. The documented search/docking capability is not a guaranteed success rate or proof of current firmware service.",
+        "Motorized lift height limits in the historical behavior API are 32–92 mm above ground. Compatible light-cube handling does not establish rated payload, full body size or a whole-robot DOF count.",
+        "The original Anki SDK remains explicitly labelled alpha and incomplete. These original-Vector sources do not establish later Vector 2.0 hardware, present subscription/cloud access or current retail availability."
+      ],
+      "sources": [
+        {
+          "name": "Anki — historical Vector SDK network and companion-app prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector SDK Alpha overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector robot API and sensors",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector behavior API: lift limits and charger-marker docking",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/behavior.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/faces.py",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-106/source-5.html",
+      "lifecycle": "historical-Anki-identity; current-service-unverified"
+    },
+    {
+      "robotId": "anki-cozmo",
+      "manufacturer": "Anki",
+      "model": "Cozmo",
+      "category": "educational",
+      "new": false,
+      "tags": "app-control;wifi;educational;facial-recognition;programmable",
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "Motorized cube-handling lift (historical SDK); no general payload rating established",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+        "description": "Cozmo is the historical Anki educational robot addressed by the official Cozmo SDK. Its documented developer path uses a Cozmo phone app connected to the robot over Wi-Fi and the phone tethered to a computer by USB, with SDK mode enabled in the app. It supports supplied-text speech, face recognition/enrollment, cube/object actions, expressive display/animation and separate left/right wheel commands. The lift API defines 32–92 mm heights, a 66 mm lift arm and a 45 mm pivot reference; these are mechanism geometry rather than outer dimensions or payload ratings. Its charger backup method assumes the charger is directly behind it, rather than establishing a general charger-search capability. Current app/OS compatibility, availability, lifetime support and service operation remain unverified; original-model data are not automatically later Cozmo 2.0 specifications.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Independent left/right wheel commands in historical SDK; no rated terrain or speed implied"
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "driveMode": "documented"
+      },
+      "notes": {
+        "price": "No current complete-device sale price, currency or tax/accessory scope established. Former price and lifecycle text are not current quotations.",
+        "weight": "No exact-model assembled mass established by the selected official SDK sources. Earlier approximate weight is not retained as documented.",
+        "size": "No complete robot outer dimensions established. Lift geometry and qualitative very-small labels do not supply body dimensions.",
+        "batteryLife": "No standardized battery operating duration established. SDK battery/charger state does not establish a 30- or 45-minute endurance rating.",
+        "maxRuntime": "No separately specified maximum continuous runtime established. Prior duplicated battery/runtime estimates are not manufacturer guarantees.",
+        "handType": "Official Cozmo robot API exposes a motorized lift and cube/object pickup/place actions; this is a lift mechanism, not a rated general-purpose hand or load capacity.",
+        "dof": "No complete mechanical DOF count established. Head/lift/wheel APIs are not silently summed into a whole-body count.",
+        "payload": "No rated payload established. SDK cube pickup examples and lift travel limits do not establish a load in kilograms.",
+        "speed": "No rated maximum chassis speed established. Requested motor speeds, API examples and charger reversal commands are not performance ratings.",
+        "terrain": "No complete terrain, slope or outdoor rating established. Cliff detection or navigation software does not prove an environmental qualification.",
+        "ipRating": "No exact-device IP rating established. Consumer indoor positioning is not an ingress certification.",
+        "ageRange": "No chronological manufacturer age rating established. Educational examples and novice programmers do not establish 6–99 or 0–99 eligibility.",
+        "website": "Cozmo: historical official Anki SDK explicitly supports this qualified website description; current app, firmware and cloud compatibility remain unverified.",
+        "description": "Cozmo: historical official Anki SDK explicitly supports this qualified description description; current app, firmware and cloud compatibility remain unverified.",
+        "releaseDate": "No explicit exact-model first-release year established in the inspected official documents. SDK scaffold timestamps, repository copyright years and examples are not product launch evidence.",
+        "chargingTime": "No complete-device charging duration established. Docking API presence and battery state are not a charging-time specification.",
+        "driveMode": "Official Cozmo robot API independently commands left and right wheel speed; API numerical parameters and examples do not supply a rated maximum chassis speed."
+      },
+      "highlights": [
+        "Manufacturer Python SDK example makes Cozmo speak supplied text",
+        "Example programs use the Cozmo robot API and SDK program runner",
+        "The historical Cozmo SDK requires the mobile app, a Wi-Fi robot/app link and a USB connection from phone to computer, with SDK mode enabled in the app. Bluetooth is not substituted for this documented developer connection path.",
+        "Face recognition/enrollment, cube/object actions, animation and separate left/right wheel commands are documented SDK functions. Supplied-text speech does not by itself establish autonomous conversation or voice-command recognition.",
+        "The SDK lift uses 32–92 mm height limits, a 66 mm arm and a 45 mm pivot-height reference. These geometry values do not establish full body size, general payload or a complete mechanical DOF count.",
+        "The SDK charger-backup method assumes the charger is directly behind the robot and reverses until contact or timeout. It does not establish the same visual-marker charger-search workflow documented for Vector.",
+        "These historical original-Cozmo documents do not prove later Cozmo 2.0 hardware, current app/OS support, stock or cloud/service status. An old discontinued label is not a current numeric price or a verified present lifecycle decision."
+      ],
+      "sources": [
+        {
+          "name": "Anki — historical Cozmo SDK app/Wi-Fi/USB prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK activation and speech walkthrough",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo robot API: lift geometry, wheel commands and charger reversal",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/faces.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo supplied-text speech example",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/examples/tutorials/01_basics/01_hello_world.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-106/source-8.html",
+      "lifecycle": "historical-Anki-identity; current-service-unverified"
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "anki-vector",
+      "manufacturer": "Anki",
+      "model": "Vector",
+      "category": "companion",
+      "new": false,
+      "lifecycle": "historical-Anki-identity; current-service-unverified",
+      "before": {
+        "category": "companion",
+        "manufacturer": "Anki",
+        "model": "Vector",
+        "price": "~250 USD",
+        "weight": "~0.2 kg",
+        "size": "very-small",
+        "batteryLife": "~45 min",
+        "maxRuntime": "45 min",
+        "tags": "ai-powered;companion;touch-control;voice-control;wifi",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "0-99",
+        "website": "https://www.digitaldreamlabs.com/",
+        "image": "images/entertainment/vector2.webp",
+        "video": "https://www.youtube.com/embed/Qy2Z2TWAt6A",
+        "gallery": "",
+        "description": "Voice assistant, games, expressions",
+        "releaseDate": "2018",
+        "chargingTime": ""
+      },
+      "after": {
+        "category": "companion",
+        "manufacturer": "Anki",
+        "model": "Vector",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "ai-powered;companion;touch-control;facial-recognition;programmable;wifi",
+        "handType": "Motorized lift for compatible light cubes (historical SDK); no rated payload established",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+        "image": "images/entertainment/vector2.webp",
+        "video": "https://www.youtube.com/embed/Qy2Z2TWAt6A",
+        "gallery": "",
+        "description": "Vector is the historical Anki companion robot addressed by the official Vector SDK Alpha. The SDK exposes camera, proximity/touch sensing, facial recognition/enrollment, expressive animation and text-to-speech. Its documented setup has Vector and the computer on the same network while the companion app is disconnected; this differs from Cozmo’s phone-app/USB SDK path. The behavior API describes attempting to locate a visual charger marker for docking and provides a motorized lift with software height limits of 32–92 mm. Those API limits are not body dimensions, payload or guaranteed docking performance. These records do not establish Vector 2.0 specifications, current voice/cloud service, app compatibility, a current sale price or present delivery.",
+        "releaseDate": "",
+        "chargingTime": ""
+      }
+    },
+    {
+      "robotId": "anki-cozmo",
+      "manufacturer": "Anki",
+      "model": "Cozmo",
+      "category": "educational",
+      "new": false,
+      "lifecycle": "historical-Anki-identity; current-service-unverified",
+      "before": {
+        "category": "educational",
+        "manufacturer": "Anki",
+        "model": "Cozmo",
+        "price": "Discontinued",
+        "weight": "~0.3 kg",
+        "size": "very-small",
+        "batteryLife": "~30 min",
+        "maxRuntime": "30 min",
+        "tags": "app-control;bluetooth;educational;facial-recognition;programmable",
+        "handType": "forklift",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "6-99",
+        "website": "https://www.digitaldreamlabs.com/",
+        "image": "images/educational/anki-cozmo.webp",
+        "video": "https://www.youtube.com/embed/IRQ7IQ1DqtU",
+        "gallery": "",
+        "description": "Facial recognition, games, coding",
+        "releaseDate": "2016",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "after": {
+        "category": "educational",
+        "manufacturer": "Anki",
+        "model": "Cozmo",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "app-control;wifi;educational;facial-recognition;programmable",
+        "handType": "Motorized cube-handling lift (historical SDK); no general payload rating established",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+        "image": "images/educational/anki-cozmo.webp",
+        "video": "https://www.youtube.com/embed/IRQ7IQ1DqtU",
+        "gallery": "",
+        "description": "Cozmo is the historical Anki educational robot addressed by the official Cozmo SDK. Its documented developer path uses a Cozmo phone app connected to the robot over Wi-Fi and the phone tethered to a computer by USB, with SDK mode enabled in the app. It supports supplied-text speech, face recognition/enrollment, cube/object actions, expressive display/animation and separate left/right wheel commands. The lift API defines 32–92 mm heights, a 66 mm lift arm and a 45 mm pivot reference; these are mechanism geometry rather than outer dimensions or payload ratings. Its charger backup method assumes the charger is directly behind it, rather than establishing a general charger-search capability. Current app/OS compatibility, availability, lifetime support and service operation remain unverified; original-model data are not automatically later Cozmo 2.0 specifications.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Independent left/right wheel commands in historical SDK; no rated terrain or speed implied"
+      }
+    }
+  ],
+  "portfolioDecisions": {
+    "wholePortfolioCompleteness": false,
+    "selectedRobotIdentities": [
+      "Anki Vector (original)",
+      "Anki Cozmo (original)"
+    ],
+    "unverifiedLaterRobotLeads": [
+      "Vector 2.0",
+      "Cozmo 2.0"
+    ],
+    "notAutomaticallyWholeRobotModels": [
+      "Color editions without exact identity evidence",
+      "Replacement batteries",
+      "SDK packages",
+      "Subscription/cloud services",
+      "Escape Pod/OSKR software without verified full robot model"
+    ],
+    "sourceFailures": [
+      {
+        "url": "https://support.digitaldreamlabs.com/",
+        "checkedAt": "2026-11-02T18:39:45.184007+00:00",
+        "error": "SSLError: certificate verify failed: certificate has expired",
+        "httpResponse": null,
+        "retried": false,
+        "certificateVerificationDisabled": false
+      }
+    ],
+    "blockedMainHostResponse": {
+      "id": 1,
+      "url": "https://www.digitaldreamlabs.com/",
+      "finalUrl": "https://www.digitaldreamlabs.com/",
+      "status": 429,
+      "checkedAt": "2026-11-02T18:39:29.805212+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "fa2dd01ed96d38758e89e354653c39f366bc7a34e485772c8aa2174b53a465d3",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain"
+    },
+    "scope": "Two existing original identities corrected and reviewed. Digital Dream Labs product pages were not retrieved after the main homepage returned429; support failed TLS certificate-expiry validation. No forced generation mapping, lifecycle or service claim. Original Anki versus later DDL model/package identities remain separate research leads."
+  },
+  "companyFocuses": [
+    {
+      "brandId": "anki-digital-dream-labs",
+      "name": "Anki (Digital Dream Labs)",
+      "checkedAt": "2026-11-02",
+      "role": "Historical Anki companion/educational robot and SDK developer; current Digital Dream Labs service and ownership scope not reverified",
+      "highlights": [
+        "Official Anki repositories document original Vector and Cozmo robot SDKs. These historical development sources establish named devices and programming interfaces, not the current corporate, retail or cloud-service status of Digital Dream Labs.",
+        "The documented SDK connection paths differ: Vector uses a same-network computer connection while its companion app is disconnected; Cozmo uses its phone app over Wi-Fi with the phone tethered to a computer by USB.",
+        "Vision, face enrollment, touch/proximity features, expressive behavior and cube manipulation have model-specific SDK scope. Scripted speech is not by itself autonomous conversation or an independently verified learning outcome.",
+        "Original Anki SDK sources do not supply later Vector 2.0/Cozmo 2.0 numerical configurations or current subscriptions, app-store availability, production and delivery. No later whole-robot identity is added without usable primary evidence."
+      ],
+      "sources": [
+        {
+          "name": "Anki — historical Vector SDK Alpha overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector SDK network and companion-app prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK app/Wi-Fi/USB prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector behavior API: lift limits and charger-marker docking",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/behavior.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo robot API: lift geometry, wheel commands and charger reversal",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/faces.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/faces.py",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-106/source-2.html",
+      "reviewNotes": "Batch106 historical official Anki SDK text/code review only; downloaded code not executed. Main Digital Dream Labs host returned429, no further requests on that host. Support TLS failed because certificate expired; verification not disabled and no retry. No current corporate/ownership/cloud/app/retail certification; brand grouping/name preserved from existing directory evidence. No image/PDF/video inspection. Original narrow SDK highlights retained and expanded."
+    }
+  ],
+  "priorProductEvidence": [
+    {
+      "row": {
+        "category": "companion",
+        "manufacturer": "Anki",
+        "model": "Vector",
+        "website": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst"
+      },
+      "highlights": [
+        "Historical Anki SDK exposes Vector sensing, vision, mapping and animation functions",
+        "Documentation labels this SDK as alpha and not feature complete"
+      ],
+      "sources": [
+        {
+          "name": "Anki",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-24/raw.githubusercontent.com-anki-vector-python-sdk-master-docs-source-index.rst.json",
+      "reviewScope": "product-highlights",
+      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Historical manufacturer SDK documentation only. Does not verify current cloud services, subscription access, app compatibility or retail availability."
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "Anki",
+        "model": "Cozmo",
+        "website": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/examples/tutorials/01_basics/01_hello_world.py"
+      },
+      "highlights": [
+        "Manufacturer Python SDK example makes Cozmo speak supplied text",
+        "Example programs use the Cozmo robot API and SDK program runner"
+      ],
+      "sources": [
+        {
+          "name": "Anki",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/examples/tutorials/01_basics/01_hello_world.py",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-24/raw.githubusercontent.com-anki-cozmo-python-sdk-master-examples-tutorials-01_basics-01_hello_world.py.json",
+      "reviewScope": "product-highlights",
+      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Narrow historical programming evidence; this scripted text-to-speech example does not establish autonomous conversation or current app/cloud availability."
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "robotId": "anki-vector",
+      "changes": {
+        "price": {
+          "before": "~250 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "~0.2 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "very-small",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "~45 min",
+          "after": ""
+        },
+        "maxRuntime": {
+          "before": "45 min",
+          "after": ""
+        },
+        "tags": {
+          "before": "ai-powered;companion;touch-control;voice-control;wifi",
+          "after": "ai-powered;companion;touch-control;facial-recognition;programmable;wifi"
+        },
+        "handType": {
+          "before": "none",
+          "after": "Motorized lift for compatible light cubes (historical SDK); no rated payload established"
+        },
+        "ageRange": {
+          "before": "0-99",
+          "after": ""
+        },
+        "website": {
+          "before": "https://www.digitaldreamlabs.com/",
+          "after": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst"
+        },
+        "description": {
+          "before": "Voice assistant, games, expressions",
+          "after": "Vector is the historical Anki companion robot addressed by the official Vector SDK Alpha. The SDK exposes camera, proximity/touch sensing, facial recognition/enrollment, expressive animation and text-to-speech. Its documented setup has Vector and the computer on the same network while the companion app is disconnected; this differs from Cozmo’s phone-app/USB SDK path. The behavior API describes attempting to locate a visual charger marker for docking and provides a motorized lift with software height limits of 32–92 mm. Those API limits are not body dimensions, payload or guaranteed docking performance. These records do not establish Vector 2.0 specifications, current voice/cloud service, app compatibility, a current sale price or present delivery."
+        },
+        "releaseDate": {
+          "before": "2018",
+          "after": ""
+        }
+      }
+    },
+    {
+      "robotId": "anki-cozmo",
+      "changes": {
+        "price": {
+          "before": "Discontinued",
+          "after": ""
+        },
+        "weight": {
+          "before": "~0.3 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "very-small",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "~30 min",
+          "after": ""
+        },
+        "maxRuntime": {
+          "before": "30 min",
+          "after": ""
+        },
+        "tags": {
+          "before": "app-control;bluetooth;educational;facial-recognition;programmable",
+          "after": "app-control;wifi;educational;facial-recognition;programmable"
+        },
+        "handType": {
+          "before": "forklift",
+          "after": "Motorized cube-handling lift (historical SDK); no general payload rating established"
+        },
+        "ageRange": {
+          "before": "6-99",
+          "after": ""
+        },
+        "website": {
+          "before": "https://www.digitaldreamlabs.com/",
+          "after": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst"
+        },
+        "description": {
+          "before": "Facial recognition, games, coding",
+          "after": "Cozmo is the historical Anki educational robot addressed by the official Cozmo SDK. Its documented developer path uses a Cozmo phone app connected to the robot over Wi-Fi and the phone tethered to a computer by USB, with SDK mode enabled in the app. It supports supplied-text speech, face recognition/enrollment, cube/object actions, expressive display/animation and separate left/right wheel commands. The lift API defines 32–92 mm heights, a 66 mm lift arm and a 45 mm pivot reference; these are mechanism geometry rather than outer dimensions or payload ratings. Its charger backup method assumes the charger is directly behind it, rather than establishing a general charger-search capability. Current app/OS compatibility, availability, lifetime support and service operation remain unverified; original-model data are not automatically later Cozmo 2.0 specifications."
+        },
+        "releaseDate": {
+          "before": "2016",
+          "after": ""
+        },
+        "driveMode": {
+          "before": "",
+          "after": "Independent left/right wheel commands in historical SDK; no rated terrain or speed implied"
+        }
+      }
+    }
+  ],
+  "validation": {
+    "unitTests": 807,
+    "unitTestFiles": 64,
+    "browserTestCases": 16,
+    "browserPassed": 16,
+    "browserFailed": 0,
+    "axeCases": 4,
+    "browserWorkers": 1,
+    "sourceCodeChanged": false,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "manufacturerProfileMappingChanged": false,
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "buildPages": 3172,
+    "buildSizeApproxMB": 492,
+    "dataErrors": 0,
+    "dataWarnings": 1027,
+    "dataWarningChange": 2,
+    "warningChange": {
+      "previousWarnings": 1025,
+      "currentWarnings": 1027,
+      "added": [
+        "anki-cozmo: release year is not documented",
+        "anki-vector: release year is not documented"
+      ],
+      "removed": [],
+      "unchangedOtherWarningText": true,
+      "reason": "Two former first-release years lack explicit model-release evidence in selected official SDK sources and are omitted; all other warnings unchanged."
+    },
+    "changedFileLint": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "renderedAnkiEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 2,
+      "selectedSpecificationFieldsChecked": 33,
+      "sourceBadgesChecked": 3,
+      "blankFieldsOmitted": 26,
+      "descriptionsChecked": 2,
+      "websitesChecked": 2,
+      "structuredSpecificationPropertiesChecked": 1,
+      "highlightStatementsChecked": 14,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 2,
+      "modelExportRowsChecked": 2,
+      "modelExportTargetsChecked": 2,
+      "modelExportFieldOccurrencesChecked": 33,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 2,
+      "researchQueueFieldsChecked": 33,
+      "scope": "Two original Anki identities: developer connection paths,documented charger behaviors,lift geometry versus rated payload/body/speed,scripted speech versus autonomous conversation. Unsupported old numeric/age/release values omitted; later DDL2.0 and current services unverified. Text/code review only,not executed,no visual inspection."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 2122,
+      "catalogRows": 2122,
+      "unchangedPriorCatalogRows": 2120,
+      "reviewedExistingCatalogRows": 2,
+      "newCatalogRows": 0,
+      "newCsvColumns": [],
+      "categoryTransfers": 0,
+      "previousSpecificationReviewsEntirelyUnchanged": 898,
+      "newSpecificationReviews": 2,
+      "expandedSpecificationReviews": 0,
+      "selectedFields": 33,
+      "previousCompanyFocusReviewsEntirelyUnchanged": 98,
+      "newCompanyFocusReviews": 1,
+      "expandedCompanyFocusReviews": 0,
+      "sourceIdentityRecordsPreserved": 1961,
+      "newDiscoveriesReferenceActualPrimarySources": true,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/brands.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json"
+      ],
+      "correctedRows": [
+        {
+          "robotId": "anki-vector",
+          "changes": {
+            "price": {
+              "before": "~250 USD",
+              "after": ""
+            },
+            "weight": {
+              "before": "~0.2 kg",
+              "after": ""
+            },
+            "size": {
+              "before": "very-small",
+              "after": ""
+            },
+            "batteryLife": {
+              "before": "~45 min",
+              "after": ""
+            },
+            "maxRuntime": {
+              "before": "45 min",
+              "after": ""
+            },
+            "tags": {
+              "before": "ai-powered;companion;touch-control;voice-control;wifi",
+              "after": "ai-powered;companion;touch-control;facial-recognition;programmable;wifi"
+            },
+            "handType": {
+              "before": "none",
+              "after": "Motorized lift for compatible light cubes (historical SDK); no rated payload established"
+            },
+            "ageRange": {
+              "before": "0-99",
+              "after": ""
+            },
+            "website": {
+              "before": "https://www.digitaldreamlabs.com/",
+              "after": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst"
+            },
+            "description": {
+              "before": "Voice assistant, games, expressions",
+              "after": "Vector is the historical Anki companion robot addressed by the official Vector SDK Alpha. The SDK exposes camera, proximity/touch sensing, facial recognition/enrollment, expressive animation and text-to-speech. Its documented setup has Vector and the computer on the same network while the companion app is disconnected; this differs from Cozmo’s phone-app/USB SDK path. The behavior API describes attempting to locate a visual charger marker for docking and provides a motorized lift with software height limits of 32–92 mm. Those API limits are not body dimensions, payload or guaranteed docking performance. These records do not establish Vector 2.0 specifications, current voice/cloud service, app compatibility, a current sale price or present delivery."
+            },
+            "releaseDate": {
+              "before": "2018",
+              "after": ""
+            }
+          }
+        },
+        {
+          "robotId": "anki-cozmo",
+          "changes": {
+            "price": {
+              "before": "Discontinued",
+              "after": ""
+            },
+            "weight": {
+              "before": "~0.3 kg",
+              "after": ""
+            },
+            "size": {
+              "before": "very-small",
+              "after": ""
+            },
+            "batteryLife": {
+              "before": "~30 min",
+              "after": ""
+            },
+            "maxRuntime": {
+              "before": "30 min",
+              "after": ""
+            },
+            "tags": {
+              "before": "app-control;bluetooth;educational;facial-recognition;programmable",
+              "after": "app-control;wifi;educational;facial-recognition;programmable"
+            },
+            "handType": {
+              "before": "forklift",
+              "after": "Motorized cube-handling lift (historical SDK); no general payload rating established"
+            },
+            "ageRange": {
+              "before": "6-99",
+              "after": ""
+            },
+            "website": {
+              "before": "https://www.digitaldreamlabs.com/",
+              "after": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst"
+            },
+            "description": {
+              "before": "Facial recognition, games, coding",
+              "after": "Cozmo is the historical Anki educational robot addressed by the official Cozmo SDK. Its documented developer path uses a Cozmo phone app connected to the robot over Wi-Fi and the phone tethered to a computer by USB, with SDK mode enabled in the app. It supports supplied-text speech, face recognition/enrollment, cube/object actions, expressive display/animation and separate left/right wheel commands. The lift API defines 32–92 mm heights, a 66 mm lift arm and a 45 mm pivot reference; these are mechanism geometry rather than outer dimensions or payload ratings. Its charger backup method assumes the charger is directly behind it, rather than establishing a general charger-search capability. Current app/OS compatibility, availability, lifetime support and service operation remain unverified; original-model data are not automatically later Cozmo 2.0 specifications."
+            },
+            "releaseDate": {
+              "before": "2016",
+              "after": ""
+            },
+            "driveMode": {
+              "before": "",
+              "after": "Independent left/right wheel commands in historical SDK; no rated terrain or speed implied"
+            }
+          }
+        }
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 405,
+        "withoutSelectedFieldReview": 113,
+        "selectedFields": 6755,
+        "selectedFieldStatuses": {
+          "documented": 3012,
+          "not-documented": 3568,
+          "conflicting": 164,
+          "roadmap": 11
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 95,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      }
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 1034,
+      "individualHighlights": 4528,
+      "productSourceReferences": 2044,
+      "specificationReviewModels": 900,
+      "specificationFields": 15280,
+      "publicJsonBytes": 3992963,
+      "catalogScriptBytes": 2217390,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 208,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "pdfVisualInspectionPerformed": false,
+    "imageVisualInspectionPerformed": false,
+    "downloadedSourceCodeExecuted": false,
+    "formsSubmitted": 0,
+    "cartActions": 0,
+    "thirdPartyVideoAudit": {
+      "initialBrowserRun": {
+        "passed": 14,
+        "failed": 2,
+        "total": 16,
+        "affectedCases": [
+          "desktop Vector dark axe",
+          "mobile Vector dark axe"
+        ]
+      },
+      "source": "Live third-party YouTube iframe for existing Vector video Qy2Z2TWAt6A",
+      "observedRules": [
+        {
+          "id": "aria-allowed-attr",
+          "impact": "critical",
+          "target": [
+            "iframe",
+            ".ytmVideoInfoVideoTitle"
+          ],
+          "problem": "YouTube link carries unsupported aria-level=2"
+        },
+        {
+          "id": "aria-prohibited-attr",
+          "impact": "serious",
+          "target": [
+            "iframe",
+            "#movie_player"
+          ],
+          "problem": "YouTube player div carries aria-label without a permitted role"
+        }
+      ],
+      "catalogHtmlDefectIdentified": false,
+      "productionCodeChanged": false,
+      "thirdPartyDefectsFixed": false,
+      "finalTestScope": "Follow existing tests/e2e/page-quality.spec.js deterministic YouTube frame routing. Own embedding src/title/lazy attributes asserted and full resulting document scanned. Does not certify the live external player.",
+      "priorEvidencePreserved": [
+        "selected-browser-live-youtube.log",
+        "selected-browser-live-youtube-result.json",
+        "selected-browser-live-youtube-processes.json"
+      ],
+      "videoVisualInspectionPerformed": false,
+      "videoPlaybackRequested": false,
+      "fixtureCorrection": {
+        "runPassed": 12,
+        "runFailed": 4,
+        "rule": "landmark-unique",
+        "cause": "Initial test iframe fixture introduced a second unnamed main landmark in axe combined-frame scan.",
+        "correction": "Give fixture main its own aria-label Video test fixture; production HTML unchanged.",
+        "priorEvidencePreserved": [
+          "selected-browser-unlabelled-fixture.log",
+          "selected-browser-unlabelled-fixture-result.json",
+          "selected-browser-unlabelled-fixture-processes.json"
+        ]
+      }
+    },
+    "scope": "807 unit tests/64 files;16 desktop/mobile cases including4axe runs with one worker and deterministic third-party video frames. Initial live-YouTube run14passed/2failed due to two ARIA rules inside existing external Vector player; defects remain unresolved. Own iframe src/title/lazy attributes checked. No whole live-player accessibility certification. Two original Anki pages/33fields/14highlights and new company focus checked. All2120 other CSV rows,898 previous field reviews,98 previous company focuses and1032 other product records unchanged. Prior narrow Anki highlights retained;10additional statements,net9additional product source references. Original selected queue now405reviewed/113pending,6755fields. Full comparison delivery1034products/4528claims/2044references and900reviews/15280fields. Twelve successful official Anki raw GitHub documents,one DDL main429 and separate support expired-certificate TLS failure. No retry/insecure TLS bypass,downloaded SDK code execution,image/PDF/video inspection or current DDL app/cloud/service/ownership/retail certification. No first-release dates inferred from source timestamps or copyright. Broader model/generation and competitor detail coverage remains incomplete."
+  },
+  "inspectionCorrectionReport": "reports/competitor-evidence-inspection-correction-2026-11-02.json",
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "73eaad71e59f1d74786e9b87a95b2d3910a66a14",
+    "dataCommit": "375ba3e4c5d334e06f7cf0726d6384a9cbb9b092",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 405,
+    "withoutSelectedFieldReview": 113,
+    "selectedFields": 6755,
+    "selectedFieldStatuses": {
+      "documented": 3012,
+      "not-documented": 3568,
+      "conflicting": 164,
+      "roadmap": 11
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 95,
+    "remainingModelIdentities": 3,
+    "remainingListingIdentities": 9
+  },
+  "goalComplete": false
+}
