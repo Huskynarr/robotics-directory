@@ -22323,37 +22323,103 @@
         "category": "commercial",
         "manufacturer": "Badger Technologies",
         "model": "Digital Teammate",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "Approximately 16 h on one charge (manufacturer page and 2025 fact sheet); duty conditions unspecified",
+        "maxRuntime": "",
         "tags": "commercial;retail;inventory;autonomous-nav;lidar",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Retail sales floors among shoppers, carts and fixtures; no numeric step or slope rating established",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.badger-technologies.com/platform/robots.html",
-        "description": "Autonomous retail platform scans shelves for out-of-stocks, misplaced products, pricing and planogram discrepancies. Cameras and rotating LiDAR combine store navigation with three-dimensional inventory data capture. Digital Teammate software supports store-system integration and firmware-based feature updates.",
-        "batteryLife": "up to 16 h; manufacturer rating"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Digital Teammate is Badger’s current named retail robot/software platform, publicly launched on May 8, 2025 with summer availability announced. Cameras, rotating LiDAR and other sensors support autonomous shelf and floor monitoring around shoppers; the robot returns to its charging station after a cycle. Manufacturer sources state an approximately sixteen-hour battery, without full duty/test conditions. RFID item confirmation requires tagged products and configured equipment; overhead cameras, tablet/retail media and integrations retain deployment scope. Alerts guide store associates rather than proving physical shelf replenishment or spill cleanup. Historical Retail inSight/inSpect and named Marty deployments are not all certified as the same hardware revision.",
+        "releaseDate": "2025",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous in-store shelf/floor monitoring with obstacle response and return to charging station",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Autonomous retail platform scans shelves for out-of-stocks, misplaced products, pricing and planogram discrepancies",
         "Cameras and rotating LiDAR combine store navigation with three-dimensional inventory data capture",
-        "Digital Teammate software supports store-system integration and firmware-based feature updates"
+        "Digital Teammate software supports store-system integration and firmware-based feature updates",
+        "The current robot page states a sixteen-hour single-charge shift; the 2025 fact sheet qualifies its lithium battery as approximately sixteen hours. Load, route and test conditions are unspecified; this is not PatrolBot or UV Disinfect endurance.",
+        "Sensors and rotating LiDAR support autonomous retail-floor navigation, obstacle response and return to charging after a cycle. Neither a numeric navigation/docking tolerance nor a full charging duration is supplied.",
+        "RFID confirms tagged items in equipped deployments; expiration-date workflows depend on tag information. The supplier’s over-99% RFID accuracy claim is not a universal vision score or independent inventory guarantee.",
+        "The May 8, 2025 platform announcement includes customer-facing tablet guidance, retail media and mobile tasks. Summer availability was announced then; it does not prove every present bundle, stock position or a first-launch year for all older Badger robots.",
+        "Upward-facing inventory cameras, cloud dashboards, APIs and per-store recurring service support configured workflows. Shelf-gap and spill alerts call for staff action; they do not establish robot restocking, scrubbing, zero downtime or measured ROI."
       ],
       "sources": [
         {
-          "name": "Badger Technologies",
+          "name": "Badger Technologies — Digital Teammate robot platform and sixteen-hour battery",
           "type": "manufacturer",
           "url": "https://www.badger-technologies.com/platform/robots.html",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "Badger Technologies",
+          "name": "Badger Technologies — in-store workflow FAQ and per-store service lease",
           "type": "manufacturer",
           "url": "https://www.badger-technologies.com/platform/badger-in-the-store.html",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — 2025 Digital Teammate fact sheet; extracted text only",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/dam/jcr:c4edb6ce-13ce-4766-85c5-2a514217cb19/Badger%20Fact%20Sheet_08_Digital%20(1).pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — current FAQ: configuration, tagged products, privacy and recurring service",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/resource/faq.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — Digital Teammate launch May 8, 2025; summer availability announcement",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/badger-technologies-launches-digital-teammate-platform-powered-by-next-generation-multipurpose-autonomous-robots.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — RFID-equipped deployment functions and supplier accuracy claim",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/solutions/rfid-capabilities.html",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/686facd2-98e9-4ef5-ba9b-dcba24cea3c4",
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-17/badger-technologies.com-platform-robots.html.json",
-      "reviewNotes": "Manufacturer uses Digital Teammate as the platform name and Badger robot as a generic label. This is a named platform entry, not an exact chassis-generation claim. RFID, overhead monitoring and other solutions may require different equipment/subscriptions; not every option is assumed standard. Manufacturer describes a per-store lease with service, but no numerical rate is disclosed. Robot data alerts do not mean the robot physically restocks shelves, cleans spills or guarantees customer safety or ROI."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-109/source-1.html",
+      "reviewNotes": "Batch 109 public manufacturer evidence: current Digital Teammate platform and PatrolBot plus explicitly named historical Retail inSight, Retail inSpect and UV Disinfect Robot. Current platform launch 2025 does not date all old Badger chassis. Sixteen-hour current battery and historical twelve-hour PatrolBot claims kept separate; no inherited historical dimensions or endurance. RFID requires tags/equipment; alerts do not physically restock or clean. UV early tests and planned 2021 pilots do not establish full delivery, present supply, independent efficacy or occupied-space safety. Marty and Deborah are deployment names, not extra forced SKU identities. Existing discovery provenance/highlights retained. Extracted HTML/PDF text only; no visual image/PDF/video inspection.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -29699,30 +29765,84 @@
         "category": "commercial",
         "manufacturer": "Badger Technologies",
         "model": "PatrolBot",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "12 h on one charge (manufacturer 2020 introduction and 2021 museum pilot); duty conditions unspecified",
+        "maxRuntime": "",
         "tags": "commercial;security;patrol;autonomous;indoor",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Stores, warehouses and office buildings in introduction; no numeric step, grade or weather rating established",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.badger-technologies.com/solutions/patrolbot.html",
-        "description": "Indoor security patrol robot that follows guard-management tours, avoids obstacles and provides live video and incident images to an operations center."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "PatrolBot is Badger’s named autonomous security robot, introduced on June 29, 2020. Guard-management software defines tours; the robot can alter routes around obstacles and stream video/location to command-center staff. Cameras document doors, windows, fire equipment and floor hazards; this does not imply manipulating those objects. The introduction and November 2021 museum pilot both state twelve hours per charge with duty conditions unspecified. TrackTik integration and SDK/API ecosystem statements remain dated deployment functions. The pilot robot nickname Deborah is not another hardware model; Digital Teammate’s sixteen-hour battery and UV treatment are not inherited.",
+        "releaseDate": "2020",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous guard-software tour execution with obstacle-route adjustment and live operator video",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Executes patrol tours defined through guard-management software and changes routes around obstacles",
         "Live video and robot location can be viewed by command-center staff",
-        "Captures incident images of doors, windows, fire extinguishers and obstructions during patrols"
+        "Captures incident images of doors, windows, fire extinguishers and obstructions during patrols",
+        "The June 29, 2020 introduction and November 9, 2021 museum-pilot report both state twelve hours on a single charge. This is a dated supplier figure, not Digital Teammate’s sixteen-hour battery or a 24/7 uninterrupted endurance guarantee.",
+        "Stores, warehouses and office buildings are named patrol environments. No quantified travel speed, step/grade limit, IP rating or full-charge time is supplied by the inspected exact-model sources.",
+        "TrackTik API integration supports tour scheduling, checkpoint logs, incident reports, messaging and alerts; the 2020 partnership and 2021 pilot retain their dates. A platform integration does not establish every security-software vendor or legal compliance.",
+        "Cameras inspect whether doors/windows and safety equipment appear in the expected state. This is observation/reporting, not robotic door locking, fire suppression, temperature screening or physically removing hazards.",
+        "The museum’s 2021 pilot named its PatrolBot Deborah; this is deployment naming, not another robot SKU. Supplier relative labor-cost and workforce-multiplier claims remain unverified independently."
       ],
       "sources": [
         {
-          "name": "Badger Technologies — manufacturer product documentation",
+          "name": "Badger Technologies — PatrolBot current product functions",
           "type": "manufacturer",
           "url": "https://www.badger-technologies.com/solutions/patrolbot.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — PatrolBot introduction June 29, 2020; named retail robot lineup",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/badger-technologies-introduces-patrolbot.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — PatrolBot museum pilot November 9, 2021; Deborah deployment nickname",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/badger-technologies-deploys-patrolbot-autonomous-security-robot-at-the-national-veterans-memorial-and-museum.html",
           "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/companies/badger-technologies"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-29/badger-technologies.com-solutions-patrolbot.html.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Manufacturer-authored product functions only. Unknown numeric specifications, current availability and independent performance outcomes are not inferred."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-109/source-2.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 109 public manufacturer evidence: current Digital Teammate platform and PatrolBot plus explicitly named historical Retail inSight, Retail inSpect and UV Disinfect Robot. Current platform launch 2025 does not date all old Badger chassis. Sixteen-hour current battery and historical twelve-hour PatrolBot claims kept separate; no inherited historical dimensions or endurance. RFID requires tags/equipment; alerts do not physically restock or clean. UV early tests and planned 2021 pilots do not establish full delivery, present supply, independent efficacy or occupied-space safety. Marty and Deborah are deployment names, not extra forced SKU identities. Existing discovery provenance/highlights retained. Extracted HTML/PDF text only; no visual image/PDF/video inspection."
     },
     {
       "row": {
@@ -59125,6 +59245,218 @@
       ],
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-105/archive-source-8.pdf",
       "reviewNotes": "Batch105 selected mobile/humanoid identities. Three fresh HTML responses plus three saved batch104 sources. PDF text and coordinates only, pages 4/14/15; no visual inspection. Current NAMI counted once; historical NAMY relationship unresolved. Unnamed application columns not mapped. Body/hand DOF, wheel/caster/arm/platform loads and camera-lift versus chassis scope retained. EIR 2025 article production plans do not establish actual 2026 production/delivery. Mobile catalog marked KOREA ONLY; no independent performance, medical approval, exclusive USP or full portfolio coverage established."
+    },
+    {
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "Badger Technologies",
+        "model": "UV Disinfect Robot",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;uv-clean;disinfection;autonomous-nav;historical;pilot-announced",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.badger-technologies.com/news/press-releases/badger-technologies-uv-disinfect-robot.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Badger’s UV Disinfect Robot was publicly introduced on February 2, 2021 as an autonomous retail UV-C treatment robot using UVDI 254 nm technology. The release reports early testing of approximately 40,000 square feet in two hours and 99% or greater inactivation for named test pathogens; detailed exposure, test conditions and independent full-robot validation are not established here. It announced micro-efficacy testing and in-store pilots for the first quarter of 2021. Separate UVDI technology laboratory results do not certify whole-store or whole-robot clinical efficacy. Present supply, battery duration, occupancy interlocks and safe use around people remain unverified.",
+        "releaseDate": "2021",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "40,000 ft² in about 2 h (manufacturer early testing, February 2021); not a general rated productivity guarantee",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "discoveredIn": [
+        "https://www.badger-technologies.com/news/press-releases/badger-technologies-uv-disinfect-robot.html"
+      ],
+      "highlights": [
+        "The February 2, 2021 introduction names a separate autonomous UV Disinfect robot fitted with UVDI 254 nm UV-C technology. It is distinct from the shelf/floor sensing robots and mechanical scrubbing.",
+        "Manufacturer early tests report 40,000 square feet in about two hours. This qualified test-area/time pair is not extrapolated into guaranteed coverage for arbitrary store layouts or exposure conditions.",
+        "The release reports 99% or greater inactivation for specified early-test pathogens. Separate UVDI component-technology laboratory claims are not silently certified whole-robot, whole-store or clinical outcomes.",
+        "Micro-efficacy testing and store pilots were planned for the first quarter of 2021. Public introduction is established; completed trials, full commercial delivery and present availability are not.",
+        "Occupancy restrictions, UV dose, interlocks, whole-system safety certification and current battery/charging specifications are not established. No safe occupied-space operation or guaranteed infection prevention is claimed."
+      ],
+      "sources": [
+        {
+          "name": "Badger Technologies — UV Disinfect robot introduction February 2, 2021; early tests and planned pilots",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/badger-technologies-uv-disinfect-robot.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-109/source-19.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 109 public manufacturer evidence: current Digital Teammate platform and PatrolBot plus explicitly named historical Retail inSight, Retail inSpect and UV Disinfect Robot. Current platform launch 2025 does not date all old Badger chassis. Sixteen-hour current battery and historical twelve-hour PatrolBot claims kept separate; no inherited historical dimensions or endurance. RFID requires tags/equipment; alerts do not physically restock or clean. UV early tests and planned 2021 pilots do not establish full delivery, present supply, independent efficacy or occupied-space safety. Marty and Deborah are deployment names, not extra forced SKU identities. Existing discovery provenance/highlights retained. Extracted HTML/PDF text only; no visual image/PDF/video inspection."
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Badger Technologies",
+        "model": "Retail inSight",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;retail;inventory;shelf-scanning;autonomous-nav;historical",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.badger-technologies.com/news/press-releases/badger-technologies-introduces-patrolbot.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Retail inSight is explicitly named as a Badger shelf-scanning robot in the June 2020 PatrolBot introduction and February 2021 UV robot lineup. The July 2020 Woodman’s deployment describes out-of-stock, misplaced-product, price and planogram checks plus item-location data for shopping applications. Historical deployment accuracy and four-foot shelf-section location claims do not establish universal machine-vision or navigation precision. No exact first-release year, current hardware generation, price, mass, dimensions or battery duration is established; current Digital Teammate specifications are not inherited.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous retail shelf-scanning robot (manufacturer 2020/2021 named lineup)",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "discoveredIn": [
+        "https://www.badger-technologies.com/news/press-releases/badger-technologies-introduces-patrolbot.html"
+      ],
+      "highlights": [
+        "Manufacturer releases from June 2020 and February 2021 explicitly call Retail inSight a shelf-scanning robot for out-of-stock, planogram and price-integrity issues. It remains a historical named configuration, not a proved alias of the 2025 Digital Teammate revision.",
+        "The July 28, 2020 Woodman’s deployment uses inSight-equipped robots to supply shelf availability, pricing and item-location information for staff and mobile shopping applications; alerts do not physically restock products.",
+        "Woodman’s-specific claims of over 95% out-of-stock detection and over 90% incorrect/mispriced-item detection are historical supplier results. They are not independently verified universal vision ratings or current SLA guarantees.",
+        "The historical four-foot aisle-section item location is product-location granularity, not robot navigation tolerance. Present battery, dimensions, charging time and exact initial release year remain unverified."
+      ],
+      "sources": [
+        {
+          "name": "Badger Technologies — PatrolBot introduction June 29, 2020; named retail robot lineup",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/badger-technologies-introduces-patrolbot.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — UV Disinfect robot introduction February 2, 2021; early tests and planned pilots",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/badger-technologies-uv-disinfect-robot.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — Retail inSight Woodman’s deployment July 28, 2020",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/woodmans-markets-rolls-out-badger-technologies-grocery-robots.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-109/source-18.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 109 public manufacturer evidence: current Digital Teammate platform and PatrolBot plus explicitly named historical Retail inSight, Retail inSpect and UV Disinfect Robot. Current platform launch 2025 does not date all old Badger chassis. Sixteen-hour current battery and historical twelve-hour PatrolBot claims kept separate; no inherited historical dimensions or endurance. RFID requires tags/equipment; alerts do not physically restock or clean. UV early tests and planned 2021 pilots do not establish full delivery, present supply, independent efficacy or occupied-space safety. Marty and Deborah are deployment names, not extra forced SKU identities. Existing discovery provenance/highlights retained. Extracted HTML/PDF text only; no visual image/PDF/video inspection."
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Badger Technologies",
+        "model": "Retail inSpect",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;retail;hazard-detection;floor-scanning;autonomous-nav;historical",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.badger-technologies.com/news/press-releases/badger-technologies-introduces-patrolbot.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Retail inSpect is explicitly named as Badger’s floor-scanning hazard-detection robot in manufacturer releases from June 2020 and February 2021. It identifies spilled liquids and debris for reporting and staff response. The current hazard solution uses Badger Inspect branding and discusses incident records/images, but does not prove an identical historical hardware generation. No mechanical scrubbing, physical debris pickup, guaranteed accident prevention or standard current battery specification is established. Marty is retailer deployment naming, not an independently proved exact SKU alias for every inSpect revision.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous floor-scanning hazard-detection robot (manufacturer 2020/2021 named lineup)",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "discoveredIn": [
+        "https://www.badger-technologies.com/news/press-releases/badger-technologies-introduces-patrolbot.html"
+      ],
+      "highlights": [
+        "The June 2020 and February 2021 lineups explicitly identify Retail inSpect as a floor-scanning robot for spilled liquids and debris. Historical named robot scope is retained without assigning the 2025 platform’s hardware values.",
+        "Floor hazards such as spilled liquid and loose debris are detected and reported for human response. Hazard monitoring is not a mop, scrubber, vacuum or a guarantee that accidents cannot occur.",
+        "The current Badger Inspect hazard-solution page describes incident records/images and compliance workflows; identical hardware to every historical inSpect is not established.",
+        "Marty deployment names and changing store capabilities are not enough to certify an exact inSpect SKU alias. Exact mass, dimensions, speed, endurance, charge duration and first-introduction date remain unknown."
+      ],
+      "sources": [
+        {
+          "name": "Badger Technologies — PatrolBot introduction June 29, 2020; named retail robot lineup",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/badger-technologies-introduces-patrolbot.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — UV Disinfect robot introduction February 2, 2021; early tests and planned pilots",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/news/press-releases/badger-technologies-uv-disinfect-robot.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Badger Technologies — Badger Inspect hazard-detection solution; not a new chassis identity",
+          "type": "manufacturer",
+          "url": "https://www.badger-technologies.com/solutions/hazard-mitigation.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-109/source-18.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 109 public manufacturer evidence: current Digital Teammate platform and PatrolBot plus explicitly named historical Retail inSight, Retail inSpect and UV Disinfect Robot. Current platform launch 2025 does not date all old Badger chassis. Sixteen-hour current battery and historical twelve-hour PatrolBot claims kept separate; no inherited historical dimensions or endurance. RFID requires tags/equipment; alerts do not physically restock or clean. UV early tests and planned 2021 pilots do not establish full delivery, present supply, independent efficacy or occupied-space safety. Marty and Deborah are deployment names, not extra forced SKU identities. Existing discovery provenance/highlights retained. Extracted HTML/PDF text only; no visual image/PDF/video inspection."
     }
   ]
 }
