@@ -95221,6 +95221,1079 @@
           "note": "D6: Exact-model catalog positioning-repeatability value as printed; not force-sensing accuracy, path accuracy or independently measured precision. No unprinted ± convention inferred."
         }
       }
+    },
+    {
+      "robotId": "neuromeka-zen",
+      "manufacturer": "Neuromeka",
+      "model": "ZEN",
+      "sources": [
+        {
+          "name": "Neuromeka — English catalog actual cover V20251205; pages 4, 14 and 15 text/coordinate review",
+          "type": "manufacturer",
+          "url": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — manufacturer history; September 2025 humanoid unveiling",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/history",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-105/archive-source-8.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-system quote, currency or equipment/tax scope established."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model assembled mass established. Other platforms or component ratings are not substituted."
+        },
+        "size": {
+          "value": "Foldable height 1.46–1.86 m; full outer dimensions unspecified",
+          "status": "documented",
+          "note": "ZEN: exact named-model manufacturer evidence supports this qualified size value; its stated measurement and configuration scope is retained."
+        },
+        "batteryLife": {
+          "value": "8 h listed operating duration; load/test conditions unspecified",
+          "status": "documented",
+          "note": "ZEN: exact named-model manufacturer evidence supports this qualified batteryLife value; its stated measurement and configuration scope is retained."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous operation guarantee established. Marketing use cases and battery capacity are not runtime tests."
+        },
+        "handType": {
+          "value": "Two dexterous hands; four fingers and 13 active DOF per hand (manufacturer)",
+          "status": "documented",
+          "note": "ZEN: exact named-model manufacturer evidence supports this qualified handType value; its stated measurement and configuration scope is retained."
+        },
+        "dof": {
+          "value": "21 body DOF excluding dexterous hands (19 joints + 2 drive wheels); each hand 13 active DOF",
+          "status": "documented",
+          "note": "Exact ZEN table explicitly excludes dexterous hands from 21 body DOF (19 joints + 2 drive wheels); each hand separately has 13 active DOF. No inferred combined total."
+        },
+        "payload": {
+          "value": "5 kg rated horizontal load per arm including hand; not whole-body transport payload",
+          "status": "documented",
+          "note": "Exact ZEN table labels rated horizontal load of an arm including hand at 5 kg; this is explicitly per arm, not transport payload of the complete robot."
+        },
+        "speed": {
+          "value": "Maximum chassis travel speed 0.6 m/s (manufacturer)",
+          "status": "documented",
+          "note": "ZEN: exact named-model manufacturer evidence supports this qualified speed value; its stated measurement and configuration scope is retained."
+        },
+        "terrain": {
+          "value": "Manufacturer chassis limits: obstacle crossing 2 cm and gradeability 7°; independent terrain validation absent",
+          "status": "documented",
+          "note": "ZEN: exact named-model manufacturer evidence supports this qualified terrain value; its stated measurement and configuration scope is retained."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-platform ingress rating established. Agricultural/industrial positioning does not itself establish an IP rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Industrial, service and research positioning do not establish a chronological user age rating."
+        },
+        "website": {
+          "value": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "status": "documented",
+          "note": "ZEN: exact named-model manufacturer evidence supports this qualified website value; its stated measurement and configuration scope is retained."
+        },
+        "description": {
+          "value": "ZEN is explicitly named in Neuromeka’s V20251205 catalog as a wheeled humanoid with foldable height 1.46–1.86 m. Its 21 body DOF exclude dexterous hands and comprise 19 joints plus two drive wheels. Each four-finger hand has 13 active DOF. The table specifies 5 kg horizontal load per arm including hand and 96.5 cm maximum arm including-hand length, which is not substituted for conventional reach. It lists 0.6 m/s maximum chassis speed, 40 Ah battery capacity, eight-hour operation and six-hour charging without complete test conditions. Arm repeat positioning accuracy 0.5 mm and chassis point-to-point repeatability 1.5 cm are distinct measures. A September 2025 unveiling is documented, but current delivery, independent performance and first-sale date remain unverified.",
+          "status": "documented",
+          "note": "ZEN: exact named-model manufacturer evidence supports this qualified description value; its stated measurement and configuration scope is retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. A family unveiling, catalog date, CES plan or planned production milestone is not a verified first sale."
+        },
+        "chargingTime": {
+          "value": "6 h listed charging time; initial/final charge conditions unspecified",
+          "status": "documented",
+          "note": "ZEN: exact named-model manufacturer evidence supports this qualified chargingTime value; its stated measurement and configuration scope is retained."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The ZEN table labels 96.5 cm maximum arm including-hand length, not a conventional mechanical reach envelope. Preserve as a highlight without filling the reach field."
+        }
+      }
+    },
+    {
+      "robotId": "neuromeka-nami",
+      "manufacturer": "Neuromeka",
+      "model": "NAMI",
+      "sources": [
+        {
+          "name": "Neuromeka — current humanoid lineup: NAMI and EIR",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/humanoids",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — manufacturer history; September 2025 humanoid unveiling",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/history",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — English catalog actual cover V20251205; pages 4, 14 and 15 text/coordinate review",
+          "type": "manufacturer",
+          "url": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-105/source-1.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-system quote, currency or equipment/tax scope established."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model assembled mass established. Other platforms or component ratings are not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-body dimensions established. Arm length, sensor lift and photographs are not body dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model battery-only operating duration established. Battery charge capacity alone does not establish endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous operation guarantee established. Marketing use cases and battery capacity are not runtime tests."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or gripper configuration established. Generic family manipulation features do not establish bundled hardware."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model mechanical DOF count established. Wheel, camera, body and hand counts retain separate scopes."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform payload established. Per-wheel/per-caster and per-arm load ratings are not total body transport payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact platform travel speed established. Arm precision, camera lift speed and marketing agility are different metrics."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model terrain qualification established. A mobile cart or general family applications do not prove autonomous outdoor or bipedal mobility."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-platform ingress rating established. Agricultural/industrial positioning does not itself establish an IP rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Industrial, service and research positioning do not establish a chronological user age rating."
+        },
+        "website": {
+          "value": "https://en.neuromeka.com/humanoids",
+          "status": "documented",
+          "note": "NAMI: exact named-model manufacturer evidence supports this qualified website value; its stated measurement and configuration scope is retained."
+        },
+        "description": {
+          "value": "NAMI is the exact name shown on Neuromeka’s current humanoid platform page. The page positions the lineup around VLA, field-data collection, teleoperation and imitation learning, but its numerical specification is carried in image content not visually inspected here. Manufacturer history and the older catalog separately use NAMY; a current table image has NAMY.png alt metadata. These clues do not establish a rename, equivalence or distinct hardware. NAMI is retained as the current named identity while NAMY remains an unresolved historical-name lead. No unnamed service/factory/surgical table is assigned to NAMI.",
+          "status": "documented",
+          "note": "NAMI: exact named-model manufacturer evidence supports this qualified description value; its stated measurement and configuration scope is retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. A family unveiling, catalog date, CES plan or planned production milestone is not a verified first sale."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model complete-system charging duration established. Charger power and battery capacity alone do not establish duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No conventional exact-model maximum mechanical arm reach established. Overall arm/hand length, sensor lift height and another platform table are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "neuromeka-eir",
+      "manufacturer": "Neuromeka",
+      "model": "EIR",
+      "sources": [
+        {
+          "name": "Neuromeka — EIR announcement published December 29, 2025; company-hosted Pinpointnews article",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/post/neuromeka-to-unveil-eir-a-physical-ai-humanoid-platform-at-ces-2026",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — current humanoid lineup: NAMI and EIR",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/humanoids",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — manufacturer history; September 2025 humanoid unveiling",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/history",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — English catalog actual cover V20251205; pages 4, 14 and 15 text/coordinate review",
+          "type": "manufacturer",
+          "url": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-105/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-system quote, currency or equipment/tax scope established."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model assembled mass established. Other platforms or component ratings are not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-body dimensions established. Arm length, sensor lift and photographs are not body dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model battery-only operating duration established. Battery charge capacity alone does not establish endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous operation guarantee established. Marketing use cases and battery capacity are not runtime tests."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or gripper configuration established. Generic family manipulation features do not establish bundled hardware."
+        },
+        "dof": {
+          "value": "18 independently actuated upper-body axes: 7 per arm + 4 across neck and waist",
+          "status": "documented",
+          "note": "Exact EIR article explicitly supplies 18 independently actuated upper-body axes: 7 per arm plus 4 neck/waist. Mobile-base/hand DOF are not included or inferred."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform payload established. Per-wheel/per-caster and per-arm load ratings are not total body transport payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact platform travel speed established. Arm precision, camera lift speed and marketing agility are different metrics."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model terrain qualification established. A mobile cart or general family applications do not prove autonomous outdoor or bipedal mobility."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-platform ingress rating established. Agricultural/industrial positioning does not itself establish an IP rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Industrial, service and research positioning do not establish a chronological user age rating."
+        },
+        "website": {
+          "value": "https://en.neuromeka.com/post/neuromeka-to-unveil-eir-a-physical-ai-humanoid-platform-at-ces-2026",
+          "status": "documented",
+          "note": "EIR: exact named-model manufacturer evidence supports this qualified website value; its stated measurement and configuration scope is retained."
+        },
+        "description": {
+          "value": "EIR is Neuromeka’s upper-body-centered dual-arm humanoid platform. The company-hosted December 29, 2025 article, credited to Pinpointnews, explicitly describes 18 independently actuated upper-body axes: seven per arm and four across neck and waist. Its lower body is a cart-based mobile structure, which does not by itself prove autonomous AMR travel or bipedal walking. VisionX text-prompt manipulation and MimicX imitation learning are manufacturer software positioning. The stated 100 µm-level control precision is not treated as measured repeatability. The article planned a CES 2026 debut and phased production from March 2026; the old plan is not proof that production, delivery or final specifications occurred. An unnamed surgical column in the catalog is not assigned to EIR.",
+          "status": "documented",
+          "note": "EIR: exact named-model manufacturer evidence supports this qualified description value; its stated measurement and configuration scope is retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. A family unveiling, catalog date, CES plan or planned production milestone is not a verified first sale."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model complete-system charging duration established. Charger power and battery capacity alone do not establish duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No conventional exact-model maximum mechanical arm reach established. Overall arm/hand length, sensor lift height and another platform table are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "neuromeka-raxis",
+      "manufacturer": "Neuromeka",
+      "model": "RAXIS",
+      "sources": [
+        {
+          "name": "Neuromeka — manufacturer history; September 2025 humanoid unveiling",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/history",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — English catalog actual cover V20251205; pages 4, 14 and 15 text/coordinate review",
+          "type": "manufacturer",
+          "url": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-105/archive-source-4.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-system quote, currency or equipment/tax scope established."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model assembled mass established. Other platforms or component ratings are not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-body dimensions established. Arm length, sensor lift and photographs are not body dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model battery-only operating duration established. Battery charge capacity alone does not establish endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous operation guarantee established. Marketing use cases and battery capacity are not runtime tests."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or gripper configuration established. Generic family manipulation features do not establish bundled hardware."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model mechanical DOF count established. Wheel, camera, body and hand counts retain separate scopes."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform payload established. Per-wheel/per-caster and per-arm load ratings are not total body transport payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact platform travel speed established. Arm precision, camera lift speed and marketing agility are different metrics."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model terrain qualification established. A mobile cart or general family applications do not prove autonomous outdoor or bipedal mobility."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-platform ingress rating established. Agricultural/industrial positioning does not itself establish an IP rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Industrial, service and research positioning do not establish a chronological user age rating."
+        },
+        "website": {
+          "value": "https://en.neuromeka.com/history",
+          "status": "documented",
+          "note": "RAXIS: exact named-model manufacturer evidence supports this qualified website value; its stated measurement and configuration scope is retained."
+        },
+        "description": {
+          "value": "RAXIS is explicitly named in Neuromeka’s manufacturer chronology among humanoid platforms unveiled in September 2025, also reproduced in the V20251205 catalog history. This establishes a historical named platform lead. The current humanoid page’s extracted text names NAMI and EIR; it does not establish RAXIS retirement or equivalence to another platform. Exact RAXIS technical specifications and present availability remain unverified, and no unnamed service/factory/surgical numerical column is assigned to it.",
+          "status": "documented",
+          "note": "RAXIS: exact named-model manufacturer evidence supports this qualified description value; its stated measurement and configuration scope is retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. A family unveiling, catalog date, CES plan or planned production milestone is not a verified first sale."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model complete-system charging duration established. Charger power and battery capacity alone do not establish duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No conventional exact-model maximum mechanical arm reach established. Overall arm/hand length, sensor lift height and another platform table are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "neuromeka-moby-rp-v3-3",
+      "manufacturer": "Neuromeka",
+      "model": "Moby-RP V3.3",
+      "sources": [
+        {
+          "name": "Neuromeka — English catalog actual cover V20251205; pages 4, 14 and 15 text/coordinate review",
+          "type": "manufacturer",
+          "url": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — current Moby family and Moby-Agri",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/amr",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — manufacturer history; September 2025 humanoid unveiling",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/history",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-105/archive-source-8.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-system quote, currency or equipment/tax scope established."
+        },
+        "weight": {
+          "value": "180 kg base; 210 kg with Indy included (catalog configuration)",
+          "status": "documented",
+          "note": "Moby-RP V3.3: exact named-model manufacturer evidence supports this qualified weight value; its stated measurement and configuration scope is retained."
+        },
+        "size": {
+          "value": "660 × 960 × 600 mm listed dimensions; axis order not explicitly labelled",
+          "status": "documented",
+          "note": "Moby-RP V3.3: exact named-model manufacturer evidence supports this qualified size value; its stated measurement and configuration scope is retained."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model battery-only operating duration established. Battery charge capacity alone does not establish endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous operation guarantee established. Marketing use cases and battery capacity are not runtime tests."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or gripper configuration established. Generic family manipulation features do not establish bundled hardware."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Four steering-wheel modules with two DOF each are mobile drivetrain components, not a full robot/arm DOF specification; no combined arm/base count inferred."
+        },
+        "payload": {
+          "value": "40 kg platform payload (catalog); compatible Indy7 arm has separate 7 kg payload",
+          "status": "documented",
+          "note": "Moby-RP V3.3: exact named-model manufacturer evidence supports this qualified payload value; its stated measurement and configuration scope is retained."
+        },
+        "speed": {
+          "value": "Maximum platform travel speed 1.0 m/s (manufacturer)",
+          "status": "documented",
+          "note": "Moby-RP V3.3: exact named-model manufacturer evidence supports this qualified speed value; its stated measurement and configuration scope is retained."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model terrain qualification established. A mobile cart or general family applications do not prove autonomous outdoor or bipedal mobility."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-platform ingress rating established. Agricultural/industrial positioning does not itself establish an IP rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Industrial, service and research positioning do not establish a chronological user age rating."
+        },
+        "website": {
+          "value": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "status": "documented",
+          "note": "Moby-RP V3.3: exact named-model manufacturer evidence supports this qualified website value; its stated measurement and configuration scope is retained."
+        },
+        "description": {
+          "value": "Moby-RP V3.3 is the explicitly versioned autonomous mobile platform in Neuromeka’s V20251205 catalog, in a KOREA ONLY chapter. It lists 40 kg platform payload, base mass 180 kg or 210 kg with Indy included, dimensions 660 × 960 × 600 mm, 2D LiDAR/SLAM navigation and maximum travel 1 m/s. Its Quad Drive uses the family’s four two-DOF steering-wheel modules. The 75 kg drive-wheel rating is per wheel, not a whole-platform payload; compatible Indy7 has a separate 7 kg arm payload. The battery is 48 VDC, 4624 Wh. A 2500 W wireless charger rating does not establish charging duration. Sensor/safety options and current regional delivery require configuration confirmation.",
+          "status": "documented",
+          "note": "Moby-RP V3.3: exact named-model manufacturer evidence supports this qualified description value; its stated measurement and configuration scope is retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. A family unveiling, catalog date, CES plan or planned production milestone is not a verified first sale."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model complete-system charging duration established. Charger power and battery capacity alone do not establish duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No conventional exact-model maximum mechanical arm reach established. Overall arm/hand length, sensor lift height and another platform table are not substituted."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No underwater depth rating established."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No flight endurance established for this ground platform."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft maximum takeoff mass established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking capacity established for this ground platform."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking heat-source specification established."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact quantified platform navigation accuracy established. Camera-lift accuracy and wheel control claims are not navigation accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact docking accuracy established. Navigation positioning and camera-lift tolerance are not docking accuracy."
+        },
+        "driveMode": {
+          "value": "Quad Drive; Moby family describes four steering-wheel modules with two DOF each",
+          "status": "documented",
+          "note": "Moby-RP V3.3: exact named-model manufacturer evidence supports this qualified driveMode value; its stated measurement and configuration scope is retained."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous lift travel established. Printed minimum/maximum camera-lift positions are not silently converted into travel."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cargo/fork maximum lifting height established. Camera mast heights are not freight lift ratings."
+        },
+        "transportPayload": {
+          "value": "40 kg platform payload (catalog); loading/configuration conditions unspecified",
+          "status": "documented",
+          "note": "Exact versioned Moby-RP V3.3 table prints 40 kg platform payload, distinct from 75 kg per wheel and compatible Indy7 7 kg arm payload. No higher multiplied rating inferred."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified image recognition precision established. Sensor count and lift tolerances are different metrics."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No welding speed established."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact worktable size established."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum aisle width established."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum turning radius established."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact work width established."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No area-per-time productivity established. Greenhouse area coverage is not hourly throughput."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact task throughput established."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cargo stacking height established."
+        }
+      }
+    },
+    {
+      "robotId": "neuromeka-moby-agri-600-type",
+      "manufacturer": "Neuromeka",
+      "model": "Moby-Agri 600 Type",
+      "sources": [
+        {
+          "name": "Neuromeka — English catalog actual cover V20251205; pages 4, 14 and 15 text/coordinate review",
+          "type": "manufacturer",
+          "url": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — current Moby family and Moby-Agri",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/amr",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-105/archive-source-8.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-system quote, currency or equipment/tax scope established."
+        },
+        "weight": {
+          "value": "254 kg (600 Type listed mass)",
+          "status": "documented",
+          "note": "Moby-Agri 600 Type: exact named-model manufacturer evidence supports this qualified weight value; its stated measurement and configuration scope is retained."
+        },
+        "size": {
+          "value": "1400 × 805 × 491 mm (600 Type); additional unscoped dimension row unresolved",
+          "status": "documented",
+          "note": "Exact named 600 Type row supplies these dimensions. A later unscoped Dimension row says 1400 × 1900 × 450 mm; no clear same-assembly contradiction or alternative assembly mapping is established, and the ambiguity remains visible."
+        },
+        "batteryLife": {
+          "value": "Maximum driving time 10 h (manufacturer); mode/load conditions unspecified",
+          "status": "documented",
+          "note": "Moby-Agri 600 Type: exact named-model manufacturer evidence supports this qualified batteryLife value; its stated measurement and configuration scope is retained."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous operation guarantee established. Marketing use cases and battery capacity are not runtime tests."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or gripper configuration established. Generic family manipulation features do not establish bundled hardware."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Two DOF refer explicitly to rotation/lift of the imaging unit, not whole-body DOF. Differential drive and component counts do not establish a whole-robot DOF count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "150 kg Payload/1 EA belongs to the caster component. No exact whole-platform payload is supplied; do not multiply or substitute the component rating."
+        },
+        "speed": {
+          "value": "Ground maximum 1.0 m/s; rail maximum 0.4 m/s (manufacturer)",
+          "status": "documented",
+          "note": "Moby-Agri 600 Type: exact named-model manufacturer evidence supports this qualified speed value; its stated measurement and configuration scope is retained."
+        },
+        "terrain": {
+          "value": "Greenhouse floor and installed smart-farm rails; no general outdoor/off-road rating established",
+          "status": "documented",
+          "note": "Moby-Agri 600 Type: exact named-model manufacturer evidence supports this qualified terrain value; its stated measurement and configuration scope is retained."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-platform ingress rating established. Agricultural/industrial positioning does not itself establish an IP rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Industrial, service and research positioning do not establish a chronological user age rating."
+        },
+        "website": {
+          "value": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "status": "documented",
+          "note": "Moby-Agri 600 Type: exact named-model manufacturer evidence supports this qualified website value; its stated measurement and configuration scope is retained."
+        },
+        "description": {
+          "value": "Moby-Agri 600 Type is a named dimensional configuration of Neuromeka’s greenhouse crop-monitoring robot in the V20251205 catalog, in a KOREA ONLY chapter. The 600 Type row lists 1400 × 805 × 491 mm and 254 kg. A later 1400 × 1900 × 450 mm Dimension row lacks clear assembly scope, so the ambiguity remains explicit. The Moby-Agri shared specification gives differential ground/rail driving, 2D LiDAR/SLAM, ground speed up to 1 m/s, rail speed up to 0.4 m/s, 48 VDC 9250 Wh battery and maximum 10-hour driving duration. Its camera rotates and lifts in two DOF; that count does not describe the whole robot. Caster load 150 kg per unit is not a robot payload. Printed lift bounds 2000–4100 mm and ±5 mm camera-lift tolerance are not cargo lifting ratings or navigation accuracy. Greenhouse area and crop-yield positioning are not hourly productivity or independently measured agronomic benefits.",
+          "status": "documented",
+          "note": "Moby-Agri 600 Type: exact named-model manufacturer evidence supports this qualified description value; its stated measurement and configuration scope is retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. A family unveiling, catalog date, CES plan or planned production milestone is not a verified first sale."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model complete-system charging duration established. Charger power and battery capacity alone do not establish duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No conventional exact-model maximum mechanical arm reach established. Overall arm/hand length, sensor lift height and another platform table are not substituted."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No underwater depth rating established."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No flight endurance established for this ground platform."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft maximum takeoff mass established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking capacity established for this ground platform."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking heat-source specification established."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The ±5 mm figure concerns camera lifting accuracy. No quantified exact-platform navigation accuracy established."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Camera-lift ±5 mm and rail mounting descriptions do not establish docking accuracy."
+        },
+        "driveMode": {
+          "value": "Differential drive with separate ground and rail wheels; greenhouse rail mounting/dismounting",
+          "status": "documented",
+          "note": "Moby-Agri 600 Type: exact named-model manufacturer evidence supports this qualified driveMode value; its stated measurement and configuration scope is retained."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The camera-lift row prints minimum 2000 mm and maximum 4100 mm. Assembly/reference semantics remain insufficient for an inferred 2100 mm travel or cargo lift stroke."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 4100 mm maximum concerns the camera lift, not cargo/fork lifting height. No freight lift rating established."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated whole-robot transport payload established. The 150 kg per-caster entry does not supply a platform capacity."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified image recognition precision established. Sensor count and lift tolerances are different metrics."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No welding speed established."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact worktable size established."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum aisle width established."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum turning radius established."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact work width established."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No area-per-time productivity established. Greenhouse area coverage is not hourly throughput."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact task throughput established."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cargo stacking height established."
+        }
+      }
+    },
+    {
+      "robotId": "neuromeka-moby-agri-650-type",
+      "manufacturer": "Neuromeka",
+      "model": "Moby-Agri 650 Type",
+      "sources": [
+        {
+          "name": "Neuromeka — English catalog actual cover V20251205; pages 4, 14 and 15 text/coordinate review",
+          "type": "manufacturer",
+          "url": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Neuromeka — current Moby family and Moby-Agri",
+          "type": "manufacturer",
+          "url": "https://en.neuromeka.com/amr",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-105/archive-source-8.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-system quote, currency or equipment/tax scope established."
+        },
+        "weight": {
+          "value": "255 kg (650 Type listed mass)",
+          "status": "documented",
+          "note": "Moby-Agri 650 Type: exact named-model manufacturer evidence supports this qualified weight value; its stated measurement and configuration scope is retained."
+        },
+        "size": {
+          "value": "1400 × 855 × 491 mm (650 Type); additional unscoped dimension row unresolved",
+          "status": "documented",
+          "note": "Exact named 650 Type row supplies these dimensions. A later unscoped Dimension row says 1400 × 1900 × 450 mm; no clear same-assembly contradiction or alternative assembly mapping is established, and the ambiguity remains visible."
+        },
+        "batteryLife": {
+          "value": "Maximum driving time 10 h (manufacturer); mode/load conditions unspecified",
+          "status": "documented",
+          "note": "Moby-Agri 650 Type: exact named-model manufacturer evidence supports this qualified batteryLife value; its stated measurement and configuration scope is retained."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous operation guarantee established. Marketing use cases and battery capacity are not runtime tests."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or gripper configuration established. Generic family manipulation features do not establish bundled hardware."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Two DOF refer explicitly to rotation/lift of the imaging unit, not whole-body DOF. Differential drive and component counts do not establish a whole-robot DOF count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "150 kg Payload/1 EA belongs to the caster component. No exact whole-platform payload is supplied; do not multiply or substitute the component rating."
+        },
+        "speed": {
+          "value": "Ground maximum 1.0 m/s; rail maximum 0.4 m/s (manufacturer)",
+          "status": "documented",
+          "note": "Moby-Agri 650 Type: exact named-model manufacturer evidence supports this qualified speed value; its stated measurement and configuration scope is retained."
+        },
+        "terrain": {
+          "value": "Greenhouse floor and installed smart-farm rails; no general outdoor/off-road rating established",
+          "status": "documented",
+          "note": "Moby-Agri 650 Type: exact named-model manufacturer evidence supports this qualified terrain value; its stated measurement and configuration scope is retained."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-platform ingress rating established. Agricultural/industrial positioning does not itself establish an IP rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Industrial, service and research positioning do not establish a chronological user age rating."
+        },
+        "website": {
+          "value": "https://s3.ap-northeast-2.amazonaws.com/landing.neuromeka.com/English_Catalog_v251205.pdf",
+          "status": "documented",
+          "note": "Moby-Agri 650 Type: exact named-model manufacturer evidence supports this qualified website value; its stated measurement and configuration scope is retained."
+        },
+        "description": {
+          "value": "Moby-Agri 650 Type is a named dimensional configuration of Neuromeka’s greenhouse crop-monitoring robot in the V20251205 catalog, in a KOREA ONLY chapter. The 650 Type row lists 1400 × 855 × 491 mm and 255 kg. A later 1400 × 1900 × 450 mm Dimension row lacks clear assembly scope, so the ambiguity remains explicit. The Moby-Agri shared specification gives differential ground/rail driving, 2D LiDAR/SLAM, ground speed up to 1 m/s, rail speed up to 0.4 m/s, 48 VDC 9250 Wh battery and maximum 10-hour driving duration. Its camera rotates and lifts in two DOF; that count does not describe the whole robot. Caster load 150 kg per unit is not a robot payload. Printed lift bounds 2000–4100 mm and ±5 mm camera-lift tolerance are not cargo lifting ratings or navigation accuracy. Greenhouse area and crop-yield positioning are not hourly productivity or independently measured agronomic benefits.",
+          "status": "documented",
+          "note": "Moby-Agri 650 Type: exact named-model manufacturer evidence supports this qualified description value; its stated measurement and configuration scope is retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. A family unveiling, catalog date, CES plan or planned production milestone is not a verified first sale."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model complete-system charging duration established. Charger power and battery capacity alone do not establish duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No conventional exact-model maximum mechanical arm reach established. Overall arm/hand length, sensor lift height and another platform table are not substituted."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No underwater depth rating established."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No flight endurance established for this ground platform."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft maximum takeoff mass established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking capacity established for this ground platform."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking heat-source specification established."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The ±5 mm figure concerns camera lifting accuracy. No quantified exact-platform navigation accuracy established."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Camera-lift ±5 mm and rail mounting descriptions do not establish docking accuracy."
+        },
+        "driveMode": {
+          "value": "Differential drive with separate ground and rail wheels; greenhouse rail mounting/dismounting",
+          "status": "documented",
+          "note": "Moby-Agri 650 Type: exact named-model manufacturer evidence supports this qualified driveMode value; its stated measurement and configuration scope is retained."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The camera-lift row prints minimum 2000 mm and maximum 4100 mm. Assembly/reference semantics remain insufficient for an inferred 2100 mm travel or cargo lift stroke."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 4100 mm maximum concerns the camera lift, not cargo/fork lifting height. No freight lift rating established."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated whole-robot transport payload established. The 150 kg per-caster entry does not supply a platform capacity."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified image recognition precision established. Sensor count and lift tolerances are different metrics."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No welding speed established."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact worktable size established."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum aisle width established."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum turning radius established."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact work width established."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No area-per-time productivity established. Greenhouse area coverage is not hourly throughput."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact task throughput established."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cargo stacking height established."
+        }
+      }
     }
   ]
 }
