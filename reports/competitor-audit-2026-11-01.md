@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.017 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 763 |
-| Datierte Produktmerkmal-Datensätze einschließlich 147 bestehender Modelle | 910 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.034 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 780 |
+| Datierte Produktmerkmal-Datensätze einschließlich 147 bestehender Modelle | 927 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 643 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 632 / 404 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 83 |
+| Firmenfokus-Prüfungen mit Quellen | 84 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 763 ergänzte Modelle ergeben 2.017 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 780 ergänzte Modelle ergeben 2.034 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-83 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+84 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 910 Datensätze
+Modellseiten verlinken Markenprofile. Die 927 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 366 haben ausgewählte Datenfeldprüfungen und 152
+haben datierte Merkmalsbelege; 369 haben ausgewählte Datenfeldprüfungen und 149
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 475 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 477 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -7399,3 +7399,69 @@ geprüft. Nach Textglättung und Synchronisierung der neuen Prüfnotizen wurden
 Unit/Build/Audit auf dem finalen Stand erneut ausgeführt. Keine Anwendungs-
 Algorithmen geändert. Eigene Testprozesse/Browserressourcen beendet.
 Dauerhafter Beleg: `reports/competitor-batch-89-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – SMP Robotics (Batch 90)
+
+17 benannte Konfigurationen ergänzt, drei vorhandene Modelle geprüft und ein
+Herstellerfokus ergänzt. 370 Datenfelder: 71 dokumentiert, 296 unbekannt,
+drei widersprüchlich. Unverändert bleiben 2014 unbeteiligte Katalogzeilen,
+737 frühere Feldprüfungen, 83 Firmenfokusse und 1961 Quellenidentitäten.
+Keine neuen CSV-Spalten oder Übertragung bestehender Modelle in andere Kategorien.
+Die neuen S8-Varianten stehen unter Outdoor/Garten; S2 erhält Inspektion und S4
+Landwirtschaft als belegte Suchzuordnung. Anwendungsalgorithmen unverändert.
+
+Ergänzungen: Promt S5.2 IS 2020, Herchel S5.2 PTZ IR IS 2020, Prompt S5.2 ISD 2021,
+S2 Umweltmessung, S3.2 Thermografie, S4 Vogel-/Tierabwehr, S6.3 Gasinspektion,
+S5 G, S5 Gas Detector Solar, A5 Gas Detector, S11, S11 P, S5s,
+S5 ALPR, S5 ALPR DUO sowie S8 P und S8 C. S7/S7.2 wird ohne eindeutige
+Abgrenzung von Prompt nicht zusätzlich gezählt; Kepler/IPD sowie die
+Herchel/Herschel/Argus-Codes und Auflösungsvarianten bleiben offen.
+
+Bestandsmodelle: Argus S5.3 behält eigene Kamera-/TX2-/IP65-Angaben, ohne die
+widersprüchlichen Detektionsreichweiten oder alte generische Acht-Stunden-Prosa
+als gesicherte Modellwerte zu übernehmen. S5.4 ist durch die Ankündigung vom
+2. März 2026 mit Orin NX, Entwicklerakkreditierung und SMP Store belegt;
+angekündigter Versandbeginn März 2026 belegt keinen heutigen Lagerbestand.
+Picard/Promt: Zehn/zwölf Stunden sind geschätzte Betriebszeit im 2020-Prospekt,
+kein gemessenes Maximum. Ladezeit vier bis sechs Stunden bleibt getrennt.
+Web-/Prospekt-Hüllen widersprechen sich. Picards 185 kg werden auf der Webseite
+als Betriebsmasse, im Prospekt auch als Luftfrachtgewicht bezeichnet; keine
+still gewählte Gesamtmasse. Abweichende 2021-Werte bleiben in ihrem Jahresumfang.
+
+Prompt ISD 2021: 18 kg Last, 148 kg mit Akku ohne Fracht, vollständige Hülle
+1420×720×1620 mm; 415×315×245 mm sind nur das Frachtfach. S6.3: Methan bis
+50 m ist Sensorentfernung, Thermik/360°-Akustik sind Optionen. Die beschriebene
+Ausführung ist ausdrücklich nicht als explosionsgeschützt oder eigensicher
+dargestellt. Solar-Nachladung, Propanvorrat, Fahrstrecke, Kameraachsen und
+Werbeaussagen über Schutzfläche/Wirtschaftlichkeit ergeben keine Akku-Laufzeit,
+Roboter-DOF oder unabhängige Wirksamkeits-/Sicherheitsbestätigung.
+
+22 Quellenversuche: 20 HTTP-200-Antworten, zwei vorübergehende DNS-Fehler.
+Drei PDF-URLs mit zehn extrahierten Seiten entsprechen nur zwei verschiedenen
+PDF-Inhalten/acht eindeutigen Textseiten: Picard/Promt sind bytegleich und keine
+unabhängigen Bestätigungen. Wortkoordinaten gespeichert; keine visuelle
+PDF-Prüfung oder Übernahme ungesehener Zeichnungsmaße. Keine gesperrten Hosts
+wiederholt und kein 429 beobachtet. Historische/regionale Vollständigkeit,
+heutige Lieferbarkeit und unabhängige Leistungswerte bleiben offen.
+
+Aktuell: 2034 Katalogeinträge, 643 exakte Herstellernamen, 1036 Profile,
+632 mit/404 ohne Modelle. 927 Merkmalsdatensätze (780 Ergänzungen/147 bestehende
+Anreicherungen), 4025 Aussagen, 1742 Produkt-Quellenreferenzen. 84 Firmenfokusse
+auf 80 der 591 Quellen-Firmengruppen. 12607 Felder auf 757 Modellseiten:
+5490 dokumentiert, 6816 unbekannt, 249 widersprüchlich, 52 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 369 Feldprüfungen, 149 warten. Die 6063 Zielfelder
+enthalten 2765 dokumentierte, 3133 unbekannte, 155 widersprüchliche und zehn
+Roadmap-Werte. Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-
+Detailinhalte bleiben offen; Vollständigkeit und Marktführerschaft unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte Browserfälle
+bestanden (16 SMP/18 Vergleich, einschließlich acht Axe-Läufen). Build:
+3084 Seiten/ca. 477 MB. Audit: null Fehler/923 Warnungen; 17 neue ungeklärte
+Erstjahre minus ein neu belegtes bestehendes Erstjahr ergeben netto 16 weitere
+Warnungen. Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
+20 Modellseiten und Quellen-/Exporttransport sowie alle 757 gerenderten
+Feldprüfseiten geprüft. Die erste Unit-Prüfung fand die korrigierte
+Unterkategorie-Zuordnung; finale Prüfungen liefen auf dem korrigierten Stand.
+Eigene Testprozesse/Browserressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-90-evidence.json`.

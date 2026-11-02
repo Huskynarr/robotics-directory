@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,017 catalog rows**, with 643 exact
-manufacturer spellings. Batch 89 refreshed the separate heuristic gap file offline
-against all 2,017 rows (635 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,034 catalog rows**, with 643 exact
+manufacturer spellings. Batch 90 refreshed the separate heuristic gap file offline
+against all 2,034 rows (635 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 910 dated records across the catalog, including
-147 existing-model enrichments and 763 task additions. All 430 catalog models
+Current product-highlight coverage: 927 dated records across the catalog, including
+147 existing-model enrichments and 780 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 763 task additions, totaling 2,017.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 780 task additions, totaling 2,034.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 366 have selected-field reviews and 152 await those reviews. Family and
+highlights; 369 have selected-field reviews and 149 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 12,237 fields across 737 catalog models: 5,419 documented,
-6,520 not documented, 246 conflicting and fifty-two roadmap fields. They do not certify whole
+Selected specification checks cover 12,607 fields across 757 catalog models: 5,490 documented,
+6,816 not documented, 249 conflicting and fifty-two roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -5164,3 +5164,69 @@ geprüft. Nach Textglättung und Synchronisierung der neuen Prüfnotizen wurden
 Unit/Build/Audit auf dem finalen Stand erneut ausgeführt. Keine Anwendungs-
 Algorithmen geändert. Eigene Testprozesse/Browserressourcen beendet.
 Dauerhafter Beleg: `reports/competitor-batch-89-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – SMP Robotics (Batch 90)
+
+17 benannte Konfigurationen ergänzt, drei vorhandene Modelle geprüft und ein
+Herstellerfokus ergänzt. 370 Datenfelder: 71 dokumentiert, 296 unbekannt,
+drei widersprüchlich. Unverändert bleiben 2014 unbeteiligte Katalogzeilen,
+737 frühere Feldprüfungen, 83 Firmenfokusse und 1961 Quellenidentitäten.
+Keine neuen CSV-Spalten oder Übertragung bestehender Modelle in andere Kategorien.
+Die neuen S8-Varianten stehen unter Outdoor/Garten; S2 erhält Inspektion und S4
+Landwirtschaft als belegte Suchzuordnung. Anwendungsalgorithmen unverändert.
+
+Ergänzungen: Promt S5.2 IS 2020, Herchel S5.2 PTZ IR IS 2020, Prompt S5.2 ISD 2021,
+S2 Umweltmessung, S3.2 Thermografie, S4 Vogel-/Tierabwehr, S6.3 Gasinspektion,
+S5 G, S5 Gas Detector Solar, A5 Gas Detector, S11, S11 P, S5s,
+S5 ALPR, S5 ALPR DUO sowie S8 P und S8 C. S7/S7.2 wird ohne eindeutige
+Abgrenzung von Prompt nicht zusätzlich gezählt; Kepler/IPD sowie die
+Herchel/Herschel/Argus-Codes und Auflösungsvarianten bleiben offen.
+
+Bestandsmodelle: Argus S5.3 behält eigene Kamera-/TX2-/IP65-Angaben, ohne die
+widersprüchlichen Detektionsreichweiten oder alte generische Acht-Stunden-Prosa
+als gesicherte Modellwerte zu übernehmen. S5.4 ist durch die Ankündigung vom
+2. März 2026 mit Orin NX, Entwicklerakkreditierung und SMP Store belegt;
+angekündigter Versandbeginn März 2026 belegt keinen heutigen Lagerbestand.
+Picard/Promt: Zehn/zwölf Stunden sind geschätzte Betriebszeit im 2020-Prospekt,
+kein gemessenes Maximum. Ladezeit vier bis sechs Stunden bleibt getrennt.
+Web-/Prospekt-Hüllen widersprechen sich. Picards 185 kg werden auf der Webseite
+als Betriebsmasse, im Prospekt auch als Luftfrachtgewicht bezeichnet; keine
+still gewählte Gesamtmasse. Abweichende 2021-Werte bleiben in ihrem Jahresumfang.
+
+Prompt ISD 2021: 18 kg Last, 148 kg mit Akku ohne Fracht, vollständige Hülle
+1420×720×1620 mm; 415×315×245 mm sind nur das Frachtfach. S6.3: Methan bis
+50 m ist Sensorentfernung, Thermik/360°-Akustik sind Optionen. Die beschriebene
+Ausführung ist ausdrücklich nicht als explosionsgeschützt oder eigensicher
+dargestellt. Solar-Nachladung, Propanvorrat, Fahrstrecke, Kameraachsen und
+Werbeaussagen über Schutzfläche/Wirtschaftlichkeit ergeben keine Akku-Laufzeit,
+Roboter-DOF oder unabhängige Wirksamkeits-/Sicherheitsbestätigung.
+
+22 Quellenversuche: 20 HTTP-200-Antworten, zwei vorübergehende DNS-Fehler.
+Drei PDF-URLs mit zehn extrahierten Seiten entsprechen nur zwei verschiedenen
+PDF-Inhalten/acht eindeutigen Textseiten: Picard/Promt sind bytegleich und keine
+unabhängigen Bestätigungen. Wortkoordinaten gespeichert; keine visuelle
+PDF-Prüfung oder Übernahme ungesehener Zeichnungsmaße. Keine gesperrten Hosts
+wiederholt und kein 429 beobachtet. Historische/regionale Vollständigkeit,
+heutige Lieferbarkeit und unabhängige Leistungswerte bleiben offen.
+
+Aktuell: 2034 Katalogeinträge, 643 exakte Herstellernamen, 1036 Profile,
+632 mit/404 ohne Modelle. 927 Merkmalsdatensätze (780 Ergänzungen/147 bestehende
+Anreicherungen), 4025 Aussagen, 1742 Produkt-Quellenreferenzen. 84 Firmenfokusse
+auf 80 der 591 Quellen-Firmengruppen. 12607 Felder auf 757 Modellseiten:
+5490 dokumentiert, 6816 unbekannt, 249 widersprüchlich, 52 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 369 Feldprüfungen, 149 warten. Die 6063 Zielfelder
+enthalten 2765 dokumentierte, 3133 unbekannte, 155 widersprüchliche und zehn
+Roadmap-Werte. Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-
+Detailinhalte bleiben offen; Vollständigkeit und Marktführerschaft unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte Browserfälle
+bestanden (16 SMP/18 Vergleich, einschließlich acht Axe-Läufen). Build:
+3084 Seiten/ca. 477 MB. Audit: null Fehler/923 Warnungen; 17 neue ungeklärte
+Erstjahre minus ein neu belegtes bestehendes Erstjahr ergeben netto 16 weitere
+Warnungen. Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
+20 Modellseiten und Quellen-/Exporttransport sowie alle 757 gerenderten
+Feldprüfseiten geprüft. Die erste Unit-Prüfung fand die korrigierte
+Unterkategorie-Zuordnung; finale Prüfungen liefen auf dem korrigierten Stand.
+Eigene Testprozesse/Browserressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-90-evidence.json`.
