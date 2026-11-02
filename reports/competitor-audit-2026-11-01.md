@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.141 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 887 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1053 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.159 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 905 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1071 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 109 |
+| Firmenfokus-Prüfungen mit Quellen | 110 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 887 ergänzte Modelle ergeben 2.141 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 905 ergänzte Modelle ergeben 2.159 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-109 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+110 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1053 Datensätze
+Modellseiten verlinken Markenprofile. Die 1071 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 425 haben ausgewählte Datenfeldprüfungen und 93
+haben datierte Merkmalsbelege; 429 haben ausgewählte Datenfeldprüfungen und 89
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 495 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 498 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -9601,3 +9601,98 @@ identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
 unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `fee20d543ad0c1af4961f590a9bf196975a05b32` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-115-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Oceanbotics und ULC Technologies (Batch 116)
+
+Vier vorhandene Einträge vertieft: SRV-8, SRV-8X OPTIMUS, CISBOT und AUSMOS.
+18 benannte Modelle/Konfigurationen ergänzt: SRV-8C, SRV-8X OPTIMUS ATS, SRV-8X MDV;
+12-inch CISBOT, RRES, Panel Carrier Robot, Panel Setting Robot, Circuit Breaker
+Racking Robot, Large VGC, Small VGC, M1 Crawler, MCC, CIRRIS XI, CIRRIS XR,
+Leak Detection and Repair Robot, Bombyx, H1000 und V3000. Benannte Konfigurationen
+sind keine Behauptung 18 unabhängiger neuer Grundchassis. 814 ausgewählte Felder:
+93 dokumentiert, 707 unbekannt, vier Konflikte, zehn Roadmap. 57 zusätzliche Aussagen
+und netto 47 Produktquellenverweise. Oceanbotics-Firmenfokus erweitert, ULC neu;
+zwölf alte Produktaussagen, zwei alte Oceanbotics-Firmenaussagen und Entdeckungs-
+provenienz erhalten. ULC Technologies bleibt Hersteller, ULC Robotics Markenalias.
+
+Oceanbotics: HTML-Spalten und Datenblatt-OCR trennen SRV-8 18,6 kg von 13,2 kg ohne
+Akkus und SRV-8X 32 kg von 24 kg ohne Akkus. Maße 50×43×41 beziehungsweise
+64×51×43 cm; bis acht Stunden mit zwei Wechselmodulen, optionale Oberflächen-
+stromversorgung separat. Standard 350 m, SRV-8X 500/1200 m nur konfigurationsbezogen.
+Herstellerhistorie: erster SRV-8-Kundenversand 13. Mai 2019; SRV-8X-Start 22. März
+2023. Entwicklungsbeginn, Firmen-/Divisionsgründung und PDF-Upload keine universellen
+Modellstarts. Widerspruch Seilbruchlast: HTML Kupfer 544/Faser 350 kg versus OCR
+Kupfer 350/Faser 544 kg, mit separater 340-kg-Option. Ursache ungelöst; keine Frachtlast.
+
+SRV-8C: eine Transportkiste, bis vier Stunden, ein Wechselmodul, acht Thruster,
+4K und 3000 Lumen. OCR 46×37×39 cm, numerisch 13 als Gesamtmasse und 10 kg ohne Akku;
+Gesamteinheit bei 300 dpi als kg, Alternativausschnitt bei 450 dpi als ks gelesen.
+Diese Extraktionsunsicherheit bleibt ausdrücklich sichtbar; keine Sichtprüfung
+behauptet. Tiefenwiderspruch Produktseite 305 m/1640 ft versus Blatt 350 m/1148 ft
+und Auswahlhilfe vom 4. September 2026 mit 350 m. Keine stille Korrektur oder sichere
+Einsatztiefe abgeleitet. ATS separat: verlinktes historisches Konfigurationsblatt
+25 kg, 64×51×43 cm, 500 m, vier bis sechs Stunden, 1080p mit optional 4K; nicht mit
+aktueller Standardplattform überschrieben. Sechs Bewegungsfreiheiten gehören dem
+Fahrzeug. MDV nur allgemeine Identität/Rolle für spezialisierte Räumteams; laut
+Hersteller Standardplattform mit Zubehör, keine vererbten konfigurierten Ratings
+oder Zubehör-Betriebsverfahren. SubNav, TPS, Stationen, Ortung und Fremdwerkzeuge
+bleiben Komponenten-/Softwarerollen.
+
+ULC: CISBOT 12–48 Zoll ist Familien-/Serviceumfang, 12-inch CISBOT gesonderte
+Entwicklung 2022–23 mit Projektberichten aus März/Juni 2025. Bis 110 Verbindungen
+oder 1400 Fuß je Zugang keine Körpermaße oder garantierte Stundenleistung;
+Projektkosten kein Roboterpreis. AUSMOS 108 lb ohne Akkus, 28,4×21,8×35,9 in,
+3,5 Stunden je Wechselpack, −20 bis +35 °C. Bediener positioniert/programmiert,
+danach autonomer LiDAR/GPR/EM-Scan. Zentimetergenaue Lokalisierung ohne exakten
+Fehlerbereich keine garantierte Erkennung aller unterirdischen Leitungen.
+
+RRES: Portfolio sagt entwickelt, Projektseite weiterhin in Entwicklung/zukünftig;
+Reifegrad ungelöst, geplante Funktionen Roadmap. Solar-Carrier und Setting sind
+getrennte Plattformen mit Rosendin; weniger als eine Minute je installiertem
+Panel ist eine Aussage zur Gesamtlösung mit menschlicher Mitarbeit. Keine
+Carrier-Transportleistung oder numerische Traglast daraus. Breaker Racking mit
+Con Edison bleibt Entwicklung; 1200/3000 A sind elektrische Schalterklassen,
+keine Kilogramm. M1 24–48, Large VGC 18–48 und Small VGC 12–16 Zoll beschreiben
+Rohranwendungen. MCC ein Zoll hoch, sonstige Maße unbekannt; Type I/II Sensor-
+konfigurationen kein erfundenes separates Chassis. CIRRIS XI Inspektion und XR
+Reparatur bleiben getrennt; Reichweite/Verbindungen je Zugang keine Stundenrate.
+
+Leak Detection and Repair: DOE-Phase-II-Prototypankündigung vom 14. Oktober 2019;
+bis zwei Jahre Haltbarkeit einer geplanten Reparatur keine Akkulaufzeit. Bombyx:
+Zusammenarbeit mit Facebook Connectivity, Entwicklungsartikel vom 12. Juli 2020
+kein aktueller Liefernachweis oder exklusives Eigentum. H1000 nur benannte
+Flugplattform ohne erfundene Daten. V3000 Hybrid-VTOL fünf-plus-Stunden-Flugziel
+bleibt Roadmap, keine gemessene Akkudauer. Kameras PRX, X-ID/EMAT, AIM-Fahrzeuganalytik,
+Druck-/Spülgeräte und Kabelvorbereitungsmaschine sind gesonderte Rollen. Alter
+Splicing-Link leitet auf dasselbe Kabelgerät weiter, kein zusätzliches Robotermodell.
+
+32 öffentliche HTTP-200-Antworten mit SHA-256, darunter eine doppelte Zielseite.
+HTML-Tabellenüberschriften/Zellen und strukturierte Publikationsmetadaten geprüft.
+Drei bildbasierte PDF-Seiten ohne nativen Text mit isoliertem lokalem OCR-Lauf;
+Text, Konfidenz und Wortkoordinaten sowie unabhängige Ausschnitt-OCR geprüft.
+Ein zweiseitiges ATS-PDF mit nativem Text/Wortkoordinaten. Bildanzeigewerkzeug war
+nicht verfügbar; keine erfolgreiche visuelle PDF-/Bild-/Video-/CAD-Prüfung.
+Keine globalen Paketänderungen, Formulare, Kontakte oder Transaktionen.
+
+2137 andere alte CSV-Zeilen, alle 941 alten Feldprüfungen, 108 andere Firmenfokusse,
+1049 andere Produktbelege und 1961 Quellenidentitäten unverändert. Ein bestehender
+Integrationstest deckte nicht unterstützte Filtertags auf; passende Forschungs-
+beziehungsweise Bauzuordnung ergänzt, keine Filterlogik/Testanforderung abgeschwächt.
+807 Unit-Tests/64 Dateien, 24 Desktop-/Mobilfälle mit vier Axe-Läufen, 3209 Buildseiten,
+Lint/Format, Refresh und Wiederimport bestanden. Audit null Fehler/1048 Hinweise:
+18 neue unbekannte Erststarts minus zwei belegte bisherige Oceanbotics-Startjahre.
+22 Modellseiten/814 Felder/69 Aussagen, zwei Firmenfokusse, strukturierte Daten,
+drei Modell-Exportziele/111 Felder und vier ursprüngliche Queue-Ziele/148 Felder
+geprüft. Vergleich: 1071 Produktbelege, 4763 Aussagen, 2214 Quellenverweise,
+963 Prüfungen/17573 Felder. Eigene Browser-/Server-/Hilfsprozesse beendet,
+Port 4321 frei. Kein Deployment. Externe YouTube-Frame-Befunde aus Batch106 ungelöst.
+
+Gesamt 2159 Modelle/Konfigurationen, 905 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung, 110 Firmenfokusse. Ursprüngliche Ziele: 429 geprüft, 89 offen
+von 518; 7622 Felder (3183 dokumentiert, 4250 unbekannt, 173 Konflikte, 16 Roadmap).
+Firmenfokus für 106 von 591 Quellengruppen. Drei Modellidentitäten, neun Listing-
+identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
+unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
+Datencommit `722b489d9675b39dbc45d38fa153f092de0b7d33` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-116-evidence.json`.
