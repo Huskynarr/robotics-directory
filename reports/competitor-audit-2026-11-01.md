@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 592 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.126 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 872 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1038 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.131 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 877 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1043 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 103 |
+| Firmenfokus-Prüfungen mit Quellen | 104 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 872 ergänzte Modelle ergeben 2.126 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 877 ergänzte Modelle ergeben 2.131 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-103 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+104 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1038 Datensätze
+Modellseiten verlinken Markenprofile. Die 1043 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 413 haben ausgewählte Datenfeldprüfungen und 105
+haben datierte Merkmalsbelege; 415 haben ausgewählte Datenfeldprüfungen und 103
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 492 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 493 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -9137,3 +9137,99 @@ neun Listingidentitäten und 862 Buy-Detailinhalte offen. Keine vollständige Qu
 Herstellerabdeckung oder Markt-/Suchführerschaft nachgewiesen.
 Datencommit `3ee7dfacc450b7a8732685d9f2f81d8bab32cb11` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-110-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Ekso-Plattformen, Dokumentrevisionen und Firmenrollen (Batch 111)
+
+EksoNR und Indego Personal vertieft; Indego Therapy, EksoGT, eLEGS, HULC und
+Ekso Nomad ergänzt. Sieben benannte angetriebene Plattformen mit 259 ausgewählten
+Feldern: 35 dokumentiert, 223 unbekannt und eine offene Quellen-/Revisionsabweichung.
+29 zusätzliche Merkmalsaussagen, netto 19 Produktquellenverweise, sechs bisherige
+Aussagen und Entdeckungsprovenienz erhalten; ein neuer Firmenfokus.
+
+EksoNR: GaitCoach-Rückmeldung und therapeutenkontrollierte Swing-/Stance-Unterstützung,
+Pregait-Aktivitäten und Sitzungsdaten sind verschiedene Funktionen. Sicherheitsinformation
+109751 im verlinkten ZIP nennt zwei gemeinsam verwendete Akkus, je 48,1 VDC/2000 mAh,
+und ungefähr 60 Minuten Ladezeit pro Akku. Zwei Sätze und Dauerbetriebswerbung liefern
+keine gemessene Akkulaufzeit. Altersangabe ab 18 Jahren aus Anbieter-FAQ; 220 lb/100 kg,
+Körpergröße und Hüftbreite betreffen die Patientenpassung, nicht Gerätemasse, Außenmaße
+oder Fracht. Vier Jahre/1,25 Millionen Schritte sind Nutzlebensdauer. US-/EU-Text behält
+klinische Aufsicht und den jeweiligen Geltungsbereich; keine individuelle Eignungsprüfung.
+
+Indego Personal: aktuelle Produktseite 31 lb/14 kg gegenüber 29 lb/13 kg in verlinkter
+US-Sicherheitsinformation 043-015-001.A. Hardware-/Revisionsbasis ungeklärt, kein stiller
+universeller Sieger. Dasselbe Personal-Dokument nennt 73 × 46 × 58 cm ohne geklärte
+Messhaltung, 159 Wh/4,9 Ah, typisch 90 Minuten/2500 Schritte mit Motion+ und vier Stunden
+Laden ohne vollständiges Ladezustandsprotokoll. Laufzeit hängt von Einstellungen,
+Nutzer und Standby ab; typische Spanne 1500–4000 Schritte. Gehhilfe, Vorbeuge-Steuerung,
+App und selbstständiges Anlegen bedeuten keine selbstbalancierende Nutzung ohne die
+vorgeschriebene geschulte Begleitperson. Studien-Gehgeschwindigkeiten sind kein
+universelles Geschwindigkeitslimit. Sport und Treppen bleiben ausgeschlossen.
+
+Indego Therapy: separat benannte Klinikplattform; aktueller Webauftritt führt sie unter
+Past Products, Emittentenbericht vom 23. Februar 2026 hingegen noch als Produktumsatz.
+Beides beweist weder heutige Neulieferung noch vollständiges Supportende. Klinische
+US-Sicherheitsinformation 043-016-001.A nennt 39 lbf/17,7 kgf als Original-Geräteangabe,
+72,8 × 46,3 × 57,6 cm, vier Stunden Betrieb und vier Stunden Laden ohne vollständiges
+Testprotokoll. Keine Übernahme von Personal-Masse oder Motion+-Laufzeit. Kein Heim-/
+Community-Gebrauch, Sport oder Treppen laut klinischem Text. Fünf-Minuten-Anpassungs-
+werbung ist keine standardisierte Therapieproduktivität.
+
+Historischer EksoGT-Start 2013 ist im Herstellerarchiv ausdrücklich belegt;
+VariableAssist, spätere SmartAssist-/EksoPulse-Updates und heutiger EksoNR bleiben
+verschiedene Produkt-/Softwarestände. eLEGS ist als frühere elektromechanische Reha-
+Plattform mit Stehen/Geradeausgehen belegt, ohne übertragene heutige Zahlen.
+HULC ist ein historisches hydraulisches, akkugestütztes Lasttrage-Exoskelett, an Lockheed
+Martin exklusiv lizenziert. Anbieterarchiv nennt bis 200 lb Ausrüstung und 10 mph, ohne
+Last-/Gelände-/Laufzeitprotokoll oder universellen gleichzeitigen Maximalbetrieb. Kein
+aktuelles Kaufangebot oder übernommene Reha-Eignung. Bestehender Funktionsfilter
+workplace-support macht die dokumentierte körpergetragene Lastunterstützung auffindbar;
+ein anfänglicher fehlender Unterkategorie-Treffer wurde damit behoben, Tests unverändert.
+
+Nomad: Emittentenbericht, unterzeichnet am 23. Februar 2026, nennt eine angetriebene
+Knie-Knöchel-Fuß-Orthese und begrenzte Verkäufe für eine einzelne externe klinische
+Studie. Allgemeine Kommerzialisierung Ende 2026 war von Studien-/Patientenrückmeldung
+abhängig. Kein Nachweis allgemeiner Lieferbarkeit am 2. November 2026 oder exakter
+Erstveröffentlichung. Parker-IP-Erwerb am 5. Dezember 2022 ist kein Produktstart;
+aktuelle regulatorische/payerbezogene Aussage daraus nicht abgeleitet.
+
+Wandercraft meldete Unterzeichnung und Vollzug der Ekso-Übernahme am 1. Oktober 2026.
+Supportabsicht für EksoNR/Indego Personal neben Atalante X/Eve schafft keine Aliasse.
+Ekso-/DynaWear-Seiten belegen separate Industriegeschäftszuordnung von EVO und ZeroG;
+passive federunterstützte EVO/EksoVest und Werkzeugstützen werden nicht als neue
+angetriebene Gangroboter gezählt. BalanceTutor ist von MediTouch entwickelt, Ekso nennt
+US-Vertrieb. HandTutor/ArmTutor/LegTutor/3DTutor sind dadurch weder Ekso-Herstellungen
+noch automatisch zusätzliche angetriebene Roboter. Software, EksoCare, Training,
+Versicherung/Erstattung und Zubehör bleiben getrennt von Modellen und Kaufpreisen.
+
+22 öffentliche Antworten mit SHA-256: 20 erfolgreich, zwei 404-Entdeckungslinks
+nicht als Belege verwendet. Zwei direkte PDFs, zwei ZIPs mit DOCX-/PDF-Mitgliedern,
+HTML und ein datierter Emittentenbericht. Englischen NR-DOCX-Text und Tabellen sowie
+Personal-/Clinical-US-PDF-Text und ausgewählte Wortkoordinaten geprüft. Weitere
+Sprachdateien extrahiert, keine vollständige inhaltliche Prüfung behauptet; macOS-
+Ressourcenmetadaten sind keine PDFs. FDA K173530 vom 31. Januar 2018 als historischer
+Regulatorbeleg geprüft, nicht als Herstellerquelle öffentlich etikettiert und kein
+Nachweis vollständiger heutiger Zulassung oder Produktstart. Keine visuelle Bild-/
+PDF-/Videoinspektion, keine Formulare, Kontakt-, Bestell- oder Warenkorbaktion.
+Öffentlicher Bericht enthält Prüfstellen/Hashes statt vollständiger Handbuchseiten.
+
+2124 andere vorherige CSV-Zeilen, 912 bisherige Feldprüfungen, 103 Firmenfokusse,
+1036 andere Produktbelege und 1961 Quellenidentitäten unverändert. Keine neuen CSV-/
+Vergleichsspalten oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/
+Mobilfälle mit vier Axe-Läufen, Build 3181 Seiten, Lint/Format, Refresh und Wiederimport
+bestanden. Audit null Fehler/1032 Hinweise: vier zusätzliche unbekannte Startjahre,
+sonst identische Hinweise. Sieben Seiten/259 Felder/35 Aussagen, Firmenfokus,
+strukturierte Eigenschaften, zwei Modell-CSV-Ziele/74 Feldvorkommen, eine Firmenprodukt-
+referenz und zwei ursprüngliche Queue-Ziele/74 Felder geprüft. Vergleich enthält
+1043 Produktbelege, 4618 Aussagen, 2095 Quellenverweise und 919 Prüfungen/15945 Felder.
+Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei; kein Deployment.
+Frühere externe YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2131 Modelle/Konfigurationen, 877 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung und 104 Firmenfokusse. Ursprüngliche Quellenziele: 415 geprüft,
+103 ausstehend von 518, 7104 Felder (3078 dokumentiert, 3849 unbekannt, 166 Konflikte,
+elf Roadmap), Firmenfokus für 100 von 591 Quellengruppen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte offen. Vollständige Quellen-/
+Herstellerabdeckung, klinische Wirksamkeit, einzigartige USPs oder Markt-/Suchführerschaft
+bleiben unbewiesen. Datencommit `01ad401dfcb2b458f673e6188287da38ae87412c` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-111-evidence.json`.
