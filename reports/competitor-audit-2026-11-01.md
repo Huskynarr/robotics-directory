@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.034 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 780 |
-| Datierte Produktmerkmal-Datensätze einschließlich 147 bestehender Modelle | 927 |
-| Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 643 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.040 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 786 |
+| Datierte Produktmerkmal-Datensätze einschließlich 147 bestehender Modelle | 933 |
+| Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
-| Davon mit Modellen / reine Quellen-Firmenprofile | 632 / 404 |
+| Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 84 |
+| Firmenfokus-Prüfungen mit Quellen | 86 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 780 ergänzte Modelle ergeben 2.034 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 786 ergänzte Modelle ergeben 2.040 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-84 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+86 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 927 Datensätze
+Modellseiten verlinken Markenprofile. Die 933 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 369 haben ausgewählte Datenfeldprüfungen und 149
+haben datierte Merkmalsbelege; 372 haben ausgewählte Datenfeldprüfungen und 146
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 477 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 478 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -7465,3 +7465,66 @@ Feldprüfseiten geprüft. Die erste Unit-Prüfung fand die korrigierte
 Unterkategorie-Zuordnung; finale Prüfungen liefen auf dem korrigierten Stand.
 Eigene Testprozesse/Browserressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-90-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – SoftBank/Aldebaran/Maxtronics (Batch 91)
+
+Sechs Modelle ergänzt: Whiz i, Whiz B/P/V, Pepper+ und Maxtronics NAO7.
+NAO7 bleibt ausdrücklich ein Entwicklungsprojekt mit unbekanntem Preis und
+Erscheinungstermin; geplante Hand-/Hardwaremerkmale sind keine ausgelieferten
+Werte. NAO6, Pepper und Whiz geprüft. Insgesamt 163 Felder: 62 dokumentiert,
+99 unbekannt, eines widersprüchlich und eines Roadmap. Zwei Firmenfokusse
+ergänzt; Maxtronics erhält die Modellbindung im vorhandenen Firmenprofil.
+Historische NAO6/Pepper-Zuordnung bleibt Aldebaran; keine pauschale rechtliche
+Nachfolger- oder OEM-Identität abgeleitet. 2031 unbeteiligte Katalogzeilen,
+757 frühere Feldprüfungen, 84 Firmenfokusse und 1961 Quellenidentitäten bleiben
+unverändert. Keine neuen CSV-Spalten oder Kategorieverschiebungen.
+
+NAO6: H25600 mit 5,48 kg, 574×311×275 mm H×T×B, 25 DOF und IPX0.
+60 Minuten aktive und 90 Minuten normale Nutzung sind getrennt; 90 Minuten
+Ladezeit haben kein belegtes Ladezustandsintervall. Nicht belegtes Erstjahr,
+Alter und Fingerzahl entfernt. Der Cloudwechsel zum 1. Oktober 2026 ist auf
+NAO6 begrenzt; Offlinebetrieb kann fortbestehen, NAO5 ist ausgenommen.
+Pepper: Legacy-Hülle mit Armen unten getrennt von maximaler Armhülle; keine
+Armreichweite daraus abgeleitet. NAOqi 2.5/Python und 2.9/Android/QiSDK bleiben
+getrennt. Japanische Plan-Endtermine am 1. Februar und 31. Mai 2027 sind kein
+weltweites Ende aller Pepper. Pepper+ enthält qualifizierte japanische
+Miettarife, keine strukturierten Kaufangebote oder übernommenen Legacy-Maße.
+
+Whiz: 30 kg Maschine plus 5 kg Akku im US-Blatt; Japan-2020 nennt etwa 35 kg
+inklusive Akku. Der gemeinsame aktuelle Modaltext vermischt Generationen;
+Gewicht bleibt als Konflikt markiert. Whiz i hat eigene 34 kg und Betriebsmodi
+3,6/1,8 Stunden sowie fünf Stunden Laden. Whiz B/P/V behalten ihre eigenen
+Maße, Massen und Modi. Staubbehälter sind keine Wassertanks; Komponentenbreiten
+keine kombinierte Arbeitsbreite. 600 mm Mindestdurchgang bei Whiz V ist keine
+Roboterbreite. Alttexte/ähnliche Maße begründen keine Gausium-OEM-Gleichsetzung.
+Software, Mietpakete und ServiQ-Koentwicklung erzeugen keine weiteren Karten.
+
+41 Quellenversuche: 35 HTTP200-Antworten, drei vorübergehende DNS-Fehler,
+drei 404. Vier PDFs mit 323 automatisch extrahierten Seiten. Das 312-seitige
+Pepper+-Handbuch wurde nur für ausgewählte Einrichtungs-/Ladepassagen auf sechs
+Seiten geprüft. Keine vollständige Handbuchprüfung, visuelle PDF-Prüfung oder
+Verwendung passwortgeschützter Handbücher. Kein 429 und keine Wiederholung
+bekannter gesperrter Hosts. Historische/regionale Vollständigkeit,
+heutige Lieferbarkeit und unabhängige Wirksamkeit bleiben offen.
+
+Aktuell: 2040 Katalogeinträge, 644 exakte Herstellernamen, 1036 Profile,
+633 mit/403 ohne Modelle. 933 Merkmalsdatensätze (786 Ergänzungen/147 bestehende
+Anreicherungen), 4053 Aussagen, 1773 Produkt-Quellenreferenzen. 86 Firmenfokusse
+auf 82 der 591 Quellen-Firmengruppen. 12770 Felder auf 766 Modellseiten:
+5552 dokumentiert, 6915 unbekannt, 250 widersprüchlich, 53 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 372 Feldprüfungen, 146 warten. 6116 Zielfelder:
+2785 dokumentiert, 3165 unbekannt, 156 widersprüchlich, zehn Roadmap.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte
+bleiben offen; Vollständigkeit und Marktführerschaft sind unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte Browserfälle
+bestanden (16 SoftBank/Maxtronics, 18 Vergleich, einschließlich acht Axe-Läufen).
+Build: 3090 Seiten/ca. 478 MB. Audit: null Fehler/926 Warnungen. Zwei neue
+unbekannte Erstjahre und das entfernte unbelegte NAO6-Erstjahr ergeben drei
+zusätzliche Warnungen. Lint, Format, Import-Trockenlauf null Ergänzungen,
+Offline-Refresh, neun Modellseiten/Quellen-/Exporttransport sowie alle 766
+Feldprüfseiten geprüft. Initial fehlendes Plus im Pepper+-Slug, doppelte
+Profilgenerierung und ein Datumsleerzeichen vor finaler Prüfung korrigiert.
+Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-91-evidence.json`.
