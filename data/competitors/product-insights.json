@@ -9366,14 +9366,18 @@
       "highlights": [
         "Dual-arm collaborative robot coordinates both arms for small-parts assembly",
         "Manufacturer rates each arm for 0.5 kg payload and 0.56 m reach",
-        "Lead-through teaching and configurable grippers support assembly workflows"
+        "Lead-through teaching and configurable grippers support assembly workflows",
+        "The 2023 named-model selection table gives 14 total axes, 38 kg including the integrated controller, 0.5 kg payload and 0.56 m reach per arm. The two arms are not treated as one arm with a doubled payload rating.",
+        "Maximum TCP speed is 1.5 m/s and pose repeatability 0.02 mm in the 2023 portfolio. Repeatability is not a universal absolute positioning or inspection-accuracy guarantee; actual collaborative operation requires an application risk assessment.",
+        "The table lists IP30, ISO Clean Room 5, table mounting and IRC5 integrated into the body for dual-arm YuMi. Its Category B, PL b safety entry remains distinct from IRB 14050’s Category 3, PL d; the brochure’s no-fence language is qualified by the absence of hazardous tools/workpieces.",
+        "Lead-through teaching and configurable servo/vacuum/vision SmartGripper tooling are described. Wizard easy programming is explicitly marked for single-arm YuMi only in the YuMi spread, so it is not assumed for IRB 14000. The 2023 copyright is not a launch date or evidence of current availability."
       ],
       "sources": [
         {
-          "name": "ABB Robotics",
+          "name": "ABB Robotics — collaborative robotics portfolio (2023), named-model selection table and application notes",
           "type": "manufacturer",
           "url": "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -9387,14 +9391,18 @@
       "highlights": [
         "Single-arm YuMi configuration supports small-parts assembly",
         "Manufacturer rates the arm for 0.5 kg payload and 0.56 m reach",
-        "Lead-through teaching and Wizard programming support application setup"
+        "Lead-through teaching and Wizard programming support application setup",
+        "The 2023 selection table identifies a seven-axis single arm with 9.6 kg robot mass, 0.5 kg payload and 0.56 m reach. The dual-arm model’s 38 kg including IRC5 and 14 total axes are not inherited.",
+        "IRB 14050 is listed with maximum TCP speed 1.5 m/s, 0.02 mm pose repeatability and IP30. ISO Clean Room 6, any-angle mounting and OmniCore belong to this column; dual-arm YuMi’s ISO Class 5 and integrated IRC5 remain separate.",
+        "The 2023 portfolio states Category 3, PL d functional safety for single-arm YuMi and explicitly describes Wizard easy programming plus lead-through teaching. Optional SmartGripper servo/vacuum/vision tooling does not establish every shipped configuration or blanket safe use with hazardous workpieces.",
+        "The manufacturer’s 2023 copyright and 24/7 monitoring/service claims are not a first product release date, robot battery duration or continuous-duty runtime. Current availability and a numeric complete-system price remain unverified."
       ],
       "sources": [
         {
-          "name": "ABB Robotics",
+          "name": "ABB Robotics — collaborative robotics portfolio (2023), named-model selection table and application notes",
           "type": "manufacturer",
           "url": "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -30553,6 +30561,116 @@
       ],
       "discoveredIn": [
         "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf"
+      ]
+    },
+    {
+      "robotId": "abb-robotics-gofa-5-crb-15000",
+      "manufacturer": "ABB Robotics",
+      "model": "GoFa 5 CRB 15000",
+      "highlights": [
+        "The 2023 manufacturer selection table separately names GoFa 5, with 5 kg payload, 1.05 m, six axes and 28 kg robot mass. Values from the other GoFa columns are not substituted; newer hardware revisions and current availability are unverified.",
+        "The listed maximum TCP speed is 2.2 m/s and pose repeatability is 0.02 mm. ABB explicitly says safe collaborative speed will be lower and calls for a safety risk assessment; maximum motion speed is not a universal safe human-contact speed.",
+        "The table lists IP54. This column also lists ISO Clean Room 4, Category 3, PL d, any-angle mounting and OmniCore. Robot protection/cleanroom positioning does not establish certification of an installed cell, gripper or controller.",
+        "Integrated torque sensors in each axis, lead-through teaching, Wizard easy programming, an arm-side interface and an interaction status light are described. AGV mounting is an integration example, not an included mobile base; software, tooling and service packages are not extra arm identities or battery/runtime specifications."
+      ],
+      "sources": [
+        {
+          "name": "ABB Robotics — collaborative robotics portfolio (2023), named-model selection table and application notes",
+          "type": "manufacturer",
+          "url": "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf"
+      ]
+    },
+    {
+      "robotId": "abb-robotics-gofa-10-crb-15000",
+      "manufacturer": "ABB Robotics",
+      "model": "GoFa 10 CRB 15000",
+      "highlights": [
+        "The 2023 manufacturer selection table separately names GoFa 10, with 10 kg payload, 1.62 m TCP reach, six axes and 51 kg robot mass. Values from the other GoFa columns are not substituted; newer hardware revisions and current availability are unverified.",
+        "The listed maximum TCP speed is 2 m/s and pose repeatability is 0.02 mm. ABB explicitly says safe collaborative speed will be lower and calls for a safety risk assessment; maximum motion speed is not a universal safe human-contact speed.",
+        "The table lists IP67. This column also lists ISO Clean Room 4, Category 3, PL d, any-angle mounting and OmniCore. Robot protection/cleanroom positioning does not establish certification of an installed cell, gripper or controller.",
+        "Integrated torque sensors in each axis, lead-through teaching, Wizard easy programming, an arm-side interface and an interaction status light are described. AGV mounting is an integration example, not an included mobile base; software, tooling and service packages are not extra arm identities or battery/runtime specifications."
+      ],
+      "sources": [
+        {
+          "name": "ABB Robotics — collaborative robotics portfolio (2023), named-model selection table and application notes",
+          "type": "manufacturer",
+          "url": "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf"
+      ]
+    },
+    {
+      "robotId": "abb-robotics-gofa-12-crb-15000",
+      "manufacturer": "ABB Robotics",
+      "model": "GoFa 12 CRB 15000",
+      "highlights": [
+        "The 2023 manufacturer selection table separately names GoFa 12, with 12 kg payload, 1.37 m, six axes and 48 kg robot mass. Values from the other GoFa columns are not substituted; newer hardware revisions and current availability are unverified.",
+        "The listed maximum TCP speed is 2 m/s and pose repeatability is 0.02 mm. ABB explicitly says safe collaborative speed will be lower and calls for a safety risk assessment; maximum motion speed is not a universal safe human-contact speed.",
+        "The table’s IP entry reads “IP567”; no valid numeric protection rating is inferred from it. This column also lists ISO Clean Room 4, Category 3, PL d, any-angle mounting and OmniCore. Robot protection/cleanroom positioning does not establish certification of an installed cell, gripper or controller.",
+        "Integrated torque sensors in each axis, lead-through teaching, Wizard easy programming, an arm-side interface and an interaction status light are described. AGV mounting is an integration example, not an included mobile base; software, tooling and service packages are not extra arm identities or battery/runtime specifications."
+      ],
+      "sources": [
+        {
+          "name": "ABB Robotics — collaborative robotics portfolio (2023), named-model selection table and application notes",
+          "type": "manufacturer",
+          "url": "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf"
+      ]
+    },
+    {
+      "robotId": "abb-robotics-swifti-crb-1100",
+      "manufacturer": "ABB Robotics",
+      "model": "SWIFTI CRB 1100",
+      "highlights": [
+        "The 2023 CRB 1100 column gives 4 kg payload, six axes and 21 kg robot mass. Family reaches 0.58/0.475 m and maximum TCP speeds 5.05/4.32 m/s remain unpaired because the selected source does not explicitly map exact variant combinations.",
+        "The named-model table lists 0.01 mm pose repeatability, standard IP40, ISO Clean Room 4, OmniCore and any-angle mounting. SWIFTI family prose about speed/accuracy is not used to overwrite the CRB 1300 column or infer absolute accuracy.",
+        "SWIFTI safety uses SafeMove and a safety sensor to stop before human contact; the table lists Category 3, PL d. The brochure includes a safety laser scanner and states safe collaborative speed will be lower than maximum TCP speed, with application-specific risk assessment required.",
+        "Wizard easy programming, an external lead-through device, integrated air supply and an interaction light are described. A scanner, programming device, tooling and complete cell are separate from the robot arm; no universal contact-safe speed, battery duration, exact release or current price is established."
+      ],
+      "sources": [
+        {
+          "name": "ABB Robotics — collaborative robotics portfolio (2023), named-model selection table and application notes",
+          "type": "manufacturer",
+          "url": "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf"
+      ]
+    },
+    {
+      "robotId": "abb-robotics-swifti-crb-1300",
+      "manufacturer": "ABB Robotics",
+      "model": "SWIFTI CRB 1300",
+      "highlights": [
+        "The 2023 CRB 1300 column lists six axes, payload ratings 7/10/11 kg, reaches 0.9/1.15/1.4 m and robot masses 75/77/79 kg. These family arrays remain separate; textual order is not evidence of exact payload-to-reach-to-mass variant pairing.",
+        "Its column gives maximum TCP speed 6.2 m/s and pose repeatability 0.02 mm. The CRB 1100’s 0.01 mm entry and the spread’s broader accuracy marketing are not substituted for this named-model value; repeatability remains distinct from absolute accuracy.",
+        "IP40 is standard and IP67 optional in the 2023 table, not IP67 for every robot. The column also lists ISO Clean Room 4, Category 3, PL d, OmniCore and any-angle mounting. Protection/cleanroom claims do not extend automatically to the installed tooling or complete cell.",
+        "SWIFTI uses SafeMove and a safety sensor to stop before human contact, with a safety laser scanner described in the portfolio. Maximum TCP speed is not universal safe collaborative speed; an application risk assessment is required. Wizard, external lead-through tooling, integrated air and status lights are integration features, not additional robot identities."
+      ],
+      "sources": [
+        {
+          "name": "ABB Robotics — collaborative robotics portfolio (2023), named-model selection table and application notes",
+          "type": "manufacturer",
+          "url": "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://library.e.abb.com/public/544f24358c4d4cfdba7375ad5de30707/9AKK108471A7656_en_A_ABB%20Collaborative%20robotics%20portfolio.pdf"
       ]
     }
   ]
