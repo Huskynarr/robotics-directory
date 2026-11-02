@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T15:21:03.577Z",
+  "generatedAt": "2026-11-02T15:35:40.109Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 376,
-    "withoutSelectedFieldReview": 142,
-    "selectedFields": 6185,
+    "withSelectedFieldReview": 378,
+    "withoutSelectedFieldReview": 140,
+    "selectedFields": 6230,
     "selectedFieldStatuses": {
-      "documented": 2817,
-      "not-documented": 3202,
+      "documented": 2832,
+      "not-documented": 3231,
       "conflicting": 156,
-      "roadmap": 10
+      "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 84,
+    "sourceGroupsWithCompanyAuthoredFocus": 85,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -388,28 +388,6 @@
         "agibot-g2",
         "agibot-d1-ultra-w",
         "agibot-g2-air"
-      ]
-    },
-    {
-      "brandId": "knightscope",
-      "name": "Knightscope",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/knightscope"
-      ],
-      "catalogModels": 4,
-      "reviewedReferenceTargets": 3,
-      "withDatedHighlights": 3,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 1,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "knightscope-k1-hemisphere",
-        "knightscope-k5",
-        "knightscope-k7"
       ]
     },
     {
@@ -3465,6 +3443,28 @@
         "interbotix-aloha-mobile",
         "interbotix-aloha-solo",
         "interbotix-aloha-stationary"
+      ]
+    },
+    {
+      "brandId": "knightscope",
+      "name": "Knightscope",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/knightscope"
+      ],
+      "catalogModels": 5,
+      "reviewedReferenceTargets": 3,
+      "withDatedHighlights": 3,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 3,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "",
+      "robotIds": [
+        "knightscope-k1-hemisphere",
+        "knightscope-k5",
+        "knightscope-k7"
       ]
     },
     {
@@ -8871,13 +8871,13 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/knightscope"
       ],
-      "catalogModels": 4,
+      "catalogModels": 5,
       "reviewedReferenceTargets": 3,
       "withDatedHighlights": 3,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 1,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
+      "withSelectedFieldReview": 3,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
       "companyFocusCheckedAt": "",
       "robotIds": [
         "knightscope-k1-hemisphere",
@@ -30825,24 +30825,55 @@
       "brandId": "knightscope",
       "category": "smarthome",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "Knightscope",
+          "name": "Knightscope — K1 Hemisphere technical brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Product%20Documentation/K1H-2.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — current Force portfolio and development status",
           "type": "manufacturer",
           "url": "https://knightscope.com/the-force",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 16,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 6,
+        "not-documented": 10,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Knightscope — K1 Hemisphere technical brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Product%20Documentation/K1H-2.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — current Force portfolio and development status",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/the-force",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -30864,24 +30895,55 @@
       "brandId": "knightscope",
       "category": "smarthome",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "Knightscope",
+          "name": "Knightscope — K5 V5 technical brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Product%20Documentation/K5V5C.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — current Force portfolio and development status",
           "type": "manufacturer",
           "url": "https://knightscope.com/the-force",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 16,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 8,
+        "not-documented": 8,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Knightscope — K5 V5 technical brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Product%20Documentation/K5V5C.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — current Force portfolio and development status",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/the-force",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -30903,29 +30965,65 @@
       "brandId": "knightscope",
       "category": "smarthome",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 4,
       "highlightSources": [
         {
-          "name": "Knightscope",
+          "name": "Knightscope — current Force portfolio and development status",
           "type": "manufacturer",
           "url": "https://knightscope.com/the-force",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — Q2 2026 investor presentation, forward-looking catalysts",
+          "type": "manufacturer",
+          "url": "https://ir.knightscope.com/hubfs/KSCP%20Investor%20Deck%20Q2%202026.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — Autonomous Security Force brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Knightscope-ASF-Brochure.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "hasSelectedFieldReview": true,
-      "selectedFields": 3,
+      "selectedFields": 16,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 1,
+        "documented": 1,
+        "not-documented": 12,
         "conflicting": 0,
-        "roadmap": 2
+        "roadmap": 3
       },
       "specificationSources": [
         {
-          "name": "Knightscope",
+          "name": "Knightscope — current Force portfolio and development status",
           "type": "manufacturer",
           "url": "https://knightscope.com/the-force",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — Q2 2026 investor presentation, forward-looking catalysts",
+          "type": "manufacturer",
+          "url": "https://ir.knightscope.com/hubfs/KSCP%20Investor%20Deck%20Q2%202026.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — Autonomous Security Force brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Knightscope-ASF-Brochure.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "sourceReferences": [

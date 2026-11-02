@@ -360,37 +360,6 @@
       }
     },
     {
-      "robotId": "knightscope-k7",
-      "manufacturer": "Knightscope",
-      "model": "K7",
-      "sources": [
-        {
-          "name": "Knightscope",
-          "type": "manufacturer",
-          "url": "https://knightscope.com/the-force",
-          "checkedAt": "2026-11-01"
-        }
-      ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-23/knightscope.com-products-k5.json",
-      "fields": {
-        "speed": {
-          "value": "Planned up to 10 mph (under development)",
-          "status": "roadmap",
-          "note": "Proposed feature, not evidence of a shipped operational speed."
-        },
-        "releaseDate": {
-          "value": "",
-          "status": "not-documented",
-          "note": "Manufacturer lists K7 as under development; a 2026 catalog value does not establish a release date."
-        },
-        "description": {
-          "value": "Under development: proposed outdoor security patrol platform with light-duty off-road mobility, PTZ and thermal imaging, and live operator talk-down. Roadmap features are subject to change.",
-          "status": "roadmap",
-          "note": "Manufacturer roadmap, not a currently deployed capability guarantee."
-        }
-      }
-    },
-    {
       "robotId": "beatbot-iskim",
       "manufacturer": "Beatbot",
       "model": "iSkim",
@@ -82172,6 +82141,528 @@
           "value": "Planned ±0.1 mm",
           "status": "roadmap",
           "note": "Explicit manufacturer value with named model, load, component or announcement scope retained; not independent measurement."
+        }
+      }
+    },
+    {
+      "robotId": "knightscope-k1-hemisphere",
+      "manufacturer": "Knightscope",
+      "model": "K1 Hemisphere",
+      "sources": [
+        {
+          "name": "Knightscope — K1 Hemisphere technical brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Product%20Documentation/K1H-2.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — current Force portfolio and development status",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/the-force",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-94/source-14.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. Monthly subscription advertising is not a unit purchase offer."
+        },
+        "weight": {
+          "value": "30 lb (manufacturer specification)",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "size": {
+          "value": "24 in diameter x 10 in depth",
+          "status": "documented",
+          "note": "Explicit Diameter: 24 inches and Depth: 10 inches in the 2023 Form 10-K prose corroborate the linked brochure labels; no measurement inferred from artwork."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No single-charge endurance established for this exact configuration. Continuous service, stationary mains power and charging while monitoring do not establish battery duration."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured maximum uninterrupted operating duration established. 24/7 service includes charging or stationary mains power and is not single-charge runtime."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "ipRating": {
+          "value": "IP65",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact empty-to-full charging duration established. A maintenance charging pause, periodic docking interval or a mains outlet is not that quantity."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count specified. Camera count, wheel count and a stationary classification are not an articulated DOF specification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied manipulator/hand configuration explicitly specified; no neighboring humanoid or wearable configuration transferred."
+        },
+        "website": {
+          "value": "https://knightscope.com/the-force",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "K1 Hemisphere is a stationary entry-point security device with three cameras providing up to approximately 210° eye-level HD coverage, two-way audio, call button, announcements and a strobe. Its linked brochure specifies 30 lb, 24 in diameter, 10 in depth and IP65. Facial recognition is an optional feature; advertised subscription pricing is not a firm purchase price. Mains power and monitoring service do not establish battery endurance.",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 2018 year is not established for Hemisphere by selected named-model documents. Legacy K1 Tower and company-history dates are not Hemisphere release evidence."
+        },
+        "terrain": {
+          "value": "Fixed wall/pole mounting; indoor/outdoor device; no travel terrain rating",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Commercial security deployment is not an age recommendation."
+        }
+      }
+    },
+    {
+      "robotId": "knightscope-k3",
+      "manufacturer": "Knightscope",
+      "model": "K3",
+      "sources": [
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-94/source-9.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. Monthly subscription advertising is not a unit purchase offer."
+        },
+        "weight": {
+          "value": "Approximately 340 lb (2023 Form 10-K)",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "size": {
+          "value": "Approximately 4 ft height x 2 ft width (2023 Form 10-K)",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "batteryLife": {
+          "value": "Approximately 2–3 hours patrol between charging stops (2023 family statement)",
+          "status": "documented",
+          "note": "2023 Form 10-K explicitly scopes approximately 2–3 hours of patrol to K3/K5 ASRs. This historical family statement is not a present K5 V5 value or a continuous-monitoring maximum."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured maximum uninterrupted operating duration established. 24/7 service includes charging or stationary mains power and is not single-charge runtime."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "chargingTime": {
+          "value": "Approximately 20 minutes or more per charging stop (2023 family statement; not full recharge)",
+          "status": "documented",
+          "note": "Historical K3/K5 periodic charge stop of approximately 20 minutes or more; state-of-charge endpoints and full recharge not established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count specified. Camera count, wheel count and a stationary classification are not an articulated DOF specification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied manipulator/hand configuration explicitly specified; no neighboring humanoid or wearable configuration transferred."
+        },
+        "website": {
+          "value": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "K3 is the indoor autonomous security robot documented in Knightscope’s 2023 Form 10-K. The filing lists approximately 340 lb, 4 ft height and 2 ft width, with geofenced navigation using lasers, ultrasonic sensors, an IMU and wheel encoders. Its K3/K5 family statement gives roughly 2–3 hours patrol and charging stops of about 20 minutes or more. K3 disables the parking-utilization, parking-meter and plate-recognition functions described for K5. Current availability and first-release year remain unestablished.",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 2017 first-release year not established in selected filing; financial reporting dates and company first pilot sales in 2015 are not K3-specific introduction evidence."
+        },
+        "terrain": {
+          "value": "Structured indoor malls, offices, factories, hospitals and warehouses (2023 filing)",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Commercial security deployment is not an age recommendation."
+        }
+      }
+    },
+    {
+      "robotId": "knightscope-k5",
+      "manufacturer": "Knightscope",
+      "model": "K5",
+      "sources": [
+        {
+          "name": "Knightscope — K5 V5 technical brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Product%20Documentation/K5V5C.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — current Force portfolio and development status",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/the-force",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-94/source-13.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. Monthly subscription advertising is not a unit purchase offer."
+        },
+        "weight": {
+          "value": "420 lb (linked K5 V5 brochure)",
+          "status": "documented",
+          "note": "Linked K5 V5 sheet explicitly 420 lb. Historical 2023 filing says approximately 398 lb; prior rounded 190 kg is replaced by the exact current brochure quantity, not mixed with older dimensions."
+        },
+        "size": {
+          "value": "64.6 in height x 44.6 in length x 34.9 in width (linked brochure)",
+          "status": "documented",
+          "note": "Explicit Height,Length,Width labels and corresponding PDF text-word coordinates read; no scale or pixel measurement. 2023 prose gives a different historical approximate envelope."
+        },
+        "batteryLife": {
+          "value": "2.5–3 hours between charges on average (K5 V5 brochure)",
+          "status": "documented",
+          "note": "K5 V5 brochure specifies 2.5–3 hours between charges on average; not a guaranteed minimum or maximum."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured maximum uninterrupted operating duration established. 24/7 service includes charging or stationary mains power and is not single-charge runtime."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "speed": {
+          "value": "Up to 3 mph",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "chargingTime": {
+          "value": "20–30 minutes autonomous charging on average (not full recharge)",
+          "status": "documented",
+          "note": "K5 V5 brochure specifies 20–30 minutes autonomous charging on average. Full-charge endpoints are unspecified."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count specified. Camera count, wheel count and a stationary classification are not an articulated DOF specification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied manipulator/hand configuration explicitly specified; no neighboring humanoid or wearable configuration transferred."
+        },
+        "website": {
+          "value": "https://knightscope.com/the-force",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "K5 is an autonomous security patrol robot currently offered for structured outdoor locations. The linked K5 V5 brochure specifies 420 lb, 64.6 in height, 44.6 in length, 34.9 in width and up to 3 mph. Average patrol intervals of 2.5–3 hours and 20–30 minute autonomous charging stops are separate from 24/7 monitoring service. Four video cameras, thermal imaging, six LiDAR and thirteen sonar sensors support patrol and alerts. Older K5 dimensions/mass in the 2023 filing describe a different historical specification.",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 2015 year not established as this exact model’s first release. Company first pilot sales in 2015 do not identify a K5 introduction date."
+        },
+        "terrain": {
+          "value": "ADA compliant surfaces and ramps; parking-garage slope up to 20% grade",
+          "status": "documented",
+          "note": "Brochure explicitly up to 20% parking-garage grade, not 20 degrees; ADA-surface/ramp context retained."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Commercial security deployment is not an age recommendation."
+        }
+      }
+    },
+    {
+      "robotId": "knightscope-k7",
+      "manufacturer": "Knightscope",
+      "model": "K7",
+      "sources": [
+        {
+          "name": "Knightscope — current Force portfolio and development status",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/the-force",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — Q2 2026 investor presentation, forward-looking catalysts",
+          "type": "manufacturer",
+          "url": "https://ir.knightscope.com/hubfs/KSCP%20Investor%20Deck%20Q2%202026.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — Autonomous Security Force brochure",
+          "type": "manufacturer",
+          "url": "https://knightscope.com/hubfs/Knightscope-ASF-Brochure.pdf?hsLang=en",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-94/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. Monthly subscription advertising is not a unit purchase offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No single-charge endurance established for this exact configuration. Continuous service, stationary mains power and charging while monitoring do not establish battery duration."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured maximum uninterrupted operating duration established. 24/7 service includes charging or stationary mains power and is not single-charge runtime."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "speed": {
+          "value": "Planned up to 10 mph (under development)",
+          "status": "roadmap",
+          "note": "Proposed feature, not evidence of a shipped operational speed. Current Force page explicitly says under development."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact empty-to-full charging duration established. A maintenance charging pause, periodic docking interval or a mains outlet is not that quantity."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count specified. Camera count, wheel count and a stationary classification are not an articulated DOF specification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied manipulator/hand configuration explicitly specified; no neighboring humanoid or wearable configuration transferred."
+        },
+        "website": {
+          "value": "https://knightscope.com/the-force",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "Under development: K7 is Knightscope’s proposed large-area outdoor security patrol robot with light-duty off-road mobility, planned speed up to 10 mph, 360° HD video, PTZ/thermal imaging and live talk-down. The Q2 2026 investor presentation planned limited-release beta deployments in the second half of 2026; the current Force page still lists it under development. No customer delivery, measured performance or first-release date is established.",
+          "status": "roadmap",
+          "note": "Manufacturer roadmap and dated beta-deployment target; neither a showcase plan nor elapsed target date proves fulfillment."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer still lists K7 as under development. A planned second-half 2026 beta deployment does not establish first actual release."
+        },
+        "terrain": {
+          "value": "Planned light-duty off-road patrol at large outdoor industrial/logistics sites",
+          "status": "roadmap",
+          "note": "Current planned light-duty off-road scope; historical four-wheel concept is not a confirmed delivered all-terrain rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Commercial security deployment is not an age recommendation."
+        }
+      }
+    },
+    {
+      "robotId": "knightscope-k1-tower",
+      "manufacturer": "Knightscope",
+      "model": "K1 Tower",
+      "sources": [
+        {
+          "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
+          "type": "manufacturer",
+          "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-94/source-9.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. Monthly subscription advertising is not a unit purchase offer."
+        },
+        "weight": {
+          "value": "Approximately 150 lb (2023 Form 10-K)",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "size": {
+          "value": "Approximately 6 ft height x 3 ft width (2023 Form 10-K)",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No single-charge endurance established for this exact configuration. Continuous service, stationary mains power and charging while monitoring do not establish battery duration."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured maximum uninterrupted operating duration established. 24/7 service includes charging or stationary mains power and is not single-charge runtime."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established by the selected manufacturer documentation. Other machines, emergency phones, human services and software are not this robot’s technical specifications."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact empty-to-full charging duration established. A maintenance charging pause, periodic docking interval or a mains outlet is not that quantity."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count specified. Camera count, wheel count and a stationary classification are not an articulated DOF specification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied manipulator/hand configuration explicitly specified; no neighboring humanoid or wearable configuration transferred."
+        },
+        "website": {
+          "value": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "K1 Tower is the legacy stationary security platform named in Knightscope’s 2023 Form 10-K. It carries relevant K5 sensing features in a fixed indoor/outdoor format for people and vehicle entrances; the filing lists approximately 6 ft height, 3 ft width and 150 lb. This historical K1 Tower is distinct from K1 Hemisphere, Blue Light emergency phones and the announced K1 Super Tower. Current commercial availability and first-release year remain unestablished.",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Selected exact-model sources do not establish the first release year. Company pilot sales, filing dates, brochure availability and future production plans are different milestones."
+        },
+        "terrain": {
+          "value": "Stationary indoor/outdoor entrances (2023 Form 10-K)",
+          "status": "documented",
+          "note": "Exact named-model manufacturer statement with current, historical or development scope retained; not an independent measurement."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Commercial security deployment is not an age recommendation."
         }
       }
     }
