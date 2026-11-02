@@ -147,7 +147,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 391 and 127 still awaiting those reviews.
+selected technical-field reviews for 397 and 121 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -370,6 +370,19 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+All seven existing Makeblock platforms now have selected reviews across 119 fields:
+six new reviews plus an expansion of Neo's two energy fields, adding 117 net fields.
+Original mBot/mCore, CyberPi-based mBot2/Neo, Codey Rocky, mTiny, Ranger, Ultimate
+and the complete Rover retain separate controller, programming and kit scope.
+Unsupported prices, masses, runtimes, precise ages, launch years and standard-gripper
+assumptions were withdrawn. Base-mBot2 energy/speed does not transfer into Rover;
+Neo's numerical dimensions retain ambiguous horizontal source-axis labels.
+Four manufacturer-authored PDFs and a saved November 1 product text were read as
+text only; the Spring 2022 catalog is historical evidence. Current stock/app
+compatibility and learning outcomes were not independently verified. Seven pages
+and exports were checked; 839 other review records and 2,069 other CSV rows remain
+unchanged. See `reports/competitor-batch-101-evidence.json`.
 
 Nexaro's two existing models now have 40 selected-field checks and a sourced
 company focus. Cleaning throughput (up to 100 m²/h), mapping speed and maximum
@@ -756,18 +769,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-14,127 fields across 840 models, distinguishing documented, undisclosed, conflicting and
+14,244 fields across 846 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 3,641 kB JSON response loads only for search or comparison;
+A separate 3,677 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 4,310 reviewed highlight statements as well as
+Catalog search now includes all 4,318 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -880,7 +893,7 @@ product catalogs; aliases and repeated source mentions are intentionally retaine
 Company exports include source positioning and factual feature themes; reseller
 listing themes are kept separate from claims about a manufacturer. Brand profiles
 and brand search now expose these source-attributed themes. Company-authored focus
-reviews now cover 94 profiles, including autonomy software, open-source platforms,
+reviews now cover 95 profiles, including autonomy software, open-source platforms,
 robotic cafes, welding integration, DealMaker, TGW Logistics and T-Chef. They are recorded in
 `company-evidence.json` and in the company export; directory themes remain unverified.
 Three named TGW RovoFlex systems are included with dated first-party highlights.

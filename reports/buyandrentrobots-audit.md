@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,076 catalog rows**, with 644 exact
-manufacturer spellings. Batch 100 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 101 refreshed the separate heuristic gap file offline
 against all 2,076 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 391 have selected-field reviews and 127 await those reviews. Family and
+highlights; 397 have selected-field reviews and 121 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 14,127 fields across 840 catalog models: 6,089 documented,
-7,718 not documented, 257 conflicting and sixty-three roadmap fields. They do not certify whole
+Selected specification checks cover 14,244 fields across 846 catalog models: 6,110 documented,
+7,814 not documented, 257 conflicting and sixty-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -6102,3 +6102,105 @@ Datenfeldprüfungen, 127 ohne. Drei Modellidentitäten, neun Listingidentitäten
 Kein Nachweis exklusiver USPs oder einer Markt-/Suchführerschaft.
 Datencommit: `eceb6b8b42f866ae54842b3ef0267fdf14585857`. Dauerhafter Nachweis:
 `reports/competitor-batch-100-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Makeblock Plattformen und Bausatzgrenzen (Batch 101)
+
+Alle sieben vorhandenen Makeblock-Katalogeinträge geprüft: mBot, mBot Neo,
+mBot Ultimate 2.0, Codey Rocky, mTiny, mBot Ranger und mBot2 Rover Robotics Kit.
+119 ausgewählte Felder: 22 dokumentiert, 97 unbekannt. Sechs neue Feldprüfungen;
+Neo hatte zuvor zwei Energiefelder und wurde erweitert, also 117 zusätzliche Felder
+netto. Keine neue Roboterkarte, CSV-Spalte, Kategorie- oder Anwendungscodeänderung.
+Ein Firmenfokus ergänzt, insgesamt 95. Alle 839 anderen früheren Feldprüfungen,
+94 Firmenfokusse, 2069 anderen Katalogzeilen, Profile/Aliasse und 1961
+Quellenidentitäten unverändert. Frühere Produktbelege und die ersetzte Neo-
+Zweifeldprüfung im Manifest erhalten. Vorhandene Tags/Bilder bleiben bestehen,
+ohne dass dadurch jeder Tag oder die Bildidentität neu verifiziert wäre.
+
+Originaler mBot und die historische mBot-v1.1-Spalte mit mCore bleiben vom
+CyberPi-basierten mBot2/Neo getrennt. Der Bildungskatalog Frühjahr 2022 nennt
+Blockprogrammierung/Arduino C für mBot, Ranger und Ultimate; Wi-Fi/Python und
+Basis-mBot2-Laufzeit werden nicht pauschal übertragen. Batterieausschluss beim
+historischen mBot-v1.1-Paket ist keine Aussage über jedes heutige Paket. Motor-RPM,
+Encoderauflösung, sechsachsiger Bewegungssensor und Anzahl möglicher Bauformen
+sind keine Fahrgeschwindigkeit oder mechanischen Roboterfreiheitsgrade.
+
+Beim Basis-mBot2 nennen Broschüre und gespeicherte Produktseite etwa eine Stunde
+Laden für bis zu fünf Stunden Nutzung; Aktivität/Belastung sowie Anfangs-/Endladezustand
+sind nicht angegeben. Die am 1. November gespeicherte Seite nennt bis 20 cm/s und
+90 × 180 × 130 mm mit Achsenbeschriftung h*l*L. Numerische Reihenfolge bleibt
+bestehen, die uneindeutigen horizontalen Achsennamen werden nicht als gesichertes
+Länge/Breite-Schema umgeschrieben. Die Angaben gelten nicht automatisch für den
+umgebauten Rover. Klassenpakete mit sechs Basisrobotern, Aufbewahrung und Zubehör
+sind keine sechs zusätzlichen Hardwaremodelle. Auffällige vertauschte Ultraschall- /
+Quad-RGB-Funktionsbeschriftungen in der Broschüre wurden nicht übernommen.
+
+Ultimate 2.0: 10-in-1-Kit, historische SKU 90040; Makeblock-App-Steuerung, mBlock
+und Arduino C im Herstellerhandbuch. Arduino-/Raspberry-Pi-Kompatibilität beweist
+weder beiliegende Boards noch Mega2560 als Controller. Ein bestimmter Standardgreifer
+oder feste Greiflast ist aus diesen Textquellen nicht belegt. Ranger: 3-in-1-Kit,
+SKU 90092; katalogseitig Block-/Arduino-C-Unterstützung in mBlock 5 belegt,
+exakte Controller-/Sensorlieferung und einzelne Antriebsformen offen.
+
+Codey Rocky: Codey mit mehr als zehn programmierbaren Elektronikmodulen plus
+mobile Rocky-Basis; Linienfolge-/Hindernisübungen und Block-/Python-Programmierung
+laut Handbuch. Altersangabe sechs Jahre oder älter mit Erwachsenenbegleitung.
+5 V/1 A ist die Ladeadapteranforderung, keine Ladedauer. Der sechsachsige Gyrosensor
+ist keine sechsachsige Robotermechanik; eine zweistündige Laufzeit ist hier unbelegt.
+
+mTiny: Tap-Pen, Karten, Themenpläne und bildschirmfreie Programmieraktivitäten im
+historischen Discover-Kontext, SKU P1030157. Karten-/Marker-/Map-Erweiterungen sind
+separat gelistet. Keine Verallgemeinerung identischer Inhalte für jedes mTiny-Paket;
+Frühbildung ist keine exakte Altersfreigabe. Laufzeit 150 Minuten und alter ungefährer
+Preis wurden mangels Beleg entfernt. Pädagogische Entwicklungsversprechen sind
+Herstellerpositionierung, keine unabhängig nachgewiesenen Lern-/Gesundheitswirkungen.
+
+Kompletter Rover und Rover Robotics Add-on Pack sind ausdrücklich verschiedene
+Angebotstypen. Greif-/Ausdrucksprojekte und Outdoor-Erkundungspositionierung sind
+belegt; genaue Mechanik, Traglast, Kamera-Inklusion, Laufzeit, Geschwindigkeit,
+Neigung und IP-Klasse nicht. Basiswerte werden nicht übertragen. Smart World, AI-
+Kamera, Neuron, Aufbewahrungsteile oder Software sind nicht automatisch
+im Grundroboter enthalten oder zusätzliche vollständige Robotermodelle.
+
+Fünf neue HTTP-Antworten: vier erfolgreiche Hersteller-PDFs, eine erratene
+Docs-Stammadresse mit HTTP 404. PDF-Autorschaft und Hosting sind getrennt benannt:
+mBot2-Broschüre auf Herstellerhost, Ultimate-/Codey-Handbücher auf Amazon und
+Herstellerkatalog auf Manuals.plus. Vier PDFs mit insgesamt 39 Seiten als Text extrahiert; die relevanten Modell-,
+Vergleichs- und Plattformabschnitte textlich geprüft. Keine vollständige zeilenweise
+Prüfung jeder Katalogseite und keine visuelle Bild-/Zeichnungs-/Videoprüfung.
+Der Herstellerkatalog ist Frühjahr 2022 und kein aktueller Lieferfähigkeitsnachweis.
+Zusätzlich wurde die erfolgreiche Makeblock-mBot2-Textaufnahme vom 1. November
+lokal erneut geprüft; keine neue Anfrage an zuvor gesperrte Haupt-/Supporthosts.
+Der Archiv-SHA-256 bezieht sich auf die gespeicherte Recherche-JSON, da der
+ursprüngliche HTTP-Rohkörper nicht vorliegt. Alle gespeicherten Dateien per Hash
+geprüft; kein behaupteter frischer HTTP-Erfolg für die archivierte Seite.
+
+Prüfungen: 799 Unit-Tests in 64 Dateien, Build mit 3126 Seiten, Audit ohne Fehler
+und 985 Hinweisen. Fünf zusätzliche Hinweise betreffen entfernte unbelegte
+Erscheinungsjahre; alle anderen Hinweise unverändert. Testdatei formatiert und
+gelintet. Vierzehn verschiedene Desktop-/Mobilfälle inklusive vier Axe-Läufen
+bestanden. Erster Browserlauf 12/14: Zwei neue Assertions verlangten fälschlich ein
+nicht vorhandenes time-Element im Merkmalsabschnitt. Das tatsächliche Prüfdatum
+wird dort als Text gerendert; die zwei korrigierten Fälle bestanden gezielt erneut.
+Keine Anwendungskorrektur nötig. Der erste Daten-Apply-Guard fing die vorhandene
+Neo-Zweifeldprüfung ab; nur eigene partielle CSV-Änderungen wurden gegen die
+vorbereiteten Entscheidungen geprüft, zurückgesetzt und vollständig neu angewandt.
+Der dazwischen gestartete Refresh hatte die vorübergehend veraltete Neo-Ladeprüfung
+korrekt abgewiesen; abschließender Import/Refresh und alle Prüfungen bestanden.
+
+Alle sieben gerenderten Seiten/119 Felder, 29 Merkmalsaussagen, Firmenfokus,
+strukturierte Eigenschaften sowie Modell-, Firmen- und Rechercheexporte geprüft.
+Vorherige globale Seitenprüfungen bleiben historische Ergebnisse; 839 andere
+Belegdatensätze sind unverändert. Aktueller Vergleichsexport vollständig gegen
+988 Produktbelege, 4318 Aussagen, 1915 Quellenreferenzen und 846 Feldprüfungen mit
+14244 Feldern abgeglichen. Erneuter Import: null Ergänzungen. Eigene Test-/Browser-
+und Serverprozesse beendet, kein Deployment.
+
+Katalog weiterhin 2076 Modelle/Konfigurationen; insgesamt 95 Firmenfokusse. Die
+518 ursprünglichen Quellen-Katalogziele haben alle Merkmalsbelege: 397 mit
+Datenfeldprüfungen, 121 ohne. Drei Modellidentitäten, neun Listingidentitäten,
+862 Buy-Detailinhalte sowie vollständige aktuelle/historische Portfolio-,
+Lieferfähigkeits-, App- und Leistungsprüfung bleiben offen. Keine exklusiven
+USPs oder Markt-/Suchführerschaft unabhängig nachgewiesen.
+Datencommit: `d3c2a110d91466afb522f92077ec0ca21b1c7b9d`. Dauerhafter Nachweis:
+`reports/competitor-batch-101-evidence.json`.
