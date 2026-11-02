@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,076 catalog rows**, with 644 exact
-manufacturer spellings. Batch 99 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 100 refreshed the separate heuristic gap file offline
 against all 2,076 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 389 have selected-field reviews and 129 await those reviews. Family and
+highlights; 391 have selected-field reviews and 127 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 14,087 fields across 838 catalog models: 6,070 documented,
-7,698 not documented, 256 conflicting and sixty-three roadmap fields. They do not certify whole
+Selected specification checks cover 14,127 fields across 840 catalog models: 6,089 documented,
+7,718 not documented, 257 conflicting and sixty-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -6027,3 +6027,78 @@ Offline-Refresh und Lint/Format der geänderten Testdatei bestanden. Keine Anwen
 Änderung; frühere vollständige App-Browser-/Python-Ergebnisse bleiben historische
 Ergebnisse. Eigene Prozesse beendet und Port4321 frei; andere Aufgaben unberührt.
 Dauerhafter Beleg: `reports/competitor-batch-99-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Nexaro Modellunterschiede (Batch 100)
+
+Die zwei bestehenden Nexaro-Einträge NR 1500 und NR 1700 haben jetzt 40 ausgewählte
+Feldprüfungen: 19 dokumentiert, 20 unbekannt, ein Quellenkonflikt. Keine neue
+Roboterkarte, CSV-Spalte oder Anwendungscodeänderung. Ein Firmenfokus ergänzt;
+insgesamt 94. Alle 838 früheren Feldprüfungen, 93 Firmenfokusse, 2074 anderen
+Katalogzeilen, Profile/Aliasse und 1961 Quellenidentitäten unverändert. Frühere
+Produktbelege beider Modelle sind im Manifest erhalten.
+
+Reinigungsrate beider Modelle maximal 100 m²/h, abhängig von Grundriss, Einrichtung,
+Bodenbelag und Verschmutzung. NR 1500: maximal 400 m² Reinigungsfläche und
+300 m²/h Kartierung. NR 1700: maximal 1000 m² und 600 m²/h Kartierung. Kartierung
+ist keine Reinigungsleistung. Flächenangaben gelten mit maximal 35 m Dock-Abstand
+und höchstens 6 × 6 m beziehungsweise 12 × 12 m freien Bereichen ohne
+charakteristische Objekte; daraus wird keine Mindestgangbreite abgeleitet.
+
+Beide Datenblätter: 6,5 kg Robotermasse, 280 mm Reinigungsbreite, 1,4-Liter
+Staubbehälter und waschbarer HEPA-H13-Filter. Der separate Dock wiegt 1,5 kg und
+misst 410 × 360 × 200 mm. Staubvolumen ist kein Wassertank oder Traglastwert.
+Hartboden-Laufzeiten: 250 Minuten Eco, 110 Balanced, 105 Performance. Die gleichen
+Fußnotenzeichen neben den Werten und „Measured on hard floor“ wurden im
+extrahierten Text abgeglichen. Ladezeiten etwa 95 Minuten für 15–85 % und
+120 Minuten für 15–95 %, keine behauptete vollständige 0–100-%-Ladung.
+
+NR-1700-Größe widersprüchlich: englisches und deutsches Datenblatt, Stand
+Februar 2025, nennen 346 × 344 × 173 mm. Der erfolgreiche Shop-Abruf über die
+alte NR-1500-Weiterleitung nennt 343 × 343 × 175 mm. Beide Werte bleiben sichtbar.
+NR 1500 hat ein eigenes Datenblatt, Stand August 2025; die Weiterleitung beweist
+keine Modellgleichheit. Datenblattstände sind keine belegten Erscheinungsjahre.
+
+HUB Pro.Multi unterstützt koordinierte Flotten; Pro.Single ist auf Einzelgeräte
+oder Drop & Go eingegrenzt. Verwaltung mehrerer Stockwerke ist kein Beleg für
+autonome Treppen-/Aufzugnutzung. Der NR-1700-Shop nennt eine 36-monatige
+Pro.Multi-Lizenz im Lieferumfang; der angezeigte Preis mit erst im Checkout
+berechneten Steuern/Versand wird nicht als eindeutiger Gesamtpreis übernommen.
+Trolley, Dock, Verbrauchsmaterial, Software und Monitoring sind keine weiteren
+Roboter. Zertifizierungs-, Luftqualitäts-, Datenschutz- und Effizienzpositionierung
+bleibt dem Hersteller zugeschrieben und wurde nicht unabhängig auditiert.
+
+Zehn gespeicherte HTTP-Antworten: neun erfolgreich, darunter vier deutsch/englische
+PDFs; ein HTTP 429 beim direkten Shop-Aufruf. Der erste Collector lief danach
+fälschlich für bereits eingereihte URLs weiter: Downloadindex, HUB und die alte
+NR-1500-Weiterleitung waren erfolgreich. Seitdem keine weiteren nexaro.com-Aufrufe;
+der Collector verweigert nun weitere Aufrufe eines zuvor begrenzten Hosts.
+Die offiziellen öffentlichen Download-Unterlagen auf downloads.nexaro.com waren
+zugänglich. Alle Antwortkörper per SHA-256 geprüft. Vier PDFs ausschließlich als
+extrahierter Text geprüft, keine visuelle Prüfung, Bild-, Zeichnungs- oder
+Videointerpretation. Das anfänglich fehlende pdftotext wurde durch vorhandenes
+PyMuPDF ersetzt; das bereits gespeicherte erste PDF wurde nicht erneut geladen.
+
+Prüfungen: 796 Unit-Tests in 64 Dateien, Build mit 3126 Seiten, Datenaudit ohne
+Fehler und unverändert 980 Hinweisen. Geänderte Tests formatiert und gelintet;
+ein erster Formatcheck erforderte Zeilenumbrüche. Zwölf verschiedene Browserfälle
+für Desktop/Mobil inklusive vier Axe-Läufen bestanden. Erster Lauf 10/12: Die zwei
+Suchtests verlangten fälschlich einen ausschließlichen Merkmalskontext für eine
+auch in der Beschreibung enthaltene Phrase. Nach Wechsel auf eine nur in den
+Merkmalen vorkommende Ladephrase bestanden genau diese zwei Wiederholungen;
+keine Anwendungskorrektur nötig. Beide gerenderten Modellseiten und 40 Felder,
+12 Merkmalsaussagen, Firmenfokus, strukturierte Eigenschaften und Exporte geprüft.
+Vorherige 838 Seitenprüfungen bleiben historische Batch-99-Ergebnisse; ihre
+unveränderten Belegdatensätze und 2074 anderen Katalogzeilen wurden nachgewiesen.
+Der aktuelle Vergleichsexport wurde vollständig gegen alle 988 Produktbelege,
+4310 Merkmalsaussagen, 1914 Quellenreferenzen und 840 Feldprüfungen mit
+14127 Feldern abgeglichen. Erneuter Import: null Ergänzungen.
+Eigene Browser-, Server- und Testprozesse beendet; kein Deployment.
+
+Aktueller Katalog weiterhin 2076 Modelle/Konfigurationen. Die ursprünglichen
+518 Quellen-Katalogziele haben alle Merkmalsbelege: 391 mit ausgewählten
+Datenfeldprüfungen, 127 ohne. Drei Modellidentitäten, neun Listingidentitäten,
+862 Buy-Detailinhalte und vollständige Portfolio-/Leistungsprüfung bleiben offen.
+Kein Nachweis exklusiver USPs oder einer Markt-/Suchführerschaft.
+Datencommit: `eceb6b8b42f866ae54842b3ef0267fdf14585857`. Dauerhafter Nachweis:
+`reports/competitor-batch-100-evidence.json`.

@@ -147,7 +147,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 389 and 129 still awaiting those reviews.
+selected technical-field reviews for 391 and 127 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -272,9 +272,11 @@ yaw typography is not converted into a numeric angular bound. Software, chargers
 HADS, batteries and carts are separate configuration or integration findings.
 
 Reviewed additional specification rows now show the same dated source/status badges
-as predefined fields. Rendered metadata was checked for all 838 selected-review
-model pages, including seventy-six reviewed launch years with conflicting milestones
-retained; this does not re-verify the underlying manufacturers or unmarked fields.
+as predefined fields. Batch 99 checked rendered metadata for all 838 selected-review
+model pages, including seventy-six reviewed launch years. Batch 100 checked the two
+additional Nexaro pages separately and proved all 838 previous review records and
+2,074 other catalog rows unchanged. This does not re-verify the underlying
+manufacturers or unmarked fields.
 
 Robotize now has selected field reviews for six current GoPal models and the
 separately documented historical GoPal 400 (December 2017). Six present-day models
@@ -368,6 +370,14 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Nexaro's two existing models now have 40 selected-field checks and a sourced
+company focus. Cleaning throughput (up to 100 m²/h), mapping speed and maximum
+area remain distinct; featureless-space and dock-distance limits are retained.
+Hard-floor runtime stays mode-specific and charging windows cover 15–85%/15–95%.
+NR 1700 shop/datasheet body-size disagreement remains visible; the old NR 1500
+URL redirect does not merge model identities. Document revisions are not launches.
+See `reports/competitor-batch-100-evidence.json`.
 
 Boston Dynamics now has 17 generation/configuration and legacy reviews across
 318 fields, including ten additional cards. Production Atlas (January 2026), the
@@ -746,18 +756,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-14,087 fields across 838 models, distinguishing documented, undisclosed, conflicting and
+14,127 fields across 840 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 3,628 kB JSON response loads only for search or comparison;
+A separate 3,641 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 4,304 reviewed highlight statements as well as
+Catalog search now includes all 4,310 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -870,7 +880,7 @@ product catalogs; aliases and repeated source mentions are intentionally retaine
 Company exports include source positioning and factual feature themes; reseller
 listing themes are kept separate from claims about a manufacturer. Brand profiles
 and brand search now expose these source-attributed themes. Company-authored focus
-reviews now cover 93 profiles, including autonomy software, open-source platforms,
+reviews now cover 94 profiles, including autonomy software, open-source platforms,
 robotic cafes, welding integration, DealMaker, TGW Logistics and T-Chef. They are recorded in
 `company-evidence.json` and in the company export; directory themes remain unverified.
 Three named TGW RovoFlex systems are included with dated first-party highlights.
