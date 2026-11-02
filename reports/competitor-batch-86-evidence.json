@@ -1,0 +1,882 @@
+{
+  "batch": 86,
+  "checkedAt": "2026-11-02",
+  "manufacturers": [
+    "Ozobot"
+  ],
+  "catalogModelsBefore": 2009,
+  "catalogModelsAfter": 2009,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "selectedSpecificationModels": 4,
+  "selectedFields": 68,
+  "fieldStatuses": {
+    "documented": 23,
+    "not-documented": 45
+  },
+  "newCompanyFocusReviews": 1,
+  "updatedCompanyFocusReviews": 0,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "sources": 19,
+    "successfulBodies": 16,
+    "dnsFailures": [
+      2,
+      3
+    ],
+    "rateLimitedSources": [
+      16
+    ],
+    "hostRequestsStoppedAfter429": true,
+    "pdfDocuments": 10,
+    "pdfPages": 59,
+    "pdfWordCoordinatesSaved": true,
+    "pdfVisualInspection": false,
+    "comparisonCheckboxesNotInterpreted": true,
+    "proofs": [
+      {
+        "id": 4,
+        "url": "https://ozobot.com/products/evo-entry-kit",
+        "textFile": "source-4.txt",
+        "anchors": [
+          "1 Ozobot Evo Robot",
+          "60 min. charge time",
+          "Ten RGB LEDs"
+        ]
+      },
+      {
+        "id": 6,
+        "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+        "textFile": "source-6.txt",
+        "anchors": [
+          "40 minutes to charge Bit",
+          "60-90 minutes",
+          "Single Click"
+        ]
+      },
+      {
+        "id": 7,
+        "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
+        "textFile": "source-7.txt",
+        "anchors": [
+          "43 x 43.0mm",
+          "1050 mAh",
+          "240 minutes",
+          "must stay connected",
+          "5V/1A"
+        ]
+      },
+      {
+        "id": 8,
+        "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
+        "textFile": "source-8.txt",
+        "anchors": [
+          "168 min. to charge 80%",
+          "57 g",
+          "0.9 kg"
+        ]
+      },
+      {
+        "id": 9,
+        "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
+        "textFile": "source-9.txt",
+        "anchors": [
+          "33.5 x 33.0mm",
+          "Weight: Evo",
+          "140mAh",
+          "2kB",
+          "60 min. to charge 80%",
+          "Python (over WiFi)",
+          "over BLE during program execution"
+        ]
+      },
+      {
+        "id": 14,
+        "url": "https://ozobot.com/pages/bit-replacement-program",
+        "textFile": "source-14.txt",
+        "anchors": [
+          "older Evo or Bit robots",
+          "1:1 trade-in"
+        ]
+      },
+      {
+        "id": 17,
+        "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+        "textFile": "source-17.txt",
+        "anchors": [
+          "Bit+ Compatibility",
+          "WebUSB",
+          "Arduino"
+        ]
+      },
+      {
+        "id": 19,
+        "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772",
+        "textFile": "source-19.txt",
+        "anchors": [
+          "Ari + Ozobot Editor",
+          "Flashloading"
+        ]
+      }
+    ],
+    "productResponseRecords": 82,
+    "productResponseIsNotFullHistoricalPortfolio": true,
+    "ariEntryPriceUsd": 250,
+    "evoEntryPriceUsd": 175,
+    "productVariantGramsNotUsedAsRobotMass": true
+  },
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://ozobot.com/",
+      "checkedAt": "2026-11-02T13:08:54.965755+00:00",
+      "status": 200,
+      "finalUrl": "https://ozobot.com/",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-1.html",
+      "bodySha256": "d00d6456c67edd2a3783d97047926ff00464f793bf3c4e059b004e65094ca16b",
+      "title": "The Official Store for Ozobot Coding Robots and K-8 STEAM Education",
+      "textFile": "source-1.txt"
+    },
+    {
+      "id": 2,
+      "url": "https://ozobot.com/pages/bitplus",
+      "checkedAt": "2026-11-02T13:08:54.966559+00:00",
+      "error": "HTTPSConnectionPool(host='ozobot.com', port=443): Max retries exceeded with url: /pages/bitplus (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f999d5791d0>: Failed to resolve 'ozobot.com' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
+      "id": 3,
+      "url": "https://ozobot.com/products/ari-entry-kit",
+      "checkedAt": "2026-11-02T13:08:54.970728+00:00",
+      "error": "HTTPSConnectionPool(host='ozobot.com', port=443): Max retries exceeded with url: /products/ari-entry-kit (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f999d578cd0>: Failed to resolve 'ozobot.com' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
+      "id": 4,
+      "url": "https://ozobot.com/products/evo-entry-kit",
+      "checkedAt": "2026-11-02T13:08:54.973157+00:00",
+      "status": 200,
+      "finalUrl": "https://ozobot.com/products/evo-entry-kit-1",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-4.html",
+      "bodySha256": "1d1c8d971902a23a654dd4071912328fb8a6c4bd34a876d6cc691c8c68217b2e",
+      "title": "Evo Entry Kit | Coding Robot for Kids & STEM Learning\n – Ozobot",
+      "textFile": "source-4.txt"
+    },
+    {
+      "id": 5,
+      "url": "https://ozobot.com/pages/manuals",
+      "checkedAt": "2026-11-02T13:08:55.379463+00:00",
+      "status": 200,
+      "finalUrl": "https://ozobot.com/pages/manuals",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-5.html",
+      "bodySha256": "40541a05f434ac592bc8243d89d035c2a07313a78fb7f4a8af10ab06ec81fdf6",
+      "title": "Ozobot Manuals | Product Guides & Documentation",
+      "textFile": "source-5.txt"
+    },
+    {
+      "id": 6,
+      "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+      "checkedAt": "2026-11-02T13:08:55.700071+00:00",
+      "status": 200,
+      "finalUrl": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-6.pdf",
+      "bodySha256": "5febb73a83fa2675985e7b70723992d457300824ccbc5a75d3a9b82010359c85",
+      "textFile": "source-6.txt",
+      "pages": 8
+    },
+    {
+      "id": 7,
+      "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
+      "checkedAt": "2026-11-02T13:09:35.665974+00:00",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
+      "contentType": "application/pdf",
+      "bodyFile": "source-7.pdf",
+      "bodySha256": "1c5ccd0f371aa6f7994866d688802a16267a7e1b411c4cbf34a283b1d7ca0670",
+      "textFile": "source-7.txt",
+      "pages": 2
+    },
+    {
+      "id": 8,
+      "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
+      "checkedAt": "2026-11-02T13:09:35.666679+00:00",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
+      "contentType": "application/pdf",
+      "bodyFile": "source-8.pdf",
+      "bodySha256": "3e8d19c979f302c8596b9d9f92a537344e4c23a6994d97eed536bcd433c1fdd7",
+      "textFile": "source-8.txt",
+      "pages": 2
+    },
+    {
+      "id": 9,
+      "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
+      "checkedAt": "2026-11-02T13:09:35.670962+00:00",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
+      "contentType": "application/pdf",
+      "bodyFile": "source-9.pdf",
+      "bodySha256": "2cfff8bcdc6be11cb88e7aebd5d93707952aadf760a8c1b5493d29968768e704",
+      "textFile": "source-9.txt",
+      "pages": 2
+    },
+    {
+      "id": 10,
+      "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/24-Ozobot-Ari-Quick-Start-Guide-v14.pdf?v=1779924777",
+      "checkedAt": "2026-11-02T13:09:35.673160+00:00",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/1059/8266/files/24-Ozobot-Ari-Quick-Start-Guide-v14.pdf?v=1779924777",
+      "contentType": "application/pdf",
+      "bodyFile": "source-10.pdf",
+      "bodySha256": "ff7c79e69ba9d24eb90eaa2cb0314a5c491a7111cca2426ba1260cfdd8ee992e",
+      "textFile": "source-10.txt",
+      "pages": 22
+    },
+    {
+      "id": 11,
+      "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Quick_Start_Guide.pdf?v=1744393303",
+      "checkedAt": "2026-11-02T13:09:36.352160+00:00",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Quick_Start_Guide.pdf?v=1744393303",
+      "contentType": "application/pdf",
+      "bodyFile": "source-11.pdf",
+      "bodySha256": "7ebfec42808da73bca660ccdeca71549751536e33872d161bbb57672a44cb6ea",
+      "textFile": "source-11.txt",
+      "pages": 16
+    },
+    {
+      "id": 12,
+      "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ozobot_Evo_vs_Ari_Comparison.pdf?v=1779924774",
+      "checkedAt": "2026-11-02T13:09:37.279059+00:00",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ozobot_Evo_vs_Ari_Comparison.pdf?v=1779924774",
+      "contentType": "application/pdf",
+      "bodyFile": "source-12.pdf",
+      "bodySha256": "8991d311f60fab9f9ce199c1c71ad18f0fb180ea7e8dba81b4c3cd0158679e98",
+      "textFile": "source-12.txt",
+      "pages": 4
+    },
+    {
+      "id": 13,
+      "url": "https://ozobot.com/collections/ari-coding-robots",
+      "checkedAt": "2026-11-02T13:09:38.079048+00:00",
+      "status": 200,
+      "finalUrl": "https://ozobot.com/collections/ari-coding-robots",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-13.html",
+      "bodySha256": "1344e31f09ab93b00e1f656a860244afb3d779b5751ed037852be60fdb2a91e4",
+      "title": "New Ari Coding Robot | Interactive K-12 STEM Education\n – Ozobot",
+      "textFile": "source-13.txt"
+    },
+    {
+      "id": 14,
+      "url": "https://ozobot.com/pages/bit-replacement-program",
+      "checkedAt": "2026-11-02T13:09:38.776043+00:00",
+      "status": 200,
+      "finalUrl": "https://ozobot.com/pages/bit-replacement-program",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-14.html",
+      "bodySha256": "6edb071183b0293bb989df1eb78b9255065f2a96a6bc4f38a506d0229b36ea93",
+      "title": "Evo Upgrade Program | Upgrade Your Ozobot Experience",
+      "textFile": "source-14.txt"
+    },
+    {
+      "id": 15,
+      "url": "https://ozobot.com/products.json?limit=250",
+      "checkedAt": "2026-11-02T13:09:39.163786+00:00",
+      "status": 200,
+      "finalUrl": "https://ozobot.com/products.json?limit=250",
+      "contentType": "application/json; charset=utf-8",
+      "bodyFile": "source-15.json",
+      "bodySha256": "cc42477df2d3f2a08115d46cb3528c624b44d1465978889afe043088cf7fd255"
+    },
+    {
+      "id": 16,
+      "url": "https://ozobot.com/pages/bit-plus",
+      "checkedAt": "2026-11-02T13:09:39.748914+00:00",
+      "status": 429,
+      "finalUrl": "https://ozobot.com/pages/bit-plus",
+      "contentType": "text/plain",
+      "bodyFile": "source-16.json",
+      "bodySha256": "fa2dd01ed96d38758e89e354653c39f366bc7a34e485772c8aa2174b53a465d3"
+    },
+    {
+      "id": 17,
+      "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+      "checkedAt": "2026-11-02T13:10:35.260520+00:00",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+      "contentType": "application/pdf",
+      "bodyFile": "source-17.pdf",
+      "bodySha256": "ad7028503f4d15c4702d74b59a46dff7a5bc754ba5ac52881c1cfb750bb09e7a",
+      "textFile": "source-17.txt",
+      "pages": 1
+    },
+    {
+      "id": 18,
+      "url": "https://static.ozobot.com/assets/7743bc40-2023-ozobot-evo-compatibility-chart.pdf",
+      "checkedAt": "2026-11-02T13:10:35.261125+00:00",
+      "status": 200,
+      "finalUrl": "https://static.ozobot.com/assets/7743bc40-2023-ozobot-evo-compatibility-chart.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-18.pdf",
+      "bodySha256": "ca3eeb59fa5a8f53390034e12a07c9a75fb9a04b2544486229b9ae164bdec493",
+      "textFile": "source-18.txt",
+      "pages": 1
+    },
+    {
+      "id": 19,
+      "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772",
+      "checkedAt": "2026-11-02T13:10:35.265253+00:00",
+      "status": 200,
+      "finalUrl": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772",
+      "contentType": "application/pdf",
+      "bodyFile": "source-19.pdf",
+      "bodySha256": "3af10bc5f55d62eabe978c9cf891411957c9f4a777eb3e58f259741f89746025",
+      "textFile": "source-19.txt",
+      "pages": 1
+    }
+  ],
+  "modelDecisions": [
+    {
+      "model": "Ari",
+      "manufacturer": "Ozobot",
+      "robotId": "ozobot-ari",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
+        "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
+        "https://ozobot.com/products.json?limit=250",
+        "https://ozobot.com/collections/ari-coding-robots",
+        "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772"
+      ]
+    },
+    {
+      "model": "Evo",
+      "manufacturer": "Ozobot",
+      "robotId": "ozobot-evo",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
+        "https://ozobot.com/products/evo-entry-kit",
+        "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+        "https://static.ozobot.com/assets/7743bc40-2023-ozobot-evo-compatibility-chart.pdf"
+      ]
+    },
+    {
+      "model": "Bit",
+      "manufacturer": "Ozobot",
+      "robotId": "ozobot-bit",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+        "https://ozobot.com/pages/bit-replacement-program"
+      ]
+    },
+    {
+      "model": "Bit+",
+      "manufacturer": "Ozobot",
+      "robotId": "ozobot-bit-plus",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+        "https://ozobot.com/pages/manuals"
+      ]
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "Ozobot",
+      "model": "Evo",
+      "changes": {
+        "price": {
+          "before": "214 USD",
+          "after": "175 USD (Evo Entry Kit; one robot plus accessories)"
+        },
+        "weight": {
+          "before": "0.05 kg",
+          "after": "1 oz robot per technical sheet; 2 lb cradle excluded"
+        },
+        "size": {
+          "before": "very-small",
+          "after": "33.5 mm width × 33.0 mm height; depth not stated"
+        },
+        "batteryLife": {
+          "before": "~1 hour",
+          "after": "Approximately 60 min per technical sheet; historical shared guide says 60–90 min"
+        },
+        "maxRuntime": {
+          "before": "60 min",
+          "after": "Approximately 60 min stated operation; no measured maximum established"
+        },
+        "tags": {
+          "before": "bluetooth;educational;programmable",
+          "after": "bluetooth;educational;programmable;coding"
+        },
+        "handType": {
+          "before": "none",
+          "after": ""
+        },
+        "ageRange": {
+          "before": "5-18",
+          "after": ""
+        },
+        "website": {
+          "before": "https://ozobot.com/",
+          "after": "https://ozobot.com/products/evo-entry-kit-1"
+        },
+        "description": {
+          "before": "Color code programming, Bluetooth, optical sensors",
+          "after": "Evo is a compact Ozobot coding robot with optical line/color sensing, proximity detection, programmable LEDs and a speaker. It supports screen-free Color Codes and Ozobot Blockly. The technical sheet states 1 oz robot mass and approximately 60 minutes of operation; up to 2 kB Blockly programs can be stored and run without an active PC connection, while PC-executed programs require the documented connection."
+        },
+        "releaseDate": {
+          "before": "2016",
+          "after": ""
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "60 min stated wired charge time; cradle approximately 60 min to 80% is a separate target"
+        }
+      }
+    },
+    {
+      "manufacturer": "Ozobot",
+      "model": "Bit+",
+      "changes": {
+        "price": {
+          "before": "~140 USD",
+          "after": "Not disclosed"
+        },
+        "size": {
+          "before": "small",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "60+ min",
+          "after": ""
+        },
+        "tags": {
+          "before": "educational;programmable;toy;app-control",
+          "after": "educational;programmable;coding;dev-platform"
+        },
+        "handType": {
+          "before": "none",
+          "after": ""
+        },
+        "speed": {
+          "before": "0.085 m/s",
+          "after": ""
+        },
+        "website": {
+          "before": "https://ozobot.com/pages/bitplus",
+          "after": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772"
+        },
+        "description": {
+          "before": "Tiny line-following coding robot, optical color-code sensors, OzoBlockly, polycarbonate shell",
+          "after": "Bit+ is a separately named Ozobot educational coding robot. Its manufacturer compatibility chart supports Ozobot Blockly and Arduino over WebUSB on ChromeOS, macOS and Windows. Physical specifications, battery runtime and current sales status were not established in this review; original Bit specifications are not transferred."
+        },
+        "releaseDate": {
+          "before": "2020",
+          "after": ""
+        }
+      }
+    },
+    {
+      "manufacturer": "Ozobot",
+      "model": "Ari",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": "250 USD (Ari Entry Kit; one robot plus accessories)"
+        },
+        "weight": {
+          "before": "",
+          "after": "57 g robot; 0.9 kg classroom cradle is separate"
+        },
+        "size": {
+          "before": "",
+          "after": "43 mm width × 43.0 mm height; depth not stated"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "Approximately 240 min per manufacturer; operating conditions unspecified"
+        },
+        "maxRuntime": {
+          "before": "",
+          "after": "Approximately 240 min stated operation; not a measured maximum"
+        },
+        "description": {
+          "before": "Android-based coding robot includes a 390 by 390-pixel interactive touchscreen. Time-of-flight sensor, accelerometer and gyroscope support hands-on STEM experiments. Color-code activities and Ozobot Editor support classroom programming for grades 3 to 8.",
+          "after": "Ari is an Android-based Ozobot coding robot with a 390 × 390-pixel interactive touchscreen, time-of-flight sensing, accelerometer, gyroscope, optical color/line sensors and a speaker. The technical sheets state 57 g robot mass and approximately 240 minutes of operation. Color Codes work without a screen; the documented PC-based block/Python workflow requires an active Wi-Fi connection. Entry and classroom kits contain the same named robot with different charging equipment."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "Approximately 60 min with external 5 V / 1 A charger; classroom cradle approximately 168 min to 80%"
+        }
+      }
+    },
+    {
+      "manufacturer": "Ozobot",
+      "model": "Bit",
+      "changes": {
+        "batteryLife": {
+          "before": "",
+          "after": "60–90 min in historical shared Bit/Evo guide; conditions unspecified"
+        },
+        "maxRuntime": {
+          "before": "",
+          "after": "60–90 min historical shared-guide range; not a measured maximum"
+        },
+        "tags": {
+          "before": "education;educational;coding;line-following;programmable",
+          "after": "educational;programmable;coding"
+        },
+        "description": {
+          "before": "Historical educational line-following robot programmed through marker color codes or the OzoBlockly editor; distinct from the later Bit+ model.",
+          "after": "Bit is the historical Ozobot line-following coding robot, distinct from Bit+. The educator guide describes marker-drawn Color Codes, OzoBlockly and single-button power, stored-program execution and calibration. It gives up to 40 minutes charging for Bit and a shared 60–90-minute Bit/Evo operating range. Current sales availability and exact physical specifications were not established."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "Up to 40 min per historical educator guide; starting charge state unspecified"
+        }
+      }
+    }
+  ],
+  "portfolioDecisions": {
+    "modelsReviewed": 4,
+    "newModels": 0,
+    "additionalModelCardsNotEstablished": [
+      "Ora EEK Bundle: product id 9950325080359, empty description, unavailable variant. No exact arm model, maker, powered hardware contents or configuration verified.",
+      "Ozobot Crawler, Ozo Tells Time, challenge mats, engineering/AI curriculum and markers are activity accessories/packages, not independently established new powered robots.",
+      "Ari/Evo classroom and curriculum packages multiply the same named robots; no duplicate hardware cards added."
+    ],
+    "openResearch": [
+      "Exact Ora arm/hardware identity and underlying manufacturer; bundle-only response has insufficient product detail.",
+      "Bit+ physical specifications and named release/offer; main-host path hit 429 after transient DNS failures and was not retried.",
+      "Evo LED hardware revision; Evo Python overWiFi/BLE wording; Ari compatibility-chart transports versus documented PC/WiFi execution.",
+      "Complete historical/regional hardware and current stock/fulfillment; entry-kit listings are not bare-robot or timed-delivery guarantees."
+    ]
+  },
+  "validation": {
+    "unitTests": 793,
+    "unitTestFiles": 64,
+    "pythonTests": 20,
+    "browserTestCases": 30,
+    "browserPassed": 30,
+    "browserFailed": 0,
+    "selectedOzobotBrowserCases": 12,
+    "comparisonRegressionCases": 18,
+    "axeCases": 8,
+    "sourceCodeChanged": false,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "manufacturerProfileMappingChanged": false,
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "buildPages": 3059,
+    "buildSizeApproxMB": 473,
+    "dataErrors": 0,
+    "dataWarnings": 894,
+    "dataWarningChange": 2,
+    "removedUnsupportedReleaseYears": 2,
+    "newDocumentedReleaseYears": 0,
+    "changedFileLint": "passed",
+    "applicationLint": "passed",
+    "applicationFormat": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "globalRenderedReviewMetadataCheck": {
+      "allChecksPassed": true,
+      "reviewedModelPagesChecked": 714,
+      "selectedFieldValuesChecked": 11838,
+      "visibleTechnicalValuesAndSourceBadgesChecked": 5183,
+      "omittedEmptyOrNAFieldsChecked": 5608,
+      "descriptionAndWebsiteFieldsExcluded": 1047,
+      "reviewedLaunchYearsWithSourceBadgesChecked": 47,
+      "scope": "Public raw values and evidence metadata match existing selected reviews across 714 model pages. This is not a re-fetch or independent certification of prior manufacturers, nor a review of unmarked specifications."
+    },
+    "renderedOzobotEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 4,
+      "selectedSpecificationFieldsChecked": 68,
+      "sourceBadgesChecked": 17,
+      "blankFieldsOmitted": 43,
+      "descriptionsChecked": 4,
+      "websitesChecked": 4,
+      "structuredSpecificationPropertiesChecked": 13,
+      "highlightStatementsChecked": 24,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 4,
+      "modelExportRowsChecked": 2,
+      "modelExportTargetsChecked": 2,
+      "modelExportFieldOccurrencesChecked": 34,
+      "companyProductExportRowsChecked": 2,
+      "companyProductExportTargetsChecked": 2,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 3,
+      "researchQueueFieldsChecked": 51,
+      "scope": "Four Ozobot models, exact robot/kit mass, partial dimension pairs, wired/cradle charge targets, stored/connected program execution and independent Bit/Bit+ identity. No full historical portfolio or independent testing claim."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 2009,
+      "unchangedPriorCatalogRows": 2005,
+      "reviewedExistingCatalogRows": 4,
+      "newCatalogRows": 0,
+      "newCsvColumns": [],
+      "categoryTransfers": 0,
+      "previousSpecificationReviewsEntirelyUnchanged": 710,
+      "newSpecificationReviews": 4,
+      "selectedFields": 68,
+      "previousCompanyFocusReviewsUnchanged": 79,
+      "newCompanyFocusReviews": 1,
+      "newHighlightRecordsForExistingModels": 1,
+      "sourceIdentityRecordsPreserved": 1961,
+      "originalUnresolvedModelMentions": 3,
+      "originalUnresolvedListings": 9,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/brands.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 357,
+        "withoutSelectedFieldReview": 161,
+        "selectedFields": 5850,
+        "selectedFieldStatuses": {
+          "documented": 2699,
+          "not-documented": 2991,
+          "conflicting": 150,
+          "roadmap": 10
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 77,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      },
+      "exportRows": {
+        "company-review": 591,
+        "model-review": 406,
+        "buyandrent-listing-review": 862,
+        "company-product-review": 132,
+        "robot-research-queue": 518
+      },
+      "correctedRows": [
+        {
+          "manufacturer": "Ozobot",
+          "model": "Evo",
+          "changes": {
+            "price": {
+              "before": "214 USD",
+              "after": "175 USD (Evo Entry Kit; one robot plus accessories)"
+            },
+            "weight": {
+              "before": "0.05 kg",
+              "after": "1 oz robot per technical sheet; 2 lb cradle excluded"
+            },
+            "size": {
+              "before": "very-small",
+              "after": "33.5 mm width × 33.0 mm height; depth not stated"
+            },
+            "batteryLife": {
+              "before": "~1 hour",
+              "after": "Approximately 60 min per technical sheet; historical shared guide says 60–90 min"
+            },
+            "maxRuntime": {
+              "before": "60 min",
+              "after": "Approximately 60 min stated operation; no measured maximum established"
+            },
+            "tags": {
+              "before": "bluetooth;educational;programmable",
+              "after": "bluetooth;educational;programmable;coding"
+            },
+            "handType": {
+              "before": "none",
+              "after": ""
+            },
+            "ageRange": {
+              "before": "5-18",
+              "after": ""
+            },
+            "website": {
+              "before": "https://ozobot.com/",
+              "after": "https://ozobot.com/products/evo-entry-kit-1"
+            },
+            "description": {
+              "before": "Color code programming, Bluetooth, optical sensors",
+              "after": "Evo is a compact Ozobot coding robot with optical line/color sensing, proximity detection, programmable LEDs and a speaker. It supports screen-free Color Codes and Ozobot Blockly. The technical sheet states 1 oz robot mass and approximately 60 minutes of operation; up to 2 kB Blockly programs can be stored and run without an active PC connection, while PC-executed programs require the documented connection."
+            },
+            "releaseDate": {
+              "before": "2016",
+              "after": ""
+            },
+            "chargingTime": {
+              "before": "",
+              "after": "60 min stated wired charge time; cradle approximately 60 min to 80% is a separate target"
+            }
+          }
+        },
+        {
+          "manufacturer": "Ozobot",
+          "model": "Bit+",
+          "changes": {
+            "price": {
+              "before": "~140 USD",
+              "after": "Not disclosed"
+            },
+            "size": {
+              "before": "small",
+              "after": ""
+            },
+            "batteryLife": {
+              "before": "60+ min",
+              "after": ""
+            },
+            "tags": {
+              "before": "educational;programmable;toy;app-control",
+              "after": "educational;programmable;coding;dev-platform"
+            },
+            "handType": {
+              "before": "none",
+              "after": ""
+            },
+            "speed": {
+              "before": "0.085 m/s",
+              "after": ""
+            },
+            "website": {
+              "before": "https://ozobot.com/pages/bitplus",
+              "after": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772"
+            },
+            "description": {
+              "before": "Tiny line-following coding robot, optical color-code sensors, OzoBlockly, polycarbonate shell",
+              "after": "Bit+ is a separately named Ozobot educational coding robot. Its manufacturer compatibility chart supports Ozobot Blockly and Arduino over WebUSB on ChromeOS, macOS and Windows. Physical specifications, battery runtime and current sales status were not established in this review; original Bit specifications are not transferred."
+            },
+            "releaseDate": {
+              "before": "2020",
+              "after": ""
+            }
+          }
+        },
+        {
+          "manufacturer": "Ozobot",
+          "model": "Ari",
+          "changes": {
+            "price": {
+              "before": "Not disclosed",
+              "after": "250 USD (Ari Entry Kit; one robot plus accessories)"
+            },
+            "weight": {
+              "before": "",
+              "after": "57 g robot; 0.9 kg classroom cradle is separate"
+            },
+            "size": {
+              "before": "",
+              "after": "43 mm width × 43.0 mm height; depth not stated"
+            },
+            "batteryLife": {
+              "before": "",
+              "after": "Approximately 240 min per manufacturer; operating conditions unspecified"
+            },
+            "maxRuntime": {
+              "before": "",
+              "after": "Approximately 240 min stated operation; not a measured maximum"
+            },
+            "description": {
+              "before": "Android-based coding robot includes a 390 by 390-pixel interactive touchscreen. Time-of-flight sensor, accelerometer and gyroscope support hands-on STEM experiments. Color-code activities and Ozobot Editor support classroom programming for grades 3 to 8.",
+              "after": "Ari is an Android-based Ozobot coding robot with a 390 × 390-pixel interactive touchscreen, time-of-flight sensing, accelerometer, gyroscope, optical color/line sensors and a speaker. The technical sheets state 57 g robot mass and approximately 240 minutes of operation. Color Codes work without a screen; the documented PC-based block/Python workflow requires an active Wi-Fi connection. Entry and classroom kits contain the same named robot with different charging equipment."
+            },
+            "chargingTime": {
+              "before": "",
+              "after": "Approximately 60 min with external 5 V / 1 A charger; classroom cradle approximately 168 min to 80%"
+            }
+          }
+        },
+        {
+          "manufacturer": "Ozobot",
+          "model": "Bit",
+          "changes": {
+            "batteryLife": {
+              "before": "",
+              "after": "60–90 min in historical shared Bit/Evo guide; conditions unspecified"
+            },
+            "maxRuntime": {
+              "before": "",
+              "after": "60–90 min historical shared-guide range; not a measured maximum"
+            },
+            "tags": {
+              "before": "education;educational;coding;line-following;programmable",
+              "after": "educational;programmable;coding"
+            },
+            "description": {
+              "before": "Historical educational line-following robot programmed through marker color codes or the OzoBlockly editor; distinct from the later Bit+ model.",
+              "after": "Bit is the historical Ozobot line-following coding robot, distinct from Bit+. The educator guide describes marker-drawn Color Codes, OzoBlockly and single-button power, stored-program execution and calibration. It gives up to 40 minutes charging for Bit and a shared 60–90-minute Bit/Evo operating range. Current sales availability and exact physical specifications were not established."
+            },
+            "chargingTime": {
+              "before": "",
+              "after": "Up to 40 min per historical educator guide; starting charge state unspecified"
+            }
+          }
+        }
+      ]
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 898,
+      "individualHighlights": 3863,
+      "productSourceReferences": 1654,
+      "specificationReviewModels": 714,
+      "specificationFields": 11838,
+      "publicJsonBytes": 2934655,
+      "catalogScriptBytes": 2031721,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 324,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "new429Observed": 1,
+    "requestsStoppedAfter429": true,
+    "transientDnsFailures": 2,
+    "formsSubmitted": 0,
+    "cartActions": 0,
+    "pdfVisualInspectionPerformed": false,
+    "pdfTextInspectionPerformed": true,
+    "initialValidationFindings": "Existing unit coverage constants needed 714 models / 11838 fields; initial run passed 792/793, final 793/793. Initial scratch browser assertions wrongly expected a badge on an empty comparison value and a highlight on a description match; the corrected checks verify a dash for unknown charge, explicit unknown-price evidence and a highlight-only firmware query. Initial static verifier assumed all selected targets were explicit model-export rows and required the canonical website among fetched review URLs; actual saved-source mapping has two model rows and three queue targets, and canonical destinations can be referenced by a product response/redirect. No application algorithm changed.",
+    "scope": "Nineteen source attempts, sixteen HTTP 200 bodies including ten PDF documents / 59 text pages and the 82-product public response. Two transient DNS failures retained and one final HTTP 429 ended main-host requests. PDF text/word coordinates inspected; raster checkbox comparisons not interpreted. Thirty selected browser cases including eight axe runs, not a full browser-suite rerun. Manufacturer figures are not independent measurements.",
+    "otherPreviouslyBlockedHostsRetried": false,
+    "ozobotMainHostReachableBeforeFinal429": true
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "dataCommit": "89539e2ecf7fd5b99754b07b9c1f4cf4d0420f84",
+    "dataPushVerified": true,
+    "mainUnchanged": true
+  },
+  "goalComplete": false
+}

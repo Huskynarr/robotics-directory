@@ -140,14 +140,14 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-02, all source company names are represented in 591 competitor
-groups. The catalog contains 2,009 model/configuration entries and 897 dated primary-source highlight
+groups. The catalog contains 2,009 model/configuration entries and 898 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 354 and 164 still awaiting those reviews.
+selected technical-field reviews for 357 and 161 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -270,7 +270,7 @@ yaw typography is not converted into a numeric angular bound. Software, chargers
 HADS, batteries and carts are separate configuration or integration findings.
 
 Reviewed additional specification rows now show the same dated source/status badges
-as predefined fields. Rendered metadata was checked for all 710 selected-review
+as predefined fields. Rendered metadata was checked for all 714 selected-review
 model pages, including forty-seven reviewed launch years with conflicting milestones
 retained; this does not re-verify the underlying manufacturers or unmarked fields.
 
@@ -366,6 +366,16 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Ozobot now has four selected model reviews: Ari, Evo, original Bit and separate Bit+.
+Robot mass excludes cradles and shipping variant weights; width/height pairs do not
+invent a depth. Wired charge time stays separate from cradle charging to 80%, and
+stored Evo Blockly stays separate from connected PC execution. Bit+ documents
+Blockly and Arduino over WebUSB without inheriting original Bit battery figures.
+Entry-kit prices have explicit USD evidence; unsupported speed, age and launch
+values were removed. The 68 fields comprise 23 documented and 45 unknown values.
+The empty Ora EEK Bundle, radio/workflow wording and Evo LED revision remain open;
+see `reports/competitor-batch-86-evidence.json` for source hashes and limitations.
 
 Interbotix and Trossen now have 31 selected offering reviews, including 28 additions.
 Twelve X-Series arms and three existing ALOHA kits retain exact model/arm mappings;
@@ -590,18 +600,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-11,770 fields across 710 models, distinguishing documented, undisclosed, conflicting and
+11,838 fields across 714 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 2,915 kB JSON response loads only for search or comparison;
+A separate 2,935 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 3,847 reviewed highlight statements as well as
+Catalog search now includes all 3,863 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -714,7 +724,7 @@ product catalogs; aliases and repeated source mentions are intentionally retaine
 Company exports include source positioning and factual feature themes; reseller
 listing themes are kept separate from claims about a manufacturer. Brand profiles
 and brand search now expose these source-attributed themes. Company-authored focus
-reviews now cover 79 profiles, including autonomy software, open-source platforms,
+reviews now cover 80 profiles, including autonomy software, open-source platforms,
 robotic cafes, welding integration, DealMaker, TGW Logistics and T-Chef. They are recorded in
 `company-evidence.json` and in the company export; directory themes remain unverified.
 Three named TGW RovoFlex systems are included with dated first-party highlights.

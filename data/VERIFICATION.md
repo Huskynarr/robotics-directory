@@ -5651,3 +5651,72 @@ erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 Zwischencommit `fa00c6b` mit Daten und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
+
+## Ergänzung vom 2. November 2026 – Ozobot (Batch 86)
+
+Vier bestehende Modelle geprüft: Ari, Evo, Bit und getrennt davon Bit+.
+68 Felder: 23 dokumentiert, 45 unbekannt. Keine neuen Robotermodelle oder
+CSV-Spalten. Bit+ erhält eigene Primärmerkmale, Ozobot einen Firmenfokus.
+Alle 2005 unbeteiligten Katalogzeilen, 710 früheren Feldprüfungen, 79 früheren
+Firmenfokusse und 1961 ursprünglichen Quellenidentitäten bleiben unverändert.
+Originale Inventardaten und die getrennte Bit/Bit+-Zuordnung bleiben erhalten.
+
+Ari: 57 g Roboter, 43 × 43,0 mm Breite/Höhe ohne erfundene Tiefe, 3,7 V /
+1050 mAh und etwa 240 Minuten Herstellerlaufzeit. 0,9 kg gehören zum Ladekoffer,
+nicht zum Roboter; JSON-Versandgewicht 907 g wird nicht übertragen.
+Etwa 60 Minuten mit externem 5 V / 1 A Ladegerät und etwa 168 Minuten bis 80 %
+im Ladekoffer sind unterschiedliche Methoden/Zielzustände. PC-basierte
+Editor-/Python-Programme verlangen laut Datenblatt laufende WLAN-Verbindung;
+Bluetooth-/Flashloading-Angaben der Kompatibilitätstabelle behalten ihren
+ungeklärten Workflow-/Firmwarebezug. Android/AI-Werbung belegt kein lokales
+Generativmodell und keine gemessenen Lernresultate.
+
+Evo: Herstellerdatenblatt nennt 1 oz Roboter und getrennt 2 lb Ladekoffer,
+33,5 × 33,0 mm Breite/Höhe ohne Tiefe sowie etwa 60 Minuten Betrieb. Der ältere
+geteilte Bit/Evo-Leitfaden nennt 60–90 Minuten ohne Betriebsmodus. Das ist keine
+unabhängig gemessene Maximaldauer. 60 Minuten kabelgebundenes Laden und 60 Minuten
+bis 80 % im Koffer bleiben getrennt. Gespeicherte Blockly-Programme bis 2 kB
+können ohne aktiven PC laufen; daraus folgt kein eigenständiges Python.
+Die Datenblattüberschrift „Python over WiFi“ widerspricht ihrer eigenen
+BLE-Verbindungsbedingung und belegt keine native WLAN-Hardware. Zehn RGB-LEDs
+auf der aktuellen Produktseite gegenüber fünf Front-/einer oberen LED im alten
+Leitfaden bleiben ein ungeklärter Revisionsunterschied.
+
+Original Bit: bis 40 Minuten Laden und geteilte historische 60–90-Minuten-Laufzeit,
+Einzeltastensteuerung und Farbcode-/OzoBlockly-Lernen sind im alten Leitfaden
+belegt. Sie werden nicht auf Bit+ übertragen. Für Bit+ sind Blockly und Arduino
+via WebUSB im eigenen Hersteller-Kompatibilitätsblatt belegt. Die bisherigen
+unbelegten Angaben zu Preis, Geschwindigkeit, Laufzeit und Erscheinungsjahr
+wurden entfernt; Schulstufen werden nicht als Lebensalter ausgegeben.
+
+Ari Entry Kit 250 USD und Evo Entry Kit 175 USD sind über exakte Produkt-/
+Variantenmetadaten mit ausdrücklicher Währung belegt. Enthaltenes Zubehör,
+Mehrfachpacks, Schulungs-/Curriculumpakete, Handelsrabatte und Lieferzusagen sind
+getrennt. Das öffentliche Produkt-JSON enthält 82 Angebote, darunter ein
+„Ora EEK Bundle“ mit leerem Beschreibungstext. Das reicht nicht für eine
+exakte Ora-Modell-/Herstellerzuordnung oder zusätzliche Roboterkarte.
+
+19 Quellenversuche: 16 HTTP-200-Inhalte, darunter zehn PDFs mit 59 Textseiten;
+zwei vorübergehende DNS-Fehler und ein abschließendes HTTP 429. Danach keine
+weiteren Anfragen an den Haupt-Host. PDF-Text und Wortkoordinaten sind gesichert,
+keine visuelle PDF-/Checkbox-Auswertung behauptet. Die Wettbewerber-Hosts und
+anderen früher gesperrten Hersteller wurden nicht erneut abgefragt.
+
+Stand: 2009 Modelle/Konfigurationen, 898 Merkmalsdatensätze (755 Aufgaben-Ergänzungen,
+143 bestehende Anreicherungen), 3863 Aussagen, 1654 Produktquellenverweise,
+80 Firmenfokusse auf 77 der 591 Quellen-Firmengruppen. 11838 Felder auf 714
+Modellseiten: 5305 dokumentiert, 6245 unbekannt, 243 widersprüchlich, 45 Roadmap.
+Die ursprünglichen 518 Rechercheziele haben jetzt 357 Feldprüfungen und 161 bleiben offen.
+Drei Modellidentitäten, neun Listing-Identitäten, 862 Detailinhalte und historische/
+regionale Portfolios bleiben offen. Marktführerschaft ist nicht gemessen.
+
+Prüfung: 793 Unit-Tests in 64 Dateien, 20 Python-Tests und 30 ausgewählte Browserfälle
+bestanden (12 Ozobot, 18 Vergleich; darin acht Axe-Läufe). Build: 3059 Seiten,
+473 MB. Datenprüfung: 0 Fehler, 894 Warnungen; zwei zusätzliche Warnungen folgen aus
+entfernten unbelegten Erscheinungsjahren. Lint, Format, Import mit null Ergänzungen,
+Offline-Refresh, Quellenhashes, Export-/Quellenerhalt und alle 714 gerenderten
+Prüfseiten bestanden. Anfangs falsche Bestandskonstanten und Annahmen in den
+zusätzlichen Prüfskripten wurden korrigiert; kein Anwendungsalgorithmus geändert.
+Eigene Testserver, Browser und Hilfsprozesse beendet und geprüft.
+
+Dauerhafter Beleg: `reports/competitor-batch-86-evidence.json`.
