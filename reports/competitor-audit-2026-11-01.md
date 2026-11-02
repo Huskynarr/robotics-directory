@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.168 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 914 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1080 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.174 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 920 |
+| Datierte Produktmerkmal-Datensätze einschließlich 169 bestehender Modelle | 1089 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 112 |
+| Firmenfokus-Prüfungen mit Quellen | 113 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 914 ergänzte Modelle ergeben 2.168 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 920 ergänzte Modelle ergeben 2.174 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-112 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+113 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1080 Datensätze
+Modellseiten verlinken Markenprofile. Die 1089 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 440 haben ausgewählte Datenfeldprüfungen und 78
+haben datierte Merkmalsbelege; 442 haben ausgewählte Datenfeldprüfungen und 76
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 500 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 501 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -10010,3 +10010,86 @@ Queue: 440 geprüft, 78 offen; 7995 Felder mit 3244 dokumentierten, 4562 unbekan
 Suchrankings und Marktführerschaft nicht nachgewiesen.
 Datencommit `576d7ea3be324c226fd92165cec75cd901650046` gepusht; Dokumentationsnachweis folgt separat auf
 `codex/competitor-directory-expansion`. Kein Deployment; `main` unverändert.
+
+## Ergänzung vom 2. November 2026 – iRobot: Serienmodelle, historische Telepräsenz und Prototyp (Batch 120)
+
+Elf ausgewählte Identitäten wurden anhand von Herstellerquellen geprüft. Sechs
+Katalogmodelle kommen hinzu: Roomba Max 775 Combo, Max 715 Vacuum, Plus 575 Combo,
+Plus 515 Combo, Plus 415 Combo und Mini. Ava 500, Max 705 Combo, Max 875 Combo,
+Plus 678 Combo und Duo sind bestehende Katalogzeilen. Neun neue Produktbeleg-Datensätze
+und zwei erweiterte vorhandene Belege ergeben 42 zusätzliche Merkmalsaussagen und elf
+zusätzliche Quellenverweise. Die bisherigen Merkmalspräfixe, Herkunftsangaben und
+Quellen-URLs bleiben erhalten. iRobot erhält eine Firmenfokus-Prüfung.
+
+Die 237 ausgewählten Felder verteilen sich auf 45 dokumentierte, 189 nicht
+belegte, zwei widersprüchliche und ein Roadmap-Feld. Unbekannte Werte bleiben leer;
+Teilmaße werden als Teilmaße bezeichnet. Es gibt keine neuen CSV-Spalten oder
+Änderungen an Anwendungsalgorithmen.
+
+- Max 875: 35.000 Pa Saugleistung und 20 L/s Luftstrom; ThermaMist,
+  300 U/min und 18 N Rollerkraft sowie DriLift. Die genannten 9,98 cm sind nur
+  die Höhe. PerfectEdge-Auszug bis 45 mm ist keine belegte Arbeitsbreite.
+- Plus 678: 30.000 Pa Saugleistung und 18 L/s; 40.000 Pa gehören zur SprayForce-
+  Sprühvorbehandlung. 15 N Rollerkraft, 10 mm Moppanhebung und 9,95 cm Bauhöhe
+  bleiben diesem Modell zugeordnet. Max-875-Merkmale werden nicht übertragen.
+- Duo: ausdrücklich ein am 4. September 2026 vorgestellter Prototyp. Hauptgerät,
+  Aussetzarm, Plus-575-Begleitroboter und mobiler gemeinsamer Dock bleiben getrennt.
+  8,35 cm Höhe und 29,8 cm Breite gehören zum Begleitroboter, nicht zur Gesamtanlage.
+  Die Hauptrolle mit 60 mm Durchmesser/46 N begründet keine Gesamtmasse, Arbeitsbreite,
+  Traglast oder kommerzielle Freigabe. Erscheinungsdatum bleibt Roadmap ohne Wert.
+- Plus 515: Die Primärmeldung nennt 295 Minuten und zugleich etwa zehn Stunden.
+  Beide Laufzeitfelder bleiben leer mit Konfliktstatus. 2.000 sq ft je Ladung sind
+  Flächenabdeckung und keine allgemeine Flächenleistung pro Stunde. 180 U/min
+  der Pads sind keine Fahrgeschwindigkeit. Andere Modelle erhalten diese Werte nicht.
+- Max 715 ist ausdrücklich ein reiner Sauger mit AutoEmpty. Die Combo-Geschwister
+  haben andere Mopp-/AutoWash-Funktionen. Der in derselben Meldung vorgestellte
+  Electro Plus ist ausdrücklich handgeführt und kein autonomer Roboter.
+- Mini: Die UK-/Europa-Meldung vom 10. März 2026 nennt eine vorherige Einführung
+  in Japan Mitte Februar. 399 EUR/379 GBP bleiben regionale Einführungspreise;
+  vier Farben sind Varianten. Start per Gerätetaste ohne WLAN ist von vernetzten
+  App-/Sprachfunktionen getrennt. Einwegpads begründen kein beheiztes AutoWash-System.
+- Max 705: Die Meldung vom 22. Juli 2025 nennt 1.099 EUR europäische Vorbestellung.
+  Der 175-fach-Saugvergleich gilt gegenüber der Roomba-600-Serie im Spot-Modus
+  bei vollem Akku. Die alten Katalogwerte 13.000 Pa, 5,7 kg und 120 Minuten sind
+  durch diese Primärquelle nicht belegt und werden nicht weiter als bestätigt geführt.
+- Ava 500: Die Lieferung vom 17. März 2014 und Cisco EX60/Aironet-1600-Integration
+  sind historisch. Das Datenblatt nennt bis 1080p30 Video, keine räumliche Messgenauigkeit.
+  Die Aussagen werden nicht auf spätere Ava-Robotics-Produkte oder heutige
+  Lieferbarkeit, Unterstützung oder Reinraumzertifikate übertragen.
+
+Die regionalen Juli-/September-2026-Preise sind datierte Einführungs- oder
+Vorbestellungsangaben. Dock-Wartungsintervalle bis 75/90 Tage oder drei Monate sind
+keine Akkulaufzeiten. Relative Saug-/Reinigungsvergleiche behalten Modell, Betriebsmodus
+und Vergleichsbasis; sie sind keine unabhängigen Testergebnisse oder exklusiven USPs.
+Plus 675 und weitere 2025er Familien bleiben Recherchehinweise. Die geöffneten
+Jahresarchive enthalten nur die erste Seite mit jeweils fünf Meldungslinks; daraus
+wird keine vollständige historische Produktabdeckung abgeleitet.
+
+Vierzehn öffentliche HTTP-200-Antworten wurden lokal gespeichert und gehasht.
+Sechs Meldungen wurden anhand HTML-Titel, kanonischer URL und Meldungsdatumszeile
+geprüft. Beim historischen Ava-PDF wurden nativer Text und Blockkoordinaten
+kontrolliert. Es gab keine visuelle PDF-/Bild-/Videoinspektion und keine Formulare,
+Kontakte oder Transaktionen. Eine Entwurfsformatierung mit beschädigten
+Tausendertrennzeichen und EX60/1080p30-Schreibweisen wurde vor dem Commit korrigiert;
+die folgenden Prüfwerte beziehen sich auf den korrigierten Datenstand.
+
+Validierung: 808 Unit-Tests in 64 Dateien, 20 Browserfälle auf Desktop/Mobil einschließlich vier Axe-Prüfungen, Build mit 3224 Seiten, Datenaudit ohne Fehler und mit unverändert 1053 Warnungen bestanden. Elf Produktseiten/237 Felder, 23 Quellenbadges, 192 ausgelassene Leerfelder und 4 strukturierte Eigenschaften geprüft. Modell-Export und ursprüngliche Queue: je zwei Ziele/57 Felder; Firmenbeschreibungsexport: keine ausgewählten Ziele. Firmenfokus, Suche, Vergleich und vollständiger JSON-Belegexport geprüft; Reimport ohne Ergänzungen, geänderte Testdatei lint-/formatgeprüft.
+Die Bestandsprüfung bestätigt alle 983 früheren Feldprüfungen und 112 früheren
+Firmenfokus-Prüfungen unverändert sowie 1.961 erhaltene Quellenidentitäten. Eigene
+Browser-, Testserver- und Hilfsprozesse wurden beendet und die Freigabe kontrolliert.
+Die externen Live-YouTube-Befunde aus Batch 106 bleiben außerhalb dieser Auswahl offen.
+
+Gesamtbestand: 2.174 Katalogeinträge, 920 Aufgabenergänzungen und 169 ursprüngliche
+Modelle mit Merkmalsbelegen; 1.089 Produktbelege, 4.891 Aussagen, 2.268 Quellenverweise,
+994 Feldprüfungen/18.431 Felder und 113 Firmenfokus-Prüfungen. Feldstatus:
+6.895 dokumentiert, 11.166 unbekannt, 276 widersprüchlich, 94 Roadmap. Ursprüngliche
+Queue: 442 geprüft und 76 offen von 518, mit 8.052 Feldern: 3.253 dokumentiert,
+4.610 unbekannt, 173 widersprüchlich und 16 Roadmap. Weiterhin offen: drei
+Modellidentitäten, neun Listingidentitäten und die Inhaltsvalidierung der 862
+BuyAndRent-Detailseiten. Vollständige Herstellerportfolios sowie Markt-/Suchführerschaft
+sind nicht nachgewiesen.
+
+Datencommit `9fb7559438125cdfb5c57147f1a59923a2ec3cb2` wurde auf `codex/competitor-directory-expansion`
+gepusht und remote geprüft. `main` bleibt bei
+`20a2844346914d8d28958aa3b4e51897c4e9e6ff`; es wurde nicht deployt.
+Dauerhafter Prüfbericht: `reports/competitor-batch-120-evidence.json`.

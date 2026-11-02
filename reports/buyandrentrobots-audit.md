@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,168 catalog rows**, with 644 exact
-manufacturer spellings. Batch 119 refreshed the separate heuristic gap file offline
-against all 2,168 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,174 catalog rows**, with 644 exact
+manufacturer spellings. Batch 120 refreshed the separate heuristic gap file offline
+against all 2,174 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1080 dated records across the catalog, including
-166 existing-model enrichments and 914 task additions. All 430 catalog models
+Current product-highlight coverage: 1089 dated records across the catalog, including
+169 existing-model enrichments and 920 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 914 task additions, totaling 2,168.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 920 task additions, totaling 2,174.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 440 have selected-field reviews and 78 await those reviews. Family and
+highlights; 442 have selected-field reviews and 76 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 18,194 fields across 983 catalog models: 6,850 documented,
-10,977 not documented, 274 conflicting and ninety-three roadmap fields. They do not certify whole
+Selected specification checks cover 18,431 fields across 994 catalog models: 6,895 documented,
+11,166 not documented, 276 conflicting and ninety-four roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -7775,3 +7775,86 @@ Queue: 440 geprüft, 78 offen; 7995 Felder mit 3244 dokumentierten, 4562 unbekan
 Suchrankings und Marktführerschaft nicht nachgewiesen.
 Datencommit `576d7ea3be324c226fd92165cec75cd901650046` gepusht; Dokumentationsnachweis folgt separat auf
 `codex/competitor-directory-expansion`. Kein Deployment; `main` unverändert.
+
+## Ergänzung vom 2. November 2026 – iRobot: Serienmodelle, historische Telepräsenz und Prototyp (Batch 120)
+
+Elf ausgewählte Identitäten wurden anhand von Herstellerquellen geprüft. Sechs
+Katalogmodelle kommen hinzu: Roomba Max 775 Combo, Max 715 Vacuum, Plus 575 Combo,
+Plus 515 Combo, Plus 415 Combo und Mini. Ava 500, Max 705 Combo, Max 875 Combo,
+Plus 678 Combo und Duo sind bestehende Katalogzeilen. Neun neue Produktbeleg-Datensätze
+und zwei erweiterte vorhandene Belege ergeben 42 zusätzliche Merkmalsaussagen und elf
+zusätzliche Quellenverweise. Die bisherigen Merkmalspräfixe, Herkunftsangaben und
+Quellen-URLs bleiben erhalten. iRobot erhält eine Firmenfokus-Prüfung.
+
+Die 237 ausgewählten Felder verteilen sich auf 45 dokumentierte, 189 nicht
+belegte, zwei widersprüchliche und ein Roadmap-Feld. Unbekannte Werte bleiben leer;
+Teilmaße werden als Teilmaße bezeichnet. Es gibt keine neuen CSV-Spalten oder
+Änderungen an Anwendungsalgorithmen.
+
+- Max 875: 35.000 Pa Saugleistung und 20 L/s Luftstrom; ThermaMist,
+  300 U/min und 18 N Rollerkraft sowie DriLift. Die genannten 9,98 cm sind nur
+  die Höhe. PerfectEdge-Auszug bis 45 mm ist keine belegte Arbeitsbreite.
+- Plus 678: 30.000 Pa Saugleistung und 18 L/s; 40.000 Pa gehören zur SprayForce-
+  Sprühvorbehandlung. 15 N Rollerkraft, 10 mm Moppanhebung und 9,95 cm Bauhöhe
+  bleiben diesem Modell zugeordnet. Max-875-Merkmale werden nicht übertragen.
+- Duo: ausdrücklich ein am 4. September 2026 vorgestellter Prototyp. Hauptgerät,
+  Aussetzarm, Plus-575-Begleitroboter und mobiler gemeinsamer Dock bleiben getrennt.
+  8,35 cm Höhe und 29,8 cm Breite gehören zum Begleitroboter, nicht zur Gesamtanlage.
+  Die Hauptrolle mit 60 mm Durchmesser/46 N begründet keine Gesamtmasse, Arbeitsbreite,
+  Traglast oder kommerzielle Freigabe. Erscheinungsdatum bleibt Roadmap ohne Wert.
+- Plus 515: Die Primärmeldung nennt 295 Minuten und zugleich etwa zehn Stunden.
+  Beide Laufzeitfelder bleiben leer mit Konfliktstatus. 2.000 sq ft je Ladung sind
+  Flächenabdeckung und keine allgemeine Flächenleistung pro Stunde. 180 U/min
+  der Pads sind keine Fahrgeschwindigkeit. Andere Modelle erhalten diese Werte nicht.
+- Max 715 ist ausdrücklich ein reiner Sauger mit AutoEmpty. Die Combo-Geschwister
+  haben andere Mopp-/AutoWash-Funktionen. Der in derselben Meldung vorgestellte
+  Electro Plus ist ausdrücklich handgeführt und kein autonomer Roboter.
+- Mini: Die UK-/Europa-Meldung vom 10. März 2026 nennt eine vorherige Einführung
+  in Japan Mitte Februar. 399 EUR/379 GBP bleiben regionale Einführungspreise;
+  vier Farben sind Varianten. Start per Gerätetaste ohne WLAN ist von vernetzten
+  App-/Sprachfunktionen getrennt. Einwegpads begründen kein beheiztes AutoWash-System.
+- Max 705: Die Meldung vom 22. Juli 2025 nennt 1.099 EUR europäische Vorbestellung.
+  Der 175-fach-Saugvergleich gilt gegenüber der Roomba-600-Serie im Spot-Modus
+  bei vollem Akku. Die alten Katalogwerte 13.000 Pa, 5,7 kg und 120 Minuten sind
+  durch diese Primärquelle nicht belegt und werden nicht weiter als bestätigt geführt.
+- Ava 500: Die Lieferung vom 17. März 2014 und Cisco EX60/Aironet-1600-Integration
+  sind historisch. Das Datenblatt nennt bis 1080p30 Video, keine räumliche Messgenauigkeit.
+  Die Aussagen werden nicht auf spätere Ava-Robotics-Produkte oder heutige
+  Lieferbarkeit, Unterstützung oder Reinraumzertifikate übertragen.
+
+Die regionalen Juli-/September-2026-Preise sind datierte Einführungs- oder
+Vorbestellungsangaben. Dock-Wartungsintervalle bis 75/90 Tage oder drei Monate sind
+keine Akkulaufzeiten. Relative Saug-/Reinigungsvergleiche behalten Modell, Betriebsmodus
+und Vergleichsbasis; sie sind keine unabhängigen Testergebnisse oder exklusiven USPs.
+Plus 675 und weitere 2025er Familien bleiben Recherchehinweise. Die geöffneten
+Jahresarchive enthalten nur die erste Seite mit jeweils fünf Meldungslinks; daraus
+wird keine vollständige historische Produktabdeckung abgeleitet.
+
+Vierzehn öffentliche HTTP-200-Antworten wurden lokal gespeichert und gehasht.
+Sechs Meldungen wurden anhand HTML-Titel, kanonischer URL und Meldungsdatumszeile
+geprüft. Beim historischen Ava-PDF wurden nativer Text und Blockkoordinaten
+kontrolliert. Es gab keine visuelle PDF-/Bild-/Videoinspektion und keine Formulare,
+Kontakte oder Transaktionen. Eine Entwurfsformatierung mit beschädigten
+Tausendertrennzeichen und EX60/1080p30-Schreibweisen wurde vor dem Commit korrigiert;
+die folgenden Prüfwerte beziehen sich auf den korrigierten Datenstand.
+
+Validierung: 808 Unit-Tests in 64 Dateien, 20 Browserfälle auf Desktop/Mobil einschließlich vier Axe-Prüfungen, Build mit 3224 Seiten, Datenaudit ohne Fehler und mit unverändert 1053 Warnungen bestanden. Elf Produktseiten/237 Felder, 23 Quellenbadges, 192 ausgelassene Leerfelder und 4 strukturierte Eigenschaften geprüft. Modell-Export und ursprüngliche Queue: je zwei Ziele/57 Felder; Firmenbeschreibungsexport: keine ausgewählten Ziele. Firmenfokus, Suche, Vergleich und vollständiger JSON-Belegexport geprüft; Reimport ohne Ergänzungen, geänderte Testdatei lint-/formatgeprüft.
+Die Bestandsprüfung bestätigt alle 983 früheren Feldprüfungen und 112 früheren
+Firmenfokus-Prüfungen unverändert sowie 1.961 erhaltene Quellenidentitäten. Eigene
+Browser-, Testserver- und Hilfsprozesse wurden beendet und die Freigabe kontrolliert.
+Die externen Live-YouTube-Befunde aus Batch 106 bleiben außerhalb dieser Auswahl offen.
+
+Gesamtbestand: 2.174 Katalogeinträge, 920 Aufgabenergänzungen und 169 ursprüngliche
+Modelle mit Merkmalsbelegen; 1.089 Produktbelege, 4.891 Aussagen, 2.268 Quellenverweise,
+994 Feldprüfungen/18.431 Felder und 113 Firmenfokus-Prüfungen. Feldstatus:
+6.895 dokumentiert, 11.166 unbekannt, 276 widersprüchlich, 94 Roadmap. Ursprüngliche
+Queue: 442 geprüft und 76 offen von 518, mit 8.052 Feldern: 3.253 dokumentiert,
+4.610 unbekannt, 173 widersprüchlich und 16 Roadmap. Weiterhin offen: drei
+Modellidentitäten, neun Listingidentitäten und die Inhaltsvalidierung der 862
+BuyAndRent-Detailseiten. Vollständige Herstellerportfolios sowie Markt-/Suchführerschaft
+sind nicht nachgewiesen.
+
+Datencommit `9fb7559438125cdfb5c57147f1a59923a2ec3cb2` wurde auf `codex/competitor-directory-expansion`
+gepusht und remote geprüft. `main` bleibt bei
+`20a2844346914d8d28958aa3b4e51897c4e9e6ff`; es wurde nicht deployt.
+Dauerhafter Prüfbericht: `reports/competitor-batch-120-evidence.json`.
