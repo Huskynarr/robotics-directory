@@ -100444,6 +100444,729 @@
           "note": "No exact named-device value established by the selected primary text; other products, wearer fitting limits, trial outcomes and accessories are not substituted."
         }
       }
+    },
+    {
+      "robotId": "inspired-flight-technologies-if800-tomcat",
+      "manufacturer": "Inspired Flight Technologies",
+      "model": "IF800 TOMCAT",
+      "sources": [
+        {
+          "name": "Inspired Flight Technologies — current IF800 specifications, flight modes and flight stack",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-tomcat-overview/if800-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current IF800 marketing page",
+          "type": "manufacturer",
+          "url": "https://www.inspiredflight.com/if800",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 shop product, price currency and IP43 supplier claim",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if800-tomcat",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 public Shopify variant JSON: controller/care options",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if800-tomcat.js",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 pilot handbook: printed Rev 1.0 March 2024, linked filename says Rev 1.1",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2FuE8BnBlpmsJQMobYx407%2F_Pilot%20Operating%20Handbook%2C%20IF800%20Tomcat%2C%20107%20Operation%2C%20REV%201.1%20x.pdf?alt=media&token=f0bdb0a2-f718-4943-8d58-80667f813f74",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IB388 per-battery electrical, mass and lifecycle specifications",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/ib388-battery-overview/ib388-technical-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IB388 charging procedure, no full-charge elapsed duration",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/best-practices/ib388-battery-charging",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 landed/disarmed hot swap with soft reboot",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/best-practices/hot-swapping-batteries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — GS-ONE ground station specifications, separate from aircraft",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/gs-one",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — annual care plans and bundles, separate from aircraft price",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/pages/pricing-plans",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-112/source-4.html",
+      "fields": {
+        "price": {
+          "value": "From 23,000 USD (listed Herelink + Foundation variant); controller/care options, tax, shipping and current availability require confirmation",
+          "status": "documented",
+          "note": "Shop JSON-LD states USD; matching public variant JSON supplies 2,300,000 minor units for Herelink/Foundation, divided by 100. Eight options span 23,000–34,500 USD; controller/care configuration, tax/shipping and present stock unresolved. No exact universal structured offer."
+        },
+        "weight": {
+          "value": "8.5 kg with batteries / 4.2 kg empty in current specifications; March 2024 handbook gives 8.6 kg / 4.5 kg; revision basis unresolved",
+          "status": "conflicting",
+          "note": "Current specification table 8.5 kg with batteries and 4.2 kg empty versus linked printed Rev1.0 March 2024 table 8.6 kg and 4.5 kg. No assumed identical hardware revision or silent conversion; transport case and per-battery masses excluded."
+        },
+        "size": {
+          "value": "132 × 114 × 52 cm flight ready; 36 × 44 × 20 cm folded (W × L × H); case dimensions excluded",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified size value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery capacity, cycles and hot swapping do not establish a separate measured operating duration. Maximum airborne duration is recorded as flightTime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No continuous-duty duration established; a landed battery swap is not uninterrupted airborne endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "payload": {
+          "value": "Up to 3.0 kg (6.6 lb), manufacturer rating; endurance depends on payload and conditions",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified payload value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "speed": {
+          "value": "Up to 22 m/s (49 mph) maximum airspeed; not a guaranteed loaded mission speed",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified speed value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "terrain": {
+          "value": "Current specs: wind 10 m/s, gusts 12 m/s, -20 to 45°C; March 2024 handbook: L6 / 25 mph, gusts 31 mph, -10 to 45°C; revision basis unresolved",
+          "status": "conflicting",
+          "note": "Current wind 10 m/s with 12 m/s gusts and -20 to 45°C versus older handbook L6/25 mph with 31 mph gusts and -10 to 45°C. Dated envelope source difference remains explicit; 30° tilt is not a ground grade."
+        },
+        "ipRating": {
+          "value": "IP43, supplier rating in shop and March 2024 aircraft handbook; no independent ingress test inspected",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified ipRating value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "website": {
+          "value": "https://www.inspiredflight.com/if800",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "description": {
+          "value": "IF800 TOMCAT is an electric medium-lift quadcopter with modular payload mounting, optical/thermal/lidar integrations, waypoint missions and an FPV camera. Current documentation lists 3 kg payload and up to 54-minute marketing endurance, without establishing simultaneous maxima. Current mass and takeoff mass differ from the linked handbook printed Rev 1.0 March 2024; controller, power-rail and weather specifications also differ by source revision. IB388 hot swapping is performed after landing and disarming, keeping one battery connected, followed by a software reboot. The shop lists a 23,000 USD Herelink/Foundation starting variant, with controller/care options and conflicting stock indicators requiring confirmation.",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified description value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first release established for this named aircraft; company founding, older IF750 launch, manual revisions, compliance dates and current shop presence are separate."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "flightTime": {
+          "value": "Up to 54 min maximum flight time; payload and conditions dependent, not established at maximum payload",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified flightTime value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "maxTakeoffWeight": {
+          "value": "11.5 kg in current specifications; March 2024 handbook gives 11.6 kg; revision basis unresolved",
+          "status": "conflicting",
+          "note": "Current 11.5 kg versus linked March 2024 handbook 11.6 kg; source/configuration basis not resolved. Payload and aircraft empty mass are separate."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Selected charging procedures provide current and completion indications but no full elapsed charge duration. Ah divided by A is not a verified zero-to-full charging protocol."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Here GNSS hardware and radio range do not establish a numeric positioning accuracy for the aircraft."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "driveMode": {
+          "value": "ArduPilot quadcopter: position hold, loiter, waypoint Auto, return-to-launch, land and altitude-hold modes",
+          "status": "documented",
+          "note": "Modes are specified in current aircraft documentation; component stack differs from the linked historical handbook and does not establish current regulatory approvals."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "inspired-flight-technologies-if1200",
+      "manufacturer": "Inspired Flight Technologies",
+      "model": "IF1200",
+      "sources": [
+        {
+          "name": "Inspired Flight Technologies — current IF1200 specifications, payload figures and flight stack",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/about-the-if1200/interfaces-and-specs/if1200-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current IF1200 marketing page",
+          "type": "manufacturer",
+          "url": "https://www.inspiredflight.com/if1200",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 shop product; redirected old IF1200A URL and conditional payload claims",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if1200-heavy-lift",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 public Shopify variant JSON: controller/care options",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if1200-heavy-lift.js",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — January 2023 IF1200A compliance sheet with Blue Herelink limitation",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2FFLkKiOgmiXkr7GBRkymz%2FIF1200A%20NDAA%20Compliance%20Specification%20Sheet%20w_o%20FPV%20Camera.pdf?alt=media&token=06b96e4f-d91f-47a9-a368-6090cd786fc4",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200A pilot handbook Rev 2.0GB 2023, historical controller configuration",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2Fo2OvnBQMZmzXY8G9GjSk%2FPilot%20Operating%20Handbook%2C%20IF1200A%20REV%202.0GB.pdf?alt=media&token=5ccc3756-b1ef-493b-a14f-3e9117327c72",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 Tattu per-battery specifications summarized by manufacturer",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/overview/battery-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — TA3200 charger channels and electrical ratings, not aircraft endurance",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/overview/ta3200-battery-charger",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 charging on independent A/B channels; 16A recommendation",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/operation/charging-the-if1200-batteries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — GS-ONE ground station specifications, separate from aircraft",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/gs-one",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — annual care plans and bundles, separate from aircraft price",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/pages/pricing-plans",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-112/source-5.html",
+      "fields": {
+        "price": {
+          "value": "From 33,500 USD (listed Herelink + Foundation variant); controller/care options, tax, shipping and current availability require confirmation",
+          "status": "documented",
+          "note": "Shop JSON-LD states USD; matching public variant JSON gives 3,350,000 minor units for Herelink/Foundation. Eight options span 33,500–46,000 USD; controller/care options, tax/shipping and present stock unresolved. No exact universal structured offer."
+        },
+        "weight": {
+          "value": "16.3 kg with batteries; 7.8 kg empty in current aircraft specifications; battery/case/controller mass excluded",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified weight value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "size": {
+          "value": "165.5 × 154 × 76.5 cm flight ready; 47.5 × 49.5 × 47 cm folded (W × L × H)",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified size value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery capacity, cycles and hot swapping do not establish a separate measured operating duration. Maximum airborne duration is recorded as flightTime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No continuous-duty duration established; a landed battery swap is not uninterrupted airborne endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "payload": {
+          "value": "Current table: 8.6 kg / 19 lb; headline: 19.1 lb; service-ceiling entry: 8.7 kg. Shop separately conditions 28.7 lb on appropriate certification; universal rating unresolved",
+          "status": "conflicting",
+          "note": "Current physical table 8.6 kg/19 lb, marketing 19.1 lb and service-ceiling 8.7 kg differ. Higher 28.7 lb shop claim requires appropriate certification; exact tested/current authorized configuration unresolved. No universal simultaneous maximum."
+        },
+        "speed": {
+          "value": "Up to 25 m/s (56 mph) maximum airspeed; not a guaranteed loaded mission speed",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified speed value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "terrain": {
+          "value": "Current specs: wind 12 m/s with 15 m/s gusts; operating temperature -20 to 45°C; mission limits depend on conditions",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified terrain value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric whole-IF1200 ingress rating established by selected text; IF800 IP43 is not inherited."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "website": {
+          "value": "https://www.inspiredflight.com/if1200",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "description": {
+          "value": "IF1200 is the named current heavy-lift hexacopter family with a modular Universal Payload Interface, FPV piloting and waypoint/return-to-launch modes. Current specifications list 16.3 kg with batteries, 24.9 kg takeoff mass and 43-minute maximum marketing endurance. Payload statements of 8.6 kg/19 lb, 19.1 lb and 8.7 kg retain their unresolved source context; the shop separately conditions 28.7 lb on appropriate certification. Older IF1200A URL/manual naming does not by itself establish a separately purchasable present aircraft. Current Cube Orange+ and older Blue H7 configurations differ. Per-battery electrical data and charger current do not prove aircraft endurance or full charging duration. Shop starting price is 33,500 USD for the listed Herelink/Foundation variant, with stock and options requiring confirmation.",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified description value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first release established for this named aircraft; company founding, older IF750 launch, manual revisions, compliance dates and current shop presence are separate."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "flightTime": {
+          "value": "Up to 43 min maximum flight time; payload and conditions dependent, not established at maximum payload",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified flightTime value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "maxTakeoffWeight": {
+          "value": "24.9 kg (54.9 lb), current aircraft specification; conditional higher-payload claims are separate",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified maxTakeoffWeight value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Charging procedure recommends 16 A/1C, separate A/B channels; no elapsed full-charge duration stated. Charger up to 60 A and 16 Ah capacity do not establish 60 min charging."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Here GNSS hardware and radio range do not establish a numeric positioning accuracy for the aircraft."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "driveMode": {
+          "value": "ArduPilot hexacopter: position hold, loiter, waypoint Auto, return-to-launch, land and altitude-hold modes",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified driveMode value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "inspired-flight-technologies-if750",
+      "manufacturer": "Inspired Flight Technologies",
+      "model": "IF750",
+      "sources": [
+        {
+          "name": "Inspired Flight Technologies — company timeline explicitly launching IF750 in 2018",
+          "type": "manufacturer",
+          "url": "https://www.inspiredflight.com/about",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current aircraft collection: two listed aircraft families",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/collections/uavs-1",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-112/source-14.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current complete-aircraft retail price established for this exact historical platform; controller, care plan and accessory prices are separate."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft assembled mass established; per-battery, transport-case and ground-station mass are separate."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-aircraft size established; dimensions of batteries, cases and controllers remain separate."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery capacity, cycles and hot swapping do not establish a separate measured operating duration. Maximum airborne duration is recorded as flightTime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No continuous-duty duration established; a landed battery swap is not uninterrupted airborne endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact historical aircraft payload rating established; other models and conditional authorization configurations are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact historical operating envelope established. Tilt angle is not ground slope and service ceiling is not a universally permitted altitude."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-aircraft numeric ingress rating established. Component ratings and compliance claims are not a substitute."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "website": {
+          "value": "https://www.inspiredflight.com/about",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "description": {
+          "value": "IF750 is the historical professional quadcopter explicitly named in Inspired Flight’s company timeline as launched in 2018. The timeline distinguishes that aircraft launch from company founding in 2017. It does not establish current availability or exact mass, battery, payload, flight duration, controller, dimensions or price; IF800 and IF1200 specifications are not inherited.",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified description value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "releaseDate": {
+          "value": "2018",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified releaseDate value; configuration, conditions and source revision retained. Supplier capability statement, not an independently exclusive USP."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Selected charging procedures provide current and completion indications but no full elapsed charge duration. Ah divided by A is not a verified zero-to-full charging protocol."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Here GNSS hardware and radio range do not establish a numeric positioning accuracy for the aircraft."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
+        }
+      }
     }
   ]
 }

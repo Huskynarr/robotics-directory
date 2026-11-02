@@ -6131,20 +6131,75 @@
       "highlights": [
         "Electric quadcopter with an adjustable payload rail and tool-free sensor mounting",
         "Supports optical, multispectral, thermal and lidar payload integrations",
-        "Manufacturer quotes 54 minutes maximum flight time; actual duration depends on payload and conditions"
+        "Manufacturer quotes 54 minutes maximum flight time; actual duration depends on payload and conditions",
+        "The current specifications list 8.5 kg with batteries, 4.2 kg empty and 11.5 kg maximum takeoff mass. The linked handbook printed Rev 1.0 March 2024 lists 8.6 kg, 4.5 kg and 11.6 kg respectively. Configuration/revision differences remain unresolved; case, battery and GS-ONE controller mass are separate.",
+        "Manufacturer marketing quotes up to 54 minutes and 3.0 kg payload. No selected source establishes maximum endurance at maximum payload. IP43 is an attributed aircraft rating, not an inspected independent rain test; current -20°C and older handbook -10°C lower operating bounds also remain distinct.",
+        "IB388 specifications are per battery: 387.6 Wh, 17 Ah, 22.8 V and 2.08 kg, with 150–300 expected cycles. Capacity and lifecycle are not flight duration. The charging procedure recommends one IB388 per IMARS D300+ and supplies no complete elapsed charge time; 17 A does not prove one-hour charging.",
+        "Battery hot swap requires the aircraft to be landed and disarmed, with one battery connected throughout the exchange. A soft reboot reconnects the new batteries without cutting payload power and permits waypoint-mission resumption; this is not an in-flight swap or uninterrupted airborne endurance.",
+        "Current documentation specifies Cube Orange+, dual Here4, a LightWare SF000/B sensor, 12 V at 2 A payload power and ArduPilot QUAD V. The older handbook instead names Cube Blue H7 and an 18 V rail. These are source/configuration differences rather than silently interchangeable hardware.",
+        "Radio documentation separates an ideal 6 km radio-manufacturer line-of-sight rating from 1.5–2.3 km manufacturer field tests in varied urban environments. Terrain, weather and interference matter; radio reach is neither GNSS accuracy nor proof of permission to fly that distance.",
+        "The shop lists eight Herelink/GS-ONE and care variants, from 23,000 USD for Herelink/Foundation to 34,500 USD for GS-ONE/Elite. JSON and JSON-LD availability flags conflict with sold-out/unavailable HTML fallback text, so current stock is unverified. Annual care fees, GS-ONE endurance and accessory prices are separate from aircraft purchase and flight duration."
       ],
       "sources": [
         {
-          "name": "Inspired Flight Technologies",
-          "type": "manufacturer",
-          "url": "https://www.inspiredflight.com/if800",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Inspired Flight Technologies",
+          "name": "Inspired Flight Technologies — current IF800 specifications, flight modes and flight stack",
           "type": "manufacturer",
           "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-tomcat-overview/if800-specifications",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current IF800 marketing page",
+          "type": "manufacturer",
+          "url": "https://www.inspiredflight.com/if800",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 shop product, price currency and IP43 supplier claim",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if800-tomcat",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 public Shopify variant JSON: controller/care options",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if800-tomcat.js",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 pilot handbook: printed Rev 1.0 March 2024, linked filename says Rev 1.1",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2FuE8BnBlpmsJQMobYx407%2F_Pilot%20Operating%20Handbook%2C%20IF800%20Tomcat%2C%20107%20Operation%2C%20REV%201.1%20x.pdf?alt=media&token=f0bdb0a2-f718-4943-8d58-80667f813f74",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IB388 per-battery electrical, mass and lifecycle specifications",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/ib388-battery-overview/ib388-technical-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IB388 charging procedure, no full-charge elapsed duration",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/best-practices/ib388-battery-charging",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 landed/disarmed hot swap with soft reboot",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/best-practices/hot-swapping-batteries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — GS-ONE ground station specifications, separate from aircraft",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/gs-one",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — annual care plans and bundles, separate from aircraft price",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/pages/pricing-plans",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -6158,14 +6213,82 @@
       "highlights": [
         "Heavy-lift electric multirotor with an open payload architecture",
         "Dovetail payload interface supports sensor changes and an integrated FPV camera supports piloting",
-        "Autopilot supports waypoint missions, position hold and return-to-launch"
+        "Autopilot supports waypoint missions, position hold and return-to-launch",
+        "Current physical specifications distinguish 7.8 kg empty, 16.3 kg with batteries and 24.9 kg maximum takeoff mass. The 165.5 × 154 × 76.5 cm flight-ready aircraft folds to 47.5 × 49.5 × 47 cm; the 29 kg transport-case package is separate from aircraft mass.",
+        "Payload remains a source discrepancy: current physical table says 8.6 kg / 19 lb, marketing headline 19.1 lb and service-ceiling example 8.7 kg. The shop separately says up to 28.7 lb with appropriate certification. That conditional configuration is not a universal standard payload or independent authorization advice.",
+        "Up to 43-minute maximum flight time is a supplier headline, not a maximum-load guarantee. The specification page explicitly requires gimbal plus sensor mass when estimating flight time. The shop’s universal duration-regardless-of-payload wording is not adopted as a measured performance conclusion.",
+        "Current flight-stack documentation names Cube Orange+, dual Here3 M8P and Universal Payload Interface 2.1 or 3.0. The linked IF1200A Rev 2.0GB 2023 handbook and January 2023 compliance sheet instead name Cube Blue H7; these documents retain their historical configuration scope.",
+        "The January 2023 compliance sheet explicitly says Blue Herelink was NDAA compliant but not approved by DIU for Department of Defense UAS operations. Current Blue UAS/NDAA marketing is an attributed supplier claim; no present complete-aircraft regulatory or procurement certification is independently verified here.",
+        "The manufacturer summarizes Tattu per-battery values of 12S1P, 16 Ah, 44.4 V, 710.4 Wh and 4.25 kg ±0.10 kg. TA3200 can charge two batteries simultaneously on independent A/B channels; its 3200 W, up-to-60 A and approximately 6 kg specifications belong to the charger. The charging procedure recommends 16 A but supplies no full elapsed charge time.",
+        "The old IF1200A shop URL redirects to the currently titled IF1200 product; the current documentation also uses IF1200A for its interface and linked manual. This supports a family/naming relationship, without inventing a separately available A model or assuming all historical configurations are identical.",
+        "Eight listed controller/care variants span 33,500 USD for Herelink/Foundation to 46,000 USD for GS-ONE/Elite. Structured availability flags and rendered sold-out/unavailable fallback disagree, so current stock requires confirmation. Annual service plans, controller battery hours and individual payload sensors are separate from aircraft purchase and flight time."
       ],
       "sources": [
         {
-          "name": "Inspired Flight Technologies",
+          "name": "Inspired Flight Technologies — current IF1200 specifications, payload figures and flight stack",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/about-the-if1200/interfaces-and-specs/if1200-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current IF1200 marketing page",
           "type": "manufacturer",
           "url": "https://www.inspiredflight.com/if1200",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 shop product; redirected old IF1200A URL and conditional payload claims",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if1200-heavy-lift",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 public Shopify variant JSON: controller/care options",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if1200-heavy-lift.js",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — January 2023 IF1200A compliance sheet with Blue Herelink limitation",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2FFLkKiOgmiXkr7GBRkymz%2FIF1200A%20NDAA%20Compliance%20Specification%20Sheet%20w_o%20FPV%20Camera.pdf?alt=media&token=06b96e4f-d91f-47a9-a368-6090cd786fc4",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200A pilot handbook Rev 2.0GB 2023, historical controller configuration",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2Fo2OvnBQMZmzXY8G9GjSk%2FPilot%20Operating%20Handbook%2C%20IF1200A%20REV%202.0GB.pdf?alt=media&token=5ccc3756-b1ef-493b-a14f-3e9117327c72",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 Tattu per-battery specifications summarized by manufacturer",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/overview/battery-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — TA3200 charger channels and electrical ratings, not aircraft endurance",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/overview/ta3200-battery-charger",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 charging on independent A/B channels; 16A recommendation",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/operation/charging-the-if1200-batteries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — GS-ONE ground station specifications, separate from aircraft",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/gs-one",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — annual care plans and bundles, separate from aircraft price",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/pages/pricing-plans",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -29159,6 +29282,32 @@
       ],
       "discoveredIn": [
         "https://www.sec.gov/Archives/edgar/data/1549084/000143774926005086/ekso20251231_10k.htm"
+      ]
+    },
+    {
+      "robotId": "inspired-flight-technologies-if750",
+      "manufacturer": "Inspired Flight Technologies",
+      "model": "IF750",
+      "highlights": [
+        "Inspired Flight’s official company timeline explicitly places launch of the IF750 quadcopter in 2018, separate from founding the company in 2017. This is a named historical aircraft identity and launch year.",
+        "The current aircraft shop collection lists IF800 TOMCAT and IF1200. That current selection does not erase the historical IF750 or establish present stock, support or an exact discontinuation date; current-family technical specifications are not transferred to it."
+      ],
+      "sources": [
+        {
+          "name": "Inspired Flight Technologies — company timeline explicitly launching IF750 in 2018",
+          "type": "manufacturer",
+          "url": "https://www.inspiredflight.com/about",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current aircraft collection: two listed aircraft families",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/collections/uavs-1",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.inspiredflight.com/about"
       ]
     }
   ]

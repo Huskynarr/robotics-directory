@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T19:48:44.869Z",
+  "generatedAt": "2026-11-02T20:05:26.768Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 415,
-    "withoutSelectedFieldReview": 103,
-    "selectedFields": 7104,
+    "withSelectedFieldReview": 417,
+    "withoutSelectedFieldReview": 101,
+    "selectedFields": 7178,
     "selectedFieldStatuses": {
-      "documented": 3078,
-      "not-documented": 3849,
-      "conflicting": 166,
+      "documented": 3097,
+      "not-documented": 3900,
+      "conflicting": 170,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 100,
+    "sourceGroupsWithCompanyAuthoredFocus": 101,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -353,26 +353,6 @@
       "robotIds": [
         "ambi-robotics-ambisort-a-series",
         "ambi-robotics-ambistack"
-      ]
-    },
-    {
-      "brandId": "inspired-flight-technologies",
-      "name": "Inspired Flight Technologies",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/inspired-flight-technologies"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "inspired-flight-technologies-if1200",
-        "inspired-flight-technologies-if800-tomcat"
       ]
     },
     {
@@ -3665,6 +3645,26 @@
       "robotIds": [
         "farmbot-genesis-v1-8",
         "farmbot-genesis-xl-v1-8"
+      ]
+    },
+    {
+      "brandId": "inspired-flight-technologies",
+      "name": "Inspired Flight Technologies",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/inspired-flight-technologies"
+      ],
+      "catalogModels": 3,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "inspired-flight-technologies-if1200",
+        "inspired-flight-technologies-if800-tomcat"
       ]
     },
     {
@@ -8306,14 +8306,14 @@
       "sourceUrls": [
         "https://buyandrentrobots.com/companies/inspired-flight-technologies"
       ],
-      "catalogModels": 2,
+      "catalogModels": 3,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "inspired-flight-technologies-if1200",
         "inspired-flight-technologies-if800-tomcat"
@@ -28850,24 +28850,151 @@
       "brandId": "inspired-flight-technologies",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 11,
       "highlightSources": [
         {
-          "name": "Inspired Flight Technologies",
+          "name": "Inspired Flight Technologies — current IF1200 specifications, payload figures and flight stack",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/about-the-if1200/interfaces-and-specs/if1200-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current IF1200 marketing page",
           "type": "manufacturer",
           "url": "https://www.inspiredflight.com/if1200",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 shop product; redirected old IF1200A URL and conditional payload claims",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if1200-heavy-lift",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 public Shopify variant JSON: controller/care options",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if1200-heavy-lift.js",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — January 2023 IF1200A compliance sheet with Blue Herelink limitation",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2FFLkKiOgmiXkr7GBRkymz%2FIF1200A%20NDAA%20Compliance%20Specification%20Sheet%20w_o%20FPV%20Camera.pdf?alt=media&token=06b96e4f-d91f-47a9-a368-6090cd786fc4",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200A pilot handbook Rev 2.0GB 2023, historical controller configuration",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2Fo2OvnBQMZmzXY8G9GjSk%2FPilot%20Operating%20Handbook%2C%20IF1200A%20REV%202.0GB.pdf?alt=media&token=5ccc3756-b1ef-493b-a14f-3e9117327c72",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 Tattu per-battery specifications summarized by manufacturer",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/overview/battery-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — TA3200 charger channels and electrical ratings, not aircraft endurance",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/overview/ta3200-battery-charger",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 charging on independent A/B channels; 16A recommendation",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/operation/charging-the-if1200-batteries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — GS-ONE ground station specifications, separate from aircraft",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/gs-one",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — annual care plans and bundles, separate from aircraft price",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/pages/pricing-plans",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 10,
+        "not-documented": 26,
+        "conflicting": 1,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Inspired Flight Technologies — current IF1200 specifications, payload figures and flight stack",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/about-the-if1200/interfaces-and-specs/if1200-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current IF1200 marketing page",
+          "type": "manufacturer",
+          "url": "https://www.inspiredflight.com/if1200",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 shop product; redirected old IF1200A URL and conditional payload claims",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if1200-heavy-lift",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 public Shopify variant JSON: controller/care options",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if1200-heavy-lift.js",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — January 2023 IF1200A compliance sheet with Blue Herelink limitation",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2FFLkKiOgmiXkr7GBRkymz%2FIF1200A%20NDAA%20Compliance%20Specification%20Sheet%20w_o%20FPV%20Camera.pdf?alt=media&token=06b96e4f-d91f-47a9-a368-6090cd786fc4",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200A pilot handbook Rev 2.0GB 2023, historical controller configuration",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2Fo2OvnBQMZmzXY8G9GjSk%2FPilot%20Operating%20Handbook%2C%20IF1200A%20REV%202.0GB.pdf?alt=media&token=5ccc3756-b1ef-493b-a14f-3e9117327c72",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 Tattu per-battery specifications summarized by manufacturer",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/overview/battery-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — TA3200 charger channels and electrical ratings, not aircraft endurance",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/overview/ta3200-battery-charger",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF1200 charging on independent A/B channels; 16A recommendation",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if1200/if1200-batteries/operation/charging-the-if1200-batteries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — GS-ONE ground station specifications, separate from aircraft",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/gs-one",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — annual care plans and bundles, separate from aircraft price",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/pages/pricing-plans",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -28889,30 +29016,139 @@
       "brandId": "inspired-flight-technologies",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 10,
       "highlightSources": [
         {
-          "name": "Inspired Flight Technologies",
-          "type": "manufacturer",
-          "url": "https://www.inspiredflight.com/if800",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Inspired Flight Technologies",
+          "name": "Inspired Flight Technologies — current IF800 specifications, flight modes and flight stack",
           "type": "manufacturer",
           "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-tomcat-overview/if800-specifications",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current IF800 marketing page",
+          "type": "manufacturer",
+          "url": "https://www.inspiredflight.com/if800",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 shop product, price currency and IP43 supplier claim",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if800-tomcat",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 public Shopify variant JSON: controller/care options",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if800-tomcat.js",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 pilot handbook: printed Rev 1.0 March 2024, linked filename says Rev 1.1",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2FuE8BnBlpmsJQMobYx407%2F_Pilot%20Operating%20Handbook%2C%20IF800%20Tomcat%2C%20107%20Operation%2C%20REV%201.1%20x.pdf?alt=media&token=f0bdb0a2-f718-4943-8d58-80667f813f74",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IB388 per-battery electrical, mass and lifecycle specifications",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/ib388-battery-overview/ib388-technical-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IB388 charging procedure, no full-charge elapsed duration",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/best-practices/ib388-battery-charging",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 landed/disarmed hot swap with soft reboot",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/best-practices/hot-swapping-batteries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — GS-ONE ground station specifications, separate from aircraft",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/gs-one",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — annual care plans and bundles, separate from aircraft price",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/pages/pricing-plans",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 9,
+        "not-documented": 25,
+        "conflicting": 3,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Inspired Flight Technologies — current IF800 specifications, flight modes and flight stack",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-tomcat-overview/if800-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — current IF800 marketing page",
+          "type": "manufacturer",
+          "url": "https://www.inspiredflight.com/if800",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 shop product, price currency and IP43 supplier claim",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if800-tomcat",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 public Shopify variant JSON: controller/care options",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/if800-tomcat.js",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 pilot handbook: printed Rev 1.0 March 2024, linked filename says Rev 1.1",
+          "type": "manufacturer",
+          "url": "https://240141666-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FhMePZ0UIa6VYv9VbYu4u%2Fuploads%2FuE8BnBlpmsJQMobYx407%2F_Pilot%20Operating%20Handbook%2C%20IF800%20Tomcat%2C%20107%20Operation%2C%20REV%201.1%20x.pdf?alt=media&token=f0bdb0a2-f718-4943-8d58-80667f813f74",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IB388 per-battery electrical, mass and lifecycle specifications",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/ib388-battery-overview/ib388-technical-specifications",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IB388 charging procedure, no full-charge elapsed duration",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/best-practices/ib388-battery-charging",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — IF800 landed/disarmed hot swap with soft reboot",
+          "type": "manufacturer",
+          "url": "https://docs.inspiredflight.com/inspired-documentation/products/aircraft/if800-tomcat/if800-batteries/best-practices/hot-swapping-batteries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — GS-ONE ground station specifications, separate from aircraft",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/products/gs-one",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Inspired Flight Technologies — annual care plans and bundles, separate from aircraft price",
+          "type": "manufacturer",
+          "url": "https://shop.inspiredflight.com/pages/pricing-plans",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
