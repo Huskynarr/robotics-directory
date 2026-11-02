@@ -1,0 +1,744 @@
+{
+  "batch": 97,
+  "checkedAt": "2026-11-02",
+  "manufacturers": [
+    "Blue Robotics"
+  ],
+  "catalogModelsBefore": 2053,
+  "catalogModelsAfter": 2053,
+  "newModels": 0,
+  "existingModelsReviewed": 2,
+  "newSpecificationReviews": 2,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 38,
+  "fieldStatuses": {
+    "documented": 21,
+    "conflicting": 1,
+    "not-documented": 16
+  },
+  "newCompanyFocusReviews": 1,
+  "updatedCompanyFocusReviews": 0,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "sourceAttempts": 14,
+    "successfulHttpBodies": 9,
+    "http403": 4,
+    "http404": 1,
+    "dnsFailures": 0,
+    "allSavedBodiesHashVerified": true,
+    "successfulPdfBodies": 2,
+    "pdfTextInspectionPerformed": true,
+    "pdfVisualInspectionPerformed": true,
+    "pdfVisualScope": "Web screenshots of both pages of both manufacturer datasheets inspected; diagram dimensions not substituted for overall table values.",
+    "previouslyBlockedHostsRetried": false,
+    "failedAmbiScope": "Four preplanned Ambi URLs returned HTTP403 in this collector batch; no further Ambi requests after these results. Earlier Ambi evidence, dates, catalog and queue remain unchanged.",
+    "failedRovLocatorScope": "One guessed operating-manual path returned404; the product-linked operation route was then successfully inspected.",
+    "gatedDownloadsRequested": false,
+    "formsSubmitted": 0,
+    "cartActions": 0,
+    "proofTerms": {
+      "1": [
+        "4,900.00",
+        "457 mm",
+        "11–12 kg",
+        "9–10 kg",
+        "15.6Ah",
+        "~2 hours (normal use)",
+        "~4 hours (light use)",
+        "1.2 kg (4x Lumens) to 1.4 kg (no Lumens)",
+        "300 m (w/ aluminum tubes)"
+      ],
+      "2": [
+        "4,400.00",
+        "18 hrs (65 km)",
+        "36 hrs (130 km)",
+        "50 hrs (180 km)",
+        "62 hrs (220 km)",
+        "15 kg",
+        "14.5 kg",
+        "120 x 93 x 46 cm (deployed)",
+        "3 m/s"
+      ],
+      "4": [
+        "2014 Kickstarter campaign",
+        "open-source"
+      ],
+      "9": [
+        "not\nin Auto mode",
+        "Hold mode will stop the motors",
+        "failsafe is ignored"
+      ],
+      "11": [
+        "Installing a Battery"
+      ],
+      "12": [
+        "18Ah",
+        "457 mm x 338 mm x 254 mm",
+        "11–12 kg",
+        "1.2 kg–1.4 kg"
+      ],
+      "13": [
+        "62 hrs (220 km)",
+        "15 kg (33 lb)",
+        "120 x 93 x 46 cm (Deployed)"
+      ],
+      "14": [
+        "It does not include the tether or lights",
+        "full 6-degree-of-freedom control",
+        "does not increase the horizontal speed"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://bluerobotics.com/store/rov/bluerov2/",
+      "checkedAt": "2026-11-02T16:14:57.473536+00:00",
+      "status": 200,
+      "finalUrl": "https://bluerobotics.com/store/rov/bluerov2/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-1.html",
+      "bodySha256": "1701677b20f148b69964c135696b8eb7cb9aaa5b56f76cdcedb512bb5d7994f7",
+      "title": "BlueROV2 - Affordable and Capable Underwater ROV",
+      "textFile": "source-1.txt"
+    },
+    {
+      "id": 2,
+      "url": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
+      "checkedAt": "2026-11-02T16:15:01.524215+00:00",
+      "status": 200,
+      "finalUrl": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-2.html",
+      "bodySha256": "3336ba49df7a0142f9d00540f1441aaaf8c22beda28139bbea65a5a456312096",
+      "title": "BlueBoat - USV for Hydrographic Surveys and Robotics",
+      "textFile": "source-2.txt"
+    },
+    {
+      "id": 3,
+      "url": "https://docs.bluerobotics.com/downloads/",
+      "checkedAt": "2026-11-02T16:15:04.370244+00:00",
+      "status": 200,
+      "finalUrl": "https://docs.bluerobotics.com/downloads/",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-3.html",
+      "bodySha256": "aac94c93e878fb5aaa8b11313fc179e1926697ca263c67ab1fe34036b2b57d74",
+      "title": "Downloads",
+      "textFile": "source-3.txt"
+    },
+    {
+      "id": 4,
+      "url": "https://bluerobotics.com/about/",
+      "checkedAt": "2026-11-02T16:15:04.623056+00:00",
+      "status": 200,
+      "finalUrl": "https://bluerobotics.com/about/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-4.html",
+      "bodySha256": "54bf0fb0a521bdf4b8f2d8affec98478f9ead219941b66c3e75fe5d319f5e86b",
+      "title": "About - Blue Robotics",
+      "textFile": "source-4.txt"
+    },
+    {
+      "id": 5,
+      "url": "https://www.ambirobotics.com/ambisort-a-series/",
+      "checkedAt": "2026-11-02T16:15:24.621136+00:00",
+      "status": 403,
+      "finalUrl": "https://www.ambirobotics.com/ambisort-a-series/",
+      "contentType": "text/html",
+      "bodyFile": "source-5.html",
+      "bodySha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+      "title": "403 Forbidden",
+      "textFile": "source-5.txt"
+    },
+    {
+      "id": 6,
+      "url": "https://www.ambirobotics.com/ambistack/",
+      "checkedAt": "2026-11-02T16:15:25.397430+00:00",
+      "status": 403,
+      "finalUrl": "https://www.ambirobotics.com/ambistack/",
+      "contentType": "text/html",
+      "bodyFile": "source-6.html",
+      "bodySha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+      "title": "403 Forbidden",
+      "textFile": "source-6.txt"
+    },
+    {
+      "id": 7,
+      "url": "https://www.ambirobotics.com/",
+      "checkedAt": "2026-11-02T16:15:26.093858+00:00",
+      "status": 403,
+      "finalUrl": "https://www.ambirobotics.com/",
+      "contentType": "text/html",
+      "bodyFile": "source-7.html",
+      "bodySha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+      "title": "403 Forbidden",
+      "textFile": "source-7.txt"
+    },
+    {
+      "id": 8,
+      "url": "https://www.ambirobotics.com/ambios/",
+      "checkedAt": "2026-11-02T16:15:26.445165+00:00",
+      "status": 403,
+      "finalUrl": "https://www.ambirobotics.com/ambios/",
+      "contentType": "text/html",
+      "bodyFile": "source-8.html",
+      "bodySha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+      "title": "403 Forbidden",
+      "textFile": "source-8.txt"
+    },
+    {
+      "id": 9,
+      "url": "https://bluerobotics.com/learn/blueboat-operators-guide/",
+      "checkedAt": "2026-11-02T16:16:13.471982+00:00",
+      "status": 200,
+      "finalUrl": "https://bluerobotics.com/learn/blueboat-operators-guide/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-9.html",
+      "bodySha256": "dca4e6bf8fa3d3f7e27b02a38a8e60e210ec6f16316258169f454356928f3f05",
+      "title": "BlueBoat Operator's Guide",
+      "textFile": "source-9.txt"
+    },
+    {
+      "id": 10,
+      "url": "https://bluerobotics.com/learn/bluerov2-operating-manual/",
+      "checkedAt": "2026-11-02T16:16:15.901658+00:00",
+      "status": 404,
+      "finalUrl": "https://bluerobotics.com/learn/bluerov2-operating-manual/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-10.html",
+      "bodySha256": "25e8c1b27c830fd61b2edaa0583379ecbbc83a492406c2e566bba1fd1c74be9a",
+      "title": "Page not found - Blue Robotics",
+      "textFile": "source-10.txt"
+    },
+    {
+      "id": 11,
+      "url": "https://bluerobotics.com/learn/bluerov2-operation/",
+      "checkedAt": "2026-11-02T16:16:29.557049+00:00",
+      "status": 200,
+      "finalUrl": "https://bluerobotics.com/learn/bluerov2-operation/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-11.html",
+      "bodySha256": "50e6b62358b76fb54c94f4dde7c8eeb132e66af598a98e1f6313b417460c98fc",
+      "title": "BlueROV2 User Operating Guide",
+      "textFile": "source-11.txt"
+    },
+    {
+      "id": 12,
+      "url": "https://bluerobotics.com/wp-content/uploads/2025/04/BROV2-DATASHEET.pdf",
+      "checkedAt": "2026-11-02T16:16:31.099012+00:00",
+      "status": 200,
+      "finalUrl": "https://bluerobotics.com/wp-content/uploads/2025/04/BROV2-DATASHEET.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-12.pdf",
+      "bodySha256": "f35b53b4a1b43ad68930f21db77368cf6d342553e79e75ac12675d98d6a2c263",
+      "textFile": "source-12.txt",
+      "pages": 2
+    },
+    {
+      "id": 13,
+      "url": "https://bluerobotics.com/wp-content/uploads/2023/03/BLUEBOAT-DATASHEET-v1.1-JAN-2025.pdf",
+      "checkedAt": "2026-11-02T16:16:32.074657+00:00",
+      "status": 200,
+      "finalUrl": "https://bluerobotics.com/wp-content/uploads/2023/03/BLUEBOAT-DATASHEET-v1.1-JAN-2025.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-13.pdf",
+      "bodySha256": "ba0b884a5d68a91b4f36399e7fc786382a663808c6c23605b336605a86f4c122",
+      "textFile": "source-13.txt",
+      "pages": 2
+    },
+    {
+      "id": 14,
+      "url": "https://bluerobotics.com/learn/bluerov2-buyers-guide-by-options/",
+      "checkedAt": "2026-11-02T16:16:33.917401+00:00",
+      "status": 200,
+      "finalUrl": "https://bluerobotics.com/learn/bluerov2-buyers-guide/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-14.html",
+      "bodySha256": "ca3b8043bdb118b2789f5fcb468561aeb584c11f272c6b9648e395c31bc8af29",
+      "title": "BlueROV2 Buyer's Guide",
+      "textFile": "source-14.txt"
+    }
+  ],
+  "currencyProofs": [
+    {
+      "sourceId": 1,
+      "model": "BlueROV2",
+      "currency": "USD",
+      "valueAddedTaxIncluded": false,
+      "structuredPrice": "",
+      "visibleFromPrice": 4900
+    },
+    {
+      "sourceId": 2,
+      "model": "BlueBoat Uncrewed Surface Vessel",
+      "currency": "USD",
+      "valueAddedTaxIncluded": false,
+      "structuredPrice": 4400,
+      "visibleFromPrice": 4400
+    }
+  ],
+  "modelDecisions": [
+    {
+      "model": "BlueROV2",
+      "manufacturer": "Blue Robotics",
+      "robotId": "blue-robotics-bluerov2",
+      "category": "commercial",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bluerobotics.com/store/rov/bluerov2/",
+        "https://bluerobotics.com/wp-content/uploads/2025/04/BROV2-DATASHEET.pdf",
+        "https://bluerobotics.com/learn/bluerov2-operation/",
+        "https://bluerobotics.com/learn/bluerov2-buyers-guide/"
+      ]
+    },
+    {
+      "model": "BlueBoat",
+      "manufacturer": "Blue Robotics",
+      "robotId": "blue-robotics-blueboat",
+      "category": "commercial",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bluerobotics.com/store/boat/blueboat/blueboat/",
+        "https://bluerobotics.com/wp-content/uploads/2023/03/BLUEBOAT-DATASHEET-v1.1-JAN-2025.pdf",
+        "https://bluerobotics.com/learn/blueboat-operators-guide/"
+      ]
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "Blue Robotics",
+      "model": "BlueROV2",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": "From 4,900 USD; base configuration; tax excluded; battery, charger, laptop, tether and lights additional; shipping not established"
+        },
+        "weight": {
+          "before": "11-12 kg (with battery and ballast)",
+          "after": "11–12 kg with default ballast and manufacturer battery; 9–10 kg without ballast/battery"
+        },
+        "size": {
+          "before": "",
+          "after": "457 x 338 x 254 mm (L x W x H; base table)"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "Approx. 2 h normal / 4 h light use; HTML 15.6 Ah battery vs linked PDF 18 Ah"
+        },
+        "payload": {
+          "before": "",
+          "after": "1.2 kg with 4 Lumen lights to 1.4 kg without lights (available buoyancy)"
+        },
+        "speed": {
+          "before": "",
+          "after": "Maximum forward 1.5 m/s (base configuration)"
+        },
+        "terrain": {
+          "before": "underwater",
+          "after": "Underwater; tethered inspection and research"
+        },
+        "description": {
+          "before": "Tethered underwater inspection platform using open-source control software. Six-thruster base configuration; optional Heavy kit adds two thrusters. Depth rating depends on enclosure: 100 m acrylic or 300 m aluminum.",
+          "after": "BlueROV2 is a configurable tethered underwater inspection/research kit with six base T200 thrusters, Navigator/BlueOS control and a tilting camera. Acrylic/aluminum tubes are rated for 100/300 m depth; maximum forward speed is 1.5 m/s. Its 1.2–1.4 kg added buoyancy depends on lighting, and fitted mass differs from bare mass. Active endurance tables disagree on the battery capacity used for roughly two-hour normal/four-hour light use. The Heavy kit adds two thrusters and six-axis vehicle control without increasing horizontal speed. Tether, lights, battery, charger and laptop require the appropriate configuration."
+        },
+        "depthRating": {
+          "before": "100 m (acrylic); 300 m (aluminum)",
+          "after": "100 m acrylic tubes; 300 m aluminum tubes"
+        },
+        "driveMode": {
+          "before": "",
+          "after": "6 T200 thrusters: 4 vectored, 2 vertical; optional Heavy adds 2 vertical thrusters"
+        }
+      }
+    },
+    {
+      "manufacturer": "Blue Robotics",
+      "model": "BlueBoat",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": "From 4,400 USD; tax excluded; options, batteries, charger and laptop additional; shipping not established"
+        },
+        "weight": {
+          "before": "14.5 kg (without batteries or payload)",
+          "after": "14.5 kg without batteries or payload"
+        },
+        "size": {
+          "before": "120 x 93 x 46 cm (deployed)",
+          "after": "120 x 93 x 46 cm deployed; 120 x 71 x 24 cm folded (L x W x H)"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "18/36/50/62 h with 2/4/6/8 batteries at 1 m/s (~30 W), no payload"
+        },
+        "maxRuntime": {
+          "before": "",
+          "after": "62 h with 8 batteries (2,128 Wh), 1 m/s (~30 W), no payload; highest listed battery configuration"
+        },
+        "tags": {
+          "before": "commercial;marine;inspection;research;dev-platform;autonomous-nav",
+          "after": "commercial;marine;inspection;autonomous-nav;research;dev-platform"
+        },
+        "payload": {
+          "before": "15 kg (batteries and payload combined)",
+          "after": "15 kg combined batteries and payload"
+        },
+        "speed": {
+          "before": "3 m/s (two batteries, no payload)",
+          "after": "Maximum 3 m/s with 2 batteries, no payload"
+        },
+        "terrain": {
+          "before": "water surface",
+          "after": "Water surface; survey and robotics-development catamaran"
+        },
+        "description": {
+          "before": "Uncrewed surface vessel for hydrographic surveys and robotics development. Open-source BlueOS and space to integrate sonars and other sensors. Carries up to 15 kg total batteries and payload.",
+          "after": "BlueBoat is a surface survey/research catamaran with differential thrust, two M200 motors and configurable instruments. Its 14.5 kg mass excludes batteries and payload; the 15 kg allowance combines both. GPS/ArduRover/BlueOS support waypoint, guided and position-hold modes. Listed endurance ranges from 18 to 62 hours at 1 m/s and no payload as battery count rises from two to eight; 3 m/s top speed uses two batteries without payload. Communications-loss behavior depends on mode and failsafe parameters, rather than universally returning home. Folded and deployed sizes and optional sonars, radios and solar equipment retain separate scope."
+        },
+        "driveMode": {
+          "before": "",
+          "after": "Differential thrust; 2 M200 motors with weedless propellers"
+        }
+      }
+    }
+  ],
+  "priorProductEvidence": [
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Blue Robotics",
+        "model": "BlueROV2",
+        "price": "Not disclosed",
+        "tags": "commercial;marine;inspection;teleoperated;research;dev-platform",
+        "website": "https://bluerobotics.com/store/rov/bluerov2/",
+        "description": "Tethered underwater inspection platform using open-source control software. Six-thruster base configuration; optional Heavy kit adds two thrusters. Depth rating depends on enclosure: 100 m acrylic or 300 m aluminum.",
+        "weight": "11-12 kg (with battery and ballast)",
+        "depthRating": "100 m (acrylic); 300 m (aluminum)",
+        "terrain": "underwater"
+      },
+      "highlights": [
+        "Tethered underwater inspection platform using open-source control software",
+        "Six-thruster base configuration; optional Heavy kit adds two thrusters",
+        "Depth rating depends on enclosure: 100 m acrylic or 300 m aluminum"
+      ],
+      "sources": [
+        {
+          "name": "Blue Robotics",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/store/rov/bluerov2/",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://buyandrentrobots.com/robot/8345ce6b-9447-4bbe-98f0-982dc6bc9468"
+      ],
+      "reviewedFrom": "scratch/competitor-research/primary/batch-3/bluerobotics.com-store-rov-bluerov2.json",
+      "reviewNotes": "Single expandable platform; optional Heavy kit and enclosures are not counted as invented extra models. Weight depends on configuration."
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Blue Robotics",
+        "model": "BlueBoat",
+        "price": "Not disclosed",
+        "tags": "commercial;marine;inspection;research;dev-platform;autonomous-nav",
+        "website": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
+        "description": "Uncrewed surface vessel for hydrographic surveys and robotics development. Open-source BlueOS and space to integrate sonars and other sensors. Carries up to 15 kg total batteries and payload.",
+        "weight": "14.5 kg (without batteries or payload)",
+        "size": "120 x 93 x 46 cm (deployed)",
+        "payload": "15 kg (batteries and payload combined)",
+        "speed": "3 m/s (two batteries, no payload)",
+        "terrain": "water surface"
+      },
+      "highlights": [
+        "Uncrewed surface vessel for hydrographic surveys and robotics development",
+        "Open-source BlueOS and space to integrate sonars and other sensors",
+        "Carries up to 15 kg total batteries and payload"
+      ],
+      "sources": [
+        {
+          "name": "Blue Robotics",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://buyandrentrobots.com/robot/28a18af5-a41c-4fe4-a5cc-88c7e7f48283"
+      ],
+      "reviewedFrom": "scratch/competitor-research/primary/batch-3/bluerobotics.com-store-boat-blueboat-blueboat.json"
+    }
+  ],
+  "portfolioDecisions": {
+    "selectedIdentities": 2,
+    "newRobotCards": 0,
+    "newCompanyFocusReviews": 1,
+    "accessoriesExcluded": [
+      "BlueROV2 Heavy upgrade",
+      "acrylic/aluminum tube options",
+      "payload skids",
+      "grippers and sonars",
+      "BaseStation and antennas",
+      "batteries and solar panels",
+      "M200/T200/T500 propulsion components"
+    ],
+    "ambirobotics": "Current technical retrieval blocked by HTTP403; existing evidence and pending targets preserved without a new review.",
+    "scope": "Two source-linked Blue Robotics platforms reviewed. Historical prototypes, distributor custom T500 ROVs and a complete historic/regional portfolio are not independently established."
+  },
+  "validation": {
+    "unitTests": 793,
+    "unitTestFiles": 64,
+    "browserTestCases": 12,
+    "browserPassed": 12,
+    "browserFailed": 0,
+    "selectedBlueRoboticsBrowserCases": 12,
+    "axeCases": 4,
+    "sourceCodeChanged": false,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "manufacturerProfileMappingChanged": false,
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "buildPages": 3103,
+    "buildSizeApproxMB": 481,
+    "dataErrors": 0,
+    "dataWarnings": 947,
+    "dataWarningChange": 0,
+    "changedFileLint": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "globalRenderedReviewMetadataCheck": {
+      "allChecksPassed": true,
+      "reviewedModelPagesChecked": 797,
+      "selectedFieldValuesChecked": 13340,
+      "visibleTechnicalValuesAndSourceBadgesChecked": 5556,
+      "omittedEmptyOrNAFieldsChecked": 6570,
+      "descriptionAndWebsiteFieldsExcluded": 1214,
+      "reviewedLaunchYearsWithSourceBadgesChecked": 68,
+      "scope": "Public raw values and evidence metadata match existing selected reviews across 797 model pages. This is not a re-fetch or independent certification of prior manufacturers, nor a review of unmarked specifications."
+    },
+    "renderedBlueRoboticsEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 2,
+      "selectedSpecificationFieldsChecked": 38,
+      "sourceBadgesChecked": 18,
+      "blankFieldsOmitted": 16,
+      "descriptionsChecked": 2,
+      "websitesChecked": 2,
+      "structuredSpecificationPropertiesChecked": 16,
+      "highlightStatementsChecked": 14,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 2,
+      "modelExportRowsChecked": 2,
+      "modelExportTargetsChecked": 2,
+      "modelExportFieldOccurrencesChecked": 38,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 2,
+      "researchQueueFieldsChecked": 38,
+      "scope": "Two Blue Robotics platforms: depth/enclosure and buoyancy scope, HTML/PDF battery mismatch, conditional USV endurance, starting-price and failsafe scope retained. No independent performance or market-leadership proof."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 2053,
+      "unchangedPriorCatalogRows": 2051,
+      "reviewedExistingCatalogRows": 2,
+      "newCatalogRows": 0,
+      "newCsvColumns": [],
+      "categoryTransfers": 0,
+      "previousSpecificationReviewsEntirelyUnchanged": 795,
+      "newSpecificationReviews": 2,
+      "selectedFields": 38,
+      "previousCompanyFocusReviewsEntirelyUnchanged": 90,
+      "newCompanyFocusReviews": 1,
+      "sourceIdentityRecordsPreserved": 1961,
+      "originalUnresolvedModelMentions": 3,
+      "originalUnresolvedListings": 9,
+      "allProfileFieldsAndAliasesUnchanged": true,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/brands.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 385,
+        "withoutSelectedFieldReview": 133,
+        "selectedFields": 6362,
+        "selectedFieldStatuses": {
+          "documented": 2881,
+          "not-documented": 3312,
+          "conflicting": 158,
+          "roadmap": 11
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 87,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      },
+      "exportRows": {
+        "company-review": 591,
+        "model-review": 406,
+        "buyandrent-listing-review": 862,
+        "company-product-review": 132,
+        "robot-research-queue": 518
+      },
+      "correctedRows": [
+        {
+          "manufacturer": "Blue Robotics",
+          "model": "BlueROV2",
+          "changes": {
+            "price": {
+              "before": "Not disclosed",
+              "after": "From 4,900 USD; base configuration; tax excluded; battery, charger, laptop, tether and lights additional; shipping not established"
+            },
+            "weight": {
+              "before": "11-12 kg (with battery and ballast)",
+              "after": "11–12 kg with default ballast and manufacturer battery; 9–10 kg without ballast/battery"
+            },
+            "size": {
+              "before": "",
+              "after": "457 x 338 x 254 mm (L x W x H; base table)"
+            },
+            "batteryLife": {
+              "before": "",
+              "after": "Approx. 2 h normal / 4 h light use; HTML 15.6 Ah battery vs linked PDF 18 Ah"
+            },
+            "payload": {
+              "before": "",
+              "after": "1.2 kg with 4 Lumen lights to 1.4 kg without lights (available buoyancy)"
+            },
+            "speed": {
+              "before": "",
+              "after": "Maximum forward 1.5 m/s (base configuration)"
+            },
+            "terrain": {
+              "before": "underwater",
+              "after": "Underwater; tethered inspection and research"
+            },
+            "description": {
+              "before": "Tethered underwater inspection platform using open-source control software. Six-thruster base configuration; optional Heavy kit adds two thrusters. Depth rating depends on enclosure: 100 m acrylic or 300 m aluminum.",
+              "after": "BlueROV2 is a configurable tethered underwater inspection/research kit with six base T200 thrusters, Navigator/BlueOS control and a tilting camera. Acrylic/aluminum tubes are rated for 100/300 m depth; maximum forward speed is 1.5 m/s. Its 1.2–1.4 kg added buoyancy depends on lighting, and fitted mass differs from bare mass. Active endurance tables disagree on the battery capacity used for roughly two-hour normal/four-hour light use. The Heavy kit adds two thrusters and six-axis vehicle control without increasing horizontal speed. Tether, lights, battery, charger and laptop require the appropriate configuration."
+            },
+            "depthRating": {
+              "before": "100 m (acrylic); 300 m (aluminum)",
+              "after": "100 m acrylic tubes; 300 m aluminum tubes"
+            },
+            "driveMode": {
+              "before": "",
+              "after": "6 T200 thrusters: 4 vectored, 2 vertical; optional Heavy adds 2 vertical thrusters"
+            }
+          }
+        },
+        {
+          "manufacturer": "Blue Robotics",
+          "model": "BlueBoat",
+          "changes": {
+            "price": {
+              "before": "Not disclosed",
+              "after": "From 4,400 USD; tax excluded; options, batteries, charger and laptop additional; shipping not established"
+            },
+            "weight": {
+              "before": "14.5 kg (without batteries or payload)",
+              "after": "14.5 kg without batteries or payload"
+            },
+            "size": {
+              "before": "120 x 93 x 46 cm (deployed)",
+              "after": "120 x 93 x 46 cm deployed; 120 x 71 x 24 cm folded (L x W x H)"
+            },
+            "batteryLife": {
+              "before": "",
+              "after": "18/36/50/62 h with 2/4/6/8 batteries at 1 m/s (~30 W), no payload"
+            },
+            "maxRuntime": {
+              "before": "",
+              "after": "62 h with 8 batteries (2,128 Wh), 1 m/s (~30 W), no payload; highest listed battery configuration"
+            },
+            "tags": {
+              "before": "commercial;marine;inspection;research;dev-platform;autonomous-nav",
+              "after": "commercial;marine;inspection;autonomous-nav;research;dev-platform"
+            },
+            "payload": {
+              "before": "15 kg (batteries and payload combined)",
+              "after": "15 kg combined batteries and payload"
+            },
+            "speed": {
+              "before": "3 m/s (two batteries, no payload)",
+              "after": "Maximum 3 m/s with 2 batteries, no payload"
+            },
+            "terrain": {
+              "before": "water surface",
+              "after": "Water surface; survey and robotics-development catamaran"
+            },
+            "description": {
+              "before": "Uncrewed surface vessel for hydrographic surveys and robotics development. Open-source BlueOS and space to integrate sonars and other sensors. Carries up to 15 kg total batteries and payload.",
+              "after": "BlueBoat is a surface survey/research catamaran with differential thrust, two M200 motors and configurable instruments. Its 14.5 kg mass excludes batteries and payload; the 15 kg allowance combines both. GPS/ArduRover/BlueOS support waypoint, guided and position-hold modes. Listed endurance ranges from 18 to 62 hours at 1 m/s and no payload as battery count rises from two to eight; 3 m/s top speed uses two batteries without payload. Communications-loss behavior depends on mode and failsafe parameters, rather than universally returning home. Folded and deployed sizes and optional sonars, radios and solar equipment retain separate scope."
+            },
+            "driveMode": {
+              "before": "",
+              "after": "Differential thrust; 2 M200 motors with weedless propellers"
+            }
+          }
+        }
+      ]
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 951,
+      "individualHighlights": 4149,
+      "productSourceReferences": 1836,
+      "specificationReviewModels": 797,
+      "specificationFields": 13340,
+      "publicJsonBytes": 3403971,
+      "catalogScriptBytes": 2106735,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 295,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "previouslyBlockedHostsRetried": false,
+    "new429Observed": 0,
+    "new403Observed": 4,
+    "new404Observed": 1,
+    "newDnsFailures": 0,
+    "formsSubmitted": 0,
+    "cartActions": 0,
+    "gatedDownloadsRequested": false,
+    "pdfVisualInspectionPerformed": true,
+    "pdfTextInspectionPerformed": true,
+    "priorValidationRetainedInBatchHistory": 96,
+    "initialBrowserFinding": "Two initial selected comparison cases expected an English decimal point despite German UI localization. Corrected the new browser assertion to expect 15,6 Ah; exact raw15.6 Ah evidence assertion and application data/logic unchanged. Retained initial artifacts and reran all12 selected cases. Subsequently clarified the two price notes for product readers and repeated unit/build/rendering/browser checks against the final notes.",
+    "scope": "793 unit tests, 12 selected desktop/mobile browser cases including four axe runs and comparison/search/company focus. All797 rendered review pages/13340 fields and exact comparison payload checked. No application-code change: prior Python, application lint/format and full comparison regression results retained in batch95 history,not represented as rerun. Fourteen saved collector attempts:nine HTTP200 bodies including two PDFs,four Ambi HTTP403 responses and one guessed ROV manual404. Correct product-linked ROV operation route inspected successfully. No further Ambi requests after the observed batch. Separate web PDF reads and screenshots supplement saved-body evidence. No exhaustive historical portfolio or independent performance/market rank established."
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "dataCommit": "3a1f96d5a2dadc7de82b0ddd35be23142f5fc178",
+    "dataPushVerified": true,
+    "mainUnchanged": true
+  },
+  "goalComplete": false
+}

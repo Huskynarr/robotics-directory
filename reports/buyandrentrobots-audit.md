@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,053 catalog rows**, with 644 exact
-manufacturer spellings. Batch 96 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 97 refreshed the separate heuristic gap file offline
 against all 2,053 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 383 have selected-field reviews and 135 await those reviews. Family and
+highlights; 385 have selected-field reviews and 133 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 13,302 fields across 795 catalog models: 5,732 documented,
-7,256 not documented, 251 conflicting and sixty-three roadmap fields. They do not certify whole
+Selected specification checks cover 13,340 fields across 797 catalog models: 5,753 documented,
+7,272 not documented, 252 conflicting and sixty-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -5712,3 +5712,93 @@ Anwendungslogik geändert; frühere Python-, Anwendungslint-/Format- und vollst�
 Vergleichsregressionsresultate bleiben in Batch 95, ohne als neu ausgeführt zu gelten.
 Eigene Test-/Browserressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-96-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Blue Robotics ROV/USV und Betriebsbedingungen (Batch 97)
+
+Zwei bestehende Plattformen geprüft: BlueROV2 und BlueBoat. 38 Felder, davon
+21 dokumentiert, 16 unbekannt und eine ungeklärte Akku-Bedingung. Keine neue
+Roboterkarte. Ein Firmenfokus ergänzt, insgesamt 91. Alle 2051 anderen Katalogzeilen,
+795 bisherigen Feldprüfungen, 90 früheren Firmenfokusse, sämtliche Profile/Aliasse
+und 1961 Quellenidentitäten unverändert. Beide früheren Produktbelege einschließlich
+Metadaten bleiben im dauerhaften Manifest erhalten. Die aktuellen Ambi-Abrufe
+begründen keine neue technische Prüfung; deren frühere Datensätze bleiben erhalten.
+
+BlueROV2: sechs T200-Grundthruster, optional acht mit Heavy-Kit. Heavy ermöglicht
+volle Sechs-Achsen-Fahrzeugregelung und aktive Nick-/Rollstabilisierung; keine
+sechs mechanischen Armachsen und keine höhere Horizontalgeschwindigkeit abgeleitet.
+Grundtabelle 457×338×254 mm, 11–12 kg mit Standardballast und Herstellerakku,
+9–10 kg ohne beide. Acrylic/Aluminium-Gehäuse sind getrennt für 100/300 m Tiefe
+bewertet. Tetherlänge und Sonarreichweite sind keine zusätzliche Tauchtiefe.
+Verfügbare Zusatzauftriebsmasse 1,2 kg mit vier Lumen-Leuchten bis 1,4 kg ohne
+Leuchten; 7 kgf vertikaler Bollardschub ist keine neutrale Zusatznutzlast.
+
+Aktive HTML-Tabelle nennt ungefähr zwei Stunden normale/vier Stunden leichte
+Nutzung mit 15,6-Ah-Akku; verlinktes PDF nennt dieselben Intervalle mit 18 Ah.
+Diese nicht aufgelöste Bedingungsabweichung bleibt als Konflikt sichtbar, ohne
+Revision oder unabhängig gemessene Laufzeit zu erfinden. Kein gesondertes Maximum
+und keine Ladedauer daraus abgeleitet. Ungefähr 30 Sekunden Akkuwechsel ist kein
+Laden. Ab 4900 USD laut sichtbarer Produktüberschrift; Produkt-JSON-LD nennt USD
+und Steuerexklusion, aber keinen Betrag. Preisbetrag daher ausdrücklich aus der
+sichtbaren From-Angabe, nicht aus einem erfundenen strukturierten Angebot. Base-Kit
+enthält laut Käuferleitfaden weder Tether noch Leuchten; Akku, Ladegerät und Laptop
+sind ebenfalls separat. Montage laut Hersteller ungefähr sechs bis acht Stunden.
+
+BlueBoat: 14,5 kg ohne Akkus und Nutzlast. 15 kg ist die gemeinsame Grenze für
+Akkus plus Instrumente. Bei 1 m/s und ungefähr 30 W ohne Nutzlast nennt die Tabelle
+18/36/50/62 Stunden mit zwei/vier/sechs/acht Akkus. Größte aufgeführte Akkukonfiguration
+2128 Wh; nicht mit Höchstgeschwindigkeit, voller Nutzlast oder beliebigen
+Wetterbedingungen gleichgesetzt. 3 m/s gelten bei zwei Akkus ohne Nutzlast.
+Benutzerseitige Solarversorgung mit theoretisch unbestimmter Dauer zählt nicht als
+Akku-Maximum. Zwei M200-Motoren mit Weedless-Propellern, Differenzialschub.
+
+L×B×H: 120×93×46 cm ausgeklappt, 120×71×24 cm gefaltet. Verpackungsmaße bleiben
+separat. Die PDF-Seitenzeichnung markiert einen kürzeren 38-cm-Höhenabschnitt unterhalb
+der Antenne; dieser ersetzt nicht die tabellierte Gesamthöhe und erhält keine
+unbelegte Umrechnung. Standardfunk bis 250 m, optionale Richtantennen über 800 m
+unter passenden Bedingungen: keine garantierte Missionsreichweite oder
+Kollisionsvermeidung. 320 mm maximaler beladener Tiefgang ist keine Tauchtiefe.
+Ab 4400 USD vor Steuern; Akkus, Ladegerät, Laptop, gewählte Funk-/Sonaroptionen
+und Versand behalten ihren Umfang. Keine exakten strukturierten Kaufangebote
+für die qualifizierten Startpreise erzeugt.
+
+GPS, Navigator, ArduRover und BlueOS unterstützen Wegpunkte, Guided und Loiter.
+Das Produktmarketing nennt Return-to-Home bei Funkverlust. Der Betriebsleitfaden
+qualifiziert dagegen: Standard-GCS-Verlust nach fünf Sekunden führt außerhalb
+Auto zu Hold mit gestoppten Motoren ohne aktives Positionhalten; Auto ignoriert
+jenen Failsafe und setzt die Mission fort. Parameter und Modus sind entscheidend,
+kein universelles selbständiges Heimkehren. Unterwasser-Gripper, Sonarsysteme,
+Skids, Heavy, Gehäuse, BaseStation und Propulsionskomponenten bleiben Optionen bzw.
+Komponenten. Ein Distributor-Tag „T500 Thruster ROV“ belegt kein zusätzliches
+modellgenaues Herstellerfahrzeug. Firmenhistorie ab T100-Kampagne 2014 belegt nicht
+das Erstjahr beider Roboter. Keine vollständige historische/regionale Produktliste,
+IP-Klassifizierung, numerische Navigationsgenauigkeit oder Marktführerschaft abgeleitet.
+
+14 gespeicherte Collector-Versuche: neun HTTP200-Bodies, davon zwei PDFs, vier
+HTTP403 an vorab ausgewählten Ambi-URLs und ein HTTP404 am vermuteten alten ROV-
+Handbuchpfad. Danach korrekten produktverlinkten Betriebspfad erfolgreich gelesen.
+Keine weiteren Ambi-Anfragen nach dem beobachteten Batch. Alle gespeicherten Bodies
+per SHA256 geprüft, HTML-/PDF-Text gelesen und beide Seiten beider Datenblätter
+zusätzlich per Web-PDF-Screenshot betrachtet. Zusätzliche Webansichten sind nicht
+Teil der 14 Collector-Versuche. Keine Formulare oder Warenkorbaktionen.
+
+Aktuell 2053 Modelle/Konfigurationen, 951 Produktmerkmalsdatensätze, 4149 Aussagen
+und 1836 Produktquellenverweise. Ausgewählte Prüfungen: 13340 Felder auf 797 Modellen,
+5753 dokumentiert, 7272 unbekannt, 252 widersprüchlich und 63 Roadmap. Ursprüngliche
+518 Ziele: 385 mit ausgewählten Feldprüfungen, 133 offen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte bleiben offen. Keine Vollständigkeit
+oder Führungsposition allein aus Bestandszahlen abgeleitet.
+
+793 Unit-Tests/64 Dateien und zwölf ausgewählte Desktop-/Mobil-Browserfälle bestanden,
+einschließlich vier Axe-Läufen, Vergleich, Suche und Firmenprofil. Build 3103 Seiten/
+ca. 481 MB. Audit null Fehler/947 Warnungen, unverändert. Import-Trockenlauf null
+Ergänzungen, Offline-Refresh, alle 797 gerenderten Feldprüfseiten/13340 Felder und
+Quellen-/Exporttransport geprüft. Zwei anfängliche Vergleichsfälle erwarteten einen
+englischen Dezimalpunkt in der deutschen Ansicht. Neue Browsererwartung auf
+15,6 Ah korrigiert und alle zwölf Fälle wiederholt; rohe 15.6-Ah-Belegprüfung
+beibehalten, keine Daten- oder Anwendungsänderung daraus. Anfangsergebnisse erhalten.
+Geänderten Test gelintet/formatiert. Keine
+Anwendungslogik geändert; frühere Python-/Anwendungslint-/Format- und vollständige
+Vergleichsregressionen in Batch95-Historie erhalten, ohne neue Ausführung zu behaupten.
+Eigene Test-/Browserressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-97-evidence.json`.
