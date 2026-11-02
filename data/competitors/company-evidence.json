@@ -140,18 +140,125 @@
     {
       "brandId": "ambi-robotics",
       "name": "Ambi Robotics",
-      "role": "Parcel-handling robotics and operational software",
+      "checkedAt": "2026-11-02",
+      "role": "Configurable robotic parcel sorting, mixed-case stacking and multi-robot kitting systems; controls, vision tunnels, AI software and partner unloading separated",
       "highlights": [
         "AmbiOS supports parcel dimension/material analysis, vision-based picking checks and operational notifications",
-        "AmbiSort combines parcel vision, picking and configurable routing; operator tasks remain part of the workflow"
+        "AmbiSort combines parcel vision, picking and configurable routing; operator tasks remain part of the workflow",
+        "Selected primary pages identify AmbiSort A-Series, AmbiSort B-Series, AmbiStack and AmbiKit. B-Series was introduced June 6, 2023, AmbiStack January 28, 2025 and AmbiKit July 27, 2021. Generic AmbiSort production in 2020 and a Q3 2022 A-Series/v2 deck do not unambiguously establish the named A-Series first release.",
+        "A-Series current 66-destination illustration is a mock placeholder; the old deck’s 66-sack Pitney Bowes layout is a dated installation example. A November 2024 primary case report gives 355/410/500 sorts per hour for 2022/2023/2024 performance contexts, not a universal guaranteed present capacity.",
+        "B-Series launch claims over 1200 parcels/h; its guide describes a three-induction-cell configuration, while the current configurator says each pick cell adds 500 sorts/h. Configurable arm count, outputs and conveyor/vision-only options remain system configurations rather than extra named robots or evidence of universal linear scaling.",
+        "AmbiStack FAQ limits handled cases to 50 lb and 52×32×32 in; these are not complete-machine dimensions/mass or a rated aggregate multi-pick payload. Six/twelve/more pallet positions, two-machine layouts and varied container types stay configurable. The June 2026 integration uses Pickle Robot’s separate unloading machines upstream of AmbiStack.",
+        "AmbiKit’s 12 kits/minute is distinct from the 2021 release’s up-to 60 individual items/minute. Five-robot picking lines and selection of up to 15 SKUs do not establish five system DOF, fixed kit length or 15 model identities. Operators still replenish product and pack completed kits.",
+        "AmbiOS, PRIME-1, Sim2Real, AI Skill Suite apps and AmbiAccess provide software/AI/analytics/support roles. AmbiVision is an OCR/barcode/dimensioning scan tunnel with local processing and WMS integration, not an extra articulated robot; future weighing/damage/labeling/case-opening functions and free 30-day trial are not established present robot specifications or purchase prices.",
+        "Supplier order/kit/sortability/uptime and ANSI claims,10,000x training,relative throughput improvements and fleet volumes remain dated and attributed. Current complete-system prices/stock, independent whole-cell certification, exclusive USPs, full historical portfolio and market/search leadership remain unproven. Human work,light-curtain guarding and external AMRs remain explicit."
       ],
       "sources": [
         {
-          "name": "Ambi Robotics — AmbiOS on AmbiSort",
+          "name": "Ambi Robotics — company homepage and current product navigation",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — A-Series product workflow, placeholder destinations and operator role",
+          "type": "manufacturer",
           "url": "https://www.ambirobotics.com/ambisort-a-series/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiStack current product and FAQ: per-case limits and configurable outputs",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambistack/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — B-Series product: per-cell configurator increment and induction workflow",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambisort-b-series/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiKit product: kits/min, SKU selection and operator workflow",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambikit/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — A-Series guide,2023 upload/metadata: malformed native text, machine OCR with uncertainty",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Ambi-Robotics_A-Series-Solution-Guide_Updated_2023_0829.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — B-Series guide,2023 upload/metadata: OCR three-induction-cell footnote, numeric caution",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Ambi-Robotics_B-Series-Solution-Guide_Updated_2023_0829.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — July27,2021 manufacturer AmbiKit introduction and item/min production report",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-transforms-ecommerce-with-new-ai-powered-multi-robot-kitting-system/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiVision OCR tunnel: integration and future capabilities separate",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambivision/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — January28,2025 manufacturer AmbiStack introduction with initial deployment targets",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-introduces-ambistack/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — June6,2023 manufacturer B-Series introduction and attributed throughput",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-unveils-ambisort-b-series-parcel-induction-and-sorting-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — company history: generic AmbiSort2020 production versus named generations",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/about/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — Q32022 company overview: historical system/v2 and case-study layout, no inferred launch-year pairing",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Company-Overview-Deck_Final-compressed_1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — June30,2026 manufacturer account of Pickle Robot/AmbiStack integration",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/physical-ai-inbound-logistics/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — January2024 company report: fleet-wide GPU/learning and volume,not one-robot capacity",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/blog/ambi-robotics-and-nvidia-robotics-2024/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — November22,2024 manufacturer A-Series case report,dated performance progression",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/blog/ai-powered-robots-peak-season-2024/",
+          "checkedAt": "2026-11-02"
         }
-      ]
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-7.html",
+      "reviewNotes": "Existing two company highlights retained verbatim; original sourceURL retained and freshly dated. Public product/FAQ/software HTML, manufacturer press dates/schema, historical deck native text and two malformed-Unicode guides via isolated OCR. Several OCR numeric glyphs and timeline year pairing remain unresolved; primaryHTML corroborates selected rates. No visual PDF/image/video/CAD inspection, gated-guide forms, contacts or transactions. Secondary trade republications and404 excluded as product specifications. Selected four named systems, no complete historical portfolio/current stock/independent certification/exclusivity/leadership claim."
     },
     {
       "brandId": "brain-corp",

@@ -112593,6 +112593,888 @@
           "note": "Named-model table gives pose repeatability, not absolute positioning or inspection accuracy; no independent measurement."
         }
       }
+    },
+    {
+      "robotId": "ambi-robotics-ambisort-a-series",
+      "manufacturer": "Ambi Robotics",
+      "model": "AmbiSort A-Series",
+      "sources": [
+        {
+          "name": "Ambi Robotics — A-Series product workflow, placeholder destinations and operator role",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambisort-a-series/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — A-Series guide,2023 upload/metadata: malformed native text, machine OCR with uncertainty",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Ambi-Robotics_A-Series-Solution-Guide_Updated_2023_0829.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — company history: generic AmbiSort2020 production versus named generations",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/about/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — Q32022 company overview: historical system/v2 and case-study layout, no inferred launch-year pairing",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Company-Overview-Deck_Final-compressed_1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — November22,2024 manufacturer A-Series case report,dated performance progression",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/blog/ai-powered-robots-peak-season-2024/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-1.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric complete-system purchase or RaaS price established; funding, contract totals, consultation and AmbiVision free-trial offers are not robot prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system mass established. Per-case 50 lb load, output pallet/case capacities and component masses are not machine weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system outer dimensions established. Case 52×32×32 in limits and optional output layouts are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot battery duration established; these stationary material-handling systems and external AMR integration are distinct."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Around-the-clock operation/support and uptime percentages do not establish a numeric uninterrupted single-machine runtime."
+        },
+        "handType": {
+          "value": "Soft-touch parcel gripper; exact tooling configuration unspecified",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Number of arms, output positions or robots in a picking line is not total kinematic degrees of freedom; four-axis description in a republished secondary article is not used as primary hardware evidence."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated whole-system load established; per-case limits, parcel flow and complete pallet transport capacities remain separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Parcels/hour and kits/minute are throughput, not physical arm travel speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "website": {
+          "value": "https://www.ambirobotics.com/ambisort-a-series/",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "description": {
+          "value": "AmbiSort A-Series is Ambi Robotics’ configurable small-parcel sorting system for sacks or totes. A soft-touch gripper transfers parcels across four barcode scanners and two quality-control zones to a gantry; operators seal and replace full sacks. The current configurator’s 66 destinations is explicitly a mock placeholder, while an older Q3 2022 deck describes 66 sacks for a particular historical customer layout and names an A-Series v2 schematic. A November 2024 manufacturer case report gives 355 sorts/h in 2022, 410 in 2023 and 500 after 2024 upgrades, with 99.6% sort accuracy in the latter context. These dated customer figures are not a guaranteed current rating or dimensional vision precision. Generic AmbiSort 2020 production does not establish this named generation’s first release.",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Generic AmbiSort 2020 commercial production is explicit, but named A-Series first release is not. Q3 2022 deck timeline label/years not reliably associated from extracted text/coordinates; no layout-based inference."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot battery recharge duration established; stationary electrical equipment and third-party AMRs are separate."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stationary sorting workflows and item tracking do not establish mobile-navigation accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "driveMode": {
+          "value": "Stationary parcel-sorting system: robotic picking to buffer and gantry transfer; bin or conveyor induction",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Third-party AMRs/AGVs removing output pallets do not establish an included mobile base or rated pallet transport payload."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Barcode/kit/order accuracy percentages, dimensioning capability and OCR read rates are not numeric dimensional inspection precision."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "throughput": {
+          "value": "Manufacturer case report, November 2024: 500 sorts/h and 99.6% sort accuracy after upgrades; earlier same-customer 2022/2023 figures 355/410 sorts/h; not a universal current rating",
+          "status": "documented",
+          "note": "November 22, 2024 primary company blog reports one customer’s A-Series progression 355/410/500 sorts/h in 2022/2023/2024. Field preserves historical case-study scope; guide OCRuncertain 500-like glyph is not the source of the number. No universal current throughput guarantee."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Configurable desired pallet height and case dimensions do not establish a universal maximum stacking height."
+        }
+      }
+    },
+    {
+      "robotId": "ambi-robotics-ambistack",
+      "manufacturer": "Ambi Robotics",
+      "model": "AmbiStack",
+      "sources": [
+        {
+          "name": "Ambi Robotics — AmbiStack current product and FAQ: per-case limits and configurable outputs",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambistack/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — January28,2025 manufacturer AmbiStack introduction with initial deployment targets",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-introduces-ambistack/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — June30,2026 manufacturer account of Pickle Robot/AmbiStack integration",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/physical-ai-inbound-logistics/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-2.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric complete-system purchase or RaaS price established; funding, contract totals, consultation and AmbiVision free-trial offers are not robot prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system mass established. Per-case 50 lb load, output pallet/case capacities and component masses are not machine weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system outer dimensions established. Case 52×32×32 in limits and optional output layouts are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot battery duration established; these stationary material-handling systems and external AMR integration are distinct."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Around-the-clock operation/support and uptime percentages do not establish a numeric uninterrupted single-machine runtime."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Number of arms, output positions or robots in a picking line is not total kinematic degrees of freedom; four-axis description in a republished secondary article is not used as primary hardware evidence."
+        },
+        "payload": {
+          "value": "Cases up to 50 lb each, manufacturer FAQ; aggregate simultaneous multi-pick load not specified",
+          "status": "documented",
+          "note": "FAQ explicitly limits each handled case to 50 lb; no subtraction from machine mass or sum of two case maxima used to infer 100lb simultaneous rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Parcels/hour and kits/minute are throughput, not physical arm travel speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "website": {
+          "value": "https://www.ambirobotics.com/ambistack/",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "description": {
+          "value": "AmbiStack is Ambi Robotics’ configurable overhead stacking system, publicly introduced January 28, 2025. The current FAQ permits cases up to 50 lb each and 52×32×32 in; those are handled-case limits, not robot mass, dimensions or aggregate multi-pick capacity. It supports mixed/SKU-based palletizing and multiple output formats, with 6/12/more positions as layout choices. Sim2Real planning and vision support two-case multipicking, while operators or separate AMRs/AGVs remove completed pallets. Light-curtain zones let a gantry work on one half while the other is replenished. A June 30, 2026 company release reports integration with Pickle Robot’s separate truck-unloading machines; 2025 deployment targets and current complete-system price/stock remain distinct.",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "releaseDate": {
+          "value": "2025",
+          "status": "documented",
+          "note": "January 28, 2025 primary introduction verified by visible sidebar and WebPage schema datePublished. Initial deployment/manufacturing plans retained separately; June 2026 partner integration is not first release."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot battery recharge duration established; stationary electrical equipment and third-party AMRs are separate."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stationary sorting workflows and item tracking do not establish mobile-navigation accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "driveMode": {
+          "value": "Stationary overhead gantry stacking to pallets/containers; upstream unloading and external pallet-moving AMRs are separate",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Third-party AMRs/AGVs removing output pallets do not establish an included mobile base or rated pallet transport payload."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Barcode/kit/order accuracy percentages, dimensioning capability and OCR read rates are not numeric dimensional inspection precision."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized whole-system throughput value established for this exact configurable robot. Relative multipick claims, fleet volumes, per-cell increments and different item/kit units remain scoped."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Configurable desired pallet height and case dimensions do not establish a universal maximum stacking height."
+        }
+      }
+    },
+    {
+      "robotId": "ambi-robotics-ambisort-b-series",
+      "manufacturer": "Ambi Robotics",
+      "model": "AmbiSort B-Series",
+      "sources": [
+        {
+          "name": "Ambi Robotics — B-Series product: per-cell configurator increment and induction workflow",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambisort-b-series/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — B-Series guide,2023 upload/metadata: OCR three-induction-cell footnote, numeric caution",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Ambi-Robotics_B-Series-Solution-Guide_Updated_2023_0829.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — June6,2023 manufacturer B-Series introduction and attributed throughput",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-unveils-ambisort-b-series-parcel-induction-and-sorting-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric complete-system purchase or RaaS price established; funding, contract totals, consultation and AmbiVision free-trial offers are not robot prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system mass established. Per-case 50 lb load, output pallet/case capacities and component masses are not machine weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system outer dimensions established. Case 52×32×32 in limits and optional output layouts are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot battery duration established; these stationary material-handling systems and external AMR integration are distinct."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Around-the-clock operation/support and uptime percentages do not establish a numeric uninterrupted single-machine runtime."
+        },
+        "handType": {
+          "value": "Intelligent multi-suction parcel gripper; modular robotic induction cells",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Number of arms, output positions or robots in a picking line is not total kinematic degrees of freedom; four-axis description in a republished secondary article is not used as primary hardware evidence."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated whole-system load established; per-case limits, parcel flow and complete pallet transport capacities remain separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Parcels/hour and kits/minute are throughput, not physical arm travel speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "website": {
+          "value": "https://www.ambirobotics.com/ambisort-b-series/",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "description": {
+          "value": "AmbiSort B-Series is Ambi Robotics’ modular induction and sorting system, introduced June 6, 2023. Robot arms use multi-suction parcel grasping, a central conveyor and six-sided scanning to route to configured containers or exception outputs. The launch claims over 1,200 parcels/h, while the linked 2023 guide’s specification footnote states a three-induction-cell configuration. The current configurator says each pick cell adds 500 sorts/h; this is not a universal one-cell or complete-line guarantee. The launch’s over 99.5% accuracy and guide’s different accuracy/sortability contexts remain supplier claims, not dimensional vision precision. Input, outputs, arm count and layout are configuration choices; operators replenish full containers.",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "releaseDate": {
+          "value": "2023",
+          "status": "documented",
+          "note": "Primary release explicitly introduces B-Series June 6, 2023; sidebar and WebPage publication date agree. Media republication dates and 2023 PDF metadata do not replace the launch."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot battery recharge duration established; stationary electrical equipment and third-party AMRs are separate."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stationary sorting workflows and item tracking do not establish mobile-navigation accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "driveMode": {
+          "value": "Stationary modular parcel induction/sorting: deep-bin or conveyor input, central conveyor and six-sided scanning; configured gaylord outputs",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Third-party AMRs/AGVs removing output pallets do not establish an included mobile base or rated pallet transport payload."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Barcode/kit/order accuracy percentages, dimensioning capability and OCR read rates are not numeric dimensional inspection precision."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "throughput": {
+          "value": "June 2023 manufacturer launch: over 1,200 parcels/h; guide footnote describes three induction cells; current configurator adds 500 sorts/h per pick cell; different configuration contexts",
+          "status": "documented",
+          "note": "Primary June 6, 2023 release supplies explicit over 1200 parcels/h.2023 guide OCR footnote states three-cell configuration; its large numeric glyphs are uncertain, so not silently repaired. Current product configurator 500/h increment is a separate supplier configuration statement, not evidence that all layouts scale linearly."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Configurable desired pallet height and case dimensions do not establish a universal maximum stacking height."
+        }
+      }
+    },
+    {
+      "robotId": "ambi-robotics-ambikit",
+      "manufacturer": "Ambi Robotics",
+      "model": "AmbiKit",
+      "sources": [
+        {
+          "name": "Ambi Robotics — AmbiKit product: kits/min, SKU selection and operator workflow",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambikit/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — July27,2021 manufacturer AmbiKit introduction and item/min production report",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-transforms-ecommerce-with-new-ai-powered-multi-robot-kitting-system/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-4.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric complete-system purchase or RaaS price established; funding, contract totals, consultation and AmbiVision free-trial offers are not robot prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system mass established. Per-case 50 lb load, output pallet/case capacities and component masses are not machine weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system outer dimensions established. Case 52×32×32 in limits and optional output layouts are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot battery duration established; these stationary material-handling systems and external AMR integration are distinct."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Around-the-clock operation/support and uptime percentages do not establish a numeric uninterrupted single-machine runtime."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Number of arms, output positions or robots in a picking line is not total kinematic degrees of freedom; four-axis description in a republished secondary article is not used as primary hardware evidence."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated whole-system load established; per-case limits, parcel flow and complete pallet transport capacities remain separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Parcels/hour and kits/minute are throughput, not physical arm travel speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "website": {
+          "value": "https://www.ambirobotics.com/ambikit/",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "description": {
+          "value": "AmbiKit is Ambi Robotics’ multi-robot ecommerce kitting system, introduced July 27, 2021. The primary release describes a five-robot picking line already deployed in production and up to 60 individual items/min. The current product page instead specifies 12 kits/min, a 99% complete-kit claim and selection of up to 15 SKUs. Items and complete kits are different units; no kit length or 15 separate models is inferred. Operators set up product, replenish inputs and pack completed kits. AI training/changeover claims and around-the-clock operation do not establish mechanical DOF, battery/runtime ratings, independently measured accuracy, current complete-system price or exact present availability.",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "releaseDate": {
+          "value": "2021",
+          "status": "documented",
+          "note": "Primary introduction July 27, 2021 confirmed in visible sidebar, body and WebPage datePublished; July 28 republished trade report is not substituted."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot battery recharge duration established; stationary electrical equipment and third-party AMRs are separate."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stationary sorting workflows and item tracking do not establish mobile-navigation accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "driveMode": {
+          "value": "Stationary multi-robot kitting line; operators select SKUs, replenish inputs and pack completed kits",
+          "status": "documented",
+          "note": "Exact named-system primary text supports this qualified value; configuration, date, unit and supplier-report scope retained, without independent exclusivity or performance certification."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Third-party AMRs/AGVs removing output pallets do not establish an included mobile base or rated pallet transport payload."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Barcode/kit/order accuracy percentages, dimensioning capability and OCR read rates are not numeric dimensional inspection precision."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established in the selected primary sources. Arm components, containers, conveyors, software, fleet totals and example configurations are separate."
+        },
+        "throughput": {
+          "value": "Product page: 12 kits/min; July 2021 manufacturer introduction: up to 60 individual items/min; units and deployment contexts distinct",
+          "status": "documented",
+          "note": "12 complete kits/min current product page versus up to 60 individual items/min in July 27, 2021 primary release; no conversion to a fixed number of items per kit."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Configurable desired pallet height and case dimensions do not establish a universal maximum stacking height."
+        }
+      }
     }
   ]
 }

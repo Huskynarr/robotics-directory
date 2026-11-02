@@ -14569,58 +14569,193 @@
         "category": "commercial",
         "manufacturer": "Ambi Robotics",
         "model": "AmbiSort A-Series",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;warehouse;parcel-sorting;ai-powered",
+        "handType": "Soft-touch parcel gripper; exact tooling configuration unspecified",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.ambirobotics.com/ambisort-a-series/",
-        "description": "Configurable robotic parcel-sorting system accepts bins or conveyor induction. Vision-guided grasping, barcode scanning and gantry transfers route parcels to sacks or totes. Fill-height monitoring alerts operators to replace completed sacks."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "AmbiSort A-Series is Ambi Robotics’ configurable small-parcel sorting system for sacks or totes. A soft-touch gripper transfers parcels across four barcode scanners and two quality-control zones to a gantry; operators seal and replace full sacks. The current configurator’s 66 destinations is explicitly a mock placeholder, while an older Q3 2022 deck describes 66 sacks for a particular historical customer layout and names an A-Series v2 schematic. A November 2024 manufacturer case report gives 355 sorts/h in 2022, 410 in 2023 and 500 after 2024 upgrades, with 99.6% sort accuracy in the latter context. These dated customer figures are not a guaranteed current rating or dimensional vision precision. Generic AmbiSort 2020 production does not establish this named generation’s first release.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Stationary parcel-sorting system: robotic picking to buffer and gantry transfer; bin or conveyor induction",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "Manufacturer case report, November 2024: 500 sorts/h and 99.6% sort accuracy after upgrades; earlier same-customer 2022/2023 figures 355/410 sorts/h; not a universal current rating",
+        "stackingHeight": ""
       },
       "highlights": [
         "Configurable robotic parcel-sorting system accepts bins or conveyor induction",
         "Vision-guided grasping, barcode scanning and gantry transfers route parcels to sacks or totes",
-        "Fill-height monitoring alerts operators to replace completed sacks"
+        "Fill-height monitoring alerts operators to replace completed sacks",
+        "The product page describes a soft-touch gripper, four barcode scanners, two quality-control zones, a buffer and gantry drop-off, followed by operator sealing and replacement of full sacks. Bin-fed and conveyor-fed inputs and sack/tote outputs are configuration choices, not extra robot identities.",
+        "The current configurator explicitly calls 66 destinations an illustration placeholder. The Q3 2022 company deck separately shows 66 sacks for a specific historical Pitney Bowes installation and labels a top-view A-Series v2 schematic. Neither establishes 66 outputs for every present A-Series or an independently separate newly verified v2 model.",
+        "A November 22, 2024 manufacturer customer-case report gives 355 sorts/h and 99% sort accuracy in peak 2022, 410 sorts/h in peak 2023, and 500 sorts/h with 99.6% accuracy after 2024 updates. These reported periods and workload contexts remain separate from a universal guaranteed capacity or dimensional inspection precision.",
+        "The manufacturer describes AmbiOS item dimension/material analysis, vision-based checks to prevent double picks and operational alerts. These support the operator workflow; no numeric dimensional inspection precision, guaranteed pick success or universal uptime figure is established.",
+        "The manufacturer’s history dates generic AmbiSort pilot/commercial production to 2020. A-Series first release remains unknown. AmbiOS updates, fleet learning, support and relative speed claims are not battery duration, independent safety certification or exclusive advantage."
       ],
       "sources": [
         {
-          "name": "Ambi Robotics",
+          "name": "Ambi Robotics — A-Series product workflow, placeholder destinations and operator role",
           "type": "manufacturer",
           "url": "https://www.ambirobotics.com/ambisort-a-series/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — A-Series guide,2023 upload/metadata: malformed native text, machine OCR with uncertainty",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Ambi-Robotics_A-Series-Solution-Guide_Updated_2023_0829.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — company history: generic AmbiSort2020 production versus named generations",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/about/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — Q32022 company overview: historical system/v2 and case-study layout, no inferred launch-year pairing",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Company-Overview-Deck_Final-compressed_1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — November22,2024 manufacturer A-Series case report,dated performance progression",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/blog/ai-powered-robots-peak-season-2024/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/deca775c-72a3-4620-a316-dbd12cc7f5b4"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-7/ambirobotics.com-ambisort-a-series.json",
-      "reviewNotes": "Named configurable system family, not an extra bare arm or every possible layout as another robot. The configurator says 66 destinations is an illustration placeholder, so no fixed destination count is claimed. Operator replacement of sacks remains necessary; relative sort-rate and AI-training superlatives are omitted."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-1.html",
+      "reviewNotes": "Batch 119 Ambi Robotics four named systems. Two existing A-Series/AmbiStack entries enriched, B-Series/AmbiKit added.148 selected fields:21 documented,127 unknown. Primary product/FAQ/software/launch dates and rawHTML sidebar/schema; guide malformed native Unicode extracted by isolated OCR, numeric glyph uncertainty retained. Primary2024 A-Series case rates separate from current guarantee; B three-cell1200-plus context versus500/h cell increment; Kit kits/min versus items/min distinct. Stack per-case50lb/52x32x32in not robot mass/size or aggregate multipick capacity. NativeQ32022 deck timeline not inferred as exact A-Series release; generic2020 production separate. Components/software/vision tunnel/partner unloading/externalAMR/operator/safety/service roles separate. Existing highlights/discovery retained. No visual PDF/image/video/CAD inspection, forms/contacts/transactions, complete historical portfolio/current stock/independent certification/exclusive USP or leadership proof",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
         "category": "commercial",
         "manufacturer": "Ambi Robotics",
         "model": "AmbiStack",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;warehouse;palletizing;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "Cases up to 50 lb each, manufacturer FAQ; aggregate simultaneous multi-pick load not specified",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.ambirobotics.com/ambistack/",
-        "description": "Gantry robot system stacks mixed cases onto pallets or into containers. Vision, barcode tracking and online stack planning support inbound and outbound handling. Output positions and internal conveyors are configurable; operators replenish completed positions."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "AmbiStack is Ambi Robotics’ configurable overhead stacking system, publicly introduced January 28, 2025. The current FAQ permits cases up to 50 lb each and 52×32×32 in; those are handled-case limits, not robot mass, dimensions or aggregate multi-pick capacity. It supports mixed/SKU-based palletizing and multiple output formats, with 6/12/more positions as layout choices. Sim2Real planning and vision support two-case multipicking, while operators or separate AMRs/AGVs remove completed pallets. Light-curtain zones let a gantry work on one half while the other is replenished. A June 30, 2026 company release reports integration with Pickle Robot’s separate truck-unloading machines; 2025 deployment targets and current complete-system price/stock remain distinct.",
+        "releaseDate": "2025",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Stationary overhead gantry stacking to pallets/containers; upstream unloading and external pallet-moving AMRs are separate",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Gantry robot system stacks mixed cases onto pallets or into containers",
         "Vision, barcode tracking and online stack planning support inbound and outbound handling",
-        "Output positions and internal conveyors are configurable; operators replenish completed positions"
+        "Output positions and internal conveyors are configurable; operators replenish completed positions",
+        "The current FAQ specifies cases up to 50 lb each and 52 in long×32 in wide×32 in tall. These are handled-item limits, not machine mass, machine outer dimensions, total pallet load or a rated aggregate two-case gripper payload. Scan-tunnel configuration and palletizing rate depend on case size.",
+        "Sim2Real-based stack planning supports mixed cases without prior item-specific programming, and configurable SKU-based patterns are described. Dynamic multipicking can pick and place two cases together; the relative doubling claim is not an absolute cases-per-hour rating or universally achieved minimum.",
+        "Six, twelve or more output positions and pallet, cage, walled-container, floor and AMR-facing output choices are configurable layouts. The configurator also shows twelve locations using two machines. None of those choices establishes a separate robot model, fixed footprint, universal stacking-height limit or included AMR.",
+        "Light-curtain-guarded zones allow operators to remove/replenish pallets in one half while stacking continues in the other. The FAQ permits integration with external AMRs/AGVs. Operator work, replenishment and application-specific guarding remain part of the system; 24/7 service support is not battery life or measured uninterrupted runtime.",
+        "The January 28, 2025 primary manufacturer release explicitly introduces AmbiStack, forecasting initial deployments from mid-year through fall and expanded manufacturing capacity by early 2026. Those were dated plans, not current stock proof. The June 30, 2026 manufacturer account separately reports a commercial Pickle Robot/AmbiStack integration.",
+        "In that June 2026 integration, Pickle Robot’s separate machines unload trailers and a conveyor feeds AmbiStack for identification, scanning and palletizing. The partner’s truck-unloading capability is not inherited as an onboard AmbiStack feature or counted as another Ambi-manufactured model; software/vision/service offerings retain separate roles."
       ],
       "sources": [
         {
-          "name": "Ambi Robotics",
+          "name": "Ambi Robotics — AmbiStack current product and FAQ: per-case limits and configurable outputs",
           "type": "manufacturer",
           "url": "https://www.ambirobotics.com/ambistack/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — January28,2025 manufacturer AmbiStack introduction with initial deployment targets",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-introduces-ambistack/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — June30,2026 manufacturer account of Pickle Robot/AmbiStack integration",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/physical-ai-inbound-logistics/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/24ca1f6b-9082-42e4-acba-62007b7b94e7"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-7/ambirobotics.com-ambistack.json",
-      "reviewNotes": "A complete configurable stacking system, not a mobile delivery robot. Six/twelve/more positions and multiple output types are integration choices, not independent product models. Multipicking, deployment-speed and throughput claims are not independently benchmarked or assigned as guaranteed capacities."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-2.html",
+      "reviewNotes": "Batch 119 Ambi Robotics four named systems. Two existing A-Series/AmbiStack entries enriched, B-Series/AmbiKit added.148 selected fields:21 documented,127 unknown. Primary product/FAQ/software/launch dates and rawHTML sidebar/schema; guide malformed native Unicode extracted by isolated OCR, numeric glyph uncertainty retained. Primary2024 A-Series case rates separate from current guarantee; B three-cell1200-plus context versus500/h cell increment; Kit kits/min versus items/min distinct. Stack per-case50lb/52x32x32in not robot mass/size or aggregate multipick capacity. NativeQ32022 deck timeline not inferred as exact A-Series release; generic2020 production separate. Components/software/vision tunnel/partner unloading/externalAMR/operator/safety/service roles separate. Existing highlights/discovery retained. No visual PDF/image/video/CAD inspection, forms/contacts/transactions, complete historical portfolio/current stock/independent certification/exclusive USP or leadership proof",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -64089,6 +64224,174 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-118/source-1.pdf",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch 118 ABB selected 2023 collaborative portfolio. Two YuMi models enriched, three explicitly named GoFa configurations and two SWIFTI families added. Native PDF text and seven column coordinates checked, no visual inspection. GoFa12 malformed IP567 omitted; SWIFTI variant arrays unpaired. Maximum TCP speed versus safe collaborative speed, pose repeatability versus absolute accuracy, dual/single-arm axes/mass/controller/safety/cleanroom and Wizard scope retained. Controllers, tooling, scanner, software, AGV mounting and services separate. One additional library403 excluded and host stopped; product pages yielded no usable response. No complete current portfolio, current stock, independent certification, exclusive USP or leadership proof"
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Ambi Robotics",
+        "model": "AmbiSort B-Series",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;warehouse;parcel-sorting;ai-powered",
+        "handType": "Intelligent multi-suction parcel gripper; modular robotic induction cells",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ambirobotics.com/ambisort-b-series/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "AmbiSort B-Series is Ambi Robotics’ modular induction and sorting system, introduced June 6, 2023. Robot arms use multi-suction parcel grasping, a central conveyor and six-sided scanning to route to configured containers or exception outputs. The launch claims over 1,200 parcels/h, while the linked 2023 guide’s specification footnote states a three-induction-cell configuration. The current configurator says each pick cell adds 500 sorts/h; this is not a universal one-cell or complete-line guarantee. The launch’s over 99.5% accuracy and guide’s different accuracy/sortability contexts remain supplier claims, not dimensional vision precision. Input, outputs, arm count and layout are configuration choices; operators replenish full containers.",
+        "releaseDate": "2023",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Stationary modular parcel induction/sorting: deep-bin or conveyor input, central conveyor and six-sided scanning; configured gaylord outputs",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "June 2023 manufacturer launch: over 1,200 parcels/h; guide footnote describes three induction cells; current configurator adds 500 sorts/h per pick cell; different configuration contexts",
+        "stackingHeight": ""
+      },
+      "discoveredIn": [
+        "https://www.ambirobotics.com/ambisort-b-series/"
+      ],
+      "highlights": [
+        "The June 6, 2023 primary manufacturer release introduces B-Series with induction-only, end-to-end sortation and vision-based sorter-expansion configurations. The number of robotic cells and destinations is adjustable; conveyor/vision-only options are not additional independently identified robot models.",
+        "The launch states throughput exceeding 1,200 parcels/h. The linked 2023 guide’s footnote explicitly says its data is based on three induction cells; the current configurator separately says each pick cell adds 500 sorts/h. Those configuration and date contexts remain separate rather than turning 1,200/h into a single-arm guarantee or deriving an exact linear whole-system rate.",
+        "An intelligent multi-suction gripper singulates parcels from deep bins or conveyors, followed by a buffer/central conveyor and a six-sided scan tunnel. Barcode data or optional WMS integration determines routing; overhead vision monitors container fill and lights notify operators to replenish completed positions.",
+        "The 2023 launch claims accuracy above 99.5%, while the guide separately distinguishes sortable in-size parcels, correct outputs and desired uptime. These are different supplier metrics with unresolved test conditions, not numeric dimensional vision precision, universally certified performance or robot battery/runtime specifications.",
+        "A/B series remain separate named systems: A-Series uses four barcode scanners and two QC zones in its described sack workflow; B-Series uses six-sided scan-tunnel induction and configurable gaylord/other outputs. AmbiOS/AmbiAccess and 24/7 support are software/service roles; no current numeric complete-system purchase or RaaS price is established."
+      ],
+      "sources": [
+        {
+          "name": "Ambi Robotics — B-Series product: per-cell configurator increment and induction workflow",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambisort-b-series/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — B-Series guide,2023 upload/metadata: OCR three-induction-cell footnote, numeric caution",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/wp-content/uploads/Ambi-Robotics_B-Series-Solution-Guide_Updated_2023_0829.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — June6,2023 manufacturer B-Series introduction and attributed throughput",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-unveils-ambisort-b-series-parcel-induction-and-sorting-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 119 Ambi Robotics four named systems. Two existing A-Series/AmbiStack entries enriched, B-Series/AmbiKit added.148 selected fields:21 documented,127 unknown. Primary product/FAQ/software/launch dates and rawHTML sidebar/schema; guide malformed native Unicode extracted by isolated OCR, numeric glyph uncertainty retained. Primary2024 A-Series case rates separate from current guarantee; B three-cell1200-plus context versus500/h cell increment; Kit kits/min versus items/min distinct. Stack per-case50lb/52x32x32in not robot mass/size or aggregate multipick capacity. NativeQ32022 deck timeline not inferred as exact A-Series release; generic2020 production separate. Components/software/vision tunnel/partner unloading/externalAMR/operator/safety/service roles separate. Existing highlights/discovery retained. No visual PDF/image/video/CAD inspection, forms/contacts/transactions, complete historical portfolio/current stock/independent certification/exclusive USP or leadership proof"
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Ambi Robotics",
+        "model": "AmbiKit",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;warehouse;kitting;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ambirobotics.com/ambikit/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "AmbiKit is Ambi Robotics’ multi-robot ecommerce kitting system, introduced July 27, 2021. The primary release describes a five-robot picking line already deployed in production and up to 60 individual items/min. The current product page instead specifies 12 kits/min, a 99% complete-kit claim and selection of up to 15 SKUs. Items and complete kits are different units; no kit length or 15 separate models is inferred. Operators set up product, replenish inputs and pack completed kits. AI training/changeover claims and around-the-clock operation do not establish mechanical DOF, battery/runtime ratings, independently measured accuracy, current complete-system price or exact present availability.",
+        "releaseDate": "2021",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Stationary multi-robot kitting line; operators select SKUs, replenish inputs and pack completed kits",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "Product page: 12 kits/min; July 2021 manufacturer introduction: up to 60 individual items/min; units and deployment contexts distinct",
+        "stackingHeight": ""
+      },
+      "discoveredIn": [
+        "https://www.ambirobotics.com/ambikit/"
+      ],
+      "highlights": [
+        "The July 27, 2021 primary manufacturer release explicitly introduces AmbiKit and describes an already-deployed five-robot picking line for subscription-box kitting. Five robots in that system is not five total kinematic axes or five independently named AmbiKit model identities; July 28 media coverage is a later report.",
+        "The current product page states 12 kits/minute, while the 2021 introduction reports up to 60 individual items/minute in commercial production. These units and contexts are not interchangeable, and no fixed five-item kit length is inferred by dividing the numbers.",
+        "The page allows operators to select up to 15 SKUs and place items in robot-directed areas. Operators pack completed kits and respond to replenishment requests. SKU choices are not 15 robot models or proof that every kit contains 15 items.",
+        "The product page claims 99% complete-kit rate; the 2021 release separately claims more than 99% order accuracy. These are supplier quality measures with unspecified test conditions, not a universal success guarantee or dimensional vision precision. Zero-training/changeover and 24-hour language do not establish robot battery duration or uninterrupted runtime.",
+        "AmbiOS, Sim2Real learning, quality-control notifications and operator interfaces support the kitting workflow. Software/skill licenses and the current AmbiVision trial belong to separate offerings; no complete-system numeric price, hardware mass/dimensions, exact gripper rating or current stock is established."
+      ],
+      "sources": [
+        {
+          "name": "Ambi Robotics — AmbiKit product: kits/min, SKU selection and operator workflow",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambikit/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — July27,2021 manufacturer AmbiKit introduction and item/min production report",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/media/ambi-robotics-transforms-ecommerce-with-new-ai-powered-multi-robot-kitting-system/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ambi Robotics — AmbiOS current software, AI Skill Suite, HMI and service roles",
+          "type": "manufacturer",
+          "url": "https://www.ambirobotics.com/ambios/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-119/source-4.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 119 Ambi Robotics four named systems. Two existing A-Series/AmbiStack entries enriched, B-Series/AmbiKit added.148 selected fields:21 documented,127 unknown. Primary product/FAQ/software/launch dates and rawHTML sidebar/schema; guide malformed native Unicode extracted by isolated OCR, numeric glyph uncertainty retained. Primary2024 A-Series case rates separate from current guarantee; B three-cell1200-plus context versus500/h cell increment; Kit kits/min versus items/min distinct. Stack per-case50lb/52x32x32in not robot mass/size or aggregate multipick capacity. NativeQ32022 deck timeline not inferred as exact A-Series release; generic2020 production separate. Components/software/vision tunnel/partner unloading/externalAMR/operator/safety/service roles separate. Existing highlights/discovery retained. No visual PDF/image/video/CAD inspection, forms/contacts/transactions, complete historical portfolio/current stock/independent certification/exclusive USP or leadership proof"
     }
   ]
 }
