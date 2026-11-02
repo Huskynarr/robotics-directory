@@ -7865,16 +7865,17 @@
       "manufacturer": "SMP Robotics Systems Corp.",
       "model": "Argus S5.3",
       "highlights": [
-        "Outdoor autonomous patrol robot combines six panoramic cameras with optical and thermal PTZ surveillance",
-        "Scheduled routes, automatic charging and obstacle avoidance support repeated patrols",
-        "ONVIF and RTSP integration transmit video and events to security operators"
+        "Six panoramic cameras provide 360° video, complemented by a Full HD optical PTZ camera with 30× zoom and a thermal PTZ channel. The named S5.3 page identifies onboard analytics including NVIDIA Jetson TX2.",
+        "Scheduled routes, obstacle avoidance and automatic docking support recurring outdoor patrols. The page specifies 4–6 km/h, IP65 and up to 24 km per charge; distance is not operating hours.",
+        "ONVIF/RTSP, remote video/events and single- or multi-robot deployment support integration with security operators and VMS infrastructure. Regional purchase or managed-service deployment does not establish one universal price.",
+        "Detection-distance claims differ between sections, and eight-hour text appears in an older generic 2019 section. Neither that text nor 24/7 protection establishes a measured S5.3 endurance or guaranteed detection accuracy."
       ],
       "sources": [
         {
-          "name": "SMP Robotics Systems Corp.",
+          "name": "SMP Robotics — manufacturer model/application page",
           "type": "manufacturer",
           "url": "https://smprobotics.com/security_robot/security-patrol-robot/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -7886,16 +7887,17 @@
       "manufacturer": "SMP Robotics Systems Corp.",
       "model": "Argus S5.4",
       "highlights": [
-        "Outdoor autonomous mobile robot adds NVIDIA Jetson Orin NX computing for onboard analytics",
-        "Accredited developers can deploy third-party AI and security software on the platform",
-        "A curated SMP Store supports distribution of certified onboard software modules"
+        "The March 2, 2026 manufacturer announcement identifies NVIDIA Jetson Orin NX for onboard edge AI, video analytics and CUDA-based third-party applications.",
+        "Accredited developers can deploy certified modules through SMP Store, described as a curated marketplace for onboard analytics, security and specialized AI software. Certification/access requirements remain part of that offer.",
+        "The announcement states shipments begin in March 2026 and describes software-partner purchase terms and a subscription ecosystem. This records a manufacturer shipment milestone rather than verified current inventory or a fixed price.",
+        "S5.4 is retained separately from S5.3. The announcement does not establish an exact camera bundle, operating mass, envelope, speed, IP rating or battery endurance; earlier-generation specifications are not inherited."
       ],
       "sources": [
         {
-          "name": "SMP Robotics Systems Corp.",
+          "name": "SMP Robotics — 2026 manufacturer announcement",
           "type": "manufacturer",
           "url": "https://smprobotics.com/usa/argus-s5-4-nvidia-jetson-orin-third-party-ai-software/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -7907,16 +7909,29 @@
       "manufacturer": "SMP Robotics Systems Corp.",
       "model": "S5.2 PTZ IS 2020 Picard",
       "highlights": [
-        "Historical Picard patrol configuration combines six panoramic cameras with a 20x optical PTZ camera",
-        "Onboard video analysis supports mobile surveillance and person tracking",
-        "Automatic charging and remote video communication support repeated patrol routes"
+        "The named 2020 Picard table lists six 1280×720 panoramic cameras, a 1920×1080 20× PTZ camera, two T9 computers, IP intercom and 3/4G plus Wi-Fi. Later Argus camera/computer values are not substituted.",
+        "The 2020 comparative brochure estimates ten operating hours for Picard and twelve for Promt, with four to six hours charging. These are manufacturer estimates without a specified duty cycle, not maximum-runtime measurements.",
+        "The named table and shared 2020 brochure agree on 4–6 km/h and IP65. The brochure gives checkpoint circle radius 0.8 m, path width 0.9 m and turning radius 5 m; these are navigation/path quantities, not docking precision.",
+        "The web table gives 1420×720×1670 mm and 185 kg with battery, while the linked brochure gives a different shared envelope, 125 kg without batteries and 185 kg air-freight packing. The 2021 comparison uses still different physical values; mass and envelope are left unresolved."
       ],
       "sources": [
         {
-          "name": "SMP Robotics Systems Corp.",
+          "name": "SMP Robotics — manufacturer model/application page",
           "type": "manufacturer",
           "url": "https://smprobotics.com/security_robot/artificial-intelligence-robot/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — 2020 manufacturer brochure",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/wp-content/uploads/2019/09/security_robot_with_ptz_camera_s5.2_ptz_is_picard_2020.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/smart-house-security-robot/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -24704,6 +24719,388 @@
           "name": "LEGO Education — manufacturer set/archive/support information",
           "type": "manufacturer",
           "url": "https://education.lego.com/en-us/our-story/ai-safety-statement/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s5-2-is-2020-promt",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S5.2 IS 2020 Promt",
+      "highlights": [
+        "The PROMT2020 table specifies six 1280×720 panoramic cameras and one T9 computer for nearby human/face analysis, with IP intercom and 3/4G/Wi-Fi. It is the panoramic configuration rather than Picard’s additional PTZ package.",
+        "The linked 2020 brochure gives an estimated twelve-hour operating interval, versus ten hours for Picard, and four to six hours charging. Neither estimate establishes a maximum continuous runtime.",
+        "The named table gives 181 kg with battery, 4–6 km/h and IP65. The shared 2020 brochure provides rear differential drive, 0.8 m checkpoint-circle radius, 0.9 m path width and 5 m turning radius.",
+        "The 2020 web envelope 1420×720×1620 mm disagrees with the linked brochure’s 1420×780×1320 mm. Prompt/Promt spellings and 2021 comparison weights are not treated as additional 2020 models; detection ranges also vary between narrative and table."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/security_robot/ai-patrol-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — 2020 manufacturer brochure",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/wp-content/uploads/2019/09/security_robot_s5.2_is_prompt_2020.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/smart-house-security-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s5-2-ptz-ir-is-2020-herchel",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S5.2 PTZ IR IS 2020 Herchel",
+      "highlights": [
+        "The HERCHEL2020 table explicitly names S5.2 PTZ IR IS2020 with six 1280×720 panoramic cameras, 752×58236× optical PTZ and 640×48019 mm thermal imaging.",
+        "Two T9 computers support video analysis; the named table lists IP intercom, 3/4G/Wi-Fi, 4–6 km/h, IP65, 189 kg with battery and 1420×720×1620 mm.",
+        "The linked Herschel brochure distinguishes S5.2IRISSH384×288 from S5.2IRIS640×480, while the webpage also uses Argus/Hershel names. An exact code-to-code mapping is unresolved; those names do not create more catalog cards here.",
+        "The PDF describes cloud-based human recognition and a ten-hour estimate for its own series. It does not establish fully onboard recognition, runtime or uninspected drawing dimensions for the differently coded web-table configuration."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/security_robot/thermal-security-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — 2020 manufacturer brochure",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/wp-content/uploads/2019/09/security_robot_with_thermal_camera_s5.2_ir_is_hershel_2020.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s5-2-isd-2021-prompt",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S5.2 ISD 2021 Prompt",
+      "highlights": [
+        "The named S5.2ISD2021 table specifies a 415×315×245 mm cargo compartment and 18 kg maximum cargo load. Its full robot envelope is 1420×720×1620 mm, with 148 kg mass including battery but excluding cargo.",
+        "The compartment locks automatically; the page describes authorization by operator voice communication, NFC tag or onboard face recognition. Cargo-door opening/closing is listed as 30 seconds, which is not battery charge time.",
+        "Six panoramic cameras, T9 analysis, intercom and 3/4G/Wi-Fi combine parcel movement with surveillance. The table gives 4–6 km/h, IP65, 32 km range and a 48V1kW automatic charger; range/power do not establish endurance/recharge hours.",
+        "The route controller combines machine vision and GPS and limits deviation from planned paths. The page positions repetitive controlled-site solid/gravel routes and explicitly excludes city public roads. Its AGVS7 discussion is not counted as a second distinct supplied configuration without clearer mapping."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/autonomous-delivery-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s2-air-quality-monitoring-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S2 Air Quality-Monitoring Robot",
+      "highlights": [
+        "The manufacturer’s supplied-model overview names S2 as the Air Quality-Monitoring Robot and links the environmental-monitoring page, establishing the family/application identity.",
+        "Mobile routes collect atmospheric/CO2 data across a site, with online transmission and an Eco Robot API for external scientific/data platforms. Route/weather adaptation is described; forecasting accuracy is not independently established.",
+        "Custom analyzer integration is offered, with optional noise, dust, radiation and weather modules. These options are not all asserted to be included in every S2.",
+        "Solar-powered monitoring is described for remote sites. Solar replenishment and round-the-clock monitoring are not a single-charge runtime; claimed emissions reductions, ROI and regulatory outcomes are not retained as proven results."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer portfolio",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/air-quality-monitoring-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s3-2-thermal-inspection-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S3.2 Thermal Inspection Robot",
+      "highlights": [
+        "The 2020 section specifically names S3.2 and describes automatic route travel and PTZ aiming followed by manual remote optical/thermal examination, then travel to the next point. This preserves the operator’s role in that configuration.",
+        "The named section describes six surrounding surveillance cameras, separate onboard human-detection processing, intercom, 4G/Wi-Fi and web-based group monitoring.",
+        "An automatic charging station is described as included; optional equipment includes UV camera, directional microphone, weather/multi-gas sensors, ultrasound or gauge-reading computing and protective shelter. Optional modules are not all standard hardware.",
+        "The page also contains current Inspector-series and 2017S3 material. Legacy thermal pointing angles and the suspicious RFID-radius unit are not used as S3.2 navigation accuracy; proposed delivery from mid-2020 is not evidence of first actual release or present stock."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/electrical-substation-inspection-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — manufacturer portfolio",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s4-bird-and-animals-control-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S4 Bird and Animals Control Robot",
+      "highlights": [
+        "The supplied-model overview names S4 for bird/animal control and links the application page. It is a mobile deterrent family rather than a separate robot for every listed airport, farm or factory use.",
+        "Listed equipment choices include pan/tilt laser, propane sound gun, bio-acoustic calls and ultrasonic devices. The page does not establish that every S4 includes all deterrents.",
+        "Automatic patrolling, obstacle avoidance and return for battery charging are described. A solar-equipped option is offered, but several-day system operation is not a defined single-charge endurance.",
+        "The propane tank requires refilling. Manufacturer claims about harmlessness, laser safety and deterrence effectiveness are not treated as independent certification or guaranteed wildlife outcomes."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer portfolio",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/bird-control-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s6-3-gas-leak-detection-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S6.3 Gas Leak Detection Robot",
+      "highlights": [
+        "Scheduled autonomous rounds combine remote methane detection stated up to 50 m, continuous surrounding-gas monitoring and visual equipment inspection. The 50 m claim is a detector distance, not navigation accuracy or robot travel range.",
+        "Thermal monitoring and 360° acoustic anomaly localization are optional equipment. Inspection history and recurring rounds support operator investigation; no universal leak-detection probability or sensor accuracy is established.",
+        "Single- or multi-robot deployment is configured to site requirements with manufacturer assessment and planning. Exact price, sensor package, physical specifications and single-charge endurance remain unverified.",
+        "The manufacturer explicitly says the described S6.3 configuration is not represented as explosion-proof or intrinsically safe. Oil-and-gas applications do not establish ATEX certification or permission for every hazardous area."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/gas-leak-inspection-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s5-g-gas-detector-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S5 G Gas Detector Robot",
+      "highlights": [
+        "The page explicitly names S5G and describes a mast cradle for a detachable portable multi-gas detector, with primary measurement transfer through a wireless data link.",
+        "Autonomous perimeter patrol, stops for measurements, obstacle avoidance and automatic return for charging are described; route changes can depend on wind direction.",
+        "Six surrounding cameras provide panoramic surveillance transmitted through Wi-Fi, combining gas monitoring with remote visual assessment.",
+        "This page does not establish an exact analyzer package, gas-species list, detection accuracy or explosion-proof/intrinsically safe certification. It is separate from the solar monitoring and operator-controlled A5 configurations."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/area-and-perimeter-gas-monitoring-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s5-gas-detector-solar",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S5 Gas Detector Solar",
+      "highlights": [
+        "The source explicitly names S5 Gas Detector Solar for long-term gas-content monitoring with occasional relocation, rather than continuous driving patrol.",
+        "An automatic sun-tracking panel reorients to collect energy while powering the gas detector and replenishing traction batteries; monitoring can continue at night using stored energy.",
+        "The several-week operating statement includes solar replenishment and site conditions. It is not retained as batteryLife or maximum single-charge runtime.",
+        "Exact gas detector specifications, solar output, robot envelope, mass and hazardous-area certifications are not established. S5G and A5 retain distinct monitoring/powertrain/control roles."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/area-and-perimeter-gas-monitoring-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-a5-gas-detector",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "A5 Gas Detector",
+      "highlights": [
+        "The page names A5 Gas Detector for gas inspection around surface-mining blasting operations, with a remote-control system for operator-controlled inspections.",
+        "The A-series powertrain is described for dirt roads, shallow pits and bumps, contrasting with S-series smooth hard-surface routes. No numeric slope, ground clearance or payload is established for A5.",
+        "Despite the page’s phrase aerial gas monitoring, the surrounding description identifies a ground powertrain. It is not listed as a drone or automatically given S5 autonomous-patrol capability.",
+        "Exact analyzer package, gas accuracy, robot mass, dimensions, endurance and explosion-proof/intrinsically safe certification remain unverified; the older portfolio’s testing-stage A-series statements do not prove present stock."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/area-and-perimeter-gas-monitoring-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s11-virtual-telepresence-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S11 Virtual Telepresence Robot",
+      "highlights": [
+        "HD stereo 3D camera orientation follows the VR user’s head movement over a broadband connection. The specified six degrees of freedom belong to the camera orientation system, not a whole-platform DOF rating.",
+        "The user chooses forward/back travel, speed and direction along a predetermined path while the robot follows the route; this is not unrestricted free navigation.",
+        "After a virtual-tour session, S11 returns to its starting point. The separate S11P records panoramic video where broadband is unavailable; that does not establish identical live stereo functionality.",
+        "The page invites preorders. Exact current shipping status, VR headset/broadband package, price, whole-robot mechanics and battery endurance remain unverified."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/virtual-telepresence-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SMP Robotics — manufacturer portfolio",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s11-p-panoramic-recording-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S11 P Panoramic Recording Robot",
+      "highlights": [
+        "The source explicitly distinguishes S11P as the version for sites where a broadband link is unavailable.",
+        "Its panoramic HD camera records the environment while the robot moves or stands still. Recording is a different workflow from S11’s live broadband stereo experience.",
+        "The standard S11’s head-following stereo camera, six-axis orientation and live user controls are not automatically asserted for S11P.",
+        "Present shipment status, supplied accessories, price, robot mass, envelope, speed and single-charge endurance are not established by the preorder-oriented page."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/virtual-telepresence-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s5s-solar-powered-security-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S5s Solar-Powered Security Robot",
+      "highlights": [
+        "S5s combines solar tracking with occasional changes of surveillance position; panel orientation adapts after relocation. This is not a stated continuous-driving endurance.",
+        "The named camera package includes an auto-tracking PTZ with 36× optical zoom and six surrounding cameras for panoramic motion awareness.",
+        "Video, position and movement commands use Wi-Fi. Satellite modem and directional RF links are options rather than standard equipment in every unit.",
+        "Continuous monitoring relies on harvested solar energy and stored batteries. The source does not establish solar output, single-charge operating hours, complete mass, envelope or certified detection performance."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/solar-powered-security-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s5-alpr-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S5 ALPR Robot",
+      "highlights": [
+        "The source names S5ALPR for automatic parking patrol, recording license plates and vehicle locations along its route.",
+        "The application page describes six-camera panoramic surveillance, Wi-Fi, obstacle avoidance and a multichannel recorder. Plate reading and panoramic video retain separate roles.",
+        "The generic S5ALPR paragraph states automatic-mode range over 12miles. That is a travel-distance claim, not battery hours or proof of identical range for the DUO equipment package.",
+        "Vehicle-location services and authorized plate checks are use cases. Database access, recognition accuracy, financial returns, exact supplied package and present stock are not established; no separate robot is created for each parking/forest/reservoir application."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/automatic-license-plate-recognition-mobile-system/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s5-alpr-duo",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S5 ALPR DUO",
+      "highlights": [
+        "The source explicitly names S5ALPRDUO with two plate-reading cameras to capture vehicles on both sides while moving between parked rows.",
+        "The application page describes six-camera panoramic surveillance, Wi-Fi, obstacle avoidance and a multichannel recorder. Plate reading and panoramic video retain separate roles.",
+        "The generic S5ALPR paragraph states automatic-mode range over 12miles. That is a travel-distance claim, not battery hours or proof of identical range for the DUO equipment package.",
+        "Vehicle-location services and authorized plate checks are use cases. Database access, recognition accuracy, financial returns, exact supplied package and present stock are not established; no separate robot is created for each parking/forest/reservoir application."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/automatic-license-plate-recognition-mobile-system/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s8-p-propane-mosquito-trap-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S8 P Propane Mosquito Trap Robot",
+      "highlights": [
+        "The order section explicitly names S8P as Propane Mosquito Trap Robot. The page describes catalytic conversion of propane into CO2 and water vapor as an insect attractant.",
+        "The shared mobile-trap concept follows route segments and stops for several hours, with wind-sensitive positioning, tablet operation and possible remote wireless control. Exact feature supply for each version requires configuration confirmation.",
+        "The roughly one-week tank statement concerns propane supply, not battery duration, and is not a demonstrated S8C tank specification. Claimed protected area also does not establish hours of driving.",
+        "No independent vector/disease-control effectiveness, safety certification, exact variant price, tank capacity, robot mass, envelope or single-charge runtime is established. The generic S8 family title is not counted as an additional configuration."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/mosquito-control-robot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "smp-robotics-systems-corp-s8-c-carbon-dioxide-mosquito-trap-robot",
+      "manufacturer": "SMP Robotics Systems Corp.",
+      "model": "S8 C Carbon Dioxide Mosquito Trap Robot",
+      "highlights": [
+        "The order section explicitly names S8C as Carbon Dioxide Mosquito Trap Robot; it is distinct from the S8P propane option.",
+        "The shared mobile-trap concept follows route segments and stops for several hours, with wind-sensitive positioning, tablet operation and possible remote wireless control. Exact feature supply for each version requires configuration confirmation.",
+        "The roughly one-week tank statement concerns propane supply, not battery duration, and is not a demonstrated S8C tank specification. Claimed protected area also does not establish hours of driving.",
+        "No independent vector/disease-control effectiveness, safety certification, exact variant price, tank capacity, robot mass, envelope or single-charge runtime is established. The generic S8 family title is not counted as an additional configuration."
+      ],
+      "sources": [
+        {
+          "name": "SMP Robotics — manufacturer model/application page",
+          "type": "manufacturer",
+          "url": "https://smprobotics.com/products_autonomous_ugv/mosquito-control-robot/",
           "checkedAt": "2026-11-02"
         }
       ],
