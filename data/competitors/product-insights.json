@@ -5555,16 +5555,23 @@
       "manufacturer": "Robotnik",
       "model": "RB-KAIROS",
       "highlights": [
-        "Autonomous omnidirectional mobile platform for industrial transport",
-        "ROS 2 architecture supports modular integration and application development",
-        "Safety lidar, safety PLC and RGB-D sensing support indoor operation"
+        "Standard mecanum-wheel cargo rating is 100 kg; optional strong wheels raise the rating to 250 kg. The headline maximum is not the standard supplied configuration.",
+        "Base-sheet self mass 115 kg and envelope 978 x 776 x 690 mm are separate from the UR-equipped RB-KAIROS+ versions. Maximum travel speed 1.5 m/s, autonomy up to 12 h and whole-platform IP42 retain unspecified load/duty conditions.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput.",
+        "Safety LiDARs/PLC and ROS 2 are listed components. UR+ approval wording for the related manipulator does not prove universal site safety, numerical docking accuracy or independent exclusive market advantage."
       ],
       "sources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1unC8p9h4jd6x-llIV-CwiXCbUBmKoTZa&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -5576,16 +5583,23 @@
       "manufacturer": "Robotnik",
       "model": "RB-KAIROS+",
       "highlights": [
-        "Mobile manipulator prepared for selected Universal Robots arms",
-        "ROS 2 architecture supports modular integration and application development",
-        "Safety lidar, safety PLC and RGB-D sensing support indoor operation"
+        "Named UR7e, UR12e and UR16e installations have arm payloads 7.5/12.5/16 kg and reaches 850/1300/900 mm. They are configurations of RB-KAIROS+, not three extra chassis model cards.",
+        "Configured sheet robot masses are 135/150/150 kg with separate arm-weight rows; do not add those rows again. Residual platform cargo 230/215/215 kg is separate from arm handling and from the web page’s standard 100/optional 250 kg chassis-wheel ratings.",
+        "Version-specific body heights are 1010/1542/1410 mm on a 978 x 776 mm footprint. Optional grippers, vision and URCap integration do not establish an included hand or numerical navigation error.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput."
       ],
       "sources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1lHFHk1OoQJGcwZ2O_ZWO1GloQJnmRG2G&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -5597,16 +5611,23 @@
       "manufacturer": "Robotnik",
       "model": "RB-ROBOUT",
       "highlights": [
-        "Autonomous omnidirectional mobile platform for industrial transport",
-        "ROS 2 architecture supports modular integration and application development",
-        "Safety lidar, safety PLC and RGB-D sensing support indoor operation"
+        "Web components list 1000 kg standard payload. Increasing to 2000 kg requires changes to overall platform width and length; the listed sheet envelope and mass are not automatically those of every heavy-load adaptation.",
+        "Selected sheet gives 360 kg robot mass, 1758 x 891 x 372 mm, 1.1 m/s maximum speed and IP42. The shared hero says up to 8 h, while the base technical section and PDF say up to 10 h; the mapping remains unresolved.",
+        "SLAM and optional magnetic guidance are different localization configurations. Optional lifting units, conveyors, Siemens SIMOVE and wireless charging are integrations, not additional named robot models or numeric docking/lift-travel ratings.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput."
       ],
       "sources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-robots/rb-robout/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1EycSupYoVCV6T-f5Yw-rQeEq9OYzUVaA&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -5618,16 +5639,23 @@
       "manufacturer": "Robotnik",
       "model": "RB-ROBOUT+",
       "highlights": [
-        "Mobile manipulator prepared for selected Universal Robots arms",
-        "ROS 2 architecture supports modular integration and application development",
-        "Safety lidar, safety PLC and RGB-D sensing support indoor operation"
+        "UR8 Long/UR12e/UR15/UR20/UR30 arm loads are 10/12.5/17.5/25/35 kg, separate from carrier cargo and configured robot mass. Do not combine maxima from different versions.",
+        "PDF carrier row reads 755/765/760/735/765 kg. Its up-to-800-kg hero and 1000-kg base-component listing lack a resolved equipment/load mapping; no arithmetic correction is applied to UR30.",
+        "Body-height conflict: UR15 specification table 1758 mm, drawing 1785 mm. The 1789 x 927 mm listed footprint and other arm-specific heights remain separate; reach-circle radii are not chassis turning radii.",
+        "Optional columns are 1200 mm for UR8 Long/UR12e/UR15 and 800 mm for UR20/UR30. Column length supplies no demonstrated vertical travel or maximum fork height. Runtime up to 8 h, speed up to 1.1 m/s and IP41 retain manufacturer conditions."
       ],
       "sources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-robots/rb-robout/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1U-EiGdZNtdJo7Ef6R9muQnuC_sqPmzp0&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -10131,16 +10159,23 @@
       "manufacturer": "Robotnik",
       "model": "RB-WATCHER",
       "highlights": [
-        "Mobile inspection platform supports indoor/outdoor patrol and thermal inspection",
-        "Web-based HMI supports maps, mission programming, monitoring and remote control",
-        "Current model lists bi-spectral pan-tilt-zoom inspection sensing and an included charging station"
+        "Named sheet: 73 kg robot mass, 50 kg cargo, 736 x 614 x 894 mm body envelope, maximum 2.5 m/s and up to 5 h runtime. Slope 65% is not degrees and retains unspecified surface/load conditions.",
+        "Bi-spectral PTZ, 3D LiDAR, GPS and inspection software support patrol and thermal inspection. Browser HMI manages maps, permissions, missions, monitoring and remote control; detection/avoidance outcomes are not independently guaranteed.",
+        "Whole-model enclosure IP54 is separate from IP65 microphone and speakers. The standard platform is not assigned the XL model’s 10-hour runtime or obstacle capability.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput."
       ],
       "sources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-robots/rb-watcher/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1TnxwUiPAolyc7q1SWgvLJMWOSkY3BgsN&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -10152,16 +10187,23 @@
       "manufacturer": "Robotnik",
       "model": "RB-WATCHER XL",
       "highlights": [
-        "Mobile inspection platform supports indoor/outdoor patrol and thermal inspection",
-        "Web-based HMI supports maps, mission programming, monitoring and remote control",
-        "Larger chassis and quick-swap battery support extended inspection missions; added AI/360-degree packages are optional"
+        "Named sheet: 75 kg robot mass, 40 kg cargo, 873 x 670 x 953 mm body envelope, maximum 1.5 m/s and up to 10 h runtime. Slope 50% is not degrees and retains unspecified surface/load conditions.",
+        "Bi-spectral PTZ, 3D LiDAR, GPS and inspection software support patrol and thermal inspection. Browser HMI manages maps, permissions, missions, monitoring and remote control; detection/avoidance outcomes are not independently guaranteed.",
+        "Whole-model enclosure IP55 is separate from IP65 microphone and speakers. XL has a larger chassis, all-terrain wheels, stated 14 cm obstacle capability and quick-swap battery; optional AI/360 vision does not establish universally included packages.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput."
       ],
       "sources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-robots/rb-watcher/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=16lzn3amqHEDI9jUBA-uN_kPfvNsB3yKc&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -22296,6 +22338,246 @@
         {
           "name": "Seegrid — manufacturer model/platform/announcement",
           "url": "https://seegrid.com/news/seegrid-supports-vda5050-to-enable-interoperability-for-modern-industrial-automation-environments/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-fiqus",
+      "manufacturer": "Robotnik",
+      "model": "RB-FIQUS",
+      "highlights": [
+        "Base sheet: 1000 kg cargo, 450 kg robot mass and 1805 x 1610 x 743 mm envelope; maximum 1 m/s, up to 10 h and IP42. Outdoor use does not imply a higher ingress rating.",
+        "Three interchangeable48V45 Ah packs provide the stated48V135 Ah system arrangement. Battery capacity, battery count and swap capability are not elapsed full-charge time or uninterrupted one-battery endurance.",
+        "ROS 2 control and SLAM/GPS support outdoor mapping. RTK-DGPS wording and ISO18497/ISO3691-4 manufacturer claims provide neither numeric positioning accuracy nor independent universal deployment approval.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-fiqus/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1SCnKcrAOsVOvFeouX2tKgcGjj0jYq_un&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-fiqus-plus",
+      "manufacturer": "Robotnik",
+      "model": "RB-FIQUS+",
+      "highlights": [
+        "UR8 Long/UR12e/UR15/UR20/UR30 arm payloads10/12.5/17.5/25/35 kg are separate from carrier cargo 710/720/715/700/700 kg and the configured600-kg Weight row. No sum of arm, cargo and self-mass rows is inferred.",
+        "Table footprint 1805 x 1610 mm has arm-specific heights 1525/1265/1364/1470/1343 mm. Optional adjustable width 1177–1610 mm and a dual-arm installation are configurations, not extra named base models.",
+        "Front linear guide adds ±300 mm transverse Y displacement; it is neither a vertical lift nor additional arm reach. Optional stabilizing legs and20% slope wording do not supply a full-load stability certification.",
+        "Up to9 h and whole-model IP53 differ from RB-FIQUS base 10 h/IP42. ROS 2/RB-NEXUS, battery swaps and safety components retain manufacturer scope; no numeric docking tolerance or guaranteed autonomous safety inferred."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-fiqus/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1hSfbHVcQ-lEq2W58cooyC6SjZEjbO-3w&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-summit",
+      "manufacturer": "Robotnik",
+      "model": "RB-SUMMIT",
+      "highlights": [
+        "Current base sheet:65 kg robot mass, 50 kg cargo, 736 x 614 x 640 mm envelope and skid steering. Up to2.5 m/s, up to 5 h, IP54 and80% maximum slope are selected manufacturer ratings, not universal loaded-terrain guarantees.",
+        "Autonomous navigation and camera-supported teleoperation support indoor/outdoor R&D, agriculture, transport and inspection. Additional GPS, LiDAR and vision packages remain options.",
+        "RB-SUMMIT+ is the explicitly named Kinova-arm manipulator. The older XL-GEN/RB-GEN+ route uses RB-SUMMIT+ wording but different specifications; it is not proof of another current base model or automatic inheritance of those values.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-summit/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1kD_-uBxx74P_0vLDj8EcTcrmP3PTfk0F&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-summit-plus",
+      "manufacturer": "Robotnik",
+      "model": "RB-SUMMIT+",
+      "highlights": [
+        "Current Gen3 Lite/6DOF/7DOF arm loads 0.5/4/4 kg and reaches760/891/902 mm are separate from carrier cargo and robot mass. Grippers are options, not a supplied general-purpose hand.",
+        "Current configured masses70/72/73 kg and736 x 614 x 645 mm body table differ from bare RB-SUMMIT65 kg/IP54. Installed-arm enclosure is IP22; chassis protection does not raise it.",
+        "Cargo conflict inside current PDF: headline up to 40 kg, table 45/43/42 kg for the three named arm versions. No silent choice, inferred corrected limit or arithmetic reallocation.",
+        "Older XL-GEN route redirects to RB-GEN+ with RB-SUMMIT+ body text:985-mm reach, 2.1–2.6 kg arm loads, 3 m/s, IP40 and conflicting5/10 h autonomy. Exact generation mapping is unresolved; these values are not substituted for the current Gen3 sheet."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-summit/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1BBNf4KDcjEjUh8MfZ9MhhJoJll9RsNRl&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-manipulators/xl-gen/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-theron",
+      "manufacturer": "Robotnik",
+      "model": "RB-THERON",
+      "highlights": [
+        "Base sheet:70 kg robot mass, up to 200 kg cargo, 1.25 m/s, up to 8 h, IP30 and differential drive. Laser/SLAM localization does not establish a numeric navigation tolerance.",
+        "Standard body717 x 550 x 320 mm; optional lifting-unit version717 x 550 x 418 mm. Overall height difference is not a demonstrated98-mm lift stroke.",
+        "RFID, inventory, quality control, conveyor and custom sensors are integrations. The explicitly named RB-THERON FP education version and RB-THERON+ manipulator retain separate ratings; their battery values are not inherited.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-theron/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1z3zcSlP67UwG1X5KKjmZfaMxRpS1wmg4&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-theron-plus",
+      "manufacturer": "Robotnik",
+      "model": "RB-THERON+",
+      "highlights": [
+        "Current page/version table names UR7e at7.5 kg arm load and850 mm reach; PDF body text instead names UR5e. The exact installed-arm/version mapping remains unresolved.",
+        "Configured Weight row 180 kg, residual carrier cargo 100 kg and1076 x 552 x 655 mm body table are separate from bare RB-THERON70 kg/200 kg. Do not add the separate20-kg arm row again.",
+        "Runtime conflict: page and PDF table 6 h versus PDF hero8 h. Modular extra batteries and standard-work-shift language do not establish a new numeric runtime or one-battery duty profile.",
+        "Sheet specifies differential drive; page offers differential or omnidirectional bases without mapping all table values to both. Optional grippers and narrow-aisle wording do not supply a hand, numeric aisle requirement or independent exclusive-USP evidence."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-theron/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1sFtnP9h_XZ52pKk2gFsviqcyER3FriRn&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-theron-fp",
+      "manufacturer": "Robotnik",
+      "model": "RB-THERON FP",
+      "highlights": [
+        "Explicitly named education/vocational-training variant with industry components for communication, safety and programming. Fisheye camera, Robosense Airy Lite navigation pack and remote I/O are listed; curriculum or safety outcomes are not independently verified.",
+        "FP sheet:70 kg robot mass, up to 200 kg cargo, 1.25 m/s, IP30, differential drive and5 h autonomy. The standard RB-THERON8 h is not assigned to FP.",
+        "Body table 717 x 550 x 320.5 mm versus drawing717.70 x 550.56 x 320.40 mm retain unresolved precision/rounding differences. These are body measurements, not lifting stroke.",
+        "Sheet AF08.26 identifies a document date, not first model launch. No exact purchase amount, elapsed full recharge, numeric docking tolerance or universal education suitability established."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-theron/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1JGB06m2PWixnl9KddMobKm9FlDcCqAMl&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-vogui",
+      "manufacturer": "Robotnik",
+      "model": "RB-VOGUI",
+      "highlights": [
+        "Base sheet:165 kg self mass, 150 kg carrier cargo and1044 x 776 x 742 mm body. Maximum2.5 m/s, 6 h, IP53 and47% slope retain unspecified duty/load/surface conditions.",
+        "Manufacturer drive row says Omnidirectional - Dual Ackerman. SLAM/GPS localization, all-terrain mobility and remote HMI do not establish numeric navigation accuracy, docking error or a turning radius.",
+        "Optional Universal Robots installation is RB-VOGUI+, not an included arm on the base. Optional GPS station, vision, basket and terrain packages remain configuration choices.",
+        "ROS 2 modular architecture supports integration and Robotnik HMI operation. Charging stations, 24/7 fleet language and replaceable batteries do not establish elapsed full-charge time, continuous one-battery operation or quantified task throughput."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-vogui/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1Kdalpiq7t83Z6A4n5427ctYc80uYhY_D&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "robotnik-rb-vogui-plus",
+      "manufacturer": "Robotnik",
+      "model": "RB-VOGUI+",
+      "highlights": [
+        "UR7e/UR8 Long/UR12e arm loads 7.5/10/12.5 kg and reaches850/1750/1300 mm stay tied to the selected arm. The manufacturer explicitly restricts UR8 Long workspace; full nominal reach is not guaranteed in every direction.",
+        "Configured robot masses185/210/200 kg and carrier loads 130/105/115 kg remain separate. Page prose instead says up to 125 kg on the platform; exact configuration mapping is unresolved.",
+        "The shared1044 x 776 x 742 mm body table does not define the entire manipulator workspace. Omnidirectional/Dual Ackerman drive, IP53, up to 6 h and2.5 m/s retain configuration and duty conditions.",
+        "Grippers, GPS base station, LiDAR and vision modules are optional. Legacy range copy150 kg platform/UR5e5 kg is not a current exact-version rating or a proven alias for UR7e."
+      ],
+      "sources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-vogui/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=10ukM28xR4cYT4e4kGrx0gN9-Kl7tDfgx&export=download",
           "type": "manufacturer",
           "checkedAt": "2026-11-02"
         }

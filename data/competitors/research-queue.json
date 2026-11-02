@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T11:27:35.726Z",
+  "generatedAt": "2026-11-02T11:52:34.296Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 342,
-    "withoutSelectedFieldReview": 176,
-    "selectedFields": 5509,
+    "withSelectedFieldReview": 345,
+    "withoutSelectedFieldReview": 173,
+    "selectedFields": 5584,
     "selectedFieldStatuses": {
-      "documented": 2579,
-      "not-documented": 2776,
-      "conflicting": 144,
+      "documented": 2612,
+      "not-documented": 2816,
+      "conflicting": 146,
       "roadmap": 10
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 72,
+    "sourceGroupsWithCompanyAuthoredFocus": 73,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -497,27 +497,6 @@
         "realbotix-b-series",
         "realbotix-f-series",
         "realbotix-m-series"
-      ]
-    },
-    {
-      "brandId": "robotnik",
-      "name": "Robotnik",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/robotnik"
-      ],
-      "catalogModels": 6,
-      "reviewedReferenceTargets": 3,
-      "withDatedHighlights": 3,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 3,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "robotnik-rb-kairos-plus",
-        "robotnik-rb-robout",
-        "robotnik-rb-watcher"
       ]
     },
     {
@@ -3703,6 +3682,27 @@
         "locus-robotics-locus-array",
         "locus-robotics-locus-origin",
         "locus-robotics-locus-vector"
+      ]
+    },
+    {
+      "brandId": "robotnik",
+      "name": "Robotnik",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/robotnik"
+      ],
+      "catalogModels": 15,
+      "reviewedReferenceTargets": 3,
+      "withDatedHighlights": 3,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 3,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "",
+      "robotIds": [
+        "robotnik-rb-kairos-plus",
+        "robotnik-rb-robout",
+        "robotnik-rb-watcher"
       ]
     },
     {
@@ -12084,13 +12084,13 @@
       "sourceUrls": [
         "https://buyandrentrobots.com/companies/robotnik"
       ],
-      "catalogModels": 6,
+      "catalogModels": 15,
       "reviewedReferenceTargets": 3,
       "withDatedHighlights": 3,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 3,
-      "hasCompanyAuthoredFocus": false,
+      "withSelectedFieldReview": 3,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
       "companyFocusCheckedAt": "",
       "robotIds": [
         "robotnik-rb-kairos-plus",
@@ -40287,24 +40287,43 @@
       "brandId": "robotnik",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 4,
       "highlightSources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1lHFHk1OoQJGcwZ2O_ZWO1GloQJnmRG2G&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 25,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 13,
+        "not-documented": 12,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-manipulators/rb-kairos/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1lHFHk1OoQJGcwZ2O_ZWO1GloQJnmRG2G&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -40326,24 +40345,43 @@
       "brandId": "robotnik",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 4,
       "highlightSources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-robots/rb-robout/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1EycSupYoVCV6T-f5Yw-rQeEq9OYzUVaA&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 25,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 9,
+        "not-documented": 14,
+        "conflicting": 2,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-robout/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1EycSupYoVCV6T-f5Yw-rQeEq9OYzUVaA&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -40365,24 +40403,43 @@
       "brandId": "robotnik",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 4,
       "highlightSources": [
         {
-          "name": "Robotnik",
-          "type": "manufacturer",
+          "name": "Robotnik — manufacturer model/software page",
           "url": "https://robotnik.eu/products/mobile-robots/rb-watcher/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1TnxwUiPAolyc7q1SWgvLJMWOSkY3BgsN&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 25,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 11,
+        "not-documented": 14,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Robotnik — manufacturer model/software page",
+          "url": "https://robotnik.eu/products/mobile-robots/rb-watcher/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Robotnik — manufacturer datasheet publicly linked via Google Drive",
+          "url": "https://drive.usercontent.google.com/uc?id=1TnxwUiPAolyc7q1SWgvLJMWOSkY3BgsN&export=download",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
