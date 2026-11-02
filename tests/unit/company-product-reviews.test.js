@@ -219,9 +219,11 @@ describe('explicit company-description product decisions', () => {
       'Interbotix',
       'Interbotix',
     ]);
-    expect(getAllBrands().find((b) => b.id === 'trossen-robotics').catalogManufacturers).toEqual(
-      [],
-    );
+    const trossen = getAllBrands().find((b) => b.id === 'trossen-robotics');
+    expect(trossen.catalogManufacturers).toEqual(['Trossen Robotics']);
+    expect(trossen.robots).toHaveLength(16);
+    expect(trossen.robots.every((r) => r.manufacturer === 'Trossen Robotics')).toBe(true);
+    expect(trossen.catalogManufacturers).not.toContain('Interbotix');
     const skyhub = families.find((m) => m.name === 'SKYHUB');
     expect(skyhub.productReview.kind).toBe('system-reference');
     expect(skyhub.productReview.catalogIds).toEqual([]);

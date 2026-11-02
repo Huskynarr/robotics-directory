@@ -14709,21 +14709,41 @@
       "manufacturer": "Interbotix",
       "model": "ALOHA Stationary",
       "highlights": [
-        "Stationary kit combines two WidowX leader arms with two ViperX follower arms",
-        "Four RealSense D405 cameras are listed for observation and data capture",
-        "Documentation covers teleoperation, episode recording and learned-policy training/evaluation workflows"
+        "Packing list identifies 2 ALOHA WidowX leader and 2 ALOHA ViperX follower arms; 4 cameras are listed, not 4 separate robot models.",
+        "The Stationary table lists 1019D × 1066H × 1225W mm. This literal kit-table dimension is kept separate from reach and camera-placement recommendations.",
+        "Follower payload 750 g and reach 750 mm come from the ALOHA ViperX variant; full load is recommended at no more than 50% extension. Leader capacity is not summed with follower capacity.",
+        "Data collection records synchronized observations and actions for learning workflows. Preconfigured laptop/mini-PC options and delayed/coming-soon packing-list notes do not establish a currently included computer.",
+        "Leader–follower teleoperation and training workflows are documented; research demonstrations do not certify task success, independent safety or commercial availability."
       ],
       "sources": [
         {
-          "name": "Trossen — Interbotix ALOHA documentation",
-          "type": "developer",
-          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/index.html",
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/specifications.html",
+          "type": "manufacturer",
           "checkedAt": "2026-11-02"
         },
         {
-          "name": "Trossen — ALOHA configuration specifications",
-          "type": "developer",
-          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/specifications.html",
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/avx300s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/awx250s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/index.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/operation/data_collection.html",
+          "type": "manufacturer",
           "checkedAt": "2026-11-02"
         }
       ],
@@ -14736,27 +14756,53 @@
       "manufacturer": "Interbotix",
       "model": "ALOHA Mobile",
       "highlights": [
-        "Mobile kit combines a SLATE base with paired WidowX leader and ViperX follower arms",
-        "Documentation separates arm teleoperation from joystick control of the mobile base",
-        "Camera-equipped platform supports demonstration recording and policy-training workflows"
+        "Packing list identifies 2 ALOHA WidowX leader and 2 ALOHA ViperX follower arms; 3 cameras are listed, not 3 separate robot models.",
+        "The Mobile table gives 122 kg and 1 m/s base speed. Its 1.4 kWh power-station rating is energy capacity; no hours of battery operation or charge interval is derived.",
+        "Follower payload 750 g and reach 750 mm come from the ALOHA ViperX variant; full load is recommended at no more than 50% extension. Leader capacity is not summed with follower capacity.",
+        "Data collection records synchronized observations and actions for learning workflows. Preconfigured laptop/mini-PC options and delayed/coming-soon packing-list notes do not establish a currently included computer.",
+        "Mobile operation documents joystick linear/yaw control and optional software gravity compensation. The guide warns about brief torque-off periods during state changes; no autonomous-task success or intrinsically safe installation is certified."
       ],
       "sources": [
         {
-          "name": "Trossen — Interbotix ALOHA documentation",
-          "type": "developer",
-          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/index.html",
-          "checkedAt": "2026-11-02"
-        },
-        {
-          "name": "Trossen — ALOHA configuration specifications",
-          "type": "developer",
+          "name": "Trossen Robotics — manufacturer documentation/product information",
           "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/specifications.html",
+          "type": "manufacturer",
           "checkedAt": "2026-11-02"
         },
         {
-          "name": "Trossen — Mobile ALOHA teleoperation",
-          "type": "developer",
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/avx300s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/awx250s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/index.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
           "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/operation/mobile.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/operation/data_collection.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/getting_started/mobile/hardware_setup.html",
+          "type": "manufacturer",
           "checkedAt": "2026-11-02"
         }
       ],
@@ -14769,21 +14815,41 @@
       "manufacturer": "Interbotix",
       "model": "ALOHA Solo",
       "highlights": [
-        "Single leader–follower setup combines one WidowX arm with one ViperX arm",
-        "Two RealSense D405 cameras are listed for observation and data capture",
-        "Documentation covers teleoperation and dataset/training workflows for the solo configuration"
+        "Packing list identifies 1 ALOHA WidowX leader and 1 ALOHA ViperX follower arms; 2 cameras are listed, not 2 separate robot models.",
+        "The Solo table lists 1019D × 1066H × 1225W mm. This literal kit-table dimension is kept separate from reach and camera-placement recommendations.",
+        "Follower payload 750 g and reach 750 mm come from the ALOHA ViperX variant; full load is recommended at no more than 50% extension. Leader capacity is not summed with follower capacity.",
+        "Data collection records synchronized observations and actions for learning workflows. Preconfigured laptop/mini-PC options and delayed/coming-soon packing-list notes do not establish a currently included computer.",
+        "Leader–follower teleoperation and training workflows are documented; research demonstrations do not certify task success, independent safety or commercial availability."
       ],
       "sources": [
         {
-          "name": "Trossen — Interbotix ALOHA documentation",
-          "type": "developer",
-          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/index.html",
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/specifications.html",
+          "type": "manufacturer",
           "checkedAt": "2026-11-02"
         },
         {
-          "name": "Trossen — ALOHA configuration specifications",
-          "type": "developer",
-          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/specifications.html",
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/avx300s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/awx250s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/index.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/aloha_docs/2.0/operation/data_collection.html",
+          "type": "manufacturer",
           "checkedAt": "2026-11-02"
         }
       ],
@@ -22957,6 +23023,1023 @@
         {
           "name": "Cyberdyne — manufacturer product information",
           "url": "https://www.cyberdyne.jp/en/products/medicalcare-pit",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-pincherx-100",
+      "manufacturer": "Interbotix",
+      "model": "PincherX-100",
+      "highlights": [
+        "PincherX-100 is a separately documented Interbotix X-Series arm with 4 arm degrees of freedom and 5 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 50 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 300 mm reach and 600mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 5 mm; stated accuracy 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/px100.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-pincherx-150",
+      "manufacturer": "Interbotix",
+      "model": "PincherX-150",
+      "highlights": [
+        "PincherX-150 is a separately documented Interbotix X-Series arm with 5 arm degrees of freedom and 8 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 50 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 150 mm reach and 900mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 5 mm; stated accuracy 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred.",
+        "PincherX-150 literally lists 150 mm reach alongside 900 mm total span; the family table lists 482 mm axial base-to-tip length. The reach definition remains unresolved and is not silently corrected to 450 mm."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/px150.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-reactorx-150",
+      "manufacturer": "Interbotix",
+      "model": "ReactorX-150",
+      "highlights": [
+        "ReactorX-150 is a separately documented Interbotix X-Series arm with 5 arm degrees of freedom and 6 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 100 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 450 mm reach and 900mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 2.5 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/rx150.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-reactorx-200",
+      "manufacturer": "Interbotix",
+      "model": "ReactorX-200",
+      "highlights": [
+        "ReactorX-200 is a separately documented Interbotix X-Series arm with 5 arm degrees of freedom and 7 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 150 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 550 mm reach and 1100mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 2.5 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/rx200.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-widowx-200",
+      "manufacturer": "Interbotix",
+      "model": "WidowX-200",
+      "highlights": [
+        "WidowX-200 is a separately documented Interbotix X-Series arm with 5 arm degrees of freedom and 7 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 200 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 550 mm reach and 1100mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 1 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/wx200.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-widowx-250",
+      "manufacturer": "Interbotix",
+      "model": "WidowX-250",
+      "highlights": [
+        "WidowX-250 is a separately documented Interbotix X-Series arm with 5 arm degrees of freedom and 8 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 250 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 650 mm reach and 1300mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 1 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/wx250.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-widowx-250-6dof",
+      "manufacturer": "Interbotix",
+      "model": "WidowX-250 6DOF",
+      "highlights": [
+        "WidowX-250 6DOF is a separately documented Interbotix X-Series arm with 6 arm degrees of freedom and 9 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 250 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 650 mm reach and 1300mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 1 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/wx250s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-aloha-widowx-250-6dof",
+      "manufacturer": "Interbotix",
+      "model": "ALOHA WidowX-250 6DOF",
+      "highlights": [
+        "ALOHA WidowX-250 6DOF is a separately documented Interbotix X-Series arm with 6 arm degrees of freedom and 9 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 250 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 650 mm reach and 1300mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 1 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred.",
+        "This is an explicitly documented ALOHA-2-related arm variant, distinct from the standard X-Series arm and from a complete ALOHA kit."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/awx250s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-viperx-250",
+      "manufacturer": "Interbotix",
+      "model": "ViperX-250",
+      "highlights": [
+        "ViperX-250 is a separately documented Interbotix X-Series arm with 5 arm degrees of freedom and 7 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 450 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 650 mm reach and 1300mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 1 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/vx250.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-viperx-300",
+      "manufacturer": "Interbotix",
+      "model": "ViperX-300",
+      "highlights": [
+        "ViperX-300 is a separately documented Interbotix X-Series arm with 5 arm degrees of freedom and 8 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 750 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 750 mm reach and 1500mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 1 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/vx300.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-viperx-300-6dof",
+      "manufacturer": "Interbotix",
+      "model": "ViperX-300 6DOF",
+      "highlights": [
+        "ViperX-300 6DOF is a separately documented Interbotix X-Series arm with 6 arm degrees of freedom and 9 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 750 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 750 mm reach and 1500mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 1 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/vx300s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "interbotix-aloha-viperx-300-6dof",
+      "manufacturer": "Interbotix",
+      "model": "ALOHA ViperX-300 6DOF",
+      "highlights": [
+        "ALOHA ViperX-300 6DOF is a separately documented Interbotix X-Series arm with 6 arm degrees of freedom and 9 servos; coupled/shadow joints and the gripper are not extra arm degrees of freedom.",
+        "Manufacturer working payload 750 g is qualified by a recommendation of no more than 50% arm extension at that load. Repeated-motion workspace limits and servo-cooling rest poses remain relevant.",
+        "Named overview gives 750 mm reach and 1500mm total span; total span, family axial tip lengths and recommended workspace are different measurements.",
+        "Repeatability is 1 mm; stated accuracy 5 - 8mm is a separate manufacturer metric without a reported test standard. Encoder resolution is not Cartesian positioning accuracy.",
+        "DYNAMIXEL servos expose position, temperature and configuration feedback through U2D2 and the shared ROS ecosystem. No industrial safety rating, included host computer or continuous-duty guarantee is inferred.",
+        "This is an explicitly documented ALOHA-2-related arm variant, distinct from the standard X-Series arm and from a complete ALOHA kit."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications/avx300s.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/specifications.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/interbotix_xsarms_docs/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-widowx-ai-base",
+      "manufacturer": "Trossen Robotics",
+      "model": "WidowX AI Base",
+      "highlights": [
+        "Manufacturer explicitly offers Base, Leader and Follower as three standalone WidowX AI configurations; current documentation identifies this as the previous-generation arm.",
+        "The Base configuration uses rack-and-pinion parallel gripper with silicone grip pads; nominal 95 mm opening.",
+        "Shared nominal figures are 4 kg arm mass, 1.5 kg payload, 700 mm reach, 1400 mm span and 1 mm repeatability. Span is not a separate reach or body dimension, and no configuration-specific mass is given.",
+        "The sales sheet calls the device six DOF with a parallel gripper and labels the gripper Joint 7. Its 180°/s joint-speed figure is not TCP linear speed or a task-throughput benchmark.",
+        "The prior controller uses Ethernet-to-CAN communication, 24 V supply and manufacturer integration workflows. Listed computer options, dollar prices and linked software examples do not guarantee a currently delivered compute package or all-model compatibility."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_4b9b4b6edcff43d4af698e7f3c0d3b78.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_e4c22552af9943c7a092bc59906ca52a.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-widowx-ai-leader",
+      "manufacturer": "Trossen Robotics",
+      "model": "WidowX AI Leader",
+      "highlights": [
+        "Manufacturer explicitly offers Base, Leader and Follower as three standalone WidowX AI configurations; current documentation identifies this as the previous-generation arm.",
+        "The Leader configuration uses ambidextrous hand grip and sliding-rail finger pinchers.",
+        "Shared nominal figures are 4 kg arm mass, 1.5 kg payload, 700 mm reach, 1400 mm span and 1 mm repeatability. Span is not a separate reach or body dimension, and no configuration-specific mass is given.",
+        "The sales sheet calls the device six DOF with a parallel gripper and labels the gripper Joint 7. Its 180°/s joint-speed figure is not TCP linear speed or a task-throughput benchmark.",
+        "The prior controller uses Ethernet-to-CAN communication, 24 V supply and manufacturer integration workflows. Listed computer options, dollar prices and linked software examples do not guarantee a currently delivered compute package or all-model compatibility."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_4b9b4b6edcff43d4af698e7f3c0d3b78.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_e4c22552af9943c7a092bc59906ca52a.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-widowx-ai-follower",
+      "manufacturer": "Trossen Robotics",
+      "model": "WidowX AI Follower",
+      "highlights": [
+        "Manufacturer explicitly offers Base, Leader and Follower as three standalone WidowX AI configurations; current documentation identifies this as the previous-generation arm.",
+        "The Follower configuration uses rack-and-pinion parallel gripper with silicone grip pads; nominal 95 mm opening. The Follower additionally lists an Intel RealSense D405 camera and mount.",
+        "Shared nominal figures are 4 kg arm mass, 1.5 kg payload, 700 mm reach, 1400 mm span and 1 mm repeatability. Span is not a separate reach or body dimension, and no configuration-specific mass is given.",
+        "The sales sheet calls the device six DOF with a parallel gripper and labels the gripper Joint 7. Its 180°/s joint-speed figure is not TCP linear speed or a task-throughput benchmark.",
+        "The prior controller uses Ethernet-to-CAN communication, 24 V supply and manufacturer integration workflows. Listed computer options, dollar prices and linked software examples do not guarantee a currently delivered compute package or all-model compatibility."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_4b9b4b6edcff43d4af698e7f3c0d3b78.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_e4c22552af9943c7a092bc59906ca52a.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-solo-ai",
+      "manufacturer": "Trossen Robotics",
+      "model": "Solo AI",
+      "highlights": [
+        "Solo AI contains 1 WidowX AI leader–follower pair(s), 2 RealSense D405 cameras and a ten-inch touchscreen, per the linked manufacturer sheet.",
+        "The 1.5 kg load and 700 mm reach belong to an individual previous-generation arm. Two follower arms do not imply a guaranteed combined-load manipulation rating.",
+        "The sheet distinguishes a no-computer base configuration from a computer option. Included host hardware must be confirmed; compute capability and ACT/ACT++ support do not guarantee arbitrary model training or inference.",
+        "Previous-generation status in the current documentation does not establish a discontinuation date or current stock. Desktop/laptop wording in product prose does not override the explicit selectable compute options.",
+        "Solo AI is a portable single follower/leader setup, with a tripod/camera mount; two Solo kits do not establish a separately supplied Stationary frame."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/solo-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_fefb2f96d25f4a34a6487f3f03daee21.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_e4c22552af9943c7a092bc59906ca52a.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-stationary-ai",
+      "manufacturer": "Trossen Robotics",
+      "model": "Stationary AI",
+      "highlights": [
+        "Stationary AI contains 2 WidowX AI leader–follower pair(s), 4 RealSense D405 cameras and a ten-inch touchscreen, per the linked manufacturer sheet.",
+        "The 1.5 kg load and 700 mm reach belong to an individual previous-generation arm. Two follower arms do not imply a guaranteed combined-load manipulation rating.",
+        "The sheet distinguishes a no-computer base configuration from a computer option. Included host hardware must be confirmed; compute capability and ACT/ACT++ support do not guarantee arbitrary model training or inference.",
+        "Previous-generation status in the current documentation does not establish a discontinuation date or current stock. Desktop/laptop wording in product prose does not override the explicit selectable compute options.",
+        "Stationary AI does not include the desk. Recommended desktop size and tabletop finish are setup guidance, not dimensions of the complete robot kit."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/stationary-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_43d910d9f2914448a5d1c399948dfc48.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_e4c22552af9943c7a092bc59906ca52a.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/systems.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-mobile-ai",
+      "manufacturer": "Trossen Robotics",
+      "model": "Mobile AI",
+      "highlights": [
+        "Mobile AI contains 2 WidowX AI leader–follower pair(s), 3 RealSense D405 cameras and a ten-inch touchscreen, per the linked manufacturer sheet.",
+        "The 1.5 kg load and 700 mm reach belong to an individual previous-generation arm. Two follower arms do not imply a guaranteed combined-load manipulation rating.",
+        "The sheet distinguishes a no-computer base configuration from a computer option. Included host hardware must be confirmed; compute capability and ACT/ACT++ support do not guarantee arbitrary model training or inference.",
+        "Previous-generation status in the current documentation does not establish a discontinuation date or current stock. Desktop/laptop wording in product prose does not override the explicit selectable compute options.",
+        "Mobile AI has a mobile base, battery and three cameras in its own sheet. Legacy Interbotix ALOHA Mobile 122 kg, 1 m/s and 1.4 kWh values are not transferred to this different generation."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/mobile-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_b9d3675d10bb420586b0cc99ab1f78e8.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx-ai",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer sales sheet/hardware guide",
+          "url": "https://www.trossenrobotics.com/_files/ugd/d3716d_e4c22552af9943c7a092bc59906ca52a.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/systems.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-widowx-core-follower",
+      "manufacturer": "Trossen Robotics",
+      "model": "WidowX Core Follower",
+      "highlights": [
+        "WidowX Core Follower is distinct from the previous-generation WidowX AI and DYNAMIXEL Interbotix X-Series. The 2026 family shares a six-axis-plus-gripper layout, but specifications are explicitly preliminary.",
+        "Preliminary named-column mass is 5.5 kg and payload 2 kg. These arm values are not the mass or cargo rating of a multi-arm cell.",
+        "Product page 700 mm; preliminary documentation 790 mm (unresolved source conflict). No preferred numeric reach is silently substituted.",
+        "Current preliminary gripper stroke is 90 mm; the old AI brochure’s 95 mm and old 1 mm repeatability are not transferred to this generation.",
+        "iNerve base controller, serviceable connectors/wiring and shared open-source SDK are described. Control frequency above 600 Hz is not mechanical joint speed or an independent tracking-error measurement.",
+        "The no-camera list amount is 2995 USD, qualified by the lineup’s proposed-pricing/final-approval statement. Camera/compute options and eligibility-dependent discounts do not create an exact structured offer."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-widowx-pro",
+      "manufacturer": "Trossen Robotics",
+      "model": "WidowX Pro",
+      "highlights": [
+        "WidowX Pro is distinct from the previous-generation WidowX AI and DYNAMIXEL Interbotix X-Series. The 2026 family shares a six-axis-plus-gripper layout, but specifications are explicitly preliminary.",
+        "Preliminary named-column mass is 6 kg and payload 4 kg. These arm values are not the mass or cargo rating of a multi-arm cell.",
+        "Product page 700 mm; preliminary documentation 790 mm (unresolved source conflict). No preferred numeric reach is silently substituted.",
+        "Current preliminary gripper stroke is 90 mm; the old AI brochure’s 95 mm and old 1 mm repeatability are not transferred to this generation.",
+        "iNerve base controller, serviceable connectors/wiring and shared open-source SDK are described. Control frequency above 600 Hz is not mechanical joint speed or an independent tracking-error measurement.",
+        "The no-camera list amount is 3495 USD, qualified by the lineup’s proposed-pricing/final-approval statement. Camera/compute options and eligibility-dependent discounts do not create an exact structured offer."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-widowx-heavy",
+      "manufacturer": "Trossen Robotics",
+      "model": "WidowX Heavy",
+      "highlights": [
+        "WidowX Heavy is distinct from the previous-generation WidowX AI and DYNAMIXEL Interbotix X-Series. The 2026 family shares a six-axis-plus-gripper layout, but specifications are explicitly preliminary.",
+        "Preliminary named-column mass is 8 kg and payload 6 kg. The Workbench Heavy configuration instead claims 8 kg per arm; generation/load-condition mapping remains unresolved.",
+        "Product page 1400 mm; preliminary documentation 1114 mm (unresolved source conflict). No preferred numeric reach is silently substituted.",
+        "Current preliminary gripper stroke is 90 mm; the old AI brochure’s 95 mm and old 1 mm repeatability are not transferred to this generation.",
+        "iNerve base controller, serviceable connectors/wiring and shared open-source SDK are described. Control frequency above 600 Hz is not mechanical joint speed or an independent tracking-error measurement.",
+        "The no-camera list amount is 4995 USD, qualified by the lineup’s proposed-pricing/final-approval statement. Camera/compute options and eligibility-dependent discounts do not create an exact structured offer."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/workbench",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-widowx-core-leader",
+      "manufacturer": "Trossen Robotics",
+      "model": "WidowX Core Leader",
+      "highlights": [
+        "A dedicated Core Leader controls WidowX follower arms through hand-guided teleoperation; it is a separately named offering alongside Core Follower, Pro and Heavy.",
+        "The stated no-camera amount is 3099.95 USD before conditional academic/startup reductions; the 2026 proposed-pricing qualification remains explicit.",
+        "No leader-specific numeric load, mass or repeatability table established. Follower and previous-generation AI tables are not inherited."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-rivet-base",
+      "manufacturer": "Trossen Robotics",
+      "model": "Rivet Base",
+      "highlights": [
+        "Rivet uses three independently driven/steered swerve wheels for sideways, diagonal and rotational motion; this is not an inferred turning-radius number.",
+        "The manufacturer describes 890 mm of screw-driven vertical travel. No absolute arm working height, lift speed or travel-at-load curve is supplied.",
+        "The Base expressly omits arms, cameras and built-in compute, while retaining a camera mount. Generic system prose about Jetson compute/perception is not treated as included Base equipment.",
+        "A removable battery supports swapping; no hours, energy capacity, full-charge duration or hot-swap-without-shutdown capability is inferred.",
+        "The named configuration lists 29995 USD subject to proposed-pricing approval. The Cockpit package adds operator equipment to the populated Rivet rather than establishing another mobile chassis."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/rivet",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/systems.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-rivet-plus-2-widowx-pro-plus-cameras",
+      "manufacturer": "Trossen Robotics",
+      "model": "Rivet + 2 WidowX Pro + Cameras",
+      "highlights": [
+        "Rivet uses three independently driven/steered swerve wheels for sideways, diagonal and rotational motion; this is not an inferred turning-radius number.",
+        "The manufacturer describes 890 mm of screw-driven vertical travel. No absolute arm working height, lift speed or travel-at-load curve is supplied.",
+        "This populated offer explicitly names two Pro arms and cameras. Generic Jetson AGX Orin/2D LiDAR system prose does not override the Base exclusion or establish an exact installed sensor package for every configuration.",
+        "A removable battery supports swapping; no hours, energy capacity, full-charge duration or hot-swap-without-shutdown capability is inferred.",
+        "The named configuration lists 38480 USD subject to proposed-pricing approval. The Cockpit package adds operator equipment to the populated Rivet rather than establishing another mobile chassis."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/rivet",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/systems.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-workbench-lite-plus-2-widowx-core-plus-cameras",
+      "manufacturer": "Trossen Robotics",
+      "model": "Workbench Lite + 2 WidowX Core + Cameras",
+      "highlights": [
+        "This exact named package includes two WidowX Core arms and cameras. Lite’s generic no-compute/no-screen scope stays separate from its named camera bundle.",
+        "The package lists 2 kg per arm. Per-arm payload is not summed into a station lifting claim.",
+        "Product page 700 mm; preliminary documentation 790 mm (unresolved source conflict). This is per-arm reach, not station width or a body envelope.",
+        "The package list amount is 8630 USD before conditional eligibility discounts. The lineup calls pricing proposed and pending approval.",
+        "The 1495 USD starting amount refers to the unconfigured Lite offer and is not assigned to this populated two-arm camera package. Compute/screen omissions and full Workbench’s coming-soon status remain separately scoped."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/workbench",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-workbench-lite-plus-2-widowx-pro-plus-cameras",
+      "manufacturer": "Trossen Robotics",
+      "model": "Workbench Lite + 2 WidowX Pro + Cameras",
+      "highlights": [
+        "This exact named package includes two WidowX Pro arms and cameras. Lite’s generic no-compute/no-screen scope stays separate from its named camera bundle.",
+        "The package lists 4 kg per arm. Per-arm payload is not summed into a station lifting claim.",
+        "Product page 700 mm; preliminary documentation 790 mm (unresolved source conflict). This is per-arm reach, not station width or a body envelope.",
+        "The package list amount is 9630 USD before conditional eligibility discounts. The lineup calls pricing proposed and pending approval.",
+        "The 1495 USD starting amount refers to the unconfigured Lite offer and is not assigned to this populated two-arm camera package. Compute/screen omissions and full Workbench’s coming-soon status remain separately scoped."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/workbench",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-workbench-lite-plus-2-widowx-heavy-plus-cameras",
+      "manufacturer": "Trossen Robotics",
+      "model": "Workbench Lite + 2 WidowX Heavy + Cameras",
+      "highlights": [
+        "This exact named package includes two WidowX Heavy arms and cameras. Lite’s generic no-compute/no-screen scope stays separate from its named camera bundle.",
+        "The package lists 8 kg per arm. Standalone Heavy page and preliminary arm table instead say 6 kg; no generation or special-load explanation is established.",
+        "Product page 1400 mm; preliminary documentation 1114 mm (unresolved source conflict). This is per-arm reach, not station width or a body envelope.",
+        "The package list amount is 12630 USD before conditional eligibility discounts. The lineup calls pricing proposed and pending approval.",
+        "The 1495 USD starting amount refers to the unconfigured Lite offer and is not assigned to this populated two-arm camera package. Compute/screen omissions and full Workbench’s coming-soon status remain separately scoped."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/workbench",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://docs.trossenrobotics.com/trossen_arm/main/specifications/arms.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/widowx",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "trossen-robotics-workbench",
+      "manufacturer": "Trossen Robotics",
+      "model": "Workbench",
+      "highlights": [
+        "The full Workbench is explicitly marked coming soon; it is separate from the Lite packages on the same page.",
+        "Manufacturer describes a handled/clamped plate, two WidowX follower arms, two wrist cameras plus a scene camera, onboard Jetson AGX Orin 64 GB compute, power, UI and networking.",
+        "No exact full-Workbench arm tier, kit mass, envelope or price established; Lite package figures are not inherited.",
+        "The fixed station uses separate Glide/Cockpit operator equipment and the shared SDK. Passive controllers and furniture do not establish extra powered robot models."
+      ],
+      "sources": [
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/workbench",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Trossen Robotics — manufacturer documentation/product information",
+          "url": "https://www.trossenrobotics.com/2026-product-lineup",
           "type": "manufacturer",
           "checkedAt": "2026-11-02"
         }
