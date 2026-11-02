@@ -8,6 +8,40 @@ import { getAllRobots } from '../../src/data/robots.js';
 import { t } from '../../src/data/translations.js';
 
 describe('field-specific primary-source reviews', () => {
+  it('keeps Nexaro mapping speed and maximum area out of cleaning throughput', () => {
+    const robots = new Map(getAllRobots().allRobots.map((r) => [r.id, r]));
+    for (const id of ['nexaro-nr-1500', 'nexaro-nr-1700']) {
+      expect(robots.get(id).areaRate).toContain('100 m²/h');
+      expect(robots.get(id).areaRate).not.toMatch(/300|600|1,000/);
+      expect(robots.get(id).waterTankCapacity).toBe('');
+      expect(robots.get(id).minAisleWidth).toBe('');
+    }
+    expect(robots.get('nexaro-nr-1500').description).toContain('400 m²');
+    expect(robots.get('nexaro-nr-1700').description).toContain('1,000 m²');
+  });
+
+  it('exposes Nexaro NR 1700 body-size disagreement without merging the NR 1500', () => {
+    const review = getSpecificationReview('nexaro-nr-1700');
+    expect(review.fields.size.status).toBe('conflicting');
+    expect(review.fields.size.value).toContain('346 x 344 x 173 mm');
+    expect(review.fields.size.value).toContain('343 x 343 x 175 mm');
+    expect(getSpecificationReview('nexaro-nr-1500').fields.size.status).toBe('documented');
+    expect(getSpecificationReview('nexaro-nr-1500').sources[0].url).toContain('NR1500');
+    expect(review.sources[0].url).toContain('NR1700');
+  });
+
+  it('retains Nexaro runtime modes and partial charging windows rather than full-charge claims', () => {
+    for (const id of ['nexaro-nr-1500', 'nexaro-nr-1700']) {
+      const fields = getSpecificationReview(id).fields;
+      expect(fields.batteryLife.value).toContain(
+        '110 min Balanced; 105 min Performance (hard floor)',
+      );
+      expect(fields.chargingTime.value).toContain('95 min (15–85%); 120 min (15–95%)');
+      expect(fields.releaseDate.value).toBe('');
+      expect(fields.price.value).toBe('');
+    }
+  });
+
   it('separates BG1 speed from Pro and retains the charging-voltage boundary ambiguity', () => {
     const robots = new Map(getAllRobots().allRobots.map((r) => [r.id, r]));
     expect(robots.get('pudu-robotics-pudu-bg1').speed).toBe('0.2-1.0 m/s');
@@ -377,9 +411,9 @@ describe('field-specific primary-source reviews', () => {
 
   it('reports reviewed fields separately from whole-model certification', () => {
     const coverage = getSpecificationReviewCoverage();
-    expect(coverage.reviewedCatalogModels).toBe(838);
-    expect(coverage.reviewedFields).toBe(14087);
-    expect(coverage.fieldStatuses.conflicting).toBe(256);
+    expect(coverage.reviewedCatalogModels).toBe(840);
+    expect(coverage.reviewedFields).toBe(14127);
+    expect(coverage.fieldStatuses.conflicting).toBe(257);
     expect(coverage.scope).toContain('unmarked fields remain unverified');
     expect(getSpecificationReview('unitree-go2-w').fields.weight.status).toBe('documented');
     expect(getSpecificationReview('unitree-go2-pro').fields.speed.value).toBe('0-3.5 m/s');

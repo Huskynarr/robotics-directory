@@ -89036,6 +89036,268 @@
           "note": "Explicit operating aisle condition for the named configuration; future narrower-aisle development is not present capability."
         }
       }
+    },
+    {
+      "robotId": "nexaro-nr-1500",
+      "manufacturer": "Nexaro",
+      "model": "NR 1500",
+      "sources": [
+        {
+          "name": "Nexaro — NR 1500 technical datasheet, August 2025, English",
+          "type": "manufacturer",
+          "url": "https://downloads.nexaro.com/public.php/dav/files/dpzjWpfESrLTppY/Nexaro_Product_Datasheet_NR1500_EN.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Nexaro — NR 1500 technical datasheet, August 2025, German",
+          "type": "manufacturer",
+          "url": "https://downloads.nexaro.com/public.php/dav/files/dpzjWpfESrLTppY/Nexaro_Produktdatenblatt_NR1500_DE.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Nexaro — official product document download index",
+          "type": "manufacturer",
+          "url": "https://nexaro.com/en/pages/downloads",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-100/source-7.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The NR 1700 page displays EUR 2,990.90 with taxes and shipping calculated at checkout and an included 36-month Pro.Multi license. No unambiguous total delivered price/tax treatment or current NR 1500 offer established; price omitted rather than assigned to a bare robot."
+        },
+        "weight": {
+          "value": "6.5 kg",
+          "status": "documented",
+          "note": "Robot vacuum mass only: 6.5 kg. The separate 1.5 kg docking station and accessory weights are not added or treated as robot payload."
+        },
+        "size": {
+          "value": "343 x 343 x 175 mm",
+          "status": "documented",
+          "note": "NR 1500 named-model body dimensions in both August 2025 language editions, excluding the separate 410 × 360 × 200 mm docking station."
+        },
+        "batteryLife": {
+          "value": "250 min Eco; 110 min Balanced; 105 min Performance (hard floor)",
+          "status": "documented",
+          "note": "All three runtime figures are measured on hard floor in the named model datasheet: Eco 250 min, Balanced 110 min, Performance 105 min. These are mode-specific manufacturer figures; continuous operation includes charging interruptions."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No additional unconditional maximum runtime established. The mode-specific figures remain in batteryLife; automatic recharging and 24/7 fleet availability are not battery-only endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric articulated joint count established for the named vacuum cleaner."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot transport/manipulation payload rating established. A 1.4 L dustbin capacity is not a carried mass or liquid tank."
+        },
+        "speed": {
+          "value": "Up to 0.3 m/s",
+          "status": "documented",
+          "note": "Maximum travel speed 0.3 m/s in the named datasheet. Area cleaning and mapping rates are separate dimensions."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established in the selected manufacturer documents. Commercial-use/certification positioning is not an ingress code."
+        },
+        "chargingTime": {
+          "value": "Approx. 95 min (15–85%); 120 min (15–95%)",
+          "status": "documented",
+          "note": "Approximate charging windows are 15–85% in 95 min and 15–95% in 120 min. Neither is a specified 0–100% full charge; automatic return to dock is a separate behavior."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulation hand or gripper configuration established for the named vacuum cleaner."
+        },
+        "website": {
+          "value": "https://downloads.nexaro.com/public.php/dav/files/dpzjWpfESrLTppY/Nexaro_Product_Datasheet_NR1500_EN.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved exact-model manufacturer datasheet from the public share linked by the manufacturer download index. The legacy NR 1500 product redirect to NR 1700 is not identity proof."
+        },
+        "description": {
+          "value": "Commercial robot vacuum NR 1500 with a 1.4 L dustbin, washable HEPA H13 filter and laser-assisted navigation. Its datasheet specifies a maximum 400 m² cleaning area, up to 300 m²/h mapping and up to 100 m²/h cleaning; those rates describe different tasks. The area rating requires a maximum 35 m dock distance and featureless open spaces no larger than 6 x 6 m. Runtime on hard floor is 250/110/105 minutes in Eco/Balanced/Performance modes. Nexaro HUB Pro.Multi supports coordinated fleet management; multi-floor software management does not establish autonomous stair or elevator use. The legacy product-page redirect to NR 1700 does not merge the two model identities.",
+          "status": "documented",
+          "note": "Synthesis of named-model manufacturer technical documentation with conditions retained. Certification, cleaning quality, cost savings and data-protection statements remain manufacturer positioning, not an independent audit or exclusive advantage."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Document status dates August/February 2025 are specification revision context, not first-release evidence. No exact launch year established by these selected sources."
+        },
+        "terrain": {
+          "value": "Hard-floor runtime; carpet sound-pressure measurement",
+          "status": "documented",
+          "note": "Hard-floor runtime measurements and carpet noise measurements are explicitly scoped; no wet cleaning, outdoor, slope or obstacle-traversal rating established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Commercial/facility use does not establish a chronological user age rating."
+        },
+        "workingWidth": {
+          "value": "280 mm",
+          "status": "documented",
+          "note": "280 mm cleaning width in the named-model datasheet, separate from body width and the dock footprint."
+        },
+        "areaRate": {
+          "value": "Up to 100 m²/h (layout, furnishings, flooring and soiling dependent)",
+          "status": "documented",
+          "note": "Maximum cleaning rate 100 m²/h depends on floor plan, furnishings, flooring and soiling. Mapping rate is a separate task and is not substituted as cleaning output."
+        },
+        "waterTankCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No liquid tank volume established. The 1.4 L dustbin with suction opening is a dry-debris container, not a water tank specification."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical minimum operating aisle width established. Body width, allowable featureless area and dock distance do not establish required aisle clearance."
+        }
+      }
+    },
+    {
+      "robotId": "nexaro-nr-1700",
+      "manufacturer": "Nexaro",
+      "model": "NR 1700",
+      "sources": [
+        {
+          "name": "Nexaro — NR 1700 technical datasheet, February 2025, English",
+          "type": "manufacturer",
+          "url": "https://downloads.nexaro.com/public.php/dav/files/dpzjWpfESrLTppY/Nexaro_Product_Datasheet_NR1700_EN.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Nexaro — NR 1700 technical datasheet, February 2025, German",
+          "type": "manufacturer",
+          "url": "https://downloads.nexaro.com/public.php/dav/files/dpzjWpfESrLTppY/Nexaro_Produktdatenblatt_NR1700_DE.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Nexaro — NR 1700 shop page reached through legacy NR 1500 redirect",
+          "type": "manufacturer",
+          "url": "https://nexaro.com/en/products/nr1700",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Nexaro — HUB features and license scope",
+          "type": "manufacturer",
+          "url": "https://nexaro.com/en/pages/hub-zentrale-software",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-100/source-8.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The NR 1700 page displays EUR 2,990.90 with taxes and shipping calculated at checkout and an included 36-month Pro.Multi license. No unambiguous total delivered price/tax treatment or current NR 1500 offer established; price omitted rather than assigned to a bare robot."
+        },
+        "weight": {
+          "value": "6.5 kg",
+          "status": "documented",
+          "note": "Robot vacuum mass only: 6.5 kg. The separate 1.5 kg docking station and accessory weights are not added or treated as robot payload."
+        },
+        "size": {
+          "value": "346 x 344 x 173 mm (EN/DE datasheets); shop: 343 x 343 x 175 mm",
+          "status": "conflicting",
+          "note": "English and German February 2025 NR 1700 technical sheets agree on 346 × 344 × 173 mm. The successful shop response reached via legacy NR 1500 redirect states 34.3 × 34.3 × 17.5 cm (=343 × 343 × 175 mm). Neither source is silently discarded; no unseen drawing or corrected revision is inferred."
+        },
+        "batteryLife": {
+          "value": "250 min Eco; 110 min Balanced; 105 min Performance (hard floor)",
+          "status": "documented",
+          "note": "All three runtime figures are measured on hard floor in the named model datasheet: Eco 250 min, Balanced 110 min, Performance 105 min. These are mode-specific manufacturer figures; continuous operation includes charging interruptions."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No additional unconditional maximum runtime established. The mode-specific figures remain in batteryLife; automatic recharging and 24/7 fleet availability are not battery-only endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric articulated joint count established for the named vacuum cleaner."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robot transport/manipulation payload rating established. A 1.4 L dustbin capacity is not a carried mass or liquid tank."
+        },
+        "speed": {
+          "value": "Up to 0.3 m/s",
+          "status": "documented",
+          "note": "Maximum travel speed 0.3 m/s in the named datasheet. Area cleaning and mapping rates are separate dimensions."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established in the selected manufacturer documents. Commercial-use/certification positioning is not an ingress code."
+        },
+        "chargingTime": {
+          "value": "Approx. 95 min (15–85%); 120 min (15–95%)",
+          "status": "documented",
+          "note": "Approximate charging windows are 15–85% in 95 min and 15–95% in 120 min. Neither is a specified 0–100% full charge; automatic return to dock is a separate behavior."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulation hand or gripper configuration established for the named vacuum cleaner."
+        },
+        "website": {
+          "value": "https://downloads.nexaro.com/public.php/dav/files/dpzjWpfESrLTppY/Nexaro_Product_Datasheet_NR1700_EN.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved exact-model manufacturer datasheet from the public share linked by the manufacturer download index. The legacy NR 1500 product redirect to NR 1700 is not identity proof."
+        },
+        "description": {
+          "value": "Commercial robot vacuum NR 1700 with a 1.4 L dustbin, washable HEPA H13 filter and laser-assisted navigation. Its datasheet specifies a maximum 1,000 m² cleaning area, up to 600 m²/h mapping and up to 100 m²/h cleaning; those rates describe different tasks. The area rating requires a maximum 35 m dock distance and featureless open spaces no larger than 12 x 12 m. Runtime on hard floor is 250/110/105 minutes in Eco/Balanced/Performance modes. Nexaro HUB Pro.Multi supports coordinated fleet management; multi-floor software management does not establish autonomous stair or elevator use. The English and German technical sheets specify 346 x 344 x 173 mm, while the current shop states 343 x 343 x 175 mm; this body-size disagreement remains explicit.",
+          "status": "documented",
+          "note": "Synthesis of named-model manufacturer technical documentation with conditions retained. Certification, cleaning quality, cost savings and data-protection statements remain manufacturer positioning, not an independent audit or exclusive advantage."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Document status dates August/February 2025 are specification revision context, not first-release evidence. No exact launch year established by these selected sources."
+        },
+        "terrain": {
+          "value": "Hard-floor runtime; carpet sound-pressure measurement",
+          "status": "documented",
+          "note": "Hard-floor runtime measurements and carpet noise measurements are explicitly scoped; no wet cleaning, outdoor, slope or obstacle-traversal rating established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Commercial/facility use does not establish a chronological user age rating."
+        },
+        "workingWidth": {
+          "value": "280 mm",
+          "status": "documented",
+          "note": "280 mm cleaning width in the named-model datasheet, separate from body width and the dock footprint."
+        },
+        "areaRate": {
+          "value": "Up to 100 m²/h (layout, furnishings, flooring and soiling dependent)",
+          "status": "documented",
+          "note": "Maximum cleaning rate 100 m²/h depends on floor plan, furnishings, flooring and soiling. Mapping rate is a separate task and is not substituted as cleaning output."
+        },
+        "waterTankCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No liquid tank volume established. The 1.4 L dustbin with suction opening is a dry-debris container, not a water tank specification."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical minimum operating aisle width established. Body width, allowable featureless area and dock distance do not establish required aisle clearance."
+        }
+      }
     }
   ]
 }
