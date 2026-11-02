@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,040 catalog rows**, with 644 exact
-manufacturer spellings. Batch 91 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 92 refreshed the separate heuristic gap file offline
 against all 2,040 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -70,8 +70,8 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 933 dated records across the catalog, including
-147 existing-model enrichments and 786 task additions. All 430 catalog models
+Current product-highlight coverage: 935 dated records across the catalog, including
+149 existing-model enrichments and 786 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
 The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 786 task additions, totaling 2,040.
 This is separate from identity/family resolution. The model-review export now
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 372 have selected-field reviews and 146 await those reviews. Family and
+highlights; 374 have selected-field reviews and 144 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 12,770 fields across 766 catalog models: 5,552 documented,
-6,915 not documented, 250 conflicting and fifty-three roadmap fields. They do not certify whole
+Selected specification checks cover 12,838 fields across 770 catalog models: 5,573 documented,
+6,962 not documented, 250 conflicting and fifty-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -5293,3 +5293,78 @@ Feldprüfseiten geprüft. Initial fehlendes Plus im Pepper+-Slug, doppelte
 Profilgenerierung und ein Datumsleerzeichen vor finaler Prüfung korrigiert.
 Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-91-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – 1X Technologies (Batch 92)
+
+Vier vorhandene Modelle geprüft: NEO, NEO Beta, NEO Gamma und EVE. 68 Felder:
+21 dokumentiert, 47 unbekannt. Keine neuen Modellkarten. Beta/Gamma erhalten
+zwei zusätzliche datierte Merkmalsbelege für Bestandsmodelle; ein Firmenfokus
+ergänzt. 2036 unbeteiligte CSV-Zeilen, 766 frühere Feldprüfungen, 86 Firmenfokusse,
+alle Firmenprofile/Aliasse und 1961 Quellenidentitäten bleiben unverändert.
+Keine CSV-Spalten oder Kategorieverschiebungen.
+
+NEO: Einführung am 28. Oktober 2025 getrennt von Beta 2024, Gamma 2025 und dem
+geplanten Kunden-Lieferbeginn 2026. US-Angebot: 20.000 USD Early-Access-Kauf,
+499 USD Monatsabo, 200 USD rückerstattbare Reservierungsanzahlung. Kein
+allgemeines strukturiertes Lager-Kaufangebot. 66 lb Masse, 5 ft 6 in Höhe;
+55 lb Tragen, 154 lb Heben und 18 lb Armlast bleiben verschiedene Größen.
+1,4 m/s Gehen, 6,2 m/s maximales Laufen und 8 m/s Handgeschwindigkeit werden nicht
+vermischt. Vier Stunden Betrieb ohne belegtes gemessenes Maximum. Sechs Minuten
+Laden je Stunde Betrieb sind keine volle Ladezeit. 842 Wh Hardwaretabelle und
+0,75 kWh Kosten-FAQ bleiben eine offene Kapazitäts-/Revisionsabweichung.
+
+Die neuere Handunterlage zählt 25 DOF als 22 in Fingern/Handfläche plus drei im
+Handgelenk. Kein zusätzlicher Modell-Datensatz, kein ungeklärter 22/25-Konflikt
+und keine doppelte Addition von Handgelenken in eine Roboter-Gesamtsumme.
+IP68 gilt den Händen, IP44 dem Körper; laut FAQ ist der ganze Roboter nicht
+wasserdicht. Fingertippgenauigkeit ist keine Armwiederholgenauigkeit. Expert-
+Sitzungen werden laut öffentlicher FAQ vom Besitzer geplant/akzeptiert;
+anfängliche Kochfunktionen bleiben eingeschränkt. Kapazitäts-/Fabrikaussagen
+belegen keine erfolgte Kundenauslieferung oder unabhängige Sicherheitsprüfung.
+
+NEO Beta: Ankündigung vom 30. August 2024 bezeichnet ihn als Prototyp für
+begrenzte Forschung in ausgewählten Haushalten. Der Kochfilm vom 8. November 2024
+verwendete VR-Teleoperation, gefilterte Sprachübertragung und menschliche Hilfe
+zum Einschalten des Brenners. Keine autonome Kochleistung daraus abgeleitet.
+NEO Gamma: Einführung 21. Februar 2025, interne Heimtests, 100-Hz-Körperregler,
+neues Audio-/Kleidungsdesign. Der NVIDIA-Forschungsbericht vom 18. März 2025
+beschreibt eine konkrete Tassen-/Spülmaschinenaufgabe mit 5-Hz-Sicht-Aktionsschleife
+und möglicher On-/Offboard-Inferenz. Keine Übertragung auf jede Alltagssituation.
+Unbelegte 75.000-USD-Preise und numerische Altangaben bei Beta/Gamma entfernt.
+
+EVE: Firmenzeitachse belegt Fabrikeinsätze 2022. Der 2018-Eintrag betrifft den
+Revo1-Motor und belegt kein erstes EVE-Erscheinungsjahr. Aktuelle EVE-/Flottenseiten
+sind Anfrage-/Partnerformulare, keine technischen Datenblätter oder Lagerbelege.
+Alte Masse, Geschwindigkeit, Last und Laufzeit sind durch diese ausgewählten
+Quellen nicht bestätigt; NEO-Werte werden nicht übernommen. Komponenten,
+AI-Modelle, Software, Miet-/Kaufpläne und Farben erzeugen keine weiteren Roboter.
+
+26 Quellenversuche: 16 HTTP200, zwei vorübergehende DNS-Fehler, acht 404.
+HTML-Text und öffentlich ausgelieferte FAQ-Hydrationsdaten geprüft; keine PDFs.
+Ein optionaler externer Browserversuch fand die FAQ-Schaltfläche nicht vor
+Zeitablauf und wurde geschlossen. Keine erfolgreiche Live-FAQ-Darstellung
+behauptet. Keine Formulare oder Käufe ausgelöst, kein 429, keine bekannten
+blockierten Hosts wiederholt. Historische/regionale Vollständigkeit, heutige
+Lieferbarkeit und unabhängige Sicherheits-/Leistungswerte bleiben offen.
+
+Aktuell: 2040 Katalogeinträge, 644 exakte Herstellernamen, 1036 Profile,
+633 mit/403 ohne Modelle. 935 Merkmalsdatensätze (786 Ergänzungen/149 bestehende
+Anreicherungen), 4065 Aussagen, 1786 Produkt-Quellenreferenzen. 87 Firmenfokusse
+auf 83 der 591 Quellen-Firmengruppen. 12838 Felder auf 770 Modellseiten:
+5573 dokumentiert, 6962 unbekannt, 250 widersprüchlich, 53 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 374 Feldprüfungen, 144 warten. 6150 Zielfelder:
+2800 dokumentiert, 3184 unbekannt, 156 widersprüchlich, zehn Roadmap.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben
+offen. Vollständigkeit und Marktführerschaft sind weiterhin unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte lokale Browserfälle
+bestanden (16 1X, 18 Vergleich, einschließlich acht Axe-Läufen). Build: 3090 Seiten,
+ca. 478 MB. Audit: null Fehler/927 Warnungen; das nicht belegte EVE-Erstjahr
+entfällt und erzeugt eine zusätzliche Warnung. Lint, Format, Import-Trockenlauf
+null Ergänzungen, Offline-Refresh, vier Modellseiten/Quellen-/Exporttransport
+sowie alle 770 gerenderten Feldprüfseiten geprüft. Der erste Scratch-Abgleich
+fand veraltete abgeleitete Produktmerkmale nach einem Import-Trockenlauf;
+explizites Importieren, Refresh und neue Manifeste korrigierten das vor finalen
+Prüfungen. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-92-evidence.json`.

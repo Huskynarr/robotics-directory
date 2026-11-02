@@ -17,12 +17,12 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
 | Eigener Katalog vorher / nachher | 1.255 / 2.040 Modelle/Konfigurationen |
 | Neue Modelle mit Primärbelegen und Produktmerkmalen | 786 |
-| Datierte Produktmerkmal-Datensätze einschließlich 147 bestehender Modelle | 933 |
+| Datierte Produktmerkmal-Datensätze einschließlich 149 bestehender Modelle | 935 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 86 |
+| Firmenfokus-Prüfungen mit Quellen | 87 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 786 ergänzte Modelle ergeben 2.040 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-86 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+87 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 933 Datensätze
+Modellseiten verlinken Markenprofile. Die 935 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 372 haben ausgewählte Datenfeldprüfungen und 146
+haben datierte Merkmalsbelege; 374 haben ausgewählte Datenfeldprüfungen und 144
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -7528,3 +7528,78 @@ Feldprüfseiten geprüft. Initial fehlendes Plus im Pepper+-Slug, doppelte
 Profilgenerierung und ein Datumsleerzeichen vor finaler Prüfung korrigiert.
 Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-91-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – 1X Technologies (Batch 92)
+
+Vier vorhandene Modelle geprüft: NEO, NEO Beta, NEO Gamma und EVE. 68 Felder:
+21 dokumentiert, 47 unbekannt. Keine neuen Modellkarten. Beta/Gamma erhalten
+zwei zusätzliche datierte Merkmalsbelege für Bestandsmodelle; ein Firmenfokus
+ergänzt. 2036 unbeteiligte CSV-Zeilen, 766 frühere Feldprüfungen, 86 Firmenfokusse,
+alle Firmenprofile/Aliasse und 1961 Quellenidentitäten bleiben unverändert.
+Keine CSV-Spalten oder Kategorieverschiebungen.
+
+NEO: Einführung am 28. Oktober 2025 getrennt von Beta 2024, Gamma 2025 und dem
+geplanten Kunden-Lieferbeginn 2026. US-Angebot: 20.000 USD Early-Access-Kauf,
+499 USD Monatsabo, 200 USD rückerstattbare Reservierungsanzahlung. Kein
+allgemeines strukturiertes Lager-Kaufangebot. 66 lb Masse, 5 ft 6 in Höhe;
+55 lb Tragen, 154 lb Heben und 18 lb Armlast bleiben verschiedene Größen.
+1,4 m/s Gehen, 6,2 m/s maximales Laufen und 8 m/s Handgeschwindigkeit werden nicht
+vermischt. Vier Stunden Betrieb ohne belegtes gemessenes Maximum. Sechs Minuten
+Laden je Stunde Betrieb sind keine volle Ladezeit. 842 Wh Hardwaretabelle und
+0,75 kWh Kosten-FAQ bleiben eine offene Kapazitäts-/Revisionsabweichung.
+
+Die neuere Handunterlage zählt 25 DOF als 22 in Fingern/Handfläche plus drei im
+Handgelenk. Kein zusätzlicher Modell-Datensatz, kein ungeklärter 22/25-Konflikt
+und keine doppelte Addition von Handgelenken in eine Roboter-Gesamtsumme.
+IP68 gilt den Händen, IP44 dem Körper; laut FAQ ist der ganze Roboter nicht
+wasserdicht. Fingertippgenauigkeit ist keine Armwiederholgenauigkeit. Expert-
+Sitzungen werden laut öffentlicher FAQ vom Besitzer geplant/akzeptiert;
+anfängliche Kochfunktionen bleiben eingeschränkt. Kapazitäts-/Fabrikaussagen
+belegen keine erfolgte Kundenauslieferung oder unabhängige Sicherheitsprüfung.
+
+NEO Beta: Ankündigung vom 30. August 2024 bezeichnet ihn als Prototyp für
+begrenzte Forschung in ausgewählten Haushalten. Der Kochfilm vom 8. November 2024
+verwendete VR-Teleoperation, gefilterte Sprachübertragung und menschliche Hilfe
+zum Einschalten des Brenners. Keine autonome Kochleistung daraus abgeleitet.
+NEO Gamma: Einführung 21. Februar 2025, interne Heimtests, 100-Hz-Körperregler,
+neues Audio-/Kleidungsdesign. Der NVIDIA-Forschungsbericht vom 18. März 2025
+beschreibt eine konkrete Tassen-/Spülmaschinenaufgabe mit 5-Hz-Sicht-Aktionsschleife
+und möglicher On-/Offboard-Inferenz. Keine Übertragung auf jede Alltagssituation.
+Unbelegte 75.000-USD-Preise und numerische Altangaben bei Beta/Gamma entfernt.
+
+EVE: Firmenzeitachse belegt Fabrikeinsätze 2022. Der 2018-Eintrag betrifft den
+Revo1-Motor und belegt kein erstes EVE-Erscheinungsjahr. Aktuelle EVE-/Flottenseiten
+sind Anfrage-/Partnerformulare, keine technischen Datenblätter oder Lagerbelege.
+Alte Masse, Geschwindigkeit, Last und Laufzeit sind durch diese ausgewählten
+Quellen nicht bestätigt; NEO-Werte werden nicht übernommen. Komponenten,
+AI-Modelle, Software, Miet-/Kaufpläne und Farben erzeugen keine weiteren Roboter.
+
+26 Quellenversuche: 16 HTTP200, zwei vorübergehende DNS-Fehler, acht 404.
+HTML-Text und öffentlich ausgelieferte FAQ-Hydrationsdaten geprüft; keine PDFs.
+Ein optionaler externer Browserversuch fand die FAQ-Schaltfläche nicht vor
+Zeitablauf und wurde geschlossen. Keine erfolgreiche Live-FAQ-Darstellung
+behauptet. Keine Formulare oder Käufe ausgelöst, kein 429, keine bekannten
+blockierten Hosts wiederholt. Historische/regionale Vollständigkeit, heutige
+Lieferbarkeit und unabhängige Sicherheits-/Leistungswerte bleiben offen.
+
+Aktuell: 2040 Katalogeinträge, 644 exakte Herstellernamen, 1036 Profile,
+633 mit/403 ohne Modelle. 935 Merkmalsdatensätze (786 Ergänzungen/149 bestehende
+Anreicherungen), 4065 Aussagen, 1786 Produkt-Quellenreferenzen. 87 Firmenfokusse
+auf 83 der 591 Quellen-Firmengruppen. 12838 Felder auf 770 Modellseiten:
+5573 dokumentiert, 6962 unbekannt, 250 widersprüchlich, 53 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 374 Feldprüfungen, 144 warten. 6150 Zielfelder:
+2800 dokumentiert, 3184 unbekannt, 156 widersprüchlich, zehn Roadmap.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben
+offen. Vollständigkeit und Marktführerschaft sind weiterhin unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte lokale Browserfälle
+bestanden (16 1X, 18 Vergleich, einschließlich acht Axe-Läufen). Build: 3090 Seiten,
+ca. 478 MB. Audit: null Fehler/927 Warnungen; das nicht belegte EVE-Erstjahr
+entfällt und erzeugt eine zusätzliche Warnung. Lint, Format, Import-Trockenlauf
+null Ergänzungen, Offline-Refresh, vier Modellseiten/Quellen-/Exporttransport
+sowie alle 770 gerenderten Feldprüfseiten geprüft. Der erste Scratch-Abgleich
+fand veraltete abgeleitete Produktmerkmale nach einem Import-Trockenlauf;
+explizites Importieren, Refresh und neue Manifeste korrigierten das vor finalen
+Prüfungen. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-92-evidence.json`.
