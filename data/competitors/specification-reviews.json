@@ -74769,6 +74769,998 @@
           "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
         }
       }
+    },
+    {
+      "robotId": "ufactory-xarm-5",
+      "manufacturer": "UFACTORY",
+      "model": "xArm 5",
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/FI63GZHEZPW9.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/UD72FEF224J3.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/hardware/the-difference-between-ufactory-xarm5-xarm6-and-xarm7.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-21.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact named-model supplied-configuration price established. Family starting prices and historical catalog prices are not exact offers."
+        },
+        "weight": {
+          "value": "11.3 kg in current 1305 manual/sheet; support comparison 11.2 kg; revision mapping unresolved",
+          "status": "conflicting",
+          "note": "Current named xArm 5 column and 1305 manual: 11.3 kg arm only. Support comparison: 11.2 kg body only. A generation/configuration explanation is not established, so neither value is silently discarded."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Reach, base footprint, workspace plots, link dimensions and control-box dimensions do not establish a complete configured robot envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery runtime established; a DC power-supply/controller option is not an included battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-use duration established; 24/7 case-study prose is not an endurance test."
+        },
+        "payload": {
+          "value": "3 kg maximum; actual allowable load depends on TCP offset",
+          "status": "documented",
+          "note": "Manufacturer states maximum load; hardware manual explicitly relates payload to TCP offset. No numeric curve is transcribed from uninspected plots."
+        },
+        "speed": {
+          "value": "1 m/s maximum TCP linear speed; 180°/s maximum joint speed is separate",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating established for this named complete robot. A separate Gripper G2 IP40 row does not rate the robot body."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rechargeable battery package or full-charge interval established."
+        },
+        "dof": {
+          "value": "5 mechanical arm axes; Cartesian flexible motion limited to x/y/z/yaw per support guide",
+          "status": "documented",
+          "note": "Five mechanical joints and four flexible Cartesian controls are explicitly distinguished in the support article; xArm 5 Lite naming is not treated as a new independent SKU."
+        },
+        "handType": {
+          "value": "External flange tooling; gripper/vacuum/F-T sensor package not established",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "description": {
+          "value": "xArm 5 is the separately named 5-axis UFACTORY arm with 3 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Current 1305 documentation and the support comparison disagree on arm-only mass. Studio and open SDK/ROS interfaces support integration; tools, controller choice and installation-dependent collision detection retain their scope.",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "website": {
+          "value": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model launch year established. Family introduction in 2018, PDF upload paths, manual/firmware versions and SDK commit dates are not individual-model launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological operating-age limits established; education positioning is not an age rating."
+        },
+        "armReach": {
+          "value": "700 mm reach; not robot envelope or total span",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "armRepeatability": {
+          "value": "±0.1 mm manufacturer repeatability; not absolute accuracy",
+          "status": "documented",
+          "note": "Named model table and current manual both state ±0.1 mm. No independent load/pose/test-standard validation or absolute accuracy inferred."
+        }
+      }
+    },
+    {
+      "robotId": "ufactory-xarm-6",
+      "manufacturer": "UFACTORY",
+      "model": "xArm 6",
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/FI63GZHEZPW9.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/UD72FEF224J3.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/hardware/the-difference-between-ufactory-xarm5-xarm6-and-xarm7.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-21.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact named-model supplied-configuration price established. Family starting prices and historical catalog prices are not exact offers."
+        },
+        "weight": {
+          "value": "12.5 kg in current 1305 manual/sheet; support comparison 12.2 kg; revision mapping unresolved",
+          "status": "conflicting",
+          "note": "Current named xArm 6 column and 1305 manual: 12.5 kg arm only. Support comparison: 12.2 kg body only. A generation/configuration explanation is not established, so neither value is silently discarded."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Reach, base footprint, workspace plots, link dimensions and control-box dimensions do not establish a complete configured robot envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery runtime established; a DC power-supply/controller option is not an included battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-use duration established; 24/7 case-study prose is not an endurance test."
+        },
+        "payload": {
+          "value": "5 kg maximum; actual allowable load depends on TCP offset",
+          "status": "documented",
+          "note": "Manufacturer states maximum load; hardware manual explicitly relates payload to TCP offset. No numeric curve is transcribed from uninspected plots."
+        },
+        "speed": {
+          "value": "1 m/s maximum TCP linear speed; 180°/s maximum joint speed is separate",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating established for this named complete robot. A separate Gripper G2 IP40 row does not rate the robot body."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rechargeable battery package or full-charge interval established."
+        },
+        "dof": {
+          "value": "6 mechanical arm axes; tooling actuation is separate",
+          "status": "documented",
+          "note": "Named current model count; gripper and an added mobile-base motion do not add arm axes."
+        },
+        "handType": {
+          "value": "External flange tooling; gripper/vacuum/F-T sensor package not established",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "description": {
+          "value": "xArm 6 is the separately named 6-axis UFACTORY arm with 5 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Current 1305 documentation and the support comparison disagree on arm-only mass. Studio and open SDK/ROS interfaces support integration; tools, controller choice and installation-dependent collision detection retain their scope.",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "website": {
+          "value": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model launch year established. Family introduction in 2018, PDF upload paths, manual/firmware versions and SDK commit dates are not individual-model launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological operating-age limits established; education positioning is not an age rating."
+        },
+        "armReach": {
+          "value": "700 mm reach; not robot envelope or total span",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "armRepeatability": {
+          "value": "±0.1 mm manufacturer repeatability; not absolute accuracy",
+          "status": "documented",
+          "note": "Named model table and current manual both state ±0.1 mm. No independent load/pose/test-standard validation or absolute accuracy inferred."
+        }
+      }
+    },
+    {
+      "robotId": "ufactory-xarm-7",
+      "manufacturer": "UFACTORY",
+      "model": "xArm 7",
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/FI63GZHEZPW9.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/UD72FEF224J3.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/hardware/the-difference-between-ufactory-xarm5-xarm6-and-xarm7.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-21.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact named-model supplied-configuration price established. Family starting prices and historical catalog prices are not exact offers."
+        },
+        "weight": {
+          "value": "14.3 kg in current 1305 manual/sheet; support comparison 13.7 kg; revision mapping unresolved",
+          "status": "conflicting",
+          "note": "Current named xArm 7 column and 1305 manual: 14.3 kg arm only. Support comparison: 13.7 kg body only. A generation/configuration explanation is not established, so neither value is silently discarded."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Reach, base footprint, workspace plots, link dimensions and control-box dimensions do not establish a complete configured robot envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery runtime established; a DC power-supply/controller option is not an included battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-use duration established; 24/7 case-study prose is not an endurance test."
+        },
+        "payload": {
+          "value": "3.5 kg maximum; actual allowable load depends on TCP offset",
+          "status": "documented",
+          "note": "Manufacturer states maximum load; hardware manual explicitly relates payload to TCP offset. No numeric curve is transcribed from uninspected plots."
+        },
+        "speed": {
+          "value": "1 m/s maximum TCP linear speed; 180°/s maximum joint speed is separate",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating established for this named complete robot. A separate Gripper G2 IP40 row does not rate the robot body."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rechargeable battery package or full-charge interval established."
+        },
+        "dof": {
+          "value": "7 mechanical arm axes; tooling actuation is separate",
+          "status": "documented",
+          "note": "Named current model count; gripper and an added mobile-base motion do not add arm axes."
+        },
+        "handType": {
+          "value": "External flange tooling; gripper/vacuum/F-T sensor package not established",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "description": {
+          "value": "xArm 7 is the separately named 7-axis UFACTORY arm with 3.5 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Current 1305 documentation and the support comparison disagree on arm-only mass. Studio and open SDK/ROS interfaces support integration; tools, controller choice and installation-dependent collision detection retain their scope.",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "website": {
+          "value": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model launch year established. Family introduction in 2018, PDF upload paths, manual/firmware versions and SDK commit dates are not individual-model launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological operating-age limits established; education positioning is not an age rating."
+        },
+        "armReach": {
+          "value": "700 mm reach; not robot envelope or total span",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "armRepeatability": {
+          "value": "±0.1 mm manufacturer repeatability; not absolute accuracy",
+          "status": "documented",
+          "note": "Named model table and current manual both state ±0.1 mm. No independent load/pose/test-standard validation or absolute accuracy inferred."
+        }
+      }
+    },
+    {
+      "robotId": "ufactory-850",
+      "manufacturer": "UFACTORY",
+      "model": "850",
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/2FCS0NRFRH1H.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/JBHQWTRUIIW9.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/products/ufactory-850",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-19.pdf",
+      "fields": {
+        "price": {
+          "value": "From 8999 USD; supplied package not established",
+          "status": "documented",
+          "note": "Explicit product-page US$ starting amount, not a confirmed complete supplied package. Qualified price deliberately does not create a structured fixed Offer."
+        },
+        "weight": {
+          "value": "20 kg arm body only; external control box excluded",
+          "status": "documented",
+          "note": "Named 850 body-only value 20 kg. Controller manual 4.8/2.8 kg versus current sheet 3.8/2.5 kg are separate unresolved component revisions, not arm-weight conflicts."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Ø190 mm base footprint and separate external controller envelopes are not full robot dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery runtime established; a DC power-supply/controller option is not an included battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-use duration established; 24/7 case-study prose is not an endurance test."
+        },
+        "payload": {
+          "value": "5 kg maximum; tool/workpiece and TCP-offset conditions apply",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "speed": {
+          "value": "1 m/s maximum TCP linear speed; 180°/s joint speed is separate",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating established for this named complete robot. A separate Gripper G2 IP40 row does not rate the robot body."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rechargeable battery package or full-charge interval established."
+        },
+        "dof": {
+          "value": "6 mechanical arm axes; gripper actuation is separate",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "handType": {
+          "value": "External flange tooling; supplied gripper not established",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "description": {
+          "value": "UFACTORY 850 is a separately named six-axis arm with 5 kg maximum payload, 850 mm reach, 20 kg specified mass and ±0.02 mm repeatability. The 850 adds an integrated Gigabit Ethernet cable for camera/sensor connectivity and uses a separate AC/DC controller. Studio and SDK/ROS interfaces support integration; optional tools, collision-detection configuration and starting-price scope remain explicit.",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "website": {
+          "value": "https://www.ufactory.cc/products/ufactory-850",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model launch year established. Family introduction in 2018, PDF upload paths, manual/firmware versions and SDK commit dates are not individual-model launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological operating-age limits established; education positioning is not an age rating."
+        },
+        "armReach": {
+          "value": "850 mm reach; not complete envelope",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "armRepeatability": {
+          "value": "±0.02 mm manufacturer repeatability; not absolute accuracy",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        }
+      }
+    },
+    {
+      "robotId": "ufactory-lite-6",
+      "manufacturer": "UFACTORY",
+      "model": "Lite 6",
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/06UT34CQJCKS.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202607/YIRV9617BAJ6.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/products/ufactory-lite-6",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-20.pdf",
+      "fields": {
+        "price": {
+          "value": "From 2999 USD; supplied package not established",
+          "status": "documented",
+          "note": "Explicit product-page US$ starting amount, not a confirmed complete supplied package. Qualified price deliberately does not create a structured fixed Offer."
+        },
+        "weight": {
+          "value": "8 kg arm with integrated base control box; accessories excluded",
+          "status": "documented",
+          "note": "Named Lite 6 robot value 8 kg; integrated base control box described on product page. No accessory or mobile-platform mass added."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "130 × 140 mm base footprint only; full pose-dependent body envelope not established."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery runtime established; a DC power-supply/controller option is not an included battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-use duration established; 24/7 case-study prose is not an endurance test."
+        },
+        "payload": {
+          "value": "600 g maximum; tool/workpiece and TCP-offset conditions apply",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "speed": {
+          "value": "0.5 m/s maximum TCP linear speed; 180°/s joint speed is separate",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating established for this named complete robot. A separate Gripper G2 IP40 row does not rate the robot body."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rechargeable battery package or full-charge interval established."
+        },
+        "dof": {
+          "value": "6 mechanical arm axes; gripper actuation is separate",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "handType": {
+          "value": "External flange tooling; supplied gripper not established",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "description": {
+          "value": "UFACTORY Lite 6 is a separately named six-axis arm with 600 g maximum payload, 440 mm reach, 8 kg specified mass and ±0.5 mm repeatability. Lite 6 integrates the control box in its base and supports compact desktop automation and research. Studio and SDK/ROS interfaces support integration; optional tools, collision-detection configuration and starting-price scope remain explicit.",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "website": {
+          "value": "https://www.ufactory.cc/products/ufactory-lite-6",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model launch year established. Family introduction in 2018, PDF upload paths, manual/firmware versions and SDK commit dates are not individual-model launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological operating-age limits established; education positioning is not an age rating."
+        },
+        "armReach": {
+          "value": "440 mm reach; not complete envelope",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "armRepeatability": {
+          "value": "±0.5 mm manufacturer repeatability; not absolute accuracy",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        }
+      }
+    },
+    {
+      "robotId": "ufactory-uarm-swift-pro",
+      "manufacturer": "UFACTORY",
+      "model": "uArm Swift Pro",
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/SSX6I67F7W0N.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/QGEH1P4C3RG0.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/SwiftProForArduino/blob/develop/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/RosForSwiftAndSwiftPro/blob/master/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/uArm-Python-SDK/blob/2.0/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-17.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact named-model supplied-configuration price established. Family starting prices and historical catalog prices are not exact offers."
+        },
+        "weight": {
+          "value": "2.2 kg per developer specification",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "size": {
+          "value": "150 × 140 × 281 mm (L × W × H) per developer manual",
+          "status": "documented",
+          "note": "Developer manual p13 explicitly labels Dimension (L*W*H) 150mm*140mm*281mm; earlier catalog cm was a unit error."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery runtime established; a DC power-supply/controller option is not an included battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-use duration established; 24/7 case-study prose is not an endurance test."
+        },
+        "payload": {
+          "value": "500 g maximum in developer sheet; dynamic payload depends on configuration",
+          "status": "documented",
+          "note": "Named developer specification says maximum 500 g; dynamic payload diagram has a stated test condition but its image curve is not transcribed."
+        },
+        "speed": {
+          "value": "100 mm/s maximum per developer sheet; not 0.5 m/s",
+          "status": "documented",
+          "note": "Developer manual p13 Max. Speed 100mm/s; old catalog 0.5 m/s not supported. The SDK speed-factor note is not another measured tool speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating established for this named complete robot. A separate Gripper G2 IP40 row does not rate the robot body."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rechargeable battery package or full-charge interval established."
+        },
+        "dof": {
+          "value": "4 mechanical degrees of freedom per developer specification",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "handType": {
+          "value": "Interchangeable end tooling; specific supplied gripper package not established",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "description": {
+          "value": "uArm Swift Pro is the historical four-DOF UFACTORY desktop arm. Its developer specification gives 2.2 kg mass, 500 g maximum payload, 50–320 mm working range, 100 mm/s maximum speed, 0.2 mm repeatability and a 150 × 140 × 281 mm envelope. The available v4.10.2 user-manual release notes remove several earlier Studio workflows; older accessory and Bluetooth examples do not establish their current support.",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "website": {
+          "value": "https://www.ufactory.cc/upfiles/download/202606/QGEH1P4C3RG0.pdf",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model launch year established. Family introduction in 2018, PDF upload paths, manual/firmware versions and SDK commit dates are not individual-model launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological operating-age limits established; education positioning is not an age rating."
+        },
+        "armReach": {
+          "value": "50–320 mm working range per developer manual; not a full envelope",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "armRepeatability": {
+          "value": "0.2 mm manufacturer repeatability; no ± sign or absolute-accuracy claim",
+          "status": "documented",
+          "note": "Developer manual states 0.2mm without ±. It is not independent accuracy or an ISO-certified positioning result."
+        }
+      }
+    },
+    {
+      "robotId": "ufactory-uarm-swift",
+      "manufacturer": "UFACTORY",
+      "model": "uArm Swift",
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/uArm-Python-SDK/blob/2.0/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/RosForSwiftAndSwiftPro/blob/master/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-25.json",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact named-model supplied-configuration price established. Family starting prices and historical catalog prices are not exact offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Reach, base footprint, workspace plots, link dimensions and control-box dimensions do not establish a complete configured robot envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery runtime established; a DC power-supply/controller option is not an included battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-use duration established; 24/7 case-study prose is not an endurance test."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating established for this named complete robot. A separate Gripper G2 IP40 row does not rate the robot body."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rechargeable battery package or full-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "description": {
+          "value": "uArm Swift is a historical UFACTORY manipulator named separately from Swift Pro in the manufacturer-linked Python and ROS libraries. The repositories document robot control and separate Swift/SwiftPro configurations. Exact physical specifications, first launch, current availability and compatibility with later Studio releases were not established; Swift Pro mechanical values are not inherited.",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "website": {
+          "value": "https://github.com/uArm-Developer/uArm-Python-SDK/blob/2.0/README.md",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model launch year established. Family introduction in 2018, PDF upload paths, manual/firmware versions and SDK commit dates are not individual-model launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological operating-age limits established; education positioning is not an age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "armRepeatability": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        }
+      }
+    },
+    {
+      "robotId": "ufactory-uarm-metal",
+      "manufacturer": "UFACTORY",
+      "model": "uArm Metal",
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/pyuarm/blob/dev/README.rst",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/uArm-Python-SDK/blob/2.0/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-26.json",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact named-model supplied-configuration price established. Family starting prices and historical catalog prices are not exact offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Reach, base footprint, workspace plots, link dimensions and control-box dimensions do not establish a complete configured robot envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery runtime established; a DC power-supply/controller option is not an included battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-use duration established; 24/7 case-study prose is not an endurance test."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating established for this named complete robot. A separate Gripper G2 IP40 row does not rate the robot body."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rechargeable battery package or full-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "description": {
+          "value": "uArm Metal is the historical UFACTORY robot explicitly targeted by the separate pyuarm library. The manufacturer-linked project documents Python movement control, port detection, calibration and firmware-helper functionality, while directing Swift/SwiftPro users to a different SDK. Exact mechanical ratings, first launch and current sales status were not established.",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "website": {
+          "value": "https://github.com/uArm-Developer/pyuarm/blob/dev/README.rst",
+          "status": "documented",
+          "note": "Named-model manufacturer specification or documented workflow, with component scope retained; not independently measured."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model launch year established. Family introduction in 2018, PDF upload paths, manual/firmware versions and SDK commit dates are not individual-model launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological operating-age limits established; education positioning is not an age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        },
+        "armRepeatability": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model/configuration value established in the reviewed manufacturer sources; other model, controller, accessory or simulation values are not transferred."
+        }
+      }
     }
   ]
 }

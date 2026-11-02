@@ -11234,32 +11234,75 @@
         "manufacturer": "UFACTORY",
         "model": "xArm 5",
         "price": "Not disclosed",
-        "tags": "industrial;cobot;programmable;ros",
-        "website": "https://www.ufactory.cc/products/ufactory-xarm-series",
-        "description": "5-axis collaborative arm with 3 kg payload and 700 mm reach. Lightweight carbon-fiber construction and harmonic-drive actuation. UFACTORY Studio supports graphical programming and hand guiding; Python, C++ and ROS interfaces available.",
-        "dof": "5",
-        "payload": "3 kg",
-        "speed": "1 m/s (maximum TCP speed)",
-        "weight": "11.3 kg"
+        "weight": "11.3 kg in current 1305 manual/sheet; support comparison 11.2 kg; revision mapping unresolved",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "industrial;cobot;programmable;ros;dev-platform",
+        "handType": "External flange tooling; gripper/vacuum/F-T sensor package not established",
+        "dof": "5 mechanical arm axes; Cartesian flexible motion limited to x/y/z/yaw per support guide",
+        "payload": "3 kg maximum; actual allowable load depends on TCP offset",
+        "speed": "1 m/s maximum TCP linear speed; 180°/s maximum joint speed is separate",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "xArm 5 is the separately named 5-axis UFACTORY arm with 3 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Current 1305 documentation and the support comparison disagree on arm-only mass. Studio and open SDK/ROS interfaces support integration; tools, controller choice and installation-dependent collision detection retain their scope.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "700 mm reach; not robot envelope or total span",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.1 mm manufacturer repeatability; not absolute accuracy"
       },
       "highlights": [
-        "5-axis collaborative arm with 3 kg payload and 700 mm reach",
-        "Lightweight carbon-fiber construction and harmonic-drive actuation",
-        "UFACTORY Studio supports graphical programming and hand guiding; Python, C++ and ROS interfaces available"
+        "Named xArm 5 has 5 arm axes, 3 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Joint angular speed 180°/s is a separate measurement; repeatability is not absolute positioning accuracy.",
+        "Current named-model table and 1305 hardware manual give 11.3 kg arm-only mass. The support comparison instead gives 11.2 kg; exact historical revision/configuration mapping is not established, so the discrepancy is retained.",
+        "The support article calls its five-axis column xArm 5 Lite and explicitly limits flexible Cartesian control to x/y/z/yaw with the flange parallel to the base. Five mechanical axes do not imply arbitrary six-dimensional poses; no duplicate Lite hardware card is inferred.",
+        "Python/C++ SDKs, ROS/ROS 2, hand-guided teaching and browser-hosted UFACTORY Studio support integration. Simulation compatibility, external vision, grippers and a six-axis force/torque sensor remain separate software/tooling options.",
+        "Collision detection compares measured joint current with a dynamic model. Payload, center of mass, mounting direction and friction parameters affect triggering; this is not an included six-axis force sensor or an independently certified contact-force limit.",
+        "Current 1305 model codes are XF1305, XI1305 and XS1305. Controller masses/dimensions and Gripper G2 IP40 remain component data; the family’s 2018 introduction and varying starting prices do not establish this model’s first sale year or exact package price."
       ],
       "sources": [
         {
-          "name": "UFACTORY",
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/FI63GZHEZPW9.pdf",
           "type": "manufacturer",
-          "url": "https://www.ufactory.cc/products/ufactory-xarm-series",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/UD72FEF224J3.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/hardware/the-difference-between-ufactory-xarm5-xarm6-and-xarm7.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-21.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/12ec9729-cae7-4f07-b5da-a12ae7c5cc83"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-5/ufactory.cc-xarm-collaborative-robot.json",
-      "reviewNotes": "OrionStar links to UFACTORY as the manufacturer. Existing xArm 6 row is retained; its legacy 12.2 kg mass differs from the current page 12.5 kg, so the reviewed record does not assign a replacement mass. The preceding unrelated 850 mm / 20 kg specification block is not applied. External force/torque sensor is optional."
+      "reviewNotes": "Eight selected UFACTORY models reviewed with current named three-model and five-model matrices, 1305/manual component scopes, historical uArm developer specifications and manufacturer-linked SDK identities. Current xArm versus support-table mass discrepancies remain qualified. Base footprints and controller/gripper values are not full robot dimensions/ratings. Swift Pro centimetre and speed errors corrected; available v4.10.2 release notes remove older Studio workflows. Swift/Metal mechanical values and current support remain unknown. No certified safe installation, exact supplied offer or exhaustive historical/regional lineup claimed."
     },
     {
       "row": {
@@ -11267,31 +11310,75 @@
         "manufacturer": "UFACTORY",
         "model": "xArm 6",
         "price": "Not disclosed",
-        "tags": "industrial;cobot;programmable;ros",
-        "website": "https://www.ufactory.cc/products/ufactory-xarm-series",
-        "description": "6-axis collaborative arm with 5 kg payload and 700 mm reach. Lightweight carbon-fiber construction and harmonic-drive actuation. UFACTORY Studio supports graphical programming and hand guiding; Python, C++ and ROS interfaces available.",
-        "dof": "6",
-        "payload": "5 kg",
-        "speed": "1 m/s (maximum TCP speed)"
+        "weight": "12.5 kg in current 1305 manual/sheet; support comparison 12.2 kg; revision mapping unresolved",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "industrial;cobot;programmable;ros;dev-platform",
+        "handType": "External flange tooling; gripper/vacuum/F-T sensor package not established",
+        "dof": "6 mechanical arm axes; tooling actuation is separate",
+        "payload": "5 kg maximum; actual allowable load depends on TCP offset",
+        "speed": "1 m/s maximum TCP linear speed; 180°/s maximum joint speed is separate",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+        "image": "images/robotic-arm/ufactory-xarm-6.webp",
+        "video": "",
+        "gallery": "",
+        "description": "xArm 6 is the separately named 6-axis UFACTORY arm with 5 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Current 1305 documentation and the support comparison disagree on arm-only mass. Studio and open SDK/ROS interfaces support integration; tools, controller choice and installation-dependent collision detection retain their scope.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "700 mm reach; not robot envelope or total span",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.1 mm manufacturer repeatability; not absolute accuracy"
       },
       "highlights": [
-        "6-axis collaborative arm with 5 kg payload and 700 mm reach",
-        "Lightweight carbon-fiber construction and harmonic-drive actuation",
-        "UFACTORY Studio supports graphical programming and hand guiding; Python, C++ and ROS interfaces available"
+        "Named xArm 6 has 6 arm axes, 5 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Joint angular speed 180°/s is a separate measurement; repeatability is not absolute positioning accuracy.",
+        "Current named-model table and 1305 hardware manual give 12.5 kg arm-only mass. The support comparison instead gives 12.2 kg; exact historical revision/configuration mapping is not established, so the discrepancy is retained.",
+        "The named 6-axis arm remains distinct from other xArm variants, UFACTORY 850 and Lite 6. Shared comparison blocks do not transfer 850 mm reach, 20 kg mass or integrated Lite-base specifications.",
+        "Python/C++ SDKs, ROS/ROS 2, hand-guided teaching and browser-hosted UFACTORY Studio support integration. Simulation compatibility, external vision, grippers and a six-axis force/torque sensor remain separate software/tooling options.",
+        "Collision detection compares measured joint current with a dynamic model. Payload, center of mass, mounting direction and friction parameters affect triggering; this is not an included six-axis force sensor or an independently certified contact-force limit.",
+        "Current 1305 model codes are XF1305, XI1305 and XS1305. Controller masses/dimensions and Gripper G2 IP40 remain component data; the family’s 2018 introduction and varying starting prices do not establish this model’s first sale year or exact package price."
       ],
       "sources": [
         {
-          "name": "UFACTORY",
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/FI63GZHEZPW9.pdf",
           "type": "manufacturer",
-          "url": "https://www.ufactory.cc/products/ufactory-xarm-series",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/UD72FEF224J3.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/hardware/the-difference-between-ufactory-xarm5-xarm6-and-xarm7.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-21.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/12ec9729-cae7-4f07-b5da-a12ae7c5cc83"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-5/ufactory.cc-xarm-collaborative-robot.json",
-      "reviewNotes": "OrionStar links to UFACTORY as the manufacturer. Existing xArm 6 row is retained; its legacy 12.2 kg mass differs from the current page 12.5 kg, so the reviewed record does not assign a replacement mass. The preceding unrelated 850 mm / 20 kg specification block is not applied. External force/torque sensor is optional."
+      "reviewNotes": "Eight selected UFACTORY models reviewed with current named three-model and five-model matrices, 1305/manual component scopes, historical uArm developer specifications and manufacturer-linked SDK identities. Current xArm versus support-table mass discrepancies remain qualified. Base footprints and controller/gripper values are not full robot dimensions/ratings. Swift Pro centimetre and speed errors corrected; available v4.10.2 release notes remove older Studio workflows. Swift/Metal mechanical values and current support remain unknown. No certified safe installation, exact supplied offer or exhaustive historical/regional lineup claimed."
     },
     {
       "row": {
@@ -11299,32 +11386,75 @@
         "manufacturer": "UFACTORY",
         "model": "xArm 7",
         "price": "Not disclosed",
-        "tags": "industrial;cobot;programmable;ros",
-        "website": "https://www.ufactory.cc/products/ufactory-xarm-series",
-        "description": "7-axis collaborative arm with 3.5 kg payload and 700 mm reach. Lightweight carbon-fiber construction and harmonic-drive actuation. UFACTORY Studio supports graphical programming and hand guiding; Python, C++ and ROS interfaces available.",
-        "dof": "7",
-        "payload": "3.5 kg",
-        "speed": "1 m/s (maximum TCP speed)",
-        "weight": "14.3 kg"
+        "weight": "14.3 kg in current 1305 manual/sheet; support comparison 13.7 kg; revision mapping unresolved",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "industrial;cobot;programmable;ros;dev-platform",
+        "handType": "External flange tooling; gripper/vacuum/F-T sensor package not established",
+        "dof": "7 mechanical arm axes; tooling actuation is separate",
+        "payload": "3.5 kg maximum; actual allowable load depends on TCP offset",
+        "speed": "1 m/s maximum TCP linear speed; 180°/s maximum joint speed is separate",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "xArm 7 is the separately named 7-axis UFACTORY arm with 3.5 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Current 1305 documentation and the support comparison disagree on arm-only mass. Studio and open SDK/ROS interfaces support integration; tools, controller choice and installation-dependent collision detection retain their scope.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "700 mm reach; not robot envelope or total span",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.1 mm manufacturer repeatability; not absolute accuracy"
       },
       "highlights": [
-        "7-axis collaborative arm with 3.5 kg payload and 700 mm reach",
-        "Lightweight carbon-fiber construction and harmonic-drive actuation",
-        "UFACTORY Studio supports graphical programming and hand guiding; Python, C++ and ROS interfaces available"
+        "Named xArm 7 has 7 arm axes, 3.5 kg maximum payload, 700 mm reach, 1 m/s maximum TCP speed and ±0.1 mm repeatability. Joint angular speed 180°/s is a separate measurement; repeatability is not absolute positioning accuracy.",
+        "Current named-model table and 1305 hardware manual give 14.3 kg arm-only mass. The support comparison instead gives 13.7 kg; exact historical revision/configuration mapping is not established, so the discrepancy is retained.",
+        "The named 7-axis arm remains distinct from other xArm variants, UFACTORY 850 and Lite 6. Shared comparison blocks do not transfer 850 mm reach, 20 kg mass or integrated Lite-base specifications.",
+        "Python/C++ SDKs, ROS/ROS 2, hand-guided teaching and browser-hosted UFACTORY Studio support integration. Simulation compatibility, external vision, grippers and a six-axis force/torque sensor remain separate software/tooling options.",
+        "Collision detection compares measured joint current with a dynamic model. Payload, center of mass, mounting direction and friction parameters affect triggering; this is not an included six-axis force sensor or an independently certified contact-force limit.",
+        "Current 1305 model codes are XF1305, XI1305 and XS1305. Controller masses/dimensions and Gripper G2 IP40 remain component data; the family’s 2018 introduction and varying starting prices do not establish this model’s first sale year or exact package price."
       ],
       "sources": [
         {
-          "name": "UFACTORY",
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/FI63GZHEZPW9.pdf",
           "type": "manufacturer",
-          "url": "https://www.ufactory.cc/products/ufactory-xarm-series",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/UD72FEF224J3.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/hardware/the-difference-between-ufactory-xarm5-xarm6-and-xarm7.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-21.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/12ec9729-cae7-4f07-b5da-a12ae7c5cc83"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-5/ufactory.cc-xarm-collaborative-robot.json",
-      "reviewNotes": "OrionStar links to UFACTORY as the manufacturer. Existing xArm 6 row is retained; its legacy 12.2 kg mass differs from the current page 12.5 kg, so the reviewed record does not assign a replacement mass. The preceding unrelated 850 mm / 20 kg specification block is not applied. External force/torque sensor is optional."
+      "reviewNotes": "Eight selected UFACTORY models reviewed with current named three-model and five-model matrices, 1305/manual component scopes, historical uArm developer specifications and manufacturer-linked SDK identities. Current xArm versus support-table mass discrepancies remain qualified. Base footprints and controller/gripper values are not full robot dimensions/ratings. Swift Pro centimetre and speed errors corrected; available v4.10.2 release notes remove older Studio workflows. Swift/Metal mechanical values and current support remain unknown. No certified safe installation, exact supplied offer or exhaustive historical/regional lineup claimed."
     },
     {
       "row": {
@@ -49182,6 +49312,324 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-17.pdf",
       "discoveredIn": [],
       "reviewNotes": "Four existing Ozobot models reviewed from current manufacturer technical sheets, historical Bit/Evo documentation, compatibility charts and the public product response. Original Bit and Bit+ remain distinct. Width/height pairs do not establish depth; robot mass excludes cradle/shipping weight. Wired charge duration and cradle 80% targets stay separate. Stored Blockly and connected PC execution are different workflows; radio/LED wording discrepancies remain qualified. Kit prices have explicit USD metadata. No new powered robot identity is inferred from the empty Ora EEK Bundle, accessories or classroom counts. No full historical/regional portfolio or independent performance claim."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "UFACTORY",
+        "model": "850",
+        "price": "From 8999 USD; supplied package not established",
+        "weight": "20 kg arm body only; external control box excluded",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;industrial;cobot;programmable;ros;dev-platform",
+        "handType": "External flange tooling; supplied gripper not established",
+        "dof": "6 mechanical arm axes; gripper actuation is separate",
+        "payload": "5 kg maximum; tool/workpiece and TCP-offset conditions apply",
+        "speed": "1 m/s maximum TCP linear speed; 180°/s joint speed is separate",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ufactory.cc/products/ufactory-850",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "UFACTORY 850 is a separately named six-axis arm with 5 kg maximum payload, 850 mm reach, 20 kg specified mass and ±0.02 mm repeatability. The 850 adds an integrated Gigabit Ethernet cable for camera/sensor connectivity and uses a separate AC/DC controller. Studio and SDK/ROS interfaces support integration; optional tools, collision-detection configuration and starting-price scope remain explicit.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "850 mm reach; not complete envelope",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.02 mm manufacturer repeatability; not absolute accuracy"
+      },
+      "highlights": [
+        "Named 850 table gives 5 kg load, 850 mm reach, six axes, 1 m/s TCP speed and ±0.02 mm repeatability; values from the adjacent xArm comparison blocks are not substituted.",
+        "The 850 arm body is 20 kg with a Ø190 mm mounting footprint. AC/DC controller masses and dimensions are separate and differ between the linked hardware manual and newer technical sheet; no installed-system mass or size is inferred.",
+        "The 850 technical sheet states typical 240 W, maximum 1000 W and 48 VDC supply. Its integrated Gigabit Ethernet cable supports external vision connections; it does not establish an included camera or onboard autonomy.",
+        "Studio, Python/C++ SDKs, ROS/ROS 2 and simulation integration are documented. Grippers, force sensors, camera stands, third-party software and illustrated application cells remain separate supplied/configured components.",
+        "Collision protection uses joint current and a dynamic model, requiring correct tool load, center of mass, mounting direction and friction parameters. Manufacturer collaboration positioning is not an independent installation safety or force-limit certification.",
+        "The product page says price from 8999 US dollars; exact controller/tooling/shipping configuration and a firm delivered offer are not established. Mains/DC options do not establish a bundled battery or runtime."
+      ],
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/2FCS0NRFRH1H.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/JBHQWTRUIIW9.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/products/ufactory-850",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-19.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight selected UFACTORY models reviewed with current named three-model and five-model matrices, 1305/manual component scopes, historical uArm developer specifications and manufacturer-linked SDK identities. Current xArm versus support-table mass discrepancies remain qualified. Base footprints and controller/gripper values are not full robot dimensions/ratings. Swift Pro centimetre and speed errors corrected; available v4.10.2 release notes remove older Studio workflows. Swift/Metal mechanical values and current support remain unknown. No certified safe installation, exact supplied offer or exhaustive historical/regional lineup claimed."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "UFACTORY",
+        "model": "Lite 6",
+        "price": "From 2999 USD; supplied package not established",
+        "weight": "8 kg arm with integrated base control box; accessories excluded",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;industrial;cobot;programmable;ros;dev-platform",
+        "handType": "External flange tooling; supplied gripper not established",
+        "dof": "6 mechanical arm axes; gripper actuation is separate",
+        "payload": "600 g maximum; tool/workpiece and TCP-offset conditions apply",
+        "speed": "0.5 m/s maximum TCP linear speed; 180°/s joint speed is separate",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ufactory.cc/products/ufactory-lite-6",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "UFACTORY Lite 6 is a separately named six-axis arm with 600 g maximum payload, 440 mm reach, 8 kg specified mass and ±0.5 mm repeatability. Lite 6 integrates the control box in its base and supports compact desktop automation and research. Studio and SDK/ROS interfaces support integration; optional tools, collision-detection configuration and starting-price scope remain explicit.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "440 mm reach; not complete envelope",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.5 mm manufacturer repeatability; not absolute accuracy"
+      },
+      "highlights": [
+        "Named Lite 6 table gives 600 g load, 440 mm reach, six axes, 0.5 m/s TCP speed and ±0.5 mm repeatability; values from the adjacent xArm comparison blocks are not substituted.",
+        "Lite 6 integrates the controller into its base. Its 130 × 140 mm footprint is not a complete robot envelope; the 8 kg robot value is kept separate from optional 350 g Gripper Lite and 250 g Vacuum Gripper Lite.",
+        "The Lite 6 technical sheet states typical 150 W and maximum 350 W power. These are power ratings, not battery energy or operating hours.",
+        "Studio, Python/C++ SDKs, ROS/ROS 2 and simulation integration are documented. Grippers, force sensors, camera stands, third-party software and illustrated application cells remain separate supplied/configured components.",
+        "Collision protection uses joint current and a dynamic model, requiring correct tool load, center of mass, mounting direction and friction parameters. Manufacturer collaboration positioning is not an independent installation safety or force-limit certification.",
+        "The product page says price from 2999 US dollars; exact controller/tooling/shipping configuration and a firm delivered offer are not established. Mains/DC options do not establish a bundled battery or runtime."
+      ],
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/products/202610/06UT34CQJCKS.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202607/YIRV9617BAJ6.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://www.ufactory.cc/products/ufactory-lite-6",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer product/support information",
+          "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-20.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight selected UFACTORY models reviewed with current named three-model and five-model matrices, 1305/manual component scopes, historical uArm developer specifications and manufacturer-linked SDK identities. Current xArm versus support-table mass discrepancies remain qualified. Base footprints and controller/gripper values are not full robot dimensions/ratings. Swift Pro centimetre and speed errors corrected; available v4.10.2 release notes remove older Studio workflows. Swift/Metal mechanical values and current support remain unknown. No certified safe installation, exact supplied offer or exhaustive historical/regional lineup claimed."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "UFACTORY",
+        "model": "uArm Swift Pro",
+        "price": "Not disclosed",
+        "weight": "2.2 kg per developer specification",
+        "size": "150 × 140 × 281 mm (L × W × H) per developer manual",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;educational;programmable;maker;dev-platform;historical",
+        "handType": "Interchangeable end tooling; specific supplied gripper package not established",
+        "dof": "4 mechanical degrees of freedom per developer specification",
+        "payload": "500 g maximum in developer sheet; dynamic payload depends on configuration",
+        "speed": "100 mm/s maximum per developer sheet; not 0.5 m/s",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ufactory.cc/upfiles/download/202606/QGEH1P4C3RG0.pdf",
+        "image": "images/robotic-arm/ufactory-uarm-swift-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "uArm Swift Pro is the historical four-DOF UFACTORY desktop arm. Its developer specification gives 2.2 kg mass, 500 g maximum payload, 50–320 mm working range, 100 mm/s maximum speed, 0.2 mm repeatability and a 150 × 140 × 281 mm envelope. The available v4.10.2 user-manual release notes remove several earlier Studio workflows; older accessory and Bluetooth examples do not establish their current support.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "50–320 mm working range per developer manual; not a full envelope",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "0.2 mm manufacturer repeatability; no ± sign or absolute-accuracy claim"
+      },
+      "highlights": [
+        "The manufacturer developer table names 2.2 kg, four degrees of freedom, 500 g maximum payload, 50–320 mm working range, 100 mm/s maximum speed and 0.2 mm repeatability. The source does not supply a ± sign or independent accuracy test.",
+        "The literal L × W × H dimensions are 150 × 140 × 281 mm. The catalog’s earlier centimetre unit was unsupported and has been corrected; reach and individual link drawings remain different measurements.",
+        "The available user manual is v4.10.2. Its release notes state that 3D printing, mobile Bluetooth connection, OpenMV and engraving are no longer supported. Historical developer examples describe these features but do not override those version-specific removals.",
+        "The linked firmware repository is GPL-licensed and based on Marlin. Manufacturer-linked ROS and Python repositories document Swift/SwiftPro control separately from the Metal-only Python library; library branch, firmware version and workflow support remain relevant.",
+        "The SDK cautions that firmware 4.0 or later needs its speed-factor handling. Numeric API speed parameters, motor angular speeds and the developer sheet’s maximum linear speed are different quantities.",
+        "The old store host could not be resolved in this round. An older catalog price, release year, included accessory set and present stock are not established by developer manuals or source-code availability."
+      ],
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/SSX6I67F7W0N.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer manual/technical sheet",
+          "url": "https://www.ufactory.cc/upfiles/download/202606/QGEH1P4C3RG0.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/SwiftProForArduino/blob/develop/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/RosForSwiftAndSwiftPro/blob/master/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/uArm-Python-SDK/blob/2.0/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-17.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight selected UFACTORY models reviewed with current named three-model and five-model matrices, 1305/manual component scopes, historical uArm developer specifications and manufacturer-linked SDK identities. Current xArm versus support-table mass discrepancies remain qualified. Base footprints and controller/gripper values are not full robot dimensions/ratings. Swift Pro centimetre and speed errors corrected; available v4.10.2 release notes remove older Studio workflows. Swift/Metal mechanical values and current support remain unknown. No certified safe installation, exact supplied offer or exhaustive historical/regional lineup claimed."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "UFACTORY",
+        "model": "uArm Swift",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;dev-platform;programmable;historical",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://github.com/uArm-Developer/uArm-Python-SDK/blob/2.0/README.md",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "uArm Swift is a historical UFACTORY manipulator named separately from Swift Pro in the manufacturer-linked Python and ROS libraries. The repositories document robot control and separate Swift/SwiftPro configurations. Exact physical specifications, first launch, current availability and compatibility with later Studio releases were not established; Swift Pro mechanical values are not inherited.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": ""
+      },
+      "highlights": [
+        "The Python SDK explicitly supports Swift and SwiftPro while referring Metal to a different library. This establishes separate named hardware targets, not an alias joining all three robots.",
+        "The manufacturer-linked ROS repository supplies separate Swift and Pro MoveIt configurations and serial control/display examples. Simulation configuration is not a measured robot specification.",
+        "No exact Swift mass, body envelope, payload, reach, speed, repeatability or current supplied kit is established by this selected source set. Swift Pro developer-table values are not transferred.",
+        "Older repository setup examples and firmware dependencies retain historical context; current OS support and later Studio support are not certified."
+      ],
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/uArm-Python-SDK/blob/2.0/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/RosForSwiftAndSwiftPro/blob/master/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-25.json",
+      "discoveredIn": [],
+      "reviewNotes": "Eight selected UFACTORY models reviewed with current named three-model and five-model matrices, 1305/manual component scopes, historical uArm developer specifications and manufacturer-linked SDK identities. Current xArm versus support-table mass discrepancies remain qualified. Base footprints and controller/gripper values are not full robot dimensions/ratings. Swift Pro centimetre and speed errors corrected; available v4.10.2 release notes remove older Studio workflows. Swift/Metal mechanical values and current support remain unknown. No certified safe installation, exact supplied offer or exhaustive historical/regional lineup claimed."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "UFACTORY",
+        "model": "uArm Metal",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;dev-platform;programmable;historical",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://github.com/uArm-Developer/pyuarm/blob/dev/README.rst",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "uArm Metal is the historical UFACTORY robot explicitly targeted by the separate pyuarm library. The manufacturer-linked project documents Python movement control, port detection, calibration and firmware-helper functionality, while directing Swift/SwiftPro users to a different SDK. Exact mechanical ratings, first launch and current sales status were not established.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": ""
+      },
+      "highlights": [
+        "The pyuarm project explicitly describes itself as supporting uArm Metal only and directs Swift/Swift Pro to another library. Metal remains a distinct named robot, not a Swift alias.",
+        "The project documents basic Python movement control, automatic port detection, calibration and firmware-helper functions. These are software interfaces, not independent motion-performance or safety measurements.",
+        "The Swift/SwiftPro Python README separately directs Metal users to pyuarm or a prior pyuf branch, corroborating the model distinction in the manufacturer-linked repository chain.",
+        "No exact Metal mass, dimensions, DOF, payload, reach, speed, repeatability, price, launch year or current stock is established. Later Swift Pro, xArm and Lite 6 specifications are not reused."
+      ],
+      "sources": [
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/pyuarm/blob/dev/README.rst",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "UFACTORY — manufacturer linked historical developer documentation",
+          "url": "https://github.com/uArm-Developer/uArm-Python-SDK/blob/2.0/README.md",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-87/source-26.json",
+      "discoveredIn": [],
+      "reviewNotes": "Eight selected UFACTORY models reviewed with current named three-model and five-model matrices, 1305/manual component scopes, historical uArm developer specifications and manufacturer-linked SDK identities. Current xArm versus support-table mass discrepancies remain qualified. Base footprints and controller/gripper values are not full robot dimensions/ratings. Swift Pro centimetre and speed errors corrected; available v4.10.2 release notes remove older Studio workflows. Swift/Metal mechanical values and current support remain unknown. No certified safe installation, exact supplied offer or exhaustive historical/regional lineup claimed."
     }
   ]
 }
