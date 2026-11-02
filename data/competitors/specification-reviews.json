@@ -96294,6 +96294,257 @@
           "note": "No cargo stacking height established."
         }
       }
+    },
+    {
+      "robotId": "anki-vector",
+      "manufacturer": "Anki",
+      "model": "Vector",
+      "sources": [
+        {
+          "name": "Anki — historical Vector SDK network and companion-app prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector SDK Alpha overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector robot API and sensors",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector behavior API: lift limits and charger-marker docking",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/behavior.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/faces.py",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-106/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current complete-device sale price, currency or tax/accessory scope established. Former price and lifecycle text are not current quotations."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model assembled mass established by the selected official SDK sources. Earlier approximate weight is not retained as documented."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete robot outer dimensions established. Lift geometry and qualitative very-small labels do not supply body dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized battery operating duration established. SDK battery/charger state does not establish a 30- or 45-minute endurance rating."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separately specified maximum continuous runtime established. Prior duplicated battery/runtime estimates are not manufacturer guarantees."
+        },
+        "handType": {
+          "value": "Motorized lift for compatible light cubes (historical SDK); no rated payload established",
+          "status": "documented",
+          "note": "Official Vector behavior API explicitly supplies lift positioning and compatible light-cube pickup operations; no dexterous hand or rated general payload is inferred."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Head/lift/wheel APIs are not silently summed into a whole-body count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated payload established. SDK cube pickup examples and lift travel limits do not establish a load in kilograms."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated maximum chassis speed established. Requested motor speeds, API examples and charger reversal commands are not performance ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete terrain, slope or outdoor rating established. Cliff detection or navigation software does not prove an environmental qualification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-device IP rating established. Consumer indoor positioning is not an ingress certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological manufacturer age rating established. Educational examples and novice programmers do not establish 6–99 or 0–99 eligibility."
+        },
+        "website": {
+          "value": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+          "status": "documented",
+          "note": "Vector: historical official Anki SDK explicitly supports this qualified website description; current app, firmware and cloud compatibility remain unverified."
+        },
+        "description": {
+          "value": "Vector is the historical Anki companion robot addressed by the official Vector SDK Alpha. The SDK exposes camera, proximity/touch sensing, facial recognition/enrollment, expressive animation and text-to-speech. Its documented setup has Vector and the computer on the same network while the companion app is disconnected; this differs from Cozmo’s phone-app/USB SDK path. The behavior API describes attempting to locate a visual charger marker for docking and provides a motorized lift with software height limits of 32–92 mm. Those API limits are not body dimensions, payload or guaranteed docking performance. These records do not establish Vector 2.0 specifications, current voice/cloud service, app compatibility, a current sale price or present delivery.",
+          "status": "documented",
+          "note": "Vector: historical official Anki SDK explicitly supports this qualified description description; current app, firmware and cloud compatibility remain unverified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit exact-model first-release year established in the inspected official documents. SDK scaffold timestamps, repository copyright years and examples are not product launch evidence."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-device charging duration established. Docking API presence and battery state are not a charging-time specification."
+        }
+      }
+    },
+    {
+      "robotId": "anki-cozmo",
+      "manufacturer": "Anki",
+      "model": "Cozmo",
+      "sources": [
+        {
+          "name": "Anki — historical Cozmo SDK app/Wi-Fi/USB prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK activation and speech walkthrough",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo robot API: lift geometry, wheel commands and charger reversal",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/faces.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo supplied-text speech example",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/examples/tutorials/01_basics/01_hello_world.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-106/source-8.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current complete-device sale price, currency or tax/accessory scope established. Former price and lifecycle text are not current quotations."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model assembled mass established by the selected official SDK sources. Earlier approximate weight is not retained as documented."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete robot outer dimensions established. Lift geometry and qualitative very-small labels do not supply body dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized battery operating duration established. SDK battery/charger state does not establish a 30- or 45-minute endurance rating."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separately specified maximum continuous runtime established. Prior duplicated battery/runtime estimates are not manufacturer guarantees."
+        },
+        "handType": {
+          "value": "Motorized cube-handling lift (historical SDK); no general payload rating established",
+          "status": "documented",
+          "note": "Official Cozmo robot API exposes a motorized lift and cube/object pickup/place actions; this is a lift mechanism, not a rated general-purpose hand or load capacity."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Head/lift/wheel APIs are not silently summed into a whole-body count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated payload established. SDK cube pickup examples and lift travel limits do not establish a load in kilograms."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated maximum chassis speed established. Requested motor speeds, API examples and charger reversal commands are not performance ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete terrain, slope or outdoor rating established. Cliff detection or navigation software does not prove an environmental qualification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-device IP rating established. Consumer indoor positioning is not an ingress certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological manufacturer age rating established. Educational examples and novice programmers do not establish 6–99 or 0–99 eligibility."
+        },
+        "website": {
+          "value": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+          "status": "documented",
+          "note": "Cozmo: historical official Anki SDK explicitly supports this qualified website description; current app, firmware and cloud compatibility remain unverified."
+        },
+        "description": {
+          "value": "Cozmo is the historical Anki educational robot addressed by the official Cozmo SDK. Its documented developer path uses a Cozmo phone app connected to the robot over Wi-Fi and the phone tethered to a computer by USB, with SDK mode enabled in the app. It supports supplied-text speech, face recognition/enrollment, cube/object actions, expressive display/animation and separate left/right wheel commands. The lift API defines 32–92 mm heights, a 66 mm lift arm and a 45 mm pivot reference; these are mechanism geometry rather than outer dimensions or payload ratings. Its charger backup method assumes the charger is directly behind it, rather than establishing a general charger-search capability. Current app/OS compatibility, availability, lifetime support and service operation remain unverified; original-model data are not automatically later Cozmo 2.0 specifications.",
+          "status": "documented",
+          "note": "Cozmo: historical official Anki SDK explicitly supports this qualified description description; current app, firmware and cloud compatibility remain unverified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit exact-model first-release year established in the inspected official documents. SDK scaffold timestamps, repository copyright years and examples are not product launch evidence."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-device charging duration established. Docking API presence and battery state are not a charging-time specification."
+        },
+        "driveMode": {
+          "value": "Independent left/right wheel commands in historical SDK; no rated terrain or speed implied",
+          "status": "documented",
+          "note": "Official Cozmo robot API independently commands left and right wheel speed; API numerical parameters and examples do not supply a rated maximum chassis speed."
+        }
+      }
     }
   ]
 }

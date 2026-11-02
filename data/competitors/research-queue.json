@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T18:34:43.276Z",
+  "generatedAt": "2026-11-02T18:42:57.439Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 403,
-    "withoutSelectedFieldReview": 115,
-    "selectedFields": 6722,
+    "withSelectedFieldReview": 405,
+    "withoutSelectedFieldReview": 113,
+    "selectedFields": 6755,
     "selectedFieldStatuses": {
-      "documented": 3005,
-      "not-documented": 3542,
+      "documented": 3012,
+      "not-documented": 3568,
       "conflicting": 164,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 94,
+    "sourceGroupsWithCompanyAuthoredFocus": 95,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -353,26 +353,6 @@
       "robotIds": [
         "ambi-robotics-ambisort-a-series",
         "ambi-robotics-ambistack"
-      ]
-    },
-    {
-      "brandId": "anki-digital-dream-labs",
-      "name": "Anki (Digital Dream Labs)",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "anki-cozmo",
-        "anki-vector"
       ]
     },
     {
@@ -3586,6 +3566,26 @@
       ]
     },
     {
+      "brandId": "anki-digital-dream-labs",
+      "name": "Anki (Digital Dream Labs)",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/"
+      ],
+      "catalogModels": 2,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "anki-cozmo",
+        "anki-vector"
+      ]
+    },
+    {
       "brandId": "bitcraze",
       "name": "Bitcraze",
       "aliases": [],
@@ -4314,10 +4314,10 @@
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "anki-cozmo",
         "anki-vector"
@@ -16258,24 +16258,91 @@
       "brandId": "anki-digital-dream-labs",
       "category": "educational",
       "hasDatedHighlights": true,
-      "highlightStatements": 2,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Anki",
+          "name": "Anki — historical Cozmo SDK app/Wi-Fi/USB prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK activation and speech walkthrough",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo robot API: lift geometry, wheel commands and charger reversal",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/faces.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo supplied-text speech example",
           "type": "manufacturer",
           "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/examples/tutorials/01_basics/01_hello_world.py",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 4,
+        "not-documented": 13,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Anki — historical Cozmo SDK app/Wi-Fi/USB prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/initial.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK activation and speech walkthrough",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo robot API: lift geometry, wheel commands and charger reversal",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/src/cozmo/faces.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo supplied-text speech example",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/examples/tutorials/01_basics/01_hello_world.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Cozmo SDK overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/cozmo-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -16297,24 +16364,79 @@
       "brandId": "anki-digital-dream-labs",
       "category": "companion",
       "hasDatedHighlights": true,
-      "highlightStatements": 2,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Anki",
+          "name": "Anki — historical Vector SDK network and companion-app prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector SDK Alpha overview",
           "type": "manufacturer",
           "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector robot API and sensors",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector behavior API: lift limits and charger-marker docking",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/behavior.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/faces.py",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 16,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 3,
+        "not-documented": 13,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Anki — historical Vector SDK network and companion-app prerequisites",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/getstarted.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector SDK Alpha overview",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/docs/source/index.rst",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector robot API and sensors",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/robot.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector behavior API: lift limits and charger-marker docking",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/behavior.py",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Anki — historical Vector face recognition/enrollment API",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/anki/vector-python-sdk/master/anki_vector/faces.py",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
