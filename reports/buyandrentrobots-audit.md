@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,131 catalog rows**, with 644 exact
-manufacturer spellings. Batch 111 refreshed the separate heuristic gap file offline
-against all 2,131 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,132 catalog rows**, with 644 exact
+manufacturer spellings. Batch 112 refreshed the separate heuristic gap file offline
+against all 2,132 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1043 dated records across the catalog, including
-166 existing-model enrichments and 877 task additions. All 430 catalog models
+Current product-highlight coverage: 1044 dated records across the catalog, including
+166 existing-model enrichments and 878 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 877 task additions, totaling 2,131.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 878 task additions, totaling 2,132.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 415 have selected-field reviews and 103 await those reviews. Family and
+highlights; 417 have selected-field reviews and 101 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 15,945 fields across 919 catalog models: 6,508 documented,
-9,103 not documented, 264 conflicting and seventy roadmap fields. They do not certify whole
+Selected specification checks cover 16,056 fields across 922 catalog models: 6,530 documented,
+9,188 not documented, 268 conflicting and seventy roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -6998,3 +6998,86 @@ neun Listingidentitäten und 862 Buy-Detailinhalte offen. Vollständige Quellen-
 Herstellerabdeckung, klinische Wirksamkeit, einzigartige USPs oder Markt-/Suchführerschaft
 bleiben unbewiesen. Datencommit `01ad401dfcb2b458f673e6188287da38ae87412c` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-111-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Inspired Flight: Flugplattformen, Revisionen und Preisvarianten (Batch 112)
+
+IF800 TOMCAT und IF1200 vertieft; historischen IF750 ergänzt. Drei Plattformen mit
+111 ausgewählten Feldern: 22 dokumentiert, 85 unbekannt und vier ausdrücklich
+festgehaltene Quellen-/Revisionskonflikte. 17 neue Merkmalsaussagen, netto 20 weitere
+Produktquellenverweise, sechs bisherige Aussagen und Entdeckungsprovenienz erhalten.
+Ein neuer Firmenfokus. Herstellerchronik belegt IF750-Start 2018 getrennt von Gründung
+2017; heutige Plattformzahlen nicht auf das historische Modell übertragen.
+
+IF800: aktuelle Dokumentation nennt 8,5 kg mit Akkus, 4,2 kg leer und 11,5 kg maximale
+Startmasse. Das verlinkte Handbuch nennt 8,6/4,5/11,6 kg. Dateiname enthält Rev 1.1,
+gedruckter Inhalt hingegen Dokument 103691, Rev 1.0, März 2024. Aktuelle Windwerte
+10 m/s mit 12 m/s Böen und -20 bis 45°C unterscheiden sich vom Handbuch mit L6/25 mph,
+31 mph Böen und -10 bis 45°C. Diese drei Felder bleiben als Konflikte erkennbar.
+Aktueller Cube Orange+, dualer Here4 und 12-V-/2-A-Payloadanschluss stehen getrennt
+von älterem Cube Blue H7 und 18-V-Schiene. IP43 ist Herstellerangabe aus Shop/Handbuch,
+kein selbst geprüfter unabhängiger Regenversuch. Bis 54 Minuten Flugzeit und 3 kg
+Nutzlast sind keine belegte gleichzeitige Maximalleistung. Radioangaben trennen ideale
+6 km Sichtverbindung vom Herstellerfeldtest 1,5–2,3 km in wechselnder urbaner Umgebung;
+keine Positionsgenauigkeit oder Aussage zur Flugerlaubnis.
+
+IB388-Werte 387,6 Wh, 17 Ah, 22,8 V, 2,08 kg und 150–300 Zyklen gelten pro Akku und sind
+keine Flugzeit. Ladeanleitung empfiehlt einen Akku pro IMARS D300+ ohne vollständige
+Ladedauer. Hot Swap erfolgt gelandet und entschärft, mit einem angeschlossenen Akku;
+anschließender Software-Neustart verbindet neue Akkus ohne Payload-Stromunterbrechung.
+Das ist keine unterbrechungsfreie Flugzeit oder Akkuwechsel in der Luft.
+
+IF1200: 7,8 kg leer, 16,3 kg mit Akkus und 24,9 kg Startmasse getrennt. Nutzlastfeld
+bleibt Konflikt: Tabelle 8,6 kg/19 lb, Überschrift 19,1 lb, Flughöhenbeispiel 8,7 kg.
+Shop nennt 28,7 lb nur mit entsprechender Zertifizierung; keine universelle zusätzliche
+Standardnutzlast oder eigenständige Genehmigungsprüfung. Bis 43 Minuten sind keine
+Maximallastgarantie; die technische Seite verlangt Gimbal plus Sensormasse zur
+Flugzeitabschätzung. Universelle Shop-Behauptung zur lastunabhängigen Dauer nicht
+übernommen. Aktueller Cube Orange+/Here3 steht getrennt von Blue-H7-Konfigurationen
+im IF1200A-Handbuch Rev 2.0GB 2023 und Complianceblatt Januar 2023. Letzteres hält fest,
+dass Blue Herelink trotz NDAA-Konformitätsangabe von DIU nicht für DoD-UAS-Betrieb
+freigegeben war. Heutige Blue-UAS-/NDAA-Werbung nicht unabhängig bestätigt. Kein
+IF800-IP43 auf IF1200 übertragen. Alter IF1200A-Shoplink leitet zum aktuellen IF1200;
+Dokument-/Interfacenamen begründen keine zusätzliche heute separat angebotene Variante.
+
+Tattu-Daten 12S1P, 16 Ah, 44,4 V, 710,4 Wh und 4,25 kg ±0,10 kg gelten pro Akku.
+TA3200 lädt beide auf unabhängigen A/B-Kanälen gleichzeitig; 3200 W, bis 60 A und
+ungefähr 6 kg sind Ladegerätwerte. Anleitung empfiehlt 16 A/1C, ohne vollständige
+Ladedauer. Aus Ah/A keine verifizierte Ein-Stunden-Ladung abgeleitet.
+
+Shop-JSON und JSON-LD stimmen bei USD und acht Controller-/Care-Varianten pro Familie
+überein: IF800 23.000–34.500 USD, IF1200 33.500–46.000 USD; jeweiliger Startwert für
+Herelink/Foundation. Optionen, Steuer/Versand und aktuelle Verfügbarkeit gesondert.
+Strukturierte Verfügbarkeitsflags widersprechen Sold-out/Unavailable-HTML-Fallback;
+kein bestätigter Lagerbestand oder exaktes universelles strukturiertes Kaufangebot.
+Jährliche Care-Gebühren, Mehrjahrespakete, GS-ONE-Controllerlaufzeit/-masse, Payloads,
+Akkus, Ladegeräte und Inspired-Suite-Software behalten Zubehör-/Software-/Servicerollen.
+
+34 öffentliche Antworten mit SHA-256: 33 HTTP 200, ein ungenutzter 404-Link. Drei PDFs,
+HTML, öffentliches Varianten-JSON und JSON-LD. PDF-Text und ausgewählte Wortkoordinaten
+geprüft; IF800 physische Seite 12 liefert nur Überschriften/Fußzeile, keine visuell
+bestätigten Graphwerte oder Bild-/Rastertypbehauptung. Öffentlicher Nachweis enthält
+Prüfstellen und Hashes statt vollständiger Handbuchseiten. Keine visuelle PDF-/Bild-/
+Video-/CAD-Prüfung, Formulare, Kontakt-, Bestell- oder Warenkorbaktion.
+
+2129 andere bisherige CSV-Zeilen, 919 vorhandene Feldprüfungen, 104 Firmenfokusse,
+1041 andere Produktbelege und 1961 Quellenidentitäten erhalten. Keine neuen Spalten
+oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle mit
+vier Axe-Läufen, Build 3182 Seiten, Lint/Format, Refresh und Wiederimport bestanden.
+Audit null Fehler/1032 unveränderte Hinweise. Drei Seiten/111 Felder/23 Aussagen,
+Firmenfokus und strukturierte Eigenschaften geprüft; zwei Modell-CSV-Ziele/74 Felder,
+null Firmenbeschreibungs-Produktziele, zwei ursprüngliche Queue-Ziele/74 Felder.
+Anfängliche Prüfskriptannahmen zum Header außerhalb main und zu einer zusätzlichen
+Firmenproduktreferenz korrigiert; keine App-/Datenänderung zur Umgehung eines Fehlers.
+Öffentlicher Vergleich: 1044 Produktbelege, 4635 Aussagen, 2115 Quellenverweise und
+922 Prüfungen/16056 Felder. Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei.
+Kein Deployment. Externe YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2132 Modelle/Konfigurationen, 878 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung und 105 Firmenfokusse. Ursprüngliche Quellenziele: 417 geprüft,
+101 ausstehend von 518; 7178 Felder (3097 dokumentiert, 3900 unbekannt, 170 Konflikte,
+elf Roadmap). Firmenfokus für 101 von 591 Quellengruppen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte offen. Vollständige Quellen-/
+Herstellerabdeckung, unabhängige exklusive USPs oder Markt-/Suchführerschaft bleiben
+unbewiesen. Datencommit `28235cc78d1f7db99efe2c6cab95a5f66be79521` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-112-evidence.json`.

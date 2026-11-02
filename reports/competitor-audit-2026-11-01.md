@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 592 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.131 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 877 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1043 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.132 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 878 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1044 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 104 |
+| Firmenfokus-Prüfungen mit Quellen | 105 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 877 ergänzte Modelle ergeben 2.131 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 878 ergänzte Modelle ergeben 2.132 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-104 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+105 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1043 Datensätze
+Modellseiten verlinken Markenprofile. Die 1044 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 415 haben ausgewählte Datenfeldprüfungen und 103
+haben datierte Merkmalsbelege; 417 haben ausgewählte Datenfeldprüfungen und 101
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 493 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 494 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -9233,3 +9233,86 @@ neun Listingidentitäten und 862 Buy-Detailinhalte offen. Vollständige Quellen-
 Herstellerabdeckung, klinische Wirksamkeit, einzigartige USPs oder Markt-/Suchführerschaft
 bleiben unbewiesen. Datencommit `01ad401dfcb2b458f673e6188287da38ae87412c` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-111-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Inspired Flight: Flugplattformen, Revisionen und Preisvarianten (Batch 112)
+
+IF800 TOMCAT und IF1200 vertieft; historischen IF750 ergänzt. Drei Plattformen mit
+111 ausgewählten Feldern: 22 dokumentiert, 85 unbekannt und vier ausdrücklich
+festgehaltene Quellen-/Revisionskonflikte. 17 neue Merkmalsaussagen, netto 20 weitere
+Produktquellenverweise, sechs bisherige Aussagen und Entdeckungsprovenienz erhalten.
+Ein neuer Firmenfokus. Herstellerchronik belegt IF750-Start 2018 getrennt von Gründung
+2017; heutige Plattformzahlen nicht auf das historische Modell übertragen.
+
+IF800: aktuelle Dokumentation nennt 8,5 kg mit Akkus, 4,2 kg leer und 11,5 kg maximale
+Startmasse. Das verlinkte Handbuch nennt 8,6/4,5/11,6 kg. Dateiname enthält Rev 1.1,
+gedruckter Inhalt hingegen Dokument 103691, Rev 1.0, März 2024. Aktuelle Windwerte
+10 m/s mit 12 m/s Böen und -20 bis 45°C unterscheiden sich vom Handbuch mit L6/25 mph,
+31 mph Böen und -10 bis 45°C. Diese drei Felder bleiben als Konflikte erkennbar.
+Aktueller Cube Orange+, dualer Here4 und 12-V-/2-A-Payloadanschluss stehen getrennt
+von älterem Cube Blue H7 und 18-V-Schiene. IP43 ist Herstellerangabe aus Shop/Handbuch,
+kein selbst geprüfter unabhängiger Regenversuch. Bis 54 Minuten Flugzeit und 3 kg
+Nutzlast sind keine belegte gleichzeitige Maximalleistung. Radioangaben trennen ideale
+6 km Sichtverbindung vom Herstellerfeldtest 1,5–2,3 km in wechselnder urbaner Umgebung;
+keine Positionsgenauigkeit oder Aussage zur Flugerlaubnis.
+
+IB388-Werte 387,6 Wh, 17 Ah, 22,8 V, 2,08 kg und 150–300 Zyklen gelten pro Akku und sind
+keine Flugzeit. Ladeanleitung empfiehlt einen Akku pro IMARS D300+ ohne vollständige
+Ladedauer. Hot Swap erfolgt gelandet und entschärft, mit einem angeschlossenen Akku;
+anschließender Software-Neustart verbindet neue Akkus ohne Payload-Stromunterbrechung.
+Das ist keine unterbrechungsfreie Flugzeit oder Akkuwechsel in der Luft.
+
+IF1200: 7,8 kg leer, 16,3 kg mit Akkus und 24,9 kg Startmasse getrennt. Nutzlastfeld
+bleibt Konflikt: Tabelle 8,6 kg/19 lb, Überschrift 19,1 lb, Flughöhenbeispiel 8,7 kg.
+Shop nennt 28,7 lb nur mit entsprechender Zertifizierung; keine universelle zusätzliche
+Standardnutzlast oder eigenständige Genehmigungsprüfung. Bis 43 Minuten sind keine
+Maximallastgarantie; die technische Seite verlangt Gimbal plus Sensormasse zur
+Flugzeitabschätzung. Universelle Shop-Behauptung zur lastunabhängigen Dauer nicht
+übernommen. Aktueller Cube Orange+/Here3 steht getrennt von Blue-H7-Konfigurationen
+im IF1200A-Handbuch Rev 2.0GB 2023 und Complianceblatt Januar 2023. Letzteres hält fest,
+dass Blue Herelink trotz NDAA-Konformitätsangabe von DIU nicht für DoD-UAS-Betrieb
+freigegeben war. Heutige Blue-UAS-/NDAA-Werbung nicht unabhängig bestätigt. Kein
+IF800-IP43 auf IF1200 übertragen. Alter IF1200A-Shoplink leitet zum aktuellen IF1200;
+Dokument-/Interfacenamen begründen keine zusätzliche heute separat angebotene Variante.
+
+Tattu-Daten 12S1P, 16 Ah, 44,4 V, 710,4 Wh und 4,25 kg ±0,10 kg gelten pro Akku.
+TA3200 lädt beide auf unabhängigen A/B-Kanälen gleichzeitig; 3200 W, bis 60 A und
+ungefähr 6 kg sind Ladegerätwerte. Anleitung empfiehlt 16 A/1C, ohne vollständige
+Ladedauer. Aus Ah/A keine verifizierte Ein-Stunden-Ladung abgeleitet.
+
+Shop-JSON und JSON-LD stimmen bei USD und acht Controller-/Care-Varianten pro Familie
+überein: IF800 23.000–34.500 USD, IF1200 33.500–46.000 USD; jeweiliger Startwert für
+Herelink/Foundation. Optionen, Steuer/Versand und aktuelle Verfügbarkeit gesondert.
+Strukturierte Verfügbarkeitsflags widersprechen Sold-out/Unavailable-HTML-Fallback;
+kein bestätigter Lagerbestand oder exaktes universelles strukturiertes Kaufangebot.
+Jährliche Care-Gebühren, Mehrjahrespakete, GS-ONE-Controllerlaufzeit/-masse, Payloads,
+Akkus, Ladegeräte und Inspired-Suite-Software behalten Zubehör-/Software-/Servicerollen.
+
+34 öffentliche Antworten mit SHA-256: 33 HTTP 200, ein ungenutzter 404-Link. Drei PDFs,
+HTML, öffentliches Varianten-JSON und JSON-LD. PDF-Text und ausgewählte Wortkoordinaten
+geprüft; IF800 physische Seite 12 liefert nur Überschriften/Fußzeile, keine visuell
+bestätigten Graphwerte oder Bild-/Rastertypbehauptung. Öffentlicher Nachweis enthält
+Prüfstellen und Hashes statt vollständiger Handbuchseiten. Keine visuelle PDF-/Bild-/
+Video-/CAD-Prüfung, Formulare, Kontakt-, Bestell- oder Warenkorbaktion.
+
+2129 andere bisherige CSV-Zeilen, 919 vorhandene Feldprüfungen, 104 Firmenfokusse,
+1041 andere Produktbelege und 1961 Quellenidentitäten erhalten. Keine neuen Spalten
+oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle mit
+vier Axe-Läufen, Build 3182 Seiten, Lint/Format, Refresh und Wiederimport bestanden.
+Audit null Fehler/1032 unveränderte Hinweise. Drei Seiten/111 Felder/23 Aussagen,
+Firmenfokus und strukturierte Eigenschaften geprüft; zwei Modell-CSV-Ziele/74 Felder,
+null Firmenbeschreibungs-Produktziele, zwei ursprüngliche Queue-Ziele/74 Felder.
+Anfängliche Prüfskriptannahmen zum Header außerhalb main und zu einer zusätzlichen
+Firmenproduktreferenz korrigiert; keine App-/Datenänderung zur Umgehung eines Fehlers.
+Öffentlicher Vergleich: 1044 Produktbelege, 4635 Aussagen, 2115 Quellenverweise und
+922 Prüfungen/16056 Felder. Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei.
+Kein Deployment. Externe YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2132 Modelle/Konfigurationen, 878 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung und 105 Firmenfokusse. Ursprüngliche Quellenziele: 417 geprüft,
+101 ausstehend von 518; 7178 Felder (3097 dokumentiert, 3900 unbekannt, 170 Konflikte,
+elf Roadmap). Firmenfokus für 101 von 591 Quellengruppen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte offen. Vollständige Quellen-/
+Herstellerabdeckung, unabhängige exklusive USPs oder Markt-/Suchführerschaft bleiben
+unbewiesen. Datencommit `28235cc78d1f7db99efe2c6cab95a5f66be79521` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-112-evidence.json`.
