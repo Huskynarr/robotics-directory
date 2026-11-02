@@ -109846,6 +109846,1941 @@
           "note": "No exact named-model value established by the selected primary text. Other chassis, sensor options, command stations, service projects and development targets are not substituted."
         }
       }
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-5",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci 5",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive IS5000 submission in FDA K232610 record, initial 2024 system and force-feedback scope",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232610.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive IS5000 submission in FDA K261823 record, September 2026 multi-arm targeting update",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261823.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "Clinician-operated surgical system for an operating-room setting; numeric environmental limits unverified",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified terrain value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "da Vinci 5 is Intuitive’s fifth-generation multiport surgical system, commercialized in 2024. The IS5000 architecture separates the surgeon console, patient-side robot and vision tower, with compatible force-feedback instruments and integrated electrosurgical/insufflation functions. A September 8, 2026 FDA record describes a multi-arm targeting software update; it is not a new base robot or proof every installed unit has that update. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "2024",
+          "status": "documented",
+          "note": "FY2025 manufacturer filing explicitly states commercialization in 2024. This is distinct from first FDA clearance, country-specific indications and subsequent model/software/labeling updates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Surgeon console commands patient-side instruments; software-assisted controls and optional second console are not autonomous surgery",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-xi",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci Xi",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Xi IS4000 submission in FDA K131861 record, 2014 system architecture",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131861.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Xi submission in FDA K152578 record, labeling-only change, not first hardware launch",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/K152578.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive X/Xi submission in FDA K202834 record, labeling-only change and separate model numbers",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202834.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "Operating-room multiport surgical platform; numeric environmental limits unverified",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified terrain value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "da Vinci Xi is Intuitive’s fourth-generation multiport platform commercialized in 2014, identified as IS4000 in manufacturer submissions. Its console, patient-side cart and vision-side cart are separate system components. A fourth arm enables an additional instrument; arm count is not one whole-system joint count. Integrated Table Motion is an upgrade in the selected FY2025 filing, not a universal installed feature. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "2014",
+          "status": "documented",
+          "note": "FY2025 manufacturer filing explicitly states commercialization in 2014. This is distinct from first FDA clearance, country-specific indications and subsequent model/software/labeling updates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Surgeon-controlled IS4000 patient-side instruments and camera; optional second console supports shared control/training",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-x",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci X",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA 2017 X IS4200 decision letter, not a technical specification sheet",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K171294.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive X/Xi submission in FDA K202834 record, labeling-only change and separate model numbers",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202834.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "Operating-room multiport surgical platform; numeric environmental limits unverified",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified terrain value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "da Vinci X is the fourth-generation IS4200 multiport surgical platform commercialized in 2017. Intuitive positions it toward cost-sensitive customers; that does not supply an exact hardware price or equal every Xi feature. It separates console, patient-side cart and vision-side cart, with clinician-controlled instrumentation. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "2017",
+          "status": "documented",
+          "note": "FY2025 manufacturer filing explicitly states commercialization in 2017. This is distinct from first FDA clearance, country-specific indications and subsequent model/software/labeling updates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Surgeon console controls IS4200 patient-side instruments and endoscope; optional second console is assistance/training",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-sp",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci SP",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP1098 submission in FDA K173906 record, 2018 system and SP999 predicate",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K173906.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP999 submission in FDA K131962 record, historical 2014 configuration",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA SP query; all 26 matching records, early SP999 versus later SP1098",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:%22da%20Vinci%20SP%22&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "Operating-room single-port surgical platform; indications and numeric environmental envelope configuration-specific",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified terrain value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "da Vinci SP is Intuitive’s commercial single-port platform, identified as SP1098 in the 2018 manufacturer submission and commercialized in 2018 according to the FY2025 filing. One patient-side arm delivers three multi-jointed instruments and an articulating 3D camera through one cannula. The 2014 SP999 predecessor is a distinct documented model; first regulatory clearance is not the commercial launch date of SP1098. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "2018",
+          "status": "documented",
+          "note": "FY2025 manufacturer filing explicitly states commercialization in 2018. This is distinct from first FDA clearance, country-specific indications and subsequent model/software/labeling updates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Surgeon console controls SP1098 single patient-side arm with three instruments and articulating camera; optional second console supports assistance/training",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-si",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci Si",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Si IS3000 submission in FDA K081137 record, separate S IS2000 predecessor",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081137.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "Historical/in-use operating-room surgical system; numeric environmental envelope unverified",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified terrain value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "da Vinci Si is Intuitive’s third-generation IS3000 surgical platform, commercialized in 2009 and listed among customer-used systems in the FY2025 filing. The 2009 manufacturer submission distinguishes it from the earlier S IS2000 and separates console, patient cart and vision equipment. Historical installed use does not prove new-unit supply. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "2009",
+          "status": "documented",
+          "note": "FY2025 manufacturer filing explicitly states commercialization in 2009. This is distinct from first FDA clearance, country-specific indications and subsequent model/software/labeling updates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Surgeon-controlled IS3000 console and patient-side instruments; optional dual-console assistance/training",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-s",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci S",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Si IS3000 submission in FDA K081137 record, separate S IS2000 predecessor",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081137.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "da Vinci S is Intuitive’s historical second-generation da Vinci platform, explicitly commercialized in 2006 in the FY2025 manufacturer filing. The Si submission separately identifies the earlier S platform as IS2000; it is not Si IS3000. The selected filing’s current customer-use list and newer-system features do not prove original hardware specifications, present new-unit supply or service status. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "2006",
+          "status": "documented",
+          "note": "FY2025 manufacturer filing explicitly states commercialization in 2006. This is distinct from first FDA clearance, country-specific indications and subsequent model/software/labeling updates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Historical surgeon-controlled surgical platform; exact original control configuration not specified in selected filing",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-standard",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci Standard",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "da Vinci Standard is Intuitive’s historical first-generation da Vinci platform, explicitly commercialized in 1999 in the FY2025 manufacturer filing. The original commercial launch in 1999 is separate from the first US general-laparoscopic FDA clearance in 2000. The selected filing’s current customer-use list and newer-system features do not prove original hardware specifications, present new-unit supply or service status. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "1999",
+          "status": "documented",
+          "note": "FY2025 manufacturer filing explicitly states commercialization in 1999. This is distinct from first FDA clearance, country-specific indications and subsequent model/software/labeling updates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Historical surgeon-controlled surgical platform; exact original control configuration not specified in selected filing",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "intuitive-surgical-ion",
+      "manufacturer": "Intuitive Surgical",
+      "model": "Ion",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Ion IF1000 submission in FDA K182188 record, initial 2019 architecture",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182188.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Ion IF1000 submission in FDA K252045 record, September 2025 update and architecture",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252045.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA Ion query; all 11 matching records in October 19, 2026 dataset snapshot",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:%22ION%22&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "Clinician-operated endoluminal pulmonary platform in a clinical setting; no numeric environmental envelope established",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified terrain value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "Ion is Intuitive’s IF1000 robotic-assisted endoluminal platform commercialized in 2019, separate from the da Vinci surgical systems. The manufacturer submissions describe a PlanPoint planning laptop using chest CT data, system cart, physician controller, fully articulating catheter, vision probe and biopsy tools. Real-time shape sensing supports catheter navigation; catheter articulation is not whole-robot DOF, metric navigation accuracy or guaranteed diagnostic yield. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "2019",
+          "status": "documented",
+          "note": "FY2025 manufacturer filing explicitly states commercialization in 2019. This is distinct from first FDA clearance, country-specific indications and subsequent model/software/labeling updates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Physician controller commands IF1000 catheter through a leader–follower system with CT-derived planning and real-time shape sensing; not autonomous biopsy",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-sp999",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci SP999",
+      "sources": [
+        {
+          "name": "Intuitive Surgical — Intuitive SP999 submission in FDA K131962 record, historical 2014 configuration",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP1098 submission in FDA K173906 record, 2018 system and SP999 predicate",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K173906.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA SP query; all 26 matching records, early SP999 versus later SP1098",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:%22da%20Vinci%20SP%22&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-117/source-15.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration current complete-system quote. FY2025 filing gives aggregate da Vinci system range $0.7–3.1 million, generally including one service year, and separate service/instrument revenue; none is an individual model price or November 2026 offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete named-system mass with patient cart, console and vision equipment established. Instrument/tray weight and tissue force are different quantities."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full named-system footprint/outer dimensions established. Cannula/catheter/endoscope dimensions and incision size are not robot size."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self-contained per-charge robot endurance established. Procedure duration, backup power and powered-cart relocation are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system unqualified continuous-duty duration established. Annual procedure counts, support contracts, instrument use limits and case times are not robot operating endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Arm count, three instruments plus camera and catheter articulation angles do not establish one universal complete-system degree-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system cargo rating established. Instrument mass, tissue interaction force, endoscope trays and patient weight limits are separate scopes."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system travel speed established. Catheter navigation, instrument motion, software computing comparisons and throughput marketing are different quantities."
+        },
+        "terrain": {
+          "value": "Historical operating-room single-port surgical configuration; current clinical availability unverified",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified terrain value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system numeric ingress rating established. Operating-room use, cleaning and regulatory clearance do not imply an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "website": {
+          "value": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified website value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "description": {
+          "value": "da Vinci SP999 is the explicitly named historical single-port model in Intuitive’s FDA K131962 submission, with a US decision dated April 17, 2014. It has a surgeon console, patient cart and vision cart, with instrument drives on one patient-side arm. The 2018 SP1098 submission identifies SP999 as a distinct predicate. The selected records do not establish a first commercial launch or current sale for SP999, so 2014 is not inserted as a commercial release year. No numeric complete-system mass, outer size, cargo, battery endurance, charge duration or motion-accuracy guarantee is established. Clinical indications and compatible tools vary by system, version and jurisdiction; no autonomous surgery or guaranteed clinical outcome is claimed.",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified description value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first commercial launch established. FDA decision dates, later software/labeling updates, dataset refresh dates and predicate references are not commercialization dates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric full named-system battery recharge duration established; mains supply or service periods do not establish a charge cycle."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-system numeric positioning accuracy established. Real-time shape sensing, tremor filtering and qualitative precision are not metric error bounds."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "driveMode": {
+          "value": "Surgeon-controlled SP999 console, single patient-cart arm and camera/instrument drives; not autonomous surgery",
+          "status": "documented",
+          "note": "Selected named-system primary text supports this qualified driveMode value. Manufacturer-authored submissions and FDA decisions are distinct roles; historical records do not prove current availability, unrestricted indications or independent superiority."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "3D/HD vision and magnification do not establish dimensional detection or surgical accuracy."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized per-robot task rate established. Aggregate annual procedures, cases per hospital, selected study timings and workflow claims are not guaranteed case throughput."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-system value established by selected primary records. Other generations, patient carts, consoles, vision towers, instruments, accessories, training and software are not substituted."
+        }
+      }
     }
   ]
 }

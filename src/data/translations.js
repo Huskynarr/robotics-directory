@@ -5126,6 +5126,7 @@ const directoryLabels = {
   'compare.source.deployment': 'Deployment owner source',
   'compare.source.developer': 'Developer source',
   'compare.source.integrator': 'Integration partner source',
+  'compare.source.regulator': 'Regulatory authority source',
   'sub.commercial.food-service': 'Cooking & Food Service',
   'sub.commercial.food-service.detail':
     'Robotic kitchens, cooking systems and beverage preparation',
@@ -5225,6 +5226,7 @@ Object.assign(translations.de, {
   'compare.source.deployment': 'Quelle des Einsatzbetreibers',
   'compare.source.developer': 'Entwicklerquelle',
   'compare.source.integrator': 'Quelle des Integrationspartners',
+  'compare.source.regulator': 'Quelle der Aufsichtsbehörde',
   'sub.commercial.food-service': 'Küche & Gastronomie',
   'sub.commercial.food-service.detail': 'Robotische Küchen, Kochsysteme und Getränkezubereitung',
   'spec.cookingCapacity': 'Kochkapazität je Charge',

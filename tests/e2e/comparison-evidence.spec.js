@@ -153,8 +153,9 @@ test('switching language while sources load keeps the latest labels', async ({ p
   await page.locator('#compareBarBtn').click();
   await request;
   await page.evaluate(() => {
-    localStorage.setItem('lang', 'de');
-    document.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang: 'de' } }));
+    const select = document.getElementById('languageSelect');
+    select.value = 'de';
+    select.dispatchEvent(new Event('change', { bubbles: true }));
   });
   release();
   await expect(page.locator('[data-comparison-state="ready"]')).toBeVisible();
@@ -162,6 +163,23 @@ test('switching language while sources load keeps the latest labels', async ({ p
     'Produktmerkmale',
   );
   await expect(page.locator('[data-comparison-sources]')).toContainText('Herstellerquelle');
+});
+
+test('URL language overrides saved language in comparison labels and regulator sources', async ({
+  page,
+}) => {
+  await prepare(page, ['intuitive-surgical-ion', 'intuitive-surgical-da-vinci-sp'], 'en');
+  await page.goto('/brands/intuitive-surgical/?lang=de');
+  const table = await openComparison(page);
+  await expect(page.locator('html')).toHaveAttribute('lang', 'de');
+  await expect(table.locator('[data-comparison-sources]')).toContainText(
+    'Quelle der Aufsichtsbehörde',
+  );
+  await expect(table.locator('[data-comparison-sources]')).toContainText('Herstellerquelle');
+  await expect(table.locator('[data-comparison-highlights] td').first()).toHaveText(
+    'Produktmerkmale',
+  );
+  expect(await page.evaluate(() => localStorage.getItem('lang'))).toBe('en');
 });
 
 test('escapes claim markup and excludes executable source URLs', async ({ page }) => {

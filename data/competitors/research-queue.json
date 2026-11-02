@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T21:02:15.058Z",
+  "generatedAt": "2026-11-02T21:13:20.970Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 429,
-    "withoutSelectedFieldReview": 89,
-    "selectedFields": 7622,
+    "withSelectedFieldReview": 436,
+    "withoutSelectedFieldReview": 82,
+    "selectedFields": 7881,
     "selectedFieldStatuses": {
-      "documented": 3183,
-      "not-documented": 4250,
+      "documented": 3216,
+      "not-documented": 4476,
       "conflicting": 173,
       "roadmap": 16
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 106,
+    "sourceGroupsWithCompanyAuthoredFocus": 107,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -281,32 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "intuitive-surgical",
-      "name": "Intuitive Surgical",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/intuitive-surgical"
-      ],
-      "catalogModels": 7,
-      "reviewedReferenceTargets": 7,
-      "withDatedHighlights": 7,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 7,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "intuitive-surgical-da-vinci-5",
-        "intuitive-surgical-da-vinci-s",
-        "intuitive-surgical-da-vinci-si",
-        "intuitive-surgical-da-vinci-sp",
-        "intuitive-surgical-da-vinci-standard",
-        "intuitive-surgical-da-vinci-x",
-        "intuitive-surgical-da-vinci-xi"
-      ]
-    },
     {
       "brandId": "abb-robotics",
       "name": "ABB Robotics",
@@ -2221,6 +2195,32 @@
         "deep-trekker-revolution",
         "deep-trekker-spectra",
         "deep-trekker-vac"
+      ]
+    },
+    {
+      "brandId": "intuitive-surgical",
+      "name": "Intuitive Surgical",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/intuitive-surgical"
+      ],
+      "catalogModels": 9,
+      "reviewedReferenceTargets": 7,
+      "withDatedHighlights": 7,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 7,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "intuitive-surgical-da-vinci-5",
+        "intuitive-surgical-da-vinci-s",
+        "intuitive-surgical-da-vinci-si",
+        "intuitive-surgical-da-vinci-sp",
+        "intuitive-surgical-da-vinci-standard",
+        "intuitive-surgical-da-vinci-x",
+        "intuitive-surgical-da-vinci-xi"
       ]
     },
     {
@@ -8397,14 +8397,14 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/intuitive-surgical"
       ],
-      "catalogModels": 7,
+      "catalogModels": 9,
       "reviewedReferenceTargets": 7,
       "withDatedHighlights": 7,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 7,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 7,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "intuitive-surgical-da-vinci-5",
         "intuitive-surgical-da-vinci-s",
@@ -29530,24 +29530,67 @@
       "brandId": "intuitive-surgical",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive IS5000 submission in FDA K232610 record, initial 2024 system and force-feedback scope",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232610.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive IS5000 submission in FDA K261823 record, September 2026 multi-arm targeting update",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261823.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 32,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive IS5000 submission in FDA K232610 record, initial 2024 system and force-feedback scope",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232610.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive IS5000 submission in FDA K261823 record, September 2026 multi-arm targeting update",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261823.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -29569,24 +29612,43 @@
       "brandId": "intuitive-surgical",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Si IS3000 submission in FDA K081137 record, separate S IS2000 predecessor",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081137.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 4,
+        "not-documented": 33,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Si IS3000 submission in FDA K081137 record, separate S IS2000 predecessor",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081137.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -29608,24 +29670,55 @@
       "brandId": "intuitive-surgical",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Si IS3000 submission in FDA K081137 record, separate S IS2000 predecessor",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081137.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 32,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Si IS3000 submission in FDA K081137 record, separate S IS2000 predecessor",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081137.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -29647,24 +29740,67 @@
       "brandId": "intuitive-surgical",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP1098 submission in FDA K173906 record, 2018 system and SP999 predicate",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K173906.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP999 submission in FDA K131962 record, historical 2014 configuration",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA SP query; all 26 matching records, early SP999 versus later SP1098",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:%22da%20Vinci%20SP%22&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 32,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP1098 submission in FDA K173906 record, 2018 system and SP999 predicate",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K173906.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP999 submission in FDA K131962 record, historical 2014 configuration",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA SP query; all 26 matching records, early SP999 versus later SP1098",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:%22da%20Vinci%20SP%22&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -29686,24 +29822,31 @@
       "brandId": "intuitive-surgical",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 4,
+        "not-documented": 33,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -29725,24 +29868,67 @@
       "brandId": "intuitive-surgical",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA 2017 X IS4200 decision letter, not a technical specification sheet",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K171294.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive X/Xi submission in FDA K202834 record, labeling-only change and separate model numbers",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202834.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 32,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA 2017 X IS4200 decision letter, not a technical specification sheet",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K171294.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive X/Xi submission in FDA K202834 record, labeling-only change and separate model numbers",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202834.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -29764,24 +29950,79 @@
       "brandId": "intuitive-surgical",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Xi IS4000 submission in FDA K131861 record, 2014 system architecture",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131861.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Xi submission in FDA K152578 record, labeling-only change, not first hardware launch",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/K152578.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive X/Xi submission in FDA K202834 record, labeling-only change and separate model numbers",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202834.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 32,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Xi IS4000 submission in FDA K131861 record, 2014 system architecture",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131861.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Xi submission in FDA K152578 record, labeling-only change, not first hardware launch",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/K152578.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive X/Xi submission in FDA K202834 record, labeling-only change and separate model numbers",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202834.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

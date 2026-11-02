@@ -8731,14 +8731,36 @@
       "highlights": [
         "Surgeon-controlled multiport system adds force-feedback instruments where authorized",
         "Updated 3D vision and console controls support instrument manipulation",
-        "Integrated electrosurgical and insufflation functions support operating-room workflows"
+        "Integrated electrosurgical and insufflation functions support operating-room workflows",
+        "The FY2025 manufacturer filing explicitly dates da Vinci 5 commercialization to 2024; FDA K232610 records the initial US decision on March 14, 2024. Later IS5000 modifications and individual instrument clearances are not a new first-launch year or separate whole robots.",
+        "IS5000 consists of a surgeon-side console, patient-side robot and vision tower. The surgeon controls instrument movement; force feedback uses specific compatible instruments and is not a claim of tactile sensing on every tool, every procedure or earlier da Vinci generations.",
+        "The FY2025 filing describes a redesigned adjustable console, next-generation 3D imaging and more than 10,000 times Xi computing power. That is supplier comparison wording with no independent benchmark, motion-accuracy value or proven clinical outcome inferred. Integrated Table Motion is described as standard for da Vinci 5, versus an upgrade for Xi.",
+        "FDA K261823 dated September 8, 2026 describes an IS5000 multi-arm targeting software modification, with intended use/indications unchanged within that submission. Hardware identity, software revision and clinical authorization remain separate; historical filing restrictions are not presented as an exhaustive current worldwide clearance list."
       ],
       "sources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive IS5000 submission in FDA K232610 record, initial 2024 system and force-feedback scope",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K232610.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive IS5000 submission in FDA K261823 record, September 2026 multi-arm targeting update",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261823.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8752,14 +8774,42 @@
       "highlights": [
         "Fourth-generation multiport surgical system translates surgeon console movements into instrument motion",
         "Supports advanced instruments and integrated table-motion workflows",
-        "Optional second console supports assistance and supervised training"
+        "Optional second console supports assistance and supervised training",
+        "The FY2025 manufacturer filing dates Xi commercialization to 2014. K131861 describes IS4000; later K152578 and K202834 explicitly cover labeling modifications without technological-characteristic changes, not new hardware generations or replacement launch dates.",
+        "IS4000 separates the surgeon console, patient-side cart and vision-side cart. Console master controls and foot controls command instruments/endoscope; optional dual-console assistance/training is not autonomous surgery or a second independently cataloged base robot.",
+        "The filing describes up to four patient-side arms for Xi, X, Si and 5; one handles the camera and the others instruments. That arm count does not establish complete-system DOF, cargo load, metric positioning accuracy or a procedure-per-hour rate.",
+        "Integrated Table Motion uses a compatible external operating table and is an upgrade for Xi in the FY2025 filing, while da Vinci 5 has it as standard. Firefly and other instruments/accessories keep system/region compatibility; external table and fluorescence components are not independent Xi robots."
       ],
       "sources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Xi IS4000 submission in FDA K131861 record, 2014 system architecture",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131861.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Xi submission in FDA K152578 record, labeling-only change, not first hardware launch",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/K152578.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive X/Xi submission in FDA K202834 record, labeling-only change and separate model numbers",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202834.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8773,14 +8823,36 @@
       "highlights": [
         "Fourth-generation multiport surgical system positioned for more cost-sensitive markets",
         "Surgeon console controls instruments and camera via a patient-side cart",
-        "Optional second console supports assistance and supervised training"
+        "Optional second console supports assistance and supervised training",
+        "The FY2025 manufacturer filing explicitly dates X commercialization to 2017; FDA K171294 is a May 26, 2017 decision letter for IS4200. The letter is regulatory evidence, not a dimensional or performance specification sheet.",
+        "IS4200 and IS4000 appear together in the K202834 manufacturer submission as distinct X and Xi models. That submission is a labeling-only change with no technological-characteristic change; it does not merge the two systems or prove all features are interchangeable.",
+        "The manufacturer positions X for cost-sensitive customers/markets and describes console-controlled instruments/camera with optional second-console assistance/training. A relative commercial position does not establish an exact price, autonomous surgery, clinical superiority or universal indication.",
+        "Firefly is described as standard for X in the FY2025 portfolio, while Integrated Table Motion is explicitly assigned to 5 and Xi. Xi-specific table integration, da Vinci 5 force-feedback tools, hardware mass and precision are not silently inherited by X."
       ],
       "sources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA 2017 X IS4200 decision letter, not a technical specification sheet",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K171294.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive X/Xi submission in FDA K202834 record, labeling-only change and separate model numbers",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf20/K202834.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8794,14 +8866,36 @@
       "highlights": [
         "Single-port surgical system accesses narrow workspaces through one incision",
         "Surgeon console controls the patient-side instruments",
-        "Complements the multiport da Vinci platforms with a different access architecture"
+        "Complements the multiport da Vinci platforms with a different access architecture",
+        "The FY2025 manufacturer filing explicitly says SP commercialization in 2018. FDA query records distinguish April 17, 2014 K131962 for historical SP999 from May 31, 2018 K173906 for SP1098; the latter submission names SP999 as its predicate. They are not one unchanged chassis with a contradictory launch year.",
+        "SP1098 has a surgeon console, patient cart and vision cart. A single patient-side arm delivers three articulated instruments and a fully articulating 3D camera through one cannula; one arm/four instrument drives is not a universal four-DOF specification.",
+        "The surgeon commands instruments and camera with console controls. Single-port access is an architecture difference from multiport Xi/X/5, not a guarantee of suitability for every procedure or patient, no-scar surgery, superior outcomes or autonomous execution.",
+        "The selected FY2025 filing describes optional second-console assistance/training and Firefly for SP. Instruments, access ports, staplers, imaging, software and region-specific cleared variants are separate components/version scopes; not every SP-related FDA record creates a new complete robot."
       ],
       "sources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP1098 submission in FDA K173906 record, 2018 system and SP999 predicate",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K173906.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP999 submission in FDA K131962 record, historical 2014 configuration",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA SP query; all 26 matching records, early SP999 versus later SP1098",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:%22da%20Vinci%20SP%22&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8815,14 +8909,30 @@
       "highlights": [
         "Third-generation surgical platform remains documented in the installed product history",
         "Surgeon console commands patient-side instruments",
-        "Supports a second console for assistance or supervised training"
+        "Supports a second console for assistance or supervised training",
+        "The FY2025 filing explicitly dates Si commercialization to 2009 and lists Si among systems in customer use. FDA K081137 identifies Si as IS3000; new-unit availability, service end dates and current resale quotations are not established.",
+        "The IS3000 manufacturer submission describes an updated/enhanced IS2000 predecessor with separate surgeon console, patient-side cart and vision equipment. Model S and Si are different generations, not interchangeable spellings of one robot.",
+        "The filing describes second-console assistance and supervised training for Si, with up to four patient-side arms. Optional second consoles and individual instruments are not additional independent base robots or a numeric whole-system DOF/cargo rating.",
+        "Si-specific mass, installed footprint, instrument compatibility, battery/charge duration, precision and current purchase price are not inferred from Xi/X/5 or refurbished-market offers. Qualitative control/vision positioning is not independent clinical-performance proof."
       ],
       "sources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Si IS3000 submission in FDA K081137 record, separate S IS2000 predecessor",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081137.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA selected IS-model query; 28 matching records, systems versus instruments distinguished",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:(IS5000+IS4000+IS3000+IS4200)&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8836,14 +8946,24 @@
       "highlights": [
         "Historical second-generation da Vinci surgical platform",
         "Manufacturer records commercialization in 2006",
-        "Part of the surgeon-controlled surgical system lineage"
+        "Part of the surgeon-controlled surgical system lineage",
+        "The FY2025 manufacturer filing explicitly dates da Vinci S commercialization to 2006. This is historical product lineage, not proof of current sales, stock, active support or every regional authorization.",
+        "S IS2000 is explicitly identified as the predecessor of Si IS3000 in the 2009 manufacturer submission.",
+        "Newer-generation optional dual consoles, force feedback, Firefly, Integrated Table Motion and software integrations are not transferred to the original historical configuration without model-specific evidence.",
+        "No exact original complete-system mass, size, cargo, battery/charge duration, metric motion accuracy, task rate or current hardware quote is established. Historical medical use is not a present clinical outcome or universal procedure guarantee."
       ],
       "sources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Si IS3000 submission in FDA K081137 record, separate S IS2000 predecessor",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf8/K081137.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8857,14 +8977,18 @@
       "highlights": [
         "Original commercial da Vinci surgical platform",
         "Manufacturer records commercialization in 1999",
-        "Historical predecessor of later da Vinci generations"
+        "Historical predecessor of later da Vinci generations",
+        "The FY2025 manufacturer filing explicitly dates da Vinci Standard commercialization to 1999. This is historical product lineage, not proof of current sales, stock, active support or every regional authorization.",
+        "The filing distinguishes original launch/commercialization in 1999 from the first US general-laparoscopic FDA clearance in 2000. Those are different milestones rather than a silently corrected release year.",
+        "Newer-generation optional dual consoles, force feedback, Firefly, Integrated Table Motion and software integrations are not transferred to the original historical configuration without model-specific evidence.",
+        "No exact original complete-system mass, size, cargo, battery/charge duration, metric motion accuracy, task rate or current hardware quote is established. Historical medical use is not a present clinical outcome or universal procedure guarantee."
       ],
       "sources": [
         {
-          "name": "Intuitive Surgical",
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
           "type": "manufacturer",
           "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -30354,6 +30478,81 @@
       ],
       "discoveredIn": [
         "https://ulctechnologies.com/technologies/vtol-fixed-wing-uas/"
+      ]
+    },
+    {
+      "robotId": "intuitive-surgical-ion",
+      "manufacturer": "Intuitive Surgical",
+      "model": "Ion",
+      "highlights": [
+        "The FY2025 manufacturer filing explicitly says Ion commercialization in 2019. FDA K182188 records an initial February 14, 2019 decision, and later IF1000 changes remain version-specific; dates of 2025 updates are not Ion’s first release.",
+        "IF1000 separates a PlanPoint planning laptop, system cart with instrument arm/monitors, physician controller, articulating catheter, vision probe and biopsy tools. The planning computer/software, Flexision needles and accessories are not independently established new robot chassis.",
+        "The physician controls catheter navigation in a leader–follower architecture using endoscopic viewing and a CT-derived airway model. Real-time shape sensing is not autonomous biopsy, an exact metric error bound or proof every lesion is reached or diagnosed.",
+        "The manufacturer describes catheter articulation through 180 degrees, a component movement envelope rather than full-system DOF or robot body size. Catheter/channel diameters, biopsy-needle gauge and instrument/tray weight are not copied into full-platform size, cargo or vision-accuracy fields.",
+        "The September 2025 K252045 submission and FDA query retain the IF1000 identity and distinguish system/software/accessory updates. The selected October 19, 2026 dataset has 11 matching Ion records; that query count is not 11 robots or an exhaustive current worldwide authorization register."
+      ],
+      "sources": [
+        {
+          "name": "Intuitive Surgical — company-authored FY2025 Form 10-K hosted by SEC; products, commercialization history and business model",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Ion IF1000 submission in FDA K182188 record, initial 2019 architecture",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182188.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive Ion IF1000 submission in FDA K252045 record, September 2025 update and architecture",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252045.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA Ion query; all 11 matching records in October 19, 2026 dataset snapshot",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:%22ION%22&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.sec.gov/Archives/edgar/data/1035267/000103526726000010/isrg-20251231.htm"
+      ]
+    },
+    {
+      "robotId": "intuitive-surgical-da-vinci-sp999",
+      "manufacturer": "Intuitive Surgical",
+      "model": "da Vinci SP999",
+      "highlights": [
+        "The 2014 manufacturer submission explicitly identifies da Vinci SP Surgical System Model SP999, with surgeon console, patient cart and vision cart. The FDA register gives K131962 decision April 17, 2014; this regulatory milestone is not a verified commercial release date.",
+        "The 2018 SP1098 submission explicitly names SP999/K131962 as its predicate. SP999 remains a historical named configuration rather than being silently merged with the later commercially launched SP1098 or counted as a currently sold new chassis.",
+        "A single patient-side arm has four instrument drives for camera and instruments under surgeon console control. Cannula size, drive count and articulated instrument motion are not complete-system outer dimensions, full-system DOF or independent autonomous operating capability.",
+        "Exact commercialization, current stock, full configured mass/size, battery endurance, cargo, precision and price remain unverified. Regulatory substantial-equivalence findings and manufacturer technical descriptions are distinct from current global clinical authorization and guaranteed outcomes."
+      ],
+      "sources": [
+        {
+          "name": "Intuitive Surgical — Intuitive SP999 submission in FDA K131962 record, historical 2014 configuration",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Intuitive Surgical — Intuitive SP1098 submission in FDA K173906 record, 2018 system and SP999 predicate",
+          "type": "manufacturer",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K173906.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FDA — FDA openFDA SP query; all 26 matching records, early SP999 versus later SP1098",
+          "type": "regulator",
+          "url": "https://api.fda.gov/device/510k.json?search=applicant:%22INTUITIVE%22+AND+device_name:%22da%20Vinci%20SP%22&limit=100&sort=decision_date:asc",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K131962.pdf"
       ]
     }
   ]

@@ -81,7 +81,7 @@ function updateCompareUI() {
 }
 
 function syncCompareButtons() {
-  const lang = localStorage.getItem('lang') || 'en';
+  const lang = window.__I18N__?.currentLang?.() || localStorage.getItem('lang') || 'en';
   const table = window.__I18N__?.translations?.[lang] || {};
   document.querySelectorAll('[data-compare-id]').forEach((button) => {
     const selected = compareIds.includes(button.dataset.compareId);
@@ -99,7 +99,7 @@ async function renderCompareTable() {
   const version = ++renderVersion;
 
   const robots = getCompareRobots();
-  const lang = localStorage.getItem('lang') || 'en';
+  const lang = window.__I18N__?.currentLang?.() || localStorage.getItem('lang') || 'en';
   const { translations } = window.__I18N__ || { translations: {} };
   const tbl = (translations && translations[lang]) || {};
   const t = (k, fb) => tbl[k] || fb || k;

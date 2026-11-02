@@ -13,6 +13,14 @@ describe('primary product provenance', () => {
     );
   });
 
+  it('labels dated regulator evidence without relabeling it as manufacturer evidence', () => {
+    const source = { type: 'regulator', checkedAt: '2026-11-02' };
+    expect(isPrimaryProductSource(source)).toBe(true);
+    expect(productSourceLabel(source)).toBe('Regulatory authority source');
+    expect(productSourceLabel(source)).not.toBe('Manufacturer source');
+    expect(isPrimaryProductSource({ type: 'regulator' })).toBe(false);
+  });
+
   it('rejects secondary publications, unknown types and undated evidence', () => {
     for (const source of [
       undefined,

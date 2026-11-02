@@ -3,6 +3,7 @@ const labels = {
   deployment: 'Deployment owner source',
   developer: 'Developer source',
   integrator: 'Integration partner source',
+  regulator: 'Regulatory authority source',
 };
 
 export function isPrimaryProductSource(source) {
