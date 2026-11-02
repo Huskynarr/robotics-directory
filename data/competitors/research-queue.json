@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T16:08:22.329Z",
+  "generatedAt": "2026-11-02T16:25:14.366Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 383,
-    "withoutSelectedFieldReview": 135,
-    "selectedFields": 6324,
+    "withSelectedFieldReview": 385,
+    "withoutSelectedFieldReview": 133,
+    "selectedFields": 6362,
     "selectedFieldStatuses": {
-      "documented": 2860,
-      "not-documented": 3296,
-      "conflicting": 157,
+      "documented": 2881,
+      "not-documented": 3312,
+      "conflicting": 158,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 86,
+    "sourceGroupsWithCompanyAuthoredFocus": 87,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -481,26 +481,6 @@
       "robotIds": [
         "badger-technologies-digital-teammate",
         "badger-technologies-patrolbot"
-      ]
-    },
-    {
-      "brandId": "blue-robotics",
-      "name": "Blue Robotics",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/blue-robotics"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "blue-robotics-blueboat",
-        "blue-robotics-bluerov2"
       ]
     },
     {
@@ -3726,6 +3706,26 @@
         "bitcraze-crazyflie-2-1-brushless",
         "bitcraze-crazyflie-2-1-plus"
       ]
+    },
+    {
+      "brandId": "blue-robotics",
+      "name": "Blue Robotics",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/blue-robotics"
+      ],
+      "catalogModels": 2,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "blue-robotics-blueboat",
+        "blue-robotics-bluerov2"
+      ]
     }
   ],
   "companies": [
@@ -5000,10 +5000,10 @@
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "blue-robotics-blueboat",
         "blue-robotics-bluerov2"
@@ -18172,24 +18172,55 @@
       "brandId": "blue-robotics",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Blue Robotics",
+          "name": "Blue Robotics — BlueBoat current product and conditional endurance tables",
           "type": "manufacturer",
           "url": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueBoat linked January 2025 datasheet",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/wp-content/uploads/2023/03/BLUEBOAT-DATASHEET-v1.1-JAN-2025.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueBoat operating modes and failsafes",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/blueboat-operators-guide/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 19,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 11,
+        "not-documented": 8,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Blue Robotics — BlueBoat current product and conditional endurance tables",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueBoat linked January 2025 datasheet",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/wp-content/uploads/2023/03/BLUEBOAT-DATASHEET-v1.1-JAN-2025.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueBoat operating modes and failsafes",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/blueboat-operators-guide/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -18211,24 +18242,67 @@
       "brandId": "blue-robotics",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Blue Robotics",
+          "name": "Blue Robotics — BlueROV2 current product and technical tables",
           "type": "manufacturer",
           "url": "https://bluerobotics.com/store/rov/bluerov2/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 linked technical datasheet",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/wp-content/uploads/2025/04/BROV2-DATASHEET.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 operating guide",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/bluerov2-operation/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 current buyer configuration guide",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/bluerov2-buyers-guide/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 19,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 10,
+        "not-documented": 8,
+        "conflicting": 1,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Blue Robotics — BlueROV2 current product and technical tables",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/store/rov/bluerov2/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 linked technical datasheet",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/wp-content/uploads/2025/04/BROV2-DATASHEET.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 operating guide",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/bluerov2-operation/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 current buyer configuration guide",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/bluerov2-buyers-guide/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

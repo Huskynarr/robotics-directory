@@ -2682,16 +2682,38 @@
       "manufacturer": "Blue Robotics",
       "model": "BlueROV2",
       "highlights": [
-        "Tethered underwater inspection platform using open-source control software",
-        "Six-thruster base configuration; optional Heavy kit adds two thrusters",
-        "Depth rating depends on enclosure: 100 m acrylic or 300 m aluminum"
+        "Six base T200 thrusters provide vectored underwater movement. The optional Heavy kit adds two vertical thrusters and full six-axis vehicle control with pitch/roll stabilization; it does not increase horizontal speed.",
+        "Acrylic and aluminum tubes retain separate 100 m and 300 m depth ratings. The listed 457 × 338 × 254 mm base envelope is distinct from extended skids and tether lengths.",
+        "Mass is 11–12 kg with default ballast and manufacturer battery, or 9–10 kg without either. Available buoyancy is 1.2 kg with four Lumen lights to 1.4 kg with none; the 7 kgf vertical thrust is not neutral carried payload.",
+        "Both active sources state roughly two-hour normal/four-hour light operation, but the HTML table specifies 15.6 Ah and its linked PDF 18 Ah. The battery-condition mismatch remains unresolved instead of becoming an unconditional maximum.",
+        "Navigator and BlueOS support configurable control and sensing. A tilting 1080p camera is described; extra sonars, grippers and payload skids remain optional integrations rather than assumed stock autonomous inspection capabilities.",
+        "The visible price starts at 4,900 USD with tax excluded. The buyer guide says the base package excludes tether and lights; battery, charger and laptop also need to be supplied. Kit assembly is estimated at six to eight hours.",
+        "A roughly thirty-second battery exchange is not charging duration. The selected sources do not establish a whole-vehicle IP code, exact charge interval, first-release year or independently verified task outcome."
       ],
       "sources": [
         {
-          "name": "Blue Robotics",
+          "name": "Blue Robotics — BlueROV2 current product and technical tables",
           "type": "manufacturer",
           "url": "https://bluerobotics.com/store/rov/bluerov2/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 linked technical datasheet",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/wp-content/uploads/2025/04/BROV2-DATASHEET.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 operating guide",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/bluerov2-operation/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 current buyer configuration guide",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/bluerov2-buyers-guide/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -2703,16 +2725,32 @@
       "manufacturer": "Blue Robotics",
       "model": "BlueBoat",
       "highlights": [
-        "Uncrewed surface vessel for hydrographic surveys and robotics development",
-        "Open-source BlueOS and space to integrate sonars and other sensors",
-        "Carries up to 15 kg total batteries and payload"
+        "The 14.5 kg vehicle mass excludes batteries and instruments; the 15 kg allowance combines batteries with payload. The 3 m/s maximum uses two batteries with no payload, rather than a fully loaded survey configuration.",
+        "At 1 m/s and about 30 W without payload, the table lists 18/36/50/62 hours for two/four/six/eight batteries. The largest setup is 2,128 Wh; optional solar indefinite operation is not battery-only endurance.",
+        "Twin M200 motors and weedless propellers steer through differential thrust. Overall table dimensions are 120 × 93 × 46 cm deployed and 120 × 71 × 24 cm folded; packaging dimensions remain separate.",
+        "GPS, Navigator, ArduRover and BlueOS support manual, waypoint, guided and position-hold operation. The operator guide defaults non-Auto telemetry loss to motor-stopping Hold, while Auto ignores that failsafe; return-home behavior depends on configuration.",
+        "Standard-antenna telemetry/control is listed up to 250 m; optional directional antennas exceed 800 m under suitable conditions. Communication reach is not sonar survey depth, guaranteed mission range or collision avoidance.",
+        "The manufacturer starting price is 4,400 USD before tax. Batteries, charger, computer and selected sonar/radio accessories need the appropriate supplied-system configuration; the starting vehicle price is not a complete survey package.",
+        "Payload interfaces and BlueOS support integrating survey instruments, cameras and communications. Optional sonar accuracy, a BaseStation charge indication and 320 mm maximum loaded draft are not vehicle navigation accuracy, vehicle charge duration or a diving-depth rating."
       ],
       "sources": [
         {
-          "name": "Blue Robotics",
+          "name": "Blue Robotics — BlueBoat current product and conditional endurance tables",
           "type": "manufacturer",
           "url": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueBoat linked January 2025 datasheet",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/wp-content/uploads/2023/03/BLUEBOAT-DATASHEET-v1.1-JAN-2025.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueBoat operating modes and failsafes",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/blueboat-operators-guide/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [

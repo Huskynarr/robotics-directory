@@ -84171,6 +84171,258 @@
           "note": "Plus store package lists DC coreless motors; Brushless Rev 3 section 5 lists four brushless motors with integrated ESCs. These are propulsion types, not articulated joint counts."
         }
       }
+    },
+    {
+      "robotId": "blue-robotics-bluerov2",
+      "manufacturer": "Blue Robotics",
+      "model": "BlueROV2",
+      "sources": [
+        {
+          "name": "Blue Robotics — BlueROV2 current product and technical tables",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/store/rov/bluerov2/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 linked technical datasheet",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/wp-content/uploads/2025/04/BROV2-DATASHEET.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 operating guide",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/bluerov2-operation/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueROV2 current buyer configuration guide",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/bluerov2-buyers-guide/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-97/source-1.html",
+      "fields": {
+        "price": {
+          "value": "From 4,900 USD; base configuration; tax excluded; battery, charger, laptop, tether and lights additional; shipping not established",
+          "status": "documented",
+          "note": "Manufacturer starting price in USD before tax for the selected base vehicle. Tether and lights are separate configuration choices; battery, charger and laptop also need to be supplied. Shipping and the complete configured-system cost remain unestablished."
+        },
+        "weight": {
+          "value": "11–12 kg with default ballast and manufacturer battery; 9–10 kg without ballast/battery",
+          "status": "documented",
+          "note": "BlueROV2 table/datasheet distinguishes 11–12 kg with default ballast and manufacturer battery from 9–10 kg without either. BlueBoat 14.5 kg excludes batteries and payload. Heavy upgrades and added instruments are not silently included."
+        },
+        "size": {
+          "value": "457 x 338 x 254 mm (L x W x H; base table)",
+          "status": "documented",
+          "note": "Named-model L x W x H table values. BlueBoat deployed, folded and packaged sizes are separate; package is not deployed envelope. The PDF side sketch marks a shorter 38 cm vertical span below the antenna while the table says 46 cm deployed height; no axis, equipment or dimensional correction is invented."
+        },
+        "batteryLife": {
+          "value": "Approx. 2 h normal / 4 h light use; HTML 15.6 Ah battery vs linked PDF 18 Ah",
+          "status": "conflicting",
+          "note": "BlueROV2 active HTML table assigns roughly 2 h normal/4 h light use to a 15.6 Ah battery, while its linked PDF assigns those intervals to 18 Ah. The unresolved battery-condition mismatch remains visible; no independent endurance guarantee or revision mapping. BlueBoat table explicitly conditions intervals on 1 m/s, about 30 W, no payload and battery count."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "BlueROV2 does not establish a separate configuration-wide maximum; its qualified light-use interval remains in batteryLife. BlueBoat 62 h is the highest listed eight-battery configuration at 1 m/s/about 30 W/no payload, not duration at 3 m/s or with maximum payload. User-equipped solar indefinite operation is excluded from battery-only endurance."
+        },
+        "payload": {
+          "value": "1.2 kg with 4 Lumen lights to 1.4 kg without lights (available buoyancy)",
+          "status": "documented",
+          "note": "BlueROV2 figures are configuration-dependent available buoyancy: 1.2 kg with four Lumen lights to 1.4 kg with none; vertical dynamic thrust is not neutral added payload. BlueBoat 15 kg is combined batteries plus instruments, not 15 kg instruments in addition to batteries."
+        },
+        "speed": {
+          "value": "Maximum forward 1.5 m/s (base configuration)",
+          "status": "documented",
+          "note": "BlueROV2 maximum forward speed 1.5 m/s; Heavy does not raise horizontal speed per buyer guide. BlueBoat 3 m/s requires two batteries and no payload. Neither value transfers to endurance-test speed or loaded mission performance."
+        },
+        "depthRating": {
+          "value": "100 m acrylic tubes; 300 m aluminum tubes",
+          "status": "documented",
+          "note": "BlueROV2 acrylic tubes are rated 100 m, aluminum 300 m; tether length and sonar range are different quantities. BlueBoat is a surface vessel; its 320 mm loaded draft is not a diving-depth rating."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-vehicle ingress code established. Depth capability, watertight housings and electrical penetrators do not establish an IP code by inference."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact main-vehicle-battery charge duration under a defined charger and SOC window established. BlueROV2 roughly 30-second battery swap and BlueBoat BaseStation charging controls are not vehicle charging time."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Six base T200 thrusters are not six articulated joints. Buyer guide states full six-degree-of-freedom vehicle control for optional eight-thruster Heavy configuration; no stock joint/axis count is inferred. BlueBoat six-axis IMU is not a mechanical DOF count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "BlueROV2 gripper and other tools are optional; no stock manipulator is assumed. No included BlueBoat hand/gripper established."
+        },
+        "website": {
+          "value": "https://bluerobotics.com/store/rov/bluerov2/",
+          "status": "documented",
+          "note": "Successful exact named-model manufacturer product page and linked technical documents inspected."
+        },
+        "description": {
+          "value": "BlueROV2 is a configurable tethered underwater inspection/research kit with six base T200 thrusters, Navigator/BlueOS control and a tilting camera. Acrylic/aluminum tubes are rated for 100/300 m depth; maximum forward speed is 1.5 m/s. Its 1.2–1.4 kg added buoyancy depends on lighting, and fitted mass differs from bare mass. Active endurance tables disagree on the battery capacity used for roughly two-hour normal/four-hour light use. The Heavy kit adds two thrusters and six-axis vehicle control without increasing horizontal speed. Tether, lights, battery, charger and laptop require the appropriate configuration.",
+          "status": "documented",
+          "note": "Scoped synthesis of named-model manufacturer tables, linked datasheet and operating/option guides. Optional components, battery conditions and operating modes remain explicit."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first model release established by selected sources. Company 2014 component campaign, upload directories, document revision dates and current product revisions are not automatically robot introduction years."
+        },
+        "terrain": {
+          "value": "Underwater; tethered inspection and research",
+          "status": "documented",
+          "note": "BlueROV2 is an underwater tethered vehicle; BlueBoat is a surface catamaran. Depth, temperature ratings, wifi range and autonomous waypoint modes do not establish unrestricted weather, wave or collision-avoidance capability."
+        },
+        "driveMode": {
+          "value": "6 T200 thrusters: 4 vectored, 2 vertical; optional Heavy adds 2 vertical thrusters",
+          "status": "documented",
+          "note": "BlueROV2 base has four vectored and two vertical T200 thrusters; optional Heavy adds two vertical units. BlueBoat uses two M200 motors with weedless propellers and differential thrust. Components and upgrade kits are not separate complete robots."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "GPS waypoint/position-hold capability and optional underwater positioning/sonars do not establish a model-specific numeric navigation accuracy in the selected sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established by research, inspection or education use."
+        }
+      }
+    },
+    {
+      "robotId": "blue-robotics-blueboat",
+      "manufacturer": "Blue Robotics",
+      "model": "BlueBoat",
+      "sources": [
+        {
+          "name": "Blue Robotics — BlueBoat current product and conditional endurance tables",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueBoat linked January 2025 datasheet",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/wp-content/uploads/2023/03/BLUEBOAT-DATASHEET-v1.1-JAN-2025.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Blue Robotics — BlueBoat operating modes and failsafes",
+          "type": "manufacturer",
+          "url": "https://bluerobotics.com/learn/blueboat-operators-guide/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-97/source-2.html",
+      "fields": {
+        "price": {
+          "value": "From 4,400 USD; tax excluded; options, batteries, charger and laptop additional; shipping not established",
+          "status": "documented",
+          "note": "Manufacturer starting price in USD before tax. The selected base/option package, batteries, charger, laptop and survey instruments determine the complete system cost. Shipping and inclusion of optional radio accessories remain unestablished."
+        },
+        "weight": {
+          "value": "14.5 kg without batteries or payload",
+          "status": "documented",
+          "note": "BlueROV2 table/datasheet distinguishes 11–12 kg with default ballast and manufacturer battery from 9–10 kg without either. BlueBoat 14.5 kg excludes batteries and payload. Heavy upgrades and added instruments are not silently included."
+        },
+        "size": {
+          "value": "120 x 93 x 46 cm deployed; 120 x 71 x 24 cm folded (L x W x H)",
+          "status": "documented",
+          "note": "Named-model L x W x H table values. BlueBoat deployed, folded and packaged sizes are separate; package is not deployed envelope. The PDF side sketch marks a shorter 38 cm vertical span below the antenna while the table says 46 cm deployed height; no axis, equipment or dimensional correction is invented."
+        },
+        "batteryLife": {
+          "value": "18/36/50/62 h with 2/4/6/8 batteries at 1 m/s (~30 W), no payload",
+          "status": "documented",
+          "note": "BlueROV2 active HTML table assigns roughly 2 h normal/4 h light use to a 15.6 Ah battery, while its linked PDF assigns those intervals to 18 Ah. The unresolved battery-condition mismatch remains visible; no independent endurance guarantee or revision mapping. BlueBoat table explicitly conditions intervals on 1 m/s, about 30 W, no payload and battery count."
+        },
+        "maxRuntime": {
+          "value": "62 h with 8 batteries (2,128 Wh), 1 m/s (~30 W), no payload; highest listed battery configuration",
+          "status": "documented",
+          "note": "BlueROV2 does not establish a separate configuration-wide maximum; its qualified light-use interval remains in batteryLife. BlueBoat 62 h is the highest listed eight-battery configuration at 1 m/s/about 30 W/no payload, not duration at 3 m/s or with maximum payload. User-equipped solar indefinite operation is excluded from battery-only endurance."
+        },
+        "payload": {
+          "value": "15 kg combined batteries and payload",
+          "status": "documented",
+          "note": "BlueROV2 figures are configuration-dependent available buoyancy: 1.2 kg with four Lumen lights to 1.4 kg with none; vertical dynamic thrust is not neutral added payload. BlueBoat 15 kg is combined batteries plus instruments, not 15 kg instruments in addition to batteries."
+        },
+        "speed": {
+          "value": "Maximum 3 m/s with 2 batteries, no payload",
+          "status": "documented",
+          "note": "BlueROV2 maximum forward speed 1.5 m/s; Heavy does not raise horizontal speed per buyer guide. BlueBoat 3 m/s requires two batteries and no payload. Neither value transfers to endurance-test speed or loaded mission performance."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "BlueROV2 acrylic tubes are rated 100 m, aluminum 300 m; tether length and sonar range are different quantities. BlueBoat is a surface vessel; its 320 mm loaded draft is not a diving-depth rating."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-vehicle ingress code established. Depth capability, watertight housings and electrical penetrators do not establish an IP code by inference."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact main-vehicle-battery charge duration under a defined charger and SOC window established. BlueROV2 roughly 30-second battery swap and BlueBoat BaseStation charging controls are not vehicle charging time."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Six base T200 thrusters are not six articulated joints. Buyer guide states full six-degree-of-freedom vehicle control for optional eight-thruster Heavy configuration; no stock joint/axis count is inferred. BlueBoat six-axis IMU is not a mechanical DOF count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "BlueROV2 gripper and other tools are optional; no stock manipulator is assumed. No included BlueBoat hand/gripper established."
+        },
+        "website": {
+          "value": "https://bluerobotics.com/store/boat/blueboat/blueboat/",
+          "status": "documented",
+          "note": "Successful exact named-model manufacturer product page and linked technical documents inspected."
+        },
+        "description": {
+          "value": "BlueBoat is a surface survey/research catamaran with differential thrust, two M200 motors and configurable instruments. Its 14.5 kg mass excludes batteries and payload; the 15 kg allowance combines both. GPS/ArduRover/BlueOS support waypoint, guided and position-hold modes. Listed endurance ranges from 18 to 62 hours at 1 m/s and no payload as battery count rises from two to eight; 3 m/s top speed uses two batteries without payload. Communications-loss behavior depends on mode and failsafe parameters, rather than universally returning home. Folded and deployed sizes and optional sonars, radios and solar equipment retain separate scope.",
+          "status": "documented",
+          "note": "Scoped synthesis of named-model manufacturer tables, linked datasheet and operating/option guides. Optional components, battery conditions and operating modes remain explicit."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first model release established by selected sources. Company 2014 component campaign, upload directories, document revision dates and current product revisions are not automatically robot introduction years."
+        },
+        "terrain": {
+          "value": "Water surface; survey and robotics-development catamaran",
+          "status": "documented",
+          "note": "BlueROV2 is an underwater tethered vehicle; BlueBoat is a surface catamaran. Depth, temperature ratings, wifi range and autonomous waypoint modes do not establish unrestricted weather, wave or collision-avoidance capability."
+        },
+        "driveMode": {
+          "value": "Differential thrust; 2 M200 motors with weedless propellers",
+          "status": "documented",
+          "note": "BlueROV2 base has four vectored and two vertical T200 thrusters; optional Heavy adds two vertical units. BlueBoat uses two M200 motors with weedless propellers and differential thrust. Components and upgrade kits are not separate complete robots."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "GPS waypoint/position-hold capability and optional underwater positioning/sonars do not establish a model-specific numeric navigation accuracy in the selected sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established by research, inspection or education use."
+        }
+      }
     }
   ]
 }
