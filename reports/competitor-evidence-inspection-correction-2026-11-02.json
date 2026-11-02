@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-11-02",
+  "affectedBatches": [
+    {
+      "batch": 96,
+      "previousSourceIntegrityVisualScope": "Manufacturer Rev 3 page 2 inspected via web PDF screenshot; local image viewer rejected image input. No drawing dimensions inferred.",
+      "previousVisualInspectionClaim": true,
+      "correctedVisualInspectionClaim": false
+    },
+    {
+      "batch": 97,
+      "previousSourceIntegrityVisualScope": "Web screenshots of both pages of both manufacturer datasheets inspected; diagram dimensions not substituted for overall table values.",
+      "previousVisualInspectionClaim": true,
+      "correctedVisualInspectionClaim": false
+    }
+  ],
+  "source": "Audit of available tool records, saved PDF bodies and extracted text",
+  "scope": "Visual-inspection claims withdrawn. The 38 cm drawing reference is unverified; table values, identities, fields/status totals and source-body hashes are unchanged. This is not a retrospective certification of all earlier batches.",
+  "priorSourceBodyHashesPreserved": true,
+  "technicalValuesChanged": false,
+  "reviewFieldNotesChanged": 2,
+  "validationStatus": "passed",
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "pushVerified": true,
+    "dataCommit": "993e17678265ecdadf313832d07e5efe6d4c85b8"
+  },
+  "validation": {
+    "selectedUnitTests": 34,
+    "selectedUnitTestFiles": 1,
+    "buildPages": 3103,
+    "dataErrors": 0,
+    "dataWarnings": 947,
+    "renderedSelectedModelPages": 2,
+    "selectedFields": 38,
+    "staticComparisonPayload": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 951,
+      "individualHighlights": 4149,
+      "productSourceReferences": 1836,
+      "specificationReviewModels": 797,
+      "specificationFields": 13340,
+      "publicJsonBytes": 3404055,
+      "catalogScriptBytes": 2106735,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "renderedCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 2,
+      "selectedSpecificationFieldsChecked": 38,
+      "sourceBadgesChecked": 18,
+      "blankFieldsOmitted": 16,
+      "descriptionsChecked": 2,
+      "websitesChecked": 2,
+      "structuredSpecificationPropertiesChecked": 16,
+      "highlightStatementsChecked": 14,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 2,
+      "modelExportRowsChecked": 2,
+      "modelExportTargetsChecked": 2,
+      "modelExportFieldOccurrencesChecked": 38,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 2,
+      "researchQueueFieldsChecked": 38,
+      "scope": "Two Blue Robotics platforms: depth/enclosure and buoyancy scope, HTML/PDF battery mismatch, conditional USV endurance, starting-price and failsafe scope retained. No independent performance or market-leadership proof."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 12,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "scope": "Two evidence-note corrections and inspection metadata only. Raw specification values, counts and statuses unchanged. Existing797-model payload checked; two affected pages/exports checked. Prior full unit/browser results are historical and not represented as rerun."
+  },
+  "changedReviewIds": [
+    "blue-robotics-bluerov2",
+    "blue-robotics-blueboat"
+  ]
+}
