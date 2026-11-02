@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,094 catalog rows**, with 644 exact
-manufacturer spellings. Batch 103 refreshed the separate heuristic gap file offline
-against all 2,094 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,115 catalog rows**, with 644 exact
+manufacturer spellings. Batch 104 refreshed the separate heuristic gap file offline
+against all 2,115 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1006 dated records across the catalog, including
-166 existing-model enrichments and 840 task additions. All 430 catalog models
+Current product-highlight coverage: 1027 dated records across the catalog, including
+166 existing-model enrichments and 861 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 840 task additions, totaling 2,094.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 861 task additions, totaling 2,115.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 401 have selected-field reviews and 117 await those reviews. Family and
+highlights; 403 have selected-field reviews and 115 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 14,654 fields across 868 catalog models: 6,207 documented,
-8,118 not documented, 260 conflicting and sixty-nine roadmap fields. They do not certify whole
+Selected specification checks cover 15,068 fields across 891 catalog models: 6,359 documented,
+8,377 not documented, 262 conflicting and seventy roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -6374,3 +6374,102 @@ neun Listingidentitäten und 862 Buy-Detailinhalte bleiben offen. Keine behaupte
 exklusive USP- oder Markt-/Suchführerschaft. Datencommit `f3be5f912b6bc2941b7c937d17838ce2050426cb` gepusht;
 Main unverändert, kein Deployment. Nachweis:
 `reports/competitor-batch-103-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Neuromeka Armvarianten und Kataloggrenzen (Batch 104)
+
+23 ausgewählte Roboteridentitäten mit 414 Feldern geprüft: 152 dokumentiert,
+259 unbekannt, zwei Quellenabweichungen und ein vorläufiger Roadmap-Wert.
+21 neue Identitäten, zwei bestehende Indy-Einträge überarbeitet; 23 neue Feldprüfungen
+und ein Firmenfokus. Alle 2092 anderen vorherigen CSV-Zeilen, 868 Feldprüfungen,
+97 Firmenfokusse und 1961 Quellenidentitäten unverändert. Neue Entdeckungen nutzen
+tatsächliche Primärquellen. Keine neuen CSV-Spalten, Kategorieübertragungen oder
+Änderungen am Anwendungscode. Frühere Belege beider Bestandseinträge erhalten;
+deren Tags/Bilder dadurch nicht insgesamt neu zertifiziert.
+
+Bestand Indy7/Indy12: explizite historische Veröffentlichung 2017/2019 und 7/12 kg
+Familiennennung. Detailtabellen des gelesenen Katalogs heißen V3 beziehungsweise
+Pro, ihre Werte werden nicht auf die ursprünglichen Arme übertragen. Indy7s
+Produktionsstart Juli 2018 ist eine andere Zeitangabe. Ergänzt: Indy7/12 V3,
+Indy7/12 Pro mit IndyEye, aktuelles Indy7-K-Label und ausdrücklich siebenachsiger
+Forschungsarm Indy-RP2. Indy-K-Familienstart Oktober 2024 ist kein belegtes
+exaktes Indy7-K-Veröffentlichungsdatum. Historische Indy3/5/10 (2017) und Indy-RP
+(2016) sind eigene Namensbelege; keine Traglast allein aus Modellnummern abgeleitet
+und RP-Jahr nicht auf RP2 übertragen. Aktueller Bestand/Lieferung der historischen
+Modelle bleibt offen.
+
+V3/Pro: sechs Drehachsen, 7/12 kg, maximal 1210/1700 mm Reichweite gegenüber
+separat beschriftetem Workspace 800/1200 mm, 34/57 kg, 0,1 mm Wiederholgenauigkeit,
+1 m/s maximale Werkzeuggeschwindigkeit und IP54. Werkzeug-/Kameragewichtsbasis
+nicht pauschal angenommen. IndyEye gehört laut Katalog zur Pro-Serie; eine
+Kamerakonfiguration beweist keinen beiliegenden Greifer. Einzelachsige °/s sind
+keine lineare Geschwindigkeit oder Zykluszeitgarantie.
+
+OPTi3/5: sechs Achsen, 3/5 kg, maximale Reichweite 940/1350 mm gegenüber
+Workspace 630/900 mm, 0,1 mm, 1 m/s, IP54. OPTi3-Masse ausdrücklich 11 kg(TBD)
+als vorläufiges Feld, nicht finale ausgelieferte Masse; benannter Start Oktober
+2025. OPTi5-Masse 34 kg. Brenner, Zelle, Einhausung und Schweißresultate nicht
+automatisch Bestandteil oder unabhängig nachgewiesen.
+
+NURI C: 7c/12c/18c/20c, sechs Achsen, 7/12/18/20 kg; Reichweite
+1220/1710/1340/2160 mm, Masse einschließlich eingebautem Schaltschrank
+25/41/38/71 kg, IP67. NURI S: 3s/5s, sechs Achsen, 3/5 kg,
+Reichweite 1000/1230 mm, 14/17 kg einschließlich eingebautem Schaltschrank,
+IP54. Modellbezogene Werkzeuggeschwindigkeiten und Workspace-Werte getrennt.
+NURI30: 30 kg, sechs Achsen, ungefähr 93 kg einschließlich Schaltschrank,
+IP54, 2,5 m/s. Katalog nennt maximal 1990 mm Reichweite und 1800 mm Workspace;
+aktuelle Seite nennt an anderer Stelle 1800 mm reach. Abweichung bleibt sichtbar.
+NURI20c-Tabelle druckt 0,5 mm Wiederholgenauigkeit, aktuelle C-Familienwerbung
+allgemein weniger als ±0,03 mm. Geltungsbereich ungeklärt; nicht heimlich in
+0,05 mm korrigiert oder Familienwerbung zum neuen exakten Modellwert gemacht.
+
+D3/D6: vierachsige Delta-Roboter, 3/6 kg Last, 60/80 kg Masse, 0,1 mm
+Wiederholgenauigkeit. Katalogkapitel KOREA ONLY, keine universelle aktuelle
+Verfügbarkeitsbehauptung. Reichweitenabschnitt wiederholt XY Axis für
+800/300 beziehungsweise 1300/500 mm. Zweite Zeile ohne Zeichnungsprüfung nicht
+als Z umbenannt; Werte sind keine Außenmaße oder serielle Armreichweite.
+Beispielzyklen 0,55 s bei 3 kg beziehungsweise 0,45 s bei 6 kg für Pfad
+25×305×25 werden nicht in pauschale Picks/Stunde oder m/s umgerechnet.
+
+13 erfolgreiche Dokumentantworten plus fünf Rasterdatei-Downloads, alle HTTP200
+und gespeicherten Körper per SHA-256 geprüft. Separater HTTPS-Dokumentationsversuch
+scheiterte beim TLS-Handshake mit Connection reset by peer, ohne HTTP-Antwort
+oder Wiederholung. Bilddateien besitzen drei unterschiedliche Körper; kein Bild
+wurde erfolgreich visuell geöffnet. Drei erste parallele Aufrufe lieferten keine
+Bildausgabe; expliziter Folgeaufruf wurde wegen fehlender Bildinput-Unterstützung
+abgewiesen. Keine visuelle Bild-, PDF-, CAD-, Video- oder Zertifikatsinspektion.
+PDF mit 36 Seiten zu Text extrahiert, relevante Titel-/Historien-/Armtabellen und
+15 namensbezogene Textausschnitte samt Wortkoordinaten geprüft. Nicht jede andere
+Katalogseite vollständig zeilenweise ausgewertet. Englisch-Downloadlabel
+V20260903 passt nicht zu verlinktem Dateinamen und PDF-Cover V20251205;
+PDF-Metadaten ebenfalls Dezember 2025. Dieses Quelldatum bleibt erhalten.
+
+807 Unit-Tests/64 Dateien, Build 3165 Seiten, Audit null Fehler/1018 Hinweise.
+16 neue unbekannte Releasejahre und zwei aufgehobene alte Hinweise ergeben netto
+14 zusätzliche Hinweise; alle anderen unverändert. Erster Refresh erkannte eine
+fehlende datierte Quelle für die Firmenhomepage; bereits geholte Homepagequelle
+ergänzt, alle vorbereiteten Roboterprodukte dabei per Hash unverändert. Erste
+Unit-Runde 806/807: bestehender globaler Guard erkannte eine generische Fehlwertnotiz
+an dokumentiertem RP2-Feld. Alle positiven Felder erneut geprüft, 78 übernommene
+Fehlwertnotizen korrigiert; Zahlen/Status unverändert. Vollständige Unit-Suite und
+Build danach erneut bestanden. Lint/Format, endgültiger Refresh und Wiederimport
+ohne Ergänzungen bestanden.
+
+16 verschiedene Desktop-/Mobilfälle mit einem Worker inklusive vier Axe-Läufen
+bestanden. 23 gerenderte Seiten/414 Felder/82 Merkmalsaussagen, Firmenfokus,
+strukturierte Eigenschaften und aktuelle Exporte geprüft. Zwei kombinierte
+Rechercheziele/36 Felder; keine Neuromeka-Zeilen im separaten Namensmodell- oder
+Firmenprodukt-Export. Frühere 868 Feldprüfungen unverändert statt erneuter globaler
+Seitenprüfung. Vergleich vollständig gegen 1027 Produktbelege, 4475 Aussagen,
+2017 Quellenverweise und 891 Prüfungen/15068 Felder abgeglichen. Eigene Browser-,
+Server- und Hilfsprozesse freigegeben, Port 4321 frei; kein Deployment.
+
+Gesamt 2115 Katalogeinträge, 861 Ergänzungen und 166 bestehende Modelle mit
+Merkmalsanreicherung, 98 Firmenfokusse. Von 518 ursprünglichen Quellenzielen haben
+403 ausgewählte Feldprüfungen, 115 stehen aus. Drei Modellidentitäten, neun
+Listingidentitäten und 862 Buy-Detailinhalte bleiben offen. Neuromeka-Leads ZEN,
+NAMY, EIR, RAXIS, Moby-RP(V3.3), Moby-Agri sowie K-/NURI30h-Namensbeziehungen
+bedürfen weiterer Prüfung. Keine vollständige aktuelle/historische Herstellerpalette,
+unabhängige Sicherheits-/Wirtschaftlichkeits-/Leistungs-, exklusive USP- oder
+Markt-/Suchführerschaft nachgewiesen. Datencommit `a908d4ebe5654982f1d218c73dd496118c499148` gepusht,
+Main unverändert. Nachweis: `reports/competitor-batch-104-evidence.json`.

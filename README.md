@@ -140,20 +140,20 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-02, all source company names are represented in 591 competitor
-groups. The catalog contains 2,094 model/configuration entries and 1,006 dated primary-source highlight
+groups. The catalog contains 2,115 model/configuration entries and 1,027 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 401 and 117 still awaiting those reviews.
+selected technical-field reviews for 403 and 115 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
-The heuristic gap file now compares all 2,094 rows using same-brand matches only.
+The heuristic gap file now compares all 2,115 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
 reviewed aliases, components and services; the strict unresolved counts remain
 three model identities and nine listings.
@@ -370,6 +370,18 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Neuromeka now has 23 selected arm identities with 414 reviewed fields, including
+21 additions: named Indy generations/research variants and historical releases,
+OPTi3/5, NURI C/S/30 and D3/D6 delta robots. Original Indy tables do not inherit V3
+data; RP and RP2 remain separate. OPTi3's TBD mass is preliminary. NURI20c's printed
+0.5 mm repeatability versus general family marketing and NURI30's reach/workspace
+wording remain qualified source differences. Delta example cycles and repeated XY
+labels are not converted into unconditional speed or serial-arm reach. The English
+catalog cover is V20251205 despite download label V20260903. Relevant PDF text and
+word coordinates were inspected; visual image/PDF/drawing inspection was unavailable
+and is not claimed. Mobile/humanoid and further historical leads remain open. See
+`reports/competitor-batch-104-evidence.json`.
 
 Magazino SOTO and TORU now have 50 selected field reviews. SOTO's total load,
 charging duration and full-speed aisle conditions differ across manufacturer and
@@ -792,18 +804,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-14,654 fields across 868 models, distinguishing documented, undisclosed, conflicting and
+15,068 fields across 891 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 3,820 kB JSON response loads only for search or comparison;
+A separate 3,935 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 4,399 reviewed highlight statements as well as
+Catalog search now includes all 4,475 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -916,7 +928,7 @@ product catalogs; aliases and repeated source mentions are intentionally retaine
 Company exports include source positioning and factual feature themes; reseller
 listing themes are kept separate from claims about a manufacturer. Brand profiles
 and brand search now expose these source-attributed themes. Company-authored focus
-reviews now cover 97 profiles, including autonomy software, open-source platforms,
+reviews now cover 98 profiles, including autonomy software, open-source platforms,
 robotic cafes, welding integration, DealMaker, TGW Logistics and T-Chef. They are recorded in
 `company-evidence.json` and in the company export; directory themes remain unverified.
 Three named TGW RovoFlex systems are included with dated first-party highlights.
