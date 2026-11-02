@@ -8,6 +8,44 @@ import { getAllRobots } from '../../src/data/robots.js';
 import { t } from '../../src/data/translations.js';
 
 describe('field-specific primary-source reviews', () => {
+  it('keeps original Indy and historical RP separate from V3 and RP2 specifications', () => {
+    const original = getSpecificationReview('neuromeka-indy7').fields;
+    const v3 = getSpecificationReview('neuromeka-indy7-v3').fields;
+    expect(original.releaseDate.value).toBe('2017');
+    expect(original.armReach.value).toBe('');
+    expect(original.weight.value).toBe('');
+    expect(v3.armReach.value).toContain('1210 mm');
+    expect(v3.dof.value).toContain('6');
+    expect(getSpecificationReview('neuromeka-indy-rp').fields.releaseDate.value).toBe('2016');
+    expect(getSpecificationReview('neuromeka-indy-rp2').fields.releaseDate.value).toBe('');
+    expect(getSpecificationReview('neuromeka-indy-rp2').fields.dof.value).toContain('7');
+  });
+
+  it('preserves preliminary OPTi mass and NURI source-label differences', () => {
+    const opti = getSpecificationReview('neuromeka-opti3').fields;
+    expect(opti.weight.status).toBe('roadmap');
+    expect(opti.weight.value).toContain('TBD');
+    const nuri20 = getSpecificationReview('neuromeka-nuri20c').fields.armRepeatability;
+    expect(nuri20.status).toBe('conflicting');
+    expect(nuri20.value).toContain('0.5 mm');
+    expect(nuri20.value).toContain('0.03 mm');
+    const nuri30 = getSpecificationReview('neuromeka-nuri30').fields.armReach;
+    expect(nuri30.status).toBe('conflicting');
+    expect(nuri30.value).toContain('1990 mm');
+    expect(nuri30.value).toContain('1800 mm');
+  });
+
+  it('does not convert delta example cycles or repeated XY labels into arm speed and reach', () => {
+    for (const id of ['neuromeka-d3', 'neuromeka-d6']) {
+      const fields = getSpecificationReview(id).fields;
+      expect(fields.dof.value).toContain('4');
+      expect(fields.speed.value).toBe('');
+      expect(fields.armReach.value).toBe('');
+      expect(fields.size.value).toBe('');
+      expect(fields.description.value).toContain('KOREA ONLY');
+    }
+  });
+
   it('separates SOTO tote handling from conflicting total payload and charging claims', () => {
     const fields = getSpecificationReview('magazino-soto').fields;
     expect(fields.payload.value).toContain('20 kg per tote');
@@ -517,9 +555,9 @@ describe('field-specific primary-source reviews', () => {
 
   it('reports reviewed fields separately from whole-model certification', () => {
     const coverage = getSpecificationReviewCoverage();
-    expect(coverage.reviewedCatalogModels).toBe(868);
-    expect(coverage.reviewedFields).toBe(14654);
-    expect(coverage.fieldStatuses.conflicting).toBe(260);
+    expect(coverage.reviewedCatalogModels).toBe(891);
+    expect(coverage.reviewedFields).toBe(15068);
+    expect(coverage.fieldStatuses.conflicting).toBe(262);
     expect(coverage.scope).toContain('unmarked fields remain unverified');
     expect(getSpecificationReview('unitree-go2-w').fields.weight.status).toBe('documented');
     expect(getSpecificationReview('unitree-go2-pro').fields.speed.value).toBe('0-3.5 m/s');
