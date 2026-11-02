@@ -6091,20 +6091,30 @@
       "highlights": [
         "Compact inspection drone with forward-facing stereo navigation and 180-degree obstacle sensing",
         "Built-in lighting supports low-light navigation; onboard camera uses a one-inch sensor",
-        "Manufacturer rates 20 minutes flight time; landed Perch Mode can stream for up to three hours"
+        "Manufacturer rates 20 minutes flight time; landed Perch Mode can stream for up to three hours",
+        "The dedicated specification and FAQ distinguish up to 20 minutes airborne per battery from up to three hours of landed Perch Mode with camera/audio. Lighting and maneuvers affect flight endurance; three-hour streaming is not flight time or controller battery life.",
+        "R10’s two forward stereo navigation cameras provide a forward 180° hemisphere, with built-in visible-light NightSense. Maximum horizontal speed is 12 m/s, 8 m/s with normal obstacle avoidance and 4 m/s with NightSense avoidance; 20 m sensing distance is not aircraft positioning accuracy.",
+        "Dedicated dual-charger values are 35 minutes per battery at 230 W or one hour at 100 W, both from 0–100%. The 70 Wh/4900 mAh flight battery, charger power and 785 g battery-included aircraft mass are different quantities. No full-charge time is borrowed from X10.",
+        "The September 17, 2025 manufacturer article introduces R10, targeting fall-2025 early access and first-half-2026 general availability. Those forecasts do not establish current stock. Specifications state −20 to +50 °C and no sustained-water-exposure rating; the FAQ says it is not intended for windy or wet use."
       ],
       "sources": [
         {
-          "name": "Skydio",
+          "name": "Skydio — R10 technical specifications: aircraft, flight/perch, charger windows",
           "type": "manufacturer",
           "url": "https://www.skydio.com/r10/technical-specs",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "Skydio",
+          "name": "Skydio — R10 FAQ: flight versus landed perch and environmental limits",
           "type": "manufacturer",
-          "url": "https://www.skydio.com/r10",
-          "checkedAt": "2026-11-01"
+          "url": "https://www.skydio.com/r10/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -6118,14 +6128,37 @@
       "highlights": [
         "Inspection drone with six navigation cameras for 360-degree obstacle sensing",
         "Modular visual and thermal sensor-package options support inspection and mapping",
-        "Manufacturer specifies up to 40 minutes flight and 35 minutes hovering under ideal conditions"
+        "Manufacturer specifies up to 40 minutes flight and 35 minutes hovering under ideal conditions",
+        "Current aircraft mass includes batteries and depends on connectivity: Connect SL 2.11 kg; SL+5G Gen 1 2.14 kg and Gen 2 2.16 kg. Maximum takeoff mass is 2.49 kg. Subtracting one configuration mass from MTOW is not an explicit manufacturer cargo-capacity rating.",
+        "Up to 40 minutes flight is footnoted as ideal laboratory conditions; 35 minutes is maximum hovering. The September 2025 family article separately describes approximately 30–32 practical flight minutes. These contexts remain distinct rather than silently treating laboratory, hover and practical endurance as identical.",
+        "The dual charger at 230 W takes approximately one hour per battery from 0–100% or 35 minutes from 20–90%; at 100 W it takes 1 h 47 min or 1 h 12 min for those respective windows. Original controller ~5 h and Controller 2 ~5 h 45 min are controller operation, not aircraft flight or charge duration.",
+        "Six navigation cameras provide 360° obstacle sensing; hovering accuracy is VIO ±10 cm or GNSS ±1 m in the listed windless/breezy context. Sensor packages VT300-Z Rev 2/VT300-L and radiometric thermal measurements are configuration-specific; camera megapixels, <30 mK sensitivity and crack examples are not universal dimensional precision.",
+        "The September 20, 2023 manufacturer article explicitly launches X10. Current IP55 applies to the aircraft; controller IP54/Controller 2 IP55 and unprotected charger belong to separate hardware. The spec distinguishes encrypted internal storage from unencrypted SD cards; cellular coverage and supplier compliance wording do not establish universal authorization or independently certified security."
       ],
       "sources": [
         {
-          "name": "Skydio",
+          "name": "Skydio — X10 technical specifications: aircraft configurations, controller/battery and charge windows",
           "type": "manufacturer",
           "url": "https://www.skydio.com/x10/technical-specs",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — X10 product page and modular packages",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 20, 2023 X10 launch and X10D named-model context",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/introducing-X10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -29685,6 +29718,87 @@
       ],
       "discoveredIn": [
         "https://www.simberobotics.com/about/newsroom/simbe-unveils-tally-4-0-the-next-generation-of-autonomous-retail-robot-powering-store-intelligence-via-physical-ai"
+      ]
+    },
+    {
+      "robotId": "skydio-x10d",
+      "manufacturer": "Skydio",
+      "model": "X10D",
+      "highlights": [
+        "Dedicated X10D specifications separate Connect SL 2.11 kg and Connect MH 2.14 kg, including battery, from 2.49 kg MTOW. X10’s SL+5G Gen 1/2 masses and controller/charger weights are not transferred to X10D.",
+        "The X10D page lists up to 40 minutes flight under ideal laboratory conditions, 35 minutes hover and IP55 aircraft. Six navigation cameras provide 360° sensing with VIO ±10 cm or GNSS ±1 m hovering accuracy; those measurements are distinct from camera resolution and thermal sensitivity.",
+        "X10D’s dual charger lists one hour at 230 W for 0–100% or 35 minutes for 20–90%; at 100 W the corresponding values are 1 h 45 min and 1 h 10 min. X10’s 1 h 47 min/1 h 12 min figures are not silently substituted. Controller runtime and charger ingress remain separate.",
+        "The September 20, 2023 X10 launch article already names X10D, but does not explicitly establish its exact first public launch in the selected text. Current supplier Blue UAS, NDAA and encrypted-storage claims remain attributed; no independent listing/security audit, universal operator eligibility or new aircraft identity for software/accessories is established."
+      ],
+      "sources": [
+        {
+          "name": "Skydio — X10D dedicated technical specifications; separate from X10",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10d/technical-specs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — X10D product page and attributed supplier positioning",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10d",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 20, 2023 X10 launch and X10D named-model context",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/introducing-X10",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.skydio.com/x10d/technical-specs"
+      ]
+    },
+    {
+      "robotId": "skydio-f10-lightrunner",
+      "manufacturer": "Skydio",
+      "model": "F10 Lightrunner",
+      "highlights": [
+        "The September 24, 2026 manufacturer announcement says F10 Lightrunner deploys to customers in 2027. As checked November 2, 2026, published hardware values remain roadmap specifications rather than verified delivered-aircraft measurements.",
+        "The September 17, 2025 article introduced F10 as under development with targets above 80 mph, over 90 minutes and early access in the first half of 2026. The later 2026 announcement gives 100 mph/120 minutes and 2027 deployment. Historical forecasts are retained without asserting they were fulfilled or inventing an independently separate F10 prototype product.",
+        "Current prospective aircraft values are 7 kg including batteries, 57.8 × 33.9 × 7.7 in, maximum 100 mph/44 m/s and 120 min flight. Charging is 45 minutes from 10–90%, not a full charge. IP55 is the aircraft rating; MegaDock’s 6900 lb total mass and IP54-operation/IP56-standby ratings are separate station quantities.",
+        "MegaDock houses up to five F10s; the page describes three airborne while two charge and automated handoffs for continuous coverage. This fleet-cycle concept is not 24-hour single-aircraft flight endurance. The 30-mile coverage radius and roughly 2800-square-mile area are operational/geographic claims, not unrestricted range, navigation accuracy or statutory flight permission.",
+        "Six navigation cameras and daytime 360° avoidance, Foresight flight adaptation, Pathfinder route planning and RTOL launch/catch are announced features. Product text says perception to 300 ft while the spec separately lists 100 m forward/20 m upper-lower sensing; these contexts are retained without treating them as position accuracy. Supplier parachute/airspace/compliance language is not independently verified permission for every flight."
+      ],
+      "sources": [
+        {
+          "name": "Skydio — F10 aircraft technical specifications: prospective platform and partial charge",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/f10/technical-specs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — F10 Lightrunner product page: announced autonomous fixed-wing platform",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/f10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 24, 2026 Ascend announcement: F10 customer deployment planned 2027",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/ascend-2026-f10-lightrunner-megadock-commands",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — MegaDock station specifications: mass, ingress and power distinct from aircraft",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/f10/technical-specs-dock",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.skydio.com/f10/technical-specs"
       ]
     }
   ]

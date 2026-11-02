@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:32:57.899Z",
+  "generatedAt": "2026-11-02T20:41:21.861Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 423,
-    "withoutSelectedFieldReview": 95,
-    "selectedFields": 7400,
+    "withSelectedFieldReview": 425,
+    "withoutSelectedFieldReview": 93,
+    "selectedFields": 7474,
     "selectedFieldStatuses": {
-      "documented": 3132,
-      "not-documented": 4081,
+      "documented": 3155,
+      "not-documented": 4132,
       "conflicting": 171,
       "roadmap": 16
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 104,
+    "sourceGroupsWithCompanyAuthoredFocus": 105,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -481,27 +481,6 @@
       "robotIds": [
         "shield-ai-v-bat",
         "shield-ai-x-bat"
-      ]
-    },
-    {
-      "brandId": "skydio",
-      "name": "Skydio",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/skydio-autonomous-drones-for-dfr-inspection-national-security"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "skydio-r10",
-        "skydio-x10"
       ]
     },
     {
@@ -3725,6 +3704,27 @@
       "robotIds": [
         "simbe-robotics-tally",
         "simbe-robotics-tally-rfid"
+      ]
+    },
+    {
+      "brandId": "skydio",
+      "name": "Skydio",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/skydio-autonomous-drones-for-dfr-inspection-national-security"
+      ],
+      "catalogModels": 4,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "skydio-r10",
+        "skydio-x10"
       ]
     }
   ],
@@ -12811,14 +12811,14 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/skydio-autonomous-drones-for-dfr-inspection-national-security"
       ],
-      "catalogModels": 2,
+      "catalogModels": 4,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "skydio-r10",
         "skydio-x10"
@@ -43905,30 +43905,55 @@
       "brandId": "skydio",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Skydio",
+          "name": "Skydio — R10 technical specifications: aircraft, flight/perch, charger windows",
           "type": "manufacturer",
           "url": "https://www.skydio.com/r10/technical-specs",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "Skydio",
+          "name": "Skydio — R10 FAQ: flight versus landed perch and environmental limits",
           "type": "manufacturer",
-          "url": "https://www.skydio.com/r10",
-          "checkedAt": "2026-11-01"
+          "url": "https://www.skydio.com/r10/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 10,
+        "not-documented": 27,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Skydio — R10 technical specifications: aircraft, flight/perch, charger windows",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/r10/technical-specs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — R10 FAQ: flight versus landed perch and environmental limits",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/r10/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -43950,24 +43975,67 @@
       "brandId": "skydio",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 8,
       "highlightSources": [
         {
-          "name": "Skydio",
+          "name": "Skydio — X10 technical specifications: aircraft configurations, controller/battery and charge windows",
           "type": "manufacturer",
           "url": "https://www.skydio.com/x10/technical-specs",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — X10 product page and modular packages",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 20, 2023 X10 launch and X10D named-model context",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/introducing-X10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 13,
+        "not-documented": 24,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Skydio — X10 technical specifications: aircraft configurations, controller/battery and charge windows",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10/technical-specs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — X10 product page and modular packages",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 20, 2023 X10 launch and X10D named-model context",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/introducing-X10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

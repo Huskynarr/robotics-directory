@@ -104380,6 +104380,876 @@
           "note": "No exact named-model value established by the selected primary text. Figures from other generations, sensor systems, docks and software services are not substituted."
         }
       }
+    },
+    {
+      "robotId": "skydio-r10",
+      "manufacturer": "Skydio",
+      "model": "R10",
+      "sources": [
+        {
+          "name": "Skydio — R10 technical specifications: aircraft, flight/perch, charger windows",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/r10/technical-specs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — R10 FAQ: flight versus landed perch and environmental limits",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/r10/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-115/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft purchase price established. Contact/demo requests, software, station infrastructure, accessories and regulatory services are distinct."
+        },
+        "weight": {
+          "value": "785 g including battery; manufacturer specification",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified weight value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "size": {
+          "value": "263.0 × 260.5 × 61.5 mm (length × width × height)",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified size value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Numeric aircraft flight/perch durations are retained in flightTime and scoped highlights, not duplicated as an unqualified battery duration; controller endurance is separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unqualified continuous-duty rating established; aircraft flight, landed perch, controller operation and fleet handoff cycles are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Camera modules and attachment bays do not establish a numeric cargo rating. MTOW minus selected aircraft mass is not treated as manufacturer-rated available payload."
+        },
+        "speed": {
+          "value": "Maximum horizontal 12 m/s at sea level; 8 m/s with obstacle avoidance; built-in NightSense avoidance maximum 4 m/s",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified speed value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "terrain": {
+          "value": "Indoor/confined spaces and very close outdoor work; −20 to +50 °C stated; FAQ excludes intended windy/wet use; not rated for sustained water exposure",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified terrain value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Technical page expressly says not rated for sustained water exposure; no numeric IP value established. X10/X10D/F10 IP55 not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "website": {
+          "value": "https://www.skydio.com/r10/technical-specs",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified website value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "description": {
+          "value": "R10 is Skydio’s compact indoor/confined-space aircraft publicly introduced on September 17, 2025, with early access targeted for fall 2025 and general availability then targeted for the first half of 2026. Its dedicated specifications give 785 g including battery, 263.0 × 260.5 × 61.5 mm, up to 20 min flight and separately up to 3 h landed Perch Mode. Forward stereo navigation covers 180°, not 360°. Built-in visible-light NightSense, a 1-inch 12.5 MP camera, audio and software integration support inspection and remote monitoring. Charging is 35 min at 230 W or one hour at 100 W per battery from 0–100%. No numeric aircraft IP rating, current stock or complete-system price is established.",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified description value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "releaseDate": {
+          "value": "2025",
+          "status": "documented",
+          "note": "Visible HTML time and BlogPosting datePublished September 17, 2025 match. Article explicitly introduces new R10; early-access/general-availability targets are separate, not verified present stock."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "flightTime": {
+          "value": "Up to 20 min per battery; FAQ says lighting and maneuvering affect endurance; landed perch separately up to 3 h",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified flightTime value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "chargingTime": {
+          "value": "Per battery, 0–100%: 35 min at 230 W or 1 h at 100 W; dual charger",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified chargingTime value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Forward obstacle sensing 20 m is not metric aircraft pose accuracy; no R10 positioning number inherited from X10."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Autonomous takeoff/landing or station use is described without a numeric docking precision."
+        },
+        "driveMode": {
+          "value": "Vision-based assisted/autonomous navigation with forward 180° obstacle sensing; built-in visible-light NightSense for dark indoor work",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified driveMode value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No universal numeric dimensional inspection precision established. Thermal sensitivity, MP, obstacle range and case-specific crack examples are distinct."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspections-per-time rating established; missions per fleet/year, dock concurrency, coverage radius and geographic area are different metrics."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "skydio-x10",
+      "manufacturer": "Skydio",
+      "model": "X10",
+      "sources": [
+        {
+          "name": "Skydio — X10 technical specifications: aircraft configurations, controller/battery and charge windows",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10/technical-specs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — X10 product page and modular packages",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 20, 2023 X10 launch and X10D named-model context",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/introducing-X10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-115/source-4.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft purchase price established. Contact/demo requests, software, station infrastructure, accessories and regulatory services are distinct."
+        },
+        "weight": {
+          "value": "Including battery: Connect SL 2.11 kg; SL + 5G Gen 1 2.14 kg, Gen 2 2.16 kg",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified weight value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "size": {
+          "value": "79.0 × 65.0 × 14.5 cm unfolded with propellers; folded without battery: 35.05 × 16.51 × 11.94 cm",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified size value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Numeric aircraft flight/perch durations are retained in flightTime and scoped highlights, not duplicated as an unqualified battery duration; controller endurance is separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unqualified continuous-duty rating established; aircraft flight, landed perch, controller operation and fleet handoff cycles are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manufacturer cargo rating inferred from 2.49 kg MTOW minus 2.11/2.14/2.16 kg aircraft mass. Bays, sensor-package contents and module mass are not equivalent."
+        },
+        "speed": {
+          "value": "Maximum horizontal 20 m/s at sea level; standard obstacle-avoidance maximum ground speed 16 m/s; other avoidance modes separately listed at 8 m/s",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified speed value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "terrain": {
+          "value": "Outdoor aerial inspection; stated −20 to +45 °C aircraft operation; environmental limits differ from battery/controller/station",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified terrain value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "ipRating": {
+          "value": "IP55 aircraft; controller and charger ingress ratings are separate",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified ipRating value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "website": {
+          "value": "https://www.skydio.com/x10/technical-specs",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified website value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "description": {
+          "value": "X10 is Skydio’s inspection/response aircraft publicly launched September 20, 2023. Current specifications separate Connect SL 2.11 kg from SL+5G Gen 1 2.14 kg and Gen 2 2.16 kg, all including battery, with 2.49 kg maximum takeoff mass. The aircraft is IP55, with up to 40 min ideal-lab flight versus 35 min hover; a later company article describes approximately 30–32 min practical mission battery capacity without making that a universal measured minimum. Six navigation cameras provide 360° sensing. Modular visual/thermal packages, controller generations, battery revisions, partial/full charge windows and cellular conditions remain separate. No price, certified payload subtraction, universally precise crack detection or blanket flight authorization is established.",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified description value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "releaseDate": {
+          "value": "2023",
+          "status": "documented",
+          "note": "Visible time and BlogPosting datePublished September 20, 2023; article explicitly launches X10. DateModified 2026 not a new first release."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "flightTime": {
+          "value": "Up to 40 min flight under ideal laboratory conditions; separate maximum hover time 35 min",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified flightTime value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "maxTakeoffWeight": {
+          "value": "2.49 kg; maximum takeoff mass, not aircraft empty mass or rated cargo payload",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified maxTakeoffWeight value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "chargingTime": {
+          "value": "Per battery: 230 W ~1 h (0–100%) or 35 min (20–90%); 100 W 1 h 47 min (0–100%) or 1 h 12 min (20–90%)",
+          "status": "documented",
+          "note": "Exact X10 dedicated spec: 230 W ~1 h 0–100% / 35 min 20–90%; 100 W 1 h 47 min 0–100% / 1 h 12 min 20–90%. X10D has different 100 W durations; keep distinct."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "Hovering accuracy in windless/breezy conditions: VIO ±10 cm; GNSS ±1 m; supplier specification",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified navigationAccuracy value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Autonomous takeoff/landing or station use is described without a numeric docking precision."
+        },
+        "driveMode": {
+          "value": "AI-assisted/autonomous flight with six navigation cameras in upper/lower trinocular groups and 360° obstacle sensing",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified driveMode value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No universal numeric dimensional inspection precision established. Thermal sensitivity, MP, obstacle range and case-specific crack examples are distinct."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspections-per-time rating established; missions per fleet/year, dock concurrency, coverage radius and geographic area are different metrics."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "skydio-x10d",
+      "manufacturer": "Skydio",
+      "model": "X10D",
+      "sources": [
+        {
+          "name": "Skydio — X10D dedicated technical specifications; separate from X10",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10d/technical-specs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — X10D product page and attributed supplier positioning",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/x10d",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 20, 2023 X10 launch and X10D named-model context",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/introducing-X10",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-115/source-8.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft purchase price established. Contact/demo requests, software, station infrastructure, accessories and regulatory services are distinct."
+        },
+        "weight": {
+          "value": "Including battery: Connect SL 2.11 kg; Connect MH 2.14 kg",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified weight value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "size": {
+          "value": "79.0 × 65.0 × 14.5 cm unfolded with propellers; folded without battery: 35.05 × 16.51 × 11.94 cm",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified size value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Numeric aircraft flight/perch durations are retained in flightTime and scoped highlights, not duplicated as an unqualified battery duration; controller endurance is separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unqualified continuous-duty rating established; aircraft flight, landed perch, controller operation and fleet handoff cycles are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Camera modules and attachment bays do not establish a numeric cargo rating. MTOW minus selected aircraft mass is not treated as manufacturer-rated available payload."
+        },
+        "speed": {
+          "value": "Maximum horizontal 20 m/s at sea level; with obstacle avoidance 16 m/s",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified speed value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "terrain": {
+          "value": "Outdoor aerial inspection; stated −20 to +45 °C aircraft operation; environmental limits differ from battery/controller/station",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified terrain value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "ipRating": {
+          "value": "IP55 aircraft; controller and charger ingress ratings are separate",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified ipRating value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "website": {
+          "value": "https://www.skydio.com/x10d/technical-specs",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified website value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "description": {
+          "value": "X10D is Skydio’s separately named government/defense aircraft configuration, identified in the September 20, 2023 X10 launch article and supported by its own current specifications. Battery-included masses are 2.11 kg Connect SL and 2.14 kg Connect MH, with 2.49 kg MTOW. Dedicated ratings include IP55 aircraft, up to 40 min ideal-lab flight, 35 min hover, 20 m/s maximum speed and 16 m/s with obstacle avoidance. Charger windows differ from X10 at 100 W. Visual/thermal packages, six-camera 360° sensing and operator/software integrations do not establish a rated cargo capacity or universal inspection accuracy. Supplier Blue UAS/NDAA/security positioning is not an independently checked present listing or flight permission.",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified description value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "September 20, 2023 X10 launch article names X10D available exclusively to government/defense users; no explicit first X10D public release established. Keep unknown rather than infer a first-launch year."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "flightTime": {
+          "value": "Up to 40 min flight under ideal laboratory conditions; separate maximum hover time 35 min",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified flightTime value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "maxTakeoffWeight": {
+          "value": "2.49 kg; maximum takeoff mass, not aircraft empty mass or rated cargo payload",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified maxTakeoffWeight value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "chargingTime": {
+          "value": "Per battery: 230 W 1 h (0–100%) or 35 min (20–90%); 100 W 1 h 45 min (0–100%) or 1 h 10 min (20–90%)",
+          "status": "documented",
+          "note": "Dedicated X10D 100W full/partial values 1 h 45 min / 1 h 10 min differ from X10 1 h 47 min / 1 h 12 min; 230 W windows same. Distinct named-page values, not merged across models."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "Hovering accuracy in windless/breezy conditions: VIO ±10 cm; GNSS ±1 m; supplier specification",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified navigationAccuracy value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Autonomous takeoff/landing or station use is described without a numeric docking precision."
+        },
+        "driveMode": {
+          "value": "AI-assisted/autonomous flight with six navigation cameras in upper/lower trinocular groups and 360° obstacle sensing",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified driveMode value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No universal numeric dimensional inspection precision established. Thermal sensitivity, MP, obstacle range and case-specific crack examples are distinct."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspections-per-time rating established; missions per fleet/year, dock concurrency, coverage radius and geographic area are different metrics."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "skydio-f10-lightrunner",
+      "manufacturer": "Skydio",
+      "model": "F10 Lightrunner",
+      "sources": [
+        {
+          "name": "Skydio — F10 aircraft technical specifications: prospective platform and partial charge",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/f10/technical-specs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — F10 Lightrunner product page: announced autonomous fixed-wing platform",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/f10",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 24, 2026 Ascend announcement: F10 customer deployment planned 2027",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/ascend-2026-f10-lightrunner-megadock-commands",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — September 17, 2025 R10/F10 introduction with historical availability targets",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/blog/family-flying-robots-for-civilizations-critical-industries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Skydio — MegaDock station specifications: mass, ingress and power distinct from aircraft",
+          "type": "manufacturer",
+          "url": "https://www.skydio.com/f10/technical-specs-dock",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-115/source-14.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft purchase price established. Contact/demo requests, software, station infrastructure, accessories and regulatory services are distinct."
+        },
+        "weight": {
+          "value": "Announced 7 kg / 15.43 lb including batteries; F10 customer deployment planned for 2027",
+          "status": "roadmap",
+          "note": "Exact named-aircraft primary text supports this qualified weight value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "size": {
+          "value": "Announced 57.8 × 33.9 × 7.7 in; customer deployment planned for 2027",
+          "status": "roadmap",
+          "note": "Exact named-aircraft primary text supports this qualified size value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Numeric aircraft flight/perch durations are retained in flightTime and scoped highlights, not duplicated as an unqualified battery duration; controller endurance is separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unqualified continuous-duty rating established; aircraft flight, landed perch, controller operation and fleet handoff cycles are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Camera modules and attachment bays do not establish a numeric cargo rating. MTOW minus selected aircraft mass is not treated as manufacturer-rated available payload."
+        },
+        "speed": {
+          "value": "Announced maximum 100 mph / 44 m/s at sea level, lower of ground and airspeed; deployment planned 2027",
+          "status": "roadmap",
+          "note": "Exact named-aircraft primary text supports this qualified speed value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "terrain": {
+          "value": "Announced −20 to +55 °C measured at MegaDock; launch/land wind limit 12 m/s; customer deployment planned 2027",
+          "status": "roadmap",
+          "note": "Aircraft technical page says operational temperature −20 to 55 °C measured at MegaDock. Launch/land wind 12 m/s is distinct from anchored station wind resistance and general airborne operating envelope."
+        },
+        "ipRating": {
+          "value": "Announced IP55 aircraft; MegaDock separately IP54 operating/IP56 standby; deployment planned 2027",
+          "status": "roadmap",
+          "note": "Exact named-aircraft primary text supports this qualified ipRating value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "website": {
+          "value": "https://www.skydio.com/f10/technical-specs",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified website value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "description": {
+          "value": "F10 Lightrunner is Skydio’s announced autonomous fixed-wing aircraft with MegaDock robotic takeoff/landing. The September 24, 2026 announcement plans customer deployment in 2027. A September 17, 2025 F10 development announcement had earlier targeted early access in the first half of 2026 with >80 mph and >90 min targets; that historical forecast is not proof of delivery or a second independently established airframe. Current announced specifications are 7 kg including batteries, 57.8 × 33.9 × 7.7 in, maximum 100 mph/44 m/s and 120 min flight, IP55 and 45 min partial charge from 10–90%. Aircraft, MegaDock station and multi-aircraft service-cycle quantities remain separate. No present stock, exact first delivered release, complete-system price or universal regulatory permission is established.",
+          "status": "documented",
+          "note": "Exact named-aircraft primary text supports this qualified description value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "September 17, 2025 introduces F10 under development with early-access target H1 2026; September 24, 2026 Lightrunner announcement plans deployment 2027. Neither proves first delivered release or current availability; field omitted."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "flightTime": {
+          "value": "Announced maximum 120 min; customer deployment planned for 2027, workload/flight conditions unspecified",
+          "status": "roadmap",
+          "note": "Exact named-aircraft primary text supports this qualified flightTime value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "chargingTime": {
+          "value": "Announced 45 min from 10–90%; not a full 0–100% duration; deployment planned 2027",
+          "status": "roadmap",
+          "note": "Explicit 45 min 10–90% partial cycle; no 0–100% full duration established. Hardware roadmap status because deployment planned 2027."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric whole-aircraft position accuracy established for this exact model; sensing range, camera pixels and inspection defect examples are different measurements."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Autonomous takeoff/landing or station use is described without a numeric docking precision."
+        },
+        "driveMode": {
+          "value": "Announced autonomous fixed-wing flight with Foresight/Pathfinder and MegaDock robotic takeoff/landing; customer deployment planned 2027",
+          "status": "roadmap",
+          "note": "Exact named-aircraft primary text supports this qualified driveMode value; configuration, measurement/charge window and supplier-claim scope retained, without independent exclusivity proof."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No universal numeric dimensional inspection precision established. Thermal sensitivity, MP, obstacle range and case-specific crack examples are distinct."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspections-per-time rating established; missions per fleet/year, dock concurrency, coverage radius and geographic area are different metrics."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established in the selected primary text. Other models, docks, controllers, batteries and software/service metrics are not substituted."
+        }
+      }
     }
   ]
 }
