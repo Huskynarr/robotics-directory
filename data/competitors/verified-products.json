@@ -24652,28 +24652,74 @@
         "category": "humanoid",
         "manufacturer": "1X Technologies",
         "model": "NEO",
-        "website": "https://www.1x.tech/discover/neo-home-robot"
+        "price": "Early Access pre-order ownership 20,000 USD; Standard subscription 499 USD/month; 200 USD refundable reservation deposit (US offer)",
+        "weight": "66 lb (29.94 kg in October 2025 launch)",
+        "size": "5 ft 6 in height (manufacturer specification)",
+        "batteryLife": "4 h stated runtime; operating mode unspecified",
+        "maxRuntime": "",
+        "tags": "consumer;home-assistant;personal-assistant;ai-powered;voice-control;telepresence",
+        "handType": "Tendon-driven dexterous hands; July 2026 count: 22 finger/palm DOF + 3 wrist DOF per hand",
+        "dof": "Hands 22×2; arms 7×2; neck 3; spine 2; legs 6×2 (product table; no summed total)",
+        "payload": "Carry 55 lb; lift 154 lb; arm payload 18 lb (different rated quantities)",
+        "speed": "Walking 1.4 m/s; maximum running 6.2 m/s (manufacturer specification)",
+        "terrain": "In and around the user’s home on firm ground; moisture may damage the robot (manufacturer FAQ)",
+        "ipRating": "Body IP44; hands IP68 (component-specific)",
+        "ageRange": "",
+        "website": "https://www.1x.tech/neo",
+        "image": "images/humanoid/1x-technologies-neo.webp",
+        "video": "",
+        "gallery": "",
+        "description": "NEO is the home humanoid introduced on October 28, 2025, succeeding NEO Beta and Gamma. The manufacturer separates 55 lb carrying load, 154 lb lift and 18 lb arm payload, and specifies 66 lb mass and four-hour runtime. Early Access ownership, Standard subscription and reservation deposit are separate US offers. Basic autonomy and scheduled Expert assistance have different scopes; cooking is initially restricted. Hand/wrist counts and component ingress ratings do not establish a summed whole-robot DOF or waterproof body.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "armReach": ""
       },
       "highlights": [
-        "Home-oriented humanoid uses tendon-based actuation and a soft exterior",
-        "Chores can be requested and scheduled; unfamiliar tasks may involve a remote 1X Expert",
-        "Conversational, visual and memory functions are described in the October 2025 launch announcement"
+        "The current product table specifies 66 lb robot mass and 5 ft 6 in height. Carrying 55 lb, lifting 154 lb and arm payload 18 lb are distinct quantities. Walking is listed at 1.4 m/s and maximum running at 6.2 m/s; the 8 m/s hand speed is not base travel speed.",
+        "The product table lists two 22-DOF hands and two 7-DOF arms. The July 9, 2026 hand article counts 25 per hand as 22 in fingers/palm plus three wrist axes. These scopes can coexist; no overlapping wrist count or unverified whole-body total is inferred. Fingertip positioning accuracy is not whole-arm repeatability.",
+        "Four-hour runtime is stated without duty mode or a measured maximum. The hardware table lists 842 Wh while the public operating-cost FAQ says 0.75 kWh; battery revision/capacity remains unresolved. The quick-charge claim of six minutes per hour runtime is not a full empty-to-full charge interval.",
+        "The body is listed IP44 and the hands IP68. The FAQ explicitly says the overall robot is not waterproof and warns that moisture may damage it. Tendon compliance, soft lattice covers, low-noise and safety claims are manufacturer descriptions, not independent whole-robot safety certification.",
+        "The US order page separates 20,000 USD Early Access ownership, 499 USD/month Standard subscription and a 200 USD refundable deposit. The October 28, 2025 introduction and April 30, 2026 factory update retain a 2026 first-delivery plan; production capacity and internal employee units do not prove a customer delivery or current stock.",
+        "NEO arrives with basic autonomy; unfamiliar chores can use scheduled 1X Expert assistance. The public FAQ says owners schedule and accept each session, and cooking is initially restricted. Redwood, onboard Jetson Thor and remote-control interfaces are software/compute contexts, not proof that every advertised task runs independently."
       ],
       "sources": [
         {
-          "name": "1X Technologies",
+          "name": "1X Technologies — NEO product specifications and public FAQ",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/neo",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — dated model introduction",
           "type": "manufacturer",
           "url": "https://www.1x.tech/discover/neo-home-robot",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — NEO offer and delivery terms",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/order",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neos-hands",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-factory",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-8.html",
       "discoveredIn": [
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/robot/a9751034-a9b3-4994-85c6-eba3abf102c7"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-23/1x.tech-discover-neo-home-robot.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Dated launch scope; do not treat announced delivery schedules as proof of shipment or expert-assisted tasks as universally autonomous. Later hand revisions and Beta/Gamma are not conflated."
+      "reviewNotes": "Four 1X identities reviewed: later NEO home product, Beta/Gamma prototypes and historical industrial EVE. Exact introduction milestones, US purchase/subscription/deposit scope, scheduled Expert assistance and teleoperated/research demonstrations remain explicit. Component hand/wrist DOF, IP44 body versus IP68 hands and distinct carry/lift/arm loads are not conflated. Hardware842 Wh versus FAQ0.75 kWh remains unresolved. No current customer shipment, complete portfolio or independent safety/dexterity/market leadership claim."
     },
     {
       "row": {
@@ -26714,26 +26760,58 @@
         "category": "humanoid",
         "manufacturer": "1X Technologies",
         "model": "EVE",
-        "website": "https://www.1x.tech/about"
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;industrial",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.1x.tech/eve",
+        "image": "images/humanoid/1x-technologies-eve.webp",
+        "video": "",
+        "gallery": "",
+        "description": "EVE is 1X’s wheeled industrial humanoid, distinct from the bipedal home-oriented NEO family. The company timeline records factory deployments in 2022. Its current EVE page is an industrial enquiry form, and a separate enterprise fleet program concerns prospective large deployments. The selected public pages do not establish the earlier catalog mass, height, speed, payload, endurance, initial release year or a current EVE stock/price.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
       },
       "highlights": [
-        "Wheeled humanoid positioned for industrial tasks, distinct from the home-oriented NEO line",
-        "Manufacturer timeline records EVE factory deployments in 2022"
+        "The manufacturer’s timeline describes EVE as a wheeled factory humanoid deployed in customer facilities in 2022. The timeline’s 2018 entry instead concerns the Revo1 actuator; it is not evidence that EVE first released in 2018.",
+        "The current EVE page is an industrial contact form. The separate enterprise fleet page describes a Charter Partner program for high-labor-demand enterprises; an enquiry or prospective fleet request is not evidence of current EVE stock, price or robot count.",
+        "EVE retains its industrial historical identity. NEO’s bipedal mobility, hands, household runtime, waterproof-hand claims and US consumer prices are not EVE specifications. Earlier catalog 87 kg,186 cm,14.4 km/h,15 kg and six-hour figures remain unverified by these selected current primary pages."
       ],
       "sources": [
         {
-          "name": "1X Technologies",
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
           "type": "manufacturer",
           "url": "https://www.1x.tech/about",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/androids/eve",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/robot-fleet",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-16.html",
       "discoveredIn": [
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-24/1x.tech-about.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Manufacturer historical deployment statement only; no NEO features, current EVE stock, uninterrupted autonomy or Revo1 specifications inferred."
+      "reviewNotes": "Four 1X identities reviewed: later NEO home product, Beta/Gamma prototypes and historical industrial EVE. Exact introduction milestones, US purchase/subscription/deposit scope, scheduled Expert assistance and teleoperated/research demonstrations remain explicit. Component hand/wrist DOF, IP44 body versus IP68 hands and distinct carry/lift/arm loads are not conflated. Hardware842 Wh versus FAQ0.75 kWh remains unresolved. No current customer shipment, complete portfolio or independent safety/dexterity/market leadership claim."
     },
     {
       "row": {
@@ -51996,6 +52074,126 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-18.html",
       "discoveredIn": [],
       "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "1X Technologies",
+        "model": "NEO Beta",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;humanoid;home-assistant;telepresence;remote-control",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+        "image": "images/humanoid/1x-technologies-neo-beta.webp",
+        "video": "https://www.youtube.com/embed/bUrLuUxv9gE",
+        "gallery": "",
+        "description": "NEO Beta is the bipedal home-robot prototype unveiled on August 30, 2024 for selected-home research and development. Its November 2024 cooking showcase used VR teleoperation and controlled dialogue, and needed help switching on the burner. This is distinct from the later NEO home-robot purchase/subscription offer. Earlier catalog mass, endurance, payload, travel speed and 75,000 USD price are not established by the selected Beta documentation.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "The August 30, 2024 manufacturer announcement explicitly calls NEO Beta a bipedal prototype and limits the initial selected-home deployments to research and development, rather than a generally available consumer robot.",
+        "The November 8, 2024 cooking explanation says all movements used the 1X VR Teleoperation App on Meta Quest, dialogue used filtered voice pass-through and the burner required human assistance. The demonstration does not establish autonomous cooking.",
+        "The Beta release describes bio-inspired construction and a design intended for human environments. Later NEO ownership prices, hands, IP ratings, runtime and compute are not assigned to Beta; the selected Beta sources do not establish the former 75,000 USD price or other numerical catalog specs.",
+        "The later NEO introduction explicitly names Beta and Gamma as predecessors. Their separate development identities remain visible; a prototype demonstration and a later consumer-delivery schedule are different evidence."
+      ],
+      "sources": [
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/cooking-with-neo-beta-and-nick-digiovanni",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/about",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-22.html",
+      "discoveredIn": [],
+      "reviewNotes": "Four 1X identities reviewed: later NEO home product, Beta/Gamma prototypes and historical industrial EVE. Exact introduction milestones, US purchase/subscription/deposit scope, scheduled Expert assistance and teleoperated/research demonstrations remain explicit. Component hand/wrist DOF, IP44 body versus IP68 hands and distinct carry/lift/arm loads are not conflated. Hardware842 Wh versus FAQ0.75 kWh remains unresolved. No current customer shipment, complete portfolio or independent safety/dexterity/market leadership claim."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "1X Technologies",
+        "model": "NEO Gamma",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;humanoid;home-assistant;ai-powered;telepresence",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.1x.tech/discover/introducing-neo-gamma",
+        "image": "images/humanoid/1x-technologies-neo-gamma-2.webp",
+        "video": "https://www.youtube.com/embed/uVcBa6NXAbk",
+        "gallery": "",
+        "description": "NEO Gamma is the home-humanoid development generation introduced on February 21, 2025. It adds a whole-body controller, visual manipulation, expressive ear rings, soft covers and a knit suit. The manufacturer describes internal home testing and a specific NVIDIA research dishwasher demonstration. Former 35 kg, three-to-four-hour endurance and 75,000 USD catalog values are not established by these Gamma sources; later NEO hardware is not inherited.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "The February 21, 2025 announcement positions NEO Gamma for internal home testing. Its whole-body controller learns from motion-capture data and is described at 100 Hz; that controller rate is not travel speed or a general autonomy percentage.",
+        "Gamma introduces expressive ear rings, a seamless nylon knit suit, soft covers, four beamforming microphones and three speakers. A claimed tenfold reliability improvement and 10 dB noise reduction lack a supplied baseline here and are not absolute life/noise specifications.",
+        "The March 18, 2025 NVIDIA collaboration describes a specific dishwasher-cup research task using a continuous 5 Hz vision-action loop, with onboard or offboard GPU inference. This research setup does not establish universal autonomous dishwashing or exclusively onboard operation.",
+        "Redwood is described as a vision-language model for the NEO platform. Model development, human demonstration data and research results remain distinct from exact Gamma physical specifications and a current commercial offer; later NEO weights, ingress ratings and subscription prices are not transferred."
+      ],
+      "sources": [
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/introducing-neo-gamma",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/1X-NVIDIA-Research-Collaboration",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/redwood-ai",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-10.html",
+      "discoveredIn": [],
+      "reviewNotes": "Four 1X identities reviewed: later NEO home product, Beta/Gamma prototypes and historical industrial EVE. Exact introduction milestones, US purchase/subscription/deposit scope, scheduled Expert assistance and teleoperated/research demonstrations remain explicit. Component hand/wrist DOF, IP44 body versus IP68 hands and distinct carry/lift/arm loads are not conflated. Hardware842 Wh versus FAQ0.75 kWh remains unresolved. No current customer shipment, complete portfolio or independent safety/dexterity/market leadership claim."
     }
   ]
 }

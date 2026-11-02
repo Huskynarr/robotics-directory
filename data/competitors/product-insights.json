@@ -12469,16 +12469,43 @@
       "manufacturer": "1X Technologies",
       "model": "NEO",
       "highlights": [
-        "Home-oriented humanoid uses tendon-based actuation and a soft exterior",
-        "Chores can be requested and scheduled; unfamiliar tasks may involve a remote 1X Expert",
-        "Conversational, visual and memory functions are described in the October 2025 launch announcement"
+        "The current product table specifies 66 lb robot mass and 5 ft 6 in height. Carrying 55 lb, lifting 154 lb and arm payload 18 lb are distinct quantities. Walking is listed at 1.4 m/s and maximum running at 6.2 m/s; the 8 m/s hand speed is not base travel speed.",
+        "The product table lists two 22-DOF hands and two 7-DOF arms. The July 9, 2026 hand article counts 25 per hand as 22 in fingers/palm plus three wrist axes. These scopes can coexist; no overlapping wrist count or unverified whole-body total is inferred. Fingertip positioning accuracy is not whole-arm repeatability.",
+        "Four-hour runtime is stated without duty mode or a measured maximum. The hardware table lists 842 Wh while the public operating-cost FAQ says 0.75 kWh; battery revision/capacity remains unresolved. The quick-charge claim of six minutes per hour runtime is not a full empty-to-full charge interval.",
+        "The body is listed IP44 and the hands IP68. The FAQ explicitly says the overall robot is not waterproof and warns that moisture may damage it. Tendon compliance, soft lattice covers, low-noise and safety claims are manufacturer descriptions, not independent whole-robot safety certification.",
+        "The US order page separates 20,000 USD Early Access ownership, 499 USD/month Standard subscription and a 200 USD refundable deposit. The October 28, 2025 introduction and April 30, 2026 factory update retain a 2026 first-delivery plan; production capacity and internal employee units do not prove a customer delivery or current stock.",
+        "NEO arrives with basic autonomy; unfamiliar chores can use scheduled 1X Expert assistance. The public FAQ says owners schedule and accept each session, and cooking is initially restricted. Redwood, onboard Jetson Thor and remote-control interfaces are software/compute contexts, not proof that every advertised task runs independently."
       ],
       "sources": [
         {
-          "name": "1X Technologies",
+          "name": "1X Technologies — NEO product specifications and public FAQ",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/neo",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — dated model introduction",
           "type": "manufacturer",
           "url": "https://www.1x.tech/discover/neo-home-robot",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — NEO offer and delivery terms",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/order",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neos-hands",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-factory",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -13616,15 +13643,28 @@
       "manufacturer": "1X Technologies",
       "model": "EVE",
       "highlights": [
-        "Wheeled humanoid positioned for industrial tasks, distinct from the home-oriented NEO line",
-        "Manufacturer timeline records EVE factory deployments in 2022"
+        "The manufacturer’s timeline describes EVE as a wheeled factory humanoid deployed in customer facilities in 2022. The timeline’s 2018 entry instead concerns the Revo1 actuator; it is not evidence that EVE first released in 2018.",
+        "The current EVE page is an industrial contact form. The separate enterprise fleet page describes a Charter Partner program for high-labor-demand enterprises; an enquiry or prospective fleet request is not evidence of current EVE stock, price or robot count.",
+        "EVE retains its industrial historical identity. NEO’s bipedal mobility, hands, household runtime, waterproof-hand claims and US consumer prices are not EVE specifications. Earlier catalog 87 kg,186 cm,14.4 km/h,15 kg and six-hour figures remain unverified by these selected current primary pages."
       ],
       "sources": [
         {
-          "name": "1X Technologies",
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
           "type": "manufacturer",
           "url": "https://www.1x.tech/about",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/androids/eve",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/robot-fleet",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -25375,6 +25415,76 @@
           "name": "Maxtronics — current NAO product/support documentation",
           "type": "manufacturer",
           "url": "https://maxtronics.com/en/nao6/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "1x-technologies-neo-beta",
+      "manufacturer": "1X Technologies",
+      "model": "NEO Beta",
+      "highlights": [
+        "The August 30, 2024 manufacturer announcement explicitly calls NEO Beta a bipedal prototype and limits the initial selected-home deployments to research and development, rather than a generally available consumer robot.",
+        "The November 8, 2024 cooking explanation says all movements used the 1X VR Teleoperation App on Meta Quest, dialogue used filtered voice pass-through and the burner required human assistance. The demonstration does not establish autonomous cooking.",
+        "The Beta release describes bio-inspired construction and a design intended for human environments. Later NEO ownership prices, hands, IP ratings, runtime and compute are not assigned to Beta; the selected Beta sources do not establish the former 75,000 USD price or other numerical catalog specs.",
+        "The later NEO introduction explicitly names Beta and Gamma as predecessors. Their separate development identities remain visible; a prototype demonstration and a later consumer-delivery schedule are different evidence."
+      ],
+      "sources": [
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/cooking-with-neo-beta-and-nick-digiovanni",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/about",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "1x-technologies-neo-gamma",
+      "manufacturer": "1X Technologies",
+      "model": "NEO Gamma",
+      "highlights": [
+        "The February 21, 2025 announcement positions NEO Gamma for internal home testing. Its whole-body controller learns from motion-capture data and is described at 100 Hz; that controller rate is not travel speed or a general autonomy percentage.",
+        "Gamma introduces expressive ear rings, a seamless nylon knit suit, soft covers, four beamforming microphones and three speakers. A claimed tenfold reliability improvement and 10 dB noise reduction lack a supplied baseline here and are not absolute life/noise specifications.",
+        "The March 18, 2025 NVIDIA collaboration describes a specific dishwasher-cup research task using a continuous 5 Hz vision-action loop, with onboard or offboard GPU inference. This research setup does not establish universal autonomous dishwashing or exclusively onboard operation.",
+        "Redwood is described as a vision-language model for the NEO platform. Model development, human demonstration data and research results remain distinct from exact Gamma physical specifications and a current commercial offer; later NEO weights, ingress ratings and subscription prices are not transferred."
+      ],
+      "sources": [
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/introducing-neo-gamma",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/1X-NVIDIA-Research-Collaboration",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/redwood-ai",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-home-robot",
           "checkedAt": "2026-11-02"
         }
       ],

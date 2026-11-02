@@ -80807,6 +80807,476 @@
           "note": "No defined working arm reach established; maximum full-body envelope and camera field of view are different quantities."
         }
       }
+    },
+    {
+      "robotId": "1x-technologies-neo",
+      "manufacturer": "1X Technologies",
+      "model": "NEO",
+      "sources": [
+        {
+          "name": "1X Technologies — NEO product specifications and public FAQ",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/neo",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — NEO offer and delivery terms",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/order",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neos-hands",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-factory",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-8.html",
+      "fields": {
+        "price": {
+          "value": "Early Access pre-order ownership 20,000 USD; Standard subscription 499 USD/month; 200 USD refundable reservation deposit (US offer)",
+          "status": "documented",
+          "note": "US pre-order offer separates purchase, recurring subscription and reservation deposit. The deposit is not the robot price; no generic in-stock purchase Offer is inferred."
+        },
+        "weight": {
+          "value": "66 lb (29.94 kg in October 2025 launch)",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "size": {
+          "value": "5 ft 6 in height (manufacturer specification)",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "batteryLife": {
+          "value": "4 h stated runtime; operating mode unspecified",
+          "status": "documented",
+          "note": "Product table states four hours without duty mode. Hardware capacity 842 Wh differs from FAQ0.75 kWh; capacity revision unresolved, no endurance derived from either value."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No mode-defined maximum continuous runtime established. A stated normal runtime and battery capacity are not tested maxima."
+        },
+        "payload": {
+          "value": "Carry 55 lb; lift 154 lb; arm payload 18 lb (different rated quantities)",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "speed": {
+          "value": "Walking 1.4 m/s; maximum running 6.2 m/s (manufacturer specification)",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "ipRating": {
+          "value": "Body IP44; hands IP68 (component-specific)",
+          "status": "documented",
+          "note": "Product table distinguishes IP44 body from IP68 hands. Public FAQ explicitly says the overall product is not waterproof; hand sealing must not be assigned to the entire robot."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Six minutes per hour runtime is a quick-charge rate claim; no full empty-to-full interval is supplied. Do not multiply by four to invent a 24-minute full-charge specification."
+        },
+        "dof": {
+          "value": "Hands 22×2; arms 7×2; neck 3; spine 2; legs 6×2 (product table; no summed total)",
+          "status": "documented",
+          "note": "Product table component counts retained. July 2026 article defines 25 per hand as 22 finger/palm plus three wrist axes, resolving the apparent 22/25 difference without an unsupported summed robot count."
+        },
+        "handType": {
+          "value": "Tendon-driven dexterous hands; July 2026 count: 22 finger/palm DOF + 3 wrist DOF per hand",
+          "status": "documented",
+          "note": "July 9, 2026 article describes tendon-driven hands with 22 finger/palm and three wrist DOF per hand; model/component scope retained, no independent dexterity certification."
+        },
+        "website": {
+          "value": "https://www.1x.tech/neo",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "NEO is the home humanoid introduced on October 28, 2025, succeeding NEO Beta and Gamma. The manufacturer separates 55 lb carrying load, 154 lb lift and 18 lb arm payload, and specifies 66 lb mass and four-hour runtime. Early Access ownership, Standard subscription and reservation deposit are separate US offers. Basic autonomy and scheduled Expert assistance have different scopes; cooking is initially restricted. Hand/wrist counts and component ingress ratings do not establish a summed whole-robot DOF or waterproof body.",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2025",
+          "status": "documented",
+          "note": "Manufacturer explicitly introduces this later NEO home product on October 28, 2025. Beta’s August 2024 unveiling and planned customer delivery in 2026 are different milestones."
+        },
+        "terrain": {
+          "value": "In and around the user’s home on firm ground; moisture may damage the robot (manufacturer FAQ)",
+          "status": "documented",
+          "note": "Public product FAQ specifies in and around the owner’s home on firm ground and warns of moisture damage. Household placement is not an all-weather outdoor rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum or maximum chronological user age specified. Household context is not an age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined maximum arm reach established. Body height, carrying payload and reach in a demonstrated kitchen scene do not establish rated reach."
+        }
+      }
+    },
+    {
+      "robotId": "1x-technologies-neo-beta",
+      "manufacturer": "1X Technologies",
+      "model": "NEO Beta",
+      "sources": [
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/cooking-with-neo-beta-and-nick-digiovanni",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/about",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-22.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No 75,000 USD amount or public Beta sale established by selected primary sources. Later 20,000 USD NEO offer does not price this prototype."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model single-charge operating interval established. NEO home-robot runtime is not automatically Beta, Gamma or EVE endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No mode-defined maximum continuous runtime established. A stated normal runtime and battery capacity are not tested maxima."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full charge interval established. Six minutes of charging per hour of runtime is a rate claim, not a specified full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot mechanical DOF count established for this exact identity; component counts and overlapping wrist axes cannot be added without an explicit counting convention."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or finger arrangement established by selected model text. Photographs and the later NEO hand development are not exact prototype hardware documentation."
+        },
+        "website": {
+          "value": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "NEO Beta is the bipedal home-robot prototype unveiled on August 30, 2024 for selected-home research and development. Its November 2024 cooking showcase used VR teleoperation and controlled dialogue, and needed help switching on the burner. This is distinct from the later NEO home-robot purchase/subscription offer. Earlier catalog mass, endurance, payload, travel speed and 75,000 USD price are not established by the selected Beta documentation.",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2024",
+          "status": "documented",
+          "note": "Exact Beta unveiling dated August 30, 2024 in the manufacturer announcement; not the release of the later consumer NEO."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated surface, slope or outdoor capability established for this exact identity; domestic positioning or wheeled form alone are not technical terrain ratings."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum or maximum chronological user age specified. Household context is not an age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined maximum arm reach established. Body height, carrying payload and reach in a demonstrated kitchen scene do not establish rated reach."
+        }
+      }
+    },
+    {
+      "robotId": "1x-technologies-neo-gamma",
+      "manufacturer": "1X Technologies",
+      "model": "NEO Gamma",
+      "sources": [
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/introducing-neo-gamma",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/1X-NVIDIA-Research-Collaboration",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/redwood-ai",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-10.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No 75,000 USD Gamma purchase amount established. The later NEO US ownership/subscription/deposit table concerns a successor product."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model single-charge operating interval established. NEO home-robot runtime is not automatically Beta, Gamma or EVE endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No mode-defined maximum continuous runtime established. A stated normal runtime and battery capacity are not tested maxima."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full charge interval established. Six minutes of charging per hour of runtime is a rate claim, not a specified full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot mechanical DOF count established for this exact identity; component counts and overlapping wrist axes cannot be added without an explicit counting convention."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or finger arrangement established by selected model text. Photographs and the later NEO hand development are not exact prototype hardware documentation."
+        },
+        "website": {
+          "value": "https://www.1x.tech/discover/introducing-neo-gamma",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "NEO Gamma is the home-humanoid development generation introduced on February 21, 2025. It adds a whole-body controller, visual manipulation, expressive ear rings, soft covers and a knit suit. The manufacturer describes internal home testing and a specific NVIDIA research dishwasher demonstration. Former 35 kg, three-to-four-hour endurance and 75,000 USD catalog values are not established by these Gamma sources; later NEO hardware is not inherited.",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2025",
+          "status": "documented",
+          "note": "Exact Gamma introduction February 21, 2025, not the October 2025 later NEO launch."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated surface, slope or outdoor capability established for this exact identity; domestic positioning or wheeled form alone are not technical terrain ratings."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum or maximum chronological user age specified. Household context is not an age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined maximum arm reach established. Body height, carrying payload and reach in a demonstrated kitchen scene do not establish rated reach."
+        }
+      }
+    },
+    {
+      "robotId": "1x-technologies-eve",
+      "manufacturer": "1X Technologies",
+      "model": "EVE",
+      "sources": [
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/about",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/androids/eve",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/robot-fleet",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-16.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current firm unit purchase amount for this exact prototype or enterprise configuration established. Later NEO ownership/subscription offers do not price Beta, Gamma or EVE."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model single-charge operating interval established. NEO home-robot runtime is not automatically Beta, Gamma or EVE endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No mode-defined maximum continuous runtime established. A stated normal runtime and battery capacity are not tested maxima."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-generation value established by the selected primary documentation. Later NEO hardware, earlier prototypes and enterprise programs are not interchangeable specifications."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full charge interval established. Six minutes of charging per hour of runtime is a rate claim, not a specified full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot mechanical DOF count established for this exact identity; component counts and overlapping wrist axes cannot be added without an explicit counting convention."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact supplied hand or finger arrangement established by selected model text. Photographs and the later NEO hand development are not exact prototype hardware documentation."
+        },
+        "website": {
+          "value": "https://www.1x.tech/eve",
+          "status": "documented",
+          "note": "Legacy /androids/eve request redirects to the current /eve industrial enquiry page; form content does not establish hardware specifications or availability."
+        },
+        "description": {
+          "value": "EVE is 1X’s wheeled industrial humanoid, distinct from the bipedal home-oriented NEO family. The company timeline records factory deployments in 2022. Its current EVE page is an industrial enquiry form, and a separate enterprise fleet program concerns prospective large deployments. The selected public pages do not establish the earlier catalog mass, height, speed, payload, endurance, initial release year or a current EVE stock/price.",
+          "status": "documented",
+          "note": "Explicit manufacturer value with model, component, offer or milestone scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Company timeline dates EVE factory deployments to 2022. The 2018 entry explicitly concerns Revo1 motor development, not EVE introduction; first model release remains unestablished."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated surface, slope or outdoor capability established for this exact identity; domestic positioning or wheeled form alone are not technical terrain ratings."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum or maximum chronological user age specified. Household context is not an age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined maximum arm reach established. Body height, carrying payload and reach in a demonstrated kitchen scene do not establish rated reach."
+        }
+      }
     }
   ]
 }

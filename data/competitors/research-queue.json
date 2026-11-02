@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T14:52:37.769Z",
+  "generatedAt": "2026-11-02T15:09:49.840Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 372,
-    "withoutSelectedFieldReview": 146,
-    "selectedFields": 6116,
+    "withSelectedFieldReview": 374,
+    "withoutSelectedFieldReview": 144,
+    "selectedFields": 6150,
     "selectedFieldStatuses": {
-      "documented": 2785,
-      "not-documented": 3165,
+      "documented": 2800,
+      "not-documented": 3184,
       "conflicting": 156,
       "roadmap": 10
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 82,
+    "sourceGroupsWithCompanyAuthoredFocus": 83,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -410,27 +410,6 @@
         "knightscope-k1-hemisphere",
         "knightscope-k5",
         "knightscope-k7"
-      ]
-    },
-    {
-      "brandId": "1x-technologies",
-      "name": "1X Technologies",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/1x-technologies"
-      ],
-      "catalogModels": 4,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "1x-technologies-eve",
-        "1x-technologies-neo"
       ]
     },
     {
@@ -3726,6 +3705,27 @@
         "ufactory-xarm-6",
         "ufactory-xarm-7"
       ]
+    },
+    {
+      "brandId": "1x-technologies",
+      "name": "1X Technologies",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/1x-technologies"
+      ],
+      "catalogModels": 4,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "",
+      "robotIds": [
+        "1x-technologies-eve",
+        "1x-technologies-neo"
+      ]
     }
   ],
   "companies": [
@@ -3741,9 +3741,9 @@
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
       "companyFocusCheckedAt": "",
       "robotIds": [
         "1x-technologies-eve",
@@ -14703,24 +14703,55 @@
       "brandId": "1x-technologies",
       "category": "humanoid",
       "hasDatedHighlights": true,
-      "highlightStatements": 2,
+      "highlightStatements": 3,
       "highlightSources": [
         {
-          "name": "1X Technologies",
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
           "type": "manufacturer",
           "url": "https://www.1x.tech/about",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/androids/eve",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/robot-fleet",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 2,
+        "not-documented": 15,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/about",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/androids/eve",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/robot-fleet",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -14742,24 +14773,79 @@
       "brandId": "1x-technologies",
       "category": "humanoid",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 6,
       "highlightSources": [
         {
-          "name": "1X Technologies",
+          "name": "1X Technologies — NEO product specifications and public FAQ",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/neo",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — dated model introduction",
           "type": "manufacturer",
           "url": "https://www.1x.tech/discover/neo-home-robot",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — NEO offer and delivery terms",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/order",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neos-hands",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-factory",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 13,
+        "not-documented": 4,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "1X Technologies — NEO product specifications and public FAQ",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/neo",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — dated model introduction",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-home-robot",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — NEO offer and delivery terms",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/order",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neos-hands",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "1X Technologies — manufacturer engineering, research or company documentation",
+          "type": "manufacturer",
+          "url": "https://www.1x.tech/discover/neo-factory",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
