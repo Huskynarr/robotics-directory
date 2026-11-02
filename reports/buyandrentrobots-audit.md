@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,159 catalog rows**, with 644 exact
-manufacturer spellings. Batch 116 refreshed the separate heuristic gap file offline
-against all 2,159 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,161 catalog rows**, with 644 exact
+manufacturer spellings. Batch 117 refreshed the separate heuristic gap file offline
+against all 2,161 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1071 dated records across the catalog, including
-166 existing-model enrichments and 905 task additions. All 430 catalog models
+Current product-highlight coverage: 1073 dated records across the catalog, including
+166 existing-model enrichments and 907 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 905 task additions, totaling 2,159.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 907 task additions, totaling 2,161.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 429 have selected-field reviews and 89 await those reviews. Family and
+highlights; 436 have selected-field reviews and 82 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 17,573 fields across 963 catalog models: 6,725 documented,
-10,481 not documented, 274 conflicting and ninety-three roadmap fields. They do not certify whole
+Selected specification checks cover 17,906 fields across 972 catalog models: 6,767 documented,
+10,772 not documented, 274 conflicting and ninety-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -7461,3 +7461,114 @@ identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
 unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `722b489d9675b39dbc45d38fa153f092de0b7d33` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-116-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Intuitive: Systemgenerationen und Quellenrollen (Batch 117)
+
+Sieben vorhandene da-Vinci-Generationen vertieft: Standard, S, Si, Xi, X, SP und 5.
+Ion IF1000 und historisches da Vinci SP999 als zwei ausdrücklich benannte Systeme
+ergänzt. Neun Einträge mit 333 ausgewählten Feldern: 42 dokumentiert, 291 unbekannt,
+keine neuen Konflikt-/Roadmap-Felder. 37 zusätzliche Merkmalsaussagen und netto
+23 Produktquellenverweise, ein neuer Firmenfokus. 21 alte Produktaussagen und
+Entdeckungsprovenienz bleiben erhalten. Keine vollständige historische Varianten-
+oder aktuelle weltweite Zulassungsabdeckung behauptet.
+
+Frisch abgerufener eigener FY2025-Form-10-K-Bericht bei der SEC datiert die
+Kommerzialisierung: Standard 1999, S 2006, Si 2009, Xi 2014, X 2017, SP 2018,
+5 2024 und Ion 2019. Historische Generation und Kundenbestand kein aktueller
+Neugeräte-/Lager-/Supportnachweis. Standardstart 1999 getrennt von erster US-
+Freigabe 2000. FDA-Änderungs-/Software-/Kennzeichnungsdaten keine neuen Erststarts.
+
+SP999: ausdrücklich benanntes historisches Modell in K131962, FDA-Entscheidung
+17. April 2014. SP1098 aus K173906, FDA-Entscheidung 31. Mai 2018, nennt SP999
+als separates Vorgängermodell. Kommerzialisierung SP1098 laut Firmenbericht 2018.
+Für SP999 bleibt ein kommerzielles Erstjahr unbekannt; 2014 keine erfundene
+Auslieferung oder aktuelle Verkaufsverfügbarkeit. Ein Arm mit vier Antrieben für
+Kamera/Instrumente ist keine universelle Vier-DOF-Ganzsystemangabe.
+
+Da Vinci 5 IS5000: erstes dokumentiertes US-Verfahren K232610 vom 14. März 2024;
+kompatible Force-Feedback-Instrumente nicht pauschal alle Werkzeuge/Verfahren/
+Länder oder frühere Generationen. Bericht nennt einstellbare Konsole, 3D-Bildgebung
+und mehr als 10000-fache Xi-Rechenleistung als Herstellervergleich, ohne unabhängig
+geprüften Benchmark oder daraus abgeleitete klinische Überlegenheit. K261823 vom
+8. September 2026 betrifft Multi-arm Targeting als Softwareänderung bei unveränderter
+Zweckbestimmung innerhalb dieser Einreichung. Kein neues Grundchassis, keine
+Behauptung, alle installierten Systeme hätten diese Revision; FY2025-Restriktionen
+kein vollständiges heutiges weltweites Zulassungsverzeichnis.
+
+Xi IS4000 und X IS4200 bleiben getrennt. Die geprüften späteren K152578/K202834-
+Einreichungen sind Kennzeichnungsänderungen ohne Änderung technischer Merkmale.
+K171294 ist ein FDA-Entscheidungsschreiben zu X vom 26. Mai 2017, kein technisches
+Maßblatt. Integrated Table Motion laut Firmenbericht Standard bei 5, Upgrade bei
+Xi, kompatibler fremder Operationstisch separat. X übernimmt keine Xi-Tischfunktion
+oder 5-Force-Feedback-Eigenschaften. Si IS3000 wird gegenüber S IS2000 abgegrenzt;
+optionale zweite Konsole für Unterstützung/Ausbildung kein weiterer Grundroboter.
+
+Ion IF1000: eigener Endoluminalroboter, Kommerzialisierung 2019 und FDA K182188
+vom 14. Februar 2019 getrennte Meilensteine. PlanPoint-Laptop mit CT-basiertem
+Modell, Systemwagen, ärztliche Steuerung, Katheter, Sichtsonde und Biopsiewerkzeuge
+sind getrennte Rollen. Echtzeit-Formmessung und Leader-Follower-Steuerung keine
+autonome Biopsie, genaue metrische Positionstoleranz oder garantierte Diagnose.
+180 Grad Katheterartikulation kein Ganzsystem-DOF oder Außenmaß. K252045 von
+September 2025 bleibt eine IF1000-Revision, kein neuer Erststart.
+
+Konsolen, Patientenwagen, Sichtwagen, Instrumente, Endoskope, Firefly, Nadeln,
+Zugangsports, Energie-/Insufflationstechnik und SimNow/My Intuitive/Hub/Learning/
+Case Insights/Insights Engine/3D Models keine erfundenen zusätzlichen Robotermodelle.
+Unternehmensweite Systempreisspanne 0,7–3,1 Millionen USD einschließlich bestimmter
+Serviceleistungen, Prozedur-/Instrumentenumsätze und Service-/Leasingkosten keine
+exakten Modellpreise. Klinische Fallzahlen/Studienzeiträume keine garantierte
+Einzelroboterleistung. Komponentenmaße/Gewichte, Ports und Werkzeugkräfte werden
+nicht in Ganzsystem-Größe, Masse, Frachtlast oder Präzision übertragen.
+
+Quellenrolle `regulator` neu: datierte Behördenbelege werden als Regulatory authority
+source beziehungsweise Quelle der Aufsichtsbehörde angezeigt. Hersteller-eigene
+SEC-Berichte und bei FDA gehostete Herstellereinreichungen bleiben Manufacturer
+source; FDA-Register und reines FDA-Entscheidungsschreiben sind Behördenquellen.
+Keine SEC-/FDA-Empfehlung oder universelle aktuelle Sicherheits-/Verfahrenszulassung
+abgeleitet. Neuer Unit-Test prüft die Trennung und verwirft undatierte Behördenbelege;
+Browserprüfung prüft englische/deutsche Vergleichskennzeichnung und Linkrollen.
+
+20 öffentliche HTTP-Antworten mit SHA-256: 18 HTTP200, zwei403. Davon ist ein
+200er eine 212-Byte-Incapsula-Schutzseite ohne Produkttext; diese und beide403 sind
+als Produktbeleg ausgeschlossen. Nach Sperre keine weiteren Abrufe desselben
+Hosts, keine Umgehung. Erreichbare SEC-Datei, elf FDA-PDFs mit nativem Text/
+Wortkoordinaten und fünf FDA-API-Antworten geprüft. API-Datenstand 19. Oktober 2026,
+nicht Abruf-/Modellstartdatum. Vollständig abgerufene Abfragen: elf Ion-Treffer,
+28 ausgewählte IS-Modelltreffer und 26 SP-Treffer; enthalten Werkzeuge/Updates,
+keine entsprechenden Roboterzahlen und keine vollständige Weltzulassungsliste.
+Da-Vinci-5-Freitextabfrage fand nur Kamera-/Firefly-Zubehör; Modellnummernabfrage
+fand vollständige Systeme. Kein bloßer Suchworttreffer wird zum neuen Grundroboter.
+Keine visuelle PDF-/Bild-/Video-/CAD-Prüfung, Formulare, Kontakte, Transaktionen oder
+klinische Verfahrensempfehlungen.
+
+2152 andere alte CSV-Zeilen, alle 963 alten Feldprüfungen, 110 Firmenfokusse,
+1064 andere Produktbelege und 1961 Quellenidentitäten unverändert. Keine neuen
+CSV-/Vergleichsfelder oder Markenabgleichsänderungen. Kleine Anwendungserweiterung
+für Behörden-Quellenrolle und EN/DE-Texte sowie Korrektur der aktiven Vergleichssprache,
+ohne neue Rollen für Sekundärpublikationen.
+Zwei anfängliche Quellenrollentests prüften fälschlich nur den Link statt seines
+Listeneintrags; Vergleichsspeicher wird jetzt vor Anwendungsinitialisierung gesetzt.
+Danach deckte der URL-Sprachtest einen echten Fehler auf: Vergleich las gespeichertes
+Englisch trotz aktiver deutscher URL-Sprache. Vergleich nutzt nun aktive UI-Sprache
+vor Speicher-Fallback, einschließlich Schaltflächen. Dauerhafter Regressionstest
+prüft deutsche URL bei englischem Speicher; bestehender Sprachwechseltest nutzt
+das tatsächliche Auswahl-Änderungsereignis. Keine Anforderungen abgeschwächt.
+808 Unit-Tests/64 Dateien, 44 Desktop-/Mobilfälle mit acht Axe-Läufen, 3211 Buildseiten,
+Lint/Format, Refresh und Wiederimport bestanden. Audit null Fehler/1049 Hinweise;
+ein neuer Hinweis für unbekannten kommerziellen SP999-Start. Neun Modellseiten,
+333 Felder, 58 Aussagen, ein Firmenfokus, strukturierte Daten, ein gruppierter
+Modell-Exportdatensatz mit sieben Zielen/259 Feldern und sieben ursprüngliche
+Queue-Ziele geprüft. Vergleich: 1073 Produktbelege, 4800 Aussagen, 2237 Quellen-
+verweise, 972 Feldprüfungen/17906 Felder. Eigene Browser-/Server-/Hilfsprozesse
+beendet, Port4321 frei. Kein Deployment. Externe YouTube-Frame-Befunde aus Batch106
+bleiben ungelöst.
+
+Gesamt 2161 Modelle/Konfigurationen, 907 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung, 111 Firmenfokusse. Ursprüngliche Ziele: 436 geprüft, 82 offen
+von 518; 7881 Felder (3216 dokumentiert, 4476 unbekannt, 173 Konflikte, 16 Roadmap).
+Firmenfokus für 107 von 591 Quellengruppen. Drei Modellidentitäten, neun Listing-
+identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
+unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
+Datencommit `2033ce908590a5eade00fafddd3638e8b88b839d` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-117-evidence.json`.
