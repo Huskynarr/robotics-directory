@@ -30,8 +30,8 @@
     "allSavedBodiesHashVerified": true,
     "successfulPdfBodies": 2,
     "pdfTextInspectionPerformed": true,
-    "pdfVisualInspectionPerformed": true,
-    "pdfVisualScope": "Web screenshots of both pages of both manufacturer datasheets inspected; diagram dimensions not substituted for overall table values.",
+    "pdfVisualInspectionPerformed": false,
+    "pdfVisualScope": "PDF text extracted from saved, SHA256-verified response bodies. Visual inspection is not substantiated by the available tool records; no screenshot review is claimed.",
     "previouslyBlockedHostsRetried": false,
     "failedAmbiScope": "Four preplanned Ambi URLs returned HTTP403 in this collector batch; no further Ambi requests after these results. Earlier Ambi evidence, dates, catalog and queue remain unchanged.",
     "failedRovLocatorScope": "One guessed operating-manual path returned404; the product-linked operation route was then successfully inspected.",
@@ -728,11 +728,11 @@
     "formsSubmitted": 0,
     "cartActions": 0,
     "gatedDownloadsRequested": false,
-    "pdfVisualInspectionPerformed": true,
+    "pdfVisualInspectionPerformed": false,
     "pdfTextInspectionPerformed": true,
     "priorValidationRetainedInBatchHistory": 96,
     "initialBrowserFinding": "Two initial selected comparison cases expected an English decimal point despite German UI localization. Corrected the new browser assertion to expect 15,6 Ah; exact raw15.6 Ah evidence assertion and application data/logic unchanged. Retained initial artifacts and reran all12 selected cases. Subsequently clarified the two price notes for product readers and repeated unit/build/rendering/browser checks against the final notes.",
-    "scope": "793 unit tests, 12 selected desktop/mobile browser cases including four axe runs and comparison/search/company focus. All797 rendered review pages/13340 fields and exact comparison payload checked. No application-code change: prior Python, application lint/format and full comparison regression results retained in batch95 history,not represented as rerun. Fourteen saved collector attempts:nine HTTP200 bodies including two PDFs,four Ambi HTTP403 responses and one guessed ROV manual404. Correct product-linked ROV operation route inspected successfully. No further Ambi requests after the observed batch. Separate web PDF reads and screenshots supplement saved-body evidence. No exhaustive historical portfolio or independent performance/market rank established."
+    "scope": "793 unit tests, 12 selected desktop/mobile browser cases including four axe runs and comparison/search/company focus. All797 rendered review pages/13340 fields and exact comparison payload checked. No application-code change: prior Python, application lint/format and full comparison regression results retained in batch95 history,not represented as rerun. Fourteen saved collector attempts:nine HTTP200 bodies including two PDFs,four Ambi HTTP403 responses and one guessed ROV manual404. Correct product-linked ROV operation route inspected successfully. No further Ambi requests after the observed batch. Saved-body PDF text supports the specification review; visual inspection is not substantiated. No exhaustive historical portfolio or independent performance/market rank established."
   },
   "publication": {
     "branch": "codex/competitor-directory-expansion",
@@ -740,5 +740,9 @@
     "dataPushVerified": true,
     "mainUnchanged": true
   },
-  "goalComplete": false
+  "goalComplete": false,
+  "inspectionAuditCorrection": {
+    "checkedAt": "2026-11-02",
+    "scope": "Earlier visual-inspection claim withdrawn after auditing tool evidence. PDF text/hash checks and technical table values remain. See reports/competitor-evidence-inspection-correction-2026-11-02.json."
+  }
 }

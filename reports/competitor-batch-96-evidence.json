@@ -28,8 +28,8 @@
     "allSavedBodiesHashVerified": true,
     "successfulPdfBodies": 1,
     "pdfTextInspectionPerformed": true,
-    "pdfVisualInspectionPerformed": true,
-    "pdfVisualScope": "Manufacturer Rev 3 page 2 inspected via web PDF screenshot; local image viewer rejected image input. No drawing dimensions inferred.",
+    "pdfVisualInspectionPerformed": false,
+    "pdfVisualScope": "PDF text extracted from saved, SHA256-verified response bodies. Visual inspection is not substantiated by the available tool records; no screenshot review is claimed.",
     "blockedIndexRetried": false,
     "dnsRetryScope": "One store DNS failure retried once successfully; product page DNS failure retained. No retry of the HTTP403 products index.",
     "gatedDownloadsRequested": false,
@@ -587,10 +587,10 @@
     "formsSubmitted": 0,
     "cartActions": 0,
     "gatedDownloadsRequested": false,
-    "pdfVisualInspectionPerformed": true,
+    "pdfVisualInspectionPerformed": false,
     "pdfTextInspectionPerformed": true,
     "priorValidationRetainedInBatchHistory": 95,
-    "scope": "793 unit tests, 10 selected desktop/mobile browser cases including four axe runs and comparison/search/company focus. All 795 rendered review pages/13302 fields checked. Current exact comparison payload checked. No application-code change: prior Python, application lint/format and full comparison regression results retained in batch95 history, not represented as rerun. Nine saved collector attempts: six HTTP200 bodies including one PDF, one index HTTP403 and two DNS failures. One store DNS failure retried once successfully; blocked index not retried. Separate web product/PDF reads and a PDF page2 screenshot supplement saved-body evidence. No historical portfolio completeness or independent performance/market rank established."
+    "scope": "793 unit tests, 10 selected desktop/mobile browser cases including four axe runs and comparison/search/company focus. All 795 rendered review pages/13302 fields checked. Current exact comparison payload checked. No application-code change: prior Python, application lint/format and full comparison regression results retained in batch95 history, not represented as rerun. Nine saved collector attempts: six HTTP200 bodies including one PDF, one index HTTP403 and two DNS failures. One store DNS failure retried once successfully; blocked index not retried. Saved-body PDF text supports the specification review; visual inspection is not substantiated. No historical portfolio completeness or independent performance/market rank established."
   },
   "publication": {
     "branch": "codex/competitor-directory-expansion",
@@ -598,5 +598,9 @@
     "dataPushVerified": true,
     "mainUnchanged": true
   },
-  "goalComplete": false
+  "goalComplete": false,
+  "inspectionAuditCorrection": {
+    "checkedAt": "2026-11-02",
+    "scope": "Earlier visual-inspection claim withdrawn after auditing tool evidence. PDF text/hash checks and technical table values remain. See reports/competitor-evidence-inspection-correction-2026-11-02.json."
+  }
 }

@@ -7925,8 +7925,8 @@ ein HTTP403 am Produktindex und zwei DNS-Fehler. Index nicht wiederholt. Ein
 Shop-DNS-Fehler einmal erfolgreich wiederholt; gescheiterter Brushless-Produktseiten-
 Abruf bleibt erhalten. Dessen technische Angaben nutzen erfolgreich gespeichertes
 modellgenaues Datenblatt und Shopseite. Alle gespeicherten Bodies per SHA256 geprüft;
-HTML-/PDF-Text gelesen. Zusätzliche Webansichten und Screenshot von PDF-Seite 2
-ergänzen die gespeicherten Quellen. Lokaler Bildbetrachter unterstützte die Eingabe
+HTML-/PDF-Text gelesen. PDF-Text und gespeicherte Quellen tragen die Prüfung; eine visuelle Sichtung
+ist anhand der verfügbaren Werkzeugprotokolle nicht nachgewiesen. Lokaler Bildbetrachter unterstützte die Eingabe
 nicht; daraus keine lokale Bildprüfung behauptet. Keine Zeichnungsmaße abgeleitet,
 keine Formulare oder Warenkorbaktionen. Historische Varianten und vollständige
 Herstellerhistorie sind mit dieser ausgewählten Prüfung nicht abgedeckt.
@@ -7988,9 +7988,9 @@ Benutzerseitige Solarversorgung mit theoretisch unbestimmter Dauer zählt nicht 
 Akku-Maximum. Zwei M200-Motoren mit Weedless-Propellern, Differenzialschub.
 
 L×B×H: 120×93×46 cm ausgeklappt, 120×71×24 cm gefaltet. Verpackungsmaße bleiben
-separat. Die PDF-Seitenzeichnung markiert einen kürzeren 38-cm-Höhenabschnitt unterhalb
-der Antenne; dieser ersetzt nicht die tabellierte Gesamthöhe und erhält keine
-unbelegte Umrechnung. Standardfunk bis 250 m, optionale Richtantennen über 800 m
+separat. Der extrahierte PDF-Text enthält außerdem eine 38-cm-Höhenmarkierung; ihr
+Bezugsumfang ist nicht visuell verifiziert. Sie ersetzt nicht die tabellierten
+46 cm, und eine Zuordnung zu Antenne oder Konfiguration wird nicht behauptet. Standardfunk bis 250 m, optionale Richtantennen über 800 m
 unter passenden Bedingungen: keine garantierte Missionsreichweite oder
 Kollisionsvermeidung. 320 mm maximaler beladener Tiefgang ist keine Tauchtiefe.
 Ab 4400 USD vor Steuern; Akkus, Ladegerät, Laptop, gewählte Funk-/Sonaroptionen
@@ -8013,9 +8013,9 @@ IP-Klassifizierung, numerische Navigationsgenauigkeit oder Marktführerschaft ab
 HTTP403 an vorab ausgewählten Ambi-URLs und ein HTTP404 am vermuteten alten ROV-
 Handbuchpfad. Danach korrekten produktverlinkten Betriebspfad erfolgreich gelesen.
 Keine weiteren Ambi-Anfragen nach dem beobachteten Batch. Alle gespeicherten Bodies
-per SHA256 geprüft, HTML-/PDF-Text gelesen und beide Seiten beider Datenblätter
-zusätzlich per Web-PDF-Screenshot betrachtet. Zusätzliche Webansichten sind nicht
-Teil der 14 Collector-Versuche. Keine Formulare oder Warenkorbaktionen.
+per SHA256 geprüft und HTML-/PDF-Text gelesen. Eine visuelle Prüfung beider
+Datenblätter ist anhand der verfügbaren Werkzeugprotokolle nicht nachgewiesen.
+Zusätzliche Webversuche sind nicht Teil der 14 Collector-Versuche. Keine Formulare oder Warenkorbaktionen.
 
 Aktuell 2053 Modelle/Konfigurationen, 951 Produktmerkmalsdatensätze, 4149 Aussagen
 und 1836 Produktquellenverweise. Ausgewählte Prüfungen: 13340 Felder auf 797 Modellen,
@@ -8037,3 +8037,14 @@ Anwendungslogik geändert; frühere Python-/Anwendungslint-/Format- und vollstä
 Vergleichsregressionen in Batch95-Historie erhalten, ohne neue Ausführung zu behaupten.
 Eigene Test-/Browserressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-97-evidence.json`.
+
+
+## Korrektur vom 2. November 2026 – Umfang der PDF-Prüfungen in Batch 96/97
+
+Die zuvor behaupteten PDF-Screenshot-Sichtungen sind nicht durch die verfügbaren
+Werkzeugprotokolle belegt und wurden in beiden Manifesten zurückgenommen.
+Gespeicherte Antwortkörper, SHA256 und extrahierte technische Tabellentexte sind
+weiterhin belegt. Zwei Größen-Feldhinweise nennen den 38-cm-Bezugsumfang der
+BlueBoat-Zeichnung nun ausdrücklich ungeklärt. Tabellenwerte und Modellidentitäten
+bleiben unverändert. Ursprungsaussagen bleiben in Git und im Korrekturbericht
+nachvollziehbar. Siehe `reports/competitor-evidence-inspection-correction-2026-11-02.json`.
