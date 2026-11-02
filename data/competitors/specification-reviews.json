@@ -166,62 +166,6 @@
       }
     },
     {
-      "robotId": "rainbow-robotics-rb-y1",
-      "manufacturer": "Rainbow Robotics",
-      "model": "RB-Y1",
-      "sources": [
-        {
-          "name": "Rainbow Robotics",
-          "type": "manufacturer",
-          "url": "https://rainbow-robotics.com/en/products/rb-y1/",
-          "checkedAt": "2026-11-01"
-        }
-      ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-24/rainbow-robotics.com-en-products-rb-y1.json",
-      "fields": {
-        "price": {
-          "value": "Not disclosed",
-          "status": "not-documented",
-          "note": "Not documented in the reviewed primary source; unsupported catalog claim removed."
-        },
-        "weight": {
-          "value": "131 kg (A) / 170 kg (M)",
-          "status": "documented",
-          "note": "A and M configurations have different mobile bases."
-        },
-        "batteryLife": {
-          "value": "",
-          "status": "not-documented",
-          "note": "Not documented in the reviewed primary source; unsupported catalog claim removed."
-        },
-        "dof": {
-          "value": "Configuration-dependent; manufacturer counts conflict",
-          "status": "conflicting",
-          "note": "Overview says 24 overall, while the A/M table lists 20/26. No single total is certified."
-        },
-        "payload": {
-          "value": "3 kg per arm",
-          "status": "documented",
-          "note": ""
-        },
-        "speed": {
-          "value": "1.5 m/s",
-          "status": "documented",
-          "note": ""
-        },
-        "website": {
-          "value": "https://rainbow-robotics.com/en/products/rb-y1/",
-          "status": "documented",
-          "note": ""
-        },
-        "description": {
-          "value": "Mobile dual-arm research platform for manipulation, mobility and perception experiments. A/M configurations differ; manufacturer DOF totals conflict and battery runtime is not documented on the reviewed page.",
-          "status": "documented",
-          "note": ""
-        }
-      }
-    },
-    {
       "robotId": "booster-robotics-booster-t1",
       "manufacturer": "Booster Robotics",
       "model": "Booster T1",
@@ -82663,6 +82607,1342 @@
           "value": "",
           "status": "not-documented",
           "note": "No chronological user age rating established. Commercial security deployment is not an age recommendation."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-hubo",
+      "manufacturer": "Rainbow Robotics",
+      "model": "HUBO",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — manufacturer HUBO heritage",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/company/heritage-story/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-18.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 56 kg value not established for original HUBO by selected named heritage source."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former generic medium label is not a measured robot envelope; selected heritage does not establish 125 cm for this exact original configuration."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former one-hour value is not established by selected primary heritage account."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 60-minute maximum is not established by selected primary heritage account."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 1.25 km/h not established by selected primary heritage account."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific charge interval established. Charger power, connector availability and battery capacity do not establish an empty-to-full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 66 whole-robot DOF not established by selected primary heritage account; original, second-generation and DRC variants differ."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/en/company/heritage-story/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "HUBO is the historical KAIST bipedal research platform at the origin of Rainbow Robotics’ technology lineage. The manufacturer’s heritage describes a 2004 development milestone. Original HUBO, HUBO 2 and DRC-HUBO retain separate identities; later competition wins and present mobile dual-arm products are not the original prototype’s specifications. Exact original mass, DOF, endurance and first public-release year are not established by the selected heritage account.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer gives a 2004 development/birth milestone, while prior row said 2005. Neither source establishes exact first public product release; do not substitute a development year."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated travel surface, slope or step limit established. A staged demonstration and general application category do not establish unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-drc-hubo",
+      "manufacturer": "Rainbow Robotics",
+      "model": "DRC-HUBO",
+      "sources": [
+        {
+          "name": "KAIST — KAIST developer report identifying DRC-Hubo",
+          "type": "developer",
+          "url": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=16812",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "KAIST — KAIST developer report, December 2017 torch relay",
+          "type": "developer",
+          "url": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=4902",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-15.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 80 kg not established by selected exact-identity developer reports."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot envelope established. Body height, cargo-box measurements, battery pack size and optional charger dimensions are different quantities."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicitly defined maximum continuous runtime established. A listed continuous-driving interval without maximum/test conditions is not a measured endurance bound."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific charge interval established. Charger power, connector availability and battery capacity do not establish an empty-to-full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 32 DOF not established by selected developer reports; no other HUBO generation substituted."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=16812",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "DRC-HUBO is the KAIST research humanoid identified by its development institution as the winner of the 2015 DARPA Robotics Challenge. KAIST later documents a HUBO torch-relay demonstration in December 2017. Competition identity and a staged demonstration do not establish a current commercial product, universal disaster-response capability or the legacy row’s exact mechanical specifications.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "2015 is explicitly the competition year. Selected developer report does not identify first public release or production start."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated travel surface, slope or step limit established. A staged demonstration and general application category do not establish unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-hubo-2",
+      "manufacturer": "Rainbow Robotics",
+      "model": "HUBO 2",
+      "sources": [
+        {
+          "name": "KAIST — KAIST developer report, May 2020 HUBO 2 broadcast",
+          "type": "developer",
+          "url": "https://news.kaist.ac.kr/site/newsen/html/news/index.php?GotoPage=7&list_e_date=&list_s_date=&mng_no=7271&mode=V&skey=keyword&sval=AIS",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-14.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 45 kg not established by selected exact-name developer report."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former generic large and narrative 125 cm are not established as this broadcast robot’s exact envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicitly defined maximum continuous runtime established. A listed continuous-driving interval without maximum/test conditions is not a measured endurance bound."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific charge interval established. Charger power, connector availability and battery capacity do not establish an empty-to-full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 40 DOF not established by selected named developer report."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://news.kaist.ac.kr/site/newsen/html/news/index.php?GotoPage=7&list_e_date=&list_s_date=&mng_no=7271&mode=V&skey=keyword&sval=AIS",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "HUBO 2 is the second-generation KAIST humanoid explicitly named in the university’s May 14, 2020 report on a television co-anchor appearance. The historical broadcast does not establish autonomous news gathering, a particular speech/AI stack, commercial availability or the former row’s exact dimensions, mass and DOF.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 2009 first-release year not established by selected report; May 14, 2020 is a broadcast event, not a substitute product introduction."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated travel surface, slope or step limit established. A staged demonstration and general application category do not establish unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-fx-2",
+      "manufacturer": "Rainbow Robotics",
+      "model": "FX-2",
+      "sources": [
+        {
+          "name": "KAIST — KAIST developer report, December 2017 torch relay",
+          "type": "developer",
+          "url": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=4902",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-5.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot envelope established. Body height, cargo-box measurements, battery pack size and optional charger dimensions are different quantities."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicitly defined maximum continuous runtime established. A listed continuous-driving interval without maximum/test conditions is not a measured endurance bound."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific charge interval established. Charger power, connector availability and battery capacity do not establish an empty-to-full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established for this configuration. Joint counts, software command dimensions, fingers and mobile wheels retain different scopes."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=4902",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "FX-2 is the historical human-ridden walking robot controlled by a rider at KAIST’s December 11, 2017 Olympic torch relay. KAIST attributes development to Jun-Ho Oh; the Korean government’s event report corroborates joint HUBO Lab/Rainbow Robotics development and first unveiling that day. It is a research demonstration rather than an established autonomous humanoid or currently available passenger product.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "2017",
+          "status": "documented",
+          "note": "KAIST documents the December 11, 2017 demonstration. Contemporaneous Korea.net government event report explicitly corroborates first unveiling that day and joint development; attributionEvidence is retained in the product record. No later milestone substituted."
+        },
+        "terrain": {
+          "value": "KAIST campus riding demonstration; no rated terrain envelope",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-rb-y1",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RB-Y1",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RB-Y1 configuration and technical page",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rb-y1/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — RB-Y1 developer hardware overview",
+          "type": "manufacturer",
+          "url": "https://rainbowrobotics.github.io/rby1-dev/hardware/overview.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — RB-Y1 developer battery and charger documentation",
+          "type": "manufacturer",
+          "url": "https://rainbowrobotics.github.io/rby1-dev/hardware/battery.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — manufacturer April 5, 2024 RB-Y1 introduction release",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c-%eb%a0%88%ec%9d%b8%eb%b3%b4%ec%9a%b0%eb%a1%9c%eb%b3%b4%ed%8b%b1%ec%8a%a4-%ea%b5%ad%eb%82%b4-%ec%b5%9c%ec%b4%88-%ec%9d%b4%eb%8f%99%ed%98%95-%ec%96%91%ed%8c%94/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — manufacturer May 7, 2024 preorder announcement",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c-%eb%a0%88%ec%9d%b8%eb%b3%b4%ec%9a%b0%eb%a1%9c%eb%b3%b4%ed%8b%b1%ec%8a%a4-%ec%9d%bc%eb%b3%b8-%ec%9a%94%ec%bd%94%ed%95%98%eb%a7%88-icra-2024-%ec%b0%b8%ea%b0%80/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — manufacturer RB-Y1 teleoperation demonstration",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/dual-arm-mobile-manipulator-rb-y1/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-2.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "131 kg (A) / 170 kg (M)",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "size": {
+          "value": "600 x 690 x 1,400 mm (W x D x H; platform table)",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicitly defined maximum continuous runtime established. A listed continuous-driving interval without maximum/test conditions is not a measured endurance bound."
+        },
+        "payload": {
+          "value": "3 kg per arm",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "speed": {
+          "value": "1.5 m/s (current product/manual); 2024 introduction stated 2.5 m/s",
+          "status": "conflicting",
+          "note": "Current product/manual 1.5 m/s versus dated April 5, 2024 introduction 2.5 m/s. No verified hardware-revision mapping; historical/current disagreement retained."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific charge interval established. Charger power, connector availability and battery capacity do not establish an empty-to-full charging duration."
+        },
+        "dof": {
+          "value": "Conflicting totals: product A20/M26; manual A24/M26 overview and M24 detail",
+          "status": "conflicting",
+          "note": "Existing conflict retained and expanded: current product overview 24 versus A/M20/26; manual overview A24/M26 versus Model M detail total 24. Component sums and software dimensions do not certify one corrected hardware count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Gripper and neck are optional and vision camera not provided according to current configuration section; former none value is not a supplied end-effector specification."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/en/products/rb-y1/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "RB-Y1 is a wheeled dual-arm research platform introduced publicly in 2024. Current material specifies 3 kg per arm, 600 mm wrist reach plus the selected hand, 131 kg A/170 kg M configurations and 1.5 m/s mobile speed; the 2024 introduction stated 2.5 m/s. Official DOF tables disagree within and between documents. Two computers separate real-time control from user applications, with SDK/ROS 2 and simulation interfaces. Grippers, neck modules, cameras and teaching devices depend on configuration; battery energy is not endurance.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "2024",
+          "status": "documented",
+          "note": "Manufacturer April 5, 2024 release explicitly says first public display in March 2024; May 7 release announces preorders from May 8.2024 introduction retained without claiming delivery."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated travel surface, slope or step limit established. A staged demonstration and general application category do not establish unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "armReach": {
+          "value": "600 mm to wrist + hand (hand length unspecified)",
+          "status": "documented",
+          "note": "Explicit 600 mm to wrist plus selected hand. No arbitrary hand length or total fingertip reach inferred."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-rbq-3",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBQ-3",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — manufacturer RBQ-3 RoboWorld 2021 report",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/2021-%eb%a1%9c%eb%b3%b4%ec%9b%94%eb%93%9c-%ec%9d%b4%ec%9e%ac%eb%aa%85-%ed%9b%84%eb%b3%b4-%ec%82%ac%ec%a1%b1%eb%b3%b4%ed%96%89-%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%97%b0-%ec%b0%b8%ea%b4%80/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — manufacturer RBQ-3 demonstration report",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/%ec%a0%9c-1%ed%9a%8c-%ea%b5%ad%eb%b0%a9%eb%a1%9c%eb%b4%87%ed%95%99%ed%9a%8c-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c-%ea%b9%80%ec%9a%a9%ec%9a%b0-%ec%a0%84-%ec%9c%a1%ea%b5%b0%ec%b0%b8%eb%aa%a8%ec%b4%9d/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-32.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 25 kg not established by exact-name manufacturer event reports."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot envelope established. Body height, cargo-box measurements, battery pack size and optional charger dimensions are different quantities."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 180-minute runtime not established by exact-name manufacturer reports."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 3 kg not established by exact-name manufacturer reports; the model suffix 3 is not a rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 2.0 m/s not established by exact-name manufacturer reports."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific charge interval established. Charger power, connector availability and battery capacity do not establish an empty-to-full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 12 mechanical DOF not established by selected reports; current RBQ10 SDK is not this model’s specification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/2021-%eb%a1%9c%eb%b3%b4%ec%9b%94%eb%93%9c-%ec%9d%b4%ec%9e%ac%eb%aa%85-%ed%9b%84%eb%b3%b4-%ec%82%ac%ec%a1%b1%eb%b3%b4%ed%96%89-%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%97%b0-%ec%b0%b8%ea%b4%80/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "RBQ-3 is the historical Rainbow Robotics quadruped explicitly named in the manufacturer’s RoboWorld 2021 and defense-robotics demonstration reports. These establish model identity and staged demonstrations rather than the former row’s precise mass, payload, speed, DOF, price or 180-minute endurance. The current RBQ manual explicitly labels RBQ10 and is not an exact RBQ-3 specification source. First-release year and current availability remain unconfirmed.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Former 2023 first-release year conflicts with documented October 2021 demonstration as chronology, but exact first introduction year remains unknown.2026 migration timestamps are not product dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated travel surface, slope or step limit established. A staged demonstration and general application category do not establish unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-rb-y2",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RB-Y2",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — current named lineup and coming-soon badges",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/lineup/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — RB-Y2 named product placeholder",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rb-y2/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot envelope established. Body height, cargo-box measurements, battery pack size and optional charger dimensions are different quantities."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicitly defined maximum continuous runtime established. A listed continuous-driving interval without maximum/test conditions is not a measured endurance bound."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific charge interval established. Charger power, connector availability and battery capacity do not establish an empty-to-full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established for this configuration. Joint counts, software command dimensions, fingers and mobile wheels retain different scopes."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/en/products/rb-y2/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "Announced development platform: RB-Y2 is a named mobile dual-arm platform intended to extend research toward field operation. The current manufacturer lineup marks it Coming soon. Its dedicated page supplies a short positioning statement without a model-specific technical table. Current delivery, exact first-release date, mass, payload, endurance, speed and ingress rating remain unestablished.",
+          "status": "roadmap",
+          "note": "Named manufacturer lineup card explicitly Coming soon; dedicated page positioning is announced scope rather than delivered specifications."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Current named lineup card explicitly Coming soon. File/image upload dates and accessible placeholder page do not establish first release."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated travel surface, slope or step limit established. A staged demonstration and general application category do not establish unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-rbq-10w",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBQ-10W",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — current named lineup and coming-soon badges",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/lineup/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — RBQ-10W named product placeholder",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbq-10w/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot envelope established. Body height, cargo-box measurements, battery pack size and optional charger dimensions are different quantities."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicitly defined maximum continuous runtime established. A listed continuous-driving interval without maximum/test conditions is not a measured endurance bound."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific charge interval established. Charger power, connector availability and battery capacity do not establish an empty-to-full charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established for this configuration. Joint counts, software command dimensions, fingers and mobile wheels retain different scopes."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/en/products/rbq-10w/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "Announced development platform: RBQ-10W is a named legged-wheel hybrid quadruped platform combining legs and wheels. The current manufacturer lineup marks it Coming soon. Its dedicated page supplies a short positioning statement without a model-specific technical table. Current delivery, exact first-release date, mass, payload, endurance, speed and ingress rating remain unestablished.",
+          "status": "roadmap",
+          "note": "Named manufacturer lineup card explicitly Coming soon; dedicated page positioning is announced scope rather than delivered specifications."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Current named lineup card explicitly Coming soon. File/image upload dates and accessible placeholder page do not establish first release."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated travel surface, slope or step limit established. A staged demonstration and general application category do not establish unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-rbm-d400",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBM-D400",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RBM-D400 exact model specifications",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbm-d400/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-7.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "70 kg",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "size": {
+          "value": "600 x 800 x 240 mm (W x D x H)",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Page lists a continuous-driving interval for S100a/b but does not define an explicit tested maximum. D-series pages give no endurance interval."
+        },
+        "payload": {
+          "value": "400 kg",
+          "status": "documented",
+          "note": "Exact named payload for the D-series model; chassis mass and payload are separate."
+        },
+        "speed": {
+          "value": "Maximum 1.2 m/s",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "D-series page provides charging connection methods and battery voltage/capacity but no duration; do not calculate runtime or full recharge from those values."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established for this configuration. Joint counts, software command dimensions, fingers and mobile wheels retain different scopes."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/en/products/rbm-d400/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "RBM-D400 is a named industrial AMR with 400 kg payload, 70 kg robot mass, 600 x 800 x 240 mm (W x D x H) dimensions and maximum 1.2 m/s travel speed. Differential drive, dual 2D LiDAR and a depth camera support SLAM-based material transport. Battery voltage/capacity do not establish endurance or charge duration. Web-based fleet management and optional top modules/chargers support integration; sensor detection height is not obstacle-climbing ability.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first introduction year established for this named configuration. Heritage milestones, competitions, filing dates, migration timestamps and coming-soon labels are not automatically first-release evidence."
+        },
+        "terrain": {
+          "value": "Indoor manufacturing/logistics environments; no numeric slope/step rating",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "driveMode": {
+          "value": "Differential drive; 2 active wheels and 4 dual-wheel casters",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Qualitative precision/localization language is not a numeric positioning accuracy specification."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Charging connection support does not establish numeric docking accuracy."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Narrow-aisle positioning supplies no numeric minimum aisle under a defined load/turning condition."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Path-following/turning-radius narrative supplies no numeric rated turn radius."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-rbm-d1000",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBM-D1000",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RBM-D1000 exact model specifications",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbm-d1000/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-8.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "150 kg",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "size": {
+          "value": "800 x 1,100 x 300 mm (W x D x H)",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific single-charge operating interval established. Battery voltage, amp-hours, watt-hours, cycle life and an assumed work shift are not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Page lists a continuous-driving interval for S100a/b but does not define an explicit tested maximum. D-series pages give no endurance interval."
+        },
+        "payload": {
+          "value": "1,000 kg",
+          "status": "documented",
+          "note": "Exact named payload for the D-series model; chassis mass and payload are separate."
+        },
+        "speed": {
+          "value": "Maximum 1.2 m/s",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "D-series page provides charging connection methods and battery voltage/capacity but no duration; do not calculate runtime or full recharge from those values."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established for this configuration. Joint counts, software command dimensions, fingers and mobile wheels retain different scopes."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/en/products/rbm-d1000/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "RBM-D1000 is a named industrial AMR with 1,000 kg payload, 150 kg robot mass, 800 x 1,100 x 300 mm (W x D x H) dimensions and maximum 1.2 m/s travel speed. Differential drive, dual 2D LiDAR and a depth camera support SLAM-based material transport. Battery voltage/capacity do not establish endurance or charge duration. Web-based fleet management and optional top modules/chargers support integration; sensor detection height is not obstacle-climbing ability.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first introduction year established for this named configuration. Heritage milestones, competitions, filing dates, migration timestamps and coming-soon labels are not automatically first-release evidence."
+        },
+        "terrain": {
+          "value": "Indoor manufacturing/logistics environments; no numeric slope/step rating",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "driveMode": {
+          "value": "Differential drive; 2 active wheels and 4 dual-wheel casters",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Qualitative precision/localization language is not a numeric positioning accuracy specification."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Charging connection support does not establish numeric docking accuracy."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Narrow-aisle positioning supplies no numeric minimum aisle under a defined load/turning condition."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Path-following/turning-radius narrative supplies no numeric rated turn radius."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-rbm-s100a",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBM-S100a",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RBM-S100a exact model specifications",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbm-s100a/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-9.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "Approximately 50 kg",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "size": {
+          "value": "510 x 510 x 1,250 mm (W x D x H)",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "batteryLife": {
+          "value": "10 h continuous driving (test conditions not stated)",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Page lists a continuous-driving interval for S100a/b but does not define an explicit tested maximum. D-series pages give no endurance interval."
+        },
+        "payload": {
+          "value": "120 kg",
+          "status": "documented",
+          "note": "Exact S100a page 120 kg versus S100b 100 kg; neither model name nor common family brochure title overrides those named table values."
+        },
+        "speed": {
+          "value": "Maximum 1.2 m/s",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "3 h 30 min (state-of-charge window not stated)",
+          "status": "documented",
+          "note": "Exact S100a/b table says 3 hours 30 minutes without state-of-charge endpoints, charger mode, load or test conditions."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established for this configuration. Joint counts, software command dimensions, fingers and mobile wheels retain different scopes."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/en/products/rbm-s100a/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "RBM-S100a is a named industrial AMR with 120 kg payload, Approximately 50 kg robot mass, 510 x 510 x 1,250 mm (W x D x H) dimensions and maximum 1.2 m/s travel speed. Its exact page lists 10 hours continuous driving and 3 hours 30 minutes charging without workload or state-of-charge endpoints. S100a and S100b retain distinct payload, envelope and tray configurations. Web-based fleet management and optional top modules/chargers support integration; sensor detection height is not obstacle-climbing ability.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first introduction year established for this named configuration. Heritage milestones, competitions, filing dates, migration timestamps and coming-soon labels are not automatically first-release evidence."
+        },
+        "terrain": {
+          "value": "Indoor manufacturing/logistics environments; no numeric slope/step rating",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Qualitative precision/localization language is not a numeric positioning accuracy specification."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Charging connection support does not establish numeric docking accuracy."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Narrow-aisle positioning supplies no numeric minimum aisle under a defined load/turning condition."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Path-following/turning-radius narrative supplies no numeric rated turn radius."
+        }
+      }
+    },
+    {
+      "robotId": "rainbow-robotics-rbm-s100b",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBM-S100b",
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RBM-S100b exact model specifications",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbm-s100b/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-10.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No firm current supplied-system purchase price established. A historical prototype, subscription, development platform or neighboring model’s price is not a binding offer."
+        },
+        "weight": {
+          "value": "Approximately 70 kg",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "size": {
+          "value": "710 x 680 x 1,250 mm (W x D x H)",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "batteryLife": {
+          "value": "10 h continuous driving (test conditions not stated)",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Page lists a continuous-driving interval for S100a/b but does not define an explicit tested maximum. D-series pages give no endurance interval."
+        },
+        "payload": {
+          "value": "100 kg",
+          "status": "documented",
+          "note": "Exact S100a page 120 kg versus S100b 100 kg; neither model name nor common family brochure title overrides those named table values."
+        },
+        "speed": {
+          "value": "Maximum 1.2 m/s",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model-specific ingress rating established. The current RBQ-10 family manual does not certify a historical RBQ-3 or an announced wheel variant."
+        },
+        "chargingTime": {
+          "value": "3 h 30 min (state-of-charge window not stated)",
+          "status": "documented",
+          "note": "Exact S100a/b table says 3 hours 30 minutes without state-of-charge endpoints, charger mode, load or test conditions."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established for this configuration. Joint counts, software command dimensions, fingers and mobile wheels retain different scopes."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included hand/end-effector configuration established. Optional grippers and leader-arm teaching devices are not assumed supplied."
+        },
+        "website": {
+          "value": "https://rainbow-robotics.com/en/products/rbm-s100b/",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "description": {
+          "value": "RBM-S100b is a named industrial AMR with 100 kg payload, Approximately 70 kg robot mass, 710 x 680 x 1,250 mm (W x D x H) dimensions and maximum 1.2 m/s travel speed. Its exact page lists 10 hours continuous driving and 3 hours 30 minutes charging without workload or state-of-charge endpoints. S100a and S100b retain distinct payload, envelope and tray configurations. Web-based fleet management and optional top modules/chargers support integration; sensor detection height is not obstacle-climbing ability.",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first introduction year established for this named configuration. Heritage milestones, competitions, filing dates, migration timestamps and coming-soon labels are not automatically first-release evidence."
+        },
+        "terrain": {
+          "value": "Indoor manufacturing/logistics environments; no numeric slope/step rating",
+          "status": "documented",
+          "note": "Exact named-model primary statement with historical, present configuration or roadmap scope retained; not an independent measurement."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Research or commercial operation does not establish a child-use rating."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model/configuration value established in selected primary documentation. Other HUBO generations, RBQ-10, arm/base modules, simulation and optional accessories are not automatically this model’s specifications."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Qualitative precision/localization language is not a numeric positioning accuracy specification."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Charging connection support does not establish numeric docking accuracy."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Narrow-aisle positioning supplies no numeric minimum aisle under a defined load/turning condition."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Path-following/turning-radius narrative supplies no numeric rated turn radius."
         }
       }
     }

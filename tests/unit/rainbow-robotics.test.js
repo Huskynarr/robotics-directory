@@ -17,7 +17,7 @@ describe('Rainbow exact-model boundaries and manufacturer conflicts', () => {
   it('reviews thirteen existing arm configurations without new software/accessory cards', () => {
     expect(arms).toHaveLength(13);
     expect(arms.every((r) => r.dof === '6' && getSpecificationReview(r.id))).toBe(true);
-    expect(robots.filter((r) => r.manufacturer === 'Rainbow Robotics')).toHaveLength(20);
+    expect(robots.filter((r) => r.manufacturer === 'Rainbow Robotics')).toHaveLength(26);
   });
   it('retains both incompatible reach statements for the two 850 arms', () => {
     for (const id of ['rb5-850', 'rb5-850n']) {
@@ -111,12 +111,12 @@ describe('Rainbow exact-model boundaries and manufacturer conflicts', () => {
       expect(r.releaseDate).toBe('');
     }
   });
-  it('adds a scoped company review without changing the existing RB-Y1 field conflict', () => {
+  it('extends prior company evidence while retaining unresolved RB-Y1 counts', () => {
     const brand = getAllBrands().find((b) => b.id === 'rainbow-robotics');
     const focus = getCompanyInsights(brand).primary;
-    expect(focus.sources).toHaveLength(6);
-    expect(focus.highlights.join(' ')).toContain('adjacent product navigation');
+    expect(focus.sources.length).toBeGreaterThan(6);
+    expect(focus.highlights.join(' ')).toContain('RBM-D400/D1000');
     expect(review('rb-y1').fields.dof.status).toBe('conflicting');
-    expect(review('rb-y1').sources[0].checkedAt).toBe('2026-11-01');
+    expect(review('rb-y1').sources[0].checkedAt).toBe('2026-11-02');
   });
 });

@@ -12179,16 +12179,16 @@
       "manufacturer": "Rainbow Robotics",
       "model": "FX-2",
       "highlights": [
-        "Carries a human rider who controls the demonstration robot",
-        "KAIST documents walking during its December 2017 Olympic torch relay",
-        "Historical research demonstration, distinct from DRC-HUBO and later RB-Y1 platforms"
+        "KAIST’s developer report says the rider controlled FX-2 while it took several steps during the December 11, 2017 torch relay. Human-ridden control is distinct from the autonomous vehicle and other HUBO demonstrations described in the same event.",
+        "The Korean government’s contemporaneous event report corroborates joint KAIST HUBO Lab/Rainbow Robotics development and says FX-2 was first revealed on December 11, 2017. The retained 2017 year is this historical public unveiling, not a retail availability or production milestone.",
+        "The selected developer report does not establish exact mass, height, passenger payload, walking speed, battery endurance or a general public-riding safety approval. Current commercial availability remains unconfirmed."
       ],
       "sources": [
         {
-          "name": "KAIST — FX-2 developer team and host of the documented torch relay",
+          "name": "KAIST — KAIST developer report, December 2017 torch relay",
           "type": "developer",
           "url": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=4902",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -13617,15 +13617,16 @@
       "manufacturer": "Rainbow Robotics",
       "model": "HUBO 2",
       "highlights": [
-        "Second-generation HUBO research humanoid documented by the KAIST development team",
-        "KAIST records HUBO 2 appearing as a special television news anchor in May 2020"
+        "KAIST explicitly calls HUBO 2 the second generation of HUBO and identifies its special-anchor appearance on TJB’s May 14, 2020 anniversary program. This documents the named research platform and event rather than a first-release date.",
+        "A television co-anchor appearance is not evidence of autonomous news gathering, generalized conversation or an independently validated language model. The selected report does not establish the former 45 kg, 125 cm or 40-DOF configuration.",
+        "HUBO 2 remains separate from the original HUBO and the specifically identified DRC-HUBO competition platform. Shared lineage and generic HUBO references do not establish identical hands, mobility, endurance or present availability."
       ],
       "sources": [
         {
-          "name": "KAIST — HUBO developer team",
+          "name": "KAIST — KAIST developer report, May 2020 HUBO 2 broadcast",
           "type": "developer",
           "url": "https://news.kaist.ac.kr/site/newsen/html/news/index.php?GotoPage=7&list_e_date=&list_s_date=&mng_no=7271&mode=V&skey=keyword&sval=AIS",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -14287,15 +14288,22 @@
       "manufacturer": "Rainbow Robotics",
       "model": "DRC-HUBO",
       "highlights": [
-        "KAIST development team identifies DRC-Hubo as the winning humanoid of the 2015 DARPA Robotics Challenge",
-        "Research humanoid developed by Professor Jun-Ho Oh at KAIST"
+        "KAIST explicitly identifies DRC-Hubo as the humanoid developed by Jun-Ho Oh that won the 2015 DARPA Robotics Challenge. This is developer attribution and a competition result, not an independent certification of every disaster-response task.",
+        "KAIST’s December 2017 relay report describes a HUBO drilling through a wall and transferring the torch. It separately identifies the human-ridden FX-2; the two robots and the original HUBO/HUBO 2 are not merged into one configuration.",
+        "Exact current price, availability, first-release year and the former 80 kg/32-DOF/five-finger specifications are not established by the selected developer reports. The old manufacturer product URL now returns 404, which alone does not establish discontinuation."
       ],
       "sources": [
         {
-          "name": "KAIST — HUBO developer team",
+          "name": "KAIST — KAIST developer report identifying DRC-Hubo",
           "type": "developer",
           "url": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=16812",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "KAIST — KAIST developer report, December 2017 torch relay",
+          "type": "developer",
+          "url": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=4902",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -14307,16 +14315,49 @@
       "manufacturer": "Rainbow Robotics",
       "model": "RB-Y1",
       "highlights": [
-        "Mobile dual-arm research platform combines wheeled locomotion with whole-body manipulation",
-        "Open SDK/ROS 2 interfaces and URDF, MJCF and USD models support custom research workflows",
-        "Separate real-time control and user-application computers support development; the platform is not a finished single-task appliance"
+        "Current product/manual tables give 3 kg per arm, 600 mm reach to the wrist plus hand, 600 x 690 x 1,400 mm platform envelope, and 131 kg A versus 170 kg M configurations. Wrist reach is not complete hand reach, and optional grippers/neck/vision equipment require configuration confirmation.",
+        "Official DOF totals remain inconsistent: the product overview says 24, its A/M table 20/26; the manual overview says 24/26, while its M detail totals 24 despite the listed components. Seven axes per arm, six torso axes, head and wheel counts retain their scopes; no single corrected total is invented.",
+        "The current product page and manual list 1.5 m/s mobile speed. The April 5, 2024 introduction stated 2.5 m/s and 20-axis whole-body control. This historical/current difference is visible without treating a joint angular rate as travel speed or assuming an unverified revision mapping.",
+        "Separate Robot/User computers, an open SDK, ROS 2 interfaces and URDF/MJCF/USD models support whole-body control, impedance research, teleoperation and learning from demonstration. The manufacturer’s March 2025 demonstration explicitly used real-time teleoperation; it is not proof of universal autonomous task performance.",
+        "The product page lists A/M batteries at 50 V 25 Ah/50 Ah and 1,250/2,500 Wh. The manual overview instead says 1,270 Wh, and its larger battery section is labeled Model B. Those energy/label differences are not operating hours or a confirmed extra robot identity; charger curves and cycle life do not establish full-charge time.",
+        "The April 5, 2024 release states first public display in March 2024; the May 7 release planned preorders from May 8. These establish introduction history while current supply, software packages and optional wrist/leader-arm configurations remain subject to confirmation. The V1.2/V1.3 table distinguishes YPY/YPR wrists and optional equipment; it does not make each interface an extra whole robot."
       ],
       "sources": [
         {
-          "name": "Rainbow Robotics",
+          "name": "Rainbow Robotics — RB-Y1 configuration and technical page",
           "type": "manufacturer",
           "url": "https://rainbow-robotics.com/en/products/rb-y1/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — RB-Y1 developer hardware overview",
+          "type": "manufacturer",
+          "url": "https://rainbowrobotics.github.io/rby1-dev/hardware/overview.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — RB-Y1 developer battery and charger documentation",
+          "type": "manufacturer",
+          "url": "https://rainbowrobotics.github.io/rby1-dev/hardware/battery.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — manufacturer April 5, 2024 RB-Y1 introduction release",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c-%eb%a0%88%ec%9d%b8%eb%b3%b4%ec%9a%b0%eb%a1%9c%eb%b3%b4%ed%8b%b1%ec%8a%a4-%ea%b5%ad%eb%82%b4-%ec%b5%9c%ec%b4%88-%ec%9d%b4%eb%8f%99%ed%98%95-%ec%96%91%ed%8c%94/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — manufacturer May 7, 2024 preorder announcement",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/%eb%b3%b4%eb%8f%84%ec%9e%90%eb%a3%8c-%eb%a0%88%ec%9d%b8%eb%b3%b4%ec%9a%b0%eb%a1%9c%eb%b3%b4%ed%8b%b1%ec%8a%a4-%ec%9d%bc%eb%b3%b8-%ec%9a%94%ec%bd%94%ed%95%98%eb%a7%88-icra-2024-%ec%b0%b8%ea%b0%80/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — manufacturer RB-Y1 teleoperation demonstration",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/dual-arm-mobile-manipulator-rb-y1/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -25750,6 +25791,178 @@
           "name": "Knightscope — 2023 Form 10-K, Products, pages 7–9",
           "type": "manufacturer",
           "url": "https://cdn.kscope.io/eeefffc609544fc8274ab0fecb18f7d1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "rainbow-robotics-hubo",
+      "manufacturer": "Rainbow Robotics",
+      "model": "HUBO",
+      "highlights": [
+        "Rainbow Robotics’ heritage identifies HUBO as a KAIST bipedal research platform and places its development milestone in 2004. This university-era platform predates the company; the manufacturer relationship records technology lineage rather than a claim that Rainbow sold the original prototype in 2004.",
+        "The original HUBO is distinct from HUBO 2, the DARPA-winning DRC-HUBO and the later wheeled RB-Y platforms. The heritage’s shared HUBO naming does not make these technical configurations interchangeable.",
+        "The selected account establishes research history rather than current commercial stock, a firm unit price or exact original endurance. Later demonstration and product specifications are not transferred to this prototype."
+      ],
+      "sources": [
+        {
+          "name": "Rainbow Robotics — manufacturer HUBO heritage",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/company/heritage-story/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "rainbow-robotics-rbq-3",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBQ-3",
+      "highlights": [
+        "The manufacturer explicitly names RBQ-3 at its October 28, 2021 RoboWorld booth demonstration and in a separate December 14 defense-robotics event report. Historical event dates are distinct from the website’s 2026 migration timestamp and do not establish a 2023 first release.",
+        "The current public RBQ manual’s model introduction labels RBQ10. Its IP54, interfaces and performance language are not automatically the older RBQ-3’s technical values, and a repository containing RBQ10 simulator assets is not a physical RBQ-3 datasheet.",
+        "The selected RBQ-3 reports establish a quadruped demonstration platform, but do not substantiate the former 25 kg, 3 kg payload, 12 DOF, 2.0 m/s, 180-minute runtime or approximate USD 40,000 price. Current ordering and delivered configuration remain unconfirmed."
+      ],
+      "sources": [
+        {
+          "name": "Rainbow Robotics — manufacturer RBQ-3 RoboWorld 2021 report",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/2021-%eb%a1%9c%eb%b3%b4%ec%9b%94%eb%93%9c-%ec%9d%b4%ec%9e%ac%eb%aa%85-%ed%9b%84%eb%b3%b4-%ec%82%ac%ec%a1%b1%eb%b3%b4%ed%96%89-%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%97%b0-%ec%b0%b8%ea%b4%80/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — manufacturer RBQ-3 demonstration report",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/%ec%a0%9c-1%ed%9a%8c-%ea%b5%ad%eb%b0%a9%eb%a1%9c%eb%b4%87%ed%95%99%ed%9a%8c-%ed%95%99%ec%88%a0%eb%8c%80%ed%9a%8c-%ea%b9%80%ec%9a%a9%ec%9a%b0-%ec%a0%84-%ec%9c%a1%ea%b5%b0%ec%b0%b8%eb%aa%a8%ec%b4%9d/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "rainbow-robotics-rb-y2",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RB-Y2",
+      "highlights": [
+        "RB-Y2 is explicitly named in the manufacturer’s current lineup and dedicated product page as a mobile dual-arm platform intended to extend research toward field operation. Its lineup card carries a Coming soon badge; a public page is not proof of customer delivery.",
+        "No exact technical table is published on the selected named page. Specifications of RB-Y1 or standard RBQ-10, simulation assets, optional modules and images are not inherited as this platform’s delivered hardware values."
+      ],
+      "sources": [
+        {
+          "name": "Rainbow Robotics — current named lineup and coming-soon badges",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/lineup/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — RB-Y2 named product placeholder",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rb-y2/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "rainbow-robotics-rbq-10w",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBQ-10W",
+      "highlights": [
+        "RBQ-10W is explicitly named in the manufacturer’s current lineup and dedicated product page as a legged-wheel hybrid quadruped platform combining legs and wheels. Its lineup card carries a Coming soon badge; a public page is not proof of customer delivery.",
+        "No exact technical table is published on the selected named page. Specifications of RB-Y1 or standard RBQ-10, simulation assets, optional modules and images are not inherited as this platform’s delivered hardware values."
+      ],
+      "sources": [
+        {
+          "name": "Rainbow Robotics — current named lineup and coming-soon badges",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/lineup/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rainbow Robotics — RBQ-10W named product placeholder",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbq-10w/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "rainbow-robotics-rbm-d400",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBM-D400",
+      "highlights": [
+        "The exact RBM-D400 table lists 400 kg payload, 70 kg robot mass, 600 x 800 x 240 mm (W x D x H) envelope and maximum 1.2 m/s travel speed. These are named-model values; the S100 family name and neighboring AMRs do not replace this configuration’s payload or dimensions.",
+        "The D-series model lists differential drive with two active wheels, four dual-wheel casters, two 2D LiDAR sensors and one depth camera. A floor-QR option is not a requirement for every SLAM route. Wheel/caster counts are not articulated DOF or a rated obstacle height.",
+        "The battery is listed as 50 V 25 Ah for D400 or 50 V50 Ah for D1000. These energy-storage quantities do not establish hours between charges. A charging station/adapter connector and optional 450 W wireless charger do not establish full-charge duration.",
+        "SLAM navigation, web-based fleet management, simulation and integration with transport workflows are manufacturer features. Lift/conveyor or tray modules, wireless charging and external systems require configuration/integration; they are not extra robot identities or independent safety/productivity certification."
+      ],
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RBM-D400 exact model specifications",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbm-d400/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "rainbow-robotics-rbm-d1000",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBM-D1000",
+      "highlights": [
+        "The exact RBM-D1000 table lists 1,000 kg payload, 150 kg robot mass, 800 x 1,100 x 300 mm (W x D x H) envelope and maximum 1.2 m/s travel speed. These are named-model values; the S100 family name and neighboring AMRs do not replace this configuration’s payload or dimensions.",
+        "The D-series model lists differential drive with two active wheels, four dual-wheel casters, two 2D LiDAR sensors and one depth camera. A floor-QR option is not a requirement for every SLAM route. Wheel/caster counts are not articulated DOF or a rated obstacle height.",
+        "The battery is listed as 50 V 25 Ah for D400 or 50 V50 Ah for D1000. These energy-storage quantities do not establish hours between charges. A charging station/adapter connector and optional 450 W wireless charger do not establish full-charge duration.",
+        "SLAM navigation, web-based fleet management, simulation and integration with transport workflows are manufacturer features. Lift/conveyor or tray modules, wireless charging and external systems require configuration/integration; they are not extra robot identities or independent safety/productivity certification."
+      ],
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RBM-D1000 exact model specifications",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbm-d1000/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "rainbow-robotics-rbm-s100a",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBM-S100a",
+      "highlights": [
+        "The exact RBM-S100a table lists 120 kg payload, approximately 50 kg robot mass, 510 x 510 x 1,250 mm (W x D x H) envelope and maximum 1.2 m/s travel speed. These are named-model values; the S100 family name and neighboring AMRs do not replace this configuration’s payload or dimensions.",
+        "S100a has an adjustable tray arrangement and 120 kg payload, while S100b supports multiple trays and 100 kg. Their tables list 10 hours continuous driving and 3 hours 30 minutes charging, but do not specify load, duty cycle or charging endpoints. No measured maximum endurance is inferred.",
+        "One 2D LiDAR and two depth cameras are listed;3D LiDAR is optional. The narrative describes detecting low obstacles around 5 cm, which is sensor detection rather than a 5 cm climbing rating. Cargo-box dimensions are separate from the whole robot envelope.",
+        "SLAM navigation, web-based fleet management, simulation and integration with transport workflows are manufacturer features. Lift/conveyor or tray modules, wireless charging and external systems require configuration/integration; they are not extra robot identities or independent safety/productivity certification."
+      ],
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RBM-S100a exact model specifications",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbm-s100a/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "rainbow-robotics-rbm-s100b",
+      "manufacturer": "Rainbow Robotics",
+      "model": "RBM-S100b",
+      "highlights": [
+        "The exact RBM-S100b table lists 100 kg payload, approximately 70 kg robot mass, 710 x 680 x 1,250 mm (W x D x H) envelope and maximum 1.2 m/s travel speed. These are named-model values; the S100 family name and neighboring AMRs do not replace this configuration’s payload or dimensions.",
+        "S100a has an adjustable tray arrangement and 120 kg payload, while S100b supports multiple trays and 100 kg. Their tables list 10 hours continuous driving and 3 hours 30 minutes charging, but do not specify load, duty cycle or charging endpoints. No measured maximum endurance is inferred.",
+        "One 2D LiDAR and two depth cameras are listed;3D LiDAR is optional. The narrative describes detecting low obstacles around 5 cm, which is sensor detection rather than a 5 cm climbing rating. Cargo-box dimensions are separate from the whole robot envelope.",
+        "SLAM navigation, web-based fleet management, simulation and integration with transport workflows are manufacturer features. Lift/conveyor or tray modules, wireless charging and external systems require configuration/integration; they are not extra robot identities or independent safety/productivity certification."
+      ],
+      "sources": [
+        {
+          "name": "Rainbow Robotics — RBM-S100b exact model specifications",
+          "type": "manufacturer",
+          "url": "https://rainbow-robotics.com/en/products/rbm-s100b/",
           "checkedAt": "2026-11-02"
         }
       ],
