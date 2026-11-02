@@ -256,35 +256,63 @@
     },
     {
       "row": {
-        "price": "Not disclosed",
         "category": "educational",
         "manufacturer": "Bitcraze",
         "model": "Crazyflie 2.1+",
-        "weight": "29 g",
-        "size": "92 x 92 x 29 mm",
-        "batteryLife": "7 min",
-        "maxRuntime": "7 min",
-        "payload": "15 g",
+        "price": "Listed 240 USD for kit; tax, shipping and optional ecosystem hardware not established",
+        "weight": "29 g takeoff",
+        "size": "92 x 92 x 29 mm (manufacturer W x H x D; motor-to-motor including feet)",
+        "batteryLife": "7 min with stock battery; flight/load conditions not stated",
+        "maxRuntime": "",
         "tags": "research;dev-platform;programmable;stem;drone",
-        "description": "Palm-sized open-source flying development platform with expansion decks, Bluetooth LE and a programmable radio interface for education, research and swarm experiments.",
-        "website": "https://www.bitcraze.io/products/crazyflie-2-1-plus/"
+        "handType": "",
+        "dof": "",
+        "payload": "15 g maximum recommended added payload",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Crazyflie 2.1+ is an open flying development kit with DC coreless motors, a 250 mAh stock battery, BLE control and programmable radio interfaces. It specifies 29 g takeoff mass, seven-minute stock-battery flight, 40-minute charging and a maximum recommended 15 g added load. Radio hardware, expansion decks and positioning infrastructure depend on the experiment; stock-battery duration is not a tested maximum or endurance guarantee at the payload limit.",
+        "releaseDate": "",
+        "chargingTime": "40 min with stock battery; SOC endpoints not stated",
+        "driveMode": "Four DC coreless motors; propeller flight"
       },
       "highlights": [
-        "Open hardware schematics and modifiable firmware",
-        "Expansion decks with automatic detection",
-        "29 g takeoff weight and 7-minute stock-battery flight time"
+        "The Plus kit combines DC coreless propulsion and a 250 mAh battery with open hardware, editable firmware and automatically detected expansion decks.",
+        "Manufacturer specifications state 29 g takeoff mass, seven-minute stock-battery flight, 40-minute charging and up to 15 g recommended added payload; load and flight test conditions are unstated.",
+        "Its 92 × 92 × 29 mm dimension keeps the published W × H × D order and motor-to-motor/feet scope; this is not silently relabelled as a complete propeller envelope.",
+        "BLE supports mobile control; computer scripting uses compatible radio hardware. The greater-than-one-kilometre LOS radio test is environment-dependent and is not autonomous flight range.",
+        "Automated flight needs positioning support. Lighthouse, UWB/Loco or external motion capture and ROS 2 Crazyswarm2 are setup/software choices; the listed 240 USD kit price does not establish their inclusion."
       ],
       "sources": [
         {
-          "name": "Bitcraze",
+          "name": "Bitcraze — Crazyflie 2.1+ technical product page",
           "type": "manufacturer",
           "url": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1+ manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-plus",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://roboticsdir.com/"
-      ]
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-96/source-1.html",
+      "reviewNotes": "Two Bitcraze source-linked flying kits reviewed across 34 fields. Exact manufacturer store kit prices are explicitly qualified; optional radio, deck and positioning costs are not included by inference. Stock-battery flight duration is not a separate maximum. Brushless mass depends on fitted legs/guards; diagonal frame span is not the overall envelope. Datasheet revision dates are not first robot releases. One products-index HTTP403 was not retried; product-page DNS failure and one successfully retried store DNS failure remain recorded. No forms or cart actions."
     },
     {
       "row": {
@@ -18086,33 +18114,60 @@
         "category": "educational",
         "manufacturer": "Bitcraze",
         "model": "Crazyflie 2.1 Brushless",
-        "price": "Not disclosed",
+        "price": "Listed 480 USD for kit; tax, shipping and optional ecosystem hardware not established",
+        "weight": "34 g with legs; 37 g with guards (takeoff)",
+        "size": "100 mm diagonal motor-centre frame span (not overall envelope)",
+        "batteryLife": "10 min with stock battery; flight/load conditions not stated",
+        "maxRuntime": "",
         "tags": "research;dev-platform;programmable;stem;drone",
+        "handType": "",
+        "dof": "",
+        "payload": "40 g maximum recommended stock payload",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.bitcraze.io/products/crazyflie-2-1-brushless/",
-        "description": "Open-source brushless flying development platform supports programmable flight and swarm research. Expansion decks, wireless firmware updates and ROS integration support experiments. Contact pads support a separately supplied charging dock.",
-        "weight": "34 g with legs; 37 g with guards",
-        "batteryLife": "10 min with stock battery",
-        "maxRuntime": "10 min with stock battery",
-        "payload": "40 g maximum recommended stock payload"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Crazyflie 2.1 Brushless is an open flying development kit with four brushless motors and a 350 mAh stock battery. Takeoff mass is 34 g with landing legs or 37 g with guards; the 100 mm dimension is diagonal motor-centre frame span. It specifies ten-minute stock-battery flight, 60-minute charging and 40 g maximum recommended stock payload. Contact charging, external positioning and swarm software need the corresponding setup; the LED-ring deck is excluded from the general ecosystem compatibility claim.",
+        "releaseDate": "",
+        "chargingTime": "60 min with stock battery; SOC endpoints not stated",
+        "driveMode": "Four brushless motors with integrated ESCs; propeller flight"
       },
       "highlights": [
-        "Open-source brushless flying development platform supports programmable flight and swarm research",
-        "Expansion decks, wireless firmware updates and ROS integration support experiments",
-        "Contact pads support a separately supplied charging dock"
+        "The Brushless kit has four brushless motors and a 350 mAh battery. It supports open firmware, expansion decks and swarm/ROS development; the LED-ring deck is expressly excluded from general compatibility.",
+        "Rev 3 specifies fitted takeoff masses of 34 g with legs and 37 g with guards. The introductory 32 g headline is not substituted for these configurations.",
+        "The 100 mm frame dimension spans diagonal motor centres; a 55 mm propeller diameter and individual motor thrust are not overall robot dimensions or added payload.",
+        "Stock-battery flight is ten minutes and charging sixty minutes; maximum recommended stock payload is 40 g. No maximum endurance or full-load flight guarantee is established.",
+        "Contact pads enable a compatible charging setup, while positioning support is needed for automated flight. Radios, docks and the external ROS 2 Crazyswarm2 project remain separate ecosystem elements from the listed 480 USD kit."
       ],
       "sources": [
         {
-          "name": "Bitcraze",
+          "name": "Bitcraze — Crazyflie 2.1 Brushless Rev 3 datasheet",
           "type": "manufacturer",
-          "url": "https://www.bitcraze.io/products/crazyflie-2-1-brushless/",
-          "checkedAt": "2026-11-01"
+          "url": "https://www.bitcraze.io/documentation/hardware/crazyflie_2_1_brushless/crazyflie_2_1_brushless-datasheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1 Brushless manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-12/bitcraze.io-products-crazyflie-2-1-brushless.json",
-      "reviewNotes": "The manufacturer distinguishes the Brushless platform from the existing Crazyflie 2.1+. Weight depends on fitted legs or guards; the 32 g marketing headline is not treated as the full takeoff mass. Autonomous positioning/charging requires appropriate decks, infrastructure and configuration. The dock, radio and bundle are not separate flying robot models. Range and flight-time claims are not guarantees for every payload/environment; aviation permissions are not inferred."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-96/source-6.pdf",
+      "reviewNotes": "Two Bitcraze source-linked flying kits reviewed across 34 fields. Exact manufacturer store kit prices are explicitly qualified; optional radio, deck and positioning costs are not included by inference. Stock-battery flight duration is not a separate maximum. Brushless mass depends on fitted legs/guards; diagonal frame span is not the overall envelope. Datasheet revision dates are not first robot releases. One products-index HTTP403 was not retried; product-page DNS failure and one successfully retried store DNS failure remain recorded. No forms or cart actions."
     },
     {
       "row": {

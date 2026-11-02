@@ -146,16 +146,30 @@
       "manufacturer": "Bitcraze",
       "model": "Crazyflie 2.1+",
       "highlights": [
-        "Open hardware schematics and modifiable firmware",
-        "Expansion decks with automatic detection",
-        "29 g takeoff weight and 7-minute stock-battery flight time"
+        "The Plus kit combines DC coreless propulsion and a 250 mAh battery with open hardware, editable firmware and automatically detected expansion decks.",
+        "Manufacturer specifications state 29 g takeoff mass, seven-minute stock-battery flight, 40-minute charging and up to 15 g recommended added payload; load and flight test conditions are unstated.",
+        "Its 92 × 92 × 29 mm dimension keeps the published W × H × D order and motor-to-motor/feet scope; this is not silently relabelled as a complete propeller envelope.",
+        "BLE supports mobile control; computer scripting uses compatible radio hardware. The greater-than-one-kilometre LOS radio test is environment-dependent and is not autonomous flight range.",
+        "Automated flight needs positioning support. Lighthouse, UWB/Loco or external motion capture and ROS 2 Crazyswarm2 are setup/software choices; the listed 240 USD kit price does not establish their inclusion."
       ],
       "sources": [
         {
-          "name": "Bitcraze",
+          "name": "Bitcraze — Crazyflie 2.1+ technical product page",
           "type": "manufacturer",
           "url": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1+ manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-plus",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8834,16 +8848,30 @@
       "manufacturer": "Bitcraze",
       "model": "Crazyflie 2.1 Brushless",
       "highlights": [
-        "Open-source brushless flying development platform supports programmable flight and swarm research",
-        "Expansion decks, wireless firmware updates and ROS integration support experiments",
-        "Contact pads support a separately supplied charging dock"
+        "The Brushless kit has four brushless motors and a 350 mAh battery. It supports open firmware, expansion decks and swarm/ROS development; the LED-ring deck is expressly excluded from general compatibility.",
+        "Rev 3 specifies fitted takeoff masses of 34 g with legs and 37 g with guards. The introductory 32 g headline is not substituted for these configurations.",
+        "The 100 mm frame dimension spans diagonal motor centres; a 55 mm propeller diameter and individual motor thrust are not overall robot dimensions or added payload.",
+        "Stock-battery flight is ten minutes and charging sixty minutes; maximum recommended stock payload is 40 g. No maximum endurance or full-load flight guarantee is established.",
+        "Contact pads enable a compatible charging setup, while positioning support is needed for automated flight. Radios, docks and the external ROS 2 Crazyswarm2 project remain separate ecosystem elements from the listed 480 USD kit."
       ],
       "sources": [
         {
-          "name": "Bitcraze",
+          "name": "Bitcraze — Crazyflie 2.1 Brushless Rev 3 datasheet",
           "type": "manufacturer",
-          "url": "https://www.bitcraze.io/products/crazyflie-2-1-brushless/",
-          "checkedAt": "2026-11-01"
+          "url": "https://www.bitcraze.io/documentation/hardware/crazyflie_2_1_brushless/crazyflie_2_1_brushless-datasheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1 Brushless manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [

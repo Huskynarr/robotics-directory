@@ -83945,6 +83945,232 @@
           "note": "Path-following/turning-radius narrative supplies no numeric rated turn radius."
         }
       }
+    },
+    {
+      "robotId": "bitcraze-crazyflie-2-1-plus",
+      "manufacturer": "Bitcraze",
+      "model": "Crazyflie 2.1+",
+      "sources": [
+        {
+          "name": "Bitcraze — Crazyflie 2.1+ technical product page",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1+ manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-plus",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-96/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Listed 240 USD for kit; tax, shipping and optional ecosystem hardware not established",
+          "status": "documented",
+          "note": "Exact model kit price in the manufacturer store, explicitly USD, checked November 2, 2026. Tax, shipping and the cost of additional radio, positioning hardware or decks are not established by this price. No checkout or purchase performed."
+        },
+        "weight": {
+          "value": "29 g takeoff",
+          "status": "documented",
+          "note": "Plus product page specifies takeoff mass. Brushless Rev 3 datasheet section 8 distinguishes landing legs from guards; its introductory 32 g is not the fitted takeoff mass. Not an independently measured value."
+        },
+        "size": {
+          "value": "92 x 92 x 29 mm (manufacturer W x H x D; motor-to-motor including feet)",
+          "status": "documented",
+          "note": "Plus preserves the manufacturer W x H x D order and motor-to-motor/feet qualification without silently correcting axes. Brushless Rev 3 section 8 gives diagonal motor-centre frame span, not the complete propeller or guard envelope."
+        },
+        "batteryLife": {
+          "value": "7 min with stock battery; flight/load conditions not stated",
+          "status": "documented",
+          "note": "Manufacturer flight interval using the stock battery. Payload, flight pattern, battery age and environmental test conditions are not specified; the value is not a guaranteed flight duration at the maximum recommended payload."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The selected material states a stock-battery flight interval, not a separately established maximum endurance across configurations. The former duplicated flight-time maximum is omitted."
+        },
+        "payload": {
+          "value": "15 g maximum recommended added payload",
+          "status": "documented",
+          "note": "Maximum recommended added payload with the standard configuration. Brushless motor thrust is not additional carried payload; no claim of simultaneous rated endurance at this load."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated flight speed established in the selected material. Radio line-of-sight communication distance is not speed, autonomous flight range or a certified operational envelope."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact ingress-protection rating established for these flying research kits."
+        },
+        "chargingTime": {
+          "value": "40 min with stock battery; SOC endpoints not stated",
+          "status": "documented",
+          "note": "Stock-battery charge duration: Plus product page 40 minutes; Brushless Rev 3 datasheet section 5 60 minutes. State-of-charge endpoints and charge mode are not stated. Contact-pad support does not establish autonomous docking or a different charge interval."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established. Four rotors and a six-axis IMU do not establish a six-joint robot."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included hand or gripper established for either stock flying kit."
+        },
+        "website": {
+          "value": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
+          "status": "documented",
+          "note": "Exact named-model manufacturer product address; Brushless technical claims use the successfully retrieved model-specific datasheet and store, because this product-page request failed DNS resolution."
+        },
+        "description": {
+          "value": "Crazyflie 2.1+ is an open flying development kit with DC coreless motors, a 250 mAh stock battery, BLE control and programmable radio interfaces. It specifies 29 g takeoff mass, seven-minute stock-battery flight, 40-minute charging and a maximum recommended 15 g added load. Radio hardware, expansion decks and positioning infrastructure depend on the experiment; stock-battery duration is not a tested maximum or endurance guarantee at the payload limit.",
+          "status": "documented",
+          "note": "Scoped synthesis of the selected named-model manufacturer sources and system overview; software, radio and positioning requirements remain separate from included stock hardware."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first public-release year established. Brushless datasheet revision history starts October 2, 2024; a document initial-release date is not automatically first robot shipment."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated wind, weather or outdoor terrain envelope established. Positioning support is required for automated/autonomous flight; radio LOS test distance does not establish weather suitability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established by research and education positioning."
+        },
+        "driveMode": {
+          "value": "Four DC coreless motors; propeller flight",
+          "status": "documented",
+          "note": "Plus store package lists DC coreless motors; Brushless Rev 3 section 5 lists four brushless motors with integrated ESCs. These are propulsion types, not articulated joint counts."
+        }
+      }
+    },
+    {
+      "robotId": "bitcraze-crazyflie-2-1-brushless",
+      "manufacturer": "Bitcraze",
+      "model": "Crazyflie 2.1 Brushless",
+      "sources": [
+        {
+          "name": "Bitcraze — Crazyflie 2.1 Brushless Rev 3 datasheet",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/hardware/crazyflie_2_1_brushless/crazyflie_2_1_brushless-datasheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1 Brushless manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-96/source-6.pdf",
+      "fields": {
+        "price": {
+          "value": "Listed 480 USD for kit; tax, shipping and optional ecosystem hardware not established",
+          "status": "documented",
+          "note": "Exact model kit price in the manufacturer store, explicitly USD, checked November 2, 2026. Tax, shipping and the cost of additional radio, positioning hardware or decks are not established by this price. No checkout or purchase performed."
+        },
+        "weight": {
+          "value": "34 g with legs; 37 g with guards (takeoff)",
+          "status": "documented",
+          "note": "Plus product page specifies takeoff mass. Brushless Rev 3 datasheet section 8 distinguishes landing legs from guards; its introductory 32 g is not the fitted takeoff mass. Not an independently measured value."
+        },
+        "size": {
+          "value": "100 mm diagonal motor-centre frame span (not overall envelope)",
+          "status": "documented",
+          "note": "Plus preserves the manufacturer W x H x D order and motor-to-motor/feet qualification without silently correcting axes. Brushless Rev 3 section 8 gives diagonal motor-centre frame span, not the complete propeller or guard envelope."
+        },
+        "batteryLife": {
+          "value": "10 min with stock battery; flight/load conditions not stated",
+          "status": "documented",
+          "note": "Manufacturer flight interval using the stock battery. Payload, flight pattern, battery age and environmental test conditions are not specified; the value is not a guaranteed flight duration at the maximum recommended payload."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The selected material states a stock-battery flight interval, not a separately established maximum endurance across configurations. The former duplicated flight-time maximum is omitted."
+        },
+        "payload": {
+          "value": "40 g maximum recommended stock payload",
+          "status": "documented",
+          "note": "Maximum recommended added payload with the standard configuration. Brushless motor thrust is not additional carried payload; no claim of simultaneous rated endurance at this load."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact rated flight speed established in the selected material. Radio line-of-sight communication distance is not speed, autonomous flight range or a certified operational envelope."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact ingress-protection rating established for these flying research kits."
+        },
+        "chargingTime": {
+          "value": "60 min with stock battery; SOC endpoints not stated",
+          "status": "documented",
+          "note": "Stock-battery charge duration: Plus product page 40 minutes; Brushless Rev 3 datasheet section 5 60 minutes. State-of-charge endpoints and charge mode are not stated. Contact-pad support does not establish autonomous docking or a different charge interval."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact articulated mechanical DOF count established. Four rotors and a six-axis IMU do not establish a six-joint robot."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included hand or gripper established for either stock flying kit."
+        },
+        "website": {
+          "value": "https://www.bitcraze.io/products/crazyflie-2-1-brushless/",
+          "status": "documented",
+          "note": "Exact named-model manufacturer product address; Brushless technical claims use the successfully retrieved model-specific datasheet and store, because this product-page request failed DNS resolution."
+        },
+        "description": {
+          "value": "Crazyflie 2.1 Brushless is an open flying development kit with four brushless motors and a 350 mAh stock battery. Takeoff mass is 34 g with landing legs or 37 g with guards; the 100 mm dimension is diagonal motor-centre frame span. It specifies ten-minute stock-battery flight, 60-minute charging and 40 g maximum recommended stock payload. Contact charging, external positioning and swarm software need the corresponding setup; the LED-ring deck is excluded from the general ecosystem compatibility claim.",
+          "status": "documented",
+          "note": "Scoped synthesis of the selected named-model manufacturer sources and system overview; software, radio and positioning requirements remain separate from included stock hardware."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first public-release year established. Brushless datasheet revision history starts October 2, 2024; a document initial-release date is not automatically first robot shipment."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated wind, weather or outdoor terrain envelope established. Positioning support is required for automated/autonomous flight; radio LOS test distance does not establish weather suitability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established by research and education positioning."
+        },
+        "driveMode": {
+          "value": "Four brushless motors with integrated ESCs; propeller flight",
+          "status": "documented",
+          "note": "Plus store package lists DC coreless motors; Brushless Rev 3 section 5 lists four brushless motors with integrated ESCs. These are propulsion types, not articulated joint counts."
+        }
+      }
     }
   ]
 }

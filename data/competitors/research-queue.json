@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T15:57:57.770Z",
+  "generatedAt": "2026-11-02T16:08:22.329Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 381,
-    "withoutSelectedFieldReview": 137,
-    "selectedFields": 6290,
+    "withSelectedFieldReview": 383,
+    "withoutSelectedFieldReview": 135,
+    "selectedFields": 6324,
     "selectedFieldStatuses": {
-      "documented": 2842,
-      "not-documented": 3280,
+      "documented": 2860,
+      "not-documented": 3296,
       "conflicting": 157,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 85,
+    "sourceGroupsWithCompanyAuthoredFocus": 86,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -481,26 +481,6 @@
       "robotIds": [
         "badger-technologies-digital-teammate",
         "badger-technologies-patrolbot"
-      ]
-    },
-    {
-      "brandId": "bitcraze",
-      "name": "Bitcraze",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "bitcraze-crazyflie-2-1-brushless",
-        "bitcraze-crazyflie-2-1-plus"
       ]
     },
     {
@@ -3726,6 +3706,26 @@
         "agile-robots-agile-one",
         "agile-robots-yu-5-industrial"
       ]
+    },
+    {
+      "brandId": "bitcraze",
+      "name": "Bitcraze",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/"
+      ],
+      "catalogModels": 2,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "bitcraze-crazyflie-2-1-brushless",
+        "bitcraze-crazyflie-2-1-plus"
+      ]
     }
   ],
   "companies": [
@@ -4940,10 +4940,10 @@
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "bitcraze-crazyflie-2-1-brushless",
         "bitcraze-crazyflie-2-1-plus"
@@ -17859,24 +17859,55 @@
       "brandId": "bitcraze",
       "category": "educational",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "Bitcraze",
+          "name": "Bitcraze — Crazyflie 2.1 Brushless Rev 3 datasheet",
           "type": "manufacturer",
-          "url": "https://www.bitcraze.io/products/crazyflie-2-1-brushless/",
-          "checkedAt": "2026-11-01"
+          "url": "https://www.bitcraze.io/documentation/hardware/crazyflie_2_1_brushless/crazyflie_2_1_brushless-datasheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1 Brushless manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 9,
+        "not-documented": 8,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Bitcraze — Crazyflie 2.1 Brushless Rev 3 datasheet",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/hardware/crazyflie_2_1_brushless/crazyflie_2_1_brushless-datasheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1 Brushless manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -17898,24 +17929,55 @@
       "brandId": "bitcraze",
       "category": "educational",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "Bitcraze",
+          "name": "Bitcraze — Crazyflie 2.1+ technical product page",
           "type": "manufacturer",
           "url": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1+ manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-plus",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 9,
+        "not-documented": 8,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Bitcraze — Crazyflie 2.1+ technical product page",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — Crazyflie 2.1+ manufacturer store kit price and contents",
+          "type": "manufacturer",
+          "url": "https://store.bitcraze.io/products/crazyflie-2-1-plus",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Bitcraze — system overview and positioning requirements",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/documentation/system/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
