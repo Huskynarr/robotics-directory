@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 96 |
+| Firmenfokus-Prüfungen mit Quellen | 97 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 840 ergänzte Modelle ergeben 2.094 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-96 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+97 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1006 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 399 haben ausgewählte Datenfeldprüfungen und 119
+haben datierte Merkmalsbelege; 401 haben ausgewählte Datenfeldprüfungen und 117
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -8533,3 +8533,79 @@ neun Listingidentitäten und 862 Buy-Detailinhalte bleiben offen. Exklusive USPs
 unabhängige Agrar-/Wirtschaftlichkeitsresultate und Markt-/Suchführerschaft unbewiesen.
 Datencommit `ac2cac580c87f56b284e50686d78cc0f35ef4dd6` auf dem Arbeitsbranch gepusht, Main unverändert, kein
 Deployment. Dauerhafter Nachweis: `reports/competitor-batch-102-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Magazino Behälter- und Systemgrenzen (Batch 103)
+
+SOTO und TORU, beide vorhandene Modelle, mit 50 ausgewählten Feldern geprüft:
+17 dokumentiert, 30 unbekannt und drei Quellenkonflikte. Zwei neue Feldprüfungen,
+ein Firmenfokus; keine neue Katalogidentität, CSV-Spalte, Kategorieübertragung oder
+Anwendungscodeänderung. Alle 2092 anderen CSV-Zeilen, 866 vorherigen Feldprüfungen,
+96 Firmenfokusse sowie 1961 Quellenidentitäten unverändert. Frühere Produktbelege
+beider Einträge im Manifest erhalten; bestehende Tags/Bilder dadurch nicht neu
+zertifiziert. Der aktuelle Firmenauftritt nennt Magazino als Jungheinrich-Unternehmen;
+das führt nicht automatisch getrennte Katalogmarken zusammen.
+
+SOTO: 20 kg je gehandhabtem KLT getrennt von Gesamttransportlast. Magazino nennt
+250 kg insgesamt, Jungheinrich UK 240 kg. Das deutsche technische Datenblatt mit
+Kennung 7777.DE.12.2023.r nennt 200–249 kg nach Rucksack, 240 kg Standard sowie
+240 kg in der Ladungsträgerzeile. Der Konflikt bleibt im separaten Transportlastfeld
+sichtbar. 8–24 Behälter je Größe sind kein Nachweis 24×20 kg gleichzeitiger Last.
+UK-Ladezeit 1,5 h versus Datenblatt 1,6 h ebenfalls widersprüchlich; Verhältnis
+Fahrt/Laden 5:1 und unbekannte Anfangs-/Endladezustände bleiben ausdrücklich stehen.
+Bis acht Stunden Laufzeit zwischen Ladungen ist Herstellerangabe, keine eigene
+Messung oder garantierte Schichtverfügbarkeit.
+
+Höchstgeschwindigkeit 1,5 m/s unter Gangbreitenbedingung: Magazino 2,5 m,
+Datenblatt 2,510 m. Dritter sichtbarer Konflikt. 1650 mm Mindestgangbreite gehört
+zu 0,3 m/s. Mindestwendekreis 3100 mm ist kein Radiuswert und wird nicht halbiert.
+Datenblattmasse 686–735 kg nach Rucksack, 695 kg Standard; L×B×H
+2230×1060×2160 mm mit zusätzlich 80 mm Scannerhöhe im Betrieb. IP20 und ebener
+Industrieboden mit 5 mm überfahrbarer Unebenheit bleiben dem Dezember-2023-Blatt
+zugeordnet. Keine unqualifizierte aktuelle Generation oder Outdoor-Eignung.
+Greifen 0,4–1,7 m auf der Seite; Datenblatt mindestens 0,5 m frontal/0,4 m seitlich.
+Diese Höhen sind weder Gabelhub, mechanischer Hubweg noch radialer Armreach.
+
+TORU: bis 5,8 kg pro gegriffenem Karton/Spezialbehälter, Objektmaß
+390×280×145 mm, bis 16 Objekte im Rucksack, Aktionshöhe 0,08–2,5 m laut
+Produktseite. Weder Objektmaße als Roboterdimensionen noch 16×5,8 kg als belegte
+Gesamttraglast übernommen. NEO-Anwendungsartikel vom 6. Februar 2025: geladener
+KLT maximal 5 kg, Inhalt 380×240×140 mm, Greifhöhe bis 2,2 m. Engere
+Anwendungsbedingungen bleiben vom allgemeinen TORU-Produktbereich getrennt.
+NEO-Puffer, separater Cobot, Software, 350+ Picks/Stunde und Pay-per-pick gehören
+zum Gesamtsystem und sind keine einzelne TORU-Leistung, Kaufpreis oder Garantie.
+Bis 20 Stunden Betrieb pro Tag, 24/7-Positionierung und Fernbetreuung 24 Stunden an
+sechs Wochentagen sind getrennte Zeitangaben und keine Akku-/Ladedauer.
+
+Sechs HTTP-200-Antworten: fünf HTML-Seiten und ein dreiseitiges technisches PDF.
+Alle Körper-Hashes geprüft. HTML sowie alle drei PDF-Seiten als Text extrahiert,
+relevante Datenzeilen textlich geprüft. Keine visuelle PDF-, Bild-, Zeichnungs-
+oder Videoprüfung. Kein Formular oder Warenkorb. Datenblattrevision Dezember 2023
+ist keine Modellankündigung oder exaktes Erstverkaufsdatum. NEO-Marketing zu
+Arbeit, Kosten und Sicherheit sowie behauptete Einzigartigkeit nicht unabhängig
+verifiziert; keine vollständige aktuelle/historische Portfolio-Prüfung.
+
+804 Unit-Tests in 64 Dateien, Build 3144 Seiten, Daten-Audit null Fehler und
+unverändert 1004 Hinweise. Lint/Format und Import/Refresh bestanden; Wiederimport
+null Ergänzungen. Zunächst falsch geschriebener Audit-Befehl data:audit hatte
+keine Prüfung ausgeführt; korrekter audit:data danach bestanden. Zwölf verschiedene
+Desktop-/Mobilfälle mit einem Worker inklusive vier Axe-Läufen bestanden.
+Erster Lauf 10/12: Zwei neue Suchprüfungen verlangten bei einem Beschreibungs-
+treffer fälschlich die nur bei reinen Merkmalstreffern vorgesehene Kennzeichnung.
+Suchbegriff zu reinem Merkmalsbegriff geändert; zwei betroffene Fälle gezielt
+erneut bestanden. Keine Anwendungskorrektur. Google-Fonts-Anfragen während der
+Axe-Fälle durch CSP blockiert; alle vier Axe-Prüfungen dennoch bestanden.
+Zwei gerenderte Seiten/50 Felder, elf Merkmalsaussagen, Firmenfokus, strukturierte
+Eigenschaften und Modell-/Firmen-/Rechercheexporte geprüft. Keine erneute globale
+Seitenprüfung behauptet; alte 866 Feldprüfungen unverändert. Gesamter aktueller
+Vergleichsexport: 1006 Produktbelege, 4399 Aussagen, 1973 Quellenverweise sowie
+868 Feldprüfungen mit 14654 Feldern exakt abgeglichen. Eigene Browser-/Server-
+und Hilfsprozesse nach Abschluss freigegeben, Port 4321 frei.
+
+Gesamt 2094 Katalogeinträge, 840 Ergänzungen, 166 vorhandene Modelle mit
+Merkmalsanreicherung und 97 Firmenfokusse. Von 518 ursprünglichen Quellenzielen
+haben 401 ausgewählte Feldprüfungen, 117 stehen aus. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte bleiben offen. Keine behauptete
+exklusive USP- oder Markt-/Suchführerschaft. Datencommit `f3be5f912b6bc2941b7c937d17838ce2050426cb` gepusht;
+Main unverändert, kein Deployment. Nachweis:
+`reports/competitor-batch-103-evidence.json`.
