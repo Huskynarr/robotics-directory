@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,009 catalog rows**, with 643 exact
-manufacturer spellings. Batch 86 refreshed the separate heuristic gap file offline
-against all 2,009 rows (635 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,013 catalog rows**, with 643 exact
+manufacturer spellings. Batch 87 refreshed the separate heuristic gap file offline
+against all 2,013 rows (635 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 898 dated records across the catalog, including
-143 existing-model enrichments and 755 task additions. All 430 catalog models
+Current product-highlight coverage: 903 dated records across the catalog, including
+144 existing-model enrichments and 759 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 755 task additions, totaling 2,009.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 759 task additions, totaling 2,013.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 357 have selected-field reviews and 161 await those reviews. Family and
+highlights; 360 have selected-field reviews and 158 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 11,838 fields across 714 catalog models: 5,305 documented,
-6,245 not documented, 243 conflicting and forty-five roadmap fields. They do not certify whole
+Selected specification checks cover 11,982 fields across 722 catalog models: 5,363 documented,
+6,328 not documented, 246 conflicting and forty-five roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -4936,3 +4936,80 @@ zusätzlichen Prüfskripten wurden korrigiert; kein Anwendungsalgorithmus geänd
 Eigene Testserver, Browser und Hilfsprozesse beendet und geprüft.
 
 Dauerhafter Beleg: `reports/competitor-batch-86-evidence.json`.
+
+## Ergänzung vom 2. November 2026 – UFACTORY (Batch 87)
+
+Vier neue Modelle: UFACTORY 850, Lite 6 sowie historisch getrennte uArm Swift und
+uArm Metal. Vier bestehende Modelle geprüft: xArm 5/6/7 und uArm Swift Pro.
+144 Felder: 58 dokumentiert, 83 unbekannt und drei widersprüchlich. Ein
+Firmenfokus am bestehenden katalogeigenen UFACTORY-Profil ergänzt; keine
+Zusammenführung mit einem Quellen-Händler/-Integrator. Alle 2005 unbeteiligten
+Katalogzeilen, 714 früheren Feldprüfungen, 80 früheren Firmenfokusse und 1961
+ursprünglichen Quellenidentitäten bleiben unverändert. Keine neuen CSV-Spalten.
+
+Die aktuelle dreispaltige xArm-PDF-Tabelle und die fünf Modelle umfassende
+Vergleichstabelle wurden einschließlich horizontal verbundener Zellen geprüft.
+xArm 5/6/7 behalten 3/5/3,5 kg Last, 700 mm Reichweite, 5/6/7 Achsen, 1 m/s TCP-
+Tempo und ±0,1 mm Wiederholbarkeit. Das ist keine absolute Positioniergenauigkeit.
+Das 1305-Handbuch nennt 11,3/12,5/14,3 kg Armmasse; der Support-Vergleich dagegen
+11,2/12,2/13,7 kg. Eine genaue Revisionszuordnung ist nicht geklärt. Der Support
+nennt xArm 5 Lite und vier flexible kartesische Steuergrößen x/y/z/yaw trotz
+fünf mechanischer Achsen; daraus entsteht keine zusätzliche unbelegte Lite-Karte.
+850-Werte aus benachbarten Vergleichsblöcken werden nicht auf xArm übertragen.
+
+850: sechs Achsen, 5 kg Last, 850 mm Reichweite, 20 kg Armkörper, 1 m/s und
+±0,02 mm Wiederholbarkeit; Gigabit-Ethernet-Leitung für externe Peripherie.
+Lite 6: sechs Achsen, 600 g Last, 440 mm Reichweite, 8 kg, 0,5 m/s und ±0,5 mm;
+Steuerung in der Basis integriert. Ø190 mm bzw. 130 × 140 mm sind Grundflächen,
+keine vollständigen Körperhüllen. Externe Steuerungsgewichte/-maße und die
+IP40-Zeile des Gripper G2 bleiben Komponentendaten. Versionsabweichungen der
+Steuerungen werden nicht als Armmasse oder vollständige Systemmaße ausgegeben.
+Kollisionserkennung vergleicht Motorstrom mit einem dynamischen Modell und
+hängt unter anderem von Last, Schwerpunkt, Montage und Reibungsparametern ab;
+das belegt keinen enthaltenen Kraftsensor und keine unabhängig sichere Zelle.
+
+Swift Pro: Entwicklerhandbuch Seite 13 nennt 2,2 kg, vier DOF, 500 g Maximal-
+last, 50–320 mm Arbeitsbereich, 100 mm/s und 0,2 mm Wiederholbarkeit ohne ±.
+150 × 140 × 281 sind ausdrücklich Millimeter; der alte Zentimeterwert und das
+alte Tempo von 0,5 m/s wurden korrigiert. Verfügbare Benutzerhandbuchversion
+4.10.2 streicht 3D-Druck, mobile Bluetooth-Verbindung, OpenMV und Gravieren.
+Ältere Entwicklerbeispiele werden nicht zu aktuellen Studio-Funktionszusagen.
+Swift/Swift Pro und Metal sind über getrennte, vom Herstellerhandbuch aus
+verlinkte ROS-/Python-/Firmware-Projekte belegt. Physische Werte für den
+ursprünglichen Swift und Metal bleiben leer; sie erben keine Pro-Daten.
+Lesbare kanonische README-Seiten dienen als öffentliche Quellenlinks; die
+zugehörigen öffentlichen API-Inhalte mit Hashes belegen den Abruf.
+
+Produktseiten nennen für 850 und Lite 6 Einstiegspreise von 8999 bzw. 2999 USD;
+sie bleiben ohne belegte Lieferkonfiguration qualifiziert und erzeugen kein
+festes strukturiertes Angebot. Unterschiedliche xArm-Familien-Einstiegspreise,
+„seit 2018“, PDF-Uploadpfade und SDK-Daten belegen weder Einzelmodell-Preise noch
+Erscheinungsjahre. Gripper, Kraftsensor, Kamerahalter, Steuerungen, Slider/
+Conveyor, Simulationssoftware und Integrator-Zellen sind getrennte Rollen.
+
+26 Quellenversuche: 23 HTTP-200-Inhalte, darunter zehn PDFs mit 344 extrahierten
+Textseiten und vier historische README-Antworten. Zwei DNS-Fehler und eine
+404-Antwort auf einen nicht vorhandenen Repository-Kandidaten bleiben als nicht
+nutzbare Belege erhalten. Keine früher gesperrten Wettbewerber-/Hersteller-Hosts
+erneut angefragt, keine Formulare oder Warenkorbaktionen. Ausgewählte Textanker,
+Wortkoordinaten und Tabellenzellen geprüft; keine visuelle Zeichnungsauswertung
+oder vollständige historische/regionale Portfoliozertifizierung behauptet.
+
+Stand: 2013 Modelle/Konfigurationen, 903 Merkmalsdatensätze (759 Aufgaben-Ergänzungen,
+144 bestehende Anreicherungen), 3898 Aussagen, 1683 Produktquellenverweise,
+81 Firmenfokusse auf 77 der 591 Quellen-Firmengruppen. 11982 Felder auf 722
+Modellseiten: 5363 dokumentiert, 6328 unbekannt, 246 widersprüchlich, 45 Roadmap.
+Die ursprünglichen 518 Rechercheziele haben jetzt 360 Feldprüfungen und 158 bleiben offen.
+Drei Modellidentitäten, neun Listing-Identitäten, 862 Detailinhalte und historische/
+regionale Portfolios bleiben offen. Marktführerschaft ist nicht gemessen.
+
+Prüfung: 793 Unit-Tests in 64 Dateien, 20 Python-Tests und 32 ausgewählte Browserfälle
+bestanden (14 UFACTORY, 18 Vergleich; darin acht Axe-Läufe). Build: 3063 Seiten,
+474 MB. Datenprüfung: 0 Fehler, 900 Warnungen; vier neue und zwei entfernte unbelegte
+Erscheinungsjahre erklären sechs zusätzliche Warnungen. Lint, Format, Import mit
+null Ergänzungen, Offline-Refresh, Quellenhashes, Export-/Quellenerhalt und alle
+722 gerenderten Prüfseiten bestanden. Nach Verfeinerung der historischen Quellen-
+links erneut auf dem endgültigen Datenstand gebaut; kein Anwendungsalgorithmus
+geändert. Eigene Testserver, Browser und Hilfsprozesse beendet und geprüft.
+
+Dauerhafter Beleg: `reports/competitor-batch-87-evidence.json`.

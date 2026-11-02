@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.009 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 755 |
-| Datierte Produktmerkmal-Datensätze einschließlich 143 bestehender Modelle | 898 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.013 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 759 |
+| Datierte Produktmerkmal-Datensätze einschließlich 144 bestehender Modelle | 903 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 643 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 632 / 404 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 80 |
+| Firmenfokus-Prüfungen mit Quellen | 81 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 755 ergänzte Modelle ergeben 2.009 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 759 ergänzte Modelle ergeben 2.013 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-80 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+81 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 898 Datensätze
+Modellseiten verlinken Markenprofile. Die 903 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 357 haben ausgewählte Datenfeldprüfungen und 161
+haben datierte Merkmalsbelege; 360 haben ausgewählte Datenfeldprüfungen und 158
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 473 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 474 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -7171,3 +7171,80 @@ zusätzlichen Prüfskripten wurden korrigiert; kein Anwendungsalgorithmus geänd
 Eigene Testserver, Browser und Hilfsprozesse beendet und geprüft.
 
 Dauerhafter Beleg: `reports/competitor-batch-86-evidence.json`.
+
+## Ergänzung vom 2. November 2026 – UFACTORY (Batch 87)
+
+Vier neue Modelle: UFACTORY 850, Lite 6 sowie historisch getrennte uArm Swift und
+uArm Metal. Vier bestehende Modelle geprüft: xArm 5/6/7 und uArm Swift Pro.
+144 Felder: 58 dokumentiert, 83 unbekannt und drei widersprüchlich. Ein
+Firmenfokus am bestehenden katalogeigenen UFACTORY-Profil ergänzt; keine
+Zusammenführung mit einem Quellen-Händler/-Integrator. Alle 2005 unbeteiligten
+Katalogzeilen, 714 früheren Feldprüfungen, 80 früheren Firmenfokusse und 1961
+ursprünglichen Quellenidentitäten bleiben unverändert. Keine neuen CSV-Spalten.
+
+Die aktuelle dreispaltige xArm-PDF-Tabelle und die fünf Modelle umfassende
+Vergleichstabelle wurden einschließlich horizontal verbundener Zellen geprüft.
+xArm 5/6/7 behalten 3/5/3,5 kg Last, 700 mm Reichweite, 5/6/7 Achsen, 1 m/s TCP-
+Tempo und ±0,1 mm Wiederholbarkeit. Das ist keine absolute Positioniergenauigkeit.
+Das 1305-Handbuch nennt 11,3/12,5/14,3 kg Armmasse; der Support-Vergleich dagegen
+11,2/12,2/13,7 kg. Eine genaue Revisionszuordnung ist nicht geklärt. Der Support
+nennt xArm 5 Lite und vier flexible kartesische Steuergrößen x/y/z/yaw trotz
+fünf mechanischer Achsen; daraus entsteht keine zusätzliche unbelegte Lite-Karte.
+850-Werte aus benachbarten Vergleichsblöcken werden nicht auf xArm übertragen.
+
+850: sechs Achsen, 5 kg Last, 850 mm Reichweite, 20 kg Armkörper, 1 m/s und
+±0,02 mm Wiederholbarkeit; Gigabit-Ethernet-Leitung für externe Peripherie.
+Lite 6: sechs Achsen, 600 g Last, 440 mm Reichweite, 8 kg, 0,5 m/s und ±0,5 mm;
+Steuerung in der Basis integriert. Ø190 mm bzw. 130 × 140 mm sind Grundflächen,
+keine vollständigen Körperhüllen. Externe Steuerungsgewichte/-maße und die
+IP40-Zeile des Gripper G2 bleiben Komponentendaten. Versionsabweichungen der
+Steuerungen werden nicht als Armmasse oder vollständige Systemmaße ausgegeben.
+Kollisionserkennung vergleicht Motorstrom mit einem dynamischen Modell und
+hängt unter anderem von Last, Schwerpunkt, Montage und Reibungsparametern ab;
+das belegt keinen enthaltenen Kraftsensor und keine unabhängig sichere Zelle.
+
+Swift Pro: Entwicklerhandbuch Seite 13 nennt 2,2 kg, vier DOF, 500 g Maximal-
+last, 50–320 mm Arbeitsbereich, 100 mm/s und 0,2 mm Wiederholbarkeit ohne ±.
+150 × 140 × 281 sind ausdrücklich Millimeter; der alte Zentimeterwert und das
+alte Tempo von 0,5 m/s wurden korrigiert. Verfügbare Benutzerhandbuchversion
+4.10.2 streicht 3D-Druck, mobile Bluetooth-Verbindung, OpenMV und Gravieren.
+Ältere Entwicklerbeispiele werden nicht zu aktuellen Studio-Funktionszusagen.
+Swift/Swift Pro und Metal sind über getrennte, vom Herstellerhandbuch aus
+verlinkte ROS-/Python-/Firmware-Projekte belegt. Physische Werte für den
+ursprünglichen Swift und Metal bleiben leer; sie erben keine Pro-Daten.
+Lesbare kanonische README-Seiten dienen als öffentliche Quellenlinks; die
+zugehörigen öffentlichen API-Inhalte mit Hashes belegen den Abruf.
+
+Produktseiten nennen für 850 und Lite 6 Einstiegspreise von 8999 bzw. 2999 USD;
+sie bleiben ohne belegte Lieferkonfiguration qualifiziert und erzeugen kein
+festes strukturiertes Angebot. Unterschiedliche xArm-Familien-Einstiegspreise,
+„seit 2018“, PDF-Uploadpfade und SDK-Daten belegen weder Einzelmodell-Preise noch
+Erscheinungsjahre. Gripper, Kraftsensor, Kamerahalter, Steuerungen, Slider/
+Conveyor, Simulationssoftware und Integrator-Zellen sind getrennte Rollen.
+
+26 Quellenversuche: 23 HTTP-200-Inhalte, darunter zehn PDFs mit 344 extrahierten
+Textseiten und vier historische README-Antworten. Zwei DNS-Fehler und eine
+404-Antwort auf einen nicht vorhandenen Repository-Kandidaten bleiben als nicht
+nutzbare Belege erhalten. Keine früher gesperrten Wettbewerber-/Hersteller-Hosts
+erneut angefragt, keine Formulare oder Warenkorbaktionen. Ausgewählte Textanker,
+Wortkoordinaten und Tabellenzellen geprüft; keine visuelle Zeichnungsauswertung
+oder vollständige historische/regionale Portfoliozertifizierung behauptet.
+
+Stand: 2013 Modelle/Konfigurationen, 903 Merkmalsdatensätze (759 Aufgaben-Ergänzungen,
+144 bestehende Anreicherungen), 3898 Aussagen, 1683 Produktquellenverweise,
+81 Firmenfokusse auf 77 der 591 Quellen-Firmengruppen. 11982 Felder auf 722
+Modellseiten: 5363 dokumentiert, 6328 unbekannt, 246 widersprüchlich, 45 Roadmap.
+Die ursprünglichen 518 Rechercheziele haben jetzt 360 Feldprüfungen und 158 bleiben offen.
+Drei Modellidentitäten, neun Listing-Identitäten, 862 Detailinhalte und historische/
+regionale Portfolios bleiben offen. Marktführerschaft ist nicht gemessen.
+
+Prüfung: 793 Unit-Tests in 64 Dateien, 20 Python-Tests und 32 ausgewählte Browserfälle
+bestanden (14 UFACTORY, 18 Vergleich; darin acht Axe-Läufe). Build: 3063 Seiten,
+474 MB. Datenprüfung: 0 Fehler, 900 Warnungen; vier neue und zwei entfernte unbelegte
+Erscheinungsjahre erklären sechs zusätzliche Warnungen. Lint, Format, Import mit
+null Ergänzungen, Offline-Refresh, Quellenhashes, Export-/Quellenerhalt und alle
+722 gerenderten Prüfseiten bestanden. Nach Verfeinerung der historischen Quellen-
+links erneut auf dem endgültigen Datenstand gebaut; kein Anwendungsalgorithmus
+geändert. Eigene Testserver, Browser und Hilfsprozesse beendet und geprüft.
+
+Dauerhafter Beleg: `reports/competitor-batch-87-evidence.json`.
