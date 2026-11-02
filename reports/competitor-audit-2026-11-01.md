@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 117 |
+| Firmenfokus-Prüfungen mit Quellen | 119 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1016 ergänzte Modelle ergeben 2.270 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-117 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+119 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1196 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 452 haben ausgewählte Datenfeldprüfungen und 66
+haben datierte Merkmalsbelege; 455 haben ausgewählte Datenfeldprüfungen und 63
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 516 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 493 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -10266,3 +10266,56 @@ Die erste Unit-Prüfung bestand 807 von 808 Fällen und fand den noch nicht erze
 Von 518 ursprünglichen Recherchezielen haben jetzt 452 ausgewählte technische Feldprüfungen, 66 warten darauf. Drei ursprüngliche Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Hinzu kommen die dokumentierten U1/UWORLD-, JIMU- und Tienkung-Konfigurationsfragen. Vollständige Konzern-/Historienportfolios, aktuelle weltweite Lieferbarkeit, unabhängige Leistung, exklusive USPs und Platz 1 bleiben unbewiesen. Die externen YouTube-/Axe-Befunde aus Batch 106 sind weiterhin offen.
 
 Daten-Zwischencommit: `1a158a35e8218923a07714fd6050f9b405f9e557`, auf `codex/competitor-directory-expansion` gepusht. Dauerhafter Bericht: `reports/competitor-batch-124-evidence.json`.
+
+
+## Ergänzung 125 – UVD-Konfigurationen, Pharma-Qualifizierung und Akara Violet (3. November 2026)
+
+Drei vorhandene Modelle erhalten erstmals ausgewählte Datenfeldprüfungen: UVD Robot
+Model C, UVD Robot Pharma und Akara Violet. 60 Felder unterscheiden acht belegte
+und 52 nicht dokumentierte Angaben. Zehn zusätzliche Merkmalsaussagen, sechs neue
+Produktquellenverweise und zwei Firmenfokus-Prüfungen ergänzen den Bestand.
+Keine neuen Modellzeilen: 2.270 Einträge bleiben erhalten. Der Gesamtbestand hat
+1.114 ausgewählte Modellprüfungen mit 21.173 Feldern: 7.816 dokumentiert,
+12.973 nicht dokumentiert, 288 widersprüchlich und 96 Roadmap-Angaben. In der
+ursprünglichen Queue sind 455 von 518 Zielen geprüft; 63 bleiben offen.
+
+Model C ist laut Herstellerhistorie die 2020 eingeführte dritte Generation.
+Aktuelle Flottenfunktionen und die generische Raumzyklus-Angabe belegen keine
+historische Model-C-Konfiguration. Pharma nennt 25 m² in ungefähr zehn Minuten
+oder weniger, abhängig von Layout und Zielorganismus. Dies ist ein bedingtes
+Raumbeispiel, keine Akkulaufzeit und keine garantierte Leistung von 150 m²/h.
+Herstellerangaben zu Authentifizierung, Audit-Trail und Datenprotokollierung bleiben
+Softwareangaben. Das Paket mit acht Qualifizierungsdokumenten behält Betreiber-
+und Standortanforderungen, raumspezifische Zyklusentwicklung und Requalifizierung.
+Log-Ziele, allgemeine Wirksamkeitswerbung und klinische Ergebnisse bleiben getrennt.
+
+Violet ist auf der Akara-Startseite ausdrücklich als UV-Roboter benannt.
+UV-Simulation, autonome Neupositionierung und 3D-Dosisberichte unterstützen die
+Erkennung unzureichend behandelter und verschatteter Flächen, die gezielt manuell
+nachgereinigt werden können. Thermischer Raumsensor, Analyseplattform und Clara
+sind keine zusätzlichen physischen Modelle. Allgemeine Werbeaussagen zur Nutzung
+in belegten Räumen, CE, Datenschutzüberlegenheit und sechsfacher Geschwindigkeit
+werden nicht als unabhängig geprüfte Zulassung oder Sicherheitsanweisung übernommen.
+
+17 öffentliche Herstellerantworten mit HTTP 200 wurden als HTML-Text erfasst und
+gegen gespeicherte SHA-256-Werte geprüft. Drei Broschüren-Landingpages enthalten
+HubSpot-Formularkonfigurationen und keine direkten PDF-Links. Keine Formulare,
+Kontakte oder privaten Downloads; keine visuelle Bild-/PDF-Prüfung. Abrufdatum:
+2. November UTC; Review: 3. November Europe/Berlin. Quellen und Einzelfeldnotizen:
+`reports/competitor-batch-125-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 16 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.320 Seiten. Datenaudit: null Fehler und unverändert 1.160
+Warnungen. Geprüft: drei Produktseiten, 60 Felder, 2 Quellenbadges,
+52 ausgelassene Leerfelder, 19 Merkmalsaussagen und zwei Firmenfokusse.
+Modell-Export: drei Zeilen, vier Zielvorkommen, 80 Feldvorkommen; ursprüngliche
+Queue: drei Ziele, 60 Felder. Suchtreffer, Vergleich, strukturierte Eigenschaften,
+kompletter Belegexport und byteidentischer Reimport der 32 getrackten Datendateien
+geprüft. Eigene Browser, Testserver und Hilfsprozesse sind beendet; fremde
+Ressourcen erhalten.
+
+Daten-Zwischencommit `d0ca415db391e9c6bbed45489095b9a83990fada` ist auf `codex/competitor-directory-expansion` gepusht und remote
+geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
+Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
+Marktführerschaft und Suchrang Nr. 1 sind weiterhin nicht belegt.

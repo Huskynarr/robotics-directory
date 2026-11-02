@@ -147,7 +147,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 452 and 66 still awaiting those reviews.
+selected technical-field reviews for 455 and 63 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -370,6 +370,17 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+UVD Model C, UVD Robot Pharma and Akara Violet now have 60 selected field
+reviews: eight documented and 52 unknown, ten added highlights and two company
+focuses. Model C retains its explicit 2020 launch without inheriting current
+range specifications. Pharma's conditional 25 m² / approximately ten-minute room
+example remains separate from battery endurance and guaranteed hourly throughput.
+Authentication, audit trails, site qualification and Violet's dose-map/manual
+cleaning workflow retain their scope. Thermal sensors, Clara and validation
+services do not become additional robot models. Public brochure landing pages
+contain forms without direct PDF links; no forms were submitted. See
+`reports/competitor-batch-125-evidence.json`.
 
 UBTECH now has 20 selected platform reviews: eight additions, twelve existing
 model reviews, 360 fields and 40 additional highlights. Walker C uses its own
@@ -1012,18 +1023,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-21,113 fields across 1111 models, distinguishing documented, undisclosed, conflicting and
+21,173 fields across 1114 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 5,618 kB JSON response loads only for search or comparison;
+A separate 5,636 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,338 reviewed highlight statements as well as
+Catalog search now includes all 5,348 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing

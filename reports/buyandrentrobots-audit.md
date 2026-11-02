@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,270 catalog rows**, with 644 exact
-manufacturer spellings. Batch 124 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 125 refreshed the separate heuristic gap file offline
 against all 2,270 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 452 have selected-field reviews and 66 await those reviews. Family and
+highlights; 455 have selected-field reviews and 63 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 21,113 fields across 1111 catalog models: 7,808 documented,
-12,921 not documented, 288 conflicting and ninety-six roadmap fields. They do not certify whole
+Selected specification checks cover 21,173 fields across 1114 catalog models: 7,816 documented,
+12,973 not documented, 288 conflicting and ninety-six roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -8031,3 +8031,56 @@ Die erste Unit-Prüfung bestand 807 von 808 Fällen und fand den noch nicht erze
 Von 518 ursprünglichen Recherchezielen haben jetzt 452 ausgewählte technische Feldprüfungen, 66 warten darauf. Drei ursprüngliche Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Hinzu kommen die dokumentierten U1/UWORLD-, JIMU- und Tienkung-Konfigurationsfragen. Vollständige Konzern-/Historienportfolios, aktuelle weltweite Lieferbarkeit, unabhängige Leistung, exklusive USPs und Platz 1 bleiben unbewiesen. Die externen YouTube-/Axe-Befunde aus Batch 106 sind weiterhin offen.
 
 Daten-Zwischencommit: `1a158a35e8218923a07714fd6050f9b405f9e557`, auf `codex/competitor-directory-expansion` gepusht. Dauerhafter Bericht: `reports/competitor-batch-124-evidence.json`.
+
+
+## Ergänzung 125 – UVD-Konfigurationen, Pharma-Qualifizierung und Akara Violet (3. November 2026)
+
+Drei vorhandene Modelle erhalten erstmals ausgewählte Datenfeldprüfungen: UVD Robot
+Model C, UVD Robot Pharma und Akara Violet. 60 Felder unterscheiden acht belegte
+und 52 nicht dokumentierte Angaben. Zehn zusätzliche Merkmalsaussagen, sechs neue
+Produktquellenverweise und zwei Firmenfokus-Prüfungen ergänzen den Bestand.
+Keine neuen Modellzeilen: 2.270 Einträge bleiben erhalten. Der Gesamtbestand hat
+1.114 ausgewählte Modellprüfungen mit 21.173 Feldern: 7.816 dokumentiert,
+12.973 nicht dokumentiert, 288 widersprüchlich und 96 Roadmap-Angaben. In der
+ursprünglichen Queue sind 455 von 518 Zielen geprüft; 63 bleiben offen.
+
+Model C ist laut Herstellerhistorie die 2020 eingeführte dritte Generation.
+Aktuelle Flottenfunktionen und die generische Raumzyklus-Angabe belegen keine
+historische Model-C-Konfiguration. Pharma nennt 25 m² in ungefähr zehn Minuten
+oder weniger, abhängig von Layout und Zielorganismus. Dies ist ein bedingtes
+Raumbeispiel, keine Akkulaufzeit und keine garantierte Leistung von 150 m²/h.
+Herstellerangaben zu Authentifizierung, Audit-Trail und Datenprotokollierung bleiben
+Softwareangaben. Das Paket mit acht Qualifizierungsdokumenten behält Betreiber-
+und Standortanforderungen, raumspezifische Zyklusentwicklung und Requalifizierung.
+Log-Ziele, allgemeine Wirksamkeitswerbung und klinische Ergebnisse bleiben getrennt.
+
+Violet ist auf der Akara-Startseite ausdrücklich als UV-Roboter benannt.
+UV-Simulation, autonome Neupositionierung und 3D-Dosisberichte unterstützen die
+Erkennung unzureichend behandelter und verschatteter Flächen, die gezielt manuell
+nachgereinigt werden können. Thermischer Raumsensor, Analyseplattform und Clara
+sind keine zusätzlichen physischen Modelle. Allgemeine Werbeaussagen zur Nutzung
+in belegten Räumen, CE, Datenschutzüberlegenheit und sechsfacher Geschwindigkeit
+werden nicht als unabhängig geprüfte Zulassung oder Sicherheitsanweisung übernommen.
+
+17 öffentliche Herstellerantworten mit HTTP 200 wurden als HTML-Text erfasst und
+gegen gespeicherte SHA-256-Werte geprüft. Drei Broschüren-Landingpages enthalten
+HubSpot-Formularkonfigurationen und keine direkten PDF-Links. Keine Formulare,
+Kontakte oder privaten Downloads; keine visuelle Bild-/PDF-Prüfung. Abrufdatum:
+2. November UTC; Review: 3. November Europe/Berlin. Quellen und Einzelfeldnotizen:
+`reports/competitor-batch-125-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 16 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.320 Seiten. Datenaudit: null Fehler und unverändert 1.160
+Warnungen. Geprüft: drei Produktseiten, 60 Felder, 2 Quellenbadges,
+52 ausgelassene Leerfelder, 19 Merkmalsaussagen und zwei Firmenfokusse.
+Modell-Export: drei Zeilen, vier Zielvorkommen, 80 Feldvorkommen; ursprüngliche
+Queue: drei Ziele, 60 Felder. Suchtreffer, Vergleich, strukturierte Eigenschaften,
+kompletter Belegexport und byteidentischer Reimport der 32 getrackten Datendateien
+geprüft. Eigene Browser, Testserver und Hilfsprozesse sind beendet; fremde
+Ressourcen erhalten.
+
+Daten-Zwischencommit `d0ca415db391e9c6bbed45489095b9a83990fada` ist auf `codex/competitor-directory-expansion` gepusht und remote
+geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
+Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
+Marktführerschaft und Suchrang Nr. 1 sind weiterhin nicht belegt.
