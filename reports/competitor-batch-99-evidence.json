@@ -1,0 +1,1713 @@
+{
+  "batch": 99,
+  "checkedAt": "2026-11-02",
+  "manufacturers": [
+    "Boston Dynamics"
+  ],
+  "catalogModelsBefore": 2066,
+  "catalogModelsAfter": 2076,
+  "newModels": 10,
+  "existingModelsReviewed": 7,
+  "newSpecificationReviews": 17,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 318,
+  "fieldStatuses": {
+    "not-documented": 218,
+    "documented": 98,
+    "conflicting": 2
+  },
+  "newCompanyFocusReviews": 1,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "newProductHighlightRecords": 15,
+  "totalProductHighlightRecords": 988,
+  "totalHighlightStatements": 4304,
+  "totalProductSourceReferences": 1909,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "sourceAttempts": 27,
+    "successfulHttpBodies": 25,
+    "successfulPdfBodies": 6,
+    "http404": 2,
+    "http403": 0,
+    "http429": 0,
+    "allSavedBodiesHashVerified": true,
+    "pdfTextInspectionPerformed": true,
+    "pdfVisualInspectionPerformed": false,
+    "pdfVisualScope": "Extracted text and named table sections only. No page images, drawings or video frames visually inspected.",
+    "sourceDiscovery": "Public manufacturer product/history links, WordPress search/media API and SDK navigation. Two guessed locators returned404; actual manufacturer links were used for successful retrieval. Search snippets and generic model knowledge do not establish facts.",
+    "previouslyBlockedHostsRetried": false,
+    "formsSubmitted": 0,
+    "cartActions": 0,
+    "proofTerms": {
+      "2": [
+        "110mm (43.3 in)",
+        "33.8 kg",
+        "90 mins",
+        "60 mins"
+      ],
+      "3": [
+        "56",
+        "50 kg",
+        "30 kg",
+        "1.9 m"
+      ],
+      "5": [
+        "Hydraulic Atlas",
+        "Spot Classic",
+        "Sandflea",
+        "RHex",
+        "RiSE",
+        "400 lbs",
+        "19 mph"
+      ],
+      "6": [
+        "1100 mm",
+        "32.7 kg",
+        "50 min",
+        "3.5 hrs",
+        "05/22/2024"
+      ],
+      "7": [
+        "20 kg",
+        "2 hrs",
+        "1.5 hrs",
+        "56",
+        "10/15/2026"
+      ],
+      "9": [
+        "hydraulic Atlas",
+        "fully electric Atlas",
+        "PETMAN testing protective clothing"
+      ],
+      "13": [
+        "1300kg",
+        "2m/s"
+      ],
+      "14": [
+        "6 + gripper",
+        "8 kg",
+        "5 kg",
+        "22°C"
+      ],
+      "15": [
+        "600 to 800",
+        "1,300 kg",
+        "90%"
+      ],
+      "16": [
+        "1,500 kg",
+        "1 hour 45 minutes",
+        "10 feet wide"
+      ],
+      "19": [
+        "February 2, 2021",
+        "self-charging",
+        "Spot Enterprise"
+      ],
+      "24": [
+        "43.8 kg",
+        "47.5 kg",
+        "Fluke SV600",
+        "IP54",
+        "8 hours"
+      ],
+      "27": [
+        "two hip joints and one knee per leg"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://bostondynamics.com/",
+      "checkedAt": "2026-11-02T16:56:54.421639+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-1.html",
+      "bodySha256": "ed5847926c4baddae7edbc0e6c8758f9e2fd85d882bf7d7fd49818887bbe81f6",
+      "title": "The World’s Leading Robotics Company | Boston Dynamics",
+      "textFile": "source-1.txt"
+    },
+    {
+      "id": 2,
+      "url": "https://bostondynamics.com/products/spot/",
+      "checkedAt": "2026-11-02T16:56:54.754721+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/products/spot/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-2.html",
+      "bodySha256": "a60cdef2d9a65339088a51299e8699dca15d9682ce0932cb112d6f0db94540f8",
+      "title": "Spot | Boston Dynamics",
+      "textFile": "source-2.txt"
+    },
+    {
+      "id": 3,
+      "url": "https://bostondynamics.com/products/atlas/",
+      "checkedAt": "2026-11-02T16:56:55.149466+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/products/atlas/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-3.html",
+      "bodySha256": "dce4f4af4577b53d60057c362667b135ca23dff69a265e1ffce807d95d4d938b",
+      "title": "Atlas Humanoid Robot | Boston Dynamics",
+      "textFile": "source-3.txt"
+    },
+    {
+      "id": 4,
+      "url": "https://bostondynamics.com/products/stretch/",
+      "checkedAt": "2026-11-02T16:56:55.478395+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/products/stretch/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-4.html",
+      "bodySha256": "4378a208f67925e81e234d761b08f4622d280ea3615411ba84818059ed8f2787",
+      "title": "Stretch - Mobile Warehouse Robots | Boston Dynamics",
+      "textFile": "source-4.txt"
+    },
+    {
+      "id": 5,
+      "url": "https://bostondynamics.com/legacy/",
+      "checkedAt": "2026-11-02T16:56:55.772098+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/about/history/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-5.html",
+      "bodySha256": "382ebabe774509bfb802e943e9d9665ce20b2c2866da332497c71cad6023b202",
+      "title": "Boston Dynamics History & Legacy | Boston Dynamics",
+      "textFile": "source-5.txt"
+    },
+    {
+      "id": 6,
+      "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+      "checkedAt": "2026-11-02T16:57:41.074803+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-6.pdf",
+      "bodySha256": "616c99ac9c3637e6e3466ca0b741da916e523beafc765febb6940f854339a969",
+      "textFile": "source-6.txt",
+      "pages": 2
+    },
+    {
+      "id": 7,
+      "url": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+      "checkedAt": "2026-11-02T16:57:41.493143+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-7.pdf",
+      "bodySha256": "c91ded77a6eba8f6a68450a9e195dd6d1d75d61662c0f808b483053eb0e0a1dd",
+      "textFile": "source-7.txt",
+      "pages": 2
+    },
+    {
+      "id": 8,
+      "url": "https://bostondynamics.com/blog/enterprise-robotics-redefined/",
+      "checkedAt": "2026-11-02T16:57:41.685014+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/blog/enterprise-robotics-redefined/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-8.html",
+      "bodySha256": "f420ccfeed1d34055daba01fd083c65f146a29151d6f0a8b3fe09efa6f9baa91",
+      "title": "Enterprise Robotics, Redefined | Boston Dynamics",
+      "textFile": "source-8.txt"
+    },
+    {
+      "id": 9,
+      "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+      "checkedAt": "2026-11-02T16:57:42.024166+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-9.html",
+      "bodySha256": "8e3d267a675f4385738b83d90626638b0f0ace891dc1d3e3073dfd0ca9dabb62",
+      "title": "An Electric New Era for Atlas | Boston Dynamics",
+      "textFile": "source-9.txt"
+    },
+    {
+      "id": 10,
+      "url": "https://bostondynamics.com/blog/spot-enterprise/",
+      "checkedAt": "2026-11-02T16:57:42.307613+00:00",
+      "status": 404,
+      "finalUrl": "https://bostondynamics.com/blog/spot-enterprise/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-10.html",
+      "bodySha256": "52173fe6de93867b31ffe429dd180813b014f1c398adfaf81b44781e5f2afedd",
+      "title": "Page not found | Boston Dynamics",
+      "textFile": "source-10.txt"
+    },
+    {
+      "id": 11,
+      "url": "https://bostondynamics.com/products/spot/arm/",
+      "checkedAt": "2026-11-02T16:57:43.004459+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/products/spot/arm/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-11.html",
+      "bodySha256": "908e85cebbfa5db7ccf02a7913d5eb476594da067525f2a0dc1886821635c5ef",
+      "title": "Spot Arm | Boston Dynamics",
+      "textFile": "source-11.txt"
+    },
+    {
+      "id": 12,
+      "url": "https://bostondynamics.com/solutions/warehouse-automation/trailer-unloading/",
+      "checkedAt": "2026-11-02T16:57:43.302010+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/solutions/warehouse-automation/trailer-unloading/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-12.html",
+      "bodySha256": "ab3389cddb19c6d6ba3a5682b835d91e2197acbaba86a5c67df74748a447854e",
+      "title": "Automated Trailer Unloading | Boston Dynamics",
+      "textFile": "source-12.txt"
+    },
+    {
+      "id": 13,
+      "url": "https://bostondynamics.com/solutions/warehouse-automation/case-picking/",
+      "checkedAt": "2026-11-02T16:57:43.624653+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/solutions/warehouse-automation/case-picking/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-13.html",
+      "bodySha256": "b4e80d028084a4e5db28c58e32b25093684d80f41b13a8d207810de82e30bf2f",
+      "title": "Case Picking | Boston Dynamics",
+      "textFile": "source-13.txt"
+    },
+    {
+      "id": 14,
+      "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-arm.pdf",
+      "checkedAt": "2026-11-02T16:58:51.073792+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-arm.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-14.pdf",
+      "bodySha256": "2147cc0f56025f85ea45d792238eef1deb1ce18689e4a632ddba120015b9f92c",
+      "textFile": "source-14.txt",
+      "pages": 2
+    },
+    {
+      "id": 15,
+      "url": "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-Brochure-2026-Final-1.pdf",
+      "checkedAt": "2026-11-02T16:58:51.451339+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-Brochure-2026-Final-1.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-15.pdf",
+      "bodySha256": "02e680b08d81426a74854e6450e4387ec215af48bbf7eb72b12c568fa950fb03",
+      "textFile": "source-15.txt",
+      "pages": 8
+    },
+    {
+      "id": 16,
+      "url": "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-case-pick-brochure.pdf",
+      "checkedAt": "2026-11-02T16:58:51.809096+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-case-pick-brochure.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-16.pdf",
+      "bodySha256": "939b2f31bbd6efefc86f79cece78c44d0a5e5cac9497f491d83fa71c44061962",
+      "textFile": "source-16.txt",
+      "pages": 4
+    },
+    {
+      "id": 17,
+      "url": "https://bostondynamics.com/wp-json/wp/v2/search?search=Spot%20Enterprise&per_page=20",
+      "checkedAt": "2026-11-02T16:58:52.614271+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-json/wp/v2/search?search=Spot%20Enterprise&per_page=20",
+      "contentType": "application/json; charset=UTF-8",
+      "bodyFile": "source-17.json",
+      "bodySha256": "162e5fa2ca2893b2144fa3b88b1e915a6cb039337bc2b891ceecd46dc4618cf7"
+    },
+    {
+      "id": 18,
+      "url": "https://dev.bostondynamics.com/docs/concepts/robot_geometry.html",
+      "checkedAt": "2026-11-02T16:58:53.140540+00:00",
+      "status": 404,
+      "finalUrl": "https://dev.bostondynamics.com/docs/concepts/robot_geometry.html",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-18.html",
+      "bodySha256": "8514f0009a58c6e0acb5468f88037732b59b70af5e524f452e3bef8fb33effc5",
+      "title": "Page not found",
+      "textFile": "source-18.txt"
+    },
+    {
+      "id": 19,
+      "url": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/",
+      "checkedAt": "2026-11-02T16:59:38.881719+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-19.html",
+      "bodySha256": "f275ce62be9959ab078906cf340b52801b129fb0f9923d3e122aeb4070951342",
+      "title": "Boston Dynamics Expands Spot® Product Line | Boston Dynamics",
+      "textFile": "source-19.txt"
+    },
+    {
+      "id": 20,
+      "url": "https://bostondynamics.com/wp-json/wp/v2/media/7771",
+      "checkedAt": "2026-11-02T16:59:39.165949+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-json/wp/v2/media/7771",
+      "contentType": "application/json; charset=UTF-8",
+      "bodyFile": "source-20.json",
+      "bodySha256": "09b301c71e4876fee8c5d1c5f3a024246f654827990a746bbb4739f17ecff6c6"
+    },
+    {
+      "id": 21,
+      "url": "https://dev.bostondynamics.com/",
+      "checkedAt": "2026-11-02T16:59:39.645493+00:00",
+      "status": 200,
+      "finalUrl": "https://dev.bostondynamics.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-21.html",
+      "bodySha256": "84d07b0fa5fba8f97e4eabe082e0ec53d8d76ad08534790eb283366d8da02ea7",
+      "title": "Spot SDK — Spot 5.2.0 documentation",
+      "textFile": "source-21.txt"
+    },
+    {
+      "id": 22,
+      "url": "https://bostondynamics.com/wp-json/wp/v2/search?search=Spot%202019&per_page=20",
+      "checkedAt": "2026-11-02T16:59:39.859002+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-json/wp/v2/search?search=Spot%202019&per_page=20",
+      "contentType": "application/json; charset=UTF-8",
+      "bodyFile": "source-22.json",
+      "bodySha256": "48a15dbb97ae04dab08c0daedd0df01d69a840dfea8222a919d85d2fe97f06ec"
+    },
+    {
+      "id": 23,
+      "url": "https://bostondynamics.com/wp-json/wp/v2/search?search=PETMAN&per_page=20",
+      "checkedAt": "2026-11-02T16:59:40.399547+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-json/wp/v2/search?search=PETMAN&per_page=20",
+      "contentType": "application/json; charset=UTF-8",
+      "bodyFile": "source-23.json",
+      "bodySha256": "1208beaa7f659922fbac53ab2a9eeae3b01bf972dd31ad0fa2de5c23205212d5"
+    },
+    {
+      "id": 24,
+      "url": "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf",
+      "checkedAt": "2026-11-02T17:00:11.744272+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-24.pdf",
+      "bodySha256": "488cf08cbc0b20aeeef984cbc4c78b6c7d7730910b1973664171caabf28c4757",
+      "textFile": "source-24.txt",
+      "pages": 8
+    },
+    {
+      "id": 25,
+      "url": "https://bostondynamics.com/blog/retrospective-on-boston-dynamics-spot-robot-uses/",
+      "checkedAt": "2026-11-02T17:00:12.386816+00:00",
+      "status": 200,
+      "finalUrl": "https://bostondynamics.com/blog/retrospective-on-boston-dynamics-spot-robot-uses/",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-25.html",
+      "bodySha256": "832bf99ecd111659907438391d207ee295923a509e819b0f8d6ba4088b78a1ac",
+      "title": "A Retrospective on Uses of Boston Dynamics' Spot Robot | Boston Dynamics",
+      "textFile": "source-25.txt"
+    },
+    {
+      "id": 26,
+      "url": "https://dev.bostondynamics.com/docs/concepts/joint_control/supplemental_data",
+      "checkedAt": "2026-11-02T17:00:57.944606+00:00",
+      "status": 200,
+      "finalUrl": "https://dev.bostondynamics.com/docs/concepts/joint_control/supplemental_data",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-26.html",
+      "bodySha256": "62d350232e844b21925f4eb9efd809775aaa740847140998930c4ae58a891727",
+      "title": "Supplemental Data — Spot 5.2.0 documentation",
+      "textFile": "source-26.txt"
+    },
+    {
+      "id": 27,
+      "url": "https://dev.bostondynamics.com/docs/concepts/geometry_and_frames",
+      "checkedAt": "2026-11-02T17:00:58.415225+00:00",
+      "status": 200,
+      "finalUrl": "https://dev.bostondynamics.com/docs/concepts/geometry_and_frames",
+      "contentType": "text/html; charset=UTF-8",
+      "bodyFile": "source-27.html",
+      "bodySha256": "3887964538f911019e7a0c747fe344cbf3b510df7f79f4110730c35f0a3f20db",
+      "title": "Geometry and Frames — Spot 5.2.0 documentation",
+      "textFile": "source-27.txt"
+    }
+  ],
+  "announcementDateProofs": [
+    {
+      "sourceId": 8,
+      "articleDatePublished": "2026-01-05T21:02:16+00:00",
+      "scope": "Date of the named version introduction; not the first year of the whole Atlas research program."
+    },
+    {
+      "sourceId": 9,
+      "articleDatePublished": "2024-04-17T12:50:13+00:00",
+      "scope": "Date of the named version introduction; not the first year of the whole Atlas research program."
+    }
+  ],
+  "modelDecisions": [
+    {
+      "model": "Atlas",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-atlas",
+      "category": "humanoid",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bostondynamics.com/products/atlas/",
+        "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+        "https://bostondynamics.com/blog/enterprise-robotics-redefined/"
+      ],
+      "selectedFields": 17,
+      "additionalRowChanges": {
+        "image": "",
+        "video": ""
+      }
+    },
+    {
+      "model": "E-Atlas",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-e-atlas",
+      "category": "humanoid",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bostondynamics.com/blog/electric-new-era-for-atlas/"
+      ],
+      "selectedFields": 17,
+      "additionalRowChanges": {
+        "image": "",
+        "video": ""
+      }
+    },
+    {
+      "model": "Hydraulic Atlas",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-hydraulic-atlas",
+      "category": "humanoid",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/",
+        "https://bostondynamics.com/blog/electric-new-era-for-atlas/"
+      ],
+      "selectedFields": 17,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "Spot",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-spot",
+      "category": "quadruped",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bostondynamics.com/products/spot/",
+        "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+        "https://dev.bostondynamics.com/docs/concepts/geometry_and_frames",
+        "https://bostondynamics.com/products/spot/arm/",
+        "https://bostondynamics.com/wp-content/uploads/2020/10/spot-arm.pdf"
+      ],
+      "selectedFields": 16,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "Spot Enterprise",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-spot-enterprise",
+      "category": "quadruped",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/",
+        "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf"
+      ],
+      "selectedFields": 16,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "Spot Enterprise Asset Management Kit",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-spot-enterprise-asset-management-kit",
+      "category": "quadruped",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf",
+        "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/"
+      ],
+      "selectedFields": 16,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "Stretch",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-stretch",
+      "category": "commercial",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/products/stretch/",
+        "https://bostondynamics.com/solutions/warehouse-automation/trailer-unloading/",
+        "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-Brochure-2026-Final-1.pdf"
+      ],
+      "selectedFields": 23,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "Stretch for Case Pick",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-stretch-for-case-pick",
+      "category": "commercial",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/solutions/warehouse-automation/case-picking/",
+        "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-case-pick-brochure.pdf",
+        "https://bostondynamics.com/products/stretch/"
+      ],
+      "selectedFields": 23,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "BigDog",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-bigdog",
+      "category": "quadruped",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/"
+      ],
+      "selectedFields": 16,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "LS3",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-ls3",
+      "category": "quadruped",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/"
+      ],
+      "selectedFields": 16,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "WildCat",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-wildcat",
+      "category": "quadruped",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/"
+      ],
+      "selectedFields": 16,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "Handle",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-handle",
+      "category": "commercial",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/"
+      ],
+      "selectedFields": 23,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "Spot Classic",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-spot-classic",
+      "category": "quadruped",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/"
+      ],
+      "selectedFields": 16,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "Sandflea",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-sandflea",
+      "category": "commercial",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/"
+      ],
+      "selectedFields": 23,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "RHex",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-rhex",
+      "category": "commercial",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/"
+      ],
+      "selectedFields": 23,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "RiSE",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-rise",
+      "category": "commercial",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/about/history/"
+      ],
+      "selectedFields": 23,
+      "additionalRowChanges": {}
+    },
+    {
+      "model": "PETMAN",
+      "manufacturer": "Boston Dynamics",
+      "robotId": "boston-dynamics-petman",
+      "category": "humanoid",
+      "action": "add-model-or-complete-configuration",
+      "sourceUrls": [
+        "https://bostondynamics.com/blog/electric-new-era-for-atlas/"
+      ],
+      "selectedFields": 17,
+      "additionalRowChanges": {}
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "robotId": "boston-dynamics-spot",
+      "changes": {
+        "price": {
+          "before": "~75000 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "~32 kg",
+          "after": "HTML: 33.8 kg with battery; linked May 2024 PDF: 32.7 kg"
+        },
+        "size": {
+          "before": "medium",
+          "after": "PDF: 1100 x 500 mm, default walking height 610 mm; HTML prints length 110 mm (43.3 in)"
+        },
+        "batteryLife": {
+          "before": "~90 min",
+          "after": "Average 90 min; varies with payload and environment; standby 180 min separately"
+        },
+        "maxRuntime": {
+          "before": "90 min",
+          "after": ""
+        },
+        "tags": {
+          "before": "all-terrain;industrial;inspection;stair-climbing",
+          "after": "industrial;commercial;inspection;quadruped;autonomous-nav;dev-platform"
+        },
+        "handType": {
+          "before": "none",
+          "after": "Optional Spot Arm: 6 DOF plus gripper; not base equipment"
+        },
+        "dof": {
+          "before": "12",
+          "after": "3 leg joints per leg; 12 across four legs; optional arm additional"
+        },
+        "payload": {
+          "before": "14 kg",
+          "after": "14 kg maximum mounted payload"
+        },
+        "speed": {
+          "before": "1.6 m/s",
+          "after": "Maximum 1.6 m/s"
+        },
+        "terrain": {
+          "before": "All terrain, stairs",
+          "after": "±30° maximum slope; 300 mm maximum step; −20°C to 55°C (power-on ≥0°C)"
+        },
+        "website": {
+          "before": "https://www.bostondynamics.com/",
+          "after": "https://bostondynamics.com/products/spot/"
+        },
+        "description": {
+          "before": "",
+          "after": "Spot is a quadruped sensing and inspection platform with a 14 kg payload limit, maximum 1.6 m/s and IP54. The current HTML states 33.8 kg with battery, while its linked May 2024 PDF gives 32.7 kg; model revision mapping remains unresolved. The PDF states 1100 mm length, versus an HTML 110 mm/43.3 in inconsistency. Average runtime is 90 minutes with payload/environment conditions. Dock charging is temperature/SOC dependent and distinct from the battery recharge line. Optional arm, inspection payloads and fleet software require their configuration."
+        },
+        "releaseDate": {
+          "before": "2019",
+          "after": ""
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "Battery recharge 60 min; Dock to 100%: 2 h at 25°C / 3.5 h at 35°C"
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-spot-enterprise",
+      "changes": {
+        "price": {
+          "before": "95000 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "32.5 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "medium",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "90 min",
+          "after": ""
+        },
+        "maxRuntime": {
+          "before": "90 min",
+          "after": ""
+        },
+        "tags": {
+          "before": "all-terrain;autonomous-nav;industrial;inspection;monitoring;self-charging;stair-climbing",
+          "after": "industrial;commercial;inspection;quadruped;autonomous-nav;self-charging"
+        },
+        "handType": {
+          "before": "none",
+          "after": "Spot Arm available separately; no included stock arm established"
+        },
+        "payload": {
+          "before": "14 kg",
+          "after": ""
+        },
+        "speed": {
+          "before": "1.6 m/s",
+          "after": ""
+        },
+        "terrain": {
+          "before": "All terrain, stairs",
+          "after": ""
+        },
+        "ipRating": {
+          "before": "IP54",
+          "after": ""
+        },
+        "website": {
+          "before": "https://www.bostondynamics.com/",
+          "after": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/"
+        },
+        "description": {
+          "before": "Self-charging dock, thermal cameras, autonomous patrol",
+          "after": "Spot Enterprise is the self-charging Spot version announced February 2, 2021 with a dock and upgraded safety, communications and remote-mission hardware. Scout enabled web-based fleet operation; a combined CAM+IR inspection package was described separately. Exact 2021 robot mass, included payloads and battery duration are not established by that announcement. Numeric values from the current bare Spot or a later Enterprise Asset Management Kit are not assigned to every Enterprise robot."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-bigdog",
+      "changes": {
+        "price": {
+          "before": "Research project",
+          "after": ""
+        },
+        "weight": {
+          "before": "110 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "medium",
+          "after": ""
+        },
+        "tags": {
+          "before": "research;all-terrain;dev-platform",
+          "after": "research;prototype;quadruped;all-terrain;legacy"
+        },
+        "handType": {
+          "before": "none",
+          "after": ""
+        },
+        "payload": {
+          "before": "150 kg",
+          "after": ""
+        },
+        "speed": {
+          "before": "6.4 km/h",
+          "after": ""
+        },
+        "terrain": {
+          "before": "All-terrain",
+          "after": "Historical rough-terrain research"
+        },
+        "website": {
+          "before": "https://en.wikipedia.org/wiki/BigDog",
+          "after": "https://bostondynamics.com/about/history/"
+        },
+        "description": {
+          "before": "DARPA-funded rough-terrain quadruped unveiled in 2005; ~110 kg, carried up to 150 kg over ice, rubble and slopes, a landmark in dynamic-balance legged robotics.",
+          "after": "BigDog is the historical dynamically balanced legged robot that Boston Dynamics describes as its first to leave the lab. The manufacturer history lists rough-terrain navigation, sensing and control under a 2004 timeline milestone. That milestone does not establish exact first public release, mass, carried load or speed; those technical ratings remain unverified by the selected history source."
+        },
+        "releaseDate": {
+          "before": "2005",
+          "after": ""
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-ls3",
+      "changes": {
+        "price": {
+          "before": "Discontinued",
+          "after": ""
+        },
+        "weight": {
+          "before": "362 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "large",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "24 hours",
+          "after": ""
+        },
+        "maxRuntime": {
+          "before": "1440 min",
+          "after": ""
+        },
+        "tags": {
+          "before": "all-terrain;military;autonomous-nav;legacy",
+          "after": "research;prototype;quadruped;logistics;legacy"
+        },
+        "handType": {
+          "before": "none",
+          "after": ""
+        },
+        "payload": {
+          "before": "180 kg",
+          "after": "400 lb carrying payload (manufacturer history)"
+        },
+        "speed": {
+          "before": "11 km/h",
+          "after": ""
+        },
+        "terrain": {
+          "before": "Extreme terrain, mud, forest, snow",
+          "after": "Historical rough-terrain logistics research"
+        },
+        "website": {
+          "before": "https://www.bostondynamics.com",
+          "after": "https://bostondynamics.com/about/history/"
+        },
+        "description": {
+          "before": "Legged Squad Support System (LS3) developed for DARPA, powered by an internal combustion engine, designed to carry heavy military gear over extreme terrain.",
+          "after": "LS3, the Legged Squad Support System, is a historical rough-terrain research robot described by Boston Dynamics as carrying 400 lb and travelling 20 miles before refueling. Obstacle-navigation sensors supported the platform. Fuel range is not battery life, so a former 24-hour battery field is withdrawn. The 2010 timeline node is a historical milestone, not verified first-release date."
+        },
+        "releaseDate": {
+          "before": "2012",
+          "after": ""
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-wildcat",
+      "changes": {
+        "price": {
+          "before": "Prototype",
+          "after": ""
+        },
+        "weight": {
+          "before": "150 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "medium",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "5 min (gas tank)",
+          "after": ""
+        },
+        "maxRuntime": {
+          "before": "5 min",
+          "after": ""
+        },
+        "tags": {
+          "before": "prototype;high-speed;all-terrain;legacy",
+          "after": "research;prototype;quadruped;high-speed;legacy"
+        },
+        "handType": {
+          "before": "none",
+          "after": ""
+        },
+        "speed": {
+          "before": "30 km/h",
+          "after": "19 mph on flat terrain (manufacturer history)"
+        },
+        "terrain": {
+          "before": "Flat and rough terrain",
+          "after": "Flat terrain for stated speed demonstration"
+        },
+        "website": {
+          "before": "https://www.bostondynamics.com",
+          "after": "https://bostondynamics.com/about/history/"
+        },
+        "description": {
+          "before": "Experimental high-speed bounding quadruped powered by a two-stroke gasoline engine, reaching speeds of 30 km/h with a galloping gait.",
+          "after": "WildCat is the historical high-speed quadruped named in Boston Dynamics history. The manufacturer reports 19 mph on flat terrain with dynamic balance and variable gaits. This is not a loaded rough-terrain performance guarantee, and the source does not establish mass or five-minute battery endurance. Its timeline node is not treated as exact release chronology."
+        },
+        "releaseDate": {
+          "before": "2013",
+          "after": ""
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-e-atlas",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": ""
+        },
+        "weight": {
+          "before": "~85 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "large",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "N/A",
+          "after": ""
+        },
+        "tags": {
+          "before": "prototype",
+          "after": "research;prototype;humanoid;electric;legacy"
+        },
+        "handType": {
+          "before": "none",
+          "after": ""
+        },
+        "website": {
+          "before": "https://www.bostondynamics.com/",
+          "after": "https://bostondynamics.com/blog/electric-new-era-for-atlas/"
+        },
+        "image": {
+          "before": "images/humanoid/boston-dynamics-e-atlas-2.webp",
+          "after": ""
+        },
+        "description": {
+          "before": "Fully electric Atlas humanoid for industrial manipulation.",
+          "after": "E-Atlas is the retained catalog label for the electric Atlas development platform introduced April 17, 2024. Boston Dynamics calls it electric Atlas rather than a separate official E-Atlas model. The announcement retires hydraulic Atlas, introduces a fully electric platform, describes a Hyundai development path and explores gripper variations. Exact mass, whole-body DOF, payload and battery endurance for that 2024 platform are not established; the 2026 production sheet is not backfilled into it."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-atlas",
+      "changes": {
+        "price": {
+          "before": "39000 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "~90 kg",
+          "after": "90 kg"
+        },
+        "size": {
+          "before": "",
+          "after": "1.9 m height"
+        },
+        "batteryLife": {
+          "before": "~1 hour",
+          "after": "4 h typical use; 2 h heavy lifting"
+        },
+        "tags": {
+          "before": "industrial",
+          "after": "industrial;commercial;humanoid;material-handling;embodied-ai"
+        },
+        "handType": {
+          "before": "none",
+          "after": "Tactile fingers and palm; exact gripper configuration not established"
+        },
+        "dof": {
+          "before": "28",
+          "after": "56"
+        },
+        "payload": {
+          "before": "11 kg",
+          "after": "50 kg instant; 30 kg sustained; 20 kg one-handed"
+        },
+        "speed": {
+          "before": "2.5 m/s",
+          "after": ""
+        },
+        "terrain": {
+          "before": "",
+          "after": "Industrial workspaces; −20°C to 40°C"
+        },
+        "ipRating": {
+          "before": "",
+          "after": "IP67"
+        },
+        "website": {
+          "before": "https://www.bostondynamics.com/",
+          "after": "https://bostondynamics.com/products/atlas/"
+        },
+        "image": {
+          "before": "images/humanoid/boston-dynamics-atlas-2.webp",
+          "after": ""
+        },
+        "video": {
+          "before": "https://www.youtube.com/embed/29ECwExc-_M",
+          "after": ""
+        },
+        "description": {
+          "before": "",
+          "after": "The current production Atlas is the electric enterprise humanoid announced January 5, 2026, distinct from the retired hydraulic Atlas and April 2024 electric development platform. Its October 15, 2026 datasheet specifies 1.9 m height, 90 kg, 56 DOF and IP67. Capacity is 50 kg instant, 30 kg sustained or 20 kg one-handed. Typical endurance is four hours, or two hours with heavy lifting; a three-minute autonomous battery swap is distinct from 1.5-hour charging. The 2.3 m reach has general workspace scope rather than an established arm-link length."
+        },
+        "releaseDate": {
+          "before": "2013",
+          "after": "2026"
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "1.5 h; autonomous battery swap approx. 3 min (separate)"
+        }
+      }
+    }
+  ],
+  "priorProductAndFieldEvidence": [
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "Boston Dynamics",
+        "model": "Atlas",
+        "website": "https://bostondynamics.com/products/atlas/"
+      },
+      "highlights": [
+        "Current enterprise Atlas targets industrial material-handling applications",
+        "Manufacturer describes autonomous battery swapping to extend operations",
+        "Orbit integration is presented for workflows and fleet management; rollout starts with selected adopters"
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/atlas/",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-23/bostondynamics.com-products-atlas.json",
+      "reviewScope": "product-highlights",
+      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Current electric product described separately from historical hydraulic Atlas. New evidence does not validate legacy CSV price, 28-DOF, runtime or release-year values."
+    },
+    {
+      "row": {
+        "category": "quadruped",
+        "manufacturer": "Boston Dynamics",
+        "model": "Spot",
+        "website": "https://bostondynamics.com/products/spot/"
+      },
+      "highlights": [
+        "Four-legged mobile sensing platform supports repeatable industrial inspections",
+        "API and payload interfaces allow application-specific sensor integration",
+        "Orbit supports remote fleet and inspection-data management; arm and other payloads are additions"
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/spot/",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-23/bostondynamics.com-products-spot.json",
+      "reviewScope": "product-highlights",
+      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Base platform, Spot Arm, payload packages and software options remain distinct. Obvious source length typo is not copied."
+    }
+  ],
+  "portfolioDecisions": {
+    "selectedIdentities": 17,
+    "newRobotCards": 10,
+    "currentGenerationDecisions": [
+      "Atlas is the2026 production version; E-Atlas retained as a catalog label for2024 electric development",
+      "Hydraulic Atlas added separately; no current Atlas numeric values copied into legacy generations",
+      "Stretch generic row is trailer-unloading configuration; Stretch for Case Pick has its own mass/rating",
+      "Spot Enterprise Asset Management Kit is a documented complete configuration, not an extra underlying chassis"
+    ],
+    "newCompleteConfigurations": [
+      "Stretch for Case Pick",
+      "Spot Enterprise Asset Management Kit"
+    ],
+    "componentsExcluded": [
+      "Spot Arm",
+      "Spot CAM+IR",
+      "Spot EAP2",
+      "Fluke SV600",
+      "Spot Dock",
+      "Orbit and Scout",
+      "chargers and spare batteries"
+    ],
+    "mediaScope": "Existing Atlas and E-Atlas image/video associations cleared because generation correspondence was not verified; no asset files deleted or replacement imagery invented.",
+    "historicalReleaseScope": "History timeline nodes are retained in highlights as milestones rather than assumed first-release years.",
+    "scope": "Current linked hardware/configurations, the nine named history platforms and PETMAN mention reviewed. No exhaustive historical/regional/revision portfolio, independently measured outcomes or market leadership certified."
+  },
+  "validation": {
+    "unitTests": 793,
+    "unitTestFiles": 64,
+    "browserTestCases": 16,
+    "browserPassed": 16,
+    "browserFailed": 0,
+    "axeCases": 4,
+    "sourceCodeChanged": false,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "manufacturerProfileMappingChanged": false,
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "buildPages": 3126,
+    "buildSizeApproxMB": 484,
+    "dataErrors": 0,
+    "dataWarnings": 980,
+    "dataWarningChange": 14,
+    "warningChange": {
+      "added": [
+        "boston-dynamics-bigdog: release year is not documented",
+        "boston-dynamics-handle: release year is not documented",
+        "boston-dynamics-hydraulic-atlas: release year is not documented",
+        "boston-dynamics-ls3: release year is not documented",
+        "boston-dynamics-petman: release year is not documented",
+        "boston-dynamics-rhex: release year is not documented",
+        "boston-dynamics-rise: release year is not documented",
+        "boston-dynamics-sandflea: release year is not documented",
+        "boston-dynamics-spot-classic: release year is not documented",
+        "boston-dynamics-spot-enterprise-asset-management-kit: release year is not documented",
+        "boston-dynamics-spot: release year is not documented",
+        "boston-dynamics-stretch-for-case-pick: release year is not documented",
+        "boston-dynamics-stretch: release year is not documented",
+        "boston-dynamics-wildcat: release year is not documented"
+      ],
+      "removed": [],
+      "reason": "First-release years unsupported by selected sources left unknown; history milestone years not substituted."
+    },
+    "changedFileLint": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "globalRenderedReviewMetadataCheck": {
+      "allChecksPassed": true,
+      "reviewedModelPagesChecked": 838,
+      "selectedFieldValuesChecked": 14087,
+      "visibleTechnicalValuesAndSourceBadgesChecked": 5793,
+      "omittedEmptyOrNAFieldsChecked": 6996,
+      "descriptionAndWebsiteFieldsExcluded": 1298,
+      "reviewedLaunchYearsWithSourceBadgesChecked": 76,
+      "scope": "Public raw values and evidence metadata match existing selected reviews across 838 model pages. This is not a re-fetch or independent certification of prior manufacturers, nor a review of unmarked specifications."
+    },
+    "renderedBostonDynamicsEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 17,
+      "selectedSpecificationFieldsChecked": 318,
+      "sourceBadgesChecked": 66,
+      "blankFieldsOmitted": 218,
+      "descriptionsChecked": 17,
+      "websitesChecked": 17,
+      "structuredSpecificationPropertiesChecked": 58,
+      "highlightStatementsChecked": 71,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 17,
+      "modelExportRowsChecked": 4,
+      "modelExportTargetsChecked": 4,
+      "modelExportFieldOccurrencesChecked": 65,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 2,
+      "researchQueueFieldsChecked": 33,
+      "scope": "17 Boston Dynamics generation/configuration and legacy model pages; Atlas load/endurance, Spot body/kit/dock/arm, Stretch task/towing and historical milestone scope. No independent performance or leadership proof."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 2066,
+      "catalogRows": 2076,
+      "unchangedPriorCatalogRows": 2059,
+      "reviewedExistingCatalogRows": 7,
+      "newCatalogRows": 10,
+      "newCsvColumns": [],
+      "categoryTransfers": 0,
+      "previousSpecificationReviewsEntirelyUnchanged": 821,
+      "expandedSpecificationReviews": 0,
+      "newSpecificationReviews": 17,
+      "selectedFields": 318,
+      "previousCompanyFocusReviewsEntirelyUnchanged": 92,
+      "newCompanyFocusReviews": 1,
+      "sourceIdentityRecordsPreserved": 1961,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/brands.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json"
+      ],
+      "correctedRows": [
+        {
+          "robotId": "boston-dynamics-spot",
+          "changes": {
+            "price": {
+              "before": "~75000 USD",
+              "after": ""
+            },
+            "weight": {
+              "before": "~32 kg",
+              "after": "HTML: 33.8 kg with battery; linked May 2024 PDF: 32.7 kg"
+            },
+            "size": {
+              "before": "medium",
+              "after": "PDF: 1100 x 500 mm, default walking height 610 mm; HTML prints length 110 mm (43.3 in)"
+            },
+            "batteryLife": {
+              "before": "~90 min",
+              "after": "Average 90 min; varies with payload and environment; standby 180 min separately"
+            },
+            "maxRuntime": {
+              "before": "90 min",
+              "after": ""
+            },
+            "tags": {
+              "before": "all-terrain;industrial;inspection;stair-climbing",
+              "after": "industrial;commercial;inspection;quadruped;autonomous-nav;dev-platform"
+            },
+            "handType": {
+              "before": "none",
+              "after": "Optional Spot Arm: 6 DOF plus gripper; not base equipment"
+            },
+            "dof": {
+              "before": "12",
+              "after": "3 leg joints per leg; 12 across four legs; optional arm additional"
+            },
+            "payload": {
+              "before": "14 kg",
+              "after": "14 kg maximum mounted payload"
+            },
+            "speed": {
+              "before": "1.6 m/s",
+              "after": "Maximum 1.6 m/s"
+            },
+            "terrain": {
+              "before": "All terrain, stairs",
+              "after": "±30° maximum slope; 300 mm maximum step; −20°C to 55°C (power-on ≥0°C)"
+            },
+            "website": {
+              "before": "https://www.bostondynamics.com/",
+              "after": "https://bostondynamics.com/products/spot/"
+            },
+            "description": {
+              "before": "",
+              "after": "Spot is a quadruped sensing and inspection platform with a 14 kg payload limit, maximum 1.6 m/s and IP54. The current HTML states 33.8 kg with battery, while its linked May 2024 PDF gives 32.7 kg; model revision mapping remains unresolved. The PDF states 1100 mm length, versus an HTML 110 mm/43.3 in inconsistency. Average runtime is 90 minutes with payload/environment conditions. Dock charging is temperature/SOC dependent and distinct from the battery recharge line. Optional arm, inspection payloads and fleet software require their configuration."
+            },
+            "releaseDate": {
+              "before": "2019",
+              "after": ""
+            },
+            "chargingTime": {
+              "before": "",
+              "after": "Battery recharge 60 min; Dock to 100%: 2 h at 25°C / 3.5 h at 35°C"
+            }
+          }
+        },
+        {
+          "robotId": "boston-dynamics-spot-enterprise",
+          "changes": {
+            "price": {
+              "before": "95000 USD",
+              "after": ""
+            },
+            "weight": {
+              "before": "32.5 kg",
+              "after": ""
+            },
+            "size": {
+              "before": "medium",
+              "after": ""
+            },
+            "batteryLife": {
+              "before": "90 min",
+              "after": ""
+            },
+            "maxRuntime": {
+              "before": "90 min",
+              "after": ""
+            },
+            "tags": {
+              "before": "all-terrain;autonomous-nav;industrial;inspection;monitoring;self-charging;stair-climbing",
+              "after": "industrial;commercial;inspection;quadruped;autonomous-nav;self-charging"
+            },
+            "handType": {
+              "before": "none",
+              "after": "Spot Arm available separately; no included stock arm established"
+            },
+            "payload": {
+              "before": "14 kg",
+              "after": ""
+            },
+            "speed": {
+              "before": "1.6 m/s",
+              "after": ""
+            },
+            "terrain": {
+              "before": "All terrain, stairs",
+              "after": ""
+            },
+            "ipRating": {
+              "before": "IP54",
+              "after": ""
+            },
+            "website": {
+              "before": "https://www.bostondynamics.com/",
+              "after": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/"
+            },
+            "description": {
+              "before": "Self-charging dock, thermal cameras, autonomous patrol",
+              "after": "Spot Enterprise is the self-charging Spot version announced February 2, 2021 with a dock and upgraded safety, communications and remote-mission hardware. Scout enabled web-based fleet operation; a combined CAM+IR inspection package was described separately. Exact 2021 robot mass, included payloads and battery duration are not established by that announcement. Numeric values from the current bare Spot or a later Enterprise Asset Management Kit are not assigned to every Enterprise robot."
+            }
+          }
+        },
+        {
+          "robotId": "boston-dynamics-bigdog",
+          "changes": {
+            "price": {
+              "before": "Research project",
+              "after": ""
+            },
+            "weight": {
+              "before": "110 kg",
+              "after": ""
+            },
+            "size": {
+              "before": "medium",
+              "after": ""
+            },
+            "tags": {
+              "before": "research;all-terrain;dev-platform",
+              "after": "research;prototype;quadruped;all-terrain;legacy"
+            },
+            "handType": {
+              "before": "none",
+              "after": ""
+            },
+            "payload": {
+              "before": "150 kg",
+              "after": ""
+            },
+            "speed": {
+              "before": "6.4 km/h",
+              "after": ""
+            },
+            "terrain": {
+              "before": "All-terrain",
+              "after": "Historical rough-terrain research"
+            },
+            "website": {
+              "before": "https://en.wikipedia.org/wiki/BigDog",
+              "after": "https://bostondynamics.com/about/history/"
+            },
+            "description": {
+              "before": "DARPA-funded rough-terrain quadruped unveiled in 2005; ~110 kg, carried up to 150 kg over ice, rubble and slopes, a landmark in dynamic-balance legged robotics.",
+              "after": "BigDog is the historical dynamically balanced legged robot that Boston Dynamics describes as its first to leave the lab. The manufacturer history lists rough-terrain navigation, sensing and control under a 2004 timeline milestone. That milestone does not establish exact first public release, mass, carried load or speed; those technical ratings remain unverified by the selected history source."
+            },
+            "releaseDate": {
+              "before": "2005",
+              "after": ""
+            }
+          }
+        },
+        {
+          "robotId": "boston-dynamics-ls3",
+          "changes": {
+            "price": {
+              "before": "Discontinued",
+              "after": ""
+            },
+            "weight": {
+              "before": "362 kg",
+              "after": ""
+            },
+            "size": {
+              "before": "large",
+              "after": ""
+            },
+            "batteryLife": {
+              "before": "24 hours",
+              "after": ""
+            },
+            "maxRuntime": {
+              "before": "1440 min",
+              "after": ""
+            },
+            "tags": {
+              "before": "all-terrain;military;autonomous-nav;legacy",
+              "after": "research;prototype;quadruped;logistics;legacy"
+            },
+            "handType": {
+              "before": "none",
+              "after": ""
+            },
+            "payload": {
+              "before": "180 kg",
+              "after": "400 lb carrying payload (manufacturer history)"
+            },
+            "speed": {
+              "before": "11 km/h",
+              "after": ""
+            },
+            "terrain": {
+              "before": "Extreme terrain, mud, forest, snow",
+              "after": "Historical rough-terrain logistics research"
+            },
+            "website": {
+              "before": "https://www.bostondynamics.com",
+              "after": "https://bostondynamics.com/about/history/"
+            },
+            "description": {
+              "before": "Legged Squad Support System (LS3) developed for DARPA, powered by an internal combustion engine, designed to carry heavy military gear over extreme terrain.",
+              "after": "LS3, the Legged Squad Support System, is a historical rough-terrain research robot described by Boston Dynamics as carrying 400 lb and travelling 20 miles before refueling. Obstacle-navigation sensors supported the platform. Fuel range is not battery life, so a former 24-hour battery field is withdrawn. The 2010 timeline node is a historical milestone, not verified first-release date."
+            },
+            "releaseDate": {
+              "before": "2012",
+              "after": ""
+            }
+          }
+        },
+        {
+          "robotId": "boston-dynamics-wildcat",
+          "changes": {
+            "price": {
+              "before": "Prototype",
+              "after": ""
+            },
+            "weight": {
+              "before": "150 kg",
+              "after": ""
+            },
+            "size": {
+              "before": "medium",
+              "after": ""
+            },
+            "batteryLife": {
+              "before": "5 min (gas tank)",
+              "after": ""
+            },
+            "maxRuntime": {
+              "before": "5 min",
+              "after": ""
+            },
+            "tags": {
+              "before": "prototype;high-speed;all-terrain;legacy",
+              "after": "research;prototype;quadruped;high-speed;legacy"
+            },
+            "handType": {
+              "before": "none",
+              "after": ""
+            },
+            "speed": {
+              "before": "30 km/h",
+              "after": "19 mph on flat terrain (manufacturer history)"
+            },
+            "terrain": {
+              "before": "Flat and rough terrain",
+              "after": "Flat terrain for stated speed demonstration"
+            },
+            "website": {
+              "before": "https://www.bostondynamics.com",
+              "after": "https://bostondynamics.com/about/history/"
+            },
+            "description": {
+              "before": "Experimental high-speed bounding quadruped powered by a two-stroke gasoline engine, reaching speeds of 30 km/h with a galloping gait.",
+              "after": "WildCat is the historical high-speed quadruped named in Boston Dynamics history. The manufacturer reports 19 mph on flat terrain with dynamic balance and variable gaits. This is not a loaded rough-terrain performance guarantee, and the source does not establish mass or five-minute battery endurance. Its timeline node is not treated as exact release chronology."
+            },
+            "releaseDate": {
+              "before": "2013",
+              "after": ""
+            }
+          }
+        },
+        {
+          "robotId": "boston-dynamics-e-atlas",
+          "changes": {
+            "price": {
+              "before": "Not disclosed",
+              "after": ""
+            },
+            "weight": {
+              "before": "~85 kg",
+              "after": ""
+            },
+            "size": {
+              "before": "large",
+              "after": ""
+            },
+            "batteryLife": {
+              "before": "N/A",
+              "after": ""
+            },
+            "tags": {
+              "before": "prototype",
+              "after": "research;prototype;humanoid;electric;legacy"
+            },
+            "handType": {
+              "before": "none",
+              "after": ""
+            },
+            "website": {
+              "before": "https://www.bostondynamics.com/",
+              "after": "https://bostondynamics.com/blog/electric-new-era-for-atlas/"
+            },
+            "image": {
+              "before": "images/humanoid/boston-dynamics-e-atlas-2.webp",
+              "after": ""
+            },
+            "description": {
+              "before": "Fully electric Atlas humanoid for industrial manipulation.",
+              "after": "E-Atlas is the retained catalog label for the electric Atlas development platform introduced April 17, 2024. Boston Dynamics calls it electric Atlas rather than a separate official E-Atlas model. The announcement retires hydraulic Atlas, introduces a fully electric platform, describes a Hyundai development path and explores gripper variations. Exact mass, whole-body DOF, payload and battery endurance for that 2024 platform are not established; the 2026 production sheet is not backfilled into it."
+            }
+          }
+        },
+        {
+          "robotId": "boston-dynamics-atlas",
+          "changes": {
+            "price": {
+              "before": "39000 USD",
+              "after": ""
+            },
+            "weight": {
+              "before": "~90 kg",
+              "after": "90 kg"
+            },
+            "size": {
+              "before": "",
+              "after": "1.9 m height"
+            },
+            "batteryLife": {
+              "before": "~1 hour",
+              "after": "4 h typical use; 2 h heavy lifting"
+            },
+            "tags": {
+              "before": "industrial",
+              "after": "industrial;commercial;humanoid;material-handling;embodied-ai"
+            },
+            "handType": {
+              "before": "none",
+              "after": "Tactile fingers and palm; exact gripper configuration not established"
+            },
+            "dof": {
+              "before": "28",
+              "after": "56"
+            },
+            "payload": {
+              "before": "11 kg",
+              "after": "50 kg instant; 30 kg sustained; 20 kg one-handed"
+            },
+            "speed": {
+              "before": "2.5 m/s",
+              "after": ""
+            },
+            "terrain": {
+              "before": "",
+              "after": "Industrial workspaces; −20°C to 40°C"
+            },
+            "ipRating": {
+              "before": "",
+              "after": "IP67"
+            },
+            "website": {
+              "before": "https://www.bostondynamics.com/",
+              "after": "https://bostondynamics.com/products/atlas/"
+            },
+            "image": {
+              "before": "images/humanoid/boston-dynamics-atlas-2.webp",
+              "after": ""
+            },
+            "video": {
+              "before": "https://www.youtube.com/embed/29ECwExc-_M",
+              "after": ""
+            },
+            "description": {
+              "before": "",
+              "after": "The current production Atlas is the electric enterprise humanoid announced January 5, 2026, distinct from the retired hydraulic Atlas and April 2024 electric development platform. Its October 15, 2026 datasheet specifies 1.9 m height, 90 kg, 56 DOF and IP67. Capacity is 50 kg instant, 30 kg sustained or 20 kg one-handed. Typical endurance is four hours, or two hours with heavy lifting; a three-minute autonomous battery swap is distinct from 1.5-hour charging. The 2.3 m reach has general workspace scope rather than an established arm-link length."
+            },
+            "releaseDate": {
+              "before": "2013",
+              "after": "2026"
+            },
+            "chargingTime": {
+              "before": "",
+              "after": "1.5 h; autonomous battery swap approx. 3 min (separate)"
+            }
+          }
+        }
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 389,
+        "withoutSelectedFieldReview": 129,
+        "selectedFields": 6443,
+        "selectedFieldStatuses": {
+          "documented": 2928,
+          "not-documented": 3344,
+          "conflicting": 160,
+          "roadmap": 11
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 89,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      }
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 988,
+      "individualHighlights": 4304,
+      "productSourceReferences": 1909,
+      "specificationReviewModels": 838,
+      "specificationFields": 14087,
+      "publicJsonBytes": 3628031,
+      "catalogScriptBytes": 2143502,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 132,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "pdfVisualInspectionPerformed": false,
+    "pdfTextInspectionPerformed": true,
+    "formsSubmitted": 0,
+    "cartActions": 0,
+    "scope": "793 unit tests/64 files;16 selected desktop/mobile cases including4 axe runs, Atlas generation/load/energy scope, Spot body/kit/dock/arm, Stretch configurations, legacy fuel/morphology, comparison, company focus and highlight-only search. All838 rendered selected-review pages/14087 fields and exact comparison payload checked.17 selected pages/318 fields verified.27 collector attempts:25 HTTP200 bodies including6 PDFs and2 guessed404 paths. PDFs checked as extracted text only. No app-code change; prior full application browser/Python/lint results remain historical, not rerun. No complete historic/revision lineup, independently proven exclusive USP or market leadership certified."
+  },
+  "inspectionCorrectionReport": "reports/competitor-evidence-inspection-correction-2026-11-02.json",
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "8a15a4714b8bedd500492e409698d2a3b184cb5c",
+    "dataCommit": "d660cdced1c64d52c7da3f2a56175abb3df0765c",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true
+  },
+  "goalComplete": false
+}

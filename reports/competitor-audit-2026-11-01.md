@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 592 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.066 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 812 |
-| Datierte Produktmerkmal-Datensätze einschließlich 161 bestehender Modelle | 973 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.076 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 822 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 988 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 92 |
+| Firmenfokus-Prüfungen mit Quellen | 93 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 812 ergänzte Modelle ergeben 2.066 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 822 ergänzte Modelle ergeben 2.076 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-92 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+93 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 973 Datensätze
+Modellseiten verlinken Markenprofile. Die 988 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 387 haben ausgewählte Datenfeldprüfungen und 131
+haben datierte Merkmalsbelege; 389 haben ausgewählte Datenfeldprüfungen und 129
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -8146,3 +8146,119 @@ formatiert. Keine Anwendungslogik geändert; frühere vollständige Browser-/Pyt
 Prüfungen bleiben historische Ergebnisse. Eigene Test-/Browserprozesse geschlossen,
 Port4321 frei; andere Aufgaben unangetastet. Dauerhafter Beleg:
 `reports/competitor-batch-98-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Boston Dynamics Generationen und Konfigurationen (Batch 99)
+
+Zehn neue Modell-/Komplettkonfigurationskarten: Hydraulic Atlas, PETMAN, Stretch,
+Stretch for Case Pick, Spot Enterprise Asset Management Kit, Handle, Spot Classic,
+Sandflea, RHex und RiSE. Sieben bestehende Einträge geprüft: Atlas, E-Atlas, Spot,
+Spot Enterprise, BigDog, LS3 und WildCat. 318 ausgewählte Felder: 98 dokumentiert,
+218 unbekannt, zwei Quellenkonflikte. Ein Firmenfokus ergänzt, insgesamt 93.
+Die 2059 anderen bisherigen Katalogzeilen, alle 821 früheren Feldprüfungen,
+92 früheren Firmenfokusse, Profile/Aliasse und 1961 Quellenidentitäten unverändert.
+Vorherige Atlas-/Spot-Produktbelege bleiben im Manifest erhalten.
+
+Atlas: Die aktuelle Karte beschreibt die am 5. Januar 2026 angekündigte
+Produktionsversion. Hersteller-Article-datePublished und explizite Ankündigung
+belegen diesen Versionsstart, nicht den Beginn des Atlas-Gesamtprogramms.
+1,9 m, 90 kg, 56 DOF und IP67 laut aktueller Seite/Datenblattrevision 15. Oktober
+2026. Traglasten: 50 kg momentan, 30 kg dauerhaft, 20 kg einhändig. Vier Stunden
+typische Laufzeit, zwei Stunden bei schwerem Heben. Ungefähr drei Minuten autonomer
+Akkuwechsel sind getrennt von 1,5 Stunden Laden; kein 24-Stunden-Akku daraus.
+2,3 m allgemeiner Reach-Wert wird nicht ohne Armbezug als mechanische Armreichweite
+eingetragen. Unbelegten früheren 39000-USD-Preis, hydraulischen DOF-/Geschwindigkeits-
+und alten Laufzeitbezug entfernt. Vorhandene Bild-/Videozuordnung bei Atlas/E-Atlas
+geleert, weil die Zuordnung zur jeweils präzisen Generation nicht verifiziert ist;
+keine Assetdateien gelöscht und keine Ersatzbilder erfunden.
+
+E-Atlas bleibt als Katalogbezeichnung für die am 17. April 2024 vorgestellte
+elektrische Entwicklungsplattform erhalten. Der Hersteller nennt sie Electric Atlas,
+nicht ein eigenständiges offizielles E-Atlas-Produkt. Ihre exakten technischen Werte
+werden nicht aus der 2026-Karte zurückübertragen. Hydraulic Atlas/HD Atlas als
+historische Plattform separat ergänzt; aktuelle Elektrodaten nicht übernommen.
+PETMAN ist in der Hersteller-Retrospektive als Schutzkleidungs-Testroboter benannt,
+ohne daraus ein vollständiges Datenblatt zu erfinden.
+
+Spot: aktive HTML-Seite nennt 33,8 kg mit Akku; verlinktes Datenblatt vom 22. Mai
+2024 nennt 32,7 kg. Keine Hardware-/Revisionszuordnung löst den Unterschied auf.
+PDF-Länge 1100 mm; HTML druckt 110 mm neben 43,3 Zoll. Beide Abweichungen sichtbar
+als Konflikt, ohne stillschweigende Korrektur. 500 mm Breite, 610 mm Standard-Gehhöhe
+bleiben Posenangaben; 520–700 mm Gehbereich und 191 mm Sitzhöhe nicht vermischt.
+14 kg montierte Nutzlast, 1,6 m/s, ±30° Steigung, 300-mm-Stufe und IP54 behalten
+ihren jeweiligen Umfang. Betriebsbereich −20°C bis 55°C; Einschalten laut PDF erst
+ab 0°C. SDK nennt zwei Hüftgelenke plus ein Knie je Bein: zwölf an vier Beinen,
+kein zusätzlich eingeschlossener Arm daraus abgeleitet.
+
+564-Wh-Akku: durchschnittlich 90 Minuten, abhängig von Nutzlast und Umgebung;
+180 Minuten Standby sind kein aktiver Betrieb. 60 Minuten generische Akku-Recharge-
+Angabe bleibt getrennt von Docktabellen: bei 25°C 50 Minuten bis 80 Prozent/zwei
+Stunden bis 100 Prozent; bei 35°C 2,5/3,5 Stunden. Optionaler Spot Arm: sechs DOF
+plus Greifer, 8 kg Masse; 11 kg maximales Heben, 5 kg dauerhaft bei 0,5 m Ausladung,
+25 kg Ziehen auf Teppich, jeweils mit 22°C-Laborbedingung. Keine pauschale 25-kg-
+Traglast oder zusätzliche Armmasse außerhalb des Nutzlastbudgets zugesichert.
+
+Spot Enterprise: Ankündigung vom 2. Februar 2021 belegt selbstladende Ausführung
+mit Dock und geänderter Kommunikations-/Remote-Hardware. Damalige Basisrobotik,
+CAM+IR-Komplettangebot und aktueller Bare-Spot-Bestand behalten ihren Umfang.
+Das gesonderte Enterprise Asset Management Kit ist eine dokumentierte komplette
+Sensor-/Software-/Dockkonfiguration, kein zusätzlicher Basis-Chassis-Typ.
+Kitmasse mit Akku 43,8 kg ohne bzw. 47,5 kg mit optionalem Fluke SV600; Geh-Standardhöhe
+mit Aufbauten 967 mm. IP54 und durchschnittlich 90 Minuten sind Roboterwerte;
+IP65 und acht Stunden gehören zum Tablet. Kit-Umgebung −20°C bis 45°C.
+EAP-2-LiDAR-100-m-Reichweite/±3-cm-Sensorgenauigkeit ist keine Roboternavigations-
+genauigkeit. Kein verbleibender Nutzlastspielraum aus unvollständigen Angaben errechnet.
+
+Stretch: Trailerentladung und Case Pick sind dokumentierte Komplettkonfigurationen
+mit eigenen Tabellen. Entladung: 1300 kg Robotermasse, 40×48-Zoll-Footprint,
+bis 16 Stunden Laufzeit, 50 lb/Herstelleräquivalent 23 kg Kistenlast,
+600–800 Kisten/h als Herstellerangabe für diese Aufgabe. Vakuumgreifer,
+Onboard-Beleuchtung, selbständige Bergung heruntergefallener Kisten und Multipick
+werden genannt. Nominal ungefähr zwei Stunden bis 90 Prozent am Fast Charger;
+unter-zwei-Stunden-Marketing bleibt keine bedingungslose Vollladegarantie.
+
+Case Pick: 1500 kg Robotermasse, bis 1300 kg ziehbare Palette, 23 kg Kisten,
+bis 2 m/s, gebaute Paletten bis 1,8 m. Eigenes Armdesign mit zusätzlichem Gelenk,
+ohne vollständige DOF-Zahl daraus. Bis 16 Stunden Laufzeit; 90 Prozent in einer
+Stunde 45 Minuten am Fast Charger. Mindestens zehn Fuß/Herstelleräquivalent drei
+Meter breite Gänge und zunächst Umgebungslagerung im Regal. Engere Gänge,
+offene Palettenfelder und Kühllager bleiben Entwicklungsperspektive. Keine
+600–800-Kisten-Entladeleistung als Case-Pick-Durchsatz übernommen. Gemeinsame
+3,2 m vertikale/1,95 m horizontale Arbeitsräume sind weder Stapelhöhe noch ein
+eindeutig belegtes mechanisches Armlängenmaß. WMS-/Orbit-Integration ersetzt keine
+unabhängig gemessene Facility-Produktivität.
+
+Herstellerhistorie: Hydraulic Atlas, Handle, Spot Classic, WildCat, Sandflea,
+LS3, RHex, RiSE und BigDog getrennt geprüft. Zeitleistenknoten sind Meilensteine,
+keine automatisch verifizierten Erstjahre. LS3: 400 lb Last und 20 Meilen vor
+Nachtanken, keine 24-Stunden-Akkulaufzeit. WildCat: 19 mph auf ebener Fläche,
+keine belastete Geländegarantie. Sandflea: 11 lb und 30 Fuß vertikales Springen;
+RHex: 30 lb, sechs Beine, ferngesteuert und kopfüber beweglich; RiSE: ungefähr
+50 Haken je Fuß und 5 cm/s Klettergeschwindigkeit. Sechs Beine sind keine belegte
+Sechs-DOF-Angabe. Nicht dokumentierte frühere Preise und Spezifikationen bleiben
+unbekannt statt durch Werte aktueller Plattformen ersetzt zu werden.
+
+27 gespeicherte Collector-Versuche: 25 HTTP200-Bodies einschließlich sechs PDFs,
+zwei vermutete Pfade mit404, keine 403/429. Öffentliche Herstellerlinks, WP-Such-/
+Media-API und SDK-Navigation genutzt; API-Suchergebnisse dienen zur Dokument-
+auffindung, nicht als technische Produktbelege. Alle Body-Hashes geprüft.
+PDFs als extrahierten Text geprüft; keine visuelle Bild-/Zeichnungs-/Videosichtung
+behauptet. Keine Formulare oder Warenkorbaktionen, keine zuvor blockierten Hosts
+erneut abgerufen. Die frühere separate Inspektionskorrektur bleibt dokumentiert.
+
+Aktuell 2076 Modelle/Konfigurationen, 988 Produktmerkmal-Datensätze, 4304 Aussagen,
+1909 Produktquellenverweise. Ausgewählte Prüfungen: 14087 Felder auf 838 Modellen;
+6070 dokumentiert, 7698 unbekannt, 256 widersprüchlich/ungeklärt und 63 Roadmap.
+Ursprüngliche 518 Ziele: 389 mit Feldprüfungen, 129 offen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte bleiben offen. Keine Vollständigkeit,
+exklusiven USPs oder erreichte Marktführerschaft allein aus diesen Beständen abgeleitet.
+
+793 Unit-Tests/64 Dateien, 16 ausgewählte Desktop-/Mobilfälle einschließlich vier
+Axe-Läufen bestanden. Alle 838 gerenderten Prüfseiten/14087 Felder, 17 ausgewählte
+Seiten/318 Felder, Firmenfokus, Exporte, Suche und Vergleichs-Payload abgeglichen.
+Build 3126 Seiten/ca. 484 MB. Audit null Fehler/980 Warnungen: alle 14 zusätzlichen
+Warnungen sind ausdrücklich unbekannte Erstjahre. Import-Trockenlauf null Ergänzungen,
+Offline-Refresh und Lint/Format der geänderten Testdatei bestanden. Keine Anwendungscode-
+Änderung; frühere vollständige App-Browser-/Python-Ergebnisse bleiben historische
+Ergebnisse. Eigene Prozesse beendet und Port4321 frei; andere Aufgaben unberührt.
+Dauerhafter Beleg: `reports/competitor-batch-99-evidence.json`.
