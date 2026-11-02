@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.233 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 979 |
-| Datierte Produktmerkmal-Datensätze einschließlich 170 bestehender Modelle | 1149 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.262 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1008 |
+| Datierte Produktmerkmal-Datensätze einschließlich 170 bestehender Modelle | 1178 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 115 |
+| Firmenfokus-Prüfungen mit Quellen | 116 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 979 ergänzte Modelle ergeben 2.233 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1008 ergänzte Modelle ergeben 2.262 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-115 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+116 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1149 Datensätze
+Modellseiten verlinken Markenprofile. Die 1178 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 448 haben ausgewählte Datenfeldprüfungen und 70
+haben datierte Merkmalsbelege; 450 haben ausgewählte Datenfeldprüfungen und 68
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 510 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 515 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -10216,3 +10216,28 @@ Die erste Unit-Prüfung bestand 807/808 Fälle und fand die fehlenden kanonische
 Von den ursprünglichen 518 Recherche-Zielen haben jetzt 448 ausgewählte Feldprüfungen, 70 warten darauf. Drei Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Volle historische Portfolios, aktuelle weltweite Lieferbarkeit, unabhängige Leistung, exklusive USPs und Platz 1 im Markt oder in Suchmaschinen sind weiterhin nicht bewiesen. Die offenen externen YouTube-/Axe-Befunde aus Batch 106 bleiben bestehen.
 
 Daten-Zwischencommit: `5f713633bede711db57b752ffade49a297b2c2ba`, auf `codex/competitor-directory-expansion` gepusht. `main` unverändert; keine Bereitstellung. Dauerhafter Prüfbericht: `reports/competitor-batch-122-evidence.json`.
+
+## Ergänzung vom 2. November 2026 – SuperDroid: Katalog, Entwicklungsplattformen und historische Konfigurationen (Batch 123)
+
+36 erfolgreiche öffentliche Herstellerantworten und alle 35 Karten der Übersicht wurden geprüft. 29 Katalogkarten sind ausgewählten Konfigurationen zugeordnet, sechs bleiben ausdrücklich ungeklärt. Jack Russell und Lynx ergänzen die Auswahl aus der aktuellen Navigation: insgesamt 31 geprüfte Einträge, davon 29 neue und zwei bestehende Gopher-/Bulldog-Erweiterungen. Das ist keine Bestätigung des gesamten historischen Portfolios oder gegenwärtiger Lieferbarkeit.
+
+1.026 ausgewählte Datenfelder: 248 dokumentiert, 768 nicht dokumentiert, acht widersprüchlich und zwei Entwicklungs-/Roadmap-Felder. 88 zusätzliche Aussagen und 37 zusätzliche Quellenreferenzen sowie ein neuer Firmenfokus. Der Gesamtbestand umfasst damit 2.262 Einträge, 1.178 Merkmalsdatensätze mit 5.298 Aussagen/2.381 Quellenreferenzen sowie 1.091 Feldprüfungen mit 20.753 Feldern.
+
+- Gopher ist ausdrücklich die umbenannte GPK-32-Tracked-Linie. 7,6 lb Robotergewicht und 12,5 × 10,25 × 5 in Körpermaße bleiben von Versandgewicht/-maßen getrennt; die Antenne erhöht die Höhe auf 11 in. Etwa vier Stunden sind lastabhängig. 2.480 USD für denselben Produktionsbatch und 3.600 USD für die Standardbestellung haben unterschiedliche Vorlaufbedingungen. Keine formale IP-Klassifikation laut FAQ. Drei ältere Wheel-/Zoom-Links führen jetzt zum generischen Gopher; das beweist keine technische Gleichheit sämtlicher historischer Varianten.
+- Bulldog Lite/Standard/Pro bleiben Pakete auf einer Plattform: mehr als zwei, bis zu vier und ein Achtstunden-Akkupaket. OCU-Laufzeit und -Masse werden nicht als Roboterwerte verwendet. Der Arm hat getrennte Traglast-, Greifkraft- und Bezugspunktangaben für horizontale/vertikale Reichweite. Flipper-Ausstattung und pauschale Treppenprosa stimmen nicht vollständig überein. Jack Russell Pro ergänzt Flipper und Relaisfunktion; Jack-Russell-Roboterlaufzeit und -masse bleiben offen. Der aktuelle Überblick nennt Dalmatian ausdrücklich früher Bloodhound. Wiederholte Arm-/Lastlisten unter verschiedenen Robotern werden nicht als genaue Dalmatian-Spezifikation übernommen.
+- Groundhog Standard und Pro werden über native HTML-Tabellenzellen getrennt. Standard: Vergleichsgewicht 20 lb gegenüber 45 lb im Zusatzblock; 60 in Höhe mit Mast gegenüber nicht zugeordneten 13,5 in im Zusatzblock. Gewicht bleibt leer/widersprüchlich, beide Maßangaben bleiben qualifiziert. Zwei bis vier Stunden und die zusätzliche Vierstundenangabe sind als Bereich/Obergrenze vereinbar. Pro: 27 lb, 16 × 14 × 60 in mit Mast, ungefähr vier Stunden sowie LiDAR/duales Stereo, Vorwärts-/Rückwärtsfahrt und mitgelieferte Basisstation. 3.500 USD sind eine Anzahlung; 45.000 USD ist der separat gelistete Gesamtpreis. DroneDeploy ist in Entwicklung; Sichtfeld/Sensortiefe sind keine Lokalisierungsgenauigkeit.
+- Mastiff: sechs Achsen als Überschrift, fünfte/sechste zugleich optional – DOF bleibt widersprüchlich leer. 2 ft/s stimmen nicht mit den veröffentlichten ungefähren 110 ft/min/1,25 mph überein. Doberman hat ebenfalls uneinheitliche Geschwindigkeitsumrechnungen; seine Rollkäfig-/Kameraoptionen verändern den Umriss. Greifkraft wird nicht zur Nutzlast.
+- Die Tether-Crawler MLT-JR V2, SST2 V2, MLT-42-W, LT2-F-W und SCT-32-W behalten eigene Maße, Roboter-/Paketmassen, Zusatzlasten und Laufzeiten. Tetherlängen, Controller und Kamerawerte sind getrennte Größen. „Watertight“ ist keine IP- oder Tauchtiefenklassifikation. Der Null-USD-Platzhalter von SCT-32-W wird nicht als kostenloser Roboter importiert. Squirrel (MLT) führt zur MLT-JR-Seite; daraus entsteht kein zusätzlich angenommenes Modell.
+- HK1500-DM6-E und HK1000-V2 (DM4-E) unterscheiden sechs/vier Räder und Standardkonfigurationen. RC, grundlegende ROS-Steuerung und erweiterte Navigation sind keine austauschbaren Autonomiezusagen. Die vollständige V2-Bezeichnung wurde aus der Produktüberschrift vor Commit ergänzt; ein veralteter eigener Build wurde beendet und neu erstellt. VIPR/VIPR-L benötigen für die 200-lb-Transportlast eine zusätzliche Trageplattform; VIPR-D ist die kleinere Entwicklungsplattform. GNSS-Genauigkeit des GPS-4WD-Modells bleibt auf Here2 beziehungsweise die optionale RTK-Basisstation bezogen. SPAR ist eine eigene Integration auf HK1500-Basis; deren Gesamtwerte werden nicht aus dem nackten Chassis geerbt.
+- Lynx ist ausdrücklich in Entwicklung. Zwölf Beinaktoren sind Entwurfsangaben; OCU-Achtstundenwerte liefern keine Vierbeinerlaufzeit. Rocky beschreibt 22 Körpergelenke, 1,58 m nominale Standhöhe und ungefähr 45 kg Klasse als Entwicklungshardware mit Integrationsbedarf. Lite-Rahmen und optionale 20-DOF-Handsysteme bleiben separate Rollen. Die verlinkte Browser-MuJoCo-Seite ist keine physische Live-Demonstration und belegt keine sofort einsatzfähige Gehfunktion.
+- Fünf Outdoor-Konfigurationen trennen den eingestellten 66-in-Mäher, Gas-/Elektro-Umbauchassis, den beschriebenen 25-in-Hangmäher und den RC-Schneepflug. Die Umbaupakete enthalten standardmäßig weder Mäher noch Montage. Chassis- und vollständige Mähermasse, Decknennmaß und effektive Schnittbreite sind getrennt; Fläche pro Ladung ist keine Laufzeit oder Stundenleistung. Beim 66-in-Mäher und Schneepflug verhindern unterschiedliche Motorspezifikationen einen eindeutigen Geschwindigkeitswert; die Pflugmaße sind widersprüchlich beschriftet. Hersteller-Hangangaben werden nicht zu unabhängigen sicheren Betriebsgrenzen. Interaktive Schätzer und Videocontroller sind keine gemessenen Daten, Nullpreisangebote oder Live-Arbeit.
+
+Sechs Katalogkarten bleiben offen: GPK-32 4WD, 4WD Zoom, Tracked Zoom, Drop Ceiling, Big Cat und generische alternative Rocky-Basen. Veraltete Weiterleitungen oder Homepage-/Raute-Platzhalter reichen nicht zur Gleichsetzung mit aktuellen Robotern. Die 35 Einzelentscheidungen und zwei zusätzlichen Navigationsmodelle sind im dauerhaften Bericht enthalten. Viele alte Produktseiten kennzeichnen die konkrete Version als nicht mehr verkauft; Warenkorb-/Vorlauftexte widerlegen diesen ausdrücklichen Status nicht. Preise bleiben datierte Konfigurations-/Historienangaben, keine garantierten aktiven Angebote.
+
+Extrahierter Herstellertext, native HTML-Tabellen-/Zellzuordnung, Produktcodes, Statushinweise und tatsächliche Weiterleitungsziele wurden geprüft. Keine visuelle Bild-/PDF-Prüfung; keine Formulare, Kontaktaufnahmen oder Käufe. Zwei Sanbot-Startanfragen scheiterten an TLS und wurden ausgeschlossen, ohne die Zertifikatsprüfung zu umgehen.
+
+808 Unit-Tests in 64 Dateien und 20 Browserfälle auf Desktop/Mobil einschließlich vier Axe-Prüfungen bestanden. Der Build erzeugt 3.312 Seiten. Das Datenaudit meldet keine Fehler und 1.144 Warnungen; die 29 zusätzlichen Warnungen betreffen ausschließlich nicht belegte Erscheinungsjahre der 29 Ergänzungen. Geprüft wurden 31 Produktseiten mit 1.026 Feldern, 189 Quellenbadges, 775 ausgelassenen Leerfeldern, 166 strukturierten Eigenschaften und 94 Merkmalsaussagen. Die Auswahl erzeugt keine Zeilen im Modell-Export oder Firmenprodukt-Export; die ursprüngliche Recherche-Queue enthält zwei passende Ziele mit 74 Feldern. Firmenfokus und Firmenexport, Suche, Vergleich und vollständiger JSON-Belegexport wurden geprüft. Der Reimport ergänzt keine Einträge. Die geänderte Testdatei besteht Lint- und Formatprüfung. Alle eigenen Testprozesse einschließlich Browser und Vorschau sind geschlossen; Ressourcen anderer Aufgaben blieben erhalten.
+
+Von den ursprünglichen 518 Recherche-Zielen haben jetzt 450 ausgewählte Feldprüfungen, 68 warten darauf. Drei Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Die sechs SuperDroid-Konfigurationsfragen, vollständige historische Sortimente, unabhängige Leistungs-/Exklusivitätsbelege und Platz 1 sind weiterhin nicht bewiesen. Die offenen externen YouTube-/Axe-Befunde aus Batch 106 bleiben bestehen.
+
+Daten-Zwischencommit: `7bea67e215bf8cf52158764c96898ba573e61ec6`, auf `codex/competitor-directory-expansion` gepusht. `main` unverändert; keine Bereitstellung. Dauerhafter Prüfbericht: `reports/competitor-batch-123-evidence.json`.
