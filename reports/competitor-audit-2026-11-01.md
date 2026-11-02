@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.134 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 880 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1046 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.139 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 885 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1051 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 106 |
+| Firmenfokus-Prüfungen mit Quellen | 108 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 880 ergänzte Modelle ergeben 2.134 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 885 ergänzte Modelle ergeben 2.139 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-106 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+108 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1046 Datensätze
+Modellseiten verlinken Markenprofile. Die 1051 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 419 haben ausgewählte Datenfeldprüfungen und 99
+haben datierte Merkmalsbelege; 423 haben ausgewählte Datenfeldprüfungen und 95
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 494 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 495 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -9409,3 +9409,92 @@ identitäten und 862 Buy-Detailinhalte offen; vollständige Herstellerabdeckung,
 unabhängig exklusive USPs oder Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `5cabb6e47375f25946b19a1b278426d5f4899db5` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-113-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Running Brains/Simbe: Ankündigungen, Tally-Generationen und RFID-Konflikt (Batch 114)
+
+GR100, GR200, Tally und Tally RFID vertieft; fünf ausdrücklich benannte Tally-
+Generationen 1.0, 2.0, 2.6, 3.0 und 4.0 ergänzt. Neun Modelle mit 333 ausgewählten
+Feldern: 37 dokumentiert, 290 unbekannt, ein Quellenkonflikt und fünf Roadmap-Felder.
+29 zusätzliche Aussagen und netto 15 Produktquellenverweise; zwölf alte Aussagen
+und Entdeckungsprovenienz bewahrt. Zwei neue Firmenfokusse.
+
+GR100: Firmengeschichte belegt Start 2021. Produktseite nennt 157 kg, maximal
+1,5 m/s, 4,5 Stunden Autonomie, −10 bis 40 °C sowie 1,5 Stunden Schnellladen bei
+1000 W. Ladefenster und Massen-/Ausrüstungseinschluss nicht geklärt. Fünf Kameras
+enthalten eine thermografische Kamera. RaaS umfasst Roboter/Dock, 25 einfache
+POI/TOI, RBOC, Software/AI, zwei 4G-SIMs, Hotline und Wartung, Preis auf Anfrage.
+Premiumstation separat: 2 m Höhe, virtuelle 50-m-Barriere, PTZ/LiDAR und Überwachung;
+keine Robotermaße oder nachgewiesene zertifizierte Personenschutzfelder daraus.
+
+GR200: Milipol-Präsentation 2025, Vermietung laut Hersteller für 2027 geplant,
+am Prüfdatum 2. November 2026 weiterhin zukünftig. Angekündigte 350 kg, maximal
+8–10 km/h, 8–10 Stunden, 25° Steigung und autonome RBOC-Patrouille als Roadmap
+markiert; sieben Kameras einschließlich Thermal und sechs Solid-State-LiDARs.
+Präsentations-/Mietplanjahr kein bestätigtes erstes Auslieferungsdatum. Kein
+übernommener GR100-Lade-, Stations- oder IP-Wert, keine heutige Mietzusage.
+
+Tally: vollständige Herstellermeldung vom 10. November 2015 belegt erste öffentliche
+Vorstellung und damalige Händlertests. Rund 30 lb und 38 in mit variablem Sensormast
+betreffen den damaligen generischen Entwurf, keine heutigen Maße/Masse oder
+automatische Tally-1.0-Zuordnung. Chronik nennt 1.0 interne Nutzung 2016 und 2.0
+Kundeneinsatz 2017, ohne exaktes erstes öffentliches Erscheinungsjahr zu belegen.
+2.6 ausdrücklich 2019 eingeführt: höher, zusätzliche Kameras, mehr als 50 Schnuck-
+Einheiten aufgerüstet; keine erfundene Höhe/Kamerazahl oder weltweite Flottenzahl.
+3.0 ausdrücklich 2020 gestartet: Bildverarbeitung, Haltbarkeit, Manövrierfähigkeit
+und eingebettete Verarbeitung. TIME-Reprint-Stummel vom Oktober 2023 kein Modellstart
+oder gelesener technischer Vollartikel.
+
+Tally 4.0: vollständige Herstellermeldung vom 12. Januar 2026, damals Kundenverfügbarkeit
+ab Mitte 2026 geplant. Aktuelle Familienseite nennt 4.0, ohne heutigen Lager-/Bestell-
+status zu belegen. Bis zwölf Stunden je Ladung; kürzeres/schnelleres Laden ohne
+exakte Dauer. Hochauflösende/Spezialkameras, 3D-Tiefe, duale Fisheye-360°-Sicht,
+NVIDIA-Edge/CUDA/TensorRT/DOCA-Argus und RealSense bleiben Integrationen/Funktionen,
+keine neuen Roboter. Aktuelle Familienseite nennt Lokalisierung auf 1–2 in in einem
+150.000-sq-ft-Geschäft und 99 Prozent Regaletiketten-Erkennung; verschiedene Messgrößen,
+keine unabhängige metrische Bildpräzision. Aktuelle Werte nicht auf alte Versionen
+oder jede RFID-Konfiguration übertragen.
+
+Tally RFID: vollständiger Herstellerstart vom 18. Juli 2018. Damals über 700 Tags/s
+und Submeter-Warenlokalisierung als datierte Aussagen. Aktuelle Seite bis 120.000
+Artikel/3 Stunden und 750 Tag-Leseereignisse/s: Artikelzahlen und rohe Lesungen nicht
+gleichgesetzt. Dieselbe Seite widerspricht sich mit bis 35 ft in der Kennzahl und
+bis 40 ft im Fließtext; Familienseite ebenfalls 40 ft. Beschreibung conflicting,
+beide Texte sichtbar, keine Auswahl eines vermuteten Tippfehlers. Keine Übertragung
+auf Roboterpositionierung oder universellen Erfassungsradius. RAIN/GS1-Positionierung
+bleibt Herstellerangabe; RFID-Konfiguration kein nachgewiesener neuer Fahrwerksentwurf.
+
+Tally Spot ist ein festes Kamerasystem, kein zusätzliches mobiles Robotermodell.
+RBOC, Vision, Mobile App, Virtual Tour, Brand Insights, APIs/Dashboards und RaaS/ROI
+behalten Software-/Dienstrollen. Herstellerbericht vom 4. März 2026 zu UL 3300 für
+Tally und Dock ohne unabhängige Registerprüfung oder Übertragung auf alle historischen
+Versionen; SOC 2 Type II Plattform und ISO 27001 Management andere Geltungsbereiche.
+Meldung vom 21. September 2026 nennt über 3.000 autonome Einheiten unter Vertrag,
+keine bewiesenen Auslieferungen oder unabhängig nachgewiesene Marktführerschaft.
+
+21 öffentliche HTTP-200-Antworten mit SHA-256, aktuelle/datierte Hersteller-HTML-Texte.
+Zwei abgerufene Formular-Landingpages sind keine erhaltenen PDF-Datenblätter; keine
+Formulare, Demos, Kontakte, Login oder Transaktionen. Sitemap/Newsroom nur Entdeckung,
+TIME-Stummel kein technischer Volltext. Keine visuelle PDF-/Bild-/Video-/CAD-Prüfung.
+
+2130 andere alte CSV-Zeilen, alle 928 alten Feldprüfungen, 106 alten Firmenfokusse,
+1042 andere Produktbelege und 1961 Quellenidentitäten unverändert. Keine neuen
+Spalten oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle
+mit vier Axe-Läufen, Build 3189 Seiten, Lint/Format, Refresh und Wiederimport bestanden.
+Audit null Fehler/1032 Hinweise: drei Startjahre ergänzt, zwei neue historische
+Versionen ohne aus interner Nutzung/Kundeneinsatz abgeleitetes Startjahr.
+Neun Seiten/333 Felder/41 Aussagen, zwei Firmenfokusse, strukturierte Eigenschaften,
+drei Modell-Exportziele/111 Feldvorkommen, eine Firmenbeschreibungs-Produktreferenz und
+vier ursprüngliche Queue-Ziele/148 Felder geprüft. Vergleich enthält 1051 Produktbelege,
+4688 Aussagen, 2155 Quellenverweise und 937 Prüfungen/16611 Felder. Eigene Browser-,
+Server- und Hilfsprozesse beendet, Port 4321 frei. Kein Deployment. Externe YouTube-
+Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2139 Modelle/Konfigurationen, 885 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung und 108 Firmenfokusse. Ursprüngliche Ziele: 423 geprüft, 95 offen
+von 518; 7400 Felder (3132 dokumentiert, 4081 unbekannt, 171 Konflikte, 16 Roadmap).
+Firmenfokus für 104 von 591 Quellengruppen. Drei Modellidentitäten, neun Listing-
+identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
+unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
+Datencommit `67d7b0041be2427046d4cd57771efb08dafb017e` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-114-evidence.json`.

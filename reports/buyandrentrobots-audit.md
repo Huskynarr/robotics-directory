@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,134 catalog rows**, with 644 exact
-manufacturer spellings. Batch 113 refreshed the separate heuristic gap file offline
-against all 2,134 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,139 catalog rows**, with 644 exact
+manufacturer spellings. Batch 114 refreshed the separate heuristic gap file offline
+against all 2,139 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1046 dated records across the catalog, including
-166 existing-model enrichments and 880 task additions. All 430 catalog models
+Current product-highlight coverage: 1051 dated records across the catalog, including
+166 existing-model enrichments and 885 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 880 task additions, totaling 2,134.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 885 task additions, totaling 2,139.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 419 have selected-field reviews and 99 await those reviews. Family and
+highlights; 423 have selected-field reviews and 95 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 16,278 fields across 928 catalog models: 6,558 documented,
-9,381 not documented, 269 conflicting and seventy roadmap fields. They do not certify whole
+Selected specification checks cover 16,611 fields across 937 catalog models: 6,595 documented,
+9,671 not documented, 270 conflicting and seventy-five roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -7174,3 +7174,92 @@ identitäten und 862 Buy-Detailinhalte offen; vollständige Herstellerabdeckung,
 unabhängig exklusive USPs oder Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `5cabb6e47375f25946b19a1b278426d5f4899db5` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-113-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Running Brains/Simbe: Ankündigungen, Tally-Generationen und RFID-Konflikt (Batch 114)
+
+GR100, GR200, Tally und Tally RFID vertieft; fünf ausdrücklich benannte Tally-
+Generationen 1.0, 2.0, 2.6, 3.0 und 4.0 ergänzt. Neun Modelle mit 333 ausgewählten
+Feldern: 37 dokumentiert, 290 unbekannt, ein Quellenkonflikt und fünf Roadmap-Felder.
+29 zusätzliche Aussagen und netto 15 Produktquellenverweise; zwölf alte Aussagen
+und Entdeckungsprovenienz bewahrt. Zwei neue Firmenfokusse.
+
+GR100: Firmengeschichte belegt Start 2021. Produktseite nennt 157 kg, maximal
+1,5 m/s, 4,5 Stunden Autonomie, −10 bis 40 °C sowie 1,5 Stunden Schnellladen bei
+1000 W. Ladefenster und Massen-/Ausrüstungseinschluss nicht geklärt. Fünf Kameras
+enthalten eine thermografische Kamera. RaaS umfasst Roboter/Dock, 25 einfache
+POI/TOI, RBOC, Software/AI, zwei 4G-SIMs, Hotline und Wartung, Preis auf Anfrage.
+Premiumstation separat: 2 m Höhe, virtuelle 50-m-Barriere, PTZ/LiDAR und Überwachung;
+keine Robotermaße oder nachgewiesene zertifizierte Personenschutzfelder daraus.
+
+GR200: Milipol-Präsentation 2025, Vermietung laut Hersteller für 2027 geplant,
+am Prüfdatum 2. November 2026 weiterhin zukünftig. Angekündigte 350 kg, maximal
+8–10 km/h, 8–10 Stunden, 25° Steigung und autonome RBOC-Patrouille als Roadmap
+markiert; sieben Kameras einschließlich Thermal und sechs Solid-State-LiDARs.
+Präsentations-/Mietplanjahr kein bestätigtes erstes Auslieferungsdatum. Kein
+übernommener GR100-Lade-, Stations- oder IP-Wert, keine heutige Mietzusage.
+
+Tally: vollständige Herstellermeldung vom 10. November 2015 belegt erste öffentliche
+Vorstellung und damalige Händlertests. Rund 30 lb und 38 in mit variablem Sensormast
+betreffen den damaligen generischen Entwurf, keine heutigen Maße/Masse oder
+automatische Tally-1.0-Zuordnung. Chronik nennt 1.0 interne Nutzung 2016 und 2.0
+Kundeneinsatz 2017, ohne exaktes erstes öffentliches Erscheinungsjahr zu belegen.
+2.6 ausdrücklich 2019 eingeführt: höher, zusätzliche Kameras, mehr als 50 Schnuck-
+Einheiten aufgerüstet; keine erfundene Höhe/Kamerazahl oder weltweite Flottenzahl.
+3.0 ausdrücklich 2020 gestartet: Bildverarbeitung, Haltbarkeit, Manövrierfähigkeit
+und eingebettete Verarbeitung. TIME-Reprint-Stummel vom Oktober 2023 kein Modellstart
+oder gelesener technischer Vollartikel.
+
+Tally 4.0: vollständige Herstellermeldung vom 12. Januar 2026, damals Kundenverfügbarkeit
+ab Mitte 2026 geplant. Aktuelle Familienseite nennt 4.0, ohne heutigen Lager-/Bestell-
+status zu belegen. Bis zwölf Stunden je Ladung; kürzeres/schnelleres Laden ohne
+exakte Dauer. Hochauflösende/Spezialkameras, 3D-Tiefe, duale Fisheye-360°-Sicht,
+NVIDIA-Edge/CUDA/TensorRT/DOCA-Argus und RealSense bleiben Integrationen/Funktionen,
+keine neuen Roboter. Aktuelle Familienseite nennt Lokalisierung auf 1–2 in in einem
+150.000-sq-ft-Geschäft und 99 Prozent Regaletiketten-Erkennung; verschiedene Messgrößen,
+keine unabhängige metrische Bildpräzision. Aktuelle Werte nicht auf alte Versionen
+oder jede RFID-Konfiguration übertragen.
+
+Tally RFID: vollständiger Herstellerstart vom 18. Juli 2018. Damals über 700 Tags/s
+und Submeter-Warenlokalisierung als datierte Aussagen. Aktuelle Seite bis 120.000
+Artikel/3 Stunden und 750 Tag-Leseereignisse/s: Artikelzahlen und rohe Lesungen nicht
+gleichgesetzt. Dieselbe Seite widerspricht sich mit bis 35 ft in der Kennzahl und
+bis 40 ft im Fließtext; Familienseite ebenfalls 40 ft. Beschreibung conflicting,
+beide Texte sichtbar, keine Auswahl eines vermuteten Tippfehlers. Keine Übertragung
+auf Roboterpositionierung oder universellen Erfassungsradius. RAIN/GS1-Positionierung
+bleibt Herstellerangabe; RFID-Konfiguration kein nachgewiesener neuer Fahrwerksentwurf.
+
+Tally Spot ist ein festes Kamerasystem, kein zusätzliches mobiles Robotermodell.
+RBOC, Vision, Mobile App, Virtual Tour, Brand Insights, APIs/Dashboards und RaaS/ROI
+behalten Software-/Dienstrollen. Herstellerbericht vom 4. März 2026 zu UL 3300 für
+Tally und Dock ohne unabhängige Registerprüfung oder Übertragung auf alle historischen
+Versionen; SOC 2 Type II Plattform und ISO 27001 Management andere Geltungsbereiche.
+Meldung vom 21. September 2026 nennt über 3.000 autonome Einheiten unter Vertrag,
+keine bewiesenen Auslieferungen oder unabhängig nachgewiesene Marktführerschaft.
+
+21 öffentliche HTTP-200-Antworten mit SHA-256, aktuelle/datierte Hersteller-HTML-Texte.
+Zwei abgerufene Formular-Landingpages sind keine erhaltenen PDF-Datenblätter; keine
+Formulare, Demos, Kontakte, Login oder Transaktionen. Sitemap/Newsroom nur Entdeckung,
+TIME-Stummel kein technischer Volltext. Keine visuelle PDF-/Bild-/Video-/CAD-Prüfung.
+
+2130 andere alte CSV-Zeilen, alle 928 alten Feldprüfungen, 106 alten Firmenfokusse,
+1042 andere Produktbelege und 1961 Quellenidentitäten unverändert. Keine neuen
+Spalten oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle
+mit vier Axe-Läufen, Build 3189 Seiten, Lint/Format, Refresh und Wiederimport bestanden.
+Audit null Fehler/1032 Hinweise: drei Startjahre ergänzt, zwei neue historische
+Versionen ohne aus interner Nutzung/Kundeneinsatz abgeleitetes Startjahr.
+Neun Seiten/333 Felder/41 Aussagen, zwei Firmenfokusse, strukturierte Eigenschaften,
+drei Modell-Exportziele/111 Feldvorkommen, eine Firmenbeschreibungs-Produktreferenz und
+vier ursprüngliche Queue-Ziele/148 Felder geprüft. Vergleich enthält 1051 Produktbelege,
+4688 Aussagen, 2155 Quellenverweise und 937 Prüfungen/16611 Felder. Eigene Browser-,
+Server- und Hilfsprozesse beendet, Port 4321 frei. Kein Deployment. Externe YouTube-
+Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2139 Modelle/Konfigurationen, 885 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung und 108 Firmenfokusse. Ursprüngliche Ziele: 423 geprüft, 95 offen
+von 518; 7400 Felder (3132 dokumentiert, 4081 unbekannt, 171 Konflikte, 16 Roadmap).
+Firmenfokus für 104 von 591 Quellengruppen. Drei Modellidentitäten, neun Listing-
+identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
+unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
+Datencommit `67d7b0041be2427046d4cd57771efb08dafb017e` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-114-evidence.json`.
