@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 1.981 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 727 |
-| Datierte Produktmerkmal-Datensätze einschließlich 142 bestehender Modelle | 869 |
-| Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 642 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.009 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 755 |
+| Datierte Produktmerkmal-Datensätze einschließlich 142 bestehender Modelle | 897 |
+| Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 643 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
-| Davon mit Modellen / reine Quellen-Firmenprofile | 631 / 405 |
+| Davon mit Modellen / reine Quellen-Firmenprofile | 632 / 404 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 77 |
+| Firmenfokus-Prüfungen mit Quellen | 79 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 727 ergänzte Modelle ergeben 1.981 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 755 ergänzte Modelle ergeben 2.009 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-77 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+79 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 869 Datensätze
+Modellseiten verlinken Markenprofile. Die 897 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 351 haben ausgewählte Datenfeldprüfungen und 167
+haben datierte Merkmalsbelege; 354 haben ausgewählte Datenfeldprüfungen und 164
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 469 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 473 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -7023,5 +7023,82 @@ Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleibe
 erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 
 Zwischencommit `d4695f0` mit Daten, Filter und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Interbotix und Trossen (Batch 85)
+
+28 benannte Angebote ergänzt, drei bestehende ALOHA-Kits vertieft geprüft.
+590 Felder: 200 dokumentiert, 353 unbekannt, neun widersprüchlich und 28 Roadmap.
+Zwei Firmen-/Markenfokusse ergänzt. Alle 1978 unbeteiligten Katalogzeilen,
+679 früheren Modellprüfungen, 77 Firmenfokusse und 1961 ursprünglichen
+Quellenidentitäten unverändert; keine neuen CSV-Spalten oder Kategorieübertragungen.
+Trossens bestehendes Quellenprofil ordnet nun ausdrücklich die 16 neuen Angebote
+unter „Trossen Robotics“ zu. Interbotix bleibt eine getrennte Hardwaremarke mit
+15 Modellen. Keine Quellennamen, Aliasse oder Erfassungsdaten überschrieben.
+
+Zwölf X-Series-Arme mit eigener Modellübersicht: PincherX-100/-150,
+ReactorX-150/-200, WidowX-200/-250/-250 6DOF, ALOHA WidowX-250 6DOF,
+ViperX-250/-300/-300 6DOF und ALOHA ViperX-300 6DOF. Volle angegebene Arbeitslast
+nur mit empfohlener maximal halber Ausladung; Arbeitsraum und Kühlpausen bleiben
+qualifiziert. Servozahl ist keine Arm-DOF-Zahl, Wiederholgenauigkeit keine absolute
+Genauigkeit. PincherX-150 nennt wörtlich 150 mm Reichweite bei 900 mm Gesamtspanne;
+keine eigenmächtige Korrektur auf 450 mm. Axiale Kettenlänge und Greiferwagenabstand
+bleiben von Reichweite und Kontaktöffnung getrennt.
+
+ALOHA Stationary/Mobile/Solo bleiben die ursprünglichen Interbotix-Kits. Mobile
+nennt 122 kg, 1 m/s und 1,4 kWh; Energie wird nicht zu Laufzeit umgerechnet.
+750 g Traglast und 750 mm Reichweite gehören zum jeweiligen ViperX-Follower mit
+Ausladungsgrenze. Frühere Trossen WidowX AI Base/Leader/Follower und die drei
+AI-Kits bleiben eigene Angebote. Sechs Armachsen plus Greifer sind keine sieben
+Armachsen. Rechneroptionen und Aussagen zur Modellkompatibilität behalten ihre
+Bedingungen; weder Kit-Gesamtmassen noch aktuelle Lieferbarkeit abgeleitet.
+
+Neue WidowX Core Follower, Core Leader, Pro und Heavy sowie Rivet Base, die
+Rivet-Konfiguration mit zwei Pro-Armen/Kameras, drei Workbench-Lite-Arm-/Kamera-
+Pakete und der angekündigte volle Workbench sind separat erfasst. Aktuelle
+Arm-Unterlagen sind ausdrücklich vorläufig: Core/Pro-Reichweite 790 mm statt
+700 mm auf der Produktseite, Heavy 1114 mm statt 1400 mm. Heavy nennt 6 kg je Arm,
+das Workbench-Heavy-Paket 8 kg; Konfiguration/Lastbedingungen ungeklärt. Die
+2026-Preise sind vorgeschlagen und warten auf Freigabe, keine festen strukturierten
+Kaufangebote. Rivet Base enthält keine Arme, Kameras oder eingebauten Rechner;
+890 mm sind vertikaler Verfahrweg, keine absolute Hubhöhe. Lite-Kamerapakete und
+Rechnerverzicht bleiben getrennt, voller Workbench ausdrücklich „coming soon“.
+Glide ist passiv, Cockpit ein Bedienstand und TRumi ein handgeführter Datensammler.
+Sie sowie Computer, Dienste und fremde UGV-Angebote sind keine zusätzlichen
+angetriebenen Roboter unter dieser Marke. SLATE/LoCoBot bleiben offene Folgespuren.
+
+41 HTML-/PDF-Abrufe: 40 nutzbare Fach-/Portfolioquellen (35 HTML, fünf PDF mit
+14 Textseiten); ein kurzer Dokumentationsindex dient nur der Linkfindung. Zwölf
+Modelltabellen, eine expandierte Drei-Modell-Tabelle und 41 weitere exakte Anker
+geprüft; Hashes und Spaltenzuordnung dauerhaft in
+`reports/competitor-batch-85-evidence.json`. Zwei Rasterzeichnungen heruntergeladen,
+aber wegen nicht verfügbarer Bildansicht nicht visuell geprüft; keine Maße daraus
+abgeleitet. Keine Formulare/Warenkorbaktionen oder Recherchebrowser verwendet.
+Früher gesperrte Hosts wurden nicht erneut angefragt.
+
+793 Unit-Tests in 64 Dateien, 20 Wettbewerber-Python-Tests und 50 ausgewählte
+Browserfälle bestanden: 32 Interbotix/Trossen- und 18 Vergleichsfälle, darunter
+zwölf Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Build: 3059
+Seiten, ungefähr 473 MB. Datenprüfung: null Fehler, 892 Hinweise (28 zusätzliche
+unbelegte Erstjahre). Lint, Format, Wiederholungsimport mit null Ergänzungen,
+Bestands-, Quellen-, Seiten-/Export- und Vergleichsprüfung bestanden. Metadaten
+aller 710 geprüften Modellseiten mit 11770 Feldern kontrolliert, ohne erneute
+Herstellerrecherche für frühere Modelle. Anfängliche Testannahmen über Profilfelder,
+Trossens bislang leeren eigenen Produktbestand, Abschnittswortlaut und URL-Fragmente
+korrigiert; veralteten Zwischenbuild vor dem finalen Build beendet. Alle
+430 erfassten eigenen Testprozesse beendet; Port 4321 frei.
+
+Gesamtstand: 2009 Modelle/Konfigurationen, 755 Ergänzungen, 897 Merkmalssätze,
+3847 Aussagen, 1645 Produktquellenverweise und 79 Firmenfokusse. 11770 Felder auf
+710 Modellen: 5282 dokumentiert, 6200 unbekannt, 243 widersprüchlich, 45 Roadmap.
+643 exakte Herstellerbezeichnungen; 1036 Profile, davon 632 mit/404 ohne Modelle.
+Von 518 ursprünglichen Zielen haben 354 Feldprüfungen und 164 bleiben offen.
+Firmenfokusse decken 76 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `fa00c6b` mit Daten und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 bilden einen separaten Commit; der Hauptbranch bleibt unverändert.

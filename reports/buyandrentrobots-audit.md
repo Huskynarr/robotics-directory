@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 1,981 catalog rows**, with 642 exact
-manufacturer spellings. Batch 84 refreshed the separate heuristic gap file offline
-against all 1,981 rows (634 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,009 catalog rows**, with 643 exact
+manufacturer spellings. Batch 85 refreshed the separate heuristic gap file offline
+against all 2,009 rows (635 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 869 dated records across the catalog, including
-142 existing-model enrichments and 727 task additions. All 430 catalog models
+Current product-highlight coverage: 897 dated records across the catalog, including
+142 existing-model enrichments and 755 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 727 task additions, totaling 1,981.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 755 task additions, totaling 2,009.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 351 have selected-field reviews and 167 await those reviews. Family and
+highlights; 354 have selected-field reviews and 164 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 11,180 fields across 679 catalog models: 5,082 documented,
-5,847 not documented, 234 conflicting and seventeen roadmap fields. They do not certify whole
+Selected specification checks cover 11,770 fields across 710 catalog models: 5,282 documented,
+6,200 not documented, 243 conflicting and forty-five roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -4788,5 +4788,82 @@ Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleibe
 erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 
 Zwischencommit `d4695f0` mit Daten, Filter und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Interbotix und Trossen (Batch 85)
+
+28 benannte Angebote ergänzt, drei bestehende ALOHA-Kits vertieft geprüft.
+590 Felder: 200 dokumentiert, 353 unbekannt, neun widersprüchlich und 28 Roadmap.
+Zwei Firmen-/Markenfokusse ergänzt. Alle 1978 unbeteiligten Katalogzeilen,
+679 früheren Modellprüfungen, 77 Firmenfokusse und 1961 ursprünglichen
+Quellenidentitäten unverändert; keine neuen CSV-Spalten oder Kategorieübertragungen.
+Trossens bestehendes Quellenprofil ordnet nun ausdrücklich die 16 neuen Angebote
+unter „Trossen Robotics“ zu. Interbotix bleibt eine getrennte Hardwaremarke mit
+15 Modellen. Keine Quellennamen, Aliasse oder Erfassungsdaten überschrieben.
+
+Zwölf X-Series-Arme mit eigener Modellübersicht: PincherX-100/-150,
+ReactorX-150/-200, WidowX-200/-250/-250 6DOF, ALOHA WidowX-250 6DOF,
+ViperX-250/-300/-300 6DOF und ALOHA ViperX-300 6DOF. Volle angegebene Arbeitslast
+nur mit empfohlener maximal halber Ausladung; Arbeitsraum und Kühlpausen bleiben
+qualifiziert. Servozahl ist keine Arm-DOF-Zahl, Wiederholgenauigkeit keine absolute
+Genauigkeit. PincherX-150 nennt wörtlich 150 mm Reichweite bei 900 mm Gesamtspanne;
+keine eigenmächtige Korrektur auf 450 mm. Axiale Kettenlänge und Greiferwagenabstand
+bleiben von Reichweite und Kontaktöffnung getrennt.
+
+ALOHA Stationary/Mobile/Solo bleiben die ursprünglichen Interbotix-Kits. Mobile
+nennt 122 kg, 1 m/s und 1,4 kWh; Energie wird nicht zu Laufzeit umgerechnet.
+750 g Traglast und 750 mm Reichweite gehören zum jeweiligen ViperX-Follower mit
+Ausladungsgrenze. Frühere Trossen WidowX AI Base/Leader/Follower und die drei
+AI-Kits bleiben eigene Angebote. Sechs Armachsen plus Greifer sind keine sieben
+Armachsen. Rechneroptionen und Aussagen zur Modellkompatibilität behalten ihre
+Bedingungen; weder Kit-Gesamtmassen noch aktuelle Lieferbarkeit abgeleitet.
+
+Neue WidowX Core Follower, Core Leader, Pro und Heavy sowie Rivet Base, die
+Rivet-Konfiguration mit zwei Pro-Armen/Kameras, drei Workbench-Lite-Arm-/Kamera-
+Pakete und der angekündigte volle Workbench sind separat erfasst. Aktuelle
+Arm-Unterlagen sind ausdrücklich vorläufig: Core/Pro-Reichweite 790 mm statt
+700 mm auf der Produktseite, Heavy 1114 mm statt 1400 mm. Heavy nennt 6 kg je Arm,
+das Workbench-Heavy-Paket 8 kg; Konfiguration/Lastbedingungen ungeklärt. Die
+2026-Preise sind vorgeschlagen und warten auf Freigabe, keine festen strukturierten
+Kaufangebote. Rivet Base enthält keine Arme, Kameras oder eingebauten Rechner;
+890 mm sind vertikaler Verfahrweg, keine absolute Hubhöhe. Lite-Kamerapakete und
+Rechnerverzicht bleiben getrennt, voller Workbench ausdrücklich „coming soon“.
+Glide ist passiv, Cockpit ein Bedienstand und TRumi ein handgeführter Datensammler.
+Sie sowie Computer, Dienste und fremde UGV-Angebote sind keine zusätzlichen
+angetriebenen Roboter unter dieser Marke. SLATE/LoCoBot bleiben offene Folgespuren.
+
+41 HTML-/PDF-Abrufe: 40 nutzbare Fach-/Portfolioquellen (35 HTML, fünf PDF mit
+14 Textseiten); ein kurzer Dokumentationsindex dient nur der Linkfindung. Zwölf
+Modelltabellen, eine expandierte Drei-Modell-Tabelle und 41 weitere exakte Anker
+geprüft; Hashes und Spaltenzuordnung dauerhaft in
+`reports/competitor-batch-85-evidence.json`. Zwei Rasterzeichnungen heruntergeladen,
+aber wegen nicht verfügbarer Bildansicht nicht visuell geprüft; keine Maße daraus
+abgeleitet. Keine Formulare/Warenkorbaktionen oder Recherchebrowser verwendet.
+Früher gesperrte Hosts wurden nicht erneut angefragt.
+
+793 Unit-Tests in 64 Dateien, 20 Wettbewerber-Python-Tests und 50 ausgewählte
+Browserfälle bestanden: 32 Interbotix/Trossen- und 18 Vergleichsfälle, darunter
+zwölf Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Build: 3059
+Seiten, ungefähr 473 MB. Datenprüfung: null Fehler, 892 Hinweise (28 zusätzliche
+unbelegte Erstjahre). Lint, Format, Wiederholungsimport mit null Ergänzungen,
+Bestands-, Quellen-, Seiten-/Export- und Vergleichsprüfung bestanden. Metadaten
+aller 710 geprüften Modellseiten mit 11770 Feldern kontrolliert, ohne erneute
+Herstellerrecherche für frühere Modelle. Anfängliche Testannahmen über Profilfelder,
+Trossens bislang leeren eigenen Produktbestand, Abschnittswortlaut und URL-Fragmente
+korrigiert; veralteten Zwischenbuild vor dem finalen Build beendet. Alle
+430 erfassten eigenen Testprozesse beendet; Port 4321 frei.
+
+Gesamtstand: 2009 Modelle/Konfigurationen, 755 Ergänzungen, 897 Merkmalssätze,
+3847 Aussagen, 1645 Produktquellenverweise und 79 Firmenfokusse. 11770 Felder auf
+710 Modellen: 5282 dokumentiert, 6200 unbekannt, 243 widersprüchlich, 45 Roadmap.
+643 exakte Herstellerbezeichnungen; 1036 Profile, davon 632 mit/404 ohne Modelle.
+Von 518 ursprünglichen Zielen haben 354 Feldprüfungen und 164 bleiben offen.
+Firmenfokusse decken 76 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `fa00c6b` mit Daten und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 bilden einen separaten Commit; der Hauptbranch bleibt unverändert.

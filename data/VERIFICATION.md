@@ -5574,3 +5574,80 @@ erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 Zwischencommit `d4695f0` mit Daten, Filter und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Interbotix und Trossen (Batch 85)
+
+28 benannte Angebote ergänzt, drei bestehende ALOHA-Kits vertieft geprüft.
+590 Felder: 200 dokumentiert, 353 unbekannt, neun widersprüchlich und 28 Roadmap.
+Zwei Firmen-/Markenfokusse ergänzt. Alle 1978 unbeteiligten Katalogzeilen,
+679 früheren Modellprüfungen, 77 Firmenfokusse und 1961 ursprünglichen
+Quellenidentitäten unverändert; keine neuen CSV-Spalten oder Kategorieübertragungen.
+Trossens bestehendes Quellenprofil ordnet nun ausdrücklich die 16 neuen Angebote
+unter „Trossen Robotics“ zu. Interbotix bleibt eine getrennte Hardwaremarke mit
+15 Modellen. Keine Quellennamen, Aliasse oder Erfassungsdaten überschrieben.
+
+Zwölf X-Series-Arme mit eigener Modellübersicht: PincherX-100/-150,
+ReactorX-150/-200, WidowX-200/-250/-250 6DOF, ALOHA WidowX-250 6DOF,
+ViperX-250/-300/-300 6DOF und ALOHA ViperX-300 6DOF. Volle angegebene Arbeitslast
+nur mit empfohlener maximal halber Ausladung; Arbeitsraum und Kühlpausen bleiben
+qualifiziert. Servozahl ist keine Arm-DOF-Zahl, Wiederholgenauigkeit keine absolute
+Genauigkeit. PincherX-150 nennt wörtlich 150 mm Reichweite bei 900 mm Gesamtspanne;
+keine eigenmächtige Korrektur auf 450 mm. Axiale Kettenlänge und Greiferwagenabstand
+bleiben von Reichweite und Kontaktöffnung getrennt.
+
+ALOHA Stationary/Mobile/Solo bleiben die ursprünglichen Interbotix-Kits. Mobile
+nennt 122 kg, 1 m/s und 1,4 kWh; Energie wird nicht zu Laufzeit umgerechnet.
+750 g Traglast und 750 mm Reichweite gehören zum jeweiligen ViperX-Follower mit
+Ausladungsgrenze. Frühere Trossen WidowX AI Base/Leader/Follower und die drei
+AI-Kits bleiben eigene Angebote. Sechs Armachsen plus Greifer sind keine sieben
+Armachsen. Rechneroptionen und Aussagen zur Modellkompatibilität behalten ihre
+Bedingungen; weder Kit-Gesamtmassen noch aktuelle Lieferbarkeit abgeleitet.
+
+Neue WidowX Core Follower, Core Leader, Pro und Heavy sowie Rivet Base, die
+Rivet-Konfiguration mit zwei Pro-Armen/Kameras, drei Workbench-Lite-Arm-/Kamera-
+Pakete und der angekündigte volle Workbench sind separat erfasst. Aktuelle
+Arm-Unterlagen sind ausdrücklich vorläufig: Core/Pro-Reichweite 790 mm statt
+700 mm auf der Produktseite, Heavy 1114 mm statt 1400 mm. Heavy nennt 6 kg je Arm,
+das Workbench-Heavy-Paket 8 kg; Konfiguration/Lastbedingungen ungeklärt. Die
+2026-Preise sind vorgeschlagen und warten auf Freigabe, keine festen strukturierten
+Kaufangebote. Rivet Base enthält keine Arme, Kameras oder eingebauten Rechner;
+890 mm sind vertikaler Verfahrweg, keine absolute Hubhöhe. Lite-Kamerapakete und
+Rechnerverzicht bleiben getrennt, voller Workbench ausdrücklich „coming soon“.
+Glide ist passiv, Cockpit ein Bedienstand und TRumi ein handgeführter Datensammler.
+Sie sowie Computer, Dienste und fremde UGV-Angebote sind keine zusätzlichen
+angetriebenen Roboter unter dieser Marke. SLATE/LoCoBot bleiben offene Folgespuren.
+
+41 HTML-/PDF-Abrufe: 40 nutzbare Fach-/Portfolioquellen (35 HTML, fünf PDF mit
+14 Textseiten); ein kurzer Dokumentationsindex dient nur der Linkfindung. Zwölf
+Modelltabellen, eine expandierte Drei-Modell-Tabelle und 41 weitere exakte Anker
+geprüft; Hashes und Spaltenzuordnung dauerhaft in
+`reports/competitor-batch-85-evidence.json`. Zwei Rasterzeichnungen heruntergeladen,
+aber wegen nicht verfügbarer Bildansicht nicht visuell geprüft; keine Maße daraus
+abgeleitet. Keine Formulare/Warenkorbaktionen oder Recherchebrowser verwendet.
+Früher gesperrte Hosts wurden nicht erneut angefragt.
+
+793 Unit-Tests in 64 Dateien, 20 Wettbewerber-Python-Tests und 50 ausgewählte
+Browserfälle bestanden: 32 Interbotix/Trossen- und 18 Vergleichsfälle, darunter
+zwölf Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Build: 3059
+Seiten, ungefähr 473 MB. Datenprüfung: null Fehler, 892 Hinweise (28 zusätzliche
+unbelegte Erstjahre). Lint, Format, Wiederholungsimport mit null Ergänzungen,
+Bestands-, Quellen-, Seiten-/Export- und Vergleichsprüfung bestanden. Metadaten
+aller 710 geprüften Modellseiten mit 11770 Feldern kontrolliert, ohne erneute
+Herstellerrecherche für frühere Modelle. Anfängliche Testannahmen über Profilfelder,
+Trossens bislang leeren eigenen Produktbestand, Abschnittswortlaut und URL-Fragmente
+korrigiert; veralteten Zwischenbuild vor dem finalen Build beendet. Alle
+430 erfassten eigenen Testprozesse beendet; Port 4321 frei.
+
+Gesamtstand: 2009 Modelle/Konfigurationen, 755 Ergänzungen, 897 Merkmalssätze,
+3847 Aussagen, 1645 Produktquellenverweise und 79 Firmenfokusse. 11770 Felder auf
+710 Modellen: 5282 dokumentiert, 6200 unbekannt, 243 widersprüchlich, 45 Roadmap.
+643 exakte Herstellerbezeichnungen; 1036 Profile, davon 632 mit/404 ohne Modelle.
+Von 518 ursprünglichen Zielen haben 354 Feldprüfungen und 164 bleiben offen.
+Firmenfokusse decken 76 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `fa00c6b` mit Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
