@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 1,957 catalog rows**, with 642 exact
-manufacturer spellings. Batch 80 refreshed the separate heuristic gap file offline
-against all 1,957 rows (634 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 1,959 catalog rows**, with 642 exact
+manufacturer spellings. Batch 81 refreshed the separate heuristic gap file offline
+against all 1,959 rows (634 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 845 dated records across the catalog, including
-142 existing-model enrichments and 703 task additions. All 430 catalog models
+Current product-highlight coverage: 847 dated records across the catalog, including
+142 existing-model enrichments and 705 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 703 task additions, totaling 1,957.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 705 task additions, totaling 1,959.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 336 have selected-field reviews and 182 await those reviews. Family and
+highlights; 342 have selected-field reviews and 176 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 10,121 fields across 636 catalog models: 4,732 documented,
-5,155 not documented, 217 conflicting and seventeen roadmap fields. They do not certify whole
+Selected specification checks cover 10,305 fields across 644 catalog models: 4,781 documented,
+5,287 not documented, 220 conflicting and seventeen roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -4502,5 +4502,81 @@ bleiben erhalten. Auch Geek+-Altsysteme, neue Systemnamen und regionale Portfoli
 bleiben Recherchepunkte; Vollständigkeit und Marktführung sind unbelegt.
 
 Zwischencommit `ea35b27` mit Geek+-Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+folgen als zweiter Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Locus Robotics und Seegrid (Batch 81)
+
+Acht ausgewählte Modelle: zwei Ergänzungen (historisches Locus Max, Seegrid Lift
+EL1) und sechs bestehende Modelle. 184 Feldprüfungen: 49 dokumentiert, 132 nicht
+dokumentiert, drei widersprüchlich. Seegrid-Firmenfokus ergänzt, vorhandenen
+Locus-Fokus vertieft. Alle 1951 unbeteiligten Katalogzeilen, 636 bisherigen
+Modellprüfungen, 72 anderen Firmenfokusse und 1961 Quellenidentitäten erhalten.
+Keine neuen CSV-Spalten oder Kategoriewechsel.
+
+Origin: 36 kg/80 lb als gerundetes Herstellerpaar, bis 14 h und ungefähr 50 min
+Laden; Last-/Arbeitsprofil und Ladezustandsfenster fehlen. Die Seite benennt die
+Achsen ihrer 20,4×22,8×62-Zoll-Maße nicht ausdrücklich. Vector: 272 kg/600 lb,
+gleiche Lauf-/Ladezeitbedingungen. Öffentliche Einführung am 28. März 2022 steht
+gegenüber 2023 in der aktuellen Firmenchronik; Versand-/Regionszuordnung offen.
+Omnidirektionale Fahrt liefert keinen numerischen Wenderadius.
+
+Array: globale Herstellerankündigung am 13. April 2026, frühe nordamerikanische
+Einsätze und geplante regionale Skalierung getrennt. NeuraGrasp ist ein weicher,
+nachgiebiger Greifer laut Hersteller; Gelenkzahl, Last und Reichweite unbekannt.
+100 Prozent SKU-Abdeckung gehört zum gemischten System. 24/7-Betrieb und
+250K/500K Einheiten pro Tag liefern keine einzelne Akkulaufzeit oder Roboterleistung.
+Max ist in der Firmenankündigung vom 28. März 2022 ausdrücklich benannt; damalige
+begrenzte Verfügbarkeit beweist keine heutige Lieferbarkeit. Keine numerische
+Max-Last aus veralteten Suchauszügen oder inzwischen geänderten Blogtexten übernommen.
+
+CR1: 4000 lb Palettenlast, maximal automatisch 5 mph und aktuell 15 ft Hubhöhe;
+künftige höhere Masten sind keine heutige Bewertung. Debütankündigung vom
+15. Februar 2024 steht gegenüber 2025 in der Firmenchronik. RS1: 3500 lb und
+maximal 5 mph; Hero/FAQ nennen sechs Fuß, die Spezifikationskarte sechs Zoll.
+Dieser Einheitenkonflikt bleibt ungeklärt. Seine Einführung im Dezember 2022 ist
+in der CR1-Ankündigung ausdrücklich datiert. EL1: 2700 lb, maximal automatisch
+3,4 mph und 5 ft 2 in Hubhöhe. Gabelabmessungen sind keine Körpermaße.
+EL1-Seite behauptet VDA5050 2.1; ein Firmenplan vom Juli 2025 für 2026 beweist
+keine abgeschlossene Umstellung aller Modelle.
+
+S7: bis 10000 lb gesamte gezogene Wagenlast, keine aufliegende Nutzlast oder
+Fahrzeugmasse; maximal automatisch 4 mph und Steigung bis 2,5 Prozent unter
+Hersteller-/Einsatzbedingungen. Kein Palettenhub. Auto-Charge und Fleet Central
+belegen keine numerische Einzelakku-Laufzeit, volle Ladezeit oder universelle
+Kompatibilität. Unbekannte Eigengewichte, IP-Codes und Positioniertoleranzen
+bleiben leer. RaaS/ROI liefert keinen konkreten Kaufpreis oder strukturiertes Angebot.
+
+22 nutzbare HTML-URL-Inhalte, davon 21 verschieden, und 46 exakte Stichprobenanker
+gegen gespeicherte Bytes geprüft. Zwölf 404-Antworten und drei Highspot-200-
+Unsupported-Browser-Seiten ausgeschlossen; zwei Seegrid-Hub-Downloads mit Timeout.
+Ein eigener Diagnosebrowser prüfte die drei Viewer, ohne nutzbares PDF. Seine
+sieben Prozesse sind beendet. Keine Formulare, visuelle PDF-Prüfung, importierten
+numerischen PDF-Suchauszüge oder erneuten Abrufe bekannter gesperrter Hosts.
+Versioniertes Quellen-/Entscheidungsprotokoll:
+`reports/competitor-batch-81-evidence.json`; Rohbelege lokal unter
+`scratch/competitor-research/primary/batch-81/`.
+
+751 Unit-Tests in 60 Dateien, 20 Wettbewerber-Python-Tests und 68 ausgewählte
+Browserfälle bestanden: 20 Locus/Seegrid-, 30 Geek+- und 18 Vergleichsfälle,
+darunter 24 Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung.
+Build 3009 Seiten, ungefähr 461 MB. Datenprüfung null Fehler und 842 Hinweise
+(drei weniger): ein neues unbelegtes Erstjahr, ein neues belegtes historisches
+Erstjahr und vier bisherige Jahre mit belegtem oder widersprüchlichem Meilenstein.
+Lint, Format, Wiederholungsimport (null Ergänzungen), Bestands-, Quellen-,
+Seiten-, Vergleichs-, Preis- und globale Feldmetadatenprüfung bestanden.
+Alle 152 erfassten eigenen Testprozesse beendet;
+Port4321 frei, Ressourcen anderer Aufgaben erhalten. Keine vollständige Browser-Suite.
+
+Gesamtstand: 1959 Modelle/Konfigurationen, 705 Ergänzungen, 847 Merkmalssätze,
+3593 Aussagen, 1480 Produktquellenverweise und 74 Firmenfokusse. 10305 Felder auf
+644 Modellen: 4781 dokumentiert, 5287 unbekannt, 220 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 342 Feldprüfungen und 176 bleiben offen.
+Firmenfokusse decken 72 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `4e7b62d` mit Daten und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 folgen als zweiter Commit; der Hauptbranch bleibt unverändert.

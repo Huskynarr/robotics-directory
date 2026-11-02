@@ -5288,3 +5288,79 @@ bleiben Recherchepunkte; Vollständigkeit und Marktführung sind unbelegt.
 Zwischencommit `ea35b27` mit Geek+-Daten und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 folgen als zweiter Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Locus Robotics und Seegrid (Batch 81)
+
+Acht ausgewählte Modelle: zwei Ergänzungen (historisches Locus Max, Seegrid Lift
+EL1) und sechs bestehende Modelle. 184 Feldprüfungen: 49 dokumentiert, 132 nicht
+dokumentiert, drei widersprüchlich. Seegrid-Firmenfokus ergänzt, vorhandenen
+Locus-Fokus vertieft. Alle 1951 unbeteiligten Katalogzeilen, 636 bisherigen
+Modellprüfungen, 72 anderen Firmenfokusse und 1961 Quellenidentitäten erhalten.
+Keine neuen CSV-Spalten oder Kategoriewechsel.
+
+Origin: 36 kg/80 lb als gerundetes Herstellerpaar, bis 14 h und ungefähr 50 min
+Laden; Last-/Arbeitsprofil und Ladezustandsfenster fehlen. Die Seite benennt die
+Achsen ihrer 20,4×22,8×62-Zoll-Maße nicht ausdrücklich. Vector: 272 kg/600 lb,
+gleiche Lauf-/Ladezeitbedingungen. Öffentliche Einführung am 28. März 2022 steht
+gegenüber 2023 in der aktuellen Firmenchronik; Versand-/Regionszuordnung offen.
+Omnidirektionale Fahrt liefert keinen numerischen Wenderadius.
+
+Array: globale Herstellerankündigung am 13. April 2026, frühe nordamerikanische
+Einsätze und geplante regionale Skalierung getrennt. NeuraGrasp ist ein weicher,
+nachgiebiger Greifer laut Hersteller; Gelenkzahl, Last und Reichweite unbekannt.
+100 Prozent SKU-Abdeckung gehört zum gemischten System. 24/7-Betrieb und
+250K/500K Einheiten pro Tag liefern keine einzelne Akkulaufzeit oder Roboterleistung.
+Max ist in der Firmenankündigung vom 28. März 2022 ausdrücklich benannt; damalige
+begrenzte Verfügbarkeit beweist keine heutige Lieferbarkeit. Keine numerische
+Max-Last aus veralteten Suchauszügen oder inzwischen geänderten Blogtexten übernommen.
+
+CR1: 4000 lb Palettenlast, maximal automatisch 5 mph und aktuell 15 ft Hubhöhe;
+künftige höhere Masten sind keine heutige Bewertung. Debütankündigung vom
+15. Februar 2024 steht gegenüber 2025 in der Firmenchronik. RS1: 3500 lb und
+maximal 5 mph; Hero/FAQ nennen sechs Fuß, die Spezifikationskarte sechs Zoll.
+Dieser Einheitenkonflikt bleibt ungeklärt. Seine Einführung im Dezember 2022 ist
+in der CR1-Ankündigung ausdrücklich datiert. EL1: 2700 lb, maximal automatisch
+3,4 mph und 5 ft 2 in Hubhöhe. Gabelabmessungen sind keine Körpermaße.
+EL1-Seite behauptet VDA5050 2.1; ein Firmenplan vom Juli 2025 für 2026 beweist
+keine abgeschlossene Umstellung aller Modelle.
+
+S7: bis 10000 lb gesamte gezogene Wagenlast, keine aufliegende Nutzlast oder
+Fahrzeugmasse; maximal automatisch 4 mph und Steigung bis 2,5 Prozent unter
+Hersteller-/Einsatzbedingungen. Kein Palettenhub. Auto-Charge und Fleet Central
+belegen keine numerische Einzelakku-Laufzeit, volle Ladezeit oder universelle
+Kompatibilität. Unbekannte Eigengewichte, IP-Codes und Positioniertoleranzen
+bleiben leer. RaaS/ROI liefert keinen konkreten Kaufpreis oder strukturiertes Angebot.
+
+22 nutzbare HTML-URL-Inhalte, davon 21 verschieden, und 46 exakte Stichprobenanker
+gegen gespeicherte Bytes geprüft. Zwölf 404-Antworten und drei Highspot-200-
+Unsupported-Browser-Seiten ausgeschlossen; zwei Seegrid-Hub-Downloads mit Timeout.
+Ein eigener Diagnosebrowser prüfte die drei Viewer, ohne nutzbares PDF. Seine
+sieben Prozesse sind beendet. Keine Formulare, visuelle PDF-Prüfung, importierten
+numerischen PDF-Suchauszüge oder erneuten Abrufe bekannter gesperrter Hosts.
+Versioniertes Quellen-/Entscheidungsprotokoll:
+`reports/competitor-batch-81-evidence.json`; Rohbelege lokal unter
+`scratch/competitor-research/primary/batch-81/`.
+
+751 Unit-Tests in 60 Dateien, 20 Wettbewerber-Python-Tests und 68 ausgewählte
+Browserfälle bestanden: 20 Locus/Seegrid-, 30 Geek+- und 18 Vergleichsfälle,
+darunter 24 Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung.
+Build 3009 Seiten, ungefähr 461 MB. Datenprüfung null Fehler und 842 Hinweise
+(drei weniger): ein neues unbelegtes Erstjahr, ein neues belegtes historisches
+Erstjahr und vier bisherige Jahre mit belegtem oder widersprüchlichem Meilenstein.
+Lint, Format, Wiederholungsimport (null Ergänzungen), Bestands-, Quellen-,
+Seiten-, Vergleichs-, Preis- und globale Feldmetadatenprüfung bestanden.
+Alle 152 erfassten eigenen Testprozesse beendet;
+Port4321 frei, Ressourcen anderer Aufgaben erhalten. Keine vollständige Browser-Suite.
+
+Gesamtstand: 1959 Modelle/Konfigurationen, 705 Ergänzungen, 847 Merkmalssätze,
+3593 Aussagen, 1480 Produktquellenverweise und 74 Firmenfokusse. 10305 Felder auf
+644 Modellen: 4781 dokumentiert, 5287 unbekannt, 220 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 342 Feldprüfungen und 176 bleiben offen.
+Firmenfokusse decken 72 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `4e7b62d` mit Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+folgen als zweiter Commit; der Hauptbranch bleibt unverändert.
