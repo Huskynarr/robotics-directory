@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.047 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 793 |
-| Datierte Produktmerkmal-Datensätze einschließlich 150 bestehender Modelle | 943 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.053 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 799 |
+| Datierte Produktmerkmal-Datensätze einschließlich 152 bestehender Modelle | 951 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
 | Firmenfokus-Prüfungen mit Quellen | 89 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 793 ergänzte Modelle ergeben 2.047 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 799 ergänzte Modelle ergeben 2.053 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -43,7 +43,7 @@ bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Fir
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
 89 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 943 Datensätze
+Modellseiten verlinken Markenprofile. Die 951 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 378 haben ausgewählte Datenfeldprüfungen und 140
+haben datierte Merkmalsbelege; 381 haben ausgewählte Datenfeldprüfungen und 137
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 480 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 481 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -7772,3 +7772,113 @@ Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
 fünf Modellseiten, Quellen-/Exporttransport und alle 782 gerenderten Feldprüfseiten
 geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-94-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Rainbow Robotics Humanoide, Quadrupeds und AMRs (Batch 95)
+
+Sechs benannte Plattformen ergänzt: RBM-D400, RBM-D1000, RBM-S100a, RBM-S100b,
+RB-Y2 und RBQ-10W. Die letzten beiden stehen ausdrücklich auf „Coming soon“.
+Sechs bestehende Identitäten geprüft: HUBO, HUBO 2, DRC-HUBO, FX-2, RB-Y1 und
+RBQ-3. Zusammen 218 Felder: 55 dokumentiert, 159 unbekannt, zwei widersprüchlich
+und zwei Roadmap. Elf neue Feldprüfungen; die bestehende Acht-Feld-Prüfung von
+RB-Y1 auf 17 Felder erweitert. Alle 26 aktuellen Katalogidentitäten von Rainbow
+haben damit ausgewählte Feldprüfungen; dies beweist keine vollständige historische
+oder regionale Hersteller-Produktliste. HUBO und RBQ-3 erhalten erstmals datierte
+Merkmalsbelege. Vorhandenen Firmenfokus erweitert, keine zusätzliche Firma gezählt.
+
+2041 unbeteiligte CSV-Zeilen, 781 frühere Feldprüfungen, 88 andere Firmenfokusse,
+sämtliche Profile/Aliasse und alle 1961 Quellenidentitäten bleiben unverändert.
+Die ersten sechs Firmenfokus-Aussagen und sechs Quellen der früheren Arm-/RBQ-10-
+Prüfung bleiben erhalten. Alte RB-Y1-Prüfung und vorheriger Rainbow-Fokus stehen
+vollständig im dauerhaften Belegmanifest. FX-2 behält seine zusätzliche staatliche
+Attributionsquelle. Keine neuen CSV-Spalten oder Kategorieverschiebungen.
+
+Vier AMRs: D400/D1000 tragen 400/1000 kg bei 70/150 kg Robotergewicht;
+600×800×240 beziehungsweise 800×1100×300 mm (B×T×H), maximal 1,2 m/s.
+Differenzialantrieb mit zwei aktiven Rädern und vier Doppelrollen; zwei 2D-LiDAR,
+eine Tiefenkamera, optional Boden-QR. 50 V/25 Ah beziehungsweise 50 V/50 Ah
+sind keine Laufzeiten. Anschluss-/Ladestationsangaben belegen keine Ladedauer.
+S100a: ungefähr 50 kg, 510×510×1250 mm und ausdrücklich 120 kg Nutzlast.
+S100b: ungefähr 70 kg, 710×680×1250 mm und 100 kg Nutzlast. Der Familienname S100
+belegt keine einheitliche 100-kg-Last. Beide Tabellen nennen zehn Stunden
+kontinuierliche Fahrt und 3,5 Stunden Laden ohne Last-/SOC-Endpunkte;
+kein unabhängig gemessenes Maximum daraus abgeleitet. Eine 2D-LiDAR und zwei
+Tiefenkameras, optionale 3D-LiDAR. Erkennung etwa 5 cm niedriger Hindernisse ist
+keine Kletterstufe. Cargo-Box- und optionale 450-W-Ladermaße sind keine Roboterhülle.
+Web-FMS, SLAM, Simulation, MES/WMS und Topmodule bleiben Integrationsmerkmale.
+
+RB-Y1: 3 kg je Arm, 600 mm bis Handgelenk plus nicht festgelegte Handlänge,
+Plattformtabelle 600×690×1400 mm. A/M-Konfigurationen 131/170 kg.
+Produktübersicht nennt 24 DOF, A/M-Tabelle 20/26. Entwicklerhandbuch nennt oben
+A24/M26, in M-Detailtabelle dagegen insgesamt 24. Keine eigenmächtig korrigierte
+Summe oder Gleichsetzung von Befehlsdimension, Gelenk- und Radzählung.
+Aktuelle Seite/Handbuch nennen 1,5 m/s; Einführung vom 5. April 2024 nennt 2,5 m/s.
+Zeit-/Konfigurationsunterschied bleibt sichtbar, ohne unbelegte Revisionszuordnung.
+Handbuchübersicht 1270 Wh gegenüber Produkt-/Packwert 1250 Wh; der größere Pack
+trägt in einem Handbuchabschnitt „Model B“. Daraus kein neues Ganzrobotermodell,
+keine Laufzeit oder garantierte Ladezeit. Separate Robot/User-PCs, SDK/ROS 2,
+Simulation und Teleoperation behalten Entwicklungsscope. Vorführung vom März 2025
+ist ausdrücklich teleoperiert. V1.2/V1.3-Wrist, A/M-Basen, Neck/Gripper/Vision,
+Leader Arms und SDK-Model UB bleiben Konfiguration/Komponenten; keine Zusatzkarten.
+Einführung 2024 ist durch den Herstellerbericht mit erstem öffentlichen Auftritt
+im März 2024 belegt; Vorbestellung ab 8. Mai ist ein gesonderter angekündigter Schritt.
+
+Historische Forschung: Herstellerheritage beschreibt einen HUBO-Meilenstein 2004;
+KAIST nennt Rainbow-Gründung 2011. Universitätsentwicklung ist keine damalige
+Rainbow-Serienlieferung. Original-HUBO-Zahlen und Erstjahr 2005 bleiben durch die
+gewählten Primärquellen unbelegt. HUBO 2 ist im KAIST-Bericht vom 14. Mai 2020
+als zweite Generation und TV-Co-Anchor benannt, nicht als autonomes Nachrichtensystem.
+DRC-HUBO ist durch KAIST als DARPA-Gewinner 2015 identifiziert; Wettbewerb ist
+kein belegtes Erstjahr oder universelle Katastrophenschutz-Zertifizierung.
+Unbelegte Altwerte etwa 45/80 kg, 40/32 DOF und Handkonfigurationen entfallen.
+FX-2: KAIST dokumentiert menschlichen Fahrer bei der Fackelstaffel am 11. Dezember
+2017. Zeitgenössischer Regierungsbericht bestätigt gemeinsame HUBO-Lab/Rainbow-
+Entwicklung und erste Enthüllung an diesem Tag; 2017 bleibt als Einführung erhalten.
+Keine allgemeine Fahrgastzulassung, autonome Navigation oder Traglast abgeleitet.
+
+RBQ-3: Zwei tatsächliche Hersteller-Vorführungsberichte, darunter RoboWorld am
+28. Oktober 2021, belegen Modellidentität. Publikations-/Eventdaten und 2026er
+Website-Migrationszeit bleiben getrennt. Das aktuelle Handbuch bezeichnet explizit
+RBQ10; dessen IP54, Interfaces und Leistungswerte nicht auf RBQ-3 übertragen.
+Ehemalige 25 kg, 3 kg Last, 12 DOF, 2 m/s, 180 Minuten, ungefähr 40000 USD und
+Erstjahr 2023 sind durch die ausgewählten exakten Quellen nicht belegt.
+Ein Auftritt 2021 widerlegt die angenommene erste Existenz 2023, begründet aber
+kein exaktes tatsächliches Erstjahr. Historische Verfügbarkeit bleibt offen.
+
+RB-Y2/RBQ-10W sind in ihren jeweiligen Lineup-Karten innerhalb desselben Karten-
+Elements mit „Coming soon“ markiert. Dedizierte Platzhalterseiten liefern eine
+Positionierung ohne technische Tabelle. Leg-Wheel-Simulatorassets und Nachbar-
+modelle liefern keine realen Auslieferungsspezifikationen. Generic Mobile
+Manipulator, ASTRO, FMS, Lader und Erweiterungen bleiben separate System-/Software-
+oder Zubehörbefunde. Keine zusätzlichen Roboter aus bloßen Höhen-/Interfaceoptionen.
+
+36 tatsächliche Quellenversuche: 33 HTTP200, ein 404 und zwei DNS-Fehler auf den
+beiden Labor-Domainnamen. Aktuelle WordPress-Suche führt zu tatsächlich gelesenen
+öffentlichen Herstellerberichten; Suchtreffer allein sind keine technischen Belege.
+GitHub-Baum und begrenzte historische Commitabfrage begründen weder gelieferte
+Hardware noch eine vollständige Versionsgeschichte. RBY-/RBM-Kataloge verlangen
+personenbezogene Angaben und Einwilligung; kein Abruf dieser geschützten Dateien,
+keine Formulare/Einwilligung/Käufe. Keine PDFs oder visuelle PDF-Prüfung, keine
+neuen 429 oder Wiederholungen vorher blockierter Hosts.
+
+Aktuell: 2053 Modelle/Konfigurationen, 644 exakte Herstellernamen, 1036 Profile,
+633 mit/403 ohne Modelle. 951 Merkmalsdatensätze (799 Ergänzungen/152 bestehende
+Anreicherungen), 4137 Aussagen, 1827 Produkt-Quellenreferenzen. Weiterhin 89
+Firmenfokusse auf 85 der 591 Quellen-Firmengruppen. 13268 Felder auf 793 Modellseiten:
+5714 dokumentiert, 7240 unbekannt, 251 widersprüchlich, 63 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 381 Feldprüfungen, 137 warten. 6290 Zielfelder:
+2842 dokumentiert, 3280 unbekannt, 157 widersprüchlich, elf Roadmap.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben
+offen. Vollständigkeit und Marktführerschaft sind weiterhin unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 verfolgte Python-Tests und 38 ausgewählte lokale
+Browserfälle bestanden (20 Rainbow/18 Vergleich, einschließlich acht Axe-Läufen).
+Ein anfänglicher Integrationstest fand fehlende bestehende Lagerlogistik-Filtertags
+an den vier neuen AMRs. Tags sachgerecht ergänzt; vollständige Unit-Suite und
+Build/Audit/Import gegen korrigierte Daten wiederholt, keine Prüfung abgeschwächt.
+Build: 3103 Seiten/ca. 481 MB. Audit: null Fehler/947 Warnungen; zehn zusätzliche
+ungeklärte Erstjahre, darunter vier entfernte unbelegte Altjahre.
+Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
+zwölf Modellseiten, Quellen-/Exporttransport und alle 793 gerenderten Feldprüfseiten
+geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-95-evidence.json`.

@@ -140,20 +140,20 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-02, all source company names are represented in 591 competitor
-groups. The catalog contains 2,047 model/configuration entries and 943 dated primary-source highlight
+groups. The catalog contains 2,053 model/configuration entries and 951 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 378 and 140 still awaiting those reviews.
+selected technical-field reviews for 381 and 137 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
-The heuristic gap file now compares all 2,047 rows using same-brand matches only.
+The heuristic gap file now compares all 2,053 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
 reviewed aliases, components and services; the strict unresolved counts remain
 three model identities and nine listings.
@@ -194,16 +194,18 @@ intervals remain qualified; daily utilization is not single-charge endurance.
 ER-ABILITY, ER-ORGANIZER and ER-CONNECT remain software findings. Current ER-FLEX/
 ER-MAX specifications are not substituted into older MC250/MC600 packages solely
 because the manufacturer documents their family-name correspondence.
-Rainbow Robotics now has selected field reviews for thirteen existing collaborative
-arms and RBQ-10, alongside its unchanged RB-Y1 review. Arm reach is available in
-the detail table, structured properties and comparison. Six manufacturer conflicts
+Rainbow Robotics now has selected field reviews for all 26 catalog platforms,
+including thirteen arms, RBQ-10 and twelve newly reviewed or expanded humanoid,
+quadruped and AMR identities. Earlier arm/RBQ-10 specifications retain their scope. Arm reach is available in
+the detail table, structured properties and comparison. Six earlier arm/RBQ-10 conflicts
 remain visible: two 850-arm reach disagreements, metric/imperial payload and mass
 discrepancies, and RBQ walking-speed/step-height differences. Mounting footprint,
 arm/controller mass, TCP versus angular speed, percentage gradients and optional
 modules retain their scope. RB16-900 uses its family card because the linked
 HTTP-200 route returns the homepage; missing exact-model fields stay undocumented.
-The new company focus separates adjacent families, hygiene claims and certificate
-limitations. Thirty gated download links were recorded without submitting forms.
+The expanded company focus retains arm/hygiene evidence and adds four named RBM
+AMRs, historical KAIST lineage and two coming-soon platforms. Earlier gated
+resource links and current RBY/RBM catalog gates remain unrequested.
 Elephant Robotics now has twelve selected model reviews, including the first dated
 highlight record for the existing myCobot 280 M5. Original myAGV physical conflicts
 stay visible; 2023 Pi/Jetson columns separate navigation from standby and optional
@@ -270,8 +272,8 @@ yaw typography is not converted into a numeric angular bound. Software, chargers
 HADS, batteries and carts are separate configuration or integration findings.
 
 Reviewed additional specification rows now show the same dated source/status badges
-as predefined fields. Rendered metadata was checked for all 782 selected-review
-model pages, including sixty-six reviewed launch years with conflicting milestones
+as predefined fields. Rendered metadata was checked for all 793 selected-review
+model pages, including sixty-eight reviewed launch years with conflicting milestones
 retained; this does not re-verify the underlying manufacturers or unmarked fields.
 
 Robotize now has selected field reviews for six current GoPal models and the
@@ -366,6 +368,16 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+The latest Rainbow review covers 218 fields: 55 documented, 159 unknown, two
+conflicting and two roadmap. Six additions are RBM-D400/D1000, RBM-S100a/S100b,
+RB-Y2 and RBQ-10W. The last two remain coming soon. S100a/b payloads are 120/100 kg;
+D400/D1000 masses, loads and differential drive stay separate from battery energy.
+HUBO, HUBO 2, DRC-HUBO, FX-2 and RBQ-3 retain historical developer/manufacturer scope.
+RB-Y1 keeps official DOF disagreements and dated 1.5/2.5 m/s statements, wrist reach,
+optional equipment and teleoperation scope. An October 2021 RBQ-3 demonstration is
+not a current RBQ-10 datasheet or a 2023 first release. Gated catalogs were not
+requested. See `reports/competitor-batch-95-evidence.json`.
 
 Knightscope now has five selected reviews across 80 fields: 27 documented,
 50 unknown and three roadmap. The historical stationary K1 Tower is added;
@@ -688,18 +700,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-13,058 fields across 782 models, distinguishing documented, undisclosed, conflicting and
+13,268 fields across 793 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 3,316 kB JSON response loads only for search or comparison;
+A separate 3,378 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 4,106 reviewed highlight statements as well as
+Catalog search now includes all 4,137 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
