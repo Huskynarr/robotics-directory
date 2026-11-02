@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T19:34:26.894Z",
+  "generatedAt": "2026-11-02T19:48:44.869Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 413,
-    "withoutSelectedFieldReview": 105,
-    "selectedFields": 7030,
+    "withSelectedFieldReview": 415,
+    "withoutSelectedFieldReview": 103,
+    "selectedFields": 7104,
     "selectedFieldStatuses": {
-      "documented": 3065,
-      "not-documented": 3789,
-      "conflicting": 165,
+      "documented": 3078,
+      "not-documented": 3849,
+      "conflicting": 166,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 99,
+    "sourceGroupsWithCompanyAuthoredFocus": 100,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -353,27 +353,6 @@
       "robotIds": [
         "ambi-robotics-ambisort-a-series",
         "ambi-robotics-ambistack"
-      ]
-    },
-    {
-      "brandId": "ekso-bionics",
-      "name": "Ekso Bionics",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/ekso-bionics"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "ekso-bionics-ekso-indego-personal",
-        "ekso-bionics-eksonr"
       ]
     },
     {
@@ -3648,6 +3627,27 @@
       ]
     },
     {
+      "brandId": "ekso-bionics",
+      "name": "Ekso Bionics",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/ekso-bionics"
+      ],
+      "catalogModels": 7,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "ekso-bionics-ekso-indego-personal",
+        "ekso-bionics-eksonr"
+      ]
+    },
+    {
       "brandId": "farmbot",
       "name": "FarmBot",
       "aliases": [],
@@ -6543,14 +6543,14 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/ekso-bionics"
       ],
-      "catalogModels": 2,
+      "catalogModels": 7,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "ekso-bionics-ekso-indego-personal",
         "ekso-bionics-eksonr"
@@ -22586,24 +22586,79 @@
       "brandId": "ekso-bionics",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 8,
       "highlightSources": [
         {
-          "name": "Ekso Bionics",
+          "name": "Ekso Bionics — current Indego Personal product page; 31 lb / 14 kg",
           "type": "manufacturer",
           "url": "https://eksobionics.com/ekso-indego-personal/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — Indego safety ZIP: Personal US 043-015-001.A and Clinical US 043-016-001.A; separate device specifications",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/static/fbbd3f2d05c83e227c6c0d13cb7755a5/Indego-Safety-Information-3.zip",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — current manufacturer intended-use statements by market",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/indications-for-use/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wandercraft — Wandercraft acquisition signed and closed October 1, 2026",
+          "type": "manufacturer",
+          "url": "https://www.wandercraft.eu/articles/wandercraft-acquires-ekso-bionics",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — acquisition FAQ: support intent and conditional coverage",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/wandercraft-eksobionics-faq/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 7,
+        "not-documented": 29,
+        "conflicting": 1,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Ekso Bionics — current Indego Personal product page; 31 lb / 14 kg",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/ekso-indego-personal/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — Indego safety ZIP: Personal US 043-015-001.A and Clinical US 043-016-001.A; separate device specifications",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/static/fbbd3f2d05c83e227c6c0d13cb7755a5/Indego-Safety-Information-3.zip",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — current manufacturer intended-use statements by market",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/indications-for-use/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wandercraft — Wandercraft acquisition signed and closed October 1, 2026",
+          "type": "manufacturer",
+          "url": "https://www.wandercraft.eu/articles/wandercraft-acquires-ekso-bionics",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — acquisition FAQ: support intent and conditional coverage",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/wandercraft-eksobionics-faq/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -22639,24 +22694,91 @@
       "brandId": "ekso-bionics",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 8,
       "highlightSources": [
         {
-          "name": "Ekso Bionics",
+          "name": "Ekso Bionics — current EksoNR and GaitCoach product page",
           "type": "manufacturer",
           "url": "https://eksobionics.com/eksonr/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — EksoNR safety ZIP: English 109751 DOCX capacities and per-battery specifications",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/static/2c3fc21ec9e205ed6520673eb7eb2439/109751_EksoNR_Safety_Information-1.zip",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — current FAQ: clinic-only NR, adult use and support person",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/faq/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — current manufacturer intended-use statements by market",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/indications-for-use/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wandercraft — Wandercraft acquisition signed and closed October 1, 2026",
+          "type": "manufacturer",
+          "url": "https://www.wandercraft.eu/articles/wandercraft-acquires-ekso-bionics",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — acquisition FAQ: support intent and conditional coverage",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/wandercraft-eksobionics-faq/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 6,
+        "not-documented": 31,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Ekso Bionics — current EksoNR and GaitCoach product page",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/eksonr/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — EksoNR safety ZIP: English 109751 DOCX capacities and per-battery specifications",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/static/2c3fc21ec9e205ed6520673eb7eb2439/109751_EksoNR_Safety_Information-1.zip",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — current FAQ: clinic-only NR, adult use and support person",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/faq/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — current manufacturer intended-use statements by market",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/indications-for-use/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wandercraft — Wandercraft acquisition signed and closed October 1, 2026",
+          "type": "manufacturer",
+          "url": "https://www.wandercraft.eu/articles/wandercraft-acquires-ekso-bionics",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ekso Bionics — acquisition FAQ: support intent and conditional coverage",
+          "type": "manufacturer",
+          "url": "https://eksobionics.com/wandercraft-eksobionics-faq/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
