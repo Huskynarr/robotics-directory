@@ -19586,36 +19586,75 @@
         "category": "educational",
         "manufacturer": "Ozobot",
         "model": "Ari",
-        "price": "Not disclosed",
+        "price": "250 USD (Ari Entry Kit; one robot plus accessories)",
+        "weight": "57 g robot; 0.9 kg classroom cradle is separate",
+        "size": "43 mm width × 43.0 mm height; depth not stated",
+        "batteryLife": "Approximately 240 min per manufacturer; operating conditions unspecified",
+        "maxRuntime": "Approximately 240 min stated operation; not a measured maximum",
         "tags": "educational;programmable;touchscreen;app-control;dev-platform",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://ozobot.com/products/ari-entry-kit",
-        "description": "Android-based coding robot includes a 390 by 390-pixel interactive touchscreen. Time-of-flight sensor, accelerometer and gyroscope support hands-on STEM experiments. Color-code activities and Ozobot Editor support classroom programming for grades 3 to 8."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Ari is an Android-based Ozobot coding robot with a 390 × 390-pixel interactive touchscreen, time-of-flight sensing, accelerometer, gyroscope, optical color/line sensors and a speaker. The technical sheets state 57 g robot mass and approximately 240 minutes of operation. Color Codes work without a screen; the documented PC-based block/Python workflow requires an active Wi-Fi connection. Entry and classroom kits contain the same named robot with different charging equipment.",
+        "releaseDate": "",
+        "chargingTime": "Approximately 60 min with external 5 V / 1 A charger; classroom cradle approximately 168 min to 80%",
+        "driveMode": ""
       },
       "highlights": [
-        "Android-based coding robot includes a 390 by 390-pixel interactive touchscreen",
-        "Time-of-flight sensor, accelerometer and gyroscope support hands-on STEM experiments",
-        "Color-code activities and Ozobot Editor support classroom programming for grades 3 to 8"
+        "Ari Entry Kit contains one Ari robot; classroom packs contain multiple Ari robots and a separate charging cradle. Pack counts, accessories and cradle mass are not extra robot models or robot mass.",
+        "The technical sheets state 57 g robot mass and 43 × 43.0 mm width/height. They do not supply a depth; the product JSON variant shipping weight is not a robot-body measurement.",
+        "A 3.7 V, 1050 mAh battery is rated for approximately 240 minutes of operation. Wired charging is approximately 60 minutes with an external 5 V / 1 A charger; the classroom cradle instead states approximately 168 minutes to 80% at up to 300 mA per robot.",
+        "Touchscreen, time-of-flight sensor, accelerometer, gyroscope, proximity and optical sensors, microphone and speaker support classroom coding. The storefront names Android OS and a 390 × 390-pixel display; AI-enabled marketing does not establish an onboard generative model or offline AI capability.",
+        "The technical sheets document PC-based Ozobot Editor blocks and Python over 2.4 GHz Wi-Fi, with the program running on the PC and the robot staying connected. Bluetooth 5.0 BLE is a separate radio feature, not proof of standalone Python execution.",
+        "The separate compatibility chart lists Bluetooth or flashloading while the technical sheets require Wi-Fi for their described PC workflow. Firmware/version and workflow scope remain unresolved; the chart is not used to certify universal offline execution.",
+        "The Ari collection identifies a 250 USD one-robot Entry Kit. Multi-robot classroom/curriculum packages and generic shipment copy do not establish the same kit price or a guaranteed delivery date."
       ],
       "sources": [
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
           "type": "manufacturer",
-          "url": "https://ozobot.com/products/ari-entry-kit",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
           "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products.json?limit=250",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
           "url": "https://ozobot.com/collections/ari-coding-robots",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-7.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/d2d483cd-df1e-407c-b43c-e0c42dd442db",
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-14/ozobot.com-products-ari-entry-kit.json",
-      "reviewNotes": "Entry kit explicitly contains one Ari robot. Multi-robot classroom packs are bundles, not extra hardware models. Manufacturer lists grades rather than an inferred age limit. AI-enabled marketing does not establish a specific AI model or offline AI functionality. Storefront has both purchase and sold-out controls, so immediate stock is not inferred. Dollar currency not independently confirmed; generic fulfilment text is not an Ari shipping guarantee. Python coding and full-sensor student programs establish the development-platform tag without inventing an age range from school grades."
+      "reviewNotes": "Four existing Ozobot models reviewed from current manufacturer technical sheets, historical Bit/Evo documentation, compatibility charts and the public product response. Original Bit and Bit+ remain distinct. Width/height pairs do not establish depth; robot mass excludes cradle/shipping weight. Wired charge duration and cradle 80% targets stay separate. Stored Blockly and connected PC execution are different workflows; radio/LED wording discrepancies remain qualified. Kit prices have explicit USD metadata. No new powered robot identity is inferred from the empty Ora EEK Bundle, accessories or classroom counts. No full historical/regional portfolio or independent performance claim."
     },
     {
       "row": {
@@ -26607,26 +26646,69 @@
         "category": "educational",
         "manufacturer": "Ozobot",
         "model": "Evo",
-        "website": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf"
+        "price": "175 USD (Evo Entry Kit; one robot plus accessories)",
+        "weight": "1 oz robot per technical sheet; 2 lb cradle excluded",
+        "size": "33.5 mm width × 33.0 mm height; depth not stated",
+        "batteryLife": "Approximately 60 min per technical sheet; historical shared guide says 60–90 min",
+        "maxRuntime": "Approximately 60 min stated operation; no measured maximum established",
+        "tags": "bluetooth;educational;programmable;coding",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://ozobot.com/products/evo-entry-kit-1",
+        "image": "images/educational/ozobot-evo.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Evo is a compact Ozobot coding robot with optical line/color sensing, proximity detection, programmable LEDs and a speaker. It supports screen-free Color Codes and Ozobot Blockly. The technical sheet states 1 oz robot mass and approximately 60 minutes of operation; up to 2 kB Blockly programs can be stored and run without an active PC connection, while PC-executed programs require the documented connection.",
+        "releaseDate": "",
+        "chargingTime": "60 min stated wired charge time; cradle approximately 60 min to 80% is a separate target",
+        "driveMode": ""
       },
       "highlights": [
-        "Supports screen-free Color Code activities and OzoBlockly visual programming",
-        "Evo adds proximity sensing and sound feedback, distinguished from Ozobot Bit"
+        "The Evo Entry Kit contains one Evo, a cable, five dual-tip markers, activities and a zip case. Multi-robot classroom packs, charging cradles and accessories are distinct supplied packages of the same named robot.",
+        "The technical sheet gives 33.5 × 33.0 mm width/height and 1 oz for Evo, separately from the 2 lb cradle. It does not provide a depth or establish the old catalog mass of 0.05 kg.",
+        "The 140 mAh battery is rated for approximately 60 minutes of operation; the historical shared Bit/Evo educator guide instead gives 60–90 minutes without a defined mode. Neither is an independently measured maximum.",
+        "The stated 60-minute wired charging time is separate from the classroom cradle figure of approximately 60 minutes to reach 80% at up to 300 mA per robot. Equal minute counts do not mean equal charge completion.",
+        "Ozobot Blockly can load up to 2 kB onto Evo via BLE or screen flashing for execution without an active PC. PC-executed programs need an ongoing connection; offline stored Blockly is not evidence of standalone Python.",
+        "The sheet labels the Python section “over WiFi” but says Evo must stay connected over BLE during execution. That internal mismatch does not establish native Evo Wi-Fi hardware; the separately documented radio is Bluetooth 5.0 BLE.",
+        "The current product page says ten RGB LEDs; the historical educator diagram labels five front LEDs plus a top LED. Exact hardware revision and count are unresolved, so no single LED count is treated as a universal Evo specification.",
+        "The 175 USD amount is for the one-robot Evo Entry Kit. Trade-in discounts, six/twelve/eighteen-robot classroom kits and curriculum bundles are separate prices/configurations."
       ],
       "sources": [
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
           "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products/evo-entry-kit",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
           "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://static.ozobot.com/assets/7743bc40-2023-ozobot-evo-compatibility-chart.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-9.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/952183e5-76bb-42c6-9166-3813a0036365"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-24/files.ozobot.com-stem-education-ozobot-educators-guide.pdf.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Historical manufacturer educator guide. Current mobile-app compatibility, classroom subscriptions and services are not certified; Bit/Evo configurations remain distinct."
+      "reviewNotes": "Four existing Ozobot models reviewed from current manufacturer technical sheets, historical Bit/Evo documentation, compatibility charts and the public product response. Original Bit and Bit+ remain distinct. Width/height pairs do not establish depth; robot mass excludes cradle/shipping weight. Wired charge duration and cradle 80% targets stay separate. Stored Blockly and connected PC execution are different workflows; radio/LED wording discrepancies remain qualified. Kit prices have explicit USD metadata. No new powered robot identity is inferred from the empty Ora EEK Bundle, accessories or classroom counts. No full historical/regional portfolio or independent performance claim."
     },
     {
       "row": {
@@ -27664,29 +27746,53 @@
         "manufacturer": "Ozobot",
         "model": "Bit",
         "price": "Not disclosed",
-        "tags": "education;educational;coding;line-following;programmable",
+        "weight": "",
+        "size": "",
+        "batteryLife": "60–90 min in historical shared Bit/Evo guide; conditions unspecified",
+        "maxRuntime": "60–90 min historical shared-guide range; not a measured maximum",
+        "tags": "educational;programmable;coding",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
-        "description": "Historical educational line-following robot programmed through marker color codes or the OzoBlockly editor; distinct from the later Bit+ model."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Bit is the historical Ozobot line-following coding robot, distinct from Bit+. The educator guide describes marker-drawn Color Codes, OzoBlockly and single-button power, stored-program execution and calibration. It gives up to 40 minutes charging for Bit and a shared 60–90-minute Bit/Evo operating range. Current sales availability and exact physical specifications were not established.",
+        "releaseDate": "",
+        "chargingTime": "Up to 40 min per historical educator guide; starting charge state unspecified",
+        "driveMode": ""
       },
       "highlights": [
-        "Follows marker-drawn lines and Color Codes for screen-free programming",
-        "OzoBlockly offers block-based programming through the shared Ozobot learning system",
-        "A single button controls power, stored programs and calibration"
+        "The historical educator guide names original Bit separately from Evo; it is not evidence that Bit and later Bit+ are the same model.",
+        "Bit follows marker-drawn lines and Color Codes, with OzoBlockly providing visual programs in the shared learning system. Evo-specific speaker, proximity and Bluetooth features are not transferred to Bit.",
+        "Single click powers the robot on/off, double click runs a stored program, and press-and-hold calibrates it to light and surface conditions.",
+        "The guide allows up to 40 minutes to charge Bit and gives a shared 60–90-minute operating range for Bit/Evo. These historical approximate figures are not a current battery-health measurement.",
+        "The current Evo Upgrade Program accepts older Bit and Evo robots, including non-working units, for a conditional one-to-one trade-in. It is not a new Bit offer or proof of a precise Bit discontinuation date."
       ],
       "sources": [
         {
-          "name": "Ozobot — manufacturer product documentation",
-          "type": "manufacturer",
+          "name": "Ozobot — manufacturer technical specification/documentation",
           "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/pages/bit-replacement-program",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-6.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/companies/ozobot"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-24/files.ozobot.com-stem-education-ozobot-educators-guide.pdf.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Historical manufacturer educator guide explicitly names Bit separately from Evo. Original Bit is not an alias for Bit+. This is reuse of a source fetched 2026-11-01, not a new successful request to the blocked main host. Current availability, release year and numeric runtime are unverified."
+      "reviewNotes": "Four existing Ozobot models reviewed from current manufacturer technical sheets, historical Bit/Evo documentation, compatibility charts and the public product response. Original Bit and Bit+ remain distinct. Width/height pairs do not establish depth; robot mass excludes cradle/shipping weight. Wired charge duration and cradle 80% targets stay separate. Stored Blockly and connected PC execution are different workflows; radio/LED wording discrepancies remain qualified. Kit prices have explicit USD metadata. No new powered robot identity is inferred from the empty Ora EEK Bundle, accessories or classroom counts. No full historical/regional portfolio or independent performance claim."
     },
     {
       "row": {
@@ -49025,6 +49131,57 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-85/source-31.txt",
       "discoveredIn": [],
       "reviewNotes": "Thirty-one selected Interbotix/Trossen offerings reviewed with exact named X-Series tables, ALOHA kit/arm mappings and previous/new-generation Trossen documents. Working payload at limited extension, per-arm versus whole-kit values, servo counts, reach metrics, conditional compute/camera contents and preliminary current specifications retain scope. New arm reach and Heavy arm/package load conflicts are unresolved; 2026 pricing is proposed. Passive Glide/Cockpit/TRumi data-collection equipment and third-party UGVs are not new powered robot cards. No independent accuracy/safety, exact unqualified purchase offer or complete historical lineup claim."
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "Ozobot",
+        "model": "Bit+",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;programmable;coding;dev-platform",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+        "image": "images/educational/ozobot-bit-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Bit+ is a separately named Ozobot educational coding robot. Its manufacturer compatibility chart supports Ozobot Blockly and Arduino over WebUSB on ChromeOS, macOS and Windows. Physical specifications, battery runtime and current sales status were not established in this review; original Bit specifications are not transferred.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "highlights": [
+        "The manufacturer Bit+ Compatibility Chart names Bit+ explicitly and lists Ozobot Blockly and Arduino, both using WebUSB. It does not identify Bit+ as an alias for original Bit.",
+        "The chart recommends Chromebook with Chrome OS mid-2016 or later, macOS 10.13 or later and Windows 10 version 20H2 or later. These are computer requirements, not the robot’s release year.",
+        "The chart recommends firmware updates during the year and current supported browsers. WebUSB transport is not evidence of Bluetooth, Wi-Fi or an untethered Python runtime.",
+        "No exact Bit+ battery duration, charging interval, robot mass, dimensions, top speed, launch year or current sale price was established. Original Bit’s 40-minute charge and 60–90-minute range are not reused."
+      ],
+      "sources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/pages/manuals",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-17.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Four existing Ozobot models reviewed from current manufacturer technical sheets, historical Bit/Evo documentation, compatibility charts and the public product response. Original Bit and Bit+ remain distinct. Width/height pairs do not establish depth; robot mass excludes cradle/shipping weight. Wired charge duration and cradle 80% targets stay separate. Stored Blockly and connected PC execution are different workflows; radio/LED wording discrepancies remain qualified. Kit prices have explicit USD metadata. No new powered robot identity is inferred from the empty Ora EEK Bundle, accessories or classroom counts. No full historical/regional portfolio or independent performance claim."
     }
   ]
 }

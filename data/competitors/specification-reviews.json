@@ -74311,6 +74311,464 @@
           "note": "No named-configuration repeatability measurement established. Legacy-arm values are not transferred to a new generation."
         }
       }
+    },
+    {
+      "robotId": "ozobot-ari",
+      "manufacturer": "Ozobot",
+      "model": "Ari",
+      "sources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products.json?limit=250",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/collections/ari-coding-robots",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-7.pdf",
+      "fields": {
+        "price": {
+          "value": "250 USD (Ari Entry Kit; one robot plus accessories)",
+          "status": "documented",
+          "note": "Exact Ari Entry Kit amount 250.00 in the public product response and 250.0 USD in collection product-variant metadata. Kit includes accessories, not a bare-robot offer; checked 2026-11-02."
+        },
+        "weight": {
+          "value": "57 g robot; 0.9 kg classroom cradle is separate",
+          "status": "documented",
+          "note": "Named robot 2 oz / 57 g in both technical sheets. Classroom cradle 2 lb / 0.9 kg is separate; product response variant grams=907 is a shipping/variant field and not assigned to robot mass."
+        },
+        "size": {
+          "value": "43 mm width × 43.0 mm height; depth not stated",
+          "status": "documented",
+          "note": "Literal technical-sheet width/height pair only; no invented third dimension."
+        },
+        "batteryLife": {
+          "value": "Approximately 240 min per manufacturer; operating conditions unspecified",
+          "status": "documented",
+          "note": "Technical sheets state approximately 240 minutes; no mode, Wi-Fi load, screen brightness or battery-aging test condition."
+        },
+        "maxRuntime": {
+          "value": "Approximately 240 min stated operation; not a measured maximum",
+          "status": "documented",
+          "note": "Same approximate manufacturer endurance as batteryLife; no measured continuous-use maximum."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No hand or gripper specification established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined mechanical joint count established; wheel count and software controls do not define arm DOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried or manipulator payload established."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal ingress-protection rating established; shell material and classroom durability claims are not an IP certificate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer school grades or curriculum coverage are not converted into chronological age limits."
+        },
+        "website": {
+          "value": "https://ozobot.com/products/ari-entry-kit",
+          "status": "documented",
+          "note": "Named-model manufacturer documentation; no independent performance test."
+        },
+        "description": {
+          "value": "Ari is an Android-based Ozobot coding robot with a 390 × 390-pixel interactive touchscreen, time-of-flight sensing, accelerometer, gyroscope, optical color/line sensors and a speaker. The technical sheets state 57 g robot mass and approximately 240 minutes of operation. Color Codes work without a screen; the documented PC-based block/Python workflow requires an active Wi-Fi connection. Entry and classroom kits contain the same named robot with different charging equipment.",
+          "status": "documented",
+          "note": "Named-model manufacturer documentation; no independent performance test."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first-model launch year established. Storefront creation timestamps, manual copyright years and software compatibility dates are not launch dates."
+        },
+        "chargingTime": {
+          "value": "Approximately 60 min with external 5 V / 1 A charger; classroom cradle approximately 168 min to 80%",
+          "status": "documented",
+          "note": "Entry-kit external wired 5 V / 1 A charging and classroom-cradle 80% target are distinct methods and charge-state scopes. A 168-minute 80% figure is not a full-charge duration."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        }
+      }
+    },
+    {
+      "robotId": "ozobot-evo",
+      "manufacturer": "Ozobot",
+      "model": "Evo",
+      "sources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products/evo-entry-kit",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://static.ozobot.com/assets/7743bc40-2023-ozobot-evo-compatibility-chart.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-9.pdf",
+      "fields": {
+        "price": {
+          "value": "175 USD (Evo Entry Kit; one robot plus accessories)",
+          "status": "documented",
+          "note": "Product JSON-LD and product response agree on 175.00 for Evo Entry Kit; JSON-LD explicitly names USD. Price checked 2026-11-02, not a fulfillment guarantee."
+        },
+        "weight": {
+          "value": "1 oz robot per technical sheet; 2 lb cradle excluded",
+          "status": "documented",
+          "note": "Manufacturer technical sheet states Evo 1 oz, cradle 2 lb. The previous 0.05 kg robot value is not supported by the reviewed source."
+        },
+        "size": {
+          "value": "33.5 mm width × 33.0 mm height; depth not stated",
+          "status": "documented",
+          "note": "Only manufacturer width/height pair recorded; no invented depth or volume class."
+        },
+        "batteryLife": {
+          "value": "Approximately 60 min per technical sheet; historical shared guide says 60–90 min",
+          "status": "documented",
+          "note": "Current technical sheet approximate 60 minutes retained alongside historical shared-guide 60–90-minute range. Overlapping ranges do not by themselves prove conflicting hardware revisions."
+        },
+        "maxRuntime": {
+          "value": "Approximately 60 min stated operation; no measured maximum established",
+          "status": "documented",
+          "note": "Approximate operating duration, not an observed continuous-use maximum."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No hand or gripper specification established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined mechanical joint count established; wheel count and software controls do not define arm DOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried or manipulator payload established."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal ingress-protection rating established; shell material and classroom durability claims are not an IP certificate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer school grades or curriculum coverage are not converted into chronological age limits."
+        },
+        "website": {
+          "value": "https://ozobot.com/products/evo-entry-kit-1",
+          "status": "documented",
+          "note": "Named-model manufacturer documentation; no independent performance test."
+        },
+        "description": {
+          "value": "Evo is a compact Ozobot coding robot with optical line/color sensing, proximity detection, programmable LEDs and a speaker. It supports screen-free Color Codes and Ozobot Blockly. The technical sheet states 1 oz robot mass and approximately 60 minutes of operation; up to 2 kB Blockly programs can be stored and run without an active PC connection, while PC-executed programs require the documented connection.",
+          "status": "documented",
+          "note": "Named-model manufacturer documentation; no independent performance test."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first-model launch year established. Storefront creation timestamps, manual copyright years and software compatibility dates are not launch dates."
+        },
+        "chargingTime": {
+          "value": "60 min stated wired charge time; cradle approximately 60 min to 80% is a separate target",
+          "status": "documented",
+          "note": "Wired 60-minute statement has no defined start state; cradle approximately 60 minutes explicitly targets 80%, not full charge."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        }
+      }
+    },
+    {
+      "robotId": "ozobot-bit",
+      "manufacturer": "Ozobot",
+      "model": "Bit",
+      "sources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/pages/bit-replacement-program",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-6.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current named-model price established; absence from this product response does not prove discontinuation."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model width, depth and height established."
+        },
+        "batteryLife": {
+          "value": "60–90 min in historical shared Bit/Evo guide; conditions unspecified",
+          "status": "documented",
+          "note": "Historical shared Bit/Evo statement on educator-guide page 6, without mode or test conditions. Not transferred to Bit+."
+        },
+        "maxRuntime": {
+          "value": "60–90 min historical shared-guide range; not a measured maximum",
+          "status": "documented",
+          "note": "Shared historical range retained as such; 90 minutes is not independently established as a maximum."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No hand or gripper specification established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined mechanical joint count established; wheel count and software controls do not define arm DOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried or manipulator payload established."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal ingress-protection rating established; shell material and classroom durability claims are not an IP certificate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer school grades or curriculum coverage are not converted into chronological age limits."
+        },
+        "website": {
+          "value": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+          "status": "documented",
+          "note": "Named-model manufacturer documentation; no independent performance test."
+        },
+        "description": {
+          "value": "Bit is the historical Ozobot line-following coding robot, distinct from Bit+. The educator guide describes marker-drawn Color Codes, OzoBlockly and single-button power, stored-program execution and calibration. It gives up to 40 minutes charging for Bit and a shared 60–90-minute Bit/Evo operating range. Current sales availability and exact physical specifications were not established.",
+          "status": "documented",
+          "note": "Named-model manufacturer documentation; no independent performance test."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first-model launch year established. Storefront creation timestamps, manual copyright years and software compatibility dates are not launch dates."
+        },
+        "chargingTime": {
+          "value": "Up to 40 min per historical educator guide; starting charge state unspecified",
+          "status": "documented",
+          "note": "Page 6 names Bit specifically: allow up to 40 minutes. Does not state start/end charge percentages or validate aged batteries."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        }
+      }
+    },
+    {
+      "robotId": "ozobot-bit-plus",
+      "manufacturer": "Ozobot",
+      "model": "Bit+",
+      "sources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/pages/manuals",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-86/source-17.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current named-model price established; absence from this product response does not prove discontinuation."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model width, depth and height established."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No hand or gripper specification established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined mechanical joint count established; wheel count and software controls do not define arm DOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried or manipulator payload established."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal ingress-protection rating established; shell material and classroom durability claims are not an IP certificate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer school grades or curriculum coverage are not converted into chronological age limits."
+        },
+        "website": {
+          "value": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+          "status": "documented",
+          "note": "Named-model manufacturer documentation; no independent performance test."
+        },
+        "description": {
+          "value": "Bit+ is a separately named Ozobot educational coding robot. Its manufacturer compatibility chart supports Ozobot Blockly and Arduino over WebUSB on ChromeOS, macOS and Windows. Physical specifications, battery runtime and current sales status were not established in this review; original Bit specifications are not transferred.",
+          "status": "documented",
+          "note": "Named-model manufacturer documentation; no independent performance test."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first-model launch year established. Storefront creation timestamps, manual copyright years and software compatibility dates are not launch dates."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the reviewed Ozobot sources; values from another model or shipping package are not transferred."
+        }
+      }
     }
   ]
 }

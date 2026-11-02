@@ -9759,22 +9759,44 @@
       "manufacturer": "Ozobot",
       "model": "Ari",
       "highlights": [
-        "Android-based coding robot includes a 390 by 390-pixel interactive touchscreen",
-        "Time-of-flight sensor, accelerometer and gyroscope support hands-on STEM experiments",
-        "Color-code activities and Ozobot Editor support classroom programming for grades 3 to 8"
+        "Ari Entry Kit contains one Ari robot; classroom packs contain multiple Ari robots and a separate charging cradle. Pack counts, accessories and cradle mass are not extra robot models or robot mass.",
+        "The technical sheets state 57 g robot mass and 43 × 43.0 mm width/height. They do not supply a depth; the product JSON variant shipping weight is not a robot-body measurement.",
+        "A 3.7 V, 1050 mAh battery is rated for approximately 240 minutes of operation. Wired charging is approximately 60 minutes with an external 5 V / 1 A charger; the classroom cradle instead states approximately 168 minutes to 80% at up to 300 mA per robot.",
+        "Touchscreen, time-of-flight sensor, accelerometer, gyroscope, proximity and optical sensors, microphone and speaker support classroom coding. The storefront names Android OS and a 390 × 390-pixel display; AI-enabled marketing does not establish an onboard generative model or offline AI capability.",
+        "The technical sheets document PC-based Ozobot Editor blocks and Python over 2.4 GHz Wi-Fi, with the program running on the PC and the robot staying connected. Bluetooth 5.0 BLE is a separate radio feature, not proof of standalone Python execution.",
+        "The separate compatibility chart lists Bluetooth or flashloading while the technical sheets require Wi-Fi for their described PC workflow. Firmware/version and workflow scope remain unresolved; the chart is not used to certify universal offline execution.",
+        "The Ari collection identifies a 250 USD one-robot Entry Kit. Multi-robot classroom/curriculum packages and generic shipment copy do not establish the same kit price or a guaranteed delivery date."
       ],
       "sources": [
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
           "type": "manufacturer",
-          "url": "https://ozobot.com/products/ari-entry-kit",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
           "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products.json?limit=250",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
           "url": "https://ozobot.com/collections/ari-coding-robots",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -13709,15 +13731,39 @@
       "manufacturer": "Ozobot",
       "model": "Evo",
       "highlights": [
-        "Supports screen-free Color Code activities and OzoBlockly visual programming",
-        "Evo adds proximity sensing and sound feedback, distinguished from Ozobot Bit"
+        "The Evo Entry Kit contains one Evo, a cable, five dual-tip markers, activities and a zip case. Multi-robot classroom packs, charging cradles and accessories are distinct supplied packages of the same named robot.",
+        "The technical sheet gives 33.5 × 33.0 mm width/height and 1 oz for Evo, separately from the 2 lb cradle. It does not provide a depth or establish the old catalog mass of 0.05 kg.",
+        "The 140 mAh battery is rated for approximately 60 minutes of operation; the historical shared Bit/Evo educator guide instead gives 60–90 minutes without a defined mode. Neither is an independently measured maximum.",
+        "The stated 60-minute wired charging time is separate from the classroom cradle figure of approximately 60 minutes to reach 80% at up to 300 mA per robot. Equal minute counts do not mean equal charge completion.",
+        "Ozobot Blockly can load up to 2 kB onto Evo via BLE or screen flashing for execution without an active PC. PC-executed programs need an ongoing connection; offline stored Blockly is not evidence of standalone Python.",
+        "The sheet labels the Python section “over WiFi” but says Evo must stay connected over BLE during execution. That internal mismatch does not establish native Evo Wi-Fi hardware; the separately documented radio is Bluetooth 5.0 BLE.",
+        "The current product page says ten RGB LEDs; the historical educator diagram labels five front LEDs plus a top LED. Exact hardware revision and count are unresolved, so no single LED count is treated as a universal Evo specification.",
+        "The 175 USD amount is for the one-robot Evo Entry Kit. Trade-in discounts, six/twelve/eighteen-robot classroom kits and curriculum bundles are separate prices/configurations."
       ],
       "sources": [
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
           "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products/evo-entry-kit",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
           "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://static.ozobot.com/assets/7743bc40-2023-ozobot-evo-compatibility-chart.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -14294,16 +14340,24 @@
       "manufacturer": "Ozobot",
       "model": "Bit",
       "highlights": [
-        "Follows marker-drawn lines and Color Codes for screen-free programming",
-        "OzoBlockly offers block-based programming through the shared Ozobot learning system",
-        "A single button controls power, stored programs and calibration"
+        "The historical educator guide names original Bit separately from Evo; it is not evidence that Bit and later Bit+ are the same model.",
+        "Bit follows marker-drawn lines and Color Codes, with OzoBlockly providing visual programs in the shared learning system. Evo-specific speaker, proximity and Bluetooth features are not transferred to Bit.",
+        "Single click powers the robot on/off, double click runs a stored program, and press-and-hold calibrates it to light and surface conditions.",
+        "The guide allows up to 40 minutes to charge Bit and gives a shared 60–90-minute operating range for Bit/Evo. These historical approximate figures are not a current battery-health measurement.",
+        "The current Evo Upgrade Program accepts older Bit and Evo robots, including non-working units, for a conditional one-to-one trade-in. It is not a new Bit offer or proof of a precise Bit discontinuation date."
       ],
       "sources": [
         {
-          "name": "Ozobot — manufacturer product documentation",
-          "type": "manufacturer",
+          "name": "Ozobot — manufacturer technical specification/documentation",
           "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/pages/bit-replacement-program",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -24040,6 +24094,32 @@
         {
           "name": "Trossen Robotics — manufacturer documentation/product information",
           "url": "https://www.trossenrobotics.com/2026-product-lineup",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "ozobot-bit-plus",
+      "manufacturer": "Ozobot",
+      "model": "Bit+",
+      "highlights": [
+        "The manufacturer Bit+ Compatibility Chart names Bit+ explicitly and lists Ozobot Blockly and Arduino, both using WebUSB. It does not identify Bit+ as an alias for original Bit.",
+        "The chart recommends Chromebook with Chrome OS mid-2016 or later, macOS 10.13 or later and Windows 10 version 20H2 or later. These are computer requirements, not the robot’s release year.",
+        "The chart recommends firmware updates during the year and current supported browsers. WebUSB transport is not evidence of Bluetooth, Wi-Fi or an untethered Python runtime.",
+        "No exact Bit+ battery duration, charging interval, robot mass, dimensions, top speed, launch year or current sale price was established. Original Bit’s 40-minute charge and 60–90-minute range are not reused."
+      ],
+      "sources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/ozobot-bit-compatibility-chart.pdf?v=1779924772",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/pages/manuals",
           "type": "manufacturer",
           "checkedAt": "2026-11-02"
         }

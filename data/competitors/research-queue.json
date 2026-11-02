@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T12:56:24.495Z",
+  "generatedAt": "2026-11-02T13:13:59.685Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 354,
-    "withoutSelectedFieldReview": 164,
-    "selectedFields": 5799,
+    "withSelectedFieldReview": 357,
+    "withoutSelectedFieldReview": 161,
+    "selectedFields": 5850,
     "selectedFieldStatuses": {
-      "documented": 2678,
-      "not-documented": 2961,
+      "documented": 2699,
+      "not-documented": 2991,
       "conflicting": 150,
       "roadmap": 10
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 76,
+    "sourceGroupsWithCompanyAuthoredFocus": 77,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -390,28 +390,6 @@
         "lego-mindstorms-ev3",
         "lego-education-spike-essential",
         "lego-education-spike-prime"
-      ]
-    },
-    {
-      "brandId": "ozobot",
-      "name": "Ozobot",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/ozobot"
-      ],
-      "catalogModels": 4,
-      "reviewedReferenceTargets": 3,
-      "withDatedHighlights": 3,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 3,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "ozobot-ari",
-        "ozobot-bit",
-        "ozobot-evo"
       ]
     },
     {
@@ -3661,6 +3639,28 @@
         "locus-robotics-locus-array",
         "locus-robotics-locus-origin",
         "locus-robotics-locus-vector"
+      ]
+    },
+    {
+      "brandId": "ozobot",
+      "name": "Ozobot",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/ozobot"
+      ],
+      "catalogModels": 4,
+      "reviewedReferenceTargets": 3,
+      "withDatedHighlights": 3,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 3,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "",
+      "robotIds": [
+        "ozobot-ari",
+        "ozobot-bit",
+        "ozobot-evo"
       ]
     },
     {
@@ -10570,9 +10570,9 @@
       "reviewedReferenceTargets": 3,
       "withDatedHighlights": 3,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 3,
-      "hasCompanyAuthoredFocus": false,
+      "withSelectedFieldReview": 3,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
       "companyFocusCheckedAt": "",
       "robotIds": [
         "ozobot-ari",
@@ -34619,30 +34619,79 @@
       "brandId": "ozobot",
       "category": "educational",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
           "type": "manufacturer",
-          "url": "https://ozobot.com/products/ari-entry-kit",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
           "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products.json?limit=250",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
           "url": "https://ozobot.com/collections/ari-coding-robots",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 8,
+        "not-documented": 9,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Entry_Kit_Technical_Specifications.pdf?v=1744393246",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Classroom_Kit_Technical_Specifications_sheet.pdf?v=1779985250",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products.json?limit=250",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/collections/ari-coding-robots",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Ari_Ozobot_Editor_Device_Compatibility_Chart.pdf?v=1779924772",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -34664,24 +34713,43 @@
       "brandId": "ozobot",
       "category": "educational",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "Ozobot — manufacturer product documentation",
-          "type": "manufacturer",
+          "name": "Ozobot — manufacturer technical specification/documentation",
           "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/pages/bit-replacement-program",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 12,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/pages/bit-replacement-program",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "company-description-review",
@@ -34706,24 +34774,67 @@
       "brandId": "ozobot",
       "category": "educational",
       "hasDatedHighlights": true,
-      "highlightStatements": 2,
+      "highlightStatements": 8,
       "highlightSources": [
         {
-          "name": "Ozobot",
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
           "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products/evo-entry-kit",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
           "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://static.ozobot.com/assets/7743bc40-2023-ozobot-evo-compatibility-chart.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 8,
+        "not-documented": 9,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://cdn.shopify.com/s/files/1/1059/8266/files/Evo_Technical_Specifications.pdf?v=1744393262",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer product/portfolio information",
+          "url": "https://ozobot.com/products/evo-entry-kit",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://files.ozobot.com/stem-education/ozobot-educators-guide.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Ozobot — manufacturer technical specification/documentation",
+          "url": "https://static.ozobot.com/assets/7743bc40-2023-ozobot-evo-compatibility-chart.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
