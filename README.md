@@ -147,7 +147,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 407 and 111 still awaiting those reviews.
+selected technical-field reviews for 409 and 109 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -370,6 +370,16 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Awabot One and Pro now have 74 selected field checks and ten added manufacturer
+highlights. Current pages explicitly identify them as formerly Beam and BeamPro;
+these specifications do not cover every historical revision. One's same-page
+3/3.2 km/h discrepancy stays marked as conflicting. Its 45-degree stability tilt
+is not driving gradeability. Eight-hour battery operation is distinct from
+continuous runtime, and One's six-hour charge and 2 cm threshold figures do not
+transfer to Pro. Remote driving and parking assistance retain their scope.
+Historical rental packages, software and HIKU performance are not extra robot
+models or current purchase prices. See `reports/competitor-batch-108-evidence.json`.
 
 Asylon DroneDog and Guardian now have 53 selected field checks and expanded
 manufacturer highlights. DroneDog remains a Spot/PupPack integration with no
@@ -837,18 +847,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-15,333 fields across 902 models, distinguishing documented, undisclosed, conflicting and
+15,407 fields across 904 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 4,006 kB JSON response loads only for search or comparison;
+A separate 4,021 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 4,539 reviewed highlight statements as well as
+Catalog search now includes all 4,549 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -961,7 +971,7 @@ product catalogs; aliases and repeated source mentions are intentionally retaine
 Company exports include source positioning and factual feature themes; reseller
 listing themes are kept separate from claims about a manufacturer. Brand profiles
 and brand search now expose these source-attributed themes. Company-authored focus
-reviews now cover 100 profiles, including autonomy software, open-source platforms,
+reviews now cover 101 profiles, including autonomy software, open-source platforms,
 robotic cafes, welding integration, DealMaker, TGW Logistics and T-Chef. They are recorded in
 `company-evidence.json` and in the company export; directory themes remain unverified.
 Three named TGW RovoFlex systems are included with dated first-party highlights.

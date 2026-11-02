@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,122 catalog rows**, with 644 exact
-manufacturer spellings. Batch 107 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 108 refreshed the separate heuristic gap file offline
 against all 2,122 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 407 have selected-field reviews and 111 await those reviews. Family and
+highlights; 409 have selected-field reviews and 109 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 15,333 fields across 902 catalog models: 6,415 documented,
-8,586 not documented, 262 conflicting and seventy roadmap fields. They do not certify whole
+Selected specification checks cover 15,407 fields across 904 catalog models: 6,430 documented,
+8,644 not documented, 263 conflicting and seventy roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -6689,3 +6689,65 @@ Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte blei
 Keine vollständige Quellen-/Herstellerpalette oder Markt-/Suchführerschaft nachgewiesen.
 Datencommit `9446a4f7fb8f599c8192ca71402ccd55b1dd42c6` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-107-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Awabot-Telepräsenz und Quellenkonflikt (Batch 108)
+
+Awabot One und Pro als zwei bestehende Modelle mit 74 ausgewählten Feldern geprüft:
+15 dokumentiert, 58 nicht dokumentiert und eine Quellenabweichung. Zehn zusätzliche
+Merkmalsaussagen, netto zwei zusätzliche Produktquellenverweise; sechs bisherige
+Merkmalsbelege und Entdeckungsprovenienz erhalten. Ein neuer Firmenfokus, keine neuen Modelle.
+
+One: 17,7 kg, Höhe 1,35 m, Breite 32 cm und Länge 41,7 cm. Hersteller nennt bis zu
+acht Stunden ohne Nachladen und sechs Stunden Vollladung, ohne vollständige Testbedingungen.
+Dies steht als Batteriedauer, nicht als unabhängige Dauerbetriebs-Garantie. Dieselbe
+Produktseite nennt im Mobilitätstext maximal 3 km/h und an der Basis 3,2 km/h: beide
+Angaben bleiben als conflicting sichtbar. Ungefähr 2 cm Schwellenüberfahrt und getrennte
+45°-Kippstabilität ergeben keine 45°-Steigfähigkeit. Vier Mikrofone, zwei HDR-Kameras,
+X1-Digitalzoom und Bildschirmfreigabe als Herstellerfunktionen.
+
+Pro: 50 kg, Höhe 1,58 m, Breite 38 cm, Länge 63,5 cm, acht Stunden ohne Nachladen und
+maximal 3,2 km/h. 17-Zoll-Bildschirm, dreistufiger Digitalzoom und sechs Mikrofone.
+Zwei WLAN-Karten und USB-Port für einen 4G-Stick belegen keinen serienmäßigen Mobilfunk-
+Stick oder Datentarif. Keine Übertragung der One-Ladezeit, Schwellen- oder Kippangaben.
+Beide Modelle werden ferngesteuert; vom Nutzer ausgelöstes automatisches Parken ist
+keine allgemeine autonome Navigation oder vermessene Dockinggenauigkeit.
+
+Aktuelle Produktseiten nennen One ausdrücklich formerly Beam und Pro formerly BeamPro;
+keine pauschale Übertragung heutiger Werte auf jede historische Beam-Revision.
+Produktbeitrag vom 3. Oktober 2018, Bearbeitung vom 14. Oktober 2026, Gründung und
+Produktionsverlagerung sind keine exakten Modellstarts. Firmenangabe zur Verlagerung
+von Palo Alto nach Vénissieux nach France Relance 2021 bleibt Herstellerattribution,
+kein unabhängig geprüfter Ursprung sämtlicher Komponenten.
+
+Flexi’ Beam ist ein Mietpaket: Beitrag vom 30. September 2024, aktualisiert am
+10. April 2025, ab 449 EUR/Monat mit Robotik-, Konnektivitäts- und Servicebestandteilen.
+Kein aktueller Geräte-Kaufpreis; heutiger Umfang, Steuer- und Laufzeitbasis ungeprüft.
+HIKU ist ein Kunst-/Performanceprojekt, Smile Manager Software, TED-i ein Programm;
+keine zusätzlichen ganzen Robotermodelle. Führerschaft, installierte Basis,
+Latenzfreiheit, Sicherheitsversprechen und klinische Vorteile nicht unabhängig geprüft.
+Acht erfolgreiche HTTP200-HTML-Quellen mit SHA-256 und Text geprüft, keine visuelle
+Bild-/PDF-/Videoinspektion oder Formular-/Miet-/Demoanfrage.
+
+Alle 2120 anderen CSV-Zeilen, 902 bisherigen Feldprüfungen, 100 bisherigen Firmenfokusse,
+1032 anderen Produktbelege und 1961 Quellenidentitäten unverändert. Keine neue CSV-/
+Vergleichsspalte oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien bestanden;
+erster Lauf 806 bestanden/ein veralteter Konfliktzähler, Erwartung 262 auf 263 aktualisiert,
+anschließend alle bestanden. Build 3172 Seiten, Audit null Fehler/1027 unveränderte Hinweise.
+Lint/Format, Refresh und Wiederimport ohne Ergänzungen bestanden. 16 verschiedene Desktop-/
+Mobilfälle mit vier Axe-Läufen bestanden. Keine Videoiframes auf den zwei ausgewählten
+Seiten; frühere externe YouTube-Befunde aus Batch106 bleiben ungelöst.
+Zwei Seiten/74 Felder/16 Aussagen, Firmenfokus, strukturierte Eigenschaften, eine
+BEAM-Familien-Exportzeile mit zwei getrennten Modellzielen und Queue-Ziele geprüft.
+Gesamter Vergleich 1034 Produktbelege, 4549 Aussagen,
+2050 Quellenverweise und 904 Prüfungen/15407 Felder. Eigene Browser-/Server-/Hilfsprozesse
+beendet, Port 4321 frei; kein Deployment.
+
+Gesamt 2122 Modelle/Konfigurationen, 868 Ergänzungen und 166 bestehende Modelle mit
+Merkmalsanreicherung, 101 Firmenfokusse. Ursprüngliche Quellenziele: 409 geprüft,
+109 ausstehend von 518, 6882 Felder (3035 dokumentiert, 3671 nicht dokumentiert,
+165 Quellenabweichungen, elf Roadmap), Firmenfokus für 97 von 591 Quellengruppen.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben offen.
+Vollständige Quellen-/Herstellerpalette und Markt-/Suchführerschaft bleiben unbewiesen.
+Datencommit `bac134113a25f1fe7bc99b837c49d267b871cf70` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-108-evidence.json`.
