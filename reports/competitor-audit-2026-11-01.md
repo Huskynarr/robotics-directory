@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.161 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 907 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1073 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.166 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 912 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1078 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 111 |
+| Firmenfokus-Prüfungen mit Quellen | 112 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 907 ergänzte Modelle ergeben 2.161 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 912 ergänzte Modelle ergeben 2.166 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-111 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+112 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1073 Datensätze
+Modellseiten verlinken Markenprofile. Die 1078 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 436 haben ausgewählte Datenfeldprüfungen und 82
+haben datierte Merkmalsbelege; 438 haben ausgewählte Datenfeldprüfungen und 80
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -9807,3 +9807,86 @@ identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
 unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `2033ce908590a5eade00fafddd3638e8b88b839d` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-117-evidence.json`.
+
+## Ergänzung vom 2. November 2026 – ABB: datierter Cobot-Bestand und Modellspalten (Batch 118)
+
+Zwei vorhandene YuMi-Einträge vertieft, fünf ausdrücklich benannte Einträge ergänzt:
+GoFa 5/10/12 CRB 15000 und SWIFTI CRB 1100/1300. Sieben Einträge mit 140
+geprüften Feldern: 62 dokumentiert, 78 unbekannt. 28 neue Merkmalsaussagen,
+netto fünf Produktquellenverweise und ein Firmenfokus. Sechs alte Aussagen und
+Entdeckungsprovenienz bleiben erhalten. Die Quelle ist die frisch abgerufene
+ABB-Cobot-Broschüre mit Copyright 2023; die Datierung bleibt bei den Zahlen sichtbar.
+Kein vollständiger aktueller ABB-Industrie-/Mobil-/Delta-/Lackier-/Altbestand behauptet.
+
+Die Auswahlmatrix auf physischer PDF-Seite 1 (gedruckt Seite 16) enthält sieben
+beschriftete Modellspalten. Alle verwendeten Zahlen über native Text-/Wortkoordinaten
+innerhalb der jeweiligen Spalte geprüft; keine visuelle PDF-/Bildprüfung. Die
+Herstellerquelle und ihre SHA-256 sowie die Spaltenrechtecke und Wortbelege sind
+im dauerhaften Bericht `reports/competitor-batch-118-evidence.json` festgehalten.
+
+YuMi IRB 14000: 14 Gesamtachsen, 38 kg einschließlich IRC5, 0,5 kg und 0,56 m
+je Arm, 1,5 m/s maximal, 0,02 mm Pose-Wiederholbarkeit, IP30, ISO Clean Room 5,
+Tischmontage, Category B/PL b. IRB 14050: sieben Achsen, 9,6 kg, 0,5 kg/0,56 m,
+1,5 m/s, 0,02 mm, IP30, ISO Clean Room 6, OmniCore, beliebige Montage,
+Category 3/PL d. Keine Übertragung von integriertem Controller, Masse oder
+Sicherheitsniveau zwischen den Modellen. Wizard im YuMi-Text ausdrücklich nur
+für Single-arm YuMi; bei Dual-arm nicht als vorhandene Funktion angenommen.
+
+GoFa 5/10/12: je sechs Achsen, 5/10/12 kg, 1,05/1,62 TCP/1,37 m und
+28/51/48 kg in getrennten, benannten Spalten. Höchstgeschwindigkeiten 2,2/2/2 m/s,
+Wiederholbarkeit jeweils 0,02 mm. GoFa 5 IP54, GoFa 10 IP67. GoFa 12 hat in
+der Quelle wörtlich `IP567`; kein gültiger Zahlenwert erfunden, das IP-Feld bleibt
+offen mit ausdrücklicher Feldnotiz. Integrierte Drehmomentsensoren, Wizard,
+Handführung, Statuslicht und Arm-Bedienung als Herstellermerkmale paraphrasiert.
+
+SWIFTI CRB 1100: 4 kg, 21 kg, Reichweiten 0,58/0,475 m, maximale TCP-Werte
+5,05/4,32 m/s, 0,01 mm Wiederholbarkeit, IP40 Standard. CRB 1300: Lasten
+7/10/11 kg, Reichweiten 0,9/1,15/1,4 m, Massen 75/77/79 kg, maximal 6,2 m/s,
+0,02 mm Wiederholbarkeit, IP40 Standard/IP67 optional. Die Auswahlmatrix paart
+diese Familienlisten nicht eindeutig zu exakten Varianten; daher keine Zuordnung
+nach Textreihenfolge und keine daraus erfundenen zusätzlichen Einzelmodelle.
+CRB 1100s 0,01 mm nicht aus allgemeiner SWIFTI-Werbung auf CRB 1300 übertragen.
+
+SWIFTI nutzt SafeMove und Sicherheitssensorik zum Stoppen vor Kontakt; Handführung
+mit externem Gerät. Maximale TCP-Geschwindigkeit ist keine pauschal sichere
+Kollaborationsgeschwindigkeit. Die Quelle nennt niedrigere sichere Geschwindigkeit
+und anwendungsbezogene Risikobeurteilung. Werkzeug-/Werkstückgefahren qualifizieren
+Zaunfreiheit. Pose-Wiederholbarkeit ist keine absolute Positionier-/Prüfgenauigkeit;
+Reinraumpositionierung und Roboterschutz keine vollständige Zellenzertifizierung.
+IRC5/OmniCore, SmartGripper, Vakuum/Vision, Scanner, Lehrgerät und Wizard/RobotStudio
+bleiben Steuerungs-, Werkzeug-, Sensor- oder Softwarerollen. AGV-Montage keine
+mitgelieferte Mobilbasis; 24/7-Serviceüberwachung keine Roboterlaufzeit/Batteriedauer.
+Copyright 2023 und ABB-Firmengeschichte ab 1974 keine Modell-Erststartdaten.
+
+Eine erfolgreiche öffentliche PDF-Antwort HTTP200, ein zusätzliches Datenblatt
+HTTP403 ohne Produktbeleg. Danach keine weiteren Abrufe von library.e.abb.com.
+Produktseiten-Abrufe über new.abb.com ohne nutzbare Antwort beendet; www.abb.com
+mit Read-Timeout, HTTP/2-Transportfehler und begrenzter HTTP/1.1-Probe ohne Antwort.
+Ein Suchhinweis auf neuere GoFa-Traglasten ist kein gespeicherter Primärbeleg und
+wurde nicht in die Spezifikationen übernommen. Aktuelle GoFa-Revisionen bleiben
+ein offener Recherchepunkt. Keine Zugriffsumgehung, Formulare, Kontakte oder
+Transaktionen. Keine visuelle PDF-/Bild-/Video-/CAD-Prüfung.
+
+2159 andere alte Katalogzeilen, alle 972 alten Feldprüfungen, 111 alte Firmenfokusse,
+1071 andere Produktbelege und 1961 Quellenidentitäten unverändert. Keine neuen
+CSV-/Vergleichsfelder, Markenabgleichs- oder Anwendungslogikänderungen. Ein dauerhafter
+Test aktualisiert ausschließlich die Bestandszahlen. Die 20 ausgewählten Desktop-/
+Mobil-Browserfälle prüfen die ABB-Daten einschließlich vier Axe-Läufen.
+808 Unit-Tests/64 Dateien, 3216 Buildseiten, Lint/Format, Refresh und Wiederimport
+bestanden. Audit null Fehler/1054 Hinweise: fünf neue Hinweise nur für unbekannte
+Erststartjahre, keine Copyright-Jahre als Releases eingesetzt. Sieben Modellseiten,
+140 Felder, 34 Aussagen, ein Firmenfokus und strukturierte Daten geprüft. Ein gruppierter
+Modell-Export mit zwei Zielen/40 Feldern und zwei ursprüngliche Queue-Ziele geprüft.
+Vergleichsausgabe: 1078 Produktbelege, 4828 Aussagen, 2242 Quellenverweise,
+979 Feldprüfungen/18046 Felder. Eigene Testbrowser, Server und Recherchehelfer beendet.
+Die früheren externen YouTube-Frame-Befunde aus Batch 106 bleiben offen.
+
+Katalog jetzt 2166 Einträge mit 912 Aufgabenergänzungen; insgesamt 18046 Felder:
+6829 dokumentiert, 10850 unbekannt, 274 widersprüchlich, 93 Roadmap.
+Die ursprüngliche Queue hat 438 geprüfte und 80 offene Ziele; 7921 Felder:
+3234 dokumentiert, 4498 unbekannt, 173 widersprüchlich, 16 Roadmap.
+112 Firmenfokusse insgesamt; Quellen-Firmengruppen mit eigenem Fokus 108/591.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte weiterhin
+offen. Vollständigkeit, exklusive USPs, Suchrankings und Marktführerschaft unbewiesen.
+Datencommit `894916c94d52a57d8f66dc91f138395a1ff73b19` gepusht; Dokumentationsnachweis folgt separat auf
+`codex/competitor-directory-expansion`. Kein Deployment; `main` unverändert.

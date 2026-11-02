@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,161 catalog rows**, with 644 exact
-manufacturer spellings. Batch 117 refreshed the separate heuristic gap file offline
-against all 2,161 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,166 catalog rows**, with 644 exact
+manufacturer spellings. Batch 118 refreshed the separate heuristic gap file offline
+against all 2,166 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1073 dated records across the catalog, including
-166 existing-model enrichments and 907 task additions. All 430 catalog models
+Current product-highlight coverage: 1078 dated records across the catalog, including
+166 existing-model enrichments and 912 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 907 task additions, totaling 2,161.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 912 task additions, totaling 2,166.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 436 have selected-field reviews and 82 await those reviews. Family and
+highlights; 438 have selected-field reviews and 80 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 17,906 fields across 972 catalog models: 6,767 documented,
-10,772 not documented, 274 conflicting and ninety-three roadmap fields. They do not certify whole
+Selected specification checks cover 18,046 fields across 979 catalog models: 6,829 documented,
+10,850 not documented, 274 conflicting and ninety-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -7572,3 +7572,86 @@ identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
 unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `2033ce908590a5eade00fafddd3638e8b88b839d` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-117-evidence.json`.
+
+## Ergänzung vom 2. November 2026 – ABB: datierter Cobot-Bestand und Modellspalten (Batch 118)
+
+Zwei vorhandene YuMi-Einträge vertieft, fünf ausdrücklich benannte Einträge ergänzt:
+GoFa 5/10/12 CRB 15000 und SWIFTI CRB 1100/1300. Sieben Einträge mit 140
+geprüften Feldern: 62 dokumentiert, 78 unbekannt. 28 neue Merkmalsaussagen,
+netto fünf Produktquellenverweise und ein Firmenfokus. Sechs alte Aussagen und
+Entdeckungsprovenienz bleiben erhalten. Die Quelle ist die frisch abgerufene
+ABB-Cobot-Broschüre mit Copyright 2023; die Datierung bleibt bei den Zahlen sichtbar.
+Kein vollständiger aktueller ABB-Industrie-/Mobil-/Delta-/Lackier-/Altbestand behauptet.
+
+Die Auswahlmatrix auf physischer PDF-Seite 1 (gedruckt Seite 16) enthält sieben
+beschriftete Modellspalten. Alle verwendeten Zahlen über native Text-/Wortkoordinaten
+innerhalb der jeweiligen Spalte geprüft; keine visuelle PDF-/Bildprüfung. Die
+Herstellerquelle und ihre SHA-256 sowie die Spaltenrechtecke und Wortbelege sind
+im dauerhaften Bericht `reports/competitor-batch-118-evidence.json` festgehalten.
+
+YuMi IRB 14000: 14 Gesamtachsen, 38 kg einschließlich IRC5, 0,5 kg und 0,56 m
+je Arm, 1,5 m/s maximal, 0,02 mm Pose-Wiederholbarkeit, IP30, ISO Clean Room 5,
+Tischmontage, Category B/PL b. IRB 14050: sieben Achsen, 9,6 kg, 0,5 kg/0,56 m,
+1,5 m/s, 0,02 mm, IP30, ISO Clean Room 6, OmniCore, beliebige Montage,
+Category 3/PL d. Keine Übertragung von integriertem Controller, Masse oder
+Sicherheitsniveau zwischen den Modellen. Wizard im YuMi-Text ausdrücklich nur
+für Single-arm YuMi; bei Dual-arm nicht als vorhandene Funktion angenommen.
+
+GoFa 5/10/12: je sechs Achsen, 5/10/12 kg, 1,05/1,62 TCP/1,37 m und
+28/51/48 kg in getrennten, benannten Spalten. Höchstgeschwindigkeiten 2,2/2/2 m/s,
+Wiederholbarkeit jeweils 0,02 mm. GoFa 5 IP54, GoFa 10 IP67. GoFa 12 hat in
+der Quelle wörtlich `IP567`; kein gültiger Zahlenwert erfunden, das IP-Feld bleibt
+offen mit ausdrücklicher Feldnotiz. Integrierte Drehmomentsensoren, Wizard,
+Handführung, Statuslicht und Arm-Bedienung als Herstellermerkmale paraphrasiert.
+
+SWIFTI CRB 1100: 4 kg, 21 kg, Reichweiten 0,58/0,475 m, maximale TCP-Werte
+5,05/4,32 m/s, 0,01 mm Wiederholbarkeit, IP40 Standard. CRB 1300: Lasten
+7/10/11 kg, Reichweiten 0,9/1,15/1,4 m, Massen 75/77/79 kg, maximal 6,2 m/s,
+0,02 mm Wiederholbarkeit, IP40 Standard/IP67 optional. Die Auswahlmatrix paart
+diese Familienlisten nicht eindeutig zu exakten Varianten; daher keine Zuordnung
+nach Textreihenfolge und keine daraus erfundenen zusätzlichen Einzelmodelle.
+CRB 1100s 0,01 mm nicht aus allgemeiner SWIFTI-Werbung auf CRB 1300 übertragen.
+
+SWIFTI nutzt SafeMove und Sicherheitssensorik zum Stoppen vor Kontakt; Handführung
+mit externem Gerät. Maximale TCP-Geschwindigkeit ist keine pauschal sichere
+Kollaborationsgeschwindigkeit. Die Quelle nennt niedrigere sichere Geschwindigkeit
+und anwendungsbezogene Risikobeurteilung. Werkzeug-/Werkstückgefahren qualifizieren
+Zaunfreiheit. Pose-Wiederholbarkeit ist keine absolute Positionier-/Prüfgenauigkeit;
+Reinraumpositionierung und Roboterschutz keine vollständige Zellenzertifizierung.
+IRC5/OmniCore, SmartGripper, Vakuum/Vision, Scanner, Lehrgerät und Wizard/RobotStudio
+bleiben Steuerungs-, Werkzeug-, Sensor- oder Softwarerollen. AGV-Montage keine
+mitgelieferte Mobilbasis; 24/7-Serviceüberwachung keine Roboterlaufzeit/Batteriedauer.
+Copyright 2023 und ABB-Firmengeschichte ab 1974 keine Modell-Erststartdaten.
+
+Eine erfolgreiche öffentliche PDF-Antwort HTTP200, ein zusätzliches Datenblatt
+HTTP403 ohne Produktbeleg. Danach keine weiteren Abrufe von library.e.abb.com.
+Produktseiten-Abrufe über new.abb.com ohne nutzbare Antwort beendet; www.abb.com
+mit Read-Timeout, HTTP/2-Transportfehler und begrenzter HTTP/1.1-Probe ohne Antwort.
+Ein Suchhinweis auf neuere GoFa-Traglasten ist kein gespeicherter Primärbeleg und
+wurde nicht in die Spezifikationen übernommen. Aktuelle GoFa-Revisionen bleiben
+ein offener Recherchepunkt. Keine Zugriffsumgehung, Formulare, Kontakte oder
+Transaktionen. Keine visuelle PDF-/Bild-/Video-/CAD-Prüfung.
+
+2159 andere alte Katalogzeilen, alle 972 alten Feldprüfungen, 111 alte Firmenfokusse,
+1071 andere Produktbelege und 1961 Quellenidentitäten unverändert. Keine neuen
+CSV-/Vergleichsfelder, Markenabgleichs- oder Anwendungslogikänderungen. Ein dauerhafter
+Test aktualisiert ausschließlich die Bestandszahlen. Die 20 ausgewählten Desktop-/
+Mobil-Browserfälle prüfen die ABB-Daten einschließlich vier Axe-Läufen.
+808 Unit-Tests/64 Dateien, 3216 Buildseiten, Lint/Format, Refresh und Wiederimport
+bestanden. Audit null Fehler/1054 Hinweise: fünf neue Hinweise nur für unbekannte
+Erststartjahre, keine Copyright-Jahre als Releases eingesetzt. Sieben Modellseiten,
+140 Felder, 34 Aussagen, ein Firmenfokus und strukturierte Daten geprüft. Ein gruppierter
+Modell-Export mit zwei Zielen/40 Feldern und zwei ursprüngliche Queue-Ziele geprüft.
+Vergleichsausgabe: 1078 Produktbelege, 4828 Aussagen, 2242 Quellenverweise,
+979 Feldprüfungen/18046 Felder. Eigene Testbrowser, Server und Recherchehelfer beendet.
+Die früheren externen YouTube-Frame-Befunde aus Batch 106 bleiben offen.
+
+Katalog jetzt 2166 Einträge mit 912 Aufgabenergänzungen; insgesamt 18046 Felder:
+6829 dokumentiert, 10850 unbekannt, 274 widersprüchlich, 93 Roadmap.
+Die ursprüngliche Queue hat 438 geprüfte und 80 offene Ziele; 7921 Felder:
+3234 dokumentiert, 4498 unbekannt, 173 widersprüchlich, 16 Roadmap.
+112 Firmenfokusse insgesamt; Quellen-Firmengruppen mit eigenem Fokus 108/591.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte weiterhin
+offen. Vollständigkeit, exklusive USPs, Suchrankings und Marktführerschaft unbewiesen.
+Datencommit `894916c94d52a57d8f66dc91f138395a1ff73b19` gepusht; Dokumentationsnachweis folgt separat auf
+`codex/competitor-directory-expansion`. Kein Deployment; `main` unverändert.
