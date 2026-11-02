@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:05:26.768Z",
+  "generatedAt": "2026-11-02T20:17:05.773Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 417,
-    "withoutSelectedFieldReview": 101,
-    "selectedFields": 7178,
+    "withSelectedFieldReview": 419,
+    "withoutSelectedFieldReview": 99,
+    "selectedFields": 7252,
     "selectedFieldStatuses": {
-      "documented": 3097,
-      "not-documented": 3900,
+      "documented": 3110,
+      "not-documented": 3961,
       "conflicting": 170,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 101,
+    "sourceGroupsWithCompanyAuthoredFocus": 102,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -437,29 +437,6 @@
       "robotIds": [
         "oceanbotics-srv-8-rov",
         "oceanbotics-srv-8x-optimus-rov"
-      ]
-    },
-    {
-      "brandId": "percepto-autonomous-solutions",
-      "name": "Percepto Autonomous Solutions",
-      "aliases": [
-        "Percepto"
-      ],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/percepto-autonomous-solutions"
-      ],
-      "catalogModels": 4,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "percepto-air-max",
-        "percepto-air-max-ogi"
       ]
     },
     {
@@ -3725,6 +3702,29 @@
       "robotIds": [
         "nexaro-nr-1500",
         "nexaro-nr-1700"
+      ]
+    },
+    {
+      "brandId": "percepto-autonomous-solutions",
+      "name": "Percepto Autonomous Solutions",
+      "aliases": [
+        "Percepto"
+      ],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/percepto-autonomous-solutions"
+      ],
+      "catalogModels": 6,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "percepto-air-max",
+        "percepto-air-max-ogi"
       ]
     }
   ],
@@ -10752,14 +10752,14 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/percepto-autonomous-solutions"
       ],
-      "catalogModels": 4,
+      "catalogModels": 6,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "percepto-air-max",
         "percepto-air-max-ogi"
@@ -37078,24 +37078,67 @@
       "brandId": "percepto-autonomous-solutions",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 4,
+      "highlightStatements": 8,
       "highlightSources": [
         {
-          "name": "Percepto — manufacturer Percepto Air datasheet, revision OP-3-01-4/2022",
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
           "type": "manufacturer",
           "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — January 2022 dated site-specific Delek refinery account and Sparrow/Air Max configuration wording",
+          "type": "manufacturer",
+          "url": "https://percepto.com/delek-us-gains-first-bvlos-approval-for-u-s-refineries/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 7,
+        "not-documented": 30,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — January 2022 dated site-specific Delek refinery account and Sparrow/Air Max configuration wording",
+          "type": "manufacturer",
+          "url": "https://percepto.com/delek-us-gains-first-bvlos-approval-for-u-s-refineries/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -37117,24 +37160,67 @@
       "brandId": "percepto-autonomous-solutions",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Percepto",
+          "name": "Percepto — Air Max OGI datasheet OP-1-01-4/2022; drone and base quantities separated",
           "type": "manufacturer",
           "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-Max-OGI-v1.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 6,
+        "not-documented": 31,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Percepto — Air Max OGI datasheet OP-1-01-4/2022; drone and base quantities separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-Max-OGI-v1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

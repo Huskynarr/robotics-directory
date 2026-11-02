@@ -101167,6 +101167,1350 @@
           "note": "No exact named-aircraft value established in selected primary text; controller, battery, charger, payload accessory and other aircraft figures are not substituted."
         }
       }
+    },
+    {
+      "robotId": "percepto-air-max",
+      "manufacturer": "Percepto",
+      "model": "Air Max",
+      "sources": [
+        {
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — January 2022 dated site-specific Delek refinery account and Sparrow/Air Max configuration wording",
+          "type": "manufacturer",
+          "url": "https://percepto.com/delek-us-gains-first-bvlos-approval-for-u-s-refineries/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-5.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft/system purchase price established. Demo requests, services, software subscriptions, camera components and dock figures are separate."
+        },
+        "weight": {
+          "value": "9.5 kg / 21 lb aircraft in OP-3-01-4/2022; battery/payload inclusion basis not specified; 350 kg base excluded",
+          "status": "documented",
+          "note": "April 2022 primary aircraft column and November 2021 brochure both state 9.5 kg; no explicit battery/payload inclusion identified. 350 kg is the base, not aircraft or transported load."
+        },
+        "size": {
+          "value": "157 cm / 61.8 in propeller-tip diagonal; not packed dimensions or an overall W × L × H box",
+          "status": "documented",
+          "note": "157 cm is explicitly propeller-tip diagonal; base 166 × 162 × 168 cm is separate. No invented length/width/height from diagonal."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric per-charge battery operating duration established. Remote 24/7 availability and docking cycles do not mean continuous airborne operation."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-duty duration established; repeat launches and dock charging do not establish uninterrupted flight."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cameras are described as payload contents, without a numeric lifted mass rating. Camera resolution, gas-detection rate and base mass are not payload capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated aircraft travel speed established. Wind tests for the dock and emission-detection flow rates are not aircraft speed."
+        },
+        "terrain": {
+          "value": "Outdoor industrial inspection and mapping; exact airborne wind/temperature envelope not established",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified terrain value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "ipRating": {
+          "value": "IP55 aircraft in OP-3-01-4/2022 and November 2021 brochure; base separately IP56",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified ipRating value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "website": {
+          "value": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "description": {
+          "value": "Air Max is the historical Percepto inspection aircraft named as the next generation of Sparrow in the November 17, 2021 portfolio announcement. The OP-3-01-4/2022 datasheet gives 9.5 kg aircraft mass, a 157 cm propeller-tip diagonal and IP55 for the drone, separately from its 350 kg/IP56 base. Standard imagery combines 24 MP RGB and thermal cameras; the separately documented Air Max OGI uses a different camera/mass configuration. AIM supports autonomous missions, geotagged findings and remote collaboration. Dated field-proven/portfolio statements do not establish exact first release, present stock, flight duration, charging duration or equivalence with today’s Ranger.",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified description value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "November 17, 2021 portfolio launch names Air Max as next-generation field-proven Sparrow; exact first release of this name/configuration not established. November 2020 in blog20 is AIM software launch."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft flight duration established. Always-available service, simultaneous fleet size and automatic charging are not flight time."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Automatic dock charging is documented but no full elapsed battery charge duration established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "GPS/geotagged findings, repeat capture and asset localization do not establish a numeric aircraft positioning accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Landing/docking technology is described without numeric measured docking accuracy."
+        },
+        "driveMode": {
+          "value": "Autonomous inspection missions through Percepto AIM with a dedicated landing/charging base",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified driveMode value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspection throughput established; fleet concurrency, gas sensitivity, AI model count and customer-specific savings are different quantities."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "percepto-air-max-ogi",
+      "manufacturer": "Percepto",
+      "model": "Air Max OGI",
+      "sources": [
+        {
+          "name": "Percepto — Air Max OGI datasheet OP-1-01-4/2022; drone and base quantities separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-Max-OGI-v1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-6.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft/system purchase price established. Demo requests, services, software subscriptions, camera components and dock figures are separate."
+        },
+        "weight": {
+          "value": "10.7 kg / 23.5 lb aircraft in OP-1-01-4/2022; 350 kg base is separate; battery inclusion unspecified",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified weight value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "size": {
+          "value": "157 cm / 61.8 in aircraft propeller-tip diagonal; 166 × 162 × 168 cm belongs to base",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified size value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric per-charge battery operating duration established. Remote 24/7 availability and docking cycles do not mean continuous airborne operation."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-duty duration established; repeat launches and dock charging do not establish uninterrupted flight."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "OGI/RGB camera list identifies integrated equipment, not permissible extra cargo mass or interchangeable payload capability."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated aircraft travel speed established. Wind tests for the dock and emission-detection flow rates are not aircraft speed."
+        },
+        "terrain": {
+          "value": "Industrial emissions inspection at heavy industrial sites; numeric airborne weather limits not established",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified terrain value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The dedicated OP-1-01-4/2022 OGI sheet supplies no numeric aircraft IP rating. Standard Air Max/Mobile IP55 and base IP56 are not transferred."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "website": {
+          "value": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-Max-OGI-v1.pdf",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "description": {
+          "value": "Air Max OGI is the historical aircraft explicitly named in Percepto datasheet OP-1-01-4/2022. Its Sierra Olympic Ventus gas-imaging camera is paired with 16 MP RGB; aircraft mass is 10.7 kg and propeller-tip diagonal is 157 cm. The sheet separately lists a 350 kg base with 166 × 162 × 168 cm dimensions. Its camera MWIR/filter and dated EPA language describe that document’s camera context, not a current independently checked whole-system compliance guarantee. Neither the standard Air Max mass/IP rating nor current Ranger OGI specifications are automatically inherited. Per-charge flight time, full charging duration, cargo capacity and current retail availability remain unverified.",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified description value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first product release established. Dated portfolio/software announcements, historic predecessor mentions, certification dates and brochure revisions are separate."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft flight duration established. Always-available service, simultaneous fleet size and automatic charging are not flight time."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Automatic dock charging is documented but no full elapsed battery charge duration established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "GPS/geotagged findings, repeat capture and asset localization do not establish a numeric aircraft positioning accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Landing/docking technology is described without numeric measured docking accuracy."
+        },
+        "driveMode": {
+          "value": "Automated OGI surveying and remote inspection workflow through Percepto AIM with a dedicated base",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified driveMode value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspection throughput established; fleet concurrency, gas sensitivity, AI model count and customer-specific savings are different quantities."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "percepto-air-mobile",
+      "manufacturer": "Percepto",
+      "model": "Air Mobile",
+      "sources": [
+        {
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — December 2021 AIM 2022 history and separate software/aircraft roles",
+          "type": "manufacturer",
+          "url": "https://percepto.com/the-evolution-of-percepto-aim-meet-aim-2022/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-5.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft/system purchase price established. Demo requests, services, software subscriptions, camera components and dock figures are separate."
+        },
+        "weight": {
+          "value": "4.2 kg / 9.3 lb aircraft in OP-3-01-4/2022; battery/payload inclusion unspecified; 100 kg base excluded",
+          "status": "documented",
+          "note": "4.2 kg is aircraft,100 kg is Air Mobile base. Battery/payload inclusion not specified by selected rows."
+        },
+        "size": {
+          "value": "68 cm / 26.8 in propeller-tip diagonal; base is separately 100 × 100 × 75 cm",
+          "status": "documented",
+          "note": "Two-column aircraft table/November 2021 brochure expressly give 68 cm propeller-tip diagonal; 100 × 100 × 75 cm is base W/L/H."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric per-charge battery operating duration established. Remote 24/7 availability and docking cycles do not mean continuous airborne operation."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-duty duration established; repeat launches and dock charging do not establish uninterrupted flight."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cameras are described as payload contents, without a numeric lifted mass rating. Camera resolution, gas-detection rate and base mass are not payload capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated aircraft travel speed established. Wind tests for the dock and emission-detection flow rates are not aircraft speed."
+        },
+        "terrain": {
+          "value": "Industrial inspection at smaller or temporary sites and linear assets; base designed for relocation, not in-motion launch authorization",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified terrain value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "ipRating": {
+          "value": "IP55 aircraft in April 2022 datasheet and November 2021 brochure; base separately IP56",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified ipRating value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "website": {
+          "value": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "description": {
+          "value": "Air Mobile is the compact historical drone-in-a-box aircraft explicitly announced as new on November 17, 2021 alongside AIM 2022. The manufacturer’s April 2022 datasheet and November 2021 brochure give 4.2 kg aircraft mass, 68 cm propeller-tip diagonal, IP55 and 16 MP RGB plus thermal imagery. Its separate relocatable base is 100 kg, 100 × 100 × 75 cm and IP56. The manufacturer describes use across temporary/smaller sites and linear infrastructure, with base deployment from a standard truck; that does not establish launch from a moving vehicle or transfer base weather limits to the drone. Exact current supply, flight time, battery charge duration and complete-system retail price remain unverified.",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified description value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "releaseDate": {
+          "value": "2021",
+          "status": "documented",
+          "note": "Official manufacturer announcement dateline November 17, 2021 explicitly launches new Air Mobile drone. AIM 2022 branding and April 2022/November 2021 document revisions are distinct dates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft flight duration established. Always-available service, simultaneous fleet size and automatic charging are not flight time."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Automatic dock charging is documented but no full elapsed battery charge duration established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "GPS/geotagged findings, repeat capture and asset localization do not establish a numeric aircraft positioning accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Landing/docking technology is described without numeric measured docking accuracy."
+        },
+        "driveMode": {
+          "value": "Autonomous inspection missions integrated with Percepto AIM and a relocatable dedicated landing/charging base",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified driveMode value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspection throughput established; fleet concurrency, gas sensitivity, AI model count and customer-specific savings are different quantities."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "percepto-sparrow",
+      "manufacturer": "Percepto",
+      "model": "Sparrow",
+      "sources": [
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — January 2022 dated site-specific Delek refinery account and Sparrow/Air Max configuration wording",
+          "type": "manufacturer",
+          "url": "https://percepto.com/delek-us-gains-first-bvlos-approval-for-u-s-refineries/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-18.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft/system purchase price established. Demo requests, services, software subscriptions, camera components and dock figures are separate."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft mass established; base-station mass and other generations are not inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft dimensions established. Diagonal propeller-tip span, base dimensions and camera geometry are distinct measurements."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric per-charge battery operating duration established. Remote 24/7 availability and docking cycles do not mean continuous airborne operation."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-duty duration established; repeat launches and dock charging do not establish uninterrupted flight."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cameras are described as payload contents, without a numeric lifted mass rating. Camera resolution, gas-detection rate and base mass are not payload capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated aircraft travel speed established. Wind tests for the dock and emission-detection flow rates are not aircraft speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantitative aircraft operating envelope established; generic weather claims and shelter hurricane tests do not establish airborne wind limits."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric whole-aircraft ingress rating established for this exact named variant. Air Max/Mobile IP55 and their bases IP56 are not inherited across variants or generations."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "website": {
+          "value": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "description": {
+          "value": "Sparrow is the historical Percepto inspection-drone predecessor explicitly named in the manufacturer’s November 17, 2021 announcement, which calls Air Max its next generation. A January 2022 refinery account calls Air Max the newest Sparrow configuration. These dated supplier accounts establish a named predecessor/succession relationship, without establishing identical hardware, an exact first Sparrow release, present supply or transferable Air Max/Ranger mass, dimensions, camera, weather, flight-time or charging specifications.",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified description value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact first product release established. Dated portfolio/software announcements, historic predecessor mentions, certification dates and brochure revisions are separate."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft flight duration established. Always-available service, simultaneous fleet size and automatic charging are not flight time."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Automatic dock charging is documented but no full elapsed battery charge duration established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "GPS/geotagged findings, repeat capture and asset localization do not establish a numeric aircraft positioning accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Landing/docking technology is described without numeric measured docking accuracy."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspection throughput established; fleet concurrency, gas sensitivity, AI model count and customer-specific savings are different quantities."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "percepto-ranger",
+      "manufacturer": "Percepto",
+      "model": "Ranger",
+      "sources": [
+        {
+          "name": "Percepto — Ranger product page: 61 MP RGB and thermal, onboard control",
+          "type": "manufacturer",
+          "url": "https://percepto.com/ranger/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — current drone portfolio: Ranger 1 MP text differs from dedicated product page",
+          "type": "manufacturer",
+          "url": "https://percepto.com/drone-in-a-box/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Harbor: docking, charging and shelter, not aircraft endurance",
+          "type": "manufacturer",
+          "url": "https://percepto.com/harbor/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — AIM: inspection/monitoring software and geospatial data",
+          "type": "manufacturer",
+          "url": "https://percepto.com/aim/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 27, 2026 Axion SaaS launch and U.S. consolidation in progress",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-hardware-agnostic-axion-platform-bringing-physical-ai-to-mission-critical-operations/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 27, 2026 company strategy: hardware remains part of business",
+          "type": "manufacturer",
+          "url": "https://percepto.com/perceptos-next-chapter-a-software-first-physical-ai-company/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — June 22, 2026 next-generation inspection-intelligence platform announcement; not a dated first Ranger release",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-next-generation-inspection-intelligence-for-energy-infrastructure/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-2.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft/system purchase price established. Demo requests, services, software subscriptions, camera components and dock figures are separate."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft mass established; base-station mass and other generations are not inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft dimensions established. Diagonal propeller-tip span, base dimensions and camera geometry are distinct measurements."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric per-charge battery operating duration established. Remote 24/7 availability and docking cycles do not mean continuous airborne operation."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-duty duration established; repeat launches and dock charging do not establish uninterrupted flight."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cameras are described as payload contents, without a numeric lifted mass rating. Camera resolution, gas-detection rate and base mass are not payload capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated aircraft travel speed established. Wind tests for the dock and emission-detection flow rates are not aircraft speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantitative aircraft operating envelope established; generic weather claims and shelter hurricane tests do not establish airborne wind limits."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric whole-aircraft ingress rating established for this exact named variant. Air Max/Mobile IP55 and their bases IP56 are not inherited across variants or generations."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "website": {
+          "value": "https://percepto.com/ranger/",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "description": {
+          "value": "Ranger is Percepto’s current named visual/thermal inspection aircraft operated with Harbor and AIM. Its dedicated product page specifies 61 MP full-frame RGB plus radiometric thermal imagery; the current portfolio page instead says 1 MP full-frame RGB, an unresolved source-text discrepancy. Onboard AI recognizes assets, avoids obstacles and automates inspection maneuvers. Harbor’s shelter/weather, 24/7 service availability and AIM’s up-to-30-drone orchestration are separate from aircraft weather limits, flight duration or inspection throughput. The October 27, 2026 Axion announcement retains Ranger/Harbor as data-collection hardware alongside hardware-agnostic software; no exact first Ranger release, aircraft mass, current stock or price is established.",
+          "status": "conflicting",
+          "note": "Dedicated current product page 61 MP versus current portfolio 1 MP is confirmed in rawHTML text. Camera configuration/source typo basis unresolved. Both values stated in description/highlights; not treated as numeric vision precision or copied to payload mass."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "June 22, 2026 next-generation inspection-intelligence announcement is a platform announcement without explicit first Ranger release. October 27, 2026 launches Axion software, not a dated Ranger first release."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft flight duration established. Always-available service, simultaneous fleet size and automatic charging are not flight time."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Automatic dock charging is documented but no full elapsed battery charge duration established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "GPS/geotagged findings, repeat capture and asset localization do not establish a numeric aircraft positioning accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Landing/docking technology is described without numeric measured docking accuracy."
+        },
+        "driveMode": {
+          "value": "Onboard AI for autonomous inspection maneuvers and obstacle avoidance; remote missions orchestrated through AIM with Harbor dock",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified driveMode value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspection throughput established; fleet concurrency, gas sensitivity, AI model count and customer-specific savings are different quantities."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "percepto-ranger-ogi",
+      "manufacturer": "Percepto",
+      "model": "Ranger OGI",
+      "sources": [
+        {
+          "name": "Percepto — Ranger OGI product page: emission alerts and remote operation",
+          "type": "manufacturer",
+          "url": "https://percepto.com/ranger-ogi/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — current drone portfolio: Ranger 1 MP text differs from dedicated product page",
+          "type": "manufacturer",
+          "url": "https://percepto.com/drone-in-a-box/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Harbor: docking, charging and shelter, not aircraft endurance",
+          "type": "manufacturer",
+          "url": "https://percepto.com/harbor/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — AIM: inspection/monitoring software and geospatial data",
+          "type": "manufacturer",
+          "url": "https://percepto.com/aim/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — June 16, 2025 AI emission detector release and conditioned field claim",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-ai-emission-detector-for-remote-drone-based-methane-surveying/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 1, 2025 supplier account of EPA method and test conditions; not independent present certification",
+          "type": "manufacturer",
+          "url": "https://percepto.com/autonomous-ogi-drones-now-alternative-test-method-for-epa-subpart-ooooa-oooob/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 27, 2026 Axion SaaS launch and U.S. consolidation in progress",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-hardware-agnostic-axion-platform-bringing-physical-ai-to-mission-critical-operations/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 27, 2026 company strategy: hardware remains part of business",
+          "type": "manufacturer",
+          "url": "https://percepto.com/perceptos-next-chapter-a-software-first-physical-ai-company/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-8.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-aircraft/system purchase price established. Demo requests, services, software subscriptions, camera components and dock figures are separate."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft mass established; base-station mass and other generations are not inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft dimensions established. Diagonal propeller-tip span, base dimensions and camera geometry are distinct measurements."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric per-charge battery operating duration established. Remote 24/7 availability and docking cycles do not mean continuous airborne operation."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured continuous-duty duration established; repeat launches and dock charging do not establish uninterrupted flight."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "OGI and RGB identify camera equipment, with no numeric cargo mass rating. Detection g/h and camera MP are not payload mass."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric rated aircraft travel speed established. Wind tests for the dock and emission-detection flow rates are not aircraft speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantitative aircraft operating envelope established; generic weather claims and shelter hurricane tests do not establish airborne wind limits."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric whole-aircraft ingress rating established for this exact named variant. Air Max/Mobile IP55 and their bases IP56 are not inherited across variants or generations."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "website": {
+          "value": "https://percepto.com/ranger-ogi/",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified website value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "description": {
+          "value": "Ranger OGI is Percepto’s current named gas-inspection aircraft with an onboard AI Emission Detector and remote AIM/Harbor workflow. The portfolio describes Ventus OGI plus RGB cameras; manufacturer June 2025 and October 2025 releases discuss emission flagging and test-conditioned sensitivity, not a universal aircraft performance limit. Harbor’s category-5 shelter test and 24/7 availability do not establish airborne wind tolerance or nonstop battery duration. Dated supplier regulatory/method claims remain attributed rather than independently checked present approvals. Aircraft mass, dimensions, ingress rating, flight time, charging duration and purchase price are not inherited from the older Air Max OGI.",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified description value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "June 16, 2025 is AI detector feature release; October 1, 2025 is a supplier method-acceptance announcement; neither establishes first Ranger OGI aircraft release."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft flight duration established. Always-available service, simultaneous fleet size and automatic charging are not flight time."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Automatic dock charging is documented but no full elapsed battery charge duration established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "GPS/geotagged findings, repeat capture and asset localization do not establish a numeric aircraft positioning accuracy."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Landing/docking technology is described without numeric measured docking accuracy."
+        },
+        "driveMode": {
+          "value": "Autonomous scheduled OGI missions with onboard emission flagging and remote AIM orchestration through Harbor",
+          "status": "documented",
+          "note": "Named-aircraft primary text supports this qualified driveMode value; source date, measurement scope and configuration retained. Attributed supplier feature, not independently proven exclusive advantage."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Emission-flow sensitivity in g/h and reported confidence/reliability are not dimensional vision precision; field remains empty."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized inspection throughput established; fleet concurrency, gas sensitivity, AI model count and customer-specific savings are different quantities."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-aircraft value established by the selected primary text. Other generations, docks, cameras, software and service-operation figures are not substituted."
+        }
+      }
     }
   ]
 }

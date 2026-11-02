@@ -13427,58 +13427,222 @@
         "category": "commercial",
         "manufacturer": "Percepto",
         "model": "Ranger",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;aerial;inspection;monitoring;autonomous-nav;thermal",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://percepto.com/ranger/",
-        "description": "Autonomous inspection drone with 61 MP full-frame RGB and radiometric thermal cameras. Onboard perception supports repeatable inspection data capture and obstacle avoidance. Harbor docking infrastructure and AIM software support remote operation."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Ranger is Percepto’s current named visual/thermal inspection aircraft operated with Harbor and AIM. Its dedicated product page specifies 61 MP full-frame RGB plus radiometric thermal imagery; the current portfolio page instead says 1 MP full-frame RGB, an unresolved source-text discrepancy. Onboard AI recognizes assets, avoids obstacles and automates inspection maneuvers. Harbor’s shelter/weather, 24/7 service availability and AIM’s up-to-30-drone orchestration are separate from aircraft weather limits, flight duration or inspection throughput. The October 27, 2026 Axion announcement retains Ranger/Harbor as data-collection hardware alongside hardware-agnostic software; no exact first Ranger release, aircraft mass, current stock or price is established.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Onboard AI for autonomous inspection maneuvers and obstacle avoidance; remote missions orchestrated through AIM with Harbor dock",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Autonomous inspection drone with 61 MP full-frame RGB and radiometric thermal cameras",
         "Onboard perception supports repeatable inspection data capture and obstacle avoidance",
-        "Harbor docking infrastructure and AIM software support remote operation"
+        "Harbor docking infrastructure and AIM software support remote operation",
+        "The dedicated Ranger page says 61 MP full-frame RGB and radiometric thermal; the current drone-portfolio page says 1 MP full-frame RGB with Boson thermal. The source-text discrepancy remains explicit, without silently correcting a presumed typo or asserting one universal inspected camera configuration.",
+        "Percepto Core onboard AI recognizes assets, avoids obstacles and automates inspection maneuvers. AIM provides remote mission orchestration and the page describes up to 30 drones from one interface; fleet concurrency is not one-aircraft flight endurance, safe separation proof or standardized task throughput.",
+        "Harbor stores, charges and shelters Ranger between missions. Its hurricane-category-5 test claim belongs to the station; generic airborne rain/snow/wind language supplies no numeric aircraft envelope or ingress rating. Always-available operation does not establish a 24-hour battery or nonstop flight.",
+        "The October 27, 2026 Axion SaaS announcement and strategy note retain Ranger/Harbor as hardware data sources while opening analysis to supported third-party sensors and archives. They do not rename the drone Axion, establish a new aircraft model, prove current stock or date Ranger’s first launch.",
+        "Supplier BVLOS/type-certification and qualifying-site language is retained as attributed positioning, not an independently verified present permission for every aircraft/operator/site. Selected pages supply no exact complete-aircraft mass, dimensions, numeric endurance, charge time or retail quote; older Air Max figures are not substituted."
       ],
       "sources": [
         {
-          "name": "Percepto",
+          "name": "Percepto — Ranger product page: 61 MP RGB and thermal, onboard control",
           "type": "manufacturer",
           "url": "https://percepto.com/ranger/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — current drone portfolio: Ranger 1 MP text differs from dedicated product page",
+          "type": "manufacturer",
+          "url": "https://percepto.com/drone-in-a-box/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Harbor: docking, charging and shelter, not aircraft endurance",
+          "type": "manufacturer",
+          "url": "https://percepto.com/harbor/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — AIM: inspection/monitoring software and geospatial data",
+          "type": "manufacturer",
+          "url": "https://percepto.com/aim/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 27, 2026 Axion SaaS launch and U.S. consolidation in progress",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-hardware-agnostic-axion-platform-bringing-physical-ai-to-mission-critical-operations/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 27, 2026 company strategy: hardware remains part of business",
+          "type": "manufacturer",
+          "url": "https://percepto.com/perceptos-next-chapter-a-software-first-physical-ai-company/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — June 22, 2026 next-generation inspection-intelligence platform announcement; not a dated first Ranger release",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-next-generation-inspection-intelligence-for-energy-infrastructure/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/c14253ea-4fd3-48d7-8331-966a687c73f5"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-6/percepto.com-ranger.json",
-      "reviewNotes": "Current named manufacturer product discovered while checking AirMax. No official old-to-new equivalence statement was found; AirMax and AirMax OGI source names therefore remain unresolved. Dock hurricane-resistance claims are not assigned as aircraft weather limits; regional operating approvals and emissions-detection efficacy are not inferred."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-2.html",
+      "reviewNotes": "Batch 113 Percepto primary evidence. Four existing aircraft enriched; historical Air Mobile and Sparrow added. Air Mobile explicitly launched November 17, 2021 alongside AIM 2022; Air Max documented as next-generation Sparrow, without collapsing hardware generations or equating current Ranger. Historical aircraft/base mass, span and ingress ratings kept separate; no inherited OGI IP rating or numeric flight/charge duration. Ranger dedicated-page 61 MP versus portfolio 1 MP source text remains conflicting. October 27, 2026 Axion launch is hardware-agnostic SaaS, not a new aircraft; U.S. consolidation was in progress. Dated detector/regulatory supplier claims retain conditions, without independent current approval/exclusivity/leadership proof. Existing highlights/discovery retained. Public manufacturer HTML and three historical PDF text/selected coordinates only; no visual image/PDF/video/CAD inspection or form/demo/contact/cart action.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
         "category": "commercial",
         "manufacturer": "Percepto",
         "model": "Ranger OGI",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;aerial;inspection;monitoring;autonomous-nav;thermal",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://percepto.com/ranger-ogi/",
-        "description": "Autonomous optical-gas-imaging platform for industrial emissions inspections. Onboard processing flags possible emissions and supports repeatable data collection. AIM remote operations and Harbor docking infrastructure support inspection workflows."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Ranger OGI is Percepto’s current named gas-inspection aircraft with an onboard AI Emission Detector and remote AIM/Harbor workflow. The portfolio describes Ventus OGI plus RGB cameras; manufacturer June 2025 and October 2025 releases discuss emission flagging and test-conditioned sensitivity, not a universal aircraft performance limit. Harbor’s category-5 shelter test and 24/7 availability do not establish airborne wind tolerance or nonstop battery duration. Dated supplier regulatory/method claims remain attributed rather than independently checked present approvals. Aircraft mass, dimensions, ingress rating, flight time, charging duration and purchase price are not inherited from the older Air Max OGI.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous scheduled OGI missions with onboard emission flagging and remote AIM orchestration through Harbor",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Autonomous optical-gas-imaging platform for industrial emissions inspections",
         "Onboard processing flags possible emissions and supports repeatable data collection",
-        "AIM remote operations and Harbor docking infrastructure support inspection workflows"
+        "AIM remote operations and Harbor docking infrastructure support inspection workflows",
+        "Current Ranger OGI text describes onboard AI emission flagging, automated data collection and remote AIM missions. The portfolio identifies Ventus OGI plus RGB cameras. AI Emission Detector is an analysis feature, not an additional aircraft model or an extra numeric cargo rating.",
+        "The June 16, 2025 detector release reports 100 g/h at 90% confidence; the October 1, 2025 supplier method announcement describes 100 g/h at 90% reliability in its test context and 300 g/h in a higher-wind Permian deployment. Conditions and wording remain distinct: these are not universal gas sensitivity, positional accuracy, aircraft speed or inspections-per-hour ratings.",
+        "The October 2025 release is a supplier account of EPA Alternative Test Method acceptance under named subparts. Older linked pending-approval wording and a historical camera-only sheet do not establish current blanket compliance. No independent regulator decision or universal site/operator eligibility is verified in this selected aircraft review.",
+        "Harbor’s shelter charging, hurricane test and AIM’s up-to-30-drone orchestration describe station/service/fleet roles. They do not establish Ranger OGI mass, ingress protection, continuous airborne duration or full charge time. Air Max OGI’s 10.7 kg, 157 cm and 16 MP figures are not transferred to this current platform.",
+        "The October 27, 2026 company strategy explicitly keeps Ranger/Harbor hardware while launching Axion software for supported third-party data as well. Axion’s AI model count and training-data hours are software-development claims, not additional drones or proven per-mission detection accuracy."
       ],
       "sources": [
         {
-          "name": "Percepto",
+          "name": "Percepto — Ranger OGI product page: emission alerts and remote operation",
           "type": "manufacturer",
           "url": "https://percepto.com/ranger-ogi/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — current drone portfolio: Ranger 1 MP text differs from dedicated product page",
+          "type": "manufacturer",
+          "url": "https://percepto.com/drone-in-a-box/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Harbor: docking, charging and shelter, not aircraft endurance",
+          "type": "manufacturer",
+          "url": "https://percepto.com/harbor/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — AIM: inspection/monitoring software and geospatial data",
+          "type": "manufacturer",
+          "url": "https://percepto.com/aim/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — June 16, 2025 AI emission detector release and conditioned field claim",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-ai-emission-detector-for-remote-drone-based-methane-surveying/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 1, 2025 supplier account of EPA method and test conditions; not independent present certification",
+          "type": "manufacturer",
+          "url": "https://percepto.com/autonomous-ogi-drones-now-alternative-test-method-for-epa-subpart-ooooa-oooob/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 27, 2026 Axion SaaS launch and U.S. consolidation in progress",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-hardware-agnostic-axion-platform-bringing-physical-ai-to-mission-critical-operations/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — October 27, 2026 company strategy: hardware remains part of business",
+          "type": "manufacturer",
+          "url": "https://percepto.com/perceptos-next-chapter-a-software-first-physical-ai-company/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/ac9407f5-928d-4c4e-8423-46bbbeedefb4"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-6/percepto.com-ranger-ogi.json",
-      "reviewNotes": "Current named manufacturer product discovered while checking AirMax. No official old-to-new equivalence statement was found; AirMax and AirMax OGI source names therefore remain unresolved. Dock hurricane-resistance claims are not assigned as aircraft weather limits; regional operating approvals and emissions-detection efficacy are not inferred."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-8.html",
+      "reviewNotes": "Batch 113 Percepto primary evidence. Four existing aircraft enriched; historical Air Mobile and Sparrow added. Air Mobile explicitly launched November 17, 2021 alongside AIM 2022; Air Max documented as next-generation Sparrow, without collapsing hardware generations or equating current Ranger. Historical aircraft/base mass, span and ingress ratings kept separate; no inherited OGI IP rating or numeric flight/charge duration. Ranger dedicated-page 61 MP versus portfolio 1 MP source text remains conflicting. October 27, 2026 Axion launch is hardware-agnostic SaaS, not a new aircraft; U.S. consolidation was in progress. Dated detector/regulatory supplier claims retain conditions, without independent current approval/exclusivity/leadership proof. Existing highlights/discovery retained. Public manufacturer HTML and three historical PDF text/selected coordinates only; no visual image/PDF/video/CAD inspection or form/demo/contact/cart action.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -22165,30 +22329,89 @@
         "category": "commercial",
         "manufacturer": "Percepto",
         "model": "Air Max OGI",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "10.7 kg / 23.5 lb aircraft in OP-1-01-4/2022; 350 kg base is separate; battery inclusion unspecified",
+        "size": "157 cm / 61.8 in aircraft propeller-tip diagonal; 166 × 162 × 168 cm belongs to base",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;aerial;inspection;thermal;monitoring;historical;autonomous-nav",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Industrial emissions inspection at heavy industrial sites; numeric airborne weather limits not established",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-Max-OGI-v1.pdf",
-        "description": "Historical manufacturer datasheet documents an automated gas-inspection drone with integrated OGI camera. Sierra Olympic Ventus optical-gas-imaging payload is paired with a 16 MP RGB camera. Percepto AIM supports remote inspection data, anomaly reports and shared geotagged findings.",
-        "weight": "10.7 kg drone; base is separate"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Air Max OGI is the historical aircraft explicitly named in Percepto datasheet OP-1-01-4/2022. Its Sierra Olympic Ventus gas-imaging camera is paired with 16 MP RGB; aircraft mass is 10.7 kg and propeller-tip diagonal is 157 cm. The sheet separately lists a 350 kg base with 166 × 162 × 168 cm dimensions. Its camera MWIR/filter and dated EPA language describe that document’s camera context, not a current independently checked whole-system compliance guarantee. Neither the standard Air Max mass/IP rating nor current Ranger OGI specifications are automatically inherited. Per-charge flight time, full charging duration, cargo capacity and current retail availability remain unverified.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Automated OGI surveying and remote inspection workflow through Percepto AIM with a dedicated base",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Historical manufacturer datasheet documents an automated gas-inspection drone with integrated OGI camera",
         "Sierra Olympic Ventus optical-gas-imaging payload is paired with a 16 MP RGB camera",
-        "Percepto AIM supports remote inspection data, anomaly reports and shared geotagged findings"
+        "Percepto AIM supports remote inspection data, anomaly reports and shared geotagged findings",
+        "The dedicated April 2022 OGI sheet names a 10.7 kg / 23.5 lb aircraft and a 157 cm propeller-tip diagonal, separately from the 350 kg / 166 × 162 × 168 cm base. The standard Air Max’s 9.5 kg and the smaller Air Mobile’s 4.2 kg are different configurations.",
+        "Payload contents are Sierra Olympic Ventus OGI plus 16 MP RGB. The sheet lists MWIR filtering at 3.2–3.42 microns and selected VOC examples; these are camera/spectral statements, not a numeric aircraft cargo rating, universal gas sensitivity or evidence that every gas is detected.",
+        "The sheet’s OOOOa/EPA wording belongs to its dated camera specification. It is not independently verified current system-method acceptance, site eligibility or an operational permission. Whole-aircraft IP55 is not borrowed from the standard Air Max/Mobile sheet because this dedicated OGI sheet does not state it.",
+        "Percepto AIM supplies remote data management, trend/anomaly reporting and shared geotagged findings. Current Ranger OGI naming and redirected old URLs do not establish identical hardware; historical Air Max OGI remains separate without inherited current specifications or guaranteed stock."
       ],
       "sources": [
         {
-          "name": "Percepto",
+          "name": "Percepto — Air Max OGI datasheet OP-1-01-4/2022; drone and base quantities separated",
           "type": "manufacturer",
           "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-Max-OGI-v1.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/ac9407f5-928d-4c4e-8423-46bbbeedefb4"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-15/percepto.co-wp-content-uploads-2022-05-Percepto-Air-Max-OGI-v1.pdf.json",
-      "reviewNotes": "Manufacturer April-2022 document explicitly names Air Max OGI. Drone weight is separate from 350 kg base, and propeller-tip diagonal is not packed dimensions. The old product URL now redirects to Ranger OGI; this is not proof of identical hardware, so older Air Max OGI remains a separate documented platform. Present new-unit availability, flight duration and full-system price are unverified. Historical EPA/camera certification text is not treated as current blanket compliance or permission for every operator/site. Brochure marketing uniqueness is not repeated as independently established."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-6.pdf",
+      "reviewNotes": "Batch 113 Percepto primary evidence. Four existing aircraft enriched; historical Air Mobile and Sparrow added. Air Mobile explicitly launched November 17, 2021 alongside AIM 2022; Air Max documented as next-generation Sparrow, without collapsing hardware generations or equating current Ranger. Historical aircraft/base mass, span and ingress ratings kept separate; no inherited OGI IP rating or numeric flight/charge duration. Ranger dedicated-page 61 MP versus portfolio 1 MP source text remains conflicting. October 27, 2026 Axion launch is hardware-agnostic SaaS, not a new aircraft; U.S. consolidation was in progress. Dated detector/regulatory supplier claims retain conditions, without independent current approval/exclusivity/leadership proof. Existing highlights/discovery retained. Public manufacturer HTML and three historical PDF text/selected coordinates only; no visual image/PDF/video/CAD inspection or form/demo/contact/cart action.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -23837,34 +24060,90 @@
         "category": "commercial",
         "manufacturer": "Percepto",
         "model": "Air Max",
-        "price": "Not disclosed",
-        "weight": "9.5 kg",
-        "size": "157 cm propeller-tip diagonal",
-        "ipRating": "IP55",
-        "terrain": "outdoor",
-        "website": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+        "price": "",
+        "weight": "9.5 kg / 21 lb aircraft in OP-3-01-4/2022; battery/payload inclusion basis not specified; 350 kg base excluded",
+        "size": "157 cm / 61.8 in propeller-tip diagonal; not packed dimensions or an overall W × L × H box",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;drone;inspection;thermal-imaging;autonomous-nav",
-        "description": "Historical Percepto Air Max inspection drone documented in manufacturer datasheet revision OP-3-01-4/2022. The listed camera configuration combines 24 MP RGB and thermal imaging; an OGI camera configuration is a separate option. Percepto AIM supports remote inspection data, map-based findings and reports. Current availability is not established by this sheet."
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Outdoor industrial inspection and mapping; exact airborne wind/temperature envelope not established",
+        "ipRating": "IP55 aircraft in OP-3-01-4/2022 and November 2021 brochure; base separately IP56",
+        "ageRange": "",
+        "website": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Air Max is the historical Percepto inspection aircraft named as the next generation of Sparrow in the November 17, 2021 portfolio announcement. The OP-3-01-4/2022 datasheet gives 9.5 kg aircraft mass, a 157 cm propeller-tip diagonal and IP55 for the drone, separately from its 350 kg/IP56 base. Standard imagery combines 24 MP RGB and thermal cameras; the separately documented Air Max OGI uses a different camera/mass configuration. AIM supports autonomous missions, geotagged findings and remote collaboration. Dated field-proven/portfolio statements do not establish exact first release, present stock, flight duration, charging duration or equivalence with today’s Ranger.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous inspection missions through Percepto AIM with a dedicated landing/charging base",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Inspection drone integrates visual and thermal data with Percepto AIM",
         "Datasheet lists 24 MP RGB plus thermal imaging for the standard Air Max configuration",
         "Separate OGI payload option supports gas-imaging applications",
-        "Percepto Base provides the accompanying docking infrastructure; drone and base ratings are separate"
+        "Percepto Base provides the accompanying docking infrastructure; drone and base ratings are separate",
+        "The April 2022 Air datasheet and November 2021 brochure separate Air Max aircraft values—9.5 kg, 157 cm propeller-tip diagonal and IP55—from its 350 kg, 166 × 162 × 168 cm, IP56 base. Aircraft battery/payload mass inclusion is unspecified; diagonal span is not an outer packing box.",
+        "Standard Air Max imagery is documented as 24 MP RGB plus thermal. The OGI configuration is separately described, and the dedicated Air Max OGI sheet gives 10.7 kg and a 16 MP RGB plus Ventus gas camera; these are not interchangeable universal standard-aircraft values.",
+        "The November 17, 2021 announcement calls Air Max the next generation of Sparrow; a January 2022 supplier account calls it Sparrow’s newest configuration. This establishes a documented succession relationship, not identical hardware across all generations or an alias for current Ranger.",
+        "AIM manages autonomous missions and shares geotagged observations. The brochures’ 24/7 cycle depends on returning to a charging/shelter base; it is not a measured continuous flight duration, per-charge battery life or exact charge time. Exact present supply and purchase price remain unverified."
       ],
       "sources": [
         {
-          "name": "Percepto — manufacturer Percepto Air datasheet, revision OP-3-01-4/2022",
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
           "type": "manufacturer",
           "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — January 2022 dated site-specific Delek refinery account and Sparrow/Air Max configuration wording",
+          "type": "manufacturer",
+          "url": "https://percepto.com/delek-us-gains-first-bvlos-approval-for-u-s-refineries/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/c14253ea-4fd3-48d7-8331-966a687c73f5"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-19/percepto.co-wp-content-uploads-2022-05-Percepto-Air-data-sheet-WEB-new.pdf.json",
-      "reviewNotes": "Two-column datasheet separates Air Max from smaller Air Mobile: 9.5 kg, 157 cm propeller-tip diagonal and IP55 refer to Air Max drone, not 350 kg/IP56 base. Air Max OGI is already a separate catalog entry and its payload/mass are not copied here. Historical datasheet does not establish identity with the current Ranger, launch year, flight endurance, present offer or authority to fly BVLOS. Optional OGI configuration is not assumed bundled. PDF redirected from percepto.co to manufacturer percepto.com."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-5.pdf",
+      "reviewNotes": "Batch 113 Percepto primary evidence. Four existing aircraft enriched; historical Air Mobile and Sparrow added. Air Mobile explicitly launched November 17, 2021 alongside AIM 2022; Air Max documented as next-generation Sparrow, without collapsing hardware generations or equating current Ranger. Historical aircraft/base mass, span and ingress ratings kept separate; no inherited OGI IP rating or numeric flight/charge duration. Ranger dedicated-page 61 MP versus portfolio 1 MP source text remains conflicting. October 27, 2026 Axion launch is hardware-agnostic SaaS, not a new aircraft; U.S. consolidation was in progress. Dated detector/regulatory supplier claims retain conditions, without independent current approval/exclusivity/leadership proof. Existing highlights/discovery retained. Public manufacturer HTML and three historical PDF text/selected coordinates only; no visual image/PDF/video/CAD inspection or form/demo/contact/cart action.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -60450,6 +60729,164 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-112/source-14.html",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch 112 Inspired Flight primary evidence. Two current aircraft families enriched and historical IF750 added with explicit2018 launch. IF800 current versus printedMarch2024 handbook mass, MTOW and operating envelope remain conflicting. IF1200 payload statements retain unresolved context; higher28.7lb is conditional. Older IF1200A manuals/interface/redirect do not establish a separate current product. Maximum flight time, payload, aircraft/case/battery/controller mass, charging current, service plans and listed variant prices remain distinct. Structured availability versus HTML fallback disagreement does not establish stock. Existing highlights/discovery retained. Public HTML, shopJSON/JSON-LD, selected PDF text/coordinates only; no visual PDF/image/video/CAD inspection or independent compliance/exclusivity/leadership proof."
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Percepto",
+        "model": "Air Mobile",
+        "price": "",
+        "weight": "4.2 kg / 9.3 lb aircraft in OP-3-01-4/2022; battery/payload inclusion unspecified; 100 kg base excluded",
+        "size": "68 cm / 26.8 in propeller-tip diagonal; base is separately 100 × 100 × 75 cm",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;aerial;inspection;thermal;autonomous-nav;historical",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Industrial inspection at smaller or temporary sites and linear assets; base designed for relocation, not in-motion launch authorization",
+        "ipRating": "IP55 aircraft in April 2022 datasheet and November 2021 brochure; base separately IP56",
+        "ageRange": "",
+        "website": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Air Mobile is the compact historical drone-in-a-box aircraft explicitly announced as new on November 17, 2021 alongside AIM 2022. The manufacturer’s April 2022 datasheet and November 2021 brochure give 4.2 kg aircraft mass, 68 cm propeller-tip diagonal, IP55 and 16 MP RGB plus thermal imagery. Its separate relocatable base is 100 kg, 100 × 100 × 75 cm and IP56. The manufacturer describes use across temporary/smaller sites and linear infrastructure, with base deployment from a standard truck; that does not establish launch from a moving vehicle or transfer base weather limits to the drone. Exact current supply, flight time, battery charge duration and complete-system retail price remain unverified.",
+        "releaseDate": "2021",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous inspection missions integrated with Percepto AIM and a relocatable dedicated landing/charging base",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "discoveredIn": [
+        "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf"
+      ],
+      "highlights": [
+        "Percepto’s November 17, 2021 announcement explicitly introduces Air Mobile as a new compact, lighter model. AIM 2022 is the software/portfolio generation name; the 2022 datasheet revision does not move the aircraft launch into 2022.",
+        "The April 2022 Air datasheet and November 2021 brochure give 4.2 kg aircraft mass, 68 cm propeller-tip diagonal and IP55. The 100 kg, 100 × 100 × 75 cm, IP56 base is separate; no claim that the complete system weighs 4.2 kg or that diagonal span is a packing box.",
+        "Documented payload is 16 MP RGB plus thermal imaging, with LTE communication. AIM integration manages autonomous inspection data and collaboration; radio technology and geotagged findings do not establish unlimited range, centimeter navigation accuracy or a cargo mass rating.",
+        "The manufacturer positions Air Mobile for smaller/temporary sites, linear assets and a relocatable base deployable from a standard truck. Relocation and dock charging do not establish in-motion takeoff permission, exact deployment time, continuous flight endurance or verified current availability."
+      ],
+      "sources": [
+        {
+          "name": "Percepto — Air Max and Air Mobile datasheet OP-3-01-4/2022; aircraft/base columns separated",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2022/05/Percepto-Air-data-sheet-WEB-new.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — Air brochure BR-13-01 11/2021_EN; aircraft versus base specifications",
+          "type": "manufacturer",
+          "url": "https://percepto.com/wp-content/uploads/2021/11/Percepto-Air-brochure_web_Nov21-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — December 2021 AIM 2022 history and separate software/aircraft roles",
+          "type": "manufacturer",
+          "url": "https://percepto.com/the-evolution-of-percepto-aim-meet-aim-2022/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-5.pdf",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 113 Percepto primary evidence. Four existing aircraft enriched; historical Air Mobile and Sparrow added. Air Mobile explicitly launched November 17, 2021 alongside AIM 2022; Air Max documented as next-generation Sparrow, without collapsing hardware generations or equating current Ranger. Historical aircraft/base mass, span and ingress ratings kept separate; no inherited OGI IP rating or numeric flight/charge duration. Ranger dedicated-page 61 MP versus portfolio 1 MP source text remains conflicting. October 27, 2026 Axion launch is hardware-agnostic SaaS, not a new aircraft; U.S. consolidation was in progress. Dated detector/regulatory supplier claims retain conditions, without independent current approval/exclusivity/leadership proof. Existing highlights/discovery retained. Public manufacturer HTML and three historical PDF text/selected coordinates only; no visual image/PDF/video/CAD inspection or form/demo/contact/cart action."
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Percepto",
+        "model": "Sparrow",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;aerial;inspection;historical",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Sparrow is the historical Percepto inspection-drone predecessor explicitly named in the manufacturer’s November 17, 2021 announcement, which calls Air Max its next generation. A January 2022 refinery account calls Air Max the newest Sparrow configuration. These dated supplier accounts establish a named predecessor/succession relationship, without establishing identical hardware, an exact first Sparrow release, present supply or transferable Air Max/Ranger mass, dimensions, camera, weather, flight-time or charging specifications.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "discoveredIn": [
+        "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/"
+      ],
+      "highlights": [
+        "The November 17, 2021 manufacturer announcement explicitly identifies Air Max as the next generation of Percepto Sparrow. Sparrow is retained as a named historical predecessor rather than silently treated as identical current Ranger hardware.",
+        "The January 2022 refinery account uses newest-configuration wording for Sparrow and Air Max. Its dateline concerns named Delek sites and remote-operation approval, not Sparrow’s first launch or a universal permission for every operator/site; no technical figures are inherited."
+      ],
+      "sources": [
+        {
+          "name": "Percepto — November 17, 2021 new Air Mobile and Air Max/Sparrow succession announcement",
+          "type": "manufacturer",
+          "url": "https://percepto.com/percepto-launches-new-drone-and-advanced-ai-powered-analytics-for-its-2022-autonomous-inspection-monitoring-platform/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Percepto — January 2022 dated site-specific Delek refinery account and Sparrow/Air Max configuration wording",
+          "type": "manufacturer",
+          "url": "https://percepto.com/delek-us-gains-first-bvlos-approval-for-u-s-refineries/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-113/source-18.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 113 Percepto primary evidence. Four existing aircraft enriched; historical Air Mobile and Sparrow added. Air Mobile explicitly launched November 17, 2021 alongside AIM 2022; Air Max documented as next-generation Sparrow, without collapsing hardware generations or equating current Ranger. Historical aircraft/base mass, span and ingress ratings kept separate; no inherited OGI IP rating or numeric flight/charge duration. Ranger dedicated-page 61 MP versus portfolio 1 MP source text remains conflicting. October 27, 2026 Axion launch is hardware-agnostic SaaS, not a new aircraft; U.S. consolidation was in progress. Dated detector/regulatory supplier claims retain conditions, without independent current approval/exclusivity/leadership proof. Existing highlights/discovery retained. Public manufacturer HTML and three historical PDF text/selected coordinates only; no visual image/PDF/video/CAD inspection or form/demo/contact/cart action."
     }
   ]
 }
