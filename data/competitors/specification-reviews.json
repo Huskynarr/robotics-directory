@@ -79686,6 +79686,1127 @@
           "note": "No exact value established for this named configuration in the selected manufacturer sources. Shared S-series descriptions and figures for other years or payloads are not automatically this model’s specification."
         }
       }
+    },
+    {
+      "robotId": "aldebaran-nao-6",
+      "manufacturer": "Aldebaran",
+      "model": "NAO 6",
+      "sources": [
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/wp-content/uploads/nao-v6-datasheet-en-20260605-maxtronics_v5.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/en/nao6/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/en/new-sw-update-nao6/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-17.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current firm unit price and supplied commercial package established. Regional rental/subscription plans,content fees and historical launch amounts are different offers."
+        },
+        "weight": {
+          "value": "5.48 kg (H25600 robot)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "size": {
+          "value": "574 × 311 × 275 mm (H × D × W)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "batteryLife": {
+          "value": "60 min active use; 90 min normal use (H25600 datasheet)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sheet distinguishes60min active use from90min normal use;90min is not labelled a maximum,so the former universal90min maximum is omitted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ipRating": {
+          "value": "IPX0",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "chargingTime": {
+          "value": "90 min (datasheet; charge-state interval unspecified)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "dof": {
+          "value": "25",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Datasheet describes one hand DOF per side and motor/finger mechanisms,but does not establish the earlier three-finger statement in the selected text."
+        },
+        "website": {
+          "value": "https://maxtronics.com/en/nao6/",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "NAO6 is the programmable humanoid documented by Maxtronics as model H25600, with 25 DOF, 5.48 kg robot mass and 574×311×275 mm H×D×W. The current datasheet distinguishes 60min active use from 90min normal use and gives IPX0. Its 2026 cloud migration is specific to NAO6; the historical Aldebaran catalog attribution is retained without asserting a company-wide successor or transferring NAO7 project features.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Earlier catalog2018 first-release value is not established by these selected current sources;2026 software/datasheet dates are not hardware first release."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "These selected model pages do not provide an exact rated surface/slope specification; bipedal form does not establish a terrain rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological minimum/maximum user age established. Educational or care settings do not establish an age5–99 rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined working arm reach established; maximum full-body envelope and camera field of view are different quantities."
+        }
+      }
+    },
+    {
+      "robotId": "aldebaran-pepper",
+      "manufacturer": "Aldebaran",
+      "model": "Pepper",
+      "sources": [
+        {
+          "name": "Aldebaran / SoftBank Robotics — legacy NAOqi technical documentation",
+          "type": "manufacturer",
+          "url": "https://doc.aldebaran.com/2-5/family/pepper_technical/dimensions_pep.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "United Robotics Group — Pepper developer documentation",
+          "type": "manufacturer",
+          "url": "https://unitedrobotics.group/en-us/robots/pepper/documentation",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Aldebaran / SoftBank Robotics — legacy NAOqi technical documentation",
+          "type": "manufacturer",
+          "url": "https://doc.aldebaran.com/2-5/family/pepper_technical/battery_pep.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/pepper/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://us.softbankrobotics.com/pepper",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/pepper/biz/news_contents/20260202",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/pepper/biz/news_contents/20260601",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-23.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current firm unit price and supplied commercial package established. Regional rental/subscription plans,content fees and historical launch amounts are different offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Selected primary pages do not establish exact retained Pepper hardware mass. The earlier28kg claim is not certified by repeating secondary catalogs."
+        },
+        "size": {
+          "value": "1210 × 480 × 425 mm (H × W × D), arms down; legacy NAOqi documentation",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Selected legacy battery page gives30Ah/795Wh and charge behavior,not a specified operating interval. The earlier12hours is removed from this selected review."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum continuous operating duration established for this exact configuration. A normal-use estimate is not a tested maximum."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full interval established for this exact supplied battery/charger. Charger current,elapsed setup time and an automatic dock are not charge duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Selected primary documents distinguish hardware/software versions but do not explicitly certify the earlier20DOF count for this retained general identity."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand/finger configuration established by the selected exact-model text. A functional hand or grasping application does not establish finger count."
+        },
+        "website": {
+          "value": "https://unitedrobotics.group/en-us/robots/pepper/documentation",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "Pepper is retained as the historical Aldebaran catalog identity, distinct from the 2026 Pepper+ offer. Legacy NAOqi documentation specifies 1210×480×425 mm H×W×D with arms down and a different maximum envelope with arms raised/spread. Developer documentation separates Pepper 2.9 Android/QiSDK from 2.5 NAOqi/Python. Current regional plans and lifecycle notices do not establish universal hardware mass, DOF, endurance or worldwide support availability.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2014",
+          "status": "documented",
+          "note": "Current manufacturer Japan page explicitly dates Pepper birth/introduction June5,2014. This is retained separately from later sales,software or Pepper+ launches."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Pepper+ installation requirements are not automatically older Pepper configuration ratings."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological minimum/maximum user age established. Educational or care settings do not establish an age5–99 rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined working arm reach established; maximum full-body envelope and camera field of view are different quantities."
+        }
+      }
+    },
+    {
+      "robotId": "softbank-robotics-whiz",
+      "manufacturer": "SoftBank Robotics",
+      "model": "Whiz",
+      "sources": [
+        {
+          "name": "SoftBank Robotics — manufacturer product sheet",
+          "type": "manufacturer",
+          "url": "https://us.softbankrobotics.com/hubfs/Whiz%20Data%20Sheet/Whiz%20Data%20Sheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://us.softbankrobotics.com/whiz",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — manufacturer product sheet",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/set/data/product/whiz/pdf/Whiz_spec_v1v2.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260513a/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-20.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current firm unit price and supplied commercial package established. Regional rental/subscription plans,content fees and historical launch amounts are different offers."
+        },
+        "weight": {
+          "value": "30 kg machine + 5 kg battery (US sheet); approximately 35 kg including battery (2020 Japan comparison)",
+          "status": "conflicting",
+          "note": "US sheet explicitly separates30kg machine and5kg battery; named2020 comparison gives~35kg including battery. Current shared Whiz/i modal lists34kg with older dimensions,leaving present generation mapping unresolved. The old30kg total-like catalog value is not retained without scope."
+        },
+        "size": {
+          "value": "455 × 474 × 653 mm (US sheet metric dimensions; handle stored)",
+          "status": "documented",
+          "note": "US sheet metric455×474×653mm matches2020 comparison; US imperial axis ordering appears different. Metric order is retained as printed without silently reconciling axes."
+        },
+        "batteryLife": {
+          "value": "3 h per charge (US sheet); approximately 3 h normal / 1.5 h power (2020 comparison)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Three hours single-charge is a published operating interval,not explicitly a maximum across modes. Current mixed-generation3.6h promotional text is not assigned to original Whiz."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "Maximum 1.8 km/h (US sheet)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full interval established for this exact supplied battery/charger. Charger current,elapsed setup time and an automatic dock are not charge duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot mechanical DOF count established for this configuration; sensing axes,software generation and a planned actuator change are different quantities."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand/finger configuration established by the selected exact-model text. A functional hand or grasping application does not establish finger count."
+        },
+        "website": {
+          "value": "https://us.softbankrobotics.com/whiz",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "Whiz is the BrainOS commercial vacuum platform, retained separately from Whiz i and 2026 Whiz B/P/V. The US sheet distinguishes 30 kg machine mass from a 5 kg battery, lists three-hour single-charge operation and 455×474×653 mm metric dimensions. Its 2020 Japan comparison gives approximately 35 kg including battery and a 360 mm brush. Current shared-page mass/runtime statements mix generations, so historical/region-specific scope remains explicit.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2019",
+          "status": "documented",
+          "note": "May13,2026 manufacturer release explicitly says Whiz launched in2019; introduction year retained."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "workingWidth": {
+          "value": "360 mm brush width (2020 Whiz comparison)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "areaRate": {
+          "value": "465–557 m²/h (US sheet); approximately 500 m²/h in 2020 comparison",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "waterTankCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No clean/waste water-tank capacity established. Dust-bag capacity in litres is not a floor-washing water tank."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        }
+      }
+    },
+    {
+      "robotId": "softbank-robotics-whiz-i",
+      "manufacturer": "SoftBank Robotics",
+      "model": "Whiz i",
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://apac.softbankrobotics.com/apac/solution/whiz-i-new-cleaning/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — manufacturer product sheet",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/set/data/product/whiz/pdf/Whiz_spec_v1v2.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/whiz/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-10.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current firm unit price and supplied commercial package established. Regional rental/subscription plans,content fees and historical launch amounts are different offers."
+        },
+        "weight": {
+          "value": "34 kg including built-in battery (APAC named Whiz i table)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "size": {
+          "value": "470 × 480 × 661 mm (W × L × H)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "batteryLife": {
+          "value": "3.6 h normal / 1.8 h turbo (APAC Whiz i table)",
+          "status": "documented",
+          "note": "Exact APAC Whiz i table specifies3.6h normal/1.8h turbo and2020 comparison agrees. Current Japan sharedWhiz/i modal mixes3.6h narrative with3h/1.5h table; regional/generation mapping remains unresolved rather than replacing the named values."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum continuous operating duration established for this exact configuration. A normal-use estimate is not a tested maximum."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "chargingTime": {
+          "value": "Approximately 5 h (APAC named Whiz i table)",
+          "status": "documented",
+          "note": "Exact APAC table lists approximately5h. Current shared JapanWhiz/i modal says4h but also uses older dimensions; its exact version mapping is unresolved."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot mechanical DOF count established for this configuration; sensing axes,software generation and a planned actuator change are different quantities."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand/finger configuration established by the selected exact-model text. A functional hand or grasping application does not establish finger count."
+        },
+        "website": {
+          "value": "https://apac.softbankrobotics.com/apac/solution/whiz-i-new-cleaning/",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "Whiz i is the separately named commercial vacuum with 34 kg mass including its built-in battery, 470×480×661 mm W×L×H, and 3.6 h normal/1.8 h turbo operation in the APAC table. It teaches routes using a home-location code and provides remote management. Its 6.3 L dust container is not a water tank; the current Japan shared specification section carries conflicting generation/mode values that are not silently substituted.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "2020 comparison has August/October2020 notes,which do not establish first actual Whiz i introduction."
+        },
+        "terrain": {
+          "value": "No steps or slopes for autonomous cleaning; avoid unsuitable lighting and liquids",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "workingWidth": {
+          "value": "360 mm brush width (2020 named comparison)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "areaRate": {
+          "value": "500 m²/h (APAC Whiz i table)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "waterTankCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No clean/waste water-tank capacity established. Dust-bag capacity in litres is not a floor-washing water tank."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        }
+      }
+    },
+    {
+      "robotId": "softbank-robotics-whiz-b",
+      "manufacturer": "SoftBank Robotics",
+      "model": "Whiz B",
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260513a/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/news/20261027/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/whizb/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-8.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current firm unit price and supplied commercial package established. Regional rental/subscription plans,content fees and historical launch amounts are different offers."
+        },
+        "weight": {
+          "value": "100 kg (Japan Whiz B modal; battery inclusion unspecified)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "size": {
+          "value": "960 × 650 × 680 mm without side brushes or visibility flag",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "batteryLife": {
+          "value": "Up to 2.75 h in standard mode (Japan model modal)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "maxRuntime": {
+          "value": "Up to 2.75 h in standard mode",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "chargingTime": {
+          "value": "2.5 h (charge-state interval unspecified)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot mechanical DOF count established for this configuration; sensing axes,software generation and a planned actuator change are different quantities."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand/finger configuration established by the selected exact-model text. A functional hand or grasping application does not establish finger count."
+        },
+        "website": {
+          "value": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "Whiz B is the separately named 2026 SoftBank Robotics Japan cleaning configuration. The large sweeper specifies 100 kg and 960×650×680 mm without side brushes/flag, with up to 2.75 h standard-mode operation. SoftBank attributes development, design and quality control; a visual resemblance or similar dimensions do not establish an OEM alias. Optional or unfinished SBX integration is not assumed universal.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Manufacturer release datedMay13,2026 explicitly launchesB/P and startsV advance reservations. October27,2026 portfolio release includesV; year2026 retained without asserting every regional unit is in stock."
+        },
+        "terrain": {
+          "value": "Large indoor and semi-outdoor factory/warehouse or parking spaces; no numeric slope established",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact total cleaning swath established. Robot body width,side-brush size and roller-brush width cannot automatically be added into a combined cleaning path."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No specified hourly cleaning throughput established. A nightly total or area per battery charge is not an hourly rate."
+        },
+        "waterTankCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No clean/waste water-tank capacity established. Dust-bag capacity in litres is not a floor-washing water tank."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        }
+      }
+    },
+    {
+      "robotId": "softbank-robotics-whiz-p",
+      "manufacturer": "SoftBank Robotics",
+      "model": "Whiz P",
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260513a/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/news/20261027/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-8.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current firm unit price and supplied commercial package established. Regional rental/subscription plans,content fees and historical launch amounts are different offers."
+        },
+        "weight": {
+          "value": "48 kg (Japan Whiz P modal; battery inclusion unspecified)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "size": {
+          "value": "540 × 440 × 617 mm",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "batteryLife": {
+          "value": "Scrub 5 h; vacuum 5 h; mop 10 h; sweep 16 h (Japan named modal)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "maxRuntime": {
+          "value": "Up to 16 h in sweeping mode",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full interval established for this exact supplied battery/charger. Charger current,elapsed setup time and an automatic dock are not charge duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot mechanical DOF count established for this configuration; sensing axes,software generation and a planned actuator change are different quantities."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand/finger configuration established by the selected exact-model text. A functional hand or grasping application does not establish finger count."
+        },
+        "website": {
+          "value": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "Whiz P is the separately named 2026 SoftBank Robotics Japan cleaning configuration. Its compact four-mode package lists 48 kg and 540×440×617 mm, with different scrub, vacuum, mop and sweep intervals. SoftBank attributes development, design and quality control; a visual resemblance or similar dimensions do not establish an OEM alias. Optional or unfinished SBX integration is not assumed universal.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Manufacturer release datedMay13,2026 explicitly launchesB/P and startsV advance reservations. October27,2026 portfolio release includesV; year2026 retained without asserting every regional unit is in stock."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "workingWidth": {
+          "value": "330 mm roller brush; 80 mm side brush (component widths,not combined swath)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No specified hourly cleaning throughput established. A nightly total or area per battery charge is not an hourly rate."
+        },
+        "waterTankCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No clean/waste water-tank capacity established. Dust-bag capacity in litres is not a floor-washing water tank."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        }
+      }
+    },
+    {
+      "robotId": "softbank-robotics-whiz-v",
+      "manufacturer": "SoftBank Robotics",
+      "model": "Whiz V",
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260513a/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/news/20261027/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-8.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No current firm unit price and supplied commercial package established. Regional rental/subscription plans,content fees and historical launch amounts are different offers."
+        },
+        "weight": {
+          "value": "47 kg (Japan Whiz V modal; battery inclusion unspecified)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "size": {
+          "value": "540 × 440 × 595 mm",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "batteryLife": {
+          "value": "Vacuum up to 5 h; sweep up to 10 h; mop up to 8 h (Japan named modal)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "maxRuntime": {
+          "value": "Up to 10 h in sweeping mode",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full interval established for this exact supplied battery/charger. Charger current,elapsed setup time and an automatic dock are not charge duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot mechanical DOF count established for this configuration; sensing axes,software generation and a planned actuator change are different quantities."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand/finger configuration established by the selected exact-model text. A functional hand or grasping application does not establish finger count."
+        },
+        "website": {
+          "value": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "Whiz V is the separately named 2026 SoftBank Robotics Japan cleaning configuration. Its compact dry-cleaning package lists 47 kg and 540×440×595 mm, with five-hour vacuum, ten-hour sweep and eight-hour mop maxima. SoftBank attributes development, design and quality control; a visual resemblance or similar dimensions do not establish an OEM alias. Optional or unfinished SBX integration is not assumed universal.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Manufacturer release datedMay13,2026 explicitly launchesB/P and startsV advance reservations. October27,2026 portfolio release includesV; year2026 retained without asserting every regional unit is in stock."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact total cleaning swath established. Robot body width,side-brush size and roller-brush width cannot automatically be added into a combined cleaning path."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No specified hourly cleaning throughput established. A nightly total or area per battery charge is not an hourly rate."
+        },
+        "waterTankCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No clean/waste water-tank capacity established. Dust-bag capacity in litres is not a floor-washing water tank."
+        },
+        "minAisleWidth": {
+          "value": "600 mm minimum passage (May 2026 Whiz V announcement)",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        }
+      }
+    },
+    {
+      "robotId": "softbank-robotics-pepper-plus",
+      "manufacturer": "SoftBank Robotics",
+      "model": "Pepper+",
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/pepper-plus/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260202a/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/pepper/biz/news_contents/20260202",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/pepper/biz/news_contents/20260601",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/hubfs/Pepper/pdf/pepper-plus/pepper-plus_manual.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "United Robotics Group — Pepper developer documentation",
+          "type": "manufacturer",
+          "url": "https://unitedrobotics.group/en-us/robots/pepper/documentation",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-7.html",
+      "fields": {
+        "price": {
+          "value": "Japan rental: retail AI plan 79,800 JPY/month plus 9,800 JPY initial fee; annual terms; care from 39,800 JPY/month plus 120,000 JPY initial fee",
+          "status": "documented",
+          "note": "Current Japan named plan table explicitly separates monthly retail/care rentals,initial fees,annual renewal/minimum terms,and short-term use. This is not a fixed unit-sale Offer; currencyJPY corresponds toJapanese yen."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating interval established for this named configuration and mode. Battery capacity,recharge duration,area per charge and automatic charging are different quantities."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum continuous operating duration established for this exact configuration. A normal-use estimate is not a tested maximum."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full interval established for this exact supplied battery/charger. Charger current,elapsed setup time and an automatic dock are not charge duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot mechanical DOF count established for this configuration; sensing axes,software generation and a planned actuator change are different quantities."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand/finger configuration established by the selected exact-model text. A functional hand or grasping application does not establish finger count."
+        },
+        "website": {
+          "value": "https://www.softbankrobotics.com/jp/product/pepper-plus/",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "Pepper+ is the refreshed tablet/AI-agent Pepper offer launched in Japan February 2,2026, with a care-specific offer introduced June 1,2026. The manufacturer describes AI-assisted dialogue and vision-based retail applications, plus rental plans with separate setup/content terms. No exact new mass, DOF, battery endurance or legacy software compatibility is established; older Pepper hardware values are not automatically transferred.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Named manufacturer releaseFebruary2,2026 saysPepper+ provided fromthatday;June1,2026 is the separately scoped care-offer milestone."
+        },
+        "terrain": {
+          "value": "Indoor,level dry hard floor; at least 90 cm clear radius; avoid direct/strong sunlight",
+          "status": "documented",
+          "note": "Product FAQ and manualp27 explicitly specify indoor,dry flat hard floor and90cm clear radius. The radius is installation clearance,not a robot envelope or turning radius."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological minimum/maximum user age established. Educational or care settings do not establish an age5–99 rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined working arm reach established; maximum full-body envelope and camera field of view are different quantities."
+        }
+      }
+    },
+    {
+      "robotId": "maxtronics-nao7",
+      "manufacturer": "Maxtronics",
+      "model": "NAO7",
+      "sources": [
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/en/nao7/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/en/nao6/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-18.html",
+      "fields": {
+        "price": {
+          "value": "Not announced; development project",
+          "status": "documented",
+          "note": "Project preview explicitly states price and release date have not been announced; no current stock or firm purchase offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating interval established for this named configuration and mode. Battery capacity,recharge duration,area per charge and automatic charging are different quantities."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum continuous operating duration established for this exact configuration. A normal-use estimate is not a tested maximum."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated carried load established. Robot mass,tray capacity on another model and a socially interactive hand do not establish lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty-to-full interval established for this exact supplied battery/charger. Charger current,elapsed setup time and an automatic dock are not charge duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot mechanical DOF count established for this configuration; sensing axes,software generation and a planned actuator change are different quantities."
+        },
+        "handType": {
+          "value": "Finger-pointing hands planned; finger count unspecified",
+          "status": "roadmap",
+          "note": "Preview proposes new hands with finger-pointing ability. This is a planned feature,not a delivered hand type or mechanical finger count."
+        },
+        "website": {
+          "value": "https://maxtronics.com/en/nao7/",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "description": {
+          "value": "NAO7 is Maxtronics’ explicitly unfinished next-generation humanoid project. The preview proposes a new CPU/GPU head, cameras, six microphones, ToF walking-obstacle sensing, finger-pointing hands, a torso touchscreen and local AI. Price and release date are unannounced. Physical dimensions, mass, DOF, operating endurance and delivered capability remain unknown; NAO6 values are not inherited.",
+          "status": "documented",
+          "note": "Explicit named primary documentation value with model,mode,regional or historical scope retained; not independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer explicitly says release date not announced. Copyright2026 and current preview access are not release year."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value established by the selected primary documentation. Other generations,regional models,accessories and software bundles are not automatically this robot’s specification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological minimum/maximum user age established. Educational or care settings do not establish an age5–99 rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No defined working arm reach established; maximum full-body envelope and camera field of view are different quantities."
+        }
+      }
     }
   ]
 }

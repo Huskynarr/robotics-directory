@@ -18324,42 +18324,62 @@
         "category": "humanoid",
         "manufacturer": "Aldebaran",
         "model": "NAO 6",
-        "website": "https://maxtronics.com/nao6/",
-        "description": "Programmable NAO6 humanoid for research and education with 25 degrees of freedom; Maxtronics documents the 2026 cloud-service migration and continued offline operation."
+        "price": "Not disclosed",
+        "weight": "5.48 kg (H25600 robot)",
+        "size": "574 × 311 × 275 mm (H × D × W)",
+        "batteryLife": "60 min active use; 90 min normal use (H25600 datasheet)",
+        "maxRuntime": "",
+        "tags": "educational;research;programmable;social;voice-control",
+        "handType": "",
+        "dof": "25",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "IPX0",
+        "ageRange": "",
+        "website": "https://maxtronics.com/en/nao6/",
+        "image": "images/humanoid/aldebaran-nao-6.webp",
+        "video": "",
+        "gallery": "",
+        "description": "NAO6 is the programmable humanoid documented by Maxtronics as model H25600, with 25 DOF, 5.48 kg robot mass and 574×311×275 mm H×D×W. The current datasheet distinguishes 60min active use from 90min normal use and gives IPX0. Its 2026 cloud migration is specific to NAO6; the historical Aldebaran catalog attribution is retained without asserting a company-wide successor or transferring NAO7 project features.",
+        "releaseDate": "",
+        "chargingTime": "90 min (datasheet; charge-state interval unspecified)",
+        "armReach": ""
       },
       "highlights": [
-        "NAO6 is a 58 cm humanoid platform with 25 degrees of freedom for programmed interaction",
-        "Choregraphe and Python/C++ tools support motion, speech and sensing applications",
-        "Cloud access requires the Maxtronics migration update following the October 1, 2026 Aldebaran cloud shutdown; offline operation remains possible"
+        "The current H25600 datasheet gives 5.48 kg robot mass and 574×311×275 mm H×D×W. The 58 cm product-page height is rounded; carton dimensions and 8.5 kg carton weight are separate transport values.",
+        "NAO6 is specified with 25 mechanical DOF. The datasheet lists 60 minutes active use, 90 minutes normal use and 90 minutes charging; the normal-use interval is not labelled a measured maximum. IPX0 is a robot rating, not water resistance.",
+        "Choregraphe and Python/C++ tooling support programmed motion and interaction. The current support page distinguishes NAOqi/Robot Settings versions and changes the Choregraphe connection port from 9559 to 9561; secured configurations require an SSH tunnel.",
+        "According to Maxtronics, the Aldebaran cloud service ended October 1, 2026. NAO6 needs migration for store, updates and remote ASR; ordinary offline operation can continue. The update explicitly excludes NAO5, and NAO7 remains a separate development project."
       ],
       "sources": [
         {
-          "name": "Aldebaran",
-          "type": "manufacturer",
-          "url": "https://maxtronics.com/en/nao6/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Aldebaran",
-          "type": "manufacturer",
-          "url": "https://maxtronics.com/en/new-sw-update-nao6/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Aldebaran",
+          "name": "Maxtronics — current NAO product/support documentation",
           "type": "manufacturer",
           "url": "https://maxtronics.com/wp-content/uploads/nao-v6-datasheet-en-20260605-maxtronics_v5.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/en/nao6/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/en/new-sw-update-nao6/",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-17.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/e620a4c5-b3ba-4cec-8b84-3d5c6cb0d760",
         "https://buyandrentrobots.com/robot/f2790600-0d8e-428d-9ac8-c3002ead467b",
         "https://buyandrentrobots.com/robot/f7210743-585c-4480-b2eb-5cc65bf2af45",
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-12/maxtronics.com-nao6.json",
-      "reviewNotes": "Current Maxtronics product/support pages and its linked current datasheet establish NAO6 identity and maintenance guidance. The historical Aldebaran catalog attribution remains; an unspecific NAO source mention does not identify every generation or establish company-wide successor identity. Manufacturer says the migration is NAO6-only, not NAO5, and does not disable ordinary offline operation. No general clinical effectiveness, safe unsupervised therapy, privacy compliance or current reseller stock is inferred. The old aldebaran.com PDF redirects to a legacy Maxtronics copy; the newer directly linked 2026 datasheet is used instead."
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
     },
     {
       "row": {
@@ -26060,28 +26080,69 @@
         "category": "cleaning",
         "manufacturer": "SoftBank Robotics",
         "model": "Whiz",
-        "website": "https://us.softbankrobotics.com/whiz"
+        "price": "Not disclosed",
+        "weight": "30 kg machine + 5 kg battery (US sheet); approximately 35 kg including battery (2020 Japan comparison)",
+        "size": "455 × 474 × 653 mm (US sheet metric dimensions; handle stored)",
+        "batteryLife": "3 h per charge (US sheet); approximately 3 h normal / 1.5 h power (2020 comparison)",
+        "maxRuntime": "",
+        "tags": "vacuum;commercial;lidar;mapping;obstacle-avoidance;autonomous-nav",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "Maximum 1.8 km/h (US sheet)",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.softbankrobotics.com/whiz",
+        "image": "images/cleaning/softbank-robotics-whiz.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Whiz is the BrainOS commercial vacuum platform, retained separately from Whiz i and 2026 Whiz B/P/V. The US sheet distinguishes 30 kg machine mass from a 5 kg battery, lists three-hour single-charge operation and 455×474×653 mm metric dimensions. Its 2020 Japan comparison gives approximately 35 kg including battery and a 360 mm brush. Current shared-page mass/runtime statements mix generations, so historical/region-specific scope remains explicit.",
+        "releaseDate": "2019",
+        "chargingTime": "",
+        "workingWidth": "360 mm brush width (2020 Whiz comparison)",
+        "areaRate": "465–557 m²/h (US sheet); approximately 500 m²/h in 2020 comparison",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
       },
       "highlights": [
-        "Commercial robot vacuum powered by Brain Corp BrainOS",
-        "Programmed routes and obstacle response support repeatable cleaning routines",
-        "Performance reporting helps teams track completed cleaning work"
+        "The US datasheet separates 30 kg machine weight and 5 kg battery; the 2020 Japan comparison gives approximately 35 kg including battery. A current shared Whiz/i specification section instead lists 34 kg alongside the older envelope; that mixed-generation total remains unresolved.",
+        "The US sheet lists 455×474×653 mm in metric dimensions and three hours per charge. The 2020 comparison distinguishes roughly three hours normal and 1.5 hours power mode; the current shared specification section’s 3.6-hour promotional text is not assigned to original Whiz.",
+        "BrainOS navigation follows taught routes and reacts to people, objects and cliffs. The US sheet gives 1.8 km/h maximum speed and 465–557 m²/h cleaning productivity; the 2020 comparison states a 360 mm brush and 4 L dust bag, not water tank.",
+        "The current US page describes performance reporting and regional deployment support. SoftBank’s 2026 release retrospectively dates Whiz launch to 2019; no firm 42000 USD unit price, universal charge duration or independently proven cleaner/healthier outcome is retained."
       ],
       "sources": [
         {
-          "name": "SoftBank Robotics",
+          "name": "SoftBank Robotics — manufacturer product sheet",
+          "type": "manufacturer",
+          "url": "https://us.softbankrobotics.com/hubfs/Whiz%20Data%20Sheet/Whiz%20Data%20Sheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
           "type": "manufacturer",
           "url": "https://us.softbankrobotics.com/whiz",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — manufacturer product sheet",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/set/data/product/whiz/pdf/Whiz_spec_v1v2.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260513a/",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-20.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/c3c2993b-6feb-4adb-bf71-4f2855ec8ec3",
         "https://buyandrentrobots.com/robot/ac972161-a2df-4fb5-934e-27bb8461c8b8"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-23/us.softbankrobotics.com-whiz.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Whiz only; do not transfer Scrubber 50 Pro or Gausium specifications. No quantified cleanliness improvement or health outcome inferred."
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
     },
     {
       "row": {
@@ -26707,20 +26768,79 @@
         "category": "humanoid",
         "manufacturer": "Aldebaran",
         "model": "Pepper",
-        "website": "https://unitedrobotics.group/en-us/robots/pepper/documentation"
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "1210 × 480 × 425 mm (H × W × D), arms down; legacy NAOqi documentation",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;social;educational;telepresence;voice-control",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://unitedrobotics.group/en-us/robots/pepper/documentation",
+        "image": "images/humanoid/aldebaran-pepper.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Pepper is retained as the historical Aldebaran catalog identity, distinct from the 2026 Pepper+ offer. Legacy NAOqi documentation specifies 1210×480×425 mm H×W×D with arms down and a different maximum envelope with arms raised/spread. Developer documentation separates Pepper 2.9 Android/QiSDK from 2.5 NAOqi/Python. Current regional plans and lifecycle notices do not establish universal hardware mass, DOF, endurance or worldwide support availability.",
+        "releaseDate": "2014",
+        "chargingTime": "",
+        "armReach": ""
       },
       "highlights": [
-        "Pepper 2.9 Android development uses QiSDK for dialogue and animation applications",
-        "Pepper 2.5 uses a separate NAOqi/Python toolchain with Choregraphe"
+        "The legacy dimension page gives 1210×480×425 mm H×W×D with arms down, versus 1355 mm height, 1196.9 mm width and 648.2 mm depth in maximum arm positions. Arm reach is not inferred from that full-body envelope.",
+        "United Robotics Group distinguishes Pepper 2.9 Android/QiSDK from Pepper 2.5 NAOqi/Python with Choregraphe. These are separate software/toolchain contexts; compatibility remains version-specific.",
+        "The legacy battery document specifies 30 Ah/795 Wh and charging behavior, but does not establish the catalog’s prior twelve-hour endurance or 720-minute maximum. Likewise, 28 kg, 20 DOF and five-finger assertions remain unverified by this selected source set.",
+        "SoftBank’s current Japan page dates Pepper’s introduction to June 5,2014. Separate notices schedule Promotion service end February 1,2027 and Care end May 31,2027, with Pepper+ migration; these dates do not establish a worldwide shutdown of every Pepper."
       ],
       "sources": [
         {
-          "name": "Aldebaran",
+          "name": "Aldebaran / SoftBank Robotics — legacy NAOqi technical documentation",
+          "type": "manufacturer",
+          "url": "https://doc.aldebaran.com/2-5/family/pepper_technical/dimensions_pep.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "United Robotics Group — Pepper developer documentation",
           "type": "manufacturer",
           "url": "https://unitedrobotics.group/en-us/robots/pepper/documentation",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Aldebaran / SoftBank Robotics — legacy NAOqi technical documentation",
+          "type": "manufacturer",
+          "url": "https://doc.aldebaran.com/2-5/family/pepper_technical/battery_pep.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/pepper/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://us.softbankrobotics.com/pepper",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/pepper/biz/news_contents/20260202",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/pepper/biz/news_contents/20260601",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-23.html",
       "discoveredIn": [
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/robot/ca1fe225-6480-4fee-8975-bdae76160d7e",
@@ -26728,9 +26848,7 @@
         "https://buyandrentrobots.com/robot/6180a439-00f6-47d5-a186-7985673fc277",
         "https://buyandrentrobots.com/robot/55ff0ca7-8566-48f1-afd6-bd9f3de76b22"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-24/unitedrobotics.group-en-us-robots-pepper-documentation.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. United Robotics Group manufacturer-group documentation distinguishes software versions; no common compatibility across all Pepper generations or current service availability inferred."
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
     },
     {
       "row": {
@@ -51500,6 +51618,384 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-90/source-19.html",
       "discoveredIn": [],
       "reviewNotes": "Twenty named SMP configurations reviewed against saved manufacturer model/application pages,portfolio,2026 announcement and2020 brochure text. Seventeen named offerings added; three prior identities retained. Shared platform/application names,Promt/Prompt and Herschel spelling/code variants are not independently extra models. Operating versus freight mass and physical envelope conflicts remain explicit. Optional sensors,solar/propane supply,travel distance,camera axes and compartment dimensions do not establish whole-robot fixed capability or endurance. S7/Prompt mapping,Kepler/IPD,Herschel variants,full historical/regional portfolio and present stock remain open."
+    },
+    {
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "SoftBank Robotics",
+        "model": "Whiz i",
+        "price": "Not disclosed",
+        "weight": "34 kg including built-in battery (APAC named Whiz i table)",
+        "size": "470 × 480 × 661 mm (W × L × H)",
+        "batteryLife": "3.6 h normal / 1.8 h turbo (APAC Whiz i table)",
+        "maxRuntime": "",
+        "tags": "vacuum;commercial;lidar;mapping;obstacle-avoidance;autonomous-nav",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "No steps or slopes for autonomous cleaning; avoid unsuitable lighting and liquids",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://apac.softbankrobotics.com/apac/solution/whiz-i-new-cleaning/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Whiz i is the separately named commercial vacuum with 34 kg mass including its built-in battery, 470×480×661 mm W×L×H, and 3.6 h normal/1.8 h turbo operation in the APAC table. It teaches routes using a home-location code and provides remote management. Its 6.3 L dust container is not a water tank; the current Japan shared specification section carries conflicting generation/mode values that are not silently substituted.",
+        "releaseDate": "",
+        "chargingTime": "Approximately 5 h (APAC named Whiz i table)",
+        "workingWidth": "360 mm brush width (2020 named comparison)",
+        "areaRate": "500 m²/h (APAC Whiz i table)",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "highlights": [
+        "The APAC named Whiz i table lists 470×480×661 mm W×L×H, 34 kg including battery, 3.6 hours normal/1.8 hours turbo and approximately five hours charging. The 2020 comparison also distinguishes this newer envelope from original Whiz.",
+        "Whiz i learns a route by scanning a home-location code, being driven manually, and scanning the code again. LiDAR, 3D camera, bumper, cliff and wheel-contact sensing support autonomous route operation and exception detection.",
+        "The named table gives 500 m²/h and a 6.3 L dust container; the 2020 comparison gives 360 mm brush width. The old dust-sensor footnote says its feature was still under development in October 2020; present software availability is not inferred.",
+        "Autonomous operation is not specified for steps/slopes; unsuitable sunlight/darkness can cause false obstacles, and liquids or unsafe debris are excluded. The 2024 support portal rename separates Whiz Connect from SoftBank Robotics Connect; a portal login does not establish universal cloud availability."
+      ],
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://apac.softbankrobotics.com/apac/solution/whiz-i-new-cleaning/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — manufacturer product sheet",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/set/data/product/whiz/pdf/Whiz_spec_v1v2.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/whiz/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-10.html",
+      "discoveredIn": [],
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
+    },
+    {
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "SoftBank Robotics",
+        "model": "Whiz B",
+        "price": "Not disclosed",
+        "weight": "100 kg (Japan Whiz B modal; battery inclusion unspecified)",
+        "size": "960 × 650 × 680 mm without side brushes or visibility flag",
+        "batteryLife": "Up to 2.75 h in standard mode (Japan model modal)",
+        "maxRuntime": "Up to 2.75 h in standard mode",
+        "tags": "commercial;autonomous-nav;sweeper",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Large indoor and semi-outdoor factory/warehouse or parking spaces; no numeric slope established",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Whiz B is the separately named 2026 SoftBank Robotics Japan cleaning configuration. The large sweeper specifies 100 kg and 960×650×680 mm without side brushes/flag, with up to 2.75 h standard-mode operation. SoftBank attributes development, design and quality control; a visual resemblance or similar dimensions do not establish an OEM alias. Optional or unfinished SBX integration is not assumed universal.",
+        "releaseDate": "2026",
+        "chargingTime": "2.5 h (charge-state interval unspecified)",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "highlights": [
+        "Whiz B is the large-area autonomous sweeper named in the May 13,2026 launch, with 100 kg listed mass and 960×650×680 mm envelope excluding side brushes and visibility flag.",
+        "Its own specification section lists up to 2.75 hours standard-mode operation and 2.5 hours charging. The nightly 40000 m² promotional total does not establish hourly throughput or a universal single-charge area.",
+        "The manufacturer describes collection of dust and larger debris, route sensing and operation in large factory, warehouse or parking environments. Exact brush swath, bin volume and slope limits remain unverified in this selected SoftBank configuration.",
+        "SoftBank’s launch attributes development, design and quality control to SoftBank Robotics. Similar dimensions or an old Beetle image alt-text are not enough to merge this named configuration into Gausium Beetle Standard/Pro or inherit their 102/112 kg and runtime values."
+      ],
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260513a/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/news/20261027/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/whizb/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-8.html",
+      "discoveredIn": [],
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
+    },
+    {
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "SoftBank Robotics",
+        "model": "Whiz P",
+        "price": "Not disclosed",
+        "weight": "48 kg (Japan Whiz P modal; battery inclusion unspecified)",
+        "size": "540 × 440 × 617 mm",
+        "batteryLife": "Scrub 5 h; vacuum 5 h; mop 10 h; sweep 16 h (Japan named modal)",
+        "maxRuntime": "Up to 16 h in sweeping mode",
+        "tags": "commercial;autonomous-nav;vacuum;mop;sweeper",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Whiz P is the separately named 2026 SoftBank Robotics Japan cleaning configuration. Its compact four-mode package lists 48 kg and 540×440×617 mm, with different scrub, vacuum, mop and sweep intervals. SoftBank attributes development, design and quality control; a visual resemblance or similar dimensions do not establish an OEM alias. Optional or unfinished SBX integration is not assumed universal.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "workingWidth": "330 mm roller brush; 80 mm side brush (component widths,not combined swath)",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "highlights": [
+        "Whiz P is the compact four-mode cleaning model launched May 13,2026: vacuuming, sweeping, scrubbing and mopping. Its dedicated Japan specification section lists 48 kg and 540×440×617 mm.",
+        "The model specification section distinguishes five hours scrubbing, five vacuuming, ten mopping and sixteen sweeping. These mode-specific intervals are not a universal sixteen-hour vacuum rating.",
+        "The named specification gives 330 mm roller-brush and 80 mm side-brush widths. These components are not added into a total cleaning swath; exact water-tank volume and charge duration remain unverified.",
+        "AI route generation, 3D surroundings detection and compact-aisle operation are described. Its support page requires a password and was not used for hidden manual contents; specifications from Gausium Phantas or other look-alike robots are not transferred."
+      ],
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260513a/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/news/20261027/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-8.html",
+      "discoveredIn": [],
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
+    },
+    {
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "SoftBank Robotics",
+        "model": "Whiz V",
+        "price": "Not disclosed",
+        "weight": "47 kg (Japan Whiz V modal; battery inclusion unspecified)",
+        "size": "540 × 440 × 595 mm",
+        "batteryLife": "Vacuum up to 5 h; sweep up to 10 h; mop up to 8 h (Japan named modal)",
+        "maxRuntime": "Up to 10 h in sweeping mode",
+        "tags": "commercial;autonomous-nav;vacuum;mop;sweeper",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Whiz V is the separately named 2026 SoftBank Robotics Japan cleaning configuration. Its compact dry-cleaning package lists 47 kg and 540×440×595 mm, with five-hour vacuum, ten-hour sweep and eight-hour mop maxima. SoftBank attributes development, design and quality control; a visual resemblance or similar dimensions do not establish an OEM alias. Optional or unfinished SBX integration is not assumed universal.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": "600 mm minimum passage (May 2026 Whiz V announcement)"
+      },
+      "highlights": [
+        "Whiz V is the separately named compact dry-cleaning model. Its dedicated Japan specification section specifies 47 kg, 540×440×595 mm, and vacuuming, sweeping and mopping modes.",
+        "Mode-specific maxima are five hours vacuuming, ten sweeping and eight mopping. Automatic charging is listed, but neither this feature nor extended unattended operation supplies an exact empty-to-full charge duration.",
+        "The May 13,2026 announcement specifies minimum passage 60 cm and starts advance reservations; the October 27 portfolio announcement describes Whiz V among the 2026 expansion. These are dated manufacturer milestones rather than verified inventory in every region.",
+        "Wall-edge vacuuming and compact-site operation are described. Exact wet-mop water handling, cleaning swath, throughput, docking accuracy and cross-model SBX Connect feature availability remain unverified."
+      ],
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/cleaning/whiz/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260513a/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/news/20261027/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-8.html",
+      "discoveredIn": [],
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "SoftBank Robotics",
+        "model": "Pepper+",
+        "price": "Japan rental: retail AI plan 79,800 JPY/month plus 9,800 JPY initial fee; annual terms; care from 39,800 JPY/month plus 120,000 JPY initial fee",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;social;educational;telepresence;voice-control",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Indoor,level dry hard floor; at least 90 cm clear radius; avoid direct/strong sunlight",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.softbankrobotics.com/jp/product/pepper-plus/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Pepper+ is the refreshed tablet/AI-agent Pepper offer launched in Japan February 2,2026, with a care-specific offer introduced June 1,2026. The manufacturer describes AI-assisted dialogue and vision-based retail applications, plus rental plans with separate setup/content terms. No exact new mass, DOF, battery endurance or legacy software compatibility is established; older Pepper hardware values are not automatically transferred.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "The February 2,2026 manufacturer release introduces Pepper+ with a refreshed tablet and Android/software environment, AI-assisted dialogue and video-analysis applications. Care-specific availability is separately announced June 1,2026; application plans are not additional powered hardware models.",
+        "Japan retail AI rental is 79,800 JPY/month plus 9,800 JPY initial fee on annual terms; short use is 150,000 JPY for up to one month plus initial fee. Care starts 39,800 JPY/month plus 120,000 JPY initial fee. Content/access-control options and contract conditions remain separate, not a worldwide unit purchase price.",
+        "The page and setup manual require an indoor, level dry hard floor, at least 90 cm clear radius and suitable lighting/network access. Radius around the robot is not body width, turning radius or navigation accuracy.",
+        "Retail/care apps, ongoing development and legacy Promotion/Care migration retain their contract and software scope. Existing Pepper 2.5/2.9 toolchains, 28 kg, 20 DOF or twelve-hour battery claims are not silently assigned to Pepper+; no independent sales, care or clinical outcome is certified."
+      ],
+      "sources": [
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/product/pepper-plus/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://www.softbankrobotics.com/jp/news/press/20260202a/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/pepper/biz/news_contents/20260202",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/support/pepper/biz/news_contents/20260601",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "SoftBank Robotics — named model page,release or support documentation",
+          "type": "manufacturer",
+          "url": "https://jp.softbankrobotics.com/hubfs/Pepper/pdf/pepper-plus/pepper-plus_manual.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "United Robotics Group — Pepper developer documentation",
+          "type": "manufacturer",
+          "url": "https://unitedrobotics.group/en-us/robots/pepper/documentation",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-7.html",
+      "discoveredIn": [],
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "Maxtronics",
+        "model": "NAO7",
+        "price": "Not announced; development project",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;research;programmable;humanoid;development-project",
+        "handType": "Finger-pointing hands planned; finger count unspecified",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://maxtronics.com/en/nao7/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "NAO7 is Maxtronics’ explicitly unfinished next-generation humanoid project. The preview proposes a new CPU/GPU head, cameras, six microphones, ToF walking-obstacle sensing, finger-pointing hands, a torso touchscreen and local AI. Price and release date are unannounced. Physical dimensions, mass, DOF, operating endurance and delivered capability remain unknown; NAO6 values are not inherited.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "The manufacturer labels NAO7 as currently under development with no announced price or release date. It is a project preview; current orderability or shipment is not established.",
+        "Planned hardware includes a new CPU/GPU head, cameras, six microphones instead of four, ToF obstacle sensing, new actuators, finger-pointing hands and a torso touchscreen. These are roadmap statements, not delivered specifications or a proven finger count.",
+        "The preview intends fully local computer vision, speech and language models, offline use, a modern Python API and Choregraphe-like tools. Exact model sizes, latency, SDK compatibility and implemented features are unverified.",
+        "A higher-capacity battery is planned without capacity, runtime or charge duration. Robustness and certification are development aims, not already established certifications; the existing NAO6 platform’s 25 DOF, dimensions, mass and software/cloud behavior are not assigned to NAO7."
+      ],
+      "sources": [
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/en/nao7/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Maxtronics — current NAO product/support documentation",
+          "type": "manufacturer",
+          "url": "https://maxtronics.com/en/nao6/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-91/source-18.html",
+      "discoveredIn": [],
+      "reviewNotes": "Nine selected SoftBank/Aldebaran/Maxtronics identities reviewed against current primary technical sheets,regional model specifications,legacy Pepper documentation,NAO6 migration support and2026 releases. Six named offerings added,including NAO7 explicitly as a development project. Original Whiz versus Whiz i equipment and operation modes remain separate; shared-page generation conflicts are explicit. Pepper software contexts,regional rental plans and lifecycle notices retain scope. No blanket corporate-successor,OEM-alias,global service shutdown or independent health/sales/leadership claim. Full historical/regional lineup,IrisEdition mapping and present compatibility/inventory remain open."
     }
   ]
 }

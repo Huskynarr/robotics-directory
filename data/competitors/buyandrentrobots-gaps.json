@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "https://buyandrentrobots.com/directory",
   "fetchedAt": "2026-11-01T17:58:29Z",
-  "comparedAt": "2026-11-02T14:29:31Z",
+  "comparedAt": "2026-11-02T14:52:38Z",
   "networkRequests": 0,
   "scope": "Saved-source comparison only. Legacy missingModels/missingBrands counts are heuristic hints, not verified gaps. Strict identity decisions and unresolved queues are separate. No source refetch or full product certification.",
   "comparison": {
@@ -17,18 +17,18 @@
       "robotic-arm.csv",
       "smarthome.csv"
     ],
-    "catalogRows": 2034,
-    "catalogManufacturers": 635,
-    "catalogManufacturerSpellings": 643,
+    "catalogRows": 2040,
+    "catalogManufacturers": 636,
+    "catalogManufacturerSpellings": 644,
     "method": "same-brand normalized exact match, then same-brand SequenceMatcher >= 0.92; candidate hints only"
   },
   "strictComparison": {
-    "coverageGeneratedAt": "2026-11-02T14:29:30.445Z",
+    "coverageGeneratedAt": "2026-11-02T14:52:37.769Z",
     "catalog": {
-      "models": 2034,
-      "manufacturers": 643,
+      "models": 2040,
+      "manufacturers": 644,
       "brandAndCompanyProfiles": 1036,
-      "primarySourcedHighlightRecords": 927
+      "primarySourcedHighlightRecords": 933
     },
     "modelStatusCounts": {
       "exact": 221,
@@ -50,9 +50,9 @@
     "scope": "Reviewed families/context references do not establish exact configuration; company representation is not manufacturer certification"
   },
   "counts": {
-    "missingModels": 114,
+    "missingModels": 113,
     "missingBrands": 11,
-    "heuristicModelCandidates": 114,
+    "heuristicModelCandidates": 113,
     "heuristicBrandCandidates": 11,
     "competitorModels": 348,
     "competitorBrands": 99,
@@ -4981,46 +4981,6 @@
       }
     },
     {
-      "model": "Pepper",
-      "brand": "SoftBank Robotics",
-      "category": "humanoid",
-      "entryType": "model",
-      "competitorUrl": "https://buyandrentrobots.com/robot/ca1fe225-6480-4fee-8975-bdae76160d7e",
-      "allCompetitorUrls": [
-        "https://buyandrentrobots.com/robot/ca1fe225-6480-4fee-8975-bdae76160d7e",
-        "https://buyandrentrobots.com/robot/29d8f962-7c82-40b4-b1ca-9a552b98eb6f",
-        "https://buyandrentrobots.com/robot/6180a439-00f6-47d5-a186-7985673fc277",
-        "https://buyandrentrobots.com/robot/55ff0ca7-8566-48f1-afd6-bd9f3de76b22"
-      ],
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "officialProductUrlVerified": false,
-      "features": [
-        "humanoid interaction",
-        "hospitality",
-        "humanoid form",
-        "face recognition",
-        "emotion recognition"
-      ],
-      "usp": "humanoid interaction; hospitality; humanoid form; face recognition",
-      "matchStatus": "no same-brand exact or fuzzy hint; this is not proof of a missing model",
-      "strictReview": {
-        "brand": "SoftBank Robotics",
-        "model": "Pepper",
-        "sourceUrls": [
-          "https://buyandrentrobots.com/robot/ca1fe225-6480-4fee-8975-bdae76160d7e",
-          "https://buyandrentrobots.com/robot/29d8f962-7c82-40b4-b1ca-9a552b98eb6f",
-          "https://buyandrentrobots.com/robot/6180a439-00f6-47d5-a186-7985673fc277",
-          "https://buyandrentrobots.com/robot/55ff0ca7-8566-48f1-afd6-bd9f3de76b22"
-        ],
-        "status": "exact",
-        "catalogIds": [
-          "aldebaran-pepper"
-        ],
-        "note": ""
-      }
-    },
-    {
       "model": "Unitree As2",
       "brand": "Unitree Robotics",
       "category": "service",
@@ -8963,6 +8923,6 @@
   ],
   "inputSha256": {
     "inventory": "0a452a7fd650eef423be7e6d720df84956494f9713ce7a6f6da48cc9c0d62012",
-    "coverage": "5ea74bdb19c2a16fe53fe692e90d6247a499142564b4a14a6cee6a9ea072c353"
+    "coverage": "6bdb83c703d5387d6d8e52e761acb9af2aafd441acc499094c5575b60b6aa485"
   }
 }
