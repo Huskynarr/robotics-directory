@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.270 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1016 |
-| Datierte Produktmerkmal-Datensätze einschließlich 180 bestehender Modelle | 1196 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.272 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1018 |
+| Datierte Produktmerkmal-Datensätze einschließlich 180 bestehender Modelle | 1198 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 119 |
+| Firmenfokus-Prüfungen mit Quellen | 120 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1016 ergänzte Modelle ergeben 2.270 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1018 ergänzte Modelle ergeben 2.272 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-119 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+120 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1196 Datensätze
+Modellseiten verlinken Markenprofile. Die 1198 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 455 haben ausgewählte Datenfeldprüfungen und 63
+haben datierte Merkmalsbelege; 457 haben ausgewählte Datenfeldprüfungen und 61
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -10319,3 +10319,72 @@ geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deploymen
 Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
 Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
 Marktführerschaft und Suchrang Nr. 1 sind weiterhin nicht belegt.
+
+
+## Ergänzung 126 – Shield AI: Nova-Modelle, V-BAT-Konfigurationen und X-BAT-Roadmap (3. November 2026)
+
+Nova 1 und Nova 2 sind als zwei eigenständige Quadcoptermodelle ergänzt; V-BAT und
+X-BAT erhalten erstmals ausgewählte Datenfeldprüfungen. Vier Plattformen umfassen
+84 Felder: 15 dokumentiert, 67 nicht dokumentiert und zwei Roadmap-Werte.
+Elf zusätzliche Merkmalsaussagen, neun neue Produktquellenverweise und ein
+Firmenfokus ergänzen den Bestand. Gesamt: 2.272 Katalogeinträge, 1.198 datierte
+Merkmalsdatensätze, 5.359 Merkmalsaussagen, 2.416 Quellenverweise und 120
+Firmenfokus-Prüfungen. 1.118 Modelle haben 21.257 ausgewählte Feldprüfungen:
+7.831 dokumentiert, 13.040 nicht dokumentiert, 288 widersprüchlich und 98 Roadmap.
+Von 518 ursprünglichen Recherchezielen sind 457 geprüft; 61 bleiben offen.
+
+V-BAT trennt 12-plus-Stunden Flugausdauer mit EO/IR von Batterielaufzeit,
+75 kg maximalem Brutto-Abfluggewicht und 40 lb Nutzlast. Die metrischen 18,1 kg
+im HTML und 18 kg im PDF sind bei gleichem 40-lb-Wert als Rundung benannt.
+Maximale Nutzlast und maximale Ausdauer werden nicht gleichzeitig behauptet.
+MPU5/C-Band im HTML und Mesh/Phased-Array im PDF bleiben getrennte Funkangaben;
+das 648-NM-Einwegbeispiel gilt für 20 lb Nutzlast plus SATCOM. Optionale Pakete
+bleiben optional. Für die nominelle Landezone von 15 × 15 ft nennt das HTML
+4,6 × 4,6 m und das PDF 4,6 × 4,7 m. Diese Abweichung bleibt sichtbar, ohne
+Mindestgangbreite oder Flugzeugabmessungen daraus abzuleiten.
+
+X-BATs 39-ft-Spannweite und geplanter VTOL-Modus sind Roadmap-Felder. Die
+Produktseite sowie Mitteilungen vom 30. September und 8. Oktober 2026 beschreiben
+Flugtests und Produktion weiterhin als geplant. Das Interview vom 29. Oktober
+beschreibt Entwicklung, ohne einen vollzogenen Erstflug zu bestätigen. 2026 als
+Erstflugplan, 2028 als Missionsfähigkeit und 2029 als Produktionsplan sind keine
+belegten Erscheinungsjahre. Finanzierung ist kein Flugzeugpreis; Entwurfsziele
+sind keine ausgelieferten oder unabhängig gemessenen Leistungsdaten.
+
+Der Hersteller benennt Nova 1 ausdrücklich als Vorgänger von Nova 2. Die ältere
+Einzelkamera-/2D-LiDAR-Architektur bleibt getrennt von Nova 2 mit Xavier AGX,
+15 Kameras, Infrarotbeleuchtung und 3D-Kartierung. Fünf Zentimeter Kartenauflösung
+sind weder Navigationsfehler noch Sehpräzision. Die operative Erprobung laut
+Schreiben vom 30. Dezember 2022 belegt kein erstes Verkaufsdatum und keinen
+aktuellen Lagerbestand. Alle 16 nativen Hivemind-Showcase-Namen haben Entscheidungen
+als eigene Plattformen oder Integrations-/Fremdherstellerbeispiele. Hivemind,
+Aechelon und PC-Nova werden nicht als zusätzliche physische Roboter importiert;
+iPRD bleibt hinsichtlich OEM und genauer Konfiguration offen. Die alten
+Nova-Produktadressen leiten auf die Startseite um; der Identitätsbeleg stammt aus
+der Fallstudie und der expliziten Modellliste, nicht aus der Weiterleitung.
+
+18 öffentliche HTTP-200-Antworten plus ein über den verlinkten öffentlichen
+Canto-Viewer ausgeliefertes einseitiges PDF sind mit SHA-256 gesichert. Das
+Viewer-JavaScript und dessen öffentlicher Share-Aufruf wurden gelesen; kein
+Login, keine Formulare und keine geänderten Berechtigungen. Der temporäre
+Download-Link ist im getrackten Bericht ausgelassen. Native HTML- und
+extrahierte PDF-Texte, keine visuelle Bild-/PDF-Prüfung. Abrufe am 2. November UTC;
+Review am 3. November Europe/Berlin. Dauerhafter Bericht:
+`reports/competitor-batch-126-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 16 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.322 Seiten. Datenaudit: null Fehler, 1.162 Warnungen; die zwei
+zusätzlichen Warnungen betreffen ausschließlich unbelegte Nova-Erscheinungsjahre.
+Geprüft: vier Produktseiten, 84 Felder, 9 Quellenbadges,
+67 ausgelassene Leerfelder, 17 Merkmalsaussagen und ein Firmenfokus.
+Modell-Export und ursprüngliche Queue: je zwei Ziele und 42 Felder. Suche,
+Vergleich, strukturierte Eigenschaften, vollständiger Belegexport und
+byteidentischer Reimport der 32 getrackten Datendateien geprüft. Eigene Browser,
+Testserver und Recherchehelfer sind beendet; fremde Ressourcen erhalten.
+Die externen YouTube-/Axe-Befunde aus Batch106 bleiben außerhalb dieser Prüfung offen.
+
+Daten-Zwischencommit `fdf6296ad042f0b2019afb69eb30b79837948721` ist auf `codex/competitor-directory-expansion` gepusht und
+remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
+Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
+unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.

@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,270 catalog rows**, with 644 exact
-manufacturer spellings. Batch 125 refreshed the separate heuristic gap file offline
-against all 2,270 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,272 catalog rows**, with 644 exact
+manufacturer spellings. Batch 126 refreshed the separate heuristic gap file offline
+against all 2,272 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1196 dated records across the catalog, including
-180 existing-model enrichments and 1016 task additions. All 430 catalog models
+Current product-highlight coverage: 1198 dated records across the catalog, including
+180 existing-model enrichments and 1018 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1016 task additions, totaling 2,270.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1018 task additions, totaling 2,272.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 455 have selected-field reviews and 63 await those reviews. Family and
+highlights; 457 have selected-field reviews and 61 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 21,173 fields across 1114 catalog models: 7,816 documented,
-12,973 not documented, 288 conflicting and ninety-six roadmap fields. They do not certify whole
+Selected specification checks cover 21,257 fields across 1118 catalog models: 7,831 documented,
+13,040 not documented, 288 conflicting and ninety-eight roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -8084,3 +8084,72 @@ geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deploymen
 Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
 Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
 Marktführerschaft und Suchrang Nr. 1 sind weiterhin nicht belegt.
+
+
+## Ergänzung 126 – Shield AI: Nova-Modelle, V-BAT-Konfigurationen und X-BAT-Roadmap (3. November 2026)
+
+Nova 1 und Nova 2 sind als zwei eigenständige Quadcoptermodelle ergänzt; V-BAT und
+X-BAT erhalten erstmals ausgewählte Datenfeldprüfungen. Vier Plattformen umfassen
+84 Felder: 15 dokumentiert, 67 nicht dokumentiert und zwei Roadmap-Werte.
+Elf zusätzliche Merkmalsaussagen, neun neue Produktquellenverweise und ein
+Firmenfokus ergänzen den Bestand. Gesamt: 2.272 Katalogeinträge, 1.198 datierte
+Merkmalsdatensätze, 5.359 Merkmalsaussagen, 2.416 Quellenverweise und 120
+Firmenfokus-Prüfungen. 1.118 Modelle haben 21.257 ausgewählte Feldprüfungen:
+7.831 dokumentiert, 13.040 nicht dokumentiert, 288 widersprüchlich und 98 Roadmap.
+Von 518 ursprünglichen Recherchezielen sind 457 geprüft; 61 bleiben offen.
+
+V-BAT trennt 12-plus-Stunden Flugausdauer mit EO/IR von Batterielaufzeit,
+75 kg maximalem Brutto-Abfluggewicht und 40 lb Nutzlast. Die metrischen 18,1 kg
+im HTML und 18 kg im PDF sind bei gleichem 40-lb-Wert als Rundung benannt.
+Maximale Nutzlast und maximale Ausdauer werden nicht gleichzeitig behauptet.
+MPU5/C-Band im HTML und Mesh/Phased-Array im PDF bleiben getrennte Funkangaben;
+das 648-NM-Einwegbeispiel gilt für 20 lb Nutzlast plus SATCOM. Optionale Pakete
+bleiben optional. Für die nominelle Landezone von 15 × 15 ft nennt das HTML
+4,6 × 4,6 m und das PDF 4,6 × 4,7 m. Diese Abweichung bleibt sichtbar, ohne
+Mindestgangbreite oder Flugzeugabmessungen daraus abzuleiten.
+
+X-BATs 39-ft-Spannweite und geplanter VTOL-Modus sind Roadmap-Felder. Die
+Produktseite sowie Mitteilungen vom 30. September und 8. Oktober 2026 beschreiben
+Flugtests und Produktion weiterhin als geplant. Das Interview vom 29. Oktober
+beschreibt Entwicklung, ohne einen vollzogenen Erstflug zu bestätigen. 2026 als
+Erstflugplan, 2028 als Missionsfähigkeit und 2029 als Produktionsplan sind keine
+belegten Erscheinungsjahre. Finanzierung ist kein Flugzeugpreis; Entwurfsziele
+sind keine ausgelieferten oder unabhängig gemessenen Leistungsdaten.
+
+Der Hersteller benennt Nova 1 ausdrücklich als Vorgänger von Nova 2. Die ältere
+Einzelkamera-/2D-LiDAR-Architektur bleibt getrennt von Nova 2 mit Xavier AGX,
+15 Kameras, Infrarotbeleuchtung und 3D-Kartierung. Fünf Zentimeter Kartenauflösung
+sind weder Navigationsfehler noch Sehpräzision. Die operative Erprobung laut
+Schreiben vom 30. Dezember 2022 belegt kein erstes Verkaufsdatum und keinen
+aktuellen Lagerbestand. Alle 16 nativen Hivemind-Showcase-Namen haben Entscheidungen
+als eigene Plattformen oder Integrations-/Fremdherstellerbeispiele. Hivemind,
+Aechelon und PC-Nova werden nicht als zusätzliche physische Roboter importiert;
+iPRD bleibt hinsichtlich OEM und genauer Konfiguration offen. Die alten
+Nova-Produktadressen leiten auf die Startseite um; der Identitätsbeleg stammt aus
+der Fallstudie und der expliziten Modellliste, nicht aus der Weiterleitung.
+
+18 öffentliche HTTP-200-Antworten plus ein über den verlinkten öffentlichen
+Canto-Viewer ausgeliefertes einseitiges PDF sind mit SHA-256 gesichert. Das
+Viewer-JavaScript und dessen öffentlicher Share-Aufruf wurden gelesen; kein
+Login, keine Formulare und keine geänderten Berechtigungen. Der temporäre
+Download-Link ist im getrackten Bericht ausgelassen. Native HTML- und
+extrahierte PDF-Texte, keine visuelle Bild-/PDF-Prüfung. Abrufe am 2. November UTC;
+Review am 3. November Europe/Berlin. Dauerhafter Bericht:
+`reports/competitor-batch-126-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 16 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.322 Seiten. Datenaudit: null Fehler, 1.162 Warnungen; die zwei
+zusätzlichen Warnungen betreffen ausschließlich unbelegte Nova-Erscheinungsjahre.
+Geprüft: vier Produktseiten, 84 Felder, 9 Quellenbadges,
+67 ausgelassene Leerfelder, 17 Merkmalsaussagen und ein Firmenfokus.
+Modell-Export und ursprüngliche Queue: je zwei Ziele und 42 Felder. Suche,
+Vergleich, strukturierte Eigenschaften, vollständiger Belegexport und
+byteidentischer Reimport der 32 getrackten Datendateien geprüft. Eigene Browser,
+Testserver und Recherchehelfer sind beendet; fremde Ressourcen erhalten.
+Die externen YouTube-/Axe-Befunde aus Batch106 bleiben außerhalb dieser Prüfung offen.
+
+Daten-Zwischencommit `fdf6296ad042f0b2019afb69eb30b79837948721` ist auf `codex/competitor-directory-expansion` gepusht und
+remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
+Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
+unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.
