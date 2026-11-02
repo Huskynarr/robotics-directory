@@ -1,0 +1,781 @@
+{
+  "batch": 80,
+  "checkedAt": "2026-11-02",
+  "manufacturer": "Geek+",
+  "catalogModelsBefore": 1929,
+  "catalogModelsAfter": 1957,
+  "newModels": 28,
+  "existingModelsReviewed": 3,
+  "selectedSpecificationModels": 31,
+  "selectedFields": 682,
+  "fieldStatuses": {
+    "not-documented": 352,
+    "documented": 310,
+    "conflicting": 20
+  },
+  "newCompanyFocusReviews": 1,
+  "updatedCompanyFocusReviews": 0,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "savedUsableBodies": 21,
+    "uniqueUsableBodies": 16,
+    "bodyTypes": {
+      "PDF": 13,
+      "HTML": 8
+    },
+    "sourceProofs": 97,
+    "pdfTextPagesRetained": 76,
+    "excludedSources": [
+      {
+        "url": "https://www.geekplus.com/technology-detail-page/p-series",
+        "status": 200,
+        "reason": "Empty 200 response; not technical evidence"
+      }
+    ],
+    "researchBrowsersOpened": 0,
+    "previouslyBlockedHostsRetried": false,
+    "formsSubmitted": false,
+    "visualImageInspectionPerformed": false,
+    "visualPdfInspectionPerformed": false,
+    "pdfTextInspectionPerformed": true
+  },
+  "sources": [
+    {
+      "url": "https://www.geekplus.com/",
+      "resolvedUrl": "https://www.geekplus.com/en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "81ae3cd2d4f306b27ac570a1216d154b91887a21f0157b6ffaac16aacab93575",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/F12ML.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/F12ML.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "3b60b70ad1fc8451e6164bfdf2926ab892d1599b0dd71c09edee4ad85d190ab6",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/F20MT.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/F20MT.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "13a78cf0b60967d4ee1f16cd2b858d13cc3262bb8023fcdc1460e91ad619837c",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/M%20series.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/M%20series.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "319bdcec86c85651d53f74d06e1268a4a8633303d33f2bf61968bee63bc5deb5",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/P-series-1.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/P-series-1.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "532ee36da2a95c9cf37ca9b11ceac8bdc1071ad025764557e6880071526ab3e9",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/P-series.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/P-series.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "532ee36da2a95c9cf37ca9b11ceac8bdc1071ad025764557e6880071526ab3e9",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "05605984c911f05179c5eef7c6cb37035be838fb6882822a3fd0ceb0a1468db5",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/RS-series-1.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/RS-series-1.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "11f09d2442e65776fc77580afec4c2454680cc45b6b7b14e979d7e0dc8fb8d62",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/RS-series-3.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/RS-series-3.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "11f09d2442e65776fc77580afec4c2454680cc45b6b7b14e979d7e0dc8fb8d62",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "11f09d2442e65776fc77580afec4c2454680cc45b6b7b14e979d7e0dc8fb8d62",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/S-series-1.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/S-series-1.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "9e278e9d4df8a23da9c03a3736cb6738bcfc7677c984d8d106c64e378bc298dc",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/S-series-2.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/S-series-2.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "9e278e9d4df8a23da9c03a3736cb6738bcfc7677c984d8d106c64e378bc298dc",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/S-series.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/S-series.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "9e278e9d4df8a23da9c03a3736cb6738bcfc7677c984d8d106c64e378bc298dc",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/hubfs/X-series.pdf?hsLang=en",
+      "resolvedUrl": "https://www.geekplus.com/hubfs/X-series.pdf?hsLang=en",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "application/pdf",
+      "bodySha256": "ab11a4436f9b793e77a68c63cf44ac658c6b91e128ba8566c1c3accc704bd3ee",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/technology-detail-page/p-series",
+      "resolvedUrl": "https://www.geekplus.com/technology-detail-page/p-series",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "",
+      "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "usable": false
+    },
+    {
+      "url": "https://www.geekplus.com/technology/f-series-robots",
+      "resolvedUrl": "https://www.geekplus.com/technology/f-series-robots",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "1192eecf6aea11e54424657ddda635ee352eec2adace0fb1ac46eba06e47b7bd",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/technology/m-series-robots",
+      "resolvedUrl": "https://www.geekplus.com/technology/m-series-robots",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "45104b23ddd2b3e01eb8e8551e52e250a64495fe2557c615a54c3d6243d0b16a",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/technology/p-series-robots",
+      "resolvedUrl": "https://www.geekplus.com/technology/p-series-robots",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "439d763fe1ea9598ccb7303c4d0b23accd804009e70c7774fe24d73243c3a9e2",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/technology/rs-series-robots",
+      "resolvedUrl": "https://www.geekplus.com/technology/rs-series-robots",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "25611cd2ca6c84e1867da3ee1279330a3d697c5cedc9168a137330ff0b2d59cb",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/technology/s-series-robots",
+      "resolvedUrl": "https://www.geekplus.com/technology/s-series-robots",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "957cc8cc48e7c2b7e9b0995c77f6e823f0bf8b739fa3cc14906ca83126e78931",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.com/technology/x-series-robots",
+      "resolvedUrl": "https://www.geekplus.com/technology/x-series-robots",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "8f740fb8ae187d7aed0926ad2520210c44f39f61f89dd76fe88b817c653f60bd",
+      "usable": true
+    },
+    {
+      "url": "https://www.geekplus.jp/service/products/picking/spec/",
+      "resolvedUrl": "https://www.geekplus.jp/service/products/picking/spec/",
+      "status": 200,
+      "checkedAt": "2026-11-02",
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "99be6afec03b8fc4f957b3a19bb101078f402bddfd145bc44d62b97b5c3aaae2",
+      "usable": true
+    }
+  ],
+  "modelDecisions": [
+    {
+      "model": "P500R",
+      "robotId": "geek-plus-p500r",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/p-series-robots",
+        "https://www.geekplus.com/hubfs/P-series.pdf?hsLang=en",
+        "https://www.geekplus.jp/service/products/picking/spec/",
+        "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf"
+      ]
+    },
+    {
+      "model": "P800R",
+      "robotId": "geek-plus-p800r",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/p-series-robots",
+        "https://www.geekplus.com/hubfs/P-series.pdf?hsLang=en",
+        "https://www.geekplus.jp/service/products/picking/spec/",
+        "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf"
+      ]
+    },
+    {
+      "model": "P1200R",
+      "robotId": "geek-plus-p1200r",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/p-series-robots",
+        "https://www.geekplus.com/hubfs/P-series.pdf?hsLang=en",
+        "https://www.geekplus.jp/service/products/picking/spec/",
+        "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf"
+      ]
+    },
+    {
+      "model": "P800R V6.0",
+      "robotId": "geek-plus-p800r-v6-0",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf"
+      ]
+    },
+    {
+      "model": "M200C",
+      "robotId": "geek-plus-m200c",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/m-series-robots",
+        "https://www.geekplus.com/hubfs/M%20series.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "MP600R",
+      "robotId": "geek-plus-mp600r",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/m-series-robots"
+      ]
+    },
+    {
+      "model": "MP1000R",
+      "robotId": "geek-plus-mp1000r",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/m-series-robots"
+      ]
+    },
+    {
+      "model": "MP1500R",
+      "robotId": "geek-plus-mp1500r",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/m-series-robots"
+      ]
+    },
+    {
+      "model": "M2000C",
+      "robotId": "geek-plus-m2000c",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/m-series-robots"
+      ]
+    },
+    {
+      "model": "M3000C",
+      "robotId": "geek-plus-m3000c",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/m-series-robots"
+      ]
+    },
+    {
+      "model": "MP1000R-SNE V2.1",
+      "robotId": "geek-plus-mp1000r-sne-v2-1",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/M%20series.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "M1000R",
+      "robotId": "geek-plus-m1000r",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/M%20series.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "F12ML",
+      "robotId": "geek-plus-f12ml",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/f-series-robots",
+        "https://www.geekplus.com/hubfs/F12ML.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "F20MT",
+      "robotId": "geek-plus-f20mt",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/f-series-robots",
+        "https://www.geekplus.com/hubfs/F20MT.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "RS5-D",
+      "robotId": "geek-plus-rs5-d",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en",
+        "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf"
+      ]
+    },
+    {
+      "model": "RS8-DA",
+      "robotId": "geek-plus-rs8-da",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/rs-series-robots",
+        "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en",
+        "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf"
+      ]
+    },
+    {
+      "model": "RS8-DX",
+      "robotId": "geek-plus-rs8-dx",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "RS11-DA",
+      "robotId": "geek-plus-rs11-da",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/rs-series-robots",
+        "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "RS11-DX",
+      "robotId": "geek-plus-rs11-dx",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "RS Air",
+      "robotId": "geek-plus-rs-air",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/rs-series-robots"
+      ]
+    },
+    {
+      "model": "P40",
+      "robotId": "geek-plus-p40",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/rs-series-robots",
+        "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf",
+        "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "P40R",
+      "robotId": "geek-plus-p40r",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/RS-series.pdf?hsLang=en",
+        "https://www.geekplus.com/technology/rs-series-robots"
+      ]
+    },
+    {
+      "model": "S20T V2.0",
+      "robotId": "geek-plus-s20t-v2-0",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/S-series.pdf?hsLang=en",
+        "https://www.geekplus.com/technology/s-series-robots"
+      ]
+    },
+    {
+      "model": "S20C V2.0",
+      "robotId": "geek-plus-s20c-v2-0",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/S-series.pdf?hsLang=en",
+        "https://www.geekplus.com/technology/s-series-robots"
+      ]
+    },
+    {
+      "model": "S100C V2.0",
+      "robotId": "geek-plus-s100c-v2-0",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/S-series.pdf?hsLang=en",
+        "https://www.geekplus.com/technology/s-series-robots"
+      ]
+    },
+    {
+      "model": "S20C-A V2.0",
+      "robotId": "geek-plus-s20c-a-v2-0",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/S-series.pdf?hsLang=en",
+        "https://www.geekplus.com/technology/s-series-robots"
+      ]
+    },
+    {
+      "model": "S20C-H-SNE V3.0",
+      "robotId": "geek-plus-s20c-h-sne-v3-0",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/S-series.pdf?hsLang=en",
+        "https://www.geekplus.com/technology/s-series-robots"
+      ]
+    },
+    {
+      "model": "S20C V3.0",
+      "robotId": "geek-plus-s20c-v3-0",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/S-series.pdf?hsLang=en",
+        "https://www.geekplus.com/technology/s-series-robots"
+      ]
+    },
+    {
+      "model": "X1200H",
+      "robotId": "geek-plus-x1200h",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/technology/x-series-robots"
+      ]
+    },
+    {
+      "model": "X1200Z",
+      "robotId": "geek-plus-x1200z",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/X-series.pdf?hsLang=en"
+      ]
+    },
+    {
+      "model": "X1200",
+      "robotId": "geek-plus-x1200",
+      "action": "add-named-configuration",
+      "sourceUrls": [
+        "https://www.geekplus.com/hubfs/Picking%20Flyer_Jul22.pdf"
+      ]
+    }
+  ],
+  "portfolioDecisions": {
+    "existingModelsReviewed": [
+      "P800R",
+      "P1200R",
+      "P800R V6.0"
+    ],
+    "newModels": [
+      "P500R",
+      "M200C",
+      "MP600R",
+      "MP1000R",
+      "MP1500R",
+      "M2000C",
+      "M3000C",
+      "MP1000R-SNE V2.1",
+      "M1000R",
+      "F12ML",
+      "F20MT",
+      "RS5-D",
+      "RS8-DA",
+      "RS8-DX",
+      "RS11-DA",
+      "RS11-DX",
+      "RS Air",
+      "P40",
+      "P40R",
+      "S20T V2.0",
+      "S20C V2.0",
+      "S100C V2.0",
+      "S20C-A V2.0",
+      "S20C-H-SNE V3.0",
+      "S20C V3.0",
+      "X1200H",
+      "X1200Z",
+      "X1200"
+    ],
+    "notAdditionalCards": [
+      "Three generic S20T/S20C/S100C page labels retained as family evidence alongside six explicitly named PDF revisions; no extra generic duplicate cards",
+      "P500R battery/sensing variants; P800R regular/PopPick thicker envelope; M1000R battery suffixes are configurations",
+      "PopPick, RoboShuttle, SkyCube and software packages are systems rather than extra proven standalone model identities"
+    ],
+    "unresolvedMappings": [
+      "P40 webpage versus named P40R PDF; both explicit records, equivalence unresolved",
+      "Generic S page labels versus explicit S20T/S20C/S100C revision records; no exact generation mapping asserted",
+      "Global/Japanese/historical P-series revisions, masses and charging/speed specifications",
+      "Current RS stated 40 kg load versus historical 240/320 kg maximum payload; per-container/aggregate basis not explicitly reconciled"
+    ],
+    "furtherManufacturerLeads": [
+      "Historical RS5-DA, RS5-S, A60 and PopPick equipment identity/configuration review from 2022 brochure",
+      "Homepage RoboShuttle Hyper, new system/product announcements, GINO, regional/historical portfolio and current availability",
+      "Resolve MP1000R-SNE V2.1 minimum passage/rotation geometry; RS Air malformed lift/aisle slot; F12ML lift/payload configuration mapping"
+    ],
+    "scope": "31 selected named models/revisions across six families, 28 additions and three existing reviews; no complete portfolio, live availability or leadership claim."
+  },
+  "validation": {
+    "unitTests": 742,
+    "unitTestFiles": 59,
+    "pythonTests": 20,
+    "browserTestCases": 82,
+    "browserPassed": 82,
+    "browserFailed": 0,
+    "newGeekplusBrowserCases": 30,
+    "priorAvidbotsEvent38RegressionCases": 34,
+    "comparisonRegressionCases": 18,
+    "axeCases": 32,
+    "sourceCodeChanged": false,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "buildPages": 3007,
+    "buildSizeApproxMB": 460,
+    "dataErrors": 0,
+    "dataWarnings": 845,
+    "dataWarningChange": 28,
+    "newUndocumentedReleaseYears": 28,
+    "newDocumentedReleaseYears": 0,
+    "changedFileLint": "passed",
+    "applicationLint": "passed",
+    "applicationFormat": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "changedDataScope": "31 Geek+ models/revisions; 1926 unrelated rows,605 prior reviews,72 company focuses and1961 source identities preserved. No new CSV columns or category transfers.",
+    "globalRenderedReviewMetadataCheck": {
+      "allChecksPassed": true,
+      "reviewedModelPagesChecked": 636,
+      "selectedFieldValuesChecked": 10121,
+      "visibleTechnicalValuesAndSourceBadgesChecked": 4645,
+      "omittedEmptyOrNAFieldsChecked": 4585,
+      "descriptionAndWebsiteFieldsExcluded": 891,
+      "reviewedLaunchYearsWithSourceBadgesChecked": 42,
+      "scope": "Public raw values and evidence metadata match existing selected reviews across 636 model pages. This is not a re-fetch or independent certification of prior manufacturers, nor a review of unmarked specifications."
+    },
+    "renderedGeekplusEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 31,
+      "selectedSpecificationFieldsChecked": 682,
+      "sourceBadgesChecked": 299,
+      "blankFieldsOmitted": 321,
+      "descriptionsChecked": 31,
+      "websitesChecked": 31,
+      "structuredSpecificationPropertiesChecked": 268,
+      "highlightStatementsChecked": 115,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 31,
+      "modelExportRowsChecked": 2,
+      "modelExportTargetsChecked": 3,
+      "modelExportFieldOccurrencesChecked": 66,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 3,
+      "researchQueueFieldsChecked": 66,
+      "scope": "31 Geek+ models/revisions across six families, with explicit source conflicts and configuration mappings. No full portfolio or independent testing claim."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 1929,
+      "unchangedPriorCatalogRows": 1926,
+      "reviewedExistingCatalogRows": 3,
+      "newCatalogRows": 28,
+      "duplicateRowsRemoved": 0,
+      "categoryTransfers": 0,
+      "newCsvColumns": [],
+      "previousHighlightRecords": 817,
+      "unchangedPriorHighlightRecords": 814,
+      "updatedPriorHighlightRecords": 3,
+      "newHighlightRecords": 28,
+      "previousSpecificationReviewsEntirelyUnchanged": 605,
+      "newSpecificationReviews": 31,
+      "selectedSpecificationFields": 682,
+      "previousCompanyFocusReviewsUnchanged": 72,
+      "newCompanyFocusReviews": 1,
+      "updatedCompanyFocusReviews": 0,
+      "sourceIdentityRecordsPreserved": 1961,
+      "originalSourceMentionCatalogTargets": 430,
+      "originalUnresolvedModelMentions": 3,
+      "originalUnresolvedListings": 9,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/brands.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json",
+        "data/companion.csv",
+        "data/cleaning.csv",
+        "data/smarthome.csv",
+        "data/robotic-arm.csv",
+        "data/educational.csv",
+        "data/outdoor.csv",
+        "data/quadruped.csv",
+        "data/humanoid.csv"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 336,
+        "withoutSelectedFieldReview": 182,
+        "selectedFields": 5371,
+        "selectedFieldStatuses": {
+          "documented": 2540,
+          "not-documented": 2680,
+          "conflicting": 141,
+          "roadmap": 10
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 71,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      },
+      "exportRows": {
+        "company-review": 591,
+        "model-review": 406,
+        "buyandrent-listing-review": 862,
+        "company-product-review": 132,
+        "robot-research-queue": 518
+      },
+      "scope": "31 Geek+ models/revisions; 1926 unrelated rows,605 prior reviews,72 company focuses and1961 source identities preserved. No new CSV columns or category transfers."
+    },
+    "sourceIntegrityCheck": {
+      "allChecksPassed": true,
+      "savedUsableBodies": 21,
+      "uniqueUsableBodies": 16,
+      "bodyTypes": {
+        "PDF": 13,
+        "HTML": 8
+      },
+      "sourceProofs": 97,
+      "pdfTextPagesRetained": 76,
+      "excludedSources": [
+        {
+          "url": "https://www.geekplus.com/technology-detail-page/p-series",
+          "status": 200,
+          "reason": "Empty 200 response; not technical evidence"
+        }
+      ],
+      "researchBrowsersOpened": 0,
+      "previouslyBlockedHostsRetried": false,
+      "formsSubmitted": false,
+      "visualImageInspectionPerformed": false,
+      "visualPdfInspectionPerformed": false,
+      "pdfTextInspectionPerformed": true
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 845,
+      "individualHighlights": 3576,
+      "productSourceReferences": 1465,
+      "specificationReviewModels": 636,
+      "specificationFields": 10121,
+      "publicJsonBytes": 2504901,
+      "catalogScriptBytes": 1933265,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "globalStructuredPriceCheck": {
+      "allChecksPassed": true,
+      "catalogProductPagesChecked": 1957,
+      "unqualifiedOffersRetained": 350,
+      "qualifiedOrUnknownOffersOmitted": 1607,
+      "qualifiedPricesExplicitlyChecked": 22,
+      "hypershellDatedPricesWithoutOffers": 8,
+      "scope": "Exact unqualified amount/currency retains an Offer. Dated MSRP, preorder, range, starting, estimated and descriptive prices remain qualified text. Does not establish current stock or verify all pre-existing prices against sellers."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 143,
+      "ownLiveTestProcesses": [],
+      "trackedOwnResearchProcesses": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "researchBrowsersOpened": 0,
+      "diagnosticBrowserRuns": 0,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "previouslyBlockedHostsRetried": false,
+    "new403Observed": 0,
+    "new404SourcesExcluded": 0,
+    "empty200SourcesExcluded": 1,
+    "visualImageInspectionPerformed": false,
+    "visualPdfInspectionPerformed": false,
+    "pdfTextInspectionPerformed": true,
+    "scope": "21 usable URL responses:8HTML and13PDF;16unique bodies (8HTML/8PDF),76 retained PDF text/coordinate pages including duplicate bodies,49pages across unique PDFs.97exact text anchors.82selected browser cases, not full browser-suite rerun. No forms, research browser or previously blocked-host retries."
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "dataCommit": "ea35b2737e9c8cf04aa010e02460d5c25a84b035",
+    "dataPushVerified": true,
+    "mainUnchanged": true
+  },
+  "goalComplete": false
+}

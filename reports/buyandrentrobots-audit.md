@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 1,929 catalog rows**, with 642 exact
-manufacturer spellings. Batch 79 refreshed the separate heuristic gap file offline
-against all 1,929 rows (634 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 1,957 catalog rows**, with 642 exact
+manufacturer spellings. Batch 80 refreshed the separate heuristic gap file offline
+against all 1,957 rows (634 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 817 dated records across the catalog, including
-142 existing-model enrichments and 675 task additions. All 430 catalog models
+Current product-highlight coverage: 845 dated records across the catalog, including
+142 existing-model enrichments and 703 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 675 task additions, totaling 1,929.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 703 task additions, totaling 1,957.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 333 have selected-field reviews and 185 await those reviews. Family and
+highlights; 336 have selected-field reviews and 182 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 9,439 fields across 605 catalog models: 4,422 documented,
-4,803 not documented, 197 conflicting and seventeen roadmap fields. They do not certify whole
+Selected specification checks cover 10,121 fields across 636 catalog models: 4,732 documented,
+5,155 not documented, 217 conflicting and seventeen roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -4417,3 +4417,90 @@ Prüfdateien: `scratch/competitor-research/primary/batch-79/`.
 Auf Nutzerwunsch werden abgeschlossene Zwischenstände committed und auf
 `origin/codex/competitor-directory-expansion` gepusht. Lokale Rohrecherche und
 andere Aufgaben bleiben außerhalb dieser Commits; Pages-Publishing ist unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Geek+ (Batch 80)
+
+31 benannte Modelle bzw. ausdrücklich bezeichnete Versionen in P/M/F/RS/S/X:
+28 Ergänzungen und drei bestehende Modelle. 682 Feldprüfungen: 310 dokumentiert,
+352 nicht dokumentiert, 20 widersprüchlich. Ein Firmenfokus ergänzt. Alle 1926
+unbeteiligten Katalogzeilen, 605 bisherigen Modellprüfungen, 72 Firmenfokusse und
+1961 Quellenidentitäten erhalten. Keine neuen CSV-Spalten oder Kategoriewechsel.
+
+P500R: 600 kg Nutzlast; aktuelle globale Lastgeschwindigkeit 1,5 m/s gegenüber
+japanischen 1,6 m/s. P800R aktuell 142 kg, regional 165 kg inklusive Batterie,
+2022 162 kg; aktuelle 1095-mm-Länge gegenüber früher 1090 mm. Reguläre 195-mm-
+und dickere PopPick-275-mm-Höhe bleiben Konfigurationen. Aktuelle 55-mm-Hubstrecke
+gegenüber früheren 60 mm ungeklärt. P1200R aktuell 288 kg, regional 320 kg,
+historisch 187 kg und abweichende Geschwindigkeiten. P800R V6.0 bleibt die explizite
+historische 800-kg-Konfiguration. Globale/regionale/historische Zuordnung ungeklärt.
+Ladeintervalle von zehn Minuten für definierte Arbeitsintervalle sind keine volle
+Ladezeit; Abweichungen 1,5–2 gegen 2–3 Stunden bleiben bei den gewählten P-Quellen.
+
+M200C hat 300 kg Nutzlast trotz seines Namens, 106 kg Körpermasse und getrennte
+Fahrt-/endgestützte Stopptoleranzen. MP1000R-SNE V2.1 hat eigene 1105×855×275-mm-
+Maße und wird nicht in generisches MP1000R oder M1000R umgedeutet. Seine gedruckte
+0,7-m-Durchfahrt bei 855-mm-Körperbreite bleibt ungeklärt; 774-mm-Drehdurchmesser
+wird kein erfundener Radius. M2000C/M3000C nennen ausdrücklich minimale,
+anpassbare 1800×1000×350-mm-Körpermaße; Regalgrößen bleiben getrennt.
+
+F12ML-Nutzlast ist höhenabhängig: 1500/1200/1000 kg in den Blattstufen
+0–2/2–2,5/2,5–3 m. Blatt nennt 2300-mm-Hubhöhe gegenüber Webseite
+2344/2844/3244 mm; Zuordnung ungeklärt. Stufen bis drei Meter beweisen nicht,
+dass die 2300-mm-Version drei Meter erreicht. F20MT 2000 kg und 120-mm-Hub.
+Körper-/Gabelmaße, Fahr-/Hubgeschwindigkeit und volle Ladezeit bleiben getrennt.
+Gedruckte F12ML-„Rotation speed ≥800mm“ wird weder Winkelgeschwindigkeit noch
+angenommener Wenderadius. CE/UKCA/PLd bleiben spezifische Herstellerangaben.
+
+RS5-D, RS8-DA/DX, RS11-DA/DX behalten aktuelle 40-kg-Lastangaben. Historische
+240/320-kg-Maximalnutzlast wird ohne belegte Aggregat-/Einzelbehälterzuordnung
+nicht gleichgesetzt. RS8-DA 900/1000-kg-Masse und 4700/4600-mm-Körperhöhe bleiben
+Quellenkonflikte; Lagerhöhe 8220 mm ist keine aktuelle Hubhöhe 7935 mm.
+RS11-DA-Hubzyklus zwölf Sekunden auf Seite gegenüber zehn im Blatt bleibt im
+Merkmalstext. Batteriestrom, Ah und Zyklen liefern keine Lauf-/Ladezeit.
+RS Air hat im Hubhöhenfeld „Minimum Aisle width:1015“ ohne bestätigte Einheit;
+Hubhöhe und Gangbreite bleiben leer. P40/P40R sind beide explizit bezeichnet,
+aber ihre Gleichsetzung bleibt unbewiesen: Webseite 386 mm, P40R-Blatt 383 mm.
+Historisches P40 75 kg/andere Maße wird nicht zu einer erfundenen dritten Generation.
+
+S-Serie: sechs ausdrücklich benannte Blattversionen statt drei zusätzlicher
+unversionierter Doppelkarten. S20C V2.0 75 kg/560-mm-Länge/2,0 m/s beladen,
+V3.0 78 kg/650 mm/2,5 m/s. Generische Seitenzuordnung ungeklärt; S20T-Seite
+2,5 m/s beladen überschreibt nicht V2.0-Blatt 2,0 m/s. Verstellbare Trägerhöhe
+S20C-A ist keine belegte Hubstrecke. X1200H 245 kg und explizit beladen/unbeladen
+2,5/1,8 m/s werden nicht vertauscht. X1200Z 270 kg, 1,6/1,5 m/s und getrennte
+Raumtemperatur-/Kühlhaus-Akkuwerte. 8–10 h nach 1,2 h Ladung gehört nicht zur
+Kühlhausvariante mit 6–8 h nach zwei Stunden. „Motor-driven“ ist kein belegtes
+Lokalisierungsverfahren; Kühlhaus-CE/UL-Batterie ist TBD. Historisches X1200
+bleibt separat. Dokumentdatum liefert kein Erstjahr oder aktuelle Lieferbarkeit.
+
+21 nutzbare URL-Antworten (acht HTML, 13 PDF), davon 16 verschiedene Inhaltskörper
+(acht HTML/acht PDF). 76 gespeicherte PDF-Text-/Koordinatenseiten einschließlich
+identischer Downloads; 49 Seiten in den verschiedenen PDF-Inhalten. 97 exakte
+Textanker geprüft. Leere 200-Antwort einer alten P-Route ausgeschlossen.
+Keine Formulare, Recherchebrowser, erneuten Abrufe bekannter gesperrter Hosts oder
+visuelle PDF-/Bildprüfung. Quellen-Hashes und Entscheidungen versioniert in
+`reports/competitor-batch-80-evidence.json`; Rohdateien lokal in
+`scratch/competitor-research/primary/batch-80/`.
+
+742 Unit-Tests in 59 Dateien, 20 auf die Wettbewerber-Skripte begrenzte Python-Tests
+und 82 Browserfälle bestanden: 30 Geek+-, 34 Avidbots/Event-38- und 18 Vergleichsfälle,
+darunter 32 Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Build
+3007 Seiten, ungefähr 460 MB. Datenprüfung null Fehler, 845 Hinweise, davon
+28 zusätzliche unbelegte Erstjahre; kein Erstjahr geraten. Lint, Format, Quellen-,
+Bestands-, Vergleichs-, Preis- und Wiederholungsimportprüfung bestanden. Alle
+143 erfassten eigenen Testprozesse beendet; Port4321 frei,
+Ressourcen anderer Aufgaben erhalten. Dies ist keine vollständige Browser-Suite.
+
+Gesamtstand: 1957 Modelle/Konfigurationen, 703 Ergänzungen, 845 Merkmalssätze,
+3576 Aussagen, 1465 Produktquellenverweise, 73 Firmenfokusse. 10121 Felder auf
+636 Modellen: 4732 dokumentiert, 5155 unbekannt, 217 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 336 Feldprüfungen und 182 bleiben offen.
+Firmenfokusse decken 71 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und alle vorherigen offenen Portfolios
+bleiben erhalten. Auch Geek+-Altsysteme, neue Systemnamen und regionale Portfolios
+bleiben Recherchepunkte; Vollständigkeit und Marktführung sind unbelegt.
+
+Zwischencommit `ea35b27` mit Geek+-Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+folgen als zweiter Commit; der Hauptbranch bleibt unverändert.

@@ -5201,3 +5201,90 @@ Prüfdateien: `scratch/competitor-research/primary/batch-79/`.
 Auf Nutzerwunsch werden abgeschlossene Zwischenstände committed und auf
 `origin/codex/competitor-directory-expansion` gepusht. Lokale Rohrecherche und
 andere Aufgaben bleiben außerhalb dieser Commits; Pages-Publishing ist unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Geek+ (Batch 80)
+
+31 benannte Modelle bzw. ausdrücklich bezeichnete Versionen in P/M/F/RS/S/X:
+28 Ergänzungen und drei bestehende Modelle. 682 Feldprüfungen: 310 dokumentiert,
+352 nicht dokumentiert, 20 widersprüchlich. Ein Firmenfokus ergänzt. Alle 1926
+unbeteiligten Katalogzeilen, 605 bisherigen Modellprüfungen, 72 Firmenfokusse und
+1961 Quellenidentitäten erhalten. Keine neuen CSV-Spalten oder Kategoriewechsel.
+
+P500R: 600 kg Nutzlast; aktuelle globale Lastgeschwindigkeit 1,5 m/s gegenüber
+japanischen 1,6 m/s. P800R aktuell 142 kg, regional 165 kg inklusive Batterie,
+2022 162 kg; aktuelle 1095-mm-Länge gegenüber früher 1090 mm. Reguläre 195-mm-
+und dickere PopPick-275-mm-Höhe bleiben Konfigurationen. Aktuelle 55-mm-Hubstrecke
+gegenüber früheren 60 mm ungeklärt. P1200R aktuell 288 kg, regional 320 kg,
+historisch 187 kg und abweichende Geschwindigkeiten. P800R V6.0 bleibt die explizite
+historische 800-kg-Konfiguration. Globale/regionale/historische Zuordnung ungeklärt.
+Ladeintervalle von zehn Minuten für definierte Arbeitsintervalle sind keine volle
+Ladezeit; Abweichungen 1,5–2 gegen 2–3 Stunden bleiben bei den gewählten P-Quellen.
+
+M200C hat 300 kg Nutzlast trotz seines Namens, 106 kg Körpermasse und getrennte
+Fahrt-/endgestützte Stopptoleranzen. MP1000R-SNE V2.1 hat eigene 1105×855×275-mm-
+Maße und wird nicht in generisches MP1000R oder M1000R umgedeutet. Seine gedruckte
+0,7-m-Durchfahrt bei 855-mm-Körperbreite bleibt ungeklärt; 774-mm-Drehdurchmesser
+wird kein erfundener Radius. M2000C/M3000C nennen ausdrücklich minimale,
+anpassbare 1800×1000×350-mm-Körpermaße; Regalgrößen bleiben getrennt.
+
+F12ML-Nutzlast ist höhenabhängig: 1500/1200/1000 kg in den Blattstufen
+0–2/2–2,5/2,5–3 m. Blatt nennt 2300-mm-Hubhöhe gegenüber Webseite
+2344/2844/3244 mm; Zuordnung ungeklärt. Stufen bis drei Meter beweisen nicht,
+dass die 2300-mm-Version drei Meter erreicht. F20MT 2000 kg und 120-mm-Hub.
+Körper-/Gabelmaße, Fahr-/Hubgeschwindigkeit und volle Ladezeit bleiben getrennt.
+Gedruckte F12ML-„Rotation speed ≥800mm“ wird weder Winkelgeschwindigkeit noch
+angenommener Wenderadius. CE/UKCA/PLd bleiben spezifische Herstellerangaben.
+
+RS5-D, RS8-DA/DX, RS11-DA/DX behalten aktuelle 40-kg-Lastangaben. Historische
+240/320-kg-Maximalnutzlast wird ohne belegte Aggregat-/Einzelbehälterzuordnung
+nicht gleichgesetzt. RS8-DA 900/1000-kg-Masse und 4700/4600-mm-Körperhöhe bleiben
+Quellenkonflikte; Lagerhöhe 8220 mm ist keine aktuelle Hubhöhe 7935 mm.
+RS11-DA-Hubzyklus zwölf Sekunden auf Seite gegenüber zehn im Blatt bleibt im
+Merkmalstext. Batteriestrom, Ah und Zyklen liefern keine Lauf-/Ladezeit.
+RS Air hat im Hubhöhenfeld „Minimum Aisle width:1015“ ohne bestätigte Einheit;
+Hubhöhe und Gangbreite bleiben leer. P40/P40R sind beide explizit bezeichnet,
+aber ihre Gleichsetzung bleibt unbewiesen: Webseite 386 mm, P40R-Blatt 383 mm.
+Historisches P40 75 kg/andere Maße wird nicht zu einer erfundenen dritten Generation.
+
+S-Serie: sechs ausdrücklich benannte Blattversionen statt drei zusätzlicher
+unversionierter Doppelkarten. S20C V2.0 75 kg/560-mm-Länge/2,0 m/s beladen,
+V3.0 78 kg/650 mm/2,5 m/s. Generische Seitenzuordnung ungeklärt; S20T-Seite
+2,5 m/s beladen überschreibt nicht V2.0-Blatt 2,0 m/s. Verstellbare Trägerhöhe
+S20C-A ist keine belegte Hubstrecke. X1200H 245 kg und explizit beladen/unbeladen
+2,5/1,8 m/s werden nicht vertauscht. X1200Z 270 kg, 1,6/1,5 m/s und getrennte
+Raumtemperatur-/Kühlhaus-Akkuwerte. 8–10 h nach 1,2 h Ladung gehört nicht zur
+Kühlhausvariante mit 6–8 h nach zwei Stunden. „Motor-driven“ ist kein belegtes
+Lokalisierungsverfahren; Kühlhaus-CE/UL-Batterie ist TBD. Historisches X1200
+bleibt separat. Dokumentdatum liefert kein Erstjahr oder aktuelle Lieferbarkeit.
+
+21 nutzbare URL-Antworten (acht HTML, 13 PDF), davon 16 verschiedene Inhaltskörper
+(acht HTML/acht PDF). 76 gespeicherte PDF-Text-/Koordinatenseiten einschließlich
+identischer Downloads; 49 Seiten in den verschiedenen PDF-Inhalten. 97 exakte
+Textanker geprüft. Leere 200-Antwort einer alten P-Route ausgeschlossen.
+Keine Formulare, Recherchebrowser, erneuten Abrufe bekannter gesperrter Hosts oder
+visuelle PDF-/Bildprüfung. Quellen-Hashes und Entscheidungen versioniert in
+`reports/competitor-batch-80-evidence.json`; Rohdateien lokal in
+`scratch/competitor-research/primary/batch-80/`.
+
+742 Unit-Tests in 59 Dateien, 20 auf die Wettbewerber-Skripte begrenzte Python-Tests
+und 82 Browserfälle bestanden: 30 Geek+-, 34 Avidbots/Event-38- und 18 Vergleichsfälle,
+darunter 32 Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Build
+3007 Seiten, ungefähr 460 MB. Datenprüfung null Fehler, 845 Hinweise, davon
+28 zusätzliche unbelegte Erstjahre; kein Erstjahr geraten. Lint, Format, Quellen-,
+Bestands-, Vergleichs-, Preis- und Wiederholungsimportprüfung bestanden. Alle
+143 erfassten eigenen Testprozesse beendet; Port4321 frei,
+Ressourcen anderer Aufgaben erhalten. Dies ist keine vollständige Browser-Suite.
+
+Gesamtstand: 1957 Modelle/Konfigurationen, 703 Ergänzungen, 845 Merkmalssätze,
+3576 Aussagen, 1465 Produktquellenverweise, 73 Firmenfokusse. 10121 Felder auf
+636 Modellen: 4732 dokumentiert, 5155 unbekannt, 217 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 336 Feldprüfungen und 182 bleiben offen.
+Firmenfokusse decken 71 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und alle vorherigen offenen Portfolios
+bleiben erhalten. Auch Geek+-Altsysteme, neue Systemnamen und regionale Portfolios
+bleiben Recherchepunkte; Vollständigkeit und Marktführung sind unbelegt.
+
+Zwischencommit `ea35b27` mit Geek+-Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+folgen als zweiter Commit; der Hauptbranch bleibt unverändert.
