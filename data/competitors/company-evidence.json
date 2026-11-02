@@ -279,18 +279,95 @@
     {
       "brandId": "oceanbotics",
       "name": "Oceanbotics",
-      "role": "Underwater ROVs and control software",
+      "website": "https://oceanbotics.com/",
+      "checkedAt": "2026-11-02",
+      "role": "Underwater ROV developer and SubNav software provider; standard vehicles, named specialist configurations and surface/accessory roles distinguished",
       "highlights": [
         "SubNav OS is Oceanbotics in-house ROV control software",
-        "ROV control and customization functions are tied to separately named vehicles; software is not another underwater robot"
+        "ROV control and customization functions are tied to separately named vehicles; software is not another underwater robot",
+        "Current navigation identifies standard SRV-8/SRV-8X, compact SRV-8C and ATS/MDV specialist configurations. SRV-8 first customer shipment is explicitly May 13, 2019; company history launches SRV-8X Optimus March 22, 2023. Engineering/founding, special-division launch and PDF revision/upload dates are not silently treated as every variant’s release.",
+        "Standard SRV-8 listed 18.6 kg versus 13.2 kg without batteries and SRV-8X 32 kg versus 24 kg without are corroborated by HTML columns and image-sheet OCR. Standard up-to-eight-hour/two-module operation differs from compact four-hour/one-module and linked ATS four-to-six-hour specifications. Direct surface power and station/software roles are separate.",
+        "SRV-8C depth text conflicts: page305m/1640ft versus OCR sheet350m/1148ft and September 2026 guide350m. Standard SRV-8/SRV-8X tether strengths are also reversed between HTML copper 544 kg/fiber 350 kg and sheet OCR copper 350 kg/fiber 544 kg. Configuration/revision/typo bases remain unresolved; strengths are not cargo ratings.",
+        "Three image-only PDFs required isolated local OCR with text, confidence and word rectangles; crop checks corroborate selected numbers. Compact total-weight unit reads 13 kg at 300 dpi versus13ks in alternate 450 dpi crop and remains explicitly qualified. No visual PDF/image/video/CAD verification is claimed.",
+        "ATS is a named acoustic recovery configuration with its own linked historical specifications, not automatically current standard hardware. MDV is explicitly standard ROV hardware with specialist clearance accessories; generic identity/role only, no accessory operating details or transferred configured mass/depth/runtime. SubNav/SubNav-X, TPS, surface stations, USBL/DVL, sonar and external manipulator suppliers are separate roles.",
+        "Quotes, stock, independent software/security/safety performance, exact cargo/charge/speed/positioning values and exclusive/leading claims remain unverified. Public manufacturer positioning is not proof of an independently unique USP or market/search leadership."
       ],
       "sources": [
         {
-          "name": "Oceanbotics — SubNav OS on SRV-8",
+          "name": "Oceanbotics — company homepage and current portfolio navigation",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — SRV-8 product and comparison table",
+          "type": "manufacturer",
           "url": "https://oceanbotics.com/srv-8/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — SRV-8X product and comparison table",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/srv-8x-optimus/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — image-only SRV-8 sheet, OCR text/coordinates; footer v1.6.2025, 2026 upload",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/wp-content/uploads/2026/03/SRV-8-Data-Sheet-2026.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — image-only SRV-8X sheet, OCR text/coordinates; footer 2025, 2026 upload",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/wp-content/uploads/2026/03/SRV-8X-Data-Sheet-3.2026.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — image-only SRV-8C sheet, OCR text/coordinates; footer 2.2026",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/wp-content/uploads/2026/03/SRV-8C-Data-Sheet-3.2026.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — linked ATS-specific PDF, native extracted text and word rectangles",
+          "type": "manufacturer",
+          "url": "https://www.oceanbotics.com/wp-content/uploads/2023/06/SRV-8X-Optimus-ATS-Specs.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — company history: first SRV-8 shipment 2019 and SRV-8X launch 2023",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/about/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — SRV-8C product: 4-hour runtime and inconsistent depth text",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/srv-8c/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — SRV-8X Optimus ATS acoustic recovery configuration",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/srv-8x-ats/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — SRV-8X MDV named mine-clearance configuration; general catalog identity only",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/the-srv-8-mdv-mine-disposal-vehicle/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Oceanbotics — September 2026 ROV selection guide: SRV-8C 350m and deeper SRV-8X configuration",
+          "type": "manufacturer",
+          "url": "https://oceanbotics.com/how-to-choose-the-right-rov-a-3-step-rov-selection-guide-for-subsea-missions/",
+          "checkedAt": "2026-11-02"
         }
-      ]
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-116/source-1.html",
+      "reviewNotes": "Existing two company highlights retained, one focus expanded. Public HTML structure, one native-text PDF and three image-only PDFs via local OCR text/confidence/coordinates. View-image tool explicitly unsupported; no successful visual inspection. OCR uncertainty and source conflicts retained. No forms, quote submission, contacts or transactions; not a complete historical portfolio, independent compliance/efficacy/exclusivity/leadership proof."
     },
     {
       "brandId": "open-robotics",
@@ -6126,6 +6203,140 @@
       ],
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-115/source-1.html",
       "reviewNotes": "Current specifications, FAQ, product pages and dated manufacturer articles inspected as extracted HTML text. RawHTML time elements and BlogPosting publication fields agree for 2023/2025/2026 articles; modification dates not treated as first release. Source 12 discovery only, 13 unused 404. No forms/demo/contact/login/transactions or visual image/PDF/video/CAD inspection. Public general product scope only; no claim of full historical portfolio/current stock/independent certification/exclusivity/leadership."
+    },
+    {
+      "brandId": "ulc-robotics",
+      "name": "ULC Robotics",
+      "website": "https://ulctechnologies.com/",
+      "checkedAt": "2026-11-02",
+      "role": "ULC Technologies robotics engineering and field-service developer; co-development, service families, prototype systems and utility equipment kept distinct",
+      "highlights": [
+        "ULC’s current portfolio spans CISBOT and 12-inch configuration, AUSMOS, M1/LargeVGC/SmallVGC/MCC crawlers, CIRRIS XI inspection and XR repair, RRES, solar Carrier/Setting Robots, Breaker Racking Robot, Leak Detection and Repair Robot, Bombyx and H1000/V3000 aircraft. Explicit named platforms remain distinct rather than collapsing everything into one generic pipeline robot.",
+        "Live-main/annulus inspection and joint-repair services are delivered by specialist crews. Nominal pipe diameter, joints per access pit, pit dimensions, repair lifespan and one-off customer project costs are not robot dimensions, cargo, per-hour throughput, battery life or hardware purchase prices.12-inch CISBOT development 2022–23 and2025 project reports are not exact first-release dates.",
+        "AUSMOS has 108 lb battery-excluded mass, 28.4 × 21.8 × 35.9 in, 3.5 h per swappable pack and −20 to +35 °C system range. Its operator setup and autonomous LiDAR/GPR/EM scan stage are distinct; centimeter-level localization lacks an exact bound and is not a guarantee of buried-asset detection.",
+        "RRES portfolio developed wording differs from its developing/future project page; complete maturity remains unresolved. The Breaker Racking Robot,2019 DOE leak/repair prototype, collaborative Bombyx and V3000 retain development scope/roadmap values.1200 A/3000 A breaker classes are not carried kilograms; V3000 five-plus-hour target is not validated battery runtime.",
+        "Solar construction explicitly has separate Panel Carrier and Panel Setting platforms developed with Rosendin, with field-tested human collaboration. Under-one-minute-per-panel is solution-level supplier wording, not carrier-only transport rate or independent all-site performance. Con Edison, SGN and Facebook Connectivity partnerships do not establish exclusive ULC ownership.",
+        "PRX250/PRX Mini inspection cameras, X-ID acoustic sensing, EMAT sensors, AIM vehicle-based analytics, DDC-125/compressor/purge/pressure equipment and automated cable-end preparation are separated from newly cataloged robot identities. The cable machine’s coordinated actuator automation is documented without inventing a mobile robot SKU or duplicate splicing robot from a redirected old URL.",
+        "MCC Type I/Type II sensor configurations remain within one named family without fabricated separate chassis SKUs. ULC software, accessories, launch fittings, sensors, service projects and training/qualification are not extra robots or independent safety/pressure/explosion certifications. Current stock, complete historical portfolio, independent exclusive USPs and market/search leadership remain unproven."
+      ],
+      "sources": [
+        {
+          "name": "ULC Technologies — company homepage and gas/robotics services",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — CISBOT joint-sealing service and system-family scope",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/services/cisbot-robotic-cast-iron-joint-sealing/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — AUSMOS GPR/EM mapping and robot-specific specifications",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/ausmos-gpr-mapping-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — 12-inch CISBOT service and separate chassis/configuration scope",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/services/12-in-cisbot-robotic-internal-cast-iron-joint-sealing/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — RRES development project and intended end-to-end roadworks",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/robotic-roadworks/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — solar construction: Panel Carrier and Panel Setting Robots",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/solar-panel-installation-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — Circuit Breaker Racking Robot development with Con Edison",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/breaker-racking-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — company engineering and field-service roles",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/about-us/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — automated cable-end preparation machine; separate utility equipment role",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/electric-cable-end-preparation-machine/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — technology portfolio: named inspection crawlers, infrastructure robots and UAS",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — March 2025 manufacturer account of 12-inch CISBOT Lowell project",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/project/new-12-cisbot-addresses-leak-prone-gas-main/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — June 2025 manufacturer account of first UK 12-inch CISBOT pilot",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/project/cadent-ulc-pilot-new-12-cisbot-northampton/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — M1, Large VGC and Small VGC live-main inspection services",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/services/live-gas-main-inspection/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — MCC tethered annular-space inspection and Type I/II sensor scopes",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/services/robotic-cased-pipeline-inspection/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — CIRRIS XI inspection/sensor-deployment platform",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/cirris-xi-inspection-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — CIRRIS XR remote joint-remediation platform",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/cirris-xr-repair-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — October 2019 DOE Phase II leak-detection/repair robot development announcement",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/ulc-robotics-to-develop-leak-detection-repair-robot-to-prevent-methane-emissions/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — July 2020 ULC/Facebook Connectivity fiber-crawler development announcement",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/ulc-facebook-connectivity-fiber-deployment-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ULC Technologies — V3000 VTOL hybrid development and 5-plus-hour target",
+          "type": "manufacturer",
+          "url": "https://ulctechnologies.com/technologies/vtol-fixed-wing-uas/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-116/source-4.html",
+      "reviewNotes": "New focus using public manufacturer/developer text, structured article-publication metadata and partner attribution. Existing catalog manufacturer ULC Technologies and brand alias ULC Robotics retained. Source21 redirects to already fetched20; no duplicate robot inferred. Cameras/utility automation and system services separated from explicit robot platforms. No visual PDF/image/video/CAD inspection or forms/demo/contact/transactions; historical/public R&D wording not present certified performance or exact stock/release proof."
     }
   ]
 }
