@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,076 catalog rows**, with 644 exact
-manufacturer spellings. Batch 101 refreshed the separate heuristic gap file offline
-against all 2,076 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,094 catalog rows**, with 644 exact
+manufacturer spellings. Batch 102 refreshed the separate heuristic gap file offline
+against all 2,094 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 988 dated records across the catalog, including
-166 existing-model enrichments and 822 task additions. All 430 catalog models
+Current product-highlight coverage: 1006 dated records across the catalog, including
+166 existing-model enrichments and 840 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 822 task additions, totaling 2,076.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 840 task additions, totaling 2,094.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 397 have selected-field reviews and 121 await those reviews. Family and
+highlights; 399 have selected-field reviews and 119 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 14,244 fields across 846 catalog models: 6,110 documented,
-7,814 not documented, 257 conflicting and sixty-three roadmap fields. They do not certify whole
+Selected specification checks cover 14,604 fields across 866 catalog models: 6,190 documented,
+8,088 not documented, 257 conflicting and sixty-nine roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -6204,3 +6204,97 @@ Lieferfähigkeits-, App- und Leistungsprüfung bleiben offen. Keine exklusiven
 USPs oder Markt-/Suchführerschaft unabhängig nachgewiesen.
 Datencommit: `d3c2a110d91466afb522f92077ec0ca21b1c7b9d`. Dauerhafter Nachweis:
 `reports/competitor-batch-101-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – FarmBot Generationen und Entwurfsstatus (Batch 102)
+
+20 ausgewählte FarmBot-Identitäten geprüft: zwei vorhandene Genesis-v1.8-Einträge
+und 18 ergänzte Versionen/Konfigurationen. Genesis v1.2/v1.3, Genesis/XL v1.4–v1.9,
+Genesis MAX v1.5, Express/XL/MAX v1.0 und Express/XL v1.1 behalten ihre Generation.
+360 Felder: 80 dokumentiert, 274 unbekannt und sechs Roadmap-Werte. 20 neue
+Feldprüfungen, ein Firmenfokus; keine neuen CSV-Spalten, Kategorieübertragungen
+oder Änderungen am Anwendungscode. Alle 2074 anderen vorherigen CSV-Zeilen,
+846 früheren Feldprüfungen, 95 Firmenfokusse und 1961 Quellenidentitäten unverändert.
+Neue Entdeckungen verweisen auf tatsächliche Herstellerquellen, nicht auf ein
+Verzeichnis, das diese zusätzlichen Versionen nicht nannte.
+
+Genesis v1.9/XL v1.9 werden als Vorbestellungen geführt; sechs Angaben zu Größe,
+Werkzeug und Montageumgebung tragen Roadmap-Status. Die aktuelle Genesis-Seite
+mischt v1.8-Abschnitte mit ausdrücklich als v1.9 beschrifteter Spezifikationstabelle;
+Tabellenzellen und Spaltenüberschriften einschließlich colspan wurden geprüft.
+Permanent montierte Bewässerung aus v1.9 wird nicht auf die abnehmbare v1.8-Düse
+übertragen. Temperatur-Sensorhardware ist kein Nachweis bereits verfügbarer
+Temperatursoftware; dort steht weiterhin coming soon.
+
+Genesis: nominell 1,5×3 m / XL 3×6 m; Express 1,2×3 m / XL 2,4×6 m.
+Diese Flächen sind keine Stundenleistung, effektive Netto-Servicefläche oder
+vollständige Außenabmessungen. Für frühe v1.2/v1.3 bleibt die Größe ohne eindeutige
+exakte Maßzuordnung leer; variable nominelle Flächen und aufwendige Erweiterungen
+bis ungefähr 50 m² werden nur qualifiziert beschrieben. Versandgewichte 19,5/24 kg
+bei Genesis und 17/18 kg bei Express sind keine montierten Robotermassen.
+IP67-Angaben einzelner Kameras/Netzteile sind kein Schutzgrad des Gesamtsystems.
+Netzteil-, Montage- und Motordaten werden nicht als Akku-Laufzeit oder vier
+mechanische Freiheitsgrade übernommen. XYZ-Positionierachsen nur dort eingetragen,
+wo die jeweilige Generation textlich belegt ist; Werkzeugspindeln separat.
+
+Bei v1.8 nennt die Einführung 0,5 m Pflanzenhöhe und die gleichnamige Übersicht
+1 m. Der Widerspruch bleibt in Beschreibung/Merkmalen stehen; daraus wird kein
+erfundener Höhenwert abgeleitet. Der alte XL-Preis 7995 USD und Erscheinungsjahr
+2025 wurden mangels passendem Beleg zurückgenommen. Dokumentations-Defaultdaten,
+Verkaufszeiträume, Fertigstellung und erste Versandmeldungen bleiben getrennt;
+alle exakten Releasejahr-Felder dieser Auswahl sind leer. Frühere Belege der zwei
+Bestandseinträge bleiben im Manifest erhalten. Bestehende Tags/Bilder werden
+dadurch nicht insgesamt neu zertifiziert.
+
+Generationsmerkmale: v1.2 Arduino MEGA/RAMPS; v1.3 Farmduino; v1.4 erste XL;
+v1.5 TMC2130/RTC/Temperaturhardware; v1.6 Rotationswerkzeug und H-Bridge mit
+unterschiedlichen Pi-Rechnern je Fertigungslauf; v1.7 überarbeitete Montage und
+passiver Weeder entfernt; v1.8 Einzelkarton, leichtere Teile und Pumpenversatz.
+Express bewegt sich auf hölzernen Beeträndern statt Genesis-Aluschienen.
+Express v1.1: fester 3-in-1-Kopf und zusammengehörige Pi-Zero-2-W/Farmduino-
+Express-v1.1-Revisionen; einzelne Boards sind nicht unabhängig rückwärtskompatibel.
+
+Genesis MAX v1.5 (3×18 m) ist in der alten Einführung on hold, in der späteren
+Historie ausdrücklich cancelled. Express MAX v1.0 (2,4×18 m) ebenfalls abgesagt.
+Beide bleiben benannte historische Entwürfe ohne Liefernachweis und werden nicht
+als aktuell erhältliche Roboter ausgegeben. Frühere Genesis v0.0–v1.1 bleiben
+offene Recherchehinweise; fehlende Einträge in ausgewählten Fertigungstabellen
+beweisen weder, dass jede Version nur Prototyp war, noch dass keine ausgeliefert
+wurde. Kein Anspruch auf vollständige historische oder aktuelle Herstellerpalette.
+
+26 HTTP-Antworten gespeichert: 25 erfolgreich, eine HTTP 429 beim Hauptshop.
+Danach keine weiteren Anfragen an diesen Host. Separate offizielle Genesis-/
+Express-Dokumentationshosts waren erreichbar. Alle Rohkörper-Hashes geprüft;
+HTML-Text und 19 Tabellen einschließlich Versionsgrenzen ausgewertet. Keine PDF-,
+Bild-, CAD- oder Videoinspektion. Keine Formulare oder Warenkörbe benutzt.
+
+802 Unit-Tests/64 Dateien, Build 3144 Seiten, Audit null Fehler/1004 Hinweise.
+19 zusätzliche Hinweise betreffen 18 neue unbekannte Releasejahre und die
+zurückgenommene alte XL-Jahreszahl; alle anderen Hinweise unverändert. Lint,
+Format, Refresh und Wiederimport ohne neue Ergänzungen bestanden. 18 verschiedene
+Desktop-/Mobilfälle inklusive vier Axe-Prüfungen bestanden: erster Lauf 15/18,
+zwei Navigationen mit Chromium ERR_INSUFFICIENT_RESOURCES und ein Quellen-Ladefehler
+im Desktopvergleich. Die drei betroffenen Fälle mit einem Worker und unveränderten
+Assertions erneut bestanden. Ein Skriptabruf meldete auch dann Ressourcenmangel;
+die separate Vergleichsinteraktion lud Quellen und bestand. Ursache des ersten
+Vergleichsfehlers nicht erfasst; keine globale Fehlerfreiheit behauptet.
+
+20 gerenderte Seiten/360 Felder/82 Merkmalsaussagen, 46 Quellenmarkierungen,
+274 ausgelassene Leerfelder und 36 strukturierte Eigenschaften geprüft.
+FarmBot steht über Listing-/Beschreibungsreferenzen in der kombinierten Queue:
+zwei Ziele/36 Felder, aber keine Zeilen in Modell- oder Firmenprodukt-Exporten.
+Eine kopierte Prüfannahme verlangte dort zunächst fälschlich Einträge; korrigierte
+Prüfung bestätigt ausdrücklich diese Grenze und den Firmenexport. Alle übrigen
+846 Feldprüfungen blieben unverändert; keine erneute globale Seitenprüfung
+behauptet. Aktueller Vergleich vollständig gegen 1006 Produktbelege, 4394 Aussagen,
+1970 Quellenverweise und 866 Feldprüfungen/14604 Felder abgeglichen.
+173 eigene Testprozesse nachverfolgt, anschließend keine eigenen Browser-/Server-
+oder Hilfsprozesse aktiv, Port 4321 frei. Andere Aufgabenressourcen erhalten.
+
+Gesamt: 2094 Katalogeinträge, 840 Ergänzungen und 166 vorhandene Modelle mit
+Merkmalsanreicherung; 96 Firmenfokusse. Von 518 ursprünglichen Quellenzielen haben
+399 ausgewählte Datenfeldprüfungen, 119 stehen aus. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte bleiben offen. Exklusive USPs,
+unabhängige Agrar-/Wirtschaftlichkeitsresultate und Markt-/Suchführerschaft unbewiesen.
+Datencommit `ac2cac580c87f56b284e50686d78cc0f35ef4dd6` auf dem Arbeitsbranch gepusht, Main unverändert, kein
+Deployment. Dauerhafter Nachweis: `reports/competitor-batch-102-evidence.json`.
