@@ -7488,62 +7488,152 @@
         "category": "outdoor",
         "manufacturer": "FarmBot",
         "model": "Genesis v1.8",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "",
+        "size": "1.5 x 3 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "garden;autonomous-nav;programmable;consumer",
-        "website": "https://farm.bot/products/farmbot-genesis-v1-8",
-        "description": "Open-source raised-bed gardening robot with seed injection and watering tools. Nominal machine footprint up to 1.5 x 3 m; serviceable area is smaller. Kit includes soil sensor, rotary tool and camera.",
-        "size": "up to 1.5 x 3 m (nominal footprint)",
-        "terrain": "raised garden beds"
+        "handType": "Universal Tool Mount; automated exchange of seeder, watering nozzle, soil sensor and rotary tool",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; tool spindle excluded)",
+        "payload": "",
+        "speed": "",
+        "terrain": "One mounted garden bed; tethered water/power; no native multi-bed service",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.8/assembly/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Genesis v1.8 is the documented v1.8 garden installation with 1.5 x 3 m nominal gantry/track footprint (4.5 m²), automated UTM tool exchange and X/Y/Z positioning. The v1.8 change log describes single-box packing, lighter tracks/gantry parts and a relocated vacuum pump. The introduction states 0.5 m maximum plant height while the same-version overview states 1 m; that source discrepancy remains unresolved. Shipping weights, component waterproofing and the live page’s separately labelled v1.9 specification table are not v1.8 robot mass, whole-system IP protection or silently updated hardware.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
       },
       "highlights": [
-        "Open-source raised-bed gardening robot with seed injection and watering tools",
-        "Nominal machine footprint up to 1.5 x 3 m; serviceable area is smaller",
-        "Kit includes soil sensor, rotary tool and camera"
+        "Named v1.8 documentation gives a 1.5 x 3 m nominal gantry/track footprint, 4.5 m². Footprint is not an hourly task rate and the system is attached to a supported garden bed.",
+        "The three Cartesian positioning directions use four NEMA 17 motors in this version. UTM tool exchange, the rotary-tool spindle and fixed USB camera have separate roles; motor count is not four positioning DOF.",
+        "The exact v1.8 tools chapter documents seeder, removable watering nozzle, soil sensor and rotary tool. The current mixed marketing page labels its technical table v1.9, whose permanently mounted watering nozzle is not backfilled into v1.8.",
+        "Plant-height sources disagree: v1.8 introduction 0.5 m versus its overview 1 m. This is retained as a manufacturer source conflict, not resolved by an unseen drawing or assumed clearance.",
+        "The FAQ requires a single precisely mounted bed and tethered water/power; moving between beds needs modification/recalibration. Shipped-kit 19.5/24 kg figures and waterproof camera statements are not assembled mass or whole-system ingress ratings."
       ],
       "sources": [
         {
-          "name": "FarmBot",
+          "name": "FarmBot — Genesis v1.8 introduction and nominal-size table",
           "type": "manufacturer",
-          "url": "https://farm.bot/products/farmbot-genesis-v1-8",
-          "checkedAt": "2026-11-01"
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 architecture and plant-height claim",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 FAQ: rain, single-bed tethering and shipping carton",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 hardware change log",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 UTM, tools and camera scope",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/tools",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/c471f7f9-ff08-43a1-8fae-d6663b59524c"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-3/farm.bot-products-farmbot-genesis-v1-8.json",
-      "reviewNotes": "The IP67 claim in the parts list refers to the USB camera, not a whole-system rating. Standard v1.8 listing is marked sold out; XL listing status does not prove every region has stock."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-6.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
     },
     {
       "row": {
         "category": "outdoor",
         "manufacturer": "FarmBot",
         "model": "Genesis XL v1.8",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "",
+        "size": "3 x 6 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "garden;autonomous-nav;programmable;consumer",
-        "website": "https://farm.bot/products/farmbot-genesis-xl-v1-8",
-        "description": "Open-source raised-bed gardening robot with seed injection and watering tools. Nominal machine footprint up to 3 x 6 m; serviceable area is smaller. Kit includes soil sensor, rotary tool and camera.",
-        "size": "up to 3 x 6 m (nominal footprint)",
-        "terrain": "raised garden beds"
+        "handType": "Universal Tool Mount; automated exchange of seeder, watering nozzle, soil sensor and rotary tool",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; tool spindle excluded)",
+        "payload": "",
+        "speed": "",
+        "terrain": "One mounted garden bed; tethered water/power; no native multi-bed service",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.8/assembly/intro",
+        "image": "images/outdoor/farmbot-genesis-xl-v1-8.webp",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Genesis XL v1.8 is the documented v1.8 garden installation with 3 x 6 m nominal gantry/track footprint (18 m²), automated UTM tool exchange and X/Y/Z positioning. The v1.8 change log describes single-box packing, lighter tracks/gantry parts and a relocated vacuum pump. The introduction states 0.5 m maximum plant height while the same-version overview states 1 m; that source discrepancy remains unresolved. Shipping weights, component waterproofing and the live page’s separately labelled v1.9 specification table are not v1.8 robot mass, whole-system IP protection or silently updated hardware.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
       },
       "highlights": [
-        "Open-source raised-bed gardening robot with seed injection and watering tools",
-        "Nominal machine footprint up to 3 x 6 m; serviceable area is smaller",
-        "Kit includes soil sensor, rotary tool and camera"
+        "Named v1.8 documentation gives a 3 x 6 m nominal gantry/track footprint, 18 m². Footprint is not an hourly task rate and the system is attached to a supported garden bed.",
+        "The three Cartesian positioning directions use four NEMA 17 motors in this version. UTM tool exchange, the rotary-tool spindle and fixed USB camera have separate roles; motor count is not four positioning DOF.",
+        "The exact v1.8 tools chapter documents seeder, removable watering nozzle, soil sensor and rotary tool. The current mixed marketing page labels its technical table v1.9, whose permanently mounted watering nozzle is not backfilled into v1.8.",
+        "Plant-height sources disagree: v1.8 introduction 0.5 m versus its overview 1 m. This is retained as a manufacturer source conflict, not resolved by an unseen drawing or assumed clearance.",
+        "The FAQ requires a single precisely mounted bed and tethered water/power; moving between beds needs modification/recalibration. Shipped-kit 19.5/24 kg figures and waterproof camera statements are not assembled mass or whole-system ingress ratings."
       ],
       "sources": [
         {
-          "name": "FarmBot",
+          "name": "FarmBot — Genesis v1.8 introduction and nominal-size table",
           "type": "manufacturer",
-          "url": "https://farm.bot/products/farmbot-genesis-xl-v1-8",
-          "checkedAt": "2026-11-01"
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 architecture and plant-height claim",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 FAQ: rain, single-bed tethering and shipping carton",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 hardware change log",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 UTM, tools and camera scope",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/tools",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/f2d7b8ea-de1a-4b1c-bc3b-173f7d954163"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-3/farm.bot-products-farmbot-genesis-xl-v1-8.json",
-      "reviewNotes": "The IP67 claim in the parts list refers to the USB camera, not a whole-system rating. Standard v1.8 listing is marked sold out; XL listing status does not prove every region has stock."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-6.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
     },
     {
       "row": {
@@ -55878,6 +55968,1098 @@
       ],
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
       "reviewNotes": "Batch99 Boston Dynamics current and historical portfolio review. Production/electric-development/hydraulic Atlas generations, Spot body/inspection-kit/dock/arm and Stretch unloading/Case Pick configurations retain separate scope. Active Spot mass/length discrepancies exposed. Prior unsupported prices and technical values withdrawn; legacy history nodes are not assumed first-release years. PDFs checked as text only; no visual inspection or independent performance certification claimed."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.2/FarmBot-Genesis-V1.2/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis v1.2",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "Universal Tool Mount (UTM); exact package tooling not fully established",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; tool spindle excluded)",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.2/FarmBot-Genesis-V1.2/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis v1.2, identified by its version-specific documentation and manufacturer production history. The exact-version overview describes variable planting area from 1 to 4.5 m². Proposed approximately 50 m² scaling requires extra hardware/R&D and is not the supplied kit footprint. Arduino MEGA/RAMPS and Raspberry Pi 3 form the documented electronics platform. The later Farmduino, powered rotary tool and present-day custom extrusion changes are not backfilled. The manufacturer history lists first shipment in March 2017 after a June 2016–January 2017 selling period. Those are separate milestones rather than an assumed first-release date. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis v1.2 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version overview describes variable planting area from 1 to 4.5 m². Proposed approximately 50 m² scaling requires extra hardware/R&D and is not the supplied kit footprint.",
+        "Arduino MEGA/RAMPS and Raspberry Pi 3 form the documented electronics platform. The later Farmduino, powered rotary tool and present-day custom extrusion changes are not backfilled.",
+        "The manufacturer history lists first shipment in March 2017 after a June 2016–January 2017 selling period. Those are separate milestones rather than an assumed first-release date."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.2 introduction",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.2/FarmBot-Genesis-V1.2/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.2 architecture and scaling concepts",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.2/FarmBot-Genesis-V1.2/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-17.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.3/FarmBot-Genesis-V1.3/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis v1.3",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "Universal Tool Mount (UTM); exact package tooling not fully established",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; tool spindle excluded)",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.3/FarmBot-Genesis-V1.3/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis v1.3, identified by its version-specific documentation and manufacturer production history. The exact-version overview describes variable planting area from 1 to 4.5 m². Proposed approximately 50 m² scaling requires extra hardware/R&D and is not the supplied kit footprint. Farmduino replaces the older MEGA/RAMPS stack; the historical changes also introduce a custom electronics enclosure and component-level IP67 power supply. The introduction warns its embedded overview video is still v1.2. The manufacturer history lists first shipment in October 2017. The documentation default changed October 10, 2017; neither a reused video nor that docs update establishes every first-release detail. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis v1.3 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version overview describes variable planting area from 1 to 4.5 m². Proposed approximately 50 m² scaling requires extra hardware/R&D and is not the supplied kit footprint.",
+        "Farmduino replaces the older MEGA/RAMPS stack; the historical changes also introduce a custom electronics enclosure and component-level IP67 power supply. The introduction warns its embedded overview video is still v1.2.",
+        "The manufacturer history lists first shipment in October 2017. The documentation default changed October 10, 2017; neither a reused video nor that docs update establishes every first-release detail."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.3 introduction and older embedded-video warning",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.3/FarmBot-Genesis-V1.3/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.3 architecture and scaling concepts",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.3/FarmBot-Genesis-V1.3/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-18.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.4/FarmBot-Genesis-V1.4/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis v1.4",
+        "price": "",
+        "weight": "",
+        "size": "1.5 x 3 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "Historical preassembled Universal Tool Mount (UTM)",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.4/FarmBot-Genesis-V1.4/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis v1.4, identified by its version-specific documentation and manufacturer production history. The exact-version size table names a 1.5 x 3 m nominal gantry/track footprint (4.5 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions. The history identifies the first Genesis XL size in v1.4, with 24 V peripherals/Farmduino changes and preassembled electronics box and UTM. XL was not a second model in the earlier v1.2/v1.3 size range. Both sizes are listed as first shipped October 2018, with sales beginning December 2017. The August 10, 2018 documentation update is a different milestone. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis v1.4 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version size table names a 1.5 x 3 m nominal gantry/track footprint (4.5 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions.",
+        "The history identifies the first Genesis XL size in v1.4, with 24 V peripherals/Farmduino changes and preassembled electronics box and UTM. XL was not a second model in the earlier v1.2/v1.3 size range.",
+        "Both sizes are listed as first shipped October 2018, with sales beginning December 2017. The August 10, 2018 documentation update is a different milestone."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.4 introduction and XL size table",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.4/FarmBot-Genesis-V1.4/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-19.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.4/FarmBot-Genesis-V1.4/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis XL v1.4",
+        "price": "",
+        "weight": "",
+        "size": "3 x 6 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "Historical preassembled Universal Tool Mount (UTM)",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.4/FarmBot-Genesis-V1.4/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis XL v1.4, identified by its version-specific documentation and manufacturer production history. The exact-version size table names a 3 x 6 m nominal gantry/track footprint (18 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions. The history identifies the first Genesis XL size in v1.4, with 24 V peripherals/Farmduino changes and preassembled electronics box and UTM. XL was not a second model in the earlier v1.2/v1.3 size range. Both sizes are listed as first shipped October 2018, with sales beginning December 2017. The August 10, 2018 documentation update is a different milestone. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis XL v1.4 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version size table names a 3 x 6 m nominal gantry/track footprint (18 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions.",
+        "The history identifies the first Genesis XL size in v1.4, with 24 V peripherals/Farmduino changes and preassembled electronics box and UTM. XL was not a second model in the earlier v1.2/v1.3 size range.",
+        "Both sizes are listed as first shipped October 2018, with sales beginning December 2017. The August 10, 2018 documentation update is a different milestone."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.4 introduction and XL size table",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.4/FarmBot-Genesis-V1.4/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-19.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis v1.5",
+        "price": "",
+        "weight": "",
+        "size": "1.5 x 3 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis v1.5, identified by its version-specific documentation and manufacturer production history. The exact-version size table names a 1.5 x 3 m nominal gantry/track footprint (4.5 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions. The changes introduce TMC2130 drivers, modular cables, a real-time clock, soil-sensor temperature hardware and seed troughs. Temperature-sensor hardware is not proof of working temperature software in every later release. The manufacturing table lists production completed February/December 2020. Completion dates are not automatically announcement, first-sale or first-delivery dates. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis v1.5 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version size table names a 1.5 x 3 m nominal gantry/track footprint (4.5 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions.",
+        "The changes introduce TMC2130 drivers, modular cables, a real-time clock, soil-sensor temperature hardware and seed troughs. Temperature-sensor hardware is not proof of working temperature software in every later release.",
+        "The manufacturing table lists production completed February/December 2020. Completion dates are not automatically announcement, first-sale or first-delivery dates."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.5 introduction and MAX on-hold design",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-20.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis XL v1.5",
+        "price": "",
+        "weight": "",
+        "size": "3 x 6 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis XL v1.5, identified by its version-specific documentation and manufacturer production history. The exact-version size table names a 3 x 6 m nominal gantry/track footprint (18 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions. The changes introduce TMC2130 drivers, modular cables, a real-time clock, soil-sensor temperature hardware and seed troughs. Temperature-sensor hardware is not proof of working temperature software in every later release. The manufacturing table lists production completed February/December 2020. Completion dates are not automatically announcement, first-sale or first-delivery dates. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis XL v1.5 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version size table names a 3 x 6 m nominal gantry/track footprint (18 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions.",
+        "The changes introduce TMC2130 drivers, modular cables, a real-time clock, soil-sensor temperature hardware and seed troughs. Temperature-sensor hardware is not proof of working temperature software in every later release.",
+        "The manufacturing table lists production completed February/December 2020. Completion dates are not automatically announcement, first-sale or first-delivery dates."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.5 introduction and MAX on-hold design",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-20.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.6/assembly/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis v1.6",
+        "price": "",
+        "weight": "",
+        "size": "1.5 x 3 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.6/assembly/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis v1.6, identified by its version-specific documentation and manufacturer production history. The exact-version size table names a 1.5 x 3 m nominal gantry/track footprint (4.5 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions. The powered rotary tool and matching Farmduino H-bridge appear in v1.6. The history distinguishes first-run Raspberry Pi 3B+ from later-run 4B, so the version label does not fix one computer revision for every kit. The manufacturing table lists production in May/July 2022 and January 2023, distinct from the December 22, 2021 docs-default date. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis v1.6 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version size table names a 1.5 x 3 m nominal gantry/track footprint (4.5 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions.",
+        "The powered rotary tool and matching Farmduino H-bridge appear in v1.6. The history distinguishes first-run Raspberry Pi 3B+ from later-run 4B, so the version label does not fix one computer revision for every kit.",
+        "The manufacturing table lists production in May/July 2022 and January 2023, distinct from the December 22, 2021 docs-default date."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.6 introduction and sizes",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.6/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-21.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.6/assembly/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis XL v1.6",
+        "price": "",
+        "weight": "",
+        "size": "3 x 6 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.6/assembly/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis XL v1.6, identified by its version-specific documentation and manufacturer production history. The exact-version size table names a 3 x 6 m nominal gantry/track footprint (18 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions. The powered rotary tool and matching Farmduino H-bridge appear in v1.6. The history distinguishes first-run Raspberry Pi 3B+ from later-run 4B, so the version label does not fix one computer revision for every kit. The manufacturing table lists production in May/July 2022 and January 2023, distinct from the December 22, 2021 docs-default date. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis XL v1.6 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version size table names a 3 x 6 m nominal gantry/track footprint (18 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions.",
+        "The powered rotary tool and matching Farmduino H-bridge appear in v1.6. The history distinguishes first-run Raspberry Pi 3B+ from later-run 4B, so the version label does not fix one computer revision for every kit.",
+        "The manufacturing table lists production in May/July 2022 and January 2023, distinct from the December 22, 2021 docs-default date."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.6 introduction and sizes",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.6/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-21.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.7/assembly/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis v1.7",
+        "price": "",
+        "weight": "",
+        "size": "1.5 x 3 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.7/assembly/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis v1.7, identified by its version-specific documentation and manufacturer production history. The exact-version size table names a 1.5 x 3 m nominal gantry/track footprint (4.5 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions. The history describes 90% preassembly and setup of three hours for standard or four for XL, plus redesigned tracks and a 100 W supply. It removes the older passive weeder in favor of the rotary tool; assembly time and supply rating are not endurance or cleaning throughput. The manufacturing table lists production completed January 2024, distinct from the November 22, 2023 docs-default date. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis v1.7 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version size table names a 1.5 x 3 m nominal gantry/track footprint (4.5 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions.",
+        "The history describes 90% preassembly and setup of three hours for standard or four for XL, plus redesigned tracks and a 100 W supply. It removes the older passive weeder in favor of the rotary tool; assembly time and supply rating are not endurance or cleaning throughput.",
+        "The manufacturing table lists production completed January 2024, distinct from the November 22, 2023 docs-default date."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.7 introduction and sizes",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.7/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-22.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.7/assembly/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis XL v1.7",
+        "price": "",
+        "weight": "",
+        "size": "3 x 6 m nominal gantry/track footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.7/assembly/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical FarmBot Genesis XL v1.7, identified by its version-specific documentation and manufacturer production history. The exact-version size table names a 3 x 6 m nominal gantry/track footprint (18 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions. The history describes 90% preassembly and setup of three hours for standard or four for XL, plus redesigned tracks and a 100 W supply. It removes the older passive weeder in favor of the rotary tool; assembly time and supply rating are not endurance or cleaning throughput. The manufacturing table lists production completed January 2024, distinct from the November 22, 2023 docs-default date. Current stock, exact assembled mass, battery endurance and exclusive growing outcomes remain unverified.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Historical Genesis XL v1.7 is a distinct documented kit generation; source version labels are retained rather than silently replacing it with current Genesis hardware.",
+        "The exact-version size table names a 3 x 6 m nominal gantry/track footprint (18 m²); that is not an hourly area rate, net serviced crop area or boxed dimensions.",
+        "The history describes 90% preassembly and setup of three hours for standard or four for XL, plus redesigned tracks and a 100 W supply. It removes the older passive weeder in favor of the rotary tool; assembly time and supply rating are not endurance or cleaning throughput.",
+        "The manufacturing table lists production completed January 2024, distinct from the November 22, 2023 docs-default date."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.7 introduction and sizes",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.7/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-22.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis MAX v1.5",
+        "price": "",
+        "weight": "",
+        "size": "3 x 18 m nominal design footprint (54 m²); cancelled, delivery unproven",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;prototype;cancelled",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Genesis MAX v1.5 is the documented 3 m by 18 m (54 m²) extended Genesis design. Its v1.5 introduction marks it on hold; the later manufacturer history says it was cancelled due to low demand and removed from v1.6 documentation. It remains a cancelled historical design rather than a currently available or proven delivered robot. Manufacturing tables list standard/XL kits and do not establish a completed MAX shipment.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "The exact v1.5 introduction names Genesis MAX with 3 x 18 m nominal footprint, 54 m². Design footprint is not hourly throughput or a standard XL size.",
+        "The old introduction marks MAX on hold; the later manufacturer history explicitly reports cancellation and removal from v1.6 documentation.",
+        "A cancelled named design is retained with its lifecycle label. The standard/XL production tables do not prove that MAX kits were delivered.",
+        "Standard Genesis v1.5 electronics, exact mass, load, runtime and current availability are not asserted for a delivered MAX unit."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis v1.5 introduction and MAX on-hold design",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.5/FarmBot-Genesis-V1.5/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis historical generations, manufacturing tables and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-20.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://farm.bot/pages/genesis"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis v1.9",
+        "price": "",
+        "weight": "",
+        "size": "1.5 x 3 m maximum nominal machine area; published machine height 1.5 m (preorder design)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;preorder",
+        "handType": "Preorder UTM with automatic tool changing; watering nozzle permanently mounted",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Raised-bed extrusion rails in published preorder design",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://farm.bot/pages/genesis",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Genesis v1.9 is explicitly offered for preorder in the current manufacturer homepage/banner and named v1.9 table. Its published nominal machine area is 1.5 x 3 m (4.5 m²), with service area slightly smaller and 1.5 m stated maximum machine height. The table describes UTM automatic tool exchange with a permanently mounted watering nozzle, 95% preassembly and 2 hours assembly. These are preorder specifications, not independently verified delivered hardware. The page also retains v1.8 text elsewhere; versions, shipping mass and component IP67 remain separate.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "The current manufacturer homepage/banner explicitly names Genesis v1.9 as a preorder. No exact first-release year or delivery date is inferred from the date of this review.",
+        "The explicitly labelled v1.9 table gives 1.5 x 3 m nominal maximum machine area (4.5 m²) and 1.5 m maximum machine height; serviceable area is slightly smaller. These are published preorder-design values.",
+        "The table describes 95% preassembly and approximately 2 hours assembly, plus custom extrusion rails and revised kinematics. Assembly time is not operating endurance or area throughput.",
+        "The v1.9 table retains automated UTM tool exchange but makes the watering nozzle permanent; soil-temperature software support is still marked coming soon. Component IP67 camera/power supply and shipped-kit weight are not whole-machine ingress/mass."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis page: mixed v1.8 sections and explicitly v1.9 technical table",
+          "type": "manufacturer",
+          "url": "https://farm.bot/pages/genesis",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — current portfolio and named v1.9 preorders",
+          "type": "manufacturer",
+          "url": "https://farm.bot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-2.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://farm.bot/pages/genesis"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Genesis XL v1.9",
+        "price": "",
+        "weight": "",
+        "size": "3 x 6 m maximum nominal machine area; published machine height 1.5 m (preorder design)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;preorder",
+        "handType": "Preorder UTM with automatic tool changing; watering nozzle permanently mounted",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Raised-bed extrusion rails in published preorder design",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://farm.bot/pages/genesis",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Genesis XL v1.9 is explicitly offered for preorder in the current manufacturer homepage/banner and named v1.9 table. Its published nominal machine area is 3 x 6 m (18 m²), with service area slightly smaller and 1.5 m stated maximum machine height. The table describes UTM automatic tool exchange with a permanently mounted watering nozzle, 95% preassembly and 3 hours assembly. These are preorder specifications, not independently verified delivered hardware. The page also retains v1.8 text elsewhere; versions, shipping mass and component IP67 remain separate.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "The current manufacturer homepage/banner explicitly names Genesis XL v1.9 as a preorder. No exact first-release year or delivery date is inferred from the date of this review.",
+        "The explicitly labelled v1.9 table gives 3 x 6 m nominal maximum machine area (18 m²) and 1.5 m maximum machine height; serviceable area is slightly smaller. These are published preorder-design values.",
+        "The table describes 95% preassembly and approximately 3 hours assembly, plus custom extrusion rails and revised kinematics. Assembly time is not operating endurance or area throughput.",
+        "The v1.9 table retains automated UTM tool exchange but makes the watering nozzle permanent; soil-temperature software support is still marked coming soon. Component IP67 camera/power supply and shipped-kit weight are not whole-machine ingress/mass."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Genesis page: mixed v1.8 sections and explicitly v1.9 technical table",
+          "type": "manufacturer",
+          "url": "https://farm.bot/pages/genesis",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — current portfolio and named v1.9 preorders",
+          "type": "manufacturer",
+          "url": "https://farm.bot/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-2.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Express v1.0",
+        "price": "",
+        "weight": "",
+        "size": "1.2 x 3 m nominal bed footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; motor count separate)",
+        "payload": "",
+        "speed": "",
+        "terrain": "Motion on wooden garden-bed edges; not free-driving field mobility",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Express v1.0 is a distinct documented garden-kit generation with 1.2 x 3 m nominal bed footprint (3.6 m²). It moves on the wooden bed edges rather than Genesis aluminum tracks, with X/Y/Z positioning. The original intro describes Raspberry Pi Zero and Farmduino Express. The later v1.1 change log identifies the v1.0 Pi as Zero W and warns that upgrading to Zero 2 W also requires the matching newer Farmduino. The history lists first shipments of standard and XL v1.0 in May 2020 after July 2019–March 2021 sales. The v1.1 documentation default date March 7, 2022 is not a first-launch date. No assembled mass, battery-only runtime, whole-system IP class, linear speed or current kit price is established.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Express v1.0: 1.2 x 3 m nominal bed footprint, 3.6 m². This is an installation area, not hourly output or net serviced swath.",
+        "The exact-version architecture describes X/Y/Z positioning and travel on wooden bed edges rather than separate Genesis rails. Four motors, encoders, camera and the fixed head are not a universal DOF/accuracy rating.",
+        "The original intro describes Raspberry Pi Zero and Farmduino Express. The later v1.1 change log identifies the v1.0 Pi as Zero W and warns that upgrading to Zero 2 W also requires the matching newer Farmduino.",
+        "The history lists first shipments of standard and XL v1.0 in May 2020 after July 2019–March 2021 sales. The v1.1 documentation default date March 7, 2022 is not a first-launch date."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Express v1.0 introduction, XYZ architecture and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.0 first-shipment record",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 changes, electronics compatibility and MAX cancellation",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-16.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Express XL v1.0",
+        "price": "",
+        "weight": "",
+        "size": "2.4 x 6 m nominal bed footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;legacy",
+        "handType": "",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; motor count separate)",
+        "payload": "",
+        "speed": "",
+        "terrain": "Motion on wooden garden-bed edges; not free-driving field mobility",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Express XL v1.0 is a distinct documented garden-kit generation with 2.4 x 6 m nominal bed footprint (14.4 m²). It moves on the wooden bed edges rather than Genesis aluminum tracks, with X/Y/Z positioning. The original intro describes Raspberry Pi Zero and Farmduino Express. The later v1.1 change log identifies the v1.0 Pi as Zero W and warns that upgrading to Zero 2 W also requires the matching newer Farmduino. The history lists first shipments of standard and XL v1.0 in May 2020 after July 2019–March 2021 sales. The v1.1 documentation default date March 7, 2022 is not a first-launch date. No assembled mass, battery-only runtime, whole-system IP class, linear speed or current kit price is established.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Express XL v1.0: 2.4 x 6 m nominal bed footprint, 14.4 m². This is an installation area, not hourly output or net serviced swath.",
+        "The exact-version architecture describes X/Y/Z positioning and travel on wooden bed edges rather than separate Genesis rails. Four motors, encoders, camera and the fixed head are not a universal DOF/accuracy rating.",
+        "The original intro describes Raspberry Pi Zero and Farmduino Express. The later v1.1 change log identifies the v1.0 Pi as Zero W and warns that upgrading to Zero 2 W also requires the matching newer Farmduino.",
+        "The history lists first shipments of standard and XL v1.0 in May 2020 after July 2019–March 2021 sales. The v1.1 documentation default date March 7, 2022 is not a first-launch date."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Express v1.0 introduction, XYZ architecture and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.0 first-shipment record",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 changes, electronics compatibility and MAX cancellation",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-16.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Express MAX v1.0",
+        "price": "",
+        "weight": "",
+        "size": "2.4 x 18 m nominal bed footprint (cancelled design; delivery unproven)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;prototype;cancelled",
+        "handType": "",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; motor count separate)",
+        "payload": "",
+        "speed": "",
+        "terrain": "Cancelled design: motion on wooden garden-bed edges",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Express MAX v1.0 is a cancelled historical design with 2.4 x 18 m nominal bed footprint (43.2 m²). It moves on the wooden bed edges rather than Genesis aluminum tracks, with X/Y/Z positioning. The original intro describes Raspberry Pi Zero and Farmduino Express. The later v1.1 change log identifies the v1.0 Pi as Zero W and warns that upgrading to Zero 2 W also requires the matching newer Farmduino. The v1.0 introduction names MAX but marks it cancelled; the later v1.1 change log confirms cancellation. Standard/XL first-shipment records do not establish any delivered MAX unit. No assembled mass, battery-only runtime, whole-system IP class, linear speed or current kit price is established.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Express MAX v1.0: 2.4 x 18 m nominal bed footprint, 43.2 m². This is an installation area, not hourly output or net serviced swath.",
+        "The exact-version architecture describes X/Y/Z positioning and travel on wooden bed edges rather than separate Genesis rails. Four motors, encoders, camera and the fixed head are not a universal DOF/accuracy rating.",
+        "The original intro describes Raspberry Pi Zero and Farmduino Express. The later v1.1 change log identifies the v1.0 Pi as Zero W and warns that upgrading to Zero 2 W also requires the matching newer Farmduino.",
+        "The v1.0 introduction names MAX but marks it cancelled; the later v1.1 change log confirms cancellation. Standard/XL first-shipment records do not establish any delivered MAX unit."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Express v1.0 introduction, XYZ architecture and cancelled MAX",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.0/FarmBot-Express-v1.0/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.0 first-shipment record",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/past-versions",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 changes, electronics compatibility and MAX cancellation",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-16.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://express.farm.bot/v1.1/assembly/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Express v1.1",
+        "price": "",
+        "weight": "",
+        "size": "1.2 x 3 m nominal bed footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;research",
+        "handType": "Fixed 3-in-1 tool head; no Genesis-style automated tool exchange",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; motor count separate)",
+        "payload": "",
+        "speed": "",
+        "terrain": "Wooden bed-edge motion; single mounted bed tethered to water/power",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://express.farm.bot/v1.1/assembly/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Express v1.1 is a distinct documented garden-kit generation with 1.2 x 3 m nominal bed footprint (3.6 m²). It moves on the wooden bed edges rather than Genesis aluminum tracks, with X/Y/Z positioning. The v1.1 change log pairs Raspberry Pi Zero 2 W with Farmduino Express v1.1, including an integrated USB hub/Ethernet and revised connectors; those two boards are not independently backwards compatible with v1.0 counterparts. The v1.1 overview specifies a fixed 3-in-1 tool head, without Genesis-style precision tool changes. The component page lists one head per standard/XL kit; its component price is not a complete robot offer. No assembled mass, battery-only runtime, whole-system IP class, linear speed or current kit price is established.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Express v1.1: 1.2 x 3 m nominal bed footprint, 3.6 m². This is an installation area, not hourly output or net serviced swath.",
+        "The exact-version architecture describes X/Y/Z positioning and travel on wooden bed edges rather than separate Genesis rails. Four motors, encoders, camera and the fixed head are not a universal DOF/accuracy rating.",
+        "The v1.1 change log pairs Raspberry Pi Zero 2 W with Farmduino Express v1.1, including an integrated USB hub/Ethernet and revised connectors; those two boards are not independently backwards compatible with v1.0 counterparts.",
+        "The v1.1 overview specifies a fixed 3-in-1 tool head, without Genesis-style precision tool changes. The component page lists one head per standard/XL kit; its component price is not a complete robot offer."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Express v1.1 introduction and size table",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 architecture",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 FAQ and shipping carton",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 changes, electronics compatibility and MAX cancellation",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 fixed 3-in-1 component specification",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/bom/plastic-parts/3-in-1-tool-head",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-7.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
+    },
+    {
+      "discoveredIn": [
+        "https://express.farm.bot/v1.1/assembly/intro"
+      ],
+      "row": {
+        "category": "outdoor",
+        "manufacturer": "FarmBot",
+        "model": "Express XL v1.1",
+        "price": "",
+        "weight": "",
+        "size": "2.4 x 6 m nominal bed footprint; full body envelope unspecified",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "garden;programmable;consumer;research",
+        "handType": "Fixed 3-in-1 tool head; no Genesis-style automated tool exchange",
+        "dof": "3 Cartesian positioning axes (X/Y/Z; motor count separate)",
+        "payload": "",
+        "speed": "",
+        "terrain": "Wooden bed-edge motion; single mounted bed tethered to water/power",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://express.farm.bot/v1.1/assembly/intro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "FarmBot Express XL v1.1 is a distinct documented garden-kit generation with 2.4 x 6 m nominal bed footprint (14.4 m²). It moves on the wooden bed edges rather than Genesis aluminum tracks, with X/Y/Z positioning. The v1.1 change log pairs Raspberry Pi Zero 2 W with Farmduino Express v1.1, including an integrated USB hub/Ethernet and revised connectors; those two boards are not independently backwards compatible with v1.0 counterparts. The v1.1 overview specifies a fixed 3-in-1 tool head, without Genesis-style precision tool changes. The component page lists one head per standard/XL kit; its component price is not a complete robot offer. No assembled mass, battery-only runtime, whole-system IP class, linear speed or current kit price is established.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "highlights": [
+        "Express XL v1.1: 2.4 x 6 m nominal bed footprint, 14.4 m². This is an installation area, not hourly output or net serviced swath.",
+        "The exact-version architecture describes X/Y/Z positioning and travel on wooden bed edges rather than separate Genesis rails. Four motors, encoders, camera and the fixed head are not a universal DOF/accuracy rating.",
+        "The v1.1 change log pairs Raspberry Pi Zero 2 W with Farmduino Express v1.1, including an integrated USB hub/Ethernet and revised connectors; those two boards are not independently backwards compatible with v1.0 counterparts.",
+        "The v1.1 overview specifies a fixed 3-in-1 tool head, without Genesis-style precision tool changes. The component page lists one head per standard/XL kit; its component price is not a complete robot offer."
+      ],
+      "sources": [
+        {
+          "name": "FarmBot — Express v1.1 introduction and size table",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 architecture",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 FAQ and shipping carton",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 changes, electronics compatibility and MAX cancellation",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Express v1.1 fixed 3-in-1 component specification",
+          "type": "manufacturer",
+          "url": "https://express.farm.bot/v1.1/bom/plastic-parts/3-in-1-tool-head",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-102/source-7.html",
+      "reviewNotes": "Batch102 version-specific FarmBot review. Nominal bed/gantry footprint, assembled body, plant height, shipping carton/weight, component IP rating and hourly throughput retain separate scope. v1.9 published preorder specifications have roadmap status; MAX designs explicitly cancelled without delivery proof. Current/default docs and mixed-version marketing page separated; dated manufacturing/shipment/docs events are not first-release dates. Earlier unreviewed versions remain leads. Existing tags/images retained without certifying each. HTML text/tables only; no image/video/CAD or independent performance inspection."
     }
   ]
 }

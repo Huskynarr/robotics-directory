@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T17:28:54.093Z",
+  "generatedAt": "2026-11-02T17:45:34.632Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 397,
-    "withoutSelectedFieldReview": 121,
-    "selectedFields": 6600,
+    "withSelectedFieldReview": 399,
+    "withoutSelectedFieldReview": 119,
+    "selectedFields": 6636,
     "selectedFieldStatuses": {
-      "documented": 2968,
-      "not-documented": 3460,
+      "documented": 2980,
+      "not-documented": 3484,
       "conflicting": 161,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 91,
+    "sourceGroupsWithCompanyAuthoredFocus": 92,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -475,26 +475,6 @@
       "robotIds": [
         "ekso-bionics-ekso-indego-personal",
         "ekso-bionics-eksonr"
-      ]
-    },
-    {
-      "brandId": "farmbot",
-      "name": "FarmBot",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/farmbot"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "farmbot-genesis-v1-8",
-        "farmbot-genesis-xl-v1-8"
       ]
     },
     {
@@ -3705,6 +3685,26 @@
       "robotIds": [
         "boston-dynamics-atlas",
         "boston-dynamics-spot"
+      ]
+    },
+    {
+      "brandId": "farmbot",
+      "name": "FarmBot",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/farmbot"
+      ],
+      "catalogModels": 20,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "farmbot-genesis-v1-8",
+        "farmbot-genesis-xl-v1-8"
       ]
     },
     {
@@ -6935,14 +6935,14 @@
       "sourceUrls": [
         "https://buyandrentrobots.com/companies/farmbot"
       ],
-      "catalogModels": 2,
+      "catalogModels": 20,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "farmbot-genesis-v1-8",
         "farmbot-genesis-xl-v1-8"
@@ -25030,24 +25030,79 @@
       "brandId": "farmbot",
       "category": "outdoor",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "FarmBot",
+          "name": "FarmBot — Genesis v1.8 introduction and nominal-size table",
           "type": "manufacturer",
-          "url": "https://farm.bot/products/farmbot-genesis-v1-8",
-          "checkedAt": "2026-11-01"
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 architecture and plant-height claim",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 FAQ: rain, single-bed tethering and shipping carton",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 hardware change log",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 UTM, tools and camera scope",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/tools",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 18,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 6,
+        "not-documented": 12,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "FarmBot — Genesis v1.8 introduction and nominal-size table",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 architecture and plant-height claim",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 FAQ: rain, single-bed tethering and shipping carton",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 hardware change log",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 UTM, tools and camera scope",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/tools",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "listing-review",
@@ -25071,24 +25126,79 @@
       "brandId": "farmbot",
       "category": "outdoor",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "FarmBot",
+          "name": "FarmBot — Genesis v1.8 introduction and nominal-size table",
           "type": "manufacturer",
-          "url": "https://farm.bot/products/farmbot-genesis-xl-v1-8",
-          "checkedAt": "2026-11-01"
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 architecture and plant-height claim",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 FAQ: rain, single-bed tethering and shipping carton",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 hardware change log",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 UTM, tools and camera scope",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/tools",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 18,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 6,
+        "not-documented": 12,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "FarmBot — Genesis v1.8 introduction and nominal-size table",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 architecture and plant-height claim",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/high-level-overview",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 FAQ: rain, single-bed tethering and shipping carton",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/faq",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 hardware change log",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/intro/change-log",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "FarmBot — Genesis v1.8 UTM, tools and camera scope",
+          "type": "manufacturer",
+          "url": "https://genesis.farm.bot/v1.8/assembly/tools",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "listing-review",

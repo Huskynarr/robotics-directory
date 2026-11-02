@@ -8,6 +8,50 @@ import { getAllRobots } from '../../src/data/robots.js';
 import { t } from '../../src/data/translations.js';
 
 describe('field-specific primary-source reviews', () => {
+  it('keeps FarmBot preorder tooling separate from the documented v1.8 generation', () => {
+    const old = getSpecificationReview('farmbot-genesis-v1-8');
+    const next = getSpecificationReview('farmbot-genesis-v1-9');
+    expect(old.fields.size.status).toBe('documented');
+    expect(next.fields.size.status).toBe('roadmap');
+    expect(next.fields.handType.value).toContain('watering nozzle permanently mounted');
+    expect(old.fields.handType.value).toContain('exchange');
+    expect(old.fields.handType.value).not.toContain('permanently');
+    expect(next.fields.releaseDate.value).toBe('');
+  });
+
+  it('does not turn FarmBot shipping weights component IP or bed area into robot ratings', () => {
+    for (const id of [
+      'farmbot-genesis-xl-v1-8',
+      'farmbot-genesis-xl-v1-9',
+      'farmbot-express-xl-v1-1',
+    ]) {
+      const fields = getSpecificationReview(id).fields;
+      for (const key of [
+        'weight',
+        'ipRating',
+        'areaRate',
+        'workingWidth',
+        'batteryLife',
+        'chargingTime',
+      ]) {
+        expect(fields[key].value).toBe('');
+      }
+    }
+    expect(getSpecificationReview('farmbot-genesis-v1-8').fields.dof.value).toContain(
+      '3 Cartesian',
+    );
+  });
+
+  it('retains cancelled FarmBot MAX designs and historical controller revisions explicitly', () => {
+    const robots = new Map(getAllRobots().allRobots.map((r) => [r.id, r]));
+    expect(robots.get('farmbot-genesis-max-v1-5').size).toContain('3 x 18 m');
+    expect(robots.get('farmbot-express-max-v1-0').size).toContain('2.4 x 18 m');
+    expect(robots.get('farmbot-genesis-max-v1-5').description).toContain('cancelled');
+    expect(robots.get('farmbot-express-max-v1-0').description).toContain('cancelled');
+    expect(robots.get('farmbot-genesis-v1-2').description).toContain('Arduino MEGA/RAMPS');
+    expect(robots.get('farmbot-genesis-v1-3').description).toContain('Farmduino');
+  });
+
   it('does not transfer base mBot2 energy or speed figures into Rover or original mBot', () => {
     const robots = new Map(getAllRobots().allRobots.map((r) => [r.id, r]));
     expect(robots.get('makeblock-mbot-neo').batteryLife).toContain('5 h');
@@ -445,8 +489,8 @@ describe('field-specific primary-source reviews', () => {
 
   it('reports reviewed fields separately from whole-model certification', () => {
     const coverage = getSpecificationReviewCoverage();
-    expect(coverage.reviewedCatalogModels).toBe(846);
-    expect(coverage.reviewedFields).toBe(14244);
+    expect(coverage.reviewedCatalogModels).toBe(866);
+    expect(coverage.reviewedFields).toBe(14604);
     expect(coverage.fieldStatuses.conflicting).toBe(257);
     expect(coverage.scope).toContain('unmarked fields remain unverified');
     expect(getSpecificationReview('unitree-go2-w').fields.weight.status).toBe('documented');
