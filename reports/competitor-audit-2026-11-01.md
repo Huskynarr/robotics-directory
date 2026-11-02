@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 99 |
+| Firmenfokus-Prüfungen mit Quellen | 100 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 868 ergänzte Modelle ergeben 2.122 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-99 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+100 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1034 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 405 haben ausgewählte Datenfeldprüfungen und 113
+haben datierte Merkmalsbelege; 407 haben ausgewählte Datenfeldprüfungen und 111
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -8864,3 +8864,63 @@ und 113 ausstehend von 518, 6755 ausgewählte Felder (3012 dokumentiert,
 862 Buy-Detailinhalte bleiben offen; keine Vollständigkeit oder Markt-/Suchführung
 bewiesen. Datencommit `375ba3e4c5d334e06f7cf0726d6384a9cbb9b092` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-106-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Asylon-Systeme und Betriebsgrenzen (Batch 107)
+
+DroneDog und Guardian als zwei bestehende Systeme mit 53 ausgewählten Feldern geprüft:
+acht dokumentiert und 45 nicht dokumentiert. Elf zusätzliche Merkmalsaussagen,
+netto vier zusätzliche Produktquellenverweise. Alle sechs bisherigen schmalen
+Merkmalsbelege erhalten. Ein neuer Firmenfokus; keine zusätzliche Modellidentität.
+
+DroneDog ist die ausdrücklich benannte Integration aus Boston Dynamics Spot und
+Asylon PupPack. Keine Übernahme der numerischen Masse, freien Nutzlast, Geschwindigkeit,
+IP-Werte, DOF oder Batteriedauer des nackten Spot als Gesamtsystemwerte. Hersteller
+beschreibt Treppen, unebene Flächen und enge Räume, ohne exakte Steigungs-/Umwelttests.
+EO-/Thermalkameras, Livevideo, programmierte/angeforderte Patrouillen und menschliche
+RSOC-Überwachung bleiben eigene Funktionsbelege. DogHouse ist ein separater Schutz-/
+Ladehub mit Umweltregelung. Dessen wettergeschütztes Gehäuse ist keine Roboter-IP-Angabe,
+rapid charging keine bestimmte Ladezeit und 24/7-Dienst keine 24-Stunden-Akkulaufzeit.
+LTE/Mesh, AES-256 und redundante Uplinks sind Herstellerfunktionen, kein unabhängiger
+Cybersicherheitsnachweis oder garantierte Konnektivität.
+
+Guardian nennt 35 mph Flug-Höchstgeschwindigkeit, separat 25 mph Windwiderstand und
+IP45 als Herstellerwetterrating. Flugzeit ausdrücklich up to 30+ minutes per mission;
+ungeklärte Test-/Lastbedingungen und Formulierungsgrenze bleiben sichtbar, kein
+Mindestflugzeitversprechen. DroneHome für Start/Landung und automatischen Akkuwechsel
+unter drei Minuten ist Infrastruktur; Wechselzeit ist keine Ladezeit und wiederholte
+Einsätze keine unbegrenzte Einzelflugdauer. LTE mit optionaler Starlink-Integration,
+nicht pauschal serienmäßiges Starlink. Flugaufsicht durch menschliche RSOC-Bediener;
+allgemeine Lizenz-/Compliancewerbung beweist keine universelle standortspezifische
+Flugerlaubnis. Mehr als 45.000 Missionen und most widely used sind undatierte
+Herstellerbehauptungen, keine unabhängig bewiesene Marktquote, pro-Fluggerät-
+Stundenleistung oder Verfügbarkeitsgarantie. Unternehmensgründung 2015 kein Modellstart.
+
+PupPack, DogHouse, DroneHome, DroneIQ, RSOC und das gebündelte RaaS-Angebot sind
+Payload, Infrastruktur, Software oder Dienstleistung; keine weiteren ganzen Roboter.
+Gelesene aktuelle Navigation/Produktseiten benennen DroneDog/Guardian, beweisen aber
+keine vollständige historische/revidierte Palette oder jeden heutigen Lieferumfang.
+Sechs aktuelle HTTP200-HTML-Quellen mit SHA-256 geprüft, Textinspektion, keine visuelle
+Bild-/PDF-/Video-/Zertifikatsprüfung und keine Formular-/Demoanfrage.
+
+Alle 2120 anderen CSV-Zeilen, 900 bisherigen Feldprüfungen, 99 bisherigen Firmenfokusse,
+1032 anderen Produktbelege und 1961 Wettbewerber-Quellenidentitäten unverändert.
+Keine neue CSV-/Vergleichsspalte oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien,
+Build 3172 Seiten, Audit null Fehler/1027 unveränderte Hinweise. Lint/Format,
+Refresh und Wiederimport ohne Ergänzungen bestanden. 16 verschiedene Desktop-/Mobil-
+Fälle einschließlich vier Axe-Läufen mit einem Worker bestanden; beide Asylon-Seiten
+ohne Videoiframe. Frühere externe YouTube-Befunde aus Batch106 bleiben ungelöst und
+werden dadurch nicht nachträglich als behoben erklärt. Zwei Seiten/53 Felder/17 Aussagen,
+Firmenfokus, strukturierte Eigenschaften, zwei Modell-Exportzeilen und Queue-Ziele
+geprüft. Gesamter Vergleich 1034 Produktbelege, 4539 Aussagen, 2048 Quellenverweise
+und 902 Prüfungen/15333 Felder. Eigene Browser-/Server-/Hilfsprozesse beendet,
+Port 4321 frei; kein Deployment.
+
+Gesamt 2122 Modelle/Konfigurationen, 868 Ergänzungen und 166 bestehende Modelle mit
+Merkmalsanreicherung, 100 Firmenfokusse. Ursprüngliche Quellenzielmenge: 407 geprüft,
+111 ausstehend von 518, 6808 Felder (3020 dokumentiert, 3613 nicht dokumentiert,
+164 Quellenabweichungen, elf Roadmap); Firmenfokus für 96 von 591 Quellengruppen.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben offen.
+Keine vollständige Quellen-/Herstellerpalette oder Markt-/Suchführerschaft nachgewiesen.
+Datencommit `9446a4f7fb8f599c8192ca71402ccd55b1dd42c6` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-107-evidence.json`.
