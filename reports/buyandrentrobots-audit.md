@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,040 catalog rows**, with 644 exact
-manufacturer spellings. Batch 92 refreshed the separate heuristic gap file offline
-against all 2,040 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,046 catalog rows**, with 644 exact
+manufacturer spellings. Batch 93 refreshed the separate heuristic gap file offline
+against all 2,046 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 935 dated records across the catalog, including
-149 existing-model enrichments and 786 task additions. All 430 catalog models
+Current product-highlight coverage: 941 dated records across the catalog, including
+149 existing-model enrichments and 792 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 786 task additions, totaling 2,040.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 792 task additions, totaling 2,046.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 374 have selected-field reviews and 144 await those reviews. Family and
+highlights; 376 have selected-field reviews and 142 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 12,838 fields across 770 catalog models: 5,573 documented,
-6,962 not documented, 250 conflicting and fifty-three roadmap fields. They do not certify whole
+Selected specification checks cover 12,981 fields across 778 catalog models: 5,637 documented,
+7,034 not documented, 250 conflicting and sixty roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -5368,3 +5368,83 @@ fand veraltete abgeleitete Produktmerkmale nach einem Import-Trockenlauf;
 explizites Importieren, Refresh und neue Manifeste korrigierten das vor finalen
 Prüfungen. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-92-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Agile Robots (Batch 93)
+
+Sechs Modelle ergänzt: Diana 7, Thor 3, Thor 7, Thor 7 Pro, Thor 12 und Thor 20.
+Agile ONE und Yu 5 Industrial geprüft. 143 Felder: 64 dokumentiert, 72 unbekannt,
+sieben Roadmap. Thor 20 steht weiterhin als „Coming soon“ auf der Modellseite;
+seine sieben numerischen technischen Werte bleiben angekündigte Spezifikationen.
+Thor 3 ist ausdrücklich auf APAC begrenzt. Ein Firmenfokus ergänzt; 2038
+unbeteiligte CSV-Zeilen, 770 frühere Feldprüfungen, 87 Firmenfokusse, alle
+Firmenprofile/Aliasse und 1961 Quellenidentitäten bleiben unverändert.
+Keine neuen CSV-Spalten oder Kategorieverschiebungen.
+
+Agile ONE: Öffentliches HTML ordnet Animationswerte Einheiten/Bezeichnungen zu:
+174 cm Höhe, 69 kg Masse, 2 m/s Gehen und 20 kg nicht näher verteilte Last.
+Englische/deutsche Fassung gegengeprüft; keine Maße aus Bildern abgelesen.
+21 Gelenke der beschriebenen Hand sind kein Beleg für frühere 71 Ganzkörper-DOF;
+die Produktseite spricht von 21 Gelenken der beschriebenen Hand. Das separate
+Agile-Hand-Modul hat 21 Gelenke und 15/16 DOF, nicht automatisch jede ausgelieferte
+ONE-Handkonfiguration. Ehemalige Acht-Stunden-/480-Minuten-Werte sind durch
+gewählte Primärquellen nicht belegt und entfallen. Einführung 19. November 2025,
+früher Produktionsplan für 2026 und Vorführung am 4. Februar 2026 bleiben getrennt.
+Cloud-Training und ein Knopfdruck bei der AI-Cloud-Eröffnung belegen keine
+Roboterlaufzeit, freie Lieferbarkeit oder unabhängig geprüfte Fabrikautonomie.
+
+Yu 5 Industrial: 5 kg bei 1000 mm oder 7 kg bei 850 mm; Last-/Radiuspaare nicht
+kombinieren. Sechs Achsen, 31,5 kg Roboter, IP54 für Roboter/Controller,
+±0,05 mm Wiederholgenauigkeit und maximal 2 m/s TCP ausdrücklich bei 5 kg Last.
+2D-Kamera/LEDs, NPU, Python/Browserprogrammierung und Handführung bleiben benannte
+Funktionen. Netzverbrauch 250 W ist keine Akkulaufzeit; Controller-/Zeichnungsmaße
+sind keine vollständige Roboterhülle. Zwei vermutete aktuelle Produktpfade
+liefern 404, das technische PDF ist erreichbar; daraus kein Abkündigungsdatum.
+
+Diana 7: Sieben drehmomentsensitive Achsen, 7 kg/923 mm, 28 kg Roboter,
+16 kg separater Controller, IP50, ±0,05 mm Wiederholgenauigkeit, 2,4 m/s TCP.
+0,5 N Kraftregelgenauigkeit ist keine Lage-/Navigationsgenauigkeit. AgileCore,
+C++/Python/Lua und die im Prospekt genannte FCI-Forschungsschnittstelle machen
+Diana nicht zu einer Franka-FR3-Identität oder universell kompatiblen Konfiguration.
+
+Thor-Spalten: 3/7/7 Pro/12/20 tragen 3/7/7/12/20 kg bei 600/900/900/1300/1700 mm.
+Robotergewichte 14/32/38/35/72 kg, TCP-Geschwindigkeit 1,8/3,1/2,5/3,7/2,8 m/s.
+Separate Controller: Thor 3 mit 20 kg, übrige mit 16 kg. Sechs Achsen je Modell.
+Wiederholgenauigkeit ±0,03/0,03/0,03/0,05/0,1 mm. Thor 3 IP20; Thor 7/7 Pro/12
+laut Robotertabelle IP54. Thor 20 nennt ausdrücklich IP54 am Handgelenk, während
+die Tabelle die Komponente nicht abgrenzt; keine pauschale Gesamtsystemabdichtung.
+Pro ist eine benannte Variante mit Gelenkmomentsensoren/0,5 N Kraftregelung,
+eigener Masse/Geschwindigkeit. Die generische Web-Spanne 1,8–3 m/s ersetzt nicht
+die exakten Modellwerte; der Prospekt nennt bis 3,7 m/s. Keine Winkelraten oder
+Sockel-/Controllermaße als lineare Geschwindigkeit bzw. ganze Hülle übernommen.
+
+Agile Hand, AgileCore und unbenannte AMR-/AGV-Kategorien erzeugen keine zusätzlichen
+Roboterkarten. Franka, idealworks und BÄR behalten eigene Marken-/Modellidentitäten;
+Unternehmenszugehörigkeit ist kein Produktalias. Hersteller-Qualitäts-/Sicherheits-
+aussagen sind keine unabhängige Zertifizierung jeder eingebauten Anwendung.
+Historische Erstjahre, volle regionale Produktbreite, konkrete Softwarepakete,
+Thor-20-Auslieferung und heutige Yu-Verfügbarkeit bleiben offen.
+
+15 Quellenversuche: zwölf HTTP200, ein vorübergehender DNS-Fehler, zwei 404.
+Drei PDFs mit 16 textlich extrahierten Seiten/Wortkoordinaten; keine visuelle
+PDF-Prüfung oder Übernahme ungesehener Zeichnungsmaße. HTML-Animationsattribute
+beider Sprachfassungen ausgewertet; dies ist keine unabhängige Bestätigung.
+Keine Formulare/Käufe, kein 429 oder Wiederholen bekannter blockierter Hosts.
+
+Aktuell: 2046 Katalogeinträge, 644 exakte Herstellernamen, 1036 Profile,
+633 mit/403 ohne Modelle. 941 Merkmalsdatensätze (792 Ergänzungen/149 bestehende
+Anreicherungen), 4092 Aussagen, 1801 Produkt-Quellenreferenzen. 88 Firmenfokusse
+auf 84 der 591 Quellen-Firmengruppen. 12981 Felder auf 778 Modellseiten:
+5637 dokumentiert, 7034 unbekannt, 250 widersprüchlich, 60 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 376 Feldprüfungen, 142 warten. 6185 Zielfelder:
+2817 dokumentiert, 3202 unbekannt, 156 widersprüchlich, zehn Roadmap.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben
+offen. Vollständigkeit und Marktführerschaft sind weiterhin unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte lokale Browserfälle
+bestanden (16 Agile/18 Vergleich, einschließlich acht Axe-Läufen). Build:
+3096 Seiten/ca. 479 MB. Audit: null Fehler/933 Warnungen; sechs neue ungeklärte
+Erstjahre. Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
+acht Modellseiten/Quellen-/Exporttransport sowie alle 778 gerenderten Feldprüfseiten
+geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-93-evidence.json`.

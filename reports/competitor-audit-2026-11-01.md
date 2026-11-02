@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.040 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 786 |
-| Datierte Produktmerkmal-Datensätze einschließlich 149 bestehender Modelle | 935 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.046 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 792 |
+| Datierte Produktmerkmal-Datensätze einschließlich 149 bestehender Modelle | 941 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 87 |
+| Firmenfokus-Prüfungen mit Quellen | 88 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 786 ergänzte Modelle ergeben 2.040 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 792 ergänzte Modelle ergeben 2.046 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-87 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+88 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 935 Datensätze
+Modellseiten verlinken Markenprofile. Die 941 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 374 haben ausgewählte Datenfeldprüfungen und 144
+haben datierte Merkmalsbelege; 376 haben ausgewählte Datenfeldprüfungen und 142
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 478 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 479 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -7603,3 +7603,83 @@ fand veraltete abgeleitete Produktmerkmale nach einem Import-Trockenlauf;
 explizites Importieren, Refresh und neue Manifeste korrigierten das vor finalen
 Prüfungen. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-92-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Agile Robots (Batch 93)
+
+Sechs Modelle ergänzt: Diana 7, Thor 3, Thor 7, Thor 7 Pro, Thor 12 und Thor 20.
+Agile ONE und Yu 5 Industrial geprüft. 143 Felder: 64 dokumentiert, 72 unbekannt,
+sieben Roadmap. Thor 20 steht weiterhin als „Coming soon“ auf der Modellseite;
+seine sieben numerischen technischen Werte bleiben angekündigte Spezifikationen.
+Thor 3 ist ausdrücklich auf APAC begrenzt. Ein Firmenfokus ergänzt; 2038
+unbeteiligte CSV-Zeilen, 770 frühere Feldprüfungen, 87 Firmenfokusse, alle
+Firmenprofile/Aliasse und 1961 Quellenidentitäten bleiben unverändert.
+Keine neuen CSV-Spalten oder Kategorieverschiebungen.
+
+Agile ONE: Öffentliches HTML ordnet Animationswerte Einheiten/Bezeichnungen zu:
+174 cm Höhe, 69 kg Masse, 2 m/s Gehen und 20 kg nicht näher verteilte Last.
+Englische/deutsche Fassung gegengeprüft; keine Maße aus Bildern abgelesen.
+21 Gelenke der beschriebenen Hand sind kein Beleg für frühere 71 Ganzkörper-DOF;
+die Produktseite spricht von 21 Gelenken der beschriebenen Hand. Das separate
+Agile-Hand-Modul hat 21 Gelenke und 15/16 DOF, nicht automatisch jede ausgelieferte
+ONE-Handkonfiguration. Ehemalige Acht-Stunden-/480-Minuten-Werte sind durch
+gewählte Primärquellen nicht belegt und entfallen. Einführung 19. November 2025,
+früher Produktionsplan für 2026 und Vorführung am 4. Februar 2026 bleiben getrennt.
+Cloud-Training und ein Knopfdruck bei der AI-Cloud-Eröffnung belegen keine
+Roboterlaufzeit, freie Lieferbarkeit oder unabhängig geprüfte Fabrikautonomie.
+
+Yu 5 Industrial: 5 kg bei 1000 mm oder 7 kg bei 850 mm; Last-/Radiuspaare nicht
+kombinieren. Sechs Achsen, 31,5 kg Roboter, IP54 für Roboter/Controller,
+±0,05 mm Wiederholgenauigkeit und maximal 2 m/s TCP ausdrücklich bei 5 kg Last.
+2D-Kamera/LEDs, NPU, Python/Browserprogrammierung und Handführung bleiben benannte
+Funktionen. Netzverbrauch 250 W ist keine Akkulaufzeit; Controller-/Zeichnungsmaße
+sind keine vollständige Roboterhülle. Zwei vermutete aktuelle Produktpfade
+liefern 404, das technische PDF ist erreichbar; daraus kein Abkündigungsdatum.
+
+Diana 7: Sieben drehmomentsensitive Achsen, 7 kg/923 mm, 28 kg Roboter,
+16 kg separater Controller, IP50, ±0,05 mm Wiederholgenauigkeit, 2,4 m/s TCP.
+0,5 N Kraftregelgenauigkeit ist keine Lage-/Navigationsgenauigkeit. AgileCore,
+C++/Python/Lua und die im Prospekt genannte FCI-Forschungsschnittstelle machen
+Diana nicht zu einer Franka-FR3-Identität oder universell kompatiblen Konfiguration.
+
+Thor-Spalten: 3/7/7 Pro/12/20 tragen 3/7/7/12/20 kg bei 600/900/900/1300/1700 mm.
+Robotergewichte 14/32/38/35/72 kg, TCP-Geschwindigkeit 1,8/3,1/2,5/3,7/2,8 m/s.
+Separate Controller: Thor 3 mit 20 kg, übrige mit 16 kg. Sechs Achsen je Modell.
+Wiederholgenauigkeit ±0,03/0,03/0,03/0,05/0,1 mm. Thor 3 IP20; Thor 7/7 Pro/12
+laut Robotertabelle IP54. Thor 20 nennt ausdrücklich IP54 am Handgelenk, während
+die Tabelle die Komponente nicht abgrenzt; keine pauschale Gesamtsystemabdichtung.
+Pro ist eine benannte Variante mit Gelenkmomentsensoren/0,5 N Kraftregelung,
+eigener Masse/Geschwindigkeit. Die generische Web-Spanne 1,8–3 m/s ersetzt nicht
+die exakten Modellwerte; der Prospekt nennt bis 3,7 m/s. Keine Winkelraten oder
+Sockel-/Controllermaße als lineare Geschwindigkeit bzw. ganze Hülle übernommen.
+
+Agile Hand, AgileCore und unbenannte AMR-/AGV-Kategorien erzeugen keine zusätzlichen
+Roboterkarten. Franka, idealworks und BÄR behalten eigene Marken-/Modellidentitäten;
+Unternehmenszugehörigkeit ist kein Produktalias. Hersteller-Qualitäts-/Sicherheits-
+aussagen sind keine unabhängige Zertifizierung jeder eingebauten Anwendung.
+Historische Erstjahre, volle regionale Produktbreite, konkrete Softwarepakete,
+Thor-20-Auslieferung und heutige Yu-Verfügbarkeit bleiben offen.
+
+15 Quellenversuche: zwölf HTTP200, ein vorübergehender DNS-Fehler, zwei 404.
+Drei PDFs mit 16 textlich extrahierten Seiten/Wortkoordinaten; keine visuelle
+PDF-Prüfung oder Übernahme ungesehener Zeichnungsmaße. HTML-Animationsattribute
+beider Sprachfassungen ausgewertet; dies ist keine unabhängige Bestätigung.
+Keine Formulare/Käufe, kein 429 oder Wiederholen bekannter blockierter Hosts.
+
+Aktuell: 2046 Katalogeinträge, 644 exakte Herstellernamen, 1036 Profile,
+633 mit/403 ohne Modelle. 941 Merkmalsdatensätze (792 Ergänzungen/149 bestehende
+Anreicherungen), 4092 Aussagen, 1801 Produkt-Quellenreferenzen. 88 Firmenfokusse
+auf 84 der 591 Quellen-Firmengruppen. 12981 Felder auf 778 Modellseiten:
+5637 dokumentiert, 7034 unbekannt, 250 widersprüchlich, 60 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 376 Feldprüfungen, 142 warten. 6185 Zielfelder:
+2817 dokumentiert, 3202 unbekannt, 156 widersprüchlich, zehn Roadmap.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben
+offen. Vollständigkeit und Marktführerschaft sind weiterhin unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte lokale Browserfälle
+bestanden (16 Agile/18 Vergleich, einschließlich acht Axe-Läufen). Build:
+3096 Seiten/ca. 479 MB. Audit: null Fehler/933 Warnungen; sechs neue ungeklärte
+Erstjahre. Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
+acht Modellseiten/Quellen-/Exporttransport sowie alle 778 gerenderten Feldprüfseiten
+geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-93-evidence.json`.
