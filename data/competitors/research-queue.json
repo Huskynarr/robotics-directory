@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T18:42:57.439Z",
+  "generatedAt": "2026-11-02T18:54:25.380Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 405,
-    "withoutSelectedFieldReview": 113,
-    "selectedFields": 6755,
+    "withSelectedFieldReview": 407,
+    "withoutSelectedFieldReview": 111,
+    "selectedFields": 6808,
     "selectedFieldStatuses": {
-      "documented": 3012,
-      "not-documented": 3568,
+      "documented": 3020,
+      "not-documented": 3613,
       "conflicting": 164,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 95,
+    "sourceGroupsWithCompanyAuthoredFocus": 96,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -353,26 +353,6 @@
       "robotIds": [
         "ambi-robotics-ambisort-a-series",
         "ambi-robotics-ambistack"
-      ]
-    },
-    {
-      "brandId": "asylon-robotics",
-      "name": "Asylon Robotics",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/asylon-robotics"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "asylon-robotics-dronedog",
-        "asylon-robotics-guardian"
       ]
     },
     {
@@ -3586,6 +3566,26 @@
       ]
     },
     {
+      "brandId": "asylon-robotics",
+      "name": "Asylon Robotics",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/asylon-robotics"
+      ],
+      "catalogModels": 2,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "asylon-robotics-dronedog",
+        "asylon-robotics-guardian"
+      ]
+    },
+    {
       "brandId": "bitcraze",
       "name": "Bitcraze",
       "aliases": [],
@@ -4426,10 +4426,10 @@
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "asylon-robotics-dronedog",
         "asylon-robotics-guardian"
@@ -16635,24 +16635,55 @@
       "brandId": "asylon-robotics",
       "category": "quadruped",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 8,
       "highlightSources": [
         {
-          "name": "Asylon Robotics",
+          "name": "Asylon Robotics — DroneDog integrated Spot/PupPack security system",
           "type": "manufacturer",
           "url": "https://asylonrobotics.com/solutions/dronedog/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Asylon Robotics — human-operated Robotic Security Operations Center",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/robotic-security-operations-center/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Asylon Robotics — turnkey Robotics-as-a-Service and DroneIQ integrations",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 16,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 3,
+        "not-documented": 13,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Asylon Robotics — DroneDog integrated Spot/PupPack security system",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/dronedog/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Asylon Robotics — human-operated Robotic Security Operations Center",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/robotic-security-operations-center/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Asylon Robotics — turnkey Robotics-as-a-Service and DroneIQ integrations",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -16674,24 +16705,55 @@
       "brandId": "asylon-robotics",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 9,
       "highlightSources": [
         {
-          "name": "Asylon Robotics",
+          "name": "Asylon Robotics — Guardian aircraft,DroneHome swaps and numerical ratings",
           "type": "manufacturer",
           "url": "https://asylonrobotics.com/solutions/guardiandrone/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Asylon Robotics — human-operated Robotic Security Operations Center",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/robotic-security-operations-center/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Asylon Robotics — turnkey Robotics-as-a-Service and DroneIQ integrations",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 37,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 32,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Asylon Robotics — Guardian aircraft,DroneHome swaps and numerical ratings",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/guardiandrone/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Asylon Robotics — human-operated Robotic Security Operations Center",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/robotic-security-operations-center/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Asylon Robotics — turnkey Robotics-as-a-Service and DroneIQ integrations",
+          "type": "manufacturer",
+          "url": "https://asylonrobotics.com/solutions/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
