@@ -6643,14 +6643,23 @@
       "highlights": [
         "Uncrewed VTOL aircraft with an enclosed ducted fan",
         "Heavy-fuel engine and modular sensor payload interfaces support extended monitoring flights",
-        "Manufacturer specifies 12+ hours endurance with an EO/IR payload"
+        "Manufacturer specifies 12+ hours endurance with an EO/IR payload",
+        "The product table and linked specification sheet agree on 12-plus-hour endurance with EO/IR and a 40 lb maximum payload. HTML renders that payload as 18.1 kg while the PDF rounds to 18 kg; no separate empty aircraft mass is published in the inspected text.",
+        "The product page lists 130 km MPU5 and 180 km C-band radio ranges; the linked PDF separately lists mesh radio at 75 NM, phased array at 97 NM and a 648 NM one-way example with 20 lb payload plus SATCOM. These different communication and payload configurations are not one interchangeable range guarantee.",
+        "The PDF labels Hivemind, SATCOM and sensor packages as optional, with payload release dates varying. For the same nominal 15 ft square landing zone, HTML prints 4.6 × 4.6 m while the PDF prints 4.6 × 4.7 m; that metric discrepancy remains unresolved rather than becoming aircraft dimensions or minimum aisle width."
       ],
       "sources": [
         {
-          "name": "Shield AI",
+          "name": "Shield AI — V-BAT: Group 3 ISR Drone for Surveillance | Shield",
           "type": "manufacturer",
           "url": "https://shield.ai/v-bat/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — V-BAT public-share specification sheet 1.2.3",
+          "type": "manufacturer",
+          "url": "https://shieldai.canto.com/pdfviewer/viewer/viewer.html?share=share%2Calbum%2CT9H24&column=document&id=nvmvoius2h5etd06lls5n5764g&suffix=pdf&print=1",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -6664,14 +6673,35 @@
       "highlights": [
         "Autonomous VTOL aircraft program in development",
         "Manufacturer describes a dedicated launch and recovery vehicle",
-        "Announced development schedule targets first VTOL flights in 2026 and production in 2029"
+        "Announced development schedule targets first VTOL flights in 2026 and production in 2029",
+        "The manufacturer product page schedules first VTOL flight in 2026, mission capability by 2028 and production in 2029. The September 30 and October 8, 2026 announcements retain future flight-test and production language; the inspected October 29 interview discusses development progress without confirming a completed first flight.",
+        "The 39 ft wingspan is retained as a roadmap design target. The published range above 2,000 NM and ceiling above 50,000 ft remain development objectives, not a demonstrated flight duration, current operating approval or delivered performance guarantee.",
+        "A dedicated launch/recovery vehicle and Hivemind autonomy form part of the planned system. Programme investment and intended payload classes do not establish a retail aircraft price, all-up payload limit or current availability."
       ],
       "sources": [
         {
-          "name": "Shield AI",
+          "name": "Shield AI — X-BAT: Autonomous VTOL Fighter Jet | Shield",
           "type": "manufacturer",
           "url": "https://shield.ai/x-bat/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Shield AI and U.S. government investment in X-BAT reaches $400 million – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/shield-ai-and-u-s-government-investment-in-x-bat-reaches-400-million/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Shield AI names Kansas and Washington the flight test and production homes of X-BAT – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/shield-ai-names-kansas-and-washington-the-flight-test-and-production-homes-of-x-bat/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — X-BAT for Europe: A Conversation with Former RAF Typhoon Pilot Andrew “Geeky” Hawkes – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/x-bat-for-europe-a-conversation-with-former-raf-typhoon-pilot-andrew-geeky-hawkes/",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -33597,6 +33627,65 @@
       ],
       "discoveredIn": [
         "https://www.ubtrobot.com/en/commercial/products/cruzr-1s"
+      ]
+    },
+    {
+      "robotId": "shield-ai-nova-1",
+      "manufacturer": "Shield AI",
+      "model": "Nova 1",
+      "highlights": [
+        "The manufacturer explicitly names Nova 1 as the predecessor of Nova 2 and contrasts the earlier single-camera/2D-LiDAR approach with the later multi-camera system. Current Hivemind navigation also lists Nova 1 as a separate platform.",
+        "Nova-series indoor mapping and reconnaissance establish the physical quadcopter role. The series deployment reference to 2018 does not establish Nova 1’s first commercial release, current sale status or a numerical flight endurance."
+      ],
+      "sources": [
+        {
+          "name": "Shield AI — Autonomy for the World: Indoor Exploration with Nova 2 – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Hivemind: Autonomous Drone Software | Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/hivemind/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/"
+      ]
+    },
+    {
+      "robotId": "shield-ai-nova-2",
+      "manufacturer": "Shield AI",
+      "model": "Nova 2",
+      "highlights": [
+        "The manufacturer case study describes a Xavier AGX compute module, 15 cameras, infrared illumination for dark environments, 3D exploration and loop closure. These distinguish Nova 2 from the earlier Nova 1 sensing architecture.",
+        "Dense mapping is described at five-centimetre resolution, with floor-plan slices for operators. Map cell size is not calibrated vision precision, positioning error or guaranteed obstacle-clearance accuracy.",
+        "The December 30, 2022 company letter reports completion of operational testing and evaluation. That milestone does not establish the first commercial release year, present retail availability, airframe mass or battery endurance."
+      ],
+      "sources": [
+        {
+          "name": "Shield AI — Autonomy for the World: Indoor Exploration with Nova 2 – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Hivemind: Autonomous Drone Software | Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/hivemind/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — 2022 Letter from the CEO – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/2022-letter-from-the-ceo/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/"
       ]
     }
   ]

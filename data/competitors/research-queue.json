@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T23:16:23.026Z",
+  "generatedAt": "2026-11-02T23:24:33.313Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 455,
-    "withoutSelectedFieldReview": 63,
-    "selectedFields": 8328,
+    "withSelectedFieldReview": 457,
+    "withoutSelectedFieldReview": 61,
+    "selectedFields": 8370,
     "selectedFieldStatuses": {
-      "documented": 3329,
-      "not-documented": 4808,
+      "documented": 3338,
+      "not-documented": 4839,
       "conflicting": 175,
-      "roadmap": 16
+      "roadmap": 18
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 115,
+    "sourceGroupsWithCompanyAuthoredFocus": 116,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -303,26 +303,6 @@
       "robotIds": [
         "qihan-technology-sanbot-elf",
         "qihan-technology-sanbot-nano"
-      ]
-    },
-    {
-      "brandId": "shield-ai",
-      "name": "Shield AI",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/shield-ai"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "shield-ai-v-bat",
-        "shield-ai-x-bat"
       ]
     },
     {
@@ -3556,6 +3536,26 @@
       "robotIds": [
         "running-brains-robotics-gr100",
         "running-brains-robotics-gr200"
+      ]
+    },
+    {
+      "brandId": "shield-ai",
+      "name": "Shield AI",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/shield-ai"
+      ],
+      "catalogModels": 4,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "shield-ai-v-bat",
+        "shield-ai-x-bat"
       ]
     },
     {
@@ -12718,14 +12718,14 @@
       "sourceUrls": [
         "https://buyandrentrobots.com/companies/shield-ai"
       ],
-      "catalogModels": 2,
+      "catalogModels": 4,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "shield-ai-v-bat",
         "shield-ai-x-bat"
@@ -44284,24 +44284,43 @@
       "brandId": "shield-ai",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 6,
       "highlightSources": [
         {
-          "name": "Shield AI",
+          "name": "Shield AI — V-BAT: Group 3 ISR Drone for Surveillance | Shield",
           "type": "manufacturer",
           "url": "https://shield.ai/v-bat/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — V-BAT public-share specification sheet 1.2.3",
+          "type": "manufacturer",
+          "url": "https://shieldai.canto.com/pdfviewer/viewer/viewer.html?share=share%2Calbum%2CT9H24&column=document&id=nvmvoius2h5etd06lls5n5764g&suffix=pdf&print=1",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 21,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 7,
+        "not-documented": 14,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Shield AI — V-BAT: Group 3 ISR Drone for Surveillance | Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/v-bat/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — V-BAT public-share specification sheet 1.2.3",
+          "type": "manufacturer",
+          "url": "https://shieldai.canto.com/pdfviewer/viewer/viewer.html?share=share%2Calbum%2CT9H24&column=document&id=nvmvoius2h5etd06lls5n5764g&suffix=pdf&print=1",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -44323,24 +44342,67 @@
       "brandId": "shield-ai",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 6,
       "highlightSources": [
         {
-          "name": "Shield AI",
+          "name": "Shield AI — X-BAT: Autonomous VTOL Fighter Jet | Shield",
           "type": "manufacturer",
           "url": "https://shield.ai/x-bat/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Shield AI and U.S. government investment in X-BAT reaches $400 million – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/shield-ai-and-u-s-government-investment-in-x-bat-reaches-400-million/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Shield AI names Kansas and Washington the flight test and production homes of X-BAT – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/shield-ai-names-kansas-and-washington-the-flight-test-and-production-homes-of-x-bat/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — X-BAT for Europe: A Conversation with Former RAF Typhoon Pilot Andrew “Geeky” Hawkes – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/x-bat-for-europe-a-conversation-with-former-raf-typhoon-pilot-andrew-geeky-hawkes/",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 21,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 2,
+        "not-documented": 17,
         "conflicting": 0,
-        "roadmap": 0
+        "roadmap": 2
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Shield AI — X-BAT: Autonomous VTOL Fighter Jet | Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/x-bat/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Shield AI and U.S. government investment in X-BAT reaches $400 million – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/shield-ai-and-u-s-government-investment-in-x-bat-reaches-400-million/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Shield AI names Kansas and Washington the flight test and production homes of X-BAT – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/shield-ai-names-kansas-and-washington-the-flight-test-and-production-homes-of-x-bat/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — X-BAT for Europe: A Conversation with Former RAF Typhoon Pilot Andrew “Geeky” Hawkes – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/x-bat-for-europe-a-conversation-with-former-raf-typhoon-pilot-andrew-geeky-hawkes/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

@@ -130682,6 +130682,532 @@
           "note": "No minimum traversable aisle width established; indoor use does not supply a clearance rating."
         }
       }
+    },
+    {
+      "robotId": "shield-ai-v-bat",
+      "manufacturer": "Shield AI",
+      "model": "V-BAT",
+      "sources": [
+        {
+          "name": "Shield AI — V-BAT: Group 3 ISR Drone for Surveillance | Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/v-bat/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — V-BAT public-share specification sheet 1.2.3",
+          "type": "manufacturer",
+          "url": "https://shieldai.canto.com/pdfviewer/viewer/viewer.html?share=share%2Calbum%2CT9H24&column=document&id=nvmvoius2h5etd06lls5n5764g&suffix=pdf&print=1",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-126/source-2.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical per-aircraft price established. Program funding, contract totals and prototype status are not purchase or rental prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty or ready-to-fly aircraft mass established; maximum gross takeoff weight is a different quantity."
+        },
+        "size": {
+          "value": "3.8 m wingspan; 2.9 m height",
+          "status": "documented",
+          "note": "Wingspan3.8m and height2.9m in both product HTML and linked PDF. Landing-zone dimensional discrepancy is separate and retained in highlights."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery operating duration established. Fuel-powered endurance and publication dates are not battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate generic maximum runtime selected; aircraft endurance belongs in the flightTime field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete robot joint/actuated DOF count established; a quadcopter rotor count is not robot joint DOF."
+        },
+        "payload": {
+          "value": "40 lb maximum; HTML 18.1 kg, PDF rounded to 18 kg",
+          "status": "documented",
+          "note": "Both sources give40 lb;18.1kg HTML versus18kg PDF treated as stated metric rounding, not different maximum payload configurations. Maximum endurance is not established at maximum payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft airspeed established. Wind limits, moving-vessel speed, processing frequencies and advertised range do not establish aircraft cruise/maximum speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Application environments and VTOL positioning do not establish ground slope, traversable terrain or universal flight permissions."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific formal ingress-protection code established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical user age recommendation established; commercial/research positioning is not an age range."
+        },
+        "website": {
+          "value": "https://shield.ai/v-bat/",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "description": {
+          "value": "Heavy-fuel VTOL aircraft with an enclosed ducted fan and modular sensor options. Manufacturer text specifies 12-plus-hour endurance with EO/IR payload, 75 kg maximum gross takeoff mass and a 40 lb payload limit under configuration-dependent conditions. SATCOM, Hivemind and sensing packages remain optional integrations; maximum payload and endurance are not asserted simultaneously.",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit first commercial release year established for this model. Company founding, programme reveal, operational evaluation and future production milestones remain separate."
+        },
+        "flightTime": {
+          "value": "12+ hours with EO/IR payload; configuration and mission dependent",
+          "status": "documented",
+          "note": "Manufacturer table and PDF specify12+hours withEO/IR. Retained as fuel-powered flight endurance, qualified by environmental factors, configuration and mission profile."
+        },
+        "maxTakeoffWeight": {
+          "value": "75 kg maximum gross takeoff weight",
+          "status": "documented",
+          "note": "Product HTML maximum gross takeoff mass75kg/165lb; not empty mass or payload."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-aircraft charging time established in inspected manufacturer evidence."
+        },
+        "driveMode": {
+          "value": "Heavy-fuel JP5 engine; autonomous ducted-fan VTOL",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical navigation-error rating established. Nova2 five-centimetre voxel/map resolution is not position accuracy."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No calibrated vision accuracy established. Map resolution, camera inventory, sensor modes and data-processing rates are different quantities."
+        }
+      }
+    },
+    {
+      "robotId": "shield-ai-x-bat",
+      "manufacturer": "Shield AI",
+      "model": "X-BAT",
+      "sources": [
+        {
+          "name": "Shield AI — X-BAT: Autonomous VTOL Fighter Jet | Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/x-bat/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Shield AI and U.S. government investment in X-BAT reaches $400 million – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/shield-ai-and-u-s-government-investment-in-x-bat-reaches-400-million/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Shield AI names Kansas and Washington the flight test and production homes of X-BAT – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/shield-ai-names-kansas-and-washington-the-flight-test-and-production-homes-of-x-bat/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — X-BAT for Europe: A Conversation with Former RAF Typhoon Pilot Andrew “Geeky” Hawkes – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/x-bat-for-europe-a-conversation-with-former-raf-typhoon-pilot-andrew-geeky-hawkes/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-126/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical per-aircraft price established. Program funding, contract totals and prototype status are not purchase or rental prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty or ready-to-fly aircraft mass established; maximum gross takeoff weight is a different quantity."
+        },
+        "size": {
+          "value": "Design target: 39 ft wingspan; development programme",
+          "status": "roadmap",
+          "note": "Design-stage39ft wingspan from product page; roadmap status because the same page and dated2026 announcements describe future flight testing. Fuselage/storage labels are not converted into complete height or flight-tested dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery operating duration established. Fuel-powered endurance and publication dates are not battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate generic maximum runtime selected; aircraft endurance belongs in the flightTime field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete robot joint/actuated DOF count established; a quadcopter rotor count is not robot joint DOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified complete-aircraft payload selected. Weapons class, engine thrust, optional sensor inventory and current integration examples are not an all-up payload rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft airspeed established. Wind limits, moving-vessel speed, processing frequencies and advertised range do not establish aircraft cruise/maximum speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Application environments and VTOL positioning do not establish ground slope, traversable terrain or universal flight permissions."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific formal ingress-protection code established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical user age recommendation established; commercial/research positioning is not an age range."
+        },
+        "website": {
+          "value": "https://shield.ai/x-bat/",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "description": {
+          "value": "Autonomous VTOL aircraft programme in development, with a dedicated launch and recovery vehicle. The product page schedules initial VTOL flights in 2026, mission capability in 2028 and production in 2029; an October 8, 2026 announcement still describes flight testing as upcoming. Published dimensions and performance figures remain design objectives rather than verified operational specifications.",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "2025 design reveal,2026 planned first flight,2028 mission capability and2029 planned production are not an established first commercial release year."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-aircraft charging time established in inspected manufacturer evidence."
+        },
+        "driveMode": {
+          "value": "Planned autonomous VTOL using Hivemind and launch/recovery vehicle",
+          "status": "roadmap",
+          "note": "Planned system capability on a development aircraft. Software flown on other aircraft does not prove X-BAT flight completion."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical navigation-error rating established. Nova2 five-centimetre voxel/map resolution is not position accuracy."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No calibrated vision accuracy established. Map resolution, camera inventory, sensor modes and data-processing rates are different quantities."
+        }
+      }
+    },
+    {
+      "robotId": "shield-ai-nova-1",
+      "manufacturer": "Shield AI",
+      "model": "Nova 1",
+      "sources": [
+        {
+          "name": "Shield AI — Autonomy for the World: Indoor Exploration with Nova 2 – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Hivemind: Autonomous Drone Software | Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/hivemind/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-126/source-11.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical per-aircraft price established. Program funding, contract totals and prototype status are not purchase or rental prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty or ready-to-fly aircraft mass established; maximum gross takeoff weight is a different quantity."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery operating duration established. Fuel-powered endurance and publication dates are not battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate generic maximum runtime selected; aircraft endurance belongs in the flightTime field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete robot joint/actuated DOF count established; a quadcopter rotor count is not robot joint DOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified complete-aircraft payload selected. Weapons class, engine thrust, optional sensor inventory and current integration examples are not an all-up payload rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft airspeed established. Wind limits, moving-vessel speed, processing frequencies and advertised range do not establish aircraft cruise/maximum speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Application environments and VTOL positioning do not establish ground slope, traversable terrain or universal flight permissions."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific formal ingress-protection code established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical user age recommendation established; commercial/research positioning is not an age range."
+        },
+        "website": {
+          "value": "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "description": {
+          "value": "Earlier Nova-series autonomous quadcopter for indoor exploration and mapping in environments without GNSS. Shield AI’s Nova 2 case study explicitly identifies Nova 1 as the predecessor and describes its single-camera/2D-LiDAR sensing approach. Later Nova 2 camera and mapping capabilities are not assigned to this earlier platform.",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit first commercial release year established for this model. Company founding, programme reveal, operational evaluation and future production milestones remain separate."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-aircraft charging time established in inspected manufacturer evidence."
+        },
+        "driveMode": {
+          "value": "Autonomous quadcopter; Hivemind indoor exploration",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical navigation-error rating established. Nova2 five-centimetre voxel/map resolution is not position accuracy."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No calibrated vision accuracy established. Map resolution, camera inventory, sensor modes and data-processing rates are different quantities."
+        }
+      }
+    },
+    {
+      "robotId": "shield-ai-nova-2",
+      "manufacturer": "Shield AI",
+      "model": "Nova 2",
+      "sources": [
+        {
+          "name": "Shield AI — Autonomy for the World: Indoor Exploration with Nova 2 – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — Hivemind: Autonomous Drone Software | Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/hivemind/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Shield AI — 2022 Letter from the CEO – Shield",
+          "type": "manufacturer",
+          "url": "https://shield.ai/2022-letter-from-the-ceo/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-126/source-11.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical per-aircraft price established. Program funding, contract totals and prototype status are not purchase or rental prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No empty or ready-to-fly aircraft mass established; maximum gross takeoff weight is a different quantity."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery operating duration established. Fuel-powered endurance and publication dates are not battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate generic maximum runtime selected; aircraft endurance belongs in the flightTime field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete robot joint/actuated DOF count established; a quadcopter rotor count is not robot joint DOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified complete-aircraft payload selected. Weapons class, engine thrust, optional sensor inventory and current integration examples are not an all-up payload rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft airspeed established. Wind limits, moving-vessel speed, processing frequencies and advertised range do not establish aircraft cruise/maximum speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Application environments and VTOL positioning do not establish ground slope, traversable terrain or universal flight permissions."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific formal ingress-protection code established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical user age recommendation established; commercial/research positioning is not an age range."
+        },
+        "website": {
+          "value": "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "description": {
+          "value": "Nova-series autonomous quadcopter using an NVIDIA Xavier AGX module and a manufacturer-described array of 15 cameras for indoor exploration and mapping. Infrared illumination supports navigation in darkness, while next-view planning and loop closure support 3D reconstruction. The stated five-centimetre map resolution is separate from navigation or vision accuracy.",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit first commercial release year established for this model. Company founding, programme reveal, operational evaluation and future production milestones remain separate."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-model complete-aircraft rating established in the inspected manufacturer text. Integration examples, design objectives and unrelated platforms do not establish a selected specification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-aircraft charging time established in inspected manufacturer evidence."
+        },
+        "driveMode": {
+          "value": "Autonomous quadcopter; Hivemind 3D indoor exploration",
+          "status": "documented",
+          "note": "Named-model specification or attributed product description in inspected manufacturer text; configuration and development status remain explicit, without independent performance or current availability certification."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical navigation-error rating established. Nova2 five-centimetre voxel/map resolution is not position accuracy."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No calibrated vision accuracy established. Map resolution, camera inventory, sensor modes and data-processing rates are different quantities."
+        }
+      }
     }
   ]
 }
