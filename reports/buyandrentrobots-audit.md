@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,230 catalog rows**, with 644 exact
-manufacturer spellings. Batch 121 refreshed the separate heuristic gap file offline
-against all 2,230 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,233 catalog rows**, with 644 exact
+manufacturer spellings. Batch 122 refreshed the separate heuristic gap file offline
+against all 2,233 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1145 dated records across the catalog, including
-169 existing-model enrichments and 976 task additions. All 430 catalog models
+Current product-highlight coverage: 1149 dated records across the catalog, including
+170 existing-model enrichments and 979 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 976 task additions, totaling 2,230.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 979 task additions, totaling 2,233.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 444 have selected-field reviews and 74 await those reviews. Family and
+highlights; 448 have selected-field reviews and 70 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 19,591 fields across 1052 catalog models: 7,400 documented,
-11,821 not documented, 276 conflicting and ninety-four roadmap fields. They do not certify whole
+Selected specification checks cover 19,727 fields across 1060 catalog models: 7,430 documented,
+11,925 not documented, 278 conflicting and ninety-four roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -7956,3 +7956,28 @@ Datencommit `fdabc6b0dfc3c374a253cee04e145e6c78432377` wurde auf `codex/competit
 gepusht und remote geprüft. `main` bleibt bei
 `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; es wurde nicht deployt.
 Dauerhafter Prüfbericht: `reports/competitor-batch-121-evidence.json`.
+
+## Ergänzung vom 2. November 2026 – Bildungsrobotik: Modular Robotics und Wonder Workshop (Batch 122)
+
+Acht ausgewählte Einträge wurden anhand öffentlicher Hersteller-/Entwicklerquellen geprüft: Cubelets, GiggleBot, die generische GoPiGo-Familie, GoPiGo2, GoPiGo3, Dash, Dot und Cue. GoPiGo2, GoPiGo3 und Cue sind drei Ergänzungen; fünf vorhandene CSV-Zeilen wurden überarbeitet. Die Auswahl belegt keine vollständigen historischen Herstellerportfolios.
+
+136 Datenfelder: 30 dokumentiert, 104 nicht dokumentiert und zwei widersprüchlich. Vier neue Merkmalsdatensätze und vier Erweiterungen ergeben 29 zusätzliche Aussagen und 20 zusätzliche Quellenreferenzen. Ein neuer Modular-Robotics-Firmenfokus und eine Erweiterung des bestehenden Wonder-Workshop-Fokus bewahren die alten Quellen und Merkmalspräfixe. Der Katalog umfasst damit 2.233 Einträge, 1.149 Merkmalsdatensätze mit 5.210 Aussagen/2.344 Quellenreferenzen sowie 1.060 Feldprüfungen mit 19.727 Feldern.
+
+- Cubelets bleibt eine modulare Bauplattform. Sense-/Action-/Think-Blöcke und Console mit Blockly/C sind belegt; Masse, Abmessungen, Mobilität und Laufzeit hängen von der Konstruktion ab. Discovery/Curiosity/Boundless- und Educator-Sets sind Pakete, einzelne Cubelets und Hats Komponenten. Der 225-USD-Discovery-Set-Preis ist kein allgemeiner Plattformpreis; Moduljahre sind keine Familien-Erscheinungsjahre.
+- GoPiGo2 und GoPiGo3 erhalten getrennte Zuordnungen: 65-mm-Räder/optische Encoder/18 Impulse gegenüber 66,5-mm-Rädern/magnetischen Encodern/720 Impulsen pro Radumdrehung bei 120:1-Untersetzung. Diese Werte sind keine Abmessungen des gesamten Roboters, lineare Fahrgeschwindigkeit oder Lokalisierungsgenauigkeit. Stromaufnahme mit Raspberry Pi B+ ist keine Akkulaufzeit.
+- Das generische aktuelle GoPiGo-Paket für 199 USD enthält unter anderem Akku/Ladegerät, Sensor und Servo-Paket, jedoch keinen Raspberry Pi. Die historische 99-USD-GoPiGo3-Basis enthält einen Batteriehalter, aber weder Pi noch microSD oder acht AA-Batterien. Base/Starter sind Pakete; GoBox/PyBox/GiggleBox Lernangebote. GoPiGo Core wird im Aktualisierungshinweis genannt, seine eigenständige Hardwareidentität gegenüber der generischen Familie bleibt offen. GoPiGo1 ist als ältere Generation erwähnt und benötigt eine eigene Prüfung. BrickPi ist zunächst als Controllerrolle abgegrenzt.
+- Die generische Kitseite schließt Pi 5 aus, während die offizielle GoPiGo3-README unter Raspberry Pi OS Pi 5 mit Energie-/Tasterhinweisen unterstützt. Betriebssystem und Generation bleiben Teil der Kompatibilitätsaussage; es entsteht keine pauschale Freigabe für sämtliche Pakete.
+- GiggleBot: zwei Linien-/zwei Lichtsensoren, MakeCode-Motorsteuerung und zwei Servoanschlüsse sind aus dem offiziellen Entwicklerrepository belegt. Fünf Software-Geschwindigkeitsstufen sind kein m/s-Wert. Der Laserdistanzsensor ist optional. Die gespeicherte 60-USD-Basiskit-Angabe ohne micro:bit behält das Prüfdatum 1. November 2026. Die frische Anfrage scheiterte an TLS, der Dokumentationshost an der Verbindung; keine Zertifikatsprüfung umgangen, keine fehlgeschlagene Antwort als neuer Angebotsbeleg verwendet.
+- Dash: ungefähr fünf Stunden aktives Spielen, drei Mikrofone, drei IR-Abstandssensoren, programmierbare Tasten, beweglicher Kopf und kamerafreies Design sind belegt. Die 300 Minuten sind lediglich die Umrechnung der ungefähr fünf Stunden. Installierte Mobil-Apps können den physischen Roboter offline programmieren; Downloads und Blockly im Browser haben eigene Internetanforderungen.
+- Dash-Ladezeit bleibt leer/widersprüchlich: FAQ/Support „unter einer Stunde“ gegenüber dem Klassenzimmerleitfaden „etwa 60–90 Minuten“. Altersgruppe bleibt ebenfalls leer/widersprüchlich: FAQ 5–14 gegenüber Shop 6–11. Nicht belegte alte Masse, Größenklasse, eingeschlossene Hand und Erscheinungsjahr wurden entfernt. Der offizielle Shop führt zu MORAVIA Education und zeigt 189,99 USD; Vorlagenwörter zu Sale/Sold out sind kein gesicherter Lagerstatus. Der Herstellername bleibt für die Katalogkontinuität Wonder Workshop.
+- Physischer Dot endete laut Hersteller im Frühjahr 2023; virtueller Dot in Blockly ist eine Softwarefigur im Make-Wonder-Abonnement. Cue ist als historische Produktion 2018–2022 und nicht mehr produziert beschrieben; App-Unterstützung und Übergang von Blöcken zu Zustandsmaschinen-/Textprogrammierung sind getrennte Aussagen. Beide erhalten die historische Ladezeit unter einer Stunde aus dem Supportartikel vom 27. Juni 2022. Dash-Laufzeit und Sensorwerte werden nicht vererbt. Sketch Kit, Gripper und Blaster bleiben optionale Zubehörrollen; Zubehörpreise sind keine Roboterpreise. Produktionszeiträume belegen keine exakten ersten Verkaufstage.
+
+24 erfolgreiche öffentliche HTTP-200-Antworten wurden gespeichert und gehasht. Zusätzlich bleiben die beiden fehlgeschlagenen GiggleBot-Anfragen dokumentiert und ausgeschlossen. Geprüft wurden extrahierte HTML-Texte sowie nativer PDF-Text und Textblockkoordinaten des Dash-Leitfadens. Keine visuelle PDF-/Bildprüfung oder OCR; bildgebundene Spielzeitangaben auf der Supportseite wurden nicht übernommen. Keine Formulare, Käufe oder Kontakte.
+
+808 Unit-Tests in 64 Dateien, 20 Browserfälle auf Desktop/Mobil einschließlich vier Axe-Prüfungen, Build mit 3283 Seiten und Datenaudit ohne Fehler bestanden. 1115 Warnungen: sechs zusätzliche Hinweise ausschließlich zu nicht belegten Erscheinungsjahren der drei Ergänzungen und der bestehenden Cubelets-/Dash-/Dot-Zeilen. Acht Produktseiten/136 Felder, 14 Quellenbadges, 106 ausgelassene Leerfelder, 9 strukturierte Eigenschaften und 40 Merkmalsaussagen geprüft. Modell-Export: 4 Zeilen/4 Ziele/68 Feldvorkommen; ursprüngliche Queue: vier Ziele/68 Felder. Beide Firmenfokus-Seiten, vorhandene Firmenexport-Zuordnungen, Suche, Vergleich und vollständiger JSON-Belegexport geprüft. Reimport ohne Ergänzungen; geänderte Testdatei lint-/formatgeprüft. Eigene Testprozesse einschließlich Browser und Vorschau beendet; Ressourcen anderer Aufgaben erhalten.
+
+Die erste Unit-Prüfung bestand 807/808 Fälle und fand die fehlenden kanonischen Unterkategorie-Tags der neuen GoPiGo2-Zeile. Alle drei Ergänzungen wurden passend zur belegten Programmierfunktion mit `educational;programmable` eingeordnet; anschließend bestand die gesamte Suite. Der zwischenzeitliche Build mit den alten Tags wurde ausschließlich über seine selbst gestartete Prozessgruppe beendet und vollständig neu erstellt. Die Anwendung und die Filterlogik blieben unverändert.
+
+Von den ursprünglichen 518 Recherche-Zielen haben jetzt 448 ausgewählte Feldprüfungen, 70 warten darauf. Drei Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Volle historische Portfolios, aktuelle weltweite Lieferbarkeit, unabhängige Leistung, exklusive USPs und Platz 1 im Markt oder in Suchmaschinen sind weiterhin nicht bewiesen. Die offenen externen YouTube-/Axe-Befunde aus Batch 106 bleiben bestehen.
+
+Daten-Zwischencommit: `5f713633bede711db57b752ffade49a297b2c2ba`, auf `codex/competitor-directory-expansion` gepusht. `main` unverändert; keine Bereitstellung. Dauerhafter Prüfbericht: `reports/competitor-batch-122-evidence.json`.

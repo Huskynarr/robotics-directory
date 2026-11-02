@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.230 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 976 |
-| Datierte Produktmerkmal-Datensätze einschließlich 169 bestehender Modelle | 1145 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.233 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 979 |
+| Datierte Produktmerkmal-Datensätze einschließlich 170 bestehender Modelle | 1149 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 114 |
+| Firmenfokus-Prüfungen mit Quellen | 115 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 976 ergänzte Modelle ergeben 2.230 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 979 ergänzte Modelle ergeben 2.233 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-114 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+115 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1145 Datensätze
+Modellseiten verlinken Markenprofile. Die 1149 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 444 haben ausgewählte Datenfeldprüfungen und 74
+haben datierte Merkmalsbelege; 448 haben ausgewählte Datenfeldprüfungen und 70
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -10191,3 +10191,28 @@ Datencommit `fdabc6b0dfc3c374a253cee04e145e6c78432377` wurde auf `codex/competit
 gepusht und remote geprüft. `main` bleibt bei
 `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; es wurde nicht deployt.
 Dauerhafter Prüfbericht: `reports/competitor-batch-121-evidence.json`.
+
+## Ergänzung vom 2. November 2026 – Bildungsrobotik: Modular Robotics und Wonder Workshop (Batch 122)
+
+Acht ausgewählte Einträge wurden anhand öffentlicher Hersteller-/Entwicklerquellen geprüft: Cubelets, GiggleBot, die generische GoPiGo-Familie, GoPiGo2, GoPiGo3, Dash, Dot und Cue. GoPiGo2, GoPiGo3 und Cue sind drei Ergänzungen; fünf vorhandene CSV-Zeilen wurden überarbeitet. Die Auswahl belegt keine vollständigen historischen Herstellerportfolios.
+
+136 Datenfelder: 30 dokumentiert, 104 nicht dokumentiert und zwei widersprüchlich. Vier neue Merkmalsdatensätze und vier Erweiterungen ergeben 29 zusätzliche Aussagen und 20 zusätzliche Quellenreferenzen. Ein neuer Modular-Robotics-Firmenfokus und eine Erweiterung des bestehenden Wonder-Workshop-Fokus bewahren die alten Quellen und Merkmalspräfixe. Der Katalog umfasst damit 2.233 Einträge, 1.149 Merkmalsdatensätze mit 5.210 Aussagen/2.344 Quellenreferenzen sowie 1.060 Feldprüfungen mit 19.727 Feldern.
+
+- Cubelets bleibt eine modulare Bauplattform. Sense-/Action-/Think-Blöcke und Console mit Blockly/C sind belegt; Masse, Abmessungen, Mobilität und Laufzeit hängen von der Konstruktion ab. Discovery/Curiosity/Boundless- und Educator-Sets sind Pakete, einzelne Cubelets und Hats Komponenten. Der 225-USD-Discovery-Set-Preis ist kein allgemeiner Plattformpreis; Moduljahre sind keine Familien-Erscheinungsjahre.
+- GoPiGo2 und GoPiGo3 erhalten getrennte Zuordnungen: 65-mm-Räder/optische Encoder/18 Impulse gegenüber 66,5-mm-Rädern/magnetischen Encodern/720 Impulsen pro Radumdrehung bei 120:1-Untersetzung. Diese Werte sind keine Abmessungen des gesamten Roboters, lineare Fahrgeschwindigkeit oder Lokalisierungsgenauigkeit. Stromaufnahme mit Raspberry Pi B+ ist keine Akkulaufzeit.
+- Das generische aktuelle GoPiGo-Paket für 199 USD enthält unter anderem Akku/Ladegerät, Sensor und Servo-Paket, jedoch keinen Raspberry Pi. Die historische 99-USD-GoPiGo3-Basis enthält einen Batteriehalter, aber weder Pi noch microSD oder acht AA-Batterien. Base/Starter sind Pakete; GoBox/PyBox/GiggleBox Lernangebote. GoPiGo Core wird im Aktualisierungshinweis genannt, seine eigenständige Hardwareidentität gegenüber der generischen Familie bleibt offen. GoPiGo1 ist als ältere Generation erwähnt und benötigt eine eigene Prüfung. BrickPi ist zunächst als Controllerrolle abgegrenzt.
+- Die generische Kitseite schließt Pi 5 aus, während die offizielle GoPiGo3-README unter Raspberry Pi OS Pi 5 mit Energie-/Tasterhinweisen unterstützt. Betriebssystem und Generation bleiben Teil der Kompatibilitätsaussage; es entsteht keine pauschale Freigabe für sämtliche Pakete.
+- GiggleBot: zwei Linien-/zwei Lichtsensoren, MakeCode-Motorsteuerung und zwei Servoanschlüsse sind aus dem offiziellen Entwicklerrepository belegt. Fünf Software-Geschwindigkeitsstufen sind kein m/s-Wert. Der Laserdistanzsensor ist optional. Die gespeicherte 60-USD-Basiskit-Angabe ohne micro:bit behält das Prüfdatum 1. November 2026. Die frische Anfrage scheiterte an TLS, der Dokumentationshost an der Verbindung; keine Zertifikatsprüfung umgangen, keine fehlgeschlagene Antwort als neuer Angebotsbeleg verwendet.
+- Dash: ungefähr fünf Stunden aktives Spielen, drei Mikrofone, drei IR-Abstandssensoren, programmierbare Tasten, beweglicher Kopf und kamerafreies Design sind belegt. Die 300 Minuten sind lediglich die Umrechnung der ungefähr fünf Stunden. Installierte Mobil-Apps können den physischen Roboter offline programmieren; Downloads und Blockly im Browser haben eigene Internetanforderungen.
+- Dash-Ladezeit bleibt leer/widersprüchlich: FAQ/Support „unter einer Stunde“ gegenüber dem Klassenzimmerleitfaden „etwa 60–90 Minuten“. Altersgruppe bleibt ebenfalls leer/widersprüchlich: FAQ 5–14 gegenüber Shop 6–11. Nicht belegte alte Masse, Größenklasse, eingeschlossene Hand und Erscheinungsjahr wurden entfernt. Der offizielle Shop führt zu MORAVIA Education und zeigt 189,99 USD; Vorlagenwörter zu Sale/Sold out sind kein gesicherter Lagerstatus. Der Herstellername bleibt für die Katalogkontinuität Wonder Workshop.
+- Physischer Dot endete laut Hersteller im Frühjahr 2023; virtueller Dot in Blockly ist eine Softwarefigur im Make-Wonder-Abonnement. Cue ist als historische Produktion 2018–2022 und nicht mehr produziert beschrieben; App-Unterstützung und Übergang von Blöcken zu Zustandsmaschinen-/Textprogrammierung sind getrennte Aussagen. Beide erhalten die historische Ladezeit unter einer Stunde aus dem Supportartikel vom 27. Juni 2022. Dash-Laufzeit und Sensorwerte werden nicht vererbt. Sketch Kit, Gripper und Blaster bleiben optionale Zubehörrollen; Zubehörpreise sind keine Roboterpreise. Produktionszeiträume belegen keine exakten ersten Verkaufstage.
+
+24 erfolgreiche öffentliche HTTP-200-Antworten wurden gespeichert und gehasht. Zusätzlich bleiben die beiden fehlgeschlagenen GiggleBot-Anfragen dokumentiert und ausgeschlossen. Geprüft wurden extrahierte HTML-Texte sowie nativer PDF-Text und Textblockkoordinaten des Dash-Leitfadens. Keine visuelle PDF-/Bildprüfung oder OCR; bildgebundene Spielzeitangaben auf der Supportseite wurden nicht übernommen. Keine Formulare, Käufe oder Kontakte.
+
+808 Unit-Tests in 64 Dateien, 20 Browserfälle auf Desktop/Mobil einschließlich vier Axe-Prüfungen, Build mit 3283 Seiten und Datenaudit ohne Fehler bestanden. 1115 Warnungen: sechs zusätzliche Hinweise ausschließlich zu nicht belegten Erscheinungsjahren der drei Ergänzungen und der bestehenden Cubelets-/Dash-/Dot-Zeilen. Acht Produktseiten/136 Felder, 14 Quellenbadges, 106 ausgelassene Leerfelder, 9 strukturierte Eigenschaften und 40 Merkmalsaussagen geprüft. Modell-Export: 4 Zeilen/4 Ziele/68 Feldvorkommen; ursprüngliche Queue: vier Ziele/68 Felder. Beide Firmenfokus-Seiten, vorhandene Firmenexport-Zuordnungen, Suche, Vergleich und vollständiger JSON-Belegexport geprüft. Reimport ohne Ergänzungen; geänderte Testdatei lint-/formatgeprüft. Eigene Testprozesse einschließlich Browser und Vorschau beendet; Ressourcen anderer Aufgaben erhalten.
+
+Die erste Unit-Prüfung bestand 807/808 Fälle und fand die fehlenden kanonischen Unterkategorie-Tags der neuen GoPiGo2-Zeile. Alle drei Ergänzungen wurden passend zur belegten Programmierfunktion mit `educational;programmable` eingeordnet; anschließend bestand die gesamte Suite. Der zwischenzeitliche Build mit den alten Tags wurde ausschließlich über seine selbst gestartete Prozessgruppe beendet und vollständig neu erstellt. Die Anwendung und die Filterlogik blieben unverändert.
+
+Von den ursprünglichen 518 Recherche-Zielen haben jetzt 448 ausgewählte Feldprüfungen, 70 warten darauf. Drei Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Volle historische Portfolios, aktuelle weltweite Lieferbarkeit, unabhängige Leistung, exklusive USPs und Platz 1 im Markt oder in Suchmaschinen sind weiterhin nicht bewiesen. Die offenen externen YouTube-/Axe-Befunde aus Batch 106 bleiben bestehen.
+
+Daten-Zwischencommit: `5f713633bede711db57b752ffade49a297b2c2ba`, auf `codex/competitor-directory-expansion` gepusht. `main` unverändert; keine Bereitstellung. Dauerhafter Prüfbericht: `reports/competitor-batch-122-evidence.json`.
