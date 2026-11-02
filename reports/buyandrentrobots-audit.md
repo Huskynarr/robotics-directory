@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,272 catalog rows**, with 644 exact
-manufacturer spellings. Batch 126 refreshed the separate heuristic gap file offline
-against all 2,272 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,279 catalog rows**, with 644 exact
+manufacturer spellings. Batch 127 refreshed the separate heuristic gap file offline
+against all 2,279 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1198 dated records across the catalog, including
-180 existing-model enrichments and 1018 task additions. All 430 catalog models
+Current product-highlight coverage: 1207 dated records across the catalog, including
+182 existing-model enrichments and 1025 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1018 task additions, totaling 2,272.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1025 task additions, totaling 2,279.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 457 have selected-field reviews and 61 await those reviews. Family and
+highlights; 459 have selected-field reviews and 59 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 21,257 fields across 1118 catalog models: 7,831 documented,
-13,040 not documented, 288 conflicting and ninety-eight roadmap fields. They do not certify whole
+Selected specification checks cover 21,465 fields across 1129 catalog models: 7,906 documented,
+13,173 not documented, 288 conflicting and ninety-eight roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -8149,6 +8149,93 @@ Testserver und Recherchehelfer sind beendet; fremde Ressourcen erhalten.
 Die externen YouTube-/Axe-Befunde aus Batch106 bleiben außerhalb dieser Prüfung offen.
 
 Daten-Zwischencommit `fdf6296ad042f0b2019afb69eb30b79837948721` ist auf `codex/competitor-directory-expansion` gepusht und
+remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
+Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
+unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 127 – ANYbotics-Generationen und Booster-Ausstattungen (3. November 2026)
+
+Sieben neue Modelle/Konfigurationen: ANYmal B und C, K1 Geek Edition, Education und
+Professional sowie Booster T2 Education und Professional. Sechs bestehende Einträge
+sind überarbeitet: ANYmal, ANYmal D, ANYmal X, K1, Booster T1 und Booster T2.
+13 ausgewählte Produkte umfassen 216 Felder: 81 dokumentiert und 135 unbekannt.
+Elf neue Feldprüfungen und zwei Erweiterungen ersetzen acht vorherige Feldprüfungen;
+der Nettozuwachs beträgt 208 Felder. Neun neue Merkmalsdatensätze, vier erweiterte
+Merkmalsdatensätze, 29 zusätzliche Aussagen, 15 Quellenverweise und zwei Firmenfokus-
+Prüfungen ergänzen den Bestand. Gesamt: 2.279 Katalogeinträge, 1.207 datierte
+Merkmalsdatensätze, 5.388 Aussagen, 2.431 Quellenverweise und 122 Firmenfokus-Prüfungen.
+1.129 Modelle haben 21.465 ausgewählte Feldprüfungen: 7.906 dokumentiert, 13.173
+unbekannt, 288 widersprüchlich und 98 Roadmap. Von 518 ursprünglichen Recherchezielen
+haben 459 ausgewählte Feldprüfungen; 59 bleiben offen. Sie umfassen jetzt 8.428 Felder.
+
+Die nativen CSS-Grid-Spalten ordnen K1 Geek 48 TOPS dense, 2 Ah und 20 Minuten
+Gehen bei 1,1 m/s zu. Education: 117 TOPS, 5 Ah und 70 Minuten; Professional:
+200 TOPS, 5 Ah und 70 Minuten. Die 2 m/s Höchstgeschwindigkeit ist ein anderer
+Betriebspunkt. Alle drei benannten Ausstattungen teilen etwa 95 cm, 19,5 kg und
+22 DOF. Responsive Kopien werden nicht als weitere Ausstattungen importiert.
+Optionale Magnetladung ist weder eine Ladezeit noch allgemein enthaltenes Zubehör.
+Der bisherige K1-Preis von 5.999 USD und das Jahr 2025 sind nicht durch die gelesenen
+Herstellerseiten belegt; die Store-Links führen zu Kooperationsanfragen ohne Zahlenpreis.
+
+T2 Education listet 375 TOPS; Professional nennt Jetson Thor T5000 mit 2070 TFLOPS.
+Diese Einheiten bleiben unverändert und werden nicht als direkter Leistungsfaktor
+verglichen. 31 DOF, ungefähr 1,4 m, 48 V/10 Ah und zwei Stunden kontinuierliches
+Gehen stehen getrennt von 3 m/s Höchstgeschwindigkeit. Die ungefähr 42 kg hängen
+von Ausstattung und Version ab. Maximal 10 kg beziehen sich auf beide Arme zusammen
+und hängen ausdrücklich stark von deren Haltung ab. Hände, Greifer, Handgelenkkameras
+und LiDAR bleiben ausstattungsabhängig; kein allgemeiner Lieferumfang wird behauptet.
+
+T1-Dokumentation trennt 23 DOF mit vier DOF je Arm von der gesondert erwähnten
+Sieben-DOF-Armversion. Diese unterstützt Soccer, Teach und Dance Agents ausdrücklich
+nicht. Basic nutzt einen AGX Orin für Bewegung und Wahrnehmung; Standard trennt i7
+und AGX Orin. Zwei Stunden Batterielaufzeit und höchstens zwei Stunden Laden bleiben
+getrennt. Der frühere T1-Produktlink leitet auf eine allgemeine Seite um und liefert
+keinen Modellbeleg; die technischen Werte stammen aus der Dokumentation. Das
+bisherige Erscheinungsjahr 2024 ist dort nicht belegt.
+
+Herstellereigene GitHub-Repositories benennen ANYmal B, C und D als Generationen.
+Die zwei öffentlichen API-Seiten liefern 102 Repositories; die drei verwendeten
+Modell-Repositories gehören ANYbotics und sind keine Forks. Vereinfachte URDF-/ROS-
+Beschreibungen ermöglichen Visualisierung; erweiterte Simulation und Steuerung sind
+Mitgliedern von ANYmal Research vorbehalten. Die BSD-Lizenz gilt für publizierte
+Software. Sie bestätigt keine vollständigen physischen Werte, installierte Sensorik,
+freie Robotersteuerung oder heutige Lieferbarkeit. ANYmal bleibt eine generische
+Familienreferenz, kein stiller Alias von C oder D. Frühere unbelegte Masse-, Laufzeit-,
+Nutzlast-, Geschwindigkeits-, IP- und Erscheinungsjahrwerte werden ausgelassen.
+
+Für ANYmal X wird ausschließlich der vom Hersteller verfasste LinkedIn-Posttext
+verwendet: autonome Runden, thermische, visuelle, akustische und Gassensorik sowie
+Wartungsabläufe. Transkript, Kommentare, verwandte Beiträge und Bilder sind nicht
+Beleggrundlage. Der angekündigte 27. Oktober 2026 ist ein Launch-Meilenstein,
+kein belegtes erstes Verkaufsjahr; die bestehende Begründung bleibt mit aktualisiertem
+Prüfumfang erhalten. 12 DOF, 1 m/s und IP67 sind in den gewählten Quellen nicht
+belegt. Marketing zu gefährdeten Umgebungen ist kein zonenspezifischer Zertifikatsnachweis.
+
+16 Abrufdatensätze: 15 HTTP 200 und ein HTTP 403 von der ANYbotics-Hauptwebsite.
+Weitere Anfragen an diesen Host wurden gestoppt; öffentliche Hersteller-Repositories
+und Herstellerposts wurden ohne Umgehung genutzt. Alle gespeicherten Antwortkörper
+haben geprüfte SHA-256-Werte. Native HTML-/README-/Posttexte und DOM-Spalten,
+keine visuelle Bild- oder PDF-Prüfung, keine Formulare, Konten oder Transaktionen.
+Abrufe am 2. November UTC; Review am 3. November Europe/Berlin. Dauerhafter Bericht:
+`reports/competitor-batch-127-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.329 Seiten. Datenaudit: null Fehler, 1.174 Warnungen; zwölf
+zusätzliche Warnungen betreffen ausschließlich unbekannte Erscheinungsjahre.
+Geprüft: 13 Produktseiten, 216 Felder, 55 Quellenbadges,
+135 ausgelassene Leerfelder, 40 Merkmalsaussagen und zwei Firmenfokus-Seiten.
+Modell-Export: 4 Ziele mit 66 Feldvorkommen;
+ursprüngliche Queue: vier Ziele mit 66 Feldern. Sechs Firmenbeschreibungsreferenzen
+behalten ihre bisherigen Identitäts-/Konfigurationszuordnungen. Die neuen nativen
+K1-Ausstattungen sind kein automatischer Beleg für identische historische Geek-/Pro-
+Konfigurationen. Suche, Vergleich, strukturierte Daten,
+vollständiger Belegexport und byteidentischer Reimport aller 32 getrackten Datendateien
+geprüft. Eigene Browser, Testserver und Recherchehelfer sind beendet; fremde Ressourcen
+erhalten. Externe YouTube-/Axe-Befunde aus Batch106 bleiben außerhalb dieser Prüfung offen.
+
+Daten-Zwischencommit `637870abe72c168a2bb805a894f1c6ffcea6459e` ist auf `codex/competitor-directory-expansion` gepusht und
 remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
 Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
 Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,

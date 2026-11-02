@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.272 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1018 |
-| Datierte Produktmerkmal-Datensätze einschließlich 180 bestehender Modelle | 1198 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.279 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1025 |
+| Datierte Produktmerkmal-Datensätze einschließlich 182 bestehender Modelle | 1207 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 120 |
+| Firmenfokus-Prüfungen mit Quellen | 122 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1018 ergänzte Modelle ergeben 2.272 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1025 ergänzte Modelle ergeben 2.279 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-120 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+122 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1198 Datensätze
+Modellseiten verlinken Markenprofile. Die 1207 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 457 haben ausgewählte Datenfeldprüfungen und 61
+haben datierte Merkmalsbelege; 459 haben ausgewählte Datenfeldprüfungen und 59
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 493 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 495 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -10384,6 +10384,93 @@ Testserver und Recherchehelfer sind beendet; fremde Ressourcen erhalten.
 Die externen YouTube-/Axe-Befunde aus Batch106 bleiben außerhalb dieser Prüfung offen.
 
 Daten-Zwischencommit `fdf6296ad042f0b2019afb69eb30b79837948721` ist auf `codex/competitor-directory-expansion` gepusht und
+remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
+Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
+unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 127 – ANYbotics-Generationen und Booster-Ausstattungen (3. November 2026)
+
+Sieben neue Modelle/Konfigurationen: ANYmal B und C, K1 Geek Edition, Education und
+Professional sowie Booster T2 Education und Professional. Sechs bestehende Einträge
+sind überarbeitet: ANYmal, ANYmal D, ANYmal X, K1, Booster T1 und Booster T2.
+13 ausgewählte Produkte umfassen 216 Felder: 81 dokumentiert und 135 unbekannt.
+Elf neue Feldprüfungen und zwei Erweiterungen ersetzen acht vorherige Feldprüfungen;
+der Nettozuwachs beträgt 208 Felder. Neun neue Merkmalsdatensätze, vier erweiterte
+Merkmalsdatensätze, 29 zusätzliche Aussagen, 15 Quellenverweise und zwei Firmenfokus-
+Prüfungen ergänzen den Bestand. Gesamt: 2.279 Katalogeinträge, 1.207 datierte
+Merkmalsdatensätze, 5.388 Aussagen, 2.431 Quellenverweise und 122 Firmenfokus-Prüfungen.
+1.129 Modelle haben 21.465 ausgewählte Feldprüfungen: 7.906 dokumentiert, 13.173
+unbekannt, 288 widersprüchlich und 98 Roadmap. Von 518 ursprünglichen Recherchezielen
+haben 459 ausgewählte Feldprüfungen; 59 bleiben offen. Sie umfassen jetzt 8.428 Felder.
+
+Die nativen CSS-Grid-Spalten ordnen K1 Geek 48 TOPS dense, 2 Ah und 20 Minuten
+Gehen bei 1,1 m/s zu. Education: 117 TOPS, 5 Ah und 70 Minuten; Professional:
+200 TOPS, 5 Ah und 70 Minuten. Die 2 m/s Höchstgeschwindigkeit ist ein anderer
+Betriebspunkt. Alle drei benannten Ausstattungen teilen etwa 95 cm, 19,5 kg und
+22 DOF. Responsive Kopien werden nicht als weitere Ausstattungen importiert.
+Optionale Magnetladung ist weder eine Ladezeit noch allgemein enthaltenes Zubehör.
+Der bisherige K1-Preis von 5.999 USD und das Jahr 2025 sind nicht durch die gelesenen
+Herstellerseiten belegt; die Store-Links führen zu Kooperationsanfragen ohne Zahlenpreis.
+
+T2 Education listet 375 TOPS; Professional nennt Jetson Thor T5000 mit 2070 TFLOPS.
+Diese Einheiten bleiben unverändert und werden nicht als direkter Leistungsfaktor
+verglichen. 31 DOF, ungefähr 1,4 m, 48 V/10 Ah und zwei Stunden kontinuierliches
+Gehen stehen getrennt von 3 m/s Höchstgeschwindigkeit. Die ungefähr 42 kg hängen
+von Ausstattung und Version ab. Maximal 10 kg beziehen sich auf beide Arme zusammen
+und hängen ausdrücklich stark von deren Haltung ab. Hände, Greifer, Handgelenkkameras
+und LiDAR bleiben ausstattungsabhängig; kein allgemeiner Lieferumfang wird behauptet.
+
+T1-Dokumentation trennt 23 DOF mit vier DOF je Arm von der gesondert erwähnten
+Sieben-DOF-Armversion. Diese unterstützt Soccer, Teach und Dance Agents ausdrücklich
+nicht. Basic nutzt einen AGX Orin für Bewegung und Wahrnehmung; Standard trennt i7
+und AGX Orin. Zwei Stunden Batterielaufzeit und höchstens zwei Stunden Laden bleiben
+getrennt. Der frühere T1-Produktlink leitet auf eine allgemeine Seite um und liefert
+keinen Modellbeleg; die technischen Werte stammen aus der Dokumentation. Das
+bisherige Erscheinungsjahr 2024 ist dort nicht belegt.
+
+Herstellereigene GitHub-Repositories benennen ANYmal B, C und D als Generationen.
+Die zwei öffentlichen API-Seiten liefern 102 Repositories; die drei verwendeten
+Modell-Repositories gehören ANYbotics und sind keine Forks. Vereinfachte URDF-/ROS-
+Beschreibungen ermöglichen Visualisierung; erweiterte Simulation und Steuerung sind
+Mitgliedern von ANYmal Research vorbehalten. Die BSD-Lizenz gilt für publizierte
+Software. Sie bestätigt keine vollständigen physischen Werte, installierte Sensorik,
+freie Robotersteuerung oder heutige Lieferbarkeit. ANYmal bleibt eine generische
+Familienreferenz, kein stiller Alias von C oder D. Frühere unbelegte Masse-, Laufzeit-,
+Nutzlast-, Geschwindigkeits-, IP- und Erscheinungsjahrwerte werden ausgelassen.
+
+Für ANYmal X wird ausschließlich der vom Hersteller verfasste LinkedIn-Posttext
+verwendet: autonome Runden, thermische, visuelle, akustische und Gassensorik sowie
+Wartungsabläufe. Transkript, Kommentare, verwandte Beiträge und Bilder sind nicht
+Beleggrundlage. Der angekündigte 27. Oktober 2026 ist ein Launch-Meilenstein,
+kein belegtes erstes Verkaufsjahr; die bestehende Begründung bleibt mit aktualisiertem
+Prüfumfang erhalten. 12 DOF, 1 m/s und IP67 sind in den gewählten Quellen nicht
+belegt. Marketing zu gefährdeten Umgebungen ist kein zonenspezifischer Zertifikatsnachweis.
+
+16 Abrufdatensätze: 15 HTTP 200 und ein HTTP 403 von der ANYbotics-Hauptwebsite.
+Weitere Anfragen an diesen Host wurden gestoppt; öffentliche Hersteller-Repositories
+und Herstellerposts wurden ohne Umgehung genutzt. Alle gespeicherten Antwortkörper
+haben geprüfte SHA-256-Werte. Native HTML-/README-/Posttexte und DOM-Spalten,
+keine visuelle Bild- oder PDF-Prüfung, keine Formulare, Konten oder Transaktionen.
+Abrufe am 2. November UTC; Review am 3. November Europe/Berlin. Dauerhafter Bericht:
+`reports/competitor-batch-127-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.329 Seiten. Datenaudit: null Fehler, 1.174 Warnungen; zwölf
+zusätzliche Warnungen betreffen ausschließlich unbekannte Erscheinungsjahre.
+Geprüft: 13 Produktseiten, 216 Felder, 55 Quellenbadges,
+135 ausgelassene Leerfelder, 40 Merkmalsaussagen und zwei Firmenfokus-Seiten.
+Modell-Export: 4 Ziele mit 66 Feldvorkommen;
+ursprüngliche Queue: vier Ziele mit 66 Feldern. Sechs Firmenbeschreibungsreferenzen
+behalten ihre bisherigen Identitäts-/Konfigurationszuordnungen. Die neuen nativen
+K1-Ausstattungen sind kein automatischer Beleg für identische historische Geek-/Pro-
+Konfigurationen. Suche, Vergleich, strukturierte Daten,
+vollständiger Belegexport und byteidentischer Reimport aller 32 getrackten Datendateien
+geprüft. Eigene Browser, Testserver und Recherchehelfer sind beendet; fremde Ressourcen
+erhalten. Externe YouTube-/Axe-Befunde aus Batch106 bleiben außerhalb dieser Prüfung offen.
+
+Daten-Zwischencommit `637870abe72c168a2bb805a894f1c6ffcea6459e` ist auf `codex/competitor-directory-expansion` gepusht und
 remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
 Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
 Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
