@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.013 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 759 |
-| Datierte Produktmerkmal-Datensätze einschließlich 145 bestehender Modelle | 904 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.017 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 763 |
+| Datierte Produktmerkmal-Datensätze einschließlich 147 bestehender Modelle | 910 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 643 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 632 / 404 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 82 |
+| Firmenfokus-Prüfungen mit Quellen | 83 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 759 ergänzte Modelle ergeben 2.013 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 763 ergänzte Modelle ergeben 2.017 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-82 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+83 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 904 Datensätze
+Modellseiten verlinken Markenprofile. Die 910 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 363 haben ausgewählte Datenfeldprüfungen und 155
+haben datierte Merkmalsbelege; 366 haben ausgewählte Datenfeldprüfungen und 152
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 474 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 475 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -7316,3 +7316,86 @@ Anwendungsänderung erforderlich. 14 Quellenversuche, 13 HTTP-200-Antworten,
 darunter zwei PDF-Dokumente/28 Textseiten; ein FAQ-DNS-Fehler ausgeschlossen.
 Keine visuelle PDF-Prüfung. Eigene Testprozesse und Browserressourcen beendet.
 Dauerhafter Beleg: `reports/competitor-batch-88-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – LEGO (Batch 89)
+
+Vier benannte Set-Konfigurationen ergänzt: MINDSTORMS NXT 2.0 8547 sowie
+Computer Science & AI 45520 (K-2), 45521 (3-5), 45522 (6-8). Fünf bestehende
+Identitäten geprüft: ursprüngliches NXT, EV3, Robot Inventor 51515 und SPIKE
+Essential/Prime. 153 Felder: 35 dokumentiert, 118 unbekannt. Ein Herstellerfokus
+am bestehenden LEGO-Education-Profil ergänzt. Alle 2008 unbeteiligten CSV-Zeilen,
+728 früheren Feldprüfungen, 82 früheren Firmenfokusse und 1961 ursprünglichen
+Quellenidentitäten bleiben unverändert. Zwei öffentliche Echo-Preishinweise
+verlieren nur einen technischen Darstellungsbegriff; Aussagen/Quellen/Felder
+bleiben unverändert. Keine neuen CSV-Spalten oder Profilzusammenführungen.
+
+Set-Identitäten bleiben getrennt: NXT 8527 (579 Teile/2006), NXT 2.0 8547
+(619/2009), EV3-Heimset 31313 (601/2013) und Robot Inventor 51515 (949/2020).
+Die EV3-Katalogidentität beschreibt nicht automatisch alle Education-Bundles.
+MicroPython startet bei EV3 von einer 4–32-GB-microSD-Karte; das ist weder
+interner RAM noch eine universelle Softwarelösung für alle Generationen.
+ARM9/Linux und Entwicklerprotokolle stammen aus der EV3-Dokumentation.
+Blast, Charlie, Tricky, Gelo und M.V.P. sind fünf alternative Robot-Inventor-
+Bauten eines Sets, keine fünf zusätzlich verkauften Roboter. Blast-Höhe und
+Hub-Sensorachsen werden nicht als Set-Abmessung/mechanische DOF übertragen.
+
+SPIKE Essential: Veröffentlichung vom 17. August 2021 nennt 449 Steine,
+vier Minifiguren sowie Hub, Motoren, Lichtmatrix und Farbsensor; Alter 6+.
+SPIKE Prime: Hersteller-FAQ nennt 528 Elemente, Alter 10+, sechs Hub-Ports,
+5×5-Matrix, USB/Bluetooth und Python. Die 63 g ohne Akku und 88×56×32 mm sind
+Hub-Werte; sie ersetzen keine Gesamtmasse oder vollständige Roboterhülle.
+Akku: 2100 mAh/7,3 V und Zyklenbedingungen sind keine Betriebsstunden. Die
+FAQ nennt ca. drei Stunden Ladung leer→voll bei USB 500 mA. Unbelegte feste
+Set-Gewichte, Größen, Laufzeiten, Handtypen und Alters-Obergrenzen entfernt.
+
+Direktverkauf von SPIKE endete am 30. Juni 2026. App-/Lehrplansupport ist bis
+30. Juni 2031 geplant; keine neuen Funktionen nach Verkaufsende. Die aktuelle
+Hersteller-FAQ nennt Wettbewerbseinsatz bis zur Saison 2027–2028, CS & AI ab
+2026–2027. Das ist keine unbefristete Teilnahme- oder Betriebssystemzusage.
+Die gemeinsame Prime-Produktseite enthält einen Essential-Textfehler; benannte
+Setnummer, separate FAQ, Ruhestandstabelle und Komponentenblätter bestimmen
+die Zuordnung. Ersatzteile/Erweiterungen bleiben Komponenten, keine Roboter.
+
+Aktuelle CS-&-AI-Einzelsets: 45520 mit 276 Steinen/einem Einzelmotor, 45521 mit
+321/einem Doppelmotormodul, 45522 mit 379/Doppel- plus Einzelmotor und Controller.
+Farbsensor/Karten bleiben setgenau; 45522 nennt zwei statt einer Verbindungskarte.
+Die strukturierten Herstellerangebote bestätigen 339,95/429,95/529,95 USD,
+getrennt von Sechser-Klassenpaketen und erforderlichem Nutzergerät. Dreißig
+Lektionen in sechs Einheiten, Gerätelokalität, PIN-Zugang, Offline-Nutzung nach
+Installation und nötiger Internetzugriff für Einrichtung/Updates/Lehrerportal
+behalten ihren Funktionsbereich. MoveNet/Pose-/Klassifizierungslernen ist kein
+Chatbot, keine enthaltene Roboterkamera und kein autonomer Navigationsbeleg.
+Schulklassenbänder werden nicht in Lebensalter oder Achszahlen umgedeutet.
+
+41 Quellenversuche: 31 HTTP-200-Antworten, zwei DNS-Fehler, ein 403 und sieben
+404. Vier leere Service-/Redirect-Antworten ausgeschlossen, darunter der
+RCX/RIS-Kandidat 9719; HTTP 200 belegt dort kein Produkt. Fünf PDFs gespeichert:
+60 Textextraktionsseiten plus 24 bildbasierte NXT-Seiten ohne nutzbaren Text.
+Keine visuelle PDF-Prüfung, kein Übertragen ungesehener Bilddetails. Der zunächst
+einmal aufgerufene Robot-Inventor-Verkaufspfad war schon in Batch 12 mit 403
+protokolliert und antwortete erneut 403; er wurde ausgeschlossen und nicht
+weiter angefragt. Öffentliche Presse-/Servicequellen lieferten die Belege.
+Weitere RCX/RIS-, WeDo-/BOOST-, Education-/Retail-Bundles, vollständige historische
+Portfolios und heutige Legacy-Softwarekompatibilität bleiben offen.
+
+Aktuell: 2017 Katalogeinträge, 643 exakte Herstellernamen, 1036 Profile,
+632 mit/404 ohne Modelle. 910 Merkmalsdatensätze (763 Ergänzungen/147 bestehende
+Anreicherungen), 3954 Aussagen, 1716 Produkt-Quellenreferenzen. 83 Firmenfokusse
+auf 79 der 591 Quellen-Firmengruppen. 12237 Felder auf 737 Modellseiten:
+5419 dokumentiert, 6520 unbekannt, 246 widersprüchlich, 52 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 366 Feldprüfungen, 152 warten. Die 6006 Zielfelder
+enthalten 2748 dokumentierte, 3095 unbekannte, 153 widersprüchliche und zehn
+Roadmap-Werte. Offen: drei Modellidentitäten, neun Listingidentitäten und alle
+862 Buy-Detailinhalte; Vollständigkeit und Marktführerschaft nicht bewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte Browserfälle
+bestanden (16 LEGO/18 Vergleich, einschließlich acht Axe-Läufen). Build:
+3067 Seiten/ca. 475 MB, Audit null Fehler/907 Warnungen; drei zusätzliche
+Warnungen stammen von neuen Kits ohne belegtes Erstveröffentlichungsjahr.
+Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh, neun
+Modellseiten/Exporte, Vergleichsdatentransport und alle 737 gerenderten Prüfseiten
+geprüft. Nach Textglättung und Synchronisierung der neuen Prüfnotizen wurden
+Unit/Build/Audit auf dem finalen Stand erneut ausgeführt. Keine Anwendungs-
+Algorithmen geändert. Eigene Testprozesse/Browserressourcen beendet.
+Dauerhafter Beleg: `reports/competitor-batch-89-evidence.json`.

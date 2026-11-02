@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,013 catalog rows**, with 643 exact
-manufacturer spellings. Batch 88 refreshed the separate heuristic gap file offline
-against all 2,013 rows (635 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,017 catalog rows**, with 643 exact
+manufacturer spellings. Batch 89 refreshed the separate heuristic gap file offline
+against all 2,017 rows (635 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 904 dated records across the catalog, including
-145 existing-model enrichments and 759 task additions. All 430 catalog models
+Current product-highlight coverage: 910 dated records across the catalog, including
+147 existing-model enrichments and 763 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 759 task additions, totaling 2,013.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 763 task additions, totaling 2,017.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 363 have selected-field reviews and 155 await those reviews. Family and
+highlights; 366 have selected-field reviews and 152 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 12,084 fields across 728 catalog models: 5,384 documented,
-6,402 not documented, 246 conflicting and fifty-two roadmap fields. They do not certify whole
+Selected specification checks cover 12,237 fields across 737 catalog models: 5,419 documented,
+6,520 not documented, 246 conflicting and fifty-two roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -5081,3 +5081,86 @@ Anwendungsänderung erforderlich. 14 Quellenversuche, 13 HTTP-200-Antworten,
 darunter zwei PDF-Dokumente/28 Textseiten; ein FAQ-DNS-Fehler ausgeschlossen.
 Keine visuelle PDF-Prüfung. Eigene Testprozesse und Browserressourcen beendet.
 Dauerhafter Beleg: `reports/competitor-batch-88-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – LEGO (Batch 89)
+
+Vier benannte Set-Konfigurationen ergänzt: MINDSTORMS NXT 2.0 8547 sowie
+Computer Science & AI 45520 (K-2), 45521 (3-5), 45522 (6-8). Fünf bestehende
+Identitäten geprüft: ursprüngliches NXT, EV3, Robot Inventor 51515 und SPIKE
+Essential/Prime. 153 Felder: 35 dokumentiert, 118 unbekannt. Ein Herstellerfokus
+am bestehenden LEGO-Education-Profil ergänzt. Alle 2008 unbeteiligten CSV-Zeilen,
+728 früheren Feldprüfungen, 82 früheren Firmenfokusse und 1961 ursprünglichen
+Quellenidentitäten bleiben unverändert. Zwei öffentliche Echo-Preishinweise
+verlieren nur einen technischen Darstellungsbegriff; Aussagen/Quellen/Felder
+bleiben unverändert. Keine neuen CSV-Spalten oder Profilzusammenführungen.
+
+Set-Identitäten bleiben getrennt: NXT 8527 (579 Teile/2006), NXT 2.0 8547
+(619/2009), EV3-Heimset 31313 (601/2013) und Robot Inventor 51515 (949/2020).
+Die EV3-Katalogidentität beschreibt nicht automatisch alle Education-Bundles.
+MicroPython startet bei EV3 von einer 4–32-GB-microSD-Karte; das ist weder
+interner RAM noch eine universelle Softwarelösung für alle Generationen.
+ARM9/Linux und Entwicklerprotokolle stammen aus der EV3-Dokumentation.
+Blast, Charlie, Tricky, Gelo und M.V.P. sind fünf alternative Robot-Inventor-
+Bauten eines Sets, keine fünf zusätzlich verkauften Roboter. Blast-Höhe und
+Hub-Sensorachsen werden nicht als Set-Abmessung/mechanische DOF übertragen.
+
+SPIKE Essential: Veröffentlichung vom 17. August 2021 nennt 449 Steine,
+vier Minifiguren sowie Hub, Motoren, Lichtmatrix und Farbsensor; Alter 6+.
+SPIKE Prime: Hersteller-FAQ nennt 528 Elemente, Alter 10+, sechs Hub-Ports,
+5×5-Matrix, USB/Bluetooth und Python. Die 63 g ohne Akku und 88×56×32 mm sind
+Hub-Werte; sie ersetzen keine Gesamtmasse oder vollständige Roboterhülle.
+Akku: 2100 mAh/7,3 V und Zyklenbedingungen sind keine Betriebsstunden. Die
+FAQ nennt ca. drei Stunden Ladung leer→voll bei USB 500 mA. Unbelegte feste
+Set-Gewichte, Größen, Laufzeiten, Handtypen und Alters-Obergrenzen entfernt.
+
+Direktverkauf von SPIKE endete am 30. Juni 2026. App-/Lehrplansupport ist bis
+30. Juni 2031 geplant; keine neuen Funktionen nach Verkaufsende. Die aktuelle
+Hersteller-FAQ nennt Wettbewerbseinsatz bis zur Saison 2027–2028, CS & AI ab
+2026–2027. Das ist keine unbefristete Teilnahme- oder Betriebssystemzusage.
+Die gemeinsame Prime-Produktseite enthält einen Essential-Textfehler; benannte
+Setnummer, separate FAQ, Ruhestandstabelle und Komponentenblätter bestimmen
+die Zuordnung. Ersatzteile/Erweiterungen bleiben Komponenten, keine Roboter.
+
+Aktuelle CS-&-AI-Einzelsets: 45520 mit 276 Steinen/einem Einzelmotor, 45521 mit
+321/einem Doppelmotormodul, 45522 mit 379/Doppel- plus Einzelmotor und Controller.
+Farbsensor/Karten bleiben setgenau; 45522 nennt zwei statt einer Verbindungskarte.
+Die strukturierten Herstellerangebote bestätigen 339,95/429,95/529,95 USD,
+getrennt von Sechser-Klassenpaketen und erforderlichem Nutzergerät. Dreißig
+Lektionen in sechs Einheiten, Gerätelokalität, PIN-Zugang, Offline-Nutzung nach
+Installation und nötiger Internetzugriff für Einrichtung/Updates/Lehrerportal
+behalten ihren Funktionsbereich. MoveNet/Pose-/Klassifizierungslernen ist kein
+Chatbot, keine enthaltene Roboterkamera und kein autonomer Navigationsbeleg.
+Schulklassenbänder werden nicht in Lebensalter oder Achszahlen umgedeutet.
+
+41 Quellenversuche: 31 HTTP-200-Antworten, zwei DNS-Fehler, ein 403 und sieben
+404. Vier leere Service-/Redirect-Antworten ausgeschlossen, darunter der
+RCX/RIS-Kandidat 9719; HTTP 200 belegt dort kein Produkt. Fünf PDFs gespeichert:
+60 Textextraktionsseiten plus 24 bildbasierte NXT-Seiten ohne nutzbaren Text.
+Keine visuelle PDF-Prüfung, kein Übertragen ungesehener Bilddetails. Der zunächst
+einmal aufgerufene Robot-Inventor-Verkaufspfad war schon in Batch 12 mit 403
+protokolliert und antwortete erneut 403; er wurde ausgeschlossen und nicht
+weiter angefragt. Öffentliche Presse-/Servicequellen lieferten die Belege.
+Weitere RCX/RIS-, WeDo-/BOOST-, Education-/Retail-Bundles, vollständige historische
+Portfolios und heutige Legacy-Softwarekompatibilität bleiben offen.
+
+Aktuell: 2017 Katalogeinträge, 643 exakte Herstellernamen, 1036 Profile,
+632 mit/404 ohne Modelle. 910 Merkmalsdatensätze (763 Ergänzungen/147 bestehende
+Anreicherungen), 3954 Aussagen, 1716 Produkt-Quellenreferenzen. 83 Firmenfokusse
+auf 79 der 591 Quellen-Firmengruppen. 12237 Felder auf 737 Modellseiten:
+5419 dokumentiert, 6520 unbekannt, 246 widersprüchlich, 52 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 366 Feldprüfungen, 152 warten. Die 6006 Zielfelder
+enthalten 2748 dokumentierte, 3095 unbekannte, 153 widersprüchliche und zehn
+Roadmap-Werte. Offen: drei Modellidentitäten, neun Listingidentitäten und alle
+862 Buy-Detailinhalte; Vollständigkeit und Marktführerschaft nicht bewiesen.
+
+793 Unit-Tests/64 Dateien, 20 Python-Tests und 34 ausgewählte Browserfälle
+bestanden (16 LEGO/18 Vergleich, einschließlich acht Axe-Läufen). Build:
+3067 Seiten/ca. 475 MB, Audit null Fehler/907 Warnungen; drei zusätzliche
+Warnungen stammen von neuen Kits ohne belegtes Erstveröffentlichungsjahr.
+Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh, neun
+Modellseiten/Exporte, Vergleichsdatentransport und alle 737 gerenderten Prüfseiten
+geprüft. Nach Textglättung und Synchronisierung der neuen Prüfnotizen wurden
+Unit/Build/Audit auf dem finalen Stand erneut ausgeführt. Keine Anwendungs-
+Algorithmen geändert. Eigene Testprozesse/Browserressourcen beendet.
+Dauerhafter Beleg: `reports/competitor-batch-89-evidence.json`.
