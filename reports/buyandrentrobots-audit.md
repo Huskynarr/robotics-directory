@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 1,969 catalog rows**, with 642 exact
-manufacturer spellings. Batch 83 refreshed the separate heuristic gap file offline
-against all 1,969 rows (634 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 1,981 catalog rows**, with 642 exact
+manufacturer spellings. Batch 84 refreshed the separate heuristic gap file offline
+against all 1,981 rows (634 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 857 dated records across the catalog, including
-142 existing-model enrichments and 715 task additions. All 430 catalog models
+Current product-highlight coverage: 869 dated records across the catalog, including
+142 existing-model enrichments and 727 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 715 task additions, totaling 1,969.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 727 task additions, totaling 1,981.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 348 have selected-field reviews and 170 await those reviews. Family and
+highlights; 351 have selected-field reviews and 167 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 10,796 fields across 664 catalog models: 4,986 documented,
-5,559 not documented, 234 conflicting and seventeen roadmap fields. They do not certify whole
+Selected specification checks cover 11,180 fields across 679 catalog models: 5,082 documented,
+5,847 not documented, 234 conflicting and seventeen roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -4725,5 +4725,68 @@ Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleibe
 erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 
 Zwischencommit `# BuyAn` mit Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Cyberdyne (Batch 84)
+
+Zwölf benannte Angebote ergänzt: HAL-FL08, HAL-FL07, HAL-FL05, Medical HAL Single
+Joint, Well-being HAL Single Joint, HAL Lumbar Type for Well-being (BB04), HAL-LB06,
+HAL-LB03-SSSJP, HAL-LB01, CL02, Transportation Robot und Medicalcare Pit
+(HPD-BT04-JP). HAL-ML08, HAL-ML07 und HAL-ML05 vertieft geprüft. 384 Felder:
+96 dokumentiert, 288 unbekannt; ein neuer Firmenfokus. Alle 1966 unbeteiligten
+Katalogzeilen, 664 früheren Modellprüfungen, 76 Firmenfokusse und 1961 ursprünglichen
+Quellenidentitäten unverändert; keine neuen CSV-Spalten oder Kategorieübertragungen.
+
+Bei HAL bleiben Medizin-/Well-being-Angebote, Ein-/Zweibeinmasse inklusive Zubehör,
+Geräteabmessungen und Körpergrößen/-massen getrennt. Die EU-Unterlage gilt nur für
+ML07/ML08. Einzelgelenk-Masse/-Maße schließen Steuerung und Batterie aus. BB04 hat
+eine gemeinsame 3,1-kg-Tabellenzelle für drei Größen; Lauf-/Ladezeit bleiben unbekannt.
+Die japanische Arbeitshilfe ist ausdrücklich LB06 (2,7 kg, Batterieumfang offen;
+zehn Stunden Betrieb, drei Stunden Ladung), die englische LB03-SSSJP (3,1 kg mit
+Batterie; 4,5 Stunden Betrieb, zwei Stunden Ladung). Keine Sprachalias-Gleichsetzung
+oder Übernahme dieser Werte auf das erwähnte LB01. IPX4 und IP5X bleiben getrennte
+Herstellerangaben. Ein neuer Filter „Arbeitsunterstützung“ mit englischen/deutschen
+Texten erschließt die gewerblichen Arbeitshilfen.
+
+CL02: bis 3000 m² je Ladung ist kein Stundenwert; optionale Desinfektionseinheit
+und Fahrstuhlanbindung bleiben optional. Transportplattform: 200 kg Bordfracht
+sind keine Zugkraft und keine 25 kg Eigenmasse; Japan-Verfügbarkeit bleibt begrenzt.
+Medicalcare Pit: robotisch unabhängige linke/rechte Entlastung mit HAL-Daten;
+120 kg Körpermasse inklusive HAL/Orthesen sind keine freie Fracht. Bandgeschwindigkeit
+0,2–8 km/h und 110 mm Einstiegshöhe sind weder mobile Fahrgeschwindigkeit noch
+Hubweg. HALTREAD, All-in-One, Acoustic X, CYIN und Dienste bleiben abgegrenzte
+Portfoliofunde. Keine Zulassung oder unabhängige klinische Wirkung bestätigt.
+
+26 Abrufversuche: 24 nutzbare Inhalte (23 HTML und eine 14-seitige PDF). Ein
+vorübergehender DNS-Fehler wurde behoben; eine bildbasierte vierseitige Broschüre
+bleibt ungelesen und ausgeschlossen. 24 exakte Stichprobenanker und Körper-Hashes,
+sechs HTML-Modellspalten, zwei gemeinsame Massezellen und sechs PDF-Zellen anhand
+der Textkoordinaten geprüft. Keine visuelle PDF-Prüfung behauptet. Keine gesperrten
+Hosts erneut angefragt, Formulare oder Recherchebrowser verwendet. Dauerhafte
+Quellen-/Entscheidungsbelege: `reports/competitor-batch-84-evidence.json`.
+
+781 Unit-Tests in 63 Dateien, 20 Wettbewerber-Python-Tests und 44 ausgewählte
+Browserfälle bestanden: 26 Cyberdyne- und 18 Vergleichsfälle, darunter zwölf
+Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Zwei anfängliche
+Testfehler erwarteten einen Dezimalpunkt im deutschen Vergleich; die bestehende
+korrekte Kommadarstellung und Modellqualifikation werden nun ausdrücklich geprüft.
+Build: 3031 Seiten, ungefähr 469 MB. Datenprüfung: null Fehler, 864 Hinweise
+(zwölf zusätzliche unbelegte Erstjahre). Lint, Format, Wiederholungsimport mit null
+Ergänzungen, Bestands-, Quellen-, Seiten-/Export- und Vergleichsprüfung bestanden.
+Metadaten aller 679 geprüften Modellseiten mit 11180 Feldern kontrolliert, ohne
+erneute Herstellerrecherche für frühere Modelle. Alle 265
+erfassten eigenen Testprozesse beendet; Port 4321 frei.
+
+Gesamtstand: 1981 Modelle/Konfigurationen, 727 Ergänzungen, 869 Merkmalssätze,
+3698 Aussagen, 1536 Produktquellenverweise und 77 Firmenfokusse. 11180 Felder auf
+679 Modellen: 5082 dokumentiert, 5847 unbekannt, 234 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 351 Feldprüfungen und 167 bleiben offen.
+Firmenfokusse decken 75 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `d4695f0` mit Daten, Filter und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 bilden einen separaten Commit; der Hauptbranch bleibt unverändert.

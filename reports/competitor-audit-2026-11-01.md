@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 1.969 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 715 |
-| Datierte Produktmerkmal-Datensätze einschließlich 142 bestehender Modelle | 857 |
+| Eigener Katalog vorher / nachher | 1.255 / 1.981 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 727 |
+| Datierte Produktmerkmal-Datensätze einschließlich 142 bestehender Modelle | 869 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 642 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 631 / 405 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 76 |
+| Firmenfokus-Prüfungen mit Quellen | 77 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 715 ergänzte Modelle ergeben 1.969 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 727 ergänzte Modelle ergeben 1.981 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-76 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+77 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 857 Datensätze
+Modellseiten verlinken Markenprofile. Die 869 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,18 +71,18 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 348 haben ausgewählte Datenfeldprüfungen und 170
+haben datierte Merkmalsbelege; 351 haben ausgewählte Datenfeldprüfungen und 167
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
 `pnpm research:refresh` aktualisiert sie aus dem gespeicherten Quellenbestand.
 
 Die neue Kategorie `commercial` nimmt Transport-, Einzelhandels-, Bau-,
-Inspektions-, kommunale, Medizin-, Rehabilitations-, Agrar-, Marine-, Telepräsenz-,
+Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Agrar-, Marine-, Telepräsenz-,
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 462 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 469 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -6960,5 +6960,68 @@ Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleibe
 erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 
 Zwischencommit `# BuyAn` mit Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Cyberdyne (Batch 84)
+
+Zwölf benannte Angebote ergänzt: HAL-FL08, HAL-FL07, HAL-FL05, Medical HAL Single
+Joint, Well-being HAL Single Joint, HAL Lumbar Type for Well-being (BB04), HAL-LB06,
+HAL-LB03-SSSJP, HAL-LB01, CL02, Transportation Robot und Medicalcare Pit
+(HPD-BT04-JP). HAL-ML08, HAL-ML07 und HAL-ML05 vertieft geprüft. 384 Felder:
+96 dokumentiert, 288 unbekannt; ein neuer Firmenfokus. Alle 1966 unbeteiligten
+Katalogzeilen, 664 früheren Modellprüfungen, 76 Firmenfokusse und 1961 ursprünglichen
+Quellenidentitäten unverändert; keine neuen CSV-Spalten oder Kategorieübertragungen.
+
+Bei HAL bleiben Medizin-/Well-being-Angebote, Ein-/Zweibeinmasse inklusive Zubehör,
+Geräteabmessungen und Körpergrößen/-massen getrennt. Die EU-Unterlage gilt nur für
+ML07/ML08. Einzelgelenk-Masse/-Maße schließen Steuerung und Batterie aus. BB04 hat
+eine gemeinsame 3,1-kg-Tabellenzelle für drei Größen; Lauf-/Ladezeit bleiben unbekannt.
+Die japanische Arbeitshilfe ist ausdrücklich LB06 (2,7 kg, Batterieumfang offen;
+zehn Stunden Betrieb, drei Stunden Ladung), die englische LB03-SSSJP (3,1 kg mit
+Batterie; 4,5 Stunden Betrieb, zwei Stunden Ladung). Keine Sprachalias-Gleichsetzung
+oder Übernahme dieser Werte auf das erwähnte LB01. IPX4 und IP5X bleiben getrennte
+Herstellerangaben. Ein neuer Filter „Arbeitsunterstützung“ mit englischen/deutschen
+Texten erschließt die gewerblichen Arbeitshilfen.
+
+CL02: bis 3000 m² je Ladung ist kein Stundenwert; optionale Desinfektionseinheit
+und Fahrstuhlanbindung bleiben optional. Transportplattform: 200 kg Bordfracht
+sind keine Zugkraft und keine 25 kg Eigenmasse; Japan-Verfügbarkeit bleibt begrenzt.
+Medicalcare Pit: robotisch unabhängige linke/rechte Entlastung mit HAL-Daten;
+120 kg Körpermasse inklusive HAL/Orthesen sind keine freie Fracht. Bandgeschwindigkeit
+0,2–8 km/h und 110 mm Einstiegshöhe sind weder mobile Fahrgeschwindigkeit noch
+Hubweg. HALTREAD, All-in-One, Acoustic X, CYIN und Dienste bleiben abgegrenzte
+Portfoliofunde. Keine Zulassung oder unabhängige klinische Wirkung bestätigt.
+
+26 Abrufversuche: 24 nutzbare Inhalte (23 HTML und eine 14-seitige PDF). Ein
+vorübergehender DNS-Fehler wurde behoben; eine bildbasierte vierseitige Broschüre
+bleibt ungelesen und ausgeschlossen. 24 exakte Stichprobenanker und Körper-Hashes,
+sechs HTML-Modellspalten, zwei gemeinsame Massezellen und sechs PDF-Zellen anhand
+der Textkoordinaten geprüft. Keine visuelle PDF-Prüfung behauptet. Keine gesperrten
+Hosts erneut angefragt, Formulare oder Recherchebrowser verwendet. Dauerhafte
+Quellen-/Entscheidungsbelege: `reports/competitor-batch-84-evidence.json`.
+
+781 Unit-Tests in 63 Dateien, 20 Wettbewerber-Python-Tests und 44 ausgewählte
+Browserfälle bestanden: 26 Cyberdyne- und 18 Vergleichsfälle, darunter zwölf
+Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Zwei anfängliche
+Testfehler erwarteten einen Dezimalpunkt im deutschen Vergleich; die bestehende
+korrekte Kommadarstellung und Modellqualifikation werden nun ausdrücklich geprüft.
+Build: 3031 Seiten, ungefähr 469 MB. Datenprüfung: null Fehler, 864 Hinweise
+(zwölf zusätzliche unbelegte Erstjahre). Lint, Format, Wiederholungsimport mit null
+Ergänzungen, Bestands-, Quellen-, Seiten-/Export- und Vergleichsprüfung bestanden.
+Metadaten aller 679 geprüften Modellseiten mit 11180 Feldern kontrolliert, ohne
+erneute Herstellerrecherche für frühere Modelle. Alle 265
+erfassten eigenen Testprozesse beendet; Port 4321 frei.
+
+Gesamtstand: 1981 Modelle/Konfigurationen, 727 Ergänzungen, 869 Merkmalssätze,
+3698 Aussagen, 1536 Produktquellenverweise und 77 Firmenfokusse. 11180 Felder auf
+679 Modellen: 5082 dokumentiert, 5847 unbekannt, 234 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 351 Feldprüfungen und 167 bleiben offen.
+Firmenfokusse decken 75 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `d4695f0` mit Daten, Filter und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 bilden einen separaten Commit; der Hauptbranch bleibt unverändert.

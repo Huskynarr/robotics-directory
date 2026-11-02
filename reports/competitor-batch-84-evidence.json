@@ -1,0 +1,1115 @@
+{
+  "batch": 84,
+  "checkedAt": "2026-11-02",
+  "manufacturer": "Cyberdyne",
+  "catalogModelsBefore": 1969,
+  "catalogModelsAfter": 1981,
+  "newModels": 12,
+  "existingModelsReviewed": 3,
+  "selectedSpecificationModels": 15,
+  "selectedFields": 384,
+  "fieldStatuses": {
+    "not-documented": 288,
+    "documented": 96
+  },
+  "newCompanyFocusReviews": 1,
+  "updatedCompanyFocusReviews": 0,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "savedSources": 26,
+    "usableSources": 24,
+    "bodyTypes": {
+      "HTML": 23,
+      "PDF": 1
+    },
+    "sourceProofs": 24,
+    "excludedSources": [
+      {
+        "requestedUrl": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+        "error": "HTTPSConnectionPool(host='www.cyberdyne.jp', port=443): Max retries exceeded with url: /products/hal-lowerlimb-medical (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f4fd1040910>: Failed to resolve 'www.cyberdyne.jp' ([Errno -3] Temporary failure in name resolution)\"))",
+        "usable": false
+      },
+      {
+        "requestedUrl": "https://www.cyberdyne.jp/media/25558/fompg-377-v1.pdf",
+        "url": "https://www.cyberdyne.jp/media/25558/fompg-377-v1.pdf",
+        "status": 200,
+        "contentType": "application/pdf",
+        "bodySha256": "53a0df55bc8b065504394837e9729be0e42e9f8beeec72ff597735414db8e266",
+        "bodyBytes": 10715805,
+        "bodyFile": "source-21.pdf",
+        "textFile": "source-21.txt",
+        "checkedAt": "2026-11-02",
+        "usable": false,
+        "pages": 4,
+        "exclusionReason": "Four-page brochure has no extractable text; no visual inspection or numeric evidence derived."
+      }
+    ],
+    "transientDnsFailureRecovered": true,
+    "pdfTextPagesRetained": 14,
+    "unreadImagePdfPages": 4,
+    "pdfCoordinateCellsChecked": [
+      {
+        "model": "HAL-ML07",
+        "value": "9.5kg",
+        "page": 3,
+        "bbox": [
+          206.61228942871094,
+          235.04876708984375,
+          233.54327392578125,
+          247.3804473876953
+        ]
+      },
+      {
+        "model": "HAL-ML07",
+        "value": "6.5kg",
+        "page": 3,
+        "bbox": [
+          208.75270080566406,
+          248.96876525878906,
+          235.68368530273438,
+          261.3004455566406
+        ]
+      },
+      {
+        "model": "HAL-ML07",
+        "value": "20Nm",
+        "page": 3,
+        "bbox": [
+          236.88381958007812,
+          266.2487487792969,
+          266.2535400390625,
+          278.5804443359375
+        ]
+      },
+      {
+        "model": "HAL-ML08",
+        "value": "13kg",
+        "page": 3,
+        "bbox": [
+          399.03045654296875,
+          235.04876708984375,
+          422.90228271484375,
+          247.3804473876953
+        ]
+      },
+      {
+        "model": "HAL-ML08",
+        "value": "9kg",
+        "page": 3,
+        "bbox": [
+          404.2298278808594,
+          248.96876525878906,
+          421.984375,
+          261.3004455566406
+        ]
+      },
+      {
+        "model": "HAL-ML08",
+        "value": "40Nm",
+        "page": 3,
+        "bbox": [
+          427.7738342285156,
+          266.2487487792969,
+          457.1435546875,
+          278.5804443359375
+        ]
+      }
+    ],
+    "htmlModelColumnsChecked": 6,
+    "htmlSharedMassColspansChecked": 2,
+    "formsSubmitted": 0,
+    "credentialConfirmations": 0,
+    "researchBrowsersOpened": 0,
+    "visualPdfInspectionPerformed": false
+  },
+  "sources": [
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products",
+      "url": "https://www.cyberdyne.jp/products",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "c48a07ff92161f855dc3c6bb96f7db0958142d3f8b1f60638fe71cd361ad6a9e",
+      "bodyBytes": 60876,
+      "bodyFile": "source-1.html",
+      "textFile": "source-1.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 0
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+      "error": "HTTPSConnectionPool(host='www.cyberdyne.jp', port=443): Max retries exceeded with url: /products/hal-lowerlimb-medical (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f4fd1040910>: Failed to resolve 'www.cyberdyne.jp' ([Errno -3] Temporary failure in name resolution)\"))",
+      "usable": false
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/hal-singlejoint-medical",
+      "url": "https://www.cyberdyne.jp/products/hal-singlejoint-medical",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "45f99e8c1c7f82dffdeba361dc74e718f6aa32064c6e1323eff70270d9892e40",
+      "bodyBytes": 65343,
+      "bodyFile": "source-3.html",
+      "textFile": "source-3.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 3
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing",
+      "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "c92d8ca99192d31c1ffd06acd92af84308cd5c9365393aad7226f9af3956490f",
+      "bodyBytes": 68589,
+      "bodyFile": "source-4.html",
+      "textFile": "source-4.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/hal-singlejoint-wellbeing",
+      "url": "https://www.cyberdyne.jp/products/hal-singlejoint-wellbeing",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "3a429fade756c3b617eb1076f1f2a9a764d1304550277b321016de61f1069661",
+      "bodyBytes": 62538,
+      "bodyFile": "source-5.html",
+      "textFile": "source-5.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/hal-lumbar-bb04",
+      "url": "https://www.cyberdyne.jp/products/hal-lumbar-bb04",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "c83dcf5bec233c85e9a3dc8a11ba1b597c151553763164b6e1b0525b3742ccd3",
+      "bodyBytes": 61800,
+      "bodyFile": "source-6.html",
+      "textFile": "source-6.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 1
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/hal-lumbar-laborsupport",
+      "url": "https://www.cyberdyne.jp/products/hal-lumbar-laborsupport",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "310e3fc50f67e20ab343514a95387828e873a029453ce53380dcea28eec3ada6",
+      "bodyBytes": 62294,
+      "bodyFile": "source-7.html",
+      "textFile": "source-7.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/cl02",
+      "url": "https://www.cyberdyne.jp/products/cl02",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "c3cf5f7a8a97931075837b1d203367f3ebeadc8bb6c05e7d3390ef9475d1e6e9",
+      "bodyBytes": 60968,
+      "bodyFile": "source-8.html",
+      "textFile": "source-8.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 1
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/transportrobot",
+      "url": "https://www.cyberdyne.jp/products/transportrobot",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "4cce4a3008cf6b03b56848ede53dd17747f97b52cca9df28878b9405b06be190",
+      "bodyBytes": 56356,
+      "bodyFile": "source-9.html",
+      "textFile": "source-9.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products",
+      "url": "https://www.cyberdyne.jp/en/products",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "70270a5cef6bf60ab605df250958ac1e00b02c13ddbf077666c821e796dd1733",
+      "bodyBytes": 58588,
+      "bodyFile": "source-10.html",
+      "textFile": "source-10.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 0
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+      "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "4e0359251543666df7972cc7756186ee3a4ec3141b6ed3151318944d30f2b2ba",
+      "bodyBytes": 68059,
+      "bodyFile": "source-11.html",
+      "textFile": "source-11.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/hal-singlejoint-medical",
+      "url": "https://www.cyberdyne.jp/en/products/hal-singlejoint-medical",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "ecd2a752be22841907636d2d5148a5feae59bfaf4601080525942997930f1f97",
+      "bodyBytes": 61474,
+      "bodyFile": "source-12.html",
+      "textFile": "source-12.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+      "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "615e2b30e98d802f0610122c96537d4a8cfcf1a40e5861ef20052c90867acecc",
+      "bodyBytes": 63003,
+      "bodyFile": "source-13.html",
+      "textFile": "source-13.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/hal-singlejoint-wellbeing",
+      "url": "https://www.cyberdyne.jp/en/products/hal-singlejoint-wellbeing",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "58345edb1f134306fa8c9b95d8062c9a9bcd2951a541da87d8b089d6b33866c4",
+      "bodyBytes": 60060,
+      "bodyFile": "source-14.html",
+      "textFile": "source-14.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/hal-lumbar-bb04",
+      "url": "https://www.cyberdyne.jp/en/products/hal-lumbar-bb04",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "5707d8b5d9af916b9e6749c2d23b9b603c40ab4309f9540e88ed4aeb93d4c6d8",
+      "bodyBytes": 58185,
+      "bodyFile": "source-15.html",
+      "textFile": "source-15.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 1
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport",
+      "url": "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "28a88252cc4b7c5f6cf8c98145e4ab56f6b06f873d973fc1f960b508c1695f86",
+      "bodyBytes": 57259,
+      "bodyFile": "source-16.html",
+      "textFile": "source-16.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/cl02",
+      "url": "https://www.cyberdyne.jp/en/products/cl02",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "5883dbf2b7d7b77a0edeb6e52e35f8d25219c681e106398e668e3a09493f079a",
+      "bodyBytes": 59395,
+      "bodyFile": "source-17.html",
+      "textFile": "source-17.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 1
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/transportrobot",
+      "url": "https://www.cyberdyne.jp/en/products/transportrobot",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "87de1d2b22258af0e0c7c5c04266b092abcc2fa34bda88cbc4391d0368a0ae05",
+      "bodyBytes": 55604,
+      "bodyFile": "source-18.html",
+      "textFile": "source-18.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+      "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "3ced6fc4173e4fa988f4d1de65159a4b7a0e2fc4a48a8ca051b8099a7b78b5b3",
+      "bodyBytes": 71046,
+      "bodyFile": "source-19.html",
+      "textFile": "source-19.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 5
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/media/23659/HT040000A-R11_r2.pdf",
+      "url": "https://www.cyberdyne.jp/media/23659/HT040000A-R11_r2.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bodySha256": "21c53665d42f2cadc335f1566595783e89ebfaa40f9290d519ac6c6ccd9f775c",
+      "bodyBytes": 2599779,
+      "bodyFile": "source-20.pdf",
+      "textFile": "source-20.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "pages": 14
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/media/25558/fompg-377-v1.pdf",
+      "url": "https://www.cyberdyne.jp/media/25558/fompg-377-v1.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bodySha256": "53a0df55bc8b065504394837e9729be0e42e9f8beeec72ff597735414db8e266",
+      "bodyBytes": 10715805,
+      "bodyFile": "source-21.pdf",
+      "textFile": "source-21.txt",
+      "checkedAt": "2026-11-02",
+      "usable": false,
+      "pages": 4,
+      "exclusionReason": "Four-page brochure has no extractable text; no visual inspection or numeric evidence derived."
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/medicalcare-pit",
+      "url": "https://www.cyberdyne.jp/en/products/medicalcare-pit",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "1930be2da900c74150fc1f424dc6a955a34f760eafcf549a796c26c0d84490da",
+      "bodyBytes": 58062,
+      "bodyFile": "source-22.html",
+      "textFile": "source-22.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/haltread",
+      "url": "https://www.cyberdyne.jp/en/products/haltread",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "4e2a7f4a76b479e1a506426fc4de5a948d288f1bb303ea74de8c2de6e9cbe7ee",
+      "bodyBytes": 54360,
+      "bodyFile": "source-23.html",
+      "textFile": "source-23.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/all-in-one",
+      "url": "https://www.cyberdyne.jp/en/products/all-in-one",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "44a009d642ed16aeda11cbea3ca299c0286e2211ab70dfe55f8db943a5fe3d97",
+      "bodyBytes": 54443,
+      "bodyFile": "source-24.html",
+      "textFile": "source-24.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 2
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/acoustic-x",
+      "url": "https://www.cyberdyne.jp/en/products/acoustic-x",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "8fc3dc213b323add075be43af1b90d6230274ae17d3f396a43850d6f9d69c085",
+      "bodyBytes": 85231,
+      "bodyFile": "source-25.html",
+      "textFile": "source-25.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 3
+    },
+    {
+      "requestedUrl": "https://www.cyberdyne.jp/en/products/cyin",
+      "url": "https://www.cyberdyne.jp/en/products/cyin",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "5f451321a08f830901c91feabae0dbf0b7521d4064aac71450577d3410d33a3c",
+      "bodyBytes": 62697,
+      "bodyFile": "source-26.html",
+      "textFile": "source-26.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true,
+      "extractedTableCount": 4
+    }
+  ],
+  "sourceProofs": [
+    {
+      "url": "https://www.cyberdyne.jp/products",
+      "bodySha256": "c48a07ff92161f855dc3c6bb96f7db0958142d3f8b1f60638fe71cd361ad6a9e",
+      "anchor": "製品・サービス | CYBERDYNE",
+      "textFile": "source-1.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/hal-singlejoint-medical",
+      "bodySha256": "45f99e8c1c7f82dffdeba361dc74e718f6aa32064c6e1323eff70270d9892e40",
+      "anchor": "医療用HAL単関節タイプ | CYBERDYNE",
+      "textFile": "source-3.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing",
+      "bodySha256": "c92d8ca99192d31c1ffd06acd92af84308cd5c9365393aad7226f9af3956490f",
+      "anchor": "自立支援用HAL下肢タイプ | CYBERDYNE",
+      "textFile": "source-4.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/hal-singlejoint-wellbeing",
+      "bodySha256": "3a429fade756c3b617eb1076f1f2a9a764d1304550277b321016de61f1069661",
+      "anchor": "自立支援用HAL単関節タイプ | CYBERDYNE",
+      "textFile": "source-5.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/hal-lumbar-bb04",
+      "bodySha256": "c83dcf5bec233c85e9a3dc8a11ba1b597c151553763164b6e1b0525b3742ccd3",
+      "anchor": "HAL腰タイプ 介護・自立支援用 | CYBERDYNE",
+      "textFile": "source-6.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/hal-lumbar-laborsupport",
+      "bodySha256": "310e3fc50f67e20ab343514a95387828e873a029453ce53380dcea28eec3ada6",
+      "anchor": "HAL腰タイプ 作業支援用 | CYBERDYNE",
+      "textFile": "source-7.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/cl02",
+      "bodySha256": "c3cf5f7a8a97931075837b1d203367f3ebeadc8bb6c05e7d3390ef9475d1e6e9",
+      "anchor": "除菌・清掃ロボットCL02 | CYBERDYNE",
+      "textFile": "source-8.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/transportrobot",
+      "bodySha256": "4cce4a3008cf6b03b56848ede53dd17747f97b52cca9df28878b9405b06be190",
+      "anchor": "搬送ロボット | CYBERDYNE",
+      "textFile": "source-9.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products",
+      "bodySha256": "70270a5cef6bf60ab605df250958ac1e00b02c13ddbf077666c821e796dd1733",
+      "anchor": "Products & Services | CYBERDYNE",
+      "textFile": "source-10.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+      "bodySha256": "4e0359251543666df7972cc7756186ee3a4ec3141b6ed3151318944d30f2b2ba",
+      "anchor": "Medical HAL – Lower Limb Type | CYBERDYNE",
+      "textFile": "source-11.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-singlejoint-medical",
+      "bodySha256": "ecd2a752be22841907636d2d5148a5feae59bfaf4601080525942997930f1f97",
+      "anchor": "Medical HAL – Single Joint Type | CYBERDYNE",
+      "textFile": "source-12.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+      "bodySha256": "615e2b30e98d802f0610122c96537d4a8cfcf1a40e5861ef20052c90867acecc",
+      "anchor": "Well-Being HAL – Lower Limb Type | CYBERDYNE",
+      "textFile": "source-13.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-singlejoint-wellbeing",
+      "bodySha256": "58345edb1f134306fa8c9b95d8062c9a9bcd2951a541da87d8b089d6b33866c4",
+      "anchor": "Well-being HAL – Single Joint Type | CYBERDYNE",
+      "textFile": "source-14.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-lumbar-bb04",
+      "bodySha256": "5707d8b5d9af916b9e6749c2d23b9b603c40ab4309f9540e88ed4aeb93d4c6d8",
+      "anchor": "HAL Lumbar Type for Well-being | CYBERDYNE",
+      "textFile": "source-15.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport",
+      "bodySha256": "28a88252cc4b7c5f6cf8c98145e4ab56f6b06f873d973fc1f960b508c1695f86",
+      "anchor": "HAL Lumbar Type for Labor Support | CYBERDYNE",
+      "textFile": "source-16.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/cl02",
+      "bodySha256": "5883dbf2b7d7b77a0edeb6e52e35f8d25219c681e106398e668e3a09493f079a",
+      "anchor": "Cleaning Robot CL02 | CYBERDYNE",
+      "textFile": "source-17.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/transportrobot",
+      "bodySha256": "87de1d2b22258af0e0c7c5c04266b092abcc2fa34bda88cbc4391d0368a0ae05",
+      "anchor": "Transportation Robot | CYBERDYNE",
+      "textFile": "source-18.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+      "bodySha256": "3ced6fc4173e4fa988f4d1de65159a4b7a0e2fc4a48a8ca051b8099a7b78b5b3",
+      "anchor": "医療用HAL下肢タイプ | CYBERDYNE",
+      "textFile": "source-19.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/media/23659/HT040000A-R11_r2.pdf",
+      "bodySha256": "21c53665d42f2cadc335f1566595783e89ebfaa40f9290d519ac6c6ccd9f775c",
+      "anchor": "Doc. No.: HT040000A-R11",
+      "textFile": "source-20.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/medicalcare-pit",
+      "bodySha256": "1930be2da900c74150fc1f424dc6a955a34f760eafcf549a796c26c0d84490da",
+      "anchor": "Medicalcare Pit | CYBERDYNE",
+      "textFile": "source-22.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/haltread",
+      "bodySha256": "4e2a7f4a76b479e1a506426fc4de5a948d288f1bb303ea74de8c2de6e9cbe7ee",
+      "anchor": "HALTREAD | CYBERDYNE",
+      "textFile": "source-23.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/all-in-one",
+      "bodySha256": "44a009d642ed16aeda11cbea3ca299c0286e2211ab70dfe55f8db943a5fe3d97",
+      "anchor": "All-in-One | CYBERDYNE",
+      "textFile": "source-24.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/acoustic-x",
+      "bodySha256": "8fc3dc213b323add075be43af1b90d6230274ae17d3f396a43850d6f9d69c085",
+      "anchor": "Acoustic X | CYBERDYNE",
+      "textFile": "source-25.txt"
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/cyin",
+      "bodySha256": "5f451321a08f830901c91feabae0dbf0b7521d4064aac71450577d3410d33a3c",
+      "anchor": "CYIN For Living Support | CYBERDYNE",
+      "textFile": "source-26.txt"
+    }
+  ],
+  "modelDecisions": [
+    {
+      "model": "HAL-ML08",
+      "robotId": "cyberdyne-hal-ml08",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+        "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+        "https://www.cyberdyne.jp/media/23659/HT040000A-R11_r2.pdf"
+      ]
+    },
+    {
+      "model": "HAL-ML07",
+      "robotId": "cyberdyne-hal-ml07",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+        "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+        "https://www.cyberdyne.jp/media/23659/HT040000A-R11_r2.pdf"
+      ]
+    },
+    {
+      "model": "HAL-ML05",
+      "robotId": "cyberdyne-hal-ml05",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+        "https://www.cyberdyne.jp/products/hal-lowerlimb-medical"
+      ]
+    },
+    {
+      "model": "HAL-FL08",
+      "robotId": "cyberdyne-hal-fl08",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+        "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing"
+      ]
+    },
+    {
+      "model": "HAL-FL07",
+      "robotId": "cyberdyne-hal-fl07",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+        "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing"
+      ]
+    },
+    {
+      "model": "HAL-FL05",
+      "robotId": "cyberdyne-hal-fl05",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+        "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing"
+      ]
+    },
+    {
+      "model": "Medical HAL Single Joint",
+      "robotId": "cyberdyne-medical-hal-single-joint",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-singlejoint-medical",
+        "https://www.cyberdyne.jp/products/hal-singlejoint-medical"
+      ]
+    },
+    {
+      "model": "Well-being HAL Single Joint",
+      "robotId": "cyberdyne-well-being-hal-single-joint",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-singlejoint-wellbeing",
+        "https://www.cyberdyne.jp/products/hal-singlejoint-wellbeing"
+      ]
+    },
+    {
+      "model": "HAL Lumbar Type for Well-being (BB04)",
+      "robotId": "cyberdyne-hal-lumbar-type-for-well-being-bb04",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lumbar-bb04",
+        "https://www.cyberdyne.jp/products/hal-lumbar-bb04"
+      ]
+    },
+    {
+      "model": "HAL-LB06",
+      "robotId": "cyberdyne-hal-lb06",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/products/hal-lumbar-laborsupport"
+      ]
+    },
+    {
+      "model": "HAL-LB03-SSSJP",
+      "robotId": "cyberdyne-hal-lb03-sssjp",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport"
+      ]
+    },
+    {
+      "model": "HAL-LB01",
+      "robotId": "cyberdyne-hal-lb01",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport"
+      ]
+    },
+    {
+      "model": "CL02",
+      "robotId": "cyberdyne-cl02",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/cl02",
+        "https://www.cyberdyne.jp/products/cl02"
+      ]
+    },
+    {
+      "model": "Transportation Robot",
+      "robotId": "cyberdyne-transportation-robot",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/transportrobot",
+        "https://www.cyberdyne.jp/products/transportrobot"
+      ]
+    },
+    {
+      "model": "Medicalcare Pit (HPD-BT04-JP)",
+      "robotId": "cyberdyne-medicalcare-pit-hpd-bt04-jp",
+      "action": "add-named-offering",
+      "sourceUrls": [
+        "https://www.cyberdyne.jp/en/products/medicalcare-pit"
+      ]
+    }
+  ],
+  "portfolioDecisions": {
+    "models": 15,
+    "newModels": 12,
+    "existingModelsReviewed": 3,
+    "notAdditionalCards": [
+      "Double/single-leg, hip widths, S/M/L/X and attachments stay within named HAL offerings. EU suffixes contain configuration placeholders rather than additional invented model cards.",
+      "HALTREAD is a supporting treadmill; All-in-One is a separate battery lifter. Medicalcare Pit is included because its page explicitly describes independently controlled robotic support and names HPD-BT04-JP.",
+      "Acoustic X imaging and CYIN communication are distinct non-robot devices; Cyvis M100 and Neuro HALFIT services remain portfolio references."
+    ],
+    "generationMappings": [
+      "Japanese Labor Support table explicitly HAL-LB06; English table explicitly HAL-LB03-SSSJP; no language-page alias or cross-generation specification transfer.",
+      "HAL-LB01 is explicitly referenced but has no technical table of its own; no LB03 mass/runtime or IP code transferred.",
+      "EU summary covers ML07/ML08 only; no extension to ML05 or FL well-being products."
+    ],
+    "unresolvedMappings": [
+      "Single-leg outer dimensions not separately supplied; minimum-adjustment model envelope retained with qualification.",
+      "BB04 endurance and full-charge duration unknown. LB06 mass does not explicitly say whether battery is included.",
+      "Current historic/regional model coverage, exact offers and independent clinical/occupational/cleaning outcomes remain open."
+    ],
+    "furtherResearch": [
+      "Complete historical and regional HAL portfolio, discontinued-model pages and exact delivered configurations.",
+      "Regulatory status and clinical efficacy require separate primary/regulatory review; no approval or injury-prevention result certified.",
+      "Image-only LB06 brochure not visually reviewed; no evidence derived from its unread pages."
+    ],
+    "scope": "Fifteen selected named Cyberdyne offerings; twelve new records and three existing reviews. No complete manufacturer portfolio or measured market-leadership claim."
+  },
+  "validation": {
+    "unitTests": 781,
+    "unitTestFiles": 63,
+    "pythonTests": 20,
+    "browserTestCases": 44,
+    "browserPassed": 44,
+    "browserFailed": 0,
+    "newCyberdyneBrowserCases": 26,
+    "comparisonRegressionCases": 18,
+    "axeCases": 12,
+    "sourceCodeChanged": true,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "applicationConfigurationChanged": true,
+    "newCommercialSubcategories": [
+      "commercial-workplace"
+    ],
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "buildPages": 3031,
+    "buildSizeApproxMB": 469,
+    "dataErrors": 0,
+    "dataWarnings": 864,
+    "dataWarningChange": 12,
+    "newUndocumentedReleaseYears": 12,
+    "newDocumentedReleaseYears": 0,
+    "changedFileLint": "passed",
+    "applicationLint": "passed",
+    "applicationFormat": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "globalRenderedReviewMetadataCheck": {
+      "allChecksPassed": true,
+      "reviewedModelPagesChecked": 679,
+      "selectedFieldValuesChecked": 11180,
+      "visibleTechnicalValuesAndSourceBadgesChecked": 4969,
+      "omittedEmptyOrNAFieldsChecked": 5234,
+      "descriptionAndWebsiteFieldsExcluded": 977,
+      "reviewedLaunchYearsWithSourceBadgesChecked": 47,
+      "scope": "Public raw values and evidence metadata match existing selected reviews across 679 model pages. This is not a re-fetch or independent certification of prior manufacturers, nor a review of unmarked specifications."
+    },
+    "renderedCyberdyneEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 15,
+      "selectedSpecificationFieldsChecked": 384,
+      "sourceBadgesChecked": 81,
+      "blankFieldsOmitted": 273,
+      "descriptionsChecked": 15,
+      "websitesChecked": 15,
+      "structuredSpecificationPropertiesChecked": 66,
+      "highlightStatementsChecked": 62,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 15,
+      "modelExportRowsChecked": 1,
+      "modelExportTargetsChecked": 3,
+      "modelExportFieldOccurrencesChecked": 78,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 3,
+      "researchQueueFieldsChecked": 78,
+      "scope": "Fifteen Cyberdyne offerings, with explicit regional/generation and configuration mappings. No full portfolio or independent testing claim."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 1969,
+      "unchangedPriorCatalogRows": 1966,
+      "reviewedExistingCatalogRows": 3,
+      "newCatalogRows": 12,
+      "newCsvColumns": [],
+      "categoryTransfers": 0,
+      "previousSpecificationReviewsEntirelyUnchanged": 664,
+      "newSpecificationReviews": 15,
+      "selectedFields": 384,
+      "previousCompanyFocusReviewsUnchanged": 76,
+      "newCompanyFocusReviews": 1,
+      "sourceIdentityRecordsPreserved": 1961,
+      "originalUnresolvedModelMentions": 3,
+      "originalUnresolvedListings": 9,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/brands.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json",
+        "data/companion.csv",
+        "data/smarthome.csv",
+        "data/robotic-arm.csv",
+        "data/educational.csv",
+        "data/outdoor.csv",
+        "data/quadruped.csv",
+        "data/humanoid.csv"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 351,
+        "withoutSelectedFieldReview": 167,
+        "selectedFields": 5737,
+        "selectedFieldStatuses": {
+          "documented": 2650,
+          "not-documented": 2927,
+          "conflicting": 150,
+          "roadmap": 10
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 75,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      },
+      "exportRows": {
+        "company-review": 591,
+        "model-review": 406,
+        "buyandrent-listing-review": 862,
+        "company-product-review": 132,
+        "robot-research-queue": 518
+      }
+    },
+    "sourceIntegrityCheck": {
+      "allChecksPassed": true,
+      "savedSources": 26,
+      "usableSources": 24,
+      "bodyTypes": {
+        "HTML": 23,
+        "PDF": 1
+      },
+      "sourceProofs": 24,
+      "excludedSources": [
+        {
+          "requestedUrl": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+          "error": "HTTPSConnectionPool(host='www.cyberdyne.jp', port=443): Max retries exceeded with url: /products/hal-lowerlimb-medical (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f4fd1040910>: Failed to resolve 'www.cyberdyne.jp' ([Errno -3] Temporary failure in name resolution)\"))",
+          "usable": false
+        },
+        {
+          "requestedUrl": "https://www.cyberdyne.jp/media/25558/fompg-377-v1.pdf",
+          "url": "https://www.cyberdyne.jp/media/25558/fompg-377-v1.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bodySha256": "53a0df55bc8b065504394837e9729be0e42e9f8beeec72ff597735414db8e266",
+          "bodyBytes": 10715805,
+          "bodyFile": "source-21.pdf",
+          "textFile": "source-21.txt",
+          "checkedAt": "2026-11-02",
+          "usable": false,
+          "pages": 4,
+          "exclusionReason": "Four-page brochure has no extractable text; no visual inspection or numeric evidence derived."
+        }
+      ],
+      "transientDnsFailureRecovered": true,
+      "pdfTextPagesRetained": 14,
+      "unreadImagePdfPages": 4,
+      "pdfCoordinateCellsChecked": [
+        {
+          "model": "HAL-ML07",
+          "value": "9.5kg",
+          "page": 3,
+          "bbox": [
+            206.61228942871094,
+            235.04876708984375,
+            233.54327392578125,
+            247.3804473876953
+          ]
+        },
+        {
+          "model": "HAL-ML07",
+          "value": "6.5kg",
+          "page": 3,
+          "bbox": [
+            208.75270080566406,
+            248.96876525878906,
+            235.68368530273438,
+            261.3004455566406
+          ]
+        },
+        {
+          "model": "HAL-ML07",
+          "value": "20Nm",
+          "page": 3,
+          "bbox": [
+            236.88381958007812,
+            266.2487487792969,
+            266.2535400390625,
+            278.5804443359375
+          ]
+        },
+        {
+          "model": "HAL-ML08",
+          "value": "13kg",
+          "page": 3,
+          "bbox": [
+            399.03045654296875,
+            235.04876708984375,
+            422.90228271484375,
+            247.3804473876953
+          ]
+        },
+        {
+          "model": "HAL-ML08",
+          "value": "9kg",
+          "page": 3,
+          "bbox": [
+            404.2298278808594,
+            248.96876525878906,
+            421.984375,
+            261.3004455566406
+          ]
+        },
+        {
+          "model": "HAL-ML08",
+          "value": "40Nm",
+          "page": 3,
+          "bbox": [
+            427.7738342285156,
+            266.2487487792969,
+            457.1435546875,
+            278.5804443359375
+          ]
+        }
+      ],
+      "htmlModelColumnsChecked": 6,
+      "htmlSharedMassColspansChecked": 2,
+      "formsSubmitted": 0,
+      "credentialConfirmations": 0,
+      "researchBrowsersOpened": 0,
+      "visualPdfInspectionPerformed": false
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 869,
+      "individualHighlights": 3698,
+      "productSourceReferences": 1536,
+      "specificationReviewModels": 679,
+      "specificationFields": 11180,
+      "publicJsonBytes": 2736271,
+      "catalogScriptBytes": 1987325,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 265,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "previouslyBlockedHostsRetried": false,
+    "new403Observed": 0,
+    "new404SourcesExcluded": 0,
+    "formsSubmitted": 0,
+    "visualPdfInspectionPerformed": false,
+    "pdfTextInspectionPerformed": true,
+    "initialValidationFindings": "First browser run passed 42 of 44 cases; two German comparison assertions expected a decimal point despite existing correct decimal-comma formatting. Updated assertion to require the localized value and model qualification, then all 44 cases passed. No product or formatting implementation change was needed.",
+    "scope": "Twenty-four usable source bodies: 23 HTML plus one 14-page PDF. One transient DNS attempt recovered; one image-only four-page PDF excluded, not visually read. Twenty-four sampled anchors/body hashes, six HTML model columns, two shared-mass colspans and six PDF coordinate cells checked. Forty-four selected browser cases, not a full browser-suite rerun. No independent manufacturer performance certification."
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "dataCommit": "d4695f094df1f4c52ab19260f6589277cfe25f38",
+    "dataPushVerified": true,
+    "mainUnchanged": true
+  },
+  "goalComplete": false,
+  "sourceTableLayoutChecks": [
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+      "columns": [
+        {
+          "model": "HAL-ML08",
+          "doubleLegKg": 13,
+          "singleLegKg": 9
+        },
+        {
+          "model": "HAL-ML07",
+          "doubleLegKg": 9.5,
+          "singleLegKg": 6.5
+        },
+        {
+          "model": "HAL-ML05",
+          "doubleLegKg": 14,
+          "singleLegKg": 9
+        }
+      ],
+      "massIncludes": [
+        "cuffs",
+        "sensor shoes",
+        "batteries"
+      ]
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+      "columns": [
+        {
+          "model": "HAL-FL08",
+          "doubleLegKg": 13,
+          "singleLegKg": 9
+        },
+        {
+          "model": "HAL-FL07",
+          "doubleLegKg": 9.5,
+          "singleLegKg": 6.5
+        },
+        {
+          "model": "HAL-FL05",
+          "doubleLegKg": 14,
+          "singleLegKg": 9
+        }
+      ],
+      "massIncludes": [
+        "cuffs",
+        "sensor shoes",
+        "batteries"
+      ]
+    },
+    {
+      "url": "https://www.cyberdyne.jp/products/hal-lumbar-bb04",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "massKg": 3.1,
+      "massCellColspan": 3,
+      "batteryIncluded": true
+    },
+    {
+      "url": "https://www.cyberdyne.jp/en/products/hal-lumbar-bb04",
+      "sizes": [
+        "XS",
+        "S",
+        "M"
+      ],
+      "massKg": 3.1,
+      "massCellColspan": 3,
+      "batteryIncluded": true
+    }
+  ]
+}
