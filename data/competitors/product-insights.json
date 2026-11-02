@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "products": [
     {
       "robotId": "kuka-lbr-iiwa-7-r800",
@@ -14511,14 +14511,16 @@
       "highlights": [
         "Industrial humanoid uses a dual-battery system and autonomous battery swapping",
         "Binocular RGB stereo perception supports depth estimation",
-        "Co-Agent and BrainNet 2.0 are presented for coordinated production-line tasks"
+        "Co-Agent and BrainNet 2.0 are presented for coordinated production-line tasks",
+        "The manufacturer describes autonomous battery swapping within three minutes using dual-battery balancing and a supporting swap station. This is a replenishment process, not a three-minute full charge or 24-hour single-battery runtime.",
+        "The 15 kg handling claim applies within a 0-1.8 m workspace. Workspace height is not arm length; rotation and bending angles are not DOF counts. RGB stereo depth estimation supplies no numerical vision-accuracy rating."
       ],
       "sources": [
         {
-          "name": "UBTECH",
+          "name": "UBTECH — UBTECH Walker S2 Humanoid Robot | Autonomous Battery Swapping for Mass Production Delivery",
           "type": "manufacturer",
           "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -14532,14 +14534,16 @@
       "highlights": [
         "Full-size humanoid platform for academic research, education and secondary development",
         "Open joint and sensor interfaces support teleoperation and data acquisition",
-        "URDF models and reinforcement-learning toolchains support control research"
+        "URDF models and reinforcement-learning toolchains support control research",
+        "The OCR configuration table separates Voice & Vision at about 61 kg from Embodied Intelligence at about 73 kg and 42 DOF. The Voice & Vision total remains unconfirmed because the OCR engines disagree on its final digit. The former has non-functional hands; the latter has two six-DOF dexterous hands. Shared rows list 172 cm, 7 km/h and three-hour endurance.",
+        "The full-body anatomical diagram and table were inspected as OCR text and bounding boxes, without visual inspection. Open-source datasets remain marked for progressive release; future industrial, commercial and home applications do not establish deployed capability."
       ],
       "sources": [
         {
-          "name": "UBTECH",
+          "name": "UBTECH — UBTECH Walker Tienkung Humanoid Robot for Academic Research & Education",
           "type": "manufacturer",
           "url": "https://www.ubtrobot.com/en/ai-education/products/walker-tienkung",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -33175,6 +33179,378 @@
       ],
       "discoveredIn": [
         "https://www.superdroidrobots.com/lynx-robot"
+      ]
+    },
+    {
+      "robotId": "ubtech-cadebot-l100",
+      "manufacturer": "UBTECH",
+      "model": "CADEBOT L100",
+      "highlights": [
+        "The current navigation identifies CADEBOT L100 and links to the CADEBOT product page. Open trays use infrared pickup detection, while the 21-inch advertising display and voice features support hospitality and retail service.",
+        "OCR specifications give 55 kg net versus 85 kg gross, 40 kg total capacity and 10 kg per tray. Working duration is six hours in one table block but eight in another and the HTML prose; twelve-hour standby and four-hour charging do not resolve that conflict."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cadebot | Multi-scene Intelligent Open Delivery Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/commercial/products/cadebot",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "UBTECH — UBTECH: Humanoid Robot | AI Education Robot | Commercial Robot Solutions",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/commercial/products/cadebot"
+      ]
+    },
+    {
+      "robotId": "ubtech-yanshee",
+      "manufacturer": "UBTECH",
+      "model": "Yanshee",
+      "highlights": [
+        "The manufacturer describes a nearly 15-inch platform with 17 servos and a Raspberry Pi controller. Face, image and voice recognition support educational exercises; recognition names do not establish numerical vision accuracy.",
+        "Python, C/C++, Java and Perl are named programming options. Senior-high-school and university positioning does not define a universal numerical age limit; battery duration and price remain unspecified in the selected page."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Yanshee | Open-source Platform for Educators and Students",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/yanshee",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/ai-education/products/yanshee"
+      ]
+    },
+    {
+      "robotId": "ubtech-ugot",
+      "manufacturer": "UBTECH",
+      "model": "UGOT",
+      "highlights": [
+        "The inventory lists four wheel motors and eight joint servomotors. Eight joint motors are not the complete DOF count of every seven-form build, and the kit’s many assemblies are not seven independently purchased robot models.",
+        "The specification text lists 2.5-hour operating time, 160 cm/s maximum speed and a 19 V/1 A charging input. Input power does not specify charge time; inconsistent camera pixel wording is not converted into camera or vision precision."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Ugot AI Education Robotic Kits",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ugot/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/ai-education/products/ugot/"
+      ]
+    },
+    {
+      "robotId": "ubtech-ukit-ai",
+      "manufacturer": "UBTECH",
+      "model": "uKit AI",
+      "highlights": [
+        "The visual-sensor description supports recognition and model-training exercises, including offline vision training. Speech recognition, synthesis and language functions also reference UBTECH cloud services; the whole kit is not claimed to operate every AI function offline.",
+        "Controllers, sensors, actuators and structural parts support different student builds. The kit has no universal complete-robot mass, DOF, travel speed or payload rating in the selected manufacturer page."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH uKit Advanced Robot | Buildable Programming Robot for AI Learning",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ukit-ai",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/ai-education/products/ukit-ai"
+      ]
+    },
+    {
+      "robotId": "ubtech-alpha-1e",
+      "manufacturer": "UBTECH",
+      "model": "Alpha 1E",
+      "highlights": [
+        "The manufacturer lists 1.8 kg, 401 x 208 x 124 mm and 16 servo motors. Its 2500 mAh, 7.4 V battery rating does not establish runtime or charging time.",
+        "Blockly, voice interaction and sensor-based exercises describe the consumer learning platform. They do not establish independent educational outcomes, numerical vision accuracy or a current purchase price."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — Alpha-1E-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-1e",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-1e"
+      ]
+    },
+    {
+      "robotId": "ubtech-alphamini",
+      "manufacturer": "UBTECH",
+      "model": "AlphaMini",
+      "highlights": [
+        "The current manufacturer table gives 700 g including battery and 245 x 149 x 112 mm, replacing the unverified 0.78 kg catalog value. Its 14 DOF include two-DOF arms, rather than fourteen dexterous finger joints.",
+        "A 4060 mAh battery specification does not establish the earlier two-hour runtime claim. Voice, face/object interaction and LTE capabilities do not verify present regional network support, account services or a numerical target age."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — Alpha-Mini-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini"
+      ]
+    },
+    {
+      "robotId": "ubtech-ukit-explore",
+      "manufacturer": "UBTECH",
+      "model": "uKit Explore",
+      "highlights": [
+        "The US education listing specifies more than 1000 building pieces, 16 servos and two DC motors, with 38 builds. These are kit contents and assembly possibilities, not 38 complete robots or one universal system DOF count.",
+        "The regional page lists 749.95 USD with back-order and sold-out wording. It targets Grade 6 and above, while the global page targets upper-primary/junior-secondary education; neither establishes a universal 11-18 age band or present availability."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH uKit Explore | Multi-form AI Education Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ukit-explore",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "UBTECH — uKit Explore",
+          "type": "manufacturer",
+          "url": "https://www.ubtecheducation.com/products/ukit-explore",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/ai-education/products/ukit-explore"
+      ]
+    },
+    {
+      "robotId": "ubtech-walker-s1",
+      "manufacturer": "UBTECH",
+      "model": "Walker S1",
+      "highlights": [
+        "The selected page supports semantic VSLAM, general task planning and learning-based whole-body control. Factory workflow integration with AMRs/AGVs is distinct from a claim that every shown production task is autonomous or independently validated.",
+        "The specification images label sensors, ports and emergency controls rather than numerical mass, runtime, speed or total DOF. Earlier catalog numbers and the 75000 USD price are not certified by this evidence."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S1 Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-s1"
+      ]
+    },
+    {
+      "robotId": "ubtech-walker-c",
+      "manufacturer": "UBTECH",
+      "model": "Walker C",
+      "highlights": [
+        "The dedicated Walker C page gives 163 cm, 43 kg and 20 DOF, with two hours walking, four hours standing and 1.5 hours charging. The stated six-km/h pace is a manufacturer claim rather than an independently measured operating speed.",
+        "The previous catalog URL pointed to older Walker, whose page gives 145 cm, 77 kg and 36 DOF. These are distinct models. The Walker C arm line says 500 mm wingspan and 5 kg weight; arm mass is not a five-kg manipulator payload."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker C Humanoid Service Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-c"
+      ]
+    },
+    {
+      "robotId": "ubtech-walker-c1",
+      "manufacturer": "UBTECH",
+      "model": "Walker C1",
+      "highlights": [
+        "The manufacturer describes configurable motion, a multimodal intelligence engine and standard interfaces with SDK support for service and research applications. The anatomical specification image labels dexterous hands as optional.",
+        "The product page positions reception, guided tours, events, patrol and education as scenarios. These examples and rapid-delivery language do not establish current stock, independent safety certification or a dated first commercial release."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker C1 Humanoid Service Robot | UBTECH Robotics",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c1/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-c1/"
+      ]
+    },
+    {
+      "robotId": "ubtech-panda-robot-youyou",
+      "manufacturer": "UBTECH",
+      "model": "Panda Robot (Youyou)",
+      "highlights": [
+        "The manufacturer specifies 63 kg, 130 cm, 41 DOF and a 1.5 kg extended-state load per arm with 600 mm single-arm span. Two-hour mixed-use endurance and two-hour charging are separate; the 3.6 kg battery is not robot mass.",
+        "Navigation accuracy is listed as 20 cm, localization as 10 cm and fine localization as 1 cm. These distinct metrics are not camera precision. Exhibition guidance, calligraphy and performances are described applications without a universal manipulation guarantee."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Panda Robot for Exhibition Guidance",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/panda-robot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/panda-robot"
+      ]
+    },
+    {
+      "robotId": "ubtech-walker",
+      "manufacturer": "UBTECH",
+      "model": "Walker",
+      "highlights": [
+        "The older Walker page specifies 36 DOF, 145 cm and 77 kg. Single-arm extended load is 1.5 kg with 540 mm stated span; its 6 kg battery is separate from whole-robot mass.",
+        "Two-hour usage and two-hour charging are separate values. U-SLAM, object recognition and smart-home interfaces describe this platform; later Walker C/X/S specifications are not inherited."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — Walker-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker"
+      ]
+    },
+    {
+      "robotId": "ubtech-walker-s",
+      "manufacturer": "UBTECH",
+      "model": "Walker S",
+      "highlights": [
+        "The standard Walker S is explicitly described as 1.7 m tall with 41 force-feedback servo joints. RGB-D perception, semantic maps and point-cloud object-pose estimation support factory positioning and handling without a numerical positioning-accuracy rating.",
+        "The standard-model OCR specification cards give 65 kg, 600 mm single-arm length and approximately 2.5 hours battery autonomy. Walker S Lite has separate 130 cm, 63 kg, 41-DOF and two-hour cards; values are assigned through distinct HTML configuration containers."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S Industrial Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-s"
+      ]
+    },
+    {
+      "robotId": "ubtech-walker-s-lite",
+      "manufacturer": "UBTECH",
+      "model": "Walker S Lite",
+      "highlights": [
+        "The manufacturer configuration section separately names Walker S Lite. Its OCR cards give 130 cm, 63 kg and 41 DOF, with 600 mm single-arm length and approximately two-hour battery autonomy.",
+        "Distinct HTML items1 containers and Lite-labeled filenames separate these cards from standard Walker S items0 cards. The latter give 170 cm, 65 kg and about 2.5 hours. OCR text and ownership were inspected without visual image review."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S Industrial Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-s"
+      ]
+    },
+    {
+      "robotId": "ubtech-walker-x",
+      "manufacturer": "UBTECH",
+      "model": "Walker X",
+      "highlights": [
+        "The specification table lists 63 kg, 130 cm, 41 DOF, two-hour mixed-use duration and a 1.5 kg extended-state load per arm. Narrative carrying and walking demonstrations mention 10 kg and 3 kg respectively; those task conditions do not replace the extended-arm rating.",
+        "Navigation, localization and fine-localization claims are 20 cm, 10 cm and 1 cm respectively. The maximum three-km/h speed and terrain limits remain attributed manufacturer claims, separate from camera resolution and independent validation."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker X Commercial Humanoid Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-x",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-x"
+      ]
+    },
+    {
+      "robotId": "ubtech-cruzr-y1",
+      "manufacturer": "UBTECH",
+      "model": "Cruzr Y1",
+      "highlights": [
+        "The manufacturer identifies separate palletizing, sorting and machine-tending scenarios coordinated through Co-Agent. Claims about correcting displaced material and avoiding downtime are product positioning rather than independently verified availability.",
+        "Anatomical OCR labels identify a lifting module, load plate, arms and end effectors. Their presence does not establish lift stroke, complete-system payload or endurance, and Cruzr S2 ratings are not inherited."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cruzr Y1",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/cruzr-y1",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/cruzr-y1"
+      ]
+    },
+    {
+      "robotId": "ubtech-cruzr-s2",
+      "manufacturer": "UBTECH",
+      "model": "Cruzr S2",
+      "highlights": [
+        "The described platform handles 15 kg across a 0-1.8 m workspace, with 0-40 cm body lift and two-metre-per-second travel. A 0.8 m passage claim and body rotation angle do not establish turning radius or a universal minimum aisle specification.",
+        "Generation-four dexterous hands and sim-to-real training support the manufacturer’s sub-millimetre manipulation claim. No test conditions establish a numerical camera-precision or navigation-accuracy rating; wheeled drive remains distinct from bipedal Walker S2."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cruzr S2 Full-sized Wheeled Humanoid Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/cruzr-s2",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/cruzr-s2"
+      ]
+    },
+    {
+      "robotId": "ubtech-cruzr-1s",
+      "manufacturer": "UBTECH",
+      "model": "Cruzr 1S",
+      "highlights": [
+        "Command, schedule and automatic charging modes accompany an up-to-eight-hour single-charge claim. The separate 24-hour standby wording is not a day of uninterrupted active work.",
+        "The platform combines guided tours, customized Q&A and IoT control. Centimetre-level path-planning wording supplies neither a qualified numerical navigation error nor a camera-precision test result."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — Cruzr 1S-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/commercial/products/cruzr-1s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/commercial/products/cruzr-1s"
       ]
     }
   ]

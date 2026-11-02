@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "scope": "Selected fields only; unmarked fields remain unverified. Manufacturer documentation is not independent testing.",
   "reviews": [
     {
@@ -128152,6 +128152,2138 @@
           "value": "",
           "status": "not-documented",
           "note": "No numerical full-robot charging duration established; a 120 V outlet and automatic charger are not charging time."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-cadebot-l100",
+      "manufacturer": "UBTECH",
+      "model": "CADEBOT L100",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cadebot | Multi-scene Intelligent Open Delivery Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/commercial/products/cadebot",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "UBTECH — UBTECH: Humanoid Robot | AI Education Robot | Commercial Robot Solutions",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-22.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "55 kg net; 85 kg gross shipment is separate",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "size": {
+          "value": "551 x 484 x 1265 mm listed dimensions",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "batteryLife": {
+          "value": "6 h working in system table; 8 h working in charging section and page prose; 12 h standby",
+          "status": "conflicting",
+          "note": "Same image system block gives 6 h working while charging block and HTML give 8 h working; both distinguish 12 h standby. No universal working duration selected. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "conflicting",
+          "note": "Conflicting 6 h and 8 h working durations; no single numeric maximum selected."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous complete-robot actuated DOF count established. Actuator inventory, passive parts and anatomical diagram labels are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "0.3-1.0 m/s, adjustable",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "terrain": {
+          "value": "Supplier lists 15 mm obstacle crossing and 5-degree climbing; conditions unspecified",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/commercial/products/cadebot",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Open-tray delivery robot with an advertising display, pickup sensors and autonomous navigation. The manufacturer lists a 55 kg platform and 40 kg total delivery capacity. Published six- and eight-hour working-duration figures conflict; standby and charging remain separate.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "chargingTime": {
+          "value": "4 h",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "driveMode": {
+          "value": "Autonomous wheeled delivery; U-SLAM laser/visual localization and obstacle avoidance",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "transportPayload": {
+          "value": "40 kg total across loading places; 10 kg per tray",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "minAisleWidth": {
+          "value": "65 cm passage claim; site conditions unspecified",
+          "status": "documented",
+          "note": "Published 65 cm narrow-lane passage claim retained with unspecified site/turning conditions; no standardized all-scenarios minimum."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker-tienkung",
+      "manufacturer": "UBTECH",
+      "model": "Walker Tienkung",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker Tienkung Humanoid Robot for Academic Research & Education",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/walker-tienkung",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "About 61 kg Voice & Vision; about 73 kg Embodied Intelligence",
+          "status": "documented",
+          "note": "Manufacturer configuration table extracted with OCR; separate column ownership checked against text bounding boxes, no visual inspection. Voice & Vision and Embodied Intelligence values retain configuration labels."
+        },
+        "size": {
+          "value": "172 cm height; manufacturer configuration table",
+          "status": "documented",
+          "note": "Manufacturer configuration table extracted with OCR; separate column ownership checked against text bounding boxes, no visual inspection. Voice & Vision and Embodied Intelligence values retain configuration labels."
+        },
+        "batteryLife": {
+          "value": "3 h stated endurance; workload unspecified",
+          "status": "documented",
+          "note": "Manufacturer configuration table extracted with OCR; separate column ownership checked against text bounding boxes, no visual inspection. Voice & Vision and Embodied Intelligence values retain configuration labels."
+        },
+        "maxRuntime": {
+          "value": "180 min stated endurance; workload unspecified",
+          "status": "documented",
+          "note": "Manufacturer configuration table extracted with OCR; separate column ownership checked against text bounding boxes, no visual inspection. Voice & Vision and Embodied Intelligence values retain configuration labels."
+        },
+        "handType": {
+          "value": "Voice & Vision: two non-functional hands; Embodied Intelligence: two 6-DOF five-finger dexterous hands",
+          "status": "documented",
+          "note": "Manufacturer configuration table extracted with OCR; separate column ownership checked against text bounding boxes, no visual inspection. Voice & Vision and Embodied Intelligence values retain configuration labels."
+        },
+        "dof": {
+          "value": "42 DOF Embodied Intelligence; Voice & Vision total unconfirmed",
+          "status": "documented",
+          "note": "Manufacturer configuration table extracted with OCR; separate column ownership checked against text bounding boxes, no visual inspection. Voice & Vision and Embodied Intelligence values retain configuration labels."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "7 km/h stated moving speed",
+          "status": "documented",
+          "note": "Manufacturer configuration table extracted with OCR; separate column ownership checked against text bounding boxes, no visual inspection. Voice & Vision and Embodied Intelligence values retain configuration labels."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/ai-education/products/walker-tienkung",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Full-size research humanoid with open joint and sensor interfaces, teleoperation support, URDF models and reinforcement-learning tools. Voice & Vision and Embodied Intelligence configurations have different masses, joint counts and hands. The manufacturer labels its embodied-AI datasets for progressive future release.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-yanshee",
+      "manufacturer": "UBTECH",
+      "model": "Yanshee",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Yanshee | Open-source Platform for Educators and Students",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/yanshee",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-8.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "size": {
+          "value": "Nearly 15 in height; manufacturer approximation",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "17 servos; manufacturer platform inventory",
+          "status": "documented",
+          "note": "17 is explicitly the servo inventory; no passive or optional accessory axes added."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/ai-education/products/yanshee",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Educational humanoid built around a programmable Raspberry Pi with sensors and 17 servos. Python, C/C++, Java and Perl support classroom programming, while the app offers Blockly and motion control. Manufacturer positioning targets senior high school and university education.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-ugot",
+      "manufacturer": "UBTECH",
+      "model": "UGOT",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Ugot AI Education Robotic Kits",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ugot/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-9.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "batteryLife": {
+          "value": "2.5 h stated operating time",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "maxRuntime": {
+          "value": "150 min stated operating time",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Prior eight DOF conflated joint servomotor count with complete assembled-system degrees of freedom. Four wheel motors are also listed; no universal total selected."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "Maximum 160 cm/s (1.6 m/s); build/conditions unspecified",
+          "status": "documented",
+          "note": "Maximum 160 cm/s from named product HTML; build, payload and terrain conditions unestablished."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/ai-education/products/ugot/",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Seven-form modular educational robotics kit with CPU, GPU and NPU computing, uCode/uPython tools and app control. The manufacturer describes wheel and joint actuators separately. Operating time and maximum speed are platform claims without a guarantee that every assembled form achieves them.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Prior 2025 release year is not established by asset paths or selected product text."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "driveMode": {
+          "value": "Reconfigurable modular kit; motion depends on assembled form",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-ukit-ai",
+      "manufacturer": "UBTECH",
+      "model": "uKit AI",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH uKit Advanced Robot | Buildable Programming Robot for AI Learning",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ukit-ai",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-10.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous complete-robot actuated DOF count established. Actuator inventory, passive parts and anatomical diagram labels are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/ai-education/products/ukit-ai",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Buildable AI education kit combining a controller, microphone array, speaker, Wi-Fi and vision accessories. uCode and MicroPython support programming and classroom experiments. Local vision-model exercises and cloud-assisted speech are separate capabilities.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "driveMode": {
+          "value": "Buildable robot kit; control depends on assembled model and program",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-alpha-1e",
+      "manufacturer": "UBTECH",
+      "model": "Alpha 1E",
+      "sources": [
+        {
+          "name": "UBTECH — Alpha-1E-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-1e",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-11.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "1.8 kg",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "size": {
+          "value": "401 x 208 x 124 mm H x W x T",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "16 servo motors",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-1e",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Compact educational humanoid with 16 servo motors, Blockly lessons and voice interaction. The manufacturer lists infrared ranging, inertial and touch sensors with app control. Battery capacity is specified without a corresponding operating or charging duration.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-alphamini",
+      "manufacturer": "UBTECH",
+      "model": "AlphaMini",
+      "sources": [
+        {
+          "name": "UBTECH — Alpha-Mini-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-12.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Prior approximate 1200 USD price lacks support in selected manufacturer evidence."
+        },
+        "weight": {
+          "value": "700 g including battery",
+          "status": "documented",
+          "note": "Current named-model HTML explicitly says 700 g with battery; prior unverified 0.78 kg replaced, without asserting every regional generation shares this mass."
+        },
+        "size": {
+          "value": "245 x 149 x 112 mm H x W x T",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "Two articulated arms with 2 DOF each; not dexterous finger hands",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "dof": {
+          "value": "14: head 3, arms 4, waist 1, legs 6",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Portable humanoid with 14 servos, expressive screen eyes, voice interaction and graphical coding. The current manufacturer table gives 700 g including battery and a 245 mm height. LTE and app features depend on compatible connectivity and services.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Selected product page does not establish a 2018 first-sale date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-ukit-explore",
+      "manufacturer": "UBTECH",
+      "model": "uKit Explore",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH uKit Explore | Multi-form AI Education Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ukit-explore",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "UBTECH — uKit Explore",
+          "type": "manufacturer",
+          "url": "https://www.ubtecheducation.com/products/ukit-explore",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-23.html",
+      "fields": {
+        "price": {
+          "value": "749.95 USD regional listing snapshot; back order/sold out, November 2, 2026",
+          "status": "documented",
+          "note": "Manufacturer regional education storefront snapshot, before shipping/tax; back-order/sold-out status retained. Global platform does not establish a universal package price."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous complete-robot actuated DOF count established. Actuator inventory, passive parts and anatomical diagram labels are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Global educational stages and regional Grade 6+ retained in prose, not converted into a universal numeric age range."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/ai-education/products/ukit-explore",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Arduino-compatible educational robotics kit using uCode and Arduino IDE for coding and electronics projects. The regional education shop lists over 1,000 parts, 16 servos and two DC motors with 38 possible builds. Kit contents and curricula vary by package and region.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Prior 2019 first-sale year not established by selected pages."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "driveMode": {
+          "value": "Arduino-compatible modular kit; control depends on build and program",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker-s2",
+      "manufacturer": "UBTECH",
+      "model": "Walker S2",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S2 Humanoid Robot | Autonomous Battery Swapping for Mass Production Delivery",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-2.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The inspected HTML and specification anatomy diagrams do not establish a complete-robot mass; the prior unverified 73 kg is withheld."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete height/envelope established in inspected HTML or OCR anatomy labels; a generic large label is not dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "Dexterous hands; configuration diagram, individual finger DOF unestablished",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Prior 52 DOF is not established by inspected anatomy labels. No total inferred by counting sensors, hands or camera axes."
+        },
+        "payload": {
+          "value": "15 kg in described lifting tasks; workspace height 0-1.8 m",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Industrial humanoid combining dual-battery power management, autonomous station-based battery swapping and RGB stereo perception. UBTECH describes 15 kg lifting within a 0-1.8 m workspace and coordinated factory tasks through Co-Agent and BrainNet 2.0. Continuous service depends on replenishment infrastructure and does not specify single-charge endurance.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "0-1.8 m is workspace height, not the arm reach; no arm-length value selected."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker-s1",
+      "manufacturer": "UBTECH",
+      "model": "Walker S1",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S1 Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-4.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Prior 75000 USD has no model-specific price support in selected manufacturer evidence."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Prior 77 kg is unsupported by the selected model page/anatomy labels; not inherited from the older Walker."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous complete-robot actuated DOF count established. Actuator inventory, passive parts and anatomical diagram labels are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numerical S1 load selected; S2 15 kg lifting is not an S1 rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Industrial humanoid combining task planning, semantic VSLAM and learning-based whole-body control. UBTECH describes vehicle assembly-line work coordinated with AMRs and AGVs through manufacturing management systems. Its selected public page explains navigation and integration without a numerical complete-robot specification table.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker-c",
+      "manufacturer": "UBTECH",
+      "model": "Walker C",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker C Humanoid Service Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-16.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "43 kg",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "size": {
+          "value": "163 cm height",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "batteryLife": {
+          "value": "Walking 2 h; standing 4 h",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "maxRuntime": {
+          "value": "Walking 120 min; standing 240 min",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "20",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 5 kg value is labeled arm weight, not a manipulator load rating."
+        },
+        "speed": {
+          "value": "6 km/h stated running pace",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/walker-c",
+          "status": "documented",
+          "note": "Corrected to dedicated Walker C manufacturer page; older /walker page describes a different model."
+        },
+        "description": {
+          "value": "Commercial service humanoid for multilingual reception, guided tours and visitor interaction. UBTECH describes U-SLAM route positioning and obstacle detection, with a 163 cm, 43 kg platform and 20 DOF. Walking and standing endurance are specified separately, while arm component mass does not establish payload.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "1.5 h",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Source labels 500 mm wingspan without a clear single-arm/reference convention. Not selected as an unambiguous arm-reach value."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker-c1",
+      "manufacturer": "UBTECH",
+      "model": "Walker C1",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker C1 Humanoid Service Robot | UBTECH Robotics",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c1/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-6.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "Dexterous hands optional; anatomy diagram",
+          "status": "documented",
+          "note": "Optional label matched in desktop/mobile OCR anatomy text; no visual image inspection."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous complete-robot actuated DOF count established. Actuator inventory, passive parts and anatomical diagram labels are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/walker-c1/",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Full-size service humanoid positioned for reception, guided tours, events and education. A motion library, standard interfaces and SDK support customization. UBTECH describes modular construction and deployment options; the selected page does not establish numerical mass, endurance or complete-system joint count.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-panda-robot-youyou",
+      "manufacturer": "UBTECH",
+      "model": "Panda Robot (Youyou)",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Panda Robot for Exhibition Guidance",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/panda-robot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-7.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "63 kg",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "size": {
+          "value": "130 cm height",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "batteryLife": {
+          "value": "2 h under combined working conditions",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "maxRuntime": {
+          "value": "120 min under combined working conditions",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "handType": {
+          "value": "Two 6-DOF hands",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "dof": {
+          "value": "41: legs 12, arms 14, hands 12, neck 3",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "payload": {
+          "value": "1.5 kg per arm in extended state",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "speed": {
+          "value": "Maximum 3 km/h",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "terrain": {
+          "value": "Supplier lists 3 cm unevenness, 15 cm steps and 20-degree slopes; conditions unverified",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/panda-robot",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Panda-form humanoid Youyou was customized for the China Pavilion at Expo 2020 Dubai using Walker technology. It supports visitor interaction and scripted cultural performances. Manufacturer specifications separate extended-arm load, single-arm span and navigation accuracy from battery and whole-robot mass.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Expo 2020 Dubai reference does not by itself date a first commercial release; prior 2021 launch value not certified."
+        },
+        "chargingTime": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "armReach": {
+          "value": "600 mm stated single-arm span",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker",
+      "manufacturer": "UBTECH",
+      "model": "Walker",
+      "sources": [
+        {
+          "name": "UBTECH — Walker-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "77 kg",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "size": {
+          "value": "145 cm height",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "batteryLife": {
+          "value": "2 h stated usage",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "maxRuntime": {
+          "value": "120 min stated usage",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "handType": {
+          "value": "Two 4-DOF hands",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "dof": {
+          "value": "36: legs 12, arms 14, hands 8, neck 2",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "payload": {
+          "value": "1.5 kg per arm in extended state",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "Manufacturer describes carpet, floor, grass, stairs, slopes and tiles; no numerical limits selected",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/walker",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Earlier Walker humanoid with 36 servo joints, visual navigation and smart-home interfaces. Its manufacturer page lists a 145 cm, 77 kg platform, 1.5 kg extended-state load per arm and two-hour usage. It remains distinct from Walker C, X and the industrial S models.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "armReach": {
+          "value": "540 mm stated single-arm span",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker-s",
+      "manufacturer": "UBTECH",
+      "model": "Walker S",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S Industrial Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-15.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "65 kg",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "size": {
+          "value": "170 cm height",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "batteryLife": {
+          "value": "Approximately 2.5 h; detachable battery",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "maxRuntime": {
+          "value": "Approximately 150 min; detachable battery",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "41 servo joints with force feedback",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Industrial humanoid with force-feedback joints, semantic navigation and manufacturing-system integration. UBTECH describes a 1.7 m, 41-joint platform using RGB-D perception and hand-eye coordination for factory tasks. The standard model and separately named Walker S Lite remain distinct configurations.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "armReach": {
+          "value": "600 mm stated single-arm length",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker-s-lite",
+      "manufacturer": "UBTECH",
+      "model": "Walker S Lite",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S Industrial Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-15.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "63 kg",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "size": {
+          "value": "130 cm height",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "batteryLife": {
+          "value": "Approximately 2 h; detachable battery",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "maxRuntime": {
+          "value": "Approximately 120 min; detachable battery",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "41 total DOF",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Separately named industrial humanoid configuration on the Walker S manufacturer page. Its specification cards give a 130 cm, 63 kg platform with 41 DOF, 600 mm single-arm length and approximately two-hour battery autonomy. Standard Walker S has its own larger configuration.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "armReach": {
+          "value": "600 mm stated single-arm length",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification. Manufacturer image specification text inspected through OCR and HTML container ownership; no visual image inspection."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-walker-x",
+      "manufacturer": "UBTECH",
+      "model": "Walker X",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker X Commercial Humanoid Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-x",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-17.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "63 kg",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "size": {
+          "value": "130 cm height",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "batteryLife": {
+          "value": "2 h under combined working conditions",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "maxRuntime": {
+          "value": "120 min under combined working conditions",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "handType": {
+          "value": "Two 6-DOF force-controlled hands",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "dof": {
+          "value": "41: legs 12, arms 14, hands 12, neck 3",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "payload": {
+          "value": "1.5 kg per arm in extended state; walking/carry demonstrations have separate scope",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "speed": {
+          "value": "Maximum 3 km/h",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "terrain": {
+          "value": "Supplier lists 3 cm unevenness, 15 cm steps and 20-degree slopes; conditions unverified",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/walker-x",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Humanoid service platform with 41 joints, stereo and RGB-D perception, U-SLAM navigation and smart-home interfaces. The manufacturer lists two-hour mixed-use endurance and extended-state load per arm. Demonstrated carrying and walking loads retain their different conditions.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "armReach": {
+          "value": "600 mm stated single-arm span",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-cruzr-y1",
+      "manufacturer": "UBTECH",
+      "model": "Cruzr Y1",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cruzr Y1",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/cruzr-y1",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-18.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous complete-robot actuated DOF count established. Actuator inventory, passive parts and anatomical diagram labels are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/cruzr-y1",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Industrial embodied-AI platform positioned for palletizing, mixed-material sorting and machine tending. UBTECH describes production-line integration through its Co-Agent system. Its specification diagram identifies a lifting module, arms and end effectors without establishing numerical lift or load ratings.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-cruzr-s2",
+      "manufacturer": "UBTECH",
+      "model": "Cruzr S2",
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cruzr S2 Full-sized Wheeled Humanoid Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/cruzr-s2",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-19.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-charge operating duration established. Battery capacity, battery swapping and continuous service positioning do not establish battery runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact single-run duration established; charging, hot swapping and standby must remain separate."
+        },
+        "handType": {
+          "value": "Generation-four industrial dexterous hands",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous complete-robot actuated DOF count established. Actuator inventory, passive parts and anatomical diagram labels are not silently summed."
+        },
+        "payload": {
+          "value": "15 kg in described 0-1.8 m handling workspace",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "speed": {
+          "value": "2 m/s stated travel speed",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/humanoid/products/cruzr-s2",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Wheeled humanoid platform combining a lifting body, dexterous manipulation and RGB stereo perception. UBTECH describes 15 kg handling across a 0-1.8 m workspace, a 0-40 cm lifting range and two-metre-per-second travel. Its task-specific manipulation claim is separate from vision and navigation accuracy.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "0-1.8 m is workspace height and 0-40 cm is body lift; neither is arm reach."
+        }
+      }
+    },
+    {
+      "robotId": "ubtech-cruzr-1s",
+      "manufacturer": "UBTECH",
+      "model": "Cruzr 1S",
+      "sources": [
+        {
+          "name": "UBTECH — Cruzr 1S-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/commercial/products/cruzr-1s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-21.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No public numerical price established for this exact model/configuration; contact-sales and corporate advertising are not price offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "batteryLife": {
+          "value": "Up to 8 h per charge; standby/recharging separate",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "maxRuntime": {
+          "value": "Up to 480 min per charge; workload unspecified",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact included functional hand established for all selected configurations; optional hands and non-functional hands remain distinct."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous complete-robot actuated DOF count established. Actuator inventory, passive parts and anatomical diagram labels are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No qualified manipulator payload established; component/arm mass, grasping force and transport capacity are separate."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No formal model-specific IP ingress code established in the inspected evidence."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer educational level or scenario is not a numerical age recommendation."
+        },
+        "website": {
+          "value": "https://www.ubtrobot.com/en/commercial/products/cruzr-1s",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "description": {
+          "value": "Commercial service robot for greeting, multilingual consultation, guided tours and media broadcasting. U-SLAM and depth perception support navigation, while IoT interfaces support device demonstrations. Manufacturer claims distinguish up-to-eight-hour charge endurance from standby and automatic replenishment.",
+          "status": "documented",
+          "note": "Qualified value from named-model manufacturer HTML; no independent performance, present stock or whole-product certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No dated first commercial release established; asset upload dates, expo appearances and copyright dates are not a model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full robot charging time established; a charging port, adapter rating, battery capacity or hot-swap duration is not charge duration."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-model value established in the inspected manufacturer HTML or OCR text. Component diagrams, configuration variants and task demonstrations do not establish complete-system ratings."
         }
       }
     }

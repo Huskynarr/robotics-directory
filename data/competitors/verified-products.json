@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-03",
   "scope": "Primary-source checks of concrete models discovered through competitor listings; product families are resolved to manufacturer model names before import.",
   "products": [
     {
@@ -29381,54 +29381,98 @@
         "category": "humanoid",
         "manufacturer": "UBTECH",
         "model": "Walker S2",
-        "website": "https://www.ubtrobot.com/en/humanoid/products/walker-s2"
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "industrial;commercial;ai-powered;autonomous-nav;obstacle-avoidance;self-charging",
+        "handType": "Dexterous hands; configuration diagram, individual finger DOF unestablished",
+        "dof": "",
+        "payload": "15 kg in described lifting tasks; workspace height 0-1.8 m",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
+        "image": "images/humanoid/ubtech-walker-s2.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Industrial humanoid combining dual-battery power management, autonomous station-based battery swapping and RGB stereo perception. UBTECH describes 15 kg lifting within a 0-1.8 m workspace and coordinated factory tasks through Co-Agent and BrainNet 2.0. Continuous service depends on replenishment infrastructure and does not specify single-charge endurance.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
       },
       "highlights": [
         "Industrial humanoid uses a dual-battery system and autonomous battery swapping",
         "Binocular RGB stereo perception supports depth estimation",
-        "Co-Agent and BrainNet 2.0 are presented for coordinated production-line tasks"
+        "Co-Agent and BrainNet 2.0 are presented for coordinated production-line tasks",
+        "The manufacturer describes autonomous battery swapping within three minutes using dual-battery balancing and a supporting swap station. This is a replenishment process, not a three-minute full charge or 24-hour single-battery runtime.",
+        "The 15 kg handling claim applies within a 0-1.8 m workspace. Workspace height is not arm length; rotation and bending angles are not DOF counts. RGB stereo depth estimation supplies no numerical vision-accuracy rating."
       ],
       "sources": [
         {
-          "name": "UBTECH",
+          "name": "UBTECH — UBTECH Walker S2 Humanoid Robot | Autonomous Battery Swapping for Mass Production Delivery",
           "type": "manufacturer",
           "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/4d7946c5-8350-4aea-bdec-f810bc35dbf4"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-23/ubtrobot.com-en-humanoid-products-walker-s2.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Battery swap requires supporting stations; 24/7 is operational positioning, not single-charge endurance or demonstrated universal uptime."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-2.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
     },
     {
       "row": {
         "category": "educational",
         "manufacturer": "UBTECH",
         "model": "Walker Tienkung",
-        "website": "https://www.ubtrobot.com/en/ai-education/products/walker-tienkung"
+        "price": "",
+        "weight": "About 61 kg Voice & Vision; about 73 kg Embodied Intelligence",
+        "size": "172 cm height; manufacturer configuration table",
+        "batteryLife": "3 h stated endurance; workload unspecified",
+        "maxRuntime": "180 min stated endurance; workload unspecified",
+        "tags": "educational;research;dev-platform;ai-powered;programmable",
+        "handType": "Voice & Vision: two non-functional hands; Embodied Intelligence: two 6-DOF five-finger dexterous hands",
+        "dof": "42 DOF Embodied Intelligence; Voice & Vision total unconfirmed",
+        "payload": "",
+        "speed": "7 km/h stated moving speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/ai-education/products/walker-tienkung",
+        "image": "images/humanoid/ubtech-walker-tienkung.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Full-size research humanoid with open joint and sensor interfaces, teleoperation support, URDF models and reinforcement-learning tools. Voice & Vision and Embodied Intelligence configurations have different masses, joint counts and hands. The manufacturer labels its embodied-AI datasets for progressive future release.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
       },
       "highlights": [
         "Full-size humanoid platform for academic research, education and secondary development",
         "Open joint and sensor interfaces support teleoperation and data acquisition",
-        "URDF models and reinforcement-learning toolchains support control research"
+        "URDF models and reinforcement-learning toolchains support control research",
+        "The OCR configuration table separates Voice & Vision at about 61 kg from Embodied Intelligence at about 73 kg and 42 DOF. The Voice & Vision total remains unconfirmed because the OCR engines disagree on its final digit. The former has non-functional hands; the latter has two six-DOF dexterous hands. Shared rows list 172 cm, 7 km/h and three-hour endurance.",
+        "The full-body anatomical diagram and table were inspected as OCR text and bounding boxes, without visual inspection. Open-source datasets remain marked for progressive release; future industrial, commercial and home applications do not establish deployed capability."
       ],
       "sources": [
         {
-          "name": "UBTECH",
+          "name": "UBTECH — UBTECH Walker Tienkung Humanoid Robot for Academic Research & Education",
           "type": "manufacturer",
           "url": "https://www.ubtrobot.com/en/ai-education/products/walker-tienkung",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/14ec7b51-b82f-43d3-9149-11ffb2f07641"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-23/ubtrobot.com-en-ai-education-products-walker-tienkung.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. Open datasets are marked for progressive future release and are not claimed available in full. Future home/industrial applications are not deployed capability evidence."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
     },
     {
       "row": {
@@ -70202,6 +70246,866 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-123/source-9.html",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch123 SuperDroid portfolio:31 selected identities,29 additions,two existing enrichments,1026 fields.36 public manufacturer responses,35 native HTML catalogue cards,model-specific comparison cells,SKU/availability markers and redirect targets inspected; no visual inspection. Six catalogue identities/configurations unresolved. Aliases and package/controller/component roles retained. Groundhog mass/body conflict,tactical arm/speed ambiguity,operator versus robot values,development status,retired stock and mower/plow configuration scope qualified. No fullhistoricalportfolio/currentstock/independentperformance/exclusivity/leadership proof."
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "UBTECH",
+        "model": "CADEBOT L100",
+        "price": "",
+        "weight": "55 kg net; 85 kg gross shipment is separate",
+        "size": "551 x 484 x 1265 mm listed dimensions",
+        "batteryLife": "6 h working in system table; 8 h working in charging section and page prose; 12 h standby",
+        "maxRuntime": "",
+        "tags": "commercial;delivery;service;autonomous;indoor;wheeled;self-charging",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.3-1.0 m/s, adjustable",
+        "terrain": "Supplier lists 15 mm obstacle crossing and 5-degree climbing; conditions unspecified",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/commercial/products/cadebot",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Open-tray delivery robot with an advertising display, pickup sensors and autonomous navigation. The manufacturer lists a 55 kg platform and 40 kg total delivery capacity. Published six- and eight-hour working-duration figures conflict; standby and charging remain separate.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "4 h",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous wheeled delivery; U-SLAM laser/visual localization and obstacle avoidance",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "40 kg total across loading places; 10 kg per tray",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "65 cm passage claim; site conditions unspecified",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/commercial/products/cadebot"
+      ],
+      "highlights": [
+        "The current navigation identifies CADEBOT L100 and links to the CADEBOT product page. Open trays use infrared pickup detection, while the 21-inch advertising display and voice features support hospitality and retail service.",
+        "OCR specifications give 55 kg net versus 85 kg gross, 40 kg total capacity and 10 kg per tray. Working duration is six hours in one table block but eight in another and the HTML prose; twelve-hour standby and four-hour charging do not resolve that conflict."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cadebot | Multi-scene Intelligent Open Delivery Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/commercial/products/cadebot",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "UBTECH — UBTECH: Humanoid Robot | AI Education Robot | Commercial Robot Solutions",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-22.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "UBTECH",
+        "model": "Yanshee",
+        "price": "",
+        "weight": "",
+        "size": "Nearly 15 in height; manufacturer approximation",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;programmable;ai-powered;dev-platform;research;steam",
+        "handType": "",
+        "dof": "17 servos; manufacturer platform inventory",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/ai-education/products/yanshee",
+        "image": "images/humanoid/ubtech-yanshee.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Educational humanoid built around a programmable Raspberry Pi with sensors and 17 servos. Python, C/C++, Java and Perl support classroom programming, while the app offers Blockly and motion control. Manufacturer positioning targets senior high school and university education.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/ai-education/products/yanshee"
+      ],
+      "highlights": [
+        "The manufacturer describes a nearly 15-inch platform with 17 servos and a Raspberry Pi controller. Face, image and voice recognition support educational exercises; recognition names do not establish numerical vision accuracy.",
+        "Python, C/C++, Java and Perl are named programming options. Senior-high-school and university positioning does not define a universal numerical age limit; battery duration and price remain unspecified in the selected page."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Yanshee | Open-source Platform for Educators and Students",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/yanshee",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-8.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "UBTECH",
+        "model": "UGOT",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "2.5 h stated operating time",
+        "maxRuntime": "150 min stated operating time",
+        "tags": "educational;programmable;ai-powered;dev-platform;steam",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "Maximum 160 cm/s (1.6 m/s); build/conditions unspecified",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/ai-education/products/ugot/",
+        "image": "images/educational/ubtech-ugot.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Seven-form modular educational robotics kit with CPU, GPU and NPU computing, uCode/uPython tools and app control. The manufacturer describes wheel and joint actuators separately. Operating time and maximum speed are platform claims without a guarantee that every assembled form achieves them.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Reconfigurable modular kit; motion depends on assembled form"
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/ai-education/products/ugot/"
+      ],
+      "highlights": [
+        "The inventory lists four wheel motors and eight joint servomotors. Eight joint motors are not the complete DOF count of every seven-form build, and the kit’s many assemblies are not seven independently purchased robot models.",
+        "The specification text lists 2.5-hour operating time, 160 cm/s maximum speed and a 19 V/1 A charging input. Input power does not specify charge time; inconsistent camera pixel wording is not converted into camera or vision precision."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Ugot AI Education Robotic Kits",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ugot/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-9.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "UBTECH",
+        "model": "uKit AI",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;programmable;ai-powered;steam;voice-control",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/ai-education/products/ukit-ai",
+        "image": "images/educational/ubtech-ukit-ai.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Buildable AI education kit combining a controller, microphone array, speaker, Wi-Fi and vision accessories. uCode and MicroPython support programming and classroom experiments. Local vision-model exercises and cloud-assisted speech are separate capabilities.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Buildable robot kit; control depends on assembled model and program"
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/ai-education/products/ukit-ai"
+      ],
+      "highlights": [
+        "The visual-sensor description supports recognition and model-training exercises, including offline vision training. Speech recognition, synthesis and language functions also reference UBTECH cloud services; the whole kit is not claimed to operate every AI function offline.",
+        "Controllers, sensors, actuators and structural parts support different student builds. The kit has no universal complete-robot mass, DOF, travel speed or payload rating in the selected manufacturer page."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH uKit Advanced Robot | Buildable Programming Robot for AI Learning",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ukit-ai",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-10.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "UBTECH",
+        "model": "Alpha 1E",
+        "price": "",
+        "weight": "1.8 kg",
+        "size": "401 x 208 x 124 mm H x W x T",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;consumer;programmable;ai-powered;voice-control",
+        "handType": "",
+        "dof": "16 servo motors",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-1e",
+        "image": "images/humanoid/ubtech-alpha-1e.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Compact educational humanoid with 16 servo motors, Blockly lessons and voice interaction. The manufacturer lists infrared ranging, inertial and touch sensors with app control. Battery capacity is specified without a corresponding operating or charging duration.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-1e"
+      ],
+      "highlights": [
+        "The manufacturer lists 1.8 kg, 401 x 208 x 124 mm and 16 servo motors. Its 2500 mAh, 7.4 V battery rating does not establish runtime or charging time.",
+        "Blockly, voice interaction and sensor-based exercises describe the consumer learning platform. They do not establish independent educational outcomes, numerical vision accuracy or a current purchase price."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — Alpha-1E-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-1e",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-11.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "UBTECH",
+        "model": "AlphaMini",
+        "price": "",
+        "weight": "700 g including battery",
+        "size": "245 x 149 x 112 mm H x W x T",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;consumer;ai-powered;programmable;voice-control;facial-recognition;social;wifi",
+        "handType": "Two articulated arms with 2 DOF each; not dexterous finger hands",
+        "dof": "14: head 3, arms 4, waist 1, legs 6",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini",
+        "image": "images/educational/ubtech-alphamini.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Portable humanoid with 14 servos, expressive screen eyes, voice interaction and graphical coding. The current manufacturer table gives 700 g including battery and a 245 mm height. LTE and app features depend on compatible connectivity and services.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini"
+      ],
+      "highlights": [
+        "The current manufacturer table gives 700 g including battery and 245 x 149 x 112 mm, replacing the unverified 0.78 kg catalog value. Its 14 DOF include two-DOF arms, rather than fourteen dexterous finger joints.",
+        "A 4060 mAh battery specification does not establish the earlier two-hour runtime claim. Voice, face/object interaction and LTE capabilities do not verify present regional network support, account services or a numerical target age."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — Alpha-Mini-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/consumer/humanoid-robots/alpha-series/alpha-mini",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-12.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "UBTECH",
+        "model": "uKit Explore",
+        "price": "749.95 USD regional listing snapshot; back order/sold out, November 2, 2026",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;programmable;dev-platform;bluetooth",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/ai-education/products/ukit-explore",
+        "image": "images/educational/ubtech-ukit-explore.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Arduino-compatible educational robotics kit using uCode and Arduino IDE for coding and electronics projects. The regional education shop lists over 1,000 parts, 16 servos and two DC motors with 38 possible builds. Kit contents and curricula vary by package and region.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Arduino-compatible modular kit; control depends on build and program"
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/ai-education/products/ukit-explore"
+      ],
+      "highlights": [
+        "The US education listing specifies more than 1000 building pieces, 16 servos and two DC motors, with 38 builds. These are kit contents and assembly possibilities, not 38 complete robots or one universal system DOF count.",
+        "The regional page lists 749.95 USD with back-order and sold-out wording. It targets Grade 6 and above, while the global page targets upper-primary/junior-secondary education; neither establishes a universal 11-18 age band or present availability."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH uKit Explore | Multi-form AI Education Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/ai-education/products/ukit-explore",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "UBTECH — uKit Explore",
+          "type": "manufacturer",
+          "url": "https://www.ubtecheducation.com/products/ukit-explore",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-23.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Walker S1",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "industrial",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+        "image": "images/humanoid/ubtech-walker-s1.webp",
+        "video": "https://www.youtube.com/embed/qlV9EWPe91o",
+        "gallery": "",
+        "description": "Industrial humanoid combining task planning, semantic VSLAM and learning-based whole-body control. UBTECH describes vehicle assembly-line work coordinated with AMRs and AGVs through manufacturing management systems. Its selected public page explains navigation and integration without a numerical complete-robot specification table.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-s1"
+      ],
+      "highlights": [
+        "The selected page supports semantic VSLAM, general task planning and learning-based whole-body control. Factory workflow integration with AMRs/AGVs is distinct from a claim that every shown production task is autonomous or independently validated.",
+        "The specification images label sensors, ports and emergency controls rather than numerical mass, runtime, speed or total DOF. Earlier catalog numbers and the 75000 USD price are not certified by this evidence."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S1 Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s1",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-4.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Walker C",
+        "price": "",
+        "weight": "43 kg",
+        "size": "163 cm height",
+        "batteryLife": "Walking 2 h; standing 4 h",
+        "maxRuntime": "Walking 120 min; standing 240 min",
+        "tags": "commercial;social;ai-powered;voice-control;obstacle-avoidance",
+        "handType": "",
+        "dof": "20",
+        "payload": "",
+        "speed": "6 km/h stated running pace",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/walker-c",
+        "image": "images/humanoid/ubtech-walker-c.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Commercial service humanoid for multilingual reception, guided tours and visitor interaction. UBTECH describes U-SLAM route positioning and obstacle detection, with a 163 cm, 43 kg platform and 20 DOF. Walking and standing endurance are specified separately, while arm component mass does not establish payload.",
+        "releaseDate": "",
+        "chargingTime": "1.5 h",
+        "armReach": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-c"
+      ],
+      "highlights": [
+        "The dedicated Walker C page gives 163 cm, 43 kg and 20 DOF, with two hours walking, four hours standing and 1.5 hours charging. The stated six-km/h pace is a manufacturer claim rather than an independently measured operating speed.",
+        "The previous catalog URL pointed to older Walker, whose page gives 145 cm, 77 kg and 36 DOF. These are distinct models. The Walker C arm line says 500 mm wingspan and 5 kg weight; arm mass is not a five-kg manipulator payload."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker C Humanoid Service Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-16.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Walker C1",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;social;ai-powered;voice-control",
+        "handType": "Dexterous hands optional; anatomy diagram",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/walker-c1/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Full-size service humanoid positioned for reception, guided tours, events and education. A motion library, standard interfaces and SDK support customization. UBTECH describes modular construction and deployment options; the selected page does not establish numerical mass, endurance or complete-system joint count.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-c1/"
+      ],
+      "highlights": [
+        "The manufacturer describes configurable motion, a multimodal intelligence engine and standard interfaces with SDK support for service and research applications. The anatomical specification image labels dexterous hands as optional.",
+        "The product page positions reception, guided tours, events, patrol and education as scenarios. These examples and rapid-delivery language do not establish current stock, independent safety certification or a dated first commercial release."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker C1 Humanoid Service Robot | UBTECH Robotics",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-c1/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-6.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Panda Robot (Youyou)",
+        "price": "",
+        "weight": "63 kg",
+        "size": "130 cm height",
+        "batteryLife": "2 h under combined working conditions",
+        "maxRuntime": "120 min under combined working conditions",
+        "tags": "commercial;ai-powered;entertainment;service",
+        "handType": "Two 6-DOF hands",
+        "dof": "41: legs 12, arms 14, hands 12, neck 3",
+        "payload": "1.5 kg per arm in extended state",
+        "speed": "Maximum 3 km/h",
+        "terrain": "Supplier lists 3 cm unevenness, 15 cm steps and 20-degree slopes; conditions unverified",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/panda-robot",
+        "image": "images/humanoid/ubtech-panda-robot-youyou.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Panda-form humanoid Youyou was customized for the China Pavilion at Expo 2020 Dubai using Walker technology. It supports visitor interaction and scripted cultural performances. Manufacturer specifications separate extended-arm load, single-arm span and navigation accuracy from battery and whole-robot mass.",
+        "releaseDate": "",
+        "chargingTime": "2 h",
+        "armReach": "600 mm stated single-arm span"
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/panda-robot"
+      ],
+      "highlights": [
+        "The manufacturer specifies 63 kg, 130 cm, 41 DOF and a 1.5 kg extended-state load per arm with 600 mm single-arm span. Two-hour mixed-use endurance and two-hour charging are separate; the 3.6 kg battery is not robot mass.",
+        "Navigation accuracy is listed as 20 cm, localization as 10 cm and fine localization as 1 cm. These distinct metrics are not camera precision. Exhibition guidance, calligraphy and performances are described applications without a universal manipulation guarantee."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Panda Robot for Exhibition Guidance",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/panda-robot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-7.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Walker",
+        "price": "",
+        "weight": "77 kg",
+        "size": "145 cm height",
+        "batteryLife": "2 h stated usage",
+        "maxRuntime": "120 min stated usage",
+        "tags": "humanoid;commercial;service;ai-powered;autonomous-nav",
+        "handType": "Two 4-DOF hands",
+        "dof": "36: legs 12, arms 14, hands 8, neck 2",
+        "payload": "1.5 kg per arm in extended state",
+        "speed": "",
+        "terrain": "Manufacturer describes carpet, floor, grass, stairs, slopes and tiles; no numerical limits selected",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/walker",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Earlier Walker humanoid with 36 servo joints, visual navigation and smart-home interfaces. Its manufacturer page lists a 145 cm, 77 kg platform, 1.5 kg extended-state load per arm and two-hour usage. It remains distinct from Walker C, X and the industrial S models.",
+        "releaseDate": "",
+        "chargingTime": "2 h",
+        "armReach": "540 mm stated single-arm span"
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker"
+      ],
+      "highlights": [
+        "The older Walker page specifies 36 DOF, 145 cm and 77 kg. Single-arm extended load is 1.5 kg with 540 mm stated span; its 6 kg battery is separate from whole-robot mass.",
+        "Two-hour usage and two-hour charging are separate values. U-SLAM, object recognition and smart-home interfaces describe this platform; later Walker C/X/S specifications are not inherited."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — Walker-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-5.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Walker S",
+        "price": "",
+        "weight": "65 kg",
+        "size": "170 cm height",
+        "batteryLife": "Approximately 2.5 h; detachable battery",
+        "maxRuntime": "Approximately 150 min; detachable battery",
+        "tags": "humanoid;industrial;commercial;ai-powered;autonomous-nav",
+        "handType": "",
+        "dof": "41 servo joints with force feedback",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Industrial humanoid with force-feedback joints, semantic navigation and manufacturing-system integration. UBTECH describes a 1.7 m, 41-joint platform using RGB-D perception and hand-eye coordination for factory tasks. The standard model and separately named Walker S Lite remain distinct configurations.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "600 mm stated single-arm length"
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-s"
+      ],
+      "highlights": [
+        "The standard Walker S is explicitly described as 1.7 m tall with 41 force-feedback servo joints. RGB-D perception, semantic maps and point-cloud object-pose estimation support factory positioning and handling without a numerical positioning-accuracy rating.",
+        "The standard-model OCR specification cards give 65 kg, 600 mm single-arm length and approximately 2.5 hours battery autonomy. Walker S Lite has separate 130 cm, 63 kg, 41-DOF and two-hour cards; values are assigned through distinct HTML configuration containers."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S Industrial Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-15.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Walker S Lite",
+        "price": "",
+        "weight": "63 kg",
+        "size": "130 cm height",
+        "batteryLife": "Approximately 2 h; detachable battery",
+        "maxRuntime": "Approximately 120 min; detachable battery",
+        "tags": "humanoid;industrial;commercial;ai-powered",
+        "handType": "",
+        "dof": "41 total DOF",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Separately named industrial humanoid configuration on the Walker S manufacturer page. Its specification cards give a 130 cm, 63 kg platform with 41 DOF, 600 mm single-arm length and approximately two-hour battery autonomy. Standard Walker S has its own larger configuration.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "600 mm stated single-arm length"
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-s"
+      ],
+      "highlights": [
+        "The manufacturer configuration section separately names Walker S Lite. Its OCR cards give 130 cm, 63 kg and 41 DOF, with 600 mm single-arm length and approximately two-hour battery autonomy.",
+        "Distinct HTML items1 containers and Lite-labeled filenames separate these cards from standard Walker S items0 cards. The latter give 170 cm, 65 kg and about 2.5 hours. OCR text and ownership were inspected without visual image review."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker S Industrial Humanoid Robot | For Multi-task Industrial Scenarios",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-15.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Walker X",
+        "price": "",
+        "weight": "63 kg",
+        "size": "130 cm height",
+        "batteryLife": "2 h under combined working conditions",
+        "maxRuntime": "120 min under combined working conditions",
+        "tags": "humanoid;commercial;service;ai-powered;autonomous-nav",
+        "handType": "Two 6-DOF force-controlled hands",
+        "dof": "41: legs 12, arms 14, hands 12, neck 3",
+        "payload": "1.5 kg per arm in extended state; walking/carry demonstrations have separate scope",
+        "speed": "Maximum 3 km/h",
+        "terrain": "Supplier lists 3 cm unevenness, 15 cm steps and 20-degree slopes; conditions unverified",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/walker-x",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Humanoid service platform with 41 joints, stereo and RGB-D perception, U-SLAM navigation and smart-home interfaces. The manufacturer lists two-hour mixed-use endurance and extended-state load per arm. Demonstrated carrying and walking loads retain their different conditions.",
+        "releaseDate": "",
+        "chargingTime": "2 h",
+        "armReach": "600 mm stated single-arm span"
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/walker-x"
+      ],
+      "highlights": [
+        "The specification table lists 63 kg, 130 cm, 41 DOF, two-hour mixed-use duration and a 1.5 kg extended-state load per arm. Narrative carrying and walking demonstrations mention 10 kg and 3 kg respectively; those task conditions do not replace the extended-arm rating.",
+        "Navigation, localization and fine-localization claims are 20 cm, 10 cm and 1 cm respectively. The maximum three-km/h speed and terrain limits remain attributed manufacturer claims, separate from camera resolution and independent validation."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Walker X Commercial Humanoid Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/walker-x",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-17.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Cruzr Y1",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "humanoid;industrial;commercial;ai-powered;mobile-base;autonomous-nav",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/cruzr-y1",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Industrial embodied-AI platform positioned for palletizing, mixed-material sorting and machine tending. UBTECH describes production-line integration through its Co-Agent system. Its specification diagram identifies a lifting module, arms and end effectors without establishing numerical lift or load ratings.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/cruzr-y1"
+      ],
+      "highlights": [
+        "The manufacturer identifies separate palletizing, sorting and machine-tending scenarios coordinated through Co-Agent. Claims about correcting displaced material and avoiding downtime are product positioning rather than independently verified availability.",
+        "Anatomical OCR labels identify a lifting module, load plate, arms and end effectors. Their presence does not establish lift stroke, complete-system payload or endurance, and Cruzr S2 ratings are not inherited."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cruzr Y1",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/cruzr-y1",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-18.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Cruzr S2",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "humanoid;industrial;commercial;ai-powered;wheeled;mobile-base;autonomous-nav",
+        "handType": "Generation-four industrial dexterous hands",
+        "dof": "",
+        "payload": "15 kg in described 0-1.8 m handling workspace",
+        "speed": "2 m/s stated travel speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/humanoid/products/cruzr-s2",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Wheeled humanoid platform combining a lifting body, dexterous manipulation and RGB stereo perception. UBTECH describes 15 kg handling across a 0-1.8 m workspace, a 0-40 cm lifting range and two-metre-per-second travel. Its task-specific manipulation claim is separate from vision and navigation accuracy.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/humanoid/products/cruzr-s2"
+      ],
+      "highlights": [
+        "The described platform handles 15 kg across a 0-1.8 m workspace, with 0-40 cm body lift and two-metre-per-second travel. A 0.8 m passage claim and body rotation angle do not establish turning radius or a universal minimum aisle specification.",
+        "Generation-four dexterous hands and sim-to-real training support the manufacturer’s sub-millimetre manipulation claim. No test conditions establish a numerical camera-precision or navigation-accuracy rating; wheeled drive remains distinct from bipedal Walker S2."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — UBTECH Cruzr S2 Full-sized Wheeled Humanoid Robot",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/humanoid/products/cruzr-s2",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-19.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "UBTECH",
+        "model": "Cruzr 1S",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "Up to 8 h per charge; standby/recharging separate",
+        "maxRuntime": "Up to 480 min per charge; workload unspecified",
+        "tags": "humanoid;commercial;service;social;ai-powered;autonomous-nav;self-charging",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ubtrobot.com/en/commercial/products/cruzr-1s",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Commercial service robot for greeting, multilingual consultation, guided tours and media broadcasting. U-SLAM and depth perception support navigation, while IoT interfaces support device demonstrations. Manufacturer claims distinguish up-to-eight-hour charge endurance from standby and automatic replenishment.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "discoveredIn": [
+        "https://www.ubtrobot.com/en/commercial/products/cruzr-1s"
+      ],
+      "highlights": [
+        "Command, schedule and automatic charging modes accompany an up-to-eight-hour single-charge claim. The separate 24-hour standby wording is not a day of uninterrupted active work.",
+        "The platform combines guided tours, customized Q&A and IoT control. Centimetre-level path-planning wording supplies neither a qualified numerical navigation error nor a camera-precision test result."
+      ],
+      "sources": [
+        {
+          "name": "UBTECH — Cruzr 1S-UBTECH",
+          "type": "manufacturer",
+          "url": "https://www.ubtrobot.com/en/commercial/products/cruzr-1s",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-124/source-21.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch124: 20 UBTECH platforms, eight additions and twelve existing reviews; 360 selected fields. Native HTML, manufacturer-image OCR with two engines, text coordinates and configuration ownership checked; no visual inspection. Walker C link corrected, Tienkung variants and unconfirmed Voice & Vision DOF retained, CADEBOT 6/8-hour conflict, controller/robot and kit/build boundaries retained. U1/UWORLD,JIMU and entire group portfolio unproven. Source bodies November 2 UTC; review November 3 Europe/Berlin. No whole-product, current-stock, independent-performance, exclusivity or leadership certification."
     }
   ]
 }
