@@ -6,6 +6,7 @@ import {
   formatSpec,
   formatDeployTimestamp,
   getPriceValue,
+  getStructuredOffer,
   extractYouTubeId,
 } from '../../src/utils/format.js';
 
@@ -186,6 +187,60 @@ describe('getPriceValue', () => {
 
   it('handles approximate prices', () => {
     expect(getPriceValue('~2700 USD')).toBe(2700);
+  });
+});
+
+describe('dated and qualified catalog prices', () => {
+  it('sorts a dated launch MSRP by its amount without joining date digits', () => {
+    expect(getPriceValue('1999 USD launch MSRP; May 20, 2026')).toBe(1999);
+    expect(getPriceValue('From 2299 USD Origin Edition preorder; September 3, 2026')).toBe(2299);
+    expect(getPriceValue('2026 launch: $1,499')).toBe(1499);
+  });
+  it('preserves grouped, approximate and unknown sorting values', () => {
+    expect(getPriceValue('~2,700 USD')).toBe(2700);
+    expect(getPriceValue('1,299.50 EUR')).toBe(1299.5);
+    expect(getPriceValue('1000-2000 USD')).toBe(1000);
+    expect(getPriceValue('Not disclosed; reviewed 2026')).toBe(Infinity);
+  });
+  it('emits exact unqualified prices with their explicit currency or symbol', () => {
+    expect(getStructuredOffer('1,299.50 EUR')).toEqual({
+      '@type': 'Offer',
+      priceCurrency: 'EUR',
+      price: 1299.5,
+    });
+    expect(getStructuredOffer('€ 1999')).toEqual({
+      '@type': 'Offer',
+      priceCurrency: 'EUR',
+      price: 1999,
+    });
+    expect(getStructuredOffer('$1,999 USD')).toEqual({
+      '@type': 'Offer',
+      priceCurrency: 'USD',
+      price: 1999,
+    });
+  });
+  it('does not promote launch MSRP, expired promotions or preorder starting prices to exact offers', () => {
+    for (const raw of [
+      '1999 USD launch MSRP; May 20, 2026',
+      '1799 USD historical MSRP; June 23, 2026',
+      'From 2299 USD Origin Edition preorder; September 3, 2026',
+      '1399 USD promotion June 23-30, 2026',
+    ])
+      expect(getStructuredOffer(raw)).toBeNull();
+  });
+  it('keeps estimated ranges and condition-dependent prices qualified', () => {
+    for (const raw of [
+      '~2700 USD',
+      '1000-2000 USD',
+      '1000 USD (estimated)',
+      '1000 USD depending on configuration',
+      'From 1000 USD',
+    ])
+      expect(getStructuredOffer(raw)).toBeNull();
+  });
+  it('rejects unknown, nonpositive and contradictory-currency offers', () => {
+    for (const raw of [null, '', 'On request', 'Not disclosed', '0 USD', '-100 USD', '$100 EUR'])
+      expect(getStructuredOffer(raw)).toBeNull();
   });
 });
 

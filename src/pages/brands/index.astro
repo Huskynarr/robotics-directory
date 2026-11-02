@@ -1,0 +1,179 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import FavoritesDrawer from '../../components/FavoritesDrawer.astro';
+import CatalogData from '../../components/CatalogData.astro';
+import { getAllBrands, getBrandSearchText } from '../../data/brands.js';
+import { CATEGORY_LABELS } from '../../data/categories.js';
+import { SITE_URL, SITE_NAME } from '../../config/site.js';
+import '../../styles/global.css';
+
+const brands = getAllBrands();
+const withModels = brands.filter((brand) => brand.modelCount > 0).length;
+const description =
+  'Browse robot brands, company focus, directory sources and catalog models. Search by brand, alias, category, product theme or model name.';
+---
+
+<Base
+  title={`Robot Brands & Companies | ${SITE_NAME}`}
+  description={description}
+  canonical={`${SITE_URL}/brands/`}
+>
+  <Header />
+  <main id="main" class="flex-1">
+    <section class="border-b border-border bg-surface">
+      <div class="max-w-7xl mx-auto px-4 py-10 md:py-14">
+        <nav aria-label="Breadcrumb" class="text-sm text-text-muted mb-5">
+          <a href="/" class="hover:text-primary">Home</a>
+          <span aria-hidden="true" class="mx-2">/</span>
+          <span aria-current="page">Brands</span>
+        </nav>
+        <h1 class="font-heading text-3xl md:text-4xl font-bold">Robot Brands &amp; Companies</h1>
+        <p class="text-text-secondary mt-4 max-w-3xl">{description}</p>
+        <p class="text-sm text-text-muted mt-3">
+          {brands.length} brand profiles · {withModels} with catalog models
+        </p>
+        <p class="text-sm text-text-secondary mt-4 max-w-3xl">
+          Directory sources document company listings only. Source categories reflect those
+          listings; they do not establish manufacturer verification or the availability of robot
+          models.
+        </p>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-4 py-8" aria-labelledby="brand-search-label">
+      <div role="search" aria-label="Search brands" class="max-w-2xl mb-6">
+        <label id="brand-search-label" for="brand-search" class="block font-semibold mb-2">
+          Search brands
+        </label>
+        <input
+          id="brand-search"
+          type="search"
+          class="form-control w-full"
+          placeholder="Brand, alias, category, product theme or model"
+          aria-controls="brand-list"
+          aria-describedby="brand-search-help"
+          autocomplete="off"
+        />
+        <p id="brand-search-help" class="text-sm text-text-muted mt-2">
+          Search also matches company focus and directory listing themes. Directory themes are
+          unverified claims and can refer to products a company resells.
+        </p>
+      </div>
+      <p
+        id="brand-count"
+        role="status"
+        aria-live="polite"
+        aria-atomic="true"
+        class="text-sm text-text-secondary mb-5"
+      >
+        {brands.length} brand profiles
+      </p>
+      <ul id="brand-list" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5" role="list">
+        {
+          brands.map((brand) => (
+            <li
+              data-brand-entry
+              data-search={getBrandSearchText(brand)}
+              class="bg-surface border border-border rounded-2xl p-5"
+            >
+              <h2 class="font-heading text-xl font-semibold break-words">
+                <a href={`/brands/${brand.id}/`} class="text-primary hover:underline">
+                  {brand.name}
+                </a>
+              </h2>
+              <p class="text-sm text-text-secondary mt-2">
+                {brand.modelCount} {brand.modelCount === 1 ? 'model' : 'models'} in this catalog
+              </p>
+              {brand.modelCount === 0 && (
+                <p class="text-sm text-text-muted mt-1">Company entry only</p>
+              )}
+              {brand.aliases.length > 0 && (
+                <p class="text-sm text-text-muted mt-3 break-words">
+                  Also listed as: {brand.aliases.join(', ')}
+                </p>
+              )}
+              {brand.categories.length > 0 && (
+                <p class="text-sm text-text-secondary mt-3 break-words">
+                  <span class="font-medium">Source categories:</span> {brand.categories.join(', ')}
+                </p>
+              )}
+              {brand.catalogCategories.length > 0 && (
+                <p class="text-sm text-text-secondary mt-3">
+                  <span class="font-medium">Catalog categories:</span>{' '}
+                  {brand.catalogCategories
+                    .map((category) => CATEGORY_LABELS[category] || category)
+                    .join(', ')}
+                </p>
+              )}
+              <a
+                href={`/brands/${brand.id}/`}
+                class="inline-block mt-5 text-sm font-semibold text-primary hover:underline"
+                aria-label={`View ${brand.name} brand profile`}
+              >
+                View brand profile <span aria-hidden="true">→</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p
+        id="brand-empty"
+        hidden
+        class="rounded-xl border border-border bg-surface p-6 text-text-secondary"
+      >
+        No brands match your search. Try another brand, alias, category, product theme or model.
+      </p>
+      <noscript
+        ><p class="mt-5 text-sm text-text-muted">
+          All profiles are shown. Enable JavaScript to filter the list.
+        </p></noscript
+      >
+    </section>
+  </main>
+  <FavoritesDrawer />
+  <Footer />
+
+  <CatalogData />
+  <script>
+    import '../../scripts/i18n.js';
+    import '../../scripts/dark-mode.js';
+    import '../../scripts/favorites.js';
+
+    const input = document.querySelector<HTMLInputElement>('#brand-search');
+    const entries = [...document.querySelectorAll<HTMLElement>('[data-brand-entry]')];
+    const count = document.getElementById('brand-count');
+    const empty = document.getElementById('brand-empty');
+    if (input && count && empty) {
+      const filter = () => {
+        // Keep identical to normalizeBrandSearch in the server data helper.
+        const tokens = input.value
+          .toLowerCase()
+          .normalize('NFKD')
+          .replace(/\p{M}/gu, '')
+          .replace(/ß/g, 'ss')
+          .trim()
+          .split(/\s+/)
+          .filter(Boolean);
+        let visible = 0;
+        for (const entry of entries) {
+          const matches = tokens.every((token) => (entry.dataset.search || '').includes(token));
+          entry.hidden = !matches;
+          if (matches) visible++;
+        }
+        count.textContent = `${visible} ${visible === 1 ? 'brand profile' : 'brand profiles'}`;
+        empty.hidden = visible > 0;
+      };
+      input.value = new URLSearchParams(window.location.search).get('q') || '';
+      input.addEventListener('input', filter);
+      filter();
+    }
+  </script>
+</Base>
+
+<style>
+  [data-brand-entry][hidden] {
+    display: none;
+  }
+</style>

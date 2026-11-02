@@ -1,0 +1,7 @@
+---
+import { getCatalogScript } from '../data/catalog-script.js';
+const { version } = getCatalogScript();
+---
+
+<!-- Shared across detail and brand pages; the fingerprint changes with the data. -->
+<script is:inline src={`/catalog-data.js?v=${version}`}></script>

@@ -308,6 +308,18 @@ button:disabled {
   font-weight: 900;
 }
 
+.compare-add-btn {
+  @apply block w-full border-t border-border px-3 py-2 text-sm font-medium text-text-base transition-colors;
+  background: var(--color-surface);
+}
+.compare-add-btn:hover,
+.compare-add-btn[aria-pressed='true'] {
+  background: color-mix(in srgb, var(--color-primary) 12%, var(--color-surface));
+}
+.compare-add-btn:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
 .robot-card .category-badge {
   @apply absolute top-3 left-3 z-10 px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wide;
   background: #ffffff;
@@ -409,6 +421,7 @@ html[data-i18n-loading] [data-i18n-placeholder] {
 }
 .specs-table td:last-child {
   color: var(--color-text-base);
+  overflow-wrap: anywhere;
 }
 
 /* Compare table */
@@ -432,6 +445,12 @@ html[data-i18n-loading] [data-i18n-placeholder] {
 .compare-table td:first-child {
   @apply font-medium;
   color: var(--color-text-secondary);
+}
+.compare-table td:not(:first-child) {
+  min-width: 14rem;
+  max-width: 28rem;
+  vertical-align: top;
+  overflow-wrap: anywhere;
 }
 
 /* Compare bar (fixed bottom) */

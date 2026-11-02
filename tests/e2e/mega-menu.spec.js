@@ -5,10 +5,10 @@ test.describe('Mega menu - desktop', () => {
     await page.goto('/');
   });
 
-  test('shows mega tabs for all 8 categories', async ({ page, viewport }) => {
+  test('shows mega tabs for all 9 categories', async ({ page, viewport }) => {
     if (viewport.width < 768) return;
     const tabs = page.locator('[data-megatab]');
-    await expect(tabs).toHaveCount(8);
+    await expect(tabs).toHaveCount(9);
   });
 
   test('clicking a mega tab opens the panel', async ({ page, viewport }) => {

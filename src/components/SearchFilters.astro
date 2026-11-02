@@ -27,6 +27,7 @@ const { manufacturers } = Astro.props;
             data-i18n-placeholder="search.placeholder"
             placeholder={t['search.placeholder']}
             autocomplete="off"
+            aria-describedby="productSearchStatus"
           />
         </div>
 
@@ -57,6 +58,8 @@ const { manufacturers } = Astro.props;
           </button>
         </div>
       </div>
+
+      <div id="productSearchStatus" class="hidden mt-3 text-sm text-text-muted" role="status"></div>
 
       <div
         class="flex md:hidden gap-2 overflow-x-auto pt-3 scrollbar-hide"

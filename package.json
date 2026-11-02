@@ -16,6 +16,7 @@
     "format:check": "prettier --check src/",
     "audit:data": "node scripts/audit-data.mjs",
     "audit:data:links": "node scripts/audit-data.mjs --links",
+    "research:refresh": "node scripts/audit-competitor-coverage.mjs && python3 scripts/refresh-competitor-gaps.py && node scripts/export-competitor-review.mjs",
     "test:unit": "vitest run",
     "test:unit:watch": "vitest",
     "test:e2e": "playwright test",

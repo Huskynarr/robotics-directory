@@ -13,11 +13,15 @@ export function parseWeightKg(value) {
 }
 
 export function parseDurationHours(value) {
-  const amount = firstNumber(value);
-  if (amount === null) return null;
-  const normalized = String(value).toLowerCase();
-  if (/\b(?:min|mins|minute|minutes)\b/.test(normalized)) return amount / 60;
-  if (/\b(?:day|days)\b/.test(normalized)) return amount * 24;
+  // Numbers in voltage, capacity or mains-power descriptions are not endurance.
+  const match = String(value || '').match(
+    /(\d+(?:[.,]\d+)?)(?:\s*[–—-]\s*\d+(?:[.,]\d+)?)?\s*(hours?|hrs?|h|minutes?|mins?|days?)\b/i,
+  );
+  if (!match) return null;
+  const amount = Number.parseFloat(match[1].replace(',', '.'));
+  const unit = match[2].toLowerCase();
+  if (unit.startsWith('min')) return amount / 60;
+  if (unit.startsWith('day')) return amount * 24;
   return amount;
 }
 

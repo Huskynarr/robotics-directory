@@ -85,7 +85,7 @@ export const CATEGORIES = [
         filter: {
           field: 'tagsArray',
           op: 'tags-include-any',
-          values: ['industrial', 'inspection', 'security', 'all-terrain'],
+          values: ['industrial', 'commercial', 'inspection', 'security', 'all-terrain'],
         },
       },
       {
@@ -199,13 +199,19 @@ export const CATEGORIES = [
         },
       },
       {
+        id: 'cleaning-commercial',
+        i18nKey: 'sub.cleaning.commercial',
+        detailKey: 'sub.cleaning.commercial.detail',
+        filter: { field: 'tagsArray', op: 'tags-include', value: 'commercial' },
+      },
+      {
         id: 'cleaning-specialty',
         i18nKey: 'sub.cleaning.specialty',
         detailKey: 'sub.cleaning.specialty.detail',
         filter: {
           field: 'tagsArray',
           op: 'tags-include-any',
-          values: ['uv-clean', 'air-purify'],
+          values: ['uv-clean', 'air-purify', 'sweeper'],
         },
       },
     ],
@@ -236,6 +242,12 @@ export const CATEGORIES = [
         },
       },
       {
+        id: 'outdoor-exoskeleton',
+        i18nKey: 'sub.outdoor.exoskeleton',
+        detailKey: 'sub.outdoor.exoskeleton.detail',
+        filter: { field: 'tagsArray', op: 'tags-include', value: 'exoskeleton' },
+      },
+      {
         id: 'outdoor-garden',
         i18nKey: 'sub.outdoor.garden',
         detailKey: 'sub.outdoor.garden.detail',
@@ -252,6 +264,18 @@ export const CATEGORIES = [
     icon: 'fa-graduation-cap',
     color: '#10b981',
     subcategories: [
+      {
+        id: 'educational-coding',
+        i18nKey: 'sub.educational.coding',
+        detailKey: 'sub.educational.coding.detail',
+        filter: { field: 'tagsArray', op: 'tags-include', value: 'programmable' },
+      },
+      {
+        id: 'educational-drones',
+        i18nKey: 'sub.educational.drones',
+        detailKey: 'sub.educational.drones.detail',
+        filter: { field: 'tagsArray', op: 'tags-include', value: 'drone' },
+      },
       {
         id: 'educational-young',
         i18nKey: 'sub.educational.young',
@@ -279,9 +303,11 @@ export const CATEGORIES = [
         i18nKey: 'sub.educational.advanced',
         detailKey: 'sub.educational.advanced.detail',
         filter: {
-          field: 'ageRange',
-          op: 'age-min-gte',
-          value: 12,
+          op: 'any',
+          filters: [
+            { field: 'ageRange', op: 'age-min-gte', value: 12 },
+            { field: 'tagsArray', op: 'tags-include-any', values: ['research', 'dev-platform'] },
+          ],
         },
       },
     ],
@@ -372,6 +398,113 @@ export const CATEGORIES = [
   },
 ];
 
+// Business robots that are neither domestic appliances nor robot arms.
+CATEGORIES.push({
+  id: 'commercial',
+  icon: 'fa-building',
+  color: '#475569',
+  subcategories: [
+    {
+      id: 'commercial-manufacturing',
+      i18nKey: 'sub.commercial.manufacturing',
+      detailKey: 'sub.commercial.manufacturing.detail',
+      filter: {
+        field: 'tagsArray',
+        op: 'tags-include-any',
+        values: ['manufacturing', 'welding', 'assembly'],
+      },
+    },
+    {
+      id: 'commercial-mobility',
+      i18nKey: 'sub.commercial.mobility',
+      detailKey: 'sub.commercial.mobility.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'passenger-transport' },
+    },
+    {
+      id: 'commercial-logistics',
+      i18nKey: 'sub.commercial.logistics',
+      detailKey: 'sub.commercial.logistics.detail',
+      filter: { field: 'tagsArray', op: 'tags-include-any', values: ['delivery', 'warehouse'] },
+    },
+    {
+      id: 'commercial-retail',
+      i18nKey: 'sub.commercial.retail',
+      detailKey: 'sub.commercial.retail.detail',
+      filter: { field: 'tagsArray', op: 'tags-include-any', values: ['retail', 'inventory'] },
+    },
+    {
+      id: 'commercial-food-service',
+      i18nKey: 'sub.commercial.food-service',
+      detailKey: 'sub.commercial.food-service.detail',
+      filter: {
+        field: 'tagsArray',
+        op: 'tags-include-any',
+        values: ['food-service', 'cooking', 'bartender'],
+      },
+    },
+    {
+      id: 'commercial-construction',
+      i18nKey: 'sub.commercial.construction',
+      detailKey: 'sub.commercial.construction.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'construction' },
+    },
+    {
+      id: 'commercial-marine',
+      i18nKey: 'sub.commercial.marine',
+      detailKey: 'sub.commercial.marine.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'marine' },
+    },
+    {
+      id: 'commercial-inspection',
+      i18nKey: 'sub.commercial.inspection',
+      detailKey: 'sub.commercial.inspection.detail',
+      filter: { field: 'tagsArray', op: 'tags-include-any', values: ['inspection', 'security'] },
+    },
+    {
+      id: 'commercial-maintenance',
+      i18nKey: 'sub.commercial.maintenance',
+      detailKey: 'sub.commercial.maintenance.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'municipal' },
+    },
+    {
+      id: 'commercial-healthcare',
+      i18nKey: 'sub.commercial.healthcare',
+      detailKey: 'sub.commercial.healthcare.detail',
+      filter: { field: 'tagsArray', op: 'tags-include-any', values: ['medical', 'rehabilitation'] },
+    },
+    {
+      id: 'commercial-agriculture',
+      i18nKey: 'sub.commercial.agriculture',
+      detailKey: 'sub.commercial.agriculture.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'agriculture' },
+    },
+    {
+      id: 'commercial-telepresence',
+      i18nKey: 'sub.commercial.telepresence',
+      detailKey: 'sub.commercial.telepresence.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'telepresence' },
+    },
+    {
+      id: 'commercial-reception',
+      i18nKey: 'sub.commercial.reception',
+      detailKey: 'sub.commercial.reception.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'reception' },
+    },
+    {
+      id: 'commercial-research',
+      i18nKey: 'sub.commercial.research',
+      detailKey: 'sub.commercial.research.detail',
+      filter: { field: 'tagsArray', op: 'tags-include-any', values: ['research', 'dev-platform'] },
+    },
+    {
+      id: 'commercial-aerial',
+      i18nKey: 'sub.commercial.aerial',
+      detailKey: 'sub.commercial.aerial.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'aerial' },
+    },
+  ],
+});
+
 export const CATEGORY_LABELS = {
   humanoid: 'Humanoid Robot',
   quadruped: 'Quadruped Robot',
@@ -381,6 +514,7 @@ export const CATEGORY_LABELS = {
   educational: 'Educational Robot',
   smarthome: 'Smart Home Robot',
   'robotic-arm': 'Robotic Arm',
+  commercial: 'Commercial Robot',
 };
 
 export const CATEGORY_COLORS = Object.fromEntries(CATEGORIES.map((c) => [c.id, c.color]));
@@ -399,7 +533,14 @@ export const USE_CASES = [
     filter: {
       op: 'any',
       filters: [
-        { field: 'category', op: 'includes', value: 'cleaning' },
+        {
+          op: 'all',
+          filters: [
+            { field: 'category', op: 'includes', value: 'cleaning' },
+            { field: 'tagsArray', op: 'tags-not-include', value: 'commercial' },
+            { field: 'tagsArray', op: 'tags-not-include', value: 'industrial' },
+          ],
+        },
         { field: 'category', op: 'includes', value: 'outdoor' },
         { field: 'category', op: 'includes', value: 'smarthome' },
         {
@@ -459,6 +600,28 @@ export const USE_CASES = [
     filter: {
       op: 'any',
       filters: [
+        { field: 'category', op: 'includes', value: 'commercial' },
+        {
+          op: 'all',
+          filters: [
+            { field: 'category', op: 'includes', value: 'cleaning' },
+            { field: 'tagsArray', op: 'tags-include-any', values: ['commercial', 'industrial'] },
+          ],
+        },
+        {
+          op: 'all',
+          filters: [
+            { field: 'category', op: 'includes', value: 'robotic-arm' },
+            { field: 'tagsArray', op: 'tags-include', value: 'industrial' },
+          ],
+        },
+        {
+          op: 'all',
+          filters: [
+            { field: 'category', op: 'includes', value: 'educational' },
+            { field: 'tagsArray', op: 'tags-include', value: 'research' },
+          ],
+        },
         {
           op: 'all',
           filters: [

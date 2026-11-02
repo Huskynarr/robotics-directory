@@ -21,6 +21,10 @@ describe('robot measurement parsing', () => {
     ['90 min', 1.5],
     ['2.5 hours', 2.5],
     ['1 day', 24],
+    ['3h+ unloaded', 3],
+    ['2.5–4 h; manufacturer test range', 2.5],
+    ['48 V; 2 h backup runtime', 2],
+    ['300 Wh; 4 hours operating time', 4],
   ])('normalizes duration %s to hours', (value, expected) => {
     expect(parseDurationHours(value)).toBe(expected);
   });
@@ -29,9 +33,19 @@ describe('robot measurement parsing', () => {
     expect(parseWeightKg('3400 g')).toBe(3.4);
     expect(parseWeightKg('22 lbs')).toBeCloseTo(9.98, 1);
   });
+
+  it.each(['Mains power (100–250 V AC)', '500 Wh', 'Not disclosed', ''])(
+    'does not interpret %s as battery endurance',
+    (value) => expect(parseDurationHours(value)).toBeNull(),
+  );
 });
 
 describe('advanced robot filters', () => {
+  it('excludes mains-powered models from every battery-duration filter', () => {
+    const mains = [{ model: 'Ameca', batteryLife: 'Mains power (100–250 V AC)' }];
+    for (const battery of ['short', 'medium', 'long'])
+      expect(applyAdvancedRobotFilters(mains, { battery })).toEqual([]);
+  });
   it.each([
     ['light', ['Roomba']],
     ['medium', ['Go1', 'Pepper', 'Sophia']],

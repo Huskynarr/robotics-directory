@@ -55,12 +55,20 @@ const CAT_LABELS = {
   outdoor: { en: 'Outdoor', de: 'Außenbereich' },
   educational: { en: 'Educational', de: 'Bildung' },
   smarthome: { en: 'Smart home', de: 'Smart Home' },
+  commercial: { en: 'Commercial', de: 'Gewerbe' },
 };
 
 // Step 1 — what kind of robot you're after (maps to category, or "any").
 // Ordered humanoid-first: humanoids and other "real" robots lead; home-helper
 // appliances (cleaning/outdoor/smart home) follow as the nice-to-have tail.
 const NEED_OPTIONS = [
+  {
+    value: 'commercial',
+    icon: 'fa-building',
+    color: '#475569',
+    label: { en: 'Business & logistics', de: 'Gewerbe & Logistik' },
+    desc: { en: 'Logistics, inspection, construction', de: 'Logistik, Inspektion, Bauwesen' },
+  },
   {
     value: 'humanoid',
     icon: 'fa-person',

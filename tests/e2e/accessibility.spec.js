@@ -1,7 +1,22 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 
-const pages = ['/', '/finder/', '/stats/', '/robot/westwood-robotics-themis-v2/'];
+const pages = [
+  '/',
+  '/finder/',
+  '/stats/',
+  '/robot/westwood-robotics-themis-v2/',
+  '/brands/hebi-robotics/',
+  '/brands/zhigu-tianchu/',
+  '/brands/dji-official/',
+  '/robot/t-chef-tc-40ea-us/',
+  '/brands/solartodo-limited/',
+  '/brands/open-robotics/',
+  '/brands/vlt-robotics/',
+  '/brands/scalable-robotics/',
+  '/brands/hand-plus-robotics/',
+  '/brands/macco-robotics/',
+];
 
 for (const url of pages) {
   for (const mode of ['light', 'dark']) {

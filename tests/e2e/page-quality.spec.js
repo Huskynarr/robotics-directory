@@ -4,10 +4,20 @@ const CORE_PAGES = ['/', '/finder/', '/robot/westwood-robotics-themis-v2/'];
 
 for (const url of CORE_PAGES) {
   test(`${url} renders without browser errors or broken markup`, async ({ page }) => {
+    // The catalog markup and scripts are under test; use a deterministic video frame
+    // instead of executing the third-party player's changing scripts and policies.
+    await page.route('https://www.youtube.com/embed/**', (route) =>
+      route.fulfill({
+        status: 200,
+        contentType: 'text/html',
+        body: '<!doctype html><html lang="en"><title>Test video frame</title><body>Video frame fixture</body></html>',
+      }),
+    );
     const errors = [];
     page.on('pageerror', (error) => errors.push(`pageerror: ${error.message}`));
     page.on('console', (message) => {
-      if (message.type() === 'error') errors.push(`console: ${message.text()}`);
+      if (message.type() === 'error')
+        errors.push(`console: ${message.text()} [${message.location().url}]`);
     });
 
     const response = await page.goto(url);

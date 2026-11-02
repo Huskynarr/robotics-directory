@@ -9,9 +9,10 @@ const CATEGORIES = [
   'educational',
   'smarthome',
   'robotic-arm',
+  'commercial',
 ];
 
-test.describe('All 8 categories filter correctly', () => {
+test.describe('All 9 categories filter correctly', () => {
   for (const catId of CATEGORIES) {
     test(`category "${catId}" via URL shows only matching robots`, async ({ page }) => {
       await page.goto(`/?category=${catId}`);
@@ -56,3 +57,25 @@ test.describe('All 8 categories filter correctly', () => {
     expect(count).toBeLessThan(200); // should be filtered, not all
   });
 });
+
+for (const [category, subcategory, robotId] of [
+  ['outdoor', 'outdoor-exoskeleton', 'hypershell-x-ultra-s'],
+  ['educational', 'educational-drones', 'locorobo-locodrone-x'],
+  ['commercial', 'commercial-mobility', 'lucid-gravity-robotaxi'],
+]) {
+  test(`shared subcategory URL finds ${subcategory} and opens its sourced model`, async ({
+    page,
+  }) => {
+    await page.goto(`/?category=${category}&sub=${subcategory}`);
+    const cards = page.locator('#robotsGrid .robot-card');
+    await expect(cards.first()).toBeVisible();
+    expect(
+      new Set(await cards.evaluateAll((items) => items.map((item) => item.dataset.category))),
+    ).toEqual(new Set([category]));
+    const link = page.locator(`#robotsGrid a[href="/robot/${robotId}/"]`).first();
+    await expect(link).toBeVisible();
+    await link.click();
+    await expect(page.getByRole('heading', { name: 'Product highlights' })).toBeVisible();
+    await expect(page.locator('main')).toContainText('2026-11-01');
+  });
+}

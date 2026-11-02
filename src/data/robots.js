@@ -12,6 +12,7 @@ const CATEGORIES = [
   { id: 'educational', file: 'data/educational.csv' },
   { id: 'smarthome', file: 'data/smarthome.csv' },
   { id: 'robotic-arm', file: 'data/robotic-arm.csv' },
+  { id: 'commercial', file: 'data/commercial.csv' },
 ];
 
 function loadCategory(categoryId, filePath) {

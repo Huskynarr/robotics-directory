@@ -30,6 +30,7 @@ interface Props {
   ogImage?: string;
   jsonLd?: object;
   preloadImage?: string;
+  noindex?: boolean;
 }
 
 const {
@@ -39,6 +40,7 @@ const {
   ogImage,
   jsonLd,
   preloadImage,
+  noindex = false,
 } = Astro.props;
 
 // hreflang alternates: signal the 28 client-side languages to search engines.
@@ -82,7 +84,9 @@ const globalJsonLd = [
     <meta name="description" content={description} />
     <meta
       name="robots"
-      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+      content={noindex
+        ? 'noindex, follow'
+        : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'}
     />
     <meta name="author" content={SITE_AUTHOR} />
     <meta name="theme-color" content="#1e40af" />

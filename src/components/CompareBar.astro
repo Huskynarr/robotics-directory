@@ -3,7 +3,7 @@ import { translations } from '../data/translations.js';
 const t = translations.en;
 ---
 
-<div id="compareBar" class="compare-bar">
+<aside id="compareBar" class="compare-bar" aria-label={t['compare.label']}>
   <div class="max-w-7xl mx-auto px-4 w-full flex items-center gap-3">
     <div id="compareBarItems" class="flex items-center gap-2 flex-1 overflow-x-auto scrollbar-hide">
       <!-- Thumbnails injected by JS -->
@@ -24,7 +24,7 @@ const t = translations.en;
       {t['compare.clear']}
     </button>
   </div>
-</div>
+</aside>
 
 <!-- Compare modal -->
 <div id="compareModal" class="fixed inset-0 z-50 hidden">

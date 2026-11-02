@@ -25,11 +25,14 @@ test.describe('Catalog page', () => {
     const isMobile = viewport.width < 768;
 
     if (isMobile) {
-      // On mobile, open the drawer and click the mobile nav item
+      // Expanding a group keeps its subcategories available; View All selects it.
       await page.locator('#mobileMenuToggle').click();
       await page.waitForTimeout(200);
       const humanoidBtn = page.locator('.mobile-nav-item[data-category="humanoid"]');
       await humanoidBtn.click();
+      await expect(page.locator('#mobileDrawer')).toHaveClass(/active/);
+      await page.locator('[data-mobile-viewall][data-category="humanoid"]').click();
+      await expect(page.locator('#mobileMenuToggle')).toHaveAttribute('aria-expanded', 'false');
     } else {
       // On desktop the mega-tab opens the panel; the "View All" button performs the filter.
       await page.locator('[data-megatab="humanoid"]').click();

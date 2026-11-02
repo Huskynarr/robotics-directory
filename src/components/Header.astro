@@ -66,7 +66,7 @@ const mobileData = CATEGORIES.map((cat) => {
 
     <!-- Desktop mega tabs -->
     <nav
-      class="hidden md:flex items-center gap-0.5 overflow-x-auto scrollbar-hide flex-1 justify-center"
+      class="hidden md:flex items-center gap-0.5 overflow-x-auto scrollbar-hide flex-1 min-w-0 justify-start"
       aria-label="Category navigation"
       role="tablist"
     >
@@ -102,6 +102,15 @@ const mobileData = CATEGORIES.map((cat) => {
 
     <!-- Desktop controls -->
     <div class="hidden md:flex items-center gap-2 shrink-0">
+      <a
+        href="/brands/"
+        class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
+        aria-label="Brands"
+        data-i18n-aria="nav.brands"
+        title="Brands"
+      >
+        <i class="fas fa-building"></i>
+      </a>
       <a
         href="/finder/"
         class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
@@ -236,6 +245,15 @@ const mobileData = CATEGORIES.map((cat) => {
 
     <!-- Robot Finder -->
     <a
+      href="/brands/"
+      class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mb-1 no-underline"
+    >
+      <i class="fas fa-building"></i>
+      <span data-i18n="nav.brands">Brands</span>
+    </a>
+
+    <!-- Robot Finder -->
+    <a
       href="/finder/"
       class="w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium text-text-secondary hover:bg-bg transition-colors mb-1 no-underline"
     >
@@ -297,6 +315,10 @@ const mobileData = CATEGORIES.map((cat) => {
     </button>
   </div>
 </nav>
+
+<script>
+  import '../scripts/header-navigation.js';
+</script>
 
 <style>
   /* Mega tab - modern underline-glow style */

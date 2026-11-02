@@ -14,53 +14,52 @@ const formattedPrice = formatPrice(robot.price, 'en', (k, fb) => fb || k);
 const detailUrl = `/robot/${robot.id}/`;
 ---
 
-<a
-  href={detailUrl}
-  class="robot-card block no-underline"
-  data-category={robot.category}
-  data-robot-id={robot.id}
-  role="listitem"
->
-  <div class="card-image">
-    <span class="category-badge" data-i18n={`nav.${robot.category}`}
-      >{t[`nav.${robot.category}`] || robot.category}</span
-    >
-    <button
-      class="favorite-btn"
-      data-robot-id={robot.id}
-      aria-label="Add to favorites"
-      type="button"
-    >
-      <i class="far fa-heart"></i>
-    </button>
-    {
-      robot.image && (
-        <img
-          src={imagePath}
-          alt=""
-          class="card-image-backdrop"
-          aria-hidden="true"
-          loading={eager ? 'eager' : 'lazy'}
-          fetchpriority={eager ? 'high' : undefined}
-        />
-      )
-    }
-    <img
-      src={imagePath}
-      alt={`${robot.model} by ${robot.manufacturer}`}
-      class="card-image-main"
-      loading={eager ? 'eager' : 'lazy'}
-      fetchpriority={eager ? 'high' : undefined}
-      width="400"
-      height="300"
-    />
-  </div>
-  <div class="card-info">
-    <h3>{robot.model}</h3>
-    <p class="manufacturer">{robot.manufacturer}</p>
-    <p class="price" data-raw-price={robot.price}>{formattedPrice}</p>
-  </div>
-</a>
+<div class="robot-card" data-category={robot.category} data-robot-id={robot.id} role="listitem">
+  <a href={detailUrl} class="block no-underline">
+    <div class="card-image">
+      <span class="category-badge" data-i18n={`nav.${robot.category}`}
+        >{t[`nav.${robot.category}`] || robot.category}</span
+      >
+      {
+        robot.image && (
+          <img
+            src={imagePath}
+            alt=""
+            class="card-image-backdrop"
+            aria-hidden="true"
+            loading={eager ? 'eager' : 'lazy'}
+            fetchpriority={eager ? 'high' : undefined}
+          />
+        )
+      }
+      <img
+        src={imagePath}
+        alt={`${robot.model} by ${robot.manufacturer}`}
+        class="card-image-main"
+        loading={eager ? 'eager' : 'lazy'}
+        fetchpriority={eager ? 'high' : undefined}
+        width="400"
+        height="300"
+      />
+    </div>
+    <div class="card-info">
+      <h3>{robot.model}</h3>
+      <p class="manufacturer">{robot.manufacturer}</p>
+      <p class="price" data-raw-price={robot.price}>{formattedPrice}</p>
+    </div>
+  </a>
+  <button class="favorite-btn" data-robot-id={robot.id} aria-label="Add to favorites" type="button">
+    <i class="far fa-heart"></i>
+  </button>
+  <button
+    class="compare-add-btn"
+    type="button"
+    data-compare-id={robot.id}
+    aria-label={`Compare ${robot.model}`}
+    aria-pressed="false"
+    data-i18n="compare.label">{t['compare.label']}</button
+  >
+</div>
 
 <script>
   document.addEventListener(

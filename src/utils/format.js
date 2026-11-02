@@ -126,8 +126,29 @@ export function formatSpec(raw, lang = 'en') {
  */
 export function getPriceValue(price) {
   if (!price || typeof price !== 'string') return Infinity;
-  const numeric = parseFloat(price.replace(/[^\d.-]/g, ''));
+  if (/not disclosed|on request|prototype|discontinued/i.test(price)) return Infinity;
+  const amount = price.match(
+    /[$€]\s*(\d+(?:,\d{3})*(?:\.\d+)?)|(\d+(?:,\d{3})*(?:\.\d+)?)\s*(?:USD|EUR)\b/i,
+  );
+  const leading = price.match(/^~?\s*(\d+(?:,\d{3})*(?:\.\d+)?)/);
+  const range = /^~?\s*\d+(?:,\d{3})*(?:\.\d+)?\s*(?:[-–—]|to)\s*\d/i.test(price);
+  const value = range ? leading?.[1] : amount?.[1] || amount?.[2] || leading?.[1];
+  if (!value) return Infinity;
+  const numeric = Number(value.replace(/,/g, ''));
   return isNaN(numeric) ? Infinity : numeric;
+}
+
+/** Only an unqualified amount can become an exact structured product offer. */
+export function getStructuredOffer(raw) {
+  if (!raw || typeof raw !== 'string') return null;
+  const match = raw.trim().match(/^(?:([$€])\s*)?(\d+(?:,\d{3})*(?:\.\d+)?)\s*(USD|EUR)?$/i);
+  if (!match) return null;
+  const symbolCurrency = match[1] === '€' ? 'EUR' : match[1] === '$' ? 'USD' : null;
+  const currency = match[3]?.toUpperCase() || symbolCurrency || 'USD';
+  if (symbolCurrency && currency !== symbolCurrency) return null;
+  const price = Number(match[2].replace(/,/g, ''));
+  if (!Number.isFinite(price) || price <= 0) return null;
+  return { '@type': 'Offer', priceCurrency: currency, price };
 }
 
 /**

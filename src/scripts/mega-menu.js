@@ -266,10 +266,7 @@ function setupSubcategoryClicks() {
 }
 
 function closeMobileDrawer() {
-  const drawer = document.getElementById('mobileDrawer');
-  const overlay = document.getElementById('drawerOverlay');
-  if (drawer) drawer.classList.remove('active');
-  if (overlay) overlay.classList.remove('active');
+  document.dispatchEvent(new Event('closeMobileMenu'));
 }
 
 document.addEventListener('DOMContentLoaded', init);

@@ -4,10 +4,12 @@ import {
   getSubcategoryDef,
   getUseCaseDef,
 } from '../data/subcategory-filters.js';
-import { trapFocus } from './focus-trap.js';
 import { applyAdvancedRobotFilters, parseWeightKg } from '../utils/robot-filters.js';
 import { CATEGORIES } from '../data/categories.js';
 import { RECOMMENDED_PRIORITY } from '../data/recommended-sort.js';
+import { loadArrayFromLocalStorage } from './storage.js';
+import { loadProductEvidence } from '../utils/load-product-evidence.js';
+import { getRobotSearchMatch } from '../utils/robot-search.js';
 
 const ROBOTS_PER_PAGE = 24;
 const DEFAULT_SORT = 'recommended';
@@ -25,6 +27,48 @@ let currentSize = '';
 let advancedFilters = { weight: '', battery: '', ipRating: '', video: '' };
 let currentLang = 'en';
 let searchTimeout = null;
+let productEvidence;
+let productSearchState = 'idle';
+
+function startProductSearch() {
+  if (productSearchState !== 'idle') return;
+  productSearchState = 'loading';
+  loadProductEvidence()
+    .then((evidence) => {
+      productEvidence = evidence.products;
+      productSearchState = 'ready';
+      if (currentSearch) applyFilters();
+    })
+    .catch(() => {
+      productSearchState = 'error';
+      if (currentSearch) applyFilters();
+    });
+}
+
+function updateProductSearchStatus() {
+  document
+    .getElementById('robotsGrid')
+    ?.setAttribute('aria-busy', String(!!currentSearch && productSearchState === 'loading'));
+  const status = document.getElementById('productSearchStatus');
+  if (!status) return;
+  const visible = currentSearch && ['loading', 'error'].includes(productSearchState);
+  status.classList.toggle('hidden', !visible);
+  status.dataset.searchState = currentSearch ? productSearchState : 'idle';
+  if (!visible) {
+    status.textContent = '';
+    return;
+  }
+  const table = window.__I18N__?.translations?.[currentLang] || {};
+  if (productSearchState === 'loading') {
+    status.textContent = table['search.loadingHighlights'] || 'Searching product highlights…';
+  } else {
+    status.innerHTML = `${escapeHTML(table['search.highlightsFailed'] || 'Product highlights could not be searched. Results currently use names, descriptions and tags.')} <button type="button" class="text-primary underline" data-search-retry>${escapeHTML(table['search.retryHighlights'] || 'Retry product search')}</button>`;
+    status.querySelector('[data-search-retry]').addEventListener('click', () => {
+      productSearchState = 'idle';
+      applyFilters();
+    });
+  }
+}
 
 function getLang() {
   const i18nLanguage = window.__I18N__?.currentLang?.();
@@ -77,7 +121,7 @@ function restoreStateFromURL() {
   currentCategory = params.get('category') || 'all';
   currentSubcategory = params.get('sub') || null;
   currentUseCase = params.get('usecase') || null;
-  currentSearch = params.get('q') || '';
+  currentSearch = (params.get('q') || '').trim().toLowerCase();
   currentSort = params.get('sort') || DEFAULT_SORT;
   currentManufacturer = params.get('mfr') || '';
   currentPrice = params.get('price') || '';
@@ -194,6 +238,7 @@ function init() {
     if (btn.tagName === 'A') return; // skip link cards
     // Skip mega-tab buttons with megatab (handled by mega-menu.js)
     if (btn.dataset.megatab) return;
+    if (btn.classList.contains('mobile-accordion-trigger')) return;
     btn.addEventListener('click', (e) => {
       e.preventDefault();
       currentCategory = btn.dataset.category;
@@ -213,10 +258,8 @@ function init() {
       applyFilters();
       serializeStateToURL();
 
-      const drawer = document.getElementById('mobileDrawer');
-      const overlay = document.getElementById('drawerOverlay');
-      if (drawer) drawer.classList.remove('active');
-      if (overlay) overlay.classList.remove('active');
+      if (document.getElementById('mobileDrawer')?.classList.contains('active'))
+        document.dispatchEvent(new Event('closeMobileMenu'));
     });
   });
 
@@ -299,8 +342,6 @@ function init() {
     resetBtn.addEventListener('click', resetFilters);
   }
 
-  setupMobileMenu();
-
   // Initial render - use replaceState to avoid extra history entry
   applyFilters();
   serializeStateToURL(true);
@@ -310,6 +351,7 @@ function init() {
     updateHeroContext();
     renderCards();
     updateActiveChips();
+    updateProductSearchStatus();
   });
 
   document.addEventListener('subcategorySelected', (e) => {
@@ -350,53 +392,16 @@ function updateMegaTabActiveStates() {
   if (allTab) allTab.classList.toggle('active', currentCategory === 'all');
 }
 
-function setupMobileMenu() {
-  const toggle = document.getElementById('mobileMenuToggle');
-  const drawer = document.getElementById('mobileDrawer');
-  const overlay = document.getElementById('drawerOverlay');
-  const close = document.getElementById('mobileMenuClose');
-  let removeDrawerTrap = null;
-
-  function openMenu() {
-    if (drawer) drawer.classList.add('active');
-    if (overlay) overlay.classList.add('active');
-    if (toggle) toggle.setAttribute('aria-expanded', 'true');
-    if (drawer) {
-      removeDrawerTrap = trapFocus(drawer);
-      if (close) close.focus();
-    }
-  }
-  function closeMenu() {
-    if (drawer) drawer.classList.remove('active');
-    if (overlay) overlay.classList.remove('active');
-    if (toggle) toggle.setAttribute('aria-expanded', 'false');
-    if (removeDrawerTrap) {
-      removeDrawerTrap();
-      removeDrawerTrap = null;
-    }
-    if (toggle) toggle.focus();
-  }
-
-  if (toggle) toggle.addEventListener('click', openMenu);
-  if (close) close.addEventListener('click', closeMenu);
-  if (overlay) overlay.addEventListener('click', closeMenu);
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && drawer && drawer.classList.contains('active')) closeMenu();
-  });
-}
-
 function applyFilters() {
   let robots = [...allRobots];
 
   if (currentSearch) {
-    robots = robots.filter(
-      (r) =>
-        r.model.toLowerCase().includes(currentSearch) ||
-        r.manufacturer.toLowerCase().includes(currentSearch) ||
-        (r.description && r.description.toLowerCase().includes(currentSearch)) ||
-        (r.tagsArray && r.tagsArray.some((tag) => tag.toLowerCase().includes(currentSearch))),
+    startProductSearch();
+    robots = robots.filter((robot) =>
+      getRobotSearchMatch(robot, currentSearch, productEvidence?.[robot.id]),
     );
   }
+  updateProductSearchStatus();
 
   if (currentUseCase) {
     const ucDef = getUseCaseDef(currentUseCase);
@@ -561,7 +566,8 @@ function renderCards() {
 
   if (filteredRobots.length === 0) {
     grid.innerHTML = '';
-    if (noResults) noResults.classList.remove('hidden');
+    if (noResults)
+      noResults.classList.toggle('hidden', productSearchState === 'loading' && !!currentSearch);
     renderPagination(0);
     return;
   }
@@ -571,12 +577,7 @@ function renderCards() {
   const start = (currentPage - 1) * ROBOTS_PER_PAGE;
   const pageRobots = filteredRobots.slice(start, start + ROBOTS_PER_PAGE);
 
-  let favs = [];
-  try {
-    favs = JSON.parse(localStorage.getItem('robotFavorites') || '[]');
-  } catch {
-    /* ignore */
-  }
+  const favs = loadArrayFromLocalStorage('robotFavorites');
 
   const { translations } = window.__I18N__ || { translations: {} };
   const lang = currentLang;
@@ -603,13 +604,14 @@ function renderCards() {
       const isLcpCandidate = start === 0 && index === 0;
       const imageLoading = isLcpCandidate ? 'eager' : 'lazy';
       const imagePriority = isLcpCandidate ? ' fetchpriority="high"' : '';
+      const searchMatch =
+        currentSearch && getRobotSearchMatch(robot, currentSearch, productEvidence?.[robot.id]);
+      const highlightMatch = searchMatch?.kind === 'highlight' ? searchMatch.highlight : null;
+      const detailFragment = highlightMatch ? '#product-highlights' : '';
 
-      return `<a href="/robot/${safeId}/" class="robot-card block no-underline" data-category="${safeCategory}" data-robot-id="${safeId}" role="listitem">
+      return `<div class="robot-card" data-category="${safeCategory}" data-robot-id="${safeId}" role="listitem"><a href="/robot/${safeId}/${detailFragment}" class="block no-underline">
       <div class="card-image">
         <span class="category-badge">${safeCatLabel}</span>
-        <button class="favorite-btn${isFav ? ' active' : ''}" data-robot-id="${safeId}" aria-label="Add to favorites" type="button">
-          <i class="${isFav ? 'fas' : 'far'} fa-heart"></i>
-        </button>
         ${robot.image ? `<img src="${safeImg}" alt="" class="card-image-backdrop" aria-hidden="true" loading="${imageLoading}"${imagePriority} />` : ''}
         <img src="${safeImg}" alt="${safeModel} by ${safeManufacturer}" class="card-image-main" loading="${imageLoading}"${imagePriority} width="400" height="300" onerror="this.src='/images/image-not-found.webp';" />
       </div>
@@ -617,8 +619,12 @@ function renderCards() {
         <h3>${safeModel}</h3>
         <p class="manufacturer">${safeManufacturer}</p>
         <p class="price">${safePrice}</p>
+        ${highlightMatch ? `<p class="mt-2 text-xs text-text-secondary break-words" data-search-highlight><span class="font-semibold">${escapeHTML(tFn('search.highlightMatch', 'Match in product highlights'))}:</span> ${escapeHTML(highlightMatch)}</p>` : ''}
       </div>
-    </a>`;
+    </a>
+    <button class="favorite-btn${isFav ? ' active' : ''}" data-robot-id="${safeId}" aria-label="Add to favorites" type="button"><i class="${isFav ? 'fas' : 'far'} fa-heart"></i></button>
+    <button class="compare-add-btn" type="button" data-compare-id="${safeId}" aria-label="${escapeHTML(tFn('compare.label', 'Compare'))} ${safeModel}" aria-pressed="false">${escapeHTML(tFn('compare.label', 'Compare'))}</button>
+    </div>`;
     })
     .join('');
 
@@ -631,6 +637,7 @@ function renderCards() {
   });
 
   renderPagination(filteredRobots.length);
+  document.dispatchEvent(new Event('robotCardsRendered'));
 }
 
 function renderPagination(total) {

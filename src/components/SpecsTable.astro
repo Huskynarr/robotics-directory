@@ -1,6 +1,7 @@
 ---
 import { formatPrice, formatSpec } from '../utils/format.js';
 import { translations } from '../data/translations.js';
+import { getSpecificationReview } from '../data/specification-reviews.js';
 
 interface Props {
   robot: Record<string, string>;
@@ -8,6 +9,7 @@ interface Props {
 
 const { robot } = Astro.props;
 const t = translations.en;
+const review = getSpecificationReview(robot.id);
 
 const EXCLUDED = [
   'manufacturer',
@@ -30,6 +32,33 @@ const commonSpecs = [
   { key: 'size', labelKey: 'spec.size' },
   { key: 'batteryLife', labelKey: 'spec.batteryLife' },
   { key: 'maxRuntime', labelKey: 'spec.maxRuntime' },
+  { key: 'chargingTime', labelKey: 'spec.chargingTime' },
+  { key: 'depthRating', labelKey: 'spec.depthRating' },
+  { key: 'flightTime', labelKey: 'spec.flightTime' },
+  { key: 'maxTakeoffWeight', labelKey: 'spec.maxTakeoffWeight' },
+  { key: 'cookingCapacity', labelKey: 'spec.cookingCapacity' },
+  { key: 'heatSource', labelKey: 'spec.heatSource' },
+  { key: 'workingWidth', labelKey: 'spec.workingWidth' },
+  { key: 'areaRate', labelKey: 'spec.areaRate' },
+  { key: 'throughput', labelKey: 'spec.throughput' },
+  { key: 'stackingHeight', labelKey: 'spec.stackingHeight' },
+  { key: 'assistPower', labelKey: 'spec.assistPower' },
+  { key: 'assistancePace', labelKey: 'spec.assistancePace' },
+  { key: 'assistanceRange', labelKey: 'spec.assistanceRange' },
+  { key: 'waterTankCapacity', labelKey: 'spec.waterTankCapacity' },
+  { key: 'navigationAccuracy', labelKey: 'spec.navigationAccuracy' },
+  { key: 'dockingAccuracy', labelKey: 'spec.dockingAccuracy' },
+  { key: 'driveMode', labelKey: 'spec.driveMode' },
+  { key: 'liftStroke', labelKey: 'spec.liftStroke' },
+  { key: 'maxLiftHeight', labelKey: 'spec.maxLiftHeight' },
+  { key: 'armReach', labelKey: 'spec.armReach' },
+  { key: 'armRepeatability', labelKey: 'spec.armRepeatability' },
+  { key: 'weldSpeed', labelKey: 'spec.weldSpeed' },
+  { key: 'workTableSize', labelKey: 'spec.workTableSize' },
+  { key: 'minAisleWidth', labelKey: 'spec.minAisleWidth' },
+  { key: 'turningRadius', labelKey: 'spec.turningRadius' },
+  { key: 'transportPayload', labelKey: 'spec.transportPayload' },
+  { key: 'visionPrecision', labelKey: 'spec.visionPrecision' },
 ];
 
 // Category-specific specs
@@ -64,7 +93,16 @@ const allSpecKeys = [
     .map((s) => s.key),
 ];
 const specificSpecs = categorySpecs[robot.category] || [];
-const specsToShow = [...commonSpecs, ...specificSpecs];
+// A recorded specification is useful even when it first appeared in another
+// category (for example payload on a commercial transport robot).
+const specsToShow = [
+  ...new Map(
+    [...commonSpecs, ...specificSpecs, ...Object.values(categorySpecs).flat()].map((spec) => [
+      spec.key,
+      spec,
+    ]),
+  ).values(),
+];
 
 // Additional specs not in the predefined list
 const additionalSpecs = Object.entries(robot)
@@ -83,6 +121,13 @@ const additionalSpecs = Object.entries(robot)
   }));
 ---
 
+{
+  review && (
+    <p class="text-sm text-text-muted mb-4" data-i18n="spec.reviewScope">
+      {t['spec.reviewScope']}
+    </p>
+  )
+}
 <table class="specs-table">
   <tbody>
     {
@@ -96,7 +141,24 @@ const additionalSpecs = Object.entries(robot)
             : formatSpec(val, 'en');
         return (
           <tr>
-            <td data-i18n={spec.labelKey}>{t[spec.labelKey]}</td>
+            <td>
+              <span data-i18n={spec.labelKey}>{t[spec.labelKey]}</span>
+              {review?.fields[spec.key] && (
+                <a
+                  href={review.sources[0].url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="block whitespace-normal text-xs text-primary hover:underline mt-1"
+                  data-spec-source={spec.key}
+                  data-review-status={review.fields[spec.key].status}
+                  title={review.fields[spec.key].note || review.sources[0].name}
+                >
+                  <span data-i18n="spec.sourceReview">{t['spec.sourceReview']}</span>
+                  {' · '}
+                  <time datetime={review.sources[0].checkedAt}>{review.sources[0].checkedAt}</time>
+                </a>
+              )}
+            </td>
             <td data-spec-key={spec.key} data-raw-value={val}>
               {display}
             </td>
@@ -107,8 +169,27 @@ const additionalSpecs = Object.entries(robot)
     {
       additionalSpecs.map((spec) => (
         <tr>
-          <td>{spec.label}</td>
-          <td>{formatSpec(spec.value, 'en')}</td>
+          <td>
+            {spec.label}
+            {review?.fields[spec.key] && (
+              <a
+                href={review.sources[0].url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block whitespace-normal text-xs text-primary hover:underline mt-1"
+                data-spec-source={spec.key}
+                data-review-status={review.fields[spec.key].status}
+                title={review.fields[spec.key].note || review.sources[0].name}
+              >
+                <span data-i18n="spec.sourceReview">{t['spec.sourceReview']}</span>
+                {' · '}
+                <time datetime={review.sources[0].checkedAt}>{review.sources[0].checkedAt}</time>
+              </a>
+            )}
+          </td>
+          <td data-spec-key={spec.key} data-raw-value={spec.value}>
+            {formatSpec(spec.value, 'en')}
+          </td>
         </tr>
       ))
     }

@@ -1,7 +1,7 @@
 ---
 import { CATEGORY_LABELS } from '../data/categories.js';
 import { SITE_URL } from '../config/site.js';
-import { extractYouTubeId } from '../utils/format.js';
+import { extractYouTubeId, getStructuredOffer } from '../utils/format.js';
 
 interface Props {
   robot: Record<string, string>;
@@ -41,9 +41,36 @@ const SPEC_PROPS: Array<{ key: string; name: string }> = [
   { key: 'size', name: 'Size' },
   { key: 'batteryLife', name: 'Battery life' },
   { key: 'maxRuntime', name: 'Max runtime' },
+  { key: 'chargingTime', name: 'Charging time' },
+  { key: 'depthRating', name: 'Depth rating' },
+  { key: 'flightTime', name: 'Flight time' },
+  { key: 'maxTakeoffWeight', name: 'Maximum takeoff mass' },
+  { key: 'cookingCapacity', name: 'Cooking capacity per batch' },
+  { key: 'heatSource', name: 'Heat source' },
+  { key: 'workingWidth', name: 'Working width' },
+  { key: 'areaRate', name: 'Area rate' },
+  { key: 'throughput', name: 'Throughput' },
+  { key: 'stackingHeight', name: 'Stacking height' },
+  { key: 'assistPower', name: 'Assistance power' },
+  { key: 'assistancePace', name: 'Assistance pace' },
+  { key: 'assistanceRange', name: 'Assistance range' },
+  { key: 'waterTankCapacity', name: 'Water tank capacity' },
+  { key: 'navigationAccuracy', name: 'Navigation accuracy' },
+  { key: 'dockingAccuracy', name: 'Docking accuracy' },
+  { key: 'driveMode', name: 'Drive mode' },
+  { key: 'liftStroke', name: 'Lift travel' },
+  { key: 'maxLiftHeight', name: 'Maximum fork height' },
+  { key: 'armReach', name: 'Arm reach' },
+  { key: 'armRepeatability', name: 'Arm repeatability' },
+  { key: 'weldSpeed', name: 'Welding feed rate' },
+  { key: 'workTableSize', name: 'Work table dimensions' },
+  { key: 'minAisleWidth', name: 'Minimum aisle width' },
+  { key: 'turningRadius', name: 'Turning radius' },
+  { key: 'transportPayload', name: 'Transport payload' },
+  { key: 'visionPrecision', name: 'Vision localization precision' },
   { key: 'dof', name: 'Degrees of freedom' },
   { key: 'payload', name: 'Payload' },
-  { key: 'speed', name: 'Max speed' },
+  { key: 'speed', name: 'Speed' },
   { key: 'ipRating', name: 'IP rating' },
   { key: 'terrain', name: 'Terrain' },
 ];
@@ -71,21 +98,9 @@ const breadcrumbLd = {
   ],
 };
 
-// Add offers if price is numeric
-if (robot.price && !/not disclosed|on request|prototype|discontinued/i.test(robot.price)) {
-  const priceMatch = robot.price.match(/([\d,.\s]+)\s*(USD|EUR)?/i);
-  if (priceMatch) {
-    const priceNum = parseFloat(priceMatch[1].replace(/[,\s]/g, ''));
-    if (!isNaN(priceNum)) {
-      jsonLd.offers = {
-        '@type': 'Offer',
-        availability: 'https://schema.org/InStock',
-        priceCurrency: (priceMatch[2] || 'USD').toUpperCase(),
-        price: priceNum,
-      };
-    }
-  }
-}
+// Historical, estimated, starting and preorder prices remain qualified text.
+const offer = getStructuredOffer(robot.price);
+if (offer) jsonLd.offers = offer;
 
 // VideoObject structured data for embedded YouTube demos
 const videoId = extractYouTubeId(robot.video);

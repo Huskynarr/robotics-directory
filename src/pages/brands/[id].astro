@@ -1,0 +1,427 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import RobotCard from '../../components/RobotCard.astro';
+import FavoritesDrawer from '../../components/FavoritesDrawer.astro';
+import CatalogData from '../../components/CatalogData.astro';
+import CompareBar from '../../components/CompareBar.astro';
+import { getAllBrands } from '../../data/brands.js';
+import { getCompanyInsights } from '../../data/company-insights.js';
+import { companyProductKindLabel } from '../../utils/company-product-mentions.js';
+import { CATEGORY_LABELS } from '../../data/categories.js';
+import { SITE_URL, SITE_NAME } from '../../config/site.js';
+import '../../styles/global.css';
+
+export function getStaticPaths() {
+  return getAllBrands().map((brand) => ({ params: { id: brand.id }, props: { brand } }));
+}
+
+const { brand } = Astro.props;
+const insights = getCompanyInsights(brand);
+const description =
+  brand.modelCount > 0
+    ? `Browse ${brand.modelCount} catalog models from ${brand.name}, manufacturer website details and directory sources.`
+    : `${brand.name} company directory entry. No robot models are currently listed for this brand in our catalog.`;
+---
+
+<Base
+  title={`${brand.name} – Brand Profile | ${SITE_NAME}`}
+  description={description}
+  canonical={`${SITE_URL}/brands/${brand.id}/`}
+  noindex={brand.modelCount === 0}
+>
+  <Header />
+  <main id="main" class="flex-1 max-w-7xl w-full mx-auto px-4 py-8 md:py-12">
+    <nav aria-label="Breadcrumb" class="text-sm text-text-muted mb-6">
+      <ol class="flex flex-wrap gap-2">
+        <li><a href="/" class="hover:text-primary">Home</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a href="/brands/" class="hover:text-primary">Brands</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" class="break-words">{brand.name}</li>
+      </ol>
+    </nav>
+    <header class="mb-8">
+      <h1 class="font-heading text-3xl md:text-4xl font-bold break-words">{brand.name}</h1>
+      <p class="text-text-secondary mt-3">
+        {brand.modelCount}
+        {brand.modelCount === 1 ? 'model' : 'models'} in this catalog
+      </p>
+      {
+        brand.aliases.length > 0 && (
+          <p class="text-sm text-text-muted mt-2">Also listed as: {brand.aliases.join(', ')}</p>
+        )
+      }
+    </header>
+
+    <div class="grid md:grid-cols-2 gap-5 mb-10">
+      <section
+        class="bg-surface border border-border rounded-2xl p-5 md:p-6"
+        aria-labelledby="brand-details"
+      >
+        <h2 id="brand-details" class="font-heading text-xl font-semibold mb-4">Brand details</h2>
+        {
+          insights.primary?.website && (
+            <div class="mb-5">
+              <h3 class="font-semibold text-sm mb-2">Company website from reviewed sources</h3>
+              <a
+                href={insights.primary.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-primary hover:underline break-all"
+              >
+                {insights.primary.website}
+                <span class="sr-only"> (opens in a new tab)</span>
+              </a>
+              <p class="text-xs text-text-muted mt-2">
+                Evidence and review dates appear under Company focus.
+              </p>
+            </div>
+          )
+        }
+        <h3 class="font-semibold text-sm mb-2">Website recorded by directory</h3>
+        {
+          brand.website ? (
+            <a
+              href={brand.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-primary hover:underline break-all"
+            >
+              {brand.website}
+              <span class="sr-only"> (opens in a new tab)</span>
+            </a>
+          ) : (
+            <p class="text-sm text-text-secondary">
+              No company website is recorded for this entry.
+            </p>
+          )
+        }
+        {
+          brand.categories.length > 0 && (
+            <div class="mt-5">
+              <h3 class="font-semibold text-sm mb-2">Source categories</h3>
+              <ul class="flex flex-wrap gap-2" role="list">
+                {brand.categories.map((category) => (
+                  <li class="rounded-full border border-border px-3 py-1 text-sm text-text-secondary">
+                    {category}
+                  </li>
+                ))}
+              </ul>
+              <p class="text-sm text-text-muted mt-2">
+                Categories as recorded in the directory source data; these are not model
+                specifications.
+              </p>
+            </div>
+          )
+        }
+        {
+          brand.catalogCategories.length > 0 && (
+            <div class="mt-5">
+              <h3 class="font-semibold text-sm mb-2">Catalog categories</h3>
+              <ul class="flex flex-wrap gap-3" role="list">
+                {brand.catalogCategories.map((category) => (
+                  <li>
+                    <a href={`/category/${category}/`} class="text-sm text-primary hover:underline">
+                      {CATEGORY_LABELS[category] || category}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+      </section>
+
+      <section
+        class="bg-surface border border-border rounded-2xl p-5 md:p-6"
+        aria-labelledby="brand-sources"
+      >
+        <h2 id="brand-sources" class="font-heading text-xl font-semibold mb-4">
+          Directory sources
+        </h2>
+        <p class="text-sm text-text-secondary mb-4">
+          These links are evidence of a company listing in a directory only. They do not verify the
+          manufacturer, its products, specifications or current availability.
+        </p>
+        {
+          brand.sources.length > 0 ? (
+            <ul class="space-y-3" role="list">
+              {brand.sources.map((source) => (
+                <li>
+                  <a
+                    href={source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-primary hover:underline break-words"
+                  >
+                    {source.name}
+                    <span class="sr-only"> (opens in a new tab)</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="text-sm text-text-muted">
+              No external directory source is recorded for this brand.
+            </p>
+          )
+        }
+        {
+          brand.directoryUpdatedAt && (
+            <p class="text-xs text-text-muted mt-5">
+              Directory data updated: {brand.directoryUpdatedAt}
+            </p>
+          )
+        }
+      </section>
+    </div>
+
+    {
+      insights.primary && (
+        <section
+          aria-labelledby="company-focus"
+          class="bg-surface border border-border rounded-2xl p-5 md:p-6 mb-8"
+        >
+          <h2 id="company-focus" class="font-heading text-2xl font-semibold mb-3">
+            Company focus
+          </h2>
+          <p class="font-semibold mb-3">{insights.primary.role}</p>
+          <ul class="list-disc pl-5 space-y-2 text-text-secondary">
+            {insights.primary.highlights.map((highlight) => (
+              <li>{highlight}</li>
+            ))}
+          </ul>
+          <p class="text-sm text-text-muted mt-4">
+            Based on company-authored sources. These statements do not establish unique advantages
+            or verify every product listed by a directory.
+          </p>
+          <ul class="mt-4 space-y-2 text-sm">
+            {insights.primary.sources.map((source) => (
+              <li>
+                <a
+                  href={source.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-primary hover:underline break-words"
+                >
+                  {source.name}
+                  <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+                {' · Checked: '}
+                <time datetime={source.checkedAt}>{source.checkedAt}</time>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      insights.groups.length > 0 && (
+        <section aria-labelledby="directory-themes" class="mb-8">
+          <h2 id="directory-themes" class="font-heading text-2xl font-semibold mb-3">
+            Directory listing themes
+          </h2>
+          <p class="text-sm text-text-secondary mb-5">
+            Unverified themes extracted from directory descriptions, categories and use cases.
+            Company profile themes and listed use cases are shown separately from product and
+            service listing themes. Listings may describe resold products or client references and
+            do not establish manufacturer identity or unique advantages.
+          </p>
+          <div class="grid md:grid-cols-2 gap-5">
+            {insights.groups.map((group) => (
+              <div class="bg-surface border border-border rounded-2xl p-5 md:p-6">
+                <h3 class="font-heading text-xl font-semibold mb-3">{group.name}</h3>
+                {group.name === 'BuyAndRentRobots' && (
+                  <p class="text-sm text-text-muted mb-3">
+                    Product and service listing descriptions and categories
+                  </p>
+                )}
+                {group.name === 'BuyAndRentRobots company profile' && (
+                  <p class="text-sm text-text-muted mb-3">
+                    Company description and listed use cases
+                  </p>
+                )}
+                <ul class="list-disc pl-5 space-y-2 text-text-secondary">
+                  {group.themes.map((theme) => (
+                    <li>{theme}</li>
+                  ))}
+                </ul>
+                <ul class="mt-4 space-y-2 text-sm">
+                  {group.sources.map((url, index) => (
+                    <li>
+                      <a
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-primary hover:underline"
+                      >
+                        {group.name} listing{group.sources.length > 1 ? ` ${index + 1}` : ''}
+                        <span class="sr-only"> (opens in a new tab)</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <p class="text-xs text-text-muted mt-3">
+                  Source snapshot: <time datetime={group.checkedAt}>{group.checkedAt}</time>
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    {
+      insights.directoryProducts.length > 0 && (
+        <section aria-labelledby="directory-products" class="mb-8">
+          <h2 id="directory-products" class="font-heading text-2xl font-semibold mb-3">
+            Product names in directory descriptions
+          </h2>
+          <p class="text-sm text-text-secondary mb-5">
+            These names were extracted from company descriptions in BuyAndRentRobots. Model names,
+            families, software, components and services are kept distinct. A name or provider
+            reference alone does not verify a robot or its manufacturer. Reviewed model references
+            link to catalog records below; related-version links leave the exact configuration open.
+            Source names and review decisions remain separate from availability and specifications.
+          </p>
+          <ul class="grid md:grid-cols-2 gap-4" role="list">
+            {insights.directoryProducts.map((mention) => (
+              <li
+                data-directory-product-id={mention.id}
+                data-mention-kind={mention.kind}
+                class="bg-surface border border-border rounded-2xl p-5"
+              >
+                <h3 class="font-heading text-lg font-semibold break-words">{mention.name}</h3>
+                <p class="text-sm text-text-secondary mt-2">
+                  {companyProductKindLabel(mention.kind)} ·{' '}
+                  {mention.productReview?.label || 'Unverified directory name'}
+                </p>
+                {mention.productReview && (
+                  <div data-product-review-kind={mention.productReview.kind} class="text-sm mt-3">
+                    <p class="text-text-secondary">{mention.productReview.note}</p>
+                    {mention.productReview.catalogTargets.length > 0 && (
+                      <ul class="mt-2 space-y-1" role="list">
+                        {mention.productReview.catalogTargets.map((target) => (
+                          <li>
+                            <a href={`/robot/${target.id}/`} class="text-primary hover:underline">
+                              {['family-reference', 'configuration-reference'].includes(
+                                mention.productReview.kind,
+                              )
+                                ? 'Related catalog product: '
+                                : 'Catalog model: '}
+                              {target.manufacturer} {target.model}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    <p class="text-xs text-text-muted mt-2">{mention.productReview.scope}</p>
+                    <ul class="mt-2 space-y-1" role="list">
+                      {mention.productReview.sources.map((source) => (
+                        <li>
+                          <a
+                            href={source.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-primary hover:underline"
+                          >
+                            {source.name}
+                            <span class="sr-only"> (opens in a new tab)</span>
+                          </a>
+                          {' · '}
+                          <time datetime={source.checkedAt}>{source.checkedAt}</time>
+                        </li>
+                      ))}
+                    </ul>
+                    <p class="text-xs text-text-muted mt-2">
+                      Identity/classification review:{' '}
+                      <time datetime={mention.productReview.checkedAt}>
+                        {mention.productReview.checkedAt}
+                      </time>
+                    </p>
+                  </div>
+                )}
+                {mention.context && (
+                  <p class="text-sm text-text-secondary mt-2">Source context: {mention.context}</p>
+                )}
+                {mention.aliases.length > 0 && (
+                  <p class="text-sm text-text-secondary mt-2">
+                    Also named in source: {mention.aliases.join(', ')}
+                  </p>
+                )}
+                <a
+                  href={mention.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-block text-sm text-primary hover:underline mt-3"
+                >
+                  {mention.companyName} directory description
+                  <span class="sr-only"> (opens in a new tab)</span>
+                </a>
+                <p class="text-xs text-text-muted mt-2">
+                  Directory snapshot:{' '}
+                  <time datetime={mention.sourceSnapshotAt}>
+                    {mention.sourceSnapshotAt.slice(0, 10)}
+                  </time>
+                  {' · Name review: '}
+                  <time datetime={mention.checkedAt}>{mention.checkedAt}</time>
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <section aria-labelledby="brand-models" class="mb-8">
+      <h2 id="brand-models" class="font-heading text-2xl font-semibold mb-5">
+        Models in our catalog ({brand.modelCount})
+      </h2>
+      {
+        brand.robots.length > 0 ? (
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
+            role="list"
+          >
+            {brand.robots.map((robot, index) => (
+              <RobotCard robot={robot} eager={index < 4} />
+            ))}
+          </div>
+        ) : (
+          <div class="bg-surface border border-border rounded-2xl p-6">
+            <h3 class="font-semibold mb-2">Company entry only</h3>
+            <p class="text-text-secondary">
+              This company is listed in the brand directory, but no robot models are currently
+              linked in our catalog. A company listing alone does not establish a product range or
+              product availability.
+            </p>
+          </div>
+        )
+      }
+    </section>
+    <a href="/brands/" class="inline-block text-primary hover:underline">← All brand profiles</a>
+  </main>
+  <CompareBar />
+  <FavoritesDrawer />
+  <Footer />
+  <CatalogData />
+  <script>
+    import '../../scripts/i18n.js';
+    import '../../scripts/dark-mode.js';
+    import '../../scripts/favorites.js';
+    import '../../scripts/compare.js';
+
+    document.querySelectorAll<HTMLButtonElement>('.robot-card .favorite-btn').forEach((button) => {
+      button.addEventListener('click', (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        if (button.dataset.robotId && window.__toggleFavorite) {
+          window.__toggleFavorite(button.dataset.robotId);
+        }
+      });
+    });
+  </script>
+</Base>

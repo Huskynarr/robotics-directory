@@ -7,6 +7,7 @@ import RobotGrid from '../components/RobotGrid.astro';
 import CompareBar from '../components/CompareBar.astro';
 import FavoritesDrawer from '../components/FavoritesDrawer.astro';
 import Footer from '../components/Footer.astro';
+import CatalogData from '../components/CatalogData.astro';
 import { getAllRobots } from '../data/robots.js';
 import { CATEGORIES, CATEGORY_LABELS } from '../data/categories.js';
 import { SITE_URL, SITE_NAME } from '../config/site.js';
@@ -50,9 +51,9 @@ const jsonLd = {
   <Footer />
 
   <!-- Embed data for client-side filtering -->
-  <script is:inline define:vars={{ allRobots: JSON.stringify(allRobots) }}>
+  <CatalogData />
+  <script is:inline>
     document.body.setAttribute('data-catalog-page', '');
-    window.__ROBOTS_DATA__ = JSON.parse(allRobots);
   </script>
 
   <script>
