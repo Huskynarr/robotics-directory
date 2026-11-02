@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.279 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1025 |
-| Datierte Produktmerkmal-Datensätze einschließlich 182 bestehender Modelle | 1207 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.284 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1030 |
+| Datierte Produktmerkmal-Datensätze einschließlich 182 bestehender Modelle | 1212 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 122 |
+| Firmenfokus-Prüfungen mit Quellen | 123 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1025 ergänzte Modelle ergeben 2.279 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1030 ergänzte Modelle ergeben 2.284 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-122 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+123 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1207 Datensätze
+Modellseiten verlinken Markenprofile. Die 1212 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 459 haben ausgewählte Datenfeldprüfungen und 59
+haben datierte Merkmalsbelege; 460 haben ausgewählte Datenfeldprüfungen und 58
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -10474,4 +10474,103 @@ Daten-Zwischencommit `637870abe72c168a2bb805a894f1c6ffcea6459e` ist auf `codex/c
 remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
 Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
 Detailinhaltsprüfungen bleiben offen. Vollständige Herstellerportfolios,
+unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 128 – Agility: Digit-Generationen und historische Cassie-Konfigurationen (3. November 2026)
+
+Fünf neue Modelle/Konfigurationen: Digit 4, Digit 5, Cassie, Cassie Gen. 1 und Gen. 2.
+Der bestehende Digit-Familieneintrag erhält erstmals ausgewählte Datenfeldprüfungen.
+Sechs Einträge umfassen 102 Felder: 14 dokumentiert, 81 unbekannt und sieben Roadmap.
+16 zusätzliche Merkmalsaussagen, 21 Produktquellenverweise und ein Firmenfokus ergänzen
+den Bestand. Gesamt: 2.284 Katalogeinträge, 1.212 datierte Merkmalsdatensätze,
+5.404 Aussagen, 2.452 Quellenverweise und 123 Firmenfokus-Prüfungen. 1.135 Modelle
+haben 21.567 ausgewählte Feldprüfungen: 7.920 dokumentiert, 13.254 unbekannt,
+288 widersprüchlich und 105 Roadmap. Von 518 ursprünglichen Recherchezielen haben
+460 ausgewählte Feldprüfungen; 58 bleiben offen. Diese Queue umfasst 8.445 Felder.
+
+Die Mitteilung vom 3. Januar 2020 startet ausdrücklich den kommerziellen Verkauf
+von Digit und benennt Ford als ersten Kunden für die ersten beiden Roboter.
+Der im vorherigen Mai gezeigte Prototyp und das frühere Katalogjahr 2019 bleiben
+vom ausgewählten kommerziellen Erscheinungsjahr 2020 getrennt. Der generische
+Digit-Eintrag wird nicht still einem neueren Modell gleichgesetzt. Frühere
+45.000 USD, ungefähr 40 kg, drei Stunden Laufzeit, 1,5 m/s und Handtyp none sind
+nicht als universelle Familienwerte belegt und werden ausgelassen. Die allgemeine
+Deployment-FAQ beschreibt weiter abgegrenzte Arbeitszellen und Fernsteuerung bei
+Einrichtung oder Forschung; das bestätigt keine pauschal barrierefreie Nutzung
+jeder Generation und keinen universellen Lieferumfang.
+
+Digit 4 ist im Herstellertext ausdrücklich als eingesetzte Vorgängergeneration
+benannt. Mehr als 65.000 Betriebsstunden sind eine kumulierte Flotten-/Standortangabe,
+keine Einzelroboter-Batterielaufzeit. Die 100.000 Behälter und etwa 98 Prozent
+Genauigkeit während der Aufgabe gelten für das genannte GXO-Standortbeispiel;
+sie belegen weder Behälter pro Stunde noch Nutzlast oder numerische Sehpräzision.
+Auch das Verhältnis von Lauf- zu Ladezeit von 2:1 liefert für sich keine Dauer.
+
+Digit 5 wurde am 15. September 2026 vorgestellt. Zielwerte von 129 kg, 1,81 m
+Standhöhe, 50 lb Nutzlast, 90 Minuten Laufzeit, neun Minuten Laden und wechselbaren
+Greifern behalten Roadmap-Status. 50 lb erscheinen in der Mitteilung als 22,7 kg
+und auf der Produktseite gerundet als 23 kg; dies ist kein anderer Lastfall.
+Maximal 2,2 m erreichbare Höhe sind weder horizontale Armreichweite noch Armlänge.
+Mehr als 20 Arbeitsstunden pro 24 Stunden umfassen wiederholtes Laden und sind
+keine Einzelakku-Laufzeit. Ladezustands-Endpunkte und genaue Belastungsbedingungen
+sind nicht angegeben. Die Mitteilungen vom 15. und 22. Oktober beschreiben die
+Nyobolt-Batterie und IGX-Thor-/Halos-Architektur weiterhin als geplante Ausstattung.
+Der Eintritt in ein Prüflabor ist kein abgeschlossenes Zertifikat. Früher Zugang
+bleibt für das erste Halbjahr 2027 vorgesehen, breitere Verfügbarkeit für die
+folgenden sechs bis neun Monate beziehungsweise bis Jahresende. 2026 wird deshalb
+nicht als belegtes erstes Verkaufsjahr eingetragen. Erwartete Kennzeichnungen,
+Auftragsvolumen und Fabrikkapazität sind keine erteilte globale Zulassung,
+Roboter-Einzelpreise oder tatsächlich ausgelieferte Stückzahlen.
+
+Cassie wurde nach Herstellerangabe von August 2017 bis Juli 2019 verkauft; 2017
+ist der Beginn dieses ausdrücklich berichteten Verkaufszeitraums. Das offizielle
+GitHub-Handbuch und README erklären das Produkt als nicht mehr unterstützt; das
+Repository ist herstellereigen, nicht geforkt und archiviert. Der Betriebsabschnitt
+unterscheidet Gen. 1 (Herbst 2017) und Gen. 2 (Frühjahr 2018) nach der Anordnung
+von Entwicklungs- und Nutzerrechner. Diese Hardware-Epochen sind kein ausdrücklich
+belegtes erstes Verkaufsdatum der jeweiligen Konfiguration und keine separaten
+MATLAB-/Firmwareversionen. Laufzeit, Gesamtmasse, Nutzlast und vollständige DOF
+bleiben unbekannt. Teilgelenkmodelle mit Federn und geschlossenen Ketten werden
+nicht zu einer Zahl unabhängig angetriebener Gelenke aufsummiert; Prüfstand-
+und Montagezeichnungen sind keine Gesamtroboterabmessungen. Lade-LED-Zustände und
+Packspannungen liefern keine Ladezeit. Der dokumentierte 100-Meter-Lauf in
+24,73 Sekunden umfasst Stehen am Anfang und Ende und bleibt ein konkretes
+Forschungsergebnis statt allgemeiner Geh- oder Maximalgeschwindigkeit.
+
+13 im ausgewählten Quellenpaket erfasste Namen/Referenzen haben Entscheidungen.
+Arc bleibt Flottensoftware, RoboFab eine Fabrik, Nyobolt Batteriepartner und
+IGX Thor/Halos eine geplante Rechen-/Sicherheitsplattform. Digit 3 wird nur in einer
+eingereichten Frage erwähnt; die Herstellerantwort belegt die genaue benannte
+Konfiguration nicht ausdrücklich. Dies bleibt ein zusätzlicher Recherchehinweis,
+keine neue Roboterzeile und keine der drei ursprünglichen offenen Modellidentitäten.
+Unbenannte Radroboter bleiben explorative Roadmap. Der 2023-Artikel beschreibt
+neue Hände/Kopf für eine unnummerierte Digit-Generation; er wird nicht ohne weiteren
+Beleg in eine zweite Digit-4-Zeile oder pauschale Digit-4-Spezifikationen umgewandelt.
+
+22 öffentliche HTTP-200-Antworten mit geprüften SHA-256-Werten. Native HTML-
+Artikelkörper, offizielle Wiki-/README-Texte und öffentliche Repository-Metadaten;
+Navigation, globale Führungsbiografien und verwandte Beiträge sind von den
+Artikelbelegen abgegrenzt. Die Product-Sheet-Seite ist ein Formular-Landing ohne
+gefundenen direkten PDF-Link. Kein Formular übermittelt, kein Produktblatt-PDF,
+kein Bild oder Video visuell geprüft, keine Konten oder Transaktionen. Abrufe am
+2. November UTC; Review am 3. November Europe/Berlin. Dauerhafter Bericht:
+`reports/competitor-batch-128-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.334 Seiten. Datenaudit: null Fehler, 1.178 Warnungen; vier
+zusätzliche Warnungen betreffen ausschließlich unbekannte Erscheinungsjahre.
+Geprüft: sechs Produktseiten, 102 Felder, 9 Quellenbadges,
+81 ausgelassene Leerfelder, 19 Merkmalsaussagen und ein Firmenfokus.
+Modell-Export: zwei Quellenvorkommen mit 34 Feldvorkommen; ursprüngliche Queue:
+ein Ziel mit 17 Feldern. Eine Firmenbeschreibungsreferenz behält ihre bisherige
+Identitätszuordnung. Suche, Vergleich, strukturierte Eigenschaften, vollständiger
+Belegexport und byteidentischer Reimport aller 32 getrackten Datendateien geprüft.
+Eigene Browser, Testserver und Recherchehelfer sind beendet; fremde Ressourcen
+erhalten. Externe YouTube-/Axe-Befunde aus Batch106 bleiben außerhalb dieser Prüfung offen.
+
+Daten-Zwischencommit `6e9fe3b2c9eea5c152375ddc0436fb309c08cb1d` ist auf `codex/competitor-directory-expansion` gepusht und
+remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
+Detailinhaltsprüfungen bleiben offen. Vollständige historische/aktuelle Portfolios,
 unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.
