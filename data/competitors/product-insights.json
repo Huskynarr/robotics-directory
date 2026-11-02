@@ -12003,23 +12003,30 @@
       "manufacturer": "Makeblock",
       "model": "mBot Neo",
       "highlights": [
-        "CyberPi controller supports block coding and Python through mBlock",
-        "Onboard light, microphone and motion sensing support interactive projects",
-        "mBuild expansion and motor/servo ports support additional constructions",
-        "Manufacturer specifies approximately one hour charging and up to five hours use"
+        "CyberPi-based mBot2/Neo supports block coding and Python in mBlock with Wi-Fi/Bluetooth and light, microphone and motion sensing; original mCore mBot remains a distinct platform.",
+        "The brochure’s base-robot note states one hour of charging can support up to five hours of use. Activity/load conditions and initial/final state of charge are unspecified, so neither figure is an unconditional endurance/full-cycle guarantee.",
+        "The saved manufacturer base-robot page lists 90 x 180 x 130 mm and up to 20 cm/s. Its h*l*L horizontal axis labels are ambiguous; these values are not assigned to the Rover build or classroom storage case.",
+        "The classroom brochure contains six mBot2 robots; a six-unit pack is not a different six-robot hardware model. Smart World arm/carrier builds, AI camera and Rover add-ons require their corresponding parts.",
+        "The product page was fetched successfully November 1, 2026 and reviewed again locally; it was not fetched again through the previously blocked host. Existing Neo naming is retained without asserting identical contents for every historical bundle."
       ],
       "sources": [
         {
-          "name": "Makeblock — mBot2 product page and linked Neo documentation",
-          "type": "manufacturer",
-          "url": "https://www.makeblock.com/pages/mbot2-coding-robot",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Makeblock — mBot2 classroom brochure",
+          "name": "Makeblock — mBot2 classroom brochure, base robot and six-unit pack scope",
           "type": "manufacturer",
           "url": "https://res-us.makeblock.com/doc/Product/mBot2%20Classroom%20Pack%20Brochure.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Makeblock — mBot2 product text saved November 1, 2026; locally re-reviewed, no new HTTP request",
+          "type": "manufacturer",
+          "url": "https://www.makeblock.com/pages/mbot2-coding-robot",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
+          "type": "manufacturer",
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -12031,23 +12038,23 @@
       "manufacturer": "Makeblock",
       "model": "mBot Ultimate 2.0",
       "highlights": [
-        "Ten construction forms support robotics and engineering learning",
-        "Makeblock app provides remote control",
-        "mBlock supports graphical programming and Arduino C provides text programming",
-        "Manufacturer documents Arduino and Raspberry Pi compatibility"
+        "The named Ultimate 2.0 tutorial describes a 10-in-1 Makeblock construction platform, distinct from the catalog’s three-in-one mBot Ranger kit.",
+        "Makeblock app provides remote control; the tutorial lists mBlock 3/5 for block programming and Arduino C for text programming. These are documented manual capabilities, not a fresh verification of every current app/platform version.",
+        "Arduino and Raspberry Pi compatibility is documented; neither board inclusion nor a particular Mega2560 controller is inferred from compatibility.",
+        "The Spring 2022 catalog identifies Ultimate 2.0 kit SKU 90040. Ten possible forms are not ten separately verified delivered robots or a fixed standard gripper/load configuration."
       ],
       "sources": [
         {
-          "name": "Makeblock — Ultimate 2.0 getting-started tutorial; hosted by Amazon",
+          "name": "Makeblock — Ultimate 2.0 getting-started tutorial, manufacturer-authored; hosted by Amazon",
           "type": "manufacturer",
           "url": "https://m.media-amazon.com/images/I/819%2BP6d-JIL.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "Makeblock — Ultimate 10-in-1 product lineup",
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
           "type": "manufacturer",
-          "url": "https://www.makeblock.com/",
-          "checkedAt": "2026-11-01"
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -12059,15 +12066,17 @@
       "manufacturer": "Makeblock",
       "model": "mBot Ranger",
       "highlights": [
-        "Three-in-one construction kit supports multiple robot builds",
-        "Manufacturer positions the kit for hands-on robotics learning"
+        "The Spring 2022 manufacturer catalog identifies mBot Ranger as a 3-in-1 Robot Kit, SKU 90092; it is distinct from Ultimate 2.0’s 10-in-1 kit.",
+        "The Arduino-platform section explicitly includes mBot Ranger in block-based and Arduino C programming through mBlock 5.",
+        "Three construction forms are not three separately verified hardware products. The selected text does not establish an exact controller, included sensor inventory or fixed locomotion layout.",
+        "Original mBot, mBot2/Neo and Ranger remain separate identities. CyberPi Wi-Fi/Python, base-mBot2 endurance and Ultimate gripper assumptions are not inherited into Ranger."
       ],
       "sources": [
         {
-          "name": "Makeblock — manufacturer product lineup",
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
           "type": "manufacturer",
-          "url": "https://www.makeblock.com/",
-          "checkedAt": "2026-11-01"
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -12079,22 +12088,17 @@
       "manufacturer": "Makeblock",
       "model": "mBot2 Rover Robotics Kit",
       "highlights": [
-        "mBot2-based Rover configuration supports gripping and expressive projects",
-        "mBlock activities connect programmed robot expressions with image-recognition exercises",
-        "Complete robot kit is offered separately from the Rover add-on pack"
+        "The manufacturer explicitly distinguishes the complete mBot2 Rover Robotics Kit from the Rover Robotics Add-on Pack; an add-on is not a separately complete robot.",
+        "The named complete Rover configuration supports gripping and expressive projects, including programmed expressions using mBlock image-recognition activities. Exact gripper mechanics, load and onboard camera inclusion are not established.",
+        "Outdoor/multi-terrain adventures are manufacturer activity positioning. No exact slope, weather/ingress rating or unrestricted obstacle-traversal capability is certified.",
+        "Base-mBot2 dimensions, 20 cm/s travel speed and up-to-five-hour usage are not assigned to this rebuilt Rover configuration. Its exact assembled technical ratings remain unverified."
       ],
       "sources": [
         {
-          "name": "Makeblock — mBot2 Rover configuration",
+          "name": "Makeblock — mBot2 product text saved November 1, 2026; locally re-reviewed, no new HTTP request",
           "type": "manufacturer",
           "url": "https://www.makeblock.com/pages/mbot2-coding-robot",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Makeblock — named Rover Robotics Kit lineup",
-          "type": "manufacturer",
-          "url": "https://www.makeblock.com/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -14209,16 +14213,23 @@
       "manufacturer": "Makeblock",
       "model": "Codey Rocky",
       "highlights": [
-        "Educational robot combines programmable Codey electronics with the mobile Rocky base",
-        "mBlock 5 supports block-based programming and progression to Python",
-        "Onboard sensing supports line-following and obstacle-response learning activities"
+        "Codey contains more than ten programmable electronic modules; Rocky provides movement exercises such as swirling, line following and going around obstacles. Electronic modules are not a count of mechanical joints or a verified autonomous-navigation stack.",
+        "The manufacturer tutorial documents block and Python programming in mBlock 5; the Spring 2022 catalog describes Wi-Fi/Bluetooth and extension with Neuron modules.",
+        "The handbook recommends ages six and older with adult accompaniment. It specifies a 5 V/1 A adapter, which is a power requirement rather than a charging-time or battery-endurance figure.",
+        "Single, Bluetooth-dongle and six-unit education packs in the historical catalog are package scopes. A six-axis gyroscope is not six robot DOF, and no mass or two-hour operating guarantee is established by these selected sources."
       ],
       "sources": [
         {
-          "name": "Makeblock",
+          "name": "Makeblock — Codey Rocky getting-started tutorial, manufacturer-authored; hosted by Amazon",
           "type": "manufacturer",
           "url": "https://m.media-amazon.com/images/I/71lGv5CyMFL.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
+          "type": "manufacturer",
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -14230,15 +14241,17 @@
       "manufacturer": "Makeblock",
       "model": "mBot",
       "highlights": [
-        "Makeblock education catalog places original mBot on its Arduino learning platform",
-        "That platform supports Scratch and Arduino C for coding, engineering and robotics activities"
+        "The Spring 2022 catalog distinguishes original mBot/mBot v1.1 with mCore from the CyberPi-based mBot2. mBot2 Wi-Fi, Python and battery specifications are not retroactively assigned to mBot.",
+        "The original mBot learning platform supports block programming and Arduino C in mBlock 5; Bluetooth or 2.4G are package options in the historical comparison.",
+        "Battery excluded is stated for the catalog’s mBot v1.1 column, whereas mBot2 includes rechargeable LiPo. This does not prove every historical/current mBot package has the same battery contents.",
+        "The source establishes platform identity and programming scope, not the old approximate price, 0.5 kg mass or three-hour/180-minute endurance. Those unverified values are omitted."
       ],
       "sources": [
         {
-          "name": "Makeblock",
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
           "type": "manufacturer",
           "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -14250,16 +14263,17 @@
       "manufacturer": "Makeblock",
       "model": "mTiny",
       "highlights": [
-        "Screen-free early-learning robot uses a tap-pen controller, coding cards and themed maps",
-        "Sound, motion, light and expressive eyes provide feedback during learning activities",
-        "The historical catalog distinguishes the Discover kit from separately listed map and marker accessories"
+        "The Spring 2022 catalog describes mTiny as an early-education robot controlled through a tap pen, coding cards and themed maps, supporting screen-free tangible programming.",
+        "Sound, motion, light and expressive eyes provide interactive feedback. Pedagogical/social-development benefits are manufacturer positioning, not independently established learning or clinical outcomes.",
+        "The historical mTiny Discover Kit is SKU P1030157; Town/Grassland, World/Treasure, markers and coding-card accessories are separately listed. Their availability and inclusion do not transfer to every generic mTiny package.",
+        "Early-education positioning does not establish an exact age rating or substantiate the old 150-minute runtime and approximate price. Those unsupported catalog fields are omitted."
       ],
       "sources": [
         {
-          "name": "Makeblock",
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
           "type": "manufacturer",
           "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [

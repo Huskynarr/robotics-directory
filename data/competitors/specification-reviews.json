@@ -335,23 +335,110 @@
       "model": "mBot Neo",
       "sources": [
         {
-          "name": "Makeblock",
+          "name": "Makeblock — mBot2 classroom brochure, base robot and six-unit pack scope",
+          "type": "manufacturer",
+          "url": "https://res-us.makeblock.com/doc/Product/mBot2%20Classroom%20Pack%20Brochure.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Makeblock — mBot2 product text saved November 1, 2026; locally re-reviewed, no new HTTP request",
           "type": "manufacturer",
           "url": "https://www.makeblock.com/pages/mbot2-coding-robot",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
+          "type": "manufacturer",
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-3/makeblock.com-pages-mbot2-coding-robot.json",
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-101/source-2.pdf",
       "fields": {
-        "chargingTime": {
-          "value": "approximately 1 hour via USB",
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous current exact-kit price, currency, tax/shipping treatment and included contents established by these selected historical/manual sources. Earlier approximate prices are withdrawn rather than applied to another package."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled-robot mass established for this named configuration. Packaging mass, controller/component mass and reconfigurable builds are not treated as whole-robot weight."
+        },
+        "size": {
+          "value": "90 x 180 x 130 mm (source order; horizontal axis labels ambiguous)",
           "status": "documented",
-          "note": "Charging duration with the stated conditions; distinct from operating endurance."
+          "note": "Archived manufacturer base-mBot2 text gives 90mm*180mm*130mm (h*l*L). The numerical order is retained; the two horizontal axis names are ambiguous and are not silently rewritten as a verified L/W order."
+        },
+        "batteryLife": {
+          "value": "Up to approximately 5 h use after 1 h charging (activity conditions unspecified)",
+          "status": "documented",
+          "note": "Both the archived base-product text and the currently retrieved classroom brochure state approximately one hour charging for up to five hours use. Activity/load/test conditions are unspecified; the value applies to base mBot2, not Rover or classroom case."
         },
         "maxRuntime": {
           "value": "",
           "status": "not-documented",
-          "note": "Charging duration moved to its own field. This entry is not an operating-runtime claim."
+          "note": "No separate unconditional maximum operating endurance established. A charging duration or battery capacity is not runtime; duplicate old duration estimates are withdrawn."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot articulated DOF established. Motor/port counts, a six-axis motion sensor and the number of possible builds are not mechanical joint counts."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot carrying or manipulation load rating established. A construction kit with an optional arm does not establish gripper payload."
+        },
+        "speed": {
+          "value": "Up to 20 cm/s (base mBot2)",
+          "status": "documented",
+          "note": "Archived November 1, 2026 base-mBot2 product text explicitly states Speed Max Reach 20cm/s. This is a chassis travel figure, distinct from encoder motor RPM, position/angle tolerances or another build."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established. Classroom/outdoor project positioning, storage case moisture protection and a warning against water are not an ingress certification."
+        },
+        "chargingTime": {
+          "value": "Approximately 1 h via USB (start/end state of charge unspecified)",
+          "status": "documented",
+          "note": "Approximately one hour via USB in the archived base-mBot2 page, corroborated by the brochure usage note. Starting/ending state of charge and simultaneous operation are unspecified; no 0–100% guarantee inferred."
+        },
+        "handType": {
+          "value": "Optional Smart World robotic-arm/carrier builds; no standard gripper established",
+          "status": "documented",
+          "note": "The archived product page separately offers Smart World add-on forms including robotic arm, robotic carrier and surveying robot. It does not establish a standard gripper or payload for the base mBot2."
+        },
+        "website": {
+          "value": "https://res-us.makeblock.com/doc/Product/mBot2%20Classroom%20Pack%20Brochure.pdf",
+          "status": "documented",
+          "note": "Currently retrieved manufacturer-hosted classroom brochure includes a named base-mBot2 robot section. Six-unit pack contents are kept separate; additional base dimensions/speed come from the explicitly archived manufacturer page."
+        },
+        "description": {
+          "value": "The retained mBot Neo catalog name refers to the CyberPi-based mBot2 educational base platform, supported by the archived manufacturer page’s Neo/mBot2 documentation link. Its base-robot section and classroom brochure state approximately one hour of charging for up to five hours of use without detailed activity conditions. The saved November 1, 2026 page lists 90 x 180 x 130 mm in ambiguous h*l*L axis order and up to 20 cm/s. mBlock offers blocks and Python, with Wi-Fi/Bluetooth and expansion. The six-robot classroom pack, complete Rover configuration, Smart World extensions and AI camera are separate package/accessory scopes.",
+          "status": "documented",
+          "note": "Synthesis of the named kit/platform in manufacturer-authored sources. Spring 2022 catalog statements remain historical; current app support, exact package availability, learning outcomes and exclusive advantages are not independently verified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Catalog timeline labels, a 2022 catalog edition and dates of saved pages do not establish an exact first release of this named package. Earlier unverified launch years are withdrawn."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact terrain, slope or obstacle rating established for this named assembled configuration. Line-following exercises and outdoor activity marketing are not unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise chronological age recommendation established for the named kit by these selected sources. Early/primary/secondary school positioning and curriculum grade bands are not exact ages; old 8–99/12–16/4+ ranges are withdrawn."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise locomotion layout for this named assembled configuration established in these selected text sources. Images/drawings were not visually inspected, and a configurable kit can have different forms."
         }
       }
     },
@@ -89296,6 +89383,624 @@
           "value": "",
           "status": "not-documented",
           "note": "No numerical minimum operating aisle width established. Body width, allowable featureless area and dock distance do not establish required aisle clearance."
+        }
+      }
+    },
+    {
+      "robotId": "makeblock-mbot",
+      "manufacturer": "Makeblock",
+      "model": "mBot",
+      "sources": [
+        {
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
+          "type": "manufacturer",
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-101/source-5.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous current exact-kit price, currency, tax/shipping treatment and included contents established by these selected historical/manual sources. Earlier approximate prices are withdrawn rather than applied to another package."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled-robot mass established for this named configuration. Packaging mass, controller/component mass and reconfigurable builds are not treated as whole-robot weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled dimensions established for this named configuration by these selected sources. Small is not a numerical body size; construction variants, classroom cases and maps have separate dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-kit runtime with power source, activity and test conditions established by the selected documentation. Original mBot battery exclusion in the Spring 2022 comparison is package-specific; mBot2 runtime does not transfer to other robots or Rover."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating endurance established. A charging duration or battery capacity is not runtime; duplicate old duration estimates are withdrawn."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot articulated DOF established. Motor/port counts, a six-axis motion sensor and the number of possible builds are not mechanical joint counts."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot carrying or manipulation load rating established. A construction kit with an optional arm does not establish gripper payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot travel speed established. Motor RPM, encoder angle resolution and straight-line deviation are distinct from chassis translation speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established. Classroom/outdoor project positioning, storage case moisture protection and a warning against water are not an ingress certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact charging duration for this named configuration established. A 5 V/1 A adapter instruction or a rechargeable battery does not establish full-charge time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard manipulation hand/gripper configuration established in the selected documentation. Ten construction forms or expandable ports do not prove a gripper is supplied with every package."
+        },
+        "website": {
+          "value": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer-authored exact-model handbook or education catalog/brochure. Retailer/manual-host domains are identified in source names; document authorship is distinct from current manufacturer-host availability."
+        },
+        "description": {
+          "value": "Original mBot is the Arduino-oriented educational construction platform identified separately from mBot2 in the Makeblock Spring 2022 catalog. Its mBot v1.1 comparison column names mCore, block programming and Arduino C, with Bluetooth or 2.4G options. That historical package excludes the battery, while the mBot2 column includes a rechargeable LiPo; this is not a universal claim about every current mBot bundle. Numeric mass, dimensions, endurance, exact age recommendation, current price and first-release year are unverified in this selected review.",
+          "status": "documented",
+          "note": "Synthesis of the named kit/platform in manufacturer-authored sources. Spring 2022 catalog statements remain historical; current app support, exact package availability, learning outcomes and exclusive advantages are not independently verified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Catalog timeline labels, a 2022 catalog edition and dates of saved pages do not establish an exact first release of this named package. Earlier unverified launch years are withdrawn."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact terrain, slope or obstacle rating established for this named assembled configuration. Line-following exercises and outdoor activity marketing are not unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise chronological age recommendation established for the named kit by these selected sources. Early/primary/secondary school positioning and curriculum grade bands are not exact ages; old 8–99/12–16/4+ ranges are withdrawn."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise locomotion layout for this named assembled configuration established in these selected text sources. Images/drawings were not visually inspected, and a configurable kit can have different forms."
+        }
+      }
+    },
+    {
+      "robotId": "makeblock-mbot-ultimate-2-0",
+      "manufacturer": "Makeblock",
+      "model": "mBot Ultimate 2.0",
+      "sources": [
+        {
+          "name": "Makeblock — Ultimate 2.0 getting-started tutorial, manufacturer-authored; hosted by Amazon",
+          "type": "manufacturer",
+          "url": "https://m.media-amazon.com/images/I/819%2BP6d-JIL.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
+          "type": "manufacturer",
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-101/source-3.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous current exact-kit price, currency, tax/shipping treatment and included contents established by these selected historical/manual sources. Earlier approximate prices are withdrawn rather than applied to another package."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled-robot mass established for this named configuration. Packaging mass, controller/component mass and reconfigurable builds are not treated as whole-robot weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled dimensions established for this named configuration by these selected sources. Small is not a numerical body size; construction variants, classroom cases and maps have separate dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-kit runtime with power source, activity and test conditions established by the selected documentation. Original mBot battery exclusion in the Spring 2022 comparison is package-specific; mBot2 runtime does not transfer to other robots or Rover."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating endurance established. A charging duration or battery capacity is not runtime; duplicate old duration estimates are withdrawn."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot articulated DOF established. Motor/port counts, a six-axis motion sensor and the number of possible builds are not mechanical joint counts."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot carrying or manipulation load rating established. A construction kit with an optional arm does not establish gripper payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot travel speed established. Motor RPM, encoder angle resolution and straight-line deviation are distinct from chassis translation speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established. Classroom/outdoor project positioning, storage case moisture protection and a warning against water are not an ingress certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact charging duration for this named configuration established. A 5 V/1 A adapter instruction or a rechargeable battery does not establish full-charge time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard manipulation hand/gripper configuration established in the selected documentation. Ten construction forms or expandable ports do not prove a gripper is supplied with every package."
+        },
+        "website": {
+          "value": "https://m.media-amazon.com/images/I/819%2BP6d-JIL.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer-authored exact-model handbook or education catalog/brochure. Retailer/manual-host domains are identified in source names; document authorship is distinct from current manufacturer-host availability."
+        },
+        "description": {
+          "value": "Makeblock Ultimate 2.0 is the reconfigurable 10-in-1 construction kit named in its manufacturer getting-started tutorial and as SKU 90040 in the Spring 2022 education catalog. The tutorial describes Makeblock-app remote control, mBlock graphical programming, Arduino C text programming and Arduino/Raspberry Pi compatibility. Compatibility does not mean either board is included. The selected tutorial does not establish a standard gripper, controller model, numeric mass, runtime, payload, age band, current price or first-release year for every build/package.",
+          "status": "documented",
+          "note": "Synthesis of the named kit/platform in manufacturer-authored sources. Spring 2022 catalog statements remain historical; current app support, exact package availability, learning outcomes and exclusive advantages are not independently verified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Catalog timeline labels, a 2022 catalog edition and dates of saved pages do not establish an exact first release of this named package. Earlier unverified launch years are withdrawn."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact terrain, slope or obstacle rating established for this named assembled configuration. Line-following exercises and outdoor activity marketing are not unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise chronological age recommendation established for the named kit by these selected sources. Early/primary/secondary school positioning and curriculum grade bands are not exact ages; old 8–99/12–16/4+ ranges are withdrawn."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise locomotion layout for this named assembled configuration established in these selected text sources. Images/drawings were not visually inspected, and a configurable kit can have different forms."
+        }
+      }
+    },
+    {
+      "robotId": "makeblock-codey-rocky",
+      "manufacturer": "Makeblock",
+      "model": "Codey Rocky",
+      "sources": [
+        {
+          "name": "Makeblock — Codey Rocky getting-started tutorial, manufacturer-authored; hosted by Amazon",
+          "type": "manufacturer",
+          "url": "https://m.media-amazon.com/images/I/71lGv5CyMFL.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
+          "type": "manufacturer",
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-101/source-4.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous current exact-kit price, currency, tax/shipping treatment and included contents established by these selected historical/manual sources. Earlier approximate prices are withdrawn rather than applied to another package."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled-robot mass established for this named configuration. Packaging mass, controller/component mass and reconfigurable builds are not treated as whole-robot weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled dimensions established for this named configuration by these selected sources. Small is not a numerical body size; construction variants, classroom cases and maps have separate dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-kit runtime with power source, activity and test conditions established by the selected documentation. Original mBot battery exclusion in the Spring 2022 comparison is package-specific; mBot2 runtime does not transfer to other robots or Rover."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating endurance established. A charging duration or battery capacity is not runtime; duplicate old duration estimates are withdrawn."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot articulated DOF established. Motor/port counts, a six-axis motion sensor and the number of possible builds are not mechanical joint counts."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot carrying or manipulation load rating established. A construction kit with an optional arm does not establish gripper payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot travel speed established. Motor RPM, encoder angle resolution and straight-line deviation are distinct from chassis translation speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established. Classroom/outdoor project positioning, storage case moisture protection and a warning against water are not an ingress certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The handbook specifies an adapter of 5 V/1 A, not a number of minutes/hours to charge. Voltage/current must not become a duration."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard manipulation hand/gripper configuration established in the selected documentation. Ten construction forms or expandable ports do not prove a gripper is supplied with every package."
+        },
+        "website": {
+          "value": "https://m.media-amazon.com/images/I/71lGv5CyMFL.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer-authored exact-model handbook or education catalog/brochure. Retailer/manual-host domains are identified in source names; document authorship is distinct from current manufacturer-host availability."
+        },
+        "description": {
+          "value": "Codey Rocky combines the programmable Codey electronics with the mobile Rocky base. Its manufacturer getting-started tutorial describes more than ten programmable electronic modules, block and Python programming in mBlock 5, and movement exercises including line following and obstacle response. The handbook recommends ages six and older with adult accompaniment and specifies a 5 V/1 A charging adapter without a charging duration. The Spring 2022 catalog describes Wi-Fi/Bluetooth and distinguishes single and education packs. Numeric mass, runtime, current price and first-release year remain unverified here.",
+          "status": "documented",
+          "note": "Synthesis of the named kit/platform in manufacturer-authored sources. Spring 2022 catalog statements remain historical; current app support, exact package availability, learning outcomes and exclusive advantages are not independently verified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Catalog timeline labels, a 2022 catalog edition and dates of saved pages do not establish an exact first release of this named package. Earlier unverified launch years are withdrawn."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact terrain, slope or obstacle rating established for this named assembled configuration. Line-following exercises and outdoor activity marketing are not unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "6+; adult accompaniment recommended by handbook",
+          "status": "documented",
+          "note": "Codey Rocky getting-started tutorial explicitly recommends children of age 6 or older and adult accompaniment; under-three exclusion is a separate safety instruction, not the recommended starting age."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise locomotion layout for this named assembled configuration established in these selected text sources. Images/drawings were not visually inspected, and a configurable kit can have different forms."
+        }
+      }
+    },
+    {
+      "robotId": "makeblock-mtiny",
+      "manufacturer": "Makeblock",
+      "model": "mTiny",
+      "sources": [
+        {
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
+          "type": "manufacturer",
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-101/source-5.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous current exact-kit price, currency, tax/shipping treatment and included contents established by these selected historical/manual sources. Earlier approximate prices are withdrawn rather than applied to another package."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled-robot mass established for this named configuration. Packaging mass, controller/component mass and reconfigurable builds are not treated as whole-robot weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled dimensions established for this named configuration by these selected sources. Small is not a numerical body size; construction variants, classroom cases and maps have separate dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-kit runtime with power source, activity and test conditions established by the selected documentation. Original mBot battery exclusion in the Spring 2022 comparison is package-specific; mBot2 runtime does not transfer to other robots or Rover."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating endurance established. A charging duration or battery capacity is not runtime; duplicate old duration estimates are withdrawn."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot articulated DOF established. Motor/port counts, a six-axis motion sensor and the number of possible builds are not mechanical joint counts."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot carrying or manipulation load rating established. A construction kit with an optional arm does not establish gripper payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot travel speed established. Motor RPM, encoder angle resolution and straight-line deviation are distinct from chassis translation speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established. Classroom/outdoor project positioning, storage case moisture protection and a warning against water are not an ingress certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact charging duration for this named configuration established. A 5 V/1 A adapter instruction or a rechargeable battery does not establish full-charge time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard manipulation hand/gripper configuration established in the selected documentation. Ten construction forms or expandable ports do not prove a gripper is supplied with every package."
+        },
+        "website": {
+          "value": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer-authored exact-model handbook or education catalog/brochure. Retailer/manual-host domains are identified in source names; document authorship is distinct from current manufacturer-host availability."
+        },
+        "description": {
+          "value": "mTiny is the early-education robot described in Makeblock’s Spring 2022 catalog through the mTiny Discover configuration. A tap-pen controller, coding cards and themed maps enable screen-free tangible programming, with sound, motion, light and expressive-eye feedback. The historical Discover Kit is SKU P1030157; map, marker and card extensions are listed separately. The generic retained mTiny catalog label does not establish identical contents for every historical kit. Exact chronological age, mass, body size, runtime, price and first-release year are unverified in this selected source.",
+          "status": "documented",
+          "note": "Synthesis of the named kit/platform in manufacturer-authored sources. Spring 2022 catalog statements remain historical; current app support, exact package availability, learning outcomes and exclusive advantages are not independently verified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Catalog timeline labels, a 2022 catalog edition and dates of saved pages do not establish an exact first release of this named package. Earlier unverified launch years are withdrawn."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact terrain, slope or obstacle rating established for this named assembled configuration. Line-following exercises and outdoor activity marketing are not unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise chronological age recommendation established for the named kit by these selected sources. Early/primary/secondary school positioning and curriculum grade bands are not exact ages; old 8–99/12–16/4+ ranges are withdrawn."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise locomotion layout for this named assembled configuration established in these selected text sources. Images/drawings were not visually inspected, and a configurable kit can have different forms."
+        }
+      }
+    },
+    {
+      "robotId": "makeblock-mbot-ranger",
+      "manufacturer": "Makeblock",
+      "model": "mBot Ranger",
+      "sources": [
+        {
+          "name": "Makeblock — Spring 2022 education catalog, manufacturer-authored; hosted by Manuals.plus",
+          "type": "manufacturer",
+          "url": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-101/source-5.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous current exact-kit price, currency, tax/shipping treatment and included contents established by these selected historical/manual sources. Earlier approximate prices are withdrawn rather than applied to another package."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled-robot mass established for this named configuration. Packaging mass, controller/component mass and reconfigurable builds are not treated as whole-robot weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled dimensions established for this named configuration by these selected sources. Small is not a numerical body size; construction variants, classroom cases and maps have separate dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-kit runtime with power source, activity and test conditions established by the selected documentation. Original mBot battery exclusion in the Spring 2022 comparison is package-specific; mBot2 runtime does not transfer to other robots or Rover."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating endurance established. A charging duration or battery capacity is not runtime; duplicate old duration estimates are withdrawn."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot articulated DOF established. Motor/port counts, a six-axis motion sensor and the number of possible builds are not mechanical joint counts."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot carrying or manipulation load rating established. A construction kit with an optional arm does not establish gripper payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot travel speed established. Motor RPM, encoder angle resolution and straight-line deviation are distinct from chassis translation speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established. Classroom/outdoor project positioning, storage case moisture protection and a warning against water are not an ingress certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact charging duration for this named configuration established. A 5 V/1 A adapter instruction or a rechargeable battery does not establish full-charge time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard manipulation hand/gripper configuration established in the selected documentation. Ten construction forms or expandable ports do not prove a gripper is supplied with every package."
+        },
+        "website": {
+          "value": "https://manuals.plus/m/3a0aa2674cd07a31f9b663e9f032708a17f2a90324df11da848f56c25fb5e0a6.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer-authored exact-model handbook or education catalog/brochure. Retailer/manual-host domains are identified in source names; document authorship is distinct from current manufacturer-host availability."
+        },
+        "description": {
+          "value": "mBot Ranger is the three-in-one robot construction kit named as SKU 90092 in the Makeblock Spring 2022 catalog. The Arduino-platform section explicitly includes Ranger and Ultimate 2.0 as supporting block programming and Arduino C in mBlock 5. Ranger is distinct from the original mCore mBot, CyberPi-based mBot2 and ten-in-one Ultimate kit. This selected catalog establishes the named construction/programming platform but does not prove exact included controller/sensors, each assembled locomotion form, battery runtime, mass, price or current package availability.",
+          "status": "documented",
+          "note": "Synthesis of the named kit/platform in manufacturer-authored sources. Spring 2022 catalog statements remain historical; current app support, exact package availability, learning outcomes and exclusive advantages are not independently verified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Catalog timeline labels, a 2022 catalog edition and dates of saved pages do not establish an exact first release of this named package. Earlier unverified launch years are withdrawn."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact terrain, slope or obstacle rating established for this named assembled configuration. Line-following exercises and outdoor activity marketing are not unrestricted terrain capability."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise chronological age recommendation established for the named kit by these selected sources. Early/primary/secondary school positioning and curriculum grade bands are not exact ages; old 8–99/12–16/4+ ranges are withdrawn."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise locomotion layout for this named assembled configuration established in these selected text sources. Images/drawings were not visually inspected, and a configurable kit can have different forms."
+        }
+      }
+    },
+    {
+      "robotId": "makeblock-mbot2-rover-robotics-kit",
+      "manufacturer": "Makeblock",
+      "model": "mBot2 Rover Robotics Kit",
+      "sources": [
+        {
+          "name": "Makeblock — mBot2 product text saved November 1, 2026; locally re-reviewed, no new HTTP request",
+          "type": "manufacturer",
+          "url": "https://www.makeblock.com/pages/mbot2-coding-robot",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-101/source-6-archived.json",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No unambiguous current exact-kit price, currency, tax/shipping treatment and included contents established by these selected historical/manual sources. Earlier approximate prices are withdrawn rather than applied to another package."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled-robot mass established for this named configuration. Packaging mass, controller/component mass and reconfigurable builds are not treated as whole-robot weight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact assembled dimensions established for this named configuration by these selected sources. Small is not a numerical body size; construction variants, classroom cases and maps have separate dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-kit runtime with power source, activity and test conditions established by the selected documentation. Original mBot battery exclusion in the Spring 2022 comparison is package-specific; mBot2 runtime does not transfer to other robots or Rover."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating endurance established. A charging duration or battery capacity is not runtime; duplicate old duration estimates are withdrawn."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot articulated DOF established. Motor/port counts, a six-axis motion sensor and the number of possible builds are not mechanical joint counts."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot carrying or manipulation load rating established. A construction kit with an optional arm does not establish gripper payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named assembled-robot travel speed established. Motor RPM, encoder angle resolution and straight-line deviation are distinct from chassis translation speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot IP rating established. Classroom/outdoor project positioning, storage case moisture protection and a warning against water are not an ingress certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact charging duration for this named configuration established. A 5 V/1 A adapter instruction or a rechargeable battery does not establish full-charge time."
+        },
+        "handType": {
+          "value": "Gripping function in complete Rover kit; exact gripper/load rating unspecified",
+          "status": "documented",
+          "note": "The archived named Rover kit description explicitly states gripping functions but provides no numeric hand articulation/load or exact gripper mechanics. A separate Smart World arm is not assumed part of Rover."
+        },
+        "website": {
+          "value": "https://www.makeblock.com/pages/mbot2-coding-robot",
+          "status": "documented",
+          "note": "Previously saved successful manufacturer mBot2 product page contains a separately named complete Rover offering and distinguishes the add-on. Locally re-reviewed without a new request to the previously blocked host."
+        },
+        "description": {
+          "value": "The complete mBot2 Rover Robotics Kit is named separately from the Rover Robotics Add-on Pack in the manufacturer product page saved November 1, 2026. It combines the mBot2-based construction with gripping and expression projects, mBlock image-recognition exercises and outdoor-exploration positioning. The add-on pack requires a base robot and is not a second complete robot model. Exact Rover mass, assembled dimensions, joint count, travel speed, battery endurance and charger time are not established by the saved page; base-mBot2 figures and storage-case protection are not inherited.",
+          "status": "documented",
+          "note": "Synthesis of the named kit/platform in manufacturer-authored sources. Spring 2022 catalog statements remain historical; current app support, exact package availability, learning outcomes and exclusive advantages are not independently verified."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Catalog timeline labels, a 2022 catalog edition and dates of saved pages do not establish an exact first release of this named package. Earlier unverified launch years are withdrawn."
+        },
+        "terrain": {
+          "value": "Outdoor exploration positioning; no numeric terrain or ingress rating established",
+          "status": "documented",
+          "note": "The archived manufacturer product description positions the complete Rover kit for outdoor exploration and multi-terrain projects without an exact operating slope, weather/IP or obstacle rating."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise chronological age recommendation established for the named kit by these selected sources. Early/primary/secondary school positioning and curriculum grade bands are not exact ages; old 8–99/12–16/4+ ranges are withdrawn."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No precise locomotion layout for this named assembled configuration established in these selected text sources. Images/drawings were not visually inspected, and a configurable kit can have different forms."
         }
       }
     }

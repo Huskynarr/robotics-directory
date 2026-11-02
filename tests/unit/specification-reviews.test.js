@@ -8,6 +8,40 @@ import { getAllRobots } from '../../src/data/robots.js';
 import { t } from '../../src/data/translations.js';
 
 describe('field-specific primary-source reviews', () => {
+  it('does not transfer base mBot2 energy or speed figures into Rover or original mBot', () => {
+    const robots = new Map(getAllRobots().allRobots.map((r) => [r.id, r]));
+    expect(robots.get('makeblock-mbot-neo').batteryLife).toContain('5 h');
+    expect(robots.get('makeblock-mbot-neo').speed).toContain('20 cm/s');
+    for (const id of ['makeblock-mbot', 'makeblock-mbot2-rover-robotics-kit']) {
+      expect(robots.get(id).batteryLife).toBe('');
+      expect(robots.get(id).chargingTime).toBe('');
+      expect(robots.get(id).speed).toBe('');
+    }
+    expect(robots.get('makeblock-mbot2-rover-robotics-kit').handType).toContain(
+      'Gripping function',
+    );
+  });
+
+  it('keeps Codey Rocky adapter instructions out of charging duration and runtime', () => {
+    const fields = getSpecificationReview('makeblock-codey-rocky').fields;
+    expect(fields.ageRange.value).toContain('6+');
+    expect(fields.chargingTime.value).toBe('');
+    expect(fields.chargingTime.note).toContain('5 V/1 A');
+    expect(fields.batteryLife.value).toBe('');
+    expect(fields.dof.value).toBe('');
+  });
+
+  it('does not treat construction counts or catalog dates as fixed manipulation hardware or launch years', () => {
+    for (const id of ['makeblock-mbot-ultimate-2-0', 'makeblock-mbot-ranger']) {
+      const fields = getSpecificationReview(id).fields;
+      expect(fields.handType.value).toBe('');
+      expect(fields.dof.value).toBe('');
+      expect(fields.payload.value).toBe('');
+      expect(fields.releaseDate.value).toBe('');
+    }
+    expect(getSpecificationReview('makeblock-mtiny').fields.ageRange.value).toBe('');
+  });
+
   it('keeps Nexaro mapping speed and maximum area out of cleaning throughput', () => {
     const robots = new Map(getAllRobots().allRobots.map((r) => [r.id, r]));
     for (const id of ['nexaro-nr-1500', 'nexaro-nr-1700']) {
@@ -411,8 +445,8 @@ describe('field-specific primary-source reviews', () => {
 
   it('reports reviewed fields separately from whole-model certification', () => {
     const coverage = getSpecificationReviewCoverage();
-    expect(coverage.reviewedCatalogModels).toBe(840);
-    expect(coverage.reviewedFields).toBe(14127);
+    expect(coverage.reviewedCatalogModels).toBe(846);
+    expect(coverage.reviewedFields).toBe(14244);
     expect(coverage.fieldStatuses.conflicting).toBe(257);
     expect(coverage.scope).toContain('unmarked fields remain unverified');
     expect(getSpecificationReview('unitree-go2-w').fields.weight.status).toBe('documented');
