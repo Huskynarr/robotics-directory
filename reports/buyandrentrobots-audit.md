@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,174 catalog rows**, with 644 exact
-manufacturer spellings. Batch 120 refreshed the separate heuristic gap file offline
-against all 2,174 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,230 catalog rows**, with 644 exact
+manufacturer spellings. Batch 121 refreshed the separate heuristic gap file offline
+against all 2,230 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1089 dated records across the catalog, including
-169 existing-model enrichments and 920 task additions. All 430 catalog models
+Current product-highlight coverage: 1145 dated records across the catalog, including
+169 existing-model enrichments and 976 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 920 task additions, totaling 2,174.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 976 task additions, totaling 2,230.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 442 have selected-field reviews and 76 await those reviews. Family and
+highlights; 444 have selected-field reviews and 74 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 18,431 fields across 994 catalog models: 6,895 documented,
-11,166 not documented, 276 conflicting and ninety-four roadmap fields. They do not certify whole
+Selected specification checks cover 19,591 fields across 1052 catalog models: 7,400 documented,
+11,821 not documented, 276 conflicting and ninety-four roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -7858,3 +7858,101 @@ Datencommit `9fb7559438125cdfb5c57147f1a59923a2ec3cb2` wurde auf `codex/competit
 gepusht und remote geprüft. `main` bleibt bei
 `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; es wurde nicht deployt.
 Dauerhafter Prüfbericht: `reports/competitor-batch-120-evidence.json`.
+
+## Ergänzung vom 2. November 2026 – Kawasaki: vollständige benannte Katalogtabellen-Auswahl (Batch 121)
+
+Alle 58 unterschiedlichen Roboter in den Parametertabellen des 2026er
+Larraioz/Kawasaki-Iberian-Hub-Katalogs sind jetzt mit Produktbelegen und
+Feldprüfungen erfasst. 56 Katalogmodelle kommen hinzu; YF002N und YF003N werden
+angereichert. Die 60 Modellvorkommen in 13 Tabellen auf PDF-Seiten 14–25 enthalten
+beide YF-Modelle jeweils zweimal; daraus entstehen keine Dubletten. Der übrige
+Kawasaki-Bestand Bex, CORLEO, RHP Kaleido 9 und RHP Friends ist nicht Bestandteil
+dieser Industriekatalogprüfung. Eine vollständige weltweite/historische
+Kawasaki-Produktabdeckung wird daraus nicht abgeleitet.
+
+Die Auswahl umfasst RS003N/007N/007L/010L/013N/015X/020N/025N/030N/050N/080N;
+BX100N, BXP110S/110L/135X/165L/210L, BT200L, BX200X/250L/300L;
+ZX130L/165U/200S/300S, MXP360L/410X/710L und MG15HL;
+BA006N/006L/013N/013L, RA010L/020N;
+RD080N und CP110L/180L/300L/500L/700L;
+YF002N/003N, RF007L; CL103N/105N/108N/110N; duAro1/2;
+KJ125/155/194/264; MC004N/004V/006V und MS005N.
+
+1.160 Felder wurden geprüft: 505 dokumentiert und 655 nicht belegt. 290 neue
+Merkmalsangaben und 56 zusätzliche Quellenverweise ergänzen den Bestand. Alle
+994 bisherigen Feldprüfungen, 113 Firmenfokus-Prüfungen und 1.961 Quellenidentitäten
+bleiben unverändert. Die zwei vorhandenen YF-Merkmalspräfixe, Herkunftsangaben
+und Quellen-URLs bleiben erhalten. Es gibt keine neuen CSV-Spalten,
+Kategorieverschiebungen oder Änderungen an Anwendungsalgorithmen.
+
+Die Quelle bezeichnet Larraioz als offiziellen Partner und Kawasaki Robotics
+Iberian Hub. Die Angaben bleiben Integratorbelege. Der globale Produkt-Host
+antwortete HTTP 403; weitere Abrufe dort stoppten. Eine Konzern-News-Anfrage
+leitete auf den News-Index um und ist kein Produktbeleg. Der alte Robotics-Host
+lieferte nach 45 Sekunden keinen Verbindungsaufbau; er wurde nicht erneut abgerufen.
+Drei gespeicherte HTTP-Antworten (zweimal 200, einmal 403) sind gehasht; nur das
+32-seitige Partner-PDF liefert Produktspezifikationen. Titeljahr 2026, Druckrevision
+Februar 2026 und PDF-Erzeugung im Mai 2026 sind Dokumentdaten, keine Produkteinführungen.
+
+Die nativen Tabellenzellen, Modellüberschriften und Wortkoordinaten wurden geprüft.
+Gemeinsame Werte werden nur auf Spalten übertragen, deren Mittelpunkt im selben
+physischen Zellrechteck liegt. Mehrzeilig verbundene Beschriftungen werden bei der
+Zeilenhöhe berücksichtigt. Die lokale Erstextraktion verfehlte MS005N nach einem
+zusätzlichen Tabellenaufruf und traf bei MC-Zusatzangaben die Mitte einer über mehrere
+Zeilen verbundenen Beschriftung. Beides wurde vor Änderungen an getrackten Daten
+korrigiert. Alle 58 Tabellenidentitäten und die zwei übereinstimmenden YF-Wiederholungen
+wurden anschließend geprüft. Es gab keine visuelle PDF-/Bild-/Videoinspektion oder OCR.
+
+- YF002N/003N: vier Achsen, 2/3 kg Last, 60 kg und IP65. Die Arbeitsräume
+  600 × 200 beziehungsweise 1300 × 500 mm sind Durchmesser/Höhe, keine Körpermaße
+  oder skalaren Armreichweiten. 0,30 s bei 0,5 kg/0,36 s bei 2 kg beziehungsweise
+  0,27 s bei 1 kg/0,45 s bei 3 kg behalten das 25/305/25-mm-Rundlaufprofil.
+- RS-/Schwerlast-Spalten behalten Modellreichweiten, Massen, Steuerungen und
+  Wiederholgenauigkeiten. ZX200S steht wörtlich mit ±0,3 mm in der Tabelle;
+  daraus wird nicht stillschweigend ±0,03 mm. MG15HL behält beim 1500-kg-Tabellenwert
+  den ausdrücklichen modellbezogenen Beratungsvorbehalt der Vergleichsseite.
+- RD080N hat fünf Achsen, die CP-Modelle vier. Die modellbezogenen Palettierzyklen
+  pro Stunde gelten für das 400/2000/400-mm-Rundlaufprofil; sie werden nicht zu
+  Fahrgeschwindigkeit, Akkulaufzeit oder garantierter Anlagenleistung. Der kürzere
+  Fototitel RD80N erzeugt keinen zusätzlichen Modell-Datensatz.
+- duAro1/2: je zwei Arme mit vier Achsen, insgesamt acht Achsen und 2/3 kg je Arm.
+  4/6 kg im Familientitel sind keine Einarm-Traglasten. 207/220 kg bleiben qualifizierte
+  Baugruppenmassen ohne getrennte Trolley-/Steuerungsbilanz. Fehlende Reichweiten
+  und IP-Werte werden nicht ergänzt. Kollaborative Positionierung ist keine
+  universelle Freigabe für jede Anwendung oder Geschwindigkeit.
+- KJ: 8/15 kg Handgelenklast bleiben von 10/25 kg Armlast getrennt. KJ264 hat
+  sieben Achsen. ATEX-/Ex-Texte sind keine IP-Schutzarten; zusammengeführte
+  IP54/65/67-Einträge anderer Familien behalten die ungeklärte Körper-/Handgelenk-/
+  Standard-/Optionsgrenze.
+- MC004N hat in der VHP-Zeile einen Strich; die Sterilisierbarkeit von MC004V/006V
+  wird nicht übernommen. Epoxid-/polierte Aluminiumoberflächen und MS005N mit
+  Edelstahl, sieben Achsen und IP69K bleiben getrennt. Fraunhofer-/Foodgrade-,
+  Reinraum- und VHP-Angaben bleiben Partneraussagen ohne unabhängigen Zertifikatsnachweis.
+
+Steuerungen, Teach-Pendants, Greifer, K-ROSET/AS-Software, Sicherheitsoptionen,
+Servopositionierer und Lineartracks werden nicht als zusätzliche vollständige Roboter
+gezählt. Aktuelle Preise/Lagerbestände, unabhängige Leistung, Exklusivität und
+Markt-/Suchführerschaft sind nicht nachgewiesen.
+
+Validierung: 808 Unit-Tests in 64 Dateien, 20 Browserfälle auf Desktop/Mobil einschließlich vier Axe-Prüfungen, Build mit 3280 Seiten, Datenaudit ohne Fehler und mit 1109 Warnungen bestanden. Die 56 zusätzlichen Warnungen betreffen ausschließlich fehlende Erscheinungsjahre der 56 neuen Modelle. 58 Produktseiten/1160 Felder, 389 Quellenbadges, 655 ausgelassene Leerfelder, 389 strukturierte Eigenschaften und 296 Merkmalsaussagen geprüft. Modell-Export: eine Familienzeile/zwei Ziele/40 Felder; ursprüngliche Queue: zwei Ziele/40 Felder; Firmenbeschreibungsexport: keine ausgewählten Ziele. Firmenfokus, beide Suchwege und Vergleich sowie vollständiger JSON-Belegexport geprüft; Reimport ohne Ergänzungen, geänderte Testdatei lint-/formatgeprüft. Beim ersten Browserlauf bestanden 18/20 Fälle; zwei Suchtest-Erwartungen wurden anhand des vorgesehenen Basistext-/Merkmals-Suchverhaltens korrigiert, anschließend bestanden alle 20 Fälle ohne Änderung an Anwendung oder Produktdaten.
+Der erste Unit-Aufruf konnte wegen ENOSPC vor Ausführung der Tests nicht transformieren.
+Der nachfolgende Lauf verwendet ein eigenes temporäres Verzeichnis auf dem
+Workspace-Dateisystem. Es wurden keine fremden temporären Dateien oder
+Recherchebelege gelöscht und keine globale Umgebung geändert. Alle folgenden
+Prüfwerte beziehen sich auf den erfolgreichen Lauf. Eigene Browser, Testserver
+und Hilfsprozesse wurden geschlossen und die Freigabe geprüft. Die externen
+Live-YouTube-Befunde aus Batch 106 bleiben außerhalb dieser Auswahl offen.
+
+Gesamt: 2.230 Katalogeinträge, 976 Aufgabenergänzungen, 169 ursprüngliche Modelle mit
+Merkmalsbelegen, 1.145 Produktbelege, 5.181 Aussagen, 2.324 Quellenverweise und
+114 Firmenfokus-Prüfungen. Insgesamt 1.052 Feldprüfungen/19.591 Felder:
+7.400 dokumentiert, 11.821 unbekannt, 276 widersprüchlich, 94 Roadmap.
+Ursprüngliche Queue: 444 geprüft/74 offen von 518, mit 8.092 Feldern:
+3.269 dokumentiert, 4.634 unbekannt, 173 widersprüchlich, 16 Roadmap.
+Weiterhin offen: drei Modellidentitäten, neun Listingidentitäten, Inhaltsvalidierung
+der 862 BuyAndRent-Detailseiten und vollständige Herstellerportfolios.
+
+Datencommit `fdabc6b0dfc3c374a253cee04e145e6c78432377` wurde auf `codex/competitor-directory-expansion`
+gepusht und remote geprüft. `main` bleibt bei
+`20a2844346914d8d28958aa3b4e51897c4e9e6ff`; es wurde nicht deployt.
+Dauerhafter Prüfbericht: `reports/competitor-batch-121-evidence.json`.
