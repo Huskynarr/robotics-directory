@@ -1,6 +1,6 @@
 # Wettbewerbsinventar und Ausbau des Robotics Directory
 
-Stand: 2. November 2026. Quellen: <https://roboticsdir.com/> und
+Stand: 3. November 2026. Quellen: <https://roboticsdir.com/> und
 <https://buyandrentrobots.com/directory>. Die mehrfach genannte erste Adresse wurde
 einmal erfasst. Die Recherche ist ein vollständiges Quelleninventar, noch kein
 vollständig gegen Hersteller geprüfter Produktbestand.
@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.262 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1008 |
-| Datierte Produktmerkmal-Datensätze einschließlich 170 bestehender Modelle | 1178 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.270 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1016 |
+| Datierte Produktmerkmal-Datensätze einschließlich 180 bestehender Modelle | 1196 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 116 |
+| Firmenfokus-Prüfungen mit Quellen | 117 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1008 ergänzte Modelle ergeben 2.262 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1016 ergänzte Modelle ergeben 2.270 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-116 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+117 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1178 Datensätze
+Modellseiten verlinken Markenprofile. Die 1196 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 450 haben ausgewählte Datenfeldprüfungen und 68
+haben datierte Merkmalsbelege; 452 haben ausgewählte Datenfeldprüfungen und 66
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 515 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 516 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -10241,3 +10241,28 @@ Extrahierter Herstellertext, native HTML-Tabellen-/Zellzuordnung, Produktcodes, 
 Von den ursprünglichen 518 Recherche-Zielen haben jetzt 450 ausgewählte Feldprüfungen, 68 warten darauf. Drei Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Die sechs SuperDroid-Konfigurationsfragen, vollständige historische Sortimente, unabhängige Leistungs-/Exklusivitätsbelege und Platz 1 sind weiterhin nicht bewiesen. Die offenen externen YouTube-/Axe-Befunde aus Batch 106 bleiben bestehen.
 
 Daten-Zwischencommit: `7bea67e215bf8cf52158764c96898ba573e61ec6`, auf `codex/competitor-directory-expansion` gepusht. `main` unverändert; keine Bereitstellung. Dauerhafter Prüfbericht: `reports/competitor-batch-123-evidence.json`.
+
+## Ergänzung vom 3. November 2026 – UBTECH: Modellzuordnung, Konfigurationen und Quellenkonflikte (Batch 124)
+
+20 Plattformen wurden geprüft: acht neue Einträge und zwölf überarbeitete Bestandsmodelle. Die aktuelle UBTECH-Navigation enthält 19 eigene Produktidentitäten: 18 haben eine ausgewählte Prüfung, U1 PRO bleibt gegenüber den bestehenden UWORLD-Varianten ungeklärt. Die ältere Walker-Plattform und die ausdrücklich getrennt genannte Walker S Lite ergänzen die Auswahl. AIRROBO-Verknüpfungen sowie weitere Konzern- und historische Sortimente bleiben eigene Rechercheaufgaben.
+
+360 ausgewählte Felder: 130 dokumentiert, 228 nicht dokumentiert und zwei widersprüchlich. 40 neue Merkmalsaussagen und 20 zusätzliche Quellenreferenzen; 18 neue Merkmalsdatensätze, zwei vorhandene erweitert, ein Firmenfokus ergänzt. Gesamtbestand: 2.270 Modelle/Konfigurationen, 1.196 Merkmalsdatensätze mit 5.338 Aussagen und 2.401 Quellenreferenzen; 1.111 Feldprüfungen mit 21.113 Feldern. Die 1.961 ursprünglichen Quellenidentitäten bleiben erhalten.
+
+- Walker C hatte die Herstelleradresse der älteren Walker-Plattform. Die separate C-Seite belegt 163 cm, 43 kg und 20 DOF; Walking/Standing bleiben zwei/vier Stunden, Laden 1,5 Stunden. Die ältere Walker-Seite beschreibt 145 cm, 77 kg und 36 DOF. Der Link ist korrigiert, beide Modelle bleiben getrennt. 5 kg in der Walker-C-Armzeile ist als Armgewicht beschriftet und wird nicht zur Nutzlast; eine uneindeutige Spannweitenangabe wird nicht als präzise Armreichweite übernommen.
+- Walker S und S Lite haben getrennte HTML-Konfigurationscontainer und herstellerseitig benannte Bildkarten. Die OCR-Texte nennen für S 170 cm, 65 kg, 41 DOF, 600 mm Einzelarmlänge und ungefähr 2,5 Stunden; für Lite 130 cm, 63 kg, 41 DOF, 600 mm und ungefähr zwei Stunden. Die Zuordnung wurde anhand nativer Container, Dateinamen und zweier OCR-Verfahren geprüft. Motordrehzahl ist keine Laufgeschwindigkeit, Batteriewechsel keine Ladezeit.
+- Walker S2: Der Hersteller beschreibt einen autonomen Batteriewechsel innerhalb von drei Minuten mit Station und Doppelakkus. „24/7“ ist keine Laufzeit pro Ladung. 15 kg im 0–1,8-m-Arbeitsraum bleibt eine aufgabenbezogene Traglast; Arbeitsraumhöhe ist keine Armlänge. Die ausgewählten S1/S2-Spezifikationsbilder beschriften vor allem Anatomie/Sensorik. Nicht daraus belegte frühere Masse-, DOF-, Laufzeit-, Geschwindigkeits- und Preiswerte werden nicht weiter als geprüfte Zahlen geführt. Herstellerintegration und Videos ersetzen keine unabhängige Leistungsmessung.
+- Walker Tienkung trennt Voice & Vision und Embodied Intelligence: ungefähr 61/73 kg, nicht funktionale Hände gegenüber zwei Sechs-DOF-Händen. Gemeinsame Tabellenzeilen nennen 172 cm, 7 km/h und drei Stunden. Für Embodied Intelligence bestätigen unterschiedliche OCR-Verfahren 42 DOF. Die letzte Ziffer der Voice-&-Vision-Gesamtzahl ist nicht eindeutig bestätigt; dafür wird keine Zahl freigegeben. Die abweichenden OCR-Kandidaten und Koordinaten bleiben im Bericht. Datensätze sind weiterhin zur schrittweisen Veröffentlichung angekündigt.
+- Walker X und Panda Youyou behalten ihre eigenen Identitäten. 1,5 kg pro ausgestrecktem Arm und 600 mm Einzelarmspannweite sind getrennt von anders bedingten Trage-/Gehdemonstrationen. 20 cm Navigations-, 10 cm Lokalisierungs- und 1 cm Feinlokalisierungsangaben sind unterschiedliche Messgrößen. Kameraauflösung und diese Positionsangaben werden nicht zur visuellen Messgenauigkeit.
+- Cruzr Y1, Cruzr S2 und Cruzr 1S haben unterschiedliche industrielle bzw. Service-Rollen. S2: 15 kg im 0–1,8-m-Arbeitsraum, 0–40 cm Hubbereich, 2 m/s; eine Manipulationspräzisionsbehauptung wird nicht zur Kamera-/Navigationsgenauigkeit. 1S: bis zu acht Stunden pro Ladung und separat Standby-/Nachladebetrieb. Y1-Komponentendiagramme belegen keine numerischen Gesamtlast- oder Hubwerte. C1-Hände sind optional; Branchen-/Szenariobeispiele beweisen keine allgemeine Zertifizierung.
+- CADEBOT L100 ist über die Navigation der CADEBOT-Seite zugeordnet. Nettomasse 55 kg, Versandbrutto 85 kg, Gesamttransportlast 40 kg, zehn Kilogramm je Ablage. Die Spezifikation nennt sechs Stunden Arbeitsbetrieb in einem Block, acht in einem anderen und im HTML. Beide bleiben als Konflikt sichtbar; es gibt keinen ausgewählten gemeinsamen Maximalwert. Zwölf Stunden Standby und vier Stunden Laden lösen diesen Widerspruch nicht auf. 65-cm-Durchfahrt bleibt eine Herstellerangabe mit offenen Einsatzbedingungen.
+- UGOT: vier Radmotoren und acht Gelenkservos sind eine Stückliste, keine universelle DOF-Zahl für alle sieben Aufbauten. uKit-AI-Visionstraining ohne Internet ist getrennt von cloudbezogener Sprache. Yanshee-Schulstufen ergeben keine exakte Altersgrenze. Alpha Mini: aktueller Herstellerwert 700 g einschließlich Akku statt zuvor unbelegter 0,78 kg; Kapazität begründet keine Zwei-Stunden-Laufzeit. uKit Explore: regionales 749,95-USD-Angebot, Grade 6+, 16 Servos/zwei Motoren und 38 Bauvorschläge; sichtbare Nachbestell-/Ausverkauft-Angaben sind keine bestätigte Verfügbarkeit. Strukturierte InStock-Angaben widersprechen dem sichtbaren Status. Paket und Region bleiben qualifiziert.
+
+29 öffentliche Antworten gespeichert: 28 mit HTTP 200, eine alte JIMU-Familienadresse mit 404. 25 Herstellerbilder wurden als OCR-Text und Koordinaten geprüft; die Bildanzeige lehnte Bildinputs ausdrücklich ab. Keine visuelle Bild-/PDF-Prüfung wird behauptet. Drei über die Broschürenseite abgerufene PDFs liefern keine ausgewählten Produktbehauptungen. Quellen wurden am 2. November UTC gespeichert; die Prüfung wurde am 3. November in Europe/Berlin abgeschlossen. Keine Formulare, Konten, Kontakte oder Käufe.
+
+808 Unit-Tests in 64 Dateien und 20 Browserfälle einschließlich vier Axe-Prüfungen bestanden. Der Build erzeugt 3.320 Seiten. Datenaudit: keine Fehler, 1.160 Warnungen; 16 zusätzliche Warnungen betreffen ausschließlich unbelegte Erscheinungsjahre bei acht Ergänzungen und acht zuvor nicht abgesicherten Jahresangaben. Geprüft: 20 Produktseiten, 360 Felder, 91 Quellenbadges, 229 ausgelassene Leerfelder und 46 Merkmalsaussagen. Modell-Export: 2 Zeilen/2 Ziele/34 Feldvorkommen; ursprüngliche Queue: zwei Ziele/34 Felder. Firmenfokus und Firmenexport, Suche, Vergleich, vollständiger JSON-Belegexport sowie wiederholbarer Import geprüft. Die geänderte Testdatei besteht Lint-/Formatprüfung. Alle eigenen Test- und OCR-Prozesse einschließlich Browser und Vorschau geschlossen; Ressourcen anderer Aufgaben erhalten.
+
+Die erste Unit-Prüfung bestand 807 von 808 Fällen und fand den noch nicht erzeugten Merkmalsdatenbestand. Dieser wurde aus den geprüften Quelldaten neu erstellt; der vorher gestartete eigene Build wurde beendet und neu erstellt. Die abschließenden Prüfungen verwenden den konsistenten Datenstand. Der Import fügt beim Wiederholen keine Einträge hinzu.
+
+Von 518 ursprünglichen Recherchezielen haben jetzt 452 ausgewählte technische Feldprüfungen, 66 warten darauf. Drei ursprüngliche Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Hinzu kommen die dokumentierten U1/UWORLD-, JIMU- und Tienkung-Konfigurationsfragen. Vollständige Konzern-/Historienportfolios, aktuelle weltweite Lieferbarkeit, unabhängige Leistung, exklusive USPs und Platz 1 bleiben unbewiesen. Die externen YouTube-/Axe-Befunde aus Batch 106 sind weiterhin offen.
+
+Daten-Zwischencommit: `1a158a35e8218923a07714fd6050f9b405f9e557`, auf `codex/competitor-directory-expansion` gepusht. Dauerhafter Bericht: `reports/competitor-batch-124-evidence.json`.

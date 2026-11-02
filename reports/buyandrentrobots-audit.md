@@ -1,6 +1,6 @@
 # BuyAndRentRobots directory audit
 
-Inventory captured: 2026-11-01; reviewed additions updated: 2026-11-02. Source: <https://buyandrentrobots.com/directory>.
+Inventory captured: 2026-11-01; reviewed additions updated: 2026-11-03. Source: <https://buyandrentrobots.com/directory>.
 
 The public inventory contains **862 listings and 412 companies**. Paginated API
 responses, the sitemap and the server-rendered robot listing agree on listing IDs.
@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,262 catalog rows**, with 644 exact
-manufacturer spellings. Batch 123 refreshed the separate heuristic gap file offline
-against all 2,262 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,270 catalog rows**, with 644 exact
+manufacturer spellings. Batch 124 refreshed the separate heuristic gap file offline
+against all 2,270 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1178 dated records across the catalog, including
-170 existing-model enrichments and 1008 task additions. All 430 catalog models
+Current product-highlight coverage: 1196 dated records across the catalog, including
+180 existing-model enrichments and 1016 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1008 task additions, totaling 2,262.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1016 task additions, totaling 2,270.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 450 have selected-field reviews and 68 await those reviews. Family and
+highlights; 452 have selected-field reviews and 66 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 20,753 fields across 1091 catalog models: 7,678 documented,
-12,693 not documented, 286 conflicting and ninety-six roadmap fields. They do not certify whole
+Selected specification checks cover 21,113 fields across 1111 catalog models: 7,808 documented,
+12,921 not documented, 288 conflicting and ninety-six roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -8006,3 +8006,28 @@ Extrahierter Herstellertext, native HTML-Tabellen-/Zellzuordnung, Produktcodes, 
 Von den ursprünglichen 518 Recherche-Zielen haben jetzt 450 ausgewählte Feldprüfungen, 68 warten darauf. Drei Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Die sechs SuperDroid-Konfigurationsfragen, vollständige historische Sortimente, unabhängige Leistungs-/Exklusivitätsbelege und Platz 1 sind weiterhin nicht bewiesen. Die offenen externen YouTube-/Axe-Befunde aus Batch 106 bleiben bestehen.
 
 Daten-Zwischencommit: `7bea67e215bf8cf52158764c96898ba573e61ec6`, auf `codex/competitor-directory-expansion` gepusht. `main` unverändert; keine Bereitstellung. Dauerhafter Prüfbericht: `reports/competitor-batch-123-evidence.json`.
+
+## Ergänzung vom 3. November 2026 – UBTECH: Modellzuordnung, Konfigurationen und Quellenkonflikte (Batch 124)
+
+20 Plattformen wurden geprüft: acht neue Einträge und zwölf überarbeitete Bestandsmodelle. Die aktuelle UBTECH-Navigation enthält 19 eigene Produktidentitäten: 18 haben eine ausgewählte Prüfung, U1 PRO bleibt gegenüber den bestehenden UWORLD-Varianten ungeklärt. Die ältere Walker-Plattform und die ausdrücklich getrennt genannte Walker S Lite ergänzen die Auswahl. AIRROBO-Verknüpfungen sowie weitere Konzern- und historische Sortimente bleiben eigene Rechercheaufgaben.
+
+360 ausgewählte Felder: 130 dokumentiert, 228 nicht dokumentiert und zwei widersprüchlich. 40 neue Merkmalsaussagen und 20 zusätzliche Quellenreferenzen; 18 neue Merkmalsdatensätze, zwei vorhandene erweitert, ein Firmenfokus ergänzt. Gesamtbestand: 2.270 Modelle/Konfigurationen, 1.196 Merkmalsdatensätze mit 5.338 Aussagen und 2.401 Quellenreferenzen; 1.111 Feldprüfungen mit 21.113 Feldern. Die 1.961 ursprünglichen Quellenidentitäten bleiben erhalten.
+
+- Walker C hatte die Herstelleradresse der älteren Walker-Plattform. Die separate C-Seite belegt 163 cm, 43 kg und 20 DOF; Walking/Standing bleiben zwei/vier Stunden, Laden 1,5 Stunden. Die ältere Walker-Seite beschreibt 145 cm, 77 kg und 36 DOF. Der Link ist korrigiert, beide Modelle bleiben getrennt. 5 kg in der Walker-C-Armzeile ist als Armgewicht beschriftet und wird nicht zur Nutzlast; eine uneindeutige Spannweitenangabe wird nicht als präzise Armreichweite übernommen.
+- Walker S und S Lite haben getrennte HTML-Konfigurationscontainer und herstellerseitig benannte Bildkarten. Die OCR-Texte nennen für S 170 cm, 65 kg, 41 DOF, 600 mm Einzelarmlänge und ungefähr 2,5 Stunden; für Lite 130 cm, 63 kg, 41 DOF, 600 mm und ungefähr zwei Stunden. Die Zuordnung wurde anhand nativer Container, Dateinamen und zweier OCR-Verfahren geprüft. Motordrehzahl ist keine Laufgeschwindigkeit, Batteriewechsel keine Ladezeit.
+- Walker S2: Der Hersteller beschreibt einen autonomen Batteriewechsel innerhalb von drei Minuten mit Station und Doppelakkus. „24/7“ ist keine Laufzeit pro Ladung. 15 kg im 0–1,8-m-Arbeitsraum bleibt eine aufgabenbezogene Traglast; Arbeitsraumhöhe ist keine Armlänge. Die ausgewählten S1/S2-Spezifikationsbilder beschriften vor allem Anatomie/Sensorik. Nicht daraus belegte frühere Masse-, DOF-, Laufzeit-, Geschwindigkeits- und Preiswerte werden nicht weiter als geprüfte Zahlen geführt. Herstellerintegration und Videos ersetzen keine unabhängige Leistungsmessung.
+- Walker Tienkung trennt Voice & Vision und Embodied Intelligence: ungefähr 61/73 kg, nicht funktionale Hände gegenüber zwei Sechs-DOF-Händen. Gemeinsame Tabellenzeilen nennen 172 cm, 7 km/h und drei Stunden. Für Embodied Intelligence bestätigen unterschiedliche OCR-Verfahren 42 DOF. Die letzte Ziffer der Voice-&-Vision-Gesamtzahl ist nicht eindeutig bestätigt; dafür wird keine Zahl freigegeben. Die abweichenden OCR-Kandidaten und Koordinaten bleiben im Bericht. Datensätze sind weiterhin zur schrittweisen Veröffentlichung angekündigt.
+- Walker X und Panda Youyou behalten ihre eigenen Identitäten. 1,5 kg pro ausgestrecktem Arm und 600 mm Einzelarmspannweite sind getrennt von anders bedingten Trage-/Gehdemonstrationen. 20 cm Navigations-, 10 cm Lokalisierungs- und 1 cm Feinlokalisierungsangaben sind unterschiedliche Messgrößen. Kameraauflösung und diese Positionsangaben werden nicht zur visuellen Messgenauigkeit.
+- Cruzr Y1, Cruzr S2 und Cruzr 1S haben unterschiedliche industrielle bzw. Service-Rollen. S2: 15 kg im 0–1,8-m-Arbeitsraum, 0–40 cm Hubbereich, 2 m/s; eine Manipulationspräzisionsbehauptung wird nicht zur Kamera-/Navigationsgenauigkeit. 1S: bis zu acht Stunden pro Ladung und separat Standby-/Nachladebetrieb. Y1-Komponentendiagramme belegen keine numerischen Gesamtlast- oder Hubwerte. C1-Hände sind optional; Branchen-/Szenariobeispiele beweisen keine allgemeine Zertifizierung.
+- CADEBOT L100 ist über die Navigation der CADEBOT-Seite zugeordnet. Nettomasse 55 kg, Versandbrutto 85 kg, Gesamttransportlast 40 kg, zehn Kilogramm je Ablage. Die Spezifikation nennt sechs Stunden Arbeitsbetrieb in einem Block, acht in einem anderen und im HTML. Beide bleiben als Konflikt sichtbar; es gibt keinen ausgewählten gemeinsamen Maximalwert. Zwölf Stunden Standby und vier Stunden Laden lösen diesen Widerspruch nicht auf. 65-cm-Durchfahrt bleibt eine Herstellerangabe mit offenen Einsatzbedingungen.
+- UGOT: vier Radmotoren und acht Gelenkservos sind eine Stückliste, keine universelle DOF-Zahl für alle sieben Aufbauten. uKit-AI-Visionstraining ohne Internet ist getrennt von cloudbezogener Sprache. Yanshee-Schulstufen ergeben keine exakte Altersgrenze. Alpha Mini: aktueller Herstellerwert 700 g einschließlich Akku statt zuvor unbelegter 0,78 kg; Kapazität begründet keine Zwei-Stunden-Laufzeit. uKit Explore: regionales 749,95-USD-Angebot, Grade 6+, 16 Servos/zwei Motoren und 38 Bauvorschläge; sichtbare Nachbestell-/Ausverkauft-Angaben sind keine bestätigte Verfügbarkeit. Strukturierte InStock-Angaben widersprechen dem sichtbaren Status. Paket und Region bleiben qualifiziert.
+
+29 öffentliche Antworten gespeichert: 28 mit HTTP 200, eine alte JIMU-Familienadresse mit 404. 25 Herstellerbilder wurden als OCR-Text und Koordinaten geprüft; die Bildanzeige lehnte Bildinputs ausdrücklich ab. Keine visuelle Bild-/PDF-Prüfung wird behauptet. Drei über die Broschürenseite abgerufene PDFs liefern keine ausgewählten Produktbehauptungen. Quellen wurden am 2. November UTC gespeichert; die Prüfung wurde am 3. November in Europe/Berlin abgeschlossen. Keine Formulare, Konten, Kontakte oder Käufe.
+
+808 Unit-Tests in 64 Dateien und 20 Browserfälle einschließlich vier Axe-Prüfungen bestanden. Der Build erzeugt 3.320 Seiten. Datenaudit: keine Fehler, 1.160 Warnungen; 16 zusätzliche Warnungen betreffen ausschließlich unbelegte Erscheinungsjahre bei acht Ergänzungen und acht zuvor nicht abgesicherten Jahresangaben. Geprüft: 20 Produktseiten, 360 Felder, 91 Quellenbadges, 229 ausgelassene Leerfelder und 46 Merkmalsaussagen. Modell-Export: 2 Zeilen/2 Ziele/34 Feldvorkommen; ursprüngliche Queue: zwei Ziele/34 Felder. Firmenfokus und Firmenexport, Suche, Vergleich, vollständiger JSON-Belegexport sowie wiederholbarer Import geprüft. Die geänderte Testdatei besteht Lint-/Formatprüfung. Alle eigenen Test- und OCR-Prozesse einschließlich Browser und Vorschau geschlossen; Ressourcen anderer Aufgaben erhalten.
+
+Die erste Unit-Prüfung bestand 807 von 808 Fällen und fand den noch nicht erzeugten Merkmalsdatenbestand. Dieser wurde aus den geprüften Quelldaten neu erstellt; der vorher gestartete eigene Build wurde beendet und neu erstellt. Die abschließenden Prüfungen verwenden den konsistenten Datenstand. Der Import fügt beim Wiederholen keine Einträge hinzu.
+
+Von 518 ursprünglichen Recherchezielen haben jetzt 452 ausgewählte technische Feldprüfungen, 66 warten darauf. Drei ursprüngliche Modellidentitäten, neun Listing-Identitäten und 862 BuyAndRent-Detailinhalte bleiben offen. Hinzu kommen die dokumentierten U1/UWORLD-, JIMU- und Tienkung-Konfigurationsfragen. Vollständige Konzern-/Historienportfolios, aktuelle weltweite Lieferbarkeit, unabhängige Leistung, exklusive USPs und Platz 1 bleiben unbewiesen. Die externen YouTube-/Axe-Befunde aus Batch 106 sind weiterhin offen.
+
+Daten-Zwischencommit: `1a158a35e8218923a07714fd6050f9b405f9e557`, auf `codex/competitor-directory-expansion` gepusht. Dauerhafter Bericht: `reports/competitor-batch-124-evidence.json`.
