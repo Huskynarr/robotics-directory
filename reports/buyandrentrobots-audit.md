@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,139 catalog rows**, with 644 exact
-manufacturer spellings. Batch 114 refreshed the separate heuristic gap file offline
-against all 2,139 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,141 catalog rows**, with 644 exact
+manufacturer spellings. Batch 115 refreshed the separate heuristic gap file offline
+against all 2,141 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1051 dated records across the catalog, including
-166 existing-model enrichments and 885 task additions. All 430 catalog models
+Current product-highlight coverage: 1053 dated records across the catalog, including
+166 existing-model enrichments and 887 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 885 task additions, totaling 2,139.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 887 task additions, totaling 2,141.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 423 have selected-field reviews and 95 await those reviews. Family and
+highlights; 425 have selected-field reviews and 93 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 16,611 fields across 937 catalog models: 6,595 documented,
-9,671 not documented, 270 conflicting and seventy-five roadmap fields. They do not certify whole
+Selected specification checks cover 16,759 fields across 941 catalog models: 6,632 documented,
+9,774 not documented, 270 conflicting and eighty-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -7263,3 +7263,106 @@ identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
 unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `67d7b0041be2427046d4cd57771efb08dafb017e` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-114-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Skydio: Flug-/Ladefenster, Konfigurationen und F10-Roadmap (Batch 115)
+
+R10 und X10 vertieft, X10D und angekündigten F10 Lightrunner ergänzt. Vier Modelle
+mit 148 ausgewählten Feldern: 37 dokumentiert, 103 unbekannt, acht Roadmap. 18 neue
+Aussagen, netto zwölf Produktquellenverweise und ein neuer Firmenfokus; sechs alte
+Aussagen und Entdeckungsprovenienz unverändert. Kein vollständiges historisches
+Skydio-Portfolio behauptet; 2/2+/X2 und Vorgänger bleiben Rechercheansätze.
+
+R10: 785 g mit Akku, 263,0 × 260,5 × 61,5 mm. Bis 20 Minuten Flug abhängig von
+Licht/Manövern, bis drei Stunden Perch Mode ausdrücklich gelandet. Vorwärtige 180°-
+Hindernissicht mit zwei Stereokameras; maximal 12 m/s, mit Vermeidung 8 m/s, im
+integrierten sichtbaren NightSense-Modus 4 m/s. 20-m-Erfassungsweite keine Positions-
+genauigkeit. Dual-Lader: je Akku 35 Minuten bei 230 W oder eine Stunde bei 100 W,
+jeweils 0–100 Prozent. Kein übernommener X10-Ladewert. −20 bis +50 °C laut Daten,
+keine Einstufung für dauerhafte Wassereinwirkung; FAQ nicht für Wind/Nässe gedacht.
+Kein erfundener IP-Wert. Herstellerartikel vom 17. September 2025 führt R10 ein:
+damals Frühzugang Herbst 2025, allgemeine Verfügbarkeit erstes Halbjahr 2026 geplant;
+Planung kein heutiger Lager-/Bestellnachweis.
+
+X10: Herstellerstart 20. September 2023. Akkuinklusive Masse Connect SL 2,11 kg,
+SL+5G Gen 1 2,14 kg und Gen 2 2,16 kg, MTOW 2,49 kg. Differenzrechnung kein bewiesenes
+Frachtlast-Rating. Ausgeklappt mit Propellern 79 × 65 × 14,5 cm, gefaltet ohne Akku
+35,05 × 16,51 × 11,94 cm. Bis 40 Minuten Flug unter idealen Laborbedingungen versus
+35 Minuten Schwebeflug. September-2025-Artikel nennt ungefähr 30–32 praktische
+Flugminuten; Kontexte getrennt, keine universelle garantierte Mindestdauer.
+Sechs Navigationskameras/360°, VIO-Schwebepräzision ±10 cm oder GNSS ±1 m im benannten
+Windkontext. MP/thermische <30-mK-Empfindlichkeit und Rissbeispiele keine universelle
+metrische Inspektionspräzision. Kamerapakete/Revisionsstände bleiben konfigurationsbezogen.
+
+X10-Lader 230 W: rund eine Stunde 0–100 oder 35 Minuten 20–90 Prozent. Bei 100 W:
+1 h 47 min beziehungsweise 1 h 12 min. X10D separat: 230 W eine Stunde/35 Minuten,
+100 W 1 h 45 min/1 h 10 min für dieselben vollständigen/teilweisen Fenster. Kein
+stilles Vereinheitlichen der zwei Modellseiten. Controller fünf Stunden/Controller 2
+fünf Stunden 45 Minuten Laufzeit keine Flug- oder Ladezeit. Akku-, Lader-, Controller-
+und Fluggerätedaten getrennt; IP55 Fluggerät, Controller IP54/Controller 2 IP55 und
+ungeschützter Lader nicht vertauscht. X10-Spezifikation unterscheidet verschlüsselten
+internen Speicher von unverschlüsselten SD-Karten.
+
+X10D: eigene Hersteller-Spezifikation, SL 2,11 kg und MH 2,14 kg mit Akku, 2,49 kg
+MTOW, IP55, 40 Minuten idealer Laborflug, 35 Minuten Schweben, 20 m/s maximal,
+16 m/s mit Vermeidung. Keine übernommenen X10-Mobilfunkgenerationen oder berechnete
+Frachtlast. Bereits im X10-Startartikel 2023 benannt; exakter erster öffentlicher
+X10D-Start daraus nicht behauptet. Blue-UAS-/NDAA-/Sicherheitswerbung bleibt
+Herstellerangabe ohne unabhängiges aktuelles Register-/Sicherheitsaudit oder
+universelle Nutzer-, Standort- und Fluggenehmigung.
+
+F10 Lightrunner: Herstellerartikel vom 24. September 2026 plant Kundeneinsätze 2027.
+Artikel vom 17. September 2025 hatte F10 unter Entwicklung mit über 80 mph, mehr als
+90 Minuten und Frühzugang erstes Halbjahr 2026 als Ziele beschrieben. Spätere Werte
+100 mph/120 Minuten und 2027-Plan getrennt vom alten Ziel; keine bewiesene Erfüllung,
+kein erfundenes unabhängig eigenständiges Prototyp-Produkt. Erscheinungsjahr nicht
+mit geplantem erstem gelieferten Einsatz gefüllt. Aktuelle acht technische Felder
+als Roadmap: 7 kg mit Akkus, 57,8 × 33,9 × 7,7 in, maximal 100 mph/44 m/s, 120 Minuten,
+IP55, 45 Minuten Teilladen 10–90 Prozent, −20 bis +55 °C am MegaDock gemessen,
+12 m/s Start-/Landewindlimit und autonome Flug-/RTOL-Funktionen. Kein vollständiges
+0–100-Prozent-Ladefenster aus Teilzyklus abgeleitet.
+
+MegaDock: bis fünf F10, beispielhaft drei in der Luft/zwei laden, automatische
+Ablösung. Flottenzyklen kein 24-Stunden-Einzelflug. 6900 lb Gesamtstationsmasse,
+IP54 im Betrieb/IP56 im Standby, 18,033 kW Spitzenleistung und Platz-/Anschlussbedarf
+keine Fluggerätedaten. 30-Meilen-Radius/ungefähr 2800 Quadratmeilen Abdeckung keine
+unbegrenzte Funkreichweite oder Fluggenehmigung. Vorwärtige 100 m/obere-untere 20 m
+Sensorweite im Datenblatt versus 300 ft Wahrnehmungstext im Produktmarketing mit
+Kontext bewahrt, nicht zur Positionspräzision erklärt. Aircraft-IP55 nicht mit
+Stationsschutz verwechselt.
+
+DFR/Asset/Security/ISR Command, Ops Center, Remote Flight Deck, Paraverse, Controller,
+VT300, NightSense, NVIDIA und Anbauteile sind Software-/Integrations-/Zubehörrollen.
+September-2026-Artikel unterscheidet bereits ausgelieferten VT300-Z Rev 2 von geplanten
+Softwarefunktionen und allgemeiner Verfügbarkeit. Schutzfallschirm-/FAA-/NDAA-/Blue-UAS-,
+Only-/Best- und Erfolgswerbung keine unabhängig geprüfte pauschale Zulassung,
+Sicherheitsgarantie, exklusive USP oder Markt-/Suchführerschaft. Keine exakten
+Komplettpreise oder aktuellen Lagerbestände nachgewiesen.
+
+18 öffentliche Antworten mit SHA-256: 17 HTTP 200, ein ungenutzter Sitemap-404.
+Aktuelle HTML-Spezifikationen/FAQ/Produkte und datierte Volltexte. Raw-HTML-time und
+BlogPosting-datePublished stimmen für 20. September 2023, 17. September 2025 und
+24. September 2026 überein; dateModified ist kein erster Modellstart. Extraktion
+hat Artikelheader entfernt, daher Datumsprüfung im gespeicherten Roh-HTML.
+Keine PDF-/Bild-/Video-/CAD-Sichtprüfung, Formulare, Demos, Kontakte oder Transaktionen.
+
+2137 andere alte CSV-Zeilen, alle 937 alten Feldprüfungen, 108 alten Firmenfokusse,
+1049 andere Produktbelege und 1961 Quellenidentitäten erhalten. Keine neuen Spalten
+oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle mit
+vier Axe-Läufen, 3191 Buildseiten, Lint/Format, Refresh und Wiederimport bestanden.
+Audit null Fehler/1032 Hinweise: R10/X10-Startjahre belegt; X10D/F10 ohne erfundenes
+erstes Erscheinungsjahr. Vier Seiten/148 Felder/24 Aussagen, ein Firmenfokus,
+strukturierte Eigenschaften, zwei Modell-Exportziele/74 Felder und zwei ursprüngliche
+Queue-Ziele/74 Felder geprüft. Keine Firmenbeschreibungs-Produktreferenz dieser Gruppe.
+Vergleich 1053 Produktbelege, 4706 Aussagen, 2167 Quellenverweise, 941 Prüfungen/16759
+Felder. Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei. Kein Deployment.
+Externe YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2141 Modelle/Konfigurationen, 887 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung, 109 Firmenfokusse. Ursprüngliche Ziele: 425 geprüft, 93 offen
+von 518; 7474 Felder (3155 dokumentiert, 4132 unbekannt, 171 Konflikte, 16 Roadmap).
+Firmenfokus für 105 von 591 Quellengruppen. Drei Modellidentitäten, neun Listing-
+identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
+unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
+Datencommit `fee20d543ad0c1af4961f590a9bf196975a05b32` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-115-evidence.json`.

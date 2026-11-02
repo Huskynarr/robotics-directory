@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.139 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 885 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1051 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.141 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 887 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1053 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 108 |
+| Firmenfokus-Prüfungen mit Quellen | 109 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 885 ergänzte Modelle ergeben 2.139 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 887 ergänzte Modelle ergeben 2.141 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-108 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+109 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1051 Datensätze
+Modellseiten verlinken Markenprofile. Die 1053 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 423 haben ausgewählte Datenfeldprüfungen und 95
+haben datierte Merkmalsbelege; 425 haben ausgewählte Datenfeldprüfungen und 93
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -9498,3 +9498,106 @@ identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
 unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
 Datencommit `67d7b0041be2427046d4cd57771efb08dafb017e` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-114-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Skydio: Flug-/Ladefenster, Konfigurationen und F10-Roadmap (Batch 115)
+
+R10 und X10 vertieft, X10D und angekündigten F10 Lightrunner ergänzt. Vier Modelle
+mit 148 ausgewählten Feldern: 37 dokumentiert, 103 unbekannt, acht Roadmap. 18 neue
+Aussagen, netto zwölf Produktquellenverweise und ein neuer Firmenfokus; sechs alte
+Aussagen und Entdeckungsprovenienz unverändert. Kein vollständiges historisches
+Skydio-Portfolio behauptet; 2/2+/X2 und Vorgänger bleiben Rechercheansätze.
+
+R10: 785 g mit Akku, 263,0 × 260,5 × 61,5 mm. Bis 20 Minuten Flug abhängig von
+Licht/Manövern, bis drei Stunden Perch Mode ausdrücklich gelandet. Vorwärtige 180°-
+Hindernissicht mit zwei Stereokameras; maximal 12 m/s, mit Vermeidung 8 m/s, im
+integrierten sichtbaren NightSense-Modus 4 m/s. 20-m-Erfassungsweite keine Positions-
+genauigkeit. Dual-Lader: je Akku 35 Minuten bei 230 W oder eine Stunde bei 100 W,
+jeweils 0–100 Prozent. Kein übernommener X10-Ladewert. −20 bis +50 °C laut Daten,
+keine Einstufung für dauerhafte Wassereinwirkung; FAQ nicht für Wind/Nässe gedacht.
+Kein erfundener IP-Wert. Herstellerartikel vom 17. September 2025 führt R10 ein:
+damals Frühzugang Herbst 2025, allgemeine Verfügbarkeit erstes Halbjahr 2026 geplant;
+Planung kein heutiger Lager-/Bestellnachweis.
+
+X10: Herstellerstart 20. September 2023. Akkuinklusive Masse Connect SL 2,11 kg,
+SL+5G Gen 1 2,14 kg und Gen 2 2,16 kg, MTOW 2,49 kg. Differenzrechnung kein bewiesenes
+Frachtlast-Rating. Ausgeklappt mit Propellern 79 × 65 × 14,5 cm, gefaltet ohne Akku
+35,05 × 16,51 × 11,94 cm. Bis 40 Minuten Flug unter idealen Laborbedingungen versus
+35 Minuten Schwebeflug. September-2025-Artikel nennt ungefähr 30–32 praktische
+Flugminuten; Kontexte getrennt, keine universelle garantierte Mindestdauer.
+Sechs Navigationskameras/360°, VIO-Schwebepräzision ±10 cm oder GNSS ±1 m im benannten
+Windkontext. MP/thermische <30-mK-Empfindlichkeit und Rissbeispiele keine universelle
+metrische Inspektionspräzision. Kamerapakete/Revisionsstände bleiben konfigurationsbezogen.
+
+X10-Lader 230 W: rund eine Stunde 0–100 oder 35 Minuten 20–90 Prozent. Bei 100 W:
+1 h 47 min beziehungsweise 1 h 12 min. X10D separat: 230 W eine Stunde/35 Minuten,
+100 W 1 h 45 min/1 h 10 min für dieselben vollständigen/teilweisen Fenster. Kein
+stilles Vereinheitlichen der zwei Modellseiten. Controller fünf Stunden/Controller 2
+fünf Stunden 45 Minuten Laufzeit keine Flug- oder Ladezeit. Akku-, Lader-, Controller-
+und Fluggerätedaten getrennt; IP55 Fluggerät, Controller IP54/Controller 2 IP55 und
+ungeschützter Lader nicht vertauscht. X10-Spezifikation unterscheidet verschlüsselten
+internen Speicher von unverschlüsselten SD-Karten.
+
+X10D: eigene Hersteller-Spezifikation, SL 2,11 kg und MH 2,14 kg mit Akku, 2,49 kg
+MTOW, IP55, 40 Minuten idealer Laborflug, 35 Minuten Schweben, 20 m/s maximal,
+16 m/s mit Vermeidung. Keine übernommenen X10-Mobilfunkgenerationen oder berechnete
+Frachtlast. Bereits im X10-Startartikel 2023 benannt; exakter erster öffentlicher
+X10D-Start daraus nicht behauptet. Blue-UAS-/NDAA-/Sicherheitswerbung bleibt
+Herstellerangabe ohne unabhängiges aktuelles Register-/Sicherheitsaudit oder
+universelle Nutzer-, Standort- und Fluggenehmigung.
+
+F10 Lightrunner: Herstellerartikel vom 24. September 2026 plant Kundeneinsätze 2027.
+Artikel vom 17. September 2025 hatte F10 unter Entwicklung mit über 80 mph, mehr als
+90 Minuten und Frühzugang erstes Halbjahr 2026 als Ziele beschrieben. Spätere Werte
+100 mph/120 Minuten und 2027-Plan getrennt vom alten Ziel; keine bewiesene Erfüllung,
+kein erfundenes unabhängig eigenständiges Prototyp-Produkt. Erscheinungsjahr nicht
+mit geplantem erstem gelieferten Einsatz gefüllt. Aktuelle acht technische Felder
+als Roadmap: 7 kg mit Akkus, 57,8 × 33,9 × 7,7 in, maximal 100 mph/44 m/s, 120 Minuten,
+IP55, 45 Minuten Teilladen 10–90 Prozent, −20 bis +55 °C am MegaDock gemessen,
+12 m/s Start-/Landewindlimit und autonome Flug-/RTOL-Funktionen. Kein vollständiges
+0–100-Prozent-Ladefenster aus Teilzyklus abgeleitet.
+
+MegaDock: bis fünf F10, beispielhaft drei in der Luft/zwei laden, automatische
+Ablösung. Flottenzyklen kein 24-Stunden-Einzelflug. 6900 lb Gesamtstationsmasse,
+IP54 im Betrieb/IP56 im Standby, 18,033 kW Spitzenleistung und Platz-/Anschlussbedarf
+keine Fluggerätedaten. 30-Meilen-Radius/ungefähr 2800 Quadratmeilen Abdeckung keine
+unbegrenzte Funkreichweite oder Fluggenehmigung. Vorwärtige 100 m/obere-untere 20 m
+Sensorweite im Datenblatt versus 300 ft Wahrnehmungstext im Produktmarketing mit
+Kontext bewahrt, nicht zur Positionspräzision erklärt. Aircraft-IP55 nicht mit
+Stationsschutz verwechselt.
+
+DFR/Asset/Security/ISR Command, Ops Center, Remote Flight Deck, Paraverse, Controller,
+VT300, NightSense, NVIDIA und Anbauteile sind Software-/Integrations-/Zubehörrollen.
+September-2026-Artikel unterscheidet bereits ausgelieferten VT300-Z Rev 2 von geplanten
+Softwarefunktionen und allgemeiner Verfügbarkeit. Schutzfallschirm-/FAA-/NDAA-/Blue-UAS-,
+Only-/Best- und Erfolgswerbung keine unabhängig geprüfte pauschale Zulassung,
+Sicherheitsgarantie, exklusive USP oder Markt-/Suchführerschaft. Keine exakten
+Komplettpreise oder aktuellen Lagerbestände nachgewiesen.
+
+18 öffentliche Antworten mit SHA-256: 17 HTTP 200, ein ungenutzter Sitemap-404.
+Aktuelle HTML-Spezifikationen/FAQ/Produkte und datierte Volltexte. Raw-HTML-time und
+BlogPosting-datePublished stimmen für 20. September 2023, 17. September 2025 und
+24. September 2026 überein; dateModified ist kein erster Modellstart. Extraktion
+hat Artikelheader entfernt, daher Datumsprüfung im gespeicherten Roh-HTML.
+Keine PDF-/Bild-/Video-/CAD-Sichtprüfung, Formulare, Demos, Kontakte oder Transaktionen.
+
+2137 andere alte CSV-Zeilen, alle 937 alten Feldprüfungen, 108 alten Firmenfokusse,
+1049 andere Produktbelege und 1961 Quellenidentitäten erhalten. Keine neuen Spalten
+oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle mit
+vier Axe-Läufen, 3191 Buildseiten, Lint/Format, Refresh und Wiederimport bestanden.
+Audit null Fehler/1032 Hinweise: R10/X10-Startjahre belegt; X10D/F10 ohne erfundenes
+erstes Erscheinungsjahr. Vier Seiten/148 Felder/24 Aussagen, ein Firmenfokus,
+strukturierte Eigenschaften, zwei Modell-Exportziele/74 Felder und zwei ursprüngliche
+Queue-Ziele/74 Felder geprüft. Keine Firmenbeschreibungs-Produktreferenz dieser Gruppe.
+Vergleich 1053 Produktbelege, 4706 Aussagen, 2167 Quellenverweise, 941 Prüfungen/16759
+Felder. Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei. Kein Deployment.
+Externe YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2141 Modelle/Konfigurationen, 887 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung, 109 Firmenfokusse. Ursprüngliche Ziele: 425 geprüft, 93 offen
+von 518; 7474 Felder (3155 dokumentiert, 4132 unbekannt, 171 Konflikte, 16 Roadmap).
+Firmenfokus für 105 von 591 Quellengruppen. Drei Modellidentitäten, neun Listing-
+identitäten und 862 Buy-Detailinhalte offen. Vollständige Herstellerabdeckung,
+unabhängig exklusive USPs und Markt-/Suchführerschaft bleiben unbewiesen.
+Datencommit `fee20d543ad0c1af4961f590a9bf196975a05b32` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-115-evidence.json`.
