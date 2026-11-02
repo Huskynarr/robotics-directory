@@ -14045,32 +14045,78 @@
         "manufacturer": "Rapyuta Robotics",
         "model": "PA-AMR",
         "price": "Not disclosed",
+        "weight": "Approximately 40 kg; robot self weight",
+        "size": "",
+        "batteryLife": "8 h in named model page; 10 h in shared PA-AMR/XL brochure; configuration mapping unresolved",
+        "maxRuntime": "8 h page versus 10 h linked brochure; unresolved configuration/duty conditions",
         "tags": "commercial;warehouse;delivery;autonomous-nav;pick-assist",
+        "handType": "",
+        "dof": "",
+        "payload": "45 kg total cargo capacity; tote volume is a separate measure",
+        "speed": "Up to 1.4 m/s; adjustable, operating conditions unspecified",
+        "terrain": "Indoor warehouse picking workflows; staffing/floor-area guidance is not a universal compatibility limit",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
-        "description": "Pick-assist mobile robot transports totes while warehouse workers select the items. Touchscreen instructions, barcode scanning and fleet coordination guide picking routes. Standard configuration supports two 50 L containers with a 45 kg total payload limit.",
-        "payload": "45 kg",
-        "weight": "approximately 40 kg",
-        "speed": "up to 1.4 m/s (adjustable)",
-        "maxRuntime": "approximately 8 hours"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "PA-AMR transports totes while people pick items, with touchscreen/barcode guidance and coordinated fleet routes. Standard documentation lists two 50 L totes or four 10 L totes, 45 kg cargo and approximately 40 kg robot mass. A current page gives 8 h operation, while its linked PA-AMR/XL brochure gives 10 h without a configuration mapping. RFID and the automatic charging station are optional; item dimensions are not chassis dimensions.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "2 h per manufacturer; charging interval/state-of-charge window unspecified",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "Manufacturer localization accuracy claim: 10–15 cm; test conditions and error metric unspecified",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
-        "Pick-assist mobile robot transports totes while warehouse workers select the items",
-        "Touchscreen instructions, barcode scanning and fleet coordination guide picking routes",
-        "Standard configuration supports two 50 L containers with a 45 kg total payload limit"
+        "Worker-directed pick assistance uses touchscreen instructions, barcode scanning and fleet-aware routing; people perform item grasping.",
+        "Two 50 L totes or four 10 L totes are described separately from the 45 kg total cargo rating and approximately 40 kg robot mass.",
+        "Manufacturer localization wording gives 10–15 cm without an error metric or test conditions; no docking precision is inferred.",
+        "RFID and an automatic charging station are optional. The named-page 8 h endurance conflicts with 10 h in the shared linked brochure."
       ],
       "sources": [
         {
-          "name": "Rapyuta Robotics",
-          "type": "manufacturer",
+          "name": "Rapyuta Robotics — manufacturer product information",
           "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/expos/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — linked manufacturer brochure",
+          "url": "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-1.txt",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/927c2fd8-5a65-4e3d-83ba-a0e08f013578"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-8/rapyuta-robotics.com-solutions-pa-amr-functionality.json",
-      "reviewNotes": "People perform item picking; this is not an autonomous item-grasping arm. Two-container volume is not cargo mass. RFID and automatic charging station are explicitly optional. Recommended staffing/floor area are deployment guidance, not hard robot compatibility limits. Full/no-load runtime test conditions are not supplied."
+      "reviewNotes": "Five Rapyuta offerings reviewed against named manufacturer pages and a still-linked family brochure. Worker grasping, cargo versus robot mass, bin volume, item/tray versus chassis dimensions, charging modes, sensor response and site throughput retain scope. Eight/ten-hour runtime conflict is explicit. XL-to-High-Capacity hardware identity remains unresolved; no duplicate current chassis or unnamed ASRS robot card invented. No independent performance, exclusive USP, exact purchase price or complete historical portfolio claim."
     },
     {
       "row": {
@@ -14078,31 +14124,84 @@
         "manufacturer": "Rapyuta Robotics",
         "model": "PA-AMR XL",
         "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "Approximately 8 h in XL exposition table; 10 h in shared family brochure; mapping unresolved",
+        "maxRuntime": "Approximately 8 h XL page versus 10 h linked family brochure; unresolved configuration/duty conditions",
         "tags": "commercial;warehouse;delivery;autonomous-nav;pick-assist",
+        "handType": "",
+        "dof": "",
+        "payload": "45 kg total cargo capacity in named XL table; two 75 L totes are volume capacity",
+        "speed": "Up to 1.4 m/s; adjustable, named XL table",
+        "terrain": "Warehouse pick assistance for larger goods fitting 75 L containers",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.rapyuta-robotics.com/expos/",
-        "description": "Manufacturer exposition overview names an XL pick-assist model for larger items. Transports two 75 L totes while workers perform item picking. Touchscreen and barcode interface support human-robot warehouse workflows.",
-        "payload": "45 kg",
-        "speed": "up to 1.4 m/s (adjustable)",
-        "maxRuntime": "approximately 8 hours"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "The manufacturer exposition page names PA-AMR XL with two 75 L totes, 45 kg cargo and adjustable 1.4 m/s speed. Its eight-hour runtime differs from the ten-hour shared PA-AMR/XL brochure. The XL link now redirects to a High Capacity Model page; unchanged hardware identity is not established, so its 45 kg self weight and 1.2 m aisle guidance are not assigned to XL.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "2 h in named XL table; charging interval/state-of-charge window unspecified",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
-        "Manufacturer exposition overview names an XL pick-assist model for larger items",
-        "Transports two 75 L totes while workers perform item picking",
-        "Touchscreen and barcode interface support human-robot warehouse workflows"
+        "Named XL configuration transports two 75 L totes with a 45 kg total cargo rating while workers pick the items.",
+        "The XL exposition table gives adjustable 1.4 m/s speed and 2 h charging; charge-state window is unspecified.",
+        "Current XL link redirects to a two-tote High Capacity Model page; chassis generation and naming equivalence remain unresolved.",
+        "Eight-hour operation in the named XL table differs from ten-hour wording in the linked shared family brochure; current sale status is not established."
       ],
       "sources": [
         {
-          "name": "Rapyuta Robotics",
-          "type": "manufacturer",
+          "name": "Rapyuta Robotics — manufacturer product information",
           "url": "https://www.rapyuta-robotics.com/expos/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — linked manufacturer brochure",
+          "url": "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-2.txt",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/e91117a2-5b8a-437f-871d-52f58a20af8a"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-8/rapyuta-robotics.com-expos.json",
-      "reviewNotes": "The exposition page explicitly names PA-AMR XL with two 75 L totes, 45 kg payload and eight-hour operation. The functionality page also links an XL for 75 L containers. Its linked URL redirects to a page titled High Capacity Model; redirect alone is not treated as proof of unchanged hardware generation. No current High Capacity mass or Extra High Capacity parameters are assigned to the XL record, and no duplicate current two-tote chassis is invented."
+      "reviewNotes": "Five Rapyuta offerings reviewed against named manufacturer pages and a still-linked family brochure. Worker grasping, cargo versus robot mass, bin volume, item/tray versus chassis dimensions, charging modes, sensor response and site throughput retain scope. Eight/ten-hour runtime conflict is explicit. XL-to-High-Capacity hardware identity remains unresolved; no duplicate current chassis or unnamed ASRS robot card invented. No independent performance, exclusive USP, exact purchase price or complete historical portfolio claim."
     },
     {
       "row": {
@@ -14110,32 +14209,66 @@
         "manufacturer": "Rapyuta Robotics",
         "model": "PA-AMR Extra High Capacity",
         "price": "Not disclosed",
+        "weight": "Approximately 63 kg; robot self weight",
+        "size": "",
+        "batteryLife": "Approximately 8 h; payload/duty conditions unspecified",
+        "maxRuntime": "Approximately 8 h; payload/duty conditions unspecified",
         "tags": "commercial;warehouse;delivery;autonomous-nav;pick-assist",
+        "handType": "",
+        "dof": "",
+        "payload": "39.2 kg total cargo capacity; three 75 L totes are volume capacity",
+        "speed": "Up to 1.2 m/s; adjustable, operating conditions unspecified",
+        "terrain": "Indoor warehouse picking; stated operating range 0–40 °C and 0–80% non-condensing humidity",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
-        "description": "Separately named extra-high-capacity pick-assist configuration carries three 75 L totes. Manufacturer specifies 39.2 kg payload and approximately 63 kg platform mass. Adjustable covers, touchscreen and barcode scanner support larger-item picking workflows.",
-        "payload": "39.2 kg",
-        "weight": "approximately 63 kg",
-        "speed": "up to 1.2 m/s (adjustable)",
-        "maxRuntime": "approximately 8 hours"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Extra High Capacity is a separately named three-tote PA-AMR configuration. It carries three 75 L containers with a 39.2 kg cargo limit and approximately 63 kg robot mass, with adjustable covers for larger items. Its 1.2 m/s speed and eight-hour operation are configuration-specific. A tentative four-foot aisle value is not treated as a confirmed operating requirement.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "2 h per manufacturer; charging interval/state-of-charge window unspecified",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
-        "Separately named extra-high-capacity pick-assist configuration carries three 75 L totes",
-        "Manufacturer specifies 39.2 kg payload and approximately 63 kg platform mass",
-        "Adjustable covers, touchscreen and barcode scanner support larger-item picking workflows"
+        "Three 75 L totes distinguish this named configuration from the two-tote High Capacity/XL wording; litres are not payload mass.",
+        "Manufacturer gives 39.2 kg cargo, approximately 63 kg self weight and adjustable speed up to 1.2 m/s.",
+        "Eight-hour operation and two-hour charging lack defined duty and charge-state conditions; they are not independent benchmarks.",
+        "Adjustable covers and open-front tray access support bulky items; the stated four-foot minimum aisle remains tentative."
       ],
       "sources": [
         {
-          "name": "Rapyuta Robotics",
-          "type": "manufacturer",
+          "name": "Rapyuta Robotics — manufacturer product information",
           "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-3.txt",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/e91117a2-5b8a-437f-871d-52f58a20af8a"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-8/rapyuta-robotics.com-solutions-pa-amr-high-capacity.json",
-      "reviewNotes": "Separate named configuration within the linked PA-AMR family, not another name for the two-tote XL. Three 75 L containers do not imply 225 kg payload. Tentative minimum aisle width is omitted. Manufacturer-runtime and recharge values are not independent benchmarks; no arm or autonomous item grasping is implied."
+      "reviewNotes": "Five Rapyuta offerings reviewed against named manufacturer pages and a still-linked family brochure. Worker grasping, cargo versus robot mass, bin volume, item/tray versus chassis dimensions, charging modes, sensor response and site throughput retain scope. Eight/ten-hour runtime conflict is explicit. XL-to-High-Capacity hardware identity remains unresolved; no duplicate current chassis or unnamed ASRS robot card invented. No independent performance, exclusive USP, exact purchase price or complete historical portfolio claim."
     },
     {
       "row": {
@@ -14143,29 +14276,67 @@
         "manufacturer": "Rapyuta Robotics",
         "model": "AFL",
         "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;warehouse;delivery;autonomous-nav;forklift",
+        "handType": "",
+        "dof": "",
+        "payload": "1.35 tons per manufacturer; load-versus-height chart not supplied",
+        "speed": "",
+        "terrain": "Indoor warehouse operation at 0–40 °C per manufacturer",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.rapyuta-robotics.com/solutions-afl/",
-        "description": "Autonomous forklift uses lidar localization and pallet recognition without reflectors or magnetic tape. Tablet task selection, WMS integration and automatic charging support pallet workflows. Current manufacturer page offers the forklift in Japan and lists 4.5 m lift height with 1.35-ton payload capacity.",
-        "payload": "1.35 tons (manufacturer rating)"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "AFL is an autonomous forklift for pallet transport, rack storage and conveyor workflows, using lidar positioning, pallet recognition, tablet tasks and WMS integration. The current page lists Japan availability, 4.5 m lift height and 1.35-ton capacity without a load-versus-height chart. Automatic charging takes a stated three hours. Thirty pallets per hour describes deployment-site results; case-study robots and videos are explicitly labelled as older models.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "3 h per manufacturer; initial/final state of charge unspecified",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "4.5 m maximum lift height; rated payload at this height not established",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
-        "Autonomous forklift uses lidar localization and pallet recognition without reflectors or magnetic tape",
-        "Tablet task selection, WMS integration and automatic charging support pallet workflows",
-        "Current manufacturer page offers the forklift in Japan and lists 4.5 m lift height with 1.35-ton payload capacity"
+        "Lidar localization and pallet-hole detection support pallet movement without reflectors or magnetic tape; tablet tasks and WMS integration coordinate work.",
+        "Manufacturer lists 1.35-ton capacity and 4.5 m lift height without establishing that maximum cargo is supported at maximum lift.",
+        "Three-hour automatic charging is separate from operating endurance. Nighttime operation gives no elapsed battery-runtime rating.",
+        "Side clearances of 150–200 mm per side and 50 mm rear clearance do not specify total minimum aisle width.",
+        "Thirty pallets per hour is a deployment-site result; old-model videos, PLd-class sensor wording and Japan availability retain their scope."
       ],
       "sources": [
         {
-          "name": "Rapyuta Robotics",
-          "type": "manufacturer",
+          "name": "Rapyuta Robotics — manufacturer product information",
           "url": "https://www.rapyuta-robotics.com/solutions-afl/",
-          "checkedAt": "2026-11-01"
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-4.txt",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/47203aec-135f-4fc4-98cc-27201ba8d316"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-8/rapyuta-robotics.com-solutions-afl.json",
-      "reviewNotes": "Current page explicitly says availability in Japan; global delivery is not inferred. Payload maximum is not promised at maximum lift height without a load chart. The page labels case-study robots/videos as old models, whose performance is not assigned to this current configuration. Three-hour charging is not operating endurance; deployed-site 30-pallets/hour results are not a universal guarantee. Fastest installation, universal pallet compatibility and safety superlatives are omitted."
+      "reviewNotes": "Five Rapyuta offerings reviewed against named manufacturer pages and a still-linked family brochure. Worker grasping, cargo versus robot mass, bin volume, item/tray versus chassis dimensions, charging modes, sensor response and site throughput retain scope. Eight/ten-hour runtime conflict is explicit. XL-to-High-Capacity hardware identity remains unresolved; no duplicate current chassis or unnamed ASRS robot card invented. No independent performance, exclusive USP, exact purchase price or complete historical portfolio claim."
     },
     {
       "row": {
@@ -45845,6 +46016,72 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-82/drive.usercontent.google.com-uc-q0769768862.json",
       "discoveredIn": [],
       "reviewNotes": "Fifteen Robotnik offerings reviewed against named manufacturer pages and publicly linked current PDFs. Platform cargo, arm payload/reach, configured self mass, body dimensions, optional wheels/columns/batteries and historical source mappings retain scope. Runtime, table/drawing and carrier-load conflicts are explicit. No independent safety, current availability, exact price, complete historical portfolio or exclusive-USP claim."
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Rapyuta Robotics",
+        "model": "PA-AMR Weight Inspection",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "Width 610 mm × depth 580 mm footprint; overall height not disclosed",
+        "batteryLife": "Up to 10 h; manufacturer maximum, payload/duty conditions unspecified",
+        "maxRuntime": "Up to 10 h; manufacturer maximum, payload/duty conditions unspecified",
+        "tags": "commercial;warehouse;delivery;autonomous-nav;pick-assist",
+        "handType": "",
+        "dof": "",
+        "payload": "40 kg maximum total cargo capacity; not robot self weight",
+        "speed": "Up to 1.4 m/s; adjustable, operating conditions unspecified",
+        "terrain": "Indoor warehouse piece-picking workflows; source humidity 0–80% non-condensing",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.rapyuta-robotics.com/solutions-pa-amr-weight-inspection/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "PA-AMR Weight Inspection adds weighing during worker item picking and can be installed as an upgrade to the standard model. The manufacturer names up to four individually weighed totes, a 40 kg cargo limit and a 610 × 580 mm footprint with no height. Its ten-gram minimum item weight and sub-second response are sensing parameters, not accuracy or item throughput. Tray dimensions and up-to-50 L container support do not establish four simultaneous 50 L totes.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "Automatic charging 1 h; manual charging 2 h; charge-state windows unspecified",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "highlights": [
+        "Weight inspection occurs during human picking, with up to four individually weighed totes and retrofit availability for the standard model.",
+        "Maximum cargo is 40 kg; the 610 × 580 mm value is a width/depth footprint with no published overall height.",
+        "Minimum item weight is 10 g and inspection response is under one second; neither specifies weighing accuracy, resolution or robot pick rate.",
+        "Ten-hour maximum operation and automatic/manual charging of one/two hours retain their separate modes and unspecified charge windows.",
+        "The page describes tray dimensions and containers up to 50 L, but does not establish that four 50 L totes fit simultaneously."
+      ],
+      "sources": [
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-weight-inspection/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-8.txt",
+      "discoveredIn": [],
+      "reviewNotes": "Five Rapyuta offerings reviewed against named manufacturer pages and a still-linked family brochure. Worker grasping, cargo versus robot mass, bin volume, item/tray versus chassis dimensions, charging modes, sensor response and site throughput retain scope. Eight/ten-hour runtime conflict is explicit. XL-to-High-Capacity hardware identity remains unresolved; no duplicate current chassis or unnamed ASRS robot card invented. No independent performance, exclusive USP, exact purchase price or complete historical portfolio claim."
     }
   ]
 }

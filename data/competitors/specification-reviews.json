@@ -67382,6 +67382,741 @@
           "note": "Web125-kg platform statement versus named sheet 130/105/115-kg carrier row. Older range copy150-kg platform/5-kg UR5e is not mapped to current variants."
         }
       }
+    },
+    {
+      "robotId": "rapyuta-robotics-pa-amr",
+      "manufacturer": "Rapyuta Robotics",
+      "model": "PA-AMR",
+      "sources": [
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/expos/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — linked manufacturer brochure",
+          "url": "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-1.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price/currency established. Subscription or consultation links are not an exact offer."
+        },
+        "weight": {
+          "value": "Approximately 40 kg; robot self weight",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "49 × 33 × 30 cm is the transportable-item envelope, not the chassis. No robot body dimensions transferred."
+        },
+        "batteryLife": {
+          "value": "8 h in named model page; 10 h in shared PA-AMR/XL brochure; configuration mapping unresolved",
+          "status": "conflicting",
+          "note": "Named HTML page states 8 h; shared PA-AMR/XL brochure states 10 h. No generation, software, battery or duty-profile mapping resolves the difference. Brochure is still linked by the current overview."
+        },
+        "maxRuntime": {
+          "value": "8 h page versus 10 h linked brochure; unresolved configuration/duty conditions",
+          "status": "conflicting",
+          "note": "Named HTML page states 8 h; shared PA-AMR/XL brochure states 10 h. No generation, software, battery or duty-profile mapping resolves the difference. Brochure is still linked by the current overview."
+        },
+        "payload": {
+          "value": "45 kg total cargo capacity; tote volume is a separate measure",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "speed": {
+          "value": "Up to 1.4 m/s; adjustable, operating conditions unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-variant ingress protection rating established."
+        },
+        "chargingTime": {
+          "value": "2 h per manufacturer; charging interval/state-of-charge window unspecified",
+          "status": "documented",
+          "note": "Manufacturer charging duration; initial/final state of charge and charging conditions are not specified."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator joint count established; mobile navigation is not an arm DOF count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Workers pick the items; no included autonomous item-grasping hand established."
+        },
+        "description": {
+          "value": "PA-AMR transports totes while people pick items, with touchscreen/barcode guidance and coordinated fleet routes. Standard documentation lists two 50 L totes or four 10 L totes, 45 kg cargo and approximately 40 kg robot mass. A current page gives 8 h operation, while its linked PA-AMR/XL brochure gives 10 h without a configuration mapping. RFID and the automatic charging station are optional; item dimensions are not chassis dimensions.",
+          "status": "documented",
+          "note": "Named variant and manufacturer workflow; conditional performance and unresolved family mapping retained."
+        },
+        "website": {
+          "value": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+          "status": "documented",
+          "note": "Manufacturer page identifies this offering; linked brochure kept as a separate source where relevant."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. PDF upload directory, copyright year and retrofit availability are not release milestones."
+        },
+        "terrain": {
+          "value": "Indoor warehouse picking workflows; staffing/floor-area guidance is not a universal compatibility limit",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "navigationAccuracy": {
+          "value": "Manufacturer localization accuracy claim: 10–15 cm; test conditions and error metric unspecified",
+          "status": "documented",
+          "note": "Source calls 10–15 cm localization accuracy; no confidence interval, axis definition, payload or measurement method supplied."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric docking-error bound established; an automatic charger is not an accuracy measurement."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric or named mechanical wheel-drive configuration established."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Tray adjustment, pallet stacking levels and maximum lift height are not evidence of vertical stroke."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum lifting height established for this pick-assist carrier; removable trays are not forks."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Shared family brochure says 3 ft aisles without exact model/configuration or operating clearance conditions; not assigned as a confirmed standard-model limit."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric turning radius established for this named variant."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No single-robot output rate under defined duty conditions established. Productivity ratios, sensing response time and fleet/site results are different measures."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No installed arm reach established; tray/item dimensions are not manipulator reach."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cargo capacity is recorded in payload; no separate tow-train or residual carrier capacity established."
+        }
+      }
+    },
+    {
+      "robotId": "rapyuta-robotics-pa-amr-xl",
+      "manufacturer": "Rapyuta Robotics",
+      "model": "PA-AMR XL",
+      "sources": [
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/expos/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Rapyuta Robotics — linked manufacturer brochure",
+          "url": "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-2.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price/currency established. Subscription or consultation links are not an exact offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "High Capacity Model page gives approximately 45 kg self weight, but the XL redirect is insufficient to prove the same hardware generation."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete or explicitly scoped body dimensions established. Item envelope, tray dimensions and bin volume are not chassis dimensions."
+        },
+        "batteryLife": {
+          "value": "Approximately 8 h in XL exposition table; 10 h in shared family brochure; mapping unresolved",
+          "status": "conflicting",
+          "note": "Named HTML page states 8 h; shared PA-AMR/XL brochure states 10 h. No generation, software, battery or duty-profile mapping resolves the difference. Brochure is still linked by the current overview."
+        },
+        "maxRuntime": {
+          "value": "Approximately 8 h XL page versus 10 h linked family brochure; unresolved configuration/duty conditions",
+          "status": "conflicting",
+          "note": "Named HTML page states 8 h; shared PA-AMR/XL brochure states 10 h. No generation, software, battery or duty-profile mapping resolves the difference. Brochure is still linked by the current overview."
+        },
+        "payload": {
+          "value": "45 kg total cargo capacity in named XL table; two 75 L totes are volume capacity",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "speed": {
+          "value": "Up to 1.4 m/s; adjustable, named XL table",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-variant ingress protection rating established."
+        },
+        "chargingTime": {
+          "value": "2 h in named XL table; charging interval/state-of-charge window unspecified",
+          "status": "documented",
+          "note": "Manufacturer charging duration; initial/final state of charge and charging conditions are not specified."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator joint count established; mobile navigation is not an arm DOF count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Workers pick the items; no included autonomous item-grasping hand established."
+        },
+        "description": {
+          "value": "The manufacturer exposition page names PA-AMR XL with two 75 L totes, 45 kg cargo and adjustable 1.4 m/s speed. Its eight-hour runtime differs from the ten-hour shared PA-AMR/XL brochure. The XL link now redirects to a High Capacity Model page; unchanged hardware identity is not established, so its 45 kg self weight and 1.2 m aisle guidance are not assigned to XL.",
+          "status": "documented",
+          "note": "Named variant and manufacturer workflow; conditional performance and unresolved family mapping retained."
+        },
+        "website": {
+          "value": "https://www.rapyuta-robotics.com/expos/",
+          "status": "documented",
+          "note": "Manufacturer page identifies this offering; linked brochure kept as a separate source where relevant."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. PDF upload directory, copyright year and retrofit availability are not release milestones."
+        },
+        "terrain": {
+          "value": "Warehouse pick assistance for larger goods fitting 75 L containers",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "10–15 cm occurs on the standard PA-AMR page; it is not explicitly mapped to the XL variant."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric docking-error bound established; an automatic charger is not an accuracy measurement."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric or named mechanical wheel-drive configuration established."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Tray adjustment, pallet stacking levels and maximum lift height are not evidence of vertical stroke."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum lifting height established for this pick-assist carrier; removable trays are not forks."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "High Capacity Model section gives 1.2 m; shared brochure says 3 ft without exact variant scope. Neither is assigned as a confirmed XL minimum."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric turning radius established for this named variant."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No single-robot output rate under defined duty conditions established. Productivity ratios, sensing response time and fleet/site results are different measures."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No installed arm reach established; tray/item dimensions are not manipulator reach."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cargo capacity is recorded in payload; no separate tow-train or residual carrier capacity established."
+        }
+      }
+    },
+    {
+      "robotId": "rapyuta-robotics-pa-amr-extra-high-capacity",
+      "manufacturer": "Rapyuta Robotics",
+      "model": "PA-AMR Extra High Capacity",
+      "sources": [
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-3.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price/currency established. Subscription or consultation links are not an exact offer."
+        },
+        "weight": {
+          "value": "Approximately 63 kg; robot self weight",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete or explicitly scoped body dimensions established. Item envelope, tray dimensions and bin volume are not chassis dimensions."
+        },
+        "batteryLife": {
+          "value": "Approximately 8 h; payload/duty conditions unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "maxRuntime": {
+          "value": "Approximately 8 h; payload/duty conditions unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "payload": {
+          "value": "39.2 kg total cargo capacity; three 75 L totes are volume capacity",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "speed": {
+          "value": "Up to 1.2 m/s; adjustable, operating conditions unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-variant ingress protection rating established."
+        },
+        "chargingTime": {
+          "value": "2 h per manufacturer; charging interval/state-of-charge window unspecified",
+          "status": "documented",
+          "note": "Manufacturer charging duration; initial/final state of charge and charging conditions are not specified."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator joint count established; mobile navigation is not an arm DOF count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Workers pick the items; no included autonomous item-grasping hand established."
+        },
+        "description": {
+          "value": "Extra High Capacity is a separately named three-tote PA-AMR configuration. It carries three 75 L containers with a 39.2 kg cargo limit and approximately 63 kg robot mass, with adjustable covers for larger items. Its 1.2 m/s speed and eight-hour operation are configuration-specific. A tentative four-foot aisle value is not treated as a confirmed operating requirement.",
+          "status": "documented",
+          "note": "Named variant and manufacturer workflow; conditional performance and unresolved family mapping retained."
+        },
+        "website": {
+          "value": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+          "status": "documented",
+          "note": "Manufacturer page identifies this offering; linked brochure kept as a separate source where relevant."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. PDF upload directory, copyright year and retrofit availability are not release milestones."
+        },
+        "terrain": {
+          "value": "Indoor warehouse picking; stated operating range 0–40 °C and 0–80% non-condensing humidity",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric positioning-error bound established for this exact named variant; pallet recognition or precise navigation wording alone supplies no tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric docking-error bound established; an automatic charger is not an accuracy measurement."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric or named mechanical wheel-drive configuration established."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Tray adjustment, pallet stacking levels and maximum lift height are not evidence of vertical stroke."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum lifting height established for this pick-assist carrier; removable trays are not forks."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Source lists 4 ft as tentative. No finalized exact-configuration minimum established; do not substitute the two-tote section’s 1.2 m."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric turning radius established for this named variant."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No single-robot output rate under defined duty conditions established. Productivity ratios, sensing response time and fleet/site results are different measures."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No installed arm reach established; tray/item dimensions are not manipulator reach."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cargo capacity is recorded in payload; no separate tow-train or residual carrier capacity established."
+        }
+      }
+    },
+    {
+      "robotId": "rapyuta-robotics-afl",
+      "manufacturer": "Rapyuta Robotics",
+      "model": "AFL",
+      "sources": [
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-afl/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-4.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price/currency established. Subscription or consultation links are not an exact offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No self weight established for this exact named variant; cargo capacity is not robot mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete or explicitly scoped body dimensions established. Item envelope, tray dimensions and bin volume are not chassis dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific operating endurance established; nighttime operation or automatic charging is not elapsed runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No model-specific operating endurance established; site shift lengths and charging times are different measures."
+        },
+        "payload": {
+          "value": "1.35 tons per manufacturer; load-versus-height chart not supplied",
+          "status": "documented",
+          "note": "Manufacturer lists capacity 1.35 tons; unit convention and load-centre/height derating chart not supplied. No assumed kg conversion or payload-at-max-height claim."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-variant value established in the reviewed sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-variant ingress protection rating established."
+        },
+        "chargingTime": {
+          "value": "3 h per manufacturer; initial/final state of charge unspecified",
+          "status": "documented",
+          "note": "Manufacturer charging duration; initial/final state of charge and charging conditions are not specified."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator joint count established; mobile navigation is not an arm DOF count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Pallet forks are used for pallet handling; no dexterous hand or autonomous individual-item grasping established."
+        },
+        "description": {
+          "value": "AFL is an autonomous forklift for pallet transport, rack storage and conveyor workflows, using lidar positioning, pallet recognition, tablet tasks and WMS integration. The current page lists Japan availability, 4.5 m lift height and 1.35-ton capacity without a load-versus-height chart. Automatic charging takes a stated three hours. Thirty pallets per hour describes deployment-site results; case-study robots and videos are explicitly labelled as older models.",
+          "status": "documented",
+          "note": "Named variant and manufacturer workflow; conditional performance and unresolved family mapping retained."
+        },
+        "website": {
+          "value": "https://www.rapyuta-robotics.com/solutions-afl/",
+          "status": "documented",
+          "note": "Manufacturer page identifies this offering; linked brochure kept as a separate source where relevant."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. PDF upload directory, copyright year and retrofit availability are not release milestones."
+        },
+        "terrain": {
+          "value": "Indoor warehouse operation at 0–40 °C per manufacturer",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric positioning-error bound established for this exact named variant; pallet recognition or precise navigation wording alone supplies no tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric docking-error bound established; an automatic charger is not an accuracy measurement."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric or named mechanical wheel-drive configuration established."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Tray adjustment, pallet stacking levels and maximum lift height are not evidence of vertical stroke."
+        },
+        "maxLiftHeight": {
+          "value": "4.5 m maximum lift height; rated payload at this height not established",
+          "status": "documented",
+          "note": "4.5 m lift height stated separately from 1.35-ton load. Two/three-layer stacking does not define lift stroke."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "150–200 mm on both sides and 50 mm at rear are clearances, not total aisle width; chassis/pallet/turning envelope unspecified."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric turning radius established for this named variant."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer reports 30 pallets/hour at deployment sites, without a defined single-current-robot test cycle. Not a universal rated output."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No installed arm reach established; tray/item dimensions are not manipulator reach."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cargo capacity is recorded in payload; no separate tow-train or residual carrier capacity established."
+        }
+      }
+    },
+    {
+      "robotId": "rapyuta-robotics-pa-amr-weight-inspection",
+      "manufacturer": "Rapyuta Robotics",
+      "model": "PA-AMR Weight Inspection",
+      "sources": [
+        {
+          "name": "Rapyuta Robotics — manufacturer product information",
+          "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-weight-inspection/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-83/source-8.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price/currency established. Subscription or consultation links are not an exact offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "40 kg is maximum load capacity, not robot self mass. No exact Weight Inspection platform mass established."
+        },
+        "size": {
+          "value": "Width 610 mm × depth 580 mm footprint; overall height not disclosed",
+          "status": "documented",
+          "note": "Explicit manufacturer W610 × D580 mm footprint only; overall height is unknown. The 49 × 33 × 30 cm transportable-item envelope and 53 × 36.6 cm trays are separate."
+        },
+        "batteryLife": {
+          "value": "Up to 10 h; manufacturer maximum, payload/duty conditions unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "maxRuntime": {
+          "value": "Up to 10 h; manufacturer maximum, payload/duty conditions unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "payload": {
+          "value": "40 kg maximum total cargo capacity; not robot self weight",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "speed": {
+          "value": "Up to 1.4 m/s; adjustable, operating conditions unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No named-variant ingress protection rating established."
+        },
+        "chargingTime": {
+          "value": "Automatic charging 1 h; manual charging 2 h; charge-state windows unspecified",
+          "status": "documented",
+          "note": "Automatic and manual modes have distinct 1 h and 2 h durations; initial/final state of charge and charger power are not established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator joint count established; mobile navigation is not an arm DOF count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Workers pick the items; no included autonomous item-grasping hand established."
+        },
+        "description": {
+          "value": "PA-AMR Weight Inspection adds weighing during worker item picking and can be installed as an upgrade to the standard model. The manufacturer names up to four individually weighed totes, a 40 kg cargo limit and a 610 × 580 mm footprint with no height. Its ten-gram minimum item weight and sub-second response are sensing parameters, not accuracy or item throughput. Tray dimensions and up-to-50 L container support do not establish four simultaneous 50 L totes.",
+          "status": "documented",
+          "note": "Named variant and manufacturer workflow; conditional performance and unresolved family mapping retained."
+        },
+        "website": {
+          "value": "https://www.rapyuta-robotics.com/solutions-pa-amr-weight-inspection/",
+          "status": "documented",
+          "note": "Manufacturer page identifies this offering; linked brochure kept as a separate source where relevant."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. PDF upload directory, copyright year and retrofit availability are not release milestones."
+        },
+        "terrain": {
+          "value": "Indoor warehouse piece-picking workflows; source humidity 0–80% non-condensing",
+          "status": "documented",
+          "note": "Manufacturer named-variant claim; stated options and operating conditions retained. Not independently measured."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric positioning-error bound established for this exact named variant; pallet recognition or precise navigation wording alone supplies no tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric docking-error bound established; an automatic charger is not an accuracy measurement."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric or named mechanical wheel-drive configuration established."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Tray adjustment, pallet stacking levels and maximum lift height are not evidence of vertical stroke."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum lifting height established for this pick-assist carrier; removable trays are not forks."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No confirmed exact-variant minimum aisle width established. General family brochure claims and robot/item width are not a tested aisle limit."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric turning radius established for this named variant."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Less-than-one-second inspection response is sensor processing time, not items picked/transported per robot-hour."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No installed arm reach established; tray/item dimensions are not manipulator reach."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cargo capacity is recorded in payload; no separate tow-train or residual carrier capacity established."
+        }
+      }
     }
   ]
 }
