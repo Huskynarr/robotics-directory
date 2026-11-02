@@ -1,0 +1,572 @@
+{
+  "batch": 83,
+  "checkedAt": "2026-11-02",
+  "manufacturer": "Rapyuta Robotics",
+  "catalogModelsBefore": 1968,
+  "catalogModelsAfter": 1969,
+  "newModels": 1,
+  "existingModelsReviewed": 4,
+  "selectedSpecificationModels": 5,
+  "selectedFields": 125,
+  "fieldStatuses": {
+    "not-documented": 83,
+    "documented": 38,
+    "conflicting": 4
+  },
+  "newCompanyFocusReviews": 1,
+  "updatedCompanyFocusReviews": 0,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "savedSources": 14,
+    "usableSources": 9,
+    "excludedSources": [
+      {
+        "requestedUrl": "https://www.rapyuta-robotics.com/about-us/",
+        "status": 403,
+        "bodySha256": "1e6cb1c2bb7652af5cc836e3b3063023346090676a1323718c7ffcb4eff18da3"
+      },
+      {
+        "requestedUrl": "https://www.rapyuta-robotics.com/solutions-pa-amr/new-features/",
+        "status": 403,
+        "bodySha256": "d3642c8a957f7ba5eae6ab24ce06d14209635006e33cc1fc28dd80da955d0f76"
+      },
+      {
+        "requestedUrl": "https://www.rapyuta-robotics.com/solutions-asrs/technologies/",
+        "status": 403,
+        "bodySha256": "6eed788c1e698da2b19a2888aeb831ba328145354f99bba83058c30a2f2bc624"
+      },
+      {
+        "requestedUrl": "https://www.rapyuta-robotics.com/solutions-asrs/operations/",
+        "status": 403,
+        "bodySha256": "942f8b3bc12839f2b3f65546b1c0d9d4f2d05698901b9e605282915860e913a5"
+      },
+      {
+        "requestedUrl": "https://www.rapyuta-robotics.com/rapyuta-io/",
+        "status": 403,
+        "bodySha256": "16b2483e3fc2ce4e4d1e18dbe9cce9efe15d8a96229740f5bf75cb44641e57fa"
+      }
+    ],
+    "sourceProofs": 9,
+    "productModels": 5,
+    "newModels": 1,
+    "fields": 125,
+    "statuses": {
+      "not-documented": 83,
+      "documented": 38,
+      "conflicting": 4
+    },
+    "pdfPages": 1,
+    "pdfInspection": "Text extraction only; no visual PDF inspection claimed",
+    "formsSubmitted": 0,
+    "researchBrowsersOpened": 0
+  },
+  "sources": [
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "5194b15aad2a0206f8a6ed03d112f49bbaa90e478e7b32731a236327a28522bd",
+      "bodyBytes": 277434,
+      "bodyFile": "source-1.html",
+      "textFile": "source-1.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/expos/",
+      "url": "https://www.rapyuta-robotics.com/expos/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "d62c34e59fe4789e62d5bc193d240114e11b8e076a4f7fb1f2d91bba40e2e941",
+      "bodyBytes": 310232,
+      "bodyFile": "source-2.html",
+      "textFile": "source-2.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "ec69a6e1162ca8d0dbd159b03ba7bec6360b670b0736e9099f26d9d234814473",
+      "bodyBytes": 453358,
+      "bodyFile": "source-3.html",
+      "textFile": "source-3.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-afl/",
+      "url": "https://www.rapyuta-robotics.com/solutions-afl/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "7d547e9af97f768e93169342d48f665a11adb2118feebbd6dd35b14bcc84ecdc",
+      "bodyBytes": 316939,
+      "bodyFile": "source-4.html",
+      "textFile": "source-4.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-asrs/",
+      "url": "https://www.rapyuta-robotics.com/solutions-asrs/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "2034965dacf804c32a982fed84510992d2179c2020f1084abfb0d25bc0f4d562",
+      "bodyBytes": 532400,
+      "bodyFile": "source-5.html",
+      "textFile": "source-5.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-pa-amr/",
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "c83a8f0020f948e403d44630e96de5eac610aecd9ecddf55ee6553b80999d3c0",
+      "bodyBytes": 634835,
+      "bodyFile": "source-6.html",
+      "textFile": "source-6.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/about-us/",
+      "url": "https://www.rapyuta-robotics.com/about-us/",
+      "status": 403,
+      "contentType": "text/html",
+      "bodySha256": "1e6cb1c2bb7652af5cc836e3b3063023346090676a1323718c7ffcb4eff18da3",
+      "bodyBytes": 1260,
+      "bodyFile": "source-7.html",
+      "textFile": "source-7.txt",
+      "checkedAt": "2026-11-02",
+      "usable": false
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-pa-amr-weight-inspection/",
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-weight-inspection/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "01a83a55acafa901c8f88daac73ed1355fdd7b0fca60b8075e5e3cf5556699ed",
+      "bodyBytes": 458949,
+      "bodyFile": "source-8.html",
+      "textFile": "source-8.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-pa-amr/new-features/",
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/new-features/",
+      "status": 403,
+      "contentType": "text/html",
+      "bodySha256": "d3642c8a957f7ba5eae6ab24ce06d14209635006e33cc1fc28dd80da955d0f76",
+      "bodyBytes": 1260,
+      "bodyFile": "source-9.html",
+      "textFile": "source-9.txt",
+      "checkedAt": "2026-11-02",
+      "usable": false
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-asrs/technologies/",
+      "url": "https://www.rapyuta-robotics.com/solutions-asrs/technologies/",
+      "status": 403,
+      "contentType": "text/html",
+      "bodySha256": "6eed788c1e698da2b19a2888aeb831ba328145354f99bba83058c30a2f2bc624",
+      "bodyBytes": 1260,
+      "bodyFile": "source-10.html",
+      "textFile": "source-10.txt",
+      "checkedAt": "2026-11-02",
+      "usable": false
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-asrs/operations/",
+      "url": "https://www.rapyuta-robotics.com/solutions-asrs/operations/",
+      "status": 403,
+      "contentType": "text/html",
+      "bodySha256": "942f8b3bc12839f2b3f65546b1c0d9d4f2d05698901b9e605282915860e913a5",
+      "bodyBytes": 1260,
+      "bodyFile": "source-11.html",
+      "textFile": "source-11.txt",
+      "checkedAt": "2026-11-02",
+      "usable": false
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/rapyuta-io/",
+      "url": "https://www.rapyuta-robotics.com/rapyuta-io/",
+      "status": 403,
+      "contentType": "text/html",
+      "bodySha256": "16b2483e3fc2ce4e4d1e18dbe9cce9efe15d8a96229740f5bf75cb44641e57fa",
+      "bodyBytes": 1260,
+      "bodyFile": "source-12.html",
+      "textFile": "source-12.txt",
+      "checkedAt": "2026-11-02",
+      "usable": false
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/solutions-pa-amr-xl/",
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bodySha256": "6bfa621e586422b31af188af707d067e57cfeeb073d35452e30217b3e975be63",
+      "bodyBytes": 453358,
+      "bodyFile": "source-13.html",
+      "textFile": "source-13.txt",
+      "checkedAt": "2026-11-02",
+      "usable": true
+    },
+    {
+      "requestedUrl": "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf",
+      "url": "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bodySha256": "bd8412eefb830a5d1b195b4406797de7cac2100a2666087218a5efe5ee66180a",
+      "bodyBytes": 226885,
+      "checkedAt": "2026-11-02",
+      "bodyFile": "source-14.pdf",
+      "usable": true,
+      "textFile": "source-14.txt",
+      "pages": 1
+    }
+  ],
+  "sourceProofs": [
+    {
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+      "bodySha256": "5194b15aad2a0206f8a6ed03d112f49bbaa90e478e7b32731a236327a28522bd",
+      "anchor": "Localization with an accuracy of 10-15 cm.",
+      "textFile": "source-1.txt"
+    },
+    {
+      "url": "https://www.rapyuta-robotics.com/expos/",
+      "bodySha256": "d62c34e59fe4789e62d5bc193d240114e11b8e076a4f7fb1f2d91bba40e2e941",
+      "anchor": "Rapyuta PA-AMR XL",
+      "textFile": "source-2.txt"
+    },
+    {
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+      "bodySha256": "ec69a6e1162ca8d0dbd159b03ba7bec6360b670b0736e9099f26d9d234814473",
+      "anchor": "Extra High Capacity Model",
+      "textFile": "source-3.txt"
+    },
+    {
+      "url": "https://www.rapyuta-robotics.com/solutions-afl/",
+      "bodySha256": "7d547e9af97f768e93169342d48f665a11adb2118feebbd6dd35b14bcc84ecdc",
+      "anchor": "Lifting height 4.5m, payload capacity 1.35 tons",
+      "textFile": "source-4.txt"
+    },
+    {
+      "url": "https://www.rapyuta-robotics.com/solutions-asrs/",
+      "bodySha256": "2034965dacf804c32a982fed84510992d2179c2020f1084abfb0d25bc0f4d562",
+      "anchor": "The anchorless structure",
+      "textFile": "source-5.txt"
+    },
+    {
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr/",
+      "bodySha256": "c83a8f0020f948e403d44630e96de5eac610aecd9ecddf55ee6553b80999d3c0",
+      "anchor": "Rapyuta PA-AMR",
+      "textFile": "source-6.txt"
+    },
+    {
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-weight-inspection/",
+      "bodySha256": "01a83a55acafa901c8f88daac73ed1355fdd7b0fca60b8075e5e3cf5556699ed",
+      "anchor": "PA-AMR Weight Inspection Model",
+      "textFile": "source-8.txt"
+    },
+    {
+      "url": "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+      "bodySha256": "6bfa621e586422b31af188af707d067e57cfeeb073d35452e30217b3e975be63",
+      "anchor": "High Capacity Model",
+      "textFile": "source-13.txt"
+    },
+    {
+      "url": "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf",
+      "bodySha256": "bd8412eefb830a5d1b195b4406797de7cac2100a2666087218a5efe5ee66180a",
+      "anchor": "Operation time: 10 h (Charging time: 2 h)",
+      "textFile": "source-14.txt"
+    }
+  ],
+  "modelDecisions": [
+    {
+      "model": "PA-AMR",
+      "robotId": "rapyuta-robotics-pa-amr",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+        "https://www.rapyuta-robotics.com/expos/",
+        "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf"
+      ]
+    },
+    {
+      "model": "PA-AMR XL",
+      "robotId": "rapyuta-robotics-pa-amr-xl",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.rapyuta-robotics.com/expos/",
+        "https://www.rapyuta-robotics.com/solutions-pa-amr/functionality/",
+        "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/",
+        "https://www.rapyuta-robotics.com/wp-content/uploads/2023/04/rapyuta_pa-amr_one_page.pdf"
+      ]
+    },
+    {
+      "model": "PA-AMR Extra High Capacity",
+      "robotId": "rapyuta-robotics-pa-amr-extra-high-capacity",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.rapyuta-robotics.com/solutions-pa-amr-high-capacity/"
+      ]
+    },
+    {
+      "model": "AFL",
+      "robotId": "rapyuta-robotics-afl",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.rapyuta-robotics.com/solutions-afl/"
+      ]
+    },
+    {
+      "model": "PA-AMR Weight Inspection",
+      "robotId": "rapyuta-robotics-pa-amr-weight-inspection",
+      "action": "add-named-variant",
+      "sourceUrls": [
+        "https://www.rapyuta-robotics.com/solutions-pa-amr-weight-inspection/"
+      ]
+    }
+  ],
+  "portfolioDecisions": {
+    "newNamedVariant": "PA-AMR Weight Inspection",
+    "existingModelsReviewed": [
+      "PA-AMR",
+      "PA-AMR XL",
+      "PA-AMR Extra High Capacity",
+      "AFL"
+    ],
+    "notAdditionalCards": [
+      "High Capacity Model is retained as manufacturer wording linked from XL; same chassis/generation identity remains unresolved, no duplicate current two-tote model invented.",
+      "ASRS is a modular robotic storage system with configurable robot count/layout; no independently named robot chassis established.",
+      "rapyuta.io is a software platform; RFID, chargers, tray changes and retrofit inspection are not additional mobile robot cards."
+    ],
+    "unresolvedMappings": [
+      "Standard/XL HTML runtime 8 h versus still-linked family brochure 10 h.",
+      "XL redirect to High Capacity Model does not prove hardware/generation identity. Current HC 45 kg self mass and 1.2 m aisle are not assigned to XL.",
+      "Shared family brochure 3 ft aisle claim is not exact-variant qualified; Extra High Capacity 4 ft remains tentative."
+    ],
+    "furtherResearch": [
+      "Full historic/regional product lineup, exact delivered equipment and current offers.",
+      "ASRS robot hardware models, numeric storage/output claims and rapyuta.io technical detail.",
+      "Independent weighing accuracy, defined charging intervals, fleet versus single-robot throughput and lift-load derating."
+    ],
+    "scope": "Five selected named Rapyuta offerings; one newly added configuration, four existing reviews and one manufacturer focus. Manufacturer portfolio completeness and market leadership remain unproven."
+  },
+  "validation": {
+    "unitTests": 769,
+    "unitTestFiles": 62,
+    "pythonTests": 20,
+    "browserTestCases": 40,
+    "browserPassed": 40,
+    "browserFailed": 0,
+    "newRapyutaBrowserCases": 22,
+    "comparisonRegressionCases": 18,
+    "axeCases": 12,
+    "sourceCodeChanged": false,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "buildPages": 3019,
+    "buildSizeApproxMB": 462,
+    "dataErrors": 0,
+    "dataWarnings": 852,
+    "dataWarningChange": 1,
+    "newUndocumentedReleaseYears": 1,
+    "newDocumentedReleaseYears": 0,
+    "changedFileLint": "passed",
+    "applicationLint": "passed",
+    "applicationFormat": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "globalRenderedReviewMetadataCheck": {
+      "allChecksPassed": true,
+      "reviewedModelPagesChecked": 664,
+      "selectedFieldValuesChecked": 10796,
+      "visibleTechnicalValuesAndSourceBadgesChecked": 4888,
+      "omittedEmptyOrNAFieldsChecked": 4961,
+      "descriptionAndWebsiteFieldsExcluded": 947,
+      "reviewedLaunchYearsWithSourceBadgesChecked": 47,
+      "scope": "Public raw values and evidence metadata match existing selected reviews across 664 model pages. This is not a re-fetch or independent certification of prior manufacturers, nor a review of unmarked specifications."
+    },
+    "renderedRapyutaEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 5,
+      "selectedSpecificationFieldsChecked": 125,
+      "sourceBadgesChecked": 37,
+      "blankFieldsOmitted": 78,
+      "descriptionsChecked": 5,
+      "websitesChecked": 5,
+      "structuredSpecificationPropertiesChecked": 32,
+      "highlightStatementsChecked": 22,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 5,
+      "modelExportRowsChecked": 1,
+      "modelExportTargetsChecked": 1,
+      "modelExportFieldOccurrencesChecked": 25,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 3,
+      "researchQueueFieldsChecked": 75,
+      "scope": "Five Rapyuta offerings, with explicit source conflicts and configuration mappings. No full portfolio or independent testing claim."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 1968,
+      "unchangedPriorCatalogRows": 1964,
+      "reviewedExistingCatalogRows": 4,
+      "newCatalogRows": 1,
+      "newCsvColumns": [],
+      "categoryTransfers": 0,
+      "previousSpecificationReviewsEntirelyUnchanged": 659,
+      "newSpecificationReviews": 5,
+      "selectedFields": 125,
+      "previousCompanyFocusReviewsUnchanged": 75,
+      "newCompanyFocusReviews": 1,
+      "sourceIdentityRecordsPreserved": 1961,
+      "originalUnresolvedModelMentions": 3,
+      "originalUnresolvedListings": 9,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/brands.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json",
+        "data/companion.csv",
+        "data/cleaning.csv",
+        "data/smarthome.csv",
+        "data/robotic-arm.csv",
+        "data/educational.csv",
+        "data/outdoor.csv",
+        "data/quadruped.csv",
+        "data/humanoid.csv"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 348,
+        "withoutSelectedFieldReview": 170,
+        "selectedFields": 5659,
+        "selectedFieldStatuses": {
+          "documented": 2632,
+          "not-documented": 2867,
+          "conflicting": 150,
+          "roadmap": 10
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 74,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      },
+      "exportRows": {
+        "company-review": 591,
+        "model-review": 406,
+        "buyandrent-listing-review": 862,
+        "company-product-review": 132,
+        "robot-research-queue": 518
+      }
+    },
+    "sourceIntegrityCheck": {
+      "allChecksPassed": true,
+      "savedSources": 14,
+      "usableSources": 9,
+      "excludedSources": [
+        {
+          "requestedUrl": "https://www.rapyuta-robotics.com/about-us/",
+          "status": 403,
+          "bodySha256": "1e6cb1c2bb7652af5cc836e3b3063023346090676a1323718c7ffcb4eff18da3"
+        },
+        {
+          "requestedUrl": "https://www.rapyuta-robotics.com/solutions-pa-amr/new-features/",
+          "status": 403,
+          "bodySha256": "d3642c8a957f7ba5eae6ab24ce06d14209635006e33cc1fc28dd80da955d0f76"
+        },
+        {
+          "requestedUrl": "https://www.rapyuta-robotics.com/solutions-asrs/technologies/",
+          "status": 403,
+          "bodySha256": "6eed788c1e698da2b19a2888aeb831ba328145354f99bba83058c30a2f2bc624"
+        },
+        {
+          "requestedUrl": "https://www.rapyuta-robotics.com/solutions-asrs/operations/",
+          "status": 403,
+          "bodySha256": "942f8b3bc12839f2b3f65546b1c0d9d4f2d05698901b9e605282915860e913a5"
+        },
+        {
+          "requestedUrl": "https://www.rapyuta-robotics.com/rapyuta-io/",
+          "status": 403,
+          "bodySha256": "16b2483e3fc2ce4e4d1e18dbe9cce9efe15d8a96229740f5bf75cb44641e57fa"
+        }
+      ],
+      "sourceProofs": 9,
+      "productModels": 5,
+      "newModels": 1,
+      "fields": 125,
+      "statuses": {
+        "not-documented": 83,
+        "documented": 38,
+        "conflicting": 4
+      },
+      "pdfPages": 1,
+      "pdfInspection": "Text extraction only; no visual PDF inspection claimed",
+      "formsSubmitted": 0,
+      "researchBrowsersOpened": 0
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 857,
+      "individualHighlights": 3645,
+      "productSourceReferences": 1511,
+      "specificationReviewModels": 664,
+      "specificationFields": 10796,
+      "publicJsonBytes": 2660635,
+      "catalogScriptBytes": 1966137,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 236,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "previouslyBlockedHostsRetried": false,
+    "new403Observed": 5,
+    "new404SourcesExcluded": 0,
+    "formsSubmitted": 0,
+    "visualPdfInspectionPerformed": false,
+    "pdfTextInspectionPerformed": true,
+    "initialValidationFindings": "First unit run exposed stale product-insights delivery; regenerated with the existing importer, which added zero CSV rows. Initial stale build stopped, followed by final passing unit/build/delivery checks.",
+    "scope": "Nine usable URL bodies: eight HTML plus one linked brochure PDF. Five 403 routes excluded without retry. Nine sampled anchors and source-body hashes retained. Forty selected browser cases, not a full browser-suite rerun. No independent manufacturer performance certification."
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "dataCommit": "f5acf5e9508250d6f9a8b5bd2b3d1669d2caec61",
+    "dataPushVerified": true,
+    "mainUnchanged": true
+  },
+  "goalComplete": false
+}

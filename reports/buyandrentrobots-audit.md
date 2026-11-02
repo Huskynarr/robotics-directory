@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 1,968 catalog rows**, with 642 exact
-manufacturer spellings. Batch 82 refreshed the separate heuristic gap file offline
-against all 1,968 rows (634 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 1,969 catalog rows**, with 642 exact
+manufacturer spellings. Batch 83 refreshed the separate heuristic gap file offline
+against all 1,969 rows (634 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 856 dated records across the catalog, including
-142 existing-model enrichments and 714 task additions. All 430 catalog models
+Current product-highlight coverage: 857 dated records across the catalog, including
+142 existing-model enrichments and 715 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 714 task additions, totaling 1,968.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 715 task additions, totaling 1,969.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 345 have selected-field reviews and 173 await those reviews. Family and
+highlights; 348 have selected-field reviews and 170 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 10,671 fields across 659 catalog models: 4,948 documented,
-5,476 not documented, 230 conflicting and seventeen roadmap fields. They do not certify whole
+Selected specification checks cover 10,796 fields across 664 catalog models: 4,986 documented,
+5,559 not documented, 234 conflicting and seventeen roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -4661,5 +4661,69 @@ Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleibe
 erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 
 Zwischencommit `ef7c49f` mit Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Rapyuta Robotics (Batch 83)
+
+PA-AMR Weight Inspection als benannte Variante ergänzt; PA-AMR, PA-AMR XL,
+PA-AMR Extra High Capacity und AFL vertieft geprüft. 125 Felder: 38 dokumentiert,
+83 unbekannt und vier widersprüchlich. Ein Firmenfokus ergänzt. Alle 1964
+unbeteiligten Katalogzeilen, 659 früheren Modellprüfungen, 75 Firmenfokusse und
+1961 ursprünglichen Quellenidentitäten unverändert; keine neuen CSV-Spalten.
+
+Standard/XL: acht Stunden in HTML gegen zehn Stunden in der weiterhin verlinkten
+Familienbroschüre; Batterie-/Generations-/Einsatzzuordnung ungeklärt. Zwei 50-L-
+oder vier 10-L-Behälter beim Standardmodell sind von 45 kg Gesamtfracht getrennt.
+49×33×30 cm bezeichnen transportierbare Gegenstände, keine Chassisabmessungen.
+10–15 cm Lokalisierung bleibt eine Herstellerangabe ohne definierte Fehlermetrik.
+Der XL-Link führt zur High-Capacity-Seite; deren 45 kg Eigenmasse und 1,2 m
+Gangempfehlung werden ohne Generationenbeleg nicht auf XL übertragen. Kein
+zusätzliches identisches Zwei-Behälter-Chassis aus dem Redirect erfunden.
+Extra High Capacity behält drei 75-L-Behälter, 39,2 kg Fracht, 63 kg Eigenmasse und
+1,2 m/s; die vorläufige Vier-Fuß-Gangbreite ist kein bestätigter Grenzwert.
+
+Weight Inspection: 40 kg Fracht sind keine Eigenmasse. 610×580 mm sind nur
+Breite/Tiefe, die Höhe bleibt offen. Bis zu vier Wiegebehälter und Unterstützung
+für Behälter bis 50 L belegen keine vier gleichzeitig passenden 50-L-Behälter.
+10 g Mindestartikelgewicht und eine Reaktion unter einer Sekunde sind weder
+Wiegegenauigkeit noch Kommissionierdurchsatz. Automatische/manuelle Ladung
+bleibt mit einer/zwei Stunden getrennt; Ladezustandsfenster und Bedingungen fehlen.
+
+AFL: 1,35 Tonnen und 4,5 m Hubhöhe ohne gemeinsamen Last-Höhen-Nachweis; drei
+Stunden Ladung sind keine Betriebsdauer. 30 Paletten pro Stunde sind ein
+Einsatzort-Ergebnis. Seitliche Abstände 150–200 mm und 50 mm hinten liefern keine
+gesamte Mindestgangbreite. Japan-Verfügbarkeit, Altmodell-Videos und PLd-Sensor-
+Behauptung behalten ihren Geltungsbereich. ASRS bleibt als konfigurierbares
+Robotik-Lagersystem im Firmenfokus, rapyuta.io als Plattform; kein unbenanntes
+Einzelchassis oder garantierter Faktor für Durchsatz/Speicherdichte abgeleitet.
+
+14 URL-Abrufe: neun nutzbare Inhalte (acht HTML und eine verlinkte PDF-Broschüre).
+Fünf HTTP-403-Routen ausgeschlossen und nicht erneut angefragt. Neun exakte
+Stichprobenanker und Körper-Hashes im Quellenprotokoll
+`reports/competitor-batch-83-evidence.json`. PDF-Text ausgewertet, keine visuelle
+PDF-Prüfung behauptet. Keine Formulare oder Recherchebrowser verwendet.
+
+769 Unit-Tests in 62 Dateien, 20 Wettbewerber-Python-Tests und 40 ausgewählte
+Browserfälle bestanden: 22 Rapyuta- und 18 Vergleichsfälle, darunter zwölf
+Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Build: 3019 Seiten,
+ungefähr 462 MB. Datenprüfung: null Fehler, 852 Hinweise (ein zusätzliches
+unbelegtes Erstjahr). Lint, Format, Wiederholungsimport mit null Ergänzungen,
+Bestands-, Quellen-, Seiten-/Export- und Vergleichsprüfung bestanden. Metadaten
+aller 664 geprüften Modellseiten mit 10796 Feldern kontrolliert; die übrigen
+Herstellerquellen wurden dabei nicht erneut recherchiert. Veraltete öffentliche
+Merkmalsdaten im ersten Testlauf erkannt und vor dem finalen Build neu erzeugt.
+Alle 236 erfassten eigenen Testprozesse beendet; Port 4321 frei.
+
+Gesamtstand: 1969 Modelle/Konfigurationen, 715 Ergänzungen, 857 Merkmalssätze,
+3645 Aussagen, 1511 Produktquellenverweise und 76 Firmenfokusse. 10796 Felder auf
+664 Modellen: 4986 dokumentiert, 5559 unbekannt, 234 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 348 Feldprüfungen und 170 bleiben offen.
+Firmenfokusse decken 74 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `# BuyAn` mit Daten und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 bilden einen separaten Commit; der Hauptbranch bleibt unverändert.

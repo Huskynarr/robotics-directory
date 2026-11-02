@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 1.968 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 714 |
-| Datierte Produktmerkmal-Datensätze einschließlich 142 bestehender Modelle | 856 |
+| Eigener Katalog vorher / nachher | 1.255 / 1.969 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 715 |
+| Datierte Produktmerkmal-Datensätze einschließlich 142 bestehender Modelle | 857 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 642 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 631 / 405 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 75 |
+| Firmenfokus-Prüfungen mit Quellen | 76 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 714 ergänzte Modelle ergeben 1.968 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 715 ergänzte Modelle ergeben 1.969 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-75 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+76 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 856 Datensätze
+Modellseiten verlinken Markenprofile. Die 857 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 345 haben ausgewählte Datenfeldprüfungen und 173
+haben datierte Merkmalsbelege; 348 haben ausgewählte Datenfeldprüfungen und 170
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -6896,5 +6896,69 @@ Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleibe
 erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 
 Zwischencommit `ef7c49f` mit Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Rapyuta Robotics (Batch 83)
+
+PA-AMR Weight Inspection als benannte Variante ergänzt; PA-AMR, PA-AMR XL,
+PA-AMR Extra High Capacity und AFL vertieft geprüft. 125 Felder: 38 dokumentiert,
+83 unbekannt und vier widersprüchlich. Ein Firmenfokus ergänzt. Alle 1964
+unbeteiligten Katalogzeilen, 659 früheren Modellprüfungen, 75 Firmenfokusse und
+1961 ursprünglichen Quellenidentitäten unverändert; keine neuen CSV-Spalten.
+
+Standard/XL: acht Stunden in HTML gegen zehn Stunden in der weiterhin verlinkten
+Familienbroschüre; Batterie-/Generations-/Einsatzzuordnung ungeklärt. Zwei 50-L-
+oder vier 10-L-Behälter beim Standardmodell sind von 45 kg Gesamtfracht getrennt.
+49×33×30 cm bezeichnen transportierbare Gegenstände, keine Chassisabmessungen.
+10–15 cm Lokalisierung bleibt eine Herstellerangabe ohne definierte Fehlermetrik.
+Der XL-Link führt zur High-Capacity-Seite; deren 45 kg Eigenmasse und 1,2 m
+Gangempfehlung werden ohne Generationenbeleg nicht auf XL übertragen. Kein
+zusätzliches identisches Zwei-Behälter-Chassis aus dem Redirect erfunden.
+Extra High Capacity behält drei 75-L-Behälter, 39,2 kg Fracht, 63 kg Eigenmasse und
+1,2 m/s; die vorläufige Vier-Fuß-Gangbreite ist kein bestätigter Grenzwert.
+
+Weight Inspection: 40 kg Fracht sind keine Eigenmasse. 610×580 mm sind nur
+Breite/Tiefe, die Höhe bleibt offen. Bis zu vier Wiegebehälter und Unterstützung
+für Behälter bis 50 L belegen keine vier gleichzeitig passenden 50-L-Behälter.
+10 g Mindestartikelgewicht und eine Reaktion unter einer Sekunde sind weder
+Wiegegenauigkeit noch Kommissionierdurchsatz. Automatische/manuelle Ladung
+bleibt mit einer/zwei Stunden getrennt; Ladezustandsfenster und Bedingungen fehlen.
+
+AFL: 1,35 Tonnen und 4,5 m Hubhöhe ohne gemeinsamen Last-Höhen-Nachweis; drei
+Stunden Ladung sind keine Betriebsdauer. 30 Paletten pro Stunde sind ein
+Einsatzort-Ergebnis. Seitliche Abstände 150–200 mm und 50 mm hinten liefern keine
+gesamte Mindestgangbreite. Japan-Verfügbarkeit, Altmodell-Videos und PLd-Sensor-
+Behauptung behalten ihren Geltungsbereich. ASRS bleibt als konfigurierbares
+Robotik-Lagersystem im Firmenfokus, rapyuta.io als Plattform; kein unbenanntes
+Einzelchassis oder garantierter Faktor für Durchsatz/Speicherdichte abgeleitet.
+
+14 URL-Abrufe: neun nutzbare Inhalte (acht HTML und eine verlinkte PDF-Broschüre).
+Fünf HTTP-403-Routen ausgeschlossen und nicht erneut angefragt. Neun exakte
+Stichprobenanker und Körper-Hashes im Quellenprotokoll
+`reports/competitor-batch-83-evidence.json`. PDF-Text ausgewertet, keine visuelle
+PDF-Prüfung behauptet. Keine Formulare oder Recherchebrowser verwendet.
+
+769 Unit-Tests in 62 Dateien, 20 Wettbewerber-Python-Tests und 40 ausgewählte
+Browserfälle bestanden: 22 Rapyuta- und 18 Vergleichsfälle, darunter zwölf
+Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Build: 3019 Seiten,
+ungefähr 462 MB. Datenprüfung: null Fehler, 852 Hinweise (ein zusätzliches
+unbelegtes Erstjahr). Lint, Format, Wiederholungsimport mit null Ergänzungen,
+Bestands-, Quellen-, Seiten-/Export- und Vergleichsprüfung bestanden. Metadaten
+aller 664 geprüften Modellseiten mit 10796 Feldern kontrolliert; die übrigen
+Herstellerquellen wurden dabei nicht erneut recherchiert. Veraltete öffentliche
+Merkmalsdaten im ersten Testlauf erkannt und vor dem finalen Build neu erzeugt.
+Alle 236 erfassten eigenen Testprozesse beendet; Port 4321 frei.
+
+Gesamtstand: 1969 Modelle/Konfigurationen, 715 Ergänzungen, 857 Merkmalssätze,
+3645 Aussagen, 1511 Produktquellenverweise und 76 Firmenfokusse. 10796 Felder auf
+664 Modellen: 4986 dokumentiert, 5559 unbekannt, 234 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 348 Feldprüfungen und 170 bleiben offen.
+Firmenfokusse decken 74 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `# BuyAn` mit Daten und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
