@@ -20041,26 +20041,66 @@
         "category": "humanoid",
         "manufacturer": "Agile Robots",
         "model": "Agile ONE",
-        "website": "https://www.agile-robots.com/en/news/detail/agile-robots-launches-humanoid-robot-for-industry-agile-one/"
+        "price": "Not disclosed",
+        "weight": "69 kg (manufacturer product counter)",
+        "size": "174 cm height (manufacturer product counter)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;industrial;ai-powered;research",
+        "handType": "Dexterous modular-finger hands with force and tactile sensors",
+        "dof": "",
+        "payload": "20 kg (manufacturer payload counter; distribution unspecified)",
+        "speed": "Walking speed 2 m/s",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agile-robots.com/en/products/humanoid-robots/agile-one/",
+        "image": "images/humanoid/agile-robots-agile-one.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Agile ONE is the industrial humanoid introduced on November 19, 2025. Its product page pairs animated counters with 174 cm height, 69 kg mass, 2 m/s walking and 20 kg payload, without specifying payload distribution. Modular fingers, tactile/force sensing, cameras, LiDAR and expressive feedback support industrial interaction. Hand joint counts do not establish the former 71 whole-robot DOF, and the selected documents do not establish the former eight-hour endurance. An early-2026 production plan and a February 2026 event demonstration do not prove unrestricted availability or independent safety/performance.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "armReach": ""
       },
       "highlights": [
-        "Manufacturer identifies Agile ONE as an industrial humanoid platform",
-        "Force-sensing dexterous hands and layered AI architecture support manipulation research",
-        "AgileCore integration is intended to coordinate the humanoid with other automation systems"
+        "The public product page pairs animation attributes with 174 cm height, 69 kg robot mass, 2 m/s walking and 20 kg payload. The same counters appear in German and English; the payload’s arm/body distribution is unspecified and no whole-body envelope is inferred from height.",
+        "Agile ONE uses cameras, LiDARs, speech recognition, responsive eyes, proximity sensing and a chest display. Its modular-finger hands are described with 21 joints and tactile/force feedback; this is not evidence for 71 whole-robot DOF or a gripper-only hand type.",
+        "The November 19, 2025 introduction describes a layered AI architecture trained from industrial, simulated, human and teleoperation data, integrated with AgileCore. Planned in-house full production in early 2026 remains an announcement, not proof of present stock or autonomous performance in every factory task.",
+        "The February 4, 2026 manufacturer release describes Agile ONE pressing the launch button for the Telekom/NVIDIA Industrial AI Cloud and the company’s intended foundation-model training. Cloud training and this event do not establish robot battery endurance or a measured eight-hour operating maximum.",
+        "The separate Agile Hand page gives 21 joints and 15 or 16 DOF for that component. Its 1.5 kg mass, fingertip force and variants are not automatically the exact hand configuration installed on every Agile ONE; no component claim is promoted to independent whole-system safety or human-level dexterity certification."
       ],
       "sources": [
         {
-          "name": "Agile Robots",
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/solutions/agile-one/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
           "type": "manufacturer",
           "url": "https://www.agile-robots.com/en/news/detail/agile-robots-launches-humanoid-robot-for-industry-agile-one/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/news/detail/agile-one-powers-up-europes-largest-ai-factory/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/products/agile-hand/",
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-93/source-3.html",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/ba54c448-e68c-443a-9ce1-53133707e44c"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-13/agile-robots.com-en-news-detail-agile-robots-launches-humanoid-robot-for-industry-agile-one.json",
-      "reviewNotes": "Manufacturer launch announcement establishes the named product and corporate attribution. Production timing in that 2025 announcement is a plan, not proof of shipment or present stock. Existing numeric CSV fields are not comprehensively reverified by this identity/highlight pass. No guaranteed independent completion of every listed industrial task, collision-free people sharing or current manufacturing volume is inferred."
+      "reviewNotes": "Eight Agile Robots offerings reviewed: Agile ONE and Yu5 existing, Diana7 and five Thor variants added. Thor20 is explicitly coming soon with technical values marked roadmap; Thor3 retains APAC restriction. Load/reach pairs, robot/controller mass, TCP and joint rates, pose repeatability and force accuracy retain scope. Hand/component DOF and cloud-training/event demos do not establish whole-humanoid DOF or endurance. Group membership is not product aliasing. Full historical/regional scope, present availability, delivered compatibility and independent safety/performance remain unproven."
     },
     {
       "row": {
@@ -20212,33 +20252,49 @@
         "manufacturer": "Agile Robots",
         "model": "Yu 5 Industrial",
         "price": "Not disclosed",
+        "weight": "31.5 kg robot; controller excluded",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "robotic-arm;industrial;programmable;force-control",
-        "website": "https://www.agile-robots.com/media/files/products/Yu/Agile-Robots_Yu_5_Industrial_Tech-Data-Sheet.pdf",
-        "description": "Six-axis arm incorporates torque sensors in every axis and an integrated two-dimensional camera. Datasheet pairs 5 kg payload with 1000 mm reach, or 7 kg with 850 mm reach. Browser-based programming, Python API and handguiding support application integration.",
+        "handType": "",
         "dof": "6",
-        "weight": "31.5 kg",
-        "payload": "5 kg at 1000 mm; 7 kg at 850 mm",
-        "ipRating": "IP54",
-        "speed": "TCP up to 2.0 m/s with 5 kg payload"
+        "payload": "5 kg at 1,000 mm; 7 kg at 850 mm",
+        "speed": "Maximum TCP 2.0 m/s with 5 kg payload",
+        "terrain": "",
+        "ipRating": "IP54 (robot and controller)",
+        "ageRange": "",
+        "website": "https://www.agile-robots.com/media/files/products/Yu/Agile-Robots_Yu_5_Industrial_Tech-Data-Sheet.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Yu 5 Industrial is a six-axis torque-sensing arm with an integrated 2D camera and neural-processing unit. Its sheet pairs 5 kg payload with 1,000 mm radius, or 7 kg with 850 mm, and lists 31.5 kg robot mass, ±0.05 mm repeatability and IP54 for robot/controller. TCP speed up to 2.0 m/s is scoped to 5 kg payload. Mains power, control cabinet dimensions and safety-function lists are not robot endurance, body envelope or independent application certification.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1,000 mm with 5 kg payload; 850 mm with 7 kg payload",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.05 mm"
       },
       "highlights": [
-        "Six-axis arm incorporates torque sensors in every axis and an integrated two-dimensional camera",
-        "Datasheet pairs 5 kg payload with 1000 mm reach, or 7 kg with 850 mm reach",
-        "Browser-based programming, Python API and handguiding support application integration"
+        "The technical sheet pairs 5 kg payload with 1,000 mm workspace radius and 7 kg with 850 mm. These are load/reach combinations;7 kg and 1,000 mm are not one rated operating point.",
+        "Yu 5 Industrial has six DOF, 31.5 kg robot mass, ±0.05 mm repeatability and maximum 2.0 m/s TCP speed with 5 kg payload. The sheet labels IP54 for both robot and controller; controller/illustration measurements are not a complete robot envelope.",
+        "Torque sensors in every axis, an integrated 2D camera with two high-power LEDs and an NPU support sensing and local processing. Browser programming, an integrated Python API and three-button hand-guiding are described interfaces, not a guarantee of arbitrary autonomous deployment.",
+        "The sheet lists 220–230 VAC mains power and 250 W average consumption, plus configurable safety functions and industrial interfaces. Power consumption does not establish battery runtime, and listed standards/functions are not independent certification of every integrated application."
       ],
       "sources": [
         {
-          "name": "Agile Robots",
+          "name": "Agile Robots — Yu 5 Industrial technical data sheet",
           "type": "manufacturer",
           "url": "https://www.agile-robots.com/media/files/products/Yu/Agile-Robots_Yu_5_Industrial_Tech-Data-Sheet.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-93/source-8.pdf",
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/b68f313c-0bd9-42ef-a9f7-95185be9ad3e"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-14/agile-robots.com-media-files-products-Yu-Agile-Robots_Yu_5_Industrial_Tech-Data-Sheet.pdf.json",
-      "reviewNotes": "Manufacturer datasheet explicitly labels Yu 5 Industrial. Generic Yu 5 is resolved as a family reference to this documented configuration, not exact equivalence of every possible Yu variant. Payload and radius are paired ratings. Stated safety functions and historical standard editions do not prove the integrated application is safe without an assessment. Datasheet presence does not establish current stock or production."
+      "reviewNotes": "Eight Agile Robots offerings reviewed: Agile ONE and Yu5 existing, Diana7 and five Thor variants added. Thor20 is explicitly coming soon with technical values marked roadmap; Thor3 retains APAC restriction. Load/reach pairs, robot/controller mass, TCP and joint rates, pose repeatability and force accuracy retain scope. Hand/component DOF and cloud-training/event demos do not establish whole-humanoid DOF or endurance. Group membership is not product aliasing. Full historical/regional scope, present availability, delivered compatibility and independent safety/performance remain unproven."
     },
     {
       "row": {
@@ -52194,6 +52250,330 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-92/source-10.html",
       "discoveredIn": [],
       "reviewNotes": "Four 1X identities reviewed: later NEO home product, Beta/Gamma prototypes and historical industrial EVE. Exact introduction milestones, US purchase/subscription/deposit scope, scheduled Expert assistance and teleoperated/research demonstrations remain explicit. Component hand/wrist DOF, IP44 body versus IP68 hands and distinct carry/lift/arm loads are not conflated. Hardware842 Wh versus FAQ0.75 kWh remains unresolved. No current customer shipment, complete portfolio or independent safety/dexterity/market leadership claim."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Agile Robots",
+        "model": "Diana 7",
+        "price": "Not disclosed",
+        "weight": "28 kg robot; 16 kg control box separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;industrial;programmable;force-control;research",
+        "handType": "",
+        "dof": "7",
+        "payload": "7 kg",
+        "speed": "Maximum TCP 2.4 m/s",
+        "terrain": "",
+        "ipRating": "IP50",
+        "ageRange": "",
+        "website": "https://www.agile-robots.com/en/products/diana-7/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Diana 7 is a seven-axis torque-sensing arm for delicate industrial handling and research. The current brochure lists 7 kg payload, 923 mm radius, 28 kg robot mass, IP50, ±0.05 mm repeatability and 2.4 m/s maximum TCP speed. The 16 kg controller, its dimensions and 0.5 N force-control accuracy are separate quantities. AgileCore and the named FCI research interface retain product/software scope; hand equipment and current stock are not established by this brochure.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "923 mm",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.05 mm"
+      },
+      "highlights": [
+        "Diana 7 combines seven torque-sensing axes with 7 kg payload and 923 mm working radius. The brochure lists 28 kg robot mass separately from a 16 kg control box; neither controller mass nor cabinet dimensions are the arm envelope.",
+        "Specified repeatability is±0.05 mm, maximum TCP speed 2.4 m/s and force-control accuracy 0.5 N. Pose repeatability, path-accuracy marketing and force-control accuracy are different quantities; no navigation accuracy or independently measured task outcome is inferred.",
+        "The arm is listed IP50, with 0–50°C operation. This rating is not the IP54 of Yu/Thor variants and does not establish wet-process suitability or whole-cell protection.",
+        "AgileCore, hand-guiding and C++/Python/Lua programming support integration. The brochure also names an FCI research interface; this does not establish that Diana 7 is a Franka FR3 identity or that every software/firmware package is interchangeable."
+      ],
+      "sources": [
+        {
+          "name": "Agile Robots — Diana 7 brochure, revision 260320",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/media/files/New_website/Products/Diana_7/AR-Diana7-Productflyer-RGB-en-20260320.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/solutions/diana-7/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-93/source-9.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight Agile Robots offerings reviewed: Agile ONE and Yu5 existing, Diana7 and five Thor variants added. Thor20 is explicitly coming soon with technical values marked roadmap; Thor3 retains APAC restriction. Load/reach pairs, robot/controller mass, TCP and joint rates, pose repeatability and force accuracy retain scope. Hand/component DOF and cloud-training/event demos do not establish whole-humanoid DOF or endurance. Group membership is not product aliasing. Full historical/regional scope, present availability, delivered compatibility and independent safety/performance remain unproven."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Agile Robots",
+        "model": "Thor 3",
+        "price": "Not disclosed",
+        "weight": "14 kg robot; controller separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;industrial;programmable",
+        "handType": "",
+        "dof": "6",
+        "payload": "3 kg",
+        "speed": "maximum TCP 1.8 m/s",
+        "terrain": "",
+        "ipRating": "IP20 (robot specification table)",
+        "ageRange": "",
+        "website": "https://www.agile-robots.com/en/products/thor-series/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Thor 3 is a named six-axis member of the Thor industrial arm range. The brochure specifies 3 kg payload, 600 mm radius, 14 kg robot mass, ±0.03 mm repeatability and 1.8 m/s maximum TCP speed. The robot-table ingress rating isIP20. Robot and controller masses remain separate. Thor 3 is currently APAC-only.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "600 mm",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.03 mm"
+      },
+      "highlights": [
+        "The namedThor 3 brochure column gives 3 kg payload at 600 mm working radius, six DOF and±0.03 mm repeatability. Robot mass is 14 kg; the separate controller weighs 20 kg.",
+        "Maximum TCP speed is 1.8 m/s forThor 3. The model table takes precedence over the webpage’s generic 1.8–3 m/s family summary; rotational joint rates are not linear tool or mobile travel speed.",
+        "Thor 3 is explicitly listed as currently APAC-only. Its robot-table protection is IP20, not the IP54 of larger Thor variants. The 143 mm base diameter and controller dimensions are not the full robot envelope.",
+        "The series supports graphical/script programming, an open API, hand-guiding and collision detection. Applications such as assembly, inspection, machine tending or palletizing require their own integration; manufacturer safety/productivity claims are not independent application certification."
+      ],
+      "sources": [
+        {
+          "name": "Agile Robots — Thor series brochure, revision 260320",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/media/files/New_website/Products/Thor_series/AR-ThorSeries-Productflyer-SCREEN-en-20260320.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/solutions/thor-series/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-93/source-10.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight Agile Robots offerings reviewed: Agile ONE and Yu5 existing, Diana7 and five Thor variants added. Thor20 is explicitly coming soon with technical values marked roadmap; Thor3 retains APAC restriction. Load/reach pairs, robot/controller mass, TCP and joint rates, pose repeatability and force accuracy retain scope. Hand/component DOF and cloud-training/event demos do not establish whole-humanoid DOF or endurance. Group membership is not product aliasing. Full historical/regional scope, present availability, delivered compatibility and independent safety/performance remain unproven."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Agile Robots",
+        "model": "Thor 7",
+        "price": "Not disclosed",
+        "weight": "32 kg robot; controller separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;industrial;programmable",
+        "handType": "",
+        "dof": "6",
+        "payload": "7 kg",
+        "speed": "maximum TCP 3.1 m/s",
+        "terrain": "",
+        "ipRating": "IP54 (robot specification table)",
+        "ageRange": "",
+        "website": "https://www.agile-robots.com/en/products/thor-series/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Thor 7 is a named six-axis member of the Thor industrial arm range. The brochure specifies 7 kg payload, 900 mm radius, 32 kg robot mass, ±0.03 mm repeatability and 3.1 m/s maximum TCP speed. The robot-table ingress rating isIP54. Robot and controller masses remain separate. Family ranges do not replace this exact model’s values.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "900 mm",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.03 mm"
+      },
+      "highlights": [
+        "The namedThor 7 brochure column gives 7 kg payload at 900 mm working radius, six DOF and±0.03 mm repeatability. Robot mass is 32 kg; the separate controller weighs 16 kg.",
+        "Maximum TCP speed is 3.1 m/s forThor 7. The model table takes precedence over the webpage’s generic 1.8–3 m/s family summary; rotational joint rates are not linear tool or mobile travel speed.",
+        "The robot-table ingress rating isIP54; tool wiring, controller specifications and other models’ ratings are not automatically the protection of the integrated cell.",
+        "The series supports graphical/script programming, an open API, hand-guiding and collision detection. Applications such as assembly, inspection, machine tending or palletizing require their own integration; manufacturer safety/productivity claims are not independent application certification."
+      ],
+      "sources": [
+        {
+          "name": "Agile Robots — Thor series brochure, revision 260320",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/media/files/New_website/Products/Thor_series/AR-ThorSeries-Productflyer-SCREEN-en-20260320.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/solutions/thor-series/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-93/source-10.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight Agile Robots offerings reviewed: Agile ONE and Yu5 existing, Diana7 and five Thor variants added. Thor20 is explicitly coming soon with technical values marked roadmap; Thor3 retains APAC restriction. Load/reach pairs, robot/controller mass, TCP and joint rates, pose repeatability and force accuracy retain scope. Hand/component DOF and cloud-training/event demos do not establish whole-humanoid DOF or endurance. Group membership is not product aliasing. Full historical/regional scope, present availability, delivered compatibility and independent safety/performance remain unproven."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Agile Robots",
+        "model": "Thor 7 Pro",
+        "price": "Not disclosed",
+        "weight": "38 kg robot; controller separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;industrial;programmable;force-control",
+        "handType": "",
+        "dof": "6",
+        "payload": "7 kg",
+        "speed": "maximum TCP 2.5 m/s",
+        "terrain": "",
+        "ipRating": "IP54 (robot specification table)",
+        "ageRange": "",
+        "website": "https://www.agile-robots.com/en/products/thor-series/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Thor 7 Pro is a named six-axis member of the Thor industrial arm range. The brochure specifies 7 kg payload, 900 mm radius, 38 kg robot mass, ±0.03 mm repeatability and 2.5 m/s maximum TCP speed. The robot-table ingress rating isIP54. Robot and controller masses remain separate. Joint-torque sensing and 0.5 N force control distinguish the Pro version from standard Thor 7.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "900 mm",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.03 mm"
+      },
+      "highlights": [
+        "The namedThor 7 Pro brochure column gives 7 kg payload at 900 mm working radius, six DOF and±0.03 mm repeatability. Robot mass is 38 kg; the separate controller weighs 16 kg.",
+        "Maximum TCP speed is 2.5 m/s forThor 7 Pro. The model table takes precedence over the webpage’s generic 1.8–3 m/s family summary; rotational joint rates are not linear tool or mobile travel speed.",
+        "Thor 7 Pro is a separately named force-controlled configuration with joint torque sensors and 0.5 N force-control accuracy. Its 38 kg mass and 2.5 m/s TCP speed are not the 32 kg/3.1 m/s of standard Thor 7.",
+        "The series supports graphical/script programming, an open API, hand-guiding and collision detection. Applications such as assembly, inspection, machine tending or palletizing require their own integration; manufacturer safety/productivity claims are not independent application certification."
+      ],
+      "sources": [
+        {
+          "name": "Agile Robots — Thor series brochure, revision 260320",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/media/files/New_website/Products/Thor_series/AR-ThorSeries-Productflyer-SCREEN-en-20260320.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/solutions/thor-series/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-93/source-10.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight Agile Robots offerings reviewed: Agile ONE and Yu5 existing, Diana7 and five Thor variants added. Thor20 is explicitly coming soon with technical values marked roadmap; Thor3 retains APAC restriction. Load/reach pairs, robot/controller mass, TCP and joint rates, pose repeatability and force accuracy retain scope. Hand/component DOF and cloud-training/event demos do not establish whole-humanoid DOF or endurance. Group membership is not product aliasing. Full historical/regional scope, present availability, delivered compatibility and independent safety/performance remain unproven."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Agile Robots",
+        "model": "Thor 12",
+        "price": "Not disclosed",
+        "weight": "35 kg robot; controller separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;industrial;programmable",
+        "handType": "",
+        "dof": "6",
+        "payload": "12 kg",
+        "speed": "maximum TCP 3.7 m/s",
+        "terrain": "",
+        "ipRating": "IP54 (robot specification table)",
+        "ageRange": "",
+        "website": "https://www.agile-robots.com/en/products/thor-series/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Thor 12 is a named six-axis member of the Thor industrial arm range. The brochure specifies 12 kg payload, 1,300 mm radius, 35 kg robot mass, ±0.05 mm repeatability and 3.7 m/s maximum TCP speed. The robot-table ingress rating isIP54. Robot and controller masses remain separate. Family ranges do not replace this exact model’s values.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1,300 mm",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "±0.05 mm"
+      },
+      "highlights": [
+        "The namedThor 12 brochure column gives 12 kg payload at 1,300 mm working radius, six DOF and±0.05 mm repeatability. Robot mass is 35 kg; the separate controller weighs 16 kg.",
+        "Maximum TCP speed is 3.7 m/s forThor 12. The model table takes precedence over the webpage’s generic 1.8–3 m/s family summary; rotational joint rates are not linear tool or mobile travel speed.",
+        "The robot-table ingress rating isIP54; tool wiring, controller specifications and other models’ ratings are not automatically the protection of the integrated cell.",
+        "The series supports graphical/script programming, an open API, hand-guiding and collision detection. Applications such as assembly, inspection, machine tending or palletizing require their own integration; manufacturer safety/productivity claims are not independent application certification."
+      ],
+      "sources": [
+        {
+          "name": "Agile Robots — Thor series brochure, revision 260320",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/media/files/New_website/Products/Thor_series/AR-ThorSeries-Productflyer-SCREEN-en-20260320.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/solutions/thor-series/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-93/source-10.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight Agile Robots offerings reviewed: Agile ONE and Yu5 existing, Diana7 and five Thor variants added. Thor20 is explicitly coming soon with technical values marked roadmap; Thor3 retains APAC restriction. Load/reach pairs, robot/controller mass, TCP and joint rates, pose repeatability and force accuracy retain scope. Hand/component DOF and cloud-training/event demos do not establish whole-humanoid DOF or endurance. Group membership is not product aliasing. Full historical/regional scope, present availability, delivered compatibility and independent safety/performance remain unproven."
+    },
+    {
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Agile Robots",
+        "model": "Thor 20",
+        "price": "Not disclosed",
+        "weight": "Planned 72 kg robot; controller separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "robotic-arm;industrial;programmable",
+        "handType": "",
+        "dof": "Planned 6",
+        "payload": "Planned 20 kg",
+        "speed": "Planned maximum TCP 2.8 m/s",
+        "terrain": "",
+        "ipRating": "Planned IP54 wrist; table lists IP54 without component scope",
+        "ageRange": "",
+        "website": "https://www.agile-robots.com/en/products/thor-series/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Thor 20 is a named six-axis member of the Thor industrial arm range. The brochure specifies 20 kg payload, 1,700 mm radius, 72 kg robot mass, ±0.1 mm repeatability and 2.8 m/s maximum TCP speed. The product page lists it as coming soon; these values describe an announced configuration, not proven delivered hardware. IP54 is explicitly wrist-scoped in the narrative.Family ranges do not replace this exact model’s values.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "Planned 1,700 mm",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "Planned ±0.1 mm"
+      },
+      "highlights": [
+        "The namedThor 20 brochure column gives 20 kg payload at 1,700 mm working radius, six DOF and±0.1 mm repeatability. Robot mass is 72 kg; the separate controller weighs 16 kg.",
+        "Maximum TCP speed is 2.8 m/s forThor 20. The model table takes precedence over the webpage’s generic 1.8–3 m/s family summary; rotational joint rates are not linear tool or mobile travel speed.",
+        "The current product page labels Thor 20 coming soon. The brochure gives an IP54 wrist and a generic IP54 table row; a whole-platform sealing scope or current shipment is not established.",
+        "The series supports graphical/script programming, an open API, hand-guiding and collision detection. Applications such as assembly, inspection, machine tending or palletizing require their own integration; manufacturer safety/productivity claims are not independent application certification. Values remain announced hardware specifications while the current page says coming soon."
+      ],
+      "sources": [
+        {
+          "name": "Agile Robots — Thor series brochure, revision 260320",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/media/files/New_website/Products/Thor_series/AR-ThorSeries-Productflyer-SCREEN-en-20260320.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Agile Robots — named product, engineering or launch documentation",
+          "type": "manufacturer",
+          "url": "https://www.agile-robots.com/en/solutions/thor-series/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-93/source-10.pdf",
+      "discoveredIn": [],
+      "reviewNotes": "Eight Agile Robots offerings reviewed: Agile ONE and Yu5 existing, Diana7 and five Thor variants added. Thor20 is explicitly coming soon with technical values marked roadmap; Thor3 retains APAC restriction. Load/reach pairs, robot/controller mass, TCP and joint rates, pose repeatability and force accuracy retain scope. Hand/component DOF and cloud-training/event demos do not establish whole-humanoid DOF or endurance. Group membership is not product aliasing. Full historical/regional scope, present availability, delivered compatibility and independent safety/performance remain unproven."
     }
   ]
 }
