@@ -361,23 +361,105 @@
       "model": "D1 Ultra-W",
       "sources": [
         {
-          "name": "AGIBOT",
+          "name": "AGIBOT — named product or technical sheet",
           "type": "manufacturer",
           "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114917251810.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/filepage/300.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-22/agibot.com-file-ueditor-php-upload-file-20260911-1789114917251810.pdf.json",
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-32.pdf",
       "fields": {
-        "chargingTime": {
-          "value": "about 1 hour from 10% to 90%",
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "22 kg including battery",
           "status": "documented",
-          "note": "Charging duration with the stated conditions; distinct from operating endurance."
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "630 x 430 x 485 mm standing; 690 x 540 x 165 mm lying (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "1–2 h general operating time; brochure 1 h under load",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
         },
         "maxRuntime": {
           "value": "",
           "status": "not-documented",
-          "note": "Charging duration moved to its own field. This entry is not an operating-runtime claim."
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "16 total; 4 per leg",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "5 kg",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 3.7 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "IP54",
+          "status": "documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "Approx. 1 h, 10%–90% SOC",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114917251810.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "D1 Ultra-W is the wheel-leg 22 kg, 16-DOF development and inspection quadruped. Its exact technical sheet lists five-kilogram payload, maximum 3.7 m/s and IP54. General operating time is one to two hours; the brochure separately describes one hour loaded. SDK and simulation interfaces support integration, while autonomous missions require the appropriate development and modules.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "16 cm continuous stairs; 60 cm maximum climbing height; 35 cm vertical jump; 30° standard / 40° maximum slope",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
         }
       }
     },
@@ -84421,6 +84503,2597 @@
           "value": "",
           "status": "not-documented",
           "note": "No chronological user age rating established by research, inspection or education use."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-a2-ultra",
+      "manufacturer": "AGIBOT",
+      "model": "A2 Ultra",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A2_Ultra",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "Approx. 69 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "30 x 75 x 169 cm (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "3 h standing; 1.5 h+ walking",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "40 total; 7 per arm; 6 per leg",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "Approx. 2 kg maximum arm load",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 1.2 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "6-DOF dexterous hand per hand",
+          "status": "documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/A2_Ultra",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "A2 Ultra is a full-size reception, exhibition and performance humanoid. Its own table lists approximately 69 kg, 40 total DOF, seven per arm and LiDAR/RGB-D/RGB/fisheye sensing with Jetson Orin 64G. Standing and walking endurance are separate; hot swapping and two-hour charging do not establish 24-hour battery life.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-a2-lite",
+      "manufacturer": "AGIBOT",
+      "model": "A2 Lite",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A2_Pro",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-6.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "Approx. 64 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "30 x 75 x 169 cm (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "4.5 h standing; 1.5 h+ walking",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "23 total; 5 per arm; 6 per leg",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "Approx. 2 kg maximum arm load",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 0.8 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/A2_Pro",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "A2 Lite is the lower-specification full-size performance humanoid in the A2 Ultra/Lite comparison. Its column lists approximately 64 kg, 23 total DOF and five per arm, with a maximum 0.8 m/s speed. The table omits the Ultra perception suite, dexterous hand and high-performance board. Group choreography and optional VR tools do not establish Ultra autonomous navigation.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-a2",
+      "manufacturer": "Agibot",
+      "model": "A2",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A2",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-17.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "69 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "169 cm height",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "2 h; battery swapping supported",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "40+ active DOF",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "Dexterous hand; detailed configuration not established",
+          "status": "documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/A2",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "A2 is the named interactive service humanoid for reception, exhibition guidance and business inquiries. Its current dedicated page lists 169 cm height, 69 kg, a 700 Wh battery, two-hour runtime and 40+ active DOF. It combines LiDAR, RGB-D/fisheye sensing and dialogue customization. This A2 page is kept distinct from A2 Ultra/Lite and the legacy A2-W identity.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-a3-ultra",
+      "manufacturer": "AGIBOT",
+      "model": "A3 Ultra",
+      "sources": [
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A3Ultra",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-36.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "60 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "174 cm height",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "Up to 8 h combined operation",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "51 active DOF (July 2026 announcement)",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "5 kg per arm (July 2026 announcement)",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "Advanced OmniHand; brochure describes up to 20 DOF per hand",
+          "status": "documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/article/231/detail/85.html",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "A3 Ultra is a 174 cm, 60 kg commercial humanoid announced at WAIC on July 18, 2026. Its model announcement specifies 51 active DOF, five-kilogram payload per arm and up to eight hours combined operation. The brochure describes UWB/RTK positioning, LiDAR/camera sensing, autonomous plug-in charging and ten-second battery swapping. A3 base specifications of 55 kg and ten hours do not transfer to Ultra.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-a3",
+      "manufacturer": "AGIBOT",
+      "model": "A3",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A3",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "55 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "173 cm height",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "Up to 10 h; dual battery configuration",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/A3",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "A3 is the full-size 173 cm, 55 kg performance humanoid launched in 2026. The manufacturer brochure lists a dual-battery configuration labelled 1152 Wh, up-to-ten-hour endurance, hot swapping and fleet choreography for over 100 robots. UWB positioning and LinkCraft motion creation support coordinated performances. Whole-body DOF, exact arm payload and charging duration are not established by the selected text.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-lingxi-x1",
+      "manufacturer": "Agibot",
+      "model": "Lingxi X1",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X1",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-7.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "33 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "130 cm height",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "34 active DOF",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "0.5 kg per arm",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 1 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/X1",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "X1, retained under the catalog name Lingxi X1, is a modular open-source humanoid platform for development. Its dedicated page lists 130 cm height, 33 kg, 34 active DOF, a 0.5 kg load per arm, two-hour runtime and maximum 1 m/s walking speed. PowerFlow actuators, controllers and an adaptive gripper are component ecosystem entries rather than additional complete X1 robots.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-lingxi-x2",
+      "manufacturer": "Agibot",
+      "model": "Lingxi X2",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X2",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-8.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "35 kg (current base X2)",
+          "status": "documented",
+          "note": "Current base X2 column only. Legacy Lingxi X2 catalog identity is retained; historical revision equivalence is not established. Ultra/REC/EDU values are separate."
+        },
+        "size": {
+          "value": "131 cm height (current base X2)",
+          "status": "documented",
+          "note": "Current base X2 column only. Legacy Lingxi X2 catalog identity is retained; historical revision equivalence is not established. Ultra/REC/EDU values are separate."
+        },
+        "batteryLife": {
+          "value": "2 h; 500 Wh (current base X2)",
+          "status": "documented",
+          "note": "Current base X2 column only. Legacy Lingxi X2 catalog identity is retained; historical revision equivalence is not established. Ultra/REC/EDU values are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "25 total; 5 per arm (current base X2)",
+          "status": "documented",
+          "note": "Current base X2 column only. Legacy Lingxi X2 catalog identity is retained; historical revision equivalence is not established. Ultra/REC/EDU values are separate."
+        },
+        "payload": {
+          "value": "3 kg maximum end-effector payload",
+          "status": "documented",
+          "note": "Current base X2 column only. Legacy Lingxi X2 catalog identity is retained; historical revision equivalence is not established. Ultra/REC/EDU values are separate."
+        },
+        "speed": {
+          "value": "Maximum 2 m/s",
+          "status": "documented",
+          "note": "Current base X2 column only. Legacy Lingxi X2 catalog identity is retained; historical revision equivalence is not established. Ultra/REC/EDU values are separate."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/X2",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "The catalog Lingxi X2 entry represents current base X2 specifications, rather than a mixture of X2 variants. The brochure lists 131 cm height, 35 kg, 25 total DOF, five per arm, a 3 kg maximum end-effector payload and two-hour 500 Wh endurance. The series page explicitly excludes Ultra navigation and obstacle-avoidance features from base X2. Historic Lingxi naming does not establish identical specifications across revisions.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-x2-ultra",
+      "manufacturer": "AGIBOT",
+      "model": "X2 Ultra",
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X2",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "39 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "131 cm height",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "2 h; 500 Wh",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "30 total; 7 per arm",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "3 kg maximum end-effector payload",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 2 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "Optional dexterous hands or grippers",
+          "status": "documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "X2 Ultra is a distinct X2 configuration in the manufacturer brochure. Ultra combines interactive/binocular RGB, RGB-D, rear camera and LiDAR sensing with NVIDIA Orin NX 16 GB. The brochure lists 39 kg and 30 total DOF. Navigation, mapping and obstacle avoidance are described for Ultra. Autonomous charging requires the optional charging dock; BVLOS teleoperation requires optional VR accessories.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-x2-rec",
+      "manufacturer": "AGIBOT",
+      "model": "X2 REC",
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X2",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "40 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "131 cm height",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "30 total; 7 per arm",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "3 kg maximum end-effector payload",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "OmniHand or OmniPicker 3 configuration",
+          "status": "documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "X2 REC is a distinct X2 configuration in the manufacturer brochure. REC is a 40 kg, 30-DOF data-acquisition configuration with seven DOF per arm and NVIDIA Orin NX 16 GB. Its wrist RGB-D cameras and VR teleoperation distinguish it from base X2. The brochure describes full-body teleoperation and Genie Studio acquisition/training/testing/deployment integration. Adjacent base-model speed, 500 Wh and endurance are not automatically assigned to REC.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-x2-edu",
+      "manufacturer": "AGIBOT",
+      "model": "X2 EDU",
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X2",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "35 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "130 cm height including dummy head",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "2 h; 500 Wh",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "29 total; 7 per arm",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "3 kg maximum end-effector payload",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 1.8 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "Optional grippers, dummy hands or dummy fists",
+          "status": "documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "X2 EDU is a distinct X2 configuration in the manufacturer brochure. EDU is a 29-DOF, 35 kg research/assembly platform with seven DOF per arm. Its 130 cm height includes the dummy head. RK3588 compute, motion-control interfaces and configurable sensor/compute expansion support development. The 1.8 m/s maximum and two-hour 500 Wh endurance remain EDU-specific. Assembly/disassembly and component-kit procurement are explicit use cases. Optional grippers, dummy hands and fists are not an included fully dexterous hand.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-genie-g1",
+      "manufacturer": "Agibot",
+      "model": "Genie G1",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/G1",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-11.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "150 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "130–180 cm height; 70 cm span",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "4 h+",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "20 excluding end effector in table; narrative states 26 total, counting scope unspecified",
+          "status": "conflicting",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "3 kg object held with one arm during continuous operation",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "6-DOF end effector; replaceable with two-finger gripper",
+          "status": "documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/G1",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "G1, retained under catalog name Genie G1, is a wheeled data-collection and model-inference platform. Its current page lists 150 kg, 130–180 cm adjustable height, 70 cm span, Jetson AGX Orin 64GB and over four hours runtime. The table states 20 DOF excluding the end effector while prose states 26 total without a complete counting breakdown; both scopes remain explicit. VR capture, force sensors and multiple cameras support data acquisition.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-g1-max",
+      "manufacturer": "AGIBOT",
+      "model": "G1 MAX",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/G1_MAX",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-10.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "230 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "770 x 620 x 1630 mm (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "5 h; 2 kWh battery; hot swapping supported",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "7 per arm; whole-body count not established",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "5 kg per arm",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/G1_MAX",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "G1 MAX is a wheeled dual-arm industrial manipulation platform with a 770 x 620 x 1630 mm envelope and 230 kg mass. Its current page lists seven DOF and five-kilogram load per arm, 0–2 m working height, 2 kWh battery, five-hour runtime and two-hour charging. Four-wheel drive, in-place rotation, crab motion, depth/vision sensing and open interfaces support integration. It is not treated as an alias of historical A2-W.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-g2",
+      "manufacturer": "Agibot",
+      "model": "G2",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/G2",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-9.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "760 x 640 x 1225–1795 mm (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "26 excluding end effectors; 7-DOF arm",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "5 kg per arm",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 1.5 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "IP42",
+          "status": "documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/G2",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "G2 is a wheeled industrial manipulation platform with 26 DOF excluding end effectors, torque-sensed seven-DOF arms and five-kilogram rated load per arm. The brochure lists maximum 1.5 m/s movement and four-steering-wheel mobility supporting Ackermann steering, in-place rotation and lateral motion. The page explicitly rates the full machine IP42. Dual-battery hot swapping, autonomous charging and Genie RL support integrated workflows without establishing a fixed battery-only runtime.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-g2-max",
+      "manufacturer": "AGIBOT",
+      "model": "G2 Max",
+      "sources": [
+        {
+          "name": "AGIBOT — Innovation Day release, October 29, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/131.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-35.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "21",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "Up to 40 kg combined dual-arm handling",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/article/231/detail/131.html",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "G2 Max is a heavy-duty force-controlled industrial robot announced at WAIC in July 2026 and formally launched on October 29, 2026. The latter release specifies 21 DOF, up to 40 kg dual-arm handling capacity and an adjustable working height of 0.1–2.5 m. Omnidirectional wheeled mobility supports handling and pallet-related applications. Combined load is not a per-arm rating; whole-body mass, battery endurance and charge duration remain unestablished.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-g2-air",
+      "manufacturer": "AGIBOT",
+      "model": "G2 Air",
+      "sources": [
+        {
+          "name": "AGIBOT — manufacturer release, April 17, 2026",
+          "type": "manufacturer",
+          "url": "https://www.prnewswire.com/news-releases/agibot-unveils-new-generation-of-embodied-ai-robots-and-models-accelerating-real-world-deployment-of-physical-ai-302746195.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-28.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "7 (single manipulator)",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "3 kg",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "≥1.5 m/s (manufacturer release)",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.prnewswire.com/news-releases/agibot-unveils-new-generation-of-embodied-ai-robots-and-models-accelerating-real-world-deployment-of-physical-ai-302746195.html",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "G2 Air is a compact single-arm mobile manipulator announced April 17, 2026 for light-duty human-in-the-loop operations. The manufacturer release lists seven manipulator DOF, three-kilogram payload, 750–800 mm reach, width under 800 mm and speeds of at least 1.5 m/s. A UMI-isomorphic layout combines task execution with data capture. The proposed transition from assisted work to full autonomy is a roadmap, not proof of unsupervised operation.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "Retail, hospitality, logistics and structured indoor industrial workflows",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "armReach": {
+          "value": "750–800 mm",
+          "status": "documented",
+          "note": "Exact manipulator reach only; working height, chassis width and entire robot span are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-d1-pro",
+      "manufacturer": "Agibot",
+      "model": "D1 Pro",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1_Pro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260825/1787630270608055.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-12.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "15.5 kg including battery",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "635 x 360 x 420 mm standing; 675 x 435 x 145 mm lying (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "1–2 h",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "12 total; 3 per leg",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "5 kg",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 3.5 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "Approx. 1 h, 10%–90% SOC at 25°C",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/D1_Pro",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "D1 Pro is the compact 15.5 kg battery-equipped quadruped in the Pro/Edu comparison. Current manufacturer sources list 12 DOF, five-kilogram payload, maximum 3.5 m/s, one-to-two-hour endurance and approximately one-hour charging from 10% to 90% at 25°C. Six-kilometer range is measured unloaded at 1 m/s. SDK-based secondary development is specifically assigned to Edu rather than assumed for Pro.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "16 cm continuous stairs; 35 cm vertical jump; 30° standard / 40° maximum slope",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-d1-edu",
+      "manufacturer": "AGIBOT",
+      "model": "D1 Edu",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1_Pro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260825/1787630270608055.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-12.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "15.5 kg including battery",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "635 x 360 x 420 mm standing; 675 x 435 x 145 mm lying (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "1–2 h",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "12 total; 3 per leg",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "5 kg",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 3.5 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "Approx. 1 h, 10%–90% SOC at 25°C",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/D1_Pro",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "D1 Edu is the compact 15.5 kg battery-equipped quadruped in the Pro/Edu comparison. Current manufacturer sources list 12 DOF, five-kilogram payload, maximum 3.5 m/s, one-to-two-hour endurance and approximately one-hour charging from 10% to 90% at 25°C. Six-kilometer range is measured unloaded at 1 m/s. The Edu version provides SDK/URDF and simulation access for secondary development.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "16 cm continuous stairs; 35 cm vertical jump; 30° standard / 40° maximum slope",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-d1-ultra",
+      "manufacturer": "Agibot",
+      "model": "D1 Ultra",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114891755025.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1Ultra",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-31.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "16 kg including battery",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "630 x 360 x 420 mm standing; 670 x 435 x 145 mm lying (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "1–2 h general operating time; brochure 1 h under load",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "12 total; 3 per leg",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "5 kg",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 3.7 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "IP54",
+          "status": "documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "Approx. 1 h, 10%–90% SOC",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114891755025.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "D1 Ultra is the 16 kg, 12-DOF legged development and inspection quadruped. Its exact technical sheet lists five-kilogram payload, maximum 3.7 m/s and IP54. General operating time is one to two hours; the brochure separately describes one hour loaded. SDK and simulation interfaces support integration, while autonomous missions require the appropriate development and modules.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "16 cm continuous stairs; 35 cm vertical jump; 30° standard / 40° maximum slope",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-d1-max",
+      "manufacturer": "AGIBOT",
+      "model": "D1 Max",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260825/1787637946567916.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1_Max",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-33.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "41 kg including battery",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "930 x 480 x 585 mm standing; 930 x 630 x 200 mm lying (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "PDF: 5±0.5 h unloaded / 3.5±0.5 h fully loaded; HTML: ≥5 / ≥3.5 h",
+          "status": "conflicting",
+          "note": "PDF specifies 5±0.5 h unloaded / 3.5±0.5 h fully loaded; current HTML specifies ≥5 / ≥3.5 h. Lower bounds differ and no revision or test protocol resolves them. Manufacturer laboratory conditions apply."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "12 leg DOF + 4 wheel DOF",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "25 kg",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Maximum 6 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "IP67",
+          "status": "documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "<1.5 h; SOC window not specified",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20260825/1787637946567916.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "D1 Max is a 41 kg wheel-leg quadruped with 25 kg rated load, 12 leg plus four wheel DOF and IP67 protection. Two 504.9 Wh hot-swappable batteries support load-dependent endurance. The PDF reports 5±0.5 h unloaded and 3.5±0.5 h fully loaded, whereas the HTML advertises at least five/3.5 hours; the bounds differ. Twenty-five-centimeter stairs and an 80 cm obstacle test remain separate. Autonomous charging dock is optional.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "25 cm continuous stairs; 80 cm maximum obstacle crossing; 45° maximum slope",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-d1-maxpro",
+      "manufacturer": "AGIBOT",
+      "model": "D1 MaxPro",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260924/1790218091376633.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1_MaxPro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-34.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "68±1 kg including battery",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "1235 x 530 x 735 mm standing; 1313 x 530 x 300 mm lying (L x W x H)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "5.5±0.5 h unloaded; 2 h with 50 kg load",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "12 total; 3 per leg",
+          "status": "documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "50 kg",
+          "status": "documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "Actual product limited to 2 m/s; 3 m/s unloaded laboratory extreme",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "IP67",
+          "status": "documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "Approx. 4.5 h, 10%–90% SOC",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20260924/1790218091376633.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "D1 MaxPro is a 68±1 kg industrial quadruped with 12 DOF, 50 kg payload, 2081 Wh battery and IP67. The manufacturer sheet qualifies the headline 3 m/s laboratory extreme: the actual product is software-limited to 2 m/s. Runtime is 5.5±0.5 hours unloaded or two hours carrying 50 kg; charging from 10% to 90% takes about 4.5 hours. Thirty-centimeter stairs and 20 cm wading have separate scope. Autonomous charging dock remains optional.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "30 cm continuous stairs; 45° slope; up to 20 cm wading; −20°C to 55°C",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-c5",
+      "manufacturer": "AGIBOT",
+      "model": "C5",
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/C5",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-16.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "170 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "3 h scrubbing",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/products/C5",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "C5 is an AGIBOT commercial indoor cleaning robot described in the manufacturer brochure. C5 combines sweeping, scrubbing and dry mopping with LiDAR/vision navigation. Its 550 mm scrubbing width and theoretical 1980 m²/h are manufacturer specifications, not net cleaning productivity. The 25 kg value is scrubbing downforce, not payload. Ninety liters is labelled water tank volume without a separate clean/dirty split; the station tank is 8 L.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "Indoor commercial hard floors",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "workingWidth": {
+          "value": "550 mm scrubbing",
+          "status": "documented",
+          "note": "Scrubbing/cleaning width keeps its named tool scope. Side brush width and squeegee width are not silently substituted."
+        },
+        "areaRate": {
+          "value": "Up to 1,980 m²/h theoretical cleaning efficiency",
+          "status": "documented",
+          "note": "Manufacturer cleaning area per hour; theoretical/maximum and stated operating intervals are not proven net facility throughput."
+        },
+        "waterTankCapacity": {
+          "value": "90 L generic robot water tank; station 8 L",
+          "status": "documented",
+          "note": "Clean, dirty and station tanks retain separate capacities; a single generic water-tank value is not duplicated into both clean and dirty tanks."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit minimum horizontal aisle/gap width only. Minimum overhead clearance height is not aisle width."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-c4",
+      "manufacturer": "AGIBOT",
+      "model": "C4",
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "680 x 510 x 1015 mm (manufacturer dimensions)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "3 h scrubbing",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "1.5 h",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "C4 is an AGIBOT commercial indoor cleaning robot described in the manufacturer brochure. C4 targets small and medium indoor areas with LiDAR/vision localization, automatic map updates and a station for charging, refill/drain and component cleaning. Scrubbing width is 380 mm; side-brush cleaning width 600 mm and squeegee 540 mm. The 1400 m²/h value is a manufacturer maximum, not demonstrated net throughput.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "Indoor commercial hard floors",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "workingWidth": {
+          "value": "380 mm scrubbing; 600 mm side-brush cleaning; 540 mm squeegee",
+          "status": "documented",
+          "note": "Scrubbing/cleaning width keeps its named tool scope. Side brush width and squeegee width are not silently substituted."
+        },
+        "areaRate": {
+          "value": "Up to 1,400 m²/h manufacturer maximum",
+          "status": "documented",
+          "note": "Manufacturer cleaning area per hour; theoretical/maximum and stated operating intervals are not proven net facility throughput."
+        },
+        "waterTankCapacity": {
+          "value": "25 L clean / 25 L dirty; station 4 L",
+          "status": "documented",
+          "note": "Clean, dirty and station tanks retain separate capacities; a single generic water-tank value is not duplicated into both clean and dirty tanks."
+        },
+        "minAisleWidth": {
+          "value": "600 mm",
+          "status": "documented",
+          "note": "Explicit minimum horizontal aisle/gap width only. Minimum overhead clearance height is not aisle width."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-c2",
+      "manufacturer": "AGIBOT",
+      "model": "C2",
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "17.5 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "4 h scrubbing",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "0.4–0.6 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "C2 is an AGIBOT commercial indoor cleaning robot described in the manufacturer brochure. C2 is the 17.5 kg compact cleaner for manufacturer target areas of 500–1000 m². That facility size is not area cleaned per hour. The table lists 300–700 m²/h, 390 mm cleaning width, four-hour scrubbing endurance, 25 Ah battery and two-hour charging. A 39 cm slim body statement does not establish full body dimensions.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "Indoor hard floors and carpet; 10° gradeability",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "workingWidth": {
+          "value": "390 mm cleaning",
+          "status": "documented",
+          "note": "Scrubbing/cleaning width keeps its named tool scope. Side brush width and squeegee width are not silently substituted."
+        },
+        "areaRate": {
+          "value": "300–700 m²/h manufacturer cleaning efficiency",
+          "status": "documented",
+          "note": "Manufacturer cleaning area per hour; theoretical/maximum and stated operating intervals are not proven net facility throughput."
+        },
+        "waterTankCapacity": {
+          "value": "4 L clean / 3.5 L dirty",
+          "status": "documented",
+          "note": "Clean, dirty and station tanks retain separate capacities; a single generic water-tank value is not duplicated into both clean and dirty tanks."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit minimum horizontal aisle/gap width only. Minimum overhead clearance height is not aisle width."
+        }
+      }
+    },
+    {
+      "robotId": "agibot-c2p",
+      "manufacturer": "AGIBOT",
+      "model": "C2P",
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model-specific public price with currency and supplied-system scope established. Legacy approximate USD amounts are withdrawn rather than treated as current offers; no shop retry after HTTP429."
+        },
+        "weight": {
+          "value": "22.5 kg",
+          "status": "documented",
+          "note": "Named model/variant mass in the current manufacturer table; battery inclusion is stated only where explicit. Mass of an adjacent model or optional component is not inherited."
+        },
+        "size": {
+          "value": "520 x 510 x 680 mm (manufacturer overall dimensions)",
+          "status": "documented",
+          "note": "Exact named-model dimensions or explicitly labelled height only. A height is not a full L x W x H envelope; standing, lying, station and packaging dimensions remain separate."
+        },
+        "batteryLife": {
+          "value": "4 h; 2 h continuous operation with a full water tank",
+          "status": "documented",
+          "note": "Manufacturer operating endurance with stated mode/load conditions, not an independent measurement. Continuous operation via battery swapping or charging is not single-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No distinct unconditional maximum operating duration is established. Qualified manufacturer endurance remains in batteryLife; charging, swaps and 24/7 system positioning are not converted into battery runtime."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep whole-body, arm, hand and wheel articulation counting scopes distinct. Counts from neighboring variants are not combined."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named model load with end-effector/per-arm/combined or body-carrying scope preserved. Brush downforce and whole robot weight are not payload."
+        },
+        "speed": {
+          "value": "0.4–0.6 m/s",
+          "status": "documented",
+          "note": "Manufacturer model-specific motion figure with restrictions where given. Travel/inspection/loaded performance is not inferred from a laboratory maximum."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit whole-model ingress rating is retained. Industrial positioning, a sensor/joint IP rating, wading depth and outdoor demos do not establish a whole-robot IP code."
+        },
+        "chargingTime": {
+          "value": "2 h",
+          "status": "documented",
+          "note": "Battery charging time only, with the stated SOC/temperature window where given. Hot swapping, station self-cleaning and water-tank operating intervals are distinct."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named end-effector configuration or option only. Development compatibility does not establish included tooling, finger count or whole-body DOF."
+        },
+        "website": {
+          "value": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for this identity. A historical route returning another model is not used as technical evidence for the historical robot."
+        },
+        "description": {
+          "value": "C2P is an AGIBOT commercial indoor cleaning robot described in the manufacturer brochure. C2P is 22.5 kg with a 520 × 510 × 680 mm envelope, 23 Ah battery and 180–250 m²/h stated cleaning efficiency. C2 mass and productivity are not inherited. The brochure distinguishes four-hour endurance, two-hour continuous operation with a full water tank and two-hour battery charging. The water-limited operating interval is not the charge interval.",
+          "status": "documented",
+          "note": "Synthesis of the named model in current manufacturer sources. Manufacturer positioning and rated figures are attributed; no independently verified outcome or exclusive market advantage is implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit model launch/announcement supports the year. File upload paths, awards and a current document date do not establish first release; announcement is not delivery availability."
+        },
+        "terrain": {
+          "value": "Indoor hard floors and carpet; 8° gradeability; 30 mm obstacle clearance",
+          "status": "documented",
+          "note": "Stated use environment or model-specific obstacle capability. An isolated step, continuous staircase, vertical jump and slope are distinct limits; RL locomotion is not included autonomous mission navigation."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research and education positioning is not a chronological user-age rating."
+        },
+        "workingWidth": {
+          "value": "390 mm cleaning",
+          "status": "documented",
+          "note": "Scrubbing/cleaning width keeps its named tool scope. Side brush width and squeegee width are not silently substituted."
+        },
+        "areaRate": {
+          "value": "180–250 m²/h manufacturer cleaning efficiency",
+          "status": "documented",
+          "note": "Manufacturer cleaning area per hour; theoretical/maximum and stated operating intervals are not proven net facility throughput."
+        },
+        "waterTankCapacity": {
+          "value": "4 L clean / 3.5 L dirty",
+          "status": "documented",
+          "note": "Clean, dirty and station tanks retain separate capacities; a single generic water-tank value is not duplicated into both clean and dirty tanks."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit minimum horizontal aisle/gap width only. Minimum overhead clearance height is not aisle width."
         }
       }
     }

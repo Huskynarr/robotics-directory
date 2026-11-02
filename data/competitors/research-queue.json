@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T16:25:14.366Z",
+  "generatedAt": "2026-11-02T16:49:17.908Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 385,
-    "withoutSelectedFieldReview": 133,
-    "selectedFields": 6362,
+    "withSelectedFieldReview": 387,
+    "withoutSelectedFieldReview": 131,
+    "selectedFields": 6410,
     "selectedFieldStatuses": {
-      "documented": 2881,
-      "not-documented": 3312,
+      "documented": 2906,
+      "not-documented": 3335,
       "conflicting": 158,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 87,
+    "sourceGroupsWithCompanyAuthoredFocus": 88,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -331,27 +331,6 @@
         "makeblock-mbot-ultimate-2-0",
         "makeblock-mbot2-rover-robotics-kit",
         "makeblock-mtiny"
-      ]
-    },
-    {
-      "brandId": "agibot",
-      "name": "AgiBot",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/agibot"
-      ],
-      "catalogModels": 14,
-      "reviewedReferenceTargets": 3,
-      "withDatedHighlights": 3,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 1,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "agibot-g2",
-        "agibot-d1-ultra-w",
-        "agibot-g2-air"
       ]
     },
     {
@@ -3299,6 +3278,27 @@
       ]
     },
     {
+      "brandId": "agibot",
+      "name": "AgiBot",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/agibot"
+      ],
+      "catalogModels": 27,
+      "reviewedReferenceTargets": 3,
+      "withDatedHighlights": 3,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 3,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "agibot-g2",
+        "agibot-d1-ultra-w",
+        "agibot-g2-air"
+      ]
+    },
+    {
       "brandId": "avidbots",
       "name": "Avidbots",
       "aliases": [],
@@ -4055,14 +4055,14 @@
       "sourceUrls": [
         "https://buyandrentrobots.com/companies/agibot"
       ],
-      "catalogModels": 14,
+      "catalogModels": 27,
       "reviewedReferenceTargets": 3,
       "withDatedHighlights": 3,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 1,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 3,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "agibot-g2",
         "agibot-d1-ultra-w",
@@ -15472,24 +15472,55 @@
       "brandId": "agibot",
       "category": "humanoid",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "Agibot",
+          "name": "AGIBOT — named product or technical sheet",
           "type": "manufacturer",
           "url": "https://www.agibot.com/products/G2",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 7,
+        "not-documented": 10,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/G2",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -15511,35 +15542,53 @@
       "brandId": "agibot",
       "category": "quadruped",
       "hasDatedHighlights": true,
-      "highlightStatements": 4,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "AGIBOT — D1 Ultra-W model-specific technical specification",
+          "name": "AGIBOT — named product or technical sheet",
           "type": "manufacturer",
           "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114917251810.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "AGIBOT — D1 Ultra-W manufacturer flyer",
+          "name": "AGIBOT — named product or technical sheet",
           "type": "manufacturer",
-          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114994422769.pdf",
-          "checkedAt": "2026-11-01"
+          "url": "https://www.agibot.com/filepage/300.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "hasSelectedFieldReview": true,
-      "selectedFields": 2,
+      "selectedFields": 16,
       "selectedFieldStatuses": {
-        "documented": 1,
-        "not-documented": 1,
+        "documented": 11,
+        "not-documented": 5,
         "conflicting": 0,
         "roadmap": 0
       },
       "specificationSources": [
         {
-          "name": "AGIBOT",
+          "name": "AGIBOT — named product or technical sheet",
           "type": "manufacturer",
           "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114917251810.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/filepage/300.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "sourceReferences": [
@@ -15566,21 +15615,28 @@
       "highlightStatements": 4,
       "highlightSources": [
         {
-          "name": "AGIBOT — April 17, 2026 manufacturer announcement distributed by PRNewswire",
+          "name": "AGIBOT — manufacturer release, April 17, 2026",
           "type": "manufacturer",
           "url": "https://www.prnewswire.com/news-releases/agibot-unveils-new-generation-of-embodied-ai-robots-and-models-accelerating-real-world-deployment-of-physical-ai-302746195.html",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 8,
+        "not-documented": 9,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "AGIBOT — manufacturer release, April 17, 2026",
+          "type": "manufacturer",
+          "url": "https://www.prnewswire.com/news-releases/agibot-unveils-new-generation-of-embodied-ai-robots-and-models-accelerating-real-world-deployment-of-physical-ai-302746195.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

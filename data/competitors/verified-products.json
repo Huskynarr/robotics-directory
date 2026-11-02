@@ -24241,79 +24241,126 @@
         "category": "quadruped",
         "manufacturer": "AGIBOT",
         "model": "D1 Ultra-W",
-        "price": "Not disclosed",
+        "price": "",
         "weight": "22 kg including battery",
-        "size": "630 x 430 x 485 mm standing (L x W x H)",
-        "batteryLife": "1–2 hours",
+        "size": "630 x 430 x 485 mm standing; 690 x 540 x 165 mm lying (L x W x H)",
+        "batteryLife": "1–2 h general operating time; brochure 1 h under load",
         "maxRuntime": "",
-        "dof": "16",
+        "tags": "research;commercial;quadruped;dev-platform",
+        "handType": "",
+        "dof": "16 total; 4 per leg",
         "payload": "5 kg",
-        "speed": "3.7 m/s maximum",
+        "speed": "Maximum 3.7 m/s",
+        "terrain": "16 cm continuous stairs; 60 cm maximum climbing height; 35 cm vertical jump; 30° standard / 40° maximum slope",
         "ipRating": "IP54",
-        "tags": "commercial;research;dev-platform;inspection;wheeled;quadruped;wifi;bluetooth",
+        "ageRange": "",
         "website": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114917251810.pdf",
-        "description": "Wheel-leg quadruped platform for patrol, inspection and research. The model-specific manufacturer sheet lists 16 degrees of freedom, a 5 kg effective payload and SDK/simulation interfaces including Isaac Sim. Wi-Fi and Bluetooth support communication. Laboratory ratings depend on operating conditions; autonomous navigation is described as an expansion capability rather than a universal included behavior.",
-        "chargingTime": "about 1 hour from 10% to 90%"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "D1 Ultra-W is the wheel-leg 22 kg, 16-DOF development and inspection quadruped. Its exact technical sheet lists five-kilogram payload, maximum 3.7 m/s and IP54. General operating time is one to two hours; the brochure separately describes one hour loaded. SDK and simulation interfaces support integration, while autonomous missions require the appropriate development and modules.",
+        "releaseDate": "",
+        "chargingTime": "Approx. 1 h, 10%–90% SOC"
       },
       "highlights": [
-        "Wheel-leg configuration combines wheeled travel with articulated legs",
-        "Model-specific sheet lists 22 kg including battery and a 5 kg effective payload",
-        "SDK, robot models and simulation interfaces support secondary development",
-        "Published endurance is 1–2 hours; 10–90% charging takes about one hour"
+        "D1 Ultra-W has 22 kg battery-equipped mass and 16 DOF, four per leg. Wheels distinguish it from the 16 kg, 12-DOF legged Ultra.",
+        "The exact sheet lists a 5 kg effective payload, maximum 3.7 m/s and IP54. Splash resistance is not unrestricted immersion or an independent industrial certification.",
+        "The technical sheet lists 16 cm continuous stair-climbing and a separate 60 cm maximum climbing height. Those figures are not interchangeable.",
+        "General operating time is 1–2 h; the brochure specifies 1 h loaded. Approximately one-hour charging covers 10%–90% SOC, not a full discharge-to-full recharge.",
+        "SDK/simulation interfaces and optional sensing modules support development. RL gait adaptation and tracking interface support do not prove included autonomous inspection navigation."
       ],
       "sources": [
         {
-          "name": "AGIBOT — D1 Ultra-W model-specific technical specification",
+          "name": "AGIBOT — named product or technical sheet",
           "type": "manufacturer",
           "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114917251810.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "AGIBOT — D1 Ultra-W manufacturer flyer",
+          "name": "AGIBOT — named product or technical sheet",
           "type": "manufacturer",
-          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114994422769.pdf",
-          "checkedAt": "2026-11-01"
+          "url": "https://www.agibot.com/filepage/300.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/6eff36d7-d2c0-4399-981a-ffecfe64423d"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-22/agibot.com-file-ueditor-php-upload-file-20260911-1789114917251810.pdf.json",
-      "reviewNotes": "Exact Ultra-W sources are linked by the manufacturer document center. No 16 kg Ultra figure or D1 Max/MaxPro values transferred. Standing size distinguished from lying-down size. maxRuntime is the repository charging-duration field and is explicitly a partial 10–90% charge. 16 DOF is whole-machine, four per leg. IP54 is manufacturer stated; performance values are laboratory figures. General autonomous-navigation expansion is not claimed as shipped fully autonomous functionality. No launch year inferred from PDF upload date."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-32.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
     },
     {
       "row": {
         "category": "commercial",
         "manufacturer": "AGIBOT",
         "model": "G2 Air",
-        "price": "Not disclosed",
-        "dof": "7 (manipulator)",
-        "payload": "3 kg manufacturer-stated",
-        "terrain": "indoor",
-        "tags": "commercial;research;mobile-manipulator;logistics;retail;teleoperation",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "",
+        "dof": "7 (single manipulator)",
+        "payload": "3 kg",
+        "speed": "≥1.5 m/s (manufacturer release)",
+        "terrain": "Retail, hospitality, logistics and structured indoor industrial workflows",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.prnewswire.com/news-releases/agibot-unveils-new-generation-of-embodied-ai-robots-and-models-accelerating-real-world-deployment-of-physical-ai-302746195.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "G2 Air is a compact single-arm mobile manipulator announced April 17, 2026 for light-duty human-in-the-loop operations. The manufacturer release lists seven manipulator DOF, three-kilogram payload, 750–800 mm reach, width under 800 mm and speeds of at least 1.5 m/s. A UMI-isomorphic layout combines task execution with data capture. The proposed transition from assisted work to full autonomy is a roadmap, not proof of unsupervised operation.",
         "releaseDate": "2026",
-        "description": "Single-arm mobile manipulator announced April 17, 2026 for light-duty, human-in-the-loop work. AGIBOT describes 7 DOF, a 750–800 mm manipulator reach, a footprint under 800 mm wide and zero-radius turning. Task execution and data capture share a workflow, using a UMI-isomorphic layout. Assisted operation and a planned path toward more autonomy are distinct from proven unsupervised deployment."
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "750–800 mm",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
-        "Single-arm mobile manipulator supports light-duty assisted operations",
-        "Task execution and real-time data collection share one workflow",
-        "Manufacturer describes 750–800 mm reach and a body under 800 mm wide",
-        "UMI-isomorphic layout aligns egocentric and robot-operation data"
+        "The April 17, 2026 release specifies seven manipulator DOF, 3 kg payload and 750–800 mm reach. These are arm parameters, not a full-body joint count.",
+        "Width below 800 mm and zero-radius turning support constrained spaces; width is not a complete body envelope. The release states speeds of ≥1.5 m/s without establishing an exact maximum.",
+        "Human-in-the-loop task execution and real-time data capture share a UMI-isomorphic layout. Full autonomy is an upgrade path rather than a demonstrated stock capability.",
+        "Current price, robot mass, exact battery-only endurance, IP rating and battery charge duration remain unestablished by the selected release."
       ],
       "sources": [
         {
-          "name": "AGIBOT — April 17, 2026 manufacturer announcement distributed by PRNewswire",
+          "name": "AGIBOT — manufacturer release, April 17, 2026",
           "type": "manufacturer",
           "url": "https://www.prnewswire.com/news-releases/agibot-unveils-new-generation-of-embodied-ai-robots-and-models-accelerating-real-world-deployment-of-physical-ai-302746195.html",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/7b709253-de5c-407e-a307-e5157f88cecb"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-22/prnewswire.com-news-releases-agibot-unveils-new-generation-of-embodied-ai-robots-and-models-accelerating-real-world-deployment-of-physical-ai-302746195.html.json",
-      "reviewNotes": "G2 Air is explicitly separate from dual-arm G2 and G2 Max. The release states a 3 kg payload without a per-arm versus complete-robot definition, so no additional interpretation is added. Published speed ≥1.5 m/s is not imported as a maximum. No G2/G2 Max mass, arm count, battery, lifting mechanism or autonomy level transferred. Upgrade path to full autonomy is a development claim, not proof of current unsupervised capability."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-28.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
     },
     {
       "row": {
@@ -25011,27 +25058,61 @@
         "category": "humanoid",
         "manufacturer": "Agibot",
         "model": "G2",
-        "website": "https://www.agibot.com/products/G2"
+        "price": "",
+        "weight": "",
+        "size": "760 x 640 x 1225–1795 mm (L x W x H)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "",
+        "dof": "26 excluding end effectors; 7-DOF arm",
+        "payload": "5 kg per arm",
+        "speed": "Maximum 1.5 m/s",
+        "terrain": "",
+        "ipRating": "IP42",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/G2",
+        "image": "images/humanoid/agibot-g2.webp",
+        "video": "",
+        "gallery": "",
+        "description": "G2 is a wheeled industrial manipulation platform with 26 DOF excluding end effectors, torque-sensed seven-DOF arms and five-kilogram rated load per arm. The brochure lists maximum 1.5 m/s movement and four-steering-wheel mobility supporting Ackermann steering, in-place rotation and lateral motion. The page explicitly rates the full machine IP42. Dual-battery hot swapping, autonomous charging and Genie RL support integrated workflows without establishing a fixed battery-only runtime.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
       },
       "highlights": [
-        "Industrial embodied-operation platform with manufacturer-stated IP42 protection",
-        "Force-controlled operation and Genie RL are positioned for assembly and deployment",
-        "Interaction features include expressive animations, multi-user conversation and gaze tracking"
+        "The brochure specifies 26 DOF excluding end effectors, seven-DOF torque-sensed arms, 5 kg single-arm rated payload and maximum movement speed 1.5 m/s.",
+        "Dimensions are 760 × 640 × 1225–1795 mm. Four steering wheels support Ackermann steering, in-place rotation and omnidirectional lateral motion.",
+        "The dedicated page states full-machine IP42. Sub-millimeter assembly positioning does not establish an exact numeric pose-repeatability rating.",
+        "The brochure names Jetson T5000 with 2070 TFLOPS (FP4), plus multiple cameras, LiDAR and ultrasonic sensors. This precision-specific compute figure is not silently converted to TOPS.",
+        "The July 2026 manufacturer release reports a defined tablet-line deployment at Longcheer with roughly 3000 units per shift and over 64 cumulative hours. These are reported deployment outcomes, not battery life, G2 Max throughput or independent testing."
       ],
       "sources": [
         {
-          "name": "Agibot",
+          "name": "AGIBOT — named product or technical sheet",
           "type": "manufacturer",
           "url": "https://www.agibot.com/products/G2",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/959f83ab-9850-4b3e-8995-eb6844a3b030"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-23/agibot.com-products-G2.json",
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-9.html",
       "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. G2 only; no G2 Air or G2 Max values transferred. Sub-millimeter marketing claim is not a calibrated repeatability specification."
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
     },
     {
       "row": {
@@ -53490,6 +53571,1166 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-95/source-10.html",
       "discoveredIn": [],
       "reviewNotes": "Twelve Rainbow Robotics current,historical and announced identities reviewed across218 selected fields. Six added named platforms include four RBM AMRs and two coming-soon models. Existing RB-Y1 review expanded with official DOF and historical/current speed disagreements retained. KAIST developer sources and government event attribution remain distinct from manufacturer technical tables. RBQ-3 identity is supported by2021 manufacturer event reports,not the current RBQ10 manual. University-era lineage,teleoperation,optional modules,charger power and battery energy are not indiscriminately transferred. Gated catalogs requiring personal-details consent were not requested. Full historical/regional scope,present historical availability,roadmap fulfillment and independent outcomes remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "A2 Ultra",
+        "price": "",
+        "weight": "Approx. 69 kg",
+        "size": "30 x 75 x 169 cm (L x W x H)",
+        "batteryLife": "3 h standing; 1.5 h+ walking",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "6-DOF dexterous hand per hand",
+        "dof": "40 total; 7 per arm; 6 per leg",
+        "payload": "Approx. 2 kg maximum arm load",
+        "speed": "Maximum 1.2 m/s",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/A2_Ultra",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "A2 Ultra is a full-size reception, exhibition and performance humanoid. Its own table lists approximately 69 kg, 40 total DOF, seven per arm and LiDAR/RGB-D/RGB/fisheye sensing with Jetson Orin 64G. Standing and walking endurance are separate; hot swapping and two-hour charging do not establish 24-hour battery life.",
+        "releaseDate": "",
+        "chargingTime": "2 h",
+        "armReach": ""
+      },
+      "highlights": [
+        "A2 Ultra: approximately 69 kg, 40 total DOF and seven per arm; its 6-DOF hands retain a separate counting scope.",
+        "The Ultra column includes 3D LiDAR, RGB-D, RGB and fisheye cameras, Jetson Orin 64G and Wi-Fi/4G/5G.",
+        "Standing endurance is three hours and walking 1.5 h+. The 14.4 Ah battery supports swapping; listed charging time is two hours.",
+        "The model columns list the same 169 cm height, 75 cm width, 30 cm length and approximately 2 kg maximum arm load. Figures are manufacturer ratings; current public price and exact first-release date remain unestablished."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A2_Ultra",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-3.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "A2 Lite",
+        "price": "",
+        "weight": "Approx. 64 kg",
+        "size": "30 x 75 x 169 cm (L x W x H)",
+        "batteryLife": "4.5 h standing; 1.5 h+ walking",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "",
+        "dof": "23 total; 5 per arm; 6 per leg",
+        "payload": "Approx. 2 kg maximum arm load",
+        "speed": "Maximum 0.8 m/s",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/A2_Pro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "A2 Lite is the lower-specification full-size performance humanoid in the A2 Ultra/Lite comparison. Its column lists approximately 64 kg, 23 total DOF and five per arm, with a maximum 0.8 m/s speed. The table omits the Ultra perception suite, dexterous hand and high-performance board. Group choreography and optional VR tools do not establish Ultra autonomous navigation.",
+        "releaseDate": "",
+        "chargingTime": "2 h",
+        "armReach": ""
+      },
+      "highlights": [
+        "A2 Lite: approximately 64 kg, 23 total DOF and five per arm. The page route A2_Pro is not evidence of a separate robot named A2 Pro.",
+        "The Lite column lists Wi-Fi and omits the Ultra perception suite and high-performance board; optional VR motion creation does not supply those capabilities.",
+        "Standing endurance is 4.5 hours and walking 1.5 h+. The 14.4 Ah battery supports swapping; listed charging time is two hours.",
+        "The model columns list the same 169 cm height, 75 cm width, 30 cm length and approximately 2 kg maximum arm load. Figures are manufacturer ratings; current public price and exact first-release date remain unestablished."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A2_Pro",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-6.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "Agibot",
+        "model": "A2",
+        "price": "",
+        "weight": "69 kg",
+        "size": "169 cm height",
+        "batteryLife": "2 h; battery swapping supported",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "Dexterous hand; detailed configuration not established",
+        "dof": "40+ active DOF",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/A2",
+        "image": "images/humanoid/agibot-a2.webp",
+        "video": "https://www.youtube.com/embed/DQHGV3hrnL0",
+        "gallery": "",
+        "description": "A2 is the named interactive service humanoid for reception, exhibition guidance and business inquiries. Its current dedicated page lists 169 cm height, 69 kg, a 700 Wh battery, two-hour runtime and 40+ active DOF. It combines LiDAR, RGB-D/fisheye sensing and dialogue customization. This A2 page is kept distinct from A2 Ultra/Lite and the legacy A2-W identity.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "The dedicated A2 page lists 169 cm height and 69 kg, replacing an unsupported 60 kg catalog value. A2 Ultra and Lite tables are separate configurations.",
+        "A 700 Wh battery and two-hour stated runtime are listed with battery swapping support. The earlier four-hour figure is not retained as a current manufacturer rating.",
+        "The page states 40+ active DOF and shows dexterous hands, LiDAR, RGB-D, fisheye cameras and force/torque sensors. Component details do not establish an exact arm payload or navigation accuracy.",
+        "Reception, enterprise knowledge bases and guided presentations are manufacturer use cases. The selected page does not establish current price, charging duration or original launch year."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A2",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-17.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "A3 Ultra",
+        "price": "",
+        "weight": "60 kg",
+        "size": "174 cm height",
+        "batteryLife": "Up to 8 h combined operation",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "Advanced OmniHand; brochure describes up to 20 DOF per hand",
+        "dof": "51 active DOF (July 2026 announcement)",
+        "payload": "5 kg per arm (July 2026 announcement)",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/article/231/detail/85.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "A3 Ultra is a 174 cm, 60 kg commercial humanoid announced at WAIC on July 18, 2026. Its model announcement specifies 51 active DOF, five-kilogram payload per arm and up to eight hours combined operation. The brochure describes UWB/RTK positioning, LiDAR/camera sensing, autonomous plug-in charging and ten-second battery swapping. A3 base specifications of 55 kg and ten hours do not transfer to Ultra.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "A3 Ultra has its own 174 cm, 60 kg and up-to-eight-hour specification. The base A3 values of 173 cm, 55 kg and ten hours are not inherited.",
+        "The July 18, 2026 manufacturer announcement explicitly states 51 active DOF and a five-kilogram payload per arm. The brochure describes an advanced hand with up to 20 DOF; hand and whole-body counts are not added.",
+        "The brochure describes 700 TOPS compute, LiDAR/surround/depth sensing and UWB indoor plus RTK outdoor positioning with a manufacturer accuracy claim below ±1 cm. This is not an independent navigation benchmark.",
+        "Autonomous plug-in charging and ten-second battery swapping support continuing workflows. Neither the swap interval nor 24/7 positioning is charge time or battery-only endurance."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A3Ultra",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-36.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "A3",
+        "price": "",
+        "weight": "55 kg",
+        "size": "173 cm height",
+        "batteryLife": "Up to 10 h; dual battery configuration",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/A3",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "A3 is the full-size 173 cm, 55 kg performance humanoid launched in 2026. The manufacturer brochure lists a dual-battery configuration labelled 1152 Wh, up-to-ten-hour endurance, hot swapping and fleet choreography for over 100 robots. UWB positioning and LinkCraft motion creation support coordinated performances. Whole-body DOF, exact arm payload and charging duration are not established by the selected text.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "Base A3 retains 173 cm height, 55 kg and up-to-ten-hour endurance. Its mass and endurance are distinct from A3 Ultra.",
+        "The brochure labels the dual-battery configuration 1152 Wh and describes ten-second battery swapping without shutdown. It does not establish a ten-second recharge or battery capacity per pack.",
+        "LinkCraft motion creation and coordinated fleet performances of 100+ robots are described. The UWB single-unit accuracy claim below ±10 cm is a manufacturer figure, not independent proof.",
+        "The 2026 launch is explicit in the brochure. Acrobatic capability and 12 kW instantaneous power are performance positioning rather than an arm payload or a whole-body DOF count."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/A3",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-5.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "Agibot",
+        "model": "Lingxi X1",
+        "price": "",
+        "weight": "33 kg",
+        "size": "130 cm height",
+        "batteryLife": "2 h",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "",
+        "dof": "34 active DOF",
+        "payload": "0.5 kg per arm",
+        "speed": "Maximum 1 m/s",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/X1",
+        "image": "images/humanoid/agibot-lingxi-x1.webp",
+        "video": "",
+        "gallery": "",
+        "description": "X1, retained under the catalog name Lingxi X1, is a modular open-source humanoid platform for development. Its dedicated page lists 130 cm height, 33 kg, 34 active DOF, a 0.5 kg load per arm, two-hour runtime and maximum 1 m/s walking speed. PowerFlow actuators, controllers and an adaptive gripper are component ecosystem entries rather than additional complete X1 robots.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "The current X1 specification states 34 active DOF, 130 cm height, 33 kg and a maximum 1 m/s walking speed.",
+        "Rated arm load is 0.5 kg per arm and stated runtime is two hours. No maximum guarantee, battery charge duration or first-release year follows from those values.",
+        "The manufacturer positions X1 as full-stack open source with modular construction. PowerFlow joints, the DCU controller and OmniPicker on the same page are components; a listed gripper is not assumed to be included in every configuration."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X1",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-7.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "Agibot",
+        "model": "Lingxi X2",
+        "price": "",
+        "weight": "35 kg (current base X2)",
+        "size": "131 cm height (current base X2)",
+        "batteryLife": "2 h; 500 Wh (current base X2)",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "",
+        "dof": "25 total; 5 per arm (current base X2)",
+        "payload": "3 kg maximum end-effector payload",
+        "speed": "Maximum 2 m/s",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/X2",
+        "image": "images/humanoid/agibot-lingxi-x2.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The catalog Lingxi X2 entry represents current base X2 specifications, rather than a mixture of X2 variants. The brochure lists 131 cm height, 35 kg, 25 total DOF, five per arm, a 3 kg maximum end-effector payload and two-hour 500 Wh endurance. The series page explicitly excludes Ultra navigation and obstacle-avoidance features from base X2. Historic Lingxi naming does not establish identical specifications across revisions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "Current base X2 is 131 cm and 35 kg with 25 total DOF and five per arm. The former 30-DOF value belongs to other X2 configurations and is not combined with base mass.",
+        "The base table lists two-hour endurance with 500 Wh, maximum 2 m/s walking speed and a 3 kg maximum end-effector payload.",
+        "The series page explicitly says base X2 does not support the Ultra autonomous navigation and obstacle-avoidance functions. Base computing is RK3588/RK3588S with interactive RGB perception.",
+        "The existing Lingxi X2 identity is retained as the base catalog entry to avoid an unsupported duplicate. Historical revisions, an approximate legacy USD price and first-release date are not verified by the current base table."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X2",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-8.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "X2 Ultra",
+        "price": "",
+        "weight": "39 kg",
+        "size": "131 cm height",
+        "batteryLife": "2 h; 500 Wh",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "Optional dexterous hands or grippers",
+        "dof": "30 total; 7 per arm",
+        "payload": "3 kg maximum end-effector payload",
+        "speed": "Maximum 2 m/s",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "X2 Ultra is a distinct X2 configuration in the manufacturer brochure. Ultra combines interactive/binocular RGB, RGB-D, rear camera and LiDAR sensing with NVIDIA Orin NX 16 GB. The brochure lists 39 kg and 30 total DOF. Navigation, mapping and obstacle avoidance are described for Ultra. Autonomous charging requires the optional charging dock; BVLOS teleoperation requires optional VR accessories.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "Ultra combines interactive/binocular RGB, RGB-D, rear camera and LiDAR sensing with NVIDIA Orin NX 16 GB. The brochure lists 39 kg and 30 total DOF.",
+        "Navigation, mapping and obstacle avoidance are described for Ultra. Autonomous charging requires the optional charging dock; BVLOS teleoperation requires optional VR accessories.",
+        "The three-kilogram value is maximum end-effector payload. Current public price, whole-robot IP rating and charge duration are not established."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X2",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "X2 REC",
+        "price": "",
+        "weight": "40 kg",
+        "size": "131 cm height",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "OmniHand or OmniPicker 3 configuration",
+        "dof": "30 total; 7 per arm",
+        "payload": "3 kg maximum end-effector payload",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "X2 REC is a distinct X2 configuration in the manufacturer brochure. REC is a 40 kg, 30-DOF data-acquisition configuration with seven DOF per arm and NVIDIA Orin NX 16 GB. Its wrist RGB-D cameras and VR teleoperation distinguish it from base X2. The brochure describes full-body teleoperation and Genie Studio acquisition/training/testing/deployment integration. Adjacent base-model speed, 500 Wh and endurance are not automatically assigned to REC.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "REC is a 40 kg, 30-DOF data-acquisition configuration with seven DOF per arm and NVIDIA Orin NX 16 GB. Its wrist RGB-D cameras and VR teleoperation distinguish it from base X2.",
+        "The brochure describes full-body teleoperation and Genie Studio acquisition/training/testing/deployment integration. Adjacent base-model speed, 500 Wh and endurance are not automatically assigned to REC.",
+        "The three-kilogram value is maximum end-effector payload. Current public price, whole-robot IP rating and charge duration are not established."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X2",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "X2 EDU",
+        "price": "",
+        "weight": "35 kg",
+        "size": "130 cm height including dummy head",
+        "batteryLife": "2 h; 500 Wh",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "Optional grippers, dummy hands or dummy fists",
+        "dof": "29 total; 7 per arm",
+        "payload": "3 kg maximum end-effector payload",
+        "speed": "Maximum 1.8 m/s",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "X2 EDU is a distinct X2 configuration in the manufacturer brochure. EDU is a 29-DOF, 35 kg research/assembly platform with seven DOF per arm. Its 130 cm height includes the dummy head. RK3588 compute, motion-control interfaces and configurable sensor/compute expansion support development. The 1.8 m/s maximum and two-hour 500 Wh endurance remain EDU-specific. Assembly/disassembly and component-kit procurement are explicit use cases. Optional grippers, dummy hands and fists are not an included fully dexterous hand.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "EDU is a 29-DOF, 35 kg research/assembly platform with seven DOF per arm. Its 130 cm height includes the dummy head.",
+        "RK3588 compute, motion-control interfaces and configurable sensor/compute expansion support development. The 1.8 m/s maximum and two-hour 500 Wh endurance remain EDU-specific.",
+        "Assembly/disassembly and component-kit procurement are explicit use cases. Optional grippers, dummy hands and fists are not an included fully dexterous hand.",
+        "The three-kilogram value is maximum end-effector payload. Current public price, whole-robot IP rating and charge duration are not established."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/X2",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "Agibot",
+        "model": "Genie G1",
+        "price": "",
+        "weight": "150 kg",
+        "size": "130–180 cm height; 70 cm span",
+        "batteryLife": "4 h+",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "6-DOF end effector; replaceable with two-finger gripper",
+        "dof": "20 excluding end effector in table; narrative states 26 total, counting scope unspecified",
+        "payload": "3 kg object held with one arm during continuous operation",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/G1",
+        "image": "images/humanoid/agibot-genie-g1.webp",
+        "video": "",
+        "gallery": "",
+        "description": "G1, retained under catalog name Genie G1, is a wheeled data-collection and model-inference platform. Its current page lists 150 kg, 130–180 cm adjustable height, 70 cm span, Jetson AGX Orin 64GB and over four hours runtime. The table states 20 DOF excluding the end effector while prose states 26 total without a complete counting breakdown; both scopes remain explicit. VR capture, force sensors and multiple cameras support data acquisition.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "G1 is a wheeled data-collection/model-inference platform with 150 kg mass, 130–180 cm height, 70 cm span and 4 h+ runtime.",
+        "The table states 20 DOF excluding the end effector, while narrative states 26 total. A six-DOF end effector is replaceable with a two-finger gripper; the full counting breakdown is not established.",
+        "The page describes continuous operation holding a 3 kg object with one arm, six-axis arm force sensors, RGB-D/fisheye cameras, chassis LiDAR and Jetson AGX Orin 64GB.",
+        "VR/motion capture and end-cloud data validation support recording workflows. Millisecond latency positioning is not a measured navigation accuracy or guaranteed autonomous task success."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/G1",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-11.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "G1 MAX",
+        "price": "",
+        "weight": "230 kg",
+        "size": "770 x 620 x 1630 mm (L x W x H)",
+        "batteryLife": "5 h; 2 kWh battery; hot swapping supported",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "",
+        "dof": "7 per arm; whole-body count not established",
+        "payload": "5 kg per arm",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/G1_MAX",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "G1 MAX is a wheeled dual-arm industrial manipulation platform with a 770 x 620 x 1630 mm envelope and 230 kg mass. Its current page lists seven DOF and five-kilogram load per arm, 0–2 m working height, 2 kWh battery, five-hour runtime and two-hour charging. Four-wheel drive, in-place rotation, crab motion, depth/vision sensing and open interfaces support integration. It is not treated as an alias of historical A2-W.",
+        "releaseDate": "",
+        "chargingTime": "2 h",
+        "armReach": ""
+      },
+      "highlights": [
+        "G1 MAX has its own 230 kg, 770 × 620 × 1630 mm specification, seven DOF per arm and 5 kg single-arm load.",
+        "The page lists 0–2 m working height, four-wheel drive, zero-radius turning and crab motion. Working height is not arm reach or a body articulation count.",
+        "The 2 kWh battery has five-hour stated runtime and two-hour charging with hot swapping support. Depth/vision sensing and open interfaces support flexible manufacturing applications.",
+        "Similar mass and layout do not prove equivalence with the legacy Yuanzheng A2-W. These remain separate identities pending direct manufacturer mapping."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/G1_MAX",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-10.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "AGIBOT",
+        "model": "G2 Max",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;commercial;humanoid;embodied-ai",
+        "handType": "",
+        "dof": "21",
+        "payload": "Up to 40 kg combined dual-arm handling",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/article/231/detail/131.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "G2 Max is a heavy-duty force-controlled industrial robot announced at WAIC in July 2026 and formally launched on October 29, 2026. The latter release specifies 21 DOF, up to 40 kg dual-arm handling capacity and an adjustable working height of 0.1–2.5 m. Omnidirectional wheeled mobility supports handling and pallet-related applications. Combined load is not a per-arm rating; whole-body mass, battery endurance and charge duration remain unestablished.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "armReach": ""
+      },
+      "highlights": [
+        "The October 29, 2026 launch release specifies 21 DOF, up to 40 kg combined dual-arm handling and 0.1–2.5 m adjustable working height.",
+        "Force-controlled manipulation and omnidirectional wheeled mobility target industrial material handling and logistics. Forty kilograms is not assigned to each arm.",
+        "The July 18 announcement describes battery replacement and autonomous charging. Neither establishes runtime or charge duration; G2 production-line case metrics are not transferred to G2 Max.",
+        "AHA3 hardware architecture, Link-U OS and GO-3 Preview announced at the same event are architecture/software/model offerings, not additional fully specified robot products."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — Innovation Day release, October 29, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/131.html",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — WAIC release, July 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/article/231/detail/85.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-35.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "quadruped",
+        "manufacturer": "Agibot",
+        "model": "D1 Pro",
+        "price": "",
+        "weight": "15.5 kg including battery",
+        "size": "635 x 360 x 420 mm standing; 675 x 435 x 145 mm lying (L x W x H)",
+        "batteryLife": "1–2 h",
+        "maxRuntime": "",
+        "tags": "research;commercial;quadruped;dev-platform",
+        "handType": "",
+        "dof": "12 total; 3 per leg",
+        "payload": "5 kg",
+        "speed": "Maximum 3.5 m/s",
+        "terrain": "16 cm continuous stairs; 35 cm vertical jump; 30° standard / 40° maximum slope",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/D1_Pro",
+        "image": "images/quadruped/agibot-d1-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "D1 Pro is the compact 15.5 kg battery-equipped quadruped in the Pro/Edu comparison. Current manufacturer sources list 12 DOF, five-kilogram payload, maximum 3.5 m/s, one-to-two-hour endurance and approximately one-hour charging from 10% to 90% at 25°C. Six-kilometer range is measured unloaded at 1 m/s. SDK-based secondary development is specifically assigned to Edu rather than assumed for Pro.",
+        "releaseDate": "",
+        "chargingTime": "Approx. 1 h, 10%–90% SOC at 25°C"
+      },
+      "highlights": [
+        "D1 Pro: 15.5 kg with battery, 12 DOF and 5 kg rated payload. Current speed is 3.5 m/s, replacing the old Pro catalog value of 3.7 m/s.",
+        "Continuous stairs of 16 cm, vertical jump of 35 cm and 30° standard/40° maximum slope describe different mobility tests.",
+        "One-to-two-hour operating endurance is distinct from approximately one-hour 10%–90% charging at 25°C. Six-kilometer ±1 km range is measured unloaded at 1 m/s.",
+        "The Pro/Edu sources explicitly assign SDK-based secondary development to Edu. Pro locomotion control and standard remote operation do not establish the same developer access."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1_Pro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260825/1787630270608055.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-12.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "quadruped",
+        "manufacturer": "AGIBOT",
+        "model": "D1 Edu",
+        "price": "",
+        "weight": "15.5 kg including battery",
+        "size": "635 x 360 x 420 mm standing; 675 x 435 x 145 mm lying (L x W x H)",
+        "batteryLife": "1–2 h",
+        "maxRuntime": "",
+        "tags": "research;commercial;quadruped;dev-platform",
+        "handType": "",
+        "dof": "12 total; 3 per leg",
+        "payload": "5 kg",
+        "speed": "Maximum 3.5 m/s",
+        "terrain": "16 cm continuous stairs; 35 cm vertical jump; 30° standard / 40° maximum slope",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/D1_Pro",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "D1 Edu is the compact 15.5 kg battery-equipped quadruped in the Pro/Edu comparison. Current manufacturer sources list 12 DOF, five-kilogram payload, maximum 3.5 m/s, one-to-two-hour endurance and approximately one-hour charging from 10% to 90% at 25°C. Six-kilometer range is measured unloaded at 1 m/s. The Edu version provides SDK/URDF and simulation access for secondary development.",
+        "releaseDate": "",
+        "chargingTime": "Approx. 1 h, 10%–90% SOC at 25°C"
+      },
+      "highlights": [
+        "D1 Edu: 15.5 kg with battery, 12 DOF and 5 kg rated payload. Current speed is 3.5 m/s, replacing the old Pro catalog value of 3.7 m/s.",
+        "Continuous stairs of 16 cm, vertical jump of 35 cm and 30° standard/40° maximum slope describe different mobility tests.",
+        "One-to-two-hour operating endurance is distinct from approximately one-hour 10%–90% charging at 25°C. Six-kilometer ±1 km range is measured unloaded at 1 m/s.",
+        "Edu includes SDK-based secondary development with standardized interfaces and URDF/simulation support. Optional LiDAR, RTK and communication modules are integration options."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1_Pro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260825/1787630270608055.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-12.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "quadruped",
+        "manufacturer": "Agibot",
+        "model": "D1 Ultra",
+        "price": "",
+        "weight": "16 kg including battery",
+        "size": "630 x 360 x 420 mm standing; 670 x 435 x 145 mm lying (L x W x H)",
+        "batteryLife": "1–2 h general operating time; brochure 1 h under load",
+        "maxRuntime": "",
+        "tags": "research;commercial;quadruped;dev-platform",
+        "handType": "",
+        "dof": "12 total; 3 per leg",
+        "payload": "5 kg",
+        "speed": "Maximum 3.7 m/s",
+        "terrain": "16 cm continuous stairs; 35 cm vertical jump; 30° standard / 40° maximum slope",
+        "ipRating": "IP54",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114891755025.pdf",
+        "image": "images/quadruped/agibot-d1-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "D1 Ultra is the 16 kg, 12-DOF legged development and inspection quadruped. Its exact technical sheet lists five-kilogram payload, maximum 3.7 m/s and IP54. General operating time is one to two hours; the brochure separately describes one hour loaded. SDK and simulation interfaces support integration, while autonomous missions require the appropriate development and modules.",
+        "releaseDate": "",
+        "chargingTime": "Approx. 1 h, 10%–90% SOC"
+      },
+      "highlights": [
+        "D1 Ultra has 16 kg battery-equipped mass and 12 DOF, three per leg. Its own source is distinct from the legacy incorrect D1 Pro link.",
+        "The exact sheet lists a 5 kg effective payload, maximum 3.7 m/s and IP54. Splash resistance is not unrestricted immersion or an independent industrial certification.",
+        "The technical sheet lists 16 cm continuous stairs and 35 cm vertical jumping. A marketing 200-hour environmental stability test is not battery life.",
+        "General operating time is 1–2 h; the brochure specifies 1 h loaded. Approximately one-hour charging covers 10%–90% SOC, not a full discharge-to-full recharge.",
+        "SDK/simulation interfaces and optional sensing modules support development. RL gait adaptation and tracking interface support do not prove included autonomous inspection navigation."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260911/1789114891755025.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1Ultra",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-31.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "quadruped",
+        "manufacturer": "AGIBOT",
+        "model": "D1 Max",
+        "price": "",
+        "weight": "41 kg including battery",
+        "size": "930 x 480 x 585 mm standing; 930 x 630 x 200 mm lying (L x W x H)",
+        "batteryLife": "PDF: 5±0.5 h unloaded / 3.5±0.5 h fully loaded; HTML: ≥5 / ≥3.5 h",
+        "maxRuntime": "",
+        "tags": "research;commercial;quadruped;dev-platform",
+        "handType": "",
+        "dof": "12 leg DOF + 4 wheel DOF",
+        "payload": "25 kg",
+        "speed": "Maximum 6 m/s",
+        "terrain": "25 cm continuous stairs; 80 cm maximum obstacle crossing; 45° maximum slope",
+        "ipRating": "IP67",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20260825/1787637946567916.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "D1 Max is a 41 kg wheel-leg quadruped with 25 kg rated load, 12 leg plus four wheel DOF and IP67 protection. Two 504.9 Wh hot-swappable batteries support load-dependent endurance. The PDF reports 5±0.5 h unloaded and 3.5±0.5 h fully loaded, whereas the HTML advertises at least five/3.5 hours; the bounds differ. Twenty-five-centimeter stairs and an 80 cm obstacle test remain separate. Autonomous charging dock is optional.",
+        "releaseDate": "",
+        "chargingTime": "<1.5 h; SOC window not specified"
+      },
+      "highlights": [
+        "D1 Max is 41 kg including battery with 25 kg payload, 12+4 DOF and two 504.9 Wh hot-swappable batteries. Wheel/leg mode switching supports different terrain.",
+        "The technical sheet gives 5±0.5 h unloaded and 3.5±0.5 h fully loaded. HTML says ≥5 h and ≥3.5 h; these different lower-bound claims remain visible as a conflict.",
+        "Maximum 6 m/s, 45° slope, 25 cm continuous stairs and 80 cm maximum obstacle crossing are separate manufacturer ratings. The 80 cm figure is not continuous stair capability.",
+        "IP67 and −20°C to 55°C are whole-model specifications. A front/rear LiDAR suite, FPV cameras, RTK and SDK interfaces support integration; optional autonomous charging is not stock by inference.",
+        "Listed charging is under 1.5 hours without an SOC window. The 700–1000 m remote-control figure is communication reach, not guaranteed mission range or positioning accuracy."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260825/1787637946567916.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1_Max",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-33.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "quadruped",
+        "manufacturer": "AGIBOT",
+        "model": "D1 MaxPro",
+        "price": "",
+        "weight": "68±1 kg including battery",
+        "size": "1235 x 530 x 735 mm standing; 1313 x 530 x 300 mm lying (L x W x H)",
+        "batteryLife": "5.5±0.5 h unloaded; 2 h with 50 kg load",
+        "maxRuntime": "",
+        "tags": "research;commercial;quadruped;dev-platform",
+        "handType": "",
+        "dof": "12 total; 3 per leg",
+        "payload": "50 kg",
+        "speed": "Actual product limited to 2 m/s; 3 m/s unloaded laboratory extreme",
+        "terrain": "30 cm continuous stairs; 45° slope; up to 20 cm wading; −20°C to 55°C",
+        "ipRating": "IP67",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20260924/1790218091376633.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "D1 MaxPro is a 68±1 kg industrial quadruped with 12 DOF, 50 kg payload, 2081 Wh battery and IP67. The manufacturer sheet qualifies the headline 3 m/s laboratory extreme: the actual product is software-limited to 2 m/s. Runtime is 5.5±0.5 hours unloaded or two hours carrying 50 kg; charging from 10% to 90% takes about 4.5 hours. Thirty-centimeter stairs and 20 cm wading have separate scope. Autonomous charging dock remains optional.",
+        "releaseDate": "",
+        "chargingTime": "Approx. 4.5 h, 10%–90% SOC"
+      },
+      "highlights": [
+        "D1 MaxPro: 68±1 kg with battery, 12 DOF, 50 kg rated payload and 2081 Wh battery. It is distinct from wheel-leg D1 Max.",
+        "The sheet headline says 3 m/s unloaded in extreme laboratory testing; its footnote limits the actual product to 2 m/s. Both are retained with their conditions.",
+        "Unloaded runtime is 5.5±0.5 h; loaded runtime is 2 h carrying 50 kg. Charging takes approximately 4.5 h over 10%–90% SOC.",
+        "IP67, −20°C to 55°C, 30 cm continuous stairs, 45° slope and up to 20 cm wading are separately stated. A LiDAR sensor accuracy of 1.5 cm does not establish whole-robot navigation accuracy.",
+        "TCP/ROS SDK support and x86/ARM packages enable development. Autonomous charging dock and 4G communications are optional; nominal 300 N·m torque is software-limited to 180 N·m."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20260924/1790218091376633.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/D1_MaxPro",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-34.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "AGIBOT",
+        "model": "C5",
+        "price": "",
+        "weight": "170 kg",
+        "size": "",
+        "batteryLife": "3 h scrubbing",
+        "maxRuntime": "",
+        "tags": "commercial;cleaning;autonomous-nav;indoor",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Indoor commercial hard floors",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/products/C5",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "C5 is an AGIBOT commercial indoor cleaning robot described in the manufacturer brochure. C5 combines sweeping, scrubbing and dry mopping with LiDAR/vision navigation. Its 550 mm scrubbing width and theoretical 1980 m²/h are manufacturer specifications, not net cleaning productivity. The 25 kg value is scrubbing downforce, not payload. Ninety liters is labelled water tank volume without a separate clean/dirty split; the station tank is 8 L.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "workingWidth": "550 mm scrubbing",
+        "areaRate": "Up to 1,980 m²/h theoretical cleaning efficiency",
+        "waterTankCapacity": "90 L generic robot water tank; station 8 L",
+        "minAisleWidth": ""
+      },
+      "highlights": [
+        "C5 combines sweeping, scrubbing and dry mopping with LiDAR/vision navigation. Its 550 mm scrubbing width and theoretical 1980 m²/h are manufacturer specifications, not net cleaning productivity.",
+        "The 25 kg value is scrubbing downforce, not payload. Ninety liters is labelled water tank volume without a separate clean/dirty split; the station tank is 8 L.",
+        "Four-minute dirty-tank self-cleaning is not battery charging. Listed scrubbing endurance is three hours with 24 V/80 Ah; automatic charge/refill/drain requires the station."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — named product or technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/products/C5",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-16.html",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "AGIBOT",
+        "model": "C4",
+        "price": "",
+        "weight": "",
+        "size": "680 x 510 x 1015 mm (manufacturer dimensions)",
+        "batteryLife": "3 h scrubbing",
+        "maxRuntime": "",
+        "tags": "commercial;cleaning;autonomous-nav;indoor",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Indoor commercial hard floors",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "C4 is an AGIBOT commercial indoor cleaning robot described in the manufacturer brochure. C4 targets small and medium indoor areas with LiDAR/vision localization, automatic map updates and a station for charging, refill/drain and component cleaning. Scrubbing width is 380 mm; side-brush cleaning width 600 mm and squeegee 540 mm. The 1400 m²/h value is a manufacturer maximum, not demonstrated net throughput.",
+        "releaseDate": "",
+        "chargingTime": "1.5 h",
+        "workingWidth": "380 mm scrubbing; 600 mm side-brush cleaning; 540 mm squeegee",
+        "areaRate": "Up to 1,400 m²/h manufacturer maximum",
+        "waterTankCapacity": "25 L clean / 25 L dirty; station 4 L",
+        "minAisleWidth": "600 mm"
+      },
+      "highlights": [
+        "C4 targets small and medium indoor areas with LiDAR/vision localization, automatic map updates and a station for charging, refill/drain and component cleaning.",
+        "Scrubbing width is 380 mm; side-brush cleaning width 600 mm and squeegee 540 mm. The 1400 m²/h value is a manufacturer maximum, not demonstrated net throughput.",
+        "The table lists a 600 mm minimum aisle and an 800 mm turning radius. Narrative turning within 80 cm is ambiguous; neither becomes a zero-radius or 800 mm turning-diameter claim.",
+        "Runtime is three hours scrubbing with a 24 V/60 Ah battery; charging 1.5 hours. Clean and dirty tanks are 25 L each, with a separate 4 L station tank."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "AGIBOT",
+        "model": "C2",
+        "price": "",
+        "weight": "17.5 kg",
+        "size": "",
+        "batteryLife": "4 h scrubbing",
+        "maxRuntime": "",
+        "tags": "commercial;cleaning;autonomous-nav;indoor",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.4–0.6 m/s",
+        "terrain": "Indoor hard floors and carpet; 10° gradeability",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "C2 is an AGIBOT commercial indoor cleaning robot described in the manufacturer brochure. C2 is the 17.5 kg compact cleaner for manufacturer target areas of 500–1000 m². That facility size is not area cleaned per hour. The table lists 300–700 m²/h, 390 mm cleaning width, four-hour scrubbing endurance, 25 Ah battery and two-hour charging. A 39 cm slim body statement does not establish full body dimensions.",
+        "releaseDate": "",
+        "chargingTime": "2 h",
+        "workingWidth": "390 mm cleaning",
+        "areaRate": "300–700 m²/h manufacturer cleaning efficiency",
+        "waterTankCapacity": "4 L clean / 3.5 L dirty",
+        "minAisleWidth": ""
+      },
+      "highlights": [
+        "C2 is the 17.5 kg compact cleaner for manufacturer target areas of 500–1000 m². That facility size is not area cleaned per hour.",
+        "The table lists 300–700 m²/h, 390 mm cleaning width, four-hour scrubbing endurance, 25 Ah battery and two-hour charging. A 39 cm slim body statement does not establish full body dimensions.",
+        "The robot has 4 L clean water, 3.5 L dirty water and a 1.3 L dustbin. The 10 L dust capacity belongs to the station.",
+        "Automatic charging, refill/drain, mop drying and dust collection depend on station/configuration integration. Elevator/access-control compatibility requires site integration."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
+    },
+    {
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "row": {
+        "category": "cleaning",
+        "manufacturer": "AGIBOT",
+        "model": "C2P",
+        "price": "",
+        "weight": "22.5 kg",
+        "size": "520 x 510 x 680 mm (manufacturer overall dimensions)",
+        "batteryLife": "4 h; 2 h continuous operation with a full water tank",
+        "maxRuntime": "",
+        "tags": "commercial;cleaning;autonomous-nav;indoor",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.4–0.6 m/s",
+        "terrain": "Indoor hard floors and carpet; 8° gradeability; 30 mm obstacle clearance",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "C2P is an AGIBOT commercial indoor cleaning robot described in the manufacturer brochure. C2P is 22.5 kg with a 520 × 510 × 680 mm envelope, 23 Ah battery and 180–250 m²/h stated cleaning efficiency. C2 mass and productivity are not inherited. The brochure distinguishes four-hour endurance, two-hour continuous operation with a full water tank and two-hour battery charging. The water-limited operating interval is not the charge interval.",
+        "releaseDate": "",
+        "chargingTime": "2 h",
+        "workingWidth": "390 mm cleaning",
+        "areaRate": "180–250 m²/h manufacturer cleaning efficiency",
+        "waterTankCapacity": "4 L clean / 3.5 L dirty",
+        "minAisleWidth": ""
+      },
+      "highlights": [
+        "C2P is 22.5 kg with a 520 × 510 × 680 mm envelope, 23 Ah battery and 180–250 m²/h stated cleaning efficiency. C2 mass and productivity are not inherited.",
+        "The brochure distinguishes four-hour endurance, two-hour continuous operation with a full water tank and two-hour battery charging. The water-limited operating interval is not the charge interval.",
+        "Clean/dirty water tanks are 4/3.5 L, dustbin 1.3 L and cleaning width 390 mm. Minimum clearance height 700 mm is vertical space, not a minimum aisle width.",
+        "A mobile water station supports sites without fixed plumbing. Optional configurations and elevator/access-gate integration do not guarantee unattended operation at every facility."
+      ],
+      "sources": [
+        {
+          "name": "AGIBOT — English product brochure; named model spread",
+          "type": "manufacturer",
+          "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-98/source-19.pdf",
+      "reviewNotes": "Batch98 current AGIBOT portfolio review. Distinct variant columns, model-specific laboratory footnotes, load/mode endurance and development access retained. Saved PDF text checked; no visual inspection claimed. Current store returned429 and was not retried. Original source identities and unresolved legacy A2 Max/A2-W retained."
     }
   ]
 }
