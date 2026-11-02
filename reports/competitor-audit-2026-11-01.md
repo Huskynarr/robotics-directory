@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.046 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 792 |
-| Datierte Produktmerkmal-Datensätze einschließlich 149 bestehender Modelle | 941 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.047 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 793 |
+| Datierte Produktmerkmal-Datensätze einschließlich 150 bestehender Modelle | 943 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 88 |
+| Firmenfokus-Prüfungen mit Quellen | 89 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 792 ergänzte Modelle ergeben 2.046 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 793 ergänzte Modelle ergeben 2.047 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-88 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+89 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 941 Datensätze
+Modellseiten verlinken Markenprofile. Die 943 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 376 haben ausgewählte Datenfeldprüfungen und 142
+haben datierte Merkmalsbelege; 378 haben ausgewählte Datenfeldprüfungen und 140
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 479 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 480 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -7683,3 +7683,92 @@ Erstjahre. Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
 acht Modellseiten/Quellen-/Exporttransport sowie alle 778 gerenderten Feldprüfseiten
 geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-93-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Knightscope (Batch 94)
+
+Historischen stationären K1 Tower ergänzt; K1 Hemisphere, K3, K5 und K7 geprüft.
+80 Felder: 27 dokumentiert, 50 unbekannt, drei Roadmap. Vier neue Feldprüfungen;
+die bestehende Drei-Feld-Prüfung von K7 wird auf 16 Felder erweitert, nicht
+dupliziert. Der alte Prüfstand bleibt im dauerhaften Beleg erhalten. K3 erhält
+erstmals datierte Merkmalsbelege. Ein Firmenfokus ergänzt. 2042 unbeteiligte
+CSV-Zeilen, 777 frühere Feldprüfungen, 88 Firmenfokusse, sämtliche Profile/Aliasse
+und alle 1961 Quellenidentitäten bleiben unverändert. Keine neuen CSV-Spalten
+oder Kategorieverschiebungen.
+
+K5: Aktuell verlinktes V5-Datenblatt nennt 420 lb, 64,6 in Höhe, 44,6 in Länge,
+34,9 in Breite und bis 3 mph. Die Werte sind aus beschriftetem PDF-Text und
+Wortkoordinaten übernommen, nicht aus Bildmaßstäben. 2023 nennt der Geschäftsbericht
+noch ungefähr 398 lb, 5 ft Höhe und 3 ft Breite; diese historischen Angaben
+werden nicht zu einer aktuellen Konfiguration kombiniert. V5: durchschnittlich
+2,5–3 Stunden Patrouille zwischen Ladestopps, durchschnittlich 20–30 Minuten
+autonomes Nachladen. Kein belegter Leer-bis-voll-Ladezyklus oder Maximalwert.
+24/7-Dienst umfasst Ladestopps. Vier Videokameras, eine Wärmebildkamera,
+sechs LiDAR- und dreizehn Sonarsensoren. ADA-Flächen/-Rampen und bis 20 Prozent
+Parkhaussteigung; Prozentwerte sind keine Gradwinkel und keine Offroad-Freigabe.
+
+K1 Hemisphere: 30 lb, 24 in Durchmesser, 10 in Tiefe, IP65, stationäre Montage.
+Bis ungefähr 210 Grad HD-Video, optionale Gesichtserkennung, Kennzeichenerkennung,
+Rufknopf, Gegensprechen, Ansagen und Stroboskop. Beworbene Preise ab 545 USD/Monat
+sind qualifizierte Abonnementangaben, kein verbindlicher Geräte-Kaufpreis;
+weiterhin kein strukturiertes Kaufangebot. Netzanschluss, Erkennungsreichweite
+und Videospeicherung sind keine Akkulaufzeit oder belegte Identifikationsgenauigkeit.
+
+K3: 2023 belegtes Innenraum-ASR mit ungefähr 340 lb, 4 ft Höhe, 2 ft Breite.
+Geofencing mit Lasern, Ultraschall, IMU und Encodern. Historische K3/K5-Familie:
+ungefähr 2–3 Stunden Patrouille, ungefähr 20 Minuten oder mehr je Ladestopp;
+Monitoring bleibt dabei aktiv. Parknutzung, Parkuhr und Kennzeichenerkennung
+sind für K3 ausdrücklich abgeschaltet. Historisches KSOC und Kommunikations-
+funktionen bedeuten keine automatisch ausgelieferte Signals-/ASF-Nachrüstung.
+Aktueller vermuteter K3-Pfad liefert 404; keine Abkündigung allein daraus abgeleitet.
+
+K7: Aktuelle Force-Seite führt ihn weiterhin unter „Under Development“.
+Bis 10 mph, leichtes Offroad, PTZ/Wärmebild und Talk-down bleiben Roadmap.
+Q2-2026-Präsentation plante begrenzte Beta-Einsätze für das zweite Halbjahr 2026
+und eine September-Messevorführung; abgelaufene Zieltermine beweisen keine Erfüllung.
+Historisches vierrädriges Konzept ist keine Garantie aller späteren Eigenschaften.
+Die frühere Drei-Feld-Prüfung bleibt als Vorversion im Belegmanifest erhalten.
+
+K1 Tower: Im 2023er Geschäftsbericht ausdrücklich benannte stationäre Sicherheits-
+plattform, ungefähr 6 ft Höhe, 3 ft Breite und 150 lb, für Innen-/Außen-Eingänge.
+Nicht als mobile Patrouille beschrieben. Getrennt von Hemisphere, Blue-Light-
+Notrufsäule und angekündigtem Super Tower; gemeinsamer K1-Name ist kein Aliasbeleg.
+Heutige Lieferbarkeit und Erstjahr bleiben offen. Frühere unbelegte Erstjahre
+2018 bei Hemisphere, 2017 bei K3 und 2015 bei K5 entfernt; Unternehmens-Pilotverkäufe
+im Jahr 2015 belegen keine exakte Modelleinführung.
+
+Herstellerprofil erfasst benachbarte Blue-Light-/Notrufgeräte, Retrofit-Kit,
+K1 Capsule und Super Tower samt Entwicklungsstatus. 7/14/21 ft sind Höhenoptionen;
+die ASF-Broschüre grenzt PTZ auf 14/21 ft ein. Daraus keine zusätzlichen mobilen
+Roboterkarten. H1 ist ein Wearable-Prototyp für menschliche Sicherheitskräfte,
+kein humanoider Roboter; Signals, RTX, Mission Intelligence, Bewachung und
+Personenschutz bleiben Software/Dienste. Alarmreduktions-, Kriminalitäts- und
+Marktführerschaftsaussagen sind nicht unabhängig validiert.
+
+16 tatsächliche Quellenversuche: zwölf HTTP200, zwei 404 und zwei 403.
+403 bei altem IR-Host und SEC-Bericht; keine positiven Belege aus Fehlerseiten.
+Sieben PDFs mit 184 automatisch textlich extrahierten Seiten; nur ausgewählte
+Produkt-/Roadmap-/Geschäftsberichtsabschnitte gelesen. Wortkoordinaten gespeichert,
+keine vollständige oder visuelle PDF-Prüfung behauptet. K5-Produktpfad leitet
+auf die byteidentische Force-Seite um und ist kein unabhängiger Zusatzbeleg.
+Keine Formulare, Käufe, neuen 429 oder Wiederholungen zuvor blockierter Hosts.
+
+Aktuell: 2047 Modelle/Konfigurationen, 644 exakte Herstellernamen, 1036 Profile,
+633 mit/403 ohne Modelle. 943 Merkmalsdatensätze (793 Ergänzungen/150 bestehende
+Anreicherungen), 4106 Aussagen, 1810 Produkt-Quellenreferenzen. 89 Firmenfokusse
+auf 85 der 591 Quellen-Firmengruppen. 13058 Felder auf 782 Modellseiten:
+5664 dokumentiert, 7083 unbekannt, 250 widersprüchlich, 61 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 378 Feldprüfungen, 140 warten. 6230 Zielfelder:
+2832 dokumentiert, 3231 unbekannt, 156 widersprüchlich, elf Roadmap.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben
+offen. Vollständigkeit und Marktführerschaft sind weiterhin unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 verfolgte Python-Tests und 32 ausgewählte lokale
+Browserfälle bestanden (14 Knightscope/18 Vergleich, einschließlich acht Axe-Läufen).
+Ein zusätzlicher Discovery-Lauf enthielt drei fremde unverfolgte Tests; diese
+Dateien wurden nicht verändert oder aufgenommen. Build: 3097 Seiten/ca. 480 MB.
+Audit: null Fehler/937 Warnungen; vier zusätzliche ungeklärte Erstjahre.
+Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
+fünf Modellseiten, Quellen-/Exporttransport und alle 782 gerenderten Feldprüfseiten
+geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-94-evidence.json`.

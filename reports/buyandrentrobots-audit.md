@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,046 catalog rows**, with 644 exact
-manufacturer spellings. Batch 93 refreshed the separate heuristic gap file offline
-against all 2,046 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,047 catalog rows**, with 644 exact
+manufacturer spellings. Batch 94 refreshed the separate heuristic gap file offline
+against all 2,047 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 941 dated records across the catalog, including
-149 existing-model enrichments and 792 task additions. All 430 catalog models
+Current product-highlight coverage: 943 dated records across the catalog, including
+150 existing-model enrichments and 793 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 792 task additions, totaling 2,046.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 793 task additions, totaling 2,047.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 376 have selected-field reviews and 142 await those reviews. Family and
+highlights; 378 have selected-field reviews and 140 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 12,981 fields across 778 catalog models: 5,637 documented,
-7,034 not documented, 250 conflicting and sixty roadmap fields. They do not certify whole
+Selected specification checks cover 13,058 fields across 782 catalog models: 5,664 documented,
+7,083 not documented, 250 conflicting and sixty-one roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -5448,3 +5448,92 @@ Erstjahre. Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
 acht Modellseiten/Quellen-/Exporttransport sowie alle 778 gerenderten Feldprüfseiten
 geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-93-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Knightscope (Batch 94)
+
+Historischen stationären K1 Tower ergänzt; K1 Hemisphere, K3, K5 und K7 geprüft.
+80 Felder: 27 dokumentiert, 50 unbekannt, drei Roadmap. Vier neue Feldprüfungen;
+die bestehende Drei-Feld-Prüfung von K7 wird auf 16 Felder erweitert, nicht
+dupliziert. Der alte Prüfstand bleibt im dauerhaften Beleg erhalten. K3 erhält
+erstmals datierte Merkmalsbelege. Ein Firmenfokus ergänzt. 2042 unbeteiligte
+CSV-Zeilen, 777 frühere Feldprüfungen, 88 Firmenfokusse, sämtliche Profile/Aliasse
+und alle 1961 Quellenidentitäten bleiben unverändert. Keine neuen CSV-Spalten
+oder Kategorieverschiebungen.
+
+K5: Aktuell verlinktes V5-Datenblatt nennt 420 lb, 64,6 in Höhe, 44,6 in Länge,
+34,9 in Breite und bis 3 mph. Die Werte sind aus beschriftetem PDF-Text und
+Wortkoordinaten übernommen, nicht aus Bildmaßstäben. 2023 nennt der Geschäftsbericht
+noch ungefähr 398 lb, 5 ft Höhe und 3 ft Breite; diese historischen Angaben
+werden nicht zu einer aktuellen Konfiguration kombiniert. V5: durchschnittlich
+2,5–3 Stunden Patrouille zwischen Ladestopps, durchschnittlich 20–30 Minuten
+autonomes Nachladen. Kein belegter Leer-bis-voll-Ladezyklus oder Maximalwert.
+24/7-Dienst umfasst Ladestopps. Vier Videokameras, eine Wärmebildkamera,
+sechs LiDAR- und dreizehn Sonarsensoren. ADA-Flächen/-Rampen und bis 20 Prozent
+Parkhaussteigung; Prozentwerte sind keine Gradwinkel und keine Offroad-Freigabe.
+
+K1 Hemisphere: 30 lb, 24 in Durchmesser, 10 in Tiefe, IP65, stationäre Montage.
+Bis ungefähr 210 Grad HD-Video, optionale Gesichtserkennung, Kennzeichenerkennung,
+Rufknopf, Gegensprechen, Ansagen und Stroboskop. Beworbene Preise ab 545 USD/Monat
+sind qualifizierte Abonnementangaben, kein verbindlicher Geräte-Kaufpreis;
+weiterhin kein strukturiertes Kaufangebot. Netzanschluss, Erkennungsreichweite
+und Videospeicherung sind keine Akkulaufzeit oder belegte Identifikationsgenauigkeit.
+
+K3: 2023 belegtes Innenraum-ASR mit ungefähr 340 lb, 4 ft Höhe, 2 ft Breite.
+Geofencing mit Lasern, Ultraschall, IMU und Encodern. Historische K3/K5-Familie:
+ungefähr 2–3 Stunden Patrouille, ungefähr 20 Minuten oder mehr je Ladestopp;
+Monitoring bleibt dabei aktiv. Parknutzung, Parkuhr und Kennzeichenerkennung
+sind für K3 ausdrücklich abgeschaltet. Historisches KSOC und Kommunikations-
+funktionen bedeuten keine automatisch ausgelieferte Signals-/ASF-Nachrüstung.
+Aktueller vermuteter K3-Pfad liefert 404; keine Abkündigung allein daraus abgeleitet.
+
+K7: Aktuelle Force-Seite führt ihn weiterhin unter „Under Development“.
+Bis 10 mph, leichtes Offroad, PTZ/Wärmebild und Talk-down bleiben Roadmap.
+Q2-2026-Präsentation plante begrenzte Beta-Einsätze für das zweite Halbjahr 2026
+und eine September-Messevorführung; abgelaufene Zieltermine beweisen keine Erfüllung.
+Historisches vierrädriges Konzept ist keine Garantie aller späteren Eigenschaften.
+Die frühere Drei-Feld-Prüfung bleibt als Vorversion im Belegmanifest erhalten.
+
+K1 Tower: Im 2023er Geschäftsbericht ausdrücklich benannte stationäre Sicherheits-
+plattform, ungefähr 6 ft Höhe, 3 ft Breite und 150 lb, für Innen-/Außen-Eingänge.
+Nicht als mobile Patrouille beschrieben. Getrennt von Hemisphere, Blue-Light-
+Notrufsäule und angekündigtem Super Tower; gemeinsamer K1-Name ist kein Aliasbeleg.
+Heutige Lieferbarkeit und Erstjahr bleiben offen. Frühere unbelegte Erstjahre
+2018 bei Hemisphere, 2017 bei K3 und 2015 bei K5 entfernt; Unternehmens-Pilotverkäufe
+im Jahr 2015 belegen keine exakte Modelleinführung.
+
+Herstellerprofil erfasst benachbarte Blue-Light-/Notrufgeräte, Retrofit-Kit,
+K1 Capsule und Super Tower samt Entwicklungsstatus. 7/14/21 ft sind Höhenoptionen;
+die ASF-Broschüre grenzt PTZ auf 14/21 ft ein. Daraus keine zusätzlichen mobilen
+Roboterkarten. H1 ist ein Wearable-Prototyp für menschliche Sicherheitskräfte,
+kein humanoider Roboter; Signals, RTX, Mission Intelligence, Bewachung und
+Personenschutz bleiben Software/Dienste. Alarmreduktions-, Kriminalitäts- und
+Marktführerschaftsaussagen sind nicht unabhängig validiert.
+
+16 tatsächliche Quellenversuche: zwölf HTTP200, zwei 404 und zwei 403.
+403 bei altem IR-Host und SEC-Bericht; keine positiven Belege aus Fehlerseiten.
+Sieben PDFs mit 184 automatisch textlich extrahierten Seiten; nur ausgewählte
+Produkt-/Roadmap-/Geschäftsberichtsabschnitte gelesen. Wortkoordinaten gespeichert,
+keine vollständige oder visuelle PDF-Prüfung behauptet. K5-Produktpfad leitet
+auf die byteidentische Force-Seite um und ist kein unabhängiger Zusatzbeleg.
+Keine Formulare, Käufe, neuen 429 oder Wiederholungen zuvor blockierter Hosts.
+
+Aktuell: 2047 Modelle/Konfigurationen, 644 exakte Herstellernamen, 1036 Profile,
+633 mit/403 ohne Modelle. 943 Merkmalsdatensätze (793 Ergänzungen/150 bestehende
+Anreicherungen), 4106 Aussagen, 1810 Produkt-Quellenreferenzen. 89 Firmenfokusse
+auf 85 der 591 Quellen-Firmengruppen. 13058 Felder auf 782 Modellseiten:
+5664 dokumentiert, 7083 unbekannt, 250 widersprüchlich, 61 Roadmap. Von 518
+ursprünglichen Prüfzielen haben 378 Feldprüfungen, 140 warten. 6230 Zielfelder:
+2832 dokumentiert, 3231 unbekannt, 156 widersprüchlich, elf Roadmap.
+Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte bleiben
+offen. Vollständigkeit und Marktführerschaft sind weiterhin unbewiesen.
+
+793 Unit-Tests/64 Dateien, 20 verfolgte Python-Tests und 32 ausgewählte lokale
+Browserfälle bestanden (14 Knightscope/18 Vergleich, einschließlich acht Axe-Läufen).
+Ein zusätzlicher Discovery-Lauf enthielt drei fremde unverfolgte Tests; diese
+Dateien wurden nicht verändert oder aufgenommen. Build: 3097 Seiten/ca. 480 MB.
+Audit: null Fehler/937 Warnungen; vier zusätzliche ungeklärte Erstjahre.
+Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
+fünf Modellseiten, Quellen-/Exporttransport und alle 782 gerenderten Feldprüfseiten
+geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-94-evidence.json`.
