@@ -473,6 +473,12 @@ CATEGORIES.push({
       filter: { field: 'tagsArray', op: 'tags-include-any', values: ['medical', 'rehabilitation'] },
     },
     {
+      id: 'commercial-workplace',
+      i18nKey: 'sub.commercial.workplace',
+      detailKey: 'sub.commercial.workplace.detail',
+      filter: { field: 'tagsArray', op: 'tags-include', value: 'workplace-support' },
+    },
+    {
       id: 'commercial-agriculture',
       i18nKey: 'sub.commercial.agriculture',
       detailKey: 'sub.commercial.agriculture.detail',

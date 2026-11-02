@@ -68117,6 +68117,2244 @@
           "note": "Cargo capacity is recorded in payload; no separate tow-train or residual carrier capacity established."
         }
       }
+    },
+    {
+      "robotId": "cyberdyne-hal-ml08",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-ML08",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — EU model summary, revision 2 (2025-03-04)",
+          "url": "https://www.cyberdyne.jp/media/23659/HT040000A-R11_r2.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-11.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approx. 13 kg double leg / 9 kg single leg; cuffs, sensor shoes and batteries included",
+          "status": "documented",
+          "note": "English table explicitly splits double/single-leg masses and includes cuffs, sensor shoes and batteries. Japanese medical table lists the double-leg value without a leg qualifier; EU summary only covers ML07/ML08."
+        },
+        "size": {
+          "value": "H1190 × W480 (middle hip) / 520 (wide hip) × D440 mm; minimum adjustment with 26 cm sensor shoes; single-leg envelope not separately stated",
+          "status": "documented",
+          "note": "Manufacturer table footnotes: minimum adjustment length, HAL-ML05 S size, with 26 cm sensor shoes. Do not substitute wearer height or infer identical single-leg dimensions."
+        },
+        "batteryLife": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer wearer mass range 40–100 kg is a fitting parameter, not cargo or assisted lifting capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL-ML08 is a separately named medical lower-limb HAL offering with bioelectrical-signal-driven hip/knee assistance. Manufacturer fitting guidance gives 150–190 cm wearer height and 40–100 kg wearer mass, with limb and hip measurements also required. Double/single-leg device mass and minimum-adjustment dimensions retain their configuration limits; fit guidance is not age, cargo capacity or individual treatment eligibility.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Height guidance 150–190 cm does not establish numerical user ages or individual medical suitability."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-ml07",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-ML07",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — EU model summary, revision 2 (2025-03-04)",
+          "url": "https://www.cyberdyne.jp/media/23659/HT040000A-R11_r2.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-11.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approx. 9.5 kg double leg / 6.5 kg single leg; cuffs, sensor shoes and batteries included",
+          "status": "documented",
+          "note": "English table explicitly splits double/single-leg masses and includes cuffs, sensor shoes and batteries. Japanese medical table lists the double-leg value without a leg qualifier; EU summary only covers ML07/ML08."
+        },
+        "size": {
+          "value": "H930 × W400 × D400 mm; minimum adjustment with 26 cm sensor shoes; single-leg envelope not separately stated",
+          "status": "documented",
+          "note": "Manufacturer table footnotes: minimum adjustment length, HAL-ML05 S size, with 26 cm sensor shoes. Do not substitute wearer height or infer identical single-leg dimensions."
+        },
+        "batteryLife": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer wearer mass range 15–50 kg is a fitting parameter, not cargo or assisted lifting capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL-ML07 is a separately named medical lower-limb HAL offering with bioelectrical-signal-driven hip/knee assistance. Manufacturer fitting guidance gives 100–150 cm wearer height and 15–50 kg wearer mass, with limb and hip measurements also required. Double/single-leg device mass and minimum-adjustment dimensions retain their configuration limits; fit guidance is not age, cargo capacity or individual treatment eligibility.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Height guidance 100–150 cm does not establish numerical user ages or individual medical suitability."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-ml05",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-ML05",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-medical",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-11.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approx. 14 kg double leg / 9 kg single leg; cuffs, sensor shoes and batteries included",
+          "status": "documented",
+          "note": "English table explicitly splits double/single-leg masses and includes cuffs, sensor shoes and batteries. Japanese medical table lists the double-leg value without a leg qualifier; EU summary only covers ML07/ML08."
+        },
+        "size": {
+          "value": "S size: H1230 × W470 × D430 mm; minimum adjustment with 26 cm sensor shoes; single-leg envelope not separately stated",
+          "status": "documented",
+          "note": "Manufacturer table footnotes: minimum adjustment length, HAL-ML05 S size, with 26 cm sensor shoes. Do not substitute wearer height or infer identical single-leg dimensions."
+        },
+        "batteryLife": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer wearer mass range 40–100 kg is a fitting parameter, not cargo or assisted lifting capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL-ML05 is a separately named medical lower-limb HAL offering with bioelectrical-signal-driven hip/knee assistance. Manufacturer fitting guidance gives 150–190 cm wearer height and 40–100 kg wearer mass, with limb and hip measurements also required. Double/single-leg device mass and minimum-adjustment dimensions retain their configuration limits; fit guidance is not age, cargo capacity or individual treatment eligibility.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-medical",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Height guidance 150–190 cm does not establish numerical user ages or individual medical suitability."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-fl08",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-FL08",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-13.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approx. 13 kg double leg / 9 kg single leg; cuffs, sensor shoes and batteries included",
+          "status": "documented",
+          "note": "English table explicitly splits double/single-leg masses and includes cuffs, sensor shoes and batteries. Japanese medical table lists the double-leg value without a leg qualifier; EU summary only covers ML07/ML08."
+        },
+        "size": {
+          "value": "H1190 × W480 (middle hip) / 520 (wide hip) × D440 mm; minimum adjustment with 26 cm sensor shoes; single-leg envelope not separately stated",
+          "status": "documented",
+          "note": "Manufacturer table footnotes: minimum adjustment length, HAL-FL05 S size, with 26 cm sensor shoes. Do not substitute wearer height or infer identical single-leg dimensions."
+        },
+        "batteryLife": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer wearer mass range 40–100 kg is a fitting parameter, not cargo or assisted lifting capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL-FL08 is a separately named well-being lower-limb HAL offering with bioelectrical-signal-driven hip/knee assistance. Manufacturer fitting guidance gives 150–190 cm wearer height and 40–100 kg wearer mass, with limb and hip measurements also required. Double/single-leg device mass and minimum-adjustment dimensions retain their configuration limits; fit guidance is not age, cargo capacity or individual treatment eligibility.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Height guidance 150–190 cm does not establish numerical user ages or individual medical suitability."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-fl07",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-FL07",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-13.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approx. 9.5 kg double leg / 6.5 kg single leg; cuffs, sensor shoes and batteries included",
+          "status": "documented",
+          "note": "English table explicitly splits double/single-leg masses and includes cuffs, sensor shoes and batteries. Japanese medical table lists the double-leg value without a leg qualifier; EU summary only covers ML07/ML08."
+        },
+        "size": {
+          "value": "H930 × W400 × D400 mm; minimum adjustment with 26 cm sensor shoes; single-leg envelope not separately stated",
+          "status": "documented",
+          "note": "Manufacturer table footnotes: minimum adjustment length, HAL-FL05 S size, with 26 cm sensor shoes. Do not substitute wearer height or infer identical single-leg dimensions."
+        },
+        "batteryLife": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer wearer mass range 15–50 kg is a fitting parameter, not cargo or assisted lifting capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL-FL07 is a separately named well-being lower-limb HAL offering with bioelectrical-signal-driven hip/knee assistance. Manufacturer fitting guidance gives 100–150 cm wearer height and 15–50 kg wearer mass, with limb and hip measurements also required. Double/single-leg device mass and minimum-adjustment dimensions retain their configuration limits; fit guidance is not age, cargo capacity or individual treatment eligibility.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Height guidance 100–150 cm does not establish numerical user ages or individual medical suitability."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-fl05",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-FL05",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-lowerlimb-wellbeing",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-13.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approx. 14 kg double leg / 9 kg single leg; cuffs, sensor shoes and batteries included",
+          "status": "documented",
+          "note": "English table explicitly splits double/single-leg masses and includes cuffs, sensor shoes and batteries. Japanese medical table lists the double-leg value without a leg qualifier; EU summary only covers ML07/ML08."
+        },
+        "size": {
+          "value": "S size: H1230 × W470 × D430 mm; minimum adjustment with 26 cm sensor shoes; single-leg envelope not separately stated",
+          "status": "documented",
+          "note": "Manufacturer table footnotes: minimum adjustment length, HAL-FL05 S size, with 26 cm sensor shoes. Do not substitute wearer height or infer identical single-leg dimensions."
+        },
+        "batteryLife": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 1 h; normal operation, use/environment dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer wearer mass range 40–100 kg is a fitting parameter, not cargo or assisted lifting capacity."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL-FL05 is a separately named well-being lower-limb HAL offering with bioelectrical-signal-driven hip/knee assistance. Manufacturer fitting guidance gives S 150–165 cm; M 160–175 cm; L 170–190 cm; X 180–200 cm wearer height and 40–100 kg wearer mass, with limb and hip measurements also required. Double/single-leg device mass and minimum-adjustment dimensions retain their configuration limits; fit guidance is not age, cargo capacity or individual treatment eligibility.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lowerlimb-wellbeing",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Height guidance S 150–165 cm; M 160–175 cm; L 170–190 cm; X 180–200 cm does not establish numerical user ages or individual medical suitability."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-medical-hal-single-joint",
+      "manufacturer": "Cyberdyne",
+      "model": "Medical HAL Single Joint",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-singlejoint-medical",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-singlejoint-medical",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-12.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approximately 1.5 kg; excludes control device and battery",
+          "status": "documented",
+          "note": "Table footnote explicitly excludes control device and battery; this is not complete carried system mass."
+        },
+        "size": {
+          "value": "Worn components only: L200 × W200 × H944 mm; excludes control device and battery",
+          "status": "documented",
+          "note": "Table footnote limits dimensions to worn parts excluding controller/battery. Motion range 0° extension / 120° flexion is not physical size or DOF."
+        },
+        "batteryLife": {
+          "value": "Approximately 120 min in normal operation; conditions dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 120 min in normal operation; conditions dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer body mass and fit limits are not cargo payload or an assisted lifting-load rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "Medical HAL Single Joint is a distinct manufacturer offering for bioelectrical-signal-controlled joint assistance. The 1.5 kg mass and 200 × 200 × 944 mm dimensions exclude the controller and battery. Approximately two hours is operating endurance, with no full-charge interval established. Attachments and training roles remain separate from numerical clinical outcomes, regulatory approval or a universal user fit.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-singlejoint-medical",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-well-being-hal-single-joint",
+      "manufacturer": "Cyberdyne",
+      "model": "Well-being HAL Single Joint",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-singlejoint-wellbeing",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-singlejoint-wellbeing",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-14.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approximately 1.5 kg; excludes control device and battery",
+          "status": "documented",
+          "note": "Table footnote explicitly excludes control device and battery; this is not complete carried system mass."
+        },
+        "size": {
+          "value": "Worn components only: L200 × W200 × H944 mm; excludes control device and battery",
+          "status": "documented",
+          "note": "Table footnote limits dimensions to worn parts excluding controller/battery. Motion range 0° extension / 120° flexion is not physical size or DOF."
+        },
+        "batteryLife": {
+          "value": "Approximately 120 min in normal operation; conditions dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 120 min in normal operation; conditions dependent",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer body mass and fit limits are not cargo payload or an assisted lifting-load rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "Well-being HAL Single Joint is a distinct manufacturer offering for bioelectrical-signal-controlled joint assistance. The 1.5 kg mass and 200 × 200 × 944 mm dimensions exclude the controller and battery. Approximately two hours is operating endurance, with no full-charge interval established. Attachments and training roles remain separate from numerical clinical outcomes, regulatory approval or a universal user fit.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-singlejoint-wellbeing",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-lumbar-type-for-well-being-bb04",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL Lumbar Type for Well-being (BB04)",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lumbar-bb04",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-lumbar-bb04",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-15.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "3.1 kg including battery; shared table value across XS/S/M",
+          "status": "documented",
+          "note": "HTML colspan=3 applies the 3.1 kg including-battery value to XS, S and M; not a 3.1 kg bare-frame value."
+        },
+        "size": {
+          "value": "D × W × H: XS 230 × 396 × 509 mm; S 292 × 450 × 522 mm; M 292 × 510 × 602 mm",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer body mass and fit limits are not cargo payload or an assisted lifting-load rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "IP54 per manufacturer table",
+          "status": "documented",
+          "note": "Manufacturer table IP54; splash wording in prose is compatible with water digit 4 and does not independently certify delivered equipment."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL Lumbar Type for Well-being (BB04) is a wearable lumbar assistance offering for caregiver and wearer-support workflows. XS/S/M use different fitting dimensions while the table shares a 3.1 kg battery-inclusive mass. It lists IP54 and environmental limits, but no numeric runtime or full-charge duration. Size labels and intended use do not establish personal suitability or clinical outcomes.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lumbar-bb04",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "Manufacturer operating environment 0–40 °C; 20–80% humidity, non-condensing",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-lb06",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-LB06",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/hal-lumbar-laborsupport",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-7.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "2.7 kg per HAL-LB06 table; battery inclusion not stated",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "size": {
+          "value": "Japanese table axes: longitudinal 200 mm × lateral 420 mm × height 580 mm",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "batteryLife": {
+          "value": "Approximately 10 h; depends on assist settings",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 10 h; depends on assist settings",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer body mass and fit limits are not cargo payload or an assisted lifting-load rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "IPX4 water protection; IP5X dust protection, separately stated by manufacturer",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "chargingTime": {
+          "value": "Approximately 3 h; charge-state interval unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL-LB06 is explicitly identified in the Japanese Labor Support table. It is a lumbar assist exoskeleton with 2.7 kg stated mass, approximately ten-hour operation depending on assistance settings and approximately three-hour charging. The English page describes a different LB03 configuration. Optional workload monitoring and Cyvis services are separate from the wearable and do not establish clinical or occupational-injury outcomes.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/products/hal-lumbar-laborsupport",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "Operating environment 0–40 °C per manufacturer",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-lb03-sssjp",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-LB03-SSSJP",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-16.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "3.1 kg including battery; HAL-LB03-SSSJP configuration only",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "size": {
+          "value": "D292 × W450 × H522 mm; HAL-LB03-SSSJP table",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "batteryLife": {
+          "value": "Approximately 4.5 h; named LB03 configuration",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 4.5 h; named LB03 configuration",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer body mass and fit limits are not cargo payload or an assisted lifting-load rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "IPX4 water protection; IP5X dust protection, separately stated by manufacturer",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "chargingTime": {
+          "value": "Approximately 2 h; charge-state interval unspecified",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "The English Labor Support page explicitly assigns its table to HAL-LB03-SSSJP: 3.1 kg including battery, 292 × 450 × 522 mm, approximately 4.5-hour operation and two-hour charging. It is retained as a named configuration separate from the Japanese LB06 table. Source accessibility does not establish current stock, global availability or injury-prevention efficacy.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "Operating environment 0–40 °C per manufacturer",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-hal-lb01",
+      "manufacturer": "Cyberdyne",
+      "model": "HAL-LB01",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-16.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The only table on this page is explicitly scoped to HAL-LB03-SSSJP; no LB01 mass established."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "LB03-SSSJP table dimensions are not assigned to referenced LB01."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer body mass and fit limits are not cargo payload or an assisted lifting-load rating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer explicitly says HAL-LB01 lacks waterproof and dustproof functionality; no numeric IP code supplied. LB03/LB06 protection is not inherited."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "HAL-LB01 is explicitly named in the manufacturer Labor Support comparison as a model without waterproof or dustproof functionality. The current page table is for HAL-LB03-SSSJP, so its mass, dimensions, runtime and charging values are not assigned to LB01. No current sale status, exact price or first release year is established.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/hal-lumbar-laborsupport",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-cl02",
+      "manufacturer": "Cyberdyne",
+      "model": "CL02",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/cl02",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/cl02",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-17.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approximately 63 kg including battery; optional-unit mass not separately specified",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "size": {
+          "value": "L620 × W480 × H470 mm; height 970 mm with optional disinfection unit",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "batteryLife": {
+          "value": "Approximately 2 h cleaning operation; options and settings affect results",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "Approximately 2 h cleaning operation; options and settings affect results",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cargo payload rating established; 200 kg belongs to the separate Transportation Robot."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "CL02 is a commercial autonomous vacuum cleaner with tablet route settings, teaching playback or automatic path generation, 3D obstacle detection and paper-bag dust collection. Manufacturer coverage is up to 3000 m² per charge, subject to area and speed, with approximately two-hour cleaning endurance. Coverage per charge is not an hourly area rate. Optional elevator and spray/UV equipment do not establish included features or independently verified disinfection efficacy.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/cl02",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "Indoor commercial/industrial floor cleaning; routes taught or generated automatically",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "480 mm is body width, not a brush/cleaning swath measurement."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer gives up to 3000 m² per charge, not area per hour. Do not divide by approximate two-hour endurance measured under unspecified conditions."
+        },
+        "waterTankCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric liquid capacity for base cleaner or optional spray unit established."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-transportation-robot",
+      "manufacturer": "Cyberdyne",
+      "model": "Transportation Robot",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/transportrobot",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/products/transportrobot",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-18.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "Approximately 25 kg including battery",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "size": {
+          "value": "L632 × W610 × H550 mm; optional modules may change configuration",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "batteryLife": {
+          "value": "4 h; options/specifications may change result",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "maxRuntime": {
+          "value": "4 h; options/specifications may change result",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "payload": {
+          "value": "200 kg onboard load; not towing capacity or robot self weight",
+          "status": "documented",
+          "note": "The table says 200 kg weight on board. Optional traction modules have no numeric towing rating; do not use onboard load as towing capacity."
+        },
+        "speed": {
+          "value": "Up to 30 m/min; configuration-dependent maximum",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "Transportation Robot is the manufacturer-marketed name for an indoor transport platform with teaching-playback route setup and no floor marker/grid requirement. The stated 200 kg load is onboard cargo, separate from approximately 25 kg battery-inclusive robot mass. Optional mounted/traction modules and a Wi-Fi fleet server do not establish towing capacity. The English product page limits availability to Japan; no separate hardware SKU is invented.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/transportrobot",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "Indoor factories/offices; teaching-playback routes without floor markers or guide grids",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Onboard cargo is in payload; no separate tow-train or residual carrier rating established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        }
+      }
+    },
+    {
+      "robotId": "cyberdyne-medicalcare-pit-hpd-bt04-jp",
+      "manufacturer": "Cyberdyne",
+      "model": "Medicalcare Pit (HPD-BT04-JP)",
+      "sources": [
+        {
+          "name": "Cyberdyne — manufacturer product information",
+          "url": "https://www.cyberdyne.jp/en/products/medicalcare-pit",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-84/source-22.txt",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase amount/currency established. A consultation or rental page is not a quoted offer."
+        },
+        "weight": {
+          "value": "130 kg device mass",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "size": {
+          "value": "L2040 × W860 × H2395 mm; walking surface dimensions are separate",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "AC mains-powered stationary system; no battery operating endurance specified."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No continuous-duty time rating established; AC power input is not a numeric runtime."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "120 kg maximum body weight includes HAL and/or orthosis; not a cargo rating or an exoskeleton assisted-lifting capacity."
+        },
+        "speed": {
+          "value": "Treadmill belt range 0.2–8.0 km/h; not mobile travel speed",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model ingress protection code established; no certification inferred from a related generation."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No full-charge duration under a defined state-of-charge interval established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. A single-joint label or number of attachments does not define whole-body joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No included dexterous robot hand established."
+        },
+        "description": {
+          "value": "Medicalcare Pit HPD-BT04-JP is a robotically controlled gait-training system with independently adjusted left/right body-weight support and HAL-linked movement visualization. The 130 kg device has a 2040 × 860 × 2395 mm envelope and a separate 1340 × 510 mm walking surface. Its maximum supported body-mass statement of 120 kg includes HAL or orthoses, while belt speed is not mobile robot travel speed. Manufacturer training claims do not establish individual eligibility or clinical outcomes.",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "website": {
+          "value": "https://www.cyberdyne.jp/en/products/medicalcare-pit",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first named-model launch year established. Copyright, document revision and study dates are not launch dates."
+        },
+        "terrain": {
+          "value": "Stationary gait-training system; AC mains supply, no battery endurance specified",
+          "status": "documented",
+          "note": "Manufacturer named-model specification; configuration scope and conditions retained. Not independently tested."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "110 mm is step-up height, not maximum support-hook height or lift travel."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established in the reviewed manufacturer sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wearer height, body measurements and size labels are not numerical age limits."
+        }
+      }
     }
   ]
 }

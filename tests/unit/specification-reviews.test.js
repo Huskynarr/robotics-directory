@@ -377,8 +377,8 @@ describe('field-specific primary-source reviews', () => {
 
   it('reports reviewed fields separately from whole-model certification', () => {
     const coverage = getSpecificationReviewCoverage();
-    expect(coverage.reviewedCatalogModels).toBe(664);
-    expect(coverage.reviewedFields).toBe(10796);
+    expect(coverage.reviewedCatalogModels).toBe(679);
+    expect(coverage.reviewedFields).toBe(11180);
     expect(coverage.fieldStatuses.conflicting).toBe(234);
     expect(coverage.scope).toContain('unmarked fields remain unverified');
     expect(getSpecificationReview('unitree-go2-w').fields.weight.status).toBe('documented');
