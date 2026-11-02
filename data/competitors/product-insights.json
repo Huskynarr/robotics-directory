@@ -13883,14 +13883,23 @@
       "highlights": [
         "Compact 22-DOF humanoid development platform with a built-in carrying handle",
         "Python and C++ SDKs, simulation resources and Booster Studio support development",
-        "Geek, Education and Professional editions differ in compute and battery configuration"
+        "Geek, Education and Professional editions differ in compute and battery configuration",
+        "Native manufacturer columns identify Geek at 48 TOPS dense and 2 Ah, Education at 117 TOPS and 5 Ah, and Professional at 200 TOPS and 5 Ah. The stated 20/70-minute walking durations are measured at 1.1 m/s, not at maximum speed.",
+        "Python/C++ SDKs, simulation resources, Agent development and Booster Studio support development. Peak joint torque and camera presence do not establish manipulator payload or numerical vision accuracy.",
+        "The former 5999 USD and 2025 release year are not established by the inspected product and inquiry pages. Edition titles, public specifications and purchase-inquiry links do not guarantee present stock or included magnetic charging equipment."
       ],
       "sources": [
         {
-          "name": "Booster Robotics",
+          "name": "Booster Robotics — Booster K1 | Introductory Embodied Development Platform",
           "type": "manufacturer",
           "url": "https://www.booster.tech/booster-k1/?target=en",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Booster Robotics — Store | Booster Robotics",
+          "type": "manufacturer",
+          "url": "https://www.booster.tech/store?key=k1&target=en",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -15154,14 +15163,28 @@
       "model": "ANYmal",
       "highlights": [
         "For the ANYmal C variant, the manufacturer publishes a simplified URDF robot description",
-        "ROS launch files support model visualization; extended simulation and control software is restricted to the ANYmal Research community"
+        "ROS launch files support model visualization; extended simulation and control software is restricted to the ANYmal Research community",
+        "Manufacturer repositories distinguish B, C and D robot generations. This generic ANYmal entry is retained as a family reference and is not silently treated as an exact alias of C or D.",
+        "Public simplified URDF descriptions and ROS visualization launch files do not establish generic 50 kg mass, three-hour runtime, 10 kg payload, IP65 protection or a 2016 release year. Those earlier unsourced values are withheld; extended software remains restricted to the research community."
       ],
       "sources": [
         {
-          "name": "ANYbotics",
+          "name": "ANYbotics — ANYmal C Robot Description (URDF)",
           "type": "manufacturer",
           "url": "https://raw.githubusercontent.com/ANYbotics/anymal_c_simple_description/master/README.md",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ANYbotics — ANYmal B Robot Description (URDF)",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/ANYbotics/anymal_b_simple_description/master/README.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ANYbotics — ANYmal D Robot Description (URDF)",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/ANYbotics/anymal_d_simple_description/master/README.md",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -15176,14 +15199,23 @@
       "highlights": [
         "Humanoid development platform with head-mounted depth camera, microphone array and speaker",
         "Built-in agents support walking, voice and motion interaction in supported configurations",
-        "The 7-DOF arm version excludes the soccer, teaching and dance agents"
+        "The 7-DOF arm version excludes the soccer, teaching and dance agents",
+        "The current specifications document 1.18 m, about 30 kg, 23 total DOF, one-metre-per-second walking, two-hour battery life and charging within two hours. Turning speed is separate from forward speed, and the full dimensions are not published.",
+        "Basic uses one Jetson AGX Orin board for motion and perception; Standard separates an i7 motion board and an AGX Orin perception board. These are controller configurations rather than additional complete robot models in this review.",
+        "The overview explicitly excludes Soccer, Teach and Dance Agents from the seven-DOF-arm version. Its existence does not extend the selected 23-DOF four-DOF-arm specification to that variant; reach, payload and included finger hands remain unestablished."
       ],
       "sources": [
         {
-          "name": "Booster Robotics",
+          "name": "Booster Robotics — Specifications | Booster Studio Docs",
+          "type": "manufacturer",
+          "url": "https://docs.booster.tech/docs/product-manual/t1/getting-started/specifications/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Booster Robotics — Overview | Booster Studio Docs",
           "type": "manufacturer",
           "url": "https://docs.booster.tech/docs/product-manual/t1/getting-started/overview/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -16346,14 +16378,22 @@
       "highlights": [
         "Manufacturer describes autonomous navigation for routine industrial inspection rounds",
         "Thermal, visual, acoustic and gas sensing are combined in the inspection solution",
-        "Inspection findings integrate with industrial maintenance systems and work-order workflows"
+        "Inspection findings integrate with industrial maintenance systems and work-order workflows",
+        "The manufacturer-authored post body describes autonomous navigation, multimodal inspection and a workflow from site inspection to a maintenance-system work order. Transcript, comments, related content and images are excluded from this evidence.",
+        "The October 27, 2026 launch milestone does not establish the first release year or exclude earlier generations. The inspected post supplies no numerical DOF, speed or IP code; prior unreviewed 12-DOF, one-metre-per-second and IP67 values are withheld, without treating marketing certification language as a verified zone approval."
       ],
       "sources": [
         {
-          "name": "ANYbotics — ANYmal X manufacturer announcement",
+          "name": "ANYbotics — ANYmal X Inspects Hazardous Areas | ANYbotics posted on the topic | LinkedIn",
           "type": "manufacturer",
           "url": "https://www.linkedin.com/posts/anybotics_robotics-atex-industrialinspection-activity-7520832377095561218-36Ki",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ANYbotics — ANYmal X. Coming October 27, 2026 | ANYbotics | 34 comments",
+          "type": "manufacturer",
+          "url": "https://www.linkedin.com/posts/anybotics_anymal-x-coming-october-27-2026-activity-7518265007332196352-R6RP",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -33686,6 +33726,193 @@
       ],
       "discoveredIn": [
         "https://shield.ai/autonomy-for-the-world-indoor-exploration-with-nova-2/"
+      ]
+    },
+    {
+      "robotId": "booster-robotics-k1-geek-edition",
+      "manufacturer": "Booster Robotics",
+      "model": "K1 Geek Edition",
+      "highlights": [
+        "The native Geek Edition specification column pairs 48 TOPS dense compute with a 2 Ah battery and 20-minute walking duration at 1.1 m/s. Compute, battery and endurance are kept within this named edition.",
+        "Shared K1 specifications include head two DOF, four per arm and six per leg. Magnetic charging is marked optional; neither its presence nor battery capacity gives a full charging time or robot payload."
+      ],
+      "sources": [
+        {
+          "name": "Booster Robotics — Booster K1 | Introductory Embodied Development Platform",
+          "type": "manufacturer",
+          "url": "https://www.booster.tech/booster-k1/?target=en",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.booster.tech/booster-k1/?target=en"
+      ]
+    },
+    {
+      "robotId": "booster-robotics-k1-education",
+      "manufacturer": "Booster Robotics",
+      "model": "K1 Education",
+      "highlights": [
+        "The native Education specification column pairs 117 TOPS compute with a 5 Ah battery and 70-minute walking duration at 1.1 m/s. Compute, battery and endurance are kept within this named edition.",
+        "Shared K1 specifications include head two DOF, four per arm and six per leg. Magnetic charging is marked optional; neither its presence nor battery capacity gives a full charging time or robot payload."
+      ],
+      "sources": [
+        {
+          "name": "Booster Robotics — Booster K1 | Introductory Embodied Development Platform",
+          "type": "manufacturer",
+          "url": "https://www.booster.tech/booster-k1/?target=en",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.booster.tech/booster-k1/?target=en"
+      ]
+    },
+    {
+      "robotId": "booster-robotics-k1-professional",
+      "manufacturer": "Booster Robotics",
+      "model": "K1 Professional",
+      "highlights": [
+        "The native Professional specification column pairs 200 TOPS compute with a 5 Ah battery and 70-minute walking duration at 1.1 m/s. Compute, battery and endurance are kept within this named edition.",
+        "Shared K1 specifications include head two DOF, four per arm and six per leg. Magnetic charging is marked optional; neither its presence nor battery capacity gives a full charging time or robot payload."
+      ],
+      "sources": [
+        {
+          "name": "Booster Robotics — Booster K1 | Introductory Embodied Development Platform",
+          "type": "manufacturer",
+          "url": "https://www.booster.tech/booster-k1/?target=en",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.booster.tech/booster-k1/?target=en"
+      ]
+    },
+    {
+      "robotId": "booster-robotics-booster-t2",
+      "manufacturer": "Booster Robotics",
+      "model": "Booster T2",
+      "highlights": [
+        "Education and Professional columns share the stated 31 DOF, 48 V/10 Ah battery and two-hour continuous walking. Approximately 42 kg varies with version and optional equipment; maximum three-metre-per-second walking is not an established runtime test condition.",
+        "The 10 kg value is a maximum dual-arm payload with a strong arm-posture qualification. Optional standard end effectors, grippers and dexterous hands remain configuration dependent; no ten-kg-per-arm capability is inferred.",
+        "Education lists an ARM processor and 375 TOPS, while Professional lists Jetson Thor T5000 and 2070 TFLOPS. These different compute units are not converted into a like-for-like speedup; LiDAR is optional and magnetic charging supplies no full-charge duration."
+      ],
+      "sources": [
+        {
+          "name": "Booster Robotics — Booster T2 | Flagship Embodied Development Platform",
+          "type": "manufacturer",
+          "url": "https://www.booster.tech/booster-t2/?target=en",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Booster Robotics — Store | Booster Robotics",
+          "type": "manufacturer",
+          "url": "https://www.booster.tech/store?key=t2&target=en",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.booster.tech/booster-t2/?target=en"
+      ]
+    },
+    {
+      "robotId": "booster-robotics-booster-t2-education",
+      "manufacturer": "Booster Robotics",
+      "model": "Booster T2 Education",
+      "highlights": [
+        "The native Education column identifies ARM processor with 375 TOPS, with a 48 V/10 Ah battery and two-hour continuous walking. Compute units remain as published; no direct TOPS-to-TFLOPS performance ratio is inferred.",
+        "The configuration has seven DOF per arm, six per leg, three at the waist and two at the head. Mass varies with optional equipment; end effectors and LiDAR remain optional, and the dual-arm 10 kg maximum is posture dependent."
+      ],
+      "sources": [
+        {
+          "name": "Booster Robotics — Booster T2 | Flagship Embodied Development Platform",
+          "type": "manufacturer",
+          "url": "https://www.booster.tech/booster-t2/?target=en",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.booster.tech/booster-t2/?target=en"
+      ]
+    },
+    {
+      "robotId": "booster-robotics-booster-t2-professional",
+      "manufacturer": "Booster Robotics",
+      "model": "Booster T2 Professional",
+      "highlights": [
+        "The native Professional column identifies Jetson Thor T5000 with 2070 TFLOPS, with a 48 V/10 Ah battery and two-hour continuous walking. Compute units remain as published; no direct TOPS-to-TFLOPS performance ratio is inferred.",
+        "The configuration has seven DOF per arm, six per leg, three at the waist and two at the head. Mass varies with optional equipment; end effectors and LiDAR remain optional, and the dual-arm 10 kg maximum is posture dependent."
+      ],
+      "sources": [
+        {
+          "name": "Booster Robotics — Booster T2 | Flagship Embodied Development Platform",
+          "type": "manufacturer",
+          "url": "https://www.booster.tech/booster-t2/?target=en",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.booster.tech/booster-t2/?target=en"
+      ]
+    },
+    {
+      "robotId": "anybotics-anymal-b",
+      "manufacturer": "ANYbotics",
+      "model": "ANYmal B",
+      "highlights": [
+        "The manufacturer-maintained repository explicitly identifies ANYmal B and provides simplified robot-description and ROS visualization resources. It is a named robot generation, while the downloadable package itself is software.",
+        "The BSD three-clause licence covers the published software, not unrestricted robot operation or access to the extended control stack. Repository/publication dates and simplified geometry do not establish first sale, complete mass, payload, runtime, ingress rating or installed sensors."
+      ],
+      "sources": [
+        {
+          "name": "ANYbotics — ANYmal B Robot Description (URDF)",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/ANYbotics/anymal_b_simple_description/master/README.md",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://raw.githubusercontent.com/ANYbotics/anymal_b_simple_description/master/README.md"
+      ]
+    },
+    {
+      "robotId": "anybotics-anymal-c",
+      "manufacturer": "ANYbotics",
+      "model": "ANYmal C",
+      "highlights": [
+        "The manufacturer-maintained repository explicitly identifies ANYmal C and provides simplified robot-description and ROS visualization resources. It is a named robot generation, while the downloadable package itself is software.",
+        "The BSD three-clause licence covers the published software, not unrestricted robot operation or access to the extended control stack. Repository/publication dates and simplified geometry do not establish first sale, complete mass, payload, runtime, ingress rating or installed sensors."
+      ],
+      "sources": [
+        {
+          "name": "ANYbotics — ANYmal C Robot Description (URDF)",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/ANYbotics/anymal_c_simple_description/master/README.md",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://raw.githubusercontent.com/ANYbotics/anymal_c_simple_description/master/README.md"
+      ]
+    },
+    {
+      "robotId": "anybotics-anymal-d",
+      "manufacturer": "ANYbotics",
+      "model": "ANYmal D",
+      "highlights": [
+        "The manufacturer-maintained repository explicitly identifies ANYmal D and provides simplified robot-description and ROS visualization resources. It is a named robot generation, while the downloadable package itself is software.",
+        "The BSD three-clause licence covers the published software, not unrestricted robot operation or access to the extended control stack. Repository/publication dates and simplified geometry do not establish first sale, complete mass, payload, runtime, ingress rating or installed sensors."
+      ],
+      "sources": [
+        {
+          "name": "ANYbotics — ANYmal D Robot Description (URDF)",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/ANYbotics/anymal_d_simple_description/master/README.md",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://raw.githubusercontent.com/ANYbotics/anymal_d_simple_description/master/README.md"
       ]
     }
   ]
