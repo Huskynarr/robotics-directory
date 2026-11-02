@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Zusammengeführte Wettbewerber-Firmen und -Marken | 592 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.125 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 871 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1037 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.126 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 872 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1038 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 102 |
+| Firmenfokus-Prüfungen mit Quellen | 103 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 871 ergänzte Modelle ergeben 2.125 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 872 ergänzte Modelle ergeben 2.126 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-102 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+103 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1037 Datensätze
+Modellseiten verlinken Markenprofile. Die 1038 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 411 haben ausgewählte Datenfeldprüfungen und 107
+haben datierte Merkmalsbelege; 413 haben ausgewählte Datenfeldprüfungen und 105
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -9061,3 +9061,79 @@ neun Listingidentitäten und 862 Buy-Detailinhalte offen. Keine vollständige Qu
 Herstellerabdeckung oder Markt-/Suchführerschaft nachgewiesen.
 Datencommit `4e3f9ee77a55ac867dd11b01e3117dbd2fa4304a` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-109-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Cyngn-Integrationen und Konfigurationsgrenzen (Batch 110)
+
+DriveMod Tugger und Forklift erweitert, historisch belegten DriveMod Stockchaser ergänzt.
+Drei Prüfungen mit 111 ausgewählten Feldern: 21 dokumentiert und 90 unbekannt.
+17 zusätzliche Merkmalsaussagen, netto 13 Produktquellenverweise; sechs bisherige
+Aussagen und Entdeckungsprovenienz erhalten. Ein neuer Firmenfokus. Cyngn ist der
+Autonomieentwickler/Integrator; Motrec, BYD und Columbia sind verschiedene Fahrzeugplattformen.
+
+Aktueller autonomer Motrec MT-160: 65 × 30 × 55 Zoll, 1250 ± 100 lb je Ausstattung,
+12000 lb Zuglast und davon getrennte 500 lb Decklast. 4 mph autonom und 6 mph manuell.
+12,4-kWh-Lithium-Ionen-Akku mit 48 V, bis zwölf Stunden abhängig von Geschwindigkeit,
+Last und Nutzung; fünf Stunden
+Ladung ohne vollständiges Ladestands-/Testprotokoll. 53 Zoll Wenderadius, 59 Zoll Mindest-
+gangbreite, 2,5 Prozent Steigung, nicht Grad. Inbetriebnahme und Anhängerzug-Abstände
+bleiben standortabhängig. Das aktuelle Datenblatt nennt Auto-Unhitch/Blau-Licht und
+LTE optional, WLAN 5/802.11ac, 3D-/2D-LiDAR, IMU und Radencoder als Herstellerfunktionen.
+Die ältere Vorschau im Oktober 2023 nennt 6000 lb/54 Zoll; Mitteilung
+vom September 2024 erklärt die Verdoppelung auf 12000 lb. Keine erzwungene Quellen-
+abweichung identischer Revisionen und keine Datierung jedes heutigen Pakets auf 2023.
+Pneumatik- gegenüber Voll-/Non-Marking-Reifentext in den zwei PDFs nicht als universelle
+Reifenausstattung ausgewählt. Komponentenwortlaut B56.5-compliant bei Virtual Bumper
+ist keine unabhängig geprüfte Gesamtfahrzeug-/Standortzertifizierung; dreifache Reaktions-
+geschwindigkeit, ROI und Implementierungsdauer sind Entwicklerwerbung.
+
+DriveMod Forklift: aktueller Katalog-Fließtext nennt 11000 lb für die BYD-Integration,
+ohne bestätigtes Basis-Chassis, Lastschwerpunkt oder Mast. 2023-Entwicklung nennt
+10000 lb, erster bezahlter Einsatz am 21. Oktober 2024 über 10000 lb; zeitliche und
+Konfigurationsgrenzen bleiben sichtbar. Branchen-Einsätze vom 19. Februar 2025 sind
+Anbieterberichte, keine aktuelle Lieferbestätigung oder exakte Erstveröffentlichung.
+Manueller/autonomer Modus und Indoor-/Outdoor-Kontext sind belegt. Seite 15 nahe dem
+Forklift-Abschnitt liefert nur ihre Seitenzahl als extrahierbaren Text. Ihr genauer
+Inhalt und die Art einer möglichen Darstellung wurden nicht bestätigt. Keine
+visuelle Prüfung/OCR und keine Übernahme dort vermuteter Masse, Maße, Geschwindigkeit,
+Hubhöhe oder Batteriedaten. Früherer Forklift-Pfad führt auf Spaghetti-Map-Ressource,
+deren Inhalt kein Gabelstaplerdatenblatt ist.
+
+DriveMod Stockchaser: Columbia-Partnerschaft 2021, Flottenproduktion Januar 2022 und
+Vorführung Februar 2023 mit Neubau/kompatiblem Retrofit sind belegt. Keine Übernahme
+der Motrec-Tugger-Nutzdaten oder exakter Erststart aus Produktions-/Einsatzdaten.
+Die aktuelle U.S.-Continental-Landingpage nennt Stockchaser, deren PDF hingegen
+DriveMod Tugger. Keine erzwungene Aliasregel; historische Konfiguration bleibt getrennt.
+Vierfache Effizienz ist kundenspezifische Entwicklerforschung, keine universelle
+Aufgabenrate. DriveMod Kit, EAS, Insight, EasyLaunch/RaaS sind Komponenten, Software
+oder Dienstleistung. Anonymer Mining-OEM-Entwicklungsauftrag identifiziert kein
+zusätzliches benanntes Robotermodell.
+
+22 erfolgreiche öffentliche Antworten mit SHA-256, darunter vier PDFs und eine
+XML-Sitemap; HTML/PDF-Text und Wortkoordinaten geprüft. Tugger-Tabellenwerte stimmen
+in den aktuellen verlinkten Spezifikationen überein. Seite 15 bleibt inhaltlich
+unbestätigt, keine visuelle Bild-/PDF-/Videoinspektion. Öffentliche Download-
+GET-Weiterleitungen ohne Formulare, Anmeldung, Kontakt-/Demo-/Bestellanfrage.
+Vollständige historische Palette, heutige Pakete, unabhängige Sicherheit, einzigartige
+USPs, Wirtschaftlichkeit oder Marktführerschaft bleiben unbewiesen.
+
+Alle 2123 anderen vorherigen CSV-Zeilen, 909 bisherigen Feldprüfungen, 102 Firmenfokusse,
+1035 anderen Produktbelege und 1961 Quellenidentitäten unverändert. Keine neuen CSV-/
+Vergleichsspalten oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/
+Mobilfälle mit vier Axe-Läufen, Build 3176 Seiten, Lint/Format, Refresh und Wiederimport
+bestanden. Audit null Fehler/1028 Hinweise: genau ein zusätzlicher Hinweis zum unbekannten
+Erststart des Stockchaser, übrige Texte unverändert. Drei Seiten/111 Felder/23 Aussagen,
+Firmenfokus, strukturierte Eigenschaften, zwei Firmenproduktreferenzen und zwei
+ursprüngliche Queue-Ziele geprüft; keine Cyngn-Ziele im benannten Modell-CSV-Export.
+Gesamtvergleich 1038 Produktbelege, 4589 Aussagen, 2076 Quellenverweise und 912 Prüfungen/
+15686 Felder. Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei; kein Deployment.
+Frühere externe YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2126 Modelle/Konfigurationen, 872 Ergänzungen und 166 bestehende Modelle mit
+Merkmalsanreicherung, 103 Firmenfokusse. Ursprüngliche Quellenziele: 413 geprüft,
+105 ausstehend von 518, 7030 Felder (3065 dokumentiert, 3789 unbekannt, 165 Konflikte,
+elf Roadmap), Firmenfokus für 99 von 591 Quellengruppen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte offen. Keine vollständige Quellen-/
+Herstellerabdeckung oder Markt-/Suchführerschaft nachgewiesen.
+Datencommit `3ee7dfacc450b7a8732685d9f2f81d8bab32cb11` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-110-evidence.json`.
