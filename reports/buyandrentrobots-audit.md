@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 1,959 catalog rows**, with 642 exact
-manufacturer spellings. Batch 81 refreshed the separate heuristic gap file offline
-against all 1,959 rows (634 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 1,968 catalog rows**, with 642 exact
+manufacturer spellings. Batch 82 refreshed the separate heuristic gap file offline
+against all 1,968 rows (634 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 114 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 847 dated records across the catalog, including
-142 existing-model enrichments and 705 task additions. All 430 catalog models
+Current product-highlight coverage: 856 dated records across the catalog, including
+142 existing-model enrichments and 714 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 705 task additions, totaling 1,959.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 714 task additions, totaling 1,968.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 342 have selected-field reviews and 176 await those reviews. Family and
+highlights; 345 have selected-field reviews and 173 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 10,305 fields across 644 catalog models: 4,781 documented,
-5,287 not documented, 220 conflicting and seventeen roadmap fields. They do not certify whole
+Selected specification checks cover 10,671 fields across 659 catalog models: 4,948 documented,
+5,476 not documented, 230 conflicting and seventeen roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -4580,3 +4580,86 @@ erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
 Zwischencommit `4e7b62d` mit Daten und Tests auf
 `origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
 folgen als zweiter Commit; der Hauptbranch bleibt unverändert.
+
+
+## Ergänzung vom 2. November 2026 – Robotnik (Batch 82)
+
+15 benannte Angebote in sieben Plattformfamilien plus RB-THERON FP: neun neue
+Modelle/Varianten und sechs vertiefte Bestandsprüfungen. 366 Felder: 167 dokumentiert,
+189 nicht dokumentiert und zehn widersprüchlich. Firmenfokus ergänzt. Alle 1953
+unbeteiligten Katalogzeilen, 644 bisherigen Modellprüfungen, 74 Firmenfokusse und
+1961 Quellenidentitäten erhalten. Acht kommerzielle Ergänzungen und eine
+Bildungsvariante nutzen bestehende Spalten; keine Kategoriewechsel.
+
+RB-KAIROS: 100 kg mit Standardrädern, 250 kg nur mit stärkeren optionalen Rädern.
+115 kg Basismasse und 978×776×690 mm sind keine Maße/Masse der Plus-Installation.
+RB-KAIROS+ trennt UR7e/UR12e/UR16e-Armlast 7,5/12,5/16 kg, Restplattformlast
+230/215/215 kg und Robotermasse 135/150/150 kg. Separate Armgewichte nicht nochmals
+addiert; Rad-/Restlastzuordnung bleibt qualifiziert.
+
+RB-ROBOUT: 1000 kg Standard, 2000 kg nur mit geänderter Länge/Breite. Blattmaße
+1758×891×372 mm und 360 kg nicht unbesehen jeder schweren Variante zugeordnet.
+Gemeinsamer Hero 8 h steht gegen technisches Basisfeld/Blatt 10 h. RB-ROBOUT+
+trennt fünf UR-Arme, konfigurierte Masse und Restlast 755/765/760/735/765 kg;
+800-kg-Hero/1000-kg-Basiskomponente nicht ohne Zuordnung gleichgesetzt. UR15-
+Höhe 1758 mm in Tabelle gegen 1785 mm in Zeichnung bleibt widersprüchlich.
+Optionale 1200-/800-mm-Säulen liefern keine Hubstrecke oder maximale Gabelhöhe.
+
+WATCHER/WATCHER XL: 73/75 kg Selbstmasse, 50/40 kg Fracht, IP54/IP55 sowie 5/10 h.
+IP65-Mikrofon und Lautsprecher sind keine IP65-Zertifizierung des Gesamtsystems.
+XL-Wechselakku/14-cm-Hindernisfähigkeit nicht auf das Standardmodell übertragen.
+FIQUS: 450 kg/1000 kg Fracht, IP42 und 10 h. FIQUS+: 600 kg konfigurierte Masse,
+700–720 kg Restplattformlast und getrennte UR-Armlasten bis 35 kg, IP53 und 9 h.
+±300 mm Querführung ist keine vertikale Hubstrecke oder zusätzliche Armreichweite;
+verstellbare Breite 1177–1610 mm und Doppelarm bleiben Optionen.
+
+SUMMIT: 65 kg, 50 kg Fracht, IP54 und 5 h. SUMMIT+ mit aktuellen Kinova-Optionen
+70/72/73 kg, Armlast 0,5/4/4 kg und Reichweite 760/891/902 mm. Blatt-Hero 40 kg
+Restlast widerspricht Tabelle 45/43/42 kg. XL-GEN leitet auf RB-GEN+ weiter,
+benennt im Inhalt aber SUMMIT+ mit anderen Daten; historische Generation nicht
+zugeordnet und keine zusätzliche erfundene Modellkarte angelegt.
+
+THERON: 70 kg/200 kg, 8 h, differentialer Antrieb. Optionale Aufbauhöhe 418 statt
+320 mm liefert keine belegte 98-mm-Hubstrecke. THERON+: UR7e in Seite/Tabelle,
+UR5e in Blattprosa; 6 h technisch gegen 8 h im selben Blatt-Hero. Alternative
+omnidirektionale Basis nicht vollständig den Tabellenwerten zugeordnet. FP ist
+als benannte Ausbildungsvariante erfasst: 70 kg/200 kg, 5 h und eigenes Blatt.
+Tabelle 717×550×320,5 mm gegen Zeichnung 717,70×550,56×320,40 mm bleibt als
+ungeklärte Präzisions-/Rundungsabweichung sichtbar; kein Erstjahr aus AF08.26.
+
+VOGUI: 165 kg Selbstmasse und 150 kg Fracht. VOGUI+ mit UR7e/UR8 Long/UR12e
+185/210/200 kg konfigurierte Masse, 7,5/10/12,5 kg Armlast und getrennten Restlasten.
+125 kg Plattformangabe auf Seite gegen 130/105/115 kg im Blatt bleibt ungeklärt.
+1750-mm-Reichweite des UR8 Long hat ausdrücklich eingeschränkten Arbeitsraum.
+Keine numerische Dockinggenauigkeit, volle Ladezeit, Erstjahre oder Preise geraten.
+ROS2/RLC/Command Manager/HMI und URCap bleiben Software-/Integrationsbefunde;
+Hersteller-UR+/ISO/CE/Alleinstellungsbehauptungen nicht unabhängig zertifiziert.
+
+30 nutzbare URL-Inhalte: 15 HTML und 15 PDF, 28 verschiedene Inhaltskörper. 41 PDF-
+Text-/Koordinatenseiten, 114 exakte Stichprobenanker sowie 42 koordinatengeprüfte
+Tabellenzeilen mit 98 Zahlenzellen geprüft. 15 öffentliche Viewer-Hüllen zugunsten
+der verlinkten PDF-Inhalte ausgeschlossen. Keine Formulare, Recherchebrowser,
+bekannten gesperrten Hosts oder visuellen PDF-Prüfungen. Quellenprotokoll:
+`reports/competitor-batch-82-evidence.json`; Rohdateien lokal unter
+`scratch/competitor-research/primary/batch-82/`.
+
+761 Unit-Tests in 61 Dateien, 20 Wettbewerber-Python-Tests und 66 ausgewählte
+Browserfälle bestanden: 28 Robotnik-, 20 Locus/Seegrid- und 18 Vergleichsfälle,
+darunter 20 Axe-Prüfungen für Desktop/Mobil und helle/dunkle Darstellung. Build
+3018 Seiten, ungefähr 462 MB. Datenprüfung null Fehler, 851 Hinweise (neun neue
+unbelegte Erstjahre). Lint, Format, Wiederholungsimport (null Ergänzungen), Bestands-,
+Quellen-, Seiten-, Vergleichs-, Preis- und globale Feldmetadatenprüfung bestanden.
+Alle 115 erfassten eigenen Testprozesse beendet;
+Port 4321 frei, Ressourcen anderer Aufgaben erhalten. Keine vollständige Browser-Suite.
+
+Gesamtstand: 1968 Modelle/Konfigurationen, 714 Ergänzungen, 856 Merkmalssätze,
+3635 Aussagen, 1505 Produktquellenverweise und 75 Firmenfokusse. 10671 Felder auf
+659 Modellen: 4948 dokumentiert, 5476 unbekannt, 230 widersprüchlich, 17 Roadmap.
+Von 518 ursprünglichen Zielen haben 345 Feldprüfungen und 173 bleiben offen.
+Firmenfokusse decken 73 von 591 Quellengruppen ab. Drei Modell- und neun
+Listingidentitäten, 862 Buy-Detailinhalte und frühere offene Portfolios bleiben
+erhalten. Vollständigkeit und Marktführung sind weiterhin unbelegt.
+
+Zwischencommit `ef7c49f` mit Daten und Tests auf
+`origin/codex/competitor-directory-expansion` gepusht. Dokumentation und Prüfprotokoll
+bilden einen separaten Commit; der Hauptbranch bleibt unverändert.
