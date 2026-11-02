@@ -98266,6 +98266,693 @@
           "note": "No stacking height established."
         }
       }
+    },
+    {
+      "robotId": "cyngn-drivemod-tugger",
+      "manufacturer": "Cyngn",
+      "model": "DriveMod Tugger",
+      "sources": [
+        {
+          "name": "Cyngn — publicly linked Autonomous Motrec MT-160 datasheet PDF; extracted text only",
+          "type": "developer",
+          "url": "https://8962390.fs1.hubspotusercontent-na1.net/hubfs/8962390/DriveMod%20Tugger%20Specifications.pdf?hsCtaAttrib=161886341816",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current DriveMod Tugger product page: towing versus deck load and autonomous speed",
+          "type": "developer",
+          "url": "https://www.cyngn.com/vehicles/autonomous-tugger",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current 24-page Cyngn catalog; extracted text and coordinate review only",
+          "type": "developer",
+          "url": "https://www.cyngn.com/hubfs/Cyngn%20Catalog%204.0%20(Current).pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current DriveMod safety architecture",
+          "type": "developer",
+          "url": "https://www.cyngn.com/vehicles/safety",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — DriveMod safety brochure; extracted text only",
+          "type": "developer",
+          "url": "https://www.cyngn.com/hubfs/Sales%20Enablement%20Materials/DriveMod%20Safety%20Brochure.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — July 2023 Motrec MT-160 partnership with historical 6000-lb rating",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-to-partner-with-motrec-launch-fleet-of-autonomous-tuggers",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — September 2024 next-generation 12000-lb Tugger build and upgrade",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/next-gen-12000-lb-drivemod-tugger-built-at-motrec-facility-to-prepare-for-customer-orders",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — October 2023 original 6000-lb Tugger preview; future deployment milestones",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-reveals-drivemod-tugger-fully-autonomous-electric-tugger-for-industrial-operations",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-110/source-20.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-vehicle purchase quote established. EasyLaunch/RaaS monthly packages and ROI/cost comparisons are not prices."
+        },
+        "weight": {
+          "value": "1,250 ± 100 lb depending on options (Cyngn autonomous Motrec MT-160 specification)",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified weight value; configuration and historical limits retained."
+        },
+        "size": {
+          "value": "65 in L × 30 in W × 55 in H (Cyngn autonomous Motrec MT-160 specification)",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified size value; configuration and historical limits retained."
+        },
+        "batteryLife": {
+          "value": "Up to 12 h per charge; varies with speed, load weight and usage (developer)",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified batteryLife value; configuration and historical limits retained."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous-duty runtime guarantee established. Battery endurance is recorded separately and service/software availability is not vehicle endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robotic hand/gripper established; tow hitch and forklift tines are not a generic dexterous hand."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Autonomous movement and sensor counts are not silently summed."
+        },
+        "payload": {
+          "value": "12,000 lb maximum towing (current DriveMod/Motrec MT-160); separate deck-load rating",
+          "status": "documented",
+          "note": "Current product page and current integrated MT-160 table explicitly rate twelve-thousand-pound towing; separate on-deck five-hundred-pound load is recorded in transportPayload. Not forklift lifting load."
+        },
+        "speed": {
+          "value": "Up to 4 mph autonomous; 6 mph manual (Cyngn autonomous Motrec MT-160 specification)",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified speed value; configuration and historical limits retained."
+        },
+        "terrain": {
+          "value": "Maximum slope 2.5% (current MT-160 specification); industrial indoor/outdoor use; not 2.5 degrees or an IP rating",
+          "status": "documented",
+          "note": "Exact current integration table says Slope (Max)2.5%. Indoor/outdoor context from current developer catalog/about page; no degree conversion or ingress certification inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete integrated vehicle IP rating established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established; industrial operator training is not a consumer age rating."
+        },
+        "website": {
+          "value": "https://www.cyngn.com/vehicles/autonomous-tugger",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified website value; configuration and historical limits retained."
+        },
+        "description": {
+          "value": "DriveMod Tugger is Cyngn’s autonomous integration of a Motrec MT-160 tow tractor. Current developer specifications describe the 12,000 lb towing configuration with a separately rated 500 lb deck load, 65 × 30 × 55 in dimensions and 1,250 ± 100 lb mass depending on options. Maximum travel is 4 mph autonomous or 6 mph manual; battery operation is up to twelve hours depending on load/speed/usage, with five-hour charging and an unspecified charge window. Current turning radius is 53 in, minimum aisle 59 in and maximum grade 2.5 percent. The October 2023 preview’s 6,000 lb/54 in figures predate a documented 2024 upgrade. 3D-LiDAR mapping, FMS dispatch, manual override and redundant stop functions support site-specific workflows. Auto-unhitch and LTE retain attachment/optional scope; no blanket whole-system certification or guaranteed ROI is established.",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified description value; configuration and historical limits retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named-family October 2023 preview predates September 2024 next-generation 12,000 lb first-build milestone. These do not establish exact first release/shipment of every described current configuration; field omitted."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No underwater depth rating established."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft flight endurance established."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft maximum takeoff mass established."
+        },
+        "chargingTime": {
+          "value": "5 h (Cyngn autonomous Motrec MT-160 specification); state-of-charge window unspecified",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified chargingTime value; configuration and historical limits retained."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking capacity established."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking heat-source specification established."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured robot localization precision established; accurate-mapping or pallet-detection marketing is not a numeric tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured docking tolerance established. Auto-unhitch and return-to-charge are functions, not positioning precision."
+        },
+        "driveMode": {
+          "value": "Autonomous 3D-LiDAR mapped routes with FMS/touchscreen dispatch and manual override",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified driveMode value; configuration and historical limits retained."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No specified fork/lift stroke established."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration maximum fork lifting height established; loading capability does not establish maximum height."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator reach established."
+        },
+        "transportPayload": {
+          "value": "500 lb maximum on-vehicle deck load; towing capacity is separate",
+          "status": "documented",
+          "note": "Exact integrated MT-160 table supplies five-hundred-pound vehicle deck load, not twelve-thousand-pound towing or fork lift capacity."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified vision precision established. 360° coverage and reaction-speed comparisons are not a position/classification tolerance."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No welding speed established."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No worktable size established."
+        },
+        "minAisleWidth": {
+          "value": "59 in minimum (current autonomous Motrec MT-160 specification); deployment clearance still required",
+          "status": "documented",
+          "note": "DriveMod Tugger: named integration developer source supplies this qualified minAisleWidth value; configuration and historical limits retained."
+        },
+        "turningRadius": {
+          "value": "53 in (current autonomous Motrec MT-160 specification)",
+          "status": "documented",
+          "note": "Current integrated specification53 in and current product page agree. October2023 preview54 in belongs to earlier6,000 lb configuration, not forced same-revision conflict."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No work swath established."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized area-per-time productivity established."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized mission/item-per-time throughput established. Customer trip counts, ROI and comparative efficiencies are not universal task rates."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No stacking height established."
+        }
+      }
+    },
+    {
+      "robotId": "cyngn-drivemod-forklift",
+      "manufacturer": "Cyngn",
+      "model": "DriveMod Forklift",
+      "sources": [
+        {
+          "name": "Cyngn — June 2023 BYD forklift development announcement",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-brings-ai-powered-autonomous-drivemod-to-byd-forklifts",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — October 2024 first paid forklift deployment announcement",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-completes-first-paid-drivemod-forklift-deployment-at-customer-facility",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — February 2025 multi-industry deployment announcement",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-deploys-autonomous-drivemod-vehicles-across-multiple-industries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current 24-page Cyngn catalog; extracted text and coordinate review only",
+          "type": "developer",
+          "url": "https://www.cyngn.com/hubfs/Cyngn%20Catalog%204.0%20(Current).pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-110/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-vehicle purchase quote established. EasyLaunch/RaaS monthly packages and ROI/cost comparisons are not prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact integrated vehicle mass established; bare OEM platform or another DriveMod configuration is not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete vehicle dimensions established. Cart trains, deck dimensions and other chassis are separate measures."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact selected-configuration battery duration established; Tugger’s up-to-twelve-hour figure is not assigned to forklift or Stockchaser."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous-duty runtime guarantee established. Battery endurance is recorded separately and service/software availability is not vehicle endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robotic hand/gripper established; tow hitch and forklift tines are not a generic dexterous hand."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Autonomous movement and sensor counts are not silently summed."
+        },
+        "payload": {
+          "value": "11,000 lb load capacity in current Cyngn catalog BYD integration; chassis/load-center conditions unspecified",
+          "status": "documented",
+          "note": "Current catalog named-forklift narrative explicitly says eleven-thousand-pound load capacity. Earlier developer statements ten-thousand pounds in 2023 and over ten-thousand in 2024 retain dates. No unchanged exact chassis/load-center proof or bare BYD rating inheritance."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact selected-configuration maximum autonomous travel speed established; manual speed and other platforms are separate."
+        },
+        "terrain": {
+          "value": "Industrial indoor/outdoor material handling (Cyngn catalog); exact grade, step and weather limits unverified",
+          "status": "documented",
+          "note": "DriveMod Forklift: named integration developer source supplies this qualified terrain value; configuration and historical limits retained."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete integrated vehicle IP rating established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established; industrial operator training is not a consumer age rating."
+        },
+        "website": {
+          "value": "https://www.cyngn.com/pr/cyngn-brings-ai-powered-autonomous-drivemod-to-byd-forklifts",
+          "status": "documented",
+          "note": "Official June 2023 named BYD/DriveMod development article retained as identity source. Former product path redirects to Spaghetti Map and supplies no forklift specification evidence."
+        },
+        "description": {
+          "value": "DriveMod Forklift is Cyngn’s autonomy integration on BYD forklift vehicles. The current Cyngn catalog describes an 11,000 lb load capacity, with exact chassis, load center, mast and configured mass not established by inspected text. A June 2023 development release cited 10,000 lb and targeted 2024 commercialization; the October 21, 2024 first-paid-deployment release described loads over 10,000 lb. These are dated developer statements rather than proof that every BYD variant has identical ratings. Computer-vision pallet detection, 360° sensing, Virtual Bumper, Insight mission management and manual takeover are documented functions. February 2025 deployment announcements do not guarantee current stock. The former product URL redirects to an unrelated Spaghetti Map resource and is not used for forklift specifications.",
+          "status": "documented",
+          "note": "DriveMod Forklift: named integration developer source supplies this qualified description value; configuration and historical limits retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "June 2023 development targeted 2024 commercialization; October 2024firstpaiddeployment and February 2025 industry deployments are different milestones, not proof of exact first product release. Field remains omitted."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No underwater depth rating established."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft flight endurance established."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft maximum takeoff mass established."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration full battery charging duration established; auto-return to charge is not duration or state-of-charge window."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking capacity established."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking heat-source specification established."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured robot localization precision established; accurate-mapping or pallet-detection marketing is not a numeric tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured docking tolerance established. Auto-unhitch and return-to-charge are functions, not positioning precision."
+        },
+        "driveMode": {
+          "value": "Autonomous DriveMod pallet handling with Cyngn Insight missions and manual takeover capability",
+          "status": "documented",
+          "note": "DriveMod Forklift: named integration developer source supplies this qualified driveMode value; configuration and historical limits retained."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No specified fork/lift stroke established."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration maximum fork lifting height established; loading capability does not establish maximum height."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator reach established."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact on-vehicle deck/cargo capacity established. Towing and forklift lift ratings are different quantities."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified vision precision established. 360° coverage and reaction-speed comparisons are not a position/classification tolerance."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No welding speed established."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No worktable size established."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No selected-configuration minimum operating aisle width established. Other chassis widths or turning radius are not substitutes."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No selected-configuration numeric turning radius established. Early 6000-lb Tugger and current 12000-lb ratings are not silently merged."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No work swath established."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized area-per-time productivity established."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized mission/item-per-time throughput established. Customer trip counts, ROI and comparative efficiencies are not universal task rates."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No stacking height established."
+        }
+      }
+    },
+    {
+      "robotId": "cyngn-drivemod-stockchaser",
+      "manufacturer": "Cyngn",
+      "model": "DriveMod Stockchaser",
+      "sources": [
+        {
+          "name": "Cyngn — February 2023 DriveMod-enabled Columbia Stockchaser showcase/new and retrofit offer",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-to-showcase-drivemod-enabled-autonomous-stockchaser-to-prospective-customers-at-the-ara-show-in-orlando-florida",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — January 2022 autonomous Columbia Stockchaser fleet production",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-and-columbia-vehicle-group-to-begin-building-fleet-of-avs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — October 2021 Columbia stockchaser partnership",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-columbia-partnership",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — Stockchaser case-study landing title; current download uses Tugger naming",
+          "type": "developer",
+          "url": "https://www.cyngn.com/resources/case-study-drivemod-stockchaser-4x-more-efficient-than-human-driver",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current case-study PDF calls USC vehicle Tugger; no forced historical Stockchaser alias",
+          "type": "developer",
+          "url": "https://8962390.fs1.hubspotusercontent-na1.net/hubfs/8962390/Press%20Kit/Case%20Studies/DriveMod%20Case%20Study:%20U.S.%20Continental.pdf?hsCtaAttrib=161834028726",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-110/source-18.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-vehicle purchase quote established. EasyLaunch/RaaS monthly packages and ROI/cost comparisons are not prices."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact integrated vehicle mass established; bare OEM platform or another DriveMod configuration is not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete vehicle dimensions established. Cart trains, deck dimensions and other chassis are separate measures."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact selected-configuration battery duration established; Tugger’s up-to-twelve-hour figure is not assigned to forklift or Stockchaser."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous-duty runtime guarantee established. Battery endurance is recorded separately and service/software availability is not vehicle endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No robotic hand/gripper established; tow hitch and forklift tines are not a generic dexterous hand."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Autonomous movement and sensor counts are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact current named integration load rating established; towing, on-deck load and forklift lifting capacity remain separate measures."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact selected-configuration maximum autonomous travel speed established; manual speed and other platforms are separate."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified selected-configuration grade/step/environment qualification established. Industrial applications are not weather or ingress certification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete integrated vehicle IP rating established."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established; industrial operator training is not a consumer age rating."
+        },
+        "website": {
+          "value": "https://www.cyngn.com/pr/cyngn-to-showcase-drivemod-enabled-autonomous-stockchaser-to-prospective-customers-at-the-ara-show-in-orlando-florida",
+          "status": "documented",
+          "note": "DriveMod Stockchaser: named integration developer source supplies this qualified website value; configuration and historical limits retained."
+        },
+        "description": {
+          "value": "DriveMod Stockchaser is Cyngn’s autonomous integration on Columbia stockchaser vehicles, distinct from the Motrec tugger and BYD forklift integrations. A 2021 Columbia partnership, January 2022 fleet-production announcement and February 2023 showcase describe autonomous stockchasers supplied new or via compatible retrofit. Exact assembled mass, dimensions, deck/towing rating, speed, battery endurance and first-release year remain unverified. The current case-study landing page still names Stockchaser, but its downloadable U.S. Continental PDF now calls the vehicle DriveMod Tugger; that mismatch does not prove interchangeable chassis names or transfer Motrec specifications. EAS/Insight are software systems and unnamed mining-OEM work is not an additional identified robot model.",
+          "status": "documented",
+          "note": "DriveMod Stockchaser: named integration developer source supplies this qualified description value; configuration and historical limits retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "2021 partnership, 2022 fleet production and 2023 showcase establish historical existence and rollout, not an exact first release year. Do not infer a first launch from production or case-study dates."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No underwater depth rating established."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft flight endurance established."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft maximum takeoff mass established."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration full battery charging duration established; auto-return to charge is not duration or state-of-charge window."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking capacity established."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking heat-source specification established."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured robot localization precision established; accurate-mapping or pallet-detection marketing is not a numeric tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured docking tolerance established. Auto-unhitch and return-to-charge are functions, not positioning precision."
+        },
+        "driveMode": {
+          "value": "Autonomous DriveMod integration on Columbia stockchaser; factory-new or compatible retrofit configurations",
+          "status": "documented",
+          "note": "DriveMod Stockchaser: named integration developer source supplies this qualified driveMode value; configuration and historical limits retained."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No specified fork/lift stroke established."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration maximum fork lifting height established; loading capability does not establish maximum height."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator reach established."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact on-vehicle deck/cargo capacity established. Towing and forklift lift ratings are different quantities."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified vision precision established. 360° coverage and reaction-speed comparisons are not a position/classification tolerance."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No welding speed established."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No worktable size established."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No selected-configuration minimum operating aisle width established. Other chassis widths or turning radius are not substitutes."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No selected-configuration numeric turning radius established. Early 6000-lb Tugger and current 12000-lb ratings are not silently merged."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No work swath established."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized area-per-time productivity established."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized mission/item-per-time throughput established. Customer trip counts, ROI and comparative efficiencies are not universal task rates."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No stacking height established."
+        }
+      }
     }
   ]
 }

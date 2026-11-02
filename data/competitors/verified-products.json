@@ -21922,32 +21922,116 @@
         "category": "commercial",
         "manufacturer": "Cyngn",
         "model": "DriveMod Tugger",
-        "price": "Not disclosed",
+        "price": "",
+        "weight": "1,250 ± 100 lb depending on options (Cyngn autonomous Motrec MT-160 specification)",
+        "size": "65 in L × 30 in W × 55 in H (Cyngn autonomous Motrec MT-160 specification)",
+        "batteryLife": "Up to 12 h per charge; varies with speed, load weight and usage (developer)",
+        "maxRuntime": "",
         "tags": "commercial;industrial;warehouse;transport;autonomous-nav;lidar",
+        "handType": "",
+        "dof": "",
+        "payload": "12,000 lb maximum towing (current DriveMod/Motrec MT-160); separate deck-load rating",
+        "speed": "Up to 4 mph autonomous; 6 mph manual (Cyngn autonomous Motrec MT-160 specification)",
+        "terrain": "Maximum slope 2.5% (current MT-160 specification); industrial indoor/outdoor use; not 2.5 degrees or an IP rating",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.cyngn.com/vehicles/autonomous-tugger",
-        "description": "Autonomous tugger uses 3D LiDAR mapping without floor guide wires, tape or magnets. Cyngn Insight and an onboard touchscreen support route changes, dispatch and manual override. EasyLaunch rental combines the Motrec-based vehicle, autonomy, mapping, training and support.",
-        "payload": "12,000 lb towing; separate 500 lb deck capacity",
-        "speed": "up to 4 mph autonomous",
-        "batteryLife": "up to 12 h; manufacturer maximum"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "DriveMod Tugger is Cyngn’s autonomous integration of a Motrec MT-160 tow tractor. Current developer specifications describe the 12,000 lb towing configuration with a separately rated 500 lb deck load, 65 × 30 × 55 in dimensions and 1,250 ± 100 lb mass depending on options. Maximum travel is 4 mph autonomous or 6 mph manual; battery operation is up to twelve hours depending on load/speed/usage, with five-hour charging and an unspecified charge window. Current turning radius is 53 in, minimum aisle 59 in and maximum grade 2.5 percent. The October 2023 preview’s 6,000 lb/54 in figures predate a documented 2024 upgrade. 3D-LiDAR mapping, FMS dispatch, manual override and redundant stop functions support site-specific workflows. Auto-unhitch and LTE retain attachment/optional scope; no blanket whole-system certification or guaranteed ROI is established.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "5 h (Cyngn autonomous Motrec MT-160 specification); state-of-charge window unspecified",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous 3D-LiDAR mapped routes with FMS/touchscreen dispatch and manual override",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "500 lb maximum on-vehicle deck load; towing capacity is separate",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "59 in minimum (current autonomous Motrec MT-160 specification); deployment clearance still required",
+        "turningRadius": "53 in (current autonomous Motrec MT-160 specification)",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Autonomous tugger uses 3D LiDAR mapping without floor guide wires, tape or magnets",
         "Cyngn Insight and an onboard touchscreen support route changes, dispatch and manual override",
-        "EasyLaunch rental combines the Motrec-based vehicle, autonomy, mapping, training and support"
+        "EasyLaunch rental combines the Motrec-based vehicle, autonomy, mapping, training and support",
+        "Current autonomous Motrec MT-160 specifications give 65 × 30 × 55 in outer dimensions and 1,250 ± 100 lb mass depending on options. The 18 × 30 in deck is a separate area, not the vehicle footprint.",
+        "Current towing capacity is 12,000 lb; maximum onboard deck load is separately 500 lb. Autonomous speed is up to 4 mph and manual speed up to 6 mph; these are distinct operating modes, not two conflicting autonomous ratings.",
+        "The listed battery is 12.4 kWh lithium-ion at 48 V. Battery operation is up to twelve hours and charging is listed as five hours. Speed, load weight and usage affect endurance; exact charge-state/test conditions are unspecified and no independent continuous-duty guarantee follows.",
+        "The current specification states a 53 in turning radius, 59 in minimum aisle and 2.5% maximum slope. Percent grade is not degrees; commissioned cart-train clearance and environmental limits still require deployment assessment.",
+        "October 2023 preview figures were 6,000 lb towing and 54 in turn radius. The September 2024 release explicitly describes the upgrade from 6,000 to 12,000 lb; historical figures are not silently merged with today’s configuration.",
+        "The sensor suite lists 360° 3D LiDAR, 2D safety LiDAR, an IMU and wheel encoders. Virtual Bumper, emergency stops, LEDs and audio cues are developer safety functions. The catalog’s B56.5-compliant wording is attached to Virtual Bumper, not independently verified certification of every complete vehicle, site or cart train; three-times-faster reaction is a supplier comparison.",
+        "The datasheet lists auto-unhitch and blue light as optional features, and LTE as optional alongside Wi-Fi 5 (802.11ac). Route dispatch, manual takeover and automatic charge/home missions are software functions; EasyLaunch has no numeric public price or guaranteed deployment/ROI result. The catalog lists pneumatic tires while the linked datasheet says solid/non-marking; exact supplied tire configuration remains unresolved."
       ],
       "sources": [
         {
-          "name": "Cyngn",
-          "type": "manufacturer",
+          "name": "Cyngn — publicly linked Autonomous Motrec MT-160 datasheet PDF; extracted text only",
+          "type": "developer",
+          "url": "https://8962390.fs1.hubspotusercontent-na1.net/hubfs/8962390/DriveMod%20Tugger%20Specifications.pdf?hsCtaAttrib=161886341816",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current DriveMod Tugger product page: towing versus deck load and autonomous speed",
+          "type": "developer",
           "url": "https://www.cyngn.com/vehicles/autonomous-tugger",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current 24-page Cyngn catalog; extracted text and coordinate review only",
+          "type": "developer",
+          "url": "https://www.cyngn.com/hubfs/Cyngn%20Catalog%204.0%20(Current).pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current DriveMod safety architecture",
+          "type": "developer",
+          "url": "https://www.cyngn.com/vehicles/safety",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — DriveMod safety brochure; extracted text only",
+          "type": "developer",
+          "url": "https://www.cyngn.com/hubfs/Sales%20Enablement%20Materials/DriveMod%20Safety%20Brochure.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — July 2023 Motrec MT-160 partnership with historical 6000-lb rating",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-to-partner-with-motrec-launch-fleet-of-autonomous-tuggers",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — September 2024 next-generation 12000-lb Tugger build and upgrade",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/next-gen-12000-lb-drivemod-tugger-built-at-motrec-facility-to-prepare-for-customer-orders",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — October 2023 original 6000-lb Tugger preview; future deployment milestones",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-reveals-drivemod-tugger-fully-autonomous-electric-tugger-for-industrial-operations",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/fa277dc2-fb12-4d54-9962-b016f440fcf9"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-16/cyngn.com-autonomous-tugger.json",
-      "reviewNotes": "Current manufacturer page separates towing capacity from deck load. Automatic unhitch is an attachment, not assumed standard in every configuration. Rental has no disclosed numerical rate. Deployment times, ROI and comparative safety/reaction-speed marketing are not guarantees. Historical FAQ describes design to standards without certification; no certification or universal pedestrian/forklift safety is inferred."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-110/source-20.pdf",
+      "reviewNotes": "Batch 110 Cyngn developer/integrator evidence. Current 12000-lb autonomous Motrec MT-160 fields retain option mass range, towing versus deck load, autonomous/manual speeds, percent slope, charge-window and runtime limits. Earlier 6000-lb/54in preview and 2024 upgrade remain dated revisions. BYD forklift narrative load capacity not inherited across all chassis; catalog page 15 content/type unverified; text extraction yielded only its printed page number. Historical Columbia Stockchaser is separate; case-study landing versus Tugger PDF mismatch does not force alias or numerical inheritance. Former forklift URL now unrelated resource. Existing discovery provenance and highlights retained. Public HTML/XML/PDF text and word coordinates only; no image/PDF/video visual inspection or independent certificates/safety/ROI/market proof.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -31028,42 +31112,90 @@
         "category": "commercial",
         "manufacturer": "Cyngn",
         "model": "DriveMod Forklift",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;industrial;warehouse;logistics;autonomous-nav;forklift",
+        "handType": "",
+        "dof": "",
+        "payload": "11,000 lb load capacity in current Cyngn catalog BYD integration; chassis/load-center conditions unspecified",
+        "speed": "",
+        "terrain": "Industrial indoor/outdoor material handling (Cyngn catalog); exact grade, step and weather limits unverified",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.cyngn.com/pr/cyngn-brings-ai-powered-autonomous-drivemod-to-byd-forklifts",
-        "price": "Not disclosed",
-        "description": "Autonomous forklift integration combining Cyngn DriveMod with a BYD vehicle platform. Cyngn reported its first paid deployment on October 21, 2024 and deployments across several industries on February 19, 2025. Current delivery terms and the supplied chassis configuration require confirmation.",
-        "tags": "commercial;industrial;warehouse;logistics;autonomous-nav;forklift"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "DriveMod Forklift is Cyngn’s autonomy integration on BYD forklift vehicles. The current Cyngn catalog describes an 11,000 lb load capacity, with exact chassis, load center, mast and configured mass not established by inspected text. A June 2023 development release cited 10,000 lb and targeted 2024 commercialization; the October 21, 2024 first-paid-deployment release described loads over 10,000 lb. These are dated developer statements rather than proof that every BYD variant has identical ratings. Computer-vision pallet detection, 360° sensing, Virtual Bumper, Insight mission management and manual takeover are documented functions. February 2025 deployment announcements do not guarantee current stock. The former product URL redirects to an unrelated Spaghetti Map resource and is not used for forklift specifications.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous DriveMod pallet handling with Cyngn Insight missions and manual takeover capability",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "DriveMod supplies autonomous-driving technology for the BYD forklift integration documented by Cyngn",
         "Manufacturer describes vision-based pallet recognition and multilayer environment sensing",
-        "Cyngn reports a first paid deployment in October 2024 and further industry deployments in February 2025; these are supplier announcements"
+        "Cyngn reports a first paid deployment in October 2024 and further industry deployments in February 2025; these are supplier announcements",
+        "Current catalog text describes the DriveMod/BYD forklift with 11,000 lb load capacity. The exact base chassis, load-center, mast and configuration limits remain unverified; catalog page 15 yielded only its printed page number. Its content and type were not visually inspected or OCRed; no values are inferred from that page.",
+        "The June 2023 development announcement cited 10,000 lb and targeted a 2024 launch; the October 2024 paid-deployment release described loads over 10,000 lb. Dates and different scope remain explicit rather than inventing one unchanged chassis rating.",
+        "Pallet-dimension/pocket recognition, 360° perception, Virtual Bumper and Insight fleet missions are developer integration functions. No numeric pallet-placement precision, lift height, charging time or battery endurance is established by inspected text.",
+        "The October 21, 2024 first-paid-deployment and February 19, 2025 cross-industry releases provide supplier deployment milestones; neither is an independently verified universal launch date or proof of today’s exact package/stock.",
+        "The former autonomous-forklift URL now resolves to the Spaghetti Map resource. Its present content is not forklift specification evidence. Generic DriveMod manual/autonomous and indoor/outdoor capabilities do not transfer Tugger dimensions, speed, slope or deck load to BYD forklifts."
       ],
       "sources": [
         {
-          "name": "Cyngn — June 15, 2023 BYD forklift development announcement",
+          "name": "Cyngn — June 2023 BYD forklift development announcement",
           "type": "developer",
           "url": "https://www.cyngn.com/pr/cyngn-brings-ai-powered-autonomous-drivemod-to-byd-forklifts",
           "checkedAt": "2026-11-02"
         },
         {
-          "name": "Cyngn — October 21, 2024 first paid forklift deployment",
+          "name": "Cyngn — October 2024 first paid forklift deployment announcement",
           "type": "developer",
           "url": "https://www.cyngn.com/pr/cyngn-completes-first-paid-drivemod-forklift-deployment-at-customer-facility",
           "checkedAt": "2026-11-02"
         },
         {
-          "name": "Cyngn — February 19, 2025 DriveMod deployments",
+          "name": "Cyngn — February 2025 multi-industry deployment announcement",
           "type": "developer",
           "url": "https://www.cyngn.com/pr/cyngn-deploys-autonomous-drivemod-vehicles-across-multiple-industries",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current 24-page Cyngn catalog; extracted text and coordinate review only",
+          "type": "developer",
+          "url": "https://www.cyngn.com/hubfs/Cyngn%20Catalog%204.0%20(Current).pdf",
           "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/companies/cyngn"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-33/cyngn.com-pr-cyngn-brings-ai-powered-autonomous-drivemod-to-byd-forklifts.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Cyngn supplies autonomy integration; BYD supplies the host forklift. Manufacturer announcements dated October 21, 2024 and February 19, 2025 supersede the development-stage-only interpretation of the June 2023 page, but do not establish current stock, price, independent deployment confirmation or a specific current chassis. The /autonomous-forklift page now describes Tugger workflows. Numeric capacities from different dated references are omitted; archived PDF fetches returned 404. Deployment dates are not treated as a release year."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-110/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 110 Cyngn developer/integrator evidence. Current 12000-lb autonomous Motrec MT-160 fields retain option mass range, towing versus deck load, autonomous/manual speeds, percent slope, charge-window and runtime limits. Earlier 6000-lb/54in preview and 2024 upgrade remain dated revisions. BYD forklift narrative load capacity not inherited across all chassis; catalog page 15 content/type unverified; text extraction yielded only its printed page number. Historical Columbia Stockchaser is separate; case-study landing versus Tugger PDF mismatch does not force alias or numerical inheritance. Former forklift URL now unrelated resource. Existing discovery provenance and highlights retained. Public HTML/XML/PDF text and word coordinates only; no image/PDF/video visual inspection or independent certificates/safety/ROI/market proof."
     },
     {
       "row": {
@@ -59457,6 +59589,99 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-109/source-18.html",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch 109 public manufacturer evidence: current Digital Teammate platform and PatrolBot plus explicitly named historical Retail inSight, Retail inSpect and UV Disinfect Robot. Current platform launch 2025 does not date all old Badger chassis. Sixteen-hour current battery and historical twelve-hour PatrolBot claims kept separate; no inherited historical dimensions or endurance. RFID requires tags/equipment; alerts do not physically restock or clean. UV early tests and planned 2021 pilots do not establish full delivery, present supply, independent efficacy or occupied-space safety. Marty and Deborah are deployment names, not extra forced SKU identities. Existing discovery provenance/highlights retained. Extracted HTML/PDF text only; no visual image/PDF/video inspection."
+    },
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Cyngn",
+        "model": "DriveMod Stockchaser",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;industrial;warehouse;transport;autonomous-nav;historical;columbia-integration",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.cyngn.com/pr/cyngn-to-showcase-drivemod-enabled-autonomous-stockchaser-to-prospective-customers-at-the-ara-show-in-orlando-florida",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "DriveMod Stockchaser is Cyngn’s autonomous integration on Columbia stockchaser vehicles, distinct from the Motrec tugger and BYD forklift integrations. A 2021 Columbia partnership, January 2022 fleet-production announcement and February 2023 showcase describe autonomous stockchasers supplied new or via compatible retrofit. Exact assembled mass, dimensions, deck/towing rating, speed, battery endurance and first-release year remain unverified. The current case-study landing page still names Stockchaser, but its downloadable U.S. Continental PDF now calls the vehicle DriveMod Tugger; that mismatch does not prove interchangeable chassis names or transfer Motrec specifications. EAS/Insight are software systems and unnamed mining-OEM work is not an additional identified robot model.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous DriveMod integration on Columbia stockchaser; factory-new or compatible retrofit configurations",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "discoveredIn": [
+        "https://www.cyngn.com/pr/cyngn-to-showcase-drivemod-enabled-autonomous-stockchaser-to-prospective-customers-at-the-ara-show-in-orlando-florida"
+      ],
+      "highlights": [
+        "Manufacturer/developer announcements identify autonomous Columbia stockchasers in the 2021 partnership, January 2022 fleet production and February 2023 DriveMod-enabled showcase. This integration remains distinct from Motrec MT-160 tuggers and BYD forklifts.",
+        "The February 2023 showcase describes both new autonomous stockchaser purchases and retrofits of compatible existing stockchasers. It does not establish that every Columbia variant accepts the same hardware or has identical payload, endurance or clearances.",
+        "Fleet production and historical commercial deployment are supplier announcements. Exact first release, current stock, assembled dimensions, mass, deck/towing ratings and speed are not established by inspected model-specific text.",
+        "The current U.S. Continental landing page title says DriveMod Stockchaser, while its linked case-study PDF calls the vehicle DriveMod Tugger. That source-naming mismatch is retained; Motrec dimensions, 12,000 lb towing and twelve-hour battery are not assigned to Stockchaser.",
+        "Customer-specific four-times-efficiency claims are developer research, not standardized vehicle throughput or independently guaranteed savings. DriveMod Kit, EAS, Insight and RaaS are integration/software/service labels rather than extra complete robot models."
+      ],
+      "sources": [
+        {
+          "name": "Cyngn — February 2023 DriveMod-enabled Columbia Stockchaser showcase/new and retrofit offer",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-to-showcase-drivemod-enabled-autonomous-stockchaser-to-prospective-customers-at-the-ara-show-in-orlando-florida",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — January 2022 autonomous Columbia Stockchaser fleet production",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-and-columbia-vehicle-group-to-begin-building-fleet-of-avs",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — October 2021 Columbia stockchaser partnership",
+          "type": "developer",
+          "url": "https://www.cyngn.com/pr/cyngn-columbia-partnership",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — Stockchaser case-study landing title; current download uses Tugger naming",
+          "type": "developer",
+          "url": "https://www.cyngn.com/resources/case-study-drivemod-stockchaser-4x-more-efficient-than-human-driver",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Cyngn — current case-study PDF calls USC vehicle Tugger; no forced historical Stockchaser alias",
+          "type": "developer",
+          "url": "https://8962390.fs1.hubspotusercontent-na1.net/hubfs/8962390/Press%20Kit/Case%20Studies/DriveMod%20Case%20Study:%20U.S.%20Continental.pdf?hsCtaAttrib=161834028726",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-110/source-18.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 110 Cyngn developer/integrator evidence. Current 12000-lb autonomous Motrec MT-160 fields retain option mass range, towing versus deck load, autonomous/manual speeds, percent slope, charge-window and runtime limits. Earlier 6000-lb/54in preview and 2024 upgrade remain dated revisions. BYD forklift narrative load capacity not inherited across all chassis; catalog page 15 content/type unverified; text extraction yielded only its printed page number. Historical Columbia Stockchaser is separate; case-study landing versus Tugger PDF mismatch does not force alias or numerical inheritance. Former forklift URL now unrelated resource. Existing discovery provenance and highlights retained. Public HTML/XML/PDF text and word coordinates only; no image/PDF/video visual inspection or independent certificates/safety/ROI/market proof."
     }
   ]
 }
