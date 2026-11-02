@@ -14,17 +14,17 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: Listings / Firmen | 862 / 412 |
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
-| Zusammengeführte Wettbewerber-Firmen und -Marken | 592 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.132 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 878 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1044 |
+| Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.134 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 880 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1046 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 105 |
+| Firmenfokus-Prüfungen mit Quellen | 106 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 878 ergänzte Modelle ergeben 2.132 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 880 ergänzte Modelle ergeben 2.134 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-105 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+106 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1044 Datensätze
+Modellseiten verlinken Markenprofile. Die 1046 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 417 haben ausgewählte Datenfeldprüfungen und 101
+haben datierte Merkmalsbelege; 419 haben ausgewählte Datenfeldprüfungen und 99
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -9316,3 +9316,96 @@ neun Listingidentitäten und 862 Buy-Detailinhalte offen. Vollständige Quellen-
 Herstellerabdeckung, unabhängige exklusive USPs oder Markt-/Suchführerschaft bleiben
 unbewiesen. Datencommit `28235cc78d1f7db99efe2c6cab95a5f66be79521` gepusht, Main unverändert.
 Nachweis: `reports/competitor-batch-112-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Percepto: Generationen, Dockwerte und Software-Rollen (Batch 113)
+
+Air Max, Air Max OGI, Ranger und Ranger OGI vertieft; Air Mobile und Sparrow als
+historische Plattformen ergänzt. Sechs Modelle mit 222 ausgewählten Feldern:
+28 dokumentiert, 193 unbekannt und ein Quellenkonflikt. 24 zusätzliche Aussagen,
+netto 25 Produktquellenverweise; 13 vorhandene Aussagen und Entdeckungsprovenienz
+bewahrt. Ein neuer Firmenfokus. Unbekannte Flug-/Akku-/Ladezeiten bleiben leer.
+
+Herstellerankündigung vom 17. November 2021 nennt Air Mobile ausdrücklich als neues
+kompaktes Modell neben AIM 2022. Die Softwarebezeichnung und April-2022-Datenblatt-
+revision verschieben den Modellstart nicht auf 2022. Dieselbe Meldung nennt Air Max
+als nächste Generation von Sparrow; ein Januar-2022-Refineriebericht beschreibt
+Air Max als neueste Sparrow-Konfiguration. Belegter Generationszusammenhang bedeutet
+keine identischen technischen Stände oder Gleichsetzung mit heutigen Ranger-Modellen.
+Exakter erster Sparrow-/Air-Max-/Ranger-Start nicht aus Firmen-/Software- oder
+Regulierungsdaten abgeleitet; November 2020 betrifft AIM-Software.
+
+Air Max: 9,5 kg, 157 cm Propellerspitzen-Diagonale und IP55 beim Fluggerät; 350 kg,
+166 × 162 × 168 cm und IP56 gehören zur Basis. Akku-/Payload-Einschluss der Masse
+nicht geklärt, Diagonale keine Verpackungsmaße. Standardkonfiguration 24 MP RGB plus
+Thermal, gegenüber eigenem Air-Max-OGI-Blatt mit 10,7 kg, 157 cm, 16 MP RGB und
+Sierra Olympic Ventus. OGI-Spektralband 3,2–3,42 Mikrometer, Gasbeispiele und historische
+kamerabezogene EPA-Aussage sind weder Frachtlast noch universelle Nachweisgrenze oder
+unabhängige heutige Systemfreigabe. IP55 des Standardmodells nicht auf OGI übertragen.
+
+Air Mobile: 4,2 kg, 68 cm Propellerspitzen-Diagonale, IP55, 16 MP RGB plus Thermal und
+LTE in Herstellerdaten. Basis separat 100 kg, 100 × 100 × 75 cm und IP56. Einsatz an
+kleineren/temporären Standorten und linearen Anlagen, verlagerbare Basis auf normalem
+Truck: kein belegter Start während der Fahrt, keine exakte Rüst-/Ladedauer oder
+unbegrenzte Funkreichweite. Sparrow bleibt ohne übernommene Air-Max-/Ranger-Zahlen.
+
+Aktueller Ranger: Produktseite nennt 61 MP Vollformat-RGB und radiometrische Thermal-
+bildgebung, Portfolioseite hingegen 1 MP Vollformat-RGB plus Boson. Roh-HTML bestätigt
+abweichenden Text. Beschreibung als conflicting markiert, beide Aussagen sichtbar;
+kein stilles Beheben eines angenommenen Tippfehlers. Kamera-MP sind keine metrische
+Bildverarbeitungspräzision. Core erkennt Anlagen, vermeidet Hindernisse und steuert
+Inspektionsmanöver; AIMs bis zu 30 Drohnen betreffen Flottenparallelität, keine
+Flugzeit oder standardisierte Inspektionsleistung.
+
+Ranger OGI: aktuelle Seite nennt AI Emission Detector, automatische Aufnahme und
+AIM-Fernbetrieb. Meldung vom 16. Juni 2025 beschreibt 100 g/h bei 90 Prozent confidence;
+Meldung vom 1. Oktober 2025 nennt 100 g/h bei 90 Prozent reliability im Testkontext und
+300 g/h bei höherem Wind im Permian-Einsatz. Bedingungen und Wortlaut getrennt,
+keine universelle Empfindlichkeit, Geschwindigkeit oder Inspektionen/Stunde daraus.
+Herstellerbericht zur EPA-Alternativmethode unter benannten Subparts nicht unabhängig
+als heutige allgemeine Freigabe geprüft. Historische Kameraaussage und ältere
+Pending-Approval-Verweise nicht zu pauschalem aktuellem Status zusammengezogen.
+
+Harbor und historische Percepto Bases sind Dock, Ladegerät, Schutz und Datenübertragung.
+Hurrikan-Kategorie-5-Testwerbung betrifft den Schutzraum, keine Flugwindgrenze;
+24/7-Verfügbarkeit ist keine durchgehende Flugzeit. Exakte Ranger-Massen, Maße,
+IP-Werte, Flug- und Ladedauern nicht aus älteren Air-Modellen übernommen.
+
+Herstellerankündigung und Strategietext vom 27. Oktober 2026 führen Axion als neue
+hardwareunabhängige SaaS mit unterstützten Drittanbieterdrohnen/-sensoren und Archiven.
+160-plus AI-Modelle und 100.000-plus Trainingsstunden sind Softwareentwicklungsangaben,
+keine Drohnenzahlen oder bewiesene Einsatzgenauigkeit. Ranger-/Harbor-Hardware bleibt
+laut Strategie Bestandteil des Geschäfts. Zusammenlegung von Engineering, Herstellung
+und Montage in den USA war im Gange, nicht als vollständig beendet verifiziert.
+AIM, AIM 2022, Insight Manager, Axion und Detector bleiben Software-/Feature-Rollen;
+Kameras, fremde Datenquellen, Remote-Services und Demoanfragen keine neuen Fluggeräte
+oder Hardwarekaufpreise. Sicherheits-, ROI-, Only-/Most-Advanced- und Führerschafts-
+werbung keine unabhängig bewiesenen exklusiven USPs.
+
+22 öffentliche Antworten mit SHA-256: 21 HTTP 200, ein ungenutzter 404-Link. Drei
+historische PDFs plus aktuelle/datierte Hersteller-HTML-Texte. Interne Suchseiten
+16/17 nur Entdeckung; verlinkte Artikel separat abgerufen. PDF-Text und ausgewählte
+Wortkoordinaten geprüft, Zweispalten- und Fluggerät-/Basis-Zeilen getrennt zugeordnet.
+Keine visuelle PDF-/Bild-/Video-/CAD-Prüfung, Formulare, Demos, Kontakte, Login oder
+Warenkorbaktionen. Nachweis enthält Hashes/Prüfstellen statt vollständiger Handbuchseiten.
+
+2128 andere bisherige CSV-Zeilen, 922 bisherige Feldprüfungen, 105 Firmenfokusse,
+1040 andere Produktbelege und 1961 Quellenidentitäten erhalten. Keine neuen Spalten
+oder Anwendungscodeänderung. 807 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle mit
+vier Axe-Läufen, Build 3184 Seiten, Lint/Format, Refresh und Wiederimport bestanden.
+Audit null Fehler/1033 Hinweise: ein neuer Hinweis zum unbekannten ersten Sparrow-
+Startjahr, andere identisch. Sechs Seiten/222 Felder/37 Aussagen, Firmenfokus,
+strukturierte Eigenschaften, zwei Modell-Exportziele/74 Felder und zwei ursprüngliche
+Queue-Ziele/74 Felder geprüft; keine Firmenbeschreibungs-Produktreferenz für diese
+Gruppe. Vergleich enthält 1046 Produktbelege, 4659 Aussagen, 2140 Quellenverweise und
+928 Prüfungen/16278 Felder. Eigene Browser-/Server-/Hilfsprozesse beendet, Port 4321 frei.
+Kein Deployment. Externe YouTube-Frame-Befunde aus Batch106 bleiben ungelöst.
+
+Gesamt 2134 Modelle/Konfigurationen, 880 Ergänzungen, 166 bestehende Modelle mit
+Merkmalsanreicherung und 106 Firmenfokusse. Ursprüngliche Ziele: 419 geprüft, 99 offen
+von 518; 7252 Felder (3110 dokumentiert, 3961 unbekannt, 170 Konflikte, elf Roadmap).
+Firmenfokus für 102 von 591 Quellengruppen. Drei Modellidentitäten, neun Listing-
+identitäten und 862 Buy-Detailinhalte offen; vollständige Herstellerabdeckung,
+unabhängig exklusive USPs oder Markt-/Suchführerschaft bleiben unbewiesen.
+Datencommit `5cabb6e47375f25946b19a1b278426d5f4899db5` gepusht, Main unverändert.
+Nachweis: `reports/competitor-batch-113-evidence.json`.
