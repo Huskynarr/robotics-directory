@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.166 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 912 |
-| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1078 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.168 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 914 |
+| Datierte Produktmerkmal-Datensätze einschließlich 166 bestehender Modelle | 1080 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
 | Firmenfokus-Prüfungen mit Quellen | 112 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 912 ergänzte Modelle ergeben 2.166 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 914 ergänzte Modelle ergeben 2.168 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -43,7 +43,7 @@ bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Fir
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
 112 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1078 Datensätze
+Modellseiten verlinken Markenprofile. Die 1080 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 438 haben ausgewählte Datenfeldprüfungen und 80
+haben datierte Merkmalsbelege; 440 haben ausgewählte Datenfeldprüfungen und 78
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 499 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 500 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -9889,4 +9889,124 @@ Die ursprüngliche Queue hat 438 geprüfte und 80 offene Ziele; 7921 Felder:
 Drei Modellidentitäten, neun Listingidentitäten und 862 Buy-Detailinhalte weiterhin
 offen. Vollständigkeit, exklusive USPs, Suchrankings und Marktführerschaft unbewiesen.
 Datencommit `894916c94d52a57d8f66dc91f138395a1ff73b19` gepusht; Dokumentationsnachweis folgt separat auf
+`codex/competitor-directory-expansion`. Kein Deployment; `main` unverändert.
+
+## Ergänzung vom 2. November 2026 – Ambi Robotics: Anlagen, Einheiten und Primärstarts (Batch 119)
+
+AmbiSort A-Series und AmbiStack vertieft, AmbiSort B-Series und AmbiKit als zwei
+benannte Gesamtsysteme ergänzt. Vier Modelle/Familien mit 148 ausgewählten Feldern:
+21 dokumentiert, 127 unbekannt. 21 neue Merkmalsaussagen, netto 15 zusätzliche
+Produktquellenverweise. Vorhandenen Firmenfokus um sieben Aussagen erweitert;
+beide alten Firmenaussagen, sechs alte Produktaussagen und Entdeckungsprovenienz
+bleiben erhalten. Keine vollständige historische Konfigurationsabdeckung behauptet.
+
+Primäre Einführungsmeldungen durch sichtbares HTML-Seitendatum, Text und WebPage-
+`datePublished` geprüft: AmbiKit 27. Juli 2021, B-Series 6. Juni 2023, AmbiStack
+28. Januar 2025. AmbiKit-Mediennachricht vom 28. Juli ist keine Erstmeldung.
+Generisches AmbiSort laut eigener Historie 2020 in Produktion; das ist kein belegter
+Erststart der ausdrücklich benannten A-Series. Q3-2022-Firmendeck enthält
+A-Series-Produktstartlabel und A-Series-v2-Schema, aber keine aus Textreihenfolge
+oder unbestätigter Zeitachsen-Geometrie erfundene Jahreszuordnung. A-Series-
+Erstjahr bleibt offen; das v2-Schema kein zusätzlich erfundenes Einzelmodell.
+
+A-Series: Soft-touch-Greifer, vier Barcodescanner, zwei Qualitätskontrollzonen,
+Puffer und Gantry-Übergabe, Sack-/Tote-Ausgänge und Bin-/Conveyor-Eingang.
+Bediener verschließen und tauschen volle Säcke. Aktuell angezeigte 66 Ziele sind
+laut Konfigurator ein Platzhalter; das ältere Deck nennt 66 Säcke für eine
+bestimmte historische Pitney-Bowes-Installation. Keine pauschale Zielzahl übertragen.
+Primärer Firmen-Fallbericht vom 22. November 2024: 355 Sortierungen/h und 99 Prozent
+im Peak 2022, 410/h im Peak 2023, 500/h und 99,6 Prozent nach Updates für 2024.
+Datiertes Kundenbeispiel, keine universelle heutige Mindestkapazität oder metrische
+Prüfpräzision. Visuelle Doppelpick-Kontrolle, Material-/Dimensionsanalyse und
+Benachrichtigungen als Herstellermerkmale, ohne ungenannte Zahlengenauigkeit.
+
+B-Series: Einführung nennt über 1200 Pakete/h. Der verlinkte 2023-Leitfaden
+kennzeichnet die Daten als Drei-Greifzellen-Konfiguration. Der aktuelle Konfigurator
+nennt zusätzlich 500 Sortierungen/h je hinzugefügter Pickzelle. Unterschiedliche
+Datums-/Konfigurationskontexte, kein 1200/h-Einarmversprechen oder errechnetes
+universelles lineares Anlagenmodell. Mehrfach-Saug-Greifer, Puffer/Zentralförderer,
+sechsseitiger Scantunnel, optionale WMS-Zielinformation und Füllstandsüberwachung
+mit Bedienerhinweisen. Über 99,5 Prozent Genauigkeit in der Einführung getrennt
+von Sortierbarkeit, richtigem Ausgang und gewünschter Verfügbarkeit im Leitfaden.
+Keine Prozentzahl als Dimensionspräzision oder unabhängige Zertifizierung ausgegeben.
+
+AmbiStack: FAQ nennt 50 lb je Karton und 52 × 32 × 32 in Kartonmaße.
+Keine Maschinenmasse, Außenmaße, Gesamtpalettenlast oder durch Addition erfundene
+100-lb-Multipick-Traglast. Zwei Kartons gleichzeitig ist kein absoluter Durchsatzwert.
+Sechs/zwölf/mehr Ausgänge, Zwei-Maschinen-Aufbau und verschiedene Behältertypen
+sind Konfigurationsoptionen. Keine daraus erfundenen Einzelmodelle oder pauschalen
+Stapelhöhen. Lichtvorhang-Zonen erlauben Palettenwechsel in einer Hälfte bei
+Stapeln in der anderen; Bediener und externe AMRs/AGVs bleiben separat.
+
+Einführung vom Januar 2025 prognostizierte erste Einsätze ab Jahresmitte bis Herbst
+und Kapazitätsausbau Anfang 2026; keine damalige Planangabe als heute garantierter
+Lagerbestand interpretiert. Herstellerbericht vom 30. Juni 2026 bestätigt separat
+eine Integration: Pickle Robot entlädt Trailer, Förderer führen Kartons AmbiStack
+zum Identifizieren/Scannen/Stapeln zu. Partner-Entladung keine eigene AmbiStack-
+Bordfunktion oder zusätzliches Ambi-gefertigtes Modell. Zählwerte der Sack-/
+Palettenausgänge und Partnerfahrzeuge bleiben von Hardware-DOF und Mobilität getrennt.
+
+AmbiKit: Primäre Einführung beschreibt eine bereits produktiv eingesetzte
+Fünf-Roboter-Picklinie mit bis zu 60 Einzelartikeln/min. Aktuelle Produktseite
+nennt 12 vollständige Kits/min und Auswahl von bis zu 15 SKUs. Keine Division zu
+erfundener fester Fünf-Artikel-Kitlänge, keine fünf Gesamtachsen und keine 15
+Robotermodelle. Bediener bereiten Produkte vor, füllen nach und verpacken Kits.
+99 Prozent vollständige Kits und mehr als 99 Prozent Auftragsgenauigkeit sind
+unterschiedliche Hersteller-Kennzahlen, keine garantierte universelle Quote.
+
+AmbiOS, PRIME-1, Sim2Real, AI Skill Suite und AmbiAccess behalten Software-/AI-/
+Analyse-/Service-Rollen. AmbiVision ist ein OCR-/Barcode-/Dimensions-Scantunnel mit
+lokaler Verarbeitung und WMS-Anbindung, kein weiterer artikulierter Handhabungsroboter.
+Künftige Wiege-/Schaden-/Label-/Kartonöffnungsfunktionen bleiben als Zukunftsoptionen
+qualifiziert; kostenloser 30-Tage-Test keine Anlagen-Kaufpreisangabe. Flottenvolumen
+über eine Million Pakete/Woche, 10.000-fache Trainingswerbung, Uptime-/ANSI-/
+Sicherheitsclaims und 24/7-Service keine Einzelsystem-Kapazität, Batterie-/Laufzeit,
+unabhängige Zellenzertifizierung oder exklusiver USP.
+
+27 gespeicherte öffentliche HTTP-Antworten mit SHA-256: 26 HTTP200, eine ungenutzte
+404. Zwei Lösungsleitfäden haben defekte native Unicode-Zuordnung. Elf Seiten mit
+isoliertem Tesseract-5.5-Lauf und 220 dpi maschinell extrahiert, zusätzlich ausgewählte
+Spezifikationsbereiche mit 450 dpi. Mehrere große Zahlenzeichen bleiben unklar;
+keine stille O/0-Reparatur oder Ergänzung fehlender Uptime-Ziffern. 500/h nur aus
+primärem HTML-Fallbericht, 1200/h aus primärer Einführung; Drei-Zellen-Fußnote aus
+Leitfaden-OCR. Historisches Deck nativ mit Blockkoordinaten gelesen; OCR-Wortkoordinaten getrennt geprüft.
+Keine visuelle PDF-/Bild-/Video-/CAD-Prüfung. Sekundäre Handelsmedien-Republikationen
+nicht als primäre Hardwarebelege verwendet. Such-API nur als Fundstellenhilfe,
+keine bibliografischen Suchtreffer als Produktbeweis. Fallstudien-Landingpage hat
+keine vollständige öffentliche Studie geliefert; kein Formular abgesendet.
+Ein separater Web-Abruf meldete 403, die zuvor gestartete gewöhnliche lokale
+Sammlung lieferte öffentliche 200er ohne Anmeldung/Zugriffsumgehung. Keine Kontakte
+oder Transaktionen, keine Änderung globaler OCR-Pakete.
+
+2164 andere alte CSV-Zeilen, alle 979 alten Feldprüfungen, 111 andere Firmenfokusse,
+1076 andere Produktbelege und 1961 Quellenidentitäten unverändert. Keine neuen
+CSV-/Vergleichsfelder, Markenabgleichs- oder Anwendungslogikänderungen. Dauerhafter
+Unit-Test ändert nur Bestandszahlen. Ein anfänglicher lokaler Bestandsprüfer hatte
+versehentlich den Vorher-Zähler als Nachher-Zähler übernommen; anhand des gesicherten
+Vorher-Bestands korrigiert. Firmenprodukt-Export tatsächlich zwei Zeilen/zwei Ziele,
+nicht die Null-Zeilen-Annahme der vorherigen Herstellergruppe. B-Series erscheint bei
+der generischen AmbiSort-Nennung zusätzlich nur als Suchkandidat; der vorhandene
+familienbezogene Prüfstatus und seine Katalogzuordnung bleiben unverändert. Keine Anforderungen
+abgeschwächt. Öffentliche Texte vor Endprüfung sprachlich bereinigt und technische
+OCR-Details aus einer Merkmalsaussage in Feldnotizen/Nachweis verlagert; endgültiger
+Build und Prüfungen verwenden den fertigen Datenstand.
+
+808 Unit-Tests/64 Dateien, 20 Desktop-/Mobilfälle mit vier Axe-Läufen, 3218
+Buildseiten, Lint/Format, Refresh und Wiederimport bestanden. Audit null Fehler/
+1053 Hinweise; AmbiStack-Start nun belegt, ein alter Hinweis entfällt. Vier
+Modellseiten, 148 Felder, 27 Aussagen und ein erweiterter Firmenfokus geprüft.
+Modell-Export zwei Zeilen/zwei Ziele/74 Felder, Firmenprodukt-Export zwei Ziele,
+ursprüngliche Queue zwei Ziele/74 Felder. Vergleichsausgabe: 1080 Produktbelege,
+4849 Aussagen, 2257 Quellenverweise, 983 Feldprüfungen/18194 Felder.
+Eigene Testbrowser, Server und Recherche-/OCR-Helfer beendet. Externe YouTube-
+Frame-Befunde aus Batch 106 bleiben offen.
+
+Katalog jetzt 2168 Einträge mit 914 Aufgabenergänzungen; insgesamt 18194 Felder:
+6850 dokumentiert, 10977 unbekannt, 274 widersprüchlich, 93 Roadmap. Ursprüngliche
+Queue: 440 geprüft, 78 offen; 7995 Felder mit 3244 dokumentierten, 4562 unbekannten,
+173 widersprüchlichen und 16 Roadmap-Werten. 112 Firmenfokusse insgesamt, darunter
+108/591 Quellen-Firmengruppen. Drei Modellidentitäten, neun Listingidentitäten und
+862 Buy-Detailinhalte weiterhin offen. Vollständigkeit, unabhängige exklusive USPs,
+Suchrankings und Marktführerschaft nicht nachgewiesen.
+Datencommit `576d7ea3be324c226fd92165cec75cd901650046` gepusht; Dokumentationsnachweis folgt separat auf
 `codex/competitor-directory-expansion`. Kein Deployment; `main` unverändert.
