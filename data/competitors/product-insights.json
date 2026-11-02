@@ -12477,16 +12477,31 @@
       "manufacturer": "Boston Dynamics",
       "model": "Atlas",
       "highlights": [
-        "Current enterprise Atlas targets industrial material-handling applications",
-        "Manufacturer describes autonomous battery swapping to extend operations",
-        "Orbit integration is presented for workflows and fleet management; rollout starts with selected adopters"
+        "Production Atlas: 1.9 m, 90 kg, 56 DOF and IP67 in the current manufacturer page and October 15, 2026 datasheet. Hydraulic-era 28-DOF, speed and 2013 program values are not transferred.",
+        "The datasheet distinguishes 50 kg instant, 30 kg sustained and 20 kg one-handed capacity. These are different load conditions, not 50 kg sustained in each hand.",
+        "Typical operation is four hours, dropping to two hours for heavy lifting. Autonomous battery swapping takes about three minutes, while charging is 1.5 hours; 24/7 workflow positioning is not battery-only endurance.",
+        "Tactile fingers/palm, 360° camera sensing, barcode/RFID integrations and autonomous, VR and tablet modes support material-handling integration. The 2.3 m stated reach is not silently relabelled arm length.",
+        "The production-version announcement was published January 5, 2026. Initial deployments and broader availability use staged customer engagement; product positioning is not unrestricted delivery or independently verified task success.",
+        "A current public price is not established. Availability and deployment involve customer qualification, application training and integration; research-generation imagery does not establish current delivered hardware."
       ],
       "sources": [
         {
-          "name": "Boston Dynamics",
+          "name": "Boston Dynamics — current enterprise Atlas specifications",
           "type": "manufacturer",
           "url": "https://bostondynamics.com/products/atlas/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — enterprise Atlas datasheet, revision October 15, 2026",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — enterprise Atlas product announcement",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/enterprise-robotics-redefined/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -12498,16 +12513,44 @@
       "manufacturer": "Boston Dynamics",
       "model": "Spot",
       "highlights": [
-        "Four-legged mobile sensing platform supports repeatable industrial inspections",
-        "API and payload interfaces allow application-specific sensor integration",
-        "Orbit supports remote fleet and inspection-data management; arm and other payloads are additions"
+        "The current HTML states 33.8 kg with battery; its actively linked May 22, 2024 PDF states 32.7 kg. The selected sources do not resolve the hardware revision behind the difference.",
+        "The linked PDF gives 1100 mm length, 500 mm width and 610 mm default walking height. HTML prints 110 mm beside 43.3 inches; that inconsistency remains explicit rather than silently corrected.",
+        "Maximum mounted payload is 14 kg, maximum speed 1.6 m/s, maximum step 300 mm and slope ±30°. IP54 and −20°C to 55°C do not establish unrestricted immersion; PDF requires power-on at ≥0°C.",
+        "The 564 Wh battery has 90-minute average runtime dependent on payload and environment, versus 180-minute standby. The battery line says 60-minute recharge; Dock full-charge times are two hours at 25°C or 3.5 hours at 35°C, with separate 80% intervals.",
+        "Spot SDK geometry describes two hip joints and one knee per leg, giving 12 across four legs. Optional Spot Arm adds six DOF plus gripper; its 8 kg mass and manipulation loads are not extra base payload allowance.",
+        "The optional Arm sheet lists 11 kg maximum lift, 5 kg continuous at 0.5 m extension and 25 kg dragging on carpet at 22°C. These are different tests, not a universal 25 kg carried payload.",
+        "Stationary-object avoidance, APIs and repeated missions support inspection workflows. Four-meter terrain sensing and optional thermal/acoustic sensing are not guaranteed navigation accuracy, universal moving-object avoidance or included every-package capability."
       ],
       "sources": [
         {
-          "name": "Boston Dynamics",
+          "name": "Boston Dynamics — current Spot specifications",
           "type": "manufacturer",
           "url": "https://bostondynamics.com/products/spot/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — linked Spot technical datasheet, updated May 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Spot SDK geometry and joint frames",
+          "type": "manufacturer",
+          "url": "https://dev.bostondynamics.com/docs/concepts/geometry_and_frames",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — optional Spot Arm overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/spot/arm/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — optional Spot Arm technical sheet",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-arm.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -26651,6 +26694,376 @@
           "name": "AGIBOT — English product brochure; named model spread",
           "type": "manufacturer",
           "url": "https://www.agibot.com/file/ueditor/php/upload/file/20261016/1792118747798245.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-e-atlas",
+      "manufacturer": "Boston Dynamics",
+      "model": "E-Atlas",
+      "highlights": [
+        "The April 17, 2024 manufacturer announcement introduces a fully electric Atlas and retires the hydraulic platform. E-Atlas is a catalog label retained for the 2024 development generation, not a separate official product name.",
+        "Hyundai was identified as an early testing and iteration partner. Several gripper variations were being explored; this does not establish a single included hand or current production hardware.",
+        "No 2024-specific numeric mass, endurance, load or joint count is established by this announcement. The legacy approximate 85 kg field is withdrawn, and 2026 production values remain in the current Atlas row.",
+        "The April 2024 introduction describes a development and customer-testing journey. Research-to-commercial plans are distinct from evidence of broad product delivery."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — electric Atlas introduction, April 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-hydraulic-atlas",
+      "manufacturer": "Boston Dynamics",
+      "model": "Hydraulic Atlas",
+      "highlights": [
+        "The manufacturer explicitly distinguishes retired hydraulic Atlas, also called HD Atlas, from the April 2024 electric development platform and the 2026 production robot.",
+        "History describes parkour/dance, whole-body control and handling heavy irregular objects. These are historical research demonstrations, not a current commercial load or endurance rating.",
+        "The history timeline labels a 2023 milestone; it is not taken as the original Atlas release year. No numeric hydraulic specification is copied from the electric product sheet."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — electric Atlas introduction, April 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-petman",
+      "manufacturer": "Boston Dynamics",
+      "model": "PETMAN",
+      "highlights": [
+        "The manufacturer electric-Atlas retrospective names PETMAN as the historical platform used to test protective clothing.",
+        "PETMAN is a research robot identity, not a named current enterprise Atlas model. The available mention is not a complete technical specification.",
+        "No numeric mass, DOF, payload, endurance or first-release year is established by the selected source; none is borrowed from hydraulic or electric Atlas."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — electric Atlas introduction, April 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-spot-enterprise",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot Enterprise",
+      "highlights": [
+        "The February 2, 2021 launch explicitly introduces Spot Enterprise with self-charging and a dock, alongside separate Scout software and Spot Arm products.",
+        "The manufacturer describes upgraded safety/communications hardware, extended Wi-Fi support, payload-port flexibility and faster mission-data offload. Exact numeric chassis ratings are not stated in that release.",
+        "The out-of-box inspection solution adds CAM+IR, Scout and support. A thermal payload and optional arm are not automatically included in every Enterprise robot.",
+        "A later Enterprise Asset Management Kit has its own sensor-equipped dimensions and mass. Those kit values and current bare-Spot values are not treated as verified specifications of the original 2021 hardware."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — Spot Enterprise launch, February 2021",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Spot Enterprise Asset Management Kit brochure",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-spot-enterprise-asset-management-kit",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot Enterprise Asset Management Kit",
+      "highlights": [
+        "This is a named complete inspection configuration rather than a new underlying Spot chassis. The brochure includes Spot, CAM+IR, EAP 2, Scout, Dock and Spot Care; Fluke SV600 is an optional add-on.",
+        "Mass including battery is 43.8 kg without Fluke SV600 or 47.5 kg with it. Default walking height with payloads is 967 mm; body length/width are 1100/500 mm. Bare-Spot dimensions and weights are not substituted.",
+        "The kit table states 90-minute average robot runtime, 180-minute standby and 564 Wh. The tablet has its own eight-hour battery and IP65; the kit robot is IP54 with a −20°C to 45°C range.",
+        "CAM+IR provides radiometric thermal inspection, EAP 2 adds compute/LiDAR/communications, and optional Fluke supplies acoustic imaging. LiDAR100 m range or ±3 cm sensor accuracy is not robot navigation accuracy.",
+        "The battery line lists 60-minute recharge. Dock tables specify 2 h to 100% at 25°C and 3.5 h at 35°C, with separate 80% intervals. Charger, robot, tablet and Dock values retain their own scope.",
+        "The brochure copyright/upload year does not establish the initial kit launch year. Current price and remaining payload allowance with the installed kit are not established."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — Spot Enterprise Asset Management Kit brochure",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Spot Enterprise launch, February 2021",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-bigdog",
+      "manufacturer": "Boston Dynamics",
+      "model": "BigDog",
+      "highlights": [
+        "Manufacturer history names BigDog as the first Boston Dynamics legged robot to leave the lab, with dynamic balance, rough-terrain navigation and sensing/control.",
+        "Its 2004 history milestone is kept distinct from an exact first release. Precise mass, carried load and speed are not established by this selected manufacturer history.",
+        "BigDog is a historical research platform. It is not presented as an orderable current robot or assigned current Spot payload, battery, IP or autonomous inspection ratings."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-ls3",
+      "manufacturer": "Boston Dynamics",
+      "model": "LS3",
+      "highlights": [
+        "The manufacturer history names LS3 as the Legged Squad Support System with 400 lb carrying payload and sensors for navigating obstacles.",
+        "Twenty miles before refueling is a fuel-based travel range, not a 24-hour battery endurance rating. No electric charging interval is inferred.",
+        "The 2010 timeline node does not prove an exact first-release year; precise robot mass, speed and first-release chronology are not established by the selected source.",
+        "LS3 is a historical research/logistics robot, with no current public price or complete deployment specification established here."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-wildcat",
+      "manufacturer": "Boston Dynamics",
+      "model": "WildCat",
+      "highlights": [
+        "Manufacturer history reports 19 mph on flat terrain for WildCat, with dynamic balance and variable gait/mobility options.",
+        "The flat-terrain speed demonstration is not an industrial loaded operating rating. Claimed fastest-robot positioning is not independently verified or adopted as an exclusive USP.",
+        "History labels a 2011 milestone; it is not used as first-release proof. Precise mass, first-release chronology and endurance are not established by that selected source.",
+        "The legacy project remains distinct from current Spot inspection products. No battery endurance or current orderable configuration is established by the history source."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-spot-classic",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot Classic",
+      "highlights": [
+        "Manufacturer history names Spot Classic as a separate predecessor to current Spot, with quadrupedal indoor/outdoor movement.",
+        "The 2015 timeline node is historical context. It does not establish current Spot or Spot Enterprise hardware specifications.",
+        "Propulsion, exact technical ratings and first-release chronology remain unverified in this selected review; a broad history description does not justify inheriting current electric-platform fields."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-stretch",
+      "manufacturer": "Boston Dynamics",
+      "model": "Stretch",
+      "highlights": [
+        "Trailer/container-unloading Stretch has a 1300 kg robot mass and 40×48 in pallet-sized footprint. Its case limit is 50 lb/23 kg; these are robot mass, floor footprint and box load, respectively.",
+        "The February 2026 brochure claims 600–800 cases per hour and up to 16 h battery life. This is a manufacturer unloading-task rate, not independent net throughput or a Case Pick specification.",
+        "A vacuum gripper, real-time vision and onboard lighting support detecting/grasping boxes and automatically recovering fallen cases. Multipick moves several boxes then spaces releases for the downstream conveyor.",
+        "Maximum workspace is 3.2 m vertical and 1.95 m horizontal. This is not silently assigned as a mechanical arm-link length or full body envelope.",
+        "The brochure says a typical 90% Fast Charger recharge takes 2 h under nominal conditions, while narrative says under 2 h. No full 0–100% window is assumed.",
+        "The brochure supports standard/high-cube 20/40-foot containers, enclosed cargo and curtainsider trailers with eligible cardboard cases. Site integration and loading conditions still matter; hazardous-duty or universal case compatibility is not established."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — Stretch product overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/stretch/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Stretch trailer unloading",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/solutions/warehouse-automation/trailer-unloading/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Stretch trailer unloading brochure, February 2026",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-Brochure-2026-Final-1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-stretch-for-case-pick",
+      "manufacturer": "Boston Dynamics",
+      "model": "Stretch for Case Pick",
+      "highlights": [
+        "Case Pick is a distinct documented Stretch configuration:1500 kg robot mass, up to 1300 kg towable pallet weight,50 lb/23 kg maximum cases and up to 2 m/s driving. Towing capacity is not arm payload or robot weight.",
+        "The custom arm has an extra joint for top-up box orientation and working under racking. No exact whole-body DOF count is inferred from that description.",
+        "The brochure supports mixed-SKU pallets up to 1.8 m tall, including GMA/EUR/EPAL and square formats. The 1.8 m stack height is separate from 3.2 m vertical/1.95 m horizontal workspace.",
+        "Up to 16 h battery life and 90% charging in 1 h 45 min with Fast Charger belong to this configuration. Trailer-unloading 600–800 cases/h is not assigned to Case Pick.",
+        "Initial operation is wide-aisle ambient racking with at least 10 ft/3 m aisles. Progress toward narrower aisles, open pallet fields and cold storage is a roadmap rather than present supported capability.",
+        "Orbit and the Case Pick API integrate WMS workflows and picking updates. Supported case dimensions and handling exceptions depend on configuration; a dashboard or successful demo is not independently verified facility throughput."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — Stretch Case Pick overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/solutions/warehouse-automation/case-picking/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Stretch Case Pick brochure, February 2026",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-case-pick-brochure.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Stretch product overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/stretch/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-handle",
+      "manufacturer": "Boston Dynamics",
+      "model": "Handle",
+      "highlights": [
+        "History names Handle as the two-wheeled dynamic-balance research platform that contributed to Stretch development.",
+        "Truck unloading and pallet building were research applications. Handle is not silently counted as the current commercial Stretch configuration.",
+        "The 2017 timeline milestone does not certify a first-release year, and no precise load, weight or endurance is established by this selected source."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-sandflea",
+      "manufacturer": "Boston Dynamics",
+      "model": "Sandflea",
+      "highlights": [
+        "Manufacturer history describes an 11 lb Sandflea robot with remote control and built-in stabilization.",
+        "Thirty feet is stated vertical jumping height, not payload capacity, a driving range or verified stair-climbing ability.",
+        "The 2012 history node is not assumed first-release proof. No numeric charge duration, runtime, IP rating or exact locomotion layout is inferred from an uninspected video/image."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-rhex",
+      "manufacturer": "Boston Dynamics",
+      "model": "RHex",
+      "highlights": [
+        "The manufacturer describes RHex as a 30 lb, six-legged robot for rough-terrain mobility, operated remotely.",
+        "Upside-down travel and rugged construction are historical locomotion features, not a current inspection autonomy or environmental protection certification.",
+        "Six-legged morphology is not counted as six articulated DOF. The 2007 timeline milestone and current Spot specs do not establish RHex release or runtime."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "robotId": "boston-dynamics-rise",
+      "manufacturer": "Boston Dynamics",
+      "model": "RiSE",
+      "highlights": [
+        "RiSE is a named six-legged climbing research robot with approximately 50 fishing hooks per foot in manufacturer history.",
+        "The stated 5 cm/s figure is a climbing rate. It is not floor driving speed or proof of universal adhesion to every wall material.",
+        "The 2006 history node does not prove exact first release, mass, payload, runtime or IP rating. These fields remain explicitly unknown."
+      ],
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
           "checkedAt": "2026-11-02"
         }
       ],

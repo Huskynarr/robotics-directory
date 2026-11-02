@@ -87096,6 +87096,1946 @@
           "note": "Explicit minimum horizontal aisle/gap width only. Minimum overhead clearance height is not aisle width."
         }
       }
+    },
+    {
+      "robotId": "boston-dynamics-atlas",
+      "manufacturer": "Boston Dynamics",
+      "model": "Atlas",
+      "sources": [
+        {
+          "name": "Boston Dynamics — current enterprise Atlas specifications",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/atlas/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — enterprise Atlas datasheet, revision October 15, 2026",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — enterprise Atlas product announcement",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/enterprise-robotics-redefined/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "90 kg",
+          "status": "documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "1.9 m height",
+          "status": "documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "4 h typical use; 2 h heavy lifting",
+          "status": "documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "56",
+          "status": "documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "50 kg instant; 30 kg sustained; 20 kg one-handed",
+          "status": "documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "IP67",
+          "status": "documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "1.5 h; autonomous battery swap approx. 3 min (separate)",
+          "status": "documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "Tactile fingers and palm; exact gripper configuration not established",
+          "status": "documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/products/atlas/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "The current production Atlas is the electric enterprise humanoid announced January 5, 2026, distinct from the retired hydraulic Atlas and April 2024 electric development platform. Its October 15, 2026 datasheet specifies 1.9 m height, 90 kg, 56 DOF and IP67. Capacity is 50 kg instant, 30 kg sustained or 20 kg one-handed. Typical endurance is four hours, or two hours with heavy lifting; a three-minute autonomous battery swap is distinct from 1.5-hour charging. The 2.3 m reach has general workspace scope rather than an established arm-link length.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "January 5, 2026 manufacturer article explicitly announces the product version; structured article datePublished verifies the date. This row represents that production version, not first introduction of the whole Atlas research program in 2013."
+        },
+        "terrain": {
+          "value": "Industrial workspaces; −20°C to 40°C",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Current sources state 2.3 m reach without establishing an arm-link or per-arm mechanical reach measurement. Kept in description/highlights rather than an assumed armReach field."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-e-atlas",
+      "manufacturer": "Boston Dynamics",
+      "model": "E-Atlas",
+      "sources": [
+        {
+          "name": "Boston Dynamics — electric Atlas introduction, April 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-9.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "E-Atlas is the retained catalog label for the electric Atlas development platform introduced April 17, 2024. Boston Dynamics calls it electric Atlas rather than a separate official E-Atlas model. The announcement retires hydraulic Atlas, introduces a fully electric platform, describes a Hyundai development path and explores gripper variations. Exact mass, whole-body DOF, payload and battery endurance for that 2024 platform are not established; the 2026 production sheet is not backfilled into it.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "2024",
+          "status": "documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "An exact manipulator reach needs explicit arm scope. Whole-robot reach, maximum vertical workspace, body height and horizontal working extent are not silently treated as arm length."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-hydraulic-atlas",
+      "manufacturer": "Boston Dynamics",
+      "model": "Hydraulic Atlas",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — electric Atlas introduction, April 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "Hydraulic Atlas is the retired research humanoid named separately in Boston Dynamics history and the April 2024 electric-platform announcement. It demonstrated dynamic parkour, whole-body control and manipulation of heavy irregular objects. The 2023 history milestone is not assumed to be its first release; exact hydraulic version mass, DOF, payload and endurance are not established by these selected sources.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "An exact manipulator reach needs explicit arm scope. Whole-robot reach, maximum vertical workspace, body height and horizontal working extent are not silently treated as arm length."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-petman",
+      "manufacturer": "Boston Dynamics",
+      "model": "PETMAN",
+      "sources": [
+        {
+          "name": "Boston Dynamics — electric Atlas introduction, April 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-9.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/blog/electric-new-era-for-atlas/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "PETMAN is the historical Boston Dynamics humanoid research robot named in the company electric-Atlas retrospective as testing protective clothing. This evidence establishes the named robot and its research purpose without a complete technical datasheet. Numeric mass, joint count, payload, runtime and first-release date remain unverified; current Atlas production specifications are not inherited.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "An exact manipulator reach needs explicit arm scope. Whole-robot reach, maximum vertical workspace, body height and horizontal working extent are not silently treated as arm length."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-spot",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot",
+      "sources": [
+        {
+          "name": "Boston Dynamics — current Spot specifications",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/spot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — linked Spot technical datasheet, updated May 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Spot SDK geometry and joint frames",
+          "type": "manufacturer",
+          "url": "https://dev.bostondynamics.com/docs/concepts/geometry_and_frames",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — optional Spot Arm overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/spot/arm/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — optional Spot Arm technical sheet",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-arm.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-2.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "HTML: 33.8 kg with battery; linked May 2024 PDF: 32.7 kg",
+          "status": "conflicting",
+          "note": "Active HTML:33.8 kg with battery. Actively linked PDF updated May 22,2024:32.7 kg with battery. No revision mapping or independent mass check resolves this difference; dock, tablet and optional arm mass are separate."
+        },
+        "size": {
+          "value": "PDF: 1100 x 500 mm, default walking height 610 mm; HTML prints length 110 mm (43.3 in)",
+          "status": "conflicting",
+          "note": "Linked PDF specifies 1100 mm length and 500 mm width; HTML prints 110 mm beside 43.3 in. Inconsistent source length is exposed, not silently reinterpreted.610 mm is default walking height;520–700 mm walking range and 191 mm sitting height are different poses."
+        },
+        "batteryLife": {
+          "value": "Average 90 min; varies with payload and environment; standby 180 min separately",
+          "status": "documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "3 leg joints per leg; 12 across four legs; optional arm additional",
+          "status": "documented",
+          "note": "SDK geometry explicitly states two hip joints and one knee per leg. Twelve leg joints is derived as 4×3 for the four-legged base; the optional six-axis arm and gripper are separate."
+        },
+        "payload": {
+          "value": "14 kg maximum mounted payload",
+          "status": "documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "Maximum 1.6 m/s",
+          "status": "documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "IP54",
+          "status": "documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "Battery recharge 60 min; Dock to 100%: 2 h at 25°C / 3.5 h at 35°C",
+          "status": "documented",
+          "note": "Generic battery recharge line 60 min is distinct from dock charging table:25°C,80%50 min/100%2 h;35°C,80%2.5 h/100%3.5 h. No common SOC/charger condition is invented."
+        },
+        "handType": {
+          "value": "Optional Spot Arm: 6 DOF plus gripper; not base equipment",
+          "status": "documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/products/spot/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "Spot is a quadruped sensing and inspection platform with a 14 kg payload limit, maximum 1.6 m/s and IP54. The current HTML states 33.8 kg with battery, while its linked May 2024 PDF gives 32.7 kg; model revision mapping remains unresolved. The PDF states 1100 mm length, versus an HTML 110 mm/43.3 in inconsistency. Average runtime is 90 minutes with payload/environment conditions. Dock charging is temperature/SOC dependent and distinct from the battery recharge line. Optional arm, inspection payloads and fleet software require their configuration.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "±30° maximum slope; 300 mm maximum step; −20°C to 55°C (power-on ≥0°C)",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-spot-enterprise",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot Enterprise",
+      "sources": [
+        {
+          "name": "Boston Dynamics — Spot Enterprise launch, February 2021",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Spot Enterprise Asset Management Kit brochure",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-19.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "Spot Arm available separately; no included stock arm established",
+          "status": "documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "Spot Enterprise is the self-charging Spot version announced February 2, 2021 with a dock and upgraded safety, communications and remote-mission hardware. Scout enabled web-based fleet operation; a combined CAM+IR inspection package was described separately. Exact 2021 robot mass, included payloads and battery duration are not established by that announcement. Numeric values from the current bare Spot or a later Enterprise Asset Management Kit are not assigned to every Enterprise robot.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "2021",
+          "status": "documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-spot-enterprise-asset-management-kit",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot Enterprise Asset Management Kit",
+      "sources": [
+        {
+          "name": "Boston Dynamics — Spot Enterprise Asset Management Kit brochure",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Spot Enterprise launch, February 2021",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/news/boston-dynamics-expands-spot-product-line/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-24.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "43.8 kg including battery, without optional Fluke SV600; 47.5 kg with Fluke",
+          "status": "documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "1100 x 500 mm; 967 mm default walking height with payloads; 548 mm sitting height",
+          "status": "documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "Average 90 min robot; 180 min standby; tablet battery 8 h is separate",
+          "status": "documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "Maximum 1.6 m/s",
+          "status": "documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "IP54 robot; tablet IP65 separately",
+          "status": "documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "Battery line 60 min; Dock full charge 2 h at 25°C / 3.5 h at 35°C",
+          "status": "documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/wp-content/uploads/2023/11/Spot-Enterprise-Kit-23-0606-1.pdf",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "The Spot Enterprise Asset Management Kit is a documented complete inspection configuration comprising Spot, CAM+IR, EAP 2, Scout, Dock and service/support, with optional Fluke SV600 acoustic imaging. The 2023 brochure lists 43.8 kg including battery without Fluke or 47.5 kg with it, and taller payload-equipped dimensions. The kit robot is IP54; tablet IP65 and eight-hour tablet runtime are not robot ratings. Optional sensor range and radiometric accuracy do not establish whole-robot navigation or inspection outcomes.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "±30° slope; 300 mm maximum step; kit −20°C to 45°C",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-bigdog",
+      "manufacturer": "Boston Dynamics",
+      "model": "BigDog",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "BigDog is the historical dynamically balanced legged robot that Boston Dynamics describes as its first to leave the lab. The manufacturer history lists rough-terrain navigation, sensing and control under a 2004 timeline milestone. That milestone does not establish exact first public release, mass, carried load or speed; those technical ratings remain unverified by the selected history source.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Historical rough-terrain research",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-ls3",
+      "manufacturer": "Boston Dynamics",
+      "model": "LS3",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "400 lb carrying payload (manufacturer history)",
+          "status": "documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "LS3, the Legged Squad Support System, is a historical rough-terrain research robot described by Boston Dynamics as carrying 400 lb and travelling 20 miles before refueling. Obstacle-navigation sensors supported the platform. Fuel range is not battery life, so a former 24-hour battery field is withdrawn. The 2010 timeline node is a historical milestone, not verified first-release date.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Historical rough-terrain logistics research",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-wildcat",
+      "manufacturer": "Boston Dynamics",
+      "model": "WildCat",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "19 mph on flat terrain (manufacturer history)",
+          "status": "documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "WildCat is the historical high-speed quadruped named in Boston Dynamics history. The manufacturer reports 19 mph on flat terrain with dynamic balance and variable gaits. This is not a loaded rough-terrain performance guarantee, and the source does not establish mass or five-minute battery endurance. Its timeline node is not treated as exact release chronology.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Flat terrain for stated speed demonstration",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-spot-classic",
+      "manufacturer": "Boston Dynamics",
+      "model": "Spot Classic",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "Spot Classic is the historical quadrupedal platform named separately in Boston Dynamics history. It laid groundwork for current Spot agility and compactness and operated indoors/outdoors. The 2015 timeline node is a history milestone, not assumed first release. Current Spot mass, payload, batteries, ingress rating and inspection software are not retroactively assigned to this predecessor.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Historical indoor and outdoor quadruped research",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-stretch",
+      "manufacturer": "Boston Dynamics",
+      "model": "Stretch",
+      "sources": [
+        {
+          "name": "Boston Dynamics — Stretch product overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/stretch/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Stretch trailer unloading",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/solutions/warehouse-automation/trailer-unloading/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Stretch trailer unloading brochure, February 2026",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-Brochure-2026-Final-1.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-4.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "1,300 kg (trailer-unloading configuration)",
+          "status": "documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "40 x 48 in footprint (manufacturer metric approximation 1 x 1.25 m)",
+          "status": "documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "Up to 16 h, trailer-unloading configuration",
+          "status": "documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "Maximum case weight 50 lb (manufacturer equivalent 23 kg)",
+          "status": "documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "Typical to 90%: 2 h under nominal conditions; Fast Charger",
+          "status": "documented",
+          "note": "Named trailer-unloading brochure specification says typical 90% charge 2 h under nominal conditions, while marketing says under 2 h. Record the conditional specification, not an unconditional full recharge guarantee."
+        },
+        "handType": {
+          "value": "Vacuum gripper",
+          "status": "documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/products/stretch/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "Stretch for trailer/container unloading is a mobile case-handling configuration with a 1300 kg body and pallet-sized footprint. Its February 2026 brochure lists cases up to 50 lb/23 kg, up-to-sixteen-hour battery life and a manufacturer unloading rate of 600–800 cases per hour. A vacuum gripper, onboard vision/lighting, automatic fallen-box recovery and multipick support the workflow. Listed workspace is 3.2 m vertical/1.95 m horizontal, not arm length. Case Pick has a separate 1500 kg configuration and towing specification.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Warehouse trailer/container unloading; 5°C to 45°C",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer specifies maximum vertical 3.2 m/horizontal 1.95 m workspace, without a distinct mechanical arm-reach measurement. Kept in description/highlights."
+        },
+        "driveMode": {
+          "value": "Mobile case-handling platform; driven between dock positions",
+          "status": "documented",
+          "note": "Named locomotion or manipulation configuration; no wheel/leg layout inferred from an uninspected image."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot navigation accuracy established by these selected sources. Camera range, LiDAR range/accuracy and a complete pose transform are not navigation accuracy."
+        },
+        "throughput": {
+          "value": "600–800 cases/h, manufacturer trailer-unloading claim",
+          "status": "documented",
+          "note": "Manufacturer-stated task rate with application scope, not a guaranteed warehouse-wide or independently measured throughput. Case Pick does not inherit the trailer-unloading rate."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit built pallet height; not robot height, arm reach, ceiling clearance or rack capacity."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit towing/transport rating only. Towed pallet mass is not manipulator box load, robot mass or carried sensor payload."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit operating aisle condition for the named configuration; future narrower-aisle development is not present capability."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-stretch-for-case-pick",
+      "manufacturer": "Boston Dynamics",
+      "model": "Stretch for Case Pick",
+      "sources": [
+        {
+          "name": "Boston Dynamics — Stretch Case Pick overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/solutions/warehouse-automation/case-picking/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Stretch Case Pick brochure, February 2026",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2026/03/Stretch-case-pick-brochure.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Stretch product overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/stretch/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-13.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "1,500 kg (Case Pick configuration)",
+          "status": "documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "40 x 48 in footprint (manufacturer metric approximation 1 x 1.25 m)",
+          "status": "documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "Up to 16 h, Case Pick configuration",
+          "status": "documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "Maximum case weight 50 lb (manufacturer equivalent 23 kg)",
+          "status": "documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "Up to 2 m/s",
+          "status": "documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "To 90% in 1 h 45 min with Fast Charger",
+          "status": "documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/solutions/warehouse-automation/case-picking/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "Stretch for Case Pick is the manufacturer-documented order-building configuration, distinct from trailer unloading. Its own brochure specifies 1500 kg robot mass, up to 1300 kg towable pallet weight, maximum 23 kg cases and up to 2 m/s driving. It builds mixed-SKU pallets up to 1.8 m and uses a custom arm with an extra joint. Battery life is up to 16 h, and Fast Charger time to 90% is 1 h 45 min. Initial deployment targets ambient racking with aisles at least 10 ft/3 m; narrower aisles and cold storage remain a development direction.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Initial wide-aisle picking in ambient racking; 5°C to 45°C",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Own brochure lists vertical 3.2 m/horizontal 1.95 m workspace, not a distinct arm-link length. No value inherited from trailer-unloading arm configuration."
+        },
+        "driveMode": {
+          "value": "Mobile case picking and pallet towing",
+          "status": "documented",
+          "note": "Named locomotion or manipulation configuration; no wheel/leg layout inferred from an uninspected image."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot navigation accuracy established by these selected sources. Camera range, LiDAR range/accuracy and a complete pose transform are not navigation accuracy."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric Case Pick throughput established by selected sources. The 600–800 cases/h figure is explicitly from the separate trailer-unloading brochure."
+        },
+        "stackingHeight": {
+          "value": "Up to 1.8 m built pallet height",
+          "status": "documented",
+          "note": "Explicit built pallet height; not robot height, arm reach, ceiling clearance or rack capacity."
+        },
+        "transportPayload": {
+          "value": "Up to 1,300 kg towable pallet weight",
+          "status": "documented",
+          "note": "Explicit towing/transport rating only. Towed pallet mass is not manipulator box load, robot mass or carried sensor payload."
+        },
+        "minAisleWidth": {
+          "value": "At least 10 ft (manufacturer equivalent 3 m)",
+          "status": "documented",
+          "note": "Brochure states at least 10 ft/3 m; finer metric conversion is not invented. Narrower aisles and cold storage are described as future development, not included current capability."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-handle",
+      "manufacturer": "Boston Dynamics",
+      "model": "Handle",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "Handle is the historical two-wheeled research robot described by Boston Dynamics as a precursor to Stretch. It explored truck unloading, pallet building and dynamic balance on two wheels. The 2017 history milestone is not assumed to establish first release, and numeric Stretch mass, reach, box load or battery specifications are not assigned to Handle.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Historical warehouse handling research",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "An exact manipulator reach needs explicit arm scope. Whole-robot reach, maximum vertical workspace, body height and horizontal working extent are not silently treated as arm length."
+        },
+        "driveMode": {
+          "value": "Dynamically balanced two-wheel research platform",
+          "status": "documented",
+          "note": "Named locomotion or manipulation configuration; no wheel/leg layout inferred from an uninspected image."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot navigation accuracy established by these selected sources. Camera range, LiDAR range/accuracy and a complete pose transform are not navigation accuracy."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer-stated task rate with application scope, not a guaranteed warehouse-wide or independently measured throughput. Case Pick does not inherit the trailer-unloading rate."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit built pallet height; not robot height, arm reach, ceiling clearance or rack capacity."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit towing/transport rating only. Towed pallet mass is not manipulator box load, robot mass or carried sensor payload."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit operating aisle condition for the named configuration; future narrower-aisle development is not present capability."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-sandflea",
+      "manufacturer": "Boston Dynamics",
+      "model": "Sandflea",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "11 lb (manufacturer history)",
+          "status": "documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "Sandflea is the historical compact remotely controlled jumping robot named in Boston Dynamics history. The manufacturer describes an 11 lb platform capable of jumping 30 ft with built-in stabilization. Jump height is not a payload or guaranteed obstacle clearance, and the 2012 history node is not treated as verified first-release date.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Historical jumping; up to30 ft vertical jump",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "An exact manipulator reach needs explicit arm scope. Whole-robot reach, maximum vertical workspace, body height and horizontal working extent are not silently treated as arm length."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named locomotion or manipulation configuration; no wheel/leg layout inferred from an uninspected image."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot navigation accuracy established by these selected sources. Camera range, LiDAR range/accuracy and a complete pose transform are not navigation accuracy."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer-stated task rate with application scope, not a guaranteed warehouse-wide or independently measured throughput. Case Pick does not inherit the trailer-unloading rate."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit built pallet height; not robot height, arm reach, ceiling clearance or rack capacity."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit towing/transport rating only. Towed pallet mass is not manipulator box load, robot mass or carried sensor payload."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit operating aisle condition for the named configuration; future narrower-aisle development is not present capability."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-rhex",
+      "manufacturer": "Boston Dynamics",
+      "model": "RHex",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "30 lb (manufacturer history)",
+          "status": "documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "RHex is the historical 30 lb six-legged rough-terrain robot named by Boston Dynamics. It was remotely operated and could travel upside down, demonstrating rugged locomotion. The 2007 timeline milestone is not assigned as an exact first-release year. Six legs do not establish a precise articulated DOF count or current battery endurance.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Historical rough-terrain mobility; can travel upside down",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "An exact manipulator reach needs explicit arm scope. Whole-robot reach, maximum vertical workspace, body height and horizontal working extent are not silently treated as arm length."
+        },
+        "driveMode": {
+          "value": "Six-legged, remotely operated research robot",
+          "status": "documented",
+          "note": "Named locomotion or manipulation configuration; no wheel/leg layout inferred from an uninspected image."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot navigation accuracy established by these selected sources. Camera range, LiDAR range/accuracy and a complete pose transform are not navigation accuracy."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer-stated task rate with application scope, not a guaranteed warehouse-wide or independently measured throughput. Case Pick does not inherit the trailer-unloading rate."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit built pallet height; not robot height, arm reach, ceiling clearance or rack capacity."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit towing/transport rating only. Towed pallet mass is not manipulator box load, robot mass or carried sensor payload."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit operating aisle condition for the named configuration; future narrower-aisle development is not present capability."
+        }
+      }
+    },
+    {
+      "robotId": "boston-dynamics-rise",
+      "manufacturer": "Boston Dynamics",
+      "model": "RiSE",
+      "sources": [
+        {
+          "name": "Boston Dynamics — legacy robot history",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/about/history/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-99/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current model/configuration-specific public price with currency and included-system scope established. Legacy approximate prices, prototype labels and discontinued status are not current purchase offers."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named robot/configuration mass only, with explicit battery/payload scope where stated. Bare Spot, sensor kit, dock, tablet, arm and freight case have separate weights; historical Atlas and Stretch configurations do not inherit current mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named body or footprint dimensions with pose and source scope. Height/reach, payload envelope, station and shipping-case dimensions are distinct. Do not infer an unseen drawing or full body envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Named operating endurance with average/typical, task, load and configuration scope retained. Standby, tablet runtime, fuel range, battery swapping and 24/7 workflow positioning are not battery-only robot endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate unconditional maximum operating duration established. Qualified runtime stays in batteryLife; fuel-based mission duration and charging intervals are not converted into battery endurance."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Whole-body/leg articulation and optional arm/gripper counts retain their own scope. A prior hydraulic Atlas count is not assigned to current electric Atlas or its 2024 development version."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Keep carried sensor payload, transient/sustained/one-handed lifting, box mass, towed pallet mass and gripper drag force distinct. No adjacent-model load or component capacity is inherited."
+        },
+        "speed": {
+          "value": "5 cm/s vertical climbing (manufacturer history)",
+          "status": "documented",
+          "note": "Only the named model/configuration motion figure is retained. A case rate, vertical climbing speed, isolated demonstration or historical generation is not current vehicle travel speed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicit rating for the named robot/configuration is retained. Tablet IP65, component protection and splash marketing do not establish whole-vehicle ingress protection."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Battery charging duration with charger/SOC/temperature conditions kept explicit. Docking, battery exchange, tablet operation and idle standby are not vehicle charging time."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only named included or explicitly optional manipulation hardware. A Spot Arm option, a research gripper experiment or a predecessor configuration does not establish installed stock tooling."
+        },
+        "website": {
+          "value": "https://bostondynamics.com/about/history/",
+          "status": "documented",
+          "note": "Successfully retrieved manufacturer page/document for the selected robot or configuration; manufacturer history confirms a legacy identity without automatically certifying old technical fields."
+        },
+        "description": {
+          "value": "RiSE is the historical six-legged climbing robot described in Boston Dynamics history. Each foot used approximately 50 fishing hooks, and the manufacturer states a 5 cm/s climb rate. That is vertical climbing speed, not general floor travel speed. The 2006 timeline node is not treated as exact initial release, and no wall material, payload or complete environmental rating is assumed.",
+          "status": "documented",
+          "note": "Synthesis of the named version in the selected manufacturer sources. R&D demonstrations, rated figures and deployment claims are attributed, with no independently established outcome or exclusive advantage implied."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only an explicitly introduced named version supports its year. History timeline nodes, document revisions/uploads, copyright and a later launch milestone do not automatically establish first release of an older program."
+        },
+        "terrain": {
+          "value": "Historical climbing using hooked feet",
+          "status": "documented",
+          "note": "Named environment or explicitly bounded locomotion behavior. Step height, slope, six-legged climbing, vertical jumping and collision avoidance retain different scope; historical demonstrations are not universal all-terrain guarantees."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Research, industrial and inspection applications do not establish a chronological user age rating."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "An exact manipulator reach needs explicit arm scope. Whole-robot reach, maximum vertical workspace, body height and horizontal working extent are not silently treated as arm length."
+        },
+        "driveMode": {
+          "value": "Six-legged climbing research robot",
+          "status": "documented",
+          "note": "Named locomotion or manipulation configuration; no wheel/leg layout inferred from an uninspected image."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-robot navigation accuracy established by these selected sources. Camera range, LiDAR range/accuracy and a complete pose transform are not navigation accuracy."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer-stated task rate with application scope, not a guaranteed warehouse-wide or independently measured throughput. Case Pick does not inherit the trailer-unloading rate."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit built pallet height; not robot height, arm reach, ceiling clearance or rack capacity."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit towing/transport rating only. Towed pallet mass is not manipulator box load, robot mass or carried sensor payload."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit operating aisle condition for the named configuration; future narrower-aisle development is not present capability."
+        }
+      }
     }
   ]
 }

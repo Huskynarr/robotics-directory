@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T16:49:17.908Z",
+  "generatedAt": "2026-11-02T17:05:49.994Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 387,
-    "withoutSelectedFieldReview": 131,
-    "selectedFields": 6410,
+    "withSelectedFieldReview": 389,
+    "withoutSelectedFieldReview": 129,
+    "selectedFields": 6443,
     "selectedFieldStatuses": {
-      "documented": 2906,
-      "not-documented": 3335,
-      "conflicting": 158,
+      "documented": 2928,
+      "not-documented": 3344,
+      "conflicting": 160,
       "roadmap": 11
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 88,
+    "sourceGroupsWithCompanyAuthoredFocus": 89,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -460,28 +460,6 @@
       "robotIds": [
         "badger-technologies-digital-teammate",
         "badger-technologies-patrolbot"
-      ]
-    },
-    {
-      "brandId": "boston-dynamics",
-      "name": "Boston Dynamics",
-      "aliases": [
-        "Boston Dynamics Spot"
-      ],
-      "sourceUrls": [
-        "https://roboticsdir.com/"
-      ],
-      "catalogModels": 7,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "boston-dynamics-atlas",
-        "boston-dynamics-spot"
       ]
     },
     {
@@ -3726,6 +3704,28 @@
         "blue-robotics-blueboat",
         "blue-robotics-bluerov2"
       ]
+    },
+    {
+      "brandId": "boston-dynamics",
+      "name": "Boston Dynamics",
+      "aliases": [
+        "Boston Dynamics Spot"
+      ],
+      "sourceUrls": [
+        "https://roboticsdir.com/"
+      ],
+      "catalogModels": 17,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
+      "robotIds": [
+        "boston-dynamics-atlas",
+        "boston-dynamics-spot"
+      ]
     }
   ],
   "companies": [
@@ -5075,14 +5075,14 @@
       "sourceUrls": [
         "https://roboticsdir.com/"
       ],
-      "catalogModels": 7,
+      "catalogModels": 17,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 2,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-02",
       "robotIds": [
         "boston-dynamics-atlas",
         "boston-dynamics-spot"
@@ -18521,24 +18521,55 @@
       "brandId": "boston-dynamics",
       "category": "humanoid",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 6,
       "highlightSources": [
         {
-          "name": "Boston Dynamics",
+          "name": "Boston Dynamics — current enterprise Atlas specifications",
           "type": "manufacturer",
           "url": "https://bostondynamics.com/products/atlas/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — enterprise Atlas datasheet, revision October 15, 2026",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — enterprise Atlas product announcement",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/enterprise-robotics-redefined/",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 12,
+        "not-documented": 5,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Boston Dynamics — current enterprise Atlas specifications",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/atlas/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — enterprise Atlas datasheet, revision October 15, 2026",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2026/01/atlas-spec-sheet.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — enterprise Atlas product announcement",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/blog/enterprise-robotics-redefined/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
@@ -18560,24 +18591,79 @@
       "brandId": "boston-dynamics",
       "category": "quadruped",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Boston Dynamics",
+          "name": "Boston Dynamics — current Spot specifications",
           "type": "manufacturer",
           "url": "https://bostondynamics.com/products/spot/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — linked Spot technical datasheet, updated May 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Spot SDK geometry and joint frames",
+          "type": "manufacturer",
+          "url": "https://dev.bostondynamics.com/docs/concepts/geometry_and_frames",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — optional Spot Arm overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/spot/arm/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — optional Spot Arm technical sheet",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-arm.pdf",
+          "checkedAt": "2026-11-02"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 16,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 10,
+        "not-documented": 4,
+        "conflicting": 2,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Boston Dynamics — current Spot specifications",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/spot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — linked Spot technical datasheet, updated May 2024",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-specifications.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — Spot SDK geometry and joint frames",
+          "type": "manufacturer",
+          "url": "https://dev.bostondynamics.com/docs/concepts/geometry_and_frames",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — optional Spot Arm overview",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/products/spot/arm/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Boston Dynamics — optional Spot Arm technical sheet",
+          "type": "manufacturer",
+          "url": "https://bostondynamics.com/wp-content/uploads/2020/10/spot-arm.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
