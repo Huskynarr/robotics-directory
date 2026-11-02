@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 1,929 catalog rows**, with 642 exact
-manufacturer spellings. Batch 78 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 79 refreshed the separate heuristic gap file offline
 against all 1,929 rows (634 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 114 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 327 have selected-field reviews and 191 await those reviews. Family and
+highlights; 333 have selected-field reviews and 185 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 9,325 fields across 599 catalog models: 4,363 documented,
-4,754 not documented, 191 conflicting and seventeen roadmap fields. They do not certify whole
+Selected specification checks cover 9,439 fields across 605 catalog models: 4,422 documented,
+4,803 not documented, 197 conflicting and seventeen roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -4341,3 +4341,79 @@ mit Firmenfokus. Drei ursprüngliche Modellidentitäten, neun Listingidentitäte
 keine bestätigten Lücken. Weitere SROD-Systemarten und frühere offene Zuordnungen
 bleiben erhalten. Vollständigkeit und Marktführung weiterhin unbelegt; lokale
 Änderungen. Prüfdateien: `scratch/competitor-research/primary/batch-78/`.
+
+
+## Ergänzung vom 2. November 2026 – Avidbots und Event 38 (Batch 79)
+
+Sechs bestehende Modelle geprüft: Neo 2, Neo 2W, Kas, E400 Mapping, E400 ISR und
+E455. 114 Feldentscheidungen: 59 dokumentiert, 49 unbekannt, sechs widersprüchlich.
+Zwei neue Firmenfokusse. Keine zusätzlichen Karten aus Reinigungsköpfen,
+Sensor-/Funkoptionen, Home Base, Desinfektionsaufsatz, DROPS oder Command Center.
+Alle 1923 übrigen Katalogzeilen, 599 bisherigen Modellprüfungen, 70 Firmenfokusse
+und 1961 Quellenidentitäten erhalten. CSV-Spalten und Kategorien unverändert.
+
+Kas: 172 kg leer versus 266 kg GVW; 552-mm-Arbeitsweg, 559-mm-Bürstendurchmesser
+und 630-mm-Rakel getrennt. 500–1000 m²/h praktische Leistung versus 2186 m²/h
+theoretisches Maximum. 2025-Blatt bis vier Stunden versus Produktseite bis drei
+und Einführung 3+ Stunden; Akkuwechsel verlängert Schichten, keine Einzelladung.
+Tankbelegung 45/46 L im Datenblatt, 46/45 L in FAQ, zusätzlich 50-L-Abwassertext
+und 48-L-Lösung in Broschüre bleibt widersprüchlich. Gerade Durchfahrt 1,05 m im
+Blatt versus 1,0 m auf Seite, 1,55-m-Wendemanöver separat. Anpresslast 36/36,8/40,8 kg
+ist keine Roboter-Nutzlast. Allgemeine Neo-FAQ auf Kas-Seite liefert keine Kas-Werte.
+
+Neo 2: Disc-GVW 661/669 kg, Zylinder-GVW 663/688 kg inklusive Akkus und voller
+Lösung; Leermassen 283/291 bzw. 285/290 kg. Untere Seiten-GVW 581,5 kg ungeklärt.
+Konfigurationsbezogene Bürstenbreiten und theoretische Flächenleistungen getrennt;
+metrische 1374-mm-Höhe bleibt mit Hinweis auf inkonsistente Zollangabe. Neo 2
+maximal 0,5 % Reinigungssteigung im gewählten Blatt, Neo 2W 3 % im 2024-Blatt.
+Neo 2W: Paletten-/Gabelerkennung, Bulk Navigator und Debris Diverter mit Vorreinigung
+und Standortprüfung; Home Base ist Rückkehrpunkt, kein belegter Lade-/Füll-Dock.
+480-Stunden-Wartung ist keine Akkulaufzeit. Neo 2 eingeführt am 1. September 2020,
+Kas am 10. April 2024; historische Datumsangaben nicht aus PDF-Uploaddaten abgeleitet.
+
+Event 38: Erster HTML-main enthielt nur den Hero. Gesicherter #main-Rahmen enthält
+auch technische Abschnitte und wurde aus Originalbytes reproduziert. E400 Mapping:
+3-m-Spannweite/1,5-m-Länge getrennt vom Packmaß; 20 lb/9,3 kg Startmasse und
+3 lb/1,3 kg Nutzlast als nicht exakte Hersteller-Einheitenpaare erhalten. 90 Minuten,
+54 Meilen Flugstrecke und fünf Meilen Telemetrie getrennt; PPK ohne erfundene
+Navigationsgenauigkeit, leichte Regenbeständigkeit ohne IP-Code. E400 ISR:
+120 Minuten bei voller Flugmasse 20 lb/9 kg ist weder Leermasse noch MTOW;
+320-g-Gimbal keine maximale Flugzeug-Nutzlast. Vier-Minuten-Aufbau keine Ladezeit;
+40×-Zoom aus 20× optisch und 2× digital. IP53, Temperatur und Wind bleiben
+Herstellerangaben. E455: über zwei Stunden mit sieben Pfund unter 55 lb Gesamtmasse
+nicht auf Zwölf-Pfund-Option übertragen. Aktuelle 60 lb gegen 65 lb der Einführung
+bleiben Konflikt; HTML datePublished 7. November 2023 getrennt von Änderung 2026.
+BVLOS-/Part-108-Texte keine pauschale Flugerlaubnis; DROPS-Integration vom September
+2026 liefert keine universell verbaute Hand, Ladezeit oder unbegrenzte Flugausdauer.
+
+24 nutzbare Quellenkörper: 15 HTML, neun PDF mit 36 Text-/Koordinatenseiten,
+108 exakte Quellenanker. Drei 404-Quellen ausgeschlossen. Keine Formulare,
+gesperrten Hosts erneut abgerufen, Recherchebrowser oder visuelle PDF-/Bildanalyse.
+Sechs Modellseiten: 114 Felder, 59 Quellenmarkierungen, 43 ausgelassene Leerfelder,
+50 strukturierte Eigenschaften und 25 Merkmalaussagen geprüft. Sechs Modell-Export-
+zeilen/sieben Zielvorkommen mit 133 Feldvorkommen, zwei Firmenfokus-Seiten/-Exporte,
+zwei Beschreibungsreferenzen/drei Ziele und sechs Rechercheziele/114 Felder geprüft.
+Global 605 Modellseiten/9439 Felder mit 4346 sichtbaren Quellenwerten, 4264
+ausgelassenen Leer-/NA-Feldern und 42 belegten Erstjahren. 1929 Preisangaben:
+350 Offers und 1579 ausgelassene Offers; keine aktuelle Verkäuferprüfung aller Altpreise.
+
+729 Unit-Tests in 58 Dateien, 20 Python-Tests und 92 Browserfälle bestanden:
+34 neue Avidbots/Event-38-, 40 SROD/Macco- und 18 Vergleichsfälle, darunter
+36 Axe-Prüfungen Desktop/Mobil hell/dunkel. Build 2979 Seiten, ungefähr 456 MB.
+Datenprüfung null Fehler, 817 Hinweise; ein bisher unbekanntes Erstjahr ergänzt.
+Format, Lint, Bestands-, Quellen-, Vergleichs- und Wiederholungsimportprüfung bestanden.
+Alle 157 eigenen Testprozesse beendet, Testserverport frei;
+Ressourcen anderer Aufgaben erhalten. Dies ist keine erneute vollständige Browser-Suite.
+
+Gesamtstand: 1929 Modelle/Konfigurationen, 817 Merkmalssätze, 3470 einzelne Aussagen,
+1412 Produktquellenverweise, 72 Firmenfokusse. 9439 Felder auf 605 Modellen:
+4422 dokumentiert, 4803 unbekannt, 197 widersprüchlich, 17 Roadmap. Von 518
+ursprünglichen Zielen haben 333 Feldprüfungen und 185 bleiben offen. Firmenfokusse
+decken 70 von 591 Quellengruppen ab. Drei Modell- und neun Listingidentitäten,
+862 Buy-Detailinhalte und vorherige offene Portfolios bleiben erhalten; 114 Modell-
+und elf Markenhinweise bleiben Heuristiken. Vollständigkeit und Marktführung unbelegt.
+Prüfdateien: `scratch/competitor-research/primary/batch-79/`.
+
+Auf Nutzerwunsch werden abgeschlossene Zwischenstände committed und auf
+`origin/codex/competitor-directory-expansion` gepusht. Lokale Rohrecherche und
+andere Aufgaben bleiben außerhalb dieser Commits; Pages-Publishing ist unverändert.

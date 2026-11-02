@@ -147,7 +147,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 327 and 191 still awaiting those reviews.
+selected technical-field reviews for 333 and 185 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -270,7 +270,7 @@ yaw typography is not converted into a numeric angular bound. Software, chargers
 HADS, batteries and carts are separate configuration or integration findings.
 
 Reviewed additional specification rows now show the same dated source/status badges
-as predefined fields. Rendered metadata was checked for all 599 selected-review
+as predefined fields. Rendered metadata was checked for all 605 selected-review
 model pages, including thirty-nine documented launch years; this does not re-verify
 the underlying manufacturers or unmarked fields.
 
@@ -366,6 +366,16 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Avidbots and Event 38 now have selected reviews for all six existing referenced
+models across 114 fields: 59 documented, 49 not documented and six conflicting.
+Kas runtime, tank-role and aisle differences remain explicit; Neo loaded/empty
+mass, head-specific theoretical output and warehouse versus standard grade limits
+retain configuration scope. Aircraft flying mass, takeoff mass, payload, sensor
+weight, telemetry reach and packed size remain separate. E455 60/65 lb takeoff
+claims stay conflicting; seven-pound endurance is not assigned to twelve-pound
+options or DROPS integrations. Two company focuses were added. No extra robot
+cards were inferred from cleaning heads, sensor options or accessory systems.
 
 SROD and Macco have twenty additional selected reviews across 356 fields:
 130 documented, 224 not documented and two conflicting. Twelve named SROD models
@@ -511,18 +521,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-9,325 fields across 599 models, distinguishing documented, undisclosed, conflicting and
+9,439 fields across 605 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 2,328 kB JSON response loads only for search or comparison;
+A separate 2,357 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 3,463 reviewed highlight statements as well as
+Catalog search now includes all 3,470 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -635,7 +645,7 @@ product catalogs; aliases and repeated source mentions are intentionally retaine
 Company exports include source positioning and factual feature themes; reseller
 listing themes are kept separate from claims about a manufacturer. Brand profiles
 and brand search now expose these source-attributed themes. Company-authored focus
-reviews now cover 70 profiles, including autonomy software, open-source platforms,
+reviews now cover 72 profiles, including autonomy software, open-source platforms,
 robotic cafes, welding integration, DealMaker, TGW Logistics and T-Chef. They are recorded in
 `company-evidence.json` and in the company export; directory themes remain unverified.
 Three named TGW RovoFlex systems are included with dated first-party highlights.

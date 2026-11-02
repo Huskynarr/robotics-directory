@@ -59308,6 +59308,732 @@
           "note": "Generic 300+ drinks/h and demo counters on current homepage lack a standardized V5 test/configuration; no exact throughput selected."
         }
       }
+    },
+    {
+      "robotId": "avidbots-neo-2",
+      "manufacturer": "Avidbots",
+      "model": "Neo 2",
+      "sources": [
+        {
+          "name": "Avidbots — manufacturer model information/announcement",
+          "url": "https://avidbots.com/robots/meet-neo/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Avidbots — manufacturer technical sheet/brochure",
+          "url": "https://avidbots.com/assets/Knowledge/Neo_2_Disc_Cleaning_Head_Technical_Specifications_Brochure.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Avidbots — manufacturer technical sheet/brochure",
+          "url": "https://avidbots.com/assets/Knowledge/Neo_2_Cylindrical_Cleaning_Head_Technical_Specifications_Brochure.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Avidbots — manufacturer model information/announcement",
+          "url": "https://avidbots.com/news/avidbots-news-avidbots-launches-neo-2-the-next-generation-and-new-industry-standard-in-robot-floor-scrubbers/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-79/avidbots.com-robots-meet-neo.json",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price and currency in selected manufacturer sources; quote/demo/service offers are not retail amounts."
+        },
+        "weight": {
+          "value": "Disc GVW 661/669 kg; cylindrical GVW 663/688 kg, including batteries and full solution tank; page also lists 581.5-688 kg with unresolved lower bound",
+          "status": "conflicting",
+          "note": "Technical sheets distinguish loaded and empty masses by cleaning head; page lower GVW bound 581.5 kg is not reconciled with those rows."
+        },
+        "size": {
+          "value": "L 1516 x H 1374 mm; disc widths 760/891 mm; cylindrical widths 760/935 mm",
+          "status": "documented",
+          "note": "Metric table values retained; Neo 2 sheets pair 1374 mm with an inconsistent 53.1-inch height. No silent conversion or averaged dimension."
+        },
+        "batteryLife": {
+          "value": "Typical 4-6 h per charge; cleaning plan and settings dependent",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "maxRuntime": {
+          "value": "Typical 4-6 h per charge; battery swaps extend shifts",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cleaning-head downforce, water volume and vehicle mass are not cargo payload."
+        },
+        "speed": {
+          "value": "Maximum working mode 4.9 km/h; launch headline up to 1.35 m/s",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit whole-model IP code established. Light-rain resistance and safety positioning are not an IP certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No elapsed battery charging time documented. Battery swapping, four-minute flight preparation and in-flight charging integration do not establish a charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Sensor fields of view, propeller counts and gimbal angles are not a whole-robot mechanical joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied robot hand or gripper established; cleaning heads and sensor payloads remain separate."
+        },
+        "description": {
+          "value": "Neo 2 is Avidbots’ autonomous indoor hard-floor scrubber launched in September 2020. Disc and cylindrical heads have separate mass, width and theoretical productivity ratings. Active Cleaning Control, adaptive routes and Command Center reporting support cleaning operations; gross mass includes batteries and solution, and the page’s lower GVW bound remains unresolved.",
+          "status": "documented",
+          "note": "Named model function and configuration limits from manufacturer sources; not independent testing or exclusive-USP verification."
+        },
+        "website": {
+          "value": "https://avidbots.com/robots/meet-neo/",
+          "status": "documented",
+          "note": "Current first-party named model page; all retained supporting sources are listed separately."
+        },
+        "releaseDate": {
+          "value": "2020",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "terrain": {
+          "value": "Indoor hard floors; not carpet or outdoors; maximum scrubbing grade 0.5% in selected Neo 2 sheets",
+          "status": "documented",
+          "note": "Named manufacturer indoor-floor or aerial operating limits; no independent all-weather performance or regulatory approval established."
+        },
+        "workingWidth": {
+          "value": "Disc 660/822 mm; cylindrical 588/790 mm total brush width; squeegee width is separate",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "areaRate": {
+          "value": "Maximum theoretical: disc 3120/3850 m²/h; cylindrical 2950/3941 m²/h; not practical site productivity",
+          "status": "documented",
+          "note": "All four head-specific rates are calculated maximum theoretical values, not measured practical coverage."
+        },
+        "waterTankCapacity": {
+          "value": "Solution 109 L; recovery 135 L",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "minAisleWidth": {
+          "value": "Typical autonomous turnaround clearance 3.05 m; not straight pass-through aisle width",
+          "status": "documented",
+          "note": "3.05 m is specifically autonomous aisle turn-around clearance, not a straight pass-through minimum."
+        }
+      }
+    },
+    {
+      "robotId": "avidbots-neo-2w",
+      "manufacturer": "Avidbots",
+      "model": "Neo 2W",
+      "sources": [
+        {
+          "name": "Avidbots — manufacturer model information/announcement",
+          "url": "https://avidbots.com/robots/meet-neo-2w/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Avidbots — manufacturer technical sheet/brochure",
+          "url": "https://avidbots.com/assets/Uploads/Neo_2W_Cylindrical_Cleaning_Head_Technical_Specs_2024.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Avidbots — manufacturer technical sheet/brochure",
+          "url": "https://avidbots.com/assets/Knowledge/Avidbots_Neo_2W_Brochure.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-79/avidbots.com-robots-meet-neo-2w.json",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price and currency in selected manufacturer sources; quote/demo/service offers are not retail amounts."
+        },
+        "weight": {
+          "value": "24/32-inch cylindrical GVW 663/688 kg with batteries and full solution tank; empty 285/290 kg",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "size": {
+          "value": "1516 x 760/935 x 1374 mm (L x W x H; 24/32-inch cylindrical heads)",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "batteryLife": {
+          "value": "Typical 4-6 h per charge; up to 6 h headline",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "maxRuntime": {
+          "value": "Typical 4-6 h per charge; battery swaps extend shifts",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cleaning-head downforce, water volume and vehicle mass are not cargo payload."
+        },
+        "speed": {
+          "value": "Maximum working mode 4.9 km/h; brochure up to 1.35 m/s",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit whole-model IP code established. Light-rain resistance and safety positioning are not an IP certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No elapsed battery charging time documented. Battery swapping, four-minute flight preparation and in-flight charging integration do not establish a charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Sensor fields of view, propeller counts and gimbal angles are not a whole-robot mechanical joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied robot hand or gripper established; cleaning heads and sensor payloads remain separate."
+        },
+        "description": {
+          "value": "Neo 2W is an autonomous warehouse floor scrubber with Advanced Obstacle Detection for floor-level objects, Bulk Navigator for changing bulk areas, and a Debris Diverter. Its 24/32-inch cylindrical configurations retain distinct widths and loaded masses. Home Base returns to a reviewed start location; theoretical cleaning rates and battery-set endurance are qualified separately.",
+          "status": "documented",
+          "note": "Named model function and configuration limits from manufacturer sources; not independent testing or exclusive-USP verification."
+        },
+        "website": {
+          "value": "https://avidbots.com/robots/meet-neo-2w/",
+          "status": "documented",
+          "note": "Current first-party named model page; all retained supporting sources are listed separately."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first model launch year established. Resource upload, brochure revision, company founding and related model launch dates are not interchangeable."
+        },
+        "terrain": {
+          "value": "Indoor warehouse/manufacturing hard floors; maximum scrubbing grade 3% in 2024 Neo 2W sheet",
+          "status": "documented",
+          "note": "Named manufacturer indoor-floor or aerial operating limits; no independent all-weather performance or regulatory approval established."
+        },
+        "workingWidth": {
+          "value": "Cylindrical brush width 588/790 mm; squeegee 907/1066 mm separately",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "areaRate": {
+          "value": "Maximum theoretical 2950/3941 m²/h for 24/32-inch heads; brochure rounds headline to 3900 m²/h",
+          "status": "documented",
+          "note": "Calculated maximum theoretical head-specific rates; brochure headline is rounded. No site-specific practical productivity established."
+        },
+        "waterTankCapacity": {
+          "value": "Solution 109 L; recovery 135 L; debris hopper 6.8/9.3 L separately",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "minAisleWidth": {
+          "value": "Typical autonomous turnaround clearance 3.05 m; not straight pass-through aisle width",
+          "status": "documented",
+          "note": "3.05 m is autonomous turnaround clearance, not straight pass-through width."
+        }
+      }
+    },
+    {
+      "robotId": "avidbots-kas",
+      "manufacturer": "Avidbots",
+      "model": "Kas",
+      "sources": [
+        {
+          "name": "Avidbots — manufacturer model information/announcement",
+          "url": "https://avidbots.com/robots/meet-kas/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Avidbots — manufacturer technical sheet/brochure",
+          "url": "https://avidbots.com/assets/Uploads/KAS_TECHSPECS_1page_v8_0811.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Avidbots — manufacturer technical sheet/brochure",
+          "url": "https://avidbots.com/assets/Knowledge/KAS_productBrochure_8page.pdf",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Avidbots — manufacturer model information/announcement",
+          "url": "https://avidbots.com/news/avidbots-launches-smaller-autonomous-cleaning-robot/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-79/avidbots.com-robots-meet-kas.json",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price and currency in selected manufacturer sources; quote/demo/service offers are not retail amounts."
+        },
+        "weight": {
+          "value": "Empty 172 kg; gross vehicle weight 266 kg in 2025 sheet; not brush downforce",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "size": {
+          "value": "927 x 674 x 1230 mm (L x W x H)",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "batteryLife": {
+          "value": "2025 sheet up to 4 h; product page up to 3 h and launch 3+ h; configuration difference unresolved",
+          "status": "conflicting",
+          "note": "2025 named sheet and product/launch pages have different runtime claims; configuration/revision cause not established."
+        },
+        "maxRuntime": {
+          "value": "2025 sheet up to 4 h versus product page up to 3 h; battery swapping extends shifts, not one-charge endurance",
+          "status": "conflicting",
+          "note": "Same unresolved source/revision difference as batteryLife; battery swaps do not create a longer single-charge value."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cleaning-head downforce, water volume and vehicle mass are not cargo payload."
+        },
+        "speed": {
+          "value": "Maximum working mode 4 km/h",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit whole-model IP code established. Light-rain resistance and safety positioning are not an IP certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No elapsed battery charging time documented. Battery swapping, four-minute flight preparation and in-flight charging integration do not establish a charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Sensor fields of view, propeller counts and gimbal angles are not a whole-robot mechanical joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied robot hand or gripper established; cleaning heads and sensor payloads remain separate."
+        },
+        "description": {
+          "value": "Kas is Avidbots’ compact autonomous indoor scrubber for commercial aisles, launched in April 2024. A 2025 technical sheet gives 172 kg empty mass, a 552 mm working path and practical 500-1000 m²/h productivity. Runtime, tank volumes and aisle clearance differ across current manufacturer sources; the catalog preserves those differences rather than mixing specifications into an unsupported configuration.",
+          "status": "documented",
+          "note": "Named model function and configuration limits from manufacturer sources; not independent testing or exclusive-USP verification."
+        },
+        "website": {
+          "value": "https://avidbots.com/robots/meet-kas/",
+          "status": "documented",
+          "note": "Current first-party named model page; all retained supporting sources are listed separately."
+        },
+        "releaseDate": {
+          "value": "2024",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "terrain": {
+          "value": "Indoor commercial hard floors; not carpet or outdoors; maximum scrubbing grade 3% / 1.7 degrees",
+          "status": "documented",
+          "note": "Named manufacturer indoor-floor or aerial operating limits; no independent all-weather performance or regulatory approval established."
+        },
+        "workingWidth": {
+          "value": "552 mm working scrubbing path; 559 mm total brush diameter and 630 mm squeegee width are separate",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "areaRate": {
+          "value": "Practical 500-1000 m²/h; maximum theoretical 2186 m²/h",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "waterTankCapacity": {
+          "value": "2025 sheet solution/recovery 45/46 L; page FAQ 46/45 L and separate 50 L recovery statement; 2024 brochure solution 48 L; unresolved source differences",
+          "status": "conflicting",
+          "note": "Solution and recovery assignments differ across the sheet, page FAQ and brochure. All source quantities retained with roles."
+        },
+        "minAisleWidth": {
+          "value": "2025 sheet aisle pass-through 1.05 m versus page 1.0 m; U-turn clearance 1.55 m separately",
+          "status": "conflicting",
+          "note": "Straight aisle pass-through differs between current sheet and page; 1.55 m U-turn clearance is a different maneuver."
+        }
+      }
+    },
+    {
+      "robotId": "event-38-e400-mapping",
+      "manufacturer": "Event 38",
+      "model": "E400 Mapping",
+      "sources": [
+        {
+          "name": "Event 38 — manufacturer model information/announcement",
+          "url": "https://event38.com/fixed-wing/e400-vtol-drone/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-79/event38.com-fixed-wing-e400-vtol-drone.json",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price and currency in selected manufacturer sources; quote/demo/service offers are not retail amounts."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-aircraft empty mass established. Payload, gross takeoff mass and individual sensor weights are separate."
+        },
+        "size": {
+          "value": "Wingspan 300 cm; length 150 cm; packed case 36 x 45 x 13.5 in separately; full flight envelope unspecified",
+          "status": "documented",
+          "note": "Only selected span/length or packed dimensions are documented; no complete aircraft body envelope inferred."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Flight endurance is retained in flightTime, not duplicated as generic battery life. Battery swaps and ground-control power storage are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Flight endurance is retained in flightTime. Continuous fleet operations, battery swaps and support equipment storage are not one aircraft operating interval."
+        },
+        "payload": {
+          "value": "Up to 3 lb (page also lists 1.3 kg); sensor configuration dependent",
+          "status": "documented",
+          "note": "Manufacturer lists 3 lb and 1.3 kg; original unit pair retained, not treated as an exact conversion."
+        },
+        "speed": {
+          "value": "Cruise 16 m/s (31 kt; headline 36 mph)",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit whole-model IP code established. Light-rain resistance and safety positioning are not an IP certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No elapsed battery charging time documented. Battery swapping, four-minute flight preparation and in-flight charging integration do not establish a charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Sensor fields of view, propeller counts and gimbal angles are not a whole-robot mechanical joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied robot hand or gripper established; cleaning heads and sensor payloads remain separate."
+        },
+        "description": {
+          "value": "E400 Mapping is Event 38’s battery-powered fixed-wing VTOL mapping aircraft. Manufacturer specifications give a 3 m wingspan, 90-minute flight rating and up to 3 lb useful payload, with RGB, multispectral, thermal or EO/IR integrations. Tool-free payload swaps and PPK survey integration are distinct from navigation accuracy; flight distance, telemetry reach and packed-case size retain their own scopes.",
+          "status": "documented",
+          "note": "Named model function and configuration limits from manufacturer sources; not independent testing or exclusive-USP verification."
+        },
+        "website": {
+          "value": "https://event38.com/fixed-wing/e400-vtol-drone/",
+          "status": "documented",
+          "note": "Current first-party named model page; all retained supporting sources are listed separately."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first model launch year established. Resource upload, brochure revision, company founding and related model launch dates are not interchangeable."
+        },
+        "terrain": {
+          "value": "Aerial mapping; manufacturer light-rain-resistant claim, wind up to 12 m/s; no IP code established",
+          "status": "documented",
+          "note": "Named manufacturer indoor-floor or aerial operating limits; no independent all-weather performance or regulatory approval established."
+        },
+        "flightTime": {
+          "value": "90 min manufacturer rating at stated standard conditions; payload/wind profile unspecified",
+          "status": "documented",
+          "note": "Manufacturer 90 min under stated standard conditions; payload and wind profile not separately specified. Distance and radio-link range remain separate."
+        },
+        "maxTakeoffWeight": {
+          "value": "20 lb (page also lists 9.3 kg); manufacturer unit pair retained without silent conversion",
+          "status": "documented",
+          "note": "Maximum takeoff mass is not empty or operational aircraft mass; page unit pair 20 lb / 9.3 kg is not an exact conversion."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "PPK survey positioning, lidar range and camera resolution do not establish a numeric aircraft/robot navigation error."
+        },
+        "driveMode": {
+          "value": "Battery-powered fixed-wing VTOL; vertical takeoff/landing without launcher or recovery net",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        }
+      }
+    },
+    {
+      "robotId": "event-38-e400-isr",
+      "manufacturer": "Event 38",
+      "model": "E400 ISR",
+      "sources": [
+        {
+          "name": "Event 38 — manufacturer model information/announcement",
+          "url": "https://event38.com/fixed-wing/e400-isr/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-79/event38.com-fixed-wing-e400-isr.json",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price and currency in selected manufacturer sources; quote/demo/service offers are not retail amounts."
+        },
+        "weight": {
+          "value": "20 lb (9 kg) flying weight in full operational configuration; not empty mass",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "size": {
+          "value": "Wingspan 10 ft; packed dimensions 36 x 45 x 13.5 in separately; full flight envelope unspecified",
+          "status": "documented",
+          "note": "Only selected span/length or packed dimensions are documented; no complete aircraft body envelope inferred."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Flight endurance is retained in flightTime, not duplicated as generic battery life. Battery swaps and ground-control power storage are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Flight endurance is retained in flightTime. Continuous fleet operations, battery swaps and support equipment storage are not one aircraft operating interval."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "320 g refers to the named gimbal, not maximum aircraft payload capacity."
+        },
+        "speed": {
+          "value": "Cruise 16 m/s (36 mph); dash 22 m/s (49 mph)",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "IP53; manufacturer whole-aircraft weather rating",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No elapsed battery charging time documented. Battery swapping, four-minute flight preparation and in-flight charging integration do not establish a charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Sensor fields of view, propeller counts and gimbal angles are not a whole-robot mechanical joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied robot hand or gripper established; cleaning heads and sensor payloads remain separate."
+        },
+        "description": {
+          "value": "E400 ISR is Event 38’s all-electric fixed-wing VTOL surveillance aircraft with a 120-minute endurance claim at 20 lb full operational flying weight. Its named EO/IR gimbal and radio options support remote imagery; sensor mass and zoom are separate from aircraft payload capacity. Four-minute deployment is preparation time, while IP53, operating temperature and wind limits remain manufacturer ratings.",
+          "status": "documented",
+          "note": "Named model function and configuration limits from manufacturer sources; not independent testing or exclusive-USP verification."
+        },
+        "website": {
+          "value": "https://event38.com/fixed-wing/e400-isr/",
+          "status": "documented",
+          "note": "Current first-party named model page; all retained supporting sources are listed separately."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No first model launch year established. Resource upload, brochure revision, company founding and related model launch dates are not interchangeable."
+        },
+        "terrain": {
+          "value": "Aerial security/surveillance; manufacturer IP53 and operating -15 to 43°C; wind resistance up to 18 mph",
+          "status": "documented",
+          "note": "Named manufacturer indoor-floor or aerial operating limits; no independent all-weather performance or regulatory approval established."
+        },
+        "flightTime": {
+          "value": "120 min at full operational weight; exact mission/wind profile unspecified",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "20 lb / 9 kg is full operational flying weight, not an explicit maximum takeoff rating."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "PPK survey positioning, lidar range and camera resolution do not establish a numeric aircraft/robot navigation error."
+        },
+        "driveMode": {
+          "value": "All-electric fixed-wing VTOL; rapid battery swaps and tablet ground control",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        }
+      }
+    },
+    {
+      "robotId": "event-38-e455",
+      "manufacturer": "Event 38",
+      "model": "E455",
+      "sources": [
+        {
+          "name": "Event 38 — manufacturer model information/announcement",
+          "url": "https://event38.com/fixed-wing/e455-vtol-drone/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Event 38 — manufacturer model information/announcement",
+          "url": "https://event38.com/news/announcing-the-e455-vtol/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Event 38 — manufacturer model information/announcement",
+          "url": "https://event38.com/news/event-38-tb2-aerospace-drops-comes-to-the-e455/",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-79/event38.com-fixed-wing-e455-vtol-drone.json",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No exact public purchase price and currency in selected manufacturer sources; quote/demo/service offers are not retail amounts."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-aircraft empty mass established. Payload, gross takeoff mass and individual sensor weights are separate."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Only selected span/length or packed dimensions are documented; no complete aircraft body envelope inferred."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Flight endurance is retained in flightTime, not duplicated as generic battery life. Battery swaps and ground-control power storage are separate."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Flight endurance is retained in flightTime. Continuous fleet operations, battery swaps and support equipment storage are not one aircraft operating interval."
+        },
+        "payload": {
+          "value": "7 lb while staying under 55 lb total; up to 12 lb where allowed at up to 60 lb takeoff per product page",
+          "status": "documented",
+          "note": "Seven-pound endurance configuration and twelve-pound where-allowed option have different total-mass conditions; no combined maximum-endurance claim."
+        },
+        "speed": {
+          "value": "Cruise 39-47 mph; dash up to 58 mph",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No explicit whole-model IP code established. Light-rain resistance and safety positioning are not an IP certification."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No elapsed battery charging time documented. Battery swapping, four-minute flight preparation and in-flight charging integration do not establish a charging duration."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Sensor fields of view, propeller counts and gimbal angles are not a whole-robot mechanical joint count."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied robot hand or gripper established; cleaning heads and sensor payloads remain separate."
+        },
+        "description": {
+          "value": "E455 is Event 38’s heavier-payload fixed-wing VTOL platform launched in November 2023. It advertises over two hours with 7 lb payload below 55 lb total, while the 12 lb option has separate takeoff-weight conditions. The product page and launch announcement differ on maximum gross weight. Open payload/radio integrations and the DROPS partnership expand configurations without establishing that every unit includes them.",
+          "status": "documented",
+          "note": "Named model function and configuration limits from manufacturer sources; not independent testing or exclusive-USP verification."
+        },
+        "website": {
+          "value": "https://event38.com/fixed-wing/e455-vtol-drone/",
+          "status": "documented",
+          "note": "Current first-party named model page; all retained supporting sources are listed separately."
+        },
+        "releaseDate": {
+          "value": "2023",
+          "status": "documented",
+          "note": "Launch announcement explicitly introduces E455; HTML BlogPosting datePublished is 2023-11-07, distinct from 2026 modification date."
+        },
+        "terrain": {
+          "value": "Aerial mapping/inspection and configurable sensor missions; named BVLOS waivers are operational claims, not universal permission",
+          "status": "documented",
+          "note": "Named manufacturer indoor-floor or aerial operating limits; no independent all-weather performance or regulatory approval established."
+        },
+        "flightTime": {
+          "value": "Over 2 h with 7 lb payload while staying under 55 lb; no same endurance established for 12 lb option",
+          "status": "documented",
+          "note": "Over two hours refers to seven-pound payload under 55 lb total. Higher payload, alternative power and DROPS integration have no equivalent selected endurance test."
+        },
+        "maxTakeoffWeight": {
+          "value": "Product page up to 60 lb where allowed; launch announcement up to 65 lb; unresolved configuration/revision difference",
+          "status": "conflicting",
+          "note": "Current product page says 60 lb, launch announcement says 65 lb; relationship unverified, so both retained as a conflict."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "PPK survey positioning, lidar range and camera resolution do not establish a numeric aircraft/robot navigation error."
+        },
+        "driveMode": {
+          "value": "Fixed-wing VTOL; multiple power configurations and removable open-architecture payload bay",
+          "status": "documented",
+          "note": "Named manufacturer value with configuration and operating conditions retained; not independently measured."
+        }
+      }
     }
   ]
 }
