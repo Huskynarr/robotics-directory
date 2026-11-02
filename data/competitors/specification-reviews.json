@@ -96866,6 +96866,420 @@
           "note": "No stacking height established."
         }
       }
+    },
+    {
+      "robotId": "awabot-awabot-one",
+      "manufacturer": "Awabot",
+      "model": "Awabot One",
+      "sources": [
+        {
+          "name": "Awabot — Awabot One exact product page: formerly Beam and contradictory speed statements",
+          "type": "manufacturer",
+          "url": "https://telepresence.awabot.com/en/product/awabot-one-telepresence-robot/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Awabot — current French One/Pro product overview and remote control application",
+          "type": "manufacturer",
+          "url": "https://telepresence.awabot.com/produits/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-108/source-1.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-device purchase quote, currency/tax/license/service scope established. Historical from449EUR/month rental-package marketing is not a device purchase price or verified current offer."
+        },
+        "weight": {
+          "value": "17.7 kg (manufacturer robot mass)",
+          "status": "documented",
+          "note": "Awabot One: exact-model manufacturer page explicitly supplies this qualified weight value; scope and test-condition limitations retained."
+        },
+        "size": {
+          "value": "Height 1.35 m; width 32 cm; length 41.7 cm (manufacturer)",
+          "status": "documented",
+          "note": "Awabot One: exact-model manufacturer page explicitly supplies this qualified size value; scope and test-condition limitations retained."
+        },
+        "batteryLife": {
+          "value": "Up to 8 h without recharge (manufacturer); usage/test conditions unspecified",
+          "status": "documented",
+          "note": "Awabot One: exact-model manufacturer page explicitly supplies this qualified batteryLife value; scope and test-condition limitations retained."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous duty-cycle/maximum uninterrupted runtime established. The stated eight-hour operation without recharge is recorded as battery life, not duplicated as an independent continuous-runtime guarantee."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand or manipulator established. A telepresence display/mobile base is not a robotic gripper."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Remotely commanded base motion, cameras and display are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated robot payload established. Own mass and display equipment are not spare carrying capacity."
+        },
+        "speed": {
+          "value": "3 km/h in Mobility text; 3.2 km/h mobile-base caption on same page; unresolved",
+          "status": "conflicting",
+          "note": "Same exact product page prints maximum 3 km/h in Mobility paragraph and up to 3.2 km/h in base caption. Discrepancy unresolved; keep both, not a silent selected numeric speed."
+        },
+        "terrain": {
+          "value": "Manufacturer describes thresholds around 2 cm; 45° stability tilt is not driving gradeability",
+          "status": "documented",
+          "note": "Source explicitly distinguishes approximate 2 cm threshold negotiation from up to 45° static stability tilt. No 45° driving gradeability inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-robot IP rating established. Office, event, hospital or industrial-site use is not ingress certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Remote pupils and education/inclusion programs are use cases, not age certification."
+        },
+        "website": {
+          "value": "https://telepresence.awabot.com/en/product/awabot-one-telepresence-robot/",
+          "status": "documented",
+          "note": "Awabot One: exact-model manufacturer page explicitly supplies this qualified website value; scope and test-condition limitations retained."
+        },
+        "description": {
+          "value": "Awabot One is explicitly identified by the manufacturer as formerly Beam. It is remotely driven through the Awabot application and offers user-triggered automatic parking, rather than documented general autonomous navigation. The exact product page lists 17.7 kg mass, height 1.35 m, width 32 cm and length 41.7 cm. It states up to eight hours without recharge and six hours for full charging, with use conditions unspecified. The same page prints 3 km/h maximum in Mobility text and 3.2 km/h in the base caption; the speed discrepancy remains unresolved. Approximately 2 cm threshold crossing and a separate 45° static stability-tilt claim are not the same mobility test. Four microphones, HDR viewing/navigation cameras, content sharing and dual Wi-Fi are manufacturer features; 4G capability is not proof of a standard included modem or service plan.",
+          "status": "documented",
+          "note": "Awabot One: exact-model manufacturer page explicitly supplies this qualified description value; scope and test-condition limitations retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. Product-post date October3,2018, edit date October14,2026, company history or French relocation milestone are not proof of exact model launch."
+        },
+        "chargingTime": {
+          "value": "6 h full charge for stated 8 h operation (manufacturer)",
+          "status": "documented",
+          "note": "Exact One page states six-hour full charging for stated eight-hour operation. Conditions, charger specification and battery state not fully supplied; value not transferred to Pro."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No underwater depth rating established."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No flight endurance established for this ground telepresence robot."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft maximum takeoff mass established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking capacity established."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking heat-source specification established."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified navigation accuracy established. Driving guide lines and marketing latency claims are not measured position tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified parking/docking accuracy established. User-triggered automatic parking is a function, not an accuracy specification."
+        },
+        "driveMode": {
+          "value": "Remotely driven through Awabot application; user-triggered automatic parking",
+          "status": "documented",
+          "note": "Awabot One: exact-model manufacturer page explicitly supplies this qualified driveMode value; scope and test-condition limitations retained."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No freight-lift travel established."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cargo/fork lifting height established."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied manipulator reach established."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No transport payload established. Body mass or screen size are not carrying capacity."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified machine-vision precision established. HDR video quality and digital zoom are not detection-accuracy ratings."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No welding speed established."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No worktable size established."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum operational aisle width established. Body width alone omits navigation clearance."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum turning radius established."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No working width established."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No area-per-time productivity established."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized task throughput established."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No stacking height established."
+        }
+      }
+    },
+    {
+      "robotId": "awabot-awabot-pro",
+      "manufacturer": "Awabot",
+      "model": "Awabot Pro",
+      "sources": [
+        {
+          "name": "Awabot — Awabot Pro exact product page: formerly BeamPro",
+          "type": "manufacturer",
+          "url": "https://telepresence.awabot.com/en/product/awabot-pro/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Awabot — current French One/Pro product overview and remote control application",
+          "type": "manufacturer",
+          "url": "https://telepresence.awabot.com/produits/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-108/source-2.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric current complete-device purchase quote, currency/tax/license/service scope established. Historical from449EUR/month rental-package marketing is not a device purchase price or verified current offer."
+        },
+        "weight": {
+          "value": "50 kg (manufacturer robot mass)",
+          "status": "documented",
+          "note": "Awabot Pro: exact-model manufacturer page explicitly supplies this qualified weight value; scope and test-condition limitations retained."
+        },
+        "size": {
+          "value": "Height 1.58 m; width 38 cm; length 63.5 cm (manufacturer)",
+          "status": "documented",
+          "note": "Awabot Pro: exact-model manufacturer page explicitly supplies this qualified size value; scope and test-condition limitations retained."
+        },
+        "batteryLife": {
+          "value": "8 h without recharge (manufacturer); usage/test conditions unspecified",
+          "status": "documented",
+          "note": "Awabot Pro: exact-model manufacturer page explicitly supplies this qualified batteryLife value; scope and test-condition limitations retained."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate continuous duty-cycle/maximum uninterrupted runtime established. The stated eight-hour operation without recharge is recorded as battery life, not duplicated as an independent continuous-runtime guarantee."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied hand or manipulator established. A telepresence display/mobile base is not a robotic gripper."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete mechanical DOF count established. Remotely commanded base motion, cameras and display are not silently summed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No rated robot payload established. Own mass and display equipment are not spare carrying capacity."
+        },
+        "speed": {
+          "value": "Maximum 3.2 km/h (manufacturer)",
+          "status": "documented",
+          "note": "Exact Pro page consistently states maximum 3.2 km/h, not One’s conflicting 3/3.2 km/h paragraph/caption pair."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact Pro threshold/slope/weather rating established; One’s approximately 2 cm threshold and 45° stability text are not Pro data."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact complete-robot IP rating established. Office, event, hospital or industrial-site use is not ingress certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No chronological user age rating established. Remote pupils and education/inclusion programs are use cases, not age certification."
+        },
+        "website": {
+          "value": "https://telepresence.awabot.com/en/product/awabot-pro/",
+          "status": "documented",
+          "note": "Awabot Pro: exact-model manufacturer page explicitly supplies this qualified website value; scope and test-condition limitations retained."
+        },
+        "description": {
+          "value": "Awabot Pro is explicitly identified by the manufacturer as formerly BeamPro. Its remotely driven base supports user-triggered automatic parking, without establishing general autonomous navigation. The exact Pro page lists 50 kg mass, height 1.58 m, width 38 cm, length 63.5 cm, eight hours without recharge and maximum 3.2 km/h travel. It describes a 17-inch screen, three-level digital zoom, six microphones, dual Wi-Fi roaming and a USB port for a 4G key. A standard supplied mobile modem or plan is not established. Pro-specific full charging time, terrain limits, IP protection and first-release year remain unverified; One’s six-hour charging and 2 cm threshold claim are not inherited. Customized branding and noisy/event-space positioning are configuration/use-case claims, not separate hardware models or independently tested performance.",
+          "status": "documented",
+          "note": "Awabot Pro: exact-model manufacturer page explicitly supplies this qualified description value; scope and test-condition limitations retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact-model first-release year established. Product-post date October3,2018, edit date October14,2026, company history or French relocation milestone are not proof of exact model launch."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Pro-specific full battery charging duration not established by inspected sources. Do not transfer One’s six-hour figure."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No underwater depth rating established."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No flight endurance established for this ground telepresence robot."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No aircraft maximum takeoff mass established."
+        },
+        "cookingCapacity": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking capacity established."
+        },
+        "heatSource": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cooking heat-source specification established."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified navigation accuracy established. Driving guide lines and marketing latency claims are not measured position tolerance."
+        },
+        "dockingAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified parking/docking accuracy established. User-triggered automatic parking is a function, not an accuracy specification."
+        },
+        "driveMode": {
+          "value": "Remotely driven from computer/tablet/phone; user-triggered automatic parking",
+          "status": "documented",
+          "note": "Awabot Pro: exact-model manufacturer page explicitly supplies this qualified driveMode value; scope and test-condition limitations retained."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No freight-lift travel established."
+        },
+        "maxLiftHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No cargo/fork lifting height established."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No supplied manipulator reach established."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No transport payload established. Body mass or screen size are not carrying capacity."
+        },
+        "visionPrecision": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No quantified machine-vision precision established. HDR video quality and digital zoom are not detection-accuracy ratings."
+        },
+        "weldSpeed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No welding speed established."
+        },
+        "workTableSize": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No worktable size established."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum operational aisle width established. Body width alone omits navigation clearance."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No minimum turning radius established."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No working width established."
+        },
+        "areaRate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No area-per-time productivity established."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standardized task throughput established."
+        },
+        "stackingHeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No stacking height established."
+        }
+      }
     }
   ]
 }
