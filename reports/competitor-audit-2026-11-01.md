@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 89 |
+| Firmenfokus-Prüfungen mit Quellen | 90 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 799 ergänzte Modelle ergeben 2.053 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-89 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
+90 Firmenfokus-Prüfungen nutzen eigene Firmenquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 951 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 381 haben ausgewählte Datenfeldprüfungen und 137
+haben datierte Merkmalsbelege; 383 haben ausgewählte Datenfeldprüfungen und 135
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -7882,3 +7882,68 @@ Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
 zwölf Modellseiten, Quellen-/Exporttransport und alle 793 gerenderten Feldprüfseiten
 geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-95-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Bitcraze Flugkits und Ökosystem (Batch 96)
+
+Crazyflie 2.1+ und Crazyflie 2.1 Brushless erhalten zwei neue ausgewählte
+Feldprüfungen: 34 Felder, davon 18 dokumentiert und 16 unbekannt. Keine neue
+Roboterkarte. Ein Herstellerfokus ergänzt, insgesamt 90. Alle 2051 anderen
+Katalogzeilen, 793 bisherigen Feldprüfungen, 89 früheren Firmenfokusse, sämtliche
+Profile/Aliasse und 1961 Quellenidentitäten unverändert. Beide bisherigen
+Produktbelege mit ihren Metadaten sind im dauerhaften Manifest erhalten.
+
+Herstellershop nennt ausdrücklich 240 USD für Plus und 480 USD für Brushless.
+Das sind datierte Kit-Listenpreise; Steuer-/Versandbedingungen und zusätzlich
+erforderliche Funk-, Deck- oder Positionierungskosten sind damit nicht belegt.
+Keine exakten strukturierten Kaufangebote aus den qualifizierten Preistexten.
+Plus: 29 g Abflugmasse, 92×92×29 mm in der veröffentlichten B×H×T-Reihenfolge
+mit Motorabstand/Füßen; diese Achsen werden nicht still korrigiert. Sieben Minuten
+Flug mit Standardakku, 40 Minuten Laden, maximal empfohlene 15 g Zusatzlast.
+Die Herstellerliste nennt Coreless-Antrieb und 250-mAh-Akku.
+
+Brushless: Rev-3-Datenblatt nennt 34 g mit Beinen und 37 g mit Schutzbügeln.
+Die einleitenden 32 g ersetzen diese Abflugkonfigurationen nicht. 100 mm bezeichnet
+diagonalen Motor-Mittelpunktabstand; 55-mm-Propeller und Schub je Motor sind weder
+vollständige Roboterhülle noch Zusatznutzlast. Zehn Minuten Standardakku-Flug,
+60 Minuten Laden, maximal empfohlene 40 g Standardnutzlast, 350-mAh-Akku im Kit.
+Für beide fehlen Last-/Flugbedingungen und Lade-SOC-Endpunkte. Die zuvor doppelt
+eingetragenen Flugzeiten entfallen als gesondertes Maximum, ohne die belegten
+Flugintervalle zu entfernen. Dokumentrevision vom 2. Oktober 2024 ist kein
+automatisch belegtes Erstlieferdatum; Erstjahr bleibt unbekannt.
+
+BLE-Handsteuerung, PC-Radio/Python und externes ROS-2-Crazyswarm2 behalten ihren
+jeweiligen Umfang. Automatisierter/autonomer Flug benötigt Positionierung, etwa
+Lighthouse, UWB/Loco oder externe Motion-Capture-Systeme. Kontaktpads allein belegen
+kein autonomes Andocken. Der LOS-Funktest über einen Kilometer ist keine belegte
+autonome Flugreichweite oder Wetterfreigabe. Die LED-Ring-Ausnahme der Brushless-
+Kompatibilität bleibt sichtbar. Bolt 1.1 ist laut Systemübersicht ein Controller;
+Radios, Decks, Docks und Bundles erzeugen keine zusätzlichen Ganzrobotermodelle.
+
+Neun gespeicherte Collector-Versuche: sechs HTTP200-Antworten, davon ein PDF,
+ein HTTP403 am Produktindex und zwei DNS-Fehler. Index nicht wiederholt. Ein
+Shop-DNS-Fehler einmal erfolgreich wiederholt; gescheiterter Brushless-Produktseiten-
+Abruf bleibt erhalten. Dessen technische Angaben nutzen erfolgreich gespeichertes
+modellgenaues Datenblatt und Shopseite. Alle gespeicherten Bodies per SHA256 geprüft;
+HTML-/PDF-Text gelesen. Zusätzliche Webansichten und Screenshot von PDF-Seite 2
+ergänzen die gespeicherten Quellen. Lokaler Bildbetrachter unterstützte die Eingabe
+nicht; daraus keine lokale Bildprüfung behauptet. Keine Zeichnungsmaße abgeleitet,
+keine Formulare oder Warenkorbaktionen. Historische Varianten und vollständige
+Herstellerhistorie sind mit dieser ausgewählten Prüfung nicht abgedeckt.
+
+Aktuell 2053 Modelle/Konfigurationen, 951 Produktmerkmalsdatensätze, 4141 Aussagen
+und 1831 Produktquellenverweise. Ausgewählte Prüfungen: 13302 Felder auf 795 Modellen,
+5732 dokumentiert, 7256 unbekannt, 251 widersprüchlich und 63 Roadmap. Ursprüngliche
+518 Zielmodelle: 383 mit ausgewählten Feldprüfungen, 135 offen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte weiterhin offen. Kein Nachweis einer
+Marktführerschaft oder vollständigen historischen/aktuellen Produktverifikation.
+
+793 Unit-Tests/64 Dateien und zehn ausgewählte Desktop-/Mobil-Browserfälle bestanden,
+einschließlich vier Axe-Läufen sowie Vergleich, Suche und Firmenprofil. Build:
+3103 Seiten/ca. 481 MB. Audit null Fehler/947 Warnungen, unverändert zum Vorbatch.
+Import-Trockenlauf null Ergänzungen, Offline-Refresh und alle 795 gerenderten
+Feldprüfseiten/13302 Felder geprüft. Geänderten Test gelintet/formatiert. Keine
+Anwendungslogik geändert; frühere Python-, Anwendungslint-/Format- und vollständige
+Vergleichsregressionsresultate bleiben in Batch 95, ohne als neu ausgeführt zu gelten.
+Eigene Test-/Browserressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-96-evidence.json`.

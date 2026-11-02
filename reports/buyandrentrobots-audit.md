@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,053 catalog rows**, with 644 exact
-manufacturer spellings. Batch 95 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 96 refreshed the separate heuristic gap file offline
 against all 2,053 rows (636 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 381 have selected-field reviews and 137 await those reviews. Family and
+highlights; 383 have selected-field reviews and 135 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 13,268 fields across 793 catalog models: 5,714 documented,
-7,240 not documented, 251 conflicting and sixty-three roadmap fields. They do not certify whole
+Selected specification checks cover 13,302 fields across 795 catalog models: 5,732 documented,
+7,256 not documented, 251 conflicting and sixty-three roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -5647,3 +5647,68 @@ Lint, Format, Import-Trockenlauf null Ergänzungen, Offline-Refresh,
 zwölf Modellseiten, Quellen-/Exporttransport und alle 793 gerenderten Feldprüfseiten
 geprüft. Eigene Browser-/Testressourcen beendet. Dauerhafter Beleg:
 `reports/competitor-batch-95-evidence.json`.
+
+
+## Ergänzung vom 2. November 2026 – Bitcraze Flugkits und Ökosystem (Batch 96)
+
+Crazyflie 2.1+ und Crazyflie 2.1 Brushless erhalten zwei neue ausgewählte
+Feldprüfungen: 34 Felder, davon 18 dokumentiert und 16 unbekannt. Keine neue
+Roboterkarte. Ein Herstellerfokus ergänzt, insgesamt 90. Alle 2051 anderen
+Katalogzeilen, 793 bisherigen Feldprüfungen, 89 früheren Firmenfokusse, sämtliche
+Profile/Aliasse und 1961 Quellenidentitäten unverändert. Beide bisherigen
+Produktbelege mit ihren Metadaten sind im dauerhaften Manifest erhalten.
+
+Herstellershop nennt ausdrücklich 240 USD für Plus und 480 USD für Brushless.
+Das sind datierte Kit-Listenpreise; Steuer-/Versandbedingungen und zusätzlich
+erforderliche Funk-, Deck- oder Positionierungskosten sind damit nicht belegt.
+Keine exakten strukturierten Kaufangebote aus den qualifizierten Preistexten.
+Plus: 29 g Abflugmasse, 92×92×29 mm in der veröffentlichten B×H×T-Reihenfolge
+mit Motorabstand/Füßen; diese Achsen werden nicht still korrigiert. Sieben Minuten
+Flug mit Standardakku, 40 Minuten Laden, maximal empfohlene 15 g Zusatzlast.
+Die Herstellerliste nennt Coreless-Antrieb und 250-mAh-Akku.
+
+Brushless: Rev-3-Datenblatt nennt 34 g mit Beinen und 37 g mit Schutzbügeln.
+Die einleitenden 32 g ersetzen diese Abflugkonfigurationen nicht. 100 mm bezeichnet
+diagonalen Motor-Mittelpunktabstand; 55-mm-Propeller und Schub je Motor sind weder
+vollständige Roboterhülle noch Zusatznutzlast. Zehn Minuten Standardakku-Flug,
+60 Minuten Laden, maximal empfohlene 40 g Standardnutzlast, 350-mAh-Akku im Kit.
+Für beide fehlen Last-/Flugbedingungen und Lade-SOC-Endpunkte. Die zuvor doppelt
+eingetragenen Flugzeiten entfallen als gesondertes Maximum, ohne die belegten
+Flugintervalle zu entfernen. Dokumentrevision vom 2. Oktober 2024 ist kein
+automatisch belegtes Erstlieferdatum; Erstjahr bleibt unbekannt.
+
+BLE-Handsteuerung, PC-Radio/Python und externes ROS-2-Crazyswarm2 behalten ihren
+jeweiligen Umfang. Automatisierter/autonomer Flug benötigt Positionierung, etwa
+Lighthouse, UWB/Loco oder externe Motion-Capture-Systeme. Kontaktpads allein belegen
+kein autonomes Andocken. Der LOS-Funktest über einen Kilometer ist keine belegte
+autonome Flugreichweite oder Wetterfreigabe. Die LED-Ring-Ausnahme der Brushless-
+Kompatibilität bleibt sichtbar. Bolt 1.1 ist laut Systemübersicht ein Controller;
+Radios, Decks, Docks und Bundles erzeugen keine zusätzlichen Ganzrobotermodelle.
+
+Neun gespeicherte Collector-Versuche: sechs HTTP200-Antworten, davon ein PDF,
+ein HTTP403 am Produktindex und zwei DNS-Fehler. Index nicht wiederholt. Ein
+Shop-DNS-Fehler einmal erfolgreich wiederholt; gescheiterter Brushless-Produktseiten-
+Abruf bleibt erhalten. Dessen technische Angaben nutzen erfolgreich gespeichertes
+modellgenaues Datenblatt und Shopseite. Alle gespeicherten Bodies per SHA256 geprüft;
+HTML-/PDF-Text gelesen. Zusätzliche Webansichten und Screenshot von PDF-Seite 2
+ergänzen die gespeicherten Quellen. Lokaler Bildbetrachter unterstützte die Eingabe
+nicht; daraus keine lokale Bildprüfung behauptet. Keine Zeichnungsmaße abgeleitet,
+keine Formulare oder Warenkorbaktionen. Historische Varianten und vollständige
+Herstellerhistorie sind mit dieser ausgewählten Prüfung nicht abgedeckt.
+
+Aktuell 2053 Modelle/Konfigurationen, 951 Produktmerkmalsdatensätze, 4141 Aussagen
+und 1831 Produktquellenverweise. Ausgewählte Prüfungen: 13302 Felder auf 795 Modellen,
+5732 dokumentiert, 7256 unbekannt, 251 widersprüchlich und 63 Roadmap. Ursprüngliche
+518 Zielmodelle: 383 mit ausgewählten Feldprüfungen, 135 offen. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Buy-Detailinhalte weiterhin offen. Kein Nachweis einer
+Marktführerschaft oder vollständigen historischen/aktuellen Produktverifikation.
+
+793 Unit-Tests/64 Dateien und zehn ausgewählte Desktop-/Mobil-Browserfälle bestanden,
+einschließlich vier Axe-Läufen sowie Vergleich, Suche und Firmenprofil. Build:
+3103 Seiten/ca. 481 MB. Audit null Fehler/947 Warnungen, unverändert zum Vorbatch.
+Import-Trockenlauf null Ergänzungen, Offline-Refresh und alle 795 gerenderten
+Feldprüfseiten/13302 Felder geprüft. Geänderten Test gelintet/formatiert. Keine
+Anwendungslogik geändert; frühere Python-, Anwendungslint-/Format- und vollständige
+Vergleichsregressionsresultate bleiben in Batch 95, ohne als neu ausgeführt zu gelten.
+Eigene Test-/Browserressourcen beendet. Dauerhafter Beleg:
+`reports/competitor-batch-96-evidence.json`.

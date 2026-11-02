@@ -1,0 +1,602 @@
+{
+  "batch": 96,
+  "checkedAt": "2026-11-02",
+  "manufacturers": [
+    "Bitcraze"
+  ],
+  "catalogModelsBefore": 2053,
+  "catalogModelsAfter": 2053,
+  "newModels": 0,
+  "existingModelsReviewed": 2,
+  "newSpecificationReviews": 2,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 34,
+  "fieldStatuses": {
+    "documented": 18,
+    "not-documented": 16
+  },
+  "newCompanyFocusReviews": 1,
+  "updatedCompanyFocusReviews": 0,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "sourceAttempts": 9,
+    "successfulHttpBodies": 6,
+    "http403": 1,
+    "dnsFailures": 2,
+    "allSavedBodiesHashVerified": true,
+    "successfulPdfBodies": 1,
+    "pdfTextInspectionPerformed": true,
+    "pdfVisualInspectionPerformed": true,
+    "pdfVisualScope": "Manufacturer Rev 3 page 2 inspected via web PDF screenshot; local image viewer rejected image input. No drawing dimensions inferred.",
+    "blockedIndexRetried": false,
+    "dnsRetryScope": "One store DNS failure retried once successfully; product page DNS failure retained. No retry of the HTTP403 products index.",
+    "gatedDownloadsRequested": false,
+    "formsSubmitted": 0,
+    "cartActions": 0,
+    "proofTerms": {
+      "1": [
+        "Takeoff weight: 29g",
+        "92x92x29mm",
+        "7 minutes",
+        "40 minutes",
+        "15 g"
+      ],
+      "3": [
+        "quadcopter controller",
+        "Positioning support is needed",
+        "CrazySwarm2"
+      ],
+      "4": [
+        "Malmö, Sweden",
+        "Since 2011"
+      ],
+      "6": [
+        "Takeoff weight with legs: 34g",
+        "Takeoff weight with guards: 37g",
+        "100mm (diagonal",
+        "10 minutes",
+        "60 minutes",
+        "40 g",
+        "except LED-ring",
+        "2024-10-02"
+      ],
+      "7": [
+        "Default Title - $240.00 USD",
+        "250mAh",
+        "DC coreless"
+      ],
+      "9": [
+        "Default Title - $480.00 USD",
+        "350 mAh",
+        "40 grams",
+        "except LED-ring"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
+      "checkedAt": "2026-11-02T16:05:15.794883+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
+      "contentType": "text/html",
+      "bodyFile": "source-1.html",
+      "bodySha256": "ba3ebc50eec713bd2b2fef7529378d7d51c1ce06b9a4a4eb6a6c0d2e28399e0e",
+      "title": "Crazyflie 2.1+ | Bitcraze",
+      "textFile": "source-1.txt"
+    },
+    {
+      "id": 2,
+      "url": "https://www.bitcraze.io/products/crazyflie-2-1-brushless/",
+      "checkedAt": "2026-11-02T16:05:15.799333+00:00",
+      "error": "HTTPSConnectionPool(host='www.bitcraze.io', port=443): Max retries exceeded with url: /products/crazyflie-2-1-brushless/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f33135e87d0>: Failed to resolve 'www.bitcraze.io' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
+      "id": 3,
+      "url": "https://www.bitcraze.io/documentation/system/",
+      "checkedAt": "2026-11-02T16:05:15.801190+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bitcraze.io/documentation/system/",
+      "contentType": "text/html",
+      "bodyFile": "source-3.html",
+      "bodySha256": "2ecc9ce6f7da4c8902d415814035f02ab5f598899c0f7e5a3b14b3e644944a1e",
+      "title": "System overview | Bitcraze",
+      "textFile": "source-3.txt"
+    },
+    {
+      "id": 4,
+      "url": "https://www.bitcraze.io/about/bitcraze/",
+      "checkedAt": "2026-11-02T16:05:15.802293+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bitcraze.io/about/bitcraze/",
+      "contentType": "text/html",
+      "bodyFile": "source-4.html",
+      "bodySha256": "4600562f7cc83608b6dcf3c42ee95ab30ed742c00f476c3b1bb76066f5052c2f",
+      "title": "About | Bitcraze",
+      "textFile": "source-4.txt"
+    },
+    {
+      "id": 5,
+      "url": "https://www.bitcraze.io/products/",
+      "checkedAt": "2026-11-02T16:05:16.004129+00:00",
+      "status": 403,
+      "finalUrl": "https://www.bitcraze.io/products/",
+      "contentType": "text/html; charset=iso-8859-1",
+      "bodyFile": "source-5.html",
+      "bodySha256": "b9804478bc2e7258ea04d957af9c4f4bde47c3a16a7a1b37c1d1af2fbf784e3f",
+      "title": "403 Forbidden",
+      "textFile": "source-5.txt"
+    },
+    {
+      "id": 6,
+      "url": "https://www.bitcraze.io/documentation/hardware/crazyflie_2_1_brushless/crazyflie_2_1_brushless-datasheet.pdf",
+      "checkedAt": "2026-11-02T16:05:16.092056+00:00",
+      "status": 200,
+      "finalUrl": "https://www.bitcraze.io/documentation/hardware/crazyflie_2_1_brushless/crazyflie_2_1_brushless-datasheet.pdf",
+      "contentType": "application/pdf",
+      "bodyFile": "source-6.pdf",
+      "bodySha256": "1d1c8fb4264558b1b751149bfe44c98741b1e4d4695585a071efcd18a5d34726",
+      "textFile": "source-6.txt",
+      "pages": 3
+    },
+    {
+      "id": 7,
+      "url": "https://store.bitcraze.io/products/crazyflie-2-1-plus",
+      "checkedAt": "2026-11-02T16:05:40.866483+00:00",
+      "status": 200,
+      "finalUrl": "https://store.bitcraze.io/products/crazyflie-2-1-plus",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-7.html",
+      "bodySha256": "7af363bf6aa32f9505a7ade79c92ac1de19cd415fe4b4341f357156aba9645d3",
+      "title": "Crazyflie 2.1+ – Bitcraze Store",
+      "textFile": "source-7.txt"
+    },
+    {
+      "id": 8,
+      "url": "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+      "checkedAt": "2026-11-02T16:05:40.867455+00:00",
+      "error": "HTTPSConnectionPool(host='store.bitcraze.io', port=443): Max retries exceeded with url: /products/crazyflie-2-1-brushless (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7f7b5ca1c7d0>: Failed to resolve 'store.bitcraze.io' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
+      "id": 9,
+      "url": "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+      "checkedAt": "2026-11-02T16:06:22.469558+00:00",
+      "status": 200,
+      "finalUrl": "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+      "contentType": "text/html; charset=utf-8",
+      "bodyFile": "source-9.html",
+      "bodySha256": "56d320c2fcb36105b54acdc0b8b1c6fd4f5a432145a0a87f7e039e5f875c4f7e",
+      "title": "Crazyflie 2.1 Brushless – Bitcraze Store",
+      "textFile": "source-9.txt"
+    }
+  ],
+  "modelDecisions": [
+    {
+      "model": "Crazyflie 2.1+",
+      "manufacturer": "Bitcraze",
+      "robotId": "bitcraze-crazyflie-2-1-plus",
+      "category": "educational",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
+        "https://store.bitcraze.io/products/crazyflie-2-1-plus",
+        "https://www.bitcraze.io/documentation/system/"
+      ]
+    },
+    {
+      "model": "Crazyflie 2.1 Brushless",
+      "manufacturer": "Bitcraze",
+      "robotId": "bitcraze-crazyflie-2-1-brushless",
+      "category": "educational",
+      "action": "review-existing-model",
+      "sourceUrls": [
+        "https://www.bitcraze.io/documentation/hardware/crazyflie_2_1_brushless/crazyflie_2_1_brushless-datasheet.pdf",
+        "https://store.bitcraze.io/products/crazyflie-2-1-brushless",
+        "https://www.bitcraze.io/documentation/system/"
+      ]
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "Bitcraze",
+      "model": "Crazyflie 2.1+",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": "Listed 240 USD for kit; tax, shipping and optional ecosystem hardware not established"
+        },
+        "weight": {
+          "before": "29 g",
+          "after": "29 g takeoff"
+        },
+        "size": {
+          "before": "92 x 92 x 29 mm",
+          "after": "92 x 92 x 29 mm (manufacturer W x H x D; motor-to-motor including feet)"
+        },
+        "batteryLife": {
+          "before": "7 min",
+          "after": "7 min with stock battery; flight/load conditions not stated"
+        },
+        "maxRuntime": {
+          "before": "7 min",
+          "after": ""
+        },
+        "payload": {
+          "before": "15 g",
+          "after": "15 g maximum recommended added payload"
+        },
+        "description": {
+          "before": "Palm-sized open-source flying development platform with expansion decks, Bluetooth LE and a programmable radio interface for education, research and swarm experiments.",
+          "after": "Crazyflie 2.1+ is an open flying development kit with DC coreless motors, a 250 mAh stock battery, BLE control and programmable radio interfaces. It specifies 29 g takeoff mass, seven-minute stock-battery flight, 40-minute charging and a maximum recommended 15 g added load. Radio hardware, expansion decks and positioning infrastructure depend on the experiment; stock-battery duration is not a tested maximum or endurance guarantee at the payload limit."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "40 min with stock battery; SOC endpoints not stated"
+        },
+        "driveMode": {
+          "before": "",
+          "after": "Four DC coreless motors; propeller flight"
+        }
+      }
+    },
+    {
+      "manufacturer": "Bitcraze",
+      "model": "Crazyflie 2.1 Brushless",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": "Listed 480 USD for kit; tax, shipping and optional ecosystem hardware not established"
+        },
+        "weight": {
+          "before": "34 g with legs; 37 g with guards",
+          "after": "34 g with legs; 37 g with guards (takeoff)"
+        },
+        "size": {
+          "before": "",
+          "after": "100 mm diagonal motor-centre frame span (not overall envelope)"
+        },
+        "batteryLife": {
+          "before": "10 min with stock battery",
+          "after": "10 min with stock battery; flight/load conditions not stated"
+        },
+        "maxRuntime": {
+          "before": "10 min with stock battery",
+          "after": ""
+        },
+        "description": {
+          "before": "Open-source brushless flying development platform supports programmable flight and swarm research. Expansion decks, wireless firmware updates and ROS integration support experiments. Contact pads support a separately supplied charging dock.",
+          "after": "Crazyflie 2.1 Brushless is an open flying development kit with four brushless motors and a 350 mAh stock battery. Takeoff mass is 34 g with landing legs or 37 g with guards; the 100 mm dimension is diagonal motor-centre frame span. It specifies ten-minute stock-battery flight, 60-minute charging and 40 g maximum recommended stock payload. Contact charging, external positioning and swarm software need the corresponding setup; the LED-ring deck is excluded from the general ecosystem compatibility claim."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "60 min with stock battery; SOC endpoints not stated"
+        },
+        "driveMode": {
+          "before": "",
+          "after": "Four brushless motors with integrated ESCs; propeller flight"
+        }
+      }
+    }
+  ],
+  "priorProductEvidence": [
+    {
+      "row": {
+        "price": "Not disclosed",
+        "category": "educational",
+        "manufacturer": "Bitcraze",
+        "model": "Crazyflie 2.1+",
+        "weight": "29 g",
+        "size": "92 x 92 x 29 mm",
+        "batteryLife": "7 min",
+        "maxRuntime": "7 min",
+        "payload": "15 g",
+        "tags": "research;dev-platform;programmable;stem;drone",
+        "description": "Palm-sized open-source flying development platform with expansion decks, Bluetooth LE and a programmable radio interface for education, research and swarm experiments.",
+        "website": "https://www.bitcraze.io/products/crazyflie-2-1-plus/"
+      },
+      "highlights": [
+        "Open hardware schematics and modifiable firmware",
+        "Expansion decks with automatic detection",
+        "29 g takeoff weight and 7-minute stock-battery flight time"
+      ],
+      "sources": [
+        {
+          "name": "Bitcraze",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/products/crazyflie-2-1-plus/",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ]
+    },
+    {
+      "row": {
+        "category": "educational",
+        "manufacturer": "Bitcraze",
+        "model": "Crazyflie 2.1 Brushless",
+        "price": "Not disclosed",
+        "tags": "research;dev-platform;programmable;stem;drone",
+        "website": "https://www.bitcraze.io/products/crazyflie-2-1-brushless/",
+        "description": "Open-source brushless flying development platform supports programmable flight and swarm research. Expansion decks, wireless firmware updates and ROS integration support experiments. Contact pads support a separately supplied charging dock.",
+        "weight": "34 g with legs; 37 g with guards",
+        "batteryLife": "10 min with stock battery",
+        "maxRuntime": "10 min with stock battery",
+        "payload": "40 g maximum recommended stock payload"
+      },
+      "highlights": [
+        "Open-source brushless flying development platform supports programmable flight and swarm research",
+        "Expansion decks, wireless firmware updates and ROS integration support experiments",
+        "Contact pads support a separately supplied charging dock"
+      ],
+      "sources": [
+        {
+          "name": "Bitcraze",
+          "type": "manufacturer",
+          "url": "https://www.bitcraze.io/products/crazyflie-2-1-brushless/",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://roboticsdir.com/"
+      ],
+      "reviewedFrom": "scratch/competitor-research/primary/batch-12/bitcraze.io-products-crazyflie-2-1-brushless.json",
+      "reviewNotes": "The manufacturer distinguishes the Brushless platform from the existing Crazyflie 2.1+. Weight depends on fitted legs or guards; the 32 g marketing headline is not treated as the full takeoff mass. Autonomous positioning/charging requires appropriate decks, infrastructure and configuration. The dock, radio and bundle are not separate flying robot models. Range and flight-time claims are not guarantees for every payload/environment; aviation permissions are not inferred."
+    }
+  ],
+  "portfolioDecisions": {
+    "selectedIdentities": 2,
+    "newRobotCards": 0,
+    "companyFocusAdded": true,
+    "controllerExcluded": "Crazyflie Bolt 1.1",
+    "accessoriesExcluded": [
+      "Crazyradio USB interfaces",
+      "expansion decks",
+      "Lighthouse/Loco positioning infrastructure",
+      "charging dock",
+      "batteries",
+      "bundles"
+    ],
+    "scope": "Two source-linked flying models reviewed. System overview is not a complete historical product inventory; legacy Crazyflie versions are not expanded in this batch. Index HTTP403 remains a source limitation."
+  },
+  "validation": {
+    "unitTests": 793,
+    "unitTestFiles": 64,
+    "browserTestCases": 10,
+    "browserPassed": 10,
+    "browserFailed": 0,
+    "selectedBitcrazeBrowserCases": 10,
+    "axeCases": 4,
+    "sourceCodeChanged": false,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "manufacturerProfileMappingChanged": false,
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "buildPages": 3103,
+    "buildSizeApproxMB": 481,
+    "dataErrors": 0,
+    "dataWarnings": 947,
+    "dataWarningChange": 0,
+    "changedFileLint": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "globalRenderedReviewMetadataCheck": {
+      "allChecksPassed": true,
+      "reviewedModelPagesChecked": 795,
+      "selectedFieldValuesChecked": 13302,
+      "visibleTechnicalValuesAndSourceBadgesChecked": 5538,
+      "omittedEmptyOrNAFieldsChecked": 6554,
+      "descriptionAndWebsiteFieldsExcluded": 1210,
+      "reviewedLaunchYearsWithSourceBadgesChecked": 68,
+      "scope": "Public raw values and evidence metadata match existing selected reviews across 795 model pages. This is not a re-fetch or independent certification of prior manufacturers, nor a review of unmarked specifications."
+    },
+    "renderedBitcrazeEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 2,
+      "selectedSpecificationFieldsChecked": 34,
+      "sourceBadgesChecked": 14,
+      "blankFieldsOmitted": 16,
+      "descriptionsChecked": 2,
+      "websitesChecked": 2,
+      "structuredSpecificationPropertiesChecked": 12,
+      "highlightStatementsChecked": 10,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 2,
+      "modelExportRowsChecked": 1,
+      "modelExportTargetsChecked": 2,
+      "modelExportFieldOccurrencesChecked": 34,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 2,
+      "researchQueueFieldsChecked": 34,
+      "scope": "Two Bitcraze flying kits: qualified kit prices, fitted takeoff mass, diagonal span, stock flight and charge intervals, and optional ecosystem retained. No independent performance or market-leadership proof."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 2053,
+      "unchangedPriorCatalogRows": 2051,
+      "reviewedExistingCatalogRows": 2,
+      "newCatalogRows": 0,
+      "newCsvColumns": [],
+      "categoryTransfers": 0,
+      "previousSpecificationReviewsEntirelyUnchanged": 793,
+      "newSpecificationReviews": 2,
+      "selectedFields": 34,
+      "previousCompanyFocusReviewsEntirelyUnchanged": 89,
+      "newCompanyFocusReviews": 1,
+      "sourceIdentityRecordsPreserved": 1961,
+      "originalUnresolvedModelMentions": 3,
+      "originalUnresolvedListings": 9,
+      "allProfileFieldsAndAliasesUnchanged": true,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/brands.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 383,
+        "withoutSelectedFieldReview": 135,
+        "selectedFields": 6324,
+        "selectedFieldStatuses": {
+          "documented": 2860,
+          "not-documented": 3296,
+          "conflicting": 157,
+          "roadmap": 11
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 86,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      },
+      "exportRows": {
+        "company-review": 591,
+        "model-review": 406,
+        "buyandrent-listing-review": 862,
+        "company-product-review": 132,
+        "robot-research-queue": 518
+      },
+      "correctedRows": [
+        {
+          "manufacturer": "Bitcraze",
+          "model": "Crazyflie 2.1+",
+          "changes": {
+            "price": {
+              "before": "Not disclosed",
+              "after": "Listed 240 USD for kit; tax, shipping and optional ecosystem hardware not established"
+            },
+            "weight": {
+              "before": "29 g",
+              "after": "29 g takeoff"
+            },
+            "size": {
+              "before": "92 x 92 x 29 mm",
+              "after": "92 x 92 x 29 mm (manufacturer W x H x D; motor-to-motor including feet)"
+            },
+            "batteryLife": {
+              "before": "7 min",
+              "after": "7 min with stock battery; flight/load conditions not stated"
+            },
+            "maxRuntime": {
+              "before": "7 min",
+              "after": ""
+            },
+            "payload": {
+              "before": "15 g",
+              "after": "15 g maximum recommended added payload"
+            },
+            "description": {
+              "before": "Palm-sized open-source flying development platform with expansion decks, Bluetooth LE and a programmable radio interface for education, research and swarm experiments.",
+              "after": "Crazyflie 2.1+ is an open flying development kit with DC coreless motors, a 250 mAh stock battery, BLE control and programmable radio interfaces. It specifies 29 g takeoff mass, seven-minute stock-battery flight, 40-minute charging and a maximum recommended 15 g added load. Radio hardware, expansion decks and positioning infrastructure depend on the experiment; stock-battery duration is not a tested maximum or endurance guarantee at the payload limit."
+            },
+            "chargingTime": {
+              "before": "",
+              "after": "40 min with stock battery; SOC endpoints not stated"
+            },
+            "driveMode": {
+              "before": "",
+              "after": "Four DC coreless motors; propeller flight"
+            }
+          }
+        },
+        {
+          "manufacturer": "Bitcraze",
+          "model": "Crazyflie 2.1 Brushless",
+          "changes": {
+            "price": {
+              "before": "Not disclosed",
+              "after": "Listed 480 USD for kit; tax, shipping and optional ecosystem hardware not established"
+            },
+            "weight": {
+              "before": "34 g with legs; 37 g with guards",
+              "after": "34 g with legs; 37 g with guards (takeoff)"
+            },
+            "size": {
+              "before": "",
+              "after": "100 mm diagonal motor-centre frame span (not overall envelope)"
+            },
+            "batteryLife": {
+              "before": "10 min with stock battery",
+              "after": "10 min with stock battery; flight/load conditions not stated"
+            },
+            "maxRuntime": {
+              "before": "10 min with stock battery",
+              "after": ""
+            },
+            "description": {
+              "before": "Open-source brushless flying development platform supports programmable flight and swarm research. Expansion decks, wireless firmware updates and ROS integration support experiments. Contact pads support a separately supplied charging dock.",
+              "after": "Crazyflie 2.1 Brushless is an open flying development kit with four brushless motors and a 350 mAh stock battery. Takeoff mass is 34 g with landing legs or 37 g with guards; the 100 mm dimension is diagonal motor-centre frame span. It specifies ten-minute stock-battery flight, 60-minute charging and 40 g maximum recommended stock payload. Contact charging, external positioning and swarm software need the corresponding setup; the LED-ring deck is excluded from the general ecosystem compatibility claim."
+            },
+            "chargingTime": {
+              "before": "",
+              "after": "60 min with stock battery; SOC endpoints not stated"
+            },
+            "driveMode": {
+              "before": "",
+              "after": "Four brushless motors with integrated ESCs; propeller flight"
+            }
+          }
+        }
+      ]
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 951,
+      "individualHighlights": 4141,
+      "productSourceReferences": 1831,
+      "specificationReviewModels": 795,
+      "specificationFields": 13302,
+      "publicJsonBytes": 3388691,
+      "catalogScriptBytes": 2104950,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 126,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "previouslyBlockedHostsRetried": false,
+    "new429Observed": 0,
+    "new403Observed": 1,
+    "newDnsFailures": 2,
+    "formsSubmitted": 0,
+    "cartActions": 0,
+    "gatedDownloadsRequested": false,
+    "pdfVisualInspectionPerformed": true,
+    "pdfTextInspectionPerformed": true,
+    "priorValidationRetainedInBatchHistory": 95,
+    "scope": "793 unit tests, 10 selected desktop/mobile browser cases including four axe runs and comparison/search/company focus. All 795 rendered review pages/13302 fields checked. Current exact comparison payload checked. No application-code change: prior Python, application lint/format and full comparison regression results retained in batch95 history, not represented as rerun. Nine saved collector attempts: six HTTP200 bodies including one PDF, one index HTTP403 and two DNS failures. One store DNS failure retried once successfully; blocked index not retried. Separate web product/PDF reads and a PDF page2 screenshot supplement saved-body evidence. No historical portfolio completeness or independent performance/market rank established."
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "dataCommit": "408ab99da485c4e92048a86a0067e6d6c2424bcf",
+    "dataPushVerified": true,
+    "mainUnchanged": true
+  },
+  "goalComplete": false
+}
