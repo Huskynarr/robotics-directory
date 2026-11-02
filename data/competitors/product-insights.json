@@ -8840,16 +8840,30 @@
       "manufacturer": "LEGO Education",
       "model": "SPIKE Essential",
       "highlights": [
-        "Retired SPIKE classroom robotics and coding set for younger learners",
-        "Manufacturer says direct sales ended on June 30, 2026",
-        "SPIKE App support is scheduled through June 30, 2031"
+        "The August 2021 launch describes 449 LEGO bricks, four minifigure characters and five hardware components including a hub, motors, light matrix and color sensor. Characters and lesson builds are parts of the set, not additional powered robot models.",
+        "The launch positions the set for ages 6+ and primary-school storytelling/problem solving, using icon- and word-based block coding in the SPIKE App. That source does not impose the old catalog upper limit of nine years.",
+        "Direct manufacturer sales of set 45345 ended June 30, 2026. SPIKE App and curriculum support are scheduled through June 30, 2031, without new feature additions after sales retirement.",
+        "The current retirement FAQ says SPIKE remains eligible through the 2027–2028 FIRST LEGO League season, with later participation moving to the new experience. This is time-bounded manufacturer guidance, not a permanent competition guarantee.",
+        "Historical educational-content hours are not battery endurance. This source set does not establish total built-robot mass, envelope, battery runtime, fixed hand type or the earlier two-port/motor-count details; Prime hub values are not transferred."
       ],
       "sources": [
         {
-          "name": "LEGO Education",
+          "name": "LEGO Education — manufacturer set/archive/support information",
           "type": "manufacturer",
           "url": "https://education.lego.com/en-us/products/lego-education-spike-essential-set/45345/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer launch information",
+          "type": "manufacturer",
+          "url": "https://www.lego.com/en-us/aboutus/news/2021/august/lego-education-spike-essential",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/spike-update-2026/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8861,22 +8875,49 @@
       "manufacturer": "LEGO Education",
       "model": "SPIKE Prime",
       "highlights": [
-        "Retired classroom robotics set uses a programmable Technic Large Hub",
-        "Manufacturer hub specification identifies six input/output ports and a six-axis inertial sensor",
-        "Direct sales ended June 30, 2026; SPIKE App support is scheduled through June 30, 2031"
+        "The manufacturer FAQ identifies 528 elements, set 45678, ages 10+ and a recommended two learners per set. A grade band or two learners is not a measured robot capability or fixed maximum user age.",
+        "The Large Hub technical sheet states six input/output ports, a 5×5 LED matrix, speaker, six-axis gyro/accelerometer, USB/Bluetooth and embedded MicroPython. Six-axis sensing does not mean six mechanical robot DOF.",
+        "The component sheet gives 63 g without battery and an 88 × 56 × 32 mm hub envelope. These are hub-only figures; the complete constructed robot has no universal mass or dimensions.",
+        "The battery sheet specifies 2100 mAh at 7.3 V and cycle-life conditions. The FAQ estimates about three hours empty-to-full at USB 500 mA. Capacity, charge time and charge cycles are not operating hours.",
+        "The SPIKE App provides text-based Python alongside the documented Scratch-based teaching workflows. Available hardware capabilities do not imply that every feature is supported by every app/OS release.",
+        "The retirement table lists end of direct sales on June 30, 2026 and scheduled app/curriculum support to June 30, 2031. Expansion set 45681, replacement packs, hubs, motors, sensors and batteries retain accessory/component roles rather than extra robot cards."
       ],
       "sources": [
         {
-          "name": "LEGO Education",
+          "name": "LEGO Education — manufacturer set/archive/support information",
           "type": "manufacturer",
           "url": "https://education.lego.com/en-us/products/lego-education-spike-prime-set/45678/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         },
         {
-          "name": "LEGO Education",
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/product-resources/spike-prime/troubleshooting/spike-prime-faqs/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer component technical sheet",
           "type": "manufacturer",
           "url": "https://assets.education.lego.com/v3/assets/blt293eea581807678a/bltf512a371e82f6420/5f8801baf4f4cf0fa39d2feb/techspecs_techniclargehub.pdf?locale=en-us",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer component technical sheet",
+          "type": "manufacturer",
+          "url": "https://assets.education.lego.com/v3/assets/blt293eea581807678a/blt706bcb108ec66a2b/6630d4aeba17b0181acb6d3d/SPIKE_Prime_Battery_Tech_Spec_Sheet.pdf?locale=en-us",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/product-resources/spike-prime/downloads/python/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/spike-update-2026/",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -8888,16 +8929,36 @@
       "manufacturer": "LEGO",
       "model": "Mindstorms EV3",
       "highlights": [
-        "Historical MINDSTORMS EV3 platform supports programmable robot builds",
-        "Manufacturer documents MicroPython programming with Visual Studio Code",
-        "A microSD image boots the EV3 Brick into MicroPython without assuming the same software for every MINDSTORMS generation"
+        "The official archive identifies the historical retail set 31313 as a 601-piece, 10+ EV3 set with year 2013. Those bundle details do not establish the contents or age positioning of every Education EV3 package.",
+        "The manufacturer documents MicroPython with Visual Studio Code, using an image on a microSDHC card. The guide specifies 4–32 GB media; this is removable storage, not internal RAM or a robot performance rating.",
+        "The developer page identifies an ARM9 controller, Linux access for the developer firmware and GPLv2 firmware source. Communication documentation distinguishes USB, Bluetooth and Wi-Fi; Wi-Fi references do not establish an included adapter.",
+        "Removing the MicroPython card permits return to standard EV3 firmware. This EV3 workflow is not automatically NXT, SPIKE or Robot Inventor software support.",
+        "Complete-build dimensions, mass, travel speed, payload, runtime and current new-unit offer remain unverified. The earlier approximate 1 kg and four-hour/240-minute values were unsupported by this selected evidence."
       ],
       "sources": [
         {
-          "name": "LEGO",
+          "name": "LEGO — manufacturer set/archive/support information",
           "type": "manufacturer",
           "url": "https://education.lego.com/en-us/downloads/mindstorms-ev3/software/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://www.lego.com/en-us/service/building-instructions/31313",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/product-resources/mindstorms-ev3/downloads/developer-kits/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO — manufacturer historical programming guide",
+          "type": "manufacturer",
+          "url": "https://assets.education.lego.com/v3/assets/blt293eea581807678a/bltb470b9ea6e38f8d4/5f8802fc4376310c19e33714/getting-started-with-micropython-v2_enus.pdf?locale=en-us",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -9487,7 +9548,7 @@
       "highlights": [
         "The announced Echo Tabletop has 17 stated degrees of freedom, approximately 25 lb mass, a 13 × 13 in footprint and 31 in female / 32 in male height. These are pre-production manufacturer figures; dimensions and weights are approximate.",
         "Tabletop is the compact face/neck platform with 17 announced degrees of freedom. Its 13 × 13 in footprint is not a complete body envelope; the current product page distinguishes 31 in female and 32 in male height.",
-        "The displayed purchase amount is $11,950, separate from the $199 reservation deposit, taxes, shipping and required monthly AI service. The selected pages do not explicitly identify an ISO currency; the amount is retained as displayed without creating a fixed structured Offer.",
+        "The displayed purchase amount is $11,950, separate from the $199 reservation deposit, taxes, shipping and required monthly AI service. The selected pages do not explicitly identify an ISO currency; the amount is shown as published.",
         "Published AI plans are Base $19.99/month for 10 conversation hours, Plus $39.99 for 40, Enterprise $199 for 100 and Enterprise with Vision $199 for unlimited hours. Features, languages and external-model integration depend on plan; hours are conversation allowances, not battery runtime.",
         "Vinci is an optional $24,950 add-on requiring Enterprise with Vision. Its claimed local conversation/vision processing does not make all cloud-based AI functions local: the privacy policy describes third-party processing for applicable AI/speech features.",
         "The October 26, 2026 launch sets planned delivery for the second half of 2027, with 225 Tabletop and 25 Full Body units in the initial run. Reservations are limited to the 50 United States and DC; delivery dates are estimates. Each platform plugs into a standard outlet; battery runtime is not published.",
@@ -9536,7 +9597,7 @@
       "highlights": [
         "The announced Echo Full Body has 39 stated degrees of freedom, approximately 88 lb mass, a 28 × 28 in footprint and 72 in female / 77 in male height. These are pre-production manufacturer figures; dimensions and weights are approximate.",
         "Full Body is advertised with articulated fingers, stereoscopic cameras, four microphones and stereo speakers. These named Full Body features are not automatically Tabletop specifications; walking, travel speed and payload are not established.",
-        "The displayed purchase amount is $59,950, separate from the $199 reservation deposit, taxes, shipping and required monthly AI service. The selected pages do not explicitly identify an ISO currency; the amount is retained as displayed without creating a fixed structured Offer.",
+        "The displayed purchase amount is $59,950, separate from the $199 reservation deposit, taxes, shipping and required monthly AI service. The selected pages do not explicitly identify an ISO currency; the amount is shown as published.",
         "Published AI plans are Base $19.99/month for 10 conversation hours, Plus $39.99 for 40, Enterprise $199 for 100 and Enterprise with Vision $199 for unlimited hours. Features, languages and external-model integration depend on plan; hours are conversation allowances, not battery runtime.",
         "Vinci is an optional $24,950 add-on requiring Enterprise with Vision. Its claimed local conversation/vision processing does not make all cloud-based AI functions local: the privacy policy describes third-party processing for applicable AI/speech features.",
         "The October 26, 2026 launch sets planned delivery for the second half of 2027, with 225 Tabletop and 25 Full Body units in the initial run. Reservations are limited to the 50 United States and DC; delivery dates are estimates. Each platform plugs into a standard outlet; battery runtime is not published.",
@@ -24468,6 +24529,181 @@
           "name": "Realbotix — manufacturer product/plan information",
           "url": "https://www.realbotix.com/",
           "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "lego-mindstorms-robot-inventor-51515",
+      "manufacturer": "LEGO",
+      "model": "Mindstorms Robot Inventor 51515",
+      "highlights": [
+        "The June 2020 manufacturer announcement names set 51515, 949 pieces and five alternative robot builds: Blast, Charlie, Tricky, Gelo and M.V.P. These are alternative assemblies of one kit, not five additional sold robot models.",
+        "The hub is described with six input/output ports, 5×5 LED matrix, Bluetooth, a six-axis gyro/accelerometer, speaker, micro-USB and an included rechargeable lithium-ion battery. Sensing axes are not mechanical DOF.",
+        "The kit includes four medium angular motors plus color and distance sensors. A motor’s integrated rotation sensor does not establish the completed robot’s payload, travel speed or independent positioning accuracy.",
+        "The launch documents Scratch-based coding, Python and app-based remote-control projects for ages 10+. This records the historical software offer rather than certifying present compatibility across all devices.",
+        "The launch gives Blast height over 36 cm as one build example, not a universal kit envelope. Its historical $359.99 launch amount is not a present firm offer; earlier rounded catalog pricing, small-size and no-hand assertions were removed."
+      ],
+      "sources": [
+        {
+          "name": "LEGO — manufacturer launch information",
+          "type": "manufacturer",
+          "url": "https://www.lego.com/en-us/aboutus/news/2020/june/lego-mindstorms-robot-inventor",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://www.lego.com/en-us/service/building-instructions/51515",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6447738.pdf",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "lego-mindstorms-nxt",
+      "manufacturer": "LEGO",
+      "model": "Mindstorms NXT",
+      "highlights": [
+        "The official LEGO instruction archive identifies set 8527 as MINDSTORMS NXT, 579 pieces, ages 10+ and year 2006. This is the original retained catalog identity, separate from set 8547 NXT 2.0.",
+        "The historical 579-piece set record establishes an identifiable robotics construction kit and its intended age group; it does not provide a standardized full-robot operating specification.",
+        "The earlier catalog 0.35 kg, four-hour/240-minute endurance, 250 USD and 8–99 range are not supported by the selected manufacturer set record and have been removed.",
+        "Hardware, sensors and software from EV3, NXT 2.0, Robot Inventor or SPIKE are not automatically original-NXT specifications. Current compatible software, supplied accessories and new-unit stock remain unverified."
+      ],
+      "sources": [
+        {
+          "name": "LEGO — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://www.lego.com/en-us/service/building-instructions/8527",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "lego-mindstorms-nxt-2-0-8547",
+      "manufacturer": "LEGO",
+      "model": "Mindstorms NXT 2.0 8547",
+      "highlights": [
+        "The manufacturer archive explicitly names MINDSTORMS NXT 2.0, set 8547, with 619 pieces, ages 10+ and year 2009. This establishes a named historical set configuration, not an alias replacing original NXT.",
+        "The archive supplies instruction links for this set. It does not establish universal dimensions, mass, mechanical DOF, payload, travel speed or runtime for every possible construction.",
+        "Original NXT 8527 has a different documented set number, piece count and year. Neither EV3 nor newer hub specifications are transferred to NXT 2.0.",
+        "No current purchase price, supported operating-system promise, sensor performance or new-unit stock is established by an instruction archive."
+      ],
+      "sources": [
+        {
+          "name": "LEGO — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://www.lego.com/en-us/service/building-instructions/8547/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "lego-education-computer-science-ai-kit-k-2-45520",
+      "manufacturer": "LEGO Education",
+      "model": "Computer Science & AI Kit K-2 45520",
+      "highlights": [
+        "Set 45520 is the separately named grades K-2 kit with 276 LEGO bricks and one single motor, one color sensor, one connection card and a USB charging cable. Hardware lists and piece counts remain specific to this set.",
+        "The single-kit price is 339.95 USD for a group of four learners; USD is explicitly identified in the manufacturer’s product offer data. Six-kit classroom bundles add group quantities and accessories, rather than six new hardware models. A compatible learner device is required for relevant activities and is not listed as supplied hardware.",
+        "Thirty lessons are organized across six units: Basics, Hardware, Events, Sequences, Loops and AI & Data. The K-2 page specifies icon-based coding. The named grade band and group size are not an age6–8 or four-axis robot specification.",
+        "Coding Canvas is offered as a web and iOS app, with lesson PINs instead of student accounts and locally saved projects. Offline use follows initial installation; setup, updates/language changes and teacher-portal access still need internet. Teacher and student access scopes differ.",
+        "The manufacturer describes local device-based pose/classification AI using MoveNet, with raw camera images not retained/shared. This is a programming/AI-literacy experience, not a conversational chatbot, included onboard camera or independently measured autonomous-robot vision system.",
+        "The kits are modular construction platforms: motor count, brick count, lesson duration and group size do not establish fixed robot DOF, dimensions, mass, battery duration, speed or payload. Exact first launch year and complete historical/regional inventory are not established here."
+      ],
+      "sources": [
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/products/lego-education-computer-science-and-ai/45520/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/lego-education-computer-science-and-ai/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/our-story/ai-safety-statement/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "lego-education-computer-science-ai-kit-3-5-45521",
+      "manufacturer": "LEGO Education",
+      "model": "Computer Science & AI Kit 3-5 45521",
+      "highlights": [
+        "Set 45521 is the separately named grades 3-5 kit with 321 LEGO bricks and one double motor, one color sensor, one connection card and a USB charging cable. Hardware lists and piece counts remain specific to this set.",
+        "The single-kit price is 429.95 USD for a group of four learners; USD is explicitly identified in the manufacturer’s product offer data. Six-kit classroom bundles add group quantities and accessories, rather than six new hardware models. A compatible learner device is required for relevant activities and is not listed as supplied hardware.",
+        "Thirty lessons are organized across six units: Basics, Events, Loops, Conditionals, Variables and AI & Data. The page specifies icon- and word-based block coding. The named grade band and group size are not an age6–8 or four-axis robot specification.",
+        "Coding Canvas is offered as a web and iOS app, with lesson PINs instead of student accounts and locally saved projects. Offline use follows initial installation; setup, updates/language changes and teacher-portal access still need internet. Teacher and student access scopes differ.",
+        "The manufacturer describes local device-based pose/classification AI using MoveNet, with raw camera images not retained/shared. This is a programming/AI-literacy experience, not a conversational chatbot, included onboard camera or independently measured autonomous-robot vision system.",
+        "The kits are modular construction platforms: motor count, brick count, lesson duration and group size do not establish fixed robot DOF, dimensions, mass, battery duration, speed or payload. Exact first launch year and complete historical/regional inventory are not established here."
+      ],
+      "sources": [
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/products/lego-education-computer-science-and-ai/45521/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/lego-education-computer-science-and-ai/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/our-story/ai-safety-statement/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": []
+    },
+    {
+      "robotId": "lego-education-computer-science-ai-kit-6-8-45522",
+      "manufacturer": "LEGO Education",
+      "model": "Computer Science & AI Kit 6-8 45522",
+      "highlights": [
+        "Set 45522 is the separately named grades 6-8 kit with 379 LEGO bricks and one double motor, one single motor, one color sensor, one controller, two connection cards and a USB charging cable. Hardware lists and piece counts remain specific to this set.",
+        "The single-kit price is 529.95 USD for a group of four learners; USD is explicitly identified in the manufacturer’s product offer data. Six-kit classroom bundles add group quantities and accessories, rather than six new hardware models. A compatible learner device is required for relevant activities and is not listed as supplied hardware.",
+        "Thirty lessons are organized across six units: Basics, Loops, Conditionals, Variables, Functions and AI & Data. The page specifies icon- and word-based block coding. The named grade band and group size are not an age6–8 or four-axis robot specification.",
+        "Coding Canvas is offered as a web and iOS app, with lesson PINs instead of student accounts and locally saved projects. Offline use follows initial installation; setup, updates/language changes and teacher-portal access still need internet. Teacher and student access scopes differ.",
+        "The manufacturer describes local device-based pose/classification AI using MoveNet, with raw camera images not retained/shared. This is a programming/AI-literacy experience, not a conversational chatbot, included onboard camera or independently measured autonomous-robot vision system.",
+        "The kits are modular construction platforms: motor count, brick count, lesson duration and group size do not establish fixed robot DOF, dimensions, mass, battery duration, speed or payload. Exact first launch year and complete historical/regional inventory are not established here."
+      ],
+      "sources": [
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/products/lego-education-computer-science-and-ai/45522/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/lego-education-computer-science-and-ai/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "LEGO Education — manufacturer set/archive/support information",
+          "type": "manufacturer",
+          "url": "https://education.lego.com/en-us/our-story/ai-safety-statement/",
           "checkedAt": "2026-11-02"
         }
       ],
