@@ -4512,9 +4512,24 @@
       "highlights": [
         "Wheeled educational robot kit programmed through a micro:bit controller",
         "Includes line-following and brightness sensors, programmable LEDs and expansion ports",
-        "Base kit requires a separately supplied micro:bit"
+        "Base kit requires a separately supplied micro:bit",
+        "The official Dexter Industries MakeCode library documents two line sensors, two light sensors and motor commands for driving, turning, spinning and steering. Its five speed levels are software settings, not a numeric linear travel-speed specification.",
+        "A laser-based distance sensor can be added; it is not ultrasonic and is not established as part of the base kit. Two servo connectors are expansion interfaces rather than proof that two servos or a robot hand are included.",
+        "The saved November 1, 2026 manufacturer snapshot lists a $60 chassis kit excluding micro: bit. On November 2, the legacy site failed TLS validation and its documentation host failed connection; the old price/source date is retained as historical evidence, without bypassing certificate validation or claiming current stock."
       ],
       "sources": [
+        {
+          "name": "Modular Robotics / Dexter Industries — Dexter Industries official GiggleBot MakeCode repository",
+          "type": "manufacturer",
+          "url": "https://github.com/DexterInd/pxt-gigglebot",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — Modular Robotics company attribution",
+          "type": "manufacturer",
+          "url": "https://modrobotics.com/about-us/",
+          "checkedAt": "2026-11-02"
+        },
         {
           "name": "Modular Robotics",
           "type": "manufacturer",
@@ -4533,14 +4548,23 @@
       "highlights": [
         "Raspberry Pi robot-building kit with plug-and-play sensor and actuator expansion",
         "Supports Bloxter visual programming and text-based coding",
-        "Kit includes chassis, motors, distance sensor and servo pack; Raspberry Pi is separate"
+        "Kit includes chassis, motors, distance sensor and servo pack; Raspberry Pi is separate",
+        "The current generic kit page lists $199 excluding Raspberry Pi, with rechargeable battery/charger, microSD, USB thumbdrive, servo package and distance sensor/mount. This package differs from the historical GoPiGo 3 Base Kit with a battery holder and separately supplied batteries.",
+        "Bloxter, Python and Jupyter are programming options, while GoPiGo OS exposes a Wi-Fi hotspot and browser-based tutorials. GoBox, PyBox and project packs are subscriptions or teaching materials rather than additional robot identities.",
+        "The kit page recommends Pi 3B+ or Pi 4 and says Pi 5 is unsupported. The official GoPiGo 3 README separately supports Pi 5 under Raspberry Pi OS with cautions. Compatibility depends on generation and software; the generic family is not silently renamed GoPiGo 3 or duplicated as GoPiGo Core."
       ],
       "sources": [
         {
-          "name": "Modular Robotics",
+          "name": "Modular Robotics / Dexter Industries — GoPiGo current $199 kit, included rechargeable pack and Pi compatibility",
+          "type": "manufacturer",
+          "url": "https://gopigo.io/gopigo/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — GoPiGo family and subscription roles",
           "type": "manufacturer",
           "url": "https://gopigo.io/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -14151,14 +14175,37 @@
       "highlights": [
         "Ready-assembled coding robot responds to voices, sounds and obstacles",
         "Block-based activities progress toward more advanced programming through supported apps",
-        "Camera-free design; installed mobile apps can program the physical robot offline"
+        "Camera-free design; installed mobile apps can program the physical robot offline",
+        "The manufacturer FAQ gives approximately five hours of active play on the internal lithium-ion battery, which is not user-replaceable. This is supplier-reported active play, not a guaranteed continuous maximum under every workload; the 300-minute value is the direct conversion of approximately five hours.",
+        "The 2024 classroom guide states a full charge cycle takes about 60–90 minutes, while the product FAQ and 2022 support article say under one hour. Charging time remains blank with conflicting evidence rather than choosing one claim.",
+        "Recommended age differs between the official product FAQ (5–14) and official store (6–11). The canonical age field remains blank with conflicting evidence; neither recommendation is treated as a technical safety certification.",
+        "The guide names three microphones, two front and one rear infrared distance sensors, four programmable buttons and a movable head. Dash has no camera. Installed mobile apps support offline physical-robot coding; app downloads and browser-based Blockly have separate internet requirements.",
+        "The official store redirects to MORAVIA Education and lists $189.99. Sale/Sold out template text does not establish current inventory. Optional gripper, launcher and Sketch Kit, classroom packs and virtual Dash are separate accessory, bundle and software roles."
       ],
       "sources": [
         {
-          "name": "Wonder Workshop",
+          "name": "Wonder Workshop / MORAVIA Education — Dash product FAQ, runtime and recommended age",
           "type": "manufacturer",
           "url": "https://www.makewonder.com/dash/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wonder Workshop / MORAVIA Education — MORAVIA Education Dash product page reached from official store",
+          "type": "manufacturer",
+          "url": "https://moravia-education.com/products/dash",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wonder Workshop / MORAVIA Education — 2024 Dash classroom getting-started guide",
+          "type": "manufacturer",
+          "url": "https://www.makewonder.com/wp-content/uploads/2024/08/Dash-Getting-Started-Guide-2024.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wonder Workshop / MORAVIA Education — Wonder support charge times, modified June27,2022",
+          "type": "manufacturer",
+          "url": "https://help.makewonder.com/support/solutions/articles/72000561655-how-long-does-the-battery-last-",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -14171,14 +14218,23 @@
       "model": "Dot",
       "highlights": [
         "Historical Wonder Workshop companion to Dash; physical Dot ended in spring 2023",
-        "A virtual Dot remains in Blockly through a full Make Wonder subscription"
+        "A virtual Dot remains in Blockly through a full Make Wonder subscription",
+        "The manufacturer describes Dot as Dash’s companion from 2014–2023, with a green version in 2018, and states that physical Dot ended in spring 2023. These historical references do not establish current hardware production or a separately verified exact first-sale date.",
+        "Virtual Dot remains in Blockly’s 3D environment through a full Make Wonder subscription. It is a software character, not additional physical robot hardware or evidence of present physical Dot availability.",
+        "A support article modified June 27, 2022 lists physical Dot charge time under one hour. Its extracted text does not establish a numeric play duration. Dash’s five-hour runtime and specific sensors, mass, dimensions and optional gripper are not inherited by Dot."
       ],
       "sources": [
         {
-          "name": "Wonder Workshop",
+          "name": "Wonder Workshop / MORAVIA Education — Dash, historical Dot and Cue; physical/virtual lifecycle distinctions",
           "type": "manufacturer",
           "url": "https://www.makewonder.com/robots/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wonder Workshop / MORAVIA Education — Wonder support charge times, modified June27,2022",
+          "type": "manufacturer",
+          "url": "https://help.makewonder.com/support/solutions/articles/72000561655-how-long-does-the-battery-last-",
+          "checkedAt": "2026-11-02"
         }
       ],
       "discoveredIn": [
@@ -32320,6 +32376,147 @@
       ],
       "discoveredIn": [
         "https://larraioz.com/downloads/Kawasaki/doc/Product_Overview_Kawasaki_ES.pdf"
+      ]
+    },
+    {
+      "robotId": "modular-robotics-cubelets",
+      "manufacturer": "Modular Robotics",
+      "model": "Cubelets",
+      "highlights": [
+        "Cubelets is a modular platform: magnetic Sense, Action and Think blocks exchange values, with behavior emerging from the construction. Ages four and up is the platform recommendation; no universal assembled-robot mass, size, endurance or degree-of-freedom count is established.",
+        "Cubelets Console provides Data Logger, Personality Swap, Blockly and C on supported desktop browsers; the mobile app provides remote control and Personality Swap. Coding is optional for basic block constructions, rather than a prerequisite for every robot.",
+        "The $225 Discovery Set is a specific package, not a universal Cubelets platform price or a new robot model. Discovery, Curiosity, Boundless Builder and educator packs remain bundle roles; Drive, Rotate, Battery and sensor blocks remain components.",
+        "The homepage’s 2024/2025/2026 labels describe individual Brightness Hat, Mood Ring and Distance Hat modules. These dates do not establish the Cubelets family launch year, and the Distance Hat’s 10–80 cm sensing range is not complete-robot reach or navigation precision."
+      ],
+      "sources": [
+        {
+          "name": "Modular Robotics / Dexter Industries — Cubelets platform and intended age",
+          "type": "manufacturer",
+          "url": "https://modrobotics.com/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — Cubelets getting-started guide and distributed block behavior",
+          "type": "manufacturer",
+          "url": "https://modrobotics.com/cubelets-getting-started-guide/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — Cubelets Console, mobile app, Blockly and C",
+          "type": "manufacturer",
+          "url": "https://modrobotics.com/cubelets-apps/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — Cubelets Discovery bundle, rather than a separate robot",
+          "type": "manufacturer",
+          "url": "https://modrobotics.com/cubelets-discovery-set/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://modrobotics.com/"
+      ]
+    },
+    {
+      "robotId": "modular-robotics-gopigo2",
+      "manufacturer": "Modular Robotics",
+      "model": "GoPiGo2",
+      "highlights": [
+        "GoPiGo 2 has a separate technical-specification section: 65 mm wheels, two optical encoders with 18 pulse counts per rotation, and 7–12 V input. These are distinct from GoPiGo 3’s 66.5 mm wheels and magnetic encoder/gear-reduction figures.",
+        "One I 2C, one serial, one analog and one digital/PWM port are listed for GoPiGo 2. Example current consumption of 300–500 mA idle and 800 mA–2 A under motors/camera/servo load is qualified by Raspberry Pi Model B+ and is not converted into runtime.",
+        "The original developer’s tutorial page explicitly covers older GoPiGo 1/2 hardware, with Python and Scratch projects. Current Modular Robotics attribution does not make the historical hardware a different brand duplicate; generic sidebar prices, release years and current availability are not promoted."
+      ],
+      "sources": [
+        {
+          "name": "Modular Robotics / Dexter Industries — Dexter Industries generation-specific GoPiGo2/3 technical specifications",
+          "type": "manufacturer",
+          "url": "https://www.dexterindustries.com/GoPiGo/learning/technical-specifications-for-the-gopigo-raspberry-pi-robotics-kit/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — historical GoPiGo2 tutorials and GoPiGo1/2 scope",
+          "type": "manufacturer",
+          "url": "https://www.dexterindustries.com/gopigo2-tutorials-documentation/",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.dexterindustries.com/GoPiGo/learning/technical-specifications-for-the-gopigo-raspberry-pi-robotics-kit/"
+      ]
+    },
+    {
+      "robotId": "modular-robotics-gopigo3",
+      "manufacturer": "Modular Robotics",
+      "model": "GoPiGo3",
+      "highlights": [
+        "GoPiGo 3 uses two magnetic encoders with six pulse counts per motor rotation and 120: 1 reduction, totaling 720 pulses per wheel rotation; wheel diameter is 66.5 mm. Encoder resolution is not linear positioning accuracy or a rated travel speed.",
+        "The generation-specific technical page lists 7–12 V input, two I 2C Grove ports, one serial Grove port and two analog/digital Grove ports. Ports are not included sensor counts, and operating voltage does not establish battery capacity or endurance.",
+        "The historical $99 Base Kit page includes board, chassis, motors, encoders, battery holder/cable and screwdriver. Raspberry Pi, microSD and eight AA batteries are excluded; an update notice points to GoPiGo Core. Base/Starter bundles are not extra generations, and the old offer does not establish present stock.",
+        "The official GoPiGo 3 README distinguishes GoPiGo OS from Raspberry Pi OS. The latter supports Pi 3B+, 4 and 5, excludes Zero, and warns about Pi 5 power consumption and conflicting power-button behavior. This does not override the generic kit page’s Pi 5 restriction for every software configuration."
+      ],
+      "sources": [
+        {
+          "name": "Modular Robotics / Dexter Industries — Dexter Industries generation-specific GoPiGo2/3 technical specifications",
+          "type": "manufacturer",
+          "url": "https://www.dexterindustries.com/GoPiGo/learning/technical-specifications-for-the-gopigo-raspberry-pi-robotics-kit/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — historical GoPiGo3 Base Kit; update notice names GoPiGo Core",
+          "type": "manufacturer",
+          "url": "https://www.dexterindustries.com/store/gopigo3-base-kit/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — official GoPiGo3 README, Raspberry Pi OS compatibility",
+          "type": "manufacturer",
+          "url": "https://github.com/DexterInd/GoPiGo3/blob/main/README.md",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Modular Robotics / Dexter Industries — Modular Robotics GoPiGo3 developer documentation",
+          "type": "manufacturer",
+          "url": "https://gopigo3.readthedocs.io/en/master/index.html",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.dexterindustries.com/GoPiGo/learning/technical-specifications-for-the-gopigo-raspberry-pi-robotics-kit/"
+      ]
+    },
+    {
+      "robotId": "wonder-workshop-cue",
+      "manufacturer": "Wonder Workshop",
+      "model": "Cue",
+      "highlights": [
+        "The manufacturer overview describes Cue as produced from 2018–2022; its dedicated page states it is no longer produced but the Cue app is still supported. This is historical lifecycle and supplier support wording, not proof of current hardware stock or an exact first-sale date.",
+        "Cue supports transitions from block-based code to state-machine and text-based programming; its app provides personalities and switching between text and blocks. Applied Robotics curriculum is described as remaining available for existing owners.",
+        "A June 27, 2022 support article lists Cue charging under one hour. The inspected text does not establish numeric runtime, mass, body dimensions, payload or a safety/IP certification. Dash’s sensor counts and runtime are not copied to Cue.",
+        "Sketch Kit, Blaster Power and Gripper Building Kit are optional accessories. Their separate prices are not the Cue robot’s purchase price, and launcher/gripper capabilities do not prove an included hand, carrying payload or additional whole-robot identity."
+      ],
+      "sources": [
+        {
+          "name": "Wonder Workshop / MORAVIA Education — Cue historical robot and ongoing app support",
+          "type": "manufacturer",
+          "url": "https://www.makewonder.com/robots/cue/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wonder Workshop / MORAVIA Education — Dash, historical Dot and Cue; physical/virtual lifecycle distinctions",
+          "type": "manufacturer",
+          "url": "https://www.makewonder.com/robots/",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "Wonder Workshop / MORAVIA Education — Wonder support charge times, modified June27,2022",
+          "type": "manufacturer",
+          "url": "https://help.makewonder.com/support/solutions/articles/72000561655-how-long-does-the-battery-last-",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.makewonder.com/robots/cue/"
       ]
     }
   ]
