@@ -140,20 +140,20 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,327 model/configuration entries and 1,257 dated primary-source highlight
+groups. The catalog contains 2,330 model/configuration entries and 1,260 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 467 and 51 still awaiting those reviews.
+selected technical-field reviews for 468 and 50 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
-The heuristic gap file now compares all 2,327 rows using same-brand matches only.
+The heuristic gap file now compares all 2,330 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
 reviewed aliases, components and services; the strict unresolved counts remain
 three model identities and nine listings.
@@ -370,6 +370,13 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Aethon now has five selected model reviews, including new Zena RX, Zena and
+historical T2 TUG entries. Exact T3/T3XL sheets keep cart capacity separate from
+arm payload and preserve the nine-hour versus twelve-hour runtime discrepancy.
+Clinical PIN/fingerprint access and hotel QR/PIN delivery stay model-specific;
+turning envelopes, dock dimensions and compatibility identifiers are qualified.
+T2 TUG has no inherited current-model specifications or inferred launch year.
 
 Advanced Construction Robotics now has selected field reviews for TyBOT and the
 new IronBOT V3.0 record. Active tying and placed-mass rates, rail span, carried
@@ -1107,18 +1114,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-22,524 fields across 1187 models, distinguishing documented, undisclosed, conflicting and
+22,619 fields across 1192 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 6,051 kB JSON response loads only for search or comparison;
+A separate 6,077 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,588 reviewed highlight statements as well as
+Catalog search now includes all 5,610 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing

@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.327 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1073 |
-| Datierte Produktmerkmal-Datensätze einschließlich 184 bestehender Modelle | 1257 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.330 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1076 |
+| Datierte Produktmerkmal-Datensätze einschließlich 184 bestehender Modelle | 1260 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 128 |
+| Firmenfokus-Prüfungen mit Quellen | 129 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1073 ergänzte Modelle ergeben 2.327 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1076 ergänzte Modelle ergeben 2.330 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-128 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+129 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1257 Datensätze
+Modellseiten verlinken Markenprofile. Die 1260 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 467 haben ausgewählte Datenfeldprüfungen und 51
+haben datierte Merkmalsbelege; 468 haben ausgewählte Datenfeldprüfungen und 50
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11122,3 +11122,75 @@ remote bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein 
 Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862 Detail-
 inhaltsprüfungen bleiben offen. Vollständige historische Portfolios, unabhängig
 getestete Vorteile, exklusive USPs und Rang Nr. 1 sind weiterhin nicht belegt.
+
+
+## Ergänzung 134 – Aethon: Cart-Tragfähigkeit, Zena-Zugriff und historische TUG-Abgrenzung (3. November 2026)
+
+T3 und T3XL erhalten technische Prüfungen; Zena RX, Zena und der ausdrücklich
+benannte historische Vorgänger T2 TUG kommen als drei neue Modelle hinzu.
+95 ausgewählte Felder: 39 dokumentiert, 54 nicht dokumentiert, zwei widersprüchlich.
+22 zusätzliche Merkmalsaussagen, sieben zusätzliche Produktquellenverweise und
+ein Firmenfokus ergänzen den Bestand. Die sechs bisherigen T3/T3XL-Merkmale und
+alle bisherigen Quellen-URLs bleiben erhalten. Gesamt: 2.330 Katalogzeilen,
+1.260 datierte Merkmalsdatensätze mit 5.610 Aussagen und 2.579 Quellenverweisen,
+1.192 technische Feldprüfungen mit 22.619 Feldern und 129 Firmenfokus-Prüfungen.
+Von den 518 ursprünglichen Queue-Zielen haben 468 ausgewählte Feldprüfungen;
+50 bleiben offen. Dauerbeleg: `reports/competitor-batch-134-evidence.json`.
+
+T3 und T3XL haben eigene beschriftete Datenblätter. Cart-Tragfähigkeit steht jetzt
+im Feld transportPayload; das bisherige allgemeine payload-Feld bleibt leer,
+weil keine Arm-Werkzeuglast belegt ist. Körperbreite und vom Boden gemessene Höhe
+bleiben von der Länge der Hubfläche, maximalen Cart-Abmessungen und Wendefläche
+getrennt. Beide Datenblätter nennen neun effektive Batteriestunden, während die
+gemeinsame Webseite zwölf Stunden ohne passende Betriebsbedingungen bewirbt.
+Dieser Quellenkonflikt bleibt in batteryLife sichtbar; automatisches Nachladen
+wird nicht als unterbrechungsfreie Batterielaufzeit verstanden. Ladezustand und
+Zeitbedingungen bleiben modellspezifisch. Quadro/Quadro XL in doppelten Webseiten-
+oder Tabellenüberschriften erzeugen keine zusätzlich belegten Modellidentitäten.
+
+Zena RX für klinische Lieferungen und Zena für Hotels sind eigene Produktseiten
+mit eigenen Datenblättern. Die klinische PIN/Fingerabdruck-Konfiguration und die
+Hotelzustellung per QR/PIN bleiben getrennt. Kapazitäten von vier verschlossenen
+Fächern, kombinierbaren größeren Fächern und optionalen Körben sind Konfigurationen,
+keine zusätzlichen Robotermodelle. Nutzlast ist keine Roboter-Eigenmasse; Fachmaße
+und Ladestationsmaße sind kein vollständiges äußeres Robotermaß. Die Tabellen
+bezeichnen eine Wendefläche, während Zena-Zeichnungen denselben Wert als Radius
+beschriften. Diese geometrische Unklarheit bleibt in den Merkmalen sichtbar;
+ein unqualifizierter Radius wird nicht berechnet.
+
+Die aktuelle Zena-RX-Seite nennt ausdrücklich T2 TUG als eigenen Vorgänger. Diese
+Identität erhält keine übernommenen Kapazitäts-, Laufzeit-, Fahr- oder Maßwerte
+der heutigen Modelle. Weder Einführungsjahr noch Einstellungsdatum sind daraus
+belegt. T4H/T4E stehen lediglich in der Hersteller-Kompatibilitätsliste einer
+Ladestation; ohne gesonderten Identitäts-/Aliasbeleg entstehen keine zusätzlichen
+Katalogzeilen. Aufzugs-/Türanbindung, Cart-Umbau, Command-Center-Support und Dock
+bleiben Integrations-, Dienstleistungs- oder Zubehörbefunde. Herstellerweite
+Meilen-/Lieferzähler sind keine modellspezifisch geprüften Leistungskennzahlen.
+
+Zwölf HTTP-200-Antworten, darunter fünf Hersteller-PDFs, sind mit Hashes gesichert.
+Die Animation unter der /zena/-Weiterleitung ist kein Produktbeleg. Hauptinhalte,
+explizite Beschriftungen und native PDF-Tabellen wurden geprüft. Vier lokale
+Seitenbilder wurden zwar erzeugt, die Bildansicht wurde jedoch wegen fehlender
+Bildunterstützung abgewiesen: keine tatsächliche Sichtprüfung. Nicht ausreichend
+textlich belegte vollständige Zena-Außenmaße bleiben leer. Kein Recherchebrowser,
+keine OCR, Medienübernahme, Formulare, Anmeldung, Konten oder Transaktionen.
+
+808 Unit-Tests in 64 Dateien und 14 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Die erste Browserrunde hatte zwölf bestandene und zwei fehlerhafte
+Prüfungen: Die Suchprobe traf auch die Beschreibung und durfte deshalb keinen
+reinen Merkmaltreffer-Schnipsel erwarten. Nach Wahl einer ausschließlich im
+Merkmal stehenden Phrase besteht die vollständige Browserrunde; die Anwendung
+wurde nicht verändert. Build: 3.381 Seiten. Daten-Audit: null Fehler, 1.209 Warnungen; die drei
+zusätzlichen Warnungen betreffen nicht belegte Erscheinungsjahre. Fünf Produktseiten,
+95 ausgewählte Felder, Quellenbadges, Leerfelder, strukturierte Daten, Firmenfokus,
+Suche, Vierervergleich und CSV-Auslieferung wurden geprüft. Alle 2.325 nicht
+ausgewählten vorherigen Katalogzeilen, 1.187 früheren Feldprüfungen, 128 bisherigen
+Firmenfokusse und die Quellenidentitäten bleiben erhalten. Reimport: null Ergänzungen,
+32 getrackte Datendateien byteidentisch. Offline-Refresh semantisch idempotent.
+Eigene Testbrowser und Server beendet, Prozesse geprüft; fremde Ressourcen erhalten.
+
+Daten-Zwischencommit `9f59e93b6f975b2db3a78668eba1aeba25f5a7bc` ist auf `codex/competitor-directory-expansion` gepusht und remote
+bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 sind
+weiterhin nicht belegt.
