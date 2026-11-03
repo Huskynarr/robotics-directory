@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,319 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,323 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,568 fields across 1303 models, distinguishing documented, undisclosed, conflicting and
+24,640 fields across 1307 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,623 kB JSON response loads only for search or comparison;
+A separate 6,636 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,072 reviewed highlight statements as well as
+Catalog search now includes all 6,092 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1617,3 +1617,15 @@ page, which lists 1,699 EUR and marks the mower sold out; the reviewed US store
 redirects the old YUKA URL to the YUKA mini 2. Unsupported catalog masses of
 about 25 kg, 11 kg and about 22 kg, runtimes of 480 and about 90 minutes, and the
 1,799 USD YUKA price are cleared rather than repeated.
+
+ECOVACS' DEEBOT T80 OMNI, X9 PRO OMNI, X8 PRO OMNI and X11 OmniCyclone now have
+selected field reviews. The manufacturer publishes 549.99 USD, 297 min silent sweep
+runtime, 4 h 37 min charging, 353 x 351.5 x 98 mm and 4.95 kg for the T80 OMNI;
+799.99 USD, 252 min and 3 h 6 min for the X9 PRO OMNI; 1,099.99 USD, 291 min and
+5.3 +/- 0.1 kg for the X8 PRO OMNI; and 1,099.99 USD, 254 min silent sweep,
+206 min standard sweep and mop with PowerBoost off, 369 min with PowerBoost on and
+3 h 10 min charging for the X11 OmniCyclone. The X9 PRO OMNI page publishes only a
+12.89 kg net weight that does not separate robot and station, so the catalog 5.3 kg
+mass is cleared. Catalog prices of 1,200, 1,300, 1,100 and about 1,100 USD and
+runtimes of 220, 200 and 180 minutes are replaced by the reviewed values. No
+reviewed page publishes payload, travel speed or an IP rating.
