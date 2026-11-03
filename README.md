@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,366 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,370 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,398 fields across 1350 models, distinguishing documented, undisclosed, conflicting and
+25,470 fields across 1354 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,765 kB JSON response loads only for search or comparison;
+A separate 6,777 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,307 reviewed highlight statements as well as
+Catalog search now includes all 6,327 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1803,3 +1803,17 @@ battery label, the K10+ Pro 150 min battery and runtime labels, the K20+ Pro
 150 min battery label and its 8 kg payload are replaced or cleared. No reviewed
 page publishes runtime in minutes or a water tank capacity, and the K10+ Pro page
 publishes no suction power in Pa, battery capacity, runtime or charging time.
+
+Dreame's L10s Ultra Gen 2, L40 Ultra Gen 2, Aqua10 Roller and D10 Plus Gen 2
+now have selected field reviews. The manufacturer publishes up to 10,000 Pa,
+350 x 350 x 97.2 mm, 4 kg, a 5,200 mAh battery and up to 240 min
+vacuum-only runtime for the L10s Ultra Gen 2; 25,000 Pa, 350 x 350 x 97 mm,
+4.01 kg, a 5,200 mAh battery, up to 231 min vacuum-only runtime and 4.5 L
+clean plus 4.0 L used station water for the L40 Ultra Gen 2; up to 30,000 Pa,
+13.78 x 13.78 x 4.72 in, 12.13 lbs, a 6,400 mAh battery and 4 L clean plus
+3.5 L used station water for the Aqua10 Roller; and 6,000 Pa, 350 x 350 x
+96.3 mm, 3.23 kg, a 5,200 mAh battery and a 4 L dust bag for the D10 Plus
+Gen 2. Catalog prices of about 590, 570, 1399 and 300 USD, the small and
+medium size labels, the ~180 min battery labels and the 180 min runtime values
+are replaced or cleared. No reviewed page publishes travel speed, an IP rating,
+an absolute charging time, a cleaning width or a payload.
