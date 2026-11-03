@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.366 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1112 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1297 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.368 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1114 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1299 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 137 |
+| Firmenfokus-Prüfungen mit Quellen | 138 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1112 ergänzte Modelle ergeben 2.366 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1114 ergänzte Modelle ergeben 2.368 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-137 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+138 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1297 Datensätze
+Modellseiten verlinken Markenprofile. Die 1299 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 476 haben ausgewählte Datenfeldprüfungen und 42
+haben datierte Merkmalsbelege; 477 haben ausgewählte Datenfeldprüfungen und 41
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11866,3 +11866,126 @@ Daten-Zwischencommit `34c326d6834047457bbb8c435b276f896952faac` wurde auf `codex
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Eine
 vollständige Prüfung aller Marken/Modelle/USPs und Rang Nr. 1 sind nicht belegt.
+
+
+## Ergänzung 143 – Diligent Robotics: Moxi, Moxi 2.0 und Forschungsvorläufer Poli (3. November 2026)
+
+Moxi 2.0 und der historische, nicht kommerzielle Forschungsvorläufer Poli sind neu.
+Das ursprüngliche Moxi erhält eine technische Teilprüfung. Alle drei umfassen
+51 Felder: 19 dokumentiert, 32 nicht dokumentiert. 14 Merkmalsaussagen, 13 zusätzliche
+Produktquellenverweise und ein Firmenfokus kommen hinzu. Die drei alten wörtlichen
+Moxi-Merkmale, Modell-ID, Fund-URLs und Medien bleiben erhalten. Die unbelegten
+136 kg und „large“ entfallen. 2.365 andere Ausgangszeilen behalten alle Werte;
+`driveMode` wird der Humanoid-CSV als bestehendes unterstütztes Vergleichsfeld
+angehängt und bleibt bei anderen bisherigen Zeilen leer. Es gibt keine Änderung
+an Anwendungscode. 1.237 vorherige Feldprüfungen und 137 Firmenfokusse bleiben
+unverändert. Gesamt: 2.368 Einträge, 1.299 datierte Merkmalssätze, 5.745 Aussagen,
+2.704 Produktquellenverweise, 1.240 Feldprüfungen mit 23.459 Feldern und
+138 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben 477 ausgewählte
+Feldprüfungen; 41 stehen aus. Dauerbeleg: `reports/competitor-batch-143-evidence.json`.
+
+20 öffentliche Antworten sind gehasht gesichert: 18 HTTP 200, zwei HTTP 403 von
+investors.serverobotics.com und ir.serverobotics.com. Nach jeder Sperrantwort
+wurden weitere Anfragen an den jeweiligen Host eingestellt. Die gesperrten
+Investor-Inhalte und Suchcache-PDF-Ausschnitte werden nicht als gelesen oder
+inhaltlich belegt behandelt. Drei native PDFs mit 17 Seiten sind gesichert:
+zwei vierseitige Hersteller-Fallstudien und das neunseitige Universitätspapier.
+Vorhandene Textschichten und die relevanten Abschnitte sind geprüft, keine
+visuelle Prüfung oder OCR. Providence-Inhalte sind auf den Artikelkörper begrenzt;
+angrenzende aktuelle Nachrichten sind keine Modellmerkmale. Keine Anmeldung,
+Kontaktaufnahme, Nachricht, Transaktion, Formularübermittlung, Medienübernahme
+oder Umgehung von Downloadsperren. Das FAQ nennt einen passwortgeschützten
+Kundenbereich; dieser wurde nicht geöffnet oder als geprüft ausgegeben.
+
+Das Original Moxi unterstützt nicht patientenseitige Logistik für Proben,
+Medikamente, Material und PPE. Das FAQ belegt verriegelte Fächer, selbstständiges
+Anfahren einer Ladestation und Robot-as-a-Service ohne festen öffentlichen Preis.
+Die Providence-Vorabmeldung vom 12. Februar 2024 beschreibt drei verriegelte
+Schubladen und etwa dreitägige, mit Controller geführte Kartierung durch Diligent.
+Die Meldung vom 14. März bestätigt zwei eingesetzte Roboter. Beide behalten die
+Rolle Einsatzbetreiber; daraus wird keine Herstellerquelle oder völlig
+menschenfreie Einführung. Beschäftigte be- und entladen und leisten die Versorgung.
+Transport, Verriegelung und Hinderniserkennung belegen keine Diagnose, Behandlung,
+Sterilität, Infektionsvermeidung oder garantierte Unfallfreiheit.
+
+Der Hersteller datiert Moxis Debüt/Beta in seinem Bericht von 2022 auf 2018.
+Die eigene Mitteilung vom 1. Oktober 2019 kündigt einen Markteintritt und Rollout
+ab 2. Oktober an; der Rückblick 2022 nennt erste kommerzielle Einsätze 2020.
+Diese unterschiedlichen historischen Meilensteine bleiben mit Datum benannt.
+2018 bleibt als belegtes Debütjahr, ohne daraus kommerzielle Auslieferung 2018
+oder eine lautlos harmonisierte Vertriebstimeline zu machen. Auf der
+Herstellerseite reproduzierte eigene PR ist als Hersteller-Mitteilung bezeichnet;
+andere übernommene Medienberichte werden nicht allein wegen des Hosts zu Primärbelegen.
+
+Die Moxi-2.0-Planankündigung vom 28. Oktober 2025 nennt Thor/IGX Thor und noch
+in Entwicklung befindliche Foundation-Model-Funktionen. Der Rollout-Bericht vom
+17. August 2026 nennt tatsächlich A2000-Compute, zehnfaches Onboard-Compute,
+zehn- bis fünfzehnfach schnellere Wahrnehmung, zusätzliche Sensoren/Kameras,
+neugestaltete Schubladen und Griffe sowie das World Model. Die aktuelle
+Rollout-Beschreibung übernimmt A2000; Thor wird nicht als gesichert in jedem
+2026 ausgelieferten Gerät geführt. Zukunfts-Compute und Pläne für 15-plus-Geräte
+pro Klinik sind keine aktuell universell vorhandene Ausstattung.
+
+Der Rollout unterscheidet ausdrücklich bis neun Stunden am Stück von bis
+18 Betriebsstunden pro Tag. Der Tageswert einschließlich Nachladen ist keine
+18-Stunden-Einzelakku-Garantie. Beide Dauerfilter lesen den qualifizierten
+Neun-Stunden-Wert. „30 Prozent schnelleres Laden“ ohne absolute Dauer und
+Testbasis wird nicht in Minuten umgerechnet; das Feld Ladezeit bleibt leer.
+Compute-/Wahrnehmungsfaktoren sind keine Fahrgeschwindigkeit oder garantierte
+Lieferleistung. Für Original-Moxi werden keine 2.0-Laufzeiten, Maße, Gewichte,
+Werkzeuge oder Lasten übernommen. 2026 ist als tatsächliches Rolloutjahr für
+Moxi 2.0 belegt; 2025 bleibt die frühere Planankündigung.
+
+Laut Rollout laufen Sicherheit und Autonomie onboard, mit verfügbarem Mobilfunk-
+Fallback bei WLAN-Lücken. Gleichzeitig werden World-Model-Training und
+Flottenlernen über AWS beschrieben. Das ist keine Behauptung vollständiger
+Netz-/Cloud-Unabhängigkeit für jeden Workflow. Private 5G-Kliniknetze bleiben
+geplant. Als Rollout-Kunden nennt der Hersteller Endeavor Health Edward Hospital,
+Providence Saint John’s Health Center und Children’s Hospital Los Angeles und
+meldet Bestellannahme. Dies ist kein unabhängiger Wirksamkeitsnachweis oder
+Beleg weltweiter Lieferbarkeit. World Model, Cloud-Software und Compute-Module
+sind keine zusätzlichen Hardwaremodelle.
+
+Die UTMB-Fallstudie ist mit September 2026 aktualisiert: ungefähr 70.000 Lieferungen,
+22.000 Lieferstunden, 22.000 Meilen und drei Geräte, etwa 25 Lieferungen je Gerät/Tag.
+Shannon nennt über 100.000 Lieferungen, ungefähr 30.000 Lieferstunden und
+31.000 Meilen mit zwei Geräten, etwa 27 Lieferungen je Gerät/Tag. Diese
+herstellerpublizierten Standort-/Flottenwerte sind keine unabhängigen Studien,
+Einzelakku-Laufzeiten, universelle Stundenleistung oder Belege einer erfolgten
+2.0-Umrüstung. „Nearly four years“ seit März 2023 bleibt ungefähre Formulierung,
+keine errechnete exakte Expositionszeit. Der künftige UTMB-Apothekenworkflow mit
+zusätzlicher Zugriffsprüfung ist keine pauschale aktuelle Arzneimittel-Freigabe.
+Die kleineren Website-Teaserzahlen werden nicht mit dem datierten PDF-Stand
+vermischt. Sicherheits-, Personal- und Ergebnisaussagen bleiben Anbieterbehauptungen.
+
+Poli ist im Gründerinnenbeitrag ausdrücklich ein früherer, nicht kommerzieller
+Krankenhausassistent. Das UT-Austin-Villa-Team-Papier von 2018 verknüpft auf
+Seite sieben Thomaz’ Forschungsplattform und Software mit Diligent; die
+universitäre Beschreibung nennt einen Arm, der an einer Säule auf und ab fährt.
+Dieser Forschungsaufbau ist keine aktuelle Kaufoption und keine Spezifikation
+von Moxi. Ein Arm und eine Säule ergeben keine sichere Gesamt-Gelenkzahl.
+Andere im Lebenslauf genannte PR2-, Meka- und Kinova-Jaco2-Plattformen und weitere
+Universitäts-Teamroboter werden keine Diligent-Varianten. Poli steht in der
+gewerblichen Dienstleistungs-/Forschungs-Kategorie mit ausdrücklichem
+Nicht-Verkaufsstatus; eine bipedale/humanoide Bauform wird nicht erfunden.
+
+Diligent bezeichnet sich im August-2026-Bericht als Serve-Unternehmen. Die
+Übernahmebeziehung rechtfertigt keine Markenverschmelzung oder Übertragung von
+Gehwegroboter-Spezifikationen. Ein genauer juristischer Abschlusszeitpunkt wird
+aus widersprüchlicher Ankündigungs-/Blog-Datierung oder gesperrten Investor-Dateien
+nicht behauptet. Embodied und Moxie bleiben unabhängig von Diligent und Moxi.
+Vollständige historische Hardwarestände, aktuelle regionale Verfügbarkeit,
+alle USPs und Marktführerschaft bleiben unbewiesen.
+
+808 Unit-Tests in 64 Dateien sowie 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.419 Seiten. Audit: null Fehler, 1.244 Warnungen; eine neue
+Warnung betrifft Polis unbelegtes ursprüngliches Erscheinungsjahr. Drei Detailseiten
+mit 51 Feldern, Quellenrollen, strukturierten Daten, Firmenfokus, Merkmalsuche und
+Vergleich sind geprüft. Zwei ursprüngliche Modell-Exportzeilen enthalten insgesamt
+34 Feldstatus-Einträge; das Queueziel enthält 17. Reimport ergänzt null Modelle und
+lässt 32 getrackte Datendateien byteidentisch. Offline-Refresh bleibt semantisch
+idempotent. Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `909a5ec8c570ca3c1e6cfeb38d3ab36efe84449f` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen.

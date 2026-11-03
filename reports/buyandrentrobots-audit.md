@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,366 catalog rows**, with 646 exact
-manufacturer spellings. Batch 142 refreshed the separate heuristic gap file offline
-against all 2,366 rows (638 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,368 catalog rows**, with 646 exact
+manufacturer spellings. Batch 143 refreshed the separate heuristic gap file offline
+against all 2,368 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1297 dated records across the catalog, including
-185 existing-model enrichments and 1112 task additions. All 430 catalog models
+Current product-highlight coverage: 1299 dated records across the catalog, including
+185 existing-model enrichments and 1114 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1112 task additions, totaling 2,366.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1114 task additions, totaling 2,368.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 476 have selected-field reviews and 42 await those reviews. Family and
+highlights; 477 have selected-field reviews and 41 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,408 fields across 1237 catalog models: 8,580 documented,
-14,409 not documented, 313 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 23,459 fields across 1240 catalog models: 8,599 documented,
+14,441 not documented, 313 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -9631,3 +9631,126 @@ Daten-Zwischencommit `34c326d6834047457bbb8c435b276f896952faac` wurde auf `codex
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Eine
 vollständige Prüfung aller Marken/Modelle/USPs und Rang Nr. 1 sind nicht belegt.
+
+
+## Ergänzung 143 – Diligent Robotics: Moxi, Moxi 2.0 und Forschungsvorläufer Poli (3. November 2026)
+
+Moxi 2.0 und der historische, nicht kommerzielle Forschungsvorläufer Poli sind neu.
+Das ursprüngliche Moxi erhält eine technische Teilprüfung. Alle drei umfassen
+51 Felder: 19 dokumentiert, 32 nicht dokumentiert. 14 Merkmalsaussagen, 13 zusätzliche
+Produktquellenverweise und ein Firmenfokus kommen hinzu. Die drei alten wörtlichen
+Moxi-Merkmale, Modell-ID, Fund-URLs und Medien bleiben erhalten. Die unbelegten
+136 kg und „large“ entfallen. 2.365 andere Ausgangszeilen behalten alle Werte;
+`driveMode` wird der Humanoid-CSV als bestehendes unterstütztes Vergleichsfeld
+angehängt und bleibt bei anderen bisherigen Zeilen leer. Es gibt keine Änderung
+an Anwendungscode. 1.237 vorherige Feldprüfungen und 137 Firmenfokusse bleiben
+unverändert. Gesamt: 2.368 Einträge, 1.299 datierte Merkmalssätze, 5.745 Aussagen,
+2.704 Produktquellenverweise, 1.240 Feldprüfungen mit 23.459 Feldern und
+138 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben 477 ausgewählte
+Feldprüfungen; 41 stehen aus. Dauerbeleg: `reports/competitor-batch-143-evidence.json`.
+
+20 öffentliche Antworten sind gehasht gesichert: 18 HTTP 200, zwei HTTP 403 von
+investors.serverobotics.com und ir.serverobotics.com. Nach jeder Sperrantwort
+wurden weitere Anfragen an den jeweiligen Host eingestellt. Die gesperrten
+Investor-Inhalte und Suchcache-PDF-Ausschnitte werden nicht als gelesen oder
+inhaltlich belegt behandelt. Drei native PDFs mit 17 Seiten sind gesichert:
+zwei vierseitige Hersteller-Fallstudien und das neunseitige Universitätspapier.
+Vorhandene Textschichten und die relevanten Abschnitte sind geprüft, keine
+visuelle Prüfung oder OCR. Providence-Inhalte sind auf den Artikelkörper begrenzt;
+angrenzende aktuelle Nachrichten sind keine Modellmerkmale. Keine Anmeldung,
+Kontaktaufnahme, Nachricht, Transaktion, Formularübermittlung, Medienübernahme
+oder Umgehung von Downloadsperren. Das FAQ nennt einen passwortgeschützten
+Kundenbereich; dieser wurde nicht geöffnet oder als geprüft ausgegeben.
+
+Das Original Moxi unterstützt nicht patientenseitige Logistik für Proben,
+Medikamente, Material und PPE. Das FAQ belegt verriegelte Fächer, selbstständiges
+Anfahren einer Ladestation und Robot-as-a-Service ohne festen öffentlichen Preis.
+Die Providence-Vorabmeldung vom 12. Februar 2024 beschreibt drei verriegelte
+Schubladen und etwa dreitägige, mit Controller geführte Kartierung durch Diligent.
+Die Meldung vom 14. März bestätigt zwei eingesetzte Roboter. Beide behalten die
+Rolle Einsatzbetreiber; daraus wird keine Herstellerquelle oder völlig
+menschenfreie Einführung. Beschäftigte be- und entladen und leisten die Versorgung.
+Transport, Verriegelung und Hinderniserkennung belegen keine Diagnose, Behandlung,
+Sterilität, Infektionsvermeidung oder garantierte Unfallfreiheit.
+
+Der Hersteller datiert Moxis Debüt/Beta in seinem Bericht von 2022 auf 2018.
+Die eigene Mitteilung vom 1. Oktober 2019 kündigt einen Markteintritt und Rollout
+ab 2. Oktober an; der Rückblick 2022 nennt erste kommerzielle Einsätze 2020.
+Diese unterschiedlichen historischen Meilensteine bleiben mit Datum benannt.
+2018 bleibt als belegtes Debütjahr, ohne daraus kommerzielle Auslieferung 2018
+oder eine lautlos harmonisierte Vertriebstimeline zu machen. Auf der
+Herstellerseite reproduzierte eigene PR ist als Hersteller-Mitteilung bezeichnet;
+andere übernommene Medienberichte werden nicht allein wegen des Hosts zu Primärbelegen.
+
+Die Moxi-2.0-Planankündigung vom 28. Oktober 2025 nennt Thor/IGX Thor und noch
+in Entwicklung befindliche Foundation-Model-Funktionen. Der Rollout-Bericht vom
+17. August 2026 nennt tatsächlich A2000-Compute, zehnfaches Onboard-Compute,
+zehn- bis fünfzehnfach schnellere Wahrnehmung, zusätzliche Sensoren/Kameras,
+neugestaltete Schubladen und Griffe sowie das World Model. Die aktuelle
+Rollout-Beschreibung übernimmt A2000; Thor wird nicht als gesichert in jedem
+2026 ausgelieferten Gerät geführt. Zukunfts-Compute und Pläne für 15-plus-Geräte
+pro Klinik sind keine aktuell universell vorhandene Ausstattung.
+
+Der Rollout unterscheidet ausdrücklich bis neun Stunden am Stück von bis
+18 Betriebsstunden pro Tag. Der Tageswert einschließlich Nachladen ist keine
+18-Stunden-Einzelakku-Garantie. Beide Dauerfilter lesen den qualifizierten
+Neun-Stunden-Wert. „30 Prozent schnelleres Laden“ ohne absolute Dauer und
+Testbasis wird nicht in Minuten umgerechnet; das Feld Ladezeit bleibt leer.
+Compute-/Wahrnehmungsfaktoren sind keine Fahrgeschwindigkeit oder garantierte
+Lieferleistung. Für Original-Moxi werden keine 2.0-Laufzeiten, Maße, Gewichte,
+Werkzeuge oder Lasten übernommen. 2026 ist als tatsächliches Rolloutjahr für
+Moxi 2.0 belegt; 2025 bleibt die frühere Planankündigung.
+
+Laut Rollout laufen Sicherheit und Autonomie onboard, mit verfügbarem Mobilfunk-
+Fallback bei WLAN-Lücken. Gleichzeitig werden World-Model-Training und
+Flottenlernen über AWS beschrieben. Das ist keine Behauptung vollständiger
+Netz-/Cloud-Unabhängigkeit für jeden Workflow. Private 5G-Kliniknetze bleiben
+geplant. Als Rollout-Kunden nennt der Hersteller Endeavor Health Edward Hospital,
+Providence Saint John’s Health Center und Children’s Hospital Los Angeles und
+meldet Bestellannahme. Dies ist kein unabhängiger Wirksamkeitsnachweis oder
+Beleg weltweiter Lieferbarkeit. World Model, Cloud-Software und Compute-Module
+sind keine zusätzlichen Hardwaremodelle.
+
+Die UTMB-Fallstudie ist mit September 2026 aktualisiert: ungefähr 70.000 Lieferungen,
+22.000 Lieferstunden, 22.000 Meilen und drei Geräte, etwa 25 Lieferungen je Gerät/Tag.
+Shannon nennt über 100.000 Lieferungen, ungefähr 30.000 Lieferstunden und
+31.000 Meilen mit zwei Geräten, etwa 27 Lieferungen je Gerät/Tag. Diese
+herstellerpublizierten Standort-/Flottenwerte sind keine unabhängigen Studien,
+Einzelakku-Laufzeiten, universelle Stundenleistung oder Belege einer erfolgten
+2.0-Umrüstung. „Nearly four years“ seit März 2023 bleibt ungefähre Formulierung,
+keine errechnete exakte Expositionszeit. Der künftige UTMB-Apothekenworkflow mit
+zusätzlicher Zugriffsprüfung ist keine pauschale aktuelle Arzneimittel-Freigabe.
+Die kleineren Website-Teaserzahlen werden nicht mit dem datierten PDF-Stand
+vermischt. Sicherheits-, Personal- und Ergebnisaussagen bleiben Anbieterbehauptungen.
+
+Poli ist im Gründerinnenbeitrag ausdrücklich ein früherer, nicht kommerzieller
+Krankenhausassistent. Das UT-Austin-Villa-Team-Papier von 2018 verknüpft auf
+Seite sieben Thomaz’ Forschungsplattform und Software mit Diligent; die
+universitäre Beschreibung nennt einen Arm, der an einer Säule auf und ab fährt.
+Dieser Forschungsaufbau ist keine aktuelle Kaufoption und keine Spezifikation
+von Moxi. Ein Arm und eine Säule ergeben keine sichere Gesamt-Gelenkzahl.
+Andere im Lebenslauf genannte PR2-, Meka- und Kinova-Jaco2-Plattformen und weitere
+Universitäts-Teamroboter werden keine Diligent-Varianten. Poli steht in der
+gewerblichen Dienstleistungs-/Forschungs-Kategorie mit ausdrücklichem
+Nicht-Verkaufsstatus; eine bipedale/humanoide Bauform wird nicht erfunden.
+
+Diligent bezeichnet sich im August-2026-Bericht als Serve-Unternehmen. Die
+Übernahmebeziehung rechtfertigt keine Markenverschmelzung oder Übertragung von
+Gehwegroboter-Spezifikationen. Ein genauer juristischer Abschlusszeitpunkt wird
+aus widersprüchlicher Ankündigungs-/Blog-Datierung oder gesperrten Investor-Dateien
+nicht behauptet. Embodied und Moxie bleiben unabhängig von Diligent und Moxi.
+Vollständige historische Hardwarestände, aktuelle regionale Verfügbarkeit,
+alle USPs und Marktführerschaft bleiben unbewiesen.
+
+808 Unit-Tests in 64 Dateien sowie 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.419 Seiten. Audit: null Fehler, 1.244 Warnungen; eine neue
+Warnung betrifft Polis unbelegtes ursprüngliches Erscheinungsjahr. Drei Detailseiten
+mit 51 Feldern, Quellenrollen, strukturierten Daten, Firmenfokus, Merkmalsuche und
+Vergleich sind geprüft. Zwei ursprüngliche Modell-Exportzeilen enthalten insgesamt
+34 Feldstatus-Einträge; das Queueziel enthält 17. Reimport ergänzt null Modelle und
+lässt 32 getrackte Datendateien byteidentisch. Offline-Refresh bleibt semantisch
+idempotent. Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `909a5ec8c570ca3c1e6cfeb38d3ab36efe84449f` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen.
