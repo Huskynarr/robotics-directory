@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,346 catalog rows**, with 646 exact
-manufacturer spellings. Batch 140 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 141 refreshed the separate heuristic gap file offline
 against all 2,346 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 474 have selected-field reviews and 44 await those reviews. Family and
+highlights; 475 have selected-field reviews and 43 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,023 fields across 1215 catalog models: 8,424 documented,
-14,188 not documented, 305 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 23,041 fields across 1216 catalog models: 8,430 documented,
+14,200 not documented, 305 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -9420,6 +9420,99 @@ Datendateien byteidentisch; der Offline-Refresh bleibt semantisch idempotent.
 Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprüft.
 
 Daten-Zwischencommit `6e09fac28879b34960b1aff5f3f2cd2266514a39` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige Portfolios, alle USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 141 – Construction Robotics: historisches SAM100 und heutige MULE-Hebehilfen (3. November 2026)
+
+Das vorhandene SAM100 erhält eine Prüfung von 18 Feldern: sechs dokumentiert,
+zwölf nicht dokumentiert. Vier Merkmalsaussagen, ein zusätzlicher Produktquellenverweis
+und ein Firmenfokus kommen hinzu; es gibt keinen neuen Roboterkatalogeintrag.
+Drei alte SAM100-Merkmalsformulierungen, ID, Fund-URL und Medien bleiben erhalten.
+2.345 andere Katalogzeilen, 1.215 vorherige Feldprüfungen und 135 Firmenfokusse sind
+unverändert. Gesamt: 2.346 Einträge, 1.277 datierte Merkmalsdatensätze, 5.686 Aussagen,
+2.643 Produktquellenverweise, 1.216 Feldprüfungen mit 23.041 Feldern und
+136 Firmenfokusse. Von den 518 ursprünglichen Queue-Zielen haben 475 ausgewählte
+Feldprüfungen; 43 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-141-evidence.json`.
+
+13 öffentliche Antworten sind mit Hashes gesichert: zwölf HTTP 200 und eine
+ungenutzte HTTP-404-Antwort für den alten SAM100-Pfad. Drei PDFs enthalten zusammen
+20 Seiten; vorhandene native Textschichten wurden extrahiert und relevante
+Abschnitte und Tabellen gezielt geprüft. Die 13-seitige Clark-Ausgabe Winter 2015
+enthält auf PDF-Seite vier eine Doppelseite. Nur die linke Hälfte, gedruckte Seite
+04, und die drei zugehörigen Artikelspalten gehören zum SAM-Bericht. Das rechts
+stehende allgemeine Safety Leadership Development Program wird nicht zu einer
+SAM-Funktion oder Zertifizierung. Es gab keine visuelle Prüfung, OCR, Videoansicht,
+Anmeldung, Kontaktaufnahme, Formularübermittlung, Nachricht, Transaktion oder
+Medienübernahme. Hersteller-Supporteinträge mit Dropbox-Handbuchlinks sind gelesen;
+deren Handbuchdateien wurden nicht abgerufen oder als inhaltlich geprüft ausgegeben.
+
+Clark berichtet aus seinem eigenen Baustellen-/Forschungsteam über SAM100 am
+Lab School of Washington: ungefähr 12.000 gesetzte Steine, Förderer mit Pickstation,
+Höhen-/Breitenprüfung und Zurückweisung ungeeigneter Steine, Mörtelauftrag und
+laserbezogene Platzierung. Das ist ein historischer Ersthand-Einsatzbericht eines
+beteiligten Bauunternehmens, kein unabhängiger universeller Test oder aktuelles
+Herstellerdatenblatt. Die University of Nevada, Reno beschreibt als Bauherr am
+22. August 2018 das spätere Arts-Building-Projekt. Beide Quellen behalten ihre
+Einsatzrolle; sie werden nicht zu Herstellerquellen umetikettiert.
+
+Der Nevada-Bericht nennt 200–250 Steine pro Stunde und separat die Beobachtung
+„etwa ein Stein alle acht Sekunden“. Aus letzterer wird kein dauerhafter Wert von
+450 Steinen pro Stunde abgeleitet. Der dokumentierte stündliche Wert bleibt
+historisch und projektbezogen; er ist weder Fahrgeschwindigkeit noch garantierte
+Schichtleistung. Crews erledigen Aufbau, Programmierung, Materialzufuhr,
+Reihenausrichtung, Fugen und Fertigstellung. Laut Bericht bleiben erste fünf Fuß,
+Ecken und Fenster-/Türunterbrechungen Handarbeit. Aussagen über ersetzte Maurer,
+Zeitersparnis oder Bauzeiten sind keine allgemeine Personalersatzgarantie.
+35,5 Millionen USD Gebäudekosten, Gebäudefläche, Gesamtsteinzahl und Projektmonate
+sind keine Roboterpreise, -maße oder ununterbrochene Betriebsdauer. Ein Einsatz
+2015 belegt auch nicht das genaue ursprüngliche Erscheinungsjahr.
+
+Die heutige Herstellerübersicht nennt MULE MZ100 und ML150 als Hebehilfen, bei
+denen Menschen die Platzierung direkt mit den Händen führen. Der Support nennt
+zusätzlich ML150S – Solar MULE; die genaue unabhängige Konfiguration bleibt ein
+Prüfhinweis. Die sechs bestehenden Listing-Entscheidungen zu manuellen
+MULE-Anwendungen bleiben unverändert; Anwendungsüberschriften für Mauerwerk,
+Fertigung, Solar, Stützwände, Schalung und Refractory werden nicht zu neuen
+autonomen Robotern. Der leere alte SAM-Pfad und das heutige Portfolio belegen
+weder Einstellung noch aktuellen Verkauf beziehungsweise Support für SAM100.
+Construction Robotics ist nicht Advanced Construction Robotics; TyBOT/IronBOT
+werden nicht in diese Firma verschoben.
+
+Die native MZ100-PDF-Tabelle trennt drei Glieder mit 367 kg/zwölf Fuß Reichradius
+von zwei Gliedern mit 340 kg/acht Fuß. Beide Spalten nennen 100 lb/45 kg Hubkapazität.
+Das sind MULE-Konfigurationen, keine SAM100-Spezifikationen. „1 ft 10 in / 0,81 m“
+ist ein ungelöster Einheitenwiderspruch: ein Fuß zehn Zoll entspricht 0,5588 m.
+Der Herstellerwert wird nicht still korrigiert. Die Übersicht nennt bis 30 Stunden
+Betrieb und drei Stunden Laden; MZ100-Seite und PDFs bis 32 Stunden sowie volle
+Ladung in „as little as 3.5 hours“. Eine genaue Versions-/Testbedingungenzuordnung
+ist nicht belegt. Bis zehn Jahre bedingte Batterie-Nutzungsdauer und 5.000-plus
+Zyklen pro Ladung sind keine Stundenlaufzeit. Die Bandgeschwindigkeit 0,7 m/s
+ist keine autonome Fahrzeuggeschwindigkeit. Auch Wetterfestigkeitswerbung
+belegt keine numerische IP-Schutzart.
+
+1.465 USD monatlich ist ein angezeigtes Finanzierungsbeispiel für den MULE-Arm
+über fünf Jahre bei sieben Prozent, mit Kundengenehmigung und variablen Zinssätzen;
+kein Gesamtkaufpreis und kein SAM100-Angebot. IoT-Abonnements, Sondergreifer und
+kundenspezifische Anwendungen behalten ihre Bedingungen. Der Firmenhinweis auf
+NSF-SBIR-Förderung enthält einen eigenen Nicht-Endorsement-Hinweis; er belegt keine
+unabhängige Sicherheitszertifizierung, garantierte Profitabilität oder exklusive
+Überlegenheit. Vollständige historische SAM-Generationen, heutige Verkaufs-/
+Supportlage und alle manuellen MULE-Konfigurationen bleiben nicht abschließend geprüft.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle mit vier Axe-Prüfungen bestehen.
+Build: 3.397 Seiten. Audit: null Fehler und unverändert 1.223 Warnungen. SAM-Seite
+mit 18 Feldern, Quellenrollen, Leerfeldern, strukturierten Daten, Firmenfokus,
+Merkmalssuche und Vergleich sowie Modell-/Firmen-/Queue-Exporte sind geprüft.
+Das ursprüngliche Modell-Exportziel und Queueziel enthalten jeweils 18
+Feldstatus-Einträge. Reimport ergänzt null Modelle und lässt 32 getrackte
+Datendateien byteidentisch; Offline-Refresh bleibt semantisch idempotent.
+Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `594285fbe69690747a180d3193644552efaa6a5b` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige Portfolios, alle USPs und Rang Nr. 1 sind weiterhin unbewiesen.
