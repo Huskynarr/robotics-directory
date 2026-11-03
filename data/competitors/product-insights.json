@@ -12926,14 +12926,30 @@
       "highlights": [
         "Launch design combined voice interaction, connected-home control and remote monitoring",
         "Q-Link app supported remote video streaming and robot control",
-        "Manufacturer described automatic charging and Android SDK/App Store support at launch"
+        "Manufacturer described automatic charging and Android SDK/App Store support at launch",
+        "The native Nano sheet lists 19 kg, maximum 0.8 m/s and four-hour operation versus over ten hours standby. Its 20 Ah/300 W text is retained as an ambiguous electrical label, not converted into Wh or charging duration.",
+        "The specification gives 848.32 mm height, 395.22 mm depth and 420.59 mm width, while the August 2017 announcement says 2.7 ft tall. The differing height claims remain visible rather than silently treated as equivalent unit conversions.",
+        "Nano uses a 10.1-inch 1080p touch display, cameras, head/arm motion and omnidirectional wheel hardware. Component motion counts are not added into an independently established complete-system DOF value; the 1.5 cm Grade entry is not a slope angle.",
+        "The 2017 release announces 2800 USD and planned purchase availability in October, while native pages describe Alexa and Q-Link. These historical claims do not establish an actual first-sale date, current pricing, maintained Android/ROS software, cloud access or current Alexa integration."
       ],
       "sources": [
         {
-          "name": "QIHAN Technology — August 31, 2017 manufacturer release distributed by Business Wire and hosted by NTB",
+          "name": "Sanbot Innovation — Sanbot Nano Specification, Home Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-nano/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Smart Companion Robot, Smart Home Robot with IoT | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-nano/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "QIHAN Technology — historical August 31, 2017 manufacturer release distributed by Business Wire; NTB host",
           "type": "manufacturer",
           "url": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -12947,14 +12963,36 @@
       "highlights": [
         "Service platform described for retail, hospitality and public-facing settings",
         "Manufacturer identifies Android SDK and Sanbot App Store features",
-        "Automatic charging is explicitly described as an Elf feature inherited by Nano"
+        "Automatic charging is explicitly described as an Elf feature inherited by Nano",
+        "The Elf sheet lists 19 kg robot mass, 902 x 421 x 331 mm dimensions, maximum 0.8 m/s and about ten-hour operating endurance. Over 24 hours standby is distinct; the printed 41.9in suffix beside 19 kg is not treated as a second mass value.",
+        "A later section on the same sheet describes the charging pile: 250 x 118 x 248 mm and 1.35 kg with adaptor. Its 0-5 m/180-degree beacon coverage, electrical output and wall mounting do not become robot dimensions, docking precision or charging time.",
+        "Elf combines a 10.1-inch touch display, animated arms, 3D camera and head projector. The design page claims 720p projection up to 65 inches; the specification separately prints 1920 x 720 and 16:9, so no consistent native projector resolution is inferred.",
+        "Voice interaction, face recognition, video chat and automatic return to charge are manufacturer features. The isolated 98% page text lacks an assigned metric and is not used as recognition accuracy, safety assurance, runtime or measured outcome."
       ],
       "sources": [
         {
-          "name": "QIHAN Technology — August 31, 2017 manufacturer release distributed by Business Wire and hosted by NTB",
+          "name": "Sanbot Innovation — Sanbot Elf Specification, Open Source AI robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Patented Sanbot Robot, AI Robot Design | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-elf/design",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Cloud-enabled Service Robot, Advanced AI robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "QIHAN Technology — historical August 31, 2017 manufacturer release distributed by Business Wire; NTB host",
           "type": "manufacturer",
           "url": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -34390,6 +34428,352 @@
       ],
       "discoveredIn": [
         "https://apptronik.com/company/our-work"
+      ]
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max",
+      "highlights": [
+        "The native comparison names Professional, Standard and Economic versions. Professional alone lists 75 kg maximum freight; Standard and Economic say None. Freight or attached-equipment capacity is separate from articulated arm lifting.",
+        "Professional lists about 18 hours operation and 50 hours standby; Standard about ten hours operation; Economic provides 300 Wh capacity without operating duration. The reception page’s 24/7 language relies on recharging and is not per-charge endurance.",
+        "Professional and Standard list powered Mecanum-wheel hardware and 0-5 m/s, while Economic explicitly says push manually and no drive. Generic autonomous mapping, navigation and delivery claims are not copied to the unpowered version.",
+        "The performance page’s 20 DOF refers to arms/hands. The version matrix includes head, arm, palm, waist and chassis subcounts; Standard/Economic head detail blocks disagree with their motor-row counts. A complete-system numeric DOF total remains unestablished.",
+        "The August 2017 announcement describes a roughly 4.8 ft configuration and 165 lb towing; the January 2018 CES announcement instead gives 4.7 ft, 220 lb, 165 lb attached equipment and 881 lb towing. Dates, load modes and unspecified revisions remain separate; no one figure becomes a universal exact version rating.",
+        "The 2017 Max announcement names QIHAN and points to a kingkong.html URL, while the support FAQ uses Sanbot King Kong. This is an identity lead, not explicit proof of identical equipped hardware or a separate new model. First unveiling and the later CES introduction are not confirmed first commercial sale."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Humanoid Service Robot, Commercial Robot with Open Source | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max -- the 1st Service Robot Co-worker | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/reception",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — QIHAN Introduces Next Generation Robot -- Sanbot Max -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/297",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — QIHAN Introduces Revolutionary Service Robot, Sanbot Max, to the World at the 2018 International CES -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/322",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/product/sanbot-max/specification"
+      ]
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-professional",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Professional",
+      "highlights": [
+        "Professional alone lists pressure/magnetic sensors, RFID and 75 kg freight capacity in the version comparison. Its 1.6 kWh/36 V battery row and family performance page’s 1548 Wh label are energy claims, not elapsed charging time.",
+        "The powered base supports manufacturer-described service/reception integration, but ports, recognition and custom software remain configuration/integration claims. Recharge-enabled 24/7 service does not establish single-pack endurance, certified safety or a current service agreement."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Humanoid Service Robot, Commercial Robot with Open Source | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max -- the 1st Service Robot Co-worker | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/reception",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/product/sanbot-max/specification"
+      ]
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-standard",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Standard",
+      "highlights": [
+        "Standard lists a 1.0 kWh/36 V battery and about ten-hour operation, not the Professional eighteen-hour rating. Max Freight Weight says None. Its head motor row says x2/45 degrees while its detailed head block says x3/90 degrees; no complete-system total is inferred.",
+        "The powered base supports manufacturer-described service/reception integration, but ports, recognition and custom software remain configuration/integration claims. Recharge-enabled 24/7 service does not establish single-pack endurance, certified safety or a current service agreement."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Humanoid Service Robot, Commercial Robot with Open Source | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max -- the 1st Service Robot Co-worker | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/reception",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/product/sanbot-max/specification"
+      ]
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-economic",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Economic",
+      "highlights": [
+        "Economic explicitly lists push manually and chassis no drive, plus 300 Wh/36 V without an operating-duration number. Autonomous base navigation, motorized arm hardware, 75 kg freight and the 18-hour Professional rating are not inferred.",
+        "The Economic column lists adapter charging and does not specify a charging-pile option. Blank/no-arm entries and a manually pushed base remain distinct from other Max versions; a 300 Wh battery does not establish endurance or charging time."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Humanoid Service Robot, Commercial Robot with Open Source | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max -- the 1st Service Robot Co-worker | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/reception",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/product/sanbot-max/specification"
+      ]
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF",
+      "highlights": [
+        "The matrix names PRO, BASE and RETAIL and lists 5 kg plus 30 x 53 x 28 cm at standard angle or 30 x 59 x 30 cm at maximum angle for each. AC220/110V input is not battery endurance or evidence of an autonomous moving base.",
+        "PRO lists a 3D camera in addition to RGB; BASE and RETAIL do not list that 3D camera. PRO and BASE provide mic/camera ban switches, while RETAIL explicitly says those switches are not supported. The generic privacy claim is therefore not universal.",
+        "A shared specification row describes face/neck articulation and a 10.1-inch 1080p display; ROS1.2, Android 7.1 and peripheral ports are historical listed interfaces, not proof of maintained software, current cloud access or a current security guarantee.",
+        "The separate temperature-measuring application describes infrared auxiliary screening and explicitly says not medical detection. It does not establish diagnostic use, a certified accuracy, a distinct named SKU or default inclusion of that function in all three variants."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/product/mini-elf/specification"
+      ]
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-pro",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF PRO",
+      "highlights": [
+        "PRO lists RGB and 3D cameras plus mic/camera ban switches. The source describes physical touch controls; the manufacturer’s privacy assertion is not an independent security evaluation.",
+        "The version column lists 5 kg, AC220/110V power, ROS1.2/Android7.1 and USB/Type-C interfaces. Shared face/neck and screen rows are not silently expanded into separate certified whole-robot DOF or additional per-version ratings.",
+        "Auxiliary temperature screening is described on a separate application page, expressly not medical detection. No default installed sensor package, clinical accuracy, autonomous navigation or currently maintained services are inferred for this variant."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/product/mini-elf/specification"
+      ]
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-base",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF BASE",
+      "highlights": [
+        "BASE lists RGB rather than the PRO 3D-camera entry and retains mic/camera ban switches. The omission of a 3D camera is not converted into an unsupported claim about every possible accessory.",
+        "The version column lists 5 kg, AC220/110V power, ROS1.2/Android7.1 and USB/Type-C interfaces. Shared face/neck and screen rows are not silently expanded into separate certified whole-robot DOF or additional per-version ratings.",
+        "Auxiliary temperature screening is described on a separate application page, expressly not medical detection. No default installed sensor package, clinical accuracy, autonomous navigation or currently maintained services are inferred for this variant."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/product/mini-elf/specification"
+      ]
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-retail",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF RETAIL",
+      "highlights": [
+        "RETAIL explicitly lists mic ban and camera ban switches as not supported, unlike PRO/BASE. The generic privacy-switch claim is not inherited; its sensor column lists RGB and omits the PRO 3D-camera entry.",
+        "The version column lists 5 kg, AC220/110V power, ROS1.2/Android7.1 and USB/Type-C interfaces. Shared face/neck and screen rows are not silently expanded into separate certified whole-robot DOF or additional per-version ratings.",
+        "Auxiliary temperature screening is described on a separate application page, expressly not medical detection. No default installed sensor package, clinical accuracy, autonomous navigation or currently maintained services are inferred for this variant."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/product/mini-elf/specification"
+      ]
+    },
+    {
+      "robotId": "qihan-technology-sanbot-xiaohai-2-0",
+      "manufacturer": "QIHAN Technology",
+      "model": "Sanbot Xiaohai 2.0",
+      "highlights": [
+        "The August 24, 2017 manufacturer announcement explicitly names Xiaohai 2.0 as a customized Sanbot customs robot, taller than the original Elf with arms/fingers and a thermal-imaging camera. This is a named customer configuration, not a universal Elf, Nano or Max specification.",
+        "QIHAN describes four tasks: passenger/luggage inspection, database-triggered alerts to officials, customs guidance and help-desk answers with translation in ten languages. These are historical manufacturer-described application functions, not independent threat-detection accuracy, medical screening or ongoing deployment evidence.",
+        "The account of earlier customs collaboration and average daily passenger flow is deployment context, not this robot’s throughput or a verified number of people autonomously screened. Exact mass, battery runtime, DOF, locomotion ratings, payload and present support remain unestablished."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — QIHAN’S Introduces New Customized Robot at Gongbei Port of Entry -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/296",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "http://en.sanbot.com/news/press-release/296"
       ]
     }
   ]
