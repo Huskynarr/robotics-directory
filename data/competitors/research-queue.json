@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T12:04:23.063Z",
+  "generatedAt": "2026-11-03T12:23:15.590Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,12 +13,12 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 483,
-    "withoutSelectedFieldReview": 35,
-    "selectedFields": 8869,
+    "withSelectedFieldReview": 484,
+    "withoutSelectedFieldReview": 34,
+    "selectedFields": 8889,
     "selectedFieldStatuses": {
-      "documented": 3540,
-      "not-documented": 5124,
+      "documented": 3549,
+      "not-documented": 5135,
       "conflicting": 187,
       "roadmap": 18
     },
@@ -281,23 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "catalog-general-atomics-aeronautical-systems-835b779d2594",
-      "name": "General Atomics Aeronautical Systems",
-      "aliases": [],
-      "sourceUrls": [],
-      "catalogModels": 1,
-      "reviewedReferenceTargets": 1,
-      "withDatedHighlights": 1,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "general-atomics-aeronautical-systems-avenger-er"
-      ]
-    },
     {
       "brandId": "greenfield-robotics",
       "name": "Greenfield Robotics",
@@ -3727,6 +3710,23 @@
       "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "figure-figure-03"
+      ]
+    },
+    {
+      "brandId": "catalog-general-atomics-aeronautical-systems-835b779d2594",
+      "name": "General Atomics Aeronautical Systems",
+      "aliases": [],
+      "sourceUrls": [],
+      "catalogModels": 1,
+      "reviewedReferenceTargets": 1,
+      "withDatedHighlights": 1,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "general-atomics-aeronautical-systems-avenger-er"
       ]
     }
   ],
@@ -29313,24 +29313,67 @@
       "brandId": "catalog-general-atomics-aeronautical-systems-835b779d2594",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 9,
       "highlightSources": [
         {
-          "name": "General Atomics Aeronautical Systems",
+          "name": "General Atomics Aeronautical Systems — Predator C Avenger and Avenger ER",
           "type": "manufacturer",
           "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "General Atomics Aeronautical Systems — Avenger ER data sheet",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/remotely-piloted-aircraft/pdf/2606_AVENGER_ER_E.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "General Atomics Aeronautical Systems — September 8, 2023 Avenger autonomy article",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/ga-asi-avenger-leads-the-way-in-autonomy-and-ai",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BuyAndRentRobots — Avenger service listing by Shield AI",
+          "type": "manufacturer",
+          "url": "https://buyandrentrobots.com/robot/b30c7cf0-4620-439e-9036-9b45e224d64d",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 20,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 9,
+        "not-documented": 11,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "General Atomics Aeronautical Systems — Predator C Avenger and Avenger ER",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "General Atomics Aeronautical Systems — Avenger ER data sheet",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/remotely-piloted-aircraft/pdf/2606_AVENGER_ER_E.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "General Atomics Aeronautical Systems — September 8, 2023 Avenger autonomy article",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/ga-asi-avenger-leads-the-way-in-autonomy-and-ai",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BuyAndRentRobots — Avenger service listing by Shield AI",
+          "type": "manufacturer",
+          "url": "https://buyandrentrobots.com/robot/b30c7cf0-4620-439e-9036-9b45e224d64d",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

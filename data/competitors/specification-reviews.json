@@ -147878,6 +147878,140 @@
           "note": "Bipedal electric humanoid with an external backpack battery pack."
         }
       }
+    },
+    {
+      "robotId": "general-atomics-aeronautical-systems-avenger-er",
+      "manufacturer": "General Atomics Aeronautical Systems",
+      "model": "Avenger ER",
+      "sources": [
+        {
+          "name": "General Atomics Aeronautical Systems — Predator C Avenger and Avenger ER",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "General Atomics Aeronautical Systems — Avenger ER data sheet",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/remotely-piloted-aircraft/pdf/2606_AVENGER_ER_E.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "General Atomics Aeronautical Systems — September 8, 2023 Avenger autonomy article",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/ga-asi-avenger-leads-the-way-in-autonomy-and-ai",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BuyAndRentRobots — Avenger service listing by Shield AI",
+          "type": "manufacturer",
+          "url": "https://buyandrentrobots.com/robot/b30c7cf0-4620-439e-9036-9b45e224d64d",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-150/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed; the directory listing requests a quote and publishes no numeric price",
+          "status": "not-documented",
+          "note": "No numeric public price is published. The directory listing requests a quote and does not establish a current sale or lease price."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The data sheet gives 18,900 lb maximum gross takeoff weight and 9,500 lb fuel capacity. Neither is empty mass; no empty-weight figure is published."
+        },
+        "size": {
+          "value": "Wingspan 76 ft / 23 m; length 44 ft / 13 m",
+          "status": "documented",
+          "note": "Wingspan and length come from the ER data sheet and product page. They are not a complete outer envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The aircraft uses a turbofan and fuel. No battery endurance rating applies; flightTime carries the 20-hour maximum endurance claim."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Endurance is recorded in flightTime. A 20-hour flight endurance figure is not battery runtime."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to a fixed-wing remotely piloted aircraft."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to a fixed-wing remotely piloted aircraft."
+        },
+        "payload": {
+          "value": "9,000 lb / 4,082 kg total (3,000 lb / 1,361 kg internal; 6,000 lb / 2,721 kg external); 860 lb / 390 kg forward bay; six external hardpoints",
+          "status": "documented",
+          "note": "The 9,000 lb total splits into 3,000 lb internal and 6,000 lb external stores, plus an 860 lb forward bay and six external hardpoints. These are capacity ratings, not simultaneous loads."
+        },
+        "speed": {
+          "value": "400 KTAS maximum airspeed",
+          "status": "documented",
+          "note": "400 KTAS is a maximum airspeed from the ER data sheet; test conditions and mission load are not specified."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No surface or environmental rating is published. Maximum altitude is 50,000 ft and is not a terrain classification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating is published in the reviewed GA-ASI sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for this aircraft."
+        },
+        "website": {
+          "value": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+          "status": "documented",
+          "note": "Manufacturer Predator C Avenger page, including the linked Avenger ER data sheet."
+        },
+        "description": {
+          "value": "Avenger ER is the extended-range version of GA-ASI's jet-powered Predator C Avenger remotely piloted aircraft. The manufacturer dates Predator C's first flight to April 2009 and Avenger ER's first flight to October 2016, followed by an expanded flight test program in 2017. The current production version has a 76 ft wingspan and over 20 hours of endurance; the ER data sheet lists 18,900 lb maximum gross takeoff weight, 9,000 lb payload capacity split into 3,000 lb internal and 6,000 lb external stores, 400 KTAS maximum airspeed and 50,000 ft maximum altitude. Autonomy demonstrations with MQ-20 Avenger airframes are company test milestones, and the directory's Shield AI listing does not establish a delivered fleet, price or production-configuration equivalence.",
+          "status": "documented",
+          "note": "Manufacturer product, portfolio and news statements plus the issuer data sheet; no independent operational audit."
+        },
+        "releaseDate": {
+          "value": "2016",
+          "status": "documented",
+          "note": "Avenger ER first flew in October 2016; the baseline Predator C first flew in April 2009 and is not the represented configuration."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to an air vehicle; no submersible depth rating is published."
+        },
+        "flightTime": {
+          "value": "20 hours maximum endurance (manufacturer data sheet)",
+          "status": "documented",
+          "note": "20 hours is maximum endurance from the manufacturer data sheet; payload, altitude and mission profile conditions are not specified."
+        },
+        "maxTakeoffWeight": {
+          "value": "18,900 lb / 8,573 kg maximum gross takeoff weight",
+          "status": "documented",
+          "note": "18,900 lb / 8,573 kg is maximum gross takeoff weight, not empty mass."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric navigation accuracy is published. Autonomy demonstrations do not establish a measured accuracy standard."
+        },
+        "driveMode": {
+          "value": "Pratt & Whitney PW545B turbofan; manufacturer states a runway requirement under 5,000 ft",
+          "status": "documented",
+          "note": "Pratt & Whitney PW545B turbofan with over 5,000 lb thrust. The under-5,000-ft runway figure is a manufacturer requirement, not a measured field performance."
+        }
+      }
     }
   ]
 }
