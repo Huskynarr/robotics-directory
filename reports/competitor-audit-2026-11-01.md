@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.372 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1118 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1303 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.376 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1122 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1307 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 140 |
+| Firmenfokus-Prüfungen mit Quellen | 141 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1118 ergänzte Modelle ergeben 2.372 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1122 ergänzte Modelle ergeben 2.376 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-140 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+141 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1303 Datensätze
+Modellseiten verlinken Markenprofile. Die 1307 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 479 haben ausgewählte Datenfeldprüfungen und 39
+haben datierte Merkmalsbelege; 480 haben ausgewählte Datenfeldprüfungen und 38
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -12198,3 +12198,111 @@ Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Mo
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Amber und
 vollständige historische/regionale Portfolios, sämtliche USPs sowie Marktführerschaft
 bleiben unbewiesen.
+
+
+## Ergänzung 146 – Enactic: OpenArm-Generationen, passive Lehreinheit, Versuchszelle und Ena-Beta (3. November 2026)
+
+OpenArm 1.0, KER, Cell und Ena sind als vier benannte Plattformen/Konfigurationen
+ergänzt; OpenArm 2.0 ist erweitert. KER bleibt ausdrücklich passiv, Cell eine
+integrierte Versuchszelle und Ena ein Programm mit geplanter Beta. Fünf Prüfungen
+umfassen 90 Felder: 38 dokumentiert, 50 nicht dokumentiert, eines widersprüchlich
+und eines Roadmap. Hinzu kommen 24 Merkmalsaussagen, 29 Produktquellenverweise und
+ein Firmenfokus. Drei alte OpenArm-2.0-Merkmale, Fund-URL, ID und Medien bleiben
+erhalten. 2.371 andere Ausgangszeilen, 1.246 frühere Feldprüfungen und 140 bisherige
+Firmenfokusse sind unverändert. Kein CSV-Schemawechsel. Der Vergleich zeigt jetzt Erscheinungsjahre sowie
+Roadmap-/Konfliktstatus auch ohne Zahlenwert; Deutsch und Englisch sind beschriftet.
+Gesamt: 2.376 Einträge, 1.307 datierte Merkmalssätze, 5.800 Aussagen,
+2.762 Produktquellenverweise, 1.251 Feldprüfungen mit 23.651 Feldern und
+141 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen sind 480 technisch
+teilgeprüft; 38 bleiben offen. Dauerbeleg: `reports/competitor-batch-146-evidence.json`.
+
+27 HTTP-Antworten sind gehasht gesichert: 25 HTTP 200, darunter drei öffentliche
+Seitenassets und zwei leere Antworten ohne verwertbaren Text. Eine falsch vermutete
+Archivroute liefert 404. WowRobos Produktseite liefert 429; danach erfolgen keine
+weiteren Anfragen an diesen Host. Der ungelesene Lieferanteninhalt und seine
+Suchvorschau werden nicht als nativ geprüfte Bestands- oder Preisquelle ausgegeben.
+Die Preise im offiziellen Projektverzeichnis bleiben dessen attribuierte Angebote.
+Ein eigener, geschlossener Browserkontext liest nach normalem Scrollen die animierten
+Homepage-Zähler; HTML und Text sind gehasht. Er beobachtet 18 native Antworten,
+einschließlich Preloads. Bilder werden nicht ausgewertet oder weiterverwendet;
+keine visuelle Prüfung, PDF-Prüfung oder OCR. Keine Formulare, Konten, Kontakt-
+/Nachrichtenaktion, Transaktion oder Umgehung einer Sperre.
+
+OpenArm 2.0 ist auf der Firmenseite mit Mai 2026 bezeichnet. Ankündigung und
+Cell-Demo im März bleiben davon getrennt. Die Homepage liefert nach Animation
+633 mm Reichweite und 5,5 kg Masse pro Arm sowie 1 kHz CAN-FD, keine Nullwerte aus
+dem statischen HTML und keine Gesamtmasse der beidarmigen Installation. 6.500 USD
+Stücklistenkosten sind keine unabhängige Bestätigung eines kompletten Kaufpreises.
+Der Projekteintrag für WowRobo V2 nennt ebenfalls einen Einstiegspreis, dessen
+Konfiguration, Versand, Lieferzeit und aktueller Bestand getrennt bleiben.
+
+Beide Versionsdokumentationen definieren 4,1 kg nominal für eine Minute bei voller
+Streckung und 6 kg Spitze für drei Sekunden Bewegung und eine Sekunde Halten.
+Greifer beziehungsweise Werkzeug sind eingeschlossen: 1,5 kg Werkzeug lassen
+2,6 kg nominal beziehungsweise 4,5 kg für das Objekt. Das ist keine uneingeschränkte
+Dauerlast. Kameramodul-Auflösung und Sichtwinkel werden nicht zu Greifgenauigkeit;
+das effektive Sichtfeld zwischen Fingern ist ausdrücklich undokumentiert. Die
+Motorseite nennt die DM4340-Serie ausdrücklich nicht QDD und qualifiziert damit
+allgemeinere QDD-Werbung. Motor-RPM, Drehmoment und Spannung sind keine kartesische
+Armgeschwindigkeit oder unabhängige Sicherheitszertifizierung.
+
+Die historische 1.0/01-Version ist mit Juli 2025 belegt; unterschiedliche Tageslabels
+werden nicht zu einem exakten Liefertag vereinheitlicht. Das Archiv ist nicht mehr
+aktiv gepflegt. Sein Parallelgreifer hat 88 mm Öffnung und 60 Grad Rotorbewegung.
+Die offizielle Umrüstung ändert Greifer, J5-Halterung und Abdeckungen bei gleichen
+Armstrukturen, Motoren und Elektronik. Der Archivleitfaden warnt bei Stromverlust
+vor fallender Last. Aktuelle 2.0-Masse und Reichweite gelten nicht automatisch für
+jedes alte Werkzeug. V1.1 bleibt eine belegte Anbieterbezeichnung mit offener
+Hardwaregrenze, ohne erfundene weitere Enactic-Generation oder behauptete Dublette.
+
+KER ist eine motorlose, schultergetragene Eingabeeinheit mit Encodern und Lagern,
+gleicher Achsstruktur und auf 70 Prozent skalierten Gliedern. Die Projektangaben
+1,7 kg, faltbarer Rückenteil und schnelles Anlegen sind keine unabhängigen
+Ergonomie-Ergebnisse. 16 Encoderkanäle sind keine 16 angetriebenen Armgelenke.
+Homepage „forthcoming“ und Bestellangaben des Herstellerverzeichnisses widersprechen
+sich; der Release-Status bleibt widersprüchlich und ohne erfundenes Datum.
+
+Cell ist durch eigene Montage-, Stücklisten-, Verdrahtungs- und Integrationsunterlagen
+als vollständige Versuchszell-Konfiguration abgegrenzt. Die ungefähr 100 kg und
+480 W zuzüglich PC sind ausstattungsabhängig. Sensoren stoppen bei Eingriff durch
+Stromabschaltung; ein zertifiziertes Sicherheitsniveau folgt daraus nicht. Stabile
+Beleuchtung, Kameras, Hintergrund und Z-Achse sollen reproduzierbare Versuche
+ermöglichen. Der Preis und die Maße eines separaten Rahmen-/Modulkits sind weder
+Gesamtsystempreis noch geprüfte äußere Roboterabmessungen. Werbung mit Dauerbetrieb
+beweist keine Batterielaufzeit. Encoder, Kameras, Greifer, Umrüstsätze und Software
+sind keine zusätzlichen vollständigen Roboter.
+
+Hardware steht unter der stark reziproken CERN-OHL-S-2.0-Lizenz; Software hat je
+Repository eigene Lizenzen. Die pauschale Firmenformulierung zu permissiven Lizenzen
+wird nicht auf alle Komponenten ausgedehnt. Das Herstellerverzeichnis kennzeichnet
+Prüfstatus und warnt vor nicht kompatiblen Nachbauten, einschließlich fehlender
+aktueller Verbindung/Kompatibilität von OpenArmX Pro Max. Daraus entsteht keine
+automatische Modell- oder Firmenidentität.
+
+Ena wird mit geplanter Beta Ende 2026 geführt. Das schemakonforme Jahr 2026 bleibt
+als Roadmap markiert und im Text erläutert; es behauptet keine erfolgte allgemeine
+Auslieferung. Das erste Audit beanstandete den erklärenden Text im reinen Jahr-Feld;
+dieser Formatfehler ist korrigiert und die Prüfungen sind wiederholt. Pflegeaufgaben
+sind Herstellerziele ohne unabhängige Erfolgsquoten oder klinische Wirksamkeitsbelege.
+Die japanische Partnerseite erklärt ausdrücklich die kostenlose Unterstützung der
+Entwicklung: Partnerzahlen sind keine installierte Flotte. Die Mitteilung vom
+2. Juni 2026 beschreibt Validierung mit NVIDIA-Modellen, nicht die unveränderte
+Hardware oder bewiesene Autonomie jedes Ena-Exemplars. OpenArm-/Cell-Massen,
+Gelenkzahlen, Nutzlast oder Rechenhardware werden nicht auf Ena übertragen.
+
+808 Unit-Tests in 64 Dateien und 52 Browserfälle einschließlich acht Axe-Prüfungen
+bestehen. Build: 3.427 Seiten. Audit: null Fehler, 1.246 Warnungen. Fünf Detailseiten
+mit 90 Feldern, Quellenrollen, strukturierten Daten, Firmenfokus, Merkmalsuche und
+Vergleich sind geprüft. Enactic ist ein Katalogprofil aus einer geprüften Reseller-
+Familienreferenz; die ursprünglichen Firmen-/Modell-Exporte enthalten deshalb keine
+Enactic-Zeile. Der Queue-Export enthält 18 Feldstatus-Einträge. Bestehende
+Identitätsdateien und diese Exporte sind unverändert. Reimport: null Ergänzungen,
+32 getrackte Datendateien byteidentisch; Offline-Refresh semantisch idempotent.
+Geänderte Quell- und Testdateien: ESLint/Prettier bestanden. Daten behalten die kanonische Serialisierung
+der Import-/Refresh-Skripte; keine globale Formatierung historischer Datensätze.
+Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `36867fc377ec5a3c68a9cbb80dc7ba65331a53c4` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. V1.1-Abgrenzung,
+vollständige Portfolios, alle USPs und Marktführerschaft bleiben unbewiesen.
