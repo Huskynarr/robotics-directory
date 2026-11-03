@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,338 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,342 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,910 fields across 1322 models, distinguishing documented, undisclosed, conflicting and
+24,982 fields across 1326 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,684 kB JSON response loads only for search or comparison;
+A separate 6,696 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,167 reviewed highlight statements as well as
+Catalog search now includes all 6,187 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1687,3 +1687,20 @@ and the X12 silent-sweep figure of 5,461 min over 5,236 m2 is implausible for a
 the T50 Pro Omni 35 x 35 x 8 cm size are replaced or cleared by the reviewed
 values. No reviewed page publishes a robot price, payload, travel speed, water tank
 capacity or IP rating.
+
+ECOVACS's Deebot T20 Omni, X2 Combo, T30S Combo and T90 Pro Omni now have
+selected field reviews. The manufacturer publishes 6,000 Pa, 362 x 362 x 103.5 mm,
+4.4 kg, 5,200 mAh, 6.5 h charging and 260 min silent sweep for the T20 Omni;
+8,700 Pa, 353 x 313 x 95 mm, 6,400 mAh and about 5.5 h charging for the
+X2 Combo; 11,000 Pa, 353 x 351 x 104 mm, 5,200 mAh and about 3.1 h charging
+for the T30S Combo; and a claimed 30,000 Pa, 353 x 351 x 95 mm, 5.3 kg,
+a 4,000 mAh SuperBoost battery and 2.5 h charging for the T90 Pro Omni.
+The X2 Combo and T30S Combo pages publish no robot net weight; the T30S
+45.19 kg package net weight includes the station. The T90 Pro Omni deep-washing
+10 min perpetual run is not a full-charge runtime. Catalog prices of 1,099, 1,599,
+1,199 and 2,299 USD, the T20 36 x 36 x 10 cm size and 260 min battery label,
+the X2 Combo 35 x 31 x 10 cm size and 212 min battery label, the T30S
+35.3 x 35.1 x 10.4 cm size and 200-290 min battery label, and the T90
+medium size label are replaced or cleared by the reviewed values. No reviewed
+page publishes a robot price, payload, travel speed, water tank capacity or
+IP rating.
