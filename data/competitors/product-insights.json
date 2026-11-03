@@ -8743,14 +8743,32 @@
       "highlights": [
         "Programmable life-size humanoid exhibit for public demonstrations and academic research",
         "Actuated arms, fingers, head and jaw support expressive gestures",
-        "Installation requires mains power and compressed air rather than a mobile battery platform"
+        "Installation requires mains power and compressed air rather than a mobile battery platform",
+        "RT4 weighs 33 kg without the floor base or 44 kg with it. A separate 22 kg touchscreen kiosk and 11.5 kg base entry are not robot-only mass, and shipping pallet weights are not operating mass.",
+        "The standard package explicitly lists 27 powered head, arm and body axes. Component actuator counts and 18 proportional control axes are separate descriptions, not competing sums for complete-system DoF.",
+        "The table gives 1750 mm bare height or 1775 mm including base. Its 480 mm base-width row is paired with 23.5 inches, while the separate base-diameter row pairs 480 mm with 19 inches; the inconsistent conversion remains visible.",
+        "Back-to-fingertip reach is 840 mm with arms forward, and arm span is 1750 mm. Neither is silently presented as a conventional shoulder-to-tool working reach.",
+        "Installation requires 100-250 V AC and un-oiled compressed air at 6 bar with 10-micrometre filtration; peak air use is 30 L/min. Compressor electrical ratings and air flow are not battery runtime, charging time or robot drive speed.",
+        "The standard hard face uses LCD eyes and cheek lighting; projected face and adaptive gripping hands are alternatives. Customer-specific active legs bend the knees but keep feet secured to the base, so walking is not inferred."
       ],
       "sources": [
         {
-          "name": "Engineered Arts",
+          "name": "Engineered Arts — manufacturer RoboThespian technical specification",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian_Technical_Spec.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian RT4 introduction",
           "type": "manufacturer",
           "url": "https://wiki.engineeredarts.co.uk/RoboThespian",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian standard package",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian_At_a_Glance.html",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -15022,14 +15040,42 @@
       "highlights": [
         "Engineered Arts humanoid platform for human-robot interaction and expressive movement",
         "Generation 1 uses Tritium 2; generation 2 uses Tritium 3 with different movement configurations",
-        "Indoor installation uses a weighted base and mains power rather than a mobile battery platform"
+        "Indoor installation uses a weighted base and mains power rather than a mobile battery platform",
+        "The original family spans multiple hardware generations: 49 kg/51 movements in Gen 1 and 62 kg/61 in Gen 2 and Gen 2.6. These differences are configuration scopes, not one universal mass or motion count.",
+        "Gen 1 literature distinguishes 52 motors from 51 articulated movements. The wiki also separates Tritium 2 for Gen 1 from Tritium 3 for Gen 2; software naming alone does not establish a new full-body robot generation.",
+        "The current specification labels generation 2.6 (2024) and family release 2021. The Gen 2 brochure instead says Gen 1 released in early 2022, and the Gen 1 brochure identifies January 2022. The different milestone basis remains unresolved.",
+        "Mains power and a supplied weighted base are installation requirements, not hours of battery life or evidence of walking. Arm span, body envelope and working reach stay separate."
       ],
       "sources": [
         {
-          "name": "Engineered Arts",
+          "name": "Engineered Arts — manufacturer Ameca Gen 2.6 specification",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca wiki",
           "type": "manufacturer",
           "url": "https://wiki.engineeredarts.co.uk/Ameca",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 1 manufacturer brochure; official wiki-linked download",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1Pws6QQTRrgZgAwbrC_xcHdCYPecGyPR4",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2025/09/Ameca-Gen-2-Overview-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -35084,6 +35130,391 @@
       ],
       "discoveredIn": [
         "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-ameca-gen-1",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Gen 1",
+      "highlights": [
+        "The Gen 1 mechanical page lists 49 kg, 1870 mm height and 1800 mm arm span. Arm span is not rated arm reach or a minimum installation aisle.",
+        "Gen 1 has 51 articulated movements while the same page labels 52 motors. The motor count is not substituted for complete-system DoF.",
+        "The brochure identifies January 2022; the later Gen 2 overview says Gen 1 released early 2022. The current family page’s 2021 label remains a separate unresolved family milestone.",
+        "Power input is 110-240 V AC, 50/60 Hz with a 400 W label. The historical base document shows two mains outlets and external supplies; these are not battery capacity or charge duration."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — Ameca Gen 1 manufacturer brochure; official wiki-linked download",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1Pws6QQTRrgZgAwbrC_xcHdCYPecGyPR4",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca wiki",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/Ameca",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca historical base setup",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/images/d/d0/Ameca_base_setup_v1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://drive.google.com/uc?export=download&id=1Pws6QQTRrgZgAwbrC_xcHdCYPecGyPR4"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-ameca-gen-2",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Gen 2",
+      "highlights": [
+        "The Gen 2 brochure specifies 62 kg and 61 actuated movements, with 1870 mm height. This generation is distinct from the 49 kg/51-movement Gen 1 configuration.",
+        "The manufacturer describes improved facial expression and lip synchronisation for the second generation, with Tritium 3 programming in the wiki. No independently measured conversational accuracy is supplied.",
+        "The electrical page lists 110-240 V AC, 400 W input and two 24 V DC/200 W supplies. These power labels do not supply battery runtime or recharge duration.",
+        "The wiki-linked download and current official-host overview are byte-identical copies of one Gen 2 brochure. The 2023 title and 2025 metadata are not independently confirmed model launch dates."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2025/09/Ameca-Gen-2-Overview-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca wiki",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/Ameca",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-ameca-gen-2-6",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Gen 2.6",
+      "highlights": [
+        "The exact current table names generation 2.6 (2024), with 62 kg, 1870 x 470 x 850 mm H/W/D, 1800 mm arm span and a 600 mm base diameter. The base and arm span are not body depth or working reach.",
+        "The source explicitly totals 61 movements and separately details the head, neck, shoulders, arms, hands and torso. The complete-system total is taken from the source rather than inferred from a subset.",
+        "The table lists binocular 8 MP cameras, a chest microphone array and 20 W speaker. The product page describes 70-plus-language interaction and programmable roles; these are manufacturer functions rather than measured language performance.",
+        "Ethernet is listed, while Wi-Fi is marked coming soon in the exact specification. Two mains supplies, LiDAR coverage and an at-least-3.2-metre safety-zone diameter are not battery endurance, navigation accuracy or certified deployment clearance.",
+        "The version label contains 2024, the family release row says 2021, and the setup guide is dated August 2026. None is silently used as an exact first delivery date for Gen 2.6."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ameca Gen 2.6 specification",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca Gen 2.6 setup guide, August 2026",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2026/08/Ameca-Gen-2.6-Setup-Guide-Aug-2026-%E2%80%93-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://engineeredarts.com/robots/ameca/specs"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-ameca-desktop-gen-3",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Desktop Gen 3",
+      "highlights": [
+        "The Ameca Gen 3 table explicitly gives 22 June 2026, 8.5 kg and 525 x 420 x 260 mm H/W/D. Gen 2 measurements are not substituted into this generation.",
+        "The complete movement count is 32, with 27 for facial/head expression and five in the neck. Facial movement count is not walking mobility or arm payload.",
+        "The current table lists two eye-mounted HD cameras, a chest wide-angle HD camera, mmWave radar and a 40 W immersive speaker system. These are interaction components, not independently measured perception accuracy.",
+        "Tritium control includes programmable agents and manufacturer-advertised multilingual interaction. Current specs list Ethernet and Wi-Fi; the exact Azi table additionally lists Bluetooth and physical ports, which are not automatically copied to Ameca/Ami.",
+        "Mains-input and DC-supply labels are not battery endurance or charging figures. CE/FCC statements are manufacturer claims, separate from an independently checked deployment approval or ingress rating."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ameca Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca Desktop product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca-desktop",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://engineeredarts.com/robots/ameca-desktop/specs"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-ameca-desktop-gen-2",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Desktop Gen 2",
+      "highlights": [
+        "The selected Ameca Gen 2 tab gives a 2023 release and its own dimensions: 550 x 420 x 260 mm H/W/D; 600 mm base diameter. The Gen 3 525 x 420 x 260 mm envelope is not retroactively assigned.",
+        "The weight row pairs 8.5 kg with 17.6 lb, which converts to about 7.98 kg. The unit discrepancy is unresolved rather than treated as two agreeing mass measurements.",
+        "The explicit total is 32 movements: 27 in the head and five in the neck. An untranslated shoulder-DoF key is excluded; no extra joint count is invented.",
+        "This Gen 2 table lists a 20 W chest speaker and eye-mounted 8 MP cameras. Gen 3’s 40 W speaker and additional chest wide-angle camera are not inherited.",
+        "Ethernet is listed and Wi-Fi is marked coming soon in the selected Gen 2 table. Product-page descriptions of current wireless features do not prove historical delivery; mains input does not provide battery hours."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ameca Desktop specifications; select Gen 2 tab",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca-desktop/specs",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://engineeredarts.com/robots/ameca-desktop/specs"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-ami-desktop-gen-3",
+      "manufacturer": "Engineered Arts",
+      "model": "Ami Desktop Gen 3",
+      "highlights": [
+        "The Ami Gen 3 table explicitly gives 22 June 2026, 8.5 kg and 525 x 420 x 260 mm H/W/D. Gen 2 measurements are not substituted into this generation.",
+        "The complete movement count is 32, with 27 for facial/head expression and five in the neck. Facial movement count is not walking mobility or arm payload.",
+        "The current table lists two eye-mounted HD cameras, a chest wide-angle HD camera, mmWave radar and a 40 W immersive speaker system. These are interaction components, not independently measured perception accuracy.",
+        "Tritium control includes programmable agents and manufacturer-advertised multilingual interaction. Current specs list Ethernet and Wi-Fi; the exact Azi table additionally lists Bluetooth and physical ports, which are not automatically copied to Ameca/Ami.",
+        "Mains-input and DC-supply labels are not battery endurance or charging figures. CE/FCC statements are manufacturer claims, separate from an independently checked deployment approval or ingress rating."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ami Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ami-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ami Desktop product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ami-desktop",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://engineeredarts.com/robots/ami-desktop/specs"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-ami-desktop-gen-2",
+      "manufacturer": "Engineered Arts",
+      "model": "Ami Desktop Gen 2",
+      "highlights": [
+        "The selected Ami Gen 2 tab gives a 2023 release and its own dimensions: 525 x 470 x 850 mm H/W/D; 600 mm base diameter; exact Gen 2 table basis. The Gen 3 525 x 420 x 260 mm envelope is not retroactively assigned.",
+        "The weight row pairs 8.5 kg with 17.6 lb, which converts to about 7.98 kg. The unit discrepancy is unresolved rather than treated as two agreeing mass measurements.",
+        "The explicit total is 32 movements: 27 in the head and five in the neck. An untranslated shoulder-DoF key is excluded; no extra joint count is invented.",
+        "This Gen 2 table lists a 20 W chest speaker and eye-mounted 8 MP cameras. Gen 3’s 40 W speaker and additional chest wide-angle camera are not inherited.",
+        "Ethernet is listed and Wi-Fi is marked coming soon in the selected Gen 2 table. Product-page descriptions of current wireless features do not prove historical delivery; mains input does not provide battery hours."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ami Desktop specifications; select Gen 2 tab",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ami-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ami Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ami-desktop/specs",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://engineeredarts.com/robots/ami-desktop/specs"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-azi-desktop-gen-3",
+      "manufacturer": "Engineered Arts",
+      "model": "Azi Desktop Gen 3",
+      "highlights": [
+        "The Azi Gen 3 table explicitly gives 22 June 2026, 8.5 kg and 525 x 420 x 260 mm H/W/D. Gen 2 measurements are not substituted into this generation.",
+        "The complete movement count is 32, with 27 for facial/head expression and five in the neck. Facial movement count is not walking mobility or arm payload.",
+        "The current table lists two eye-mounted HD cameras, a chest wide-angle HD camera, mmWave radar and a 40 W immersive speaker system. These are interaction components, not independently measured perception accuracy.",
+        "Tritium control includes programmable agents and manufacturer-advertised multilingual interaction. Current specs list Ethernet and Wi-Fi; the exact Azi table additionally lists Bluetooth and physical ports, which are not automatically copied to Ameca/Ami.",
+        "Mains-input and DC-supply labels are not battery endurance or charging figures. CE/FCC statements are manufacturer claims, separate from an independently checked deployment approval or ingress rating."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Azi Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/azi-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Azi Desktop product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/azi-desktop",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://engineeredarts.com/robots/azi-desktop/specs"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-azi-desktop-gen-2",
+      "manufacturer": "Engineered Arts",
+      "model": "Azi Desktop Gen 2",
+      "highlights": [
+        "The selected Azi Gen 2 tab gives a 2023 release and its own dimensions: 525 x 470 x 850 mm H/W/D; 600 mm base diameter; exact Gen 2 table basis. The Gen 3 525 x 420 x 260 mm envelope is not retroactively assigned.",
+        "The weight row pairs 8.5 kg with 17.6 lb, which converts to about 7.98 kg. The unit discrepancy is unresolved rather than treated as two agreeing mass measurements.",
+        "The explicit total is 32 movements: 27 in the head and five in the neck. An untranslated shoulder-DoF key is excluded; no extra joint count is invented.",
+        "The Gen 2 Azi table lists an 8 W speaker, while Ameca/Ami Gen 2 list 20 W. Gen 3’s 40 W speaker and chest wide-angle camera are not inherited.",
+        "Ethernet is listed and Wi-Fi is marked coming soon in the selected Gen 2 table. Product-page descriptions of current wireless features do not prove historical delivery; mains input does not provide battery hours."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Azi Desktop specifications; select Gen 2 tab",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/azi-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Azi Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/azi-desktop/specs",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://engineeredarts.com/robots/azi-desktop/specs"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-mesmer",
+      "manufacturer": "Engineered Arts",
+      "model": "Mesmer",
+      "highlights": [
+        "The current full-size Mesmer table gives 62 kg, 61 actuated movements, 1870 x 470 x 850 mm H/W/D and a 2017 family release label. Exact custom character configuration can differ.",
+        "The character process combines scanning, detailed skin and hair work with custom animations. Alfred, Cleo, Owen and Thoth are named appearance examples; their exact dimensions, electronics and sale SKUs are not individually established.",
+        "Current binocular 8 MP cameras, chest microphone array and 20 W speaker support interaction. The source describes a library of 70-plus expressions, poses and movements; that library count is not a DoF count.",
+        "Tritium and the historical optional TinMan telepresence operate on software/service foundations. Mains power, Ethernet and coming-soon Wi-Fi in the current exact table are kept separate from battery endurance and guaranteed present wireless delivery."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Mesmer specification",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/mesmer/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Mesmer product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/mesmer",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Mesmer overview",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2025/09/Mesmer-Overview-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://engineeredarts.com/robots/mesmer/specs"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-socibot-kiosk",
+      "manufacturer": "Engineered Arts",
+      "model": "SociBot Kiosk",
+      "highlights": [
+        "The manufacturer explicitly says SociBot was discontinued as of 2019. That is a discontinuation milestone, not its launch year or proof of current new-unit stock.",
+        "Kiosk has a 19-inch touchscreen and non-actuated cosmetic arms. The technical table gives approximately 42 kg including kiosk, 1708 mm height and 569 mm width; shipping/base-only and Mini measurements remain separate.",
+        "The package matrix gives three powered neck axes for roll, pitch and yaw, an internal pico projector, head camera and depth sensing for both variants. Projected facial animation is not extra mechanical DoF.",
+        "InYaFace and Virtual Robot support character animation and scripted interaction; historical TinMan, QR response, voice additions and recognition packages have their own options. Mains power and wired network setup do not establish battery operation or current cloud support."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer SociBot specification",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot_Technical_Spec.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer SociBot introduction and discontinuation notice",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer SociBot Kiosk/Mini package matrix",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot_At_a_Glance.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://wiki.engineeredarts.co.uk/SociBot_Technical_Spec.html"
+      ]
+    },
+    {
+      "robotId": "engineered-arts-socibot-mini",
+      "manufacturer": "Engineered Arts",
+      "model": "SociBot Mini",
+      "highlights": [
+        "The manufacturer explicitly says SociBot was discontinued as of 2019. That is a discontinuation milestone, not its launch year or proof of current new-unit stock.",
+        "Mini has a truncated torso and no touchscreen. The shared sensor/software statement does not make its mass or body dimensions identical to the larger Kiosk configuration.",
+        "The package matrix gives three powered neck axes for roll, pitch and yaw, an internal pico projector, head camera and depth sensing for both variants. Projected facial animation is not extra mechanical DoF.",
+        "InYaFace and Virtual Robot support character animation and scripted interaction; historical TinMan, QR response, voice additions and recognition packages have their own options. Mains power and wired network setup do not establish battery operation or current cloud support."
+      ],
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer SociBot Kiosk/Mini package matrix",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot_At_a_Glance.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer SociBot introduction and discontinuation notice",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer SociBot specification",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot_Technical_Spec.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://wiki.engineeredarts.co.uk/SociBot_At_a_Glance.html"
       ]
     }
   ]

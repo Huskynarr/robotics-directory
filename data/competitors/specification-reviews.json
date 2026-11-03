@@ -329,33 +329,122 @@
       "model": "Ameca",
       "sources": [
         {
-          "name": "Engineered Arts",
+          "name": "Engineered Arts — manufacturer Ameca Gen 2.6 specification",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca wiki",
           "type": "manufacturer",
           "url": "https://wiki.engineeredarts.co.uk/Ameca",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 1 manufacturer brochure; official wiki-linked download",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1Pws6QQTRrgZgAwbrC_xcHdCYPecGyPR4",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2025/09/Ameca-Gen-2-Overview-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-24/wiki.engineeredarts.co.uk-Ameca.json",
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-21.html",
       "fields": {
         "weight": {
-          "value": "",
-          "status": "not-documented",
-          "note": "Not documented in the reviewed primary source; unsupported catalog claim removed."
+          "value": "49 kg in Gen 1 brochure; 62 kg in Gen 2/2.6 material; generation-specific",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
         },
         "batteryLife": {
-          "value": "Mains power (100–250 V AC)",
-          "status": "documented",
-          "note": "AC input voltage is not battery endurance."
+          "value": "",
+          "status": "not-documented",
+          "note": "Former mains-voltage text moved into description/highlights rather than presented as battery endurance."
         },
         "dof": {
-          "value": "51 (generation 1) / 61 (generation 2)",
+          "value": "51 articulated movements in Gen 1; 61 actuated movements in Gen 2/2.6",
           "status": "documented",
-          "note": ""
+          "note": "Manufacturer explicitly distinguishes 51 Gen 1 articulated movements and 61 Gen 2 movements; 52 motors in Gen 1 is not the movement count."
         },
         "website": {
-          "value": "https://wiki.engineeredarts.co.uk/Ameca",
+          "value": "https://engineeredarts.com/robots/ameca/specs",
           "status": "documented",
-          "note": ""
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "size": {
+          "value": "Gen 1: 1870 mm height, 1800 mm arm span; Gen 2.6: 1870 x 470 x 850 mm H/W/D, 600 mm base diameter",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "Gen 2.6 lists four actuated movements per hand; earlier hand configurations remain separate",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "description": {
+          "value": "Full-size humanoid interaction family with generation-specific hardware. Gen 1 lists 49 kg and 51 articulated movements; Gen 2 and the current Gen 2.6 material list 62 kg and 61. Historical mains-powered mounting and current cloud-connected Tritium control remain separate from mobile battery endurance. Manufacturer sources use 2021 for the family release and early 2022 for Gen 1; the milestone basis is not silently reconciled.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2021",
+          "status": "conflicting",
+          "note": "Current family specification says 2021; manufacturer Gen 2 overview explicitly says Gen 1 released early 2022 and Gen 1 brochure labels January 2022. Reveal/release milestone basis is unresolved; both retained."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
         }
       }
     },
@@ -137465,6 +137554,1445 @@
           "value": "",
           "status": "not-documented",
           "note": "No full-recharge duration established. Automatic charging, opportunity charging ratios and battery life are not full charging time."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-ameca-gen-1",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Gen 1",
+      "sources": [
+        {
+          "name": "Engineered Arts — Ameca Gen 1 manufacturer brochure; official wiki-linked download",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1Pws6QQTRrgZgAwbrC_xcHdCYPecGyPR4",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca wiki",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/Ameca",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca historical base setup",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/images/d/d0/Ameca_base_setup_v1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/source-11.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "49 kg; Gen 1 brochure configuration",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "size": {
+          "value": "1870 mm height; 1800 mm arm span; not a complete body envelope",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "51 articulated movements; Gen 1 brochure",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://drive.google.com/uc?export=download&id=1Pws6QQTRrgZgAwbrC_xcHdCYPecGyPR4",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "First-generation Ameca hardware for programmable human-robot interaction. The January 2022 brochure lists 49 kg, 1870 mm height, 1800 mm arm span and 51 articulated movements. Its 52 motors are a separate component count. The wiki associates Gen 1 with Tritium 2 and a weighted, mains-powered installation.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2022",
+          "status": "documented",
+          "note": "Gen 1 brochure labels January 2022 and later Gen 2 brochure explicitly says Gen 1 released early 2022. Current generic family table gives 2021; no exact first-sale day or present new-unit stock inferred."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-ameca-gen-2",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Gen 2",
+      "sources": [
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2025/09/Ameca-Gen-2-Overview-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca wiki",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/Ameca",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/source-10.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "62 kg; Gen 2 brochure",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "size": {
+          "value": "1870 mm height; remaining unlabeled diagram dimensions not promoted to full envelope",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "61 actuated movements; Gen 2 brochure",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Second-generation full-size Ameca with increased facial fidelity and improved lip synchronisation in the manufacturer overview. Its technical page lists 62 kg, 1870 mm height and 61 actuated movements. Tritium 3 and mains-powered operation are described; the PDF title and file creation date do not establish an exact Gen 2 release year.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration launch year established. Family milestones, generation labels, discontinuation notices and PDF dates are separate."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-ameca-gen-2-6",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Gen 2.6",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ameca Gen 2.6 specification",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca Gen 2.6 setup guide, August 2026",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2026/08/Ameca-Gen-2.6-Setup-Guide-Aug-2026-%E2%80%93-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-21.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "62 kg; current Gen 2.6 specification",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "size": {
+          "value": "1870 x 470 x 850 mm H/W/D; 1800 mm arm span; 600 mm base diameter",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "Four actuated movements per hand in Gen 2.6 table",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "dof": {
+          "value": "61 actuated movements total; Gen 2.6 table",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://engineeredarts.com/robots/ameca/specs",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Named Gen 2.6 Ameca configuration in the current manufacturer specification, labeled 2.6 (2024). The table lists 62 kg, 61 actuated movements and a 1870 x 470 x 850 mm body envelope, with separate arm span and base dimensions. Its August 2026 setup guide documents installation, not a new product release. Mains power, Ethernet and cloud-connected Tritium remain configuration requirements.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Generation label 2.6 (2024), generic family release 2021 and August 2026 setup publication are distinct milestones; exact configuration release not established."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-ameca-desktop-gen-3",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Desktop Gen 3",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ameca Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca Desktop product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca-desktop",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-22.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "8.5 kg; Gen 3 desktop table",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "size": {
+          "value": "525 x 420 x 260 mm H/W/D; Gen 3 desktop configuration",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "32 actuated movements total; 27 face/head and 5 neck",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://engineeredarts.com/robots/ameca-desktop/specs",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Third-generation Ameca desktop humanoid for expressive, programmable interaction. The manufacturer gives a 22 June 2026 release, 8.5 kg, 525 x 420 x 260 mm and 32 movements. A chest wide-angle camera, mmWave radar and 40 W audio distinguish the advertised Gen 3 configuration. Mains power and cloud-connected Tritium are separate from battery operation.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Exact manufacturer Gen 3 specification and product page explicitly state 22 June 2026; stored year is 2026. No stock/dispatch commitment inferred."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-ameca-desktop-gen-2",
+      "manufacturer": "Engineered Arts",
+      "model": "Ameca Desktop Gen 2",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ameca Desktop specifications; select Gen 2 tab",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca-desktop/specs",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-26.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "8.5 kg metric vs approximately 7.98 kg converted imperial in Gen 2 table; unresolved",
+          "status": "conflicting",
+          "note": "Exact Gen 2 tab pairs 8.5 kg and 17.6 lb; the latter is approximately 7.98 kg. No supported reconciliation. Field uses equivalent kg quantities so the existing mass filter does not misread a mixed lb/kg string."
+        },
+        "size": {
+          "value": "550 x 420 x 260 mm H/W/D; 600 mm base diameter",
+          "status": "documented",
+          "note": "Native selected Gen 2 table dimensions retained with generation scope; base is separate. Values are not assumed identical to current Gen 3."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "32 actuated movements total; 27 head and 5 neck in Gen 2 table",
+          "status": "documented",
+          "note": "Total 32, head 27 and neck 5 are explicit. Untranslated shouldersDoF keys excluded."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://engineeredarts.com/robots/ameca-desktop/specs",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Second-generation Ameca desktop configuration from the manufacturer’s explicit Gen 2 specification tab. Its metric 8.5 kg label conflicts with the same row’s 17.6 lb value. The listed 2023 release and Gen 2 dimensions, audio and wired connectivity remain separate from the Gen 3 revision. Untranslated shoulder or safety placeholders do not create verified specifications.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2023",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-ami-desktop-gen-3",
+      "manufacturer": "Engineered Arts",
+      "model": "Ami Desktop Gen 3",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ami Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ami-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ami Desktop product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ami-desktop",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-23.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "8.5 kg; Gen 3 desktop table",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "size": {
+          "value": "525 x 420 x 260 mm H/W/D; Gen 3 desktop configuration",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "32 actuated movements total; 27 face/head and 5 neck",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://engineeredarts.com/robots/ami-desktop/specs",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Third-generation Ami desktop humanoid for expressive, programmable interaction. The manufacturer gives a 22 June 2026 release, 8.5 kg, 525 x 420 x 260 mm and 32 movements. A chest wide-angle camera, mmWave radar and 40 W audio distinguish the advertised Gen 3 configuration. Mains power and cloud-connected Tritium are separate from battery operation.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Exact manufacturer Gen 3 specification and product page explicitly state 22 June 2026; stored year is 2026. No stock/dispatch commitment inferred."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-ami-desktop-gen-2",
+      "manufacturer": "Engineered Arts",
+      "model": "Ami Desktop Gen 2",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Ami Desktop specifications; select Gen 2 tab",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ami-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ami Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ami-desktop/specs",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-27.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "8.5 kg metric vs approximately 7.98 kg converted imperial in Gen 2 table; unresolved",
+          "status": "conflicting",
+          "note": "Exact Gen 2 tab pairs 8.5 kg and 17.6 lb; the latter is approximately 7.98 kg. No supported reconciliation. Field uses equivalent kg quantities so the existing mass filter does not misread a mixed lb/kg string."
+        },
+        "size": {
+          "value": "525 x 470 x 850 mm H/W/D; 600 mm base diameter; exact Gen 2 table basis",
+          "status": "documented",
+          "note": "Native selected Gen 2 table dimensions retained with generation scope; base is separate. Values are not assumed identical to current Gen 3."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "32 actuated movements total; 27 head and 5 neck in Gen 2 table",
+          "status": "documented",
+          "note": "Total 32, head 27 and neck 5 are explicit. Untranslated shouldersDoF keys excluded."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://engineeredarts.com/robots/ami-desktop/specs",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Second-generation Ami desktop configuration from the manufacturer’s explicit Gen 2 specification tab. Its metric 8.5 kg label conflicts with the same row’s 17.6 lb value. The listed 2023 release and Gen 2 dimensions, audio and wired connectivity remain separate from the Gen 3 revision. Untranslated shoulder or safety placeholders do not create verified specifications.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2023",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-azi-desktop-gen-3",
+      "manufacturer": "Engineered Arts",
+      "model": "Azi Desktop Gen 3",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Azi Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/azi-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Azi Desktop product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/azi-desktop",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-24.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "8.5 kg; Gen 3 desktop table",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "size": {
+          "value": "525 x 420 x 260 mm H/W/D; Gen 3 desktop configuration",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "32 actuated movements total; 27 face/head and 5 neck",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://engineeredarts.com/robots/azi-desktop/specs",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Third-generation Azi desktop humanoid for expressive, programmable interaction. The manufacturer gives a 22 June 2026 release, 8.5 kg, 525 x 420 x 260 mm and 32 movements. A chest wide-angle camera, mmWave radar and 40 W audio distinguish the advertised Gen 3 configuration. Mains power and cloud-connected Tritium are separate from battery operation.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Exact manufacturer Gen 3 specification and product page explicitly state 22 June 2026; stored year is 2026. No stock/dispatch commitment inferred."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-azi-desktop-gen-2",
+      "manufacturer": "Engineered Arts",
+      "model": "Azi Desktop Gen 2",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Azi Desktop specifications; select Gen 2 tab",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/azi-desktop/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Azi Desktop Gen 3 specifications",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/azi-desktop/specs",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-28.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "8.5 kg metric vs approximately 7.98 kg converted imperial in Gen 2 table; unresolved",
+          "status": "conflicting",
+          "note": "Exact Gen 2 tab pairs 8.5 kg and 17.6 lb; the latter is approximately 7.98 kg. No supported reconciliation. Field uses equivalent kg quantities so the existing mass filter does not misread a mixed lb/kg string."
+        },
+        "size": {
+          "value": "525 x 470 x 850 mm H/W/D; 600 mm base diameter; exact Gen 2 table basis",
+          "status": "documented",
+          "note": "Native selected Gen 2 table dimensions retained with generation scope; base is separate. Values are not assumed identical to current Gen 3."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "32 actuated movements total; 27 head and 5 neck in Gen 2 table",
+          "status": "documented",
+          "note": "Total 32, head 27 and neck 5 are explicit. Untranslated shouldersDoF keys excluded."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://engineeredarts.com/robots/azi-desktop/specs",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Second-generation Azi desktop configuration from the manufacturer’s explicit Gen 2 specification tab. Its metric 8.5 kg label conflicts with the same row’s 17.6 lb value. The listed 2023 release and Gen 2 dimensions, audio and wired connectivity remain separate from the Gen 3 revision. Untranslated shoulder or safety placeholders do not create verified specifications.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2023",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-mesmer",
+      "manufacturer": "Engineered Arts",
+      "model": "Mesmer",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer Mesmer specification",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/mesmer/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Mesmer product page",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/mesmer",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Mesmer overview",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2025/09/Mesmer-Overview-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/rendered-25.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "62 kg; current full-size Mesmer table",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "size": {
+          "value": "1870 x 470 x 850 mm H/W/D; 1800 mm arm span; 600 mm base diameter",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "Four actuated movements per hand in current Mesmer table",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "dof": {
+          "value": "61 actuated movements total; current full-size Mesmer configuration",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://engineeredarts.com/robots/mesmer/specs",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Customisable full-size humanoid character platform for entertainment and interaction. The current manufacturer specification lists 62 kg, 61 movements and 1870 x 470 x 850 mm, with a family release label of 2017. Custom scanning, skin, hair and animation create character appearances; historical named characters are not automatically identical hardware SKUs. Cloud-connected Tritium and optional historical telepresence remain separate from present service availability.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "2017",
+          "status": "documented",
+          "note": "Current manufacturer Mesmer specification explicitly labels release 2017; exact day and launch of every custom character are not inferred."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-robothespian-rt4",
+      "manufacturer": "Engineered Arts",
+      "model": "RoboThespian RT4",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian technical specification",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian_Technical_Spec.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian RT4 introduction",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian standard package",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian_At_a_Glance.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/source-4.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "33 kg excluding floor base; 44 kg including base; kiosk and compressor separate",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "size": {
+          "value": "1750 mm height without base; 1775 mm with base; base width 480 mm vs inconsistent 23.5-inch label",
+          "status": "conflicting",
+          "note": "Native including-base row pairs 480 mm with 23.5 inches, but separate base-diameter table pairs 480 mm with 19 inches. No silent conversion repair; body height remains separately scoped."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "Individually opening/closing fingers; adaptive gripping hands optional",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "dof": {
+          "value": "27 powered head, arm and body axes in standard RT4 package; options separate",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://wiki.engineeredarts.co.uk/RoboThespian_Technical_Spec.html",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Historical RT4 humanoid exhibit with hybrid pneumatic and electric actuation. The standard package explicitly lists 27 powered axes; the technical table separates 33 kg bare robot, 44 kg with base, a 22 kg touchscreen kiosk and optional compressor. It needs mains power and filtered compressed air. Projected face, adaptive gripping and customer-specific active legs are options; the active-leg feet remain secured.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration launch year established. Family milestones, generation labels, discontinuation notices and PDF dates are separate."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The documented 840 mm runs from robot back to fingertips with arms forward. It is not a conventional shoulder/flange arm-reach rating; retained in highlights."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-socibot-kiosk",
+      "manufacturer": "Engineered Arts",
+      "model": "SociBot Kiosk",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer SociBot specification",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot_Technical_Spec.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer SociBot introduction and discontinuation notice",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer SociBot Kiosk/Mini package matrix",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot_At_a_Glance.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/source-7.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "Approximately 42 kg including kiosk; Mini mass not established",
+          "status": "documented",
+          "note": "42 kg belongs to the including-kiosk dimensions table. No independent Mini mass established."
+        },
+        "size": {
+          "value": "1708 mm height x 569 mm width including kiosk; depth not specified",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "3 powered neck axes: roll, pitch and yaw; no actuated kiosk arms",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://wiki.engineeredarts.co.uk/SociBot_Technical_Spec.html",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Historical projected-face humanoid interaction exhibit, explicitly discontinued since 2019 in the manufacturer wiki. The Kiosk version includes a touchscreen and cosmetic, non-actuated arms; its approximately 42 kg and 1708 mm height belong to the kiosk configuration. Both versions share a three-axis neck, internal face projector, sensors, programmable software and mains-powered indoor use.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer explicitly says discontinued since 2019; that date is not reused as launch year."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
+        }
+      }
+    },
+    {
+      "robotId": "engineered-arts-socibot-mini",
+      "manufacturer": "Engineered Arts",
+      "model": "SociBot Mini",
+      "sources": [
+        {
+          "name": "Engineered Arts — manufacturer SociBot Kiosk/Mini package matrix",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot_At_a_Glance.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer SociBot introduction and discontinuation notice",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer SociBot specification",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/SociBot_Technical_Spec.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/source-8.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No current numerical unit offer established by these sources. Demo/quote/buy links do not themselves supply a price."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "42 kg belongs to the including-kiosk dimensions table. No independent Mini mass established."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The sources describe mains-powered installation; no battery endurance is established. Input voltage/wattage and supply count are not battery hours."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No maximum battery operating duration established for this mains-powered installation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "dof": {
+          "value": "3 powered neck axes: roll, pitch and yaw; no actuated kiosk arms",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric arm lifting rating established. Gesturing, adaptive gripping descriptions and total robot mass are not rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No translational travel speed established. Gestures, knee bending, facial animation and a fixed weighted base do not demonstrate walking."
+        },
+        "terrain": {
+          "value": "Indoor fixed installation; 10-30 °C and 45-60% operating humidity in manufacturer guidance",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-robot ingress rating established. CE/FCC claims, safety-sensor coverage and indoor use do not supply an IP code."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration value established by the selected primary material. Other generations, optional hardware, accessories and document dates are kept separate."
+        },
+        "website": {
+          "value": "https://wiki.engineeredarts.co.uk/SociBot_At_a_Glance.html",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "description": {
+          "value": "Historical projected-face humanoid interaction exhibit, explicitly discontinued since 2019 in the manufacturer wiki. The compact Mini has a truncated torso and no touchscreen; the kiosk mass and dimensions are not copied to it. Both versions share a three-axis neck, internal face projector, sensors, programmable software and mains-powered indoor use.",
+          "status": "documented",
+          "note": "Named configuration value from manufacturer material with source/generation and measurement scope retained. Manufacturer claim, not independent performance testing."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manufacturer explicitly says discontinued since 2019; that date is not reused as launch year."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery recharge duration established. Mains supply, mounting and network setup are not charging."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T07:53:03.483Z",
+  "generatedAt": "2026-11-03T08:07:53.437Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 465,
-    "withoutSelectedFieldReview": 53,
-    "selectedFields": 8540,
+    "withSelectedFieldReview": 466,
+    "withoutSelectedFieldReview": 52,
+    "selectedFields": 8570,
     "selectedFieldStatuses": {
-      "documented": 3399,
-      "not-documented": 4943,
-      "conflicting": 180,
+      "documented": 3409,
+      "not-documented": 4961,
+      "conflicting": 182,
       "roadmap": 18
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 121,
+    "sourceGroupsWithCompanyAuthoredFocus": 122,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -299,31 +299,6 @@
       "robotIds": [
         "beatbot-aquasense-x",
         "beatbot-iskim"
-      ]
-    },
-    {
-      "brandId": "engineered-arts",
-      "name": "Engineered Arts",
-      "aliases": [
-        "Ameca",
-        "Ameca Robotics"
-      ],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/ameca-robotics",
-        "https://buyandrentrobots.com/companies/engineered-arts"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 2,
-      "withDatedHighlights": 2,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 1,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "engineered-arts-ameca",
-        "engineered-arts-robothespian-rt4"
       ]
     },
     {
@@ -3245,6 +3220,31 @@
       "robotIds": [
         "ekso-bionics-ekso-indego-personal",
         "ekso-bionics-eksonr"
+      ]
+    },
+    {
+      "brandId": "engineered-arts",
+      "name": "Engineered Arts",
+      "aliases": [
+        "Ameca",
+        "Ameca Robotics"
+      ],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/ameca-robotics",
+        "https://buyandrentrobots.com/companies/engineered-arts"
+      ],
+      "catalogModels": 14,
+      "reviewedReferenceTargets": 2,
+      "withDatedHighlights": 2,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "engineered-arts-ameca",
+        "engineered-arts-robothespian-rt4"
       ]
     },
     {
@@ -6696,14 +6696,14 @@
         "https://buyandrentrobots.com/companies/ameca-robotics",
         "https://buyandrentrobots.com/companies/engineered-arts"
       ],
-      "catalogModels": 2,
+      "catalogModels": 14,
       "reviewedReferenceTargets": 2,
       "withDatedHighlights": 2,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 1,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 2,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "engineered-arts-ameca",
         "engineered-arts-robothespian-rt4"
@@ -25000,29 +25000,77 @@
       "brandId": "engineered-arts",
       "category": "humanoid",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "Engineered Arts",
+          "name": "Engineered Arts — manufacturer Ameca Gen 2.6 specification",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca wiki",
           "type": "manufacturer",
           "url": "https://wiki.engineeredarts.co.uk/Ameca",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 1 manufacturer brochure; official wiki-linked download",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1Pws6QQTRrgZgAwbrC_xcHdCYPecGyPR4",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2025/09/Ameca-Gen-2-Overview-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
       "hasSelectedFieldReview": true,
-      "selectedFields": 4,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 3,
-        "not-documented": 1,
-        "conflicting": 0,
+        "documented": 7,
+        "not-documented": 9,
+        "conflicting": 1,
         "roadmap": 0
       },
       "specificationSources": [
         {
-          "name": "Engineered Arts",
+          "name": "Engineered Arts — manufacturer Ameca Gen 2.6 specification",
+          "type": "manufacturer",
+          "url": "https://engineeredarts.com/robots/ameca/specs",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer Ameca wiki",
           "type": "manufacturer",
           "url": "https://wiki.engineeredarts.co.uk/Ameca",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 1 manufacturer brochure; official wiki-linked download",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1Pws6QQTRrgZgAwbrC_xcHdCYPecGyPR4",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://drive.google.com/uc?export=download&id=1YGi0aX23bvT745vkZ103m65n_9yk4KkN",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — Ameca Gen 2 manufacturer brochure; identical wiki-linked/official-host document",
+          "type": "manufacturer",
+          "url": "https://media.engineeredarts.com/wp-content/uploads/2025/09/Ameca-Gen-2-Overview-Engineered-Arts.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
       "sourceReferences": [
@@ -25057,24 +25105,55 @@
       "brandId": "engineered-arts",
       "category": "humanoid",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 9,
       "highlightSources": [
         {
-          "name": "Engineered Arts",
+          "name": "Engineered Arts — manufacturer RoboThespian technical specification",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian_Technical_Spec.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian RT4 introduction",
           "type": "manufacturer",
           "url": "https://wiki.engineeredarts.co.uk/RoboThespian",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian standard package",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian_At_a_Glance.html",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 6,
+        "not-documented": 10,
+        "conflicting": 1,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian technical specification",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian_Technical_Spec.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian RT4 introduction",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Engineered Arts — manufacturer RoboThespian standard package",
+          "type": "manufacturer",
+          "url": "https://wiki.engineeredarts.co.uk/RoboThespian_At_a_Glance.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

@@ -558,7 +558,7 @@ test('Ameca identity correction retains old links, favorites and comparison sele
   await expect(page.locator('section[aria-labelledby="product-highlights"]')).toContainText(
     'mains power',
   );
-  await expect(page.locator('[data-spec-key="batteryLife"]')).toContainText('Mains power');
+  await expect(page.locator('[data-spec-key="batteryLife"]')).toHaveCount(0);
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute(
     'href',
     /\/robot\/engineered-arts-ameca\//,
