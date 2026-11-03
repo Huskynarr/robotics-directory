@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T09:49:08.856Z",
+  "generatedAt": "2026-11-03T10:05:12.826Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 475,
-    "withoutSelectedFieldReview": 43,
-    "selectedFields": 8727,
+    "withSelectedFieldReview": 476,
+    "withoutSelectedFieldReview": 42,
+    "selectedFields": 8744,
     "selectedFieldStatuses": {
-      "documented": 3468,
-      "not-documented": 5055,
+      "documented": 3473,
+      "not-documented": 5067,
       "conflicting": 186,
       "roadmap": 18
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 131,
+    "sourceGroupsWithCompanyAuthoredFocus": 132,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -281,28 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "daifuku",
-      "name": "Daifuku",
-      "aliases": [
-        "Daifuku AGVs"
-      ],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/daifuku"
-      ],
-      "catalogModels": 1,
-      "reviewedReferenceTargets": 1,
-      "withDatedHighlights": 1,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "daifuku-sotr-m"
-      ]
-    },
     {
       "brandId": "diligent-robotics",
       "name": "Diligent Robotics",
@@ -3728,6 +3706,28 @@
       "robotIds": [
         "construction-robotics-sam100"
       ]
+    },
+    {
+      "brandId": "daifuku",
+      "name": "Daifuku",
+      "aliases": [
+        "Daifuku AGVs"
+      ],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/daifuku"
+      ],
+      "catalogModels": 21,
+      "reviewedReferenceTargets": 1,
+      "withDatedHighlights": 1,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "daifuku-sotr-m"
+      ]
     }
   ],
   "companies": [
@@ -5883,14 +5883,14 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/daifuku"
       ],
-      "catalogModels": 1,
+      "catalogModels": 21,
       "reviewedReferenceTargets": 1,
       "withDatedHighlights": 1,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "daifuku-sotr-m"
       ]
@@ -21648,24 +21648,43 @@
       "brandId": "daifuku",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 5,
       "highlightSources": [
         {
-          "name": "Daifuku",
+          "name": "Daifuku — SOTR-M mobile conveyor case/tote transport",
           "type": "manufacturer",
           "url": "https://www.daifuku.com/solution/intralogistics/products/vehicle/sotr-m/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 12,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Daifuku — SOTR-M mobile conveyor case/tote transport",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/intralogistics/products/vehicle/sotr-m/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

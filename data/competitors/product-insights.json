@@ -12869,14 +12869,22 @@
       "highlights": [
         "Mobile conveyor platform transports cases and totes between warehouse processes",
         "Supports circulation between picking stations and connection with automated storage",
-        "Transport layout and fleet size can be configured as operational needs change"
+        "Transport layout and fleet size can be configured as operational needs change",
+        "Mobile conveyors connect picking stations and automated storage for just-in-time parts feeding. Reconfigurable routes and adding vehicles are manufacturer-described scalability features, not independently measured throughput or cost savings.",
+        "The 2026 profile describes conveyor-less floor-based transport at system level; the product page explicitly equips each mobile robot with a conveyor. These statements describe different scopes and do not establish that the robot has no conveyor."
       ],
       "sources": [
         {
-          "name": "Daifuku",
+          "name": "Daifuku — SOTR-M mobile conveyor case/tote transport",
           "type": "manufacturer",
           "url": "https://www.daifuku.com/solution/intralogistics/products/vehicle/sotr-m/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -36323,6 +36331,571 @@
       ],
       "discoveredIn": [
         "https://cmrsurgical.com/versius-plus"
+      ]
+    },
+    {
+      "robotId": "daifuku-sotr-l",
+      "manufacturer": "Daifuku",
+      "model": "SOTR-L",
+      "highlights": [
+        "Up-to-1000 kg pallet handling is specific to SOTR-L. Integration with Unit Load AS/RS and case-picking robots supports production feeding and dispatch sorting; their separate ratings are not inherited.",
+        "Manufacturer describes reconfigurable layouts, adding vehicles and maintaining other robots while one is serviced. Sensors and reduced forklift traffic are design claims, not proof of zero accidents or an independently verified safety rating."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — SOTR-L pallet sorting and transport",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/intralogistics/products/vehicle/sotr-l/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/intralogistics/products/vehicle/sotr-l/"
+      ]
+    },
+    {
+      "robotId": "daifuku-sotr-s",
+      "manufacturer": "Daifuku",
+      "model": "SOTR-S",
+      "highlights": [
+        "Double-sided tilting trays sort piece items into plate or belt-conveyor chutes. Lifters move vehicles between levels; workers induct products and an overhead reader scans barcodes.",
+        "Up to 180 m/min describes vehicle travel, while up to 10000 lines per hour describes the integrated sorting system. Vehicle count, chute layout, item mix and induction conditions remain relevant; neither is a guaranteed single-vehicle output.",
+        "Manufacturer describes adding vehicles and chutes, and rapid charging stations without an exact full-charge time. Footprint and labor/ROI comparisons retain manufacturer-claim status; the Nojima installation is an example, not proof of universal results."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — SOTR-S integrated piece sorting",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/intralogistics/products/sort/sotr-s/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Logis-Tech Tokyo 2024 exhibition;dated models and future2030concepts",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/daifuku-square/article/001651/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/intralogistics/products/sort/sotr-s/"
+      ]
+    },
+    {
+      "robotId": "daifuku-sotr-f",
+      "manufacturer": "Daifuku",
+      "model": "SOTR-F",
+      "highlights": [
+        "The 2026 manufacturer profile separately names SOTR-F with an integrated forklift mechanism. SOTR-L pallet capacity, SOTR-S speed and Smart Handling fork ratings do not establish this model’s specifications."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/ir/assets/profile2026_en.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-stv",
+      "manufacturer": "Daifuku",
+      "model": "STV",
+      "highlights": [
+        "Vehicle travel reaches a manufacturer maximum 200 m/min and load transfer 30 m/min. Double-chain, triple-chain and roller conveyor interfaces are alternatives, not one standard robot package.",
+        "A dedicated cold-resistant STV variation is described for -30°C operation. This does not establish the rating of every STV or of SOTR vehicles.",
+        "Loop and dual layouts can isolate a vehicle for maintenance while others work; the manufacturer excludes the single-shuttle system from that continuity claim. A 1.5-times dual-shuttle throughput comparison is a conditional system claim, not an absolute hourly output."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — Sorting Transfer Vehicle rail-guided pallet transport",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/intralogistics/products/vehicle/sorting-transfer-vehicle/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/intralogistics/products/vehicle/sorting-transfer-vehicle/"
+      ]
+    },
+    {
+      "robotId": "daifuku-m100-tt",
+      "manufacturer": "Daifuku",
+      "model": "M100-TT",
+      "highlights": [
+        "Low-profile tunneling reduces the combined trailer/vehicle footprint. Tow-pin load, drawbar traction and carried wheel loading are separate quantities; the trailer rating is conditional on speed, friction, grade and reverse travel.",
+        "CartTools/AGVTools and SAM traffic software support plant-control integration over configured Wi-Fi. Automatic charging, reverse travel and sensor packages depend on equipment; charge amps do not establish charge time or continuous battery endurance."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M100_TT_UK.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M100_TT_UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — M100-TT_Tunnel-Tugger.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M100-TT_Tunnel-Tugger.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Global AGV portfolio and UK brochure links",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/automated-guided-vehicles/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M100_TT_UK.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m100-st",
+      "manufacturer": "Daifuku",
+      "model": "M100-ST",
+      "highlights": [
+        "Low-profile tunneling reduces the combined trailer/vehicle footprint. Tow-pin load, drawbar traction and carried wheel loading are separate quantities; the trailer rating is conditional on speed, friction, grade and reverse travel.",
+        "CartTools/AGVTools and SAM traffic software support plant-control integration over configured Wi-Fi. Automatic charging, reverse travel and sensor packages depend on equipment; charge amps do not establish charge time or continuous battery endurance."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M100_ST_UK.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M100_ST_UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — M100-ST_Short_Tunnel-Tugger.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M100-ST_Short_Tunnel-Tugger.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Global AGV portfolio and UK brochure links",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/automated-guided-vehicles/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M100_ST_UK.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m300-tt",
+      "manufacturer": "Daifuku",
+      "model": "M300-TT",
+      "highlights": [
+        "Rated trailer 2041 kg at 48.8 m/min remains separate from carried payload and 36 kg constant/73 kg starting drawbar traction. Reverse operation, added module mass and a 1% incline change allowable trailer load.",
+        "Up to 73.2 m/min requires inertial guidance; the main trailer table specifies 2041 kg at 48.8 m/min. Charging options list current, not operating hours or a full-charge time."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M300_TT_UK.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M300_TT_UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — M300-TT_Tunnel-Tugger.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M300-TT_Tunnel-Tugger.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Global AGV portfolio and UK brochure links",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/automated-guided-vehicles/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M300_TT_UK.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m300-cf",
+      "manufacturer": "Daifuku",
+      "model": "M300-CF",
+      "highlights": [
+        "UK sheet rates 635 kg at 508 mm load center and 558 kg at 610 mm, with floor-to 1219 mm fork range. This is fork payload, not trailer towing capacity or the rating of M3K-CF.",
+        "UK mass 1173 kg differs from the US pair 2585 lb/1084 kg, whose units do not reconcile. UK reduced speed is linked to laser guidance; US reduced speed to magnetic tape. These discrepancies stay unresolved rather than selecting a universal maximum."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M300_CF_UK.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M300_CF_UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — M300-CF_Counterbalance_Fork.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M300-CF_Counterbalance_Fork.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Global AGV portfolio and UK brochure links",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/automated-guided-vehicles/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M300_CF_UK.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m300-sc",
+      "manufacturer": "Daifuku",
+      "model": "M300-SC",
+      "highlights": [
+        "Single roller conveyor transfers pallets left or right using optical interfaces. UK sheet specifies maximum 1200×1200 mm pallet, with 1451 kg distributed over at least 1016×1016 mm; US sheet specifies 48×48 in pallet. Regional limits retain their source.",
+        "Conveyor-top height 457–813 mm is selectable in 25.4 mm increments; it does not establish powered lift stroke. The printed conveyor transfer range 13.7 to 3.1 m/min is not vehicle travel speed and is not silently reordered into a new rating."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M300_SC_UK.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M300_SC_UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — M300-SC_Single_Conveyor.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M300-SC_Single_Conveyor.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Global AGV portfolio and UK brochure links",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/automated-guided-vehicles/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M300_SC_UK.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m500-u",
+      "manufacturer": "Daifuku",
+      "model": "M500-U",
+      "highlights": [
+        "Flat-deck 2268 kg capacity becomes 1814 kg with conveyor or lift deck. Lift-deck 464 mm height is an option envelope, not a generic stroke or a rating inherited by every deck.",
+        "The UK brochure specifies 907 kg with batteries and 1995 mm length. US U2200 is a separately named regional entry with slightly different printed values; underlying hardware/rename equivalence remains unresolved.",
+        "Inertial travel is listed to 73 m/min and natural-feature travel to 109 m/min. Automatic charging and 100% duty cycle are fleet/power-management claims, not a measured per-charge runtime."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M500U_AGV_UK.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M500U_AGV_UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Global AGV portfolio and UK brochure links",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/automated-guided-vehicles/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/solution/assets/pdf/automated-guided-vehicles/M500U_AGV_UK.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-u2200",
+      "manufacturer": "Daifuku",
+      "model": "U2200",
+      "highlights": [
+        "US sheet rates 2268 kg on the base flat platform and 1814 kg with conveyor/lift deck. Its 909 kg mass and 1996 mm length remain owned by U2200 rather than silently replacing M500-U’s 907 kg/1995 mm figures.",
+        "The manufacturer lists 140 A automatic and up-to 25 A manual charging and cumulative battery Ah-life figures. None establishes a complete-charge duration or a single-charge operating-hour guarantee."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — U2200_Unit_Load_AGV.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/U2200_Unit_Load_AGV.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/U2200_Unit_Load_AGV.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m3k-cf",
+      "manufacturer": "Daifuku",
+      "model": "M3K-CF",
+      "highlights": [
+        "Body length excludes forks; 1219 mm or 1829 mm lift options correspond to 2108 mm or 2718 mm vehicle height. Separate fork dimensions and battery mass are not folded into an invented overall envelope.",
+        "Brochure lists 360-degree obstacle detection, an operator-aboard manual mode and 300 A automatic charging. ANSI compliance is a manufacturer statement, not an independently verified installation certification or charge-time rating."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M3K-CF_Counterbalance_Fork.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M3K-CF_Counterbalance_Fork.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M3K-CF_Counterbalance_Fork.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m8k-pj",
+      "manufacturer": "Daifuku",
+      "model": "M8K-PJ",
+      "highlights": [
+        "The headline 8000 lb capacity requires heavier-duty forks; standard load is 4500 lb at 24 in load center. Optional 96 in forks require engineering consultation; no unqualified double-pallet or maximum-load guarantee is inferred.",
+        "Forward maximum 109 m/min differs from reverse 27.5 m/min. Fork heights 233 mm raised and 84 mm lowered are separate from body height; lift/lower seconds are motion cycles, not battery runtime or full-charge time."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M8K-PJ_Pallet_Jack.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M8K-PJ_Pallet_Jack.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M8K-PJ_Pallet_Jack.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m10k-t",
+      "manufacturer": "Daifuku",
+      "model": "M10K-T",
+      "highlights": [
+        "The 10000 lb towing label is separate from 200 lb constant/300-plus-lb starting drawbar traction. Battery mass, grade and trailer conditions are not combined into an inferred carried payload.",
+        "The technical sheet prints 89 in and 2134 mm as one height pair, which does not reconcile. It also lists charge-current limits and 88% duty cycle; these do not establish operating hours or full-charge duration."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M10K-T_Tugger.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M10K-T_Tugger.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M10K-T_Tugger.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-m40k-t",
+      "manufacturer": "Daifuku",
+      "model": "M40K-T",
+      "highlights": [
+        "The manufacturer prints 40000 lb/18200 kg towing capacity, with 2 m/s loaded and 2.5 m/s empty. These are towing and load-state values, not a carried payload or one universal travel maximum.",
+        "Optional VDA5050, laser guidance and event cameras are configuration-specific. The battery line prints 420 Ah or 6830 Ah; the latter is retained as unresolved brochure text and is not silently changed or converted into endurance."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — M40K-T_Tugger.pdf",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M40K-T_Tugger.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — US/Canada AGV portfolio and regional labels",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/us/solution/list/vehiclecart/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/us/assets/pdf/solution/vehiclecart/M40K-T_Tugger.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-xy-picking-robot",
+      "manufacturer": "Daifuku",
+      "model": "XY-Picking Robot",
+      "highlights": [
+        "Profile 2026 names XY-Picking Robot separately from SOTR vehicles and describes three-axis handling with image recognition. A task-axis description is not a verified count of every independent mechanical joint.",
+        "The generic piece-picking integration page discusses automatic hand changing and says robots are not sold by themselves. It does not prove those exact tool options belong to XY-Picking Robot; payload, speed and exact standalone sale conditions remain unverified for the named configuration."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/ir/assets/profile2026_en.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-cleanway-clw-08k",
+      "manufacturer": "Daifuku",
+      "model": "Cleanway CLW-08K",
+      "highlights": [
+        "The 2024 manufacturer exhibition report names CLW-08K for specialized material containers in back-end semiconductor production. Later CLW-A7 up-to 100 kg capacity is not transferred to this model.",
+        "The report’s 2030 fully automated logistics vision is future-oriented context; it is not proof that CLW-08K implements every proposed AI, airport or warehouse function."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — Logis-Tech Tokyo 2024 exhibition;dated models and future2030concepts",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/daifuku-square/article/001651/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/daifuku-square/article/001651/"
+      ]
+    },
+    {
+      "robotId": "daifuku-cleanway-clw-a7",
+      "manufacturer": "Daifuku",
+      "model": "Cleanway CLW-A7",
+      "highlights": [
+        "Profile 2026 identifies CLW-A7 for enlarged panel-level-package substrates and loads up to 100 kg. The low-vibration design is a manufacturer claim without a numeric vibration/cleanliness rating in the selected source.",
+        "CLW-A7 and the 2024 exhibited CLW-08K retain separate model ownership. The 100 kg rating does not establish capacity of CLW-08K, all Cleanway vehicles or an entire fab installation."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Cleanroom systems",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/solution/cleanroom/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/ir/assets/profile2026_en.pdf"
+      ]
+    },
+    {
+      "robotId": "daifuku-trvs",
+      "manufacturer": "Daifuku",
+      "model": "TRVS",
+      "highlights": [
+        "Up to 6.5 tons in the 2024 report belongs to one tugger; more than 10 tons requires connected units. Profile 2026’s broader above-six-ton statement does not establish a new universal or per-unit 10 ton rating.",
+        "Cart-based body transport and multidirectional movement support different EV, hybrid and gasoline line layouts. These are configuration capabilities, not proof of fully autonomous assembly or zero production downtime."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — Logis-Tech Tokyo 2024 exhibition;dated models and future2030concepts",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/daifuku-square/article/001651/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Profile 2026;named robots and component ownership",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/daifuku-square/article/001651/"
+      ]
+    },
+    {
+      "robotId": "daifuku-mit",
+      "manufacturer": "Daifuku",
+      "model": "MIT",
+      "highlights": [
+        "Stainless-steel adjustable table and tilt-return mechanism let security staff inspect baggage on the platform. The robot transports bags; TSA personnel perform the inspection and clearance.",
+        "The manufacturer describes magnetic-tape route changes, floor charging points, fleet control and adjustable obstacle-avoidance tolerances. No exact full-charge time, per-charge runtime or numeric payload is established; 20 kg baggage is an illustrative workload, not rated capacity.",
+        "The 2024 manufacturer exhibition report says more than 500 MIT systems operate across ten US airports. This is a dated supplier statement, not an independently verified current fleet count or a security/safety certification."
+      ],
+      "sources": [
+        {
+          "name": "Daifuku — MIT baggage inspection platform manufacturer interview",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/daifuku-square/article/000941/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Daifuku — Logis-Tech Tokyo 2024 exhibition;dated models and future2030concepts",
+          "type": "manufacturer",
+          "url": "https://www.daifuku.com/daifuku-square/article/001651/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.daifuku.com/daifuku-square/article/000941/"
       ]
     }
   ]
