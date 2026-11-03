@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.326 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1072 |
-| Datierte Produktmerkmal-Datensätze einschließlich 184 bestehender Modelle | 1256 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.327 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1073 |
+| Datierte Produktmerkmal-Datensätze einschließlich 184 bestehender Modelle | 1257 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 127 |
+| Firmenfokus-Prüfungen mit Quellen | 128 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1072 ergänzte Modelle ergeben 2.326 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1073 ergänzte Modelle ergeben 2.327 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-127 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+128 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1256 Datensätze
+Modellseiten verlinken Markenprofile. Die 1257 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 466 haben ausgewählte Datenfeldprüfungen und 52
+haben datierte Merkmalsbelege; 467 haben ausgewählte Datenfeldprüfungen und 51
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11059,3 +11059,66 @@ Daten-Zwischencommit `73c920cc8f3af7e761319f29ea03589bfa09b849` ist auf `codex/c
 geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
 historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben unbewiesen.
+
+
+## Ergänzung 133 – TyBOT und IronBOT: Arbeitsleistung, Konfigurationsgrenzen und betreuter Betrieb (3. November 2026)
+
+Eine neue Zeile IronBOT V3.0 und die bestehende TyBOT-Zeile erhalten zusammen
+38 ausgewählte Feldprüfungen: 19 dokumentiert, 17 nicht dokumentiert und zwei
+widersprüchlich. Acht Merkmalsaussagen und vier zusätzliche Produktquellenverweise
+ergänzen den Bestand; die bisherigen TyBOT-Merkmale und Quellen-URLs bleiben
+bestehen. Hinzu kommt ein Herstellerfokus. Gesamt: 2.327 Katalogzeilen,
+1.257 datierte Merkmalsdatensätze mit 5.588 Aussagen und 2.572 Quellenverweisen,
+1.187 Feldprüfungen mit 22.524 Feldern sowie 128 Firmenfokus-Prüfungen. Von den
+518 ursprünglichen Queue-Zielen haben 467 eine ausgewählte Feldprüfung; 51 bleiben
+offen. Die Dokumentation ist in `reports/competitor-batch-133-evidence.json` abgelegt.
+
+TyBOT erhält getrennte Angaben für aktive Bindeleistung, Schienenspannweite,
+variable Fachwerklänge, Grundmasse, Längsfahrt und Generatorlaufzeit. Die aktive
+Rate wird nicht als garantierte Schichtleistung verstanden. Die Batterieangabe
+des Belly-Box-Bediengeräts ist keine Roboterlaufzeit; optionale Tragewinden liefern
+keine Standardnutzlast. Base/Standard/Full sind hier Maßkonfigurationen und keine
+zusätzlich belegten eigenständigen Modelle. Regenwerbung ist keine IP-Schutzart.
+
+IronBOT ist in der technischen PDF ausdrücklich als V3.0 bezeichnet. Material-
+Tragfähigkeit und pro Stunde platzierte Materialmasse sind verschiedene Größen;
+Schienenspannweite und Stablänge bleiben getrennt. Die imperialen Angaben zur
+unbeladenen Masse und Höhe stimmen nicht mit den danebenstehenden metrischen
+Spannen überein. Beide Konflikte bleiben sichtbar. Der allgemeine aktuelle
+Webseitenablauf verlangt eine betreuende Person für Erstpositionierung, Abstände
+und Vereinzelung; anschließend nutzt das Gerät lokale Odometrie. Die Webseite
+belegt Familienkontext, keine identische Konfiguration jeder Generation. Die
+Copyright-Jahre 2025/2026 werden nicht als Erscheinungsjahre übernommen.
+
+Acht gespeicherte HTTP-200-Antworten, darunter drei Hersteller-PDFs, sind mit Hashes
+belegt. Eine anfängliche parallele Anfrage scheiterte an temporärer DNS-Auflösung;
+Teilantworten daraus wurden nicht als Beleg verwendet. Alle acht endgültigen
+Antworten wurden anschließend einzeln erfasst. Geprüft wurden nativer Text und
+HTML; kein Recherchebrowser, keine Bild-/PDF-Sichtprüfung, OCR, Medienübernahme,
+Anmeldung, Formulare oder Transaktionen. BOTs Reporting/Support sowie RaaS und
+Certified Innovators bleiben Software-/Leistungsangebote.
+
+808 Unit-Tests in 64 Dateien und zwölf Desktop-/Mobil-Browserfälle, darunter vier
+Axe-Prüfungen, bestehen. Build: 3.378 Seiten; Audit: null Fehler, 1.206 Warnungen.
+Die zusätzliche Warnung betrifft das nicht belegte Erscheinungsjahr von IronBOT.
+Eine erste Filterprüfung erkannte, dass eine lb-Erwähnung hinter einer kg-Spanne
+die bestehende Einheitenauswertung verfälschte. Im Massenfeld stehen daher beide
+Spannen in kg; Originaleinheiten bleiben in Merkmalsbeleg und Prüfnotiz erhalten.
+Der endgültige Build und die Prüfungen verwenden diesen korrigierten Wert.
+Die erste Browserrunde hatte zehn bestandene und zwei fehlerhafte Fälle: Die
+Suchprobe verwendete eine nur im Datenfeld stehende Umrechnung. Die korrigierte
+Probe sucht eine tatsächlich belegte Merkmalsaussage und prüft deren Treffertext;
+der Suchumfang der Anwendung wurde nicht verändert.
+Beide Modellseiten, alle 38 ausgewählten Felder, Quellenbadges, Leerfelder,
+strukturierte Produktdaten, Firmenfokus, Suche, Vergleich und CSV-Auslieferung
+wurden geprüft. Alle 2.325 nicht ausgewählten alten Katalogzeilen, 1.185 vorherigen
+Feldprüfungen und 127 bisherigen Firmenfokusse bleiben unverändert. Reimport:
+null Ergänzungen und 32 getrackte Datendateien byteidentisch; der Offline-Refresh
+ist semantisch idempotent. Eigene Testbrowser und Server sind beendet und ihre
+Prozesse geprüft; fremde Ressourcen bleiben erhalten.
+
+Daten-Zwischencommit `965d5f2bd9e60d705d390249c9c8247cb64007a6` ist auf `codex/competitor-directory-expansion` gepusht und
+remote bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862 Detail-
+inhaltsprüfungen bleiben offen. Vollständige historische Portfolios, unabhängig
+getestete Vorteile, exklusive USPs und Rang Nr. 1 sind weiterhin nicht belegt.

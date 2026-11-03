@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,326 catalog rows**, with 646 exact
-manufacturer spellings. Batch 132 refreshed the separate heuristic gap file offline
-against all 2,326 rows (638 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,327 catalog rows**, with 646 exact
+manufacturer spellings. Batch 133 refreshed the separate heuristic gap file offline
+against all 2,327 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1256 dated records across the catalog, including
-184 existing-model enrichments and 1072 task additions. All 430 catalog models
+Current product-highlight coverage: 1257 dated records across the catalog, including
+184 existing-model enrichments and 1073 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1072 task additions, totaling 2,326.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1073 task additions, totaling 2,327.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 466 have selected-field reviews and 52 await those reviews. Family and
+highlights; 467 have selected-field reviews and 51 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 22,486 fields across 1185 catalog models: 8,206 documented,
-13,876 not documented, 298 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 22,524 fields across 1187 catalog models: 8,225 documented,
+13,893 not documented, 300 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -8824,3 +8824,66 @@ Daten-Zwischencommit `73c920cc8f3af7e761319f29ea03589bfa09b849` ist auf `codex/c
 geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
 historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben unbewiesen.
+
+
+## Ergänzung 133 – TyBOT und IronBOT: Arbeitsleistung, Konfigurationsgrenzen und betreuter Betrieb (3. November 2026)
+
+Eine neue Zeile IronBOT V3.0 und die bestehende TyBOT-Zeile erhalten zusammen
+38 ausgewählte Feldprüfungen: 19 dokumentiert, 17 nicht dokumentiert und zwei
+widersprüchlich. Acht Merkmalsaussagen und vier zusätzliche Produktquellenverweise
+ergänzen den Bestand; die bisherigen TyBOT-Merkmale und Quellen-URLs bleiben
+bestehen. Hinzu kommt ein Herstellerfokus. Gesamt: 2.327 Katalogzeilen,
+1.257 datierte Merkmalsdatensätze mit 5.588 Aussagen und 2.572 Quellenverweisen,
+1.187 Feldprüfungen mit 22.524 Feldern sowie 128 Firmenfokus-Prüfungen. Von den
+518 ursprünglichen Queue-Zielen haben 467 eine ausgewählte Feldprüfung; 51 bleiben
+offen. Die Dokumentation ist in `reports/competitor-batch-133-evidence.json` abgelegt.
+
+TyBOT erhält getrennte Angaben für aktive Bindeleistung, Schienenspannweite,
+variable Fachwerklänge, Grundmasse, Längsfahrt und Generatorlaufzeit. Die aktive
+Rate wird nicht als garantierte Schichtleistung verstanden. Die Batterieangabe
+des Belly-Box-Bediengeräts ist keine Roboterlaufzeit; optionale Tragewinden liefern
+keine Standardnutzlast. Base/Standard/Full sind hier Maßkonfigurationen und keine
+zusätzlich belegten eigenständigen Modelle. Regenwerbung ist keine IP-Schutzart.
+
+IronBOT ist in der technischen PDF ausdrücklich als V3.0 bezeichnet. Material-
+Tragfähigkeit und pro Stunde platzierte Materialmasse sind verschiedene Größen;
+Schienenspannweite und Stablänge bleiben getrennt. Die imperialen Angaben zur
+unbeladenen Masse und Höhe stimmen nicht mit den danebenstehenden metrischen
+Spannen überein. Beide Konflikte bleiben sichtbar. Der allgemeine aktuelle
+Webseitenablauf verlangt eine betreuende Person für Erstpositionierung, Abstände
+und Vereinzelung; anschließend nutzt das Gerät lokale Odometrie. Die Webseite
+belegt Familienkontext, keine identische Konfiguration jeder Generation. Die
+Copyright-Jahre 2025/2026 werden nicht als Erscheinungsjahre übernommen.
+
+Acht gespeicherte HTTP-200-Antworten, darunter drei Hersteller-PDFs, sind mit Hashes
+belegt. Eine anfängliche parallele Anfrage scheiterte an temporärer DNS-Auflösung;
+Teilantworten daraus wurden nicht als Beleg verwendet. Alle acht endgültigen
+Antworten wurden anschließend einzeln erfasst. Geprüft wurden nativer Text und
+HTML; kein Recherchebrowser, keine Bild-/PDF-Sichtprüfung, OCR, Medienübernahme,
+Anmeldung, Formulare oder Transaktionen. BOTs Reporting/Support sowie RaaS und
+Certified Innovators bleiben Software-/Leistungsangebote.
+
+808 Unit-Tests in 64 Dateien und zwölf Desktop-/Mobil-Browserfälle, darunter vier
+Axe-Prüfungen, bestehen. Build: 3.378 Seiten; Audit: null Fehler, 1.206 Warnungen.
+Die zusätzliche Warnung betrifft das nicht belegte Erscheinungsjahr von IronBOT.
+Eine erste Filterprüfung erkannte, dass eine lb-Erwähnung hinter einer kg-Spanne
+die bestehende Einheitenauswertung verfälschte. Im Massenfeld stehen daher beide
+Spannen in kg; Originaleinheiten bleiben in Merkmalsbeleg und Prüfnotiz erhalten.
+Der endgültige Build und die Prüfungen verwenden diesen korrigierten Wert.
+Die erste Browserrunde hatte zehn bestandene und zwei fehlerhafte Fälle: Die
+Suchprobe verwendete eine nur im Datenfeld stehende Umrechnung. Die korrigierte
+Probe sucht eine tatsächlich belegte Merkmalsaussage und prüft deren Treffertext;
+der Suchumfang der Anwendung wurde nicht verändert.
+Beide Modellseiten, alle 38 ausgewählten Felder, Quellenbadges, Leerfelder,
+strukturierte Produktdaten, Firmenfokus, Suche, Vergleich und CSV-Auslieferung
+wurden geprüft. Alle 2.325 nicht ausgewählten alten Katalogzeilen, 1.185 vorherigen
+Feldprüfungen und 127 bisherigen Firmenfokusse bleiben unverändert. Reimport:
+null Ergänzungen und 32 getrackte Datendateien byteidentisch; der Offline-Refresh
+ist semantisch idempotent. Eigene Testbrowser und Server sind beendet und ihre
+Prozesse geprüft; fremde Ressourcen bleiben erhalten.
+
+Daten-Zwischencommit `965d5f2bd9e60d705d390249c9c8247cb64007a6` ist auf `codex/competitor-directory-expansion` gepusht und
+remote bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment.
+Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862 Detail-
+inhaltsprüfungen bleiben offen. Vollständige historische Portfolios, unabhängig
+getestete Vorteile, exklusive USPs und Rang Nr. 1 sind weiterhin nicht belegt.

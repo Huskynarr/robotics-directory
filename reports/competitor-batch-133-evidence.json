@@ -1,0 +1,693 @@
+{
+  "batch": 133,
+  "checkedAt": "2026-11-03",
+  "manufacturer": "Advanced Construction Robotics",
+  "catalogModelsBefore": 2326,
+  "catalogModelsAfter": 2327,
+  "newModels": 1,
+  "existingModelsReviewed": 1,
+  "newSpecificationReviews": 2,
+  "selectedFields": 38,
+  "fieldStatuses": {
+    "documented": 19,
+    "not-documented": 17,
+    "conflicting": 2
+  },
+  "newCompanyFocusReviews": 1,
+  "newHighlightStatements": 8,
+  "previousHighlightsPreserved": true,
+  "totalProductHighlightRecords": 1257,
+  "totalHighlightStatements": 5588,
+  "totalProductSourceReferences": 2572,
+  "verificationCorrections": {
+    "initialComparisonCheck": "Mass filter interpreted any lb token anywhere in a kg-leading field as imperial, producing approximately 4320 kg rather than 9525 kg.",
+    "correction": "Both unresolved numeric ranges remain in kg in the field; original lb range remains in highlights and review note. No application parser/schema change.",
+    "finalValue": "Unloaded: approximately 9525-14061 kg from imperial range; sheet also states 10000-14000 kg; unresolved",
+    "requiresFinalBuildAndChecks": true,
+    "initialBrowserResult": "10 passed, 2 failed: search query used a field-only converted value, not a product-highlight string.",
+    "browserCorrection": "Use the exact imperial mass range already present in a product highlight and assert matching highlight text. Application search scope unchanged.",
+    "documentedFieldNotes": "Replaced a generic unknown-value default on documented fields with a note retaining manufacturer conditions and configuration scope."
+  },
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.constructionrobots.com/tybot",
+      "finalUrl": "https://www.constructionrobots.com/tybot",
+      "status": 200,
+      "checkedAt": "2026-11-03T08:16:04.776021+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "bffd163996c5f05dd122e14e51b816d03d62e0c9d1503d505ac5bcdc7341959c",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.constructionrobots.com/ironbot",
+      "finalUrl": "https://www.constructionrobots.com/ironbot",
+      "status": 200,
+      "checkedAt": "2026-11-03T08:16:04.934599+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "a371fc78e4009df4f153dade5000b9d6e9297869e985aaebdb7a4bdff1960ef2",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.constructionrobots.com/",
+      "finalUrl": "https://www.constructionrobots.com/",
+      "status": 200,
+      "checkedAt": "2026-11-03T08:16:05.123710+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "d6d4ec98c17e5b1828d50a14f59d6bf666ac47384c8c2548bbbf62ab1073ac63",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://www.constructionrobots.com/about-us",
+      "finalUrl": "https://www.constructionrobots.com/about-us",
+      "status": 200,
+      "checkedAt": "2026-11-03T08:16:05.301028+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "623ab89de9e347777aece793bd65bc4ce51fd7f375037c27f26efd114951a06f",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 5,
+      "url": "https://www.constructionrobots.com/our-technology",
+      "finalUrl": "https://www.constructionrobots.com/our-technology",
+      "status": 200,
+      "checkedAt": "2026-11-03T08:16:05.461177+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "3ddeed3ccae599a072a0fd1e4375d133b4f76c7d4b353dd63ab22e0ef19102e3",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 6,
+      "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72041e6dd8a7a7389f2026_50-003-0015-D_TyBOT%20Product%20Brochure.pdf",
+      "finalUrl": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72041e6dd8a7a7389f2026_50-003-0015-D_TyBOT%20Product%20Brochure.pdf",
+      "status": 200,
+      "checkedAt": "2026-11-03T08:16:19.589266+00:00",
+      "bodyFile": "source-6.pdf",
+      "bodySha256": "96172d80dbb436a673b212ae02cdb1420f70923f77042bbeca4320247a908fa1",
+      "textFile": "source-6.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "application/pdf"
+    },
+    {
+      "id": 7,
+      "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72040e781fa97154041616_50-003-0010-C_TyBot_Product_Specs_Sheet.pdf",
+      "finalUrl": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72040e781fa97154041616_50-003-0010-C_TyBot_Product_Specs_Sheet.pdf",
+      "status": 200,
+      "checkedAt": "2026-11-03T08:16:19.880011+00:00",
+      "bodyFile": "source-7.pdf",
+      "bodySha256": "11d18edaf80399e8a3f66979d2e78afcac14eab0e72b5f1b42334c070e2fbedf",
+      "textFile": "source-7.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "application/pdf"
+    },
+    {
+      "id": 8,
+      "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf",
+      "finalUrl": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf",
+      "status": 200,
+      "checkedAt": "2026-11-03T08:16:20.058330+00:00",
+      "bodyFile": "source-8.pdf",
+      "bodySha256": "3a304197bf4f1d84afcd4bc4d4c65675735dda682288b1e82aed9f5d2b791426",
+      "textFile": "source-8.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "application/pdf"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "advanced-construction-robotics-tybot",
+      "category": "commercial",
+      "manufacturer": "Advanced Construction Robotics",
+      "model": "TyBOT",
+      "new": false,
+      "fields": {
+        "price": "Not disclosed",
+        "weight": "1864 kg base unit; configuration-dependent; wheel loads are separate",
+        "size": "Truss end-to-end width: base 9.5 m, standard 20.5 m, full 38.5 m; not rail working width",
+        "batteryLife": "",
+        "maxRuntime": "up to 10 h without refueling; generator-powered manufacturer rating",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.2 m/s maximum longitudinal travel; approximately 0.66 ft/s; not tying rate",
+        "terrain": "Bridge decks on screed rails or edge forms; portable rail and bogie accessories depend on installation",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.constructionrobots.com/tybot",
+        "description": "Gantry robot autonomously finds and ties horizontal rebar intersections while a supervisor monitors operation and reloads wire. Manufacturer specifications separate base-unit mass, variable truss dimensions and rail span. Generator fuel endurance and active tying rate are conditional ratings; optional carry hoists and transmitter batteries are separate components.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "transportPayload": "",
+        "workingWidth": "10-117 ft screed-rail span (approximately 3-36 m); setup-dependent, not truss end-to-end width",
+        "throughput": "900 ties/h stated minimum; 1200+ ties/h observed active rate; not guaranteed whole-shift average"
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "transportPayload": "not-documented",
+        "workingWidth": "documented",
+        "throughput": "documented"
+      },
+      "notes": {
+        "price": "No fixed numeric purchase or subcontract price established; per-tie/per-pound commercial offers are not universal prices.",
+        "weight": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "size": "Revision C separates end-to-end truss widths, shipping height without tie module and working rail span; no universal assembled L/W/H envelope inferred.",
+        "batteryLife": "12+ h belongs to SCANRECO Belly Box transmitter. Robot uses a generator; no robot battery endurance established.",
+        "maxRuntime": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "handType": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "dof": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "payload": "One-ton carry accessory is optional. Wheel load, 15 lb wire spool and tie rate do not establish a standard arm payload.",
+        "speed": "0.66 ft/s and 0.2 m/s are rounded equivalents. Auxiliary 0.5 mph / 0.7 kph labels are coarsely rounded; no added precision inferred.",
+        "terrain": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "ipRating": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "ageRange": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "website": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "description": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "releaseDate": "2026 copyright and revision labels date the reviewed document, not model launch.",
+        "chargingTime": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "transportPayload": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "workingWidth": "Explicit screed-rail width range, not unit body width or unqualified contiguous treatment swath.",
+        "throughput": "Manufacturer minimum/observed active tie rate; not a binding whole-shift result."
+      },
+      "sources": [
+        {
+          "name": "Advanced Construction Robotics — TyBOT specifications revision C",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72040e781fa97154041616_50-003-0010-C_TyBot_Product_Specs_Sheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — TyBOT brochure revision D",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72041e6dd8a7a7389f2026_50-003-0015-D_TyBOT%20Product%20Brochure.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — TyBOT product and supervisor workflow",
+          "type": "manufacturer",
+          "url": "https://www.constructionrobots.com/tybot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "Gantry robot locates and ties horizontal rebar intersections on bridge decks",
+        "Operates on project edge forms or screed rails without pre-mapping or BIM input",
+        "Expandable working width supports different deck layouts; crews handle remaining installation tasks",
+        "Revision C specifies 900 ties/hour minimum and 1200-plus observed active tying. These ratings exclude a guarantee for downtime, wire changes or an entire shift.",
+        "The 1864 kg mass belongs to the base unit. Truss end-to-end widths of 9.5/20.5/38.5 m remain separate from the 10-117 ft adjustable rail span; named size settings do not create additional robot models.",
+        "The generator is rated for up to ten hours without refueling. The brochure’s 12-plus-hour Belly Box battery powers the supervisor interface, and optional one-ton carry hoists do not establish standard robot payload.",
+        "Tie patterns cover all, alternate or every third intersection. Rail travel is rated at 0.2 m/s; bar spacing, rail support and span-dependent grade limits constrain installation. Rain-or-shine marketing is not a numeric ingress rating."
+      ]
+    },
+    {
+      "robotId": "advanced-construction-robotics-ironbot-v3-0",
+      "category": "commercial",
+      "manufacturer": "Advanced Construction Robotics",
+      "model": "IronBOT V3.0",
+      "new": true,
+      "fields": {
+        "price": "Not disclosed",
+        "weight": "Unloaded: approximately 9525-14061 kg from imperial range; sheet also states 10000-14000 kg; unresolved",
+        "size": "Height: approximately 3.35-4.57 m converted from 11-15 ft; sheet also states 3.43-4.77 m; unresolved",
+        "batteryLife": "",
+        "maxRuntime": "50+ h without refueling; Cummins Onan generator, manufacturer rating",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.2 m/s travel (0.66 ft/s); not placement throughput",
+        "terrain": "Bridge-deck rebar placement on existing or supplied rails; span-dependent slope limits",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.constructionrobots.com/ironbot",
+        "description": "Version 3.0 gantry robot for lifting, carrying and placing longitudinal or transverse rebar. The versioned specification provides bundle capacity, rail span, travel speed and generator endurance. A supervisor positions the first bar, enters spacing, supervises and assists singulation; subsequent positioning uses local odometry. Unloaded mass and height have unresolved imperial/metric discrepancies.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "transportPayload": "5000 lb (2267.96 kg) placement-boom rebar-bundle capacity; separate from hourly placement rate",
+        "workingWidth": "27-117 ft rail span (8.23-35.66 m); not rebar length or total robot body width",
+        "throughput": "5000 lb/h average placement rate in current family webpage; version-specific full-shift result not established"
+      },
+      "states": {
+        "price": "documented",
+        "weight": "conflicting",
+        "size": "conflicting",
+        "batteryLife": "not-documented",
+        "maxRuntime": "documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "transportPayload": "documented",
+        "workingWidth": "documented",
+        "throughput": "documented"
+      },
+      "notes": {
+        "price": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "weight": "21000-31000 lb converts to about 9525-14061 kg, whereas V3.0 sheet labels 10000-14000 kg. Rounding/basis not explained; both retained in kg to avoid mixed-unit filter ambiguity.",
+        "size": "11-15 ft converts to 3.3528-4.572 m, not listed 3.43-4.77 m. No supported reconciliation. Other truss cross-sections and wheelbase are not complete body dimensions.",
+        "batteryLife": "Generator runtime is fuel endurance; no whole-robot battery hours established.",
+        "maxRuntime": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "handType": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "dof": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "payload": "Placement-boom bundle capacity belongs in transportPayload; no conventional robot-arm tool payload inferred.",
+        "speed": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "terrain": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "ipRating": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "ageRange": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "website": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "description": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "releaseDate": "2025 copyright and V3.0 footer do not establish model launch date.",
+        "chargingTime": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate.",
+        "transportPayload": "Versioned PDF explicitly labels placement-boom payload capacity 5000 lb/2267.96 kg; modeled as carried material rather than a robot-arm flange rating.",
+        "workingWidth": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred.",
+        "throughput": "Current generic family page calls 5000 lb/hour an average and elsewhere says over 5000. It does not establish that every V3.0 configuration achieves this over a full shift."
+      },
+      "sources": [
+        {
+          "name": "Advanced Construction Robotics — IronBOT V3.0 specifications",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — IronBOT family product and placement workflow",
+          "type": "manufacturer",
+          "url": "https://www.constructionrobots.com/ironbot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The manufacturer PDF explicitly identifies IronBOT V3.0. Its placement boom has a 5000 lb/2267.96 kg bundle capacity, handling 9-60 ft bars; capacity is separate from the family page’s 5000 lb/hour placement claim.",
+        "Rail span adjusts from 27 to 117 ft. The sheet lists 0.2 m/s travel and 50-plus hours of generator endurance, rather than battery operation; bar length and rail span are different dimensions.",
+        "The sheet pairs 21000-31000 lb unloaded with 10000-14000 kg, and 11-15 ft height with 3.43-4.77 m. Conversions disagree, so both unresolved ranges remain visible.",
+        "The current family workflow requires a supervisor to establish the first position and spacing and assist singulation. Local odometry governs subsequent placement; rain-or-shine and schedule-savings claims are not an ingress certificate or guaranteed project outcome."
+      ]
+    }
+  ],
+  "companyFocus": {
+    "brandId": "advanced-construction-robotics",
+    "name": "Advanced Construction Robotics",
+    "role": "Bridge-deck rebar tying and material placement robots with supervisor and reporting workflows",
+    "website": "https://www.constructionrobots.com/about-us",
+    "checkedAt": "2026-11-03",
+    "highlights": [
+      "TyBOT ties rebar intersections and IronBOT handles rebar placement. Gantry widths, carry accessories and the combined installation offering are configurations or services, not additional independently identified robot models.",
+      "The BOTs platform reports tie counts, active hours, equipment utilization and faults. These reporting and support functions are software services, separate from physical robot models and independently tested productivity.",
+      "Manufacturer workflows retain human supervisors and crews for wire changes, initial positioning, singulation and remaining installation tasks. RaaS and Certified Innovator offers do not establish universal pricing, local stock or guaranteed schedule savings."
+    ],
+    "sources": [
+      {
+        "name": "Advanced Construction Robotics — company overview",
+        "type": "manufacturer",
+        "url": "https://www.constructionrobots.com/about-us",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "Advanced Construction Robotics — BOTs reporting and support software",
+        "type": "manufacturer",
+        "url": "https://www.constructionrobots.com/our-technology",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "Advanced Construction Robotics — TyBOT product and supervisor workflow",
+        "type": "manufacturer",
+        "url": "https://www.constructionrobots.com/tybot",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "Advanced Construction Robotics — IronBOT family product and placement workflow",
+        "type": "manufacturer",
+        "url": "https://www.constructionrobots.com/ironbot",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-133/source-4.html",
+    "reviewNotes": "Batch133. Current manufacturer home/product/software portfolio and exact TyBOT revision C / IronBOT V3.0 PDFs checked. Original names and source identities preserved. No complete historical lineup or independent safety/productivity superiority inferred."
+  },
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 12,
+    "axeCases": 4,
+    "buildPages": 3378,
+    "dataErrors": 0,
+    "dataWarnings": 1206,
+    "warningChange": "One additional unknown-release-year warning for IronBOT V3.0; PDF copyright is not launch year.",
+    "sourceCodeChanged": false,
+    "changedFileLint": "passed",
+    "changedFileFormat": "passed",
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedHttp200Responses": 8,
+      "allSavedBodyHashesVerified": true,
+      "pdfNativeTextChecks": [
+        {
+          "id": 6,
+          "pages": 8,
+          "nativeTextCharacters": 9338,
+          "visualInspection": false
+        },
+        {
+          "id": 7,
+          "pages": 2,
+          "nativeTextCharacters": 3196,
+          "visualInspection": false
+        },
+        {
+          "id": 8,
+          "pages": 1,
+          "nativeTextCharacters": 2357,
+          "visualInspection": false
+        }
+      ],
+      "failedInitialParallelCapture": "Temporary DNS failure; partial files excluded, all eight source receipts subsequently fetched and hash-checked sequentially.",
+      "noVisualInspection": true,
+      "noBrowserOpened": true,
+      "noFormsOrAccounts": true,
+      "noAccessBypass": true
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlMainScopes": [
+        {
+          "sourceId": 1,
+          "selector": "main",
+          "formsAndNavigationExcluded": true,
+          "textSha256": "3abde81502d38472aec2520ae993afd95130c92c1ffc3321007e01205f85cd85",
+          "checkedTerms": [
+            "1,200+",
+            "117",
+            "10 hours",
+            "Robot Supervisor"
+          ]
+        },
+        {
+          "sourceId": 2,
+          "selector": "main",
+          "formsAndNavigationExcluded": true,
+          "textSha256": "b4f167174d9bfe70328ebf68c8e7fb908400963fc69807633c8c79de92deb238",
+          "checkedTerms": [
+            "5,000",
+            "27FT",
+            "117FT",
+            "local odometry",
+            "first bar position"
+          ]
+        },
+        {
+          "sourceId": 3,
+          "selector": "main",
+          "formsAndNavigationExcluded": true,
+          "textSha256": "684567f1b6cfaee21c00699462b86dc60168519436febbd752b121a6f19d6910",
+          "checkedTerms": [
+            "TyBOT",
+            "IronBOT"
+          ]
+        },
+        {
+          "sourceId": 4,
+          "selector": "main",
+          "formsAndNavigationExcluded": true,
+          "textSha256": "7dd457bd8af40bec9d3f37726640369c77177d6fd2051788c33385ad3b5c1c94",
+          "checkedTerms": [
+            "Advanced Construction Robotics"
+          ]
+        },
+        {
+          "sourceId": 5,
+          "selector": "main",
+          "formsAndNavigationExcluded": true,
+          "textSha256": "eaa5552f48f56fb07be03c5b76c29d7f54da2fb3b4f5bf05a157cae1b25ef6d3",
+          "checkedTerms": [
+            "Tie counts",
+            "Active tying hours",
+            "equipment",
+            "support"
+          ]
+        }
+      ],
+      "pdfNativeScopes": [
+        {
+          "sourceId": 6,
+          "physicalPages": [
+            3
+          ],
+          "nativeTextSha256": "c2e027d7b231abcd4e64ed98df7a23742289bf1bbef12d4cf341a0d76aae2e7b",
+          "checkedTerms": [
+            "12+ hour battery life",
+            "10 hours"
+          ],
+          "visualInspection": false
+        },
+        {
+          "sourceId": 7,
+          "physicalPages": [
+            1,
+            2
+          ],
+          "nativeTextSha256": "70e10a2487d3e81d63438550869532ffa4a75d9200dd49c1f6f12c265844f8bd",
+          "checkedTerms": [
+            "900 Ties",
+            "1,200+",
+            "1,864 KG",
+            "117 FT"
+          ],
+          "visualInspection": false
+        },
+        {
+          "sourceId": 8,
+          "physicalPages": [
+            1
+          ],
+          "nativeTextSha256": "82c6867e28035995ba525fbe6d66e494713cf6067016ec502cfbd3f33ad4d0e6",
+          "checkedTerms": [
+            "V. 3.0",
+            "5,000LBS",
+            "21K-31K",
+            "10K-14K",
+            "11-15FT",
+            "3.43-4.77M"
+          ],
+          "visualInspection": false
+        }
+      ],
+      "portfolioDecisions": [
+        {
+          "label": "TyBOT",
+          "classification": "existing named robot family; variable spans remain qualified"
+        },
+        {
+          "label": "IronBOT V3.0",
+          "classification": "new exact version supported by manufacturer PDF; current family webpage is related context"
+        },
+        {
+          "label": "Base / Standard / Full",
+          "classification": "TyBOT dimensional configurations; no independent base-model sales identity established"
+        },
+        {
+          "label": "Carry hoist, auxiliary hoists, bogies and portable rails",
+          "classification": "accessories; not additional independently identified robot models"
+        },
+        {
+          "label": "BOTs reporting/support, RaaS and Certified Innovators",
+          "classification": "software/support/commercial programs; not robot hardware"
+        }
+      ],
+      "scope": "Manufacturer main product/company/software content and linked PDFs only. Marketing and project-result claims remain distinct from exact technical configuration values; no full historical lineup certification."
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2327,
+      "unselectedPriorRowsUnchanged": 2325,
+      "priorSpecificationReviewsUnchanged": 1185,
+      "priorCompanyFocusReviewsUnchanged": 127,
+      "newSpecificationReviews": 2,
+      "selectedFields": 38,
+      "selectedFieldStatuses": {
+        "documented": 19,
+        "not-documented": 17,
+        "conflicting": 2
+      },
+      "allFieldStatuses": {
+        "not-documented": 13893,
+        "documented": 8225,
+        "conflicting": 300,
+        "roadmap": 106
+      },
+      "sourceIdentityFilesByteIdentical": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-product-reviews.json"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 467,
+        "withoutSelectedFieldReview": 51,
+        "selectedFields": 8589,
+        "selectedFieldStatuses": {
+          "documented": 3419,
+          "not-documented": 4970,
+          "conflicting": 182,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 123,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      }
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPagesChecked": 2,
+      "selectedSpecificationFieldsChecked": 38,
+      "sourceBadgesChecked": 17,
+      "blankFieldsOmitted": 17,
+      "descriptionsChecked": 2,
+      "websitesChecked": 2,
+      "structuredSpecificationPropertiesChecked": 15,
+      "highlightStatementsChecked": 11,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 2,
+      "modelExportRowsChecked": 1,
+      "modelExportTargetsChecked": 1,
+      "modelExportFieldOccurrencesChecked": 19,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 1,
+      "researchQueueFieldsChecked": 19,
+      "scope": "Two ACR model pages, selected fields, source badges, conflicts, structured data, brand focus and CSV exports checked."
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 1257,
+      "individualHighlights": 5588,
+      "productSourceReferences": 2572,
+      "specificationReviewModels": 1187,
+      "specificationFields": 22524,
+      "publicJsonBytes": 6050707,
+      "catalogScriptBytes": 2577693,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T08:21:57Z",
+            "after": "2026-11-03T08:23:25Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T08:21:56.773Z",
+            "after": "2026-11-03T08:23:24.997Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "422905b0fdc3ff8a30b9d04e8128850104a893dd816c3bbb44a523fb171c1fe3",
+            "after": "265c205f626d4a0d0b78eaf3f9f0e4953df9bec623a9d95acd3482f654b2c457"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T08:21:56.773Z",
+            "after": "2026-11-03T08:23:24.997Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T08:21:56.773Z",
+            "after": "2026-11-03T08:23:24.997Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 302,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "f40d98278d26efa83a64678e9e924737b523a298",
+    "dataCommit": "965d5f2bd9e60d705d390249c9c8247cb64007a6",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 467,
+    "withoutSelectedFieldReview": 51,
+    "selectedFields": 8589,
+    "selectedFieldStatuses": {
+      "documented": 3419,
+      "not-documented": 4970,
+      "conflicting": 182,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 123,
+    "remainingModelIdentities": 3,
+    "remainingListingIdentities": 9
+  },
+  "remainingProductDetailContentChecks": 862,
+  "goalComplete": false
+}
