@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 143 |
+| Firmenfokus-Prüfungen mit Quellen | 144 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1124 ergänzte Modelle ergeben 2.378 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-143 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+144 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1309 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 483 haben ausgewählte Datenfeldprüfungen und 35
+haben datierte Merkmalsbelege; 484 haben ausgewählte Datenfeldprüfungen und 34
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -12534,3 +12534,40 @@ aus der Fabrik BotQ bei einer Rate von einem Roboter pro Stunde und über 80 End
 Produzierte Einheiten sind keine Kundenauslieferungen. Der am 30. Juni 2026 gemeldete Einsatz in Halle 52
 des BMW-Werks Spartanburg ist eine erste Ablauf-Demonstration (Sequencing), kein Nachweis einer breiten
 Flottenautonomie. Helix, Helix 02 und Helix 2.5 sind KI-Modelle, keine Robotergenerationen.
+
+
+## Ergänzung 150 – General Atomics Aeronautical Systems: Avenger ER, Nutzlastkapazität und Autonomieflüge (3. November 2026)
+
+General Atomics Avenger ER ist technisch vertieft; keine neuen Katalogzeilen aus Erprobungszellen
+(MQ-20) oder Partnerangeboten (Shield AI) erzeugt. Eine Feldprüfung umfasst 20 Felder: neun
+dokumentiert und elf nicht dokumentiert (darunter unanwendbare Batteriewerte, unbezifferte
+Leermasse und angebotsabhängige Preise). Hinzu kommen sechs Merkmalsaussagen, drei zusätzliche
+Produktquellenverweise und ein neuer Firmenfokus für General Atomics Aeronautical Systems.
+Alle drei bisherigen Merkmale von Avenger ER, Fund-URLs, IDs und Medien bleiben erhalten.
+2.377 andere Katalogzeilen, 1.259 frühere Feldprüfungen und 143 andere Firmenfokusse sind unverändert.
+Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze, 5.856 Aussagen, 2.807 Produktquellenverweise,
+1.260 Feldprüfungen mit 23.819 Feldern und 144 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen
+sind 484 technisch teilgeprüft; 34 bleiben offen. Dauerbeleg: `reports/competitor-batch-150-evidence.json`.
+
+Neun HTTP-Antworten sind gehasht gesichert: acht mit HTTP 200 (Herstellerseiten, News, Datenblatt-PDF
+mit zwei Seiten und Partnerreferenzen) sowie eine dokumentierte 404-Weiterleitung auf 404.php, die
+ausgeschlossen wurde. HTML und PDF sind als Text gelesen; kein Recherchebrowser, keine visuelle Prüfung,
+OCR oder Medienübernahme. Keine Formulare, Konten, Kontaktaufnahme, Nachrichten oder Transaktionen.
+
+Die Herstellerzeitleiste grenzt den Erstflug der ursprünglichen Predator C Avenger im April 2009
+vom Erstflug der Avenger ER im Oktober 2016 und dem erweiterten Flugtestprogramm 2017 ab. Die Katalogzeile
+repräsentiert die ER-Konfiguration. Das Datenblatt nennt 76 ft (23 m) Spannweite, 44 ft (13 m) Länge,
+18.900 lb (8.573 kg) maximales Abfluggewicht (MTOW), 9.500 lb (4.309 kg) Treibstoffkapazität und 9.000 lb
+(4.082 kg) Nutzlastkapazität, aufgeteilt in 3.000 lb intern und 6.000 lb an sechs Außenstationen sowie
+eine 860 lb Bugbucht. MTOW und Treibstoff sind keine Leermasse; die Nutzlastaufteilung ist eine
+Kapazitätsgrenze, keine garantierte simultane Missionszuladung.
+
+Als Antrieb dient ein Pratt & Whitney PW545B Turbofan mit über 5.000 lb Schub; die Startbahnvorgabe
+liegt unter 5.000 ft. Die maximale Fluggeschwindigkeit beträgt 400 KTAS, die Dienstgipfelhöhe über 50.000 ft
+und die maximale Flugdauer 20 Stunden. Da es sich um ein strahlgetriebenes Flugzeug handelt, sind
+Batterielaufzeit und Ladezeit nicht anwendbar; die 20 Stunden sind in flightTime dokumentiert.
+Die Autonomiedemonstrationen der MQ-20 Avenger (passive Sensorfusion im Verband, digitale Zwillinge,
+Bemannte-Unbemannte-Kollaboration) sind unternehmensinterne Erprobungsmeilensteine, keine unabhängige
+Zertifizierung einer Einsatzreife. Der buyandrentrobots-Eintrag führt Avenger als verfügbaren Dienst von
+Shield AI mit anfragebasiertem Preis („Request a quote“) und MQ-20-Zelle; er belegt weder einen Kaufpreis
+noch die Äquivalenz zu jeder GA-ASI-Serienkonfiguration.

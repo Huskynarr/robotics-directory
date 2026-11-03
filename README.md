@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 483 and 35 still awaiting those reviews.
+selected technical-field reviews for 484 and 34 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -373,6 +373,15 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+General Atomics Aeronautical Systems Avenger ER now has a field-level review.
+The ER configuration dates to its October 2016 first flight, distinguished from
+the April 2009 baseline Predator C. Wingspan is 76 ft, length 44 ft, maximum gross
+takeoff weight 18,900 lb (not empty mass), payload capacity 9,000 lb (split 3,000 lb
+internal and 6,000 lb external), maximum airspeed 400 KTAS and flight endurance 20 hours.
+The PW545B turbofan propulsion is documented; battery runtime is not applicable.
+MQ-20 autonomy demonstrations and the directory's Shield AI service listing are
+scoped to company tests and partner offerings, not proven fleet deployments.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1239,20 +1248,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-23,799 fields across 1259 models, distinguishing documented, undisclosed, conflicting and
+23,819 fields across 1260 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,460 kB JSON response loads only for search or comparison;
+A separate 6,466 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,850 reviewed highlight statements as well as
+Catalog search now includes all 5,856 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing

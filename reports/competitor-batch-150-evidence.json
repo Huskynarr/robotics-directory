@@ -1,0 +1,662 @@
+{
+  "batch": 150,
+  "checkedAt": "2026-11-03",
+  "manufacturer": "General Atomics Aeronautical Systems",
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 1,
+  "newSpecificationReviews": 1,
+  "selectedFields": 20,
+  "fieldStatuses": {
+    "not-documented": 11,
+    "documented": 9
+  },
+  "newCompanyFocusReviews": 1,
+  "existingCompanyFocusReviewsUpdated": 0,
+  "newHighlightStatements": 6,
+  "extraProductSourceReferences": 3,
+  "previousHighlightsPreserved": true,
+  "identityScope": "One existing GA-ASI catalog row reviewed; Avenger ER is a configuration of the Predator C Avenger family. MQ-20 test airframes and Shield AI service listing are not inflated into new robot models.",
+  "totalProductHighlightRecords": 1311,
+  "totalHighlightStatements": 5856,
+  "totalProductSourceReferences": 2807,
+  "pendingPortfolioLeads": [
+    {
+      "name": "Baseline Predator C Avenger vs Avenger ER boundaries",
+      "scope": "April 2009 baseline Predator C has different wingspan and fuel capacity; catalog row represents the October 2016 ER configuration. Earlier baseline specifications remain unreviewed.",
+      "source": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger"
+    },
+    {
+      "name": "Avenger ER empty mass and field operational costs",
+      "scope": "18,900 lb MTOW and 9,500 lb fuel capacity published; empty operating weight and commercial operating cost per hour remain unpublished.",
+      "source": "https://www.ga-asi.com/remotely-piloted-aircraft/pdf/2606_AVENGER_ER_E.pdf"
+    },
+    {
+      "name": "MQ-20 autonomous operational deployment status",
+      "scope": "Autonomous sensing demonstrations, digital twins and Shield AI service listing are test/commercial offerings; certified autonomous military deployment counts remain open.",
+      "source": "https://www.ga-asi.com/ga-asi-avenger-leads-the-way-in-autonomy-and-ai"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+      "finalUrl": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:08:08.705748+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "a5edc316924b02c1d1793be9993741a98961a78ef9b8a81698c054e68f8f6d10",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.ga-asi.com/avenger",
+      "finalUrl": "https://www.ga-asi.com/404.php",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:08:09.288907+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "ea2c184d1889bc04b6b13167d99f6c990f565f2eae03e2ffc771b9451dbc136b",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.ga-asi.com/remotely-piloted-aircraft",
+      "finalUrl": "https://www.ga-asi.com/remotely-piloted-aircraft/",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:08:09.873899+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "3190c49703dffe25b40f4958d51af970e959b7b79388f6075f4ca4314a96d7a4",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 4,
+      "url": "https://www.ga-asi.com/remotely-piloted-aircraft/pdf/2606_AVENGER_ER_E.pdf",
+      "finalUrl": "https://www.ga-asi.com/remotely-piloted-aircraft/pdf/2606_AVENGER_ER_E.pdf",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:08:36.459976+00:00",
+      "bodyFile": "source-4.pdf",
+      "bodySha256": "5bba018114a1232f31e76ec22d56d3c5ada24caa897e0f790563cca51bd158b4",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "application/pdf"
+    },
+    {
+      "id": 5,
+      "url": "https://www.ga-asi.com/press-releases",
+      "finalUrl": "https://www.ga-asi.com/press-releases",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:08:59.138276+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "21f3a80e55ff210f5a75819e5ae2b653a3a33d144e9196af897f38433ed92557",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 6,
+      "url": "https://www.ga-asi.com/ga-asi-avenger-leads-the-way-in-autonomy-and-ai",
+      "finalUrl": "https://www.ga-asi.com/ga-asi-avenger-leads-the-way-in-autonomy-and-ai",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:09:17.589007+00:00",
+      "bodyFile": "source-6.html",
+      "bodySha256": "5ceed80855f896a03321fa063c75cdc0849ea3b73a427be467bd65c3a724857d",
+      "textFile": "source-6.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 7,
+      "url": "https://buyandrentrobots.com/robot/b30c7cf0-4620-439e-9036-9b45e224d64d",
+      "finalUrl": "https://buyandrentrobots.com/robot/b30c7cf0-4620-439e-9036-9b45e224d64d",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:09:28.875684+00:00",
+      "bodyFile": "source-7.html",
+      "bodySha256": "7b8b0453fe917d86e0ec63a542d72ec6f8c3d3e6a06fb681d19a1211f9f71a68",
+      "textFile": "source-7.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 8,
+      "url": "https://shield.ai/",
+      "finalUrl": "https://shield.ai/",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:09:29.045036+00:00",
+      "bodyFile": "source-8.html",
+      "bodySha256": "f3882a581fc4dc2a1c3c518bd3c7916ee3d024d37eb8e9fe481f9f40dd83668d",
+      "textFile": "source-8.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 9,
+      "url": "https://www.ga-asi.com/",
+      "finalUrl": "https://www.ga-asi.com/",
+      "status": 200,
+      "checkedAt": "2026-11-03T12:11:33.043868+00:00",
+      "bodyFile": "source-9.html",
+      "bodySha256": "a138f59f38f292696f581ffd24885c48a0ca87faadcc8a17a219d3e3fb057e61",
+      "textFile": "source-9.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "general-atomics-aeronautical-systems-avenger-er",
+      "manufacturer": "General Atomics Aeronautical Systems",
+      "model": "Avenger ER",
+      "category": "commercial",
+      "new": false,
+      "fields": {
+        "price": "Not disclosed; the directory listing requests a quote and publishes no numeric price",
+        "weight": "",
+        "size": "Wingspan 76 ft / 23 m; length 44 ft / 13 m",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "9,000 lb / 4,082 kg total (3,000 lb / 1,361 kg internal; 6,000 lb / 2,721 kg external); 860 lb / 390 kg forward bay; six external hardpoints",
+        "speed": "400 KTAS maximum airspeed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+        "description": "Avenger ER is the extended-range version of GA-ASI's jet-powered Predator C Avenger remotely piloted aircraft. The manufacturer dates Predator C's first flight to April 2009 and Avenger ER's first flight to October 2016, followed by an expanded flight test program in 2017. The current production version has a 76 ft wingspan and over 20 hours of endurance; the ER data sheet lists 18,900 lb maximum gross takeoff weight, 9,000 lb payload capacity split into 3,000 lb internal and 6,000 lb external stores, 400 KTAS maximum airspeed and 50,000 ft maximum altitude. Autonomy demonstrations with MQ-20 Avenger airframes are company test milestones, and the directory's Shield AI listing does not establish a delivered fleet, price or production-configuration equivalence.",
+        "releaseDate": "2016",
+        "depthRating": "",
+        "flightTime": "20 hours maximum endurance (manufacturer data sheet)",
+        "maxTakeoffWeight": "18,900 lb / 8,573 kg maximum gross takeoff weight",
+        "navigationAccuracy": "",
+        "driveMode": "Pratt & Whitney PW545B turbofan; manufacturer states a runway requirement under 5,000 ft"
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "documented",
+        "speed": "documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "documented",
+        "depthRating": "not-documented",
+        "flightTime": "documented",
+        "maxTakeoffWeight": "documented",
+        "navigationAccuracy": "not-documented",
+        "driveMode": "documented"
+      },
+      "notes": {
+        "price": "No numeric public price is published. The directory listing requests a quote and does not establish a current sale or lease price.",
+        "weight": "The data sheet gives 18,900 lb maximum gross takeoff weight and 9,500 lb fuel capacity. Neither is empty mass; no empty-weight figure is published.",
+        "batteryLife": "The aircraft uses a turbofan and fuel. No battery endurance rating applies; flightTime carries the 20-hour maximum endurance claim.",
+        "maxRuntime": "Endurance is recorded in flightTime. A 20-hour flight endurance figure is not battery runtime.",
+        "handType": "Not applicable to a fixed-wing remotely piloted aircraft.",
+        "dof": "Not applicable to a fixed-wing remotely piloted aircraft.",
+        "terrain": "No surface or environmental rating is published. Maximum altitude is 50,000 ft and is not a terrain classification.",
+        "ipRating": "No IP rating is published in the reviewed GA-ASI sources.",
+        "ageRange": "Not applicable or not published for this aircraft.",
+        "navigationAccuracy": "No numeric navigation accuracy is published. Autonomy demonstrations do not establish a measured accuracy standard.",
+        "depthRating": "Not applicable to an air vehicle; no submersible depth rating is published.",
+        "size": "Wingspan and length come from the ER data sheet and product page. They are not a complete outer envelope.",
+        "payload": "The 9,000 lb total splits into 3,000 lb internal and 6,000 lb external stores, plus an 860 lb forward bay and six external hardpoints. These are capacity ratings, not simultaneous loads.",
+        "speed": "400 KTAS is a maximum airspeed from the ER data sheet; test conditions and mission load are not specified.",
+        "description": "Manufacturer product, portfolio and news statements plus the issuer data sheet; no independent operational audit.",
+        "releaseDate": "Avenger ER first flew in October 2016; the baseline Predator C first flew in April 2009 and is not the represented configuration.",
+        "flightTime": "20 hours is maximum endurance from the manufacturer data sheet; payload, altitude and mission profile conditions are not specified.",
+        "maxTakeoffWeight": "18,900 lb / 8,573 kg is maximum gross takeoff weight, not empty mass.",
+        "driveMode": "Pratt & Whitney PW545B turbofan with over 5,000 lb thrust. The under-5,000-ft runway figure is a manufacturer requirement, not a measured field performance.",
+        "website": "Manufacturer Predator C Avenger page, including the linked Avenger ER data sheet."
+      },
+      "sources": [
+        {
+          "name": "General Atomics Aeronautical Systems — Predator C Avenger and Avenger ER",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "General Atomics Aeronautical Systems — Avenger ER data sheet",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/remotely-piloted-aircraft/pdf/2606_AVENGER_ER_E.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "General Atomics Aeronautical Systems — September 8, 2023 Avenger autonomy article",
+          "type": "manufacturer",
+          "url": "https://www.ga-asi.com/ga-asi-avenger-leads-the-way-in-autonomy-and-ai",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BuyAndRentRobots — Avenger service listing by Shield AI",
+          "type": "manufacturer",
+          "url": "https://buyandrentrobots.com/robot/b30c7cf0-4620-439e-9036-9b45e224d64d",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "Jet-powered remotely piloted aircraft in the Avenger family",
+        "Extended-range version uses a larger wing and additional fuel capacity",
+        "Compatible with the manufacturer's Predator-series ground control infrastructure",
+        "The manufacturer dates Predator C Avenger's first flight to April 2009 and Avenger ER's first flight to October 2016, followed by an expanded flight test program in 2017. The ER configuration is the represented model.",
+        "The current production version has a 76 ft wingspan and over 20 hours of endurance; the ER data sheet lists a 44 ft length and 18,900 lb maximum gross takeoff weight.",
+        "The ER data sheet lists 9,000 lb payload capacity split into 3,000 lb internal and 6,000 lb external stores, an 860 lb forward bay and six external hardpoints. These are capacity ratings, not simultaneous loads or confirmed mission fits.",
+        "The aircraft uses a Pratt & Whitney PW545B turbofan with over 5,000 lb thrust, a runway requirement under 5,000 ft, 400 KTAS maximum airspeed and 50,000 ft maximum altitude.",
+        "GA-ASI reports MQ-20 Avenger autonomy demonstrations including multi-platform passive sensing, digital twins and human-machine teaming. These are company test milestones, not independent operational certification.",
+        "The buyandrentrobots listing describes Avenger as an available Shield AI service with quote-based pricing. It names an MQ-20 test airframe and does not establish a delivered fleet, a price or equivalence to every GA-ASI production configuration."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "general-atomics-aeronautical-systems-avenger-er",
+      "before": {
+        "category": "commercial",
+        "manufacturer": "General Atomics Aeronautical Systems",
+        "model": "Avenger ER",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;aerial;research;monitoring",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Jet-powered remotely piloted aircraft in the Avenger family. Extended-range version uses a larger wing and additional fuel capacity. Compatible with the manufacturer's Predator-series ground control infrastructure.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "after": {
+        "category": "commercial",
+        "manufacturer": "General Atomics Aeronautical Systems",
+        "model": "Avenger ER",
+        "price": "Not disclosed; the directory listing requests a quote and publishes no numeric price",
+        "weight": "",
+        "size": "Wingspan 76 ft / 23 m; length 44 ft / 13 m",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;aerial;research;monitoring",
+        "handType": "",
+        "dof": "",
+        "payload": "9,000 lb / 4,082 kg total (3,000 lb / 1,361 kg internal; 6,000 lb / 2,721 kg external); 860 lb / 390 kg forward bay; six external hardpoints",
+        "speed": "400 KTAS maximum airspeed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Avenger ER is the extended-range version of GA-ASI's jet-powered Predator C Avenger remotely piloted aircraft. The manufacturer dates Predator C's first flight to April 2009 and Avenger ER's first flight to October 2016, followed by an expanded flight test program in 2017. The current production version has a 76 ft wingspan and over 20 hours of endurance; the ER data sheet lists 18,900 lb maximum gross takeoff weight, 9,000 lb payload capacity split into 3,000 lb internal and 6,000 lb external stores, 400 KTAS maximum airspeed and 50,000 ft maximum altitude. Autonomy demonstrations with MQ-20 Avenger airframes are company test milestones, and the directory's Shield AI listing does not establish a delivered fleet, price or production-configuration equivalence.",
+        "releaseDate": "2016",
+        "depthRating": "",
+        "flightTime": "20 hours maximum endurance (manufacturer data sheet)",
+        "maxTakeoffWeight": "18,900 lb / 8,573 kg maximum gross takeoff weight",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Pratt & Whitney PW545B turbofan; manufacturer states a runway requirement under 5,000 ft",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    }
+  ],
+  "companyFocus": {
+    "brandId": "catalog-general-atomics-aeronautical-systems-835b779d2594",
+    "name": "General Atomics Aeronautical Systems",
+    "role": "Unmanned aircraft systems manufacturer",
+    "website": "https://www.ga-asi.com/",
+    "checkedAt": "2026-11-03",
+    "highlights": [
+      "GA-ASI describes itself as a world leader in unmanned aircraft systems and says its Predator series is the only one to surpass 9 million flight hours. These are company claims, not independent market-share data.",
+      "The Predator-series timeline distinguishes Predator C Avenger's April 2009 first flight, Avenger ER's October 2016 first flight and the 2017 expanded flight test program. The ER version is a configuration of the Avenger family.",
+      "The Avenger ER data sheet lists a 76 ft wingspan, 44 ft length, 18,900 lb maximum gross takeoff weight, 9,000 lb payload capacity and 20 hours maximum endurance. Payload is split into internal and external stores and is not a simultaneous-load guarantee.",
+      "The PW545B turbofan, 400 KTAS maximum airspeed, 50,000 ft maximum altitude and under-5,000-ft runway requirement are manufacturer specifications for the ER configuration.",
+      "MQ-20 Avenger autonomy work with Shield AI and other partners is described as demonstration and test activity. The directory's Shield AI service listing does not prove delivered production aircraft, pricing or equivalence to every GA-ASI configuration."
+    ],
+    "sources": [
+      {
+        "name": "General Atomics Aeronautical Systems — company homepage",
+        "type": "manufacturer",
+        "url": "https://www.ga-asi.com/",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "General Atomics Aeronautical Systems — Predator C Avenger and Avenger ER",
+        "type": "manufacturer",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/predator-c-avenger",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "General Atomics Aeronautical Systems — remotely piloted aircraft portfolio",
+        "type": "manufacturer",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "General Atomics Aeronautical Systems — Avenger ER data sheet",
+        "type": "manufacturer",
+        "url": "https://www.ga-asi.com/remotely-piloted-aircraft/pdf/2606_AVENGER_ER_E.pdf",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "General Atomics Aeronautical Systems — September 8, 2023 Avenger autonomy article",
+        "type": "manufacturer",
+        "url": "https://www.ga-asi.com/ga-asi-avenger-leads-the-way-in-autonomy-and-ai",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "BuyAndRentRobots — Avenger service listing by Shield AI",
+        "type": "manufacturer",
+        "url": "https://buyandrentrobots.com/robot/b30c7cf0-4620-439e-9036-9b45e224d64d",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-150/source-1.html",
+    "reviewNotes": "Batch150. Native GA-ASI product,portfolio,news and issuer data-sheet PDF read as text only;no research browser or visual inspection. Predator C Avenger first flight April2009;AvengerER first flight October2016 and expanded test program2017. ER is the represented configuration. Data sheet:76ft wingspan,44ft length,18,900lb MTOW,9,500lb fuel,9,000lb payload(3,000 internal/6,000 external),860lb forward bay,400KTAS,50,000ft,20hr,21kW PW545B turbofan. MTOW and fuel are not empty mass;endurance is flightTime not battery runtime;payload splits are capacity not simultaneous loads. MQ-20 autonomy,digtal twins and human-machine teaming are company test milestones. buyandrentrobots lists Avenger as available ShieldAI service with quote pricing and an MQ-20 airframe,not a delivered fleet or production-configuration equivalence. No OCR,media reuse,forms,login,contact,messages or transactions. AllUSPs/completeportfolio/leadership unproven."
+  },
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 14,
+    "axeCases": 4,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1242,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 9,
+      "successfulResponses": 9,
+      "usableResponses": 8,
+      "sha256VerifiedResponses": 9,
+      "nativeHtmlResponses": 7,
+      "pdfDocuments": 1,
+      "pdfPages": 2,
+      "pdfSources": [
+        {
+          "sourceId": 4,
+          "pages": 2
+        }
+      ],
+      "notFoundExcluded": [
+        "https://www.ga-asi.com/avenger"
+      ],
+      "blockedResponses": [],
+      "inspection": "Native HTML and one issuer data-sheet PDF read as text only; no research browser, visual inspection, OCR or media reuse. No login, forms, contact, messages or transactions."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 1,
+          "selector": "main",
+          "textSha256": "71cc200d82fec188825e264bd6b1655eabfeba884052a21fd9219268a5ceba6a"
+        },
+        {
+          "sourceId": 3,
+          "selector": "main",
+          "textSha256": "16f0ff219f83ff6330deb4c4bcd91dff5c7e660905964c4c7ee0b01daa5bea67"
+        },
+        {
+          "sourceId": 5,
+          "selector": "main",
+          "textSha256": "84babbbad3242e570c5761f33fc4b9cb1ae24df16c56a4738f85d31fe2b771b3"
+        },
+        {
+          "sourceId": 6,
+          "selector": "main",
+          "textSha256": "1f44f946bbb2c9e183b22d15453def1741c1fdb196943307a54f42237dd2bf2a"
+        },
+        {
+          "sourceId": 7,
+          "selector": "body",
+          "textSha256": "3afdc6931cafa43d872ec6de5aea5abc6dcf8fe01175ed182f1b2ebf2eb5297c"
+        },
+        {
+          "sourceId": 8,
+          "selector": "main",
+          "textSha256": "fa8a367ccadee5fcc989dfca9f066ed5d65ed9508ac32ded6ec6c25cf27969b2"
+        },
+        {
+          "sourceId": 9,
+          "selector": "main",
+          "textSha256": "92ce75a765f86fe1dadea73d613cc52b15927b15135be60ad51f1e259d5221f2"
+        }
+      ],
+      "versionScopes": "Predator C Avenger first flew April 2009; Avenger ER first flew October 2016 with an expanded flight test program in 2017. The catalog row represents the ER configuration, not the baseline Avenger or an MQ-20 test airframe.",
+      "weightScopes": "18,900 lb is maximum gross takeoff weight and 9,500 lb is fuel capacity. Neither is empty mass; no empty-weight figure is published.",
+      "payloadScopes": "9,000 lb total payload splits into 3,000 lb internal and 6,000 lb external stores, plus an 860 lb forward bay and six external hardpoints. These are capacity ratings, not simultaneous loads or confirmed mission configurations.",
+      "enduranceScopes": "20 hours is maximum endurance and 400 KTAS maximum airspeed at 50,000 ft maximum altitude. Turbofan fuel capacity is not battery runtime; no battery or recharge duration applies.",
+      "autonomyScopes": "MQ-20 Avenger autonomy demonstrations, digital twins and human-machine teaming are company test milestones. No independent operational certification or delivered fleet is established.",
+      "listingScopes": "The buyandrentrobots listing describes an available Shield AI service with quote-based pricing and an MQ-20 test airframe. It does not establish a numeric price, production-configuration equivalence or a delivered fleet.",
+      "goalComplete": false
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "unselectedPriorRowsUnchanged": 2377,
+      "priorSpecificationReviewsUnchanged": 1259,
+      "priorCompanyFocusReviewsUnchanged": 143,
+      "newSpecificationReviews": 1,
+      "selectedFields": 20,
+      "selectedFieldStatuses": {
+        "not-documented": 11,
+        "documented": 9
+      },
+      "allFieldStatuses": {
+        "not-documented": 14644,
+        "documented": 8751,
+        "conflicting": 316,
+        "roadmap": 108
+      },
+      "sourceIdentityFilesByteIdentical": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-product-reviews.json"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 484,
+        "withoutSelectedFieldReview": 34,
+        "selectedFields": 8889,
+        "selectedFieldStatuses": {
+          "documented": 3549,
+          "not-documented": 5135,
+          "conflicting": 187,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 137,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      }
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPagesChecked": 1,
+      "selectedSpecificationFieldsChecked": 20,
+      "sourceBadgesChecked": 8,
+      "blankFieldsOmitted": 10,
+      "descriptionsChecked": 1,
+      "websitesChecked": 1,
+      "structuredSpecificationPropertiesChecked": 6,
+      "highlightStatementsChecked": 9,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 1,
+      "modelExportRowsChecked": 1,
+      "modelExportTargetsChecked": 1,
+      "modelExportFieldOccurrencesChecked": 20,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 0,
+      "researchQueueTargetsChecked": 1,
+      "researchQueueFieldsChecked": 20,
+      "scope": "One GA-ASI record; Avenger ER configuration, wingspan/length, MTOW and fuel versus mass, internal/external payload capacity, endurance, propulsion and autonomy demonstrations; structured data and exports checked."
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "familyAndConfigurationScoped": true,
+      "takeoffWeightNotEmptyMass": true,
+      "payloadCapacityNotSimultaneousLoad": true,
+      "enduranceNotBatteryRuntime": true,
+      "autonomyDemonstrationsQualified": true,
+      "metricWeightAndDurationFiltersChecked": true,
+      "productHighlightRecords": 1311,
+      "individualHighlights": 5856,
+      "productSourceReferences": 2807,
+      "specificationReviewModels": 1260,
+      "specificationFields": 23819,
+      "publicJsonBytes": 6465872,
+      "catalogScriptBytes": 2679913,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T12:15:25Z",
+            "after": "2026-11-03T12:23:16Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T12:15:24.762Z",
+            "after": "2026-11-03T12:23:15.590Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "285342b757acef85500aa53a6abe1107a89e2afb3916feac7423cf8d7f9d41ae",
+            "after": "deb4f6ef225ef16ca7e4d1e98c807fd2e5351aba86ee8aa7ef9e77b84009ce8c"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T12:15:24.762Z",
+            "after": "2026-11-03T12:23:15.590Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T12:15:24.762Z",
+            "after": "2026-11-03T12:23:15.590Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 103,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "0e81f7337310ec727af5012cb1bcdb627f6f397a",
+    "dataCommit": "fab04024602985bfe04e1daf8e56d8919ddab669",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 484,
+    "withoutSelectedFieldReview": 34,
+    "selectedFields": 8889,
+    "selectedFieldStatuses": {
+      "documented": 3549,
+      "not-documented": 5135,
+      "conflicting": 187,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 137,
+    "remainingModelIdentities": 3,
+    "remainingListingIdentities": 9
+  },
+  "remainingProductDetailContentChecks": 862,
+  "goalComplete": false
+}
