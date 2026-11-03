@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,341 catalog rows**, with 646 exact
-manufacturer spellings. Batch 135 refreshed the separate heuristic gap file offline
-against all 2,341 rows (638 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,344 catalog rows**, with 646 exact
+manufacturer spellings. Batch 136 refreshed the separate heuristic gap file offline
+against all 2,344 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1271 dated records across the catalog, including
-184 existing-model enrichments and 1087 task additions. All 430 catalog models
+Current product-highlight coverage: 1275 dated records across the catalog, including
+185 existing-model enrichments and 1090 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1087 task additions, totaling 2,341.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1090 task additions, totaling 2,344.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 469 have selected-field reviews and 49 await those reviews. Family and
+highlights; 470 have selected-field reviews and 48 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 22,834 fields across 1204 catalog models: 8,361 documented,
-14,065 not documented, 302 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 22,923 fields across 1209 catalog models: 8,389 documented,
+14,126 not documented, 302 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -9027,6 +9027,88 @@ geprüft; fremde Ressourcen bleiben erhalten.
 
 Daten-Zwischencommit `b737bcd1cca1ffa28ee4fe06eb77d9e592bda394` ist auf `codex/competitor-directory-expansion` gepusht und remote
 bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben
+unbewiesen.
+
+
+## Ergänzung 136 – Beatbot: Sora-Modelle, Stationsgrenzen und Forschungsprototyp (3. November 2026)
+
+Sora 70, Sora 10 und Aquatic RoboTurtle ergänzen den Katalog; AquaSense X und
+Sora 30 erhalten vertiefte Prüfungen. Fünf neue Feldprüfungen umfassen 89 Felder:
+28 dokumentiert, 61 nicht dokumentiert. Zwölf zusätzliche Merkmalsaussagen,
+acht zusätzliche Produktquellenverweise und ein Firmenfokus kommen hinzu.
+Die vier bisherigen AquaSense-X-Merkmale, vorhandene Medien und Fund-URLs bleiben
+erhalten. Die übrigen 2.339 Katalogzeilen, 1.204 früheren Feldprüfungen und
+130 Firmenfokusse sind unverändert. Gesamt: 2.344 Katalogzeilen, 1.275 datierte
+Merkmalsdatensätze, 5.659 Aussagen, 2.621 Produktquellenverweise, 1.209 Feldprüfungen
+mit 22.923 Feldern und 131 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben
+470 ausgewählte Feldprüfungen; 48 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-136-evidence.json`.
+
+Sieben erfolgreiche Herstellerquellen sind geprüft: zwei aktuelle HTML-Seiten
+und fünf datierte, vom Hersteller stammende PRNewswire-Mitteilungen. Die dritte
+Beatbot-Anfrage antwortete mit HTTP 429. Weitere Anfragen an diesen Host wurden
+gestoppt; keine Ausweichanfrage an regionale Hosts, keine Anmeldung oder Umgehung.
+Auch die ausgeschlossene 429-Antwort hat einen archivierten Hash. Hauptinhalte
+und PR-Mitteilungskörper sind abgegrenzt; Kundenberichte, Navigation, Formulare
+und nur als Bild sichtbare Daten werden nicht zu technischen Belegen. Keine
+visuelle Prüfung, OCR oder Medienübernahme.
+
+AquaSense X wird laut Januar-Mitteilung vom Nutzer auf die separate AstroRinse-
+Station gesetzt. Automatische dreiminütige Filterwäsche belegt keine selbständige
+Fahrt aus dem Pool auf die Station und keine Ladezeit. Der 22-Liter-Abfallbehälter
+und bis zu zwei Monate Leerungsintervall gehören zur Station, in der Mitteilung
+unter der Bedingung zweier Reinigungszyklen pro Woche. Sie sind weder Roboterkorb
+noch garantierte Wartungsfreiheit. Die aktuelle US-Seite begrenzt App-Steuerung
+auf die Wasseroberfläche und nennt bis 5.000 ppm Salz; 35 cm sind Wassertiefe für
+Plattformen, keine Roboterhöhe oder vollständige Tiefen-/Ingress-Zertifizierung.
+Historische MSRP bleibt datiert; Januar-Vorbestellung und April-„Open Sale“ mit
+„presale“ im Körper belegen keinen heutigen Lagerbestand.
+
+Sora 70 erhält nur seine eigenen Februar-Werte: 22,9 lb Robotergewicht,
+17,09 × 16,93 × 11,22 Zoll, Hersteller-IP68 sowie bis fünf Stunden Bodenreinigung
+im ECO-Modus bzw. sieben Stunden Oberflächenreinigung. JetPulse-Skimming und
+SonicSense-Ultraschall behalten ihre Funktionsrollen. Acht Zoll sind minimale
+Wassertiefe; 6.800 GPH sind Durchfluss, sechs Liter Schmutzspeicher und bis
+3.230 Quadratfuß Poolfläche eine Reichweite pro Ladung. Daraus entstehen weder
+Fahrgeschwindigkeit, Nutzlast, Arbeitsbreite noch Fläche pro Stunde. Der optionale
+3-Mikrometer-Filter wird nicht als Serienumfang importiert; „800 Blätter“ wird
+nicht zu standardisierter Masse oder garantierter Kapazität.
+
+Die gemeinsame März-Mitteilung nennt Sora 30 und Sora 10 mit 5-Liter-Speicher,
+150-Mikrometer-Filtration und 6.800-GPH-Durchfluss. Nur Sora 30 bekommt dort
+10.000 mAh und bis fünf Stunden Bodenreinigung zugeordnet. Sein bisheriges
+300-Minuten-Feld wird aus maxRuntime entfernt und mit Modusgrenze in batteryLife
+geführt; keine Ladezeit wird daraus abgeleitet. Die unspezifische Größenangabe
+„medium“ entfällt. Sora 10 erbt weder diese Laufzeit noch Sora-70-Masse, Maße,
+Ingress-Rating oder Filteroption. Oberflächenparken belegt für beide kein aktives
+Oberflächen-Skimming. MSRP von 999 bzw. 699 USD ist auf den 30. März 2026 datiert;
+Aktions- und Bündelpreise werden nicht zu dauerhaften Einzelproduktpreisen.
+
+Aquatic RoboTurtle bleibt ausdrücklich Forschungsprototyp. Die Januar-Mitteilung
+unterscheidet den beweglichen 2026-Aufbau vom statischen CES-2025-Exponat und
+beschreibt Kamerawahrnehmung, ausgewählte Gesten-/Zielreaktionen und bewegliche
+Gliedmaßen. Das belegt weder verkaufte Konfiguration, exakte Gelenkzahl,
+Feldbetrieb, wissenschaftliche Messgüte, Tiefe noch Laufzeit. Unbenannte Iterationen
+werden nicht als getrennte Modellgenerationen erfunden. AstroRinse, Filter,
+Klärer, Taschen, Abdeckungen und Mehrroboterpakete bleiben Zubehör/Bündel.
+AquaSense Pro, AquaSense 2 Ultra, iSkim Ultra, AquaSense 2 und AquaSense 2 Pro
+benötigen weitere eigene Feldprüfungen; die frühere iSkim-Prüfung mit zwei Feldern
+bleibt erhalten und belegt noch keine vollständige technische Erschließung.
+
+Nach Korrektur einer zunächst nicht aktualisierten generierten Merkmalsdatei
+bestehen alle 808 Unit-Tests in 64 Dateien und 20 Browserfälle mit vier Axe-Checks.
+Der überholte erste Build wurde nur in seiner eigenen markierten Prozessgruppe
+beendet; der abschließende vollständige Build erzeugt 3.395 Seiten. Audit: null
+Fehler, 1.221 Warnungen, davon eine neue für das unbekannte Erscheinungsjahr des
+Prototyps. Fünf Seiten, 89 Felder, Quellenbadges, leere Felder, strukturierte Daten,
+Firmenfokus, Suchtreffer, Vergleich und Exporte sind geprüft. Reimport: null
+Ergänzungen, 32 getrackte Datendateien byteidentisch; Offline-Refresh semantisch
+idempotent. Eigene Browser/Server und Hilfsprozesse beendet und geprüft.
+
+Daten-Zwischencommit `620066fdffec05b04ae915305ae4b5c3029b957b` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben
 unbewiesen.

@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.341 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1087 |
-| Datierte Produktmerkmal-Datensätze einschließlich 184 bestehender Modelle | 1271 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.344 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1090 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1275 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 130 |
+| Firmenfokus-Prüfungen mit Quellen | 131 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1087 ergänzte Modelle ergeben 2.341 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1090 ergänzte Modelle ergeben 2.344 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-130 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+131 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1271 Datensätze
+Modellseiten verlinken Markenprofile. Die 1275 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 469 haben ausgewählte Datenfeldprüfungen und 49
+haben datierte Merkmalsbelege; 470 haben ausgewählte Datenfeldprüfungen und 48
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11262,6 +11262,88 @@ geprüft; fremde Ressourcen bleiben erhalten.
 
 Daten-Zwischencommit `b737bcd1cca1ffa28ee4fe06eb77d9e592bda394` ist auf `codex/competitor-directory-expansion` gepusht und remote
 bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben
+unbewiesen.
+
+
+## Ergänzung 136 – Beatbot: Sora-Modelle, Stationsgrenzen und Forschungsprototyp (3. November 2026)
+
+Sora 70, Sora 10 und Aquatic RoboTurtle ergänzen den Katalog; AquaSense X und
+Sora 30 erhalten vertiefte Prüfungen. Fünf neue Feldprüfungen umfassen 89 Felder:
+28 dokumentiert, 61 nicht dokumentiert. Zwölf zusätzliche Merkmalsaussagen,
+acht zusätzliche Produktquellenverweise und ein Firmenfokus kommen hinzu.
+Die vier bisherigen AquaSense-X-Merkmale, vorhandene Medien und Fund-URLs bleiben
+erhalten. Die übrigen 2.339 Katalogzeilen, 1.204 früheren Feldprüfungen und
+130 Firmenfokusse sind unverändert. Gesamt: 2.344 Katalogzeilen, 1.275 datierte
+Merkmalsdatensätze, 5.659 Aussagen, 2.621 Produktquellenverweise, 1.209 Feldprüfungen
+mit 22.923 Feldern und 131 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben
+470 ausgewählte Feldprüfungen; 48 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-136-evidence.json`.
+
+Sieben erfolgreiche Herstellerquellen sind geprüft: zwei aktuelle HTML-Seiten
+und fünf datierte, vom Hersteller stammende PRNewswire-Mitteilungen. Die dritte
+Beatbot-Anfrage antwortete mit HTTP 429. Weitere Anfragen an diesen Host wurden
+gestoppt; keine Ausweichanfrage an regionale Hosts, keine Anmeldung oder Umgehung.
+Auch die ausgeschlossene 429-Antwort hat einen archivierten Hash. Hauptinhalte
+und PR-Mitteilungskörper sind abgegrenzt; Kundenberichte, Navigation, Formulare
+und nur als Bild sichtbare Daten werden nicht zu technischen Belegen. Keine
+visuelle Prüfung, OCR oder Medienübernahme.
+
+AquaSense X wird laut Januar-Mitteilung vom Nutzer auf die separate AstroRinse-
+Station gesetzt. Automatische dreiminütige Filterwäsche belegt keine selbständige
+Fahrt aus dem Pool auf die Station und keine Ladezeit. Der 22-Liter-Abfallbehälter
+und bis zu zwei Monate Leerungsintervall gehören zur Station, in der Mitteilung
+unter der Bedingung zweier Reinigungszyklen pro Woche. Sie sind weder Roboterkorb
+noch garantierte Wartungsfreiheit. Die aktuelle US-Seite begrenzt App-Steuerung
+auf die Wasseroberfläche und nennt bis 5.000 ppm Salz; 35 cm sind Wassertiefe für
+Plattformen, keine Roboterhöhe oder vollständige Tiefen-/Ingress-Zertifizierung.
+Historische MSRP bleibt datiert; Januar-Vorbestellung und April-„Open Sale“ mit
+„presale“ im Körper belegen keinen heutigen Lagerbestand.
+
+Sora 70 erhält nur seine eigenen Februar-Werte: 22,9 lb Robotergewicht,
+17,09 × 16,93 × 11,22 Zoll, Hersteller-IP68 sowie bis fünf Stunden Bodenreinigung
+im ECO-Modus bzw. sieben Stunden Oberflächenreinigung. JetPulse-Skimming und
+SonicSense-Ultraschall behalten ihre Funktionsrollen. Acht Zoll sind minimale
+Wassertiefe; 6.800 GPH sind Durchfluss, sechs Liter Schmutzspeicher und bis
+3.230 Quadratfuß Poolfläche eine Reichweite pro Ladung. Daraus entstehen weder
+Fahrgeschwindigkeit, Nutzlast, Arbeitsbreite noch Fläche pro Stunde. Der optionale
+3-Mikrometer-Filter wird nicht als Serienumfang importiert; „800 Blätter“ wird
+nicht zu standardisierter Masse oder garantierter Kapazität.
+
+Die gemeinsame März-Mitteilung nennt Sora 30 und Sora 10 mit 5-Liter-Speicher,
+150-Mikrometer-Filtration und 6.800-GPH-Durchfluss. Nur Sora 30 bekommt dort
+10.000 mAh und bis fünf Stunden Bodenreinigung zugeordnet. Sein bisheriges
+300-Minuten-Feld wird aus maxRuntime entfernt und mit Modusgrenze in batteryLife
+geführt; keine Ladezeit wird daraus abgeleitet. Die unspezifische Größenangabe
+„medium“ entfällt. Sora 10 erbt weder diese Laufzeit noch Sora-70-Masse, Maße,
+Ingress-Rating oder Filteroption. Oberflächenparken belegt für beide kein aktives
+Oberflächen-Skimming. MSRP von 999 bzw. 699 USD ist auf den 30. März 2026 datiert;
+Aktions- und Bündelpreise werden nicht zu dauerhaften Einzelproduktpreisen.
+
+Aquatic RoboTurtle bleibt ausdrücklich Forschungsprototyp. Die Januar-Mitteilung
+unterscheidet den beweglichen 2026-Aufbau vom statischen CES-2025-Exponat und
+beschreibt Kamerawahrnehmung, ausgewählte Gesten-/Zielreaktionen und bewegliche
+Gliedmaßen. Das belegt weder verkaufte Konfiguration, exakte Gelenkzahl,
+Feldbetrieb, wissenschaftliche Messgüte, Tiefe noch Laufzeit. Unbenannte Iterationen
+werden nicht als getrennte Modellgenerationen erfunden. AstroRinse, Filter,
+Klärer, Taschen, Abdeckungen und Mehrroboterpakete bleiben Zubehör/Bündel.
+AquaSense Pro, AquaSense 2 Ultra, iSkim Ultra, AquaSense 2 und AquaSense 2 Pro
+benötigen weitere eigene Feldprüfungen; die frühere iSkim-Prüfung mit zwei Feldern
+bleibt erhalten und belegt noch keine vollständige technische Erschließung.
+
+Nach Korrektur einer zunächst nicht aktualisierten generierten Merkmalsdatei
+bestehen alle 808 Unit-Tests in 64 Dateien und 20 Browserfälle mit vier Axe-Checks.
+Der überholte erste Build wurde nur in seiner eigenen markierten Prozessgruppe
+beendet; der abschließende vollständige Build erzeugt 3.395 Seiten. Audit: null
+Fehler, 1.221 Warnungen, davon eine neue für das unbekannte Erscheinungsjahr des
+Prototyps. Fünf Seiten, 89 Felder, Quellenbadges, leere Felder, strukturierte Daten,
+Firmenfokus, Suchtreffer, Vergleich und Exporte sind geprüft. Reimport: null
+Ergänzungen, 32 getrackte Datendateien byteidentisch; Offline-Refresh semantisch
+idempotent. Eigene Browser/Server und Hilfsprozesse beendet und geprüft.
+
+Daten-Zwischencommit `620066fdffec05b04ae915305ae4b5c3029b957b` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben
 unbewiesen.
