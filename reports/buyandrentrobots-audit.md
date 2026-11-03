@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,330 catalog rows**, with 646 exact
-manufacturer spellings. Batch 134 refreshed the separate heuristic gap file offline
-against all 2,330 rows (638 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,341 catalog rows**, with 646 exact
+manufacturer spellings. Batch 135 refreshed the separate heuristic gap file offline
+against all 2,341 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1260 dated records across the catalog, including
-184 existing-model enrichments and 1076 task additions. All 430 catalog models
+Current product-highlight coverage: 1271 dated records across the catalog, including
+184 existing-model enrichments and 1087 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1076 task additions, totaling 2,330.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1087 task additions, totaling 2,341.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 468 have selected-field reviews and 50 await those reviews. Family and
+highlights; 469 have selected-field reviews and 49 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 22,619 fields across 1192 catalog models: 8,264 documented,
-13,947 not documented, 302 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 22,834 fields across 1204 catalog models: 8,361 documented,
+14,065 not documented, 302 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -8959,3 +8959,74 @@ bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deploym
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 sind
 weiterhin nicht belegt.
+
+
+## Ergänzung 135 – Barrett: WAM-Konfigurationen, Gimbals und Burt-Zubehör (3. November 2026)
+
+Elf WAM-Konfigurationszeilen und eine vertiefte Burt-Prüfung ergänzen den Bestand.
+215 ausgewählte Felder: 97 dokumentiert, 118 nicht dokumentiert. 37 zusätzliche
+Merkmalsaussagen, 34 zusätzliche Produktquellenverweise und ein Firmenfokus kommen
+hinzu. Drei vorherige Burt-Merkmale und deren Quellen-URL bleiben erhalten.
+Gesamt: 2.341 Modell-/Konfigurationszeilen, 1.271 datierte Merkmalsdatensätze,
+5.647 Aussagen, 2.613 Produktquellenverweise, 1.204 technische Feldprüfungen mit
+22.834 Feldern und 130 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben
+469 ausgewählte Feldprüfungen; 49 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-135-evidence.json`.
+
+Die aktuelle WAM-Tabelle unterscheidet Vier- und Sieben-Achs-Versionen für Standard,
+High Speed, Ultra High Speed, High Payload und High Precision. High Speed/Ultra
+High Speed teilen eine Spalte mit verschiedenen Spitzengeschwindigkeiten; diese
+werden getrennt übernommen. Die expliziten 4-/7-Achs-Werte für Nutzlast und
+Wiederholgenauigkeit behalten ihre Zuordnung. Es entstehen keine beliebigen
+Kombinationen verschiedener Upgrades und keine Behauptung elf unabhängiger
+Grundprodukte oder belegter Verkaufs-SKUs. Endpunkt-Spitzengeschwindigkeit,
+Nutzlast und Wiederholgenauigkeit sind separate Herstellerwerte ohne belegten
+gemeinsamen Volllast-Messpunkt. Mikrometer werden in Millimeter umgerechnet;
+ISO-9283-Bedingungen und absolute Positioniergenauigkeit sind nicht belegt.
+Armmasse ist ohne zusätzliche Werkzeuge abgegrenzt. Reichweite und Arbeitsraum
+sind keine Außenmaße; 50 W aktive Leistung sind keine Batterielaufzeit.
+
+Das eigene Gimbals/Master-Paket ist durch die historische Komponentenmatrix und
+die verlinkte Familien-PDF belegt. Vier Armachsen plus drei aktive Gimbalachsen
+sind ein anderer Aufbau als das gewöhnliche Sieben-Achs-WAM-Handgelenk. B3763
+Gimbals und B2607 Handgelenk bleiben getrennt. Masse, Tragfähigkeit, Geschwindigkeit,
+Endpunktreichweite und Wiederholgenauigkeit des Standardarms werden nicht auf
+diesen Aufbau übertragen. BarrettHand/BH8-282, Puck, Kraft-/Moment- und taktile
+Sensoren sind Komponenten, keine zusätzlichen eigenständigen Roboterzeilen.
+
+Burt behält therapeutisch betreute Armgewicht-Unterstützung, Haptik und Assessments.
+Drei Ebenen der Rücktreibbarkeit sind kein belegter Gelenk-/Motorenzähler. Die
+Herstellerseite nennt weiterhin sowohl 18 als auch 20 Aktivitäten; kein eindeutiger
+aktueller Bibliothekszähler wird erfunden. Etwa 60 Sekunden Basis-Setup und unter
+90 Sekunden BurtWrist-Setup sind weder Betriebs- noch Ladezeit. BurtWrist ist eine
+optionale Erweiterung für Unterarmrotation und Griffsensorik. BurtCare und
+Aktivitätsnamen sind Service-/Softwareangebote. Patientenberichte, absolute
+Sicherheitsaussagen, Hersteller-Regulierungssprache und historische Guinness-
+Formulierungen belegen keine unabhängige klinische Wirkung, behördliche Zulassung,
+Anwendungssicherheit oder heutige Marktführerschaft.
+
+Zehn HTTP-200-Antworten und vier Hersteller-PDFs sind mit Hashes geprüft.
+Produkt-Hauptinhalte und die aktuelle Konfigurationstabelle wurden abgegrenzt.
+Die WAM-PDF enthält September-2023-Metadaten und eine entsprechende Updatezeile,
+aber zugleich den extrahierten Copyright-Hinweis „©2034“. Aus diesem Widerspruch
+entsteht weder Publikations- noch Erscheinungsjahr. Die Komponentenmatrix ist
+vom 17. Januar 2019; die Hand-PDF von Oktober 2013. Aktuelle WAM-Zahlen stammen
+aus der aktuellen Tabelle, historische Unterlagen aus ihrem jeweiligen Kontext.
+Keine visuelle Prüfung, OCR, Medienübernahme, Anmeldung, Formulare, Konten oder
+Transaktionen; kein Recherchebrowser.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle mit vier Axe-Prüfungen bestehen.
+Build: 3.392 Seiten. Audit: null Fehler und 1.220 Warnungen; elf zusätzliche
+Warnungen betreffen nicht belegte Erscheinungsjahre. Zwölf Produktseiten,
+215 Felder, Quellenbadges, Leerfelder, strukturierte Daten, Firmenfokus, Suche,
+Vergleich und CSV-Auslieferung sind geprüft. Alle 2.329 nicht ausgewählten alten
+Katalogzeilen, 1.192 früheren Feldprüfungen und 129 Firmenfokusse bleiben erhalten.
+Reimport: null Ergänzungen, 32 getrackte Datendateien byteidentisch; Offline-Refresh
+semantisch idempotent. Eigene Testbrowser und Server sind beendet, Prozesse
+geprüft; fremde Ressourcen bleiben erhalten.
+
+Daten-Zwischencommit `b737bcd1cca1ffa28ee4fe06eb77d9e592bda394` ist auf `codex/competitor-directory-expansion` gepusht und remote
+bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben
+unbewiesen.

@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.330 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1076 |
-| Datierte Produktmerkmal-Datensätze einschließlich 184 bestehender Modelle | 1260 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.341 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1087 |
+| Datierte Produktmerkmal-Datensätze einschließlich 184 bestehender Modelle | 1271 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 129 |
+| Firmenfokus-Prüfungen mit Quellen | 130 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1076 ergänzte Modelle ergeben 2.330 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1087 ergänzte Modelle ergeben 2.341 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-129 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+130 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1260 Datensätze
+Modellseiten verlinken Markenprofile. Die 1271 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 468 haben ausgewählte Datenfeldprüfungen und 50
+haben datierte Merkmalsbelege; 469 haben ausgewählte Datenfeldprüfungen und 49
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11194,3 +11194,74 @@ bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deploym
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 sind
 weiterhin nicht belegt.
+
+
+## Ergänzung 135 – Barrett: WAM-Konfigurationen, Gimbals und Burt-Zubehör (3. November 2026)
+
+Elf WAM-Konfigurationszeilen und eine vertiefte Burt-Prüfung ergänzen den Bestand.
+215 ausgewählte Felder: 97 dokumentiert, 118 nicht dokumentiert. 37 zusätzliche
+Merkmalsaussagen, 34 zusätzliche Produktquellenverweise und ein Firmenfokus kommen
+hinzu. Drei vorherige Burt-Merkmale und deren Quellen-URL bleiben erhalten.
+Gesamt: 2.341 Modell-/Konfigurationszeilen, 1.271 datierte Merkmalsdatensätze,
+5.647 Aussagen, 2.613 Produktquellenverweise, 1.204 technische Feldprüfungen mit
+22.834 Feldern und 130 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben
+469 ausgewählte Feldprüfungen; 49 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-135-evidence.json`.
+
+Die aktuelle WAM-Tabelle unterscheidet Vier- und Sieben-Achs-Versionen für Standard,
+High Speed, Ultra High Speed, High Payload und High Precision. High Speed/Ultra
+High Speed teilen eine Spalte mit verschiedenen Spitzengeschwindigkeiten; diese
+werden getrennt übernommen. Die expliziten 4-/7-Achs-Werte für Nutzlast und
+Wiederholgenauigkeit behalten ihre Zuordnung. Es entstehen keine beliebigen
+Kombinationen verschiedener Upgrades und keine Behauptung elf unabhängiger
+Grundprodukte oder belegter Verkaufs-SKUs. Endpunkt-Spitzengeschwindigkeit,
+Nutzlast und Wiederholgenauigkeit sind separate Herstellerwerte ohne belegten
+gemeinsamen Volllast-Messpunkt. Mikrometer werden in Millimeter umgerechnet;
+ISO-9283-Bedingungen und absolute Positioniergenauigkeit sind nicht belegt.
+Armmasse ist ohne zusätzliche Werkzeuge abgegrenzt. Reichweite und Arbeitsraum
+sind keine Außenmaße; 50 W aktive Leistung sind keine Batterielaufzeit.
+
+Das eigene Gimbals/Master-Paket ist durch die historische Komponentenmatrix und
+die verlinkte Familien-PDF belegt. Vier Armachsen plus drei aktive Gimbalachsen
+sind ein anderer Aufbau als das gewöhnliche Sieben-Achs-WAM-Handgelenk. B3763
+Gimbals und B2607 Handgelenk bleiben getrennt. Masse, Tragfähigkeit, Geschwindigkeit,
+Endpunktreichweite und Wiederholgenauigkeit des Standardarms werden nicht auf
+diesen Aufbau übertragen. BarrettHand/BH8-282, Puck, Kraft-/Moment- und taktile
+Sensoren sind Komponenten, keine zusätzlichen eigenständigen Roboterzeilen.
+
+Burt behält therapeutisch betreute Armgewicht-Unterstützung, Haptik und Assessments.
+Drei Ebenen der Rücktreibbarkeit sind kein belegter Gelenk-/Motorenzähler. Die
+Herstellerseite nennt weiterhin sowohl 18 als auch 20 Aktivitäten; kein eindeutiger
+aktueller Bibliothekszähler wird erfunden. Etwa 60 Sekunden Basis-Setup und unter
+90 Sekunden BurtWrist-Setup sind weder Betriebs- noch Ladezeit. BurtWrist ist eine
+optionale Erweiterung für Unterarmrotation und Griffsensorik. BurtCare und
+Aktivitätsnamen sind Service-/Softwareangebote. Patientenberichte, absolute
+Sicherheitsaussagen, Hersteller-Regulierungssprache und historische Guinness-
+Formulierungen belegen keine unabhängige klinische Wirkung, behördliche Zulassung,
+Anwendungssicherheit oder heutige Marktführerschaft.
+
+Zehn HTTP-200-Antworten und vier Hersteller-PDFs sind mit Hashes geprüft.
+Produkt-Hauptinhalte und die aktuelle Konfigurationstabelle wurden abgegrenzt.
+Die WAM-PDF enthält September-2023-Metadaten und eine entsprechende Updatezeile,
+aber zugleich den extrahierten Copyright-Hinweis „©2034“. Aus diesem Widerspruch
+entsteht weder Publikations- noch Erscheinungsjahr. Die Komponentenmatrix ist
+vom 17. Januar 2019; die Hand-PDF von Oktober 2013. Aktuelle WAM-Zahlen stammen
+aus der aktuellen Tabelle, historische Unterlagen aus ihrem jeweiligen Kontext.
+Keine visuelle Prüfung, OCR, Medienübernahme, Anmeldung, Formulare, Konten oder
+Transaktionen; kein Recherchebrowser.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle mit vier Axe-Prüfungen bestehen.
+Build: 3.392 Seiten. Audit: null Fehler und 1.220 Warnungen; elf zusätzliche
+Warnungen betreffen nicht belegte Erscheinungsjahre. Zwölf Produktseiten,
+215 Felder, Quellenbadges, Leerfelder, strukturierte Daten, Firmenfokus, Suche,
+Vergleich und CSV-Auslieferung sind geprüft. Alle 2.329 nicht ausgewählten alten
+Katalogzeilen, 1.192 früheren Feldprüfungen und 129 Firmenfokusse bleiben erhalten.
+Reimport: null Ergänzungen, 32 getrackte Datendateien byteidentisch; Offline-Refresh
+semantisch idempotent. Eigene Testbrowser und Server sind beendet, Prozesse
+geprüft; fremde Ressourcen bleiben erhalten.
+
+Daten-Zwischencommit `b737bcd1cca1ffa28ee4fe06eb77d9e592bda394` ist auf `codex/competitor-directory-expansion` gepusht und remote
+bestätigt. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben
+unbewiesen.
