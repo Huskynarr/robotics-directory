@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 507 and 11 still awaiting those reviews.
+selected technical-field reviews for 511 and 7 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -487,6 +487,27 @@ Frymaster, Henny Penny and Pitco fryers, starts at 9.5 ft of wall space and is
 claimed to handle 100 baskets per hour versus 50 for human workers. The catalog
 Flippy price, mass and 2017 release date are not supported by the reviewed pages
 and are cleared.
+
+Mobsya Thymio II, RAD Security ROAMEO, Rapid Robotics 3PRO and Refraction AI
+REV-1 now have selected field reviews. Thymio II is an open-source educational
+mobile robot designed by EPFL researchers with ECAL and produced by Mobsya, listing
+11 x 11.2 x 5.3 cm dimensions, 270 g mass, a 3.7 V 1,500 mAh Li-Po battery with more
+than two hours of autonomy, a 14 cm/s maximum speed, nine infrared sensors, five
+capacitive touch buttons, an accelerometer, thermometer, microphone, infrared
+receiver, 39 controllable LEDs, two wheel motors and a speaker. The catalog 100 EUR,
+180 min, 4-99 age range and 2011 release date are not supported by the reviewed
+pages and are cleared; Thymio 2+ and Thymio 3 are separate products. ROAMEO is an
+outdoor security patrol vehicle with an 1,800 lb (816 kg) mass, L 71.2 in x W 47.6 in
+x H 80 in dimensions, up to 16 hours and 80 miles per charge, up to 10 mph, 15-degree
+slope capability, a -4°F to 113°F operating temperature range and five solid-state
+3D LiDAR sensors; SARA and RADSOC are software layers, and service is quoted
+monthly. 3PRO is a dual-arm industrial humanoid platform mounted on a stable
+repositionable base with MoveIt Pro integration; its mobile base is in development.
+REV-1 is an autonomous three-wheel delivery robot with approximately 150 lb mass,
+4.5 ft length x 30 in width x 4.5 ft height, up to 15 mph speed and a 16 cubic foot
+cargo compartment (~six grocery bags) that operated a ten-robot Austin delivery
+pilot announced in June 2021. No numeric price, payload, IP rating or navigation
+accuracy is published for ROAMEO, 3PRO or REV-1.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1353,20 +1374,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,247 fields across 1284 models, distinguishing documented, undisclosed, conflicting and
+24,317 fields across 1288 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,561 kB JSON response loads only for search or comparison;
+A separate 6,573 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,957 reviewed highlight statements as well as
+Catalog search now includes all 5,997 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
