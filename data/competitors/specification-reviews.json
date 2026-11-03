@@ -147500,6 +147500,384 @@
           "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
         }
       }
+    },
+    {
+      "robotId": "figure-figure-03",
+      "manufacturer": "Figure",
+      "model": "Figure 03",
+      "sources": [
+        {
+          "name": "Figure — current Figure 03 product page and specifications",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/figure",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — October 9, 2025 Figure 03 introduction",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/introducing-figure-03",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — July 17, 2025 F.03 battery development",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/f-03-battery-development",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — company timeline for F.01, F.02 and F.03",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/company",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — June 30, 2026 Figure 03 BMW Hall 52 sequencing demonstration",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/f-03-at-bmw",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — April 29, 2026 Figure 03 production ramp",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/ramping-figure-03-production",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-149/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed; no numeric public price established",
+          "status": "not-documented",
+          "note": "Configuration-specific manufacturer statement; operating conditions retained and not independently tested."
+        },
+        "weight": {
+          "value": "61 kg",
+          "status": "documented",
+          "note": "Current product page gives 61 kg. Earlier catalog text said 60 kg and is superseded rather than treated as a second revision."
+        },
+        "size": {
+          "value": "Height 5 ft 8 in (about 173 cm); full outer dimensions not published",
+          "status": "documented",
+          "note": "The manufacturer gives 5 ft 8 in. About 173 cm is an explicit approximate conversion; 168 cm was not a published metric figure and is not retained as exact."
+        },
+        "batteryLife": {
+          "value": "2.3 kWh pack; 5 hours at peak performance (manufacturer rating)",
+          "status": "documented",
+          "note": "The battery article pairs 2.3 kWh with five hours at peak performance. This is a manufacturer estimate, not an independently measured duty cycle."
+        },
+        "maxRuntime": {
+          "value": "300 min (5 hours at peak performance; manufacturer rating)",
+          "status": "documented",
+          "note": "Five hours is the manufacturer peak-performance claim. Other tasks, payloads and environments may reduce it."
+        },
+        "handType": {
+          "value": "Five-fingered hands with palm cameras and compliant tactile fingertips; per-hand joint count not published",
+          "status": "documented",
+          "note": "Palm cameras and compliant tactile fingertips are described; a per-hand joint count for Figure 03 is not published."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot degree-of-freedom count is published. Hand, actuator and per-arm figures are not substituted."
+        },
+        "payload": {
+          "value": "20 kg",
+          "status": "documented",
+          "note": "Manufacturer lists 20 kg payload without specifying the end effector or test conditions."
+        },
+        "speed": {
+          "value": "1.2 m/s",
+          "status": "documented",
+          "note": "Manufacturer lists 1.2 m/s without surface, load or test conditions."
+        },
+        "terrain": {
+          "value": "Home and commercial indoor environments; manufacturer describes stair, tight-corner and shifting-layout navigation; no IP rating published",
+          "status": "documented",
+          "note": "Home use, stairs, tight corners and shifting layouts are manufacturer descriptions. No IP rating, slope limit or outdoor rating is published."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating is published in the reviewed Figure sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for this humanoid."
+        },
+        "website": {
+          "value": "https://www.figure.ai/figure",
+          "status": "documented",
+          "note": "Current Figure 03 product page."
+        },
+        "description": {
+          "value": "Figure 03 is Figure's third-generation humanoid, introduced on October 9, 2025 and positioned for home and commercial use. The manufacturer lists 5 ft 8 in height, 61 kg mass, 20 kg payload, 1.2 m/s speed and five hours of runtime at peak performance from a 2.3 kWh pack; foot coils accept 2 kW inductive charging. Cameras, palm cameras and tactile fingertips support grasp feedback. Production, BMW sequencing work and household demonstrations are company reports, not independently tested reliability or a delivered customer fleet.",
+          "status": "documented",
+          "note": "Company product, production and deployment statements; no independent performance, safety or delivery audit."
+        },
+        "releaseDate": {
+          "value": "2025",
+          "status": "documented",
+          "note": "Introduction dated October 9, 2025 on the manufacturer news page and company timeline."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "2 kW is an inductive charging rate. No full-charge duration is published; rate and duration are not interchangeable."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No arm reach figure is published for Figure 03."
+        },
+        "driveMode": {
+          "value": "Bipedal electric humanoid; foot coils for 2 kW inductive charging",
+          "status": "documented",
+          "note": "Bipedal electric humanoid. Charging coils in the feet support 2 kW inductive charging when docked."
+        }
+      }
+    },
+    {
+      "robotId": "figure-figure-02",
+      "manufacturer": "Figure",
+      "model": "Figure 02",
+      "sources": [
+        {
+          "name": "Figure — issuer release, August 6, 2024 Figure 02 unveiling",
+          "type": "manufacturer",
+          "url": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — November 19, 2025 Figure 02 BMW results and retirement",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/production-at-bmw",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — September 30, 2026 F.02 decommission",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/f-02-decommission",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — company timeline for F.01, F.02 and F.03",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/company",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-149/source-14.html",
+      "fields": {
+        "price": {
+          "value": "No numeric public price established; the fleet is retired, so no current purchase offer applies",
+          "status": "not-documented",
+          "note": "No numeric public price is published. The former 130,000 USD catalog figure had no reviewed manufacturer support and is removed."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No mass is published in the reviewed issuer sources. The former 70 kg catalog value is unsupported; Figure 03 mass is not inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No height or outer dimensions are published. The generic large size label is not a measurement."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The release documents a 2.25 kWh torso pack but no endurance rating. Capacity is not runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No runtime figure is published in the reviewed issuer sources."
+        },
+        "handType": {
+          "value": "Fourth-generation human-scale hands with 16 degrees of freedom per hand (August 6, 2024 issuer release)",
+          "status": "documented",
+          "note": "Sixteen degrees of freedom applies to each hand, not the whole robot."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot degree-of-freedom count is published."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No payload rating is published; the former 20 kg catalog figure is removed."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No travel speed is published; the former 1.2 m/s catalog figure is removed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The deployment context was the BMW Spartanburg assembly line. No general environmental, slope or IP rating is published."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating is published in the reviewed Figure sources."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for this humanoid."
+        },
+        "website": {
+          "value": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
+          "status": "documented",
+          "note": "Manufacturer homepage; the reviewed Figure 02 material is dated news releases."
+        },
+        "description": {
+          "value": "Figure 02 is Figure's second-generation humanoid, unveiled on August 6, 2024 with an integrated 2.25 kWh torso battery, six onboard RGB cameras, 16-degree-of-freedom hands and three times the onboard compute of Figure 01. It ran an 11-month BMW Spartanburg deployment before Figure retired the fleet; most units were decommissioned by September 30, 2026. The reviewed issuer sources publish no mass, payload, speed, endurance or price figures.",
+          "status": "documented",
+          "note": "Issuer release, deployment report and retirement notice; no independent performance, safety or availability audit."
+        },
+        "releaseDate": {
+          "value": "2024",
+          "status": "documented",
+          "note": "Unveiled August 6, 2024 in the issuer press release."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No recharge duration is published. The 2.25 kWh pack capacity is not a charging time."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No arm reach figure is published."
+        },
+        "driveMode": {
+          "value": "Bipedal electric humanoid; battery integrated in the torso",
+          "status": "documented",
+          "note": "Bipedal electric humanoid with the battery integrated in the torso."
+        }
+      }
+    },
+    {
+      "robotId": "figure-figure-01",
+      "manufacturer": "Figure",
+      "model": "Figure 01",
+      "sources": [
+        {
+          "name": "Figure — issuer release, March 2, 2023 Figure 01 unveiling",
+          "type": "manufacturer",
+          "url": "https://www.prnewswire.com/news-releases/figure-emerges-from-stealth-and-unveils-figure-01--a-humanoid-robot-to-support-supply-chain-on-a-global-scale-301759983.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — company timeline for F.01, F.02 and F.03",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/company",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — July 17, 2025 F.03 battery development",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/f-03-battery-development",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-149/source-17.html",
+      "fields": {
+        "price": {
+          "value": "No numeric public price established; historical model, not a current offer",
+          "status": "not-documented",
+          "note": "No numeric public price is published. The former 150,000 USD catalog figure had no reviewed manufacturer support and is removed."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No mass is published in the reviewed issuer sources. The former 60 kg catalog figure is unsupported and removed."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No height or outer dimensions are published. The generic large size label is not a measurement."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The battery article describes an external backpack pack but publishes no capacity or endurance rating."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No runtime figure is published. The former 300-minute catalog value is unsupported and removed."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No hand configuration or per-hand joint count is published for Figure 01."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-robot degree-of-freedom count is published; the former 41-DOF catalog figure is unsupported and removed."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No payload rating is published; the former 20 kg catalog figure is unsupported and removed."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No travel speed is published; the former 1.2 m/s catalog figure is unsupported and removed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The issuer names manufacturing, logistics, warehousing and retail as initial workforce targets. No environmental, slope or IP rating is published."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating is published for Figure 01."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for this humanoid."
+        },
+        "website": {
+          "value": "https://www.prnewswire.com/news-releases/figure-emerges-from-stealth-and-unveils-figure-01--a-humanoid-robot-to-support-supply-chain-on-a-global-scale-301759983.html",
+          "status": "documented",
+          "note": "Manufacturer homepage; the reviewed Figure 01 material is the March 2, 2023 issuer release."
+        },
+        "description": {
+          "value": "Figure 01 is Figure's first-generation humanoid, unveiled on March 2, 2023 when the company emerged from stealth. The issuer described it as the first commercially viable general-purpose humanoid, a supplier claim, and reported a full-scale build in six months. Figure's timeline dates its first steps to May 2023. It used an external backpack battery pack and preceded Figure 02 and Figure 03. The reviewed issuer sources publish no mass, payload, speed, endurance or price figures.",
+          "status": "documented",
+          "note": "Issuer release and company timeline; the commercially viable claim is not independently validated."
+        },
+        "releaseDate": {
+          "value": "2023",
+          "status": "documented",
+          "note": "Unveiled March 2, 2023 in the issuer release; first steps dated May 2023 on the company timeline."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No recharge duration is published."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No arm reach figure is published."
+        },
+        "driveMode": {
+          "value": "Bipedal electric humanoid; battery pack carried in an external backpack",
+          "status": "documented",
+          "note": "Bipedal electric humanoid with an external backpack battery pack."
+        }
+      }
     }
   ]
 }

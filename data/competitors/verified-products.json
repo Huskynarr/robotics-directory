@@ -31154,27 +31154,85 @@
         "category": "humanoid",
         "manufacturer": "Figure",
         "model": "Figure 03",
-        "website": "https://www.figure.ai/news/introducing-figure-03"
+        "price": "Not disclosed; no numeric public price established",
+        "weight": "61 kg",
+        "size": "Height 5 ft 8 in (about 173 cm); full outer dimensions not published",
+        "batteryLife": "2.3 kWh pack; 5 hours at peak performance (manufacturer rating)",
+        "maxRuntime": "300 min (5 hours at peak performance; manufacturer rating)",
+        "tags": "commercial;home-assistant;ai-powered;voice-control;autonomous-nav;self-charging",
+        "handType": "Five-fingered hands with palm cameras and compliant tactile fingertips; per-hand joint count not published",
+        "dof": "",
+        "payload": "20 kg",
+        "speed": "1.2 m/s",
+        "terrain": "Home and commercial indoor environments; manufacturer describes stair, tight-corner and shifting-layout navigation; no IP rating published",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.figure.ai/figure",
+        "image": "images/humanoid/figure-figure-03.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Figure 03 is Figure's third-generation humanoid, introduced on October 9, 2025 and positioned for home and commercial use. The manufacturer lists 5 ft 8 in height, 61 kg mass, 20 kg payload, 1.2 m/s speed and five hours of runtime at peak performance from a 2.3 kWh pack; foot coils accept 2 kW inductive charging. Cameras, palm cameras and tactile fingertips support grasp feedback. Production, BMW sequencing work and household demonstrations are company reports, not independently tested reliability or a delivered customer fleet.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "armReach": "",
+        "driveMode": "Bipedal electric humanoid; foot coils for 2 kW inductive charging"
       },
       "highlights": [
         "Third-generation humanoid redesigned around Figure Helix vision-language-action control",
         "Palm cameras and compliant tactile fingertips support grasp feedback",
-        "Soft washable coverings and foot-mounted wireless charging support the home-oriented design"
+        "Soft washable coverings and foot-mounted wireless charging support the home-oriented design",
+        "The current product page lists 5 ft 8 in height, 61 kg mass, 20 kg payload, 1.2 m/s speed and five hours of runtime. The earlier 168 cm/60 kg catalog description is superseded; the approximate metric height conversion is labeled as such.",
+        "A 2.3 kWh pack supports the claimed five hours at peak performance, and foot coils accept 2 kW inductive charging. The charging rate is not a full-charge duration, and docking remains a precondition for near-continuous operation.",
+        "BotQ's first line is described as capable of up to 12,000 robots per year with a goal of 100,000 over four years. The April 29, 2026 report claims more than 350 Figure 03 units produced at one robot per hour. Production volume is not a customer delivery count.",
+        "The October 9, 2025 launch claims twice the camera frame rate, one-quarter latency and a 60% wider field of view per camera, plus fingertip sensors that detect forces as small as three grams. These are supplier claims without independent test results.",
+        "Figure 02's 11-month BMW Spartanburg deployment logged 90,000+ parts loaded, 1,250+ runtime hours and 30,000+ X3 vehicles. The 5 mm placement tolerance in two seconds, over 99% success and zero interventions were stated targets, not verified results.",
+        "The June 30, 2026 BMW Hall 52 sequencing workflow is described as the first Figure 03 demonstration. A demonstration does not establish a production fleet, autonomous reliability or broad commercial deployment.",
+        "The battery article targets UN and UL certification. UN38.3 is described as achieved by October 2025, while UL2271 remains in process; no independent certification, coverage of every revision or third-party safety test was reviewed."
       ],
       "sources": [
         {
-          "name": "Figure",
+          "name": "Figure — current Figure 03 product page and specifications",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/figure",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — October 9, 2025 Figure 03 introduction",
           "type": "manufacturer",
           "url": "https://www.figure.ai/news/introducing-figure-03",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — July 17, 2025 F.03 battery development",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/f-03-battery-development",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — company timeline for F.01, F.02 and F.03",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/company",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — June 30, 2026 Figure 03 BMW Hall 52 sequencing demonstration",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/f-03-at-bmw",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — April 29, 2026 Figure 03 production ramp",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/ramping-figure-03-production",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/af3cd35d-5c29-4dcd-bb86-d570254ff6c1"
       ],
-      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-23/rendered-0.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Adds dated evidence for the listed product highlights only. Existing catalog specification fields, prices, release years, imagery and manufacturer attribution are not certified by this enrichment and are preserved. October 9, 2025 manufacturer introduction; home orientation is not proof of household delivery or unrestricted general autonomy. No unsupported 5-hour endurance copied."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-149/source-1.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch149. Native Figure product,company,news and issuer-release HTML read as text only; no research browser or visual inspection. F.01 unveiled March2,2023 and first steps May2023; F.02 unveiled August6,2024 and retired after F.03; F.03 introduced October9,2025. Generations are separate robot models, not software revisions; Helix,Helix02 and Helix2.5 are AI systems, not additional robots. Figure03 product page gives 5ft8in,61kg,20kg payload,1.2m/s and 5h runtime; the 2.3kWh pack and 2kW inductive rate are separate from charging duration. Earlier catalog 168cm/60kg,150000USD,130000USD,70kg,41DOF and 1.2m/s values lacked reviewed native support and were removed. Figure02 2.25kWh capacity is not endurance and 16DOF is per hand. BMW deployment results and 5mm/99percent/zero-intervention targets are scoped; production and demonstrations are not deliveries. UN38.3 achieved versus UL2271 in process retained. No OCR,media reuse,forms,login,contact,messages or transactions. AllUSPs/completeportfolio/leadership unproven."
     },
     {
       "row": {
@@ -80420,6 +80478,131 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-147/source-14.html",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch147. Native Exotec product/company pages,dated2021and2025 releases,2022issuerPDF andnativeJapanese timeline templates reviewed as text. No visualinspection/OCR. ExistingSkypod retained asfamilyrecord;NextGeneration explicitlyredesigned compactrobot,publiccommerciallaunchFeb6,2025 afterearlierstealthdeployments. 2017firstcommercialfamilysystemnotfirstnextgen. Older12m versuscurrent14m rackheight scopedtodatedsystem,notrobotouterdimensions. Workstation600bins/h andNextGensystem+50percentthroughput/up-to30percentdensity notsingle-robotthroughput orphysicalspeed. Opportunitycharging5min/hour notfullcharge orone-chargeendurance. Skypicker2021 less-than2kg versus2022up-to2kg boundarydifference retained asconflicting;2x2cm isobjectsurface,notrobotdimensions;2m/s objecttransfer notmobiledrive;fourorders notDOF. Astar historicalcontrolversuscurrentDeepskyWES notarbitraryfirmwareupdateproof. No mediareuse,forms,login,contact,messages ortransactions. Allmodels/allUSPs/leadershipremainunproven."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "Figure",
+        "model": "Figure 02",
+        "price": "No numeric public price established; the fleet is retired, so no current purchase offer applies",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial",
+        "handType": "Fourth-generation human-scale hands with 16 degrees of freedom per hand (August 6, 2024 issuer release)",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
+        "image": "images/humanoid/figure-figure-02-2.webp",
+        "video": "https://www.youtube.com/embed/Eu5mYMavctM",
+        "gallery": "",
+        "description": "Figure 02 is Figure's second-generation humanoid, unveiled on August 6, 2024 with an integrated 2.25 kWh torso battery, six onboard RGB cameras, 16-degree-of-freedom hands and three times the onboard compute of Figure 01. It ran an 11-month BMW Spartanburg deployment before Figure retired the fleet; most units were decommissioned by September 30, 2026. The reviewed issuer sources publish no mass, payload, speed, endurance or price figures.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "armReach": "",
+        "driveMode": "Bipedal electric humanoid; battery integrated in the torso"
+      },
+      "highlights": [
+        "The August 6, 2024 issuer release describes a 2.25 kWh custom torso battery, six onboard RGB cameras, fourth-generation hands with 16 degrees of freedom per hand and three times the onboard compute of Figure 01.",
+        "The 11-month BMW Spartanburg deployment ran ten-hour shifts Monday to Friday, loaded 90,000+ parts, logged 1,250+ runtime hours and contributed to 30,000+ X3 vehicles. Cumulative runtime is not a mean time between failures.",
+        "The 5 mm placement tolerance in two seconds, over 99% success per shift and zero interventions were stated requirements and targets, not verified achieved results.",
+        "Figure announced the fleet retirement on November 19, 2025 and decommissioned most Figure 02 units by September 30, 2026; a few remain in storage. It is a retired generation, not a currently available product.",
+        "The reviewed issuer sources publish no mass, payload, travel speed, endurance or price for Figure 02. Earlier 70 kg, 20 kg, 1.2 m/s and six-hour catalog values lacked native support and were removed."
+      ],
+      "sources": [
+        {
+          "name": "Figure — issuer release, August 6, 2024 Figure 02 unveiling",
+          "type": "manufacturer",
+          "url": "https://www.prnewswire.com/news-releases/figure-unveils-figure-02-its-second-generation-humanoid-setting-new-standards-in-ai-and-robotics-302214889.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — November 19, 2025 Figure 02 BMW results and retirement",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/production-at-bmw",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — September 30, 2026 F.02 decommission",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/f-02-decommission",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — company timeline for F.01, F.02 and F.03",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/company",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-149/source-14.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch149. Native Figure product,company,news and issuer-release HTML read as text only; no research browser or visual inspection. F.01 unveiled March2,2023 and first steps May2023; F.02 unveiled August6,2024 and retired after F.03; F.03 introduced October9,2025. Generations are separate robot models, not software revisions; Helix,Helix02 and Helix2.5 are AI systems, not additional robots. Figure03 product page gives 5ft8in,61kg,20kg payload,1.2m/s and 5h runtime; the 2.3kWh pack and 2kW inductive rate are separate from charging duration. Earlier catalog 168cm/60kg,150000USD,130000USD,70kg,41DOF and 1.2m/s values lacked reviewed native support and were removed. Figure02 2.25kWh capacity is not endurance and 16DOF is per hand. BMW deployment results and 5mm/99percent/zero-intervention targets are scoped; production and demonstrations are not deliveries. UN38.3 achieved versus UL2271 in process retained. No OCR,media reuse,forms,login,contact,messages or transactions. AllUSPs/completeportfolio/leadership unproven."
+    },
+    {
+      "row": {
+        "category": "humanoid",
+        "manufacturer": "Figure",
+        "model": "Figure 01",
+        "price": "No numeric public price established; historical model, not a current offer",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "industrial;warehouse;ai-powered;commercial",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.prnewswire.com/news-releases/figure-emerges-from-stealth-and-unveils-figure-01--a-humanoid-robot-to-support-supply-chain-on-a-global-scale-301759983.html",
+        "image": "images/humanoid/figure-figure-01.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Figure 01 is Figure's first-generation humanoid, unveiled on March 2, 2023 when the company emerged from stealth. The issuer described it as the first commercially viable general-purpose humanoid, a supplier claim, and reported a full-scale build in six months. Figure's timeline dates its first steps to May 2023. It used an external backpack battery pack and preceded Figure 02 and Figure 03. The reviewed issuer sources publish no mass, payload, speed, endurance or price figures.",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "armReach": "",
+        "driveMode": "Bipedal electric humanoid; battery pack carried in an external backpack"
+      },
+      "highlights": [
+        "The March 2, 2023 issuer release unveils Figure 01 as the company emerges from stealth and calls it the first commercially viable general-purpose humanoid. That is a supplier claim, not independent market validation.",
+        "The issuer says the full-scale humanoid was built in six months; the company timeline dates the first steps to May 2023. These are company milestones, not third-party test results.",
+        "The battery article says Figure 01 used bulky rectangular modules in an external backpack. This contrasts with the later torso-integrated packs and does not establish capacity or endurance.",
+        "The reviewed issuer sources publish no mass, payload, travel speed, endurance or price for Figure 01. The former 60 kg, 20 kg, 1.2 m/s, 41-DOF, 300-minute and 150,000 USD catalog values lacked native support and were removed."
+      ],
+      "sources": [
+        {
+          "name": "Figure — issuer release, March 2, 2023 Figure 01 unveiling",
+          "type": "manufacturer",
+          "url": "https://www.prnewswire.com/news-releases/figure-emerges-from-stealth-and-unveils-figure-01--a-humanoid-robot-to-support-supply-chain-on-a-global-scale-301759983.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — company timeline for F.01, F.02 and F.03",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/company",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Figure — July 17, 2025 F.03 battery development",
+          "type": "manufacturer",
+          "url": "https://www.figure.ai/news/f-03-battery-development",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-149/source-17.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch149. Native Figure product,company,news and issuer-release HTML read as text only; no research browser or visual inspection. F.01 unveiled March2,2023 and first steps May2023; F.02 unveiled August6,2024 and retired after F.03; F.03 introduced October9,2025. Generations are separate robot models, not software revisions; Helix,Helix02 and Helix2.5 are AI systems, not additional robots. Figure03 product page gives 5ft8in,61kg,20kg payload,1.2m/s and 5h runtime; the 2.3kWh pack and 2kW inductive rate are separate from charging duration. Earlier catalog 168cm/60kg,150000USD,130000USD,70kg,41DOF and 1.2m/s values lacked reviewed native support and were removed. Figure02 2.25kWh capacity is not endurance and 16DOF is per hand. BMW deployment results and 5mm/99percent/zero-intervention targets are scoped; production and demonstrations are not deliveries. UN38.3 achieved versus UL2271 in process retained. No OCR,media reuse,forms,login,contact,messages or transactions. AllUSPs/completeportfolio/leadership unproven."
     }
   ]
 }
