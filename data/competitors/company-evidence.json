@@ -779,14 +779,35 @@
         "MiR Fleet and Fleet Enterprise coordinate missions and traffic with REST integration to ERP/MES/WMS; software edition and supported fleet size need a selected deployment specification.",
         "MiR Insights provides cloud performance dashboards, heatmaps, troubleshooting and a cloud API. It is analytics software, not another mobile robot.",
         "MC250 and MC600 on MiR Go are Enabled Robotics partner-provided integrations. MiR explicitly disclaims responsibility for partner specifications; they are not attributed as MiR-manufactured robot models.",
-        "MiR200, MiR500 and MiR1000 are retained with historical manufacturer documents. Missing current product routes do not establish a formal discontinuation or current stock."
+        "MiR200, MiR500 and MiR1000 are retained with historical manufacturer documents. Missing current product routes do not establish a formal discontinuation or current stock.",
+        "The manufacturer history explicitly says first MiR100 units were produced and sold in 2015. Historical2016/2022 manufacturer documents differ on mass, dimensions and battery options; those dated scopes remain visible instead of certifying one universal current configuration.",
+        "The 2022 brochure contains a separate MiR250 Dynamic column. Dynamic loaded/unloaded endurance, marker docking and position accuracy remain configuration-specific; adjacent columns and charge ratios are not copied into MiR100.",
+        "The previously saved 2016 PDF was reused with its original hash/capture date because the current distributor request timed out. Reuse is not a fresh successful response or evidence of present new-unit stock; formal discontinuation and complete historical portfolio remain unproven."
       ],
       "sources": [
         {
-          "name": "Mobile Industrial Robots — current robot overview",
+          "name": "Mobile Industrial Robots — current robot portfolio",
           "type": "manufacturer",
           "url": "https://mobile-industrial-robots.com/products/robots",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Mobile Industrial Robots — manufacturer history",
+          "type": "manufacturer",
+          "url": "https://mobile-industrial-robots.com/about/mir-history",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Mobile Industrial Robots — 2022 manufacturer brochure; distributor-hosted copy",
+          "type": "manufacturer",
+          "url": "https://www.mobile-robots.de/files/533/mir-mainbrochure-05-2022-komp-en.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Mobile Industrial Robots — May-2016 manufacturer datasheet; RG Group host; original capture reused",
+          "type": "manufacturer",
+          "url": "https://www.rg-group.com/store/images/document/MIR/MiR100-Datasheet.pdf",
+          "checkedAt": "2026-11-03"
         },
         {
           "name": "Mobile Industrial Robots — modules and accessories",
@@ -807,12 +828,6 @@
           "checkedAt": "2026-11-02"
         },
         {
-          "name": "Mobile Industrial Robots — manufacturer product timeline",
-          "type": "manufacturer",
-          "url": "https://mobile-industrial-robots.com/about/mir-history",
-          "checkedAt": "2026-11-02"
-        },
-        {
           "name": "MiR Go — partner-provided Enabled Robotics MC250 listing",
           "type": "manufacturer",
           "url": "https://mobile-industrial-robots.com/products/mir-go/enabled-robotics-MC250",
@@ -824,7 +839,10 @@
           "url": "https://mobile-industrial-robots.com/products/mir-go/enabled-robotics-mc600",
           "checkedAt": "2026-11-02"
         }
-      ]
+      ],
+      "checkedAt": "2026-11-03",
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-131/source-8.html",
+      "reviewNotes": "Batch131 selected historic/current primary material. Prior literal company highlights and source URLs retained. Native PDF page/column ownership and manufacturer post scope checked. C25 title metadata/logo OCR, no visual inspection; visual inputs unsupported. Identical C25 mirrors are one document.2016 MiR100 original hash/capture date verified; current fetch timeout is not a new200. No forms,accounts,transactions or TLS bypass. Whole portfolios,current stock,independent performance,medical efficacy,exclusive USPs and leadership remain unproven."
     },
     {
       "brandId": "enabled-robotics",
@@ -1121,16 +1139,44 @@
       "brandId": "keenon-robotics",
       "name": "Keenon Robotics",
       "role": "Commercial cleaning, catering/hotel delivery, industrial transport and embodied-AI robot developer",
-      "checkedAt": "2026-11-02",
+      "checkedAt": "2026-11-03",
       "highlights": [
         "KLEENBOT C20/C30/C40/C55 have different cleaning modes, widths, water systems and battery limits. C30 is dry cleaning; C40 runtime differs between sweeping and scrubbing; C55 dual-battery swapping does not imply unlimited per-charge endurance.",
         "DINERBOT T3/T8/T9/T10/T11 cover enclosed delivery, compact aisles, tray loads and advertising/self-pickup. T9/T10 charging figures refer to 15–100 percent; T11 has no numeric charging time in the reviewed table. W3 adds independently accessible hotel-delivery compartments and compatible elevator integration.",
         "S100 and lifting-platform S300 target industrial transport. S100 eight-hour runtime is conditioned on loads below 100 kg; S300 states six hours at full load. S100 passage units and S300 height/configuration basis remain unresolved source conflicts.",
         "XMAN-R1 is wheeled and XMAN-F1 bipedal in the manufacturer posters; VR teleoperation, VLA development and multi-robot interaction do not establish independently proven autonomous service or current delivery availability.",
         "Additional manufacturer navigation names XMAN-L1, X101 and M102 remain research leads. XMAN-L1 gives an image/name without sufficient hardware details here; X101 and M102 return identical generic hospital-logistics text and the same banner bytes, without exact model specifications. They are not promoted to separate verified robot cards from this evidence.",
-        "Legacy C25/G2/M2 product routes returned 404 in this check. That does not prove discontinuation or invalidate historical product records. Model availability, installation requirements, medical efficacy and unique market advantage remain unverified."
+        "Legacy C25/G2/M2 product routes returned 404 in this check. That does not prove discontinuation or invalidate historical product records. Model availability, installation requirements, medical efficacy and unique market advantage remain unverified.",
+        "Additional historical manufacturer material names DINERBOT T1/T2/T5/T6, GUIDERBOT G1/G2, the M1 medical delivery robot, M2 disinfection platform and tracked Xiaolang. T2 Pro is explicitly COMING SOON in the historical brochure; that is not proof of subsequent release.",
+        "C25 manufacturer-branded PDF and authored post distinguish4-6-hour operation, 3-4-hour charging, 400m²/h cleaning and 10 L clean/8 L waste tanks. Identical PDF mirrors are one document; 24 h self-charging and 5000m² coverage are not per-charge endurance or measured throughput.",
+        "The G2 lower-bound seven-hour claim is not a maximum or charging time. T2 cabin/shell IPX5 is not assigned to the complete robot; tray transport loads remain separate from arm payload.",
+        "M2 brochure standby>=12 h does not establish the former 240-minute active runtime. UV irradiance, mist rates and sterilization marketing do not independently verify clinical outcomes, regulatory approval or safe occupied-room use. Manufacturer launch-year statements are distinguished from file creation dates and current stock."
       ],
       "sources": [
+        {
+          "name": "KEENON — manufacturer company history",
+          "type": "manufacturer",
+          "url": "https://www.keenon.com/about",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON — C25 manufacturer-branded PDF; Rota Technologies host",
+          "type": "manufacturer",
+          "url": "https://rotatechnologies.com/wp-content/uploads/2025/02/C25-EN.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON Robotics — manufacturer-authored C25 LinkedIn post",
+          "type": "manufacturer",
+          "url": "https://www.linkedin.com/posts/keenonrobotics_keenonrobotics-keenon-robot-activity-7253979054561726464-A_Un",
+          "checkedAt": "2026-11-03"
+        },
         {
           "name": "KEENON Robotics — C55 manufacturer specifications",
           "type": "manufacturer",
@@ -1185,7 +1231,9 @@
           "url": "https://www.keenon.com/en/",
           "checkedAt": "2026-11-02"
         }
-      ]
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-131/source-3.html",
+      "reviewNotes": "Batch131 selected historic/current primary material. Prior literal company highlights and source URLs retained. Native PDF page/column ownership and manufacturer post scope checked. C25 title metadata/logo OCR, no visual inspection; visual inputs unsupported. Identical C25 mirrors are one document.2016 MiR100 original hash/capture date verified; current fetch timeout is not a new200. No forms,accounts,transactions or TLS bypass. Whole portfolios,current stock,independent performance,medical efficacy,exclusive USPs and leadership remain unproven."
     },
     {
       "brandId": "gausium-robotics",

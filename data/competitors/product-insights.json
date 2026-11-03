@@ -8579,20 +8579,36 @@
       "highlights": [
         "Commercial cleaning robot combines sweeping, vacuuming, dust pushing and mopping",
         "Automatic route planning, self-cleaning and automatic recharging support repeated missions",
-        "Cleaning data access and breakpoint resumption support maintenance and interrupted tasks"
+        "Cleaning data access and breakpoint resumption support maintenance and interrupted tasks",
+        "The C25 specification table gives 4-6 hours operation and 3-4 hours charging. The six-hour front-page/post headline is an upper endpoint, while 24-hour self-charging describes repeated charging availability rather than continuous battery operation.",
+        "The listed cleaning efficiency is 400 m²/h. The 5000 m² daily-coverage headline and manufacturer post are application/coverage claims with unspecified shifts and test protocols, not one-charge capacity or an independently measured rate.",
+        "Separate tanks hold 10 L clean water and 8 L wastewater. Automatic wastewater collection, self-cleaning, breakpoint resumption and access to cleaning data support maintenance; the tank capacities are not added as a single clean-water volume.",
+        "The front/left/right laser and six-way ultrasonic descriptions are obstacle-sensing claims, not numeric localization accuracy or certified human safety. Two distributor PDF URLs contain identical bytes and are one document, not independent corroboration."
       ],
       "sources": [
         {
-          "name": "Keenon Robotics",
+          "name": "KEENON — C25 manufacturer-branded PDF; Rota Technologies host",
           "type": "manufacturer",
-          "url": "https://www.linkedin.com/posts/keenonrobotics_keenonrobotics-keenon-robot-activity-7253979054561726464-A_Un",
-          "checkedAt": "2026-11-01"
+          "url": "https://rotatechnologies.com/wp-content/uploads/2025/02/C25-EN.pdf",
+          "checkedAt": "2026-11-03"
         },
         {
-          "name": "Keenon Robotics",
+          "name": "KEENON Robotics — manufacturer-authored C25 LinkedIn post",
+          "type": "manufacturer",
+          "url": "https://www.linkedin.com/posts/keenonrobotics_keenonrobotics-keenon-robot-activity-7253979054561726464-A_Un",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON — manufacturer C55 launch article naming C25",
           "type": "manufacturer",
           "url": "https://www.keenon.com/en/news/double-the-strength-built-for-medium-and-large-spaces-keenon-robotics-unveils-cleaning-robot-c55",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON — identical C25 PDF mirror; distributor host",
+          "type": "manufacturer",
+          "url": "https://www.aparaturafiscala.ro/img/downloads/brosura-kleenbot-keenon-c25.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -11952,14 +11968,38 @@
       "highlights": [
         "Historical manufacturer datasheet documents a mobile platform for internal industrial, logistics and healthcare transport",
         "Laser scanners, a 3D camera and ultrasonic sensors support perception around indoor transport routes",
-        "A half-Euro-pallet-size load surface and Wi-Fi, Ethernet and USB interfaces support transport integration"
+        "A half-Euro-pallet-size load surface and Wi-Fi, Ethernet and USB interfaces support transport integration",
+        "The May 2016 sheet gives 62.5 kg and 900 x 600 x 358 mm; the 2022 brochure instead gives 77 kg and 890 x 580 x 352 mm. Exact revision/configuration mapping is unresolved, so neither becomes a universal MiR100 value.",
+        "The 2016 rating is 10 hours or 20 km. The 2022 table gives up to 9 hours unloaded with the standard battery or 13 hours with the extended battery. Working range, battery variants and unloaded conditions remain separate.",
+        "Both historical documents support 100 kg carrying capacity and IP20. Carrying load is moved from generic arm payload to transportPayload; Hook/cart towing or a top module does not inherit that capacity automatically.",
+        "The 2016 document specifies up to 3 hours full charging and 2 hours to 80 percent, a 10 cm positioning radius and 0.55 m center turning radius. Beacon sensing, docking accuracy, cart swing and later revision positioning remain separate quantities.",
+        "The 2022 default corridor width is 1.00 m. Its up-to 1:6 charging ratio is not a published full-charge duration; adjacent MiR250/Dynamic +/-3 mm docking and 13-hour loaded runtime are excluded from MiR100.",
+        "The current manufacturer history explicitly says the first MiR100 robots were produced and sold in 2015. Company founding 2013 and the May 2016 datasheet date are not substituted as product release; missing current product navigation is not formal proof of discontinuation."
       ],
       "sources": [
         {
-          "name": "Mobile Industrial Robots — May-2016 manufacturer datasheet hosted by RG Group",
+          "name": "Mobile Industrial Robots — 2022 manufacturer brochure; distributor-hosted copy",
+          "type": "manufacturer",
+          "url": "https://www.mobile-robots.de/files/533/mir-mainbrochure-05-2022-komp-en.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Mobile Industrial Robots — May-2016 manufacturer datasheet; RG Group host; original capture reused",
           "type": "manufacturer",
           "url": "https://www.rg-group.com/store/images/document/MIR/MiR100-Datasheet.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Mobile Industrial Robots — manufacturer history",
+          "type": "manufacturer",
+          "url": "https://mobile-industrial-robots.com/about/mir-history",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Mobile Industrial Robots — current robot portfolio",
+          "type": "manufacturer",
+          "url": "https://mobile-industrial-robots.com/products/robots",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -34774,6 +34814,276 @@
       ],
       "discoveredIn": [
         "http://en.sanbot.com/news/press-release/296"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-dinerbot-t1",
+      "manufacturer": "KEENON Robotics",
+      "model": "DINERBOT T1",
+      "highlights": [
+        "The DINERBOT T1 brochure configuration lists 58 kg net mass, 499 x 526 x 1206 mm, 1.2 m/s maximum and 12-15-hour operation with unspecified workload. The maximum angle is <= 5 degrees, not a payload-independent outdoor-terrain guarantee.",
+        "Total carrying capacity is 30 kg with 10 kg per tray. These are transport/tray limits, not an articulated-arm payload or permission to load every shelf to a conditional maximum simultaneously.",
+        "The T1 sheet describes three trays, a touchscreen interface and one-touch return after delivery. Autonomous timed or quantitative charging supports repeated service but does not specify a full recharge duration.",
+        "The native company history places the named DINERBOT T1 launch in 2016; T1 mass production is separately dated 2018. Historical public launch does not establish current stock, continued support or exact first retail shipment."
+      ],
+      "sources": [
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON — manufacturer company history",
+          "type": "manufacturer",
+          "url": "https://www.keenon.com/about",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-dinerbot-t2",
+      "manufacturer": "KEENON Robotics",
+      "model": "DINERBOT T2",
+      "highlights": [
+        "The DINERBOT T2 brochure configuration lists 75 kg net mass, 590 x 470 x 1315 mm, 1.2 m/s maximum and 12-15-hour operation with unspecified workload. The maximum angle is <= 5 degrees, not a payload-independent outdoor-terrain guarantee.",
+        "Total carrying capacity is 40 kg with 10 kg per tray, bottom tray up to 20 kg. These are transport/tray limits, not an articulated-arm payload or permission to load every shelf to a conditional maximum simultaneously.",
+        "The enclosed T2 cabin is described as 160 L. That is storage volume, distinct from its 40 kg carrying rating. IPX5 is attributed specifically to its inner cabin and shell; no unqualified whole-robot ingress code is assigned.",
+        "The native company history places the named DINERBOT T2 launch in 2018; T1 mass production is separately dated 2018. Historical public launch does not establish current stock, continued support or exact first retail shipment."
+      ],
+      "sources": [
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON — manufacturer company history",
+          "type": "manufacturer",
+          "url": "https://www.keenon.com/about",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-dinerbot-t5",
+      "manufacturer": "KEENON Robotics",
+      "model": "DINERBOT T5",
+      "highlights": [
+        "The DINERBOT T5 brochure configuration lists 55 kg net mass, 506 x 502 x 1205 mm, 1.2 m/s maximum and 12-15-hour operation with unspecified workload. The maximum angle is <= 5 degrees, not a payload-independent outdoor-terrain guarantee.",
+        "Total carrying capacity is 40 kg with 10 kg per tray. These are transport/tray limits, not an articulated-arm payload or permission to load every shelf to a conditional maximum simultaneously.",
+        "The T5 sheet describes multi-robot task collaboration, regional speed control, nine expressions and interaction in 15 languages. These are manufacturer features without a numeric fleet-capacity or localization-accuracy specification.",
+        "The native company history places the named DINERBOT T5 launch in 2019; T1 mass production is separately dated 2018. Historical public launch does not establish current stock, continued support or exact first retail shipment."
+      ],
+      "sources": [
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON — manufacturer company history",
+          "type": "manufacturer",
+          "url": "https://www.keenon.com/about",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-dinerbot-t6",
+      "manufacturer": "KEENON Robotics",
+      "model": "DINERBOT T6",
+      "highlights": [
+        "The DINERBOT T6 brochure configuration lists 52 kg net mass, 519 x 531 x 1256 mm, 1.2 m/s maximum and 12-15-hour operation with unspecified workload. The maximum angle is <= 5 degrees, not a payload-independent outdoor-terrain guarantee.",
+        "Total carrying capacity is 35 kg with 10 kg per tray, top tray 5 kg. These are transport/tray limits, not an articulated-arm payload or permission to load every shelf to a conditional maximum simultaneously.",
+        "The T6 sheet describes SLAM navigation, regional speed limits, obstacle avoidance, nine expressions and interaction in 15 languages. No numeric localization accuracy or full recharge duration is stated.",
+        "The native company history places the named DINERBOT T6 launch in 2019; T1 mass production is separately dated 2018. Historical public launch does not establish current stock, continued support or exact first retail shipment."
+      ],
+      "sources": [
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON — manufacturer company history",
+          "type": "manufacturer",
+          "url": "https://www.keenon.com/about",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-dinerbot-t2-pro",
+      "manufacturer": "KEENON Robotics",
+      "model": "DINERBOT T2 Pro",
+      "highlights": [
+        "The historical lineup explicitly names DINERBOT T2 Pro and marks it COMING SOON. A dedicated product specification or completed launch is not established by that card.",
+        "Ultimate-safety wording and an induction disinfection-lamp description are announced design claims, not medical efficacy, safe occupied-space use, complete equipped hardware or a verified safety approval. T2 specifications are not inherited."
+      ],
+      "sources": [
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-m1",
+      "manufacturer": "KEENON Robotics",
+      "model": "M1",
+      "highlights": [
+        "The native manufacturer history explicitly calls M1 a medical delivery robot launched in 2020. This establishes named logistics hardware, not an M2 disinfection variant or a medical treatment device.",
+        "The historical hospital/quarantine deployment narrative is company-level context. It does not establish M1-only deployment counts, exact payload, operating runtime, current software support or independently measured clinical outcomes."
+      ],
+      "sources": [
+        {
+          "name": "KEENON — manufacturer company history",
+          "type": "manufacturer",
+          "url": "https://www.keenon.com/about",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.keenon.com/about"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-xiaolang",
+      "manufacturer": "KEENON Robotics",
+      "model": "Xiaolang",
+      "highlights": [
+        "The manufacturer timeline explicitly says it launched the tracked restaurant service robot Xiaolang in 2013. The named historical predecessor is separate from later T-series models.",
+        "A tracked chassis and restaurant-service role do not establish exact transport load, complete autonomous functionality, operating runtime, numeric speed, current production or present software support."
+      ],
+      "sources": [
+        {
+          "name": "KEENON — manufacturer company history",
+          "type": "manufacturer",
+          "url": "https://www.keenon.com/about",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.keenon.com/about"
+      ]
+    },
+    {
+      "robotId": "mobile-industrial-robots-mir250-dynamic",
+      "manufacturer": "Mobile Industrial Robots",
+      "model": "MiR250 Dynamic",
+      "highlights": [
+        "MiR250 Dynamic has a separate named 2022 column, distinct from the adjacent unqualified MiR250 table. It lists 97 kg, 800 x 580 x 300 mm, 250 kg carrying capacity and IP21; neither PDF date nor company history gives a separate confirmed Dynamic release year.",
+        "Active battery operation is up to 13 hours at maximum load or 17.5 hours with no load. The 1:16 charging ratio, illustrated as 10-minute opportunity charging for 2 h40 min operation, does not establish a full recharge duration.",
+        "Position accuracy is +/-20 mm on each X/Y axis; VL-marker docking is +/-3 mm on each axis. Default/minimized corridor and doorway widths stay separate, and the body’s 580 mm width is not a guaranteed passable aisle.",
+        "The maximum 2 m/s and +/-5% slope at 0.5 m/s have different operating conditions. Optional Class 4 cleanroom/ESD wording, listed safety standards and an eight-function safety description are manufacturer configuration claims, not independently certified universal deployment."
+      ],
+      "sources": [
+        {
+          "name": "Mobile Industrial Robots — 2022 manufacturer brochure; distributor-hosted copy",
+          "type": "manufacturer",
+          "url": "https://www.mobile-robots.de/files/533/mir-mainbrochure-05-2022-komp-en.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.mobile-robots.de/files/533/mir-mainbrochure-05-2022-komp-en.pdf"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-disinfection-robot-m2",
+      "manufacturer": "KEENON Robotics",
+      "model": "Disinfection Robot M2",
+      "highlights": [
+        "The M2 sheet states 60 kg, 500 x 500 x 1350 mm and maximum 0.8 m/s. Its at-least 12-hour value is explicitly standby, not active spraying or UV operating endurance; the former 240-minute catalog runtime is withheld.",
+        "The specification lists four UV-lamp sets, over 200 µW/cm² at 1 m, 0.5-1.5 L/h mist and droplets under 10 µm. These are subsystem quantities, not whole-room efficacy, safe exposure limits, floor-cleaning throughput or battery duration.",
+        "The prose describes 10 L disinfectant volume while the table says greater than 10 L. This is disinfectant storage, not a clean/wastewater tank pair; no numeric water-tank capacity is assigned from it.",
+        "The brochure claims 99.9999 percent airborne-bacteria sterilization and pedestrian-triggered UV interruption without a complete independent test protocol or safety assessment. The product is described by its design/functions; no guaranteed clinical outcome or safe occupied-room operation is inferred.",
+        "KEENON’s manufacturer timeline explicitly says the medical delivery M1 and disinfection M2 launched in 2020. That dates the named public product introduction; it does not confirm continuing production, approvals or a current support contract."
+      ],
+      "sources": [
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "KEENON — manufacturer company history",
+          "type": "manufacturer",
+          "url": "https://www.keenon.com/about",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-guiderbot-g2",
+      "manufacturer": "KEENON Robotics",
+      "model": "GUIDERBOT G2",
+      "highlights": [
+        "The G2 sheet distinguishes its double-sided 21.5-inch 1080p advertising display from the robot envelope 600 x 500 x 1450 mm and net mass 70 kg. Maximum speed is 1.2 m/s and maximum angle <= 5 degrees.",
+        "Battery life is a lower-bound >= 7 h claim, not a seven-hour maximum or charge duration. The 48 V12 Ah pack and automatic timed/quantitative charging do not establish full charging time or an independent duty cycle.",
+        "The historical brochure names G1 and G2 in its 2016 launch milestone. G2 describes 15-language interaction and sensor-based navigation without numeric navigation accuracy or present software/support confirmation."
+      ],
+      "sources": [
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
+      ]
+    },
+    {
+      "robotId": "keenon-robotics-guiderbot-g1",
+      "manufacturer": "KEENON Robotics",
+      "model": "GUIDERBOT G1",
+      "highlights": [
+        "The manufacturer brochure explicitly names G1 and G2 as guiding robots in its 2016 milestone. G1 is kept as a historical named model rather than a spelling alias for G2.",
+        "The detailed G2 table is not a G1 specification. Exact G1 body, display, mobility, mass, runtime, charge duration and current support remain unestablished."
+      ],
+      "sources": [
+        {
+          "name": "KEENON Robotics — manufacturer product brochure; event-hosted copy (2022 PDF metadata)",
+          "type": "manufacturer",
+          "url": "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://s3-ap-southeast-2.amazonaws.com/foodservice-australia-production/keenon-robotics/KEENON_Product-Brochure_EN_mini.pdf?mtime=20220902114656"
       ]
     }
   ]
