@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,370 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,374 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,470 fields across 1354 models, distinguishing documented, undisclosed, conflicting and
+25,542 fields across 1358 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,777 kB JSON response loads only for search or comparison;
+A separate 6,789 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,327 reviewed highlight statements as well as
+Catalog search now includes all 6,347 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1817,3 +1817,19 @@ Gen 2. Catalog prices of about 590, 570, 1399 and 300 USD, the small and
 medium size labels, the ~180 min battery labels and the 180 min runtime values
 are replaced or cleared. No reviewed page publishes travel speed, an IP rating,
 an absolute charging time, a cleaning width or a payload.
+
+ECOVACS's Winbot W2 Omni, Deebot N30 Pro Omni, Deebot N20 Pro Plus and
+Winbot W3 Omni now have selected field reviews. The manufacturer publishes
+5,500 Pa suction, a 12-level anti-drop system and a portable station with
+automatic take-up, start and pause, mode selection and suction cup release for
+the Winbot W2 Omni; 10,000 Pa, 353 x 353 x 104 mm, a 5,200 mAh battery,
+about 6.5 hours charging and 320 min silent sweep runtime on hard floor for
+the Deebot N30 Pro Omni; 8,000 Pa, 353 x 351 x 96 mm, a 5,200 mAh battery,
+about 6.5 hours charging and 300 min silent sweep runtime for the Deebot N20
+Pro Plus; and 3,300 +/- 100 Pa, 3 mm glass support and a 12.22 kg package net
+weight for the Winbot W3 Omni. Catalog prices of about 500, 349, about 400 and
+700 USD, the small and medium size labels, the 180 min battery labels and the
+180 min runtime values are replaced or cleared. No reviewed page publishes robot
+dimensions or mass for either WINBOT, travel speed, an IP rating, a cleaning
+width or a payload.
+
