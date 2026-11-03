@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,358 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,362 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,254 fields across 1342 models, distinguishing documented, undisclosed, conflicting and
+25,326 fields across 1346 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,741 kB JSON response loads only for search or comparison;
+A separate 6,753 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,267 reviewed highlight statements as well as
+Catalog search now includes all 6,287 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1773,3 +1773,19 @@ of 590, 440, 86 and 700 USD, the small size labels, the PuppyPi ~1.5 kg mass,
 or cleared. No reviewed page publishes a payload, travel speed, IP rating or
 absolute charging time, and the AiNova and PuppyPi pages publish no runtime
 in minutes.
+
+Eufy's Robot Vacuum Omni S2, E28, Omni E25 and Omni C20 now have selected
+field reviews. The manufacturer publishes 30,000 Pa, 325 x 347 x 96 mm robot and
+15.08 x 18.39 x 26.38 in station dimensions, 150 min vacuum-and-mop and
+179 min vacuum runtime, and 3 L clean plus 2 L dirty station water for the
+Omni S2; 20,000 Pa, 326 x 348 x 112 mm, 125 and 216 min runtime, a
+detachable FlexiOne deep cleaner and a CornerRover arm for the E28; the same
+robot and station dimensions and runtime with DuoSpiral detangle brushes for the
+Omni E25; and 85 mm height, 7,000 Pa, a 3,200 mAh battery, 101 min standard
+runtime (up to 121 min in quiet mode), 5.5 hours charging, a 3.1 L dust bag and
+2.5 L clean plus 2.4 L dirty station water for the Omni C20. Catalog prices of
+1600, 1000 and 699 USD and the Omni E25 Not disclosed price, the medium size
+labels, the S2 180 min battery label, the E28 218 min runtime and the C20 132 min
+runtime are replaced or cleared. No reviewed page publishes a robot net weight, a
+battery capacity in mAh for the S2, E28 and E25, a travel speed or an IP rating;
+only the C20 page publishes an absolute charging time of 5.5 hours.
