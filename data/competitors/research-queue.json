@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T10:52:12.546Z",
+  "generatedAt": "2026-11-03T11:16:36.081Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 480,
-    "withoutSelectedFieldReview": 38,
-    "selectedFields": 8813,
+    "withSelectedFieldReview": 481,
+    "withoutSelectedFieldReview": 37,
+    "selectedFields": 8831,
     "selectedFieldStatuses": {
-      "documented": 3508,
-      "not-documented": 5101,
+      "documented": 3517,
+      "not-documented": 5110,
       "conflicting": 186,
       "roadmap": 18
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 135,
+    "sourceGroupsWithCompanyAuthoredFocus": 136,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -281,26 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "exotec",
-      "name": "Exotec",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/exotec"
-      ],
-      "catalogModels": 1,
-      "reviewedReferenceTargets": 1,
-      "withDatedHighlights": 1,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "exotec-skypod"
-      ]
-    },
     {
       "brandId": "farmdroid",
       "name": "FarmDroid",
@@ -3728,6 +3708,26 @@
       "robotIds": [
         "enactic-openarm-2-0"
       ]
+    },
+    {
+      "brandId": "exotec",
+      "name": "Exotec",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/exotec"
+      ],
+      "catalogModels": 3,
+      "reviewedReferenceTargets": 1,
+      "withDatedHighlights": 1,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "exotec-skypod"
+      ]
     }
   ],
   "companies": [
@@ -6846,14 +6846,14 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/exotec"
       ],
-      "catalogModels": 1,
+      "catalogModels": 3,
       "reviewedReferenceTargets": 1,
       "withDatedHighlights": 1,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "exotec-skypod"
       ]
@@ -26064,24 +26064,91 @@
       "brandId": "exotec",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 9,
       "highlightSources": [
         {
-          "name": "Exotec",
+          "name": "Exotec — current Skypod robot specifications and native charging/navigation FAQs",
           "type": "manufacturer",
           "url": "https://www.exotec.com/system/automated-warehouse-robots/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — ten-year timeline, October 16, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/ja/insight/10years-anniversary/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Next Generation Skypod commercial launch, February 6, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/news/exotec-launches-next-generation-of-skypod-system-an-all-in-one-robot-based-as-rs-that-addresses-the-majority-of-processes-within-a-warehouse/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — current picking Workstation specifications",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/stations/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — UK growth and IMHX 2022 issuer PDF",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/app/uploads/2022/10/PR_UKgrowthIMHX_FINAL.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Logistica Next 2022 product specifications",
+          "type": "manufacturer",
+          "url": "https://www2.exotec.com/logistica2022",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 18,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 9,
+        "not-documented": 9,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Exotec — current Skypod robot specifications and native charging/navigation FAQs",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/automated-warehouse-robots/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — ten-year timeline, October 16, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/ja/insight/10years-anniversary/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Next Generation Skypod commercial launch, February 6, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/news/exotec-launches-next-generation-of-skypod-system-an-all-in-one-robot-based-as-rs-that-addresses-the-majority-of-processes-within-a-warehouse/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — current picking Workstation specifications",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/stations/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — UK growth and IMHX 2022 issuer PDF",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/app/uploads/2022/10/PR_UKgrowthIMHX_FINAL.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Logistica Next 2022 product specifications",
+          "type": "manufacturer",
+          "url": "https://www2.exotec.com/logistica2022",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

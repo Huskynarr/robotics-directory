@@ -146782,6 +146782,390 @@
           "note": "No native textual drivetrain orautonomylevel specification established;humanoidlabel anddemonstrations notproof ofbipedlocomotion orunsupervised operation."
         }
       }
+    },
+    {
+      "robotId": "exotec-skypod",
+      "manufacturer": "Exotec",
+      "model": "Skypod",
+      "sources": [
+        {
+          "name": "Exotec — current Skypod robot specifications and native charging/navigation FAQs",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/automated-warehouse-robots/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — ten-year timeline, October 16, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/ja/insight/10years-anniversary/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Next Generation Skypod commercial launch, February 6, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/news/exotec-launches-next-generation-of-skypod-system-an-all-in-one-robot-based-as-rs-that-addresses-the-majority-of-processes-within-a-warehouse/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — current picking Workstation specifications",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/stations/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — UK growth and IMHX 2022 issuer PDF",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/app/uploads/2022/10/PR_UKgrowthIMHX_FINAL.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Logistica Next 2022 product specifications",
+          "type": "manufacturer",
+          "url": "https://www2.exotec.com/logistica2022",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-147/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Project quotation; no numeric public robot or complete-system price established",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 30 kg rating is carried inventory, not robot mass. No exact whole-robot mass is established in the reviewed native text."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The current 14 m limit is rack-climbing height, not robot outer dimensions. The compact redesign has no exact published envelope in the reviewed material."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Opportunity charging and continuous system operation or monitoring do not establish endurance per battery charge."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "payload": {
+          "value": "Up to 30 kg of inventory; container/configuration requirements apply",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "speed": {
+          "value": "Up to 4 m/s; manufacturer does not give a separate vertical speed rating",
+          "status": "documented",
+          "note": "The current product page states up to 4 m/s. Three-dimensional travel does not establish 4 m/s on each axis or a separate vertical speed rating."
+        },
+        "terrain": {
+          "value": "Indoor warehouse floor and compatible storage racks; current specification up to 14 m climbing height and 0 to +40 degrees C",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "website": {
+          "value": "https://www.exotec.com/system/automated-warehouse-robots/",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "description": {
+          "value": "Skypod is Exotec’s mobile warehouse-robot family for transporting inventory containers between storage racks and picking Workstations. The issuer timeline dates the first commercial system to 2017; the family also includes a redesigned next generation commercially announced in February 2025. Current specifications state up to 30 kg inventory payload,4 m/s travel and 14 m rack climbing. Opportunity charging and per-station throughput remain system-context values,not a single-charge endurance claim or an individual-robot pick rate.",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "releaseDate": {
+          "value": "2017",
+          "status": "documented",
+          "note": "The native Japanese ten-year timeline dates the first commercial system introduction to 2017. This family milestone is not an exact first robot shipment date or the 2025 Next Generation launch."
+        },
+        "chargingTime": {
+          "value": "About 5 minutes of opportunity charging per operating hour; not a full-charge duration",
+          "status": "documented",
+          "note": "The native FAQ states about five minutes of charging per operating hour using system boosters, plus energy recovery during braking and descent. This does not establish full-charge time, battery capacity or 55 minutes of one-charge endurance."
+        },
+        "driveMode": {
+          "value": "4-wheel drive; under-rack travel in any direction and line-following navigation within the Skypod system",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Up to 600 bins per hour is a current Workstation rating, not an individual Skypod robot throughput rating; the individual value remains unknown."
+        }
+      }
+    },
+    {
+      "robotId": "exotec-skypod-next-generation",
+      "manufacturer": "Exotec",
+      "model": "Skypod Next Generation",
+      "sources": [
+        {
+          "name": "Exotec — Next Generation Skypod commercial launch, February 6, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/news/exotec-launches-next-generation-of-skypod-system-an-all-in-one-robot-based-as-rs-that-addresses-the-majority-of-processes-within-a-warehouse/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — current Skypod robot specifications and native charging/navigation FAQs",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/automated-warehouse-robots/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — current picking Workstation specifications",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/stations/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Skypod AS/RS system overview",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-147/source-2.html",
+      "fields": {
+        "price": {
+          "value": "Project quotation; no numeric public robot or complete-system price established",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 30 kg rating is carried inventory, not robot mass. No exact whole-robot mass is established in the reviewed native text."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The current 14 m limit is rack-climbing height, not robot outer dimensions. The compact redesign has no exact published envelope in the reviewed material."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Opportunity charging and continuous system operation or monitoring do not establish endurance per battery charge."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "payload": {
+          "value": "Up to 30 kg of inventory; container/configuration requirements apply",
+          "status": "documented",
+          "note": "The current Skypod family product page states up to 30 kg inventory payload. The 2025 release explicitly identifies the compact redesigned robot; an independently measured generation-specific payload test was not reviewed."
+        },
+        "speed": {
+          "value": "Up to 4 m/s; manufacturer does not give a separate vertical speed rating",
+          "status": "documented",
+          "note": "The current product page states up to 4 m/s. Three-dimensional travel does not establish 4 m/s on each axis or a separate vertical speed rating."
+        },
+        "terrain": {
+          "value": "Indoor warehouse floor and compatible storage racks; current specification up to 14 m climbing height and 0 to +40 degrees C",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "website": {
+          "value": "https://www.exotec.com/news/exotec-launches-next-generation-of-skypod-system-an-all-in-one-robot-based-as-rs-that-addresses-the-majority-of-processes-within-a-warehouse/",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "description": {
+          "value": "Skypod Next Generation is the compact redesigned mobile robot within Exotec’s next-generation AS/RS commercially announced on February 6, 2025. It works with robot-to-robot picking Workstations,an Exchanger and denser storage. Exotec reports integrated buffering,outbound sequencing and pick-and-pack for each and case picking. Reported throughput and storage-density improvements compare complete systems; they do not establish faster individual robot travel or precise robot dimensions.",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "releaseDate": {
+          "value": "2025",
+          "status": "documented",
+          "note": "The issuer release dated February 6, 2025 announces commercial launch of the Next Generation system and an explicitly redesigned compact robot. It reports stealth deployments over the preceding two years; public launch is not first installation."
+        },
+        "chargingTime": {
+          "value": "About 5 minutes of opportunity charging per operating hour; not a full-charge duration",
+          "status": "documented",
+          "note": "The native FAQ states about five minutes of charging per operating hour using system boosters, plus energy recovery during braking and descent. This does not establish full-charge time, battery capacity or 55 minutes of one-charge endurance."
+        },
+        "driveMode": {
+          "value": "4-wheel drive; under-rack travel in any direction and line-following navigation within the Skypod system",
+          "status": "documented",
+          "note": "Current family documentation specifies four-wheel drive and line following. These current specifications are cross-referenced to the next-generation system release, not inferred from the 2022 configuration."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Up to 600 bins per hour is a current Workstation rating, not an individual Skypod robot throughput rating; the individual value remains unknown."
+        }
+      }
+    },
+    {
+      "robotId": "exotec-skypicker",
+      "manufacturer": "Exotec",
+      "model": "Skypicker",
+      "sources": [
+        {
+          "name": "Exotec — Skypicker launch, January 25, 2021 (French)",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/fr/actualites/le-skypicker-bras-droite-de-la-preparation-de-commandes-robotisee/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Skypicker launch, January 25, 2021 (English)",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/en-gb/news/the-skypicker-the-right-arm-of-robotic-order-picking/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — UK growth and IMHX 2022 issuer PDF",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/app/uploads/2022/10/PR_UKgrowthIMHX_FINAL.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Logistica Next 2022 product specifications",
+          "type": "manufacturer",
+          "url": "https://www2.exotec.com/logistica2022",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-147/source-14.html",
+      "fields": {
+        "price": {
+          "value": "Project quotation; no numeric public standalone-arm or installed-module price established",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 2 by 2 cm figure is minimum graspable object surface, not Skypicker outer dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The launch describes testing new claw-based gripping approaches. It does not establish a standard commercial end effector for every Skypicker."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "An articulated arm and four simultaneous orders do not establish a mechanical joint count."
+        },
+        "payload": {
+          "value": "2021 launch: rigid graspable objects below 2 kg; 2022 materials say up to 2 kg",
+          "status": "conflicting",
+          "note": "The January 25, 2021 French release says strictly below 2 kg; its English version says below 4.4 lb. The 2022 issuer PDF and Dutch product page say up to 2 kg. The nominal class agrees, but the strict upper boundary differs and remains conflicting. Limits apply to suitable rigid graspable objects."
+        },
+        "speed": {
+          "value": "2 m/s object-transfer speed in the January 2021 manufacturer release; not mobile travel speed",
+          "status": "documented",
+          "note": "The French launch states 2 m/s object-transfer speed; the English version rounds this to 4.5 mph. This is not mobile-base speed, per-axis joint speed or picking throughput."
+        },
+        "terrain": {
+          "value": "Fixed enclosed warehouse picking module integrated with the Skypod system",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "website": {
+          "value": "https://www.exotec.com/fr/actualites/le-skypicker-bras-droite-de-la-preparation-de-commandes-robotisee/",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "description": {
+          "value": "Skypicker is Exotec’s articulated automatic picking module introduced in January 2021 for integration with the Skypod warehouse system. A camera and visualization algorithms support object handling,and an order mover enables four orders to be prepared simultaneously. The launch describes rigid objects below 2 kg with at least 2 by 2 cm of graspable surface and 2 m/s object-transfer speed; later issuer materials round the limit to up to 2 kg. Up to 600 items per hour is a task-specific picking claim,distinct from Skypod Workstation container throughput.",
+          "status": "documented",
+          "note": "Dated manufacturer statement with configuration/task/generation scope;not independently verified performance or a current stock guarantee."
+        },
+        "releaseDate": {
+          "value": "2021",
+          "status": "documented",
+          "note": "The French and English issuer releases dated January 25, 2021 explicitly describe launch at the beginning of 2021. This is not an independently verified exact first shipment date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        },
+        "armRepeatability": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
+        }
+      }
     }
   ]
 }

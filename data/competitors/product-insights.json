@@ -3661,14 +3661,50 @@
       "highlights": [
         "Mobile warehouse robot that transports containers between racks and workstations",
         "Travels in three dimensions at up to 4 m/s",
-        "Carries up to 30 kg inventory"
+        "Carries up to 30 kg inventory",
+        "This is the Skypod family record. The issuer timeline dates the first commercial system to 2017; a separately identified compact Next Generation robot was commercially announced on February 6, 2025. Family references do not identify every installed unit’s generation.",
+        "Current manufacturer specifications list up to 30 kg inventory payload,4-wheel drive,4 m/s travel,14 m rack climbing and an operating range of 0 to +40 degrees C. The 2022 issuer PDF described 12 m racks; these are dated configurations,not a 14 m robot body or a vertical-speed guarantee.",
+        "Robots can travel beneath racks in any direction. The native navigation FAQ describes line following and orchestration by Deepsky warehouse software; it does not establish an exact navigation/docking accuracy or unrestricted navigation in arbitrary buildings.",
+        "The native charging FAQ states about five minutes of opportunity charging per operating hour using system boosters,with energy recovery while braking and descending racks. This does not specify a full-charge duration or prove 55 minutes of battery endurance.",
+        "Up to 600 source containers per hour belongs to each picking Workstation. Retrieving any SKU within two minutes is a system responsiveness claim. Neither figure is an independently measured per-robot picking rate.",
+        "Exotec offers additional robot rentals for peak periods and says rental agreements include maintenance,upgrades and 24/7 technical assistance. No numeric rental fee,universal capacity guarantee or single-charge runtime follows from these service terms."
       ],
       "sources": [
         {
-          "name": "Exotec",
+          "name": "Exotec — current Skypod robot specifications and native charging/navigation FAQs",
           "type": "manufacturer",
           "url": "https://www.exotec.com/system/automated-warehouse-robots/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — ten-year timeline, October 16, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/ja/insight/10years-anniversary/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Next Generation Skypod commercial launch, February 6, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/news/exotec-launches-next-generation-of-skypod-system-an-all-in-one-robot-based-as-rs-that-addresses-the-majority-of-processes-within-a-warehouse/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — current picking Workstation specifications",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/stations/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — UK growth and IMHX 2022 issuer PDF",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/app/uploads/2022/10/PR_UKgrowthIMHX_FINAL.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Logistica Next 2022 product specifications",
+          "type": "manufacturer",
+          "url": "https://www2.exotec.com/logistica2022",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -37519,6 +37555,90 @@
         "https://enactic.ai/",
         "https://care.enactic.ai/",
         "https://prtimes.jp/main/html/rd/p/000000006.000166268.html"
+      ]
+    },
+    {
+      "robotId": "exotec-skypod-next-generation",
+      "manufacturer": "Exotec",
+      "model": "Skypod Next Generation",
+      "highlights": [
+        "The February 6, 2025 commercial launch explicitly includes a new,more compact Skypod robot together with a robot-to-robot picking Workstation,high-throughput Exchanger and denser storage. This record identifies that robot generation rather than adding a software-only product.",
+        "The manufacturer reports a 50 percent improvement in throughput at a single Workstation and up to 30 percent better storage density compared with its previous generation. These are attributed system-level comparisons,not independent benchmarks or 50 percent faster robot travel.",
+        "The system supports both each and case picking,integrated buffering inside storage racks,strict outbound sequencing through robots and the Exchanger,and picking directly into fulfillment containers. Their claimed reduction of downstream equipment depends on the installed workflow.",
+        "At the public launch,Exotec reported over 20 projects worldwide totaling 400 million USD and deployments in stealth over the preceding two years. Project value is not a robot price; project counts are not robot fleet size or evidence that every installation is identical.",
+        "Current Skypod specifications state up to 30 kg inventory payload,4 m/s travel,14 m rack climbing and 4-wheel drive. Current FAQs describe opportunity charging and line following; no exact next-generation mass,envelope,battery endurance or ingress rating is established.",
+        "The current Workstation specification gives up to 600 source containers per hour,20 cm of operator-height adjustment and robot charging capability. These are station properties; height adjustment is not robot lift travel and container presentation is not an individual Skypod throughput rating."
+      ],
+      "sources": [
+        {
+          "name": "Exotec — Next Generation Skypod commercial launch, February 6, 2025",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/news/exotec-launches-next-generation-of-skypod-system-an-all-in-one-robot-based-as-rs-that-addresses-the-majority-of-processes-within-a-warehouse/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — current Skypod robot specifications and native charging/navigation FAQs",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/automated-warehouse-robots/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — current picking Workstation specifications",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/stations/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Skypod AS/RS system overview",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/system/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.exotec.com/news/exotec-launches-next-generation-of-skypod-system-an-all-in-one-robot-based-as-rs-that-addresses-the-majority-of-processes-within-a-warehouse/"
+      ]
+    },
+    {
+      "robotId": "exotec-skypicker",
+      "manufacturer": "Exotec",
+      "model": "Skypicker",
+      "highlights": [
+        "Exotec’s French and English releases dated January 25, 2021 introduce Skypicker as an articulated automatic picking module integrated with Skypod. Its named robot arm is distinct from mobile Skypod carriers and from the human-operated Workstation.",
+        "The 2021 French launch specifies rigid objects strictly below 2 kg with a minimum graspable surface of 2 by 2 cm and object-transfer speed of 2 m/s. The 2022 issuer PDF and Dutch product page instead say up to 2 kg; the exact boundary remains conflicting. Object surface is not robot outer dimensions.",
+        "The module combines a high-resolution camera and visualization algorithms with its own order mover for preparing four orders simultaneously. Those four orders do not establish arm degrees of freedom,repeatability or a universal grasp success rate.",
+        "Exotec advertises up to 600 items per hour for graspable products. That item-picking measure is separate from the current Skypod Workstation’s up to 600 inventory bins per hour and depends on the object mix and configured workflow.",
+        "The historical module is coordinated by Astar software in an enclosed environment,with bins selected in synchrony with mobile warehouse robots. Current company descriptions of Deepsky WES do not prove a retrofit to every historical Skypicker or certification of every integrated cell.",
+        "The launch says new claw-based gripping approaches were being tested. That historical development statement does not establish their later commercial delivery or the standard end effector of every Skypicker; an exact gripper type,axis count,reach and IP rating remain unverified."
+      ],
+      "sources": [
+        {
+          "name": "Exotec — Skypicker launch, January 25, 2021 (French)",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/fr/actualites/le-skypicker-bras-droite-de-la-preparation-de-commandes-robotisee/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Skypicker launch, January 25, 2021 (English)",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/en-gb/news/the-skypicker-the-right-arm-of-robotic-order-picking/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — UK growth and IMHX 2022 issuer PDF",
+          "type": "manufacturer",
+          "url": "https://www.exotec.com/app/uploads/2022/10/PR_UKgrowthIMHX_FINAL.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Exotec — Logistica Next 2022 product specifications",
+          "type": "manufacturer",
+          "url": "https://www2.exotec.com/logistica2022",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.exotec.com/fr/actualites/le-skypicker-bras-droite-de-la-preparation-de-commandes-robotisee/"
       ]
     }
   ]
