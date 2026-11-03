@@ -528,8 +528,13 @@ battery modes and a 7,999.99 USD purchase option; the catalog 18 lb mass remains
 visible conflict. Shelfobot is a shelf-mounted advertising robot carrying up to 1.5 kg
 and running about seven days on a custom battery. ROSA Knee with OptimiZe is a robotic
 knee-arthroplasty system with OptimiZe planning and ZBEdge integration. Three model
-identities and nine listing identities remain unresolved; these are identity
-questions, not missing field reviews.
+identities and nine listing identities were still open at that point. Batch 160 now
+closes them: five source listings name only a robot type and are recorded as generic
+product families, and four Go2/NEO listings are resolved to the Unitree Go2 and 1X NEO
+models they name, with the directory's company attribution kept separate from
+manufacturer identity. Kawasaki A700, Kawasaki Kx and Parrot CHUCK DV7 are recorded
+as generic labels because the manufacturers publish no matching models. No catalog row
+was added for any of the twelve entries.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
