@@ -9702,33 +9702,77 @@
         "manufacturer": "inVia Robotics",
         "model": "inVia Picker",
         "price": "Not disclosed",
+        "weight": "136 lb (61.7 kg)",
+        "size": "25.5 in H x 26.1 in W; depth not published",
+        "batteryLife": "Up to 10 hours with hot-swappable battery",
+        "maxRuntime": "",
         "tags": "commercial;industrial;warehouse;delivery;autonomous-nav",
+        "handType": "Industrial suction-cup tote grip; not a humanoid hand",
+        "dof": "",
+        "payload": "Up to 40 lb (18 kg) payload weight; 14 x 15 x 24 in payload size",
+        "speed": "Up to 5 mph (8 km/h)",
+        "terrain": "Existing warehouse flooring and racking; indoor fulfillment",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://inviarobotics.com/our-system/invia-picker-robots/",
-        "description": "Autonomous warehouse robot with an extendable lift and suction-cup tote handling. Machine vision uses fiducial markers to locate inventory. Hot-swappable battery and available self-charging support repeated missions.",
-        "weight": "136 lb",
-        "payload": "up to 40 lb (configuration dependent)",
-        "batteryLife": "10 hours",
-        "speed": "5 mph",
-        "terrain": "warehouse floors"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "inVia Picker is a compact autonomous goods-to-person AMR. The manufacturer lists 25.5 in height x 26.1 in width, 136 lb (61.7 kg) mass, up to 40 lb (18 kg) payload weight, a 14 x 15 x 24 in payload size, up to 8 ft reach and 5 mph (8 km/h) maximum speed. An extendable lift and industrial suction cups handle totes, while machine vision with fiducial stickers locates inventory. A hot-swappable 10-hour battery and optional self-charging support repeated missions. inVia sells automation as RaaS and advertises 5x productivity and 1,000 UPH PickerWall throughput; these are company claims. No numeric price, depth, charge duration, IP rating or navigation accuracy is published.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "Machine vision with fiducial stickers; no numeric accuracy published",
+        "dockingAccuracy": "",
+        "driveMode": "Autonomous goods-to-person AMR with extendable lift and suction-cup tote handling",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Autonomous warehouse robot with an extendable lift and suction-cup tote handling",
         "Machine vision uses fiducial markers to locate inventory",
-        "Hot-swappable battery and available self-charging support repeated missions"
+        "Hot-swappable battery and available self-charging support repeated missions",
+        "inVia Picker is a compact autonomous goods-to-person AMR with an extendable lift and industrial suction cups.",
+        "The manufacturer lists 25.5 in height x 26.1 in width, 136 lb mass, up to 40 lb payload and 14 x 15 x 24 in payload size.",
+        "Maximum speed is 5 mph, with a hot-swappable 10-hour battery and optional self-charging for repeated missions.",
+        "Machine vision with fiducial stickers locates inventory; people remain stationary pickers while robots travel.",
+        "inVia advertises 5x productivity and 1,000 UPH PickerWall throughput; these are company claims, and no numeric price, depth, charge duration, IP rating or navigation accuracy is published."
       ],
       "sources": [
         {
-          "name": "inVia Robotics",
+          "name": "inVia Robotics — inVia Picker",
           "type": "manufacturer",
           "url": "https://inviarobotics.com/our-system/invia-picker-robots/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "inVia Robotics — goods-to-person system",
+          "type": "manufacturer",
+          "url": "https://inviarobotics.com/our-system/",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/19e81e12-4770-4930-9201-56fe14be11de"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-4/inviarobotics.com-our-system-invia-picker-robots.json",
-      "reviewNotes": "Manufacturer conditions exact payload and reach on an engineered system specification. Workstation picking rates and customer productivity multipliers are not assigned as robot speeds; incomplete two-axis chassis dimensions are omitted."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-156/source-3.html",
+      "reviewNotes": "Batch156. Native manufacturer pages read as text only; no research browser, visual inspection, OCR or media reuse. Swift is historical and its fleet was withdrawn; inVia payload is a tote-load rating, not a uniform guarantee; MONARCH QUEST 3 is a software update, not a new robot; Firejet payload figures are configuration-specific. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -14894,30 +14938,71 @@
         "manufacturer": "Kratos",
         "model": "MQM-178 Firejet",
         "price": "Not disclosed",
+        "weight": "130 lb (59 kg) dry; 320 lb (145 kg) maximum launch weight",
+        "size": "10.8 ft (3.3 m) long; 2 ft (0.6 m) high; 6.2 ft (1.9 m) wingspan",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;aerial;research;autonomous-nav",
+        "handType": "",
+        "dof": "",
+        "payload": "70 lb (32 kg) internal; 20 lb (9 kg) per wing tip; 35 lb (15.9 kg) per wing station",
+        "speed": "0.69 Mach maximum",
+        "terrain": "35,000 ft (10,670 m) MSL service ceiling; 20 ft (6 m) AGL low-level; -2g to 9g turns",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.kratosdefense.com/unmanned-systems/air/aerial-targets/firejet",
-        "description": "Uncrewed jet-powered aerial target platform with a composite modular airframe. Supports manual and preprogrammed flight modes. Parachute recovery and configurable sensor or training payload interfaces.",
-        "weight": "59 kg (dry)",
-        "releaseDate": "2011"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "MQM-178 Firejet is a jet-powered aerial target for surface-to-air and air-to-air weapons training. Kratos lists a carbon-fiber composite airframe, 0.69 Mach maximum speed, a 35,000 ft (10,670 m) MSL service ceiling, 20 ft (6 m) AGL low-level operation and -2g to 9g turns. Payload capacity is 70 lb (32 kg) internal, 20 lb (9 kg) per wing tip and 35 lb (15.9 kg) per wing station. The airframe is 10.8 ft (3.3 m) long, 2 ft (0.6 m) high with a 6.2 ft (1.9 m) wingspan; dry weight is 130 lb (59 kg) and maximum launch weight 320 lb (145 kg). Pneumatic land or ship launch, manual or pre-programmed flight and parachute recovery are documented; first unveiled in 2011. No numeric price, battery endurance, IP rating or navigation accuracy is published.",
+        "releaseDate": "2011",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Pneumatically launched aerial target; manual or pre-programmed flight; parachute recovery",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Uncrewed jet-powered aerial target platform with a composite modular airframe",
         "Supports manual and preprogrammed flight modes",
-        "Parachute recovery and configurable sensor or training payload interfaces"
+        "Parachute recovery and configurable sensor or training payload interfaces",
+        "MQM-178 Firejet is a jet-powered aerial target for surface-to-air and air-to-air weapons training.",
+        "Kratos lists 0.69 Mach maximum speed, a 35,000 ft MSL ceiling, 20 ft AGL low-level operation and -2g to 9g turns.",
+        "Payload capacity is 70 lb internal, 20 lb per wing tip and 35 lb per wing station.",
+        "The airframe is 10.8 ft long with a 6.2 ft wingspan; dry weight is 130 lb and maximum launch weight 320 lb.",
+        "Pneumatic land or ship launch, manual or pre-programmed flight and parachute recovery are documented; first unveiled in 2011."
       ],
       "sources": [
         {
-          "name": "Kratos",
+          "name": "Kratos — MQM-178 Firejet",
           "type": "manufacturer",
           "url": "https://www.kratosdefense.com/unmanned-systems/air/aerial-targets/firejet",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/99301680-cdce-4e6e-b613-9b9076230b5b"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-6/kratosdefense.com-unmanned-systems-air-aerial-targets-firejet.json",
-      "reviewNotes": "Kratos manufacturer page identifies the aircraft; Shield AI is an autonomy integration/testing partner, not the aircraft manufacturer. Experimental AI flight tests do not establish standard AI functionality on every delivered target drone. Only high-level platform identity is summarized; no weapon-integration procedure is provided."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-156/source-6.html",
+      "reviewNotes": "Batch156. Native manufacturer pages read as text only; no research browser, visual inspection, OCR or media reuse. Swift is historical and its fleet was withdrawn; inVia payload is a tote-load rating, not a uniform guarantee; MONARCH QUEST 3 is a software update, not a new robot; Firejet payload figures are configuration-specific. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -19002,28 +19087,77 @@
         "manufacturer": "IAM Robotics",
         "model": "Swift",
         "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;warehouse;mobile-manipulation;historical",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://onwardrobotics.com/iam-robotics-launches-person-to-goods-solution/",
-        "description": "Historical mobile-manipulation platform developed for warehouse order fulfillment. Combined a mobile robot with item-handling capabilities. Company-hosted history says the Swift fleet was withdrawn during a later strategy change."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Swift was IAM Robotics' mobile manipulation and goods-to-person platform for warehouse order fulfillment. Company-hosted history says IAM restructured in late 2021, pivoted away from Swift, pulled the entire Swift fleet from the market and later launched a person-to-goods solution in 2023 using the Bolt AMR base, Meet Me workflow software and a new Lumabot robot. The catalog row is retained as historical. The reviewed pages publish no numeric Swift price, mass, dimensions, payload, speed, runtime, release year, IP rating or navigation accuracy; current Onward products are not merged into Swift.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Mobile manipulation and goods-to-person platform (historical)",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Historical mobile-manipulation platform developed for warehouse order fulfillment",
         "Combined a mobile robot with item-handling capabilities",
-        "Company-hosted history says the Swift fleet was withdrawn during a later strategy change"
+        "Company-hosted history says the Swift fleet was withdrawn during a later strategy change",
+        "IAM Robotics developed Swift as a mobile manipulation and goods-to-person platform for warehouse order fulfillment.",
+        "Company-hosted history says IAM restructured in late 2021 and pulled the entire Swift fleet from the market.",
+        "IAM later launched a person-to-goods solution in 2023 using the Bolt AMR base, Meet Me software and a new Lumabot robot.",
+        "Onward Robotics now presents Lumabot AMRs and Pyxis orchestration software; these current products are not merged into Swift.",
+        "The reviewed pages publish no numeric Swift price, mass, dimensions, payload, speed, runtime, release year, IP rating or navigation accuracy."
       ],
       "sources": [
         {
-          "name": "IAM Robotics",
+          "name": "Onward Robotics — IAM Robotics Swift history",
           "type": "manufacturer",
           "url": "https://onwardrobotics.com/iam-robotics-launches-person-to-goods-solution/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Onward Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://onwardrobotics.com/",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-10/onwardrobotics.com-iam-robotics-launches-person-to-goods-solution.json",
-      "reviewNotes": "The June 2023 company-hosted article describes the late-2021 pivot and withdrawal of Swift. It is retained as a historical product, not a currently offered system. Lumabot, Bolt and Meet Me describe a later architecture and are not aliases or specifications for Swift. No numeric payload, speed, runtime, purchase offer or uptime promise is inferred."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-156/source-1.html",
+      "reviewNotes": "Batch156. Native manufacturer pages read as text only; no research browser, visual inspection, OCR or media reuse. Swift is historical and its fleet was withdrawn; inVia payload is a tote-load rating, not a uniform guarantee; MONARCH QUEST 3 is a software update, not a new robot; Firejet payload figures are configuration-specific. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -19179,28 +19313,71 @@
         "manufacturer": "Johnson & Johnson MedTech",
         "model": "MONARCH Platform",
         "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;medical;bronchoscopy;clinician-controlled",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-monarch-quest-3-advancing-the-latest-in-robotically-assisted-bronchoscopy",
-        "description": "Clinician-controlled robotic-assisted bronchoscopy platform supports airway navigation and biopsy. Navigation and scope visualization support planning and targeting during procedures. QUEST 3 is a software update for the platform, not a separately named physical robot."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "MONARCH Platform is Johnson & Johnson MedTech's clinician-controlled robotically assisted bronchoscopy platform. The August 2026 MONARCH QUEST 3 announcement describes a software update with AI-powered nodule segmentation, improved registration and navigation accuracy, a 3D Compass overlay, continuous visualization, navigation to and biopsy of targets under direct vision, and correction for CT-to-body divergence. QUEST 3 is a software release, not a new physical robot. The reviewed release publishes no numeric platform price, mass, dimensions, payload, speed, runtime, charge duration, release year or IP rating; no autonomous surgery or universal clinical indication is claimed.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "AI-powered planning and navigation with CT-to-body divergence correction; no numeric accuracy published",
+        "dockingAccuracy": "",
+        "driveMode": "Clinician-controlled robotically assisted bronchoscopy platform",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Clinician-controlled robotic-assisted bronchoscopy platform supports airway navigation and biopsy",
         "Navigation and scope visualization support planning and targeting during procedures",
-        "QUEST 3 is a software update for the platform, not a separately named physical robot"
+        "QUEST 3 is a software update for the platform, not a separately named physical robot",
+        "MONARCH Platform is a clinician-controlled robotically assisted bronchoscopy platform, not an autonomous surgical robot.",
+        "The August 2026 QUEST 3 release is a software update adding AI-powered nodule segmentation and planning/navigation enhancements.",
+        "The platform supports continuous visualization, navigation to and biopsy of targets under direct vision, and CT-to-body divergence correction.",
+        "QUEST 3 also adds a 3D Compass overlay; it is not a new physical robot model.",
+        "No numeric price, mass, dimensions, payload, speed, runtime, charge duration, release year or IP rating is published."
       ],
       "sources": [
         {
-          "name": "Johnson & Johnson MedTech",
+          "name": "Johnson & Johnson — MONARCH QUEST 3 release",
           "type": "manufacturer",
           "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-monarch-quest-3-advancing-the-latest-in-robotically-assisted-bronchoscopy",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-10/jnj.com-media-center-press-releases-johnson-johnson-announces-monarch-quest-3-advancing-the-latest-in-robotically-assisted-bronchoscopy.json",
-      "reviewNotes": "Manufacturer announcement dated August 17, 2026 establishes the current J&J product identity. The source directory lists Auris Health (J&J); the attribution correction preserves that source identity. This is clinician-controlled assistance, not autonomous diagnosis, biopsy or surgery. Regulatory indications, imaging compatibility and software features depend on region/version. No clinical outcome superiority or guaranteed diagnostic accuracy is claimed."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-156/source-5.html",
+      "reviewNotes": "Batch156. Native manufacturer pages read as text only; no research browser, visual inspection, OCR or media reuse. Swift is historical and its fleet was withdrawn; inVia payload is a tote-load rating, not a uniform guarantee; MONARCH QUEST 3 is a software update, not a new robot; Firejet payload figures are configuration-specific. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
