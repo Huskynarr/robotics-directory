@@ -13744,14 +13744,62 @@
       "highlights": [
         "Hospital logistics for non-patient-facing tasks such as supply and lab-sample delivery",
         "Mobile manipulation combines an arm and hand with navigation through hospital spaces",
-        "Implementation team configures workflows; human-guided learning supports adaptation"
+        "Implementation team configures workflows; human-guided learning supports adaptation",
+        "The FAQ describes locking compartments and automatic travel to a charging dock. Robot-as-a-service pricing is tailored to the hospital; no exact purchase/subscription price, full-charge duration or original-generation endurance is established.",
+        "Providence’s February 2024 implementation account describes three locked drawers and controller-guided mapping by Diligent staff over about three days. Its March 2024 report confirms two robots in use. Mapping/setup is distinct from later autonomous operation and these are original deployment findings, not Moxi 2.0 specifications.",
+        "The manufacturer’s September 2026 UTMB case study reports about 70000 deliveries and 22000 delivery hours with three robots, about 25 deliveries per robot per day. These are cumulative/site figures, not battery endurance, universal throughput or proof of a 2.0 hardware upgrade.",
+        "The September 2026 Shannon Health case study reports more than 100000 deliveries, about 30000 delivery hours and two robots, averaging about 27 deliveries per robot per day. Vendor-published staff accounts and savings estimates are not independent clinical outcomes or guaranteed workforce replacement.",
+        "The 2022 issuer history dates Moxi’s debut to 2018 and first commercial deployments to 2020; the issuer’s October 1, 2019 press release announces a market rollout beginning October 2. These are different historical milestones whose commercial-timeline wording is not silently reconciled into one shipping date.",
+        "Clinical staff load/unload and remain responsible for care. Locked transport bins and obstacle-aware navigation do not prove diagnosis, treatment, infection prevention or zero-collision operation. Existing 136 kg mass and generic large-size label lack support in the selected sources and are omitted."
       ],
       "sources": [
         {
-          "name": "Diligent Robotics",
+          "name": "Diligent Robotics — Moxi product and mobile manipulation",
           "type": "manufacturer",
           "url": "https://www.diligentrobots.com/moxi",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Diligent Robotics — MoxiFAQ;RaaS,locking and charging dock",
+          "type": "manufacturer",
+          "url": "https://www.diligentrobots.com/faq",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Diligent Robotics — SeriesB2022;historical debut/commercial milestones",
+          "type": "manufacturer",
+          "url": "https://www.diligentrobots.com/blog/diligent-robotics-raises-over-30-million-in-series-b-funding-round-to-deploy-collaborative-robots-to-healthcare-systems-across-the-nation",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Diligent Robotics — October1,2019marketlaunch press release republished by issuer",
+          "type": "manufacturer",
+          "url": "https://www.diligentrobots.com/press/prweb",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Providence — Centralia implementation plan;February12,2024",
+          "type": "deployment",
+          "url": "https://blog.providence.org/south-puget-sound-medical-staff-updates/moxie-collaborative-robot-coming-to-south-puget-sound",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Providence — Centralia deployed robots;March14,2024",
+          "type": "deployment",
+          "url": "https://blog.providence.org/regional-blog-news/moxi-collaborative-robot-has-arrived",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Diligent Robotics — UTMBcase study;updatedSeptember2026",
+          "type": "manufacturer",
+          "url": "https://static1.squarespace.com/static/606f1bb0f7e05e3329035ff8/t/6ad0028bd233c43faef2cc9d/1792017035242/Diligent_UTMB_Case_Study.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Diligent Robotics — ShannonHealthcase study;updatedSeptember2026",
+          "type": "manufacturer",
+          "url": "https://static1.squarespace.com/static/606f1bb0f7e05e3329035ff8/t/6ad002df1bb6e83f260d6a50/1792017119252/Diligent_Shannon_Health_Case_Study2.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -36896,6 +36944,74 @@
       ],
       "discoveredIn": [
         "https://www.daifuku.com/daifuku-square/article/000941/"
+      ]
+    },
+    {
+      "robotId": "diligent-robotics-moxi-2-0",
+      "manufacturer": "Diligent Robotics",
+      "model": "Moxi 2.0",
+      "highlights": [
+        "The August 17, 2026 rollout identifies NVIDIA-powered A2000 compute and claims 10 times onboard compute with 10–15 times faster perception versus the previous generation. These are supplier-relative compute/perception claims, not travel speed, delivery throughput or independent benchmark results.",
+        "Manufacturer distinguishes up to nine hours at a time from up to 18 operating hours per day. Recharging between runs is not an 18-hour single-charge guarantee; the 30 percent faster charging claim supplies neither an absolute full-charge duration nor a defined test baseline.",
+        "All safety and autonomy behaviors run onboard according to the launch release, with cellular fallback available for Wi-Fi dead zones. AWS cloud infrastructure trains the World Model; private 5G hospital deployments are a plan, not proof of already installed private 5G or total network/cloud independence.",
+        "Expanded cameras, sensors and redesigned storage drawers, handles and service ergonomics are named upgrades. The release does not establish exact robot mass, body dimensions, arm payload, gripper model or numerical joint count; original-generation figures are not inherited.",
+        "The rollout names Endeavor Health Edward Hospital, Providence Saint John’s Health Center and Children’s Hospital Los Angeles. The manufacturer says it is accepting orders; hospital stories and cumulative fleet deliveries do not establish universal outcomes or complete geographic availability.",
+        "October 28, 2025 plans described NVIDIA Thor/IGX Thor and future robot foundation models; August 2026 rollout specifies A2000 and a World Model. The newer source governs the described rollout, while future modular compute upgrades and 15-plus-robots-per-hospital aspirations remain plans."
+      ],
+      "sources": [
+        {
+          "name": "Diligent Robotics — Moxi 2.0 rollout;August17,2026",
+          "type": "manufacturer",
+          "url": "https://www.diligentrobots.com/blog/diligent-robotics-a-serve-robotics-company-begins-rolling-out-moxi-20",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Diligent Robotics — Moxi2.0 plans;October28,2025",
+          "type": "manufacturer",
+          "url": "https://www.diligentrobots.com/blog/moxi2-0",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.diligentrobots.com/blog/diligent-robotics-a-serve-robotics-company-begins-rolling-out-moxi-20"
+      ]
+    },
+    {
+      "robotId": "diligent-robotics-poli",
+      "manufacturer": "Diligent Robotics",
+      "model": "Poli",
+      "highlights": [
+        "Diligent’s founder-authored 2020 account explicitly calls Poli its prior non-commercial hospital robot assistant. The 2018 University of Texas team paper links the research platform/software to Diligent’s hospital venture; research origin and company lineage remain visible.",
+        "The university’s Poli account describes one arm sliding vertically on a pole. That scoped research arrangement is not an exact total DOF, payload or travel-speed rating. PR2, Meka Robot and Kinova Jaco2 mentioned in a founder biography are other platforms she worked with, not extra Diligent models or interchangeable Poli configurations."
+      ],
+      "sources": [
+        {
+          "name": "Diligent Robotics — founder2020account identifies Poli precursor",
+          "type": "manufacturer",
+          "url": "https://www.diligentrobots.com/blog/2020",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Diligent Robotics — VivianChu creator biography",
+          "type": "manufacturer",
+          "url": "https://www.diligentrobots.com/vivian-chu",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "University of Texas — AustinVilla2018team paper;Poli research-to-Diligent lineage",
+          "type": "developer",
+          "url": "https://www.cs.utexas.edu/~AustinVilla/athome/austin_villa_at_home_tdp.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "University of Texas — Poli research embodiment",
+          "type": "developer",
+          "url": "https://magazine.engr.utexas.edu/2016/research-visualized",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.diligentrobots.com/blog/2020"
       ]
     }
   ]
