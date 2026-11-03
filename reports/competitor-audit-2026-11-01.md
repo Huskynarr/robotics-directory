@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.345 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1091 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1276 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.346 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1092 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1277 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 133 |
+| Firmenfokus-Prüfungen mit Quellen | 134 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1091 ergänzte Modelle ergeben 2.345 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1092 ergänzte Modelle ergeben 2.346 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-133 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+134 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1276 Datensätze
+Modellseiten verlinken Markenprofile. Die 1277 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 472 haben ausgewählte Datenfeldprüfungen und 46
+haben datierte Merkmalsbelege; 473 haben ausgewählte Datenfeldprüfungen und 45
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11492,3 +11492,96 @@ Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ur
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige historische Portfolios, unabhängige USPs und Rang Nr. 1
 bleiben unbewiesen.
+
+
+## Ergänzung 139 – CMR Surgical: Versius und Plus mit getrennten Komponenten- und Zulassungsständen (3. November 2026)
+
+Versius Plus wird als ausdrücklich benanntes System ergänzt; das vorhandene Versius
+wird vertieft geprüft. Zwei Feldprüfungen enthalten 34 Felder: zehn dokumentiert,
+24 nicht dokumentiert. Neun neue Merkmalsaussagen, neun Produktquellenverweise und
+ein Firmenfokus kommen hinzu. Die drei alten Versius-Merkmalsformulierungen,
+Fund-URL, ID und Medien bleiben erhalten. 2.344 andere Altzeilen, 1.212 bisherige
+Feldprüfungen und 133 Firmenfokusse sind unverändert. Gesamt: 2.346 Katalogzeilen,
+1.277 datierte Merkmalsdatensätze, 5.678 Aussagen, 2.639 Produktquellenverweise,
+1.214 Feldprüfungen mit 23.007 Feldern und 134 Firmenfokusse. Von den 518
+ursprünglichen Queue-Zielen haben 473 ausgewählte Feldprüfungen; 45 sind offen.
+Dauerbeleg: `reports/competitor-batch-139-evidence.json`.
+
+16 öffentliche Antworten wurden mit Hashes gesichert: 15 HTTP 200 und eine
+ungenutzte HTTP-404-Antwort für die vermutete K261252-Zusammenfassung. Drei
+US-Adressen für Nachricht, Sicherheitsinformation und Startseite leiten auf die
+globale Startseite um. Der HTTP-200-Status dieser Startseite belegt die angefragten
+Artikelinhalte nicht. Vorhandene Textschichten aus drei PDFs mit zusammen 551
+Seiten wurden extrahiert und auf Integrität geprüft; inhaltliche Prüfung betraf
+gezielt die relevanten Abschnitte und Tabellen. Es gab keine visuelle Prüfung,
+keinen selbst gestarteten OCR-Lauf, keine Anmeldung, Kontaktaufnahme,
+Formularübermittlung, Transaktion, Patientenberatung oder Medienübernahme.
+
+Das alte UK-Handbuch Version 15.0 enthält auf PDF-Seite 32, gedruckter Seite vier,
+eine ausdrücklich zweispaltige Maßtabelle. Konsole: 1.325–2.085 mm Höhe,
+840 mm Breite, 1.040 mm Tiefe, ungefähr 180 kg. Einzelne Bedside Unit:
+1.425 × 380 × 380 mm und ungefähr 100 kg. Diese Angaben werden nicht zu einer
+Gesamtmasse, einem festen OP-Grundriss oder Plus-Maßen addiert beziehungsweise
+übertragen. Die nachfolgende 25-kg-Zeile betrifft sichere Lasten an Handcontroller
+und Griffen, keine Roboternutzlast. Die Komponenten-REFs V-SS-1000, V-SS-2000 und
+V-SS-3000 werden nicht als weitere unabhängige Roboter angelegt. Dokumentmetadaten
+von 2021/2022 belegen weder Marktstart noch aktuelle Plus-Hardwareversion.
+
+Kapitel zehn trennt die Netzversorgung der Konsole ohne eigene Batterie von einer
+mindestens 20-minütigen Batteriestützung einzelner Arme. Im Batteriebetrieb ist
+unter anderem der chirurgische Modus nicht verfügbar. Daraus entstehen weder
+OP-Laufzeit, vollständige Ladedauer noch Plus-Ausdauer. Die ursprüngliche
+FDA-Übersicht nennt bis zu drei Instrumenten-Bedside-Units, elf bewegliche Gelenke
+je Instrumentenarm und J1–8 am Visualisierungsarm; das ist keine aggregierte Zahl
+unabhängiger Aufgabenfreiheitsgrade. Modulare, manuell gerollte Wagen und
+chirurgische Konsolensteuerung sind keine autonome Navigation oder OP-Autonomie.
+
+Plus besitzt laut Produktseite einen 26-Zoll-3D-HD-Bildschirm und vLimeLite als
+integriertes Nahinfrarot-ICG-Bildwerkzeug. Overlay-/Graustufenansicht, grüne/cyanfarbene
+Darstellung und Thumbstick-Steuerung bleiben der Bildfunktion zugeordnet.
+Automatischer Videoupload verlangt laut Hersteller eine Datenfreigabevereinbarung.
+Software-Updates und Leistungs-/Betriebsdaten-Apps sind keine belegte autonome
+klinische Entscheidungsfunktion oder Garantie besserer Patientenergebnisse.
+Der Ultrasonic Dissector bleibt ein Instrument: bis fünf Millimeter Gefäßdurchmesser,
+250 Minuten Transducer-Aktivierungszeit und höchstens 25 Wiederaufbereitungen sind
+Herstellerangaben mit genau diesem Geltungsbereich, keine Roboterlaufzeit oder
+Nutzlast. Der Hersteller schließt US-Verkauf dieses Instruments ausdrücklich aus;
+vLimeLite und andere Komponenten behalten lokale Freigaben und Verfügbarkeit.
+
+Die FDA-Primärrollen werden korrekt als Aufsichtsbehörde beschriftet. DEN230078
+wurde am 11. Oktober 2024 gewährt; die ursprüngliche US-Indikation betrifft
+Cholezystektomie bei geeigneten Erwachsenen ab 22 Jahren. K252111 für Plus wurde
+am 16. Dezember 2025 entschieden; die am 27. Juni 2025 vorbereitete Zusammenfassung
+ist kein Freigabedatum. Sie dokumentiert NIR-Bildgebung, Software- und
+Instrumentänderungen bei damals gleicher Indikation. Der neue Datensatz K261252
+nennt Eingang am 16. April 2026 und eine weitere SE-Entscheidung am 21. Oktober
+2026 für Versius Plus, aber keine Detailindikation. Suchindextexte zu einer
+Gynäkologie-Erweiterung dienen nur als Recherchehinweis: Die genaue neue
+Indikations-/Kontraindikationsliste wird aus den umgeleiteten nativen Abrufen
+nicht als geprüft übernommen. Die ältere Cholezystektomie-Indikation wird nicht
+als abschließende aktuelle Liste dargestellt. Internationale Fachgebietswerbung,
+Patientenalter und Zulassungsdatum werden nicht zu weltweiter Freigabe,
+allgemeinem Nutzeralter oder ursprünglichem Erscheinungsjahr.
+
+Zusätzlich wurde der tatsächlich abrufbare FDA-Korrektureintrag Z-2717-2026
+abgegrenzt: initiiert 9. Juni 2026, veröffentlicht 9. Juli 2026, als offen und
+klassifiziert angezeigt. Betroffen sind genau zwei US-Konsolen V-SS-1020,
+Pratchett 1 Version 62.1, Seriennummern 66495 und 66496, mit Vertrieb in Kalifornien.
+Secure Boot war bei der Herstellung nicht aktiviert; die beschriebene Maßnahme
+ist eine Konfigurationskorrektur mit ergänzendem Schreiben vom 8. Juli.
+Dieser Befund wird nicht auf alle Versius-/Plus-Geräte verallgemeinert und ist
+keine vollständige Überwachung sämtlicher Rückrufe oder Ereignisse.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle mit vier Axe-Prüfungen bestehen.
+Build: 3.397 Seiten. Audit: null Fehler, 1.223 Warnungen; eine neue Warnung betrifft
+das unbekannte Plus-Erscheinungsjahr. Beide Modellseiten mit 34 Feldern,
+Leerfeldern, Quellenrollen, strukturierten Daten, Firmenfokus, Merkmalssuche,
+Vergleich und CSV-Exporten sind geprüft. Ein ursprüngliches Modell-Exportziel
+und das Versius-Queueziel haben je 17 Status-Einträge. Reimport: null Ergänzungen,
+32 getrackte Datendateien byteidentisch; Offline-Refresh semantisch idempotent.
+Eigene Browser, Server und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `af7dc21e5c19ac1d7063e84170a3ef58d9ff2243` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige Portfolios, alle USPs und Rang Nr. 1 sind weiterhin unbewiesen.
