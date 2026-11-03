@@ -10479,7 +10479,6 @@ Diese Exportlücken bleiben offen; Produktseiten, Suche, Vergleich und Queue sin
 
 808 Unit-Tests in 64 Dateien, 30 Browserfälle mit zwölf Axe-Prüfungen, 3.429 Build-Seiten, null Audit-Fehler
 und 1.245 Hinweise. Alle USPs, vollständigen Portfolios und eine Marktführerschaft bleiben unbelegt.
-+
 ## Ergänzung 155 – Sanctuary Phoenix, Relay und Ocado Chuck/Chuck+: Hardwarestatus, Liefervolumen und verteilte Traglast (3. November 2026)
 
 Vier bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus Hardware-, Zubehör- oder
@@ -10524,4 +10523,56 @@ separaten Verzeichnis-Modellhinweis stammt; die Markenseite rendert den Firmenfo
 nicht als eigenes Verzeichnisziel. Diese Exportlücke bleibt offen; Produktseiten, Suche, Vergleich und Queue sind geprüft.
 
 808 Unit-Tests in 64 Dateien, 34 Browserfälle mit sechs Axe-Prüfungen, 3.429 Build-Seiten, null Audit-Fehler
+und 1.246 Hinweise. Alle USPs, vollständigen Portfolios und eine Marktführerschaft bleiben unbelegt.
+## Ergänzung 156 – IAM Swift, inVia Picker, MONARCH QUEST 3 und MQM-178 Firejet: Rückzug, Tote-Handling und Softwarestatus (3. November 2026)
+
+Vier bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus Software-, Payload- oder
+Variantenbezeichnungen erzeugt. Die Prüfung umfasst 72 Felder: 27 dokumentiert und 45 nicht dokumentiert.
+Hinzu kommen 20 Merkmalsaussagen, zwei zusätzliche Produktquellenverweise und vier neue Firmenfokusse.
+Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten. 2.374 andere Katalogzeilen, 1.276 frühere
+Feldprüfungen und 158 frühere Firmenfokusse sind unverändert. Gesamt: 2.378 Katalogeinträge,
+1.311 datierte Merkmalssätze, 5.957 Aussagen, 2.833 Produktquellenverweise, 1.280 Feldprüfungen mit
+24.176 Feldern und 162 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen sind 503 technisch teilgeprüft;
+15 bleiben offen. Dauerbeleg: `reports/competitor-batch-156-evidence.json`.
+
+Sechs HTTP-Antworten sind gehasht gesichert und als Text gelesen; alle waren nutzbar, keine Seite fehlte,
+keine war blockiert und es gab kein PDF. Kein Recherchebrowser, keine visuelle Prüfung, OCR oder Medienübernahme.
+Keine Formulare, Konten, Kontaktaufnahme, Nachrichten oder Transaktionen. IAM Swift bleibt als historische
+Mobile-Manipulation- und Goods-to-Person-Plattform dokumentiert. Die unternehmenseigene Historie nennt die
+Umstrukturierung Ende 2021, den Rückzug der gesamten Swift-Flotte vom Markt und den späteren Person-to-Goods-Start
+2023 mit Bolt-AMR-Basis, Meet-Me-Software und Lumabot. Diese aktuellen Produkte werden nicht zu Swift umgedeutet;
+Preis, Masse, Maße, Nutzlast, Geschwindigkeit, Laufzeit, Erscheinungsjahr, IP-Schutz und Navigationsgenauigkeit
+bleiben offen.
+
+inVia Picker ist ein kompakter autonomer Goods-to-Person-AMR mit 136 lb beziehungsweise 61,7 kg Masse,
+25,5 Zoll Höhe und 26,1 Zoll Breite ohne veröffentlichte Tiefe, bis zu 40 lb beziehungsweise 18 kg Nutzlast,
+einem Nutzlastraum von 14 x 15 x 24 Zoll, bis zu 8 ft Reichweite und 5 mph beziehungsweise 8 km/h
+Höchstgeschwindigkeit. Ein ausfahrbarer Lift und industrielle Saugnäpfe bewegen Totes; Maschinensicht mit
+Fiducial-Aufklebern lokalisiert den Bestand. Ein wechselbarer 10-Stunden-Akku und optionales Selbstladen stützen
+den Betrieb. inVia verkauft die Automatisierung als RaaS und nennt 5x Produktivität sowie 1.000 UPH PickerWall;
+das sind Unternehmensangaben. PickerWall ist ein eigener Workflow, kein weiteres Picker-Modell. Numerischer Preis,
+Tiefe, Ladedauer, IP-Schutz und Navigationsgenauigkeit bleiben offen.
+
+MONARCH Platform ist eine kliniker-kontrollierte roboterassistierte Bronchoskopieplattform. Die Ankündigung vom
+17. August 2026 beschreibt MONARCH QUEST 3 als Software-Update mit KI-gestützter Nodulsegmentierung, verbesserter
+Registrierung und Navigation, 3D-Compass-Overlay, kontinuierlicher Visualisierung, Navigation und Biopsie unter direkter
+Sicht sowie Korrektur der CT-zu-Körper-Verschiebung. QUEST 3 ist kein neues physisches Robotermodell; die Steuerung
+bleibt beim Kliniker. Numerischer Preis, Masse, Maße, Nutzlast, Geschwindigkeit, Laufzeit, Ladedauer, Erscheinungsjahr
+und IP-Schutz der Plattform bleiben offen; unabhängige klinische Ergebnisse werden nicht behauptet.
+
+MQM-178 Firejet ist ein strahlgetriebenes Luftziel für Boden-Luft- und Luft-Luft-Waffentraining. Kratos nennt
+0,69 Mach Höchstgeschwindigkeit, 35.000 ft beziehungsweise 10.670 m Dienstgipfelhöhe, 20 ft beziehungsweise 6 m
+Tiefflug, -2g bis 9g Kurven, 70 lb beziehungsweise 32 kg interne Nutzlast, 20 lb beziehungsweise 9 kg je
+Flügelspitze und 35 lb beziehungsweise 15,9 kg je Flügelstation. Die Zelle ist 10,8 ft beziehungsweise 3,3 m lang,
+2 ft beziehungsweise 0,6 m hoch und 6,2 ft beziehungsweise 1,9 m breit; Trockenmasse 130 lb beziehungsweise 59 kg,
+maximales Startgewicht 320 lb beziehungsweise 145 kg. Pneumatischer Start von Land oder Schiff, manueller oder
+vorprogrammierter Flug und Fallschirmbergung sind dokumentiert; erste Vorstellung 2011. Numerischer Preis,
+Batterieausdauer, IP-Schutz und Navigationsgenauigkeit bleiben offen.
+
+Der Model-Review-CSV-Export enthält inVia Picker nicht, weil die Zeile aus einer Listing-Auflösung und nicht aus einem
+Verzeichnis-Modellhinweis stammt. Die Firmenfokusse von Johnson & Johnson MedTech und Kratos erscheinen nicht im
+Firmen-Review-CSV, weil ihre Marken synthetische Katalogmarken ohne eigenen Verzeichniseintrag sind; die Markenseiten
+rendern sie dennoch. Diese Exportlücken bleiben offen; Produktseiten, Suche, Vergleich und Queue sind geprüft.
+
+808 Unit-Tests in 64 Dateien, 38 Browserfälle mit acht Axe-Prüfungen, 3.429 Build-Seiten, null Audit-Fehler
 und 1.246 Hinweise. Alle USPs, vollständigen Portfolios und eine Marktführerschaft bleiben unbelegt.

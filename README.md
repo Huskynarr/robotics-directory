@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 499 and 19 still awaiting those reviews.
+selected technical-field reviews for 503 and 15 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -448,6 +448,22 @@ Chuck is a 69.9 kg warehouse AMR with 97.5 kg base capacity, 45.4 kg per shelf, 
 to 12 hours of operation and indoor floor limits; Chuck+ adds a 5.4 kg width extender,
 8.8 kg shelves and 75 x 91 cm shelf dimensions. Ocado publishes no numeric price,
 speed or IP rating, and staff still pick the items.
+
+IAM Robotics Swift, inVia Robotics inVia Picker, Johnson & Johnson MedTech
+MONARCH Platform and Kratos MQM-178 Firejet now have selected field reviews.
+Swift is retained as a historical mobile-manipulation and goods-to-person platform;
+company-hosted history says IAM pulled the entire Swift fleet from the market after
+a late-2021 restructuring and later launched a person-to-goods solution with the Bolt
+AMR base, Meet Me software and Lumabot robot. inVia Picker is a compact autonomous
+goods-to-person AMR with a 136 lb mass, up to 40 lb payload, 5 mph speed, an
+extendable lift, industrial suction cups, fiducial-based vision and a hot-swappable
+10-hour battery. MONARCH Platform is a clinician-controlled robotically assisted
+bronchoscopy platform; QUEST 3 is a 2026 software update adding AI-powered nodule
+segmentation, registration/navigation enhancements and a 3D Compass overlay, not a new
+physical robot. MQM-178 Firejet is a jet-powered aerial target with 0.69 Mach speed,
+a 35,000 ft MSL ceiling, 70 lb internal payload, 130 lb dry weight, 320 lb maximum
+launch weight, pneumatic land or ship launch and parachute recovery. Kratos publishes
+no numeric price, battery endurance, IP rating or navigation accuracy.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1314,20 +1330,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,104 fields across 1276 models, distinguishing documented, undisclosed, conflicting and
+24,176 fields across 1280 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,533 kB JSON response loads only for search or comparison;
+A separate 6,547 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,937 reviewed highlight statements as well as
+Catalog search now includes all 5,957 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
