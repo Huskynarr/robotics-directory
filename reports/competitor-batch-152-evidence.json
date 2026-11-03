@@ -1,0 +1,933 @@
+{
+  "batch": 152,
+  "checkedAt": "2026-11-03",
+  "manufacturers": [
+    "Tesla",
+    "Misty Robotics",
+    "Intuition Robotics"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 3,
+  "newSpecificationReviews": 3,
+  "selectedFields": 49,
+  "fieldStatuses": {
+    "not-documented": 35,
+    "documented": 14
+  },
+  "newCompanyFocusReviews": 3,
+  "existingCompanyFocusReviewsUpdated": 0,
+  "newHighlightStatements": 15,
+  "extraProductSourceReferences": 3,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Three existing catalog rows reviewed. Tesla Optimus remains one humanoid program, Misty II one educational robot and ElliQ 3 one companion generation; software versions, system names and partner listings are not inflated into new robot models.",
+  "totalProductHighlightRecords": 1311,
+  "totalHighlightStatements": 5886,
+  "totalProductSourceReferences": 2817,
+  "pendingPortfolioLeads": [
+    {
+      "name": "Tesla Optimus independent production, delivery and performance verification",
+      "scope": "The April 2026 investor update describes factory preparation and planned annual capacity of 1 and 10 million robots; no delivered fleet, customer availability, price, mass, payload, speed, runtime or independent performance result is published.",
+      "source": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf"
+    },
+    {
+      "name": "Misty II current availability, runtime, payload and independent performance",
+      "scope": "Manufacturer documentation supplies body dimensions, 2.7 kg mass, processors, sensors, 3-DOF neck, tracked drive and a hazard-limited 450 mm/s speed; current stock, price, battery runtime, payload rating, IP rating and independent performance remain open.",
+      "source": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/"
+    },
+    {
+      "name": "ElliQ 3 numeric price, mass, dimensions and independent clinical outcomes",
+      "scope": "The January 2024 announcement gives a 36% smaller footprint, lighter body, integrated screen and MediaTek SoC but no numeric price, mass, dimensions or battery runtime; loneliness, health and social-connection outcomes are company-reported, not independent clinical certification.",
+      "source": "https://www.intuitionrobotics.com/post/new-year-new-elliq"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+      "finalUrl": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+      "status": 200,
+      "checkedAt": "2026-11-03T13:05:59.253222+00:00",
+      "bodyFile": "source-1.pdf",
+      "bodySha256": "6d534226b8a6daef2f47588d7215c72500fbc7ac422c00f6ab5563d962fe9ad6",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "application/pdf"
+    },
+    {
+      "id": 2,
+      "url": "https://elliq.com/",
+      "finalUrl": "https://elliq.com/",
+      "status": 429,
+      "checkedAt": "2026-11-03T13:05:59.414292+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "fa2dd01ed96d38758e89e354653c39f366bc7a34e485772c8aa2174b53a465d3",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/plain"
+    },
+    {
+      "id": 3,
+      "url": "https://www.tesla.com/optimus",
+      "finalUrl": "https://www.tesla.com/optimus",
+      "status": 403,
+      "checkedAt": "2026-11-03T13:06:26.236090+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "d96400ae981e7093e0611db5b0c4f045627db1bc8b1077252f3c81402b42d610",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html"
+    },
+    {
+      "id": 4,
+      "url": "https://www.intuitionrobotics.com/post/new-year-new-elliq",
+      "finalUrl": "https://www.intuitionrobotics.com/post/new-year-new-elliq",
+      "status": 200,
+      "checkedAt": "2026-11-03T13:06:38.961723+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "f9e84675d8ef7f69a100c81e77886e087c42edd12234f4b7e9bcb96f24f0c77f",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 5,
+      "url": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/",
+      "finalUrl": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/",
+      "status": 200,
+      "checkedAt": "2026-11-03T13:06:39.240789+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "52412a5d3d0b05d4ac8550cd3c0eaeafe6afcceb62e785d7fbe00cf0dc80d497",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 6,
+      "url": "https://www.mistyrobotics.com/",
+      "finalUrl": "https://www.mistyrobotics.com/",
+      "status": 200,
+      "checkedAt": "2026-11-03T13:06:39.519356+00:00",
+      "bodyFile": "source-6.html",
+      "bodySha256": "aa2ca6375a0c6251dee12bd8abdb6ba9abcbe359ede06cefe8710e25e77a662c",
+      "textFile": "source-6.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 7,
+      "url": "https://www.intuitionrobotics.com/",
+      "finalUrl": "https://www.intuitionrobotics.com/",
+      "status": 200,
+      "checkedAt": "2026-11-03T13:07:18.312972+00:00",
+      "bodyFile": "source-7.html",
+      "bodySha256": "999fb14825cd39409fb2781bc612163ccf68e1ae8520ecfe90fd78182ee8be19",
+      "textFile": "source-7.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 8,
+      "url": "https://www.intuitionrobotics.com/elliq",
+      "finalUrl": "https://www.intuitionrobotics.com/elliq",
+      "status": 404,
+      "checkedAt": "2026-11-03T13:07:18.540842+00:00",
+      "bodyFile": "source-8.html",
+      "bodySha256": "9d4165052d6afdaeac8d58ec2a99136143f171f0bf1e15d7a0000978e5004707",
+      "textFile": "source-8.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 9,
+      "url": "https://docs.mistyrobotics.com/misty-ii/robot/hardware-extensibility/",
+      "finalUrl": "https://docs.mistyrobotics.com/misty-ii/robot/hardware-extensibility/",
+      "status": 200,
+      "checkedAt": "2026-11-03T13:08:51.354287+00:00",
+      "bodyFile": "source-9.html",
+      "bodySha256": "733ff01157538cca99d24f8f1a3a265301ccf5eef2ea83a3a7a7e563feaa9d7e",
+      "textFile": "source-9.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 10,
+      "url": "https://ir.tesla.com/",
+      "finalUrl": "https://ir.tesla.com/",
+      "status": 403,
+      "checkedAt": "2026-11-03T13:15:10.892331+00:00",
+      "bodyFile": "source-10.html",
+      "bodySha256": "594b64942c0873aab6912f6e38a81d593f51243934ae7318b044cc903316091f",
+      "textFile": "source-10.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "tesla-optimus",
+      "manufacturer": "Tesla",
+      "model": "Optimus",
+      "category": "humanoid",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+        "description": "Optimus is Tesla's humanoid robot program. Tesla's April 2026 investor update says preparations for the first large-scale Optimus factory begin shortly in Q2 2026. The first-generation line, designed for 1 million robots a year, will replace the Model S and Model X lines in Fremont; Gigafactory Texas is being prepared for a second-generation line designed for long-term annual production capacity of 10 million robots. The factory-capacity table lists Optimus facilities in California and Texas with construction status. Tesla describes progress ahead of mass production, but the update publishes no price, mass, payload, speed, battery runtime, delivered fleet or independent performance result.",
+        "releaseDate": "",
+        "driveMode": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "driveMode": "not-documented"
+      },
+      "notes": {
+        "price": "No numeric price is published in the April 2026 investor update; the existing prototype-stage label is not a sale price.",
+        "weight": "No mass is published. The existing 57 kg catalog value is not supported by the reviewed update.",
+        "size": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "batteryLife": "No battery capacity or endurance is published; the existing 2.3 kWh value is not supported by the reviewed update.",
+        "maxRuntime": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "handType": "No hand, end-effector or gripper type is published.",
+        "dof": "No degrees-of-freedom count is published; the existing 28 value is not supported by the reviewed update.",
+        "payload": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "speed": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "terrain": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "ipRating": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "ageRange": "Not applicable or not published for a humanoid robot.",
+        "website": "Manufacturer investor update; the product site returned HTTP 403 and was not used as evidence.",
+        "description": "Company-authored investor update; production plans and construction status are not delivered units, customer availability, retail prices or independent performance tests.",
+        "releaseDate": "The reviewed update gives no launch or first-delivery date; production is described as forthcoming.",
+        "driveMode": "The update calls Optimus a humanoid robot but publishes no leg, wheel or drive architecture."
+      },
+      "sources": [
+        {
+          "name": "Tesla — April 2026 investor update",
+          "type": "manufacturer",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "Tesla humanoid robotics program; April 2026 investor update describes preparations for scaled production",
+        "The April 2026 factory-capacity table lists Optimus facilities as under construction, rather than evidence of retail availability",
+        "Tesla's April 2026 investor update says preparations for the first large-scale Optimus factory will begin shortly in Q2.",
+        "The first-generation Optimus line is described as designed for 1 million robots a year and as replacing the Model S and Model X lines in Fremont.",
+        "Gigafactory Texas is being prepared for a second-generation line designed for long-term annual production capacity of 10 million robots.",
+        "The factory-capacity table lists Optimus facilities in California and Texas with construction status; construction includes factory and infrastructure buildout and tool installation.",
+        "The update says Optimus is progressing ahead of mass production. It publishes no price, mass, payload, speed, battery runtime or delivered fleet."
+      ]
+    },
+    {
+      "robotId": "misty-robotics-misty-ii",
+      "manufacturer": "Misty Robotics",
+      "model": "Misty II",
+      "category": "educational",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "2.7 kg",
+        "size": "35.56 cm high × 25.4 cm deep × 20.32 cm wide (14 × 10 × 8 in)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "Customizable moving arms; no end-effector or gripper specified",
+        "dof": "Patent-pending 3-degree-of-freedom neck",
+        "payload": "",
+        "speed": "About 450 mm/s maximum, limited by the hazard system",
+        "terrain": "Indoor floor or tabletop use; hazard system detects drops of 60 mm or more",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/",
+        "description": "Misty II is Misty Robotics' programmable social robot for education and research. Manufacturer documentation lists a 35.56 cm height, 25.4 cm depth, 20.32 cm width and 2.7 kg mass, Qualcomm Snapdragon 820 and 410 processors, an Occipital Structure Core depth sensor, a 4K camera, Snapdragon neural processing, eight IR time-of-flight sensors, ten bump sensors, a 4-inch LCD and a patent-pending 3-degree-of-freedom neck with customizable moving arms. The tracked drive has a trailer hitch, and the hazard system detects drops of 60 mm or more and limits speed to about 450 mm/s. USB/UART expansion and an optional Arduino-compatible backpack support external hardware. The docs publish no battery runtime, payload rating, IP rating or current availability.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Tracked drive with a 3-degree-of-freedom neck and moving arms"
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "documented",
+        "dof": "documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "driveMode": "documented"
+      },
+      "notes": {
+        "price": "No numeric price is published in the reviewed manufacturer documentation; the existing approximate $3,000 value is not supported.",
+        "weight": "Manufacturer specification for Misty II body mass (2.7 kg; 6 lb equivalent); not a payload rating.",
+        "size": "Manufacturer specification for the Misty II body; not a complete shipping or operating envelope.",
+        "batteryLife": "The docs say Misty arrives charged and powers down below about 7 volts but publish no battery capacity or runtime.",
+        "maxRuntime": "No one-charge runtime is published.",
+        "handType": "Manufacturer description of moving arms; no manipulator hand, gripper or payload interface is specified.",
+        "dof": "Manufacturer specification for the neck only; not a whole-robot or arm degrees-of-freedom count.",
+        "payload": "A trailer hitch can pull a payload, but no numeric payload rating is published.",
+        "speed": "Manufacturer safety limit for the hazard system; not an unrestricted or measured top speed.",
+        "terrain": "Manufacturer operating guidance and drop-detection threshold; not an IP, slope or outdoor rating.",
+        "ipRating": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "ageRange": "No numeric age range is published; the homepage describes use by students, special education and research.",
+        "website": "Manufacturer Misty II overview and specifications.",
+        "description": "Manufacturer overview, specifications and hardware-extensibility pages; no independent performance test, current stock or delivered-fleet evidence.",
+        "releaseDate": "The reviewed manufacturer pages publish no launch or release date.",
+        "chargingTime": "Wireless and wired charging are described, but no charge duration is published.",
+        "driveMode": "Manufacturer description; the trailer hitch is an accessory mounting point, not a towing rating."
+      },
+      "sources": [
+        {
+          "name": "Misty Robotics — Misty II overview and specifications",
+          "type": "manufacturer",
+          "url": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Misty Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.mistyrobotics.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Misty Robotics — hardware extensibility documentation",
+          "type": "manufacturer",
+          "url": "https://docs.mistyrobotics.com/misty-ii/robot/hardware-extensibility/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "Depth camera, time-of-flight sensors and bump sensors support environment perception",
+        "A three-axis neck, moving arms, tracked drive and LCD support physical interaction",
+        "Local Wi-Fi APIs and USB/serial expansion support programmable skills and external hardware",
+        "Manufacturer documentation lists Misty II at 35.56 cm height, 25.4 cm depth, 20.32 cm width and 2.7 kg mass.",
+        "The robot uses Qualcomm Snapdragon 820 and 410 processors, an Occipital Structure Core depth sensor, a 4K camera and Snapdragon neural processing for face and object recognition.",
+        "A patent-pending 3-degree-of-freedom neck, customizable moving arms, tracked drive and a trailer hitch support physical interaction and payload pulling.",
+        "The hazard system uses eight IR time-of-flight sensors and ten bump sensors, detects drops of 60 mm or more and limits maximum speed to about 450 mm/s.",
+        "USB/UART expansion and an optional Arduino-compatible backpack support external hardware. No battery runtime, payload rating or IP rating is published."
+      ]
+    },
+    {
+      "robotId": "intuition-robotics-elliq-3",
+      "manufacturer": "Intuition Robotics",
+      "model": "ElliQ 3",
+      "category": "companion",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.intuitionrobotics.com/",
+        "description": "ElliQ is Intuition Robotics' AI care companion for older adults. The manufacturer describes a stationary device with an integrated screen, proactive conversation, shared activities and a Relationship Orchestrator that combines multiple LLMs with context, memory, goals and real-time guardrails. The January 9, 2024 announcement identifies ElliQ 3 as a lighter hardware generation with a 36% smaller footprint, a fully integrated screen and a MediaTek octa-core plus AI chip SoC. It says the generative-AI software upgrade is compatible with all ElliQ hardware versions, while ElliQ 3 hardware was expected in spring 2024. The company reports loneliness, health and social-connection outcomes and describes a leased membership service; the reviewed pages publish no numeric price, mass, dimensions, battery runtime or independent clinical certification.",
+        "releaseDate": "2024",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "ElliQ is supplied through a leased membership service; the reviewed manufacturer pages publish no numeric price or complete plan cost.",
+        "weight": "The January 2024 announcement says the hardware is lighter but publishes no mass.",
+        "size": "The announcement says the footprint is 36% smaller but publishes no dimensions.",
+        "batteryLife": "ElliQ is described as a stationary home device; no battery endurance is published.",
+        "maxRuntime": "Not applicable to a stationary companion device; no battery runtime is published.",
+        "handType": "Not applicable; no manipulator hand is published.",
+        "dof": "Not applicable; no articulated degrees of freedom are published.",
+        "payload": "Not applicable; no payload rating is published.",
+        "speed": "Not applicable; no drive or movement speed is published.",
+        "terrain": "Indoor home and care settings are described, but no surface, slope or environmental rating is published.",
+        "ipRating": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "ageRange": "No numeric age range is published; the manufacturer markets ElliQ to older adults.",
+        "website": "Manufacturer company page with ElliQ product description; the elliq.com product domain returned HTTP 429 and was not used as evidence.",
+        "description": "Manufacturer announcement and company page; company-reported outcomes are not independent clinical trials, and no numeric price, dimensions or safety certification is established.",
+        "releaseDate": "ElliQ 3 was unveiled on January 9, 2024, with hardware expected in spring 2024; the announcement does not give a shipping date for every market.",
+        "chargingTime": "Not applicable to a stationary device; no charging duration is published."
+      },
+      "sources": [
+        {
+          "name": "Intuition Robotics — January 9, 2024 ElliQ 3 announcement",
+          "type": "manufacturer",
+          "url": "https://www.intuitionrobotics.com/post/new-year-new-elliq",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Intuition Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.intuitionrobotics.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Intuition Robotics",
+          "type": "manufacturer",
+          "url": "https://elliq.com/products/membership",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "highlights": [
+        "Third-generation stationary companion integrates its display into the device",
+        "Manufacturer launch announcement describes a smaller footprint and an octa-core plus AI processor",
+        "Proactive conversation and shared activities are delivered through a leased membership service",
+        "The January 9, 2024 manufacturer announcement identifies ElliQ 3 and describes a lighter body with a 36% smaller footprint and a fully integrated screen.",
+        "ElliQ 3 uses an octa-core plus AI chip SoC powered by MediaTek, according to the manufacturer.",
+        "The announcement says generative AI and the Relationship Orchestration Engine combine LLM conversation with context, memory, goals and real-time guardrails.",
+        "Every ElliQ user is described as receiving the upgraded software, compatible with all versions of ElliQ hardware, while ElliQ 3 hardware was expected in spring 2024.",
+        "The company describes a leased membership service and reports loneliness, health and social-connection outcomes. No numeric price, mass, dimensions, battery runtime or independent clinical certification is published."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "tesla-optimus",
+      "before": {
+        "category": "humanoid",
+        "manufacturer": "Tesla",
+        "model": "Optimus",
+        "price": "Prototype stage",
+        "weight": "57 kg",
+        "size": "large",
+        "batteryLife": "10-12 hours",
+        "maxRuntime": "",
+        "tags": "ai-powered;prototype",
+        "handType": "manipulator",
+        "dof": "28",
+        "payload": "20 kg",
+        "speed": "5 km/h",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.tesla.com/",
+        "image": "images/humanoid/tesla-optimus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "2.3 kWh battery, AI-powered",
+        "releaseDate": "2022",
+        "chargingTime": "",
+        "armReach": "",
+        "driveMode": ""
+      },
+      "after": {
+        "category": "humanoid",
+        "manufacturer": "Tesla",
+        "model": "Optimus",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "ai-powered;prototype",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+        "image": "images/humanoid/tesla-optimus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Optimus is Tesla's humanoid robot program. Tesla's April 2026 investor update says preparations for the first large-scale Optimus factory begin shortly in Q2 2026. The first-generation line, designed for 1 million robots a year, will replace the Model S and Model X lines in Fremont; Gigafactory Texas is being prepared for a second-generation line designed for long-term annual production capacity of 10 million robots. The factory-capacity table lists Optimus facilities in California and Texas with construction status. Tesla describes progress ahead of mass production, but the update publishes no price, mass, payload, speed, battery runtime, delivered fleet or independent performance result.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "",
+        "driveMode": ""
+      }
+    },
+    {
+      "robotId": "misty-robotics-misty-ii",
+      "before": {
+        "category": "educational",
+        "manufacturer": "Misty Robotics",
+        "model": "Misty II",
+        "price": "~3000 USD",
+        "weight": "~6 kg",
+        "size": "small",
+        "batteryLife": "~4 hours",
+        "maxRuntime": "240 min",
+        "tags": "ai-powered;app-control;educational;facial-recognition;programmable;voice-control;wifi",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "18-99",
+        "website": "https://www.mistyrobotics.com/",
+        "image": "images/table/misty-robotics-misty-ii.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Programmable, sensors, facial recognition",
+        "releaseDate": "2018",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "after": {
+        "category": "educational",
+        "manufacturer": "Misty Robotics",
+        "model": "Misty II",
+        "price": "",
+        "weight": "2.7 kg",
+        "size": "35.56 cm high × 25.4 cm deep × 20.32 cm wide (14 × 10 × 8 in)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "ai-powered;app-control;educational;facial-recognition;programmable;voice-control;wifi",
+        "handType": "Customizable moving arms; no end-effector or gripper specified",
+        "dof": "Patent-pending 3-degree-of-freedom neck",
+        "payload": "",
+        "speed": "About 450 mm/s maximum, limited by the hazard system",
+        "terrain": "Indoor floor or tabletop use; hazard system detects drops of 60 mm or more",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/",
+        "image": "images/table/misty-robotics-misty-ii.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Misty II is Misty Robotics' programmable social robot for education and research. Manufacturer documentation lists a 35.56 cm height, 25.4 cm depth, 20.32 cm width and 2.7 kg mass, Qualcomm Snapdragon 820 and 410 processors, an Occipital Structure Core depth sensor, a 4K camera, Snapdragon neural processing, eight IR time-of-flight sensors, ten bump sensors, a 4-inch LCD and a patent-pending 3-degree-of-freedom neck with customizable moving arms. The tracked drive has a trailer hitch, and the hazard system detects drops of 60 mm or more and limits speed to about 450 mm/s. USB/UART expansion and an optional Arduino-compatible backpack support external hardware. The docs publish no battery runtime, payload rating, IP rating or current availability.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Tracked drive with a 3-degree-of-freedom neck and moving arms"
+      }
+    },
+    {
+      "robotId": "intuition-robotics-elliq-3",
+      "before": {
+        "category": "companion",
+        "manufacturer": "Intuition Robotics",
+        "model": "ElliQ 3",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "small",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "consumer;companion;emotional-support;ai-powered;voice-control;personal-assistant",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://elliq.com/",
+        "image": "images/companion/intuition-robotics-elliq-3.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Stationary companion platform with integrated display, proactive conversation and shared activities; supplied through a leased membership service with plan-dependent fees.",
+        "releaseDate": "2024",
+        "chargingTime": ""
+      },
+      "after": {
+        "category": "companion",
+        "manufacturer": "Intuition Robotics",
+        "model": "ElliQ 3",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "consumer;companion;emotional-support;ai-powered;voice-control;personal-assistant",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.intuitionrobotics.com/",
+        "image": "images/companion/intuition-robotics-elliq-3.webp",
+        "video": "",
+        "gallery": "",
+        "description": "ElliQ is Intuition Robotics' AI care companion for older adults. The manufacturer describes a stationary device with an integrated screen, proactive conversation, shared activities and a Relationship Orchestrator that combines multiple LLMs with context, memory, goals and real-time guardrails. The January 9, 2024 announcement identifies ElliQ 3 as a lighter hardware generation with a 36% smaller footprint, a fully integrated screen and a MediaTek octa-core plus AI chip SoC. It says the generative-AI software upgrade is compatible with all ElliQ hardware versions, while ElliQ 3 hardware was expected in spring 2024. The company reports loneliness, health and social-connection outcomes and describes a leased membership service; the reviewed pages publish no numeric price, mass, dimensions, battery runtime or independent clinical certification.",
+        "releaseDate": "2024",
+        "chargingTime": ""
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "tesla",
+      "name": "Tesla",
+      "role": "Electric vehicle, energy and humanoid robot manufacturer",
+      "website": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+      "checkedAt": "2026-11-03",
+      "highlights": [
+        "Tesla's April 2026 investor update says it is preparing the first large-scale Optimus factory in Q2, with a first-generation line designed for 1 million robots a year.",
+        "The first-generation line is to replace Model S and Model X lines in Fremont; Texas is being prepared for a second-generation line with long-term annual capacity of 10 million robots.",
+        "The factory-capacity table lists Optimus California and Texas as construction, with construction covering factory and infrastructure buildout and tool installation.",
+        "Tesla says progress on Optimus is ahead of mass production; this is a company production plan, not delivered units, customer availability, price or independent performance.",
+        "The same update covers Robotaxi and FSD; those are separate from the Optimus humanoid program and do not establish humanoid autonomy or safety certification."
+      ],
+      "sources": [
+        {
+          "name": "Tesla — April 2026 investor update",
+          "type": "manufacturer",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-152/source-1.pdf",
+      "reviewNotes": "Batch152. Native Tesla April 2026 investor update read as text only; no research browser, visual inspection, OCR or media reuse. Production plans, factory construction and capacity targets are qualified; no delivered Optimus fleet, retail price, hardware specification, independent performance or complete portfolio is inferred."
+    },
+    {
+      "brandId": "intuition-robotics",
+      "name": "Intuition Robotics",
+      "role": "AI care companion developer",
+      "website": "https://www.intuitionrobotics.com/",
+      "checkedAt": "2026-11-03",
+      "highlights": [
+        "Intuition Robotics describes ElliQ as an AI care companion for older adults and reports 95% loneliness reduction, 90% health and wellness improvement and 79% social-connectedness improvement. These are company-reported outcomes, not independent clinical trials.",
+        "The Relationship Orchestrator combines multiple LLMs with context, memory, multimodality, goals, personalization and proactive interaction, according to the manufacturer.",
+        "The January 2024 announcement says ElliQ 3 has a lighter body, 36% smaller footprint, integrated screen and MediaTek octa-core plus AI SoC.",
+        "The company says the generative-AI software upgrade is compatible with all ElliQ hardware versions; ElliQ 3 hardware was expected in spring 2024.",
+        "ElliQ is supplied through a leased membership service; the reviewed pages publish no numeric price, mass, dimensions, battery runtime or independent safety/clinical certification."
+      ],
+      "sources": [
+        {
+          "name": "Intuition Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.intuitionrobotics.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Intuition Robotics — January 9, 2024 ElliQ 3 announcement",
+          "type": "manufacturer",
+          "url": "https://www.intuitionrobotics.com/post/new-year-new-elliq",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-152/source-4.html",
+      "reviewNotes": "Batch152. Native Intuition Robotics company and January 2024 announcement pages read as text only; no research browser, visual inspection, OCR or media reuse. Company-reported outcomes, generative-AI capabilities, compatibility and leased membership are qualified; no independent clinical trial, numeric price, complete portfolio or universal USP is inferred."
+    },
+    {
+      "brandId": "misty-robotics",
+      "name": "Misty Robotics",
+      "role": "Educational and research robot developer",
+      "website": "https://www.mistyrobotics.com/",
+      "checkedAt": "2026-11-03",
+      "highlights": [
+        "Misty Robotics describes Misty II as a programmable social robot for education and research, with HTTP APIs, web sockets and block, Python and .NET tooling.",
+        "Manufacturer documentation lists a 35.56 × 25.4 × 20.32 cm body at 2.7 kg, Qualcomm Snapdragon 820 and 410 processors and an Occipital Structure Core depth sensor.",
+        "The robot has a 3-degree-of-freedom neck, moving arms, tracked drive, a trailer hitch, eight IR time-of-flight sensors, ten bump sensors and a 4-inch LCD.",
+        "The hazard system detects drops of 60 mm or more and limits speed to about 450 mm/s; the docs warn that edge detection can fail on rounded edges or when driving backwards.",
+        "USB/UART expansion and an optional Arduino-compatible backpack support external hardware. The reviewed pages publish no battery runtime, payload rating, IP rating or current availability."
+      ],
+      "sources": [
+        {
+          "name": "Misty Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.mistyrobotics.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Misty Robotics — Misty II overview and specifications",
+          "type": "manufacturer",
+          "url": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Misty Robotics — hardware extensibility documentation",
+          "type": "manufacturer",
+          "url": "https://docs.mistyrobotics.com/misty-ii/robot/hardware-extensibility/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-152/source-5.html",
+      "reviewNotes": "Batch152. Native Misty Robotics homepage and documentation pages read as text only; no research browser, visual inspection, OCR or media reuse. Specifications, hazard limits and extensibility are manufacturer statements; no independent performance test, current availability, complete portfolio or universal USP is inferred."
+    }
+  ],
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 30,
+    "axeCases": 12,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1243,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 10,
+      "successfulResponses": 6,
+      "usableResponses": 6,
+      "sha256VerifiedResponses": 10,
+      "nativeHtmlResponses": 5,
+      "pdfDocuments": 1,
+      "pdfPages": 35,
+      "pdfSources": [
+        {
+          "sourceId": 1,
+          "pages": 35
+        }
+      ],
+      "notFoundExcluded": [
+        "https://www.intuitionrobotics.com/elliq"
+      ],
+      "blockedResponses": [
+        "https://elliq.com/",
+        "https://www.tesla.com/optimus",
+        "https://ir.tesla.com/"
+      ],
+      "inspection": "Native HTML and one issuer PDF read as text only; no research browser, visual inspection, OCR or media reuse. No login, forms, contact, messages or transactions."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 4,
+          "selector": "main",
+          "textSha256": "2c3c425d05b08f6a6580508cc6e04a6c7d094c3d67a243618859944237f8a281"
+        },
+        {
+          "sourceId": 5,
+          "selector": "body",
+          "textSha256": "304a47c558c8ba795824d9cdb74869855c3df23eaacd97417206effe3073fd65"
+        },
+        {
+          "sourceId": 6,
+          "selector": "main",
+          "textSha256": "81aecb1ebf5a638e0b04cbdcef4d050e9a09bb1655f5ce948b3d531735a0bbe4"
+        },
+        {
+          "sourceId": 7,
+          "selector": "main",
+          "textSha256": "167c2396a292f1f04f553b0ad8d167255e017b255693ea7d26f97bd4a5deba1e"
+        },
+        {
+          "sourceId": 9,
+          "selector": "body",
+          "textSha256": "6f65ded750375fa5e00be6327d79016367eb4b69cf53391838d8bc586b538f05"
+        }
+      ],
+      "versionScopes": "Tesla Optimus is the humanoid program represented by the April 2026 investor update; no separate generation is created. Misty II and ElliQ 3 are the named hardware generations; Misty software and ElliQ software versions are not collapsed into new robot models.",
+      "priceScopes": "No reviewed source publishes a numeric Optimus price. Misty II and ElliQ 3 prices are not established by the reviewed manufacturer text; ElliQ is supplied through a plan-dependent leased membership.",
+      "weightScopes": "Misty II body mass is 2.7 kg. Tesla Optimus and ElliQ 3 publish no mass in the reviewed text; “lighter” is comparative, not a mass value.",
+      "sizeScopes": "Misty II is 35.56 cm high, 25.4 cm deep and 20.32 cm wide. ElliQ 3 is described as having a 36% smaller footprint without dimensions. Optimus publishes no dimensions.",
+      "payloadScopes": "No numeric payload is published for Tesla Optimus. Misty’s trailer hitch can pull a payload but no rating is given. ElliQ has no payload role.",
+      "speedScopes": "Misty II maximum speed is about 450 mm/s, limited by the hazard system. Optimus and ElliQ publish no numeric speed.",
+      "autonomyScopes": "Tesla describes factory preparation and production targets, not delivered autonomous robots. Misty’s hazard system is a local safety behaviour with documented edge-detection limits. ElliQ’s proactive conversation and guardrails are manufacturer software descriptions, not independent clinical or safety certification.",
+      "listingScopes": "The buyandrentrobots listings and roboticsdir mentions identify products and families; they do not establish prices, current stock or delivered fleet counts.",
+      "goalComplete": false
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "selectedCatalogRows": 3,
+      "priorSpecificationReviewsUnchanged": 1263,
+      "priorCompanyFocusReviewsUnchanged": 147,
+      "newSpecificationReviews": 3,
+      "selectedFields": 49,
+      "selectedFieldStatuses": {
+        "not-documented": 35,
+        "documented": 14
+      },
+      "allFieldStatuses": {
+        "not-documented": 14718,
+        "documented": 8789,
+        "conflicting": 316,
+        "roadmap": 108
+      },
+      "sourceIdentityFilesByteIdentical": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-product-reviews.json"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 490,
+        "withoutSelectedFieldReview": 28,
+        "selectedFields": 9001,
+        "selectedFieldStatuses": {
+          "documented": 3587,
+          "not-documented": 5209,
+          "conflicting": 187,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 143,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      }
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPagesChecked": 3,
+      "selectedSpecificationFieldsChecked": 49,
+      "sourceBadgesChecked": 8,
+      "blankFieldsOmitted": 35,
+      "descriptionsChecked": 3,
+      "websitesChecked": 3,
+      "structuredSpecificationPropertiesChecked": 6,
+      "highlightStatementsChecked": 23,
+      "companyFocusPagesChecked": 3,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 3,
+      "modelExportRowsChecked": 2,
+      "modelExportTargetsChecked": 2,
+      "modelExportFieldOccurrencesChecked": 32,
+      "companyProductExportRowsChecked": 1,
+      "companyProductExportTargetsChecked": 1,
+      "companyExportRowsChecked": 3,
+      "researchQueueTargetsChecked": 3,
+      "researchQueueFieldsChecked": 49,
+      "scope": "Three existing catalog records; Tesla Optimus factory plans, Misty II documented hardware and ElliQ 3 generation and software claims; structured data and exports checked."
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "teslaFactoryPlansNotAvailability": true,
+      "mistyHardwareDocumentedWithoutRuntime": true,
+      "elliqGenerationAndSoftwareClaimsSeparated": true,
+      "metricWeightAndDurationFiltersChecked": true,
+      "productHighlightRecords": 1311,
+      "individualHighlights": 5886,
+      "productSourceReferences": 2817,
+      "specificationReviewModels": 1266,
+      "specificationFields": 23931,
+      "publicJsonBytes": 6493744,
+      "catalogScriptBytes": 2685325,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T13:17:09Z",
+            "after": "2026-11-03T13:36:52Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T13:17:08.577Z",
+            "after": "2026-11-03T13:36:51.316Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "067e903b66c5cee6cd8c475eab379b61f2a764d0e8b07bd6e573e5d86714f1ed",
+            "after": "39ac8ba76f1f936dcf74544f21c55a1068b2c633dcadd6c8f23379363b54700b"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T13:17:08.577Z",
+            "after": "2026-11-03T13:36:51.316Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T13:17:08.577Z",
+            "after": "2026-11-03T13:36:51.316Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 247,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "21e93aa374e6d1553e089d2016313dd9cdc45c49",
+    "dataCommit": "285b48afa455a62ee8d51ae6004a5a2a6cd5841c",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 490,
+    "withoutSelectedFieldReview": 28,
+    "selectedFields": 9001,
+    "selectedFieldStatuses": {
+      "documented": 3587,
+      "not-documented": 5209,
+      "conflicting": 187,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 143,
+    "remainingModelIdentities": 3,
+    "remainingListingIdentities": 9
+  },
+  "remainingProductDetailContentChecks": 856,
+  "goalComplete": false
+}
