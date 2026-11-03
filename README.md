@@ -149,8 +149,8 @@ unclear listings. Of the 430 catalog models matched to named source mentions, al
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
-company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 511 and 7 still awaiting those reviews.
+company-description references: 518 catalog targets have dated highlights, and
+all 518 now have selected technical-field reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -508,6 +508,28 @@ REV-1 is an autonomous three-wheel delivery robot with approximately 150 lb mass
 cargo compartment (~six grocery bags) that operated a ten-robot Austin delivery
 pilot announced in June 2021. No numeric price, payload, IP rating or navigation
 accuracy is published for ROAMEO, 3PRO or REV-1.
+
+All 518 reviewed reference targets now have selected field reviews. Sarcos Robotics
+Guardian XO, Skyline Robotics Ozmo, Stryker Mako 4, Syrebo SY-HR08E, Tailos
+Rosie, Tokinomo Shelfobot and Zimmer Biomet ROSA Knee with OptimiZe complete
+this set. The Guardian XO is a full-body powered exoskeleton with up to 200 lb
+(90 kg) lift and manipulation capacity, 24 degrees of freedom, hot-swappable
+batteries and an XO Pod; Sarcos suspended hardware commercialization on
+November 14, 2023 and renamed itself Palladyne AI. Ozmo is a facade-cleaning robot
+using lidar, force sensing and recalculated paths from a building maintenance unit;
+Skyline claims it is about three times faster than traditional cleaning. Mako 4 is
+Stryker's fourth-generation surgical platform supporting hip, knee, partial knee,
+spine and shoulder applications with AccuStop haptics and Q Guidance integration;
+Stryker reports more than 2.5 million procedures in 47 countries. SY-HR08E is a soft
+robotic hand-rehabilitation glove with passive, assistance, bilateral mirror,
+resistance, game and refined training modes. Rosie is a commercial vacuum robot with
+12.7 x 20.7 x 8.5 in dimensions, 24 lb manufacturer mass, 90/135/180-minute
+battery modes and a 7,999.99 USD purchase option; the catalog 18 lb mass remains a
+visible conflict. Shelfobot is a shelf-mounted advertising robot carrying up to 1.5 kg
+and running about seven days on a custom battery. ROSA Knee with OptimiZe is a robotic
+knee-arthroplasty system with OptimiZe planning and ZBEdge integration. Three model
+identities and nine listing identities remain unresolved; these are identity
+questions, not missing field reviews.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1374,20 +1396,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,317 fields across 1288 models, distinguishing documented, undisclosed, conflicting and
+24,444 fields across 1295 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,573 kB JSON response loads only for search or comparison;
+A separate 6,596 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,997 reviewed highlight statements as well as
+Catalog search now includes all 6,032 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
