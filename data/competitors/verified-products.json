@@ -11716,31 +11716,87 @@
         "category": "commercial",
         "manufacturer": "BotEyes",
         "model": "BotEyes-Pad",
-        "price": "1999 USD (tablet excluded)",
+        "price": "1999 USD displayed without tablet; dock included; checked November 3, 2026, live availability unverified",
+        "weight": "Current web table:13.4 kg robot; 2019-metadata survey:10 kg; hardware revision mapping unresolved",
+        "size": "Current web:29 x 39 cm footprint and 142.5 cm height with tablet; 2019-metadata survey:125 cm height; revision mapping unresolved",
+        "batteryLife": "10 h operating time in technical table; homepage advertises 10+ h; test conditions not specified",
+        "maxRuntime": "",
         "tags": "commercial;telepresence;teleoperated",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0-2.5 km/h listed variable travel; table also labels 0-1.5 mph, rounded manufacturer units",
+        "terrain": "Wheeled use; manufacturer rates doorsteps up to 1.5 cm",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://boteyes.com/",
-        "description": "Browser-controlled telepresence base accepting a separately supplied tablet. Tilting tablet head and front/rear camera switching support remote visits. Automatic docking depends on tablet orientation and compatibility; manufacturer flags iPad limitations.",
-        "weight": "13.4 kg",
-        "batteryLife": "10 hours",
-        "size": "29 x 39 cm footprint; 142.5 cm height with tablet"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Remotely driven telepresence base with a separately supplied tablet and a separate chassis motion-control computer. Current web ratings and the older manufacturer-hosted survey disagree on body mass and height without a mapped hardware revision. The technical table distinguishes operating duration from full-charge duration; autodocking retains tablet orientation/sensor and iPad limitations.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "10 h full charge in technical table; separate from 10 h operating-time claim",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Teleoperated wheeled base; separate chassis motion-control computer",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Browser-controlled telepresence base accepting a separately supplied tablet",
         "Tilting tablet head and front/rear camera switching support remote visits",
-        "Automatic docking depends on tablet orientation and compatibility; manufacturer flags iPad limitations"
+        "Automatic docking depends on tablet orientation and compatibility; manufacturer flags iPad limitations",
+        "Current web specifications list 13.4 kg and 142.5 cm height with tablet, whereas the survey PDF with 2019 metadata lists 10 kg and 125 cm under the same Pad name. Hardware revision mapping remains unresolved; shipping weight and dock dimensions are not substituted.",
+        "The technical table separately rates 10 h operation and 10 h full charging. Homepage10+hour wording has unspecified conditions; USB tablet power and173 Wh battery energy do not establish another endurance value.",
+        "Autodocking requires a horizontal tablet and orientation sensor; the manufacturer flags possible iPad docking failure and microphone loss after camera switching. Recording and screen-sharing functions also have OS/client limits rather than universal support.",
+        "Head travel is described as 160 degrees up plus 180 down in the feature list, 160 degrees in the table, and 120 degrees in the older survey. Those scopes remain unresolved, not an exact joint count or guaranteed universal head sweep; browser/watchdog/encryption labels are not independent security or safety certification."
       ],
       "sources": [
         {
-          "name": "BotEyes",
-          "type": "manufacturer",
-          "url": "https://boteyes.com/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "BotEyes",
+          "name": "BotEyes — Pad technical table and compatibility notes",
           "type": "manufacturer",
           "url": "https://boteyes.com/Features.html",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — current Pad and tablet-bundle listings",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — tablet installation and separate motion-control computer",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/InstallingTablet.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — remote-control instructions and connection limitations",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/RobotControl.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — manufacturer-hosted telepresence survey;March2019 PDF metadata,not current model-generation proof",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -11748,8 +11804,9 @@
         "https://buyandrentrobots.com/robot/a0f04e8f-09d8-427c-9ddf-e57d099fba3e",
         "https://buyandrentrobots.com/robot/d63f92a0-7987-4564-94cc-c2620f833400"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-5/boteyes.com-.json",
-      "reviewNotes": "Pad+ and Pad++ are tablet bundles, not proven distinct robot chassis. Docking requires horizontal tablet orientation and an orientation sensor; iPad compatibility is qualified. Dock dimensions contain obvious unit inconsistencies and are omitted."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-138/source-2.html",
+      "reviewNotes": "Batch138. Nine HTTP 200 manufacturer responses including one eight-page native PDF hash-checked. Native current technical-table cell ownership and page7 survey BotEyes-Pad column verified. Current13.4 kg/142.5 cm versus2019-metadata survey10 kg/125 cm remain version-unresolved field conflicts; not a new invented generation. Current10 h operating table and separate 10 h full charge retain distinct fields. Pad+/Pad++ are tablet bundles, while Mini is an explicitly named camera-head configuration with CamHi plus separate browser drive control. No Pad body, tablet, docking or endurance numbers inherited by Mini. Shipping25kg/75x38x35cm and inconsistent dock-dimension units excluded. Head-tilt list/table/survey scopes do not establish joint count or a resolved universal tilt range. Historical software/OS names and security labels do not establish current compatibility, independent security or safety. No login, test drive, remote hardware control, forms, messages, accounts, transactions, visual inspection, OCR or media reuse. Full portfolio, live stock, certified application safety and exclusive superiority remain unproven.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -76976,6 +77033,78 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-136/source-7.html",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch136. Seven successful native HTML responses plus one recorded HTTP429; all response hashes checked. Requests to beatbot.com stopped after 429, no regional-host workaround. Exact manufacturer release scopes retained. X and Sora30 old rows/media/IDs retained; Sora70, Sora10 and named Aquatic RoboTurtle added. AstroRinse, filters, clarifier kits, covers, bags and multi-robot bundles are not extra robot rows. Three-minute wash/two-month waste-bin interval are not operating or charging duration; robot requires placement on station. No image-only numbers imported. Sora30 runtime is not copied to Sora10; Sora70 IP/dimensions/mass are not shared. GPH is flow, not travel speed; basket litres not payload; pool area per charge not area per hour. RoboTurtle is a demonstrated research prototype, not retail availability or separately named2025/2026 model generations. Historic MSRP dated; universal coverage, world-first, awards, patent totals, clinical/chemical safety, current stock and historical completeness not independently verified."
+    },
+    {
+      "discoveredIn": [
+        "https://boteyes.com/Help/BotEyesMiniDifference.html"
+      ],
+      "row": {
+        "category": "commercial",
+        "manufacturer": "BotEyes",
+        "model": "BotEyes-Mini",
+        "price": "Not disclosed; documented camera-head configuration, retail availability not established",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;telepresence;teleoperated;camera-head",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Documented BotEyes camera-head telepresence configuration using a Wi-Fi surveillance camera. CamHi/HiP2P handles the camera while a separate browser window controls robot motion. The guide recommends desktop use or a device that can show both apps simultaneously. It does not establish Pad tablet features, mass, dimensions, endurance or automatic docking for this configuration.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Remotely driven wheeled configuration; separate browser motion control and CamHi camera app",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "highlights": [
+        "The official support index links a distinct BotEyes-Mini guide. It specifies a surveillance-camera head and CamHi/HiP2P camera software with separate browser movement control; this is not another Pad tablet-quality bundle.",
+        "Camera and drive interfaces must be visible together, using a desktop or supported split-screen device. The guide’s historical iOS 9/Split View examples do not prove support on every current device; Pad dimensions, runtime, tablet functions and docking conditions are not inherited."
+      ],
+      "sources": [
+        {
+          "name": "BotEyes — BotEyes-Mini camera configuration and separate app workflow",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — official support index naming Mini",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/HelpEng.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-138/source-6.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch138. Nine HTTP 200 manufacturer responses including one eight-page native PDF hash-checked. Native current technical-table cell ownership and page7 survey BotEyes-Pad column verified. Current13.4 kg/142.5 cm versus2019-metadata survey10 kg/125 cm remain version-unresolved field conflicts; not a new invented generation. Current10 h operating table and separate 10 h full charge retain distinct fields. Pad+/Pad++ are tablet bundles, while Mini is an explicitly named camera-head configuration with CamHi plus separate browser drive control. No Pad body, tablet, docking or endurance numbers inherited by Mini. Shipping25kg/75x38x35cm and inconsistent dock-dimension units excluded. Head-tilt list/table/survey scopes do not establish joint count or a resolved universal tilt range. Historical software/OS names and security labels do not establish current compatibility, independent security or safety. No login, test drive, remote hardware control, forms, messages, accounts, transactions, visual inspection, OCR or media reuse. Full portfolio, live stock, certified application safety and exclusive superiority remain unproven."
     }
   ]
 }

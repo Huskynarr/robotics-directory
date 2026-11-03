@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T09:11:08.295Z",
+  "generatedAt": "2026-11-03T09:20:53.182Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 471,
-    "withoutSelectedFieldReview": 47,
-    "selectedFields": 8659,
+    "withSelectedFieldReview": 472,
+    "withoutSelectedFieldReview": 46,
+    "selectedFields": 8676,
     "selectedFieldStatuses": {
-      "documented": 3443,
-      "not-documented": 5014,
-      "conflicting": 184,
+      "documented": 3451,
+      "not-documented": 5021,
+      "conflicting": 186,
       "roadmap": 18
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 127,
+    "sourceGroupsWithCompanyAuthoredFocus": 128,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -281,25 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "boteyes",
-      "name": "BotEyes",
-      "aliases": [],
-      "sourceUrls": [
-        "https://buyandrentrobots.com/companies/boteyes"
-      ],
-      "catalogModels": 1,
-      "reviewedReferenceTargets": 1,
-      "withDatedHighlights": 1,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "boteyes-boteyes-pad"
-      ]
-    },
     {
       "brandId": "cmr-surgical",
       "name": "CMR Surgical",
@@ -3728,6 +3709,25 @@
       "robotIds": [
         "blue-frog-robotics-buddy-pro-plus"
       ]
+    },
+    {
+      "brandId": "boteyes",
+      "name": "BotEyes",
+      "aliases": [],
+      "sourceUrls": [
+        "https://buyandrentrobots.com/companies/boteyes"
+      ],
+      "catalogModels": 2,
+      "reviewedReferenceTargets": 1,
+      "withDatedHighlights": 1,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "boteyes-boteyes-pad"
+      ]
     }
   ],
   "companies": [
@@ -5097,14 +5097,14 @@
       "sourceUrls": [
         "https://buyandrentrobots.com/companies/boteyes"
       ],
-      "catalogModels": 1,
+      "catalogModels": 2,
       "reviewedReferenceTargets": 1,
       "withDatedHighlights": 1,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "boteyes-boteyes-pad"
       ]
@@ -19569,30 +19569,79 @@
       "brandId": "boteyes",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "BotEyes",
-          "type": "manufacturer",
-          "url": "https://boteyes.com/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "BotEyes",
+          "name": "BotEyes — Pad technical table and compatibility notes",
           "type": "manufacturer",
           "url": "https://boteyes.com/Features.html",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — current Pad and tablet-bundle listings",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — tablet installation and separate motion-control computer",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/InstallingTablet.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — remote-control instructions and connection limitations",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/RobotControl.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — manufacturer-hosted telepresence survey;March2019 PDF metadata,not current model-generation proof",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 8,
+        "not-documented": 7,
+        "conflicting": 2,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "BotEyes — Pad technical table and compatibility notes",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Features.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — current Pad and tablet-bundle listings",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — tablet installation and separate motion-control computer",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/InstallingTablet.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — remote-control instructions and connection limitations",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/RobotControl.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — manufacturer-hosted telepresence survey;March2019 PDF metadata,not current model-generation proof",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

@@ -5696,20 +5696,42 @@
       "highlights": [
         "Browser-controlled telepresence base accepting a separately supplied tablet",
         "Tilting tablet head and front/rear camera switching support remote visits",
-        "Automatic docking depends on tablet orientation and compatibility; manufacturer flags iPad limitations"
+        "Automatic docking depends on tablet orientation and compatibility; manufacturer flags iPad limitations",
+        "Current web specifications list 13.4 kg and 142.5 cm height with tablet, whereas the survey PDF with 2019 metadata lists 10 kg and 125 cm under the same Pad name. Hardware revision mapping remains unresolved; shipping weight and dock dimensions are not substituted.",
+        "The technical table separately rates 10 h operation and 10 h full charging. Homepage10+hour wording has unspecified conditions; USB tablet power and173 Wh battery energy do not establish another endurance value.",
+        "Autodocking requires a horizontal tablet and orientation sensor; the manufacturer flags possible iPad docking failure and microphone loss after camera switching. Recording and screen-sharing functions also have OS/client limits rather than universal support.",
+        "Head travel is described as 160 degrees up plus 180 down in the feature list, 160 degrees in the table, and 120 degrees in the older survey. Those scopes remain unresolved, not an exact joint count or guaranteed universal head sweep; browser/watchdog/encryption labels are not independent security or safety certification."
       ],
       "sources": [
         {
-          "name": "BotEyes",
-          "type": "manufacturer",
-          "url": "https://boteyes.com/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "BotEyes",
+          "name": "BotEyes — Pad technical table and compatibility notes",
           "type": "manufacturer",
           "url": "https://boteyes.com/Features.html",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — current Pad and tablet-bundle listings",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — tablet installation and separate motion-control computer",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/InstallingTablet.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — remote-control instructions and connection limitations",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/RobotControl.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — manufacturer-hosted telepresence survey;March2019 PDF metadata,not current model-generation proof",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -36168,6 +36190,32 @@
       ],
       "discoveredIn": [
         "https://www.prnewswire.com/news-releases/beatbot-introduces-aquasense-x-at-ces-2026-honored-as-a-ces-innovation-awards-recipient-302652393.html"
+      ]
+    },
+    {
+      "robotId": "boteyes-boteyes-mini",
+      "manufacturer": "BotEyes",
+      "model": "BotEyes-Mini",
+      "highlights": [
+        "The official support index links a distinct BotEyes-Mini guide. It specifies a surveillance-camera head and CamHi/HiP2P camera software with separate browser movement control; this is not another Pad tablet-quality bundle.",
+        "Camera and drive interfaces must be visible together, using a desktop or supported split-screen device. The guide’s historical iOS 9/Split View examples do not prove support on every current device; Pad dimensions, runtime, tablet functions and docking conditions are not inherited."
+      ],
+      "sources": [
+        {
+          "name": "BotEyes — BotEyes-Mini camera configuration and separate app workflow",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — official support index naming Mini",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/HelpEng.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://boteyes.com/Help/BotEyesMiniDifference.html"
       ]
     }
   ]

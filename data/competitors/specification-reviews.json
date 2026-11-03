@@ -141918,6 +141918,238 @@
           "note": "User guide documents manual power and optional docking; no numeric charging duration established. Six-hour operating endurance is not charge time."
         }
       }
+    },
+    {
+      "robotId": "boteyes-boteyes-pad",
+      "manufacturer": "BotEyes",
+      "model": "BotEyes-Pad",
+      "sources": [
+        {
+          "name": "BotEyes — Pad technical table and compatibility notes",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Features.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — current Pad and tablet-bundle listings",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — tablet installation and separate motion-control computer",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/InstallingTablet.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — remote-control instructions and connection limitations",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/RobotControl.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — manufacturer-hosted telepresence survey;March2019 PDF metadata,not current model-generation proof",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-138/source-2.html",
+      "fields": {
+        "price": {
+          "value": "1999 USD displayed without tablet; dock included; checked November 3, 2026, live availability unverified",
+          "status": "documented",
+          "note": "Read-only displayed base price and tablet exclusion; Pad+/Pad++ are differently priced tablet bundles, not distinct chassis. Historical survey 760USD is not current price."
+        },
+        "weight": {
+          "value": "Current web table:13.4 kg robot; 2019-metadata survey:10 kg; hardware revision mapping unresolved",
+          "status": "conflicting",
+          "note": "Current technical table 13.4 kg versus native page7 Pad column 10 kg in PDF with March 16, 2019 metadata. No revision mapping established; current robot mass is not 25kg parcel mass. Imperial original kept in source evidence, not this kg filter string."
+        },
+        "size": {
+          "value": "Current web:29 x 39 cm footprint and 142.5 cm height with tablet; 2019-metadata survey:125 cm height; revision mapping unresolved",
+          "status": "conflicting",
+          "note": "Current height with tablet 142.5 cm and footprint 29x39cm versus historical-table 125 cm height. No revision mapping. Shipping box 75x38x35cm and malformed dock-unit labels are excluded."
+        },
+        "batteryLife": {
+          "value": "10 h operating time in technical table; homepage advertises 10+ h; test conditions not specified",
+          "status": "documented",
+          "note": "Current technical table gives 10 operating hours; homepage advertises 10+. Neither specifies workload, test method or a guaranteed lower bound; not charging duration."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Tilting-head degree labels disagree in scope across list/table/history. They do not establish an actuator/joint count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "speed": {
+          "value": "0-2.5 km/h listed variable travel; table also labels 0-1.5 mph, rounded manufacturer units",
+          "status": "documented",
+          "note": "Manufacturer table simultaneously labels 0-1.5mph and0-2.5km/h; approximate units retained rather than treated as exact conversion or independently measured speed."
+        },
+        "terrain": {
+          "value": "Wheeled use; manufacturer rates doorsteps up to 1.5 cm",
+          "status": "documented",
+          "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "website": {
+          "value": "https://boteyes.com/",
+          "status": "documented",
+          "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+        },
+        "description": {
+          "value": "Remotely driven telepresence base with a separately supplied tablet and a separate chassis motion-control computer. Current web ratings and the older manufacturer-hosted survey disagree on body mass and height without a mapped hardware revision. The technical table distinguishes operating duration from full-charge duration; autodocking retains tablet orientation/sensor and iPad limitations.",
+          "status": "documented",
+          "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "March2019 PDF metadata does not establish release year or a separately named hardware generation."
+        },
+        "chargingTime": {
+          "value": "10 h full charge in technical table; separate from 10 h operating-time claim",
+          "status": "documented",
+          "note": "Exact full-charge duration 10 h, distinct from separate 10 h operating claim and USB tablet charging."
+        },
+        "driveMode": {
+          "value": "Teleoperated wheeled base; separate chassis motion-control computer",
+          "status": "documented",
+          "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+        }
+      }
+    },
+    {
+      "robotId": "boteyes-boteyes-mini",
+      "manufacturer": "BotEyes",
+      "model": "BotEyes-Mini",
+      "sources": [
+        {
+          "name": "BotEyes — BotEyes-Mini camera configuration and separate app workflow",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — official support index naming Mini",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/HelpEng.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-138/source-6.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed; documented camera-head configuration, retail availability not established",
+          "status": "documented",
+          "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Camera-head configuration may change complete mass; no exact Mini weight established from its named guide."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete Mini body envelope established; Pad tablet height and old survey values are not inherited."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Same-use instructions do not independently identify a Mini battery/endurance specification."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field."
+        },
+        "website": {
+          "value": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+          "status": "documented",
+          "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+        },
+        "description": {
+          "value": "Documented BotEyes camera-head telepresence configuration using a Wi-Fi surveillance camera. CamHi/HiP2P handles the camera while a separate browser window controls robot motion. The guide recommends desktop use or a device that can show both apps simultaneously. It does not establish Pad tablet features, mass, dimensions, endurance or automatic docking for this configuration.",
+          "status": "documented",
+          "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Historical iOS 9/device examples establish documentation context, not Mini launch or current retail availability."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact Mini charge duration established; Pad ten-hour rating not transferred."
+        },
+        "driveMode": {
+          "value": "Remotely driven wheeled configuration; separate browser motion control and CamHi camera app",
+          "status": "documented",
+          "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+        }
+      }
     }
   ]
 }
