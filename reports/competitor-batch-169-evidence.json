@@ -1,0 +1,1157 @@
+{
+  "batch": 169,
+  "checkedAt": "2026-11-03",
+  "manufacturers": [
+    "ECOVACS"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 72,
+  "fieldStatuses": {
+    "documented": 25,
+    "not-documented": 47
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four catalog rows that previously had no field review were reviewed against current ECOVACS US and global shop pages. Deebot T10 Plus, Deebot N8 Pro, Winbot Mini and Deebot X11 Pro Omni are four separate current products; Winbot Mini is a window-cleaning robot and X11 Pro Omni a floor robot, so the rows are separate entries rather than configurations of one model. No reviewed page publishes a robot price, so the catalog ~750, ~500 and 239 USD values and the X11 Pro Omni not-disclosed price are cleared. The T10 Plus catalog 4.0 kg mass, large size label and 195 min battery and runtime labels are replaced by the reviewed dimensions, capacity and four sweep and mop runtimes. The N8 Pro 3.6 kg mass, 35 x 35 x 9.3 cm size and 2,600 Pa suction label are replaced or cleared by the reviewed dimensions and 3,200 mAh capacity. The Winbot Mini 21.5 x 21.5 x 5.5 cm size and 1.3 kg mass are replaced by the reviewed dimensions and 1.3 +/- 0.1 kg mass; the page lists an unlimited battery life in minutes, so no full-charge runtime is recorded. The X11 Pro Omni medium size label and not-disclosed values are cleared; the 3 min PowerBoost 6% top-up and the 1,000 m2 perpetual run are not a full-charge runtime. No new model was created and no company focus was added.",
+  "totalProductHighlightRecords": 1346,
+  "totalHighlightStatements": 6207,
+  "totalProductSourceReferences": 2897,
+  "pendingPortfolioLeads": [
+    {
+      "name": "ECOVACS robot price",
+      "scope": "None of the reviewed T10 Plus, N8 Pro, Winbot Mini and X11 Pro Omni pages publishes a robot price in the extracted native text. The catalog ~750, ~500 and 239 USD values and the X11 Pro Omni not-disclosed price are cleared; accessory and station prices are not substituted for the robot.",
+      "source": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t10-plus"
+    },
+    {
+      "name": "ECOVACS robot net weight",
+      "scope": "The T10 Plus, N8 Pro and X11 Pro Omni pages publish no robot net weight. Only the Winbot Mini page publishes 1.3 +/- 0.1 kg, which is recorded; the catalog 4.0 kg and 3.6 kg values are cleared.",
+      "source": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-mini"
+    },
+    {
+      "name": "ECOVACS full-charge runtime in minutes",
+      "scope": "The Winbot Mini page lists an unlimited battery life in minutes, so no full-charge runtime is recorded. The X11 Pro Omni page publishes only a 3 min PowerBoost 6% top-up and a manufacturer-described perpetual run up to 1,000 m2, neither of which is a full-charge runtime.",
+      "source": "https://www.ecovacs.com/global/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t10-plus",
+      "finalUrl": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t10-plus",
+      "status": 200,
+      "checkedAt": "2026-11-03T21:16:06.984024+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "90ac0f6c9d06fefbc59ce4e36aecc87dea548bfc98eb67a56d510aa21d5037be",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n8-pro",
+      "finalUrl": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n8-pro",
+      "status": 200,
+      "checkedAt": "2026-11-03T21:16:07.750002+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "4401afed6fb4e422c402c65e9f11fb667ba9546d476e23ef7f128fe8ae2d7744",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.ecovacs.com/us/winbot-window-cleaning-robot/winbot-w2-omni",
+      "finalUrl": "https://www.ecovacs.com/us/winbot-window-cleaning-robot/winbot-w2-omni",
+      "status": 301,
+      "checkedAt": "2026-11-03T21:16:08.285917+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "69762d80dec8c45430f2b220dce0c9a4fe38db9577c4b9f76140488308ce2323",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": ""
+    },
+    {
+      "id": 4,
+      "url": "https://www.ecovacs.com/global/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+      "finalUrl": "https://www.ecovacs.com/global/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+      "status": 200,
+      "checkedAt": "2026-11-03T21:16:08.868496+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "e22884e87d1d6b4b4134c49564437696027c12b6876c3b1124b98ae7f77d9591",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 5,
+      "url": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-mini",
+      "finalUrl": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-mini",
+      "status": 200,
+      "checkedAt": "2026-11-03T21:16:27.684509+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "bef8ba3c156d032eebe419ea99313d273a7f331f3fdf54dd82f746de7eeb9ee2",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "ecovacs-deebot-t10-plus",
+      "manufacturer": "ECOVACS",
+      "model": "Deebot T10 Plus",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "353 x 353 x 103.3 mm",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "260 min silent sweep; 195 min standard sweep; 240 min silent sweep and mop; 180 min standard sweep and mop",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t10-plus",
+        "description": "The ECOVACS DEEBOT T10 Plus is a vacuum and mop robot with 3,000 Pa suction, a floating main brush, a 0.4 L dust box and a 240 ml water tank. It measures 353 x 353 x 103.3 mm and the Omni station 365 x 360 x 350 mm without the water-resistant pad. It carries a 5,200 mAh Li-ion battery, charges in 6.5 h and publishes 260 min silent sweep, 195 min standard sweep, 240 min silent sweep and mop and 180 min standard sweep and mop runtime. Noise is at most 66 dB(A) in sweep and 68 dB(A) in sweep and mop; the mop plate is 210 cm2. No price, robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~750 USD price, 4.0 kg mass, large size label and 195 min battery and runtime labels are not confirmed.",
+        "chargingTime": "6.5 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "No robot price is published in the reviewed native text; the catalog value is not confirmed.",
+        "weight": "No robot net weight is published; the catalog value is not confirmed.",
+        "size": "Robot dimensions from the reviewed specification block; station dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "Full-charge runtime statements from the reviewed specification block.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "ECOVACS Deebot T10 Plus is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "ECOVACS Deebot T10 Plus product page.",
+        "description": "ECOVACS Deebot T10 Plus page; suction, dimensions, masses, battery, runtime, charging and noise statements are manufacturer claims.",
+        "chargingTime": "Charging statement from the reviewed specification block.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "ECOVACS - Deebot T10 Plus",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t10-plus",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The ECOVACS DEEBOT T10 Plus is a vacuum and mop robot with 3,000 Pa suction and a floating main brush.",
+        "It measures 353 x 353 x 103.3 mm and the Omni station 365 x 360 x 350 mm.",
+        "A 5,200 mAh Li-ion battery charges in 6.5 h and serves 260 min silent sweep.",
+        "Standard sweep runs 195 min and standard sweep and mop 180 min, at up to 66 dB(A).",
+        "The catalog ~750 USD price, 4.0 kg mass, large size label and 195 min battery labels are not confirmed."
+      ]
+    },
+    {
+      "robotId": "ecovacs-deebot-n8-pro",
+      "manufacturer": "ECOVACS",
+      "model": "Deebot N8 Pro",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "353 x 353 x 94 mm",
+        "batteryLife": "3,200 mAh",
+        "maxRuntime": "110 min working time",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n8-pro",
+        "description": "The ECOVACS DEEBOT N8 Pro is a vacuum and mop robot with laser navigation and the OZMO mopping system. It measures 353 x 353 x 94 mm and carries a 3,200 mAh Li-ion battery that charges in 4 h and serves 110 min working time. Standard-mode noise is 67 dB(A); rated power is 40 W at 14.4 V. No price, robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~500 USD price, 3.6 kg mass, 35 x 35 x 9.3 cm size and 2,600 Pa suction label are not confirmed.",
+        "chargingTime": "4 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "No robot price is published in the reviewed native text; the catalog value is not confirmed.",
+        "weight": "No robot net weight is published; the catalog value is not confirmed.",
+        "size": "Robot dimensions from the reviewed specification block; station dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "Full-charge runtime statements from the reviewed specification block.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "ECOVACS Deebot N8 Pro is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "ECOVACS Deebot N8 Pro product page.",
+        "description": "ECOVACS Deebot N8 Pro page; suction, dimensions, masses, battery, runtime, charging and noise statements are manufacturer claims.",
+        "chargingTime": "Charging statement from the reviewed specification block.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "ECOVACS - Deebot N8 Pro",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n8-pro",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The ECOVACS DEEBOT N8 Pro is a vacuum and mop robot with laser navigation and the OZMO mopping system.",
+        "It measures 353 x 353 x 94 mm and carries a 3,200 mAh Li-ion battery.",
+        "Charging takes 4 h and the page publishes 110 min working time at 67 dB(A).",
+        "Rated power is 40 W at 14.4 V.",
+        "The catalog ~500 USD price, 3.6 kg mass, 35 x 35 x 9.3 cm size and 2,600 Pa suction label are not confirmed."
+      ]
+    },
+    {
+      "robotId": "ecovacs-winbot-mini",
+      "manufacturer": "ECOVACS",
+      "model": "Winbot Mini",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "1.3 +/- 0.1 kg",
+        "size": "215 x 215 x 55 mm",
+        "batteryLife": "3,000 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-mini",
+        "description": "The ECOVACS WINBOT Mini is a compact window-cleaning robot with 7,500 Pa maximum suction and 3,200 Pa while moving, WIN-SLAM 3.0 path planning and a floating cleaning cloth plate. It measures 215 x 215 x 55 mm and weighs 1.3 +/- 0.1 kg; the 3,000 mAh lithium battery charges in about 3 h and the power-off protection keeps the robot attached for 30 min. The page lists an unlimited battery life in minutes, so no full-charge runtime in minutes is recorded. The minimum window is 22 x 25 cm with at least 3 mm glass thickness; the wiping pad is 215 x 215 mm. No price, payload, travel speed, water tank capacity or IP rating is published; the catalog 239 USD price is not confirmed.",
+        "chargingTime": "≈3 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "No robot price is published in the reviewed native text; the catalog value is not confirmed.",
+        "weight": "Robot net weight from the reviewed specification block; station and package weights are separate.",
+        "size": "Robot dimensions from the reviewed specification block; station dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "No full-charge runtime in minutes is published.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "ECOVACS Winbot Mini is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "ECOVACS Winbot Mini product page.",
+        "description": "ECOVACS Winbot Mini page; suction, dimensions, masses, battery, runtime, charging and noise statements are manufacturer claims.",
+        "chargingTime": "Charging statement from the reviewed specification block.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "ECOVACS - Winbot Mini",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-mini",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The ECOVACS WINBOT Mini is a compact window-cleaning robot with 7,500 Pa maximum suction.",
+        "It measures 215 x 215 x 55 mm and weighs 1.3 +/- 0.1 kg.",
+        "A 3,000 mAh battery charges in about 3 h, with 30 min power-off protection.",
+        "The minimum window is 22 x 25 cm with at least 3 mm glass thickness.",
+        "The page lists an unlimited battery life in minutes, so no full-charge runtime is recorded."
+      ]
+    },
+    {
+      "robotId": "ecovacs-deebot-x11-pro-omni",
+      "manufacturer": "ECOVACS",
+      "model": "Deebot X11 Pro Omni",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/global/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+        "description": "The ECOVACS DEEBOT X11 Pro Omni is a vacuum and mop robot with a claimed 19,500 Pa suction, 18 L/s airflow, OZMO Roller 2.0 and TruEdge 3.0 edge cleaning. PowerBoost restores 6% battery in 3 min and supports a manufacturer-described perpetual run up to 1,000 m2; it is not a full-charge runtime in minutes. It carries a 6,400 mAh battery and a bagless OmniCyclone station with 75 C hot-water soak washing. The page publishes no robot dimensions, net weight, price, charging time, payload, travel speed, water tank capacity or IP rating; the catalog medium size and not-disclosed values are not confirmed.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "No robot price is published in the reviewed native text; the catalog value is not confirmed.",
+        "weight": "No robot net weight is published; the catalog value is not confirmed.",
+        "size": "Robot dimensions from the reviewed specification block; station dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "No full-charge runtime in minutes is published.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "ECOVACS Deebot X11 Pro Omni is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "ECOVACS Deebot X11 Pro Omni product page.",
+        "description": "ECOVACS Deebot X11 Pro Omni page; suction, dimensions, masses, battery, runtime, charging and noise statements are manufacturer claims.",
+        "chargingTime": "No charging time is published.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "ECOVACS - Deebot X11 Pro Omni",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/global/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The ECOVACS DEEBOT X11 Pro Omni is a vacuum and mop robot with a claimed 19,500 Pa suction.",
+        "PowerBoost restores 6% battery in 3 min for a manufacturer-described perpetual run up to 1,000 m2.",
+        "It carries a 6,400 mAh battery and a bagless OmniCyclone station with 75 C hot-water soak washing.",
+        "OZMO Roller 2.0 scrubs at 200 rpm and TruEdge 3.0 extends 1.5 cm.",
+        "No robot dimensions, net weight, price or charging time is published; the catalog medium size is not confirmed."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "ecovacs-deebot-t10-plus",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot T10 Plus",
+        "price": "~750 USD",
+        "weight": "4.0 kg",
+        "size": "large",
+        "batteryLife": "195 min",
+        "maxRuntime": "195 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;obstacle-avoidance;auto-empty;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "3000 Pa suction",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/DEEBOT-T10-PLUS",
+        "image": "images/cleaning/ecovacs-deebot-t10-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "AIVI obstacle avoidance vacuum-mop with self-empty station",
+        "releaseDate": "2022",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot T10 Plus",
+        "price": "",
+        "weight": "",
+        "size": "353 x 353 x 103.3 mm",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "260 min silent sweep; 195 min standard sweep; 240 min silent sweep and mop; 180 min standard sweep and mop",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;obstacle-avoidance;auto-empty;ai-powered",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t10-plus",
+        "image": "images/cleaning/ecovacs-deebot-t10-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The ECOVACS DEEBOT T10 Plus is a vacuum and mop robot with 3,000 Pa suction, a floating main brush, a 0.4 L dust box and a 240 ml water tank. It measures 353 x 353 x 103.3 mm and the Omni station 365 x 360 x 350 mm without the water-resistant pad. It carries a 5,200 mAh Li-ion battery, charges in 6.5 h and publishes 260 min silent sweep, 195 min standard sweep, 240 min silent sweep and mop and 180 min standard sweep and mop runtime. Noise is at most 66 dB(A) in sweep and 68 dB(A) in sweep and mop; the mop plate is 210 cm2. No price, robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~750 USD price, 4.0 kg mass, large size label and 195 min battery and runtime labels are not confirmed.",
+        "releaseDate": "2022",
+        "chargingTime": "6.5 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "ecovacs-deebot-n8-pro",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot N8 Pro",
+        "price": "~500 USD",
+        "weight": "3.6 kg",
+        "size": "35x35x9.3 cm",
+        "batteryLife": "110 min",
+        "maxRuntime": "110 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "2600 Pa suction",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-n8-pro",
+        "image": "images/cleaning/ecovacs-deebot-n8-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Laser-navigation vacuum-mop with OZMO mopping system",
+        "releaseDate": "2021",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot N8 Pro",
+        "price": "",
+        "weight": "",
+        "size": "353 x 353 x 94 mm",
+        "batteryLife": "3,200 mAh",
+        "maxRuntime": "110 min working time",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n8-pro",
+        "image": "images/cleaning/ecovacs-deebot-n8-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The ECOVACS DEEBOT N8 Pro is a vacuum and mop robot with laser navigation and the OZMO mopping system. It measures 353 x 353 x 94 mm and carries a 3,200 mAh Li-ion battery that charges in 4 h and serves 110 min working time. Standard-mode noise is 67 dB(A); rated power is 40 W at 14.4 V. No price, robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~500 USD price, 3.6 kg mass, 35 x 35 x 9.3 cm size and 2,600 Pa suction label are not confirmed.",
+        "releaseDate": "2021",
+        "chargingTime": "4 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "ecovacs-winbot-mini",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Winbot Mini",
+        "price": "239 USD",
+        "weight": "1.3 kg",
+        "size": "21.5x21.5x5.5 cm",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "window-clean;consumer;app-control;wifi",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-mini",
+        "image": "images/cleaning/ecovacs-winbot-mini.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Compact window robot with ultrasonic atomization spray, 7,500Pa grip",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Winbot Mini",
+        "price": "",
+        "weight": "1.3 +/- 0.1 kg",
+        "size": "215 x 215 x 55 mm",
+        "batteryLife": "3,000 mAh",
+        "maxRuntime": "",
+        "tags": "window-clean;consumer;app-control;wifi",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/winbot-window-cleaning-robot/winbot-mini",
+        "image": "images/cleaning/ecovacs-winbot-mini.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The ECOVACS WINBOT Mini is a compact window-cleaning robot with 7,500 Pa maximum suction and 3,200 Pa while moving, WIN-SLAM 3.0 path planning and a floating cleaning cloth plate. It measures 215 x 215 x 55 mm and weighs 1.3 +/- 0.1 kg; the 3,000 mAh lithium battery charges in about 3 h and the power-off protection keeps the robot attached for 30 min. The page lists an unlimited battery life in minutes, so no full-charge runtime in minutes is recorded. The minimum window is 22 x 25 cm with at least 3 mm glass thickness; the wiping pad is 215 x 215 mm. No price, payload, travel speed, water tank capacity or IP rating is published; the catalog 239 USD price is not confirmed.",
+        "releaseDate": "2025",
+        "chargingTime": "≈3 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "ecovacs-deebot-x11-pro-omni",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot X11 Pro Omni",
+        "price": "Not disclosed",
+        "weight": "Not disclosed",
+        "size": "medium",
+        "batteryLife": "",
+        "maxRuntime": "Not disclosed",
+        "tags": "vacuum;mop;ai-powered;consumer;pet",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "Not disclosed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/global/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+        "image": "images/cleaning/ecovacs-deebot-x11-pro-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Bagged Omni dock robot vacuum-mop with GaN fast charging and roller mop.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot X11 Pro Omni",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;ai-powered;consumer;pet",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/global/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+        "image": "images/cleaning/ecovacs-deebot-x11-pro-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The ECOVACS DEEBOT X11 Pro Omni is a vacuum and mop robot with a claimed 19,500 Pa suction, 18 L/s airflow, OZMO Roller 2.0 and TruEdge 3.0 edge cleaning. PowerBoost restores 6% battery in 3 min and supports a manufacturer-described perpetual run up to 1,000 m2; it is not a full-charge runtime in minutes. It carries a 6,400 mAh battery and a bagless OmniCyclone station with 75 C hot-water soak washing. The page publishes no robot dimensions, net weight, price, charging time, payload, travel speed, water tank capacity or IP rating; the catalog medium size and not-disclosed values are not confirmed.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "ECOVACS",
+      "model": "Deebot T10 Plus",
+      "changes": {
+        "price": {
+          "before": "~750 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "4.0 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "large",
+          "after": "353 x 353 x 103.3 mm"
+        },
+        "batteryLife": {
+          "before": "195 min",
+          "after": "5,200 mAh"
+        },
+        "maxRuntime": {
+          "before": "195 min",
+          "after": "260 min silent sweep; 195 min standard sweep; 240 min silent sweep and mop; 180 min standard sweep and mop"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "speed": {
+          "before": "3000 Pa suction",
+          "after": ""
+        },
+        "website": {
+          "before": "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/DEEBOT-T10-PLUS",
+          "after": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t10-plus"
+        },
+        "description": {
+          "before": "AIVI obstacle avoidance vacuum-mop with self-empty station",
+          "after": "The ECOVACS DEEBOT T10 Plus is a vacuum and mop robot with 3,000 Pa suction, a floating main brush, a 0.4 L dust box and a 240 ml water tank. It measures 353 x 353 x 103.3 mm and the Omni station 365 x 360 x 350 mm without the water-resistant pad. It carries a 5,200 mAh Li-ion battery, charges in 6.5 h and publishes 260 min silent sweep, 195 min standard sweep, 240 min silent sweep and mop and 180 min standard sweep and mop runtime. Noise is at most 66 dB(A) in sweep and 68 dB(A) in sweep and mop; the mop plate is 210 cm2. No price, robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~750 USD price, 4.0 kg mass, large size label and 195 min battery and runtime labels are not confirmed."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "6.5 h"
+        }
+      }
+    },
+    {
+      "manufacturer": "ECOVACS",
+      "model": "Deebot N8 Pro",
+      "changes": {
+        "price": {
+          "before": "~500 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "3.6 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "35x35x9.3 cm",
+          "after": "353 x 353 x 94 mm"
+        },
+        "batteryLife": {
+          "before": "110 min",
+          "after": "3,200 mAh"
+        },
+        "maxRuntime": {
+          "before": "110 min",
+          "after": "110 min working time"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "speed": {
+          "before": "2600 Pa suction",
+          "after": ""
+        },
+        "website": {
+          "before": "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-n8-pro",
+          "after": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n8-pro"
+        },
+        "description": {
+          "before": "Laser-navigation vacuum-mop with OZMO mopping system",
+          "after": "The ECOVACS DEEBOT N8 Pro is a vacuum and mop robot with laser navigation and the OZMO mopping system. It measures 353 x 353 x 94 mm and carries a 3,200 mAh Li-ion battery that charges in 4 h and serves 110 min working time. Standard-mode noise is 67 dB(A); rated power is 40 W at 14.4 V. No price, robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~500 USD price, 3.6 kg mass, 35 x 35 x 9.3 cm size and 2,600 Pa suction label are not confirmed."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "4 h"
+        }
+      }
+    },
+    {
+      "manufacturer": "ECOVACS",
+      "model": "Winbot Mini",
+      "changes": {
+        "price": {
+          "before": "239 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "1.3 kg",
+          "after": "1.3 +/- 0.1 kg"
+        },
+        "size": {
+          "before": "21.5x21.5x5.5 cm",
+          "after": "215 x 215 x 55 mm"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "3,000 mAh"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Compact window robot with ultrasonic atomization spray, 7,500Pa grip",
+          "after": "The ECOVACS WINBOT Mini is a compact window-cleaning robot with 7,500 Pa maximum suction and 3,200 Pa while moving, WIN-SLAM 3.0 path planning and a floating cleaning cloth plate. It measures 215 x 215 x 55 mm and weighs 1.3 +/- 0.1 kg; the 3,000 mAh lithium battery charges in about 3 h and the power-off protection keeps the robot attached for 30 min. The page lists an unlimited battery life in minutes, so no full-charge runtime in minutes is recorded. The minimum window is 22 x 25 cm with at least 3 mm glass thickness; the wiping pad is 215 x 215 mm. No price, payload, travel speed, water tank capacity or IP rating is published; the catalog 239 USD price is not confirmed."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "≈3 h"
+        }
+      }
+    },
+    {
+      "manufacturer": "ECOVACS",
+      "model": "Deebot X11 Pro Omni",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": ""
+        },
+        "weight": {
+          "before": "Not disclosed",
+          "after": ""
+        },
+        "size": {
+          "before": "medium",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "6,400 mAh"
+        },
+        "maxRuntime": {
+          "before": "Not disclosed",
+          "after": ""
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "speed": {
+          "before": "Not disclosed",
+          "after": ""
+        },
+        "description": {
+          "before": "Bagged Omni dock robot vacuum-mop with GaN fast charging and roller mop.",
+          "after": "The ECOVACS DEEBOT X11 Pro Omni is a vacuum and mop robot with a claimed 19,500 Pa suction, 18 L/s airflow, OZMO Roller 2.0 and TruEdge 3.0 edge cleaning. PowerBoost restores 6% battery in 3 min and supports a manufacturer-described perpetual run up to 1,000 m2; it is not a full-charge runtime in minutes. It carries a 6,400 mAh battery and a bagless OmniCyclone station with 75 C hot-water soak washing. The page publishes no robot dimensions, net weight, price, charging time, payload, travel speed, water tank capacity or IP rating; the catalog medium size and not-disclosed values are not confirmed."
+        }
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "ecovacs",
+      "name": "Ecovacs",
+      "role": "Consumer and commercial cleaning and lawn-robot developer",
+      "highlights": [
+        "Consumer range includes DEEBOT floor cleaning, WINBOT glass cleaning and GOAT lawn mowing; ECOVACSCommercial separately describes K1 VAC andM1/M1 3D commercial cleaning platforms.",
+        "GOAT A3000 LiDAR PRO, A2000 LiDAR PRO andO1000 LiDAR PRO are separately named hardware models with TruEdge trimming, HoloScope 360 dual-LiDAR and AIVI 3D claims. Garage/blade accessory bundles are not extra robot models.",
+        "Commercial tables retain task-specific endurance, roller width, theoretical area rate and clean/recovery tank capacity. K1 charging and area-rate disagreements are exposed rather than averaged.",
+        "WINBOT robot mass, portable station battery duration, power-off protection, water tank and area-time rate are separate quantities. Exterior-window use retains the manual tether/weather conditions.",
+        "US product prices and stock are dated regional observations. OriginalA3000 out-of-stock status is not inherited byPRO models; model-selector/accessory prices are not substituted for the main product.",
+        "Navigation, obstacle avoidance, edge cutting and productivity remain manufacturer claims; no independently verified exclusivity, zero-risk guarantee or complete historical portfolio asserted.",
+        "The current US DEEBOT range adds T80 OMNI, X8 PRO OMNI, X9 PRO OMNI and X11 OmniCyclone with OZMO roller mopping, TruEdge edge cleaning and OMNI stations.",
+        "The reviewed DEEBOT pages publish 6,400 mAh batteries, 18,000 to 19,500 Pa suction, 4 h 37 min or less charging and 297 min or less silent sweep runtime."
+      ],
+      "sources": [
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacscommercial.com/technical-specification",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/winbot-window-cleaning-robot/winbot-w2-pro-omni",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/goat-robotic-lawn-mower/goat-a3000-lidar",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS - DEEBOT T80 OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t80-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X9 PRO OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x9-pro-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X8 PRO OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x8-pro-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X11 OmniCyclone",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewNotes": "Batch163. ECOVACS pages read as text only; no research browser, visual inspection, OCR or media reuse. T80 OMNI, X8 PRO OMNI, X9 PRO OMNI and X11 OmniCyclone are four separate current models. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven."
+    }
+  ],
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 36,
+    "axeCases": 8,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1248,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 4,
+      "successfulResponses": 4,
+      "usableResponses": 4,
+      "sha256VerifiedResponses": 4,
+      "nativeHtmlResponses": 4,
+      "nonHtmlSuccessfulResponses": 0,
+      "pdfDocuments": 0,
+      "pdfPages": 0,
+      "pdfSources": [],
+      "notFoundExcluded": [
+        "https://www.ecovacs.com/us/winbot-window-cleaning-robot/winbot-w2-omni (301 to an empty shop page; excluded)"
+      ],
+      "blockedResponses": [],
+      "rateLimitedResponses": [],
+      "redirectResponses": [
+        "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-x2-omni-combo -> https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x2-omni-combo (301; the shop URL is the reviewed target)"
+      ],
+      "unusedSuccessfulResponses": [],
+      "archivedResponses": [],
+      "inspection": "Native HTML read as text only. No research browser, visual inspection, OCR or media reuse. No login, forms, contact, messages or transactions."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 1,
+          "selector": "body",
+          "textSha256": "58a48c0bbac17a37575c8e6984713a8672a9cd9a606f8c207ec9ea383b092017"
+        },
+        {
+          "sourceId": 2,
+          "selector": "body",
+          "textSha256": "8ebe63905fe524caf26f54dbc658ad5b77466d7ef9baff3c0f0955a67189c4e2"
+        },
+        {
+          "sourceId": 4,
+          "selector": "body",
+          "textSha256": "a16bfde6bad7185f9bb4e9978095262e2b1a3241795542e1ca6cc3cbf40b0627"
+        },
+        {
+          "sourceId": 5,
+          "selector": "body",
+          "textSha256": "f3be1bac92f33a095153c1121f65208350a416b27c20f01f1a397d2f47c49c01"
+        }
+      ],
+      "versionScopes": "Deebot T10 Plus, N8 Pro, Winbot Mini and X11 Pro Omni are separate current ECOVACS products. Winbot Mini is a window-cleaning robot and X11 Pro Omni a floor robot; the catalog rows are separate entries, not configurations of one model.",
+      "priceScopes": "None of the reviewed pages publishes a robot price in the extracted native text; the catalog ~750, ~500 and 239 USD values and the X11 Pro Omni not-disclosed price are not confirmed. Accessory prices are not substituted for the main product.",
+      "weightScopes": "The Winbot Mini page publishes 1.3 +/- 0.1 kg robot mass. The T10 Plus, N8 Pro and X11 Pro Omni specification blocks publish no robot net weight, so the catalog 4.0 and 3.6 kg values are cleared.",
+      "sizeScopes": "Robot dimensions are 353 x 353 x 103.3 mm for the T10 Plus, 353 x 353 x 94 mm for the N8 Pro, 215 x 215 x 55 mm for the Winbot Mini and not published for the X11 Pro Omni. Station and package dimensions are separate.",
+      "payloadScopes": "No reviewed page publishes a payload rating; these are cleaning appliances without a manipulator or load rating.",
+      "enduranceScopes": "Battery capacity is 5,200 mAh for the T10 Plus, 3,200 mAh for the N8 Pro, 3,000 mAh for the Winbot Mini and 6,400 mAh for the X11 Pro Omni. Charging times are 6.5 h, 4 h and about 3 h; the X11 Pro Omni page publishes no absolute charging time. The Winbot Mini page lists an unlimited battery life in minutes and the X11 Pro Omni a 3 min PowerBoost top-up, neither of which is a full-charge runtime in minutes.",
+      "autonomyScopes": "ECOVACS describes OZMO mop lifting, hot-water mop washing, PowerBoost charging, TruEdge edge cleaning and AI navigation. These are manufacturer descriptions, not independent safety certification or proof of unsupervised operation.",
+      "listingScopes": "The roboticsdir and buyandrentrobots listings name products and companies; they do not establish prices, current stock, delivered fleets or independent performance.",
+      "goalComplete": false
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "reviewedProducts": 4,
+      "selectedFields": 72,
+      "selectedFieldStatuses": {
+        "not-documented": 47,
+        "documented": 25
+      },
+      "specificationReviewModels": 1330,
+      "specificationFields": 25054,
+      "allFieldStatuses": {
+        "not-documented": 15380,
+        "documented": 9244,
+        "conflicting": 322,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1346,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 72,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 1
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1346,
+      "individualHighlights": 6207,
+      "productSourceReferences": 2897,
+      "specificationReviewModels": 1330,
+      "specificationFields": 25054,
+      "publicJsonBytes": 6708463,
+      "catalogScriptBytes": 2731106,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T21:19:15Z",
+            "after": "2026-11-03T21:22:15Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T21:19:15.085Z",
+            "after": "2026-11-03T21:22:14.831Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "7ae5e55b938165f7b440bcb82b877f0b10c601e19ab36aa63b29a5422ca22a1d",
+            "after": "e528546bc463b0a555f7953f9f9d664127c3c9d8d128570a5a2f3f452ddee708"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T21:19:15.085Z",
+            "after": "2026-11-03T21:22:14.831Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T21:19:15.085Z",
+            "after": "2026-11-03T21:22:14.831Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 249,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "386a58ab5b1229e2cc0f4b24148c2b4dd78ec666",
+    "dataCommit": "666495b78bcd613836fc30e6ab619ac569b5e654",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 783,
+  "goalComplete": false
+}

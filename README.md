@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,342 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,346 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,982 fields across 1326 models, distinguishing documented, undisclosed, conflicting and
+25,054 fields across 1330 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,696 kB JSON response loads only for search or comparison;
+A separate 6,708 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,187 reviewed highlight statements as well as
+Catalog search now includes all 6,207 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1704,3 +1704,21 @@ the X2 Combo 35 x 31 x 10 cm size and 212 min battery label, the T30S
 medium size label are replaced or cleared by the reviewed values. No reviewed
 page publishes a robot price, payload, travel speed, water tank capacity or
 IP rating.
+
+ECOVACS's Deebot T10 Plus, N8 Pro, Winbot Mini and X11 Pro Omni now have
+selected field reviews. The manufacturer publishes 3,000 Pa, 353 x 353 x 103.3 mm,
+5,200 mAh, 6.5 h charging and 260 min silent sweep for the T10 Plus;
+353 x 353 x 94 mm, 3,200 mAh, 4 h charging and 110 min working time for the
+N8 Pro; 215 x 215 x 55 mm, 1.3 +/- 0.1 kg, 3,000 mAh, about 3 h charging and
+7,500 Pa maximum suction for the Winbot Mini; and a claimed 19,500 Pa and a
+6,400 mAh battery for the X11 Pro Omni. The Winbot Mini page lists an unlimited
+battery life in minutes, and the X11 Pro Omni page publishes only a 3 min PowerBoost
+top-up and a 1,000 m2 perpetual run, so no full-charge runtime is recorded for
+either. The T10 Plus, N8 Pro and X11 Pro Omni pages publish no robot net weight,
+and the X11 Pro Omni page publishes no dimensions, charging time or robot price.
+Catalog prices of about 750, 500 and 239 USD, the T10 Plus 4.0 kg mass, large size
+label and 195 min battery and runtime labels, the N8 Pro 3.6 kg mass, 35 x 35 x 9.3 cm
+size and 2,600 Pa label, the Winbot Mini 21.5 x 21.5 x 5.5 cm size and 1.3 kg mass,
+and the X11 Pro Omni medium size and not-disclosed values are replaced or cleared
+by the reviewed values. No reviewed page publishes a robot price, payload, travel speed,
+water tank capacity or IP rating.
