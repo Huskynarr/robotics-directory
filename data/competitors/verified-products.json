@@ -18286,29 +18286,82 @@
         "manufacturer": "Advanced Construction Robotics",
         "model": "TyBOT",
         "price": "Not disclosed",
+        "weight": "1864 kg base unit; configuration-dependent; wheel loads are separate",
+        "size": "Truss end-to-end width: base 9.5 m, standard 20.5 m, full 38.5 m; not rail working width",
+        "batteryLife": "",
+        "maxRuntime": "up to 10 h without refueling; generator-powered manufacturer rating",
         "tags": "commercial;construction;rebar-tying",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.2 m/s maximum longitudinal travel; approximately 0.66 ft/s; not tying rate",
+        "terrain": "Bridge decks on screed rails or edge forms; portable rail and bogie accessories depend on installation",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://www.constructionrobots.com/tybot",
-        "description": "Gantry robot locates and ties horizontal rebar intersections on bridge decks. Operates on project edge forms or screed rails without pre-mapping or BIM input. Expandable working width supports different deck layouts; crews handle remaining installation tasks.",
-        "maxRuntime": "up to 10 h without refueling; manufacturer rating"
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Gantry robot autonomously finds and ties horizontal rebar intersections while a supervisor monitors operation and reloads wire. Manufacturer specifications separate base-unit mass, variable truss dimensions and rail span. Generator fuel endurance and active tying rate are conditional ratings; optional carry hoists and transmitter batteries are separate components.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "10-117 ft screed-rail span (approximately 3-36 m); setup-dependent, not truss end-to-end width",
+        "areaRate": "",
+        "throughput": "900 ties/h stated minimum; 1200+ ties/h observed active rate; not guaranteed whole-shift average",
+        "stackingHeight": ""
       },
       "highlights": [
         "Gantry robot locates and ties horizontal rebar intersections on bridge decks",
         "Operates on project edge forms or screed rails without pre-mapping or BIM input",
-        "Expandable working width supports different deck layouts; crews handle remaining installation tasks"
+        "Expandable working width supports different deck layouts; crews handle remaining installation tasks",
+        "Revision C specifies 900 ties/hour minimum and 1200-plus observed active tying. These ratings exclude a guarantee for downtime, wire changes or an entire shift.",
+        "The 1864 kg mass belongs to the base unit. Truss end-to-end widths of 9.5/20.5/38.5 m remain separate from the 10-117 ft adjustable rail span; named size settings do not create additional robot models.",
+        "The generator is rated for up to ten hours without refueling. The brochure’s 12-plus-hour Belly Box battery powers the supervisor interface, and optional one-ton carry hoists do not establish standard robot payload.",
+        "Tie patterns cover all, alternate or every third intersection. Rail travel is rated at 0.2 m/s; bar spacing, rail support and span-dependent grade limits constrain installation. Rain-or-shine marketing is not a numeric ingress rating."
       ],
       "sources": [
         {
-          "name": "Advanced Construction Robotics",
+          "name": "Advanced Construction Robotics — TyBOT specifications revision C",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72040e781fa97154041616_50-003-0010-C_TyBot_Product_Specs_Sheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — TyBOT brochure revision D",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72041e6dd8a7a7389f2026_50-003-0015-D_TyBOT%20Product%20Brochure.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — TyBOT product and supervisor workflow",
           "type": "manufacturer",
           "url": "https://www.constructionrobots.com/tybot",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-10/constructionrobots.com-tybot.json",
-      "reviewNotes": "Runtime refers to fuel endurance, not battery life. Active tie rate is not a guaranteed whole-shift average. Setup time and all-weather language are not deployment guarantees. The page also describes a subcontract package with crews and supervisors; automation does not eliminate all manual rebar installation. Current named product is represented without inventing separate generations from generic marketing text."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-133/source-7.pdf",
+      "reviewNotes": "Batch133. Product-native HTTP bodies and linked PDF native text hash-checked. Generic IronBOT webpage supports family workflow; V3.0 hardware values belong to its explicitly versioned specification sheet. TyBOT optional hoists do not establish standard payload; Belly Box battery life is not robot runtime. Active ties/hour and placed mass/hour remain distinct from travel speed, payload and whole-shift guarantees. IronBOT mass and height imperial/metric discrepancies remain conflicting. PDF copyright year is not launch year. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Complete historical lineups and independent productivity/safety/leadership claims remain unproven.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -75505,6 +75558,80 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-132/source-8.html",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch132: fourteen Engineered Arts family/generation records,238 selected fields,including expansion of four prior Ameca fields. Current rendered main/specification tables,explicit Gen 2 desktop tab captures,native wiki and linked manufacturer PDFs hash-checked. Five current product cards mapped; Gen 1/2/2.6 full-size Ameca and Gen 2/3 desktop scopes kept separate. Family 2021 versus Gen 1 early-2022 release remains conflicting; three Gen 2 desktop mass-conversion discrepancies and RT4 base-width imperial mismatch retained. RT4 options are not new independent robot models; active-leg feet stay secured. SociBot explicitly discontinued since2019; kiosk metrics not inherited by Mini. No visual inspection,sign-in,forms,accounts,transactions or TLS bypass. Prior literal highlights/URLs retained. Complete historical portfolios,exact RT2/RT3 hardware,current stock,independent AI/safety performance,exclusive USPs and leadership remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf"
+      ],
+      "row": {
+        "category": "commercial",
+        "manufacturer": "Advanced Construction Robotics",
+        "model": "IronBOT V3.0",
+        "price": "Not disclosed",
+        "weight": "Unloaded: approximately 9525-14061 kg from imperial range; sheet also states 10000-14000 kg; unresolved",
+        "size": "Height: approximately 3.35-4.57 m converted from 11-15 ft; sheet also states 3.43-4.77 m; unresolved",
+        "batteryLife": "",
+        "maxRuntime": "50+ h without refueling; Cummins Onan generator, manufacturer rating",
+        "tags": "commercial;construction;rebar-placement",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.2 m/s travel (0.66 ft/s); not placement throughput",
+        "terrain": "Bridge-deck rebar placement on existing or supplied rails; span-dependent slope limits",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.constructionrobots.com/ironbot",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Version 3.0 gantry robot for lifting, carrying and placing longitudinal or transverse rebar. The versioned specification provides bundle capacity, rail span, travel speed and generator endurance. A supervisor positions the first bar, enters spacing, supervises and assists singulation; subsequent positioning uses local odometry. Unloaded mass and height have unresolved imperial/metric discrepancies.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "5000 lb (2267.96 kg) placement-boom rebar-bundle capacity; separate from hourly placement rate",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "27-117 ft rail span (8.23-35.66 m); not rebar length or total robot body width",
+        "areaRate": "",
+        "throughput": "5000 lb/h average placement rate in current family webpage; version-specific full-shift result not established",
+        "stackingHeight": ""
+      },
+      "highlights": [
+        "The manufacturer PDF explicitly identifies IronBOT V3.0. Its placement boom has a 5000 lb/2267.96 kg bundle capacity, handling 9-60 ft bars; capacity is separate from the family page’s 5000 lb/hour placement claim.",
+        "Rail span adjusts from 27 to 117 ft. The sheet lists 0.2 m/s travel and 50-plus hours of generator endurance, rather than battery operation; bar length and rail span are different dimensions.",
+        "The sheet pairs 21000-31000 lb unloaded with 10000-14000 kg, and 11-15 ft height with 3.43-4.77 m. Conversions disagree, so both unresolved ranges remain visible.",
+        "The current family workflow requires a supervisor to establish the first position and spacing and assist singulation. Local odometry governs subsequent placement; rain-or-shine and schedule-savings claims are not an ingress certificate or guaranteed project outcome."
+      ],
+      "sources": [
+        {
+          "name": "Advanced Construction Robotics — IronBOT V3.0 specifications",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — IronBOT family product and placement workflow",
+          "type": "manufacturer",
+          "url": "https://www.constructionrobots.com/ironbot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-133/source-8.pdf",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch133. Product-native HTTP bodies and linked PDF native text hash-checked. Generic IronBOT webpage supports family workflow; V3.0 hardware values belong to its explicitly versioned specification sheet. TyBOT optional hoists do not establish standard payload; Belly Box battery life is not robot runtime. Active ties/hour and placed mass/hour remain distinct from travel speed, payload and whole-shift guarantees. IronBOT mass and height imperial/metric discrepancies remain conflicting. PDF copyright year is not launch year. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Complete historical lineups and independent productivity/safety/leadership claims remain unproven."
     }
   ]
 }

@@ -138995,6 +138995,246 @@
           "note": "No standard arm working reach established. Arm span and back-to-fingertip reach are different measurements."
         }
       }
+    },
+    {
+      "robotId": "advanced-construction-robotics-tybot",
+      "manufacturer": "Advanced Construction Robotics",
+      "model": "TyBOT",
+      "sources": [
+        {
+          "name": "Advanced Construction Robotics — TyBOT specifications revision C",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72040e781fa97154041616_50-003-0010-C_TyBot_Product_Specs_Sheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — TyBOT brochure revision D",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72041e6dd8a7a7389f2026_50-003-0015-D_TyBOT%20Product%20Brochure.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — TyBOT product and supervisor workflow",
+          "type": "manufacturer",
+          "url": "https://www.constructionrobots.com/tybot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-133/source-7.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "documented",
+          "note": "No fixed numeric purchase or subcontract price established; per-tie/per-pound commercial offers are not universal prices."
+        },
+        "weight": {
+          "value": "1864 kg base unit; configuration-dependent; wheel loads are separate",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "size": {
+          "value": "Truss end-to-end width: base 9.5 m, standard 20.5 m, full 38.5 m; not rail working width",
+          "status": "documented",
+          "note": "Revision C separates end-to-end truss widths, shipping height without tie module and working rail span; no universal assembled L/W/H envelope inferred."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "12+ h belongs to SCANRECO Belly Box transmitter. Robot uses a generator; no robot battery endurance established."
+        },
+        "maxRuntime": {
+          "value": "up to 10 h without refueling; generator-powered manufacturer rating",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "One-ton carry accessory is optional. Wheel load, 15 lb wire spool and tie rate do not establish a standard arm payload."
+        },
+        "speed": {
+          "value": "0.2 m/s maximum longitudinal travel; approximately 0.66 ft/s; not tying rate",
+          "status": "documented",
+          "note": "0.66 ft/s and 0.2 m/s are rounded equivalents. Auxiliary 0.5 mph / 0.7 kph labels are coarsely rounded; no added precision inferred."
+        },
+        "terrain": {
+          "value": "Bridge decks on screed rails or edge forms; portable rail and bogie accessories depend on installation",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "website": {
+          "value": "https://www.constructionrobots.com/tybot",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "description": {
+          "value": "Gantry robot autonomously finds and ties horizontal rebar intersections while a supervisor monitors operation and reloads wire. Manufacturer specifications separate base-unit mass, variable truss dimensions and rail span. Generator fuel endurance and active tying rate are conditional ratings; optional carry hoists and transmitter batteries are separate components.",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "2026 copyright and revision labels date the reviewed document, not model launch."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "workingWidth": {
+          "value": "10-117 ft screed-rail span (approximately 3-36 m); setup-dependent, not truss end-to-end width",
+          "status": "documented",
+          "note": "Explicit screed-rail width range, not unit body width or unqualified contiguous treatment swath."
+        },
+        "throughput": {
+          "value": "900 ties/h stated minimum; 1200+ ties/h observed active rate; not guaranteed whole-shift average",
+          "status": "documented",
+          "note": "Manufacturer minimum/observed active tie rate; not a binding whole-shift result."
+        }
+      }
+    },
+    {
+      "robotId": "advanced-construction-robotics-ironbot-v3-0",
+      "manufacturer": "Advanced Construction Robotics",
+      "model": "IronBOT V3.0",
+      "sources": [
+        {
+          "name": "Advanced Construction Robotics — IronBOT V3.0 specifications",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — IronBOT family product and placement workflow",
+          "type": "manufacturer",
+          "url": "https://www.constructionrobots.com/ironbot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-133/source-8.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "weight": {
+          "value": "Unloaded: approximately 9525-14061 kg from imperial range; sheet also states 10000-14000 kg; unresolved",
+          "status": "conflicting",
+          "note": "21000-31000 lb converts to about 9525-14061 kg, whereas V3.0 sheet labels 10000-14000 kg. Rounding/basis not explained; both retained in kg to avoid mixed-unit filter ambiguity."
+        },
+        "size": {
+          "value": "Height: approximately 3.35-4.57 m converted from 11-15 ft; sheet also states 3.43-4.77 m; unresolved",
+          "status": "conflicting",
+          "note": "11-15 ft converts to 3.3528-4.572 m, not listed 3.43-4.77 m. No supported reconciliation. Other truss cross-sections and wheelbase are not complete body dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Generator runtime is fuel endurance; no whole-robot battery hours established."
+        },
+        "maxRuntime": {
+          "value": "50+ h without refueling; Cummins Onan generator, manufacturer rating",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Placement-boom bundle capacity belongs in transportPayload; no conventional robot-arm tool payload inferred."
+        },
+        "speed": {
+          "value": "0.2 m/s travel (0.66 ft/s); not placement throughput",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "terrain": {
+          "value": "Bridge-deck rebar placement on existing or supplied rails; span-dependent slope limits",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "website": {
+          "value": "https://www.constructionrobots.com/ironbot",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "description": {
+          "value": "Version 3.0 gantry robot for lifting, carrying and placing longitudinal or transverse rebar. The versioned specification provides bundle capacity, rail span, travel speed and generator endurance. A supervisor positions the first bar, enters spacing, supervises and assists singulation; subsequent positioning uses local odometry. Unloaded mass and height have unresolved imperial/metric discrepancies.",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "2025 copyright and V3.0 footer do not establish model launch date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established by the selected manufacturer material. Generator fuel endurance, transmitter batteries, accessories and project-specific results remain separate."
+        },
+        "transportPayload": {
+          "value": "5000 lb (2267.96 kg) placement-boom rebar-bundle capacity; separate from hourly placement rate",
+          "status": "documented",
+          "note": "Versioned PDF explicitly labels placement-boom payload capacity 5000 lb/2267.96 kg; modeled as carried material rather than a robot-arm flange rating."
+        },
+        "workingWidth": {
+          "value": "27-117 ft rail span (8.23-35.66 m); not rebar length or total robot body width",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the conditions and configuration scope stated in the field; no independent performance test is inferred."
+        },
+        "throughput": {
+          "value": "5000 lb/h average placement rate in current family webpage; version-specific full-shift result not established",
+          "status": "documented",
+          "note": "Current generic family page calls 5000 lb/hour an average and elsewhere says over 5000. It does not establish that every V3.0 configuration achieves this over a full shift."
+        }
+      }
     }
   ]
 }

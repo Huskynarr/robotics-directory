@@ -8782,14 +8782,30 @@
       "highlights": [
         "Gantry robot locates and ties horizontal rebar intersections on bridge decks",
         "Operates on project edge forms or screed rails without pre-mapping or BIM input",
-        "Expandable working width supports different deck layouts; crews handle remaining installation tasks"
+        "Expandable working width supports different deck layouts; crews handle remaining installation tasks",
+        "Revision C specifies 900 ties/hour minimum and 1200-plus observed active tying. These ratings exclude a guarantee for downtime, wire changes or an entire shift.",
+        "The 1864 kg mass belongs to the base unit. Truss end-to-end widths of 9.5/20.5/38.5 m remain separate from the 10-117 ft adjustable rail span; named size settings do not create additional robot models.",
+        "The generator is rated for up to ten hours without refueling. The brochure’s 12-plus-hour Belly Box battery powers the supervisor interface, and optional one-ton carry hoists do not establish standard robot payload.",
+        "Tie patterns cover all, alternate or every third intersection. Rail travel is rated at 0.2 m/s; bar spacing, rail support and span-dependent grade limits constrain installation. Rain-or-shine marketing is not a numeric ingress rating."
       ],
       "sources": [
         {
-          "name": "Advanced Construction Robotics",
+          "name": "Advanced Construction Robotics — TyBOT specifications revision C",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72040e781fa97154041616_50-003-0010-C_TyBot_Product_Specs_Sheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — TyBOT brochure revision D",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/6a72041e6dd8a7a7389f2026_50-003-0015-D_TyBOT%20Product%20Brochure.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — TyBOT product and supervisor workflow",
           "type": "manufacturer",
           "url": "https://www.constructionrobots.com/tybot",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -35515,6 +35531,34 @@
       ],
       "discoveredIn": [
         "https://wiki.engineeredarts.co.uk/SociBot_At_a_Glance.html"
+      ]
+    },
+    {
+      "robotId": "advanced-construction-robotics-ironbot-v3-0",
+      "manufacturer": "Advanced Construction Robotics",
+      "model": "IronBOT V3.0",
+      "highlights": [
+        "The manufacturer PDF explicitly identifies IronBOT V3.0. Its placement boom has a 5000 lb/2267.96 kg bundle capacity, handling 9-60 ft bars; capacity is separate from the family page’s 5000 lb/hour placement claim.",
+        "Rail span adjusts from 27 to 117 ft. The sheet lists 0.2 m/s travel and 50-plus hours of generator endurance, rather than battery operation; bar length and rail span are different dimensions.",
+        "The sheet pairs 21000-31000 lb unloaded with 10000-14000 kg, and 11-15 ft height with 3.43-4.77 m. Conversions disagree, so both unresolved ranges remain visible.",
+        "The current family workflow requires a supervisor to establish the first position and spacing and assist singulation. Local odometry governs subsequent placement; rain-or-shine and schedule-savings claims are not an ingress certificate or guaranteed project outcome."
+      ],
+      "sources": [
+        {
+          "name": "Advanced Construction Robotics — IronBOT V3.0 specifications",
+          "type": "manufacturer",
+          "url": "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Advanced Construction Robotics — IronBOT family product and placement workflow",
+          "type": "manufacturer",
+          "url": "https://www.constructionrobots.com/ironbot",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf"
       ]
     }
   ]
