@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,368 catalog rows**, with 646 exact
-manufacturer spellings. Batch 143 refreshed the separate heuristic gap file offline
-against all 2,368 rows (638 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,371 catalog rows**, with 646 exact
+manufacturer spellings. Batch 144 refreshed the separate heuristic gap file offline
+against all 2,371 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1299 dated records across the catalog, including
-185 existing-model enrichments and 1114 task additions. All 430 catalog models
+Current product-highlight coverage: 1302 dated records across the catalog, including
+185 existing-model enrichments and 1117 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1114 task additions, totaling 2,368.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1117 task additions, totaling 2,371.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 477 have selected-field reviews and 41 await those reviews. Family and
+highlights; 478 have selected-field reviews and 40 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,459 fields across 1240 catalog models: 8,599 documented,
-14,441 not documented, 313 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 23,527 fields across 1244 catalog models: 8,625 documented,
+14,483 not documented, 313 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -9754,3 +9754,112 @@ idempotent. Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprü
 Daten-Zwischencommit `909a5ec8c570ca3c1e6cfeb38d3ab36efe84449f` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen.
+
+
+## Ergänzung 144 – Double Robotics: drei Generationen und Kamera-Dolly-Konfiguration (3. November 2026)
+
+Original Double, Double 2 und das benannte Paket 360 Camera Dolly sind ergänzt;
+Double 3 erhält eine technische Teilprüfung. Vier Prüfungen umfassen 68 Felder:
+26 dokumentiert und 42 nicht dokumentiert. Hinzu kommen 19 Merkmalsaussagen,
+19 Produktquellenverweise und ein Firmenfokus. Die drei alten Double-3-Merkmale,
+Modell-ID, Fund-URLs und Medien bleiben erhalten. Unbelegte 1,0 m/s und „medium“
+entfallen. 2.367 andere Ausgangszeilen, 1.240 vorherige Feldprüfungen und
+138 Firmenfokusse behalten ihre Werte. Es gibt keine Anwendungscode- oder
+CSV-Schemaänderung. Bestand: 2.371 Einträge, 1.302 datierte Merkmalssätze,
+5.764 Aussagen, 2.723 Produktquellenverweise sowie 1.244 Feldprüfungen mit
+23.527 Feldern. 139 Firmenfokusse; von 518 ursprünglichen Queue-Zielen sind
+478 technisch teilgeprüft, 40 stehen aus. Dauerbeleg:
+`reports/competitor-batch-144-evidence.json`.
+
+23 Antworten sind gehasht gesichert. 19 liefern HTTP 200, davon ist eine lediglich
+die private Posthaven-Passwortseite nach Redirect des alten Blogs und ausgeschlossen.
+18 erfolgreiche öffentliche Inhalte bleiben; zwei Support-Redirects liefern HTTP 502,
+zwei vermutete Presse-PDF-Adressen HTTP 404. Diese Fehlerinhalte begründen keine
+Produkteigenschaften. Zwei native PDFs enthalten zusammen drei Seiten: die
+zweiseitige generische iPad-Anleitung Revision 13 und die einseitige eigene
+Apple-Store-Mitteilung. Nur bestehende Textschichten und native HTML-/Markdown-
+Texte sind geprüft, keine visuelle Prüfung oder OCR. Keine Passwort-, Konto-,
+Formular-, Nachrichten-, Kontakt- oder Transaktionsaktion und keine Medienübernahme.
+Der öffentliche SDK-Text wird gelesen; keine Geräte-, Privatnetz- oder Fleet-API
+aufgerufen und keine Schlüssel angefordert.
+
+Die eigene Mitteilung vom 12. November 2013 bestätigt erste Double-Auslieferungen
+im Mai 2013 und nennt damals 2.499,95 USD im Apple Store. Kompatible iPads und
+kommende iPad-Air-Unterstützung bleiben historischer Stand. Double 2 hat laut
+Produktseite Lateral Stability Control und vom Fahrer zugeschalteten Power Drive.
+„Bis 80 Prozent schneller“ ergibt ohne Grundgeschwindigkeit keine absolute
+Geschwindigkeitsangabe. Die optionale Camera Kit mit fünf Megapixeln, 150 Grad
+Bildwinkel, dauerhaftem Bodenbild und Lightning-Stromdurchleitung wird nicht
+jedem nackten Double 2 oder Original Double als Grundausstattung zugeschrieben.
+Die Seite bestätigt ausdrücklich ihre Kompatibilität mit der ersten Generation.
+Die generische Revision-13-Anleitung enthält Power Drive, iPad-Aufbau und ungefähr
+zwei bis drei Stunden Laden, ist aber nicht generationstituliert; ihre Zahlen
+werden keiner der älteren Generationen als exakte Spezifikation zugeordnet.
+2016 in einer Upgrade-Rückschau ersetzt keine ausdrückliche Double-2-Startdatierung.
+
+Double 3 hat laut eigener FAQ ungefähr 7,3 kg beziehungsweise 16 lb, bis vier Stunden
+normale Nutzung und ungefähr zwei Stunden bis voll. Das metrische Feld enthält
+keinen zusätzlichen lb-Token, der den Filter zur erneuten Umrechnung veranlassen
+würde. Beide Dauerfilter lesen vier Stunden. Die 47–60 Zoll verstellbare Höhe
+mit ungefähr 120–150 cm Hersteller-Rundung ist kein vollständiges Längen-/Breiten-
+/Höhenmaß. Doppelkameras mit je 13 Megapixeln, sechs Beamforming-Mikrofone,
+RealSense-D430-Module, Ultraschallsensoren und Jetson TX2-4GB sind genannt;
+neun DoF gehören zum Inertialsensor, nicht zur mechanischen Gelenkzahl.
+
+Click-to-Drive bedeutet vom Fahrer gewähltes sichtbares Ziel mit lokaler
+Hindernisassistenz. Das SDK beschreibt auch das Anklicken des Ladestationssymbols.
+Gebäudeweite automatische Kartierung und Pfadplanung bleiben auf der Übersicht
+zukünftig; mögliche ROS-Konnektoren sind keine installierte ROS-Unterstützung.
+Das FAQ nennt WLAN für die Internetverbindung. Vorhandenes Bluetooth beweist kein
+natives Mobilfunkmodem. Das iPhone-vermittelte LTE-/4G-/WLAN-/Bluetooth-Szenario
+der Kamera-Dolly gehört zu deren Konfiguration. Keine unabhängige Prüfung
+unfallfreier Navigation, heutiger Browserkompatibilität oder sicherer Cloud-Dienste.
+
+Der Gründer-Interviewtext vom 10. September 2019 wird ausschließlich für namentlich
+zugeordnete Antworten von David Cann und Marc DeVidts als Primärbeleg genutzt.
+Deren 3.999-USD-Bestellankündigung und geplante erste Auslieferungen Ende September
+belegen das Ankündigungsjahr 2019, keinen tatsächlichen ersten Liefertag oder
+heutigen Preis. Redaktionelle Einleitung und weltweite Marktführerbehauptung
+werden nicht zu Herstellerdaten. Die aktuelle Startseite sagt „Sold Out“; daraus
+folgt weder ein exakter Einstellungszeitpunkt noch bewiesene Firmenschließung,
+globale Verfügbarkeit oder funktionierender Anrufdienst. Ein Double-3-Kopf kann
+laut Hersteller Double-2-Basen aufrüsten und wird nicht als weiterer kompletter
+Roboter gezählt. Gehäusefarben, Kamera-, Audio-, Dock- und Kopfzubehör bleiben
+Zubehör beziehungsweise Optionen. Öffentliche SDK-/Release-Notizen und
+Performance-Modi begründen keine zugesicherte heutige Pflege oder Supportdauer.
+
+Die 360 Camera Dolly ist ausdrücklich ein Paket aus Double 2, Universal 360 Camera
+Mount und Pelican-Koffer. Die undatierte Herstellerseite listet 3.000 USD für das
+Paket und 249 USD für die Halterung allein; aktuelle Kasse, Bestand und Preis sind
+nicht verifiziert. Die Halterung allein ist kein Roboter. Kameras und Steuergerät
+werden aus dem Paketumfang nicht erfunden. Die Fünf-Pfund-Grenze oben entspricht
+rund 2,27 kg und ist keine gesamte Fahrwerkslast. Einige zusätzliche Pfund nahe
+der Basis bleiben mangels exakter Zahl unsummiert. Gezeigte Sechs-GoPro-Aufnahmen
+sind externe Beispiel-Rigs, keine zugesicherte Kamera-Lieferung. Leise ist ohne
+dB-Prüfung Anbieterprosa, keine unabhängige Messung; eine autonome Filmfahrt wird
+nicht behauptet. Ein exaktes Erstverkaufsjahr wird aus sekundären Nachrichten
+nicht übernommen.
+
+Fleet Management listet Basic kostenlos und Professional mit 79,20 USD pro
+Roboter/Monat bei Jahreszahlung oder 99 USD monatlich. Diese Softwarepreise sind
+kein Roboter-Kaufpreis und keine bestätigte aktuelle Buchbarkeit. SSO, Kalender,
+Zugangsrechte und Verbindungsqualitätsprotokolle sind beschriebene Dienste.
+Kontogebundene REST-Dokumentation und API-Schlüssel werden nicht geöffnet.
+Historische Verschlüsselungsangaben beweisen keine aktuelle Zertifizierung oder
+vollständige heutige Sicherheitsprüfung.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.422 Seiten. Audit: null Fehler und 1.246 Warnungen; zwei neue
+betreffen unbelegte Erscheinungsjahre von Double 2 und der Kamera-Dolly.
+Vier Detailseiten mit 68 Feldern, Quellen, strukturierten Daten, Markenfokus,
+Merkmalsuche und Vierer-Vergleich sind geprüft. Eine ursprüngliche Modell-
+Exportzeile und ein Queueziel liefern jeweils 17 Feldstatus-Einträge. Der
+bestehende Firmenbeschreibungs-Identitätsexport bleibt byteidentisch. Reimport:
+null Ergänzungen, 32 getrackte Datendateien byteidentisch. Offline-Refresh bleibt
+semantisch idempotent. Eigene Browser, Testserver und Hilfsprozesse sind beendet.
+
+Daten-Zwischencommit `9702b183a1af41b5f0e8973290cf2ad8e08fc93e` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
+Portfolios, alle historischen Hardwarestände und USPs sowie Marktführerschaft
+bleiben unbewiesen.

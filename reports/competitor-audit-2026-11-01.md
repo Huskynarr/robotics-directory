@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.368 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1114 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1299 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.371 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1117 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1302 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 138 |
+| Firmenfokus-Prüfungen mit Quellen | 139 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1114 ergänzte Modelle ergeben 2.368 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1117 ergänzte Modelle ergeben 2.371 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-138 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+139 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1299 Datensätze
+Modellseiten verlinken Markenprofile. Die 1302 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 477 haben ausgewählte Datenfeldprüfungen und 41
+haben datierte Merkmalsbelege; 478 haben ausgewählte Datenfeldprüfungen und 40
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11989,3 +11989,112 @@ idempotent. Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprü
 Daten-Zwischencommit `909a5ec8c570ca3c1e6cfeb38d3ab36efe84449f` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen.
+
+
+## Ergänzung 144 – Double Robotics: drei Generationen und Kamera-Dolly-Konfiguration (3. November 2026)
+
+Original Double, Double 2 und das benannte Paket 360 Camera Dolly sind ergänzt;
+Double 3 erhält eine technische Teilprüfung. Vier Prüfungen umfassen 68 Felder:
+26 dokumentiert und 42 nicht dokumentiert. Hinzu kommen 19 Merkmalsaussagen,
+19 Produktquellenverweise und ein Firmenfokus. Die drei alten Double-3-Merkmale,
+Modell-ID, Fund-URLs und Medien bleiben erhalten. Unbelegte 1,0 m/s und „medium“
+entfallen. 2.367 andere Ausgangszeilen, 1.240 vorherige Feldprüfungen und
+138 Firmenfokusse behalten ihre Werte. Es gibt keine Anwendungscode- oder
+CSV-Schemaänderung. Bestand: 2.371 Einträge, 1.302 datierte Merkmalssätze,
+5.764 Aussagen, 2.723 Produktquellenverweise sowie 1.244 Feldprüfungen mit
+23.527 Feldern. 139 Firmenfokusse; von 518 ursprünglichen Queue-Zielen sind
+478 technisch teilgeprüft, 40 stehen aus. Dauerbeleg:
+`reports/competitor-batch-144-evidence.json`.
+
+23 Antworten sind gehasht gesichert. 19 liefern HTTP 200, davon ist eine lediglich
+die private Posthaven-Passwortseite nach Redirect des alten Blogs und ausgeschlossen.
+18 erfolgreiche öffentliche Inhalte bleiben; zwei Support-Redirects liefern HTTP 502,
+zwei vermutete Presse-PDF-Adressen HTTP 404. Diese Fehlerinhalte begründen keine
+Produkteigenschaften. Zwei native PDFs enthalten zusammen drei Seiten: die
+zweiseitige generische iPad-Anleitung Revision 13 und die einseitige eigene
+Apple-Store-Mitteilung. Nur bestehende Textschichten und native HTML-/Markdown-
+Texte sind geprüft, keine visuelle Prüfung oder OCR. Keine Passwort-, Konto-,
+Formular-, Nachrichten-, Kontakt- oder Transaktionsaktion und keine Medienübernahme.
+Der öffentliche SDK-Text wird gelesen; keine Geräte-, Privatnetz- oder Fleet-API
+aufgerufen und keine Schlüssel angefordert.
+
+Die eigene Mitteilung vom 12. November 2013 bestätigt erste Double-Auslieferungen
+im Mai 2013 und nennt damals 2.499,95 USD im Apple Store. Kompatible iPads und
+kommende iPad-Air-Unterstützung bleiben historischer Stand. Double 2 hat laut
+Produktseite Lateral Stability Control und vom Fahrer zugeschalteten Power Drive.
+„Bis 80 Prozent schneller“ ergibt ohne Grundgeschwindigkeit keine absolute
+Geschwindigkeitsangabe. Die optionale Camera Kit mit fünf Megapixeln, 150 Grad
+Bildwinkel, dauerhaftem Bodenbild und Lightning-Stromdurchleitung wird nicht
+jedem nackten Double 2 oder Original Double als Grundausstattung zugeschrieben.
+Die Seite bestätigt ausdrücklich ihre Kompatibilität mit der ersten Generation.
+Die generische Revision-13-Anleitung enthält Power Drive, iPad-Aufbau und ungefähr
+zwei bis drei Stunden Laden, ist aber nicht generationstituliert; ihre Zahlen
+werden keiner der älteren Generationen als exakte Spezifikation zugeordnet.
+2016 in einer Upgrade-Rückschau ersetzt keine ausdrückliche Double-2-Startdatierung.
+
+Double 3 hat laut eigener FAQ ungefähr 7,3 kg beziehungsweise 16 lb, bis vier Stunden
+normale Nutzung und ungefähr zwei Stunden bis voll. Das metrische Feld enthält
+keinen zusätzlichen lb-Token, der den Filter zur erneuten Umrechnung veranlassen
+würde. Beide Dauerfilter lesen vier Stunden. Die 47–60 Zoll verstellbare Höhe
+mit ungefähr 120–150 cm Hersteller-Rundung ist kein vollständiges Längen-/Breiten-
+/Höhenmaß. Doppelkameras mit je 13 Megapixeln, sechs Beamforming-Mikrofone,
+RealSense-D430-Module, Ultraschallsensoren und Jetson TX2-4GB sind genannt;
+neun DoF gehören zum Inertialsensor, nicht zur mechanischen Gelenkzahl.
+
+Click-to-Drive bedeutet vom Fahrer gewähltes sichtbares Ziel mit lokaler
+Hindernisassistenz. Das SDK beschreibt auch das Anklicken des Ladestationssymbols.
+Gebäudeweite automatische Kartierung und Pfadplanung bleiben auf der Übersicht
+zukünftig; mögliche ROS-Konnektoren sind keine installierte ROS-Unterstützung.
+Das FAQ nennt WLAN für die Internetverbindung. Vorhandenes Bluetooth beweist kein
+natives Mobilfunkmodem. Das iPhone-vermittelte LTE-/4G-/WLAN-/Bluetooth-Szenario
+der Kamera-Dolly gehört zu deren Konfiguration. Keine unabhängige Prüfung
+unfallfreier Navigation, heutiger Browserkompatibilität oder sicherer Cloud-Dienste.
+
+Der Gründer-Interviewtext vom 10. September 2019 wird ausschließlich für namentlich
+zugeordnete Antworten von David Cann und Marc DeVidts als Primärbeleg genutzt.
+Deren 3.999-USD-Bestellankündigung und geplante erste Auslieferungen Ende September
+belegen das Ankündigungsjahr 2019, keinen tatsächlichen ersten Liefertag oder
+heutigen Preis. Redaktionelle Einleitung und weltweite Marktführerbehauptung
+werden nicht zu Herstellerdaten. Die aktuelle Startseite sagt „Sold Out“; daraus
+folgt weder ein exakter Einstellungszeitpunkt noch bewiesene Firmenschließung,
+globale Verfügbarkeit oder funktionierender Anrufdienst. Ein Double-3-Kopf kann
+laut Hersteller Double-2-Basen aufrüsten und wird nicht als weiterer kompletter
+Roboter gezählt. Gehäusefarben, Kamera-, Audio-, Dock- und Kopfzubehör bleiben
+Zubehör beziehungsweise Optionen. Öffentliche SDK-/Release-Notizen und
+Performance-Modi begründen keine zugesicherte heutige Pflege oder Supportdauer.
+
+Die 360 Camera Dolly ist ausdrücklich ein Paket aus Double 2, Universal 360 Camera
+Mount und Pelican-Koffer. Die undatierte Herstellerseite listet 3.000 USD für das
+Paket und 249 USD für die Halterung allein; aktuelle Kasse, Bestand und Preis sind
+nicht verifiziert. Die Halterung allein ist kein Roboter. Kameras und Steuergerät
+werden aus dem Paketumfang nicht erfunden. Die Fünf-Pfund-Grenze oben entspricht
+rund 2,27 kg und ist keine gesamte Fahrwerkslast. Einige zusätzliche Pfund nahe
+der Basis bleiben mangels exakter Zahl unsummiert. Gezeigte Sechs-GoPro-Aufnahmen
+sind externe Beispiel-Rigs, keine zugesicherte Kamera-Lieferung. Leise ist ohne
+dB-Prüfung Anbieterprosa, keine unabhängige Messung; eine autonome Filmfahrt wird
+nicht behauptet. Ein exaktes Erstverkaufsjahr wird aus sekundären Nachrichten
+nicht übernommen.
+
+Fleet Management listet Basic kostenlos und Professional mit 79,20 USD pro
+Roboter/Monat bei Jahreszahlung oder 99 USD monatlich. Diese Softwarepreise sind
+kein Roboter-Kaufpreis und keine bestätigte aktuelle Buchbarkeit. SSO, Kalender,
+Zugangsrechte und Verbindungsqualitätsprotokolle sind beschriebene Dienste.
+Kontogebundene REST-Dokumentation und API-Schlüssel werden nicht geöffnet.
+Historische Verschlüsselungsangaben beweisen keine aktuelle Zertifizierung oder
+vollständige heutige Sicherheitsprüfung.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.422 Seiten. Audit: null Fehler und 1.246 Warnungen; zwei neue
+betreffen unbelegte Erscheinungsjahre von Double 2 und der Kamera-Dolly.
+Vier Detailseiten mit 68 Feldern, Quellen, strukturierten Daten, Markenfokus,
+Merkmalsuche und Vierer-Vergleich sind geprüft. Eine ursprüngliche Modell-
+Exportzeile und ein Queueziel liefern jeweils 17 Feldstatus-Einträge. Der
+bestehende Firmenbeschreibungs-Identitätsexport bleibt byteidentisch. Reimport:
+null Ergänzungen, 32 getrackte Datendateien byteidentisch. Offline-Refresh bleibt
+semantisch idempotent. Eigene Browser, Testserver und Hilfsprozesse sind beendet.
+
+Daten-Zwischencommit `9702b183a1af41b5f0e8973290cf2ad8e08fc93e` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
+Portfolios, alle historischen Hardwarestände und USPs sowie Marktführerschaft
+bleiben unbewiesen.
