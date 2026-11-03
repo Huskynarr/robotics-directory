@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.346 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1092 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1277 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.366 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1112 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1297 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 136 |
+| Firmenfokus-Prüfungen mit Quellen | 137 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1092 ergänzte Modelle ergeben 2.346 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1112 ergänzte Modelle ergeben 2.366 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-136 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+137 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1277 Datensätze
+Modellseiten verlinken Markenprofile. Die 1297 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 475 haben ausgewählte Datenfeldprüfungen und 43
+haben datierte Merkmalsbelege; 476 haben ausgewählte Datenfeldprüfungen und 42
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11751,3 +11751,118 @@ Daten-Zwischencommit `594285fbe69690747a180d3193644552efaa6a5b` wurde auf `codex
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige Portfolios, alle USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 142 – Daifuku: SOTR, regionale AGVs, Reinraum und Flughafen (3. November 2026)
+
+20 neue benannte Modelle beziehungsweise Konfigurationen ergänzen das vorhandene
+SOTR-M. Alle 21 erhalten ausgewählte technische Prüfungen: 367 Felder, davon 150
+dokumentiert, 209 nicht dokumentiert und acht widersprüchlich. 45 Merkmalsaussagen,
+48 zusätzliche Produktquellenverweise und ein Firmenfokus kommen hinzu. Die drei
+alten wörtlichen SOTR-M-Merkmale, ID, Fund-URL und Medien bleiben erhalten. 2.345
+andere Ausgangszeilen, 1.216 vorhandene Feldprüfungen und 136 Firmenfokusse bleiben
+unverändert. Gesamtbestand: 2.366 Katalogeinträge, 1.297 datierte Merkmalssätze,
+5.731 Aussagen, 2.691 Produktquellenverweise, 1.237 Feldprüfungen mit 23.408 Feldern
+und 137 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen sind 476 technisch
+teilgeprüft, 42 noch offen. Dauerbeleg: `reports/competitor-batch-142-evidence.json`.
+
+Die 40 gesicherten öffentlichen Antworten umfassen 37 HTTP 200 und drei ungenutzte
+HTTP 404 für zunächst vermutete Pfade. 20 PDFs mit insgesamt 82 Seiten sind gesichert. SHA256 und vorhandene native PDF-Textschichten
+sind geprüft. Rotierte technische PDF-Seiten wurden zusätzlich in gespeicherter
+Textreihenfolge gelesen, um Feldbezeichnungen und Werte richtig zuzuordnen. Es gab
+keine visuelle Prüfung, OCR, Anmeldung, Kontaktaufnahme, Nachricht, Transaktion,
+Formularübermittlung oder Medienübernahme. Der Hersteller verlinkt öffentliche
+PDFs direkt; das Formular auf smarthandling.com wurde nicht ausgefüllt. Ein global
+eingeblendeter Investor-Dialog wurde nicht bestätigt und nicht als Produktinhalt
+oder regionale Vertriebsbedingung übernommen.
+
+SOTR-M trägt Kisten/Behälter auf mobilen Förderern. „Ohne Förderer“ im Profil
+beschreibt den Verzicht auf feste Förderstrecken; es widerlegt nicht den Förderer
+auf jedem Fahrzeug. SOTR-L erhält bis 1.000 kg Palettenlast. SOTR-S erhält
+180 m/min Fahrzeuggeschwindigkeit und getrennt bis 10.000 Zeilen/Stunde für die
+gesamte Sortieranlage mit Induktion, Liftern und Rutschen; dieser Anlagenwert ist
+keine Leistung jedes einzelnen Fahrzeugs. Matrixcode-Führung und Bedieneraufgaben
+bleiben genannt. SOTR-F ist im Profil 2026 als Gabeltransportroboter belegt, ohne
+Lastübernahme vom SOTR-L. STV ist eine schienengeführte Familie mit 200 m/min Fahrt
+und separaten 30 m/min Lasttransfer. Die -30°C-Angabe gilt der Kältevariante;
+Wartung im laufenden Betrieb gilt nicht für die Single-Shuttle-Konfiguration.
+
+Neu sind die regional benannten M100-TT, M100-ST, M300-TT, M300-CF, M300-SC,
+M500-U, U2200, M3K-CF, M8K-PJ, M10K-T und M40K-T. Smart Handling gehört laut
+aktueller Herstellerseite zu Daifuku Airport America innerhalb Daifuku North
+America; die Montagebroschüre nennt den früheren Namen Jervis B. Webb Company.
+Andere Wettbewerber-Firmenidentitäten werden dadurch nicht automatisch verbunden.
+M500-U und U2200 bleiben benannte regionale Einträge mit ungeklärter Hardware-/
+Umbenennungsbeziehung. Ähnliche 2.268-kg-Plattformen sind weder Beweis für zwei
+verschiedene Konstruktionen noch hinreichender Beleg für eine exakte Aliasauflösung.
+907 kg/1.995 mm beim M500-U und gedruckte 909 kg/1.996 mm beim U2200 bleiben getrennt.
+Optionale Förder-/Hubdecks reduzieren bei beiden die Last auf 1.814 kg.
+
+Schlepplast steht in `transportPayload`, getragene Plattform-/Gabelmasse in
+`payload`. M100-TT/ST nennen 885 kg bei 30,5 m/min oder 476 kg bei 48,8 m/min,
+mit zwei Prozent Anhängerradreibung und zehn Prozent Rückwärts-Derating.
+Steigung, Fahrmodus und Zusatzmasse behalten ihre Bedingungen. M300-TT nennt
+2.041 kg bei 48,8 m/min; höhere Inertialgeschwindigkeit wird nicht automatisch mit
+voller Last kombiniert. M300-CF trennt 635 kg bei 508 mm von 558 kg bei 610 mm
+Lastschwerpunkt. M3K-CF trennt Körpermaße ohne Gabeln, zwei Hubhöhen mit
+unterschiedlicher Fahrzeughöhe und Batteriegewicht. M8K-PJ erreicht 3.628 kg nur
+mit verstärkten Gabeln; Standard sind 2.041 kg. Vorwärts 109 m/min und rückwärts
+27,5 m/min bleiben getrennt. Bei M40K-T stehen 2 m/s beladen neben 2,5 m/s leer.
+Ah, kumulative Ah-Lebensdauer, Ladestrom, Tastverhältnis und 24/7-Flottenbetrieb
+belegen keine Einzelakku-Laufzeit oder Voll-Ladezeit. Numerische IP-Schutzarten
+und ursprüngliche Erscheinungsjahre bleiben unbelegt.
+
+Acht Feldkonflikte sind sichtbar: M100-TT hat regionale Massendifferenzen,
+UK-Länge „1473 m“, US-Längenpaar „58 in / 1595 mm“ und 855-kg-Tow-Pin-Beschriftung
+gegenüber 885-kg-Tabelle/Überschrift. M100-ST behält abweichende regionale Maße und
+UK 499 kg gegenüber US 830 lb am Ein-Prozent-Gefälle. M300-CF hat UK 1.173 kg
+gegenüber intern widersprüchlichem US-Paar 2.585 lb / 1.084 kg sowie abweichende
+Zuordnung des reduzierten Tempos zu Laser beziehungsweise Magnetband.
+M10K-T nennt widersprüchliche 89 in / 2.134 mm Höhe. Diese Werte werden weder
+still korrigiert noch in eine einzige scheinbar sichere Zahl überführt. Der
+M40K-T-Batterieaufdruck „6830 Ah“ bleibt als ungeklärte Quellenschreibweise erhalten;
+er wird nicht als 630 Ah interpretiert oder für eine Laufzeitrechnung verwendet.
+
+Profil 2026 belegt zusätzlich XY-Picking Robot und Cleanway CLW-A7. Drei-Achs-
+Handhabung ist keine geprüfte Summe unabhängiger mechanischer Gelenke. Die generische
+Piece-Picking-Seite belegt keinen exakten Tool-/Modellgleichstand mit XY-Picking.
+CLW-A7 nennt bis 100 kg; dieser Wert gilt nicht für CLW-08K oder alle Cleanway-
+Fahrzeuge. Der Herstellerbericht vom 15. November 2024 nennt CLW-08K, TRVS und MIT.
+TRVS zieht laut Quelle bis 6,5 „tons“, mit verbundenen Einheiten mehr als zehn;
+die Textquelle definiert metrische gegenüber US-short tons nicht ausdrücklich.
+Deshalb wird keine Kilogrammumrechnung erfunden und die Mehrfachlast nicht pro
+Fahrzeug gewertet. Die dortige Zukunftsvision bis 2030 ist kein heutiges Lieferprogramm.
+
+MIT ist ein AGV-Inspektionstisch für Gepäck. Der Bericht vom 15. Dezember 2023
+beschreibt Magnetbandführung, Bodenladepunkte, verstellbaren Edelstahltisch,
+Kipp-Rückgabe und menschliche Sicherheitsinspektion. Die Plattform transportiert;
+TSA-Personal untersucht und gibt Gepäck frei. Beispielhafte Gepäckmasse über 20 kg
+belegt keine Nenntraglast. Mehr als 500 Systeme an zehn US-Flughäfen ist eine
+datierte Herstellerangabe von 2024, keine unabhängige aktuelle Flottenzählung.
+
+Case-Picking-, Piece-Picking- und Layer-Picker-Seiten sagen ausdrücklich, dass der
+Roboter nicht einzeln verkauft wird. 600 beziehungsweise 2.000 Kisten/Stunde
+gehören ihren jeweiligen Integrationen und werden keinem anderen Modell vererbt.
+Allgemeine Anlagen-/Anwendungsüberschriften, ASRS-/Shuttle-/Lagerfamilien,
+Engine-Marriage-Anwendungen, SmartCart-Familienname, SAM/CartTools/AGVTools,
+Sensoren, Ladegeräte und Stickstoffspülung erzeugen in diesem Batch keine weiteren
+Roboterkarten. Vollständige historische und regionale Portfolios, aktuelle
+Lieferbarkeit und exklusive USPs bleiben weiter zu prüfen.
+
+808 Unit-Tests in 64 Dateien und 20 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.417 Seiten. Audit: null Fehler, 1.243 Warnungen, davon 20 neue
+Warnungen für unbelegte Erscheinungsjahre der Ergänzungen. 21 Detailseiten mit
+367 Feldern, Quellenstatus, Leerwerten, strukturierten Daten und Firmenfokus sind
+geprüft; ebenso Merkmalsuche und Vierermodellevergleich. Das ursprüngliche Modell-
+und Queueziel enthält 17 Feldstatus-Einträge. Zusätzlich sind alle elf metrischen
+AGV-Massewerte gegen die numerische Gewichtsfilterung geprüft. Imperiale
+Quellenpaare stehen in Hinweisen/Merkmalen, damit der bestehende Parser eine
+metrische Zahl nicht wegen eines späteren lb-Hinweises als Pfund interpretiert. Reimport ergänzt null Modelle und
+lässt 32 getrackte Datendateien byteidentisch; Offline-Refresh ist semantisch
+idempotent. Nach Datenkorrekturen wurden relevante Prüfungen erneut ausgeführt.
+Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `34c326d6834047457bbb8c435b276f896952faac` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Eine
+vollständige Prüfung aller Marken/Modelle/USPs und Rang Nr. 1 sind nicht belegt.
