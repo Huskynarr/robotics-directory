@@ -1,0 +1,953 @@
+{
+  "batch": 172,
+  "checkedAt": "2026-11-03",
+  "manufacturers": [
+    "Hiwonder"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 56,
+  "fieldStatuses": {
+    "documented": 32,
+    "not-documented": 24
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four catalog rows that previously had no field review were reviewed against current Hiwonder shop pages. TonyPi, JetAuto, AiNova and PuppyPi are four separate current models; the TonyPi Pro kit is a 20 DOF variant of the same model and is recorded in the DOF field rather than merged into a separate row. The reviewed pages publish current shop prices, so the catalog 590, 440, 86 and 700 USD values are replaced. The PuppyPi catalog ~1.5 kg mass, ~2 hours battery, 120 min runtime and small size label are replaced by the reviewed 720 g mass, 7.4 V 2,200 mAh battery and dimensions. The TonyPi catalog 590 USD price and small size label are replaced by 599.99 USD and the reviewed dimensions. No new model was created and no company focus was added because Hiwonder is not a source company with a company-authored focus.",
+  "totalProductHighlightRecords": 1358,
+  "totalHighlightStatements": 6267,
+  "totalProductSourceReferences": 2909,
+  "pendingPortfolioLeads": [
+    {
+      "name": "Dreame robot net weight for X30 Ultra",
+      "scope": "The X30 Ultra specification table publishes dimensions, suction, battery, runtime, dust cabinet, integrated water tank, dust bag and station tanks, but no robot net weight. The catalog has no weight value, so none is recorded.",
+      "source": "https://www.dreametech.com/products/dreame-x30-ultra"
+    },
+    {
+      "name": "Dreame full-charge runtime and absolute charging time",
+      "scope": "The L40s Ultra page publishes no runtime in minutes and only claims faster charging. The L50 Ultra and X40 Master pages claim 30 percent faster charging without an absolute time. These remain unrecorded instead of substituting relative claims.",
+      "source": "https://www.dreametech.com/products/l40s-ultra-robot-vacuum"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.hiwonder.com/products/tonypi",
+      "finalUrl": "https://www.hiwonder.com/products/tonypi",
+      "status": 200,
+      "checkedAt": "2026-11-03T22:00:24.093794+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "eda09a6f9cfa7a1d8c91ee04b3c1f1966c64f88e981759f1f6149cc5dbafeb99",
+      "textFile": "source-1-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.hiwonder.com/products/jetauto",
+      "finalUrl": "https://www.hiwonder.com/products/jetauto",
+      "status": 200,
+      "checkedAt": "2026-11-03T22:00:24.102431+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "05fefdb4c5428a15b70df2ef98f058bc2826b1fea11114a32de5ce7aea02fca1",
+      "textFile": "source-2-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.hiwonder.com/products/ainova",
+      "finalUrl": "https://www.hiwonder.com/products/ainova",
+      "status": 200,
+      "checkedAt": "2026-11-03T22:00:24.110472+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "6399f852d0df37fe395b236188c6033e9f36a9b4049f21cfed6c6f2a025088b2",
+      "textFile": "source-3-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://www.hiwonder.com/products/puppypi",
+      "finalUrl": "https://www.hiwonder.com/products/puppypi",
+      "status": 200,
+      "checkedAt": "2026-11-03T22:00:24.118795+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "551ac8bb4fe383a955cb968e0778e28e292c45efb4dfb1036a2ca1fa74e0da00",
+      "textFile": "source-4-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "hiwonder-tonypi",
+      "manufacturer": "Hiwonder",
+      "model": "TonyPi",
+      "category": "educational",
+      "new": false,
+      "fields": {
+        "price": "599.99 USD",
+        "weight": "1.8 kg",
+        "size": "373 x 186 x 106 mm",
+        "batteryLife": "11.1 V 2,000 mAh",
+        "maxRuntime": "about 60 min",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "18 DOF standard/advanced; 20 DOF Pro",
+        "handType": "Two robotic hands; 18 DOF humanoid robot",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/tonypi",
+        "description": "The Hiwonder TonyPi is an 18 DOF humanoid robot built on a Raspberry Pi 5 with 16 bus servos in the body and a 2 DOF HD-camera head. It measures 373 x 186 x 106 mm and weighs about 1.8 kg. An 11.1 V 2,000 mAh battery provides about 60 min working time. The Pro Kit raises the configuration to 20 DOF and adds movable robotic hands that open to 66 mm; the standard and advanced kits have 18 DOF. It costs 599.99 USD. No payload, travel speed, IP rating or charging time is published; the catalog 590 USD price and small size label are replaced by the reviewed price and dimensions.",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "Current shop price from the reviewed product page.",
+        "weight": "Product net weight from the reviewed specification block; package weights are separate.",
+        "size": "Product dimensions from the reviewed specification block; package dimensions are separate.",
+        "batteryLife": "Battery pack from the reviewed specification block.",
+        "maxRuntime": "Working time from the reviewed specification block.",
+        "payload": "No payload rating is published; these are educational robots without a load rating.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No IP rating is published in the reviewed specification block.",
+        "dof": "Degrees of freedom from the reviewed specification block.",
+        "handType": "Hiwonder TonyPi is described in the reviewed specification block.",
+        "ageRange": "No age range is published.",
+        "website": "Hiwonder TonyPi product page.",
+        "description": "Hiwonder TonyPi page; dimensions, mass, battery, runtime and degrees of freedom are manufacturer statements.",
+        "chargingTime": "No absolute charging time is published."
+      },
+      "sources": [
+        {
+          "name": "Hiwonder - TonyPi",
+          "type": "manufacturer",
+          "url": "https://www.hiwonder.com/products/tonypi",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Hiwonder TonyPi is an 18 DOF humanoid robot built on a Raspberry Pi 5.",
+        "It measures 373 x 186 x 106 mm and weighs about 1.8 kg.",
+        "An 11.1 V 2,000 mAh battery provides about 60 min working time.",
+        "The Pro Kit raises the configuration to 20 DOF with robotic hands that open to 66 mm.",
+        "The catalog 590 USD price and small size label are replaced by 599.99 USD and the reviewed dimensions."
+      ]
+    },
+    {
+      "robotId": "hiwonder-jetauto",
+      "manufacturer": "Hiwonder",
+      "model": "JetAuto",
+      "category": "educational",
+      "new": false,
+      "fields": {
+        "price": "439.99 USD",
+        "weight": "3.5 kg",
+        "size": "302 x 260 x 256 mm",
+        "batteryLife": "11.1 V 6,000 mAh",
+        "maxRuntime": "60 min",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; wheeled ROS robot car",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/jetauto",
+        "description": "The Hiwonder JetAuto is a wheeled ROS robot car built on a ROS controller with a 7-inch LCD screen, SLAMTEC A1 LiDAR and a 3D depth camera. It measures 302 x 260 x 256 mm and weighs 3.5 kg. An 11.1 V 6,000 mAh lithium battery provides 60 min working time. It supports ROS1/ROS2, Python, C, C++, JavaScript and a mecanum chassis with HTS-20H serial bus servos. It costs 439.99 USD. No degrees of freedom, payload, travel speed, IP rating or charging time is published; the catalog 440 USD price and small size label are replaced by the reviewed price and dimensions.",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "Current shop price from the reviewed product page.",
+        "weight": "Product net weight from the reviewed specification block; package weights are separate.",
+        "size": "Product dimensions from the reviewed specification block; package dimensions are separate.",
+        "batteryLife": "Battery pack from the reviewed specification block.",
+        "maxRuntime": "Working time from the reviewed specification block.",
+        "payload": "No payload rating is published; these are educational robots without a load rating.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No IP rating is published in the reviewed specification block.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Hiwonder JetAuto is described in the reviewed specification block.",
+        "ageRange": "No age range is published.",
+        "website": "Hiwonder JetAuto product page.",
+        "description": "Hiwonder JetAuto page; dimensions, mass, battery, runtime and degrees of freedom are manufacturer statements.",
+        "chargingTime": "No absolute charging time is published."
+      },
+      "sources": [
+        {
+          "name": "Hiwonder - JetAuto",
+          "type": "manufacturer",
+          "url": "https://www.hiwonder.com/products/jetauto",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Hiwonder JetAuto is a wheeled ROS robot car with SLAMTEC A1 LiDAR and a 3D depth camera.",
+        "It measures 302 x 260 x 256 mm and weighs 3.5 kg.",
+        "An 11.1 V 6,000 mAh battery provides 60 min working time.",
+        "A 7-inch LCD screen and ROS expansion board support Python, C, C++ and JavaScript.",
+        "The catalog 440 USD price and small size label are replaced by 439.99 USD and the reviewed dimensions."
+      ]
+    },
+    {
+      "robotId": "hiwonder-ainova",
+      "manufacturer": "Hiwonder",
+      "model": "AiNova",
+      "category": "educational",
+      "new": false,
+      "fields": {
+        "price": "85.99 USD",
+        "weight": "0.5 kg",
+        "size": "172 x 140 x 146 mm",
+        "batteryLife": "1,200 mAh 18650",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; wheeled AI vision robot car",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/ainova",
+        "description": "The Hiwonder AiNova is a wheeled AI vision robot car with a CoreX ESP32 controller, WonderCam AI vision module, DC geared encoded motors and a 1,200 mAh 18650 battery. It measures 172 x 140 x 146 mm and weighs about 0.5 kg. It supports Scratch, MicroPython, Arduino and a 2 cm to 400 cm ultrasonic range, with LEGO-compatible expansion. It costs 85.99 USD. No runtime in minutes, degrees of freedom, payload, travel speed, IP rating or charging time is published; the catalog 86 USD price and small size label are replaced by the reviewed price and dimensions.",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "Current shop price from the reviewed product page.",
+        "weight": "Product net weight from the reviewed specification block; package weights are separate.",
+        "size": "Product dimensions from the reviewed specification block; package dimensions are separate.",
+        "batteryLife": "Battery pack from the reviewed specification block.",
+        "maxRuntime": "No runtime in minutes is published.",
+        "payload": "No payload rating is published; these are educational robots without a load rating.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No IP rating is published in the reviewed specification block.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Hiwonder AiNova is described in the reviewed specification block.",
+        "ageRange": "No age range is published.",
+        "website": "Hiwonder AiNova product page.",
+        "description": "Hiwonder AiNova page; dimensions, mass, battery, runtime and degrees of freedom are manufacturer statements.",
+        "chargingTime": "No absolute charging time is published."
+      },
+      "sources": [
+        {
+          "name": "Hiwonder - AiNova",
+          "type": "manufacturer",
+          "url": "https://www.hiwonder.com/products/ainova",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Hiwonder AiNova is a wheeled AI vision robot car with an ESP32 CoreX controller.",
+        "It measures 172 x 140 x 146 mm and weighs about 0.5 kg.",
+        "A 1,200 mAh 18650 battery powers the WonderCam vision module and encoded motors.",
+        "It supports Scratch, MicroPython, Arduino and a 2 cm to 400 cm ultrasonic range.",
+        "The catalog 86 USD price and small size label are replaced by 85.99 USD and the reviewed dimensions."
+      ]
+    },
+    {
+      "robotId": "hiwonder-puppypi",
+      "manufacturer": "Hiwonder",
+      "model": "PuppyPi",
+      "category": "quadruped",
+      "new": false,
+      "fields": {
+        "price": "589.99 USD",
+        "weight": "720 g",
+        "size": "226 x 149 x 190 mm",
+        "batteryLife": "7.4 V 2,200 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "8 DOF",
+        "handType": "3-DOF robotic arm; 8 DOF quadruped robot",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/puppypi",
+        "description": "The Hiwonder PuppyPi is an 8 DOF quadruped robot built on a Raspberry Pi 4B or 5 with coreless servos and a 3 DOF robotic arm. It measures 226 x 149 x 190 mm and weighs 720 g. A 7.4 V 2,200 mAh LiPo battery powers the robot; no runtime in minutes or charging time is published. It supports ROS1 and ROS2, Python, a 480P camera and app or wireless-handle control, and the arm adds colour recognition, target tracking and object transport. It costs 589.99 USD. No payload, travel speed or IP rating is published; the catalog 700 USD price, ~1.5 kg mass, small size label, ~2 hours battery and 120 min runtime are replaced or cleared.",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "Current shop price from the reviewed product page.",
+        "weight": "Product net weight from the reviewed specification block; package weights are separate.",
+        "size": "Product dimensions from the reviewed specification block; package dimensions are separate.",
+        "batteryLife": "Battery pack from the reviewed specification block.",
+        "maxRuntime": "No runtime in minutes is published.",
+        "payload": "No payload rating is published; these are educational robots without a load rating.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No IP rating is published in the reviewed specification block.",
+        "dof": "Degrees of freedom from the reviewed specification block.",
+        "handType": "Hiwonder PuppyPi is described in the reviewed specification block.",
+        "ageRange": "No age range is published.",
+        "website": "Hiwonder PuppyPi product page.",
+        "description": "Hiwonder PuppyPi page; dimensions, mass, battery, runtime and degrees of freedom are manufacturer statements.",
+        "chargingTime": "No absolute charging time is published."
+      },
+      "sources": [
+        {
+          "name": "Hiwonder - PuppyPi",
+          "type": "manufacturer",
+          "url": "https://www.hiwonder.com/products/puppypi",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Hiwonder PuppyPi is an 8 DOF quadruped robot with a 3 DOF robotic arm.",
+        "It measures 226 x 149 x 190 mm and weighs 720 g.",
+        "A 7.4 V 2,200 mAh LiPo battery powers the Raspberry Pi 4B or 5 controller.",
+        "The arm supports colour recognition, target tracking and object transport.",
+        "The catalog 700 USD price, ~1.5 kg mass, small size label, ~2 hours battery and 120 min runtime are replaced or cleared."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "hiwonder-tonypi",
+      "before": {
+        "category": "educational",
+        "manufacturer": "Hiwonder",
+        "model": "TonyPi",
+        "price": "590 USD",
+        "weight": "1.8 kg",
+        "size": "small",
+        "batteryLife": "1 hour",
+        "maxRuntime": "60 min",
+        "tags": "educational;consumer;programmable;ai-powered;dev-platform;facial-recognition",
+        "handType": "none",
+        "dof": "18",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/tonypi",
+        "image": "images/educational/hiwonder-tonypi.webp",
+        "video": "",
+        "gallery": "",
+        "description": "18-DOF Raspberry Pi 5 humanoid, HD camera, multimodal AI/ChatGPT, OpenCV + inverse kinematics, 1.8 kg",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "after": {
+        "category": "educational",
+        "manufacturer": "Hiwonder",
+        "model": "TonyPi",
+        "price": "599.99 USD",
+        "weight": "1.8 kg",
+        "size": "373 x 186 x 106 mm",
+        "batteryLife": "11.1 V 2,000 mAh",
+        "maxRuntime": "about 60 min",
+        "tags": "educational;consumer;programmable;ai-powered;dev-platform;facial-recognition",
+        "handType": "Two robotic hands; 18 DOF humanoid robot",
+        "dof": "18 DOF standard/advanced; 20 DOF Pro",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/tonypi",
+        "image": "images/educational/hiwonder-tonypi.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Hiwonder TonyPi is an 18 DOF humanoid robot built on a Raspberry Pi 5 with 16 bus servos in the body and a 2 DOF HD-camera head. It measures 373 x 186 x 106 mm and weighs about 1.8 kg. An 11.1 V 2,000 mAh battery provides about 60 min working time. The Pro Kit raises the configuration to 20 DOF and adds movable robotic hands that open to 66 mm; the standard and advanced kits have 18 DOF. It costs 599.99 USD. No payload, travel speed, IP rating or charging time is published; the catalog 590 USD price and small size label are replaced by the reviewed price and dimensions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      }
+    },
+    {
+      "robotId": "hiwonder-jetauto",
+      "before": {
+        "category": "educational",
+        "manufacturer": "Hiwonder",
+        "model": "JetAuto",
+        "price": "440 USD",
+        "weight": "3.5 kg",
+        "size": "small",
+        "batteryLife": "1 hour",
+        "maxRuntime": "60 min",
+        "tags": "educational;programmable;dev-platform;lidar;mapping;autonomous-nav;obstacle-avoidance",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Flat indoor surfaces",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/jetauto",
+        "image": "images/educational/hiwonder-jetauto.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Jetson Nano ROS1/ROS2 mecanum car, SLAMTEC A1 lidar, 3D depth camera, 7-inch screen, SLAM navigation",
+        "releaseDate": "2022",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "after": {
+        "category": "educational",
+        "manufacturer": "Hiwonder",
+        "model": "JetAuto",
+        "price": "439.99 USD",
+        "weight": "3.5 kg",
+        "size": "302 x 260 x 256 mm",
+        "batteryLife": "11.1 V 6,000 mAh",
+        "maxRuntime": "60 min",
+        "tags": "educational;programmable;dev-platform;lidar;mapping;autonomous-nav;obstacle-avoidance",
+        "handType": "None; wheeled ROS robot car",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Flat indoor surfaces",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/jetauto",
+        "image": "images/educational/hiwonder-jetauto.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Hiwonder JetAuto is a wheeled ROS robot car built on a ROS controller with a 7-inch LCD screen, SLAMTEC A1 LiDAR and a 3D depth camera. It measures 302 x 260 x 256 mm and weighs 3.5 kg. An 11.1 V 6,000 mAh lithium battery provides 60 min working time. It supports ROS1/ROS2, Python, C, C++, JavaScript and a mecanum chassis with HTS-20H serial bus servos. It costs 439.99 USD. No degrees of freedom, payload, travel speed, IP rating or charging time is published; the catalog 440 USD price and small size label are replaced by the reviewed price and dimensions.",
+        "releaseDate": "2022",
+        "chargingTime": "",
+        "driveMode": ""
+      }
+    },
+    {
+      "robotId": "hiwonder-ainova",
+      "before": {
+        "category": "educational",
+        "manufacturer": "Hiwonder",
+        "model": "AiNova",
+        "price": "86 USD",
+        "weight": "0.5 kg",
+        "size": "small",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;programmable;ai-powered;app-control;obstacle-avoidance",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/ainova",
+        "image": "images/educational/hiwonder-ainova.webp",
+        "video": "",
+        "gallery": "",
+        "description": "ESP32 vision car, WonderCam AI module, 4-ch line follower, glowy ultrasonic, Scratch/Python, 0.5 kg",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "after": {
+        "category": "educational",
+        "manufacturer": "Hiwonder",
+        "model": "AiNova",
+        "price": "85.99 USD",
+        "weight": "0.5 kg",
+        "size": "172 x 140 x 146 mm",
+        "batteryLife": "1,200 mAh 18650",
+        "maxRuntime": "",
+        "tags": "educational;programmable;ai-powered;app-control;obstacle-avoidance",
+        "handType": "None; wheeled AI vision robot car",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/ainova",
+        "image": "images/educational/hiwonder-ainova.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Hiwonder AiNova is a wheeled AI vision robot car with a CoreX ESP32 controller, WonderCam AI vision module, DC geared encoded motors and a 1,200 mAh 18650 battery. It measures 172 x 140 x 146 mm and weighs about 0.5 kg. It supports Scratch, MicroPython, Arduino and a 2 cm to 400 cm ultrasonic range, with LEGO-compatible expansion. It costs 85.99 USD. No runtime in minutes, degrees of freedom, payload, travel speed, IP rating or charging time is published; the catalog 86 USD price and small size label are replaced by the reviewed price and dimensions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      }
+    },
+    {
+      "robotId": "hiwonder-puppypi",
+      "before": {
+        "category": "quadruped",
+        "manufacturer": "Hiwonder",
+        "model": "PuppyPi",
+        "price": "700 USD",
+        "weight": "~1.5 kg",
+        "size": "small",
+        "batteryLife": "~2 hours",
+        "maxRuntime": "120 min",
+        "tags": "ai-powered;app-control;educational;mapping;programmable;research;visual-slam;wifi",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Indoor",
+        "ipRating": "-",
+        "ageRange": "14-99",
+        "website": "https://www.hiwonder.com/products/puppypi",
+        "image": "images/robodog/hiwonder-puppypi.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Raspberry Pi 5, ROS, 8 servos, ChatGPT, SLAM mapping",
+        "releaseDate": "2023",
+        "chargingTime": ""
+      },
+      "after": {
+        "category": "quadruped",
+        "manufacturer": "Hiwonder",
+        "model": "PuppyPi",
+        "price": "589.99 USD",
+        "weight": "720 g",
+        "size": "226 x 149 x 190 mm",
+        "batteryLife": "7.4 V 2,200 mAh",
+        "maxRuntime": "",
+        "tags": "ai-powered;app-control;educational;mapping;programmable;research;visual-slam;wifi",
+        "handType": "3-DOF robotic arm; 8 DOF quadruped robot",
+        "dof": "8 DOF",
+        "payload": "",
+        "speed": "",
+        "terrain": "Indoor",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.hiwonder.com/products/puppypi",
+        "image": "images/robodog/hiwonder-puppypi.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Hiwonder PuppyPi is an 8 DOF quadruped robot built on a Raspberry Pi 4B or 5 with coreless servos and a 3 DOF robotic arm. It measures 226 x 149 x 190 mm and weighs 720 g. A 7.4 V 2,200 mAh LiPo battery powers the robot; no runtime in minutes or charging time is published. It supports ROS1 and ROS2, Python, a 480P camera and app or wireless-handle control, and the arm adds colour recognition, target tracking and object transport. It costs 589.99 USD. No payload, travel speed or IP rating is published; the catalog 700 USD price, ~1.5 kg mass, small size label, ~2 hours battery and 120 min runtime are replaced or cleared.",
+        "releaseDate": "2023",
+        "chargingTime": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "Hiwonder",
+      "model": "TonyPi",
+      "changes": {
+        "price": {
+          "before": "590 USD",
+          "after": "599.99 USD"
+        },
+        "size": {
+          "before": "small",
+          "after": "373 x 186 x 106 mm"
+        },
+        "batteryLife": {
+          "before": "1 hour",
+          "after": "11.1 V 2,000 mAh"
+        },
+        "maxRuntime": {
+          "before": "60 min",
+          "after": "about 60 min"
+        },
+        "handType": {
+          "before": "none",
+          "after": "Two robotic hands; 18 DOF humanoid robot"
+        },
+        "dof": {
+          "before": "18",
+          "after": "18 DOF standard/advanced; 20 DOF Pro"
+        },
+        "description": {
+          "before": "18-DOF Raspberry Pi 5 humanoid, HD camera, multimodal AI/ChatGPT, OpenCV + inverse kinematics, 1.8 kg",
+          "after": "The Hiwonder TonyPi is an 18 DOF humanoid robot built on a Raspberry Pi 5 with 16 bus servos in the body and a 2 DOF HD-camera head. It measures 373 x 186 x 106 mm and weighs about 1.8 kg. An 11.1 V 2,000 mAh battery provides about 60 min working time. The Pro Kit raises the configuration to 20 DOF and adds movable robotic hands that open to 66 mm; the standard and advanced kits have 18 DOF. It costs 599.99 USD. No payload, travel speed, IP rating or charging time is published; the catalog 590 USD price and small size label are replaced by the reviewed price and dimensions."
+        }
+      }
+    },
+    {
+      "manufacturer": "Hiwonder",
+      "model": "JetAuto",
+      "changes": {
+        "price": {
+          "before": "440 USD",
+          "after": "439.99 USD"
+        },
+        "size": {
+          "before": "small",
+          "after": "302 x 260 x 256 mm"
+        },
+        "batteryLife": {
+          "before": "1 hour",
+          "after": "11.1 V 6,000 mAh"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; wheeled ROS robot car"
+        },
+        "description": {
+          "before": "Jetson Nano ROS1/ROS2 mecanum car, SLAMTEC A1 lidar, 3D depth camera, 7-inch screen, SLAM navigation",
+          "after": "The Hiwonder JetAuto is a wheeled ROS robot car built on a ROS controller with a 7-inch LCD screen, SLAMTEC A1 LiDAR and a 3D depth camera. It measures 302 x 260 x 256 mm and weighs 3.5 kg. An 11.1 V 6,000 mAh lithium battery provides 60 min working time. It supports ROS1/ROS2, Python, C, C++, JavaScript and a mecanum chassis with HTS-20H serial bus servos. It costs 439.99 USD. No degrees of freedom, payload, travel speed, IP rating or charging time is published; the catalog 440 USD price and small size label are replaced by the reviewed price and dimensions."
+        }
+      }
+    },
+    {
+      "manufacturer": "Hiwonder",
+      "model": "AiNova",
+      "changes": {
+        "price": {
+          "before": "86 USD",
+          "after": "85.99 USD"
+        },
+        "size": {
+          "before": "small",
+          "after": "172 x 140 x 146 mm"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "1,200 mAh 18650"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; wheeled AI vision robot car"
+        },
+        "description": {
+          "before": "ESP32 vision car, WonderCam AI module, 4-ch line follower, glowy ultrasonic, Scratch/Python, 0.5 kg",
+          "after": "The Hiwonder AiNova is a wheeled AI vision robot car with a CoreX ESP32 controller, WonderCam AI vision module, DC geared encoded motors and a 1,200 mAh 18650 battery. It measures 172 x 140 x 146 mm and weighs about 0.5 kg. It supports Scratch, MicroPython, Arduino and a 2 cm to 400 cm ultrasonic range, with LEGO-compatible expansion. It costs 85.99 USD. No runtime in minutes, degrees of freedom, payload, travel speed, IP rating or charging time is published; the catalog 86 USD price and small size label are replaced by the reviewed price and dimensions."
+        }
+      }
+    },
+    {
+      "manufacturer": "Hiwonder",
+      "model": "PuppyPi",
+      "changes": {
+        "price": {
+          "before": "700 USD",
+          "after": "589.99 USD"
+        },
+        "weight": {
+          "before": "~1.5 kg",
+          "after": "720 g"
+        },
+        "size": {
+          "before": "small",
+          "after": "226 x 149 x 190 mm"
+        },
+        "batteryLife": {
+          "before": "~2 hours",
+          "after": "7.4 V 2,200 mAh"
+        },
+        "maxRuntime": {
+          "before": "120 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "none",
+          "after": "3-DOF robotic arm; 8 DOF quadruped robot"
+        },
+        "dof": {
+          "before": "",
+          "after": "8 DOF"
+        },
+        "ipRating": {
+          "before": "-",
+          "after": ""
+        },
+        "ageRange": {
+          "before": "14-99",
+          "after": ""
+        },
+        "description": {
+          "before": "Raspberry Pi 5, ROS, 8 servos, ChatGPT, SLAM mapping",
+          "after": "The Hiwonder PuppyPi is an 8 DOF quadruped robot built on a Raspberry Pi 4B or 5 with coreless servos and a 3 DOF robotic arm. It measures 226 x 149 x 190 mm and weighs 720 g. A 7.4 V 2,200 mAh LiPo battery powers the robot; no runtime in minutes or charging time is published. It supports ROS1 and ROS2, Python, a 480P camera and app or wireless-handle control, and the arm adds colour recognition, target tracking and object transport. It costs 589.99 USD. No payload, travel speed or IP rating is published; the catalog 700 USD price, ~1.5 kg mass, small size label, ~2 hours battery and 120 min runtime are replaced or cleared."
+        }
+      }
+    }
+  ],
+  "companyFocus": [],
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 36,
+    "axeCases": 8,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1248,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 4,
+      "successfulResponses": 4,
+      "usableResponses": 4,
+      "sha256VerifiedResponses": 4,
+      "nativeHtmlResponses": 4,
+      "nonHtmlSuccessfulResponses": 0,
+      "pdfDocuments": 0,
+      "pdfPages": 0,
+      "pdfSources": [],
+      "notFoundExcluded": [],
+      "blockedResponses": [],
+      "rateLimitedResponses": [
+        "https://www.hiwonder.com/products/masterpi (429, excluded)"
+      ],
+      "redirectResponses": [],
+      "unusedSuccessfulResponses": [],
+      "archivedResponses": [],
+      "inspection": "Native HTML read as text only. No research browser, visual inspection, OCR or media reuse. No login, forms, contact, messages or transactions."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 1,
+          "selector": "body",
+          "textSha256": "047648f0f2de1bc410102cca9d8babcfdebc9c80a113be1ec65ee51974d7c4ca"
+        },
+        {
+          "sourceId": 2,
+          "selector": "body",
+          "textSha256": "6c058a9ebaf748c91ed742d46f08e8ef6157bf0b3a48f0e89d56599d9e744968"
+        },
+        {
+          "sourceId": 3,
+          "selector": "body",
+          "textSha256": "0f01047e3950fb8eb10fb180cbec4474e891794ffd162c4f5d260d3dec800470"
+        },
+        {
+          "sourceId": 4,
+          "selector": "body",
+          "textSha256": "6fb758c5367da915eb1513ea890dff74433e864f04defb2b4a1ab383c28d0f1b"
+        }
+      ],
+      "versionScopes": "TonyPi, JetAuto, AiNova and PuppyPi are four separate current Hiwonder products. TonyPi is a humanoid, PuppyPi a quadruped with a robotic arm, and JetAuto and AiNova are wheeled robot cars. The TonyPi Pro kit is a 20 DOF variant of the same model and is noted in the DOF field instead of being merged into a separate row.",
+      "priceScopes": "Current shop prices are 599.99 USD for TonyPi, 439.99 USD for JetAuto, 85.99 USD for AiNova and 589.99 USD for PuppyPi. The catalog 590, 440, 86 and 700 USD values are not substituted for these reviewed prices.",
+      "weightScopes": "Product net weights are about 1800 g for TonyPi, 3500 g for JetAuto, about 0.5 kg for AiNova and 720 g for PuppyPi. Package weights are separate and are not recorded as robot mass.",
+      "sizeScopes": "Product dimensions are 373 x 186 x 106 mm for TonyPi, 302 x 260 x 256 mm for JetAuto, 172 x 140 x 146 mm for AiNova and 226 x 149 x 190 mm for PuppyPi. Package dimensions are separate.",
+      "payloadScopes": "No reviewed page publishes a payload rating; these are educational robots and robot cars without a load rating.",
+      "enduranceScopes": "Battery packs are 11.1 V 2,000 mAh for TonyPi, 11.1 V 6,000 mAh for JetAuto, 1,200 mAh 18650 for AiNova and 7.4 V 2,200 mAh for PuppyPi. TonyPi and JetAuto publish about 60 min working time; AiNova and PuppyPi publish no runtime in minutes and no charging time.",
+      "autonomyScopes": "TonyPi publishes 18 DOF and a 2 DOF head; PuppyPi publishes 8 DOF and a 3 DOF arm; JetAuto and AiNova are wheeled robot cars. These are manufacturer descriptions, not independent safety certification or proof of unsupervised operation.",
+      "listingScopes": "The roboticsdir and buyandrentrobots listings name products and companies; they do not establish prices, current stock, delivered fleets or independent performance.",
+      "goalComplete": false
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "reviewedProducts": 4,
+      "selectedFields": 56,
+      "selectedFieldStatuses": {
+        "documented": 32,
+        "not-documented": 24
+      },
+      "specificationReviewModels": 1342,
+      "specificationFields": 25254,
+      "allFieldStatuses": {
+        "not-documented": 15483,
+        "documented": 9340,
+        "conflicting": 323,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1358,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 56,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 1
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1358,
+      "individualHighlights": 6267,
+      "productSourceReferences": 2909,
+      "specificationReviewModels": 1342,
+      "specificationFields": 25254,
+      "publicJsonBytes": 6740909,
+      "catalogScriptBytes": 2739472,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T22:01:32Z",
+            "after": "2026-11-03T22:04:27Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T22:01:31.820Z",
+            "after": "2026-11-03T22:04:26.270Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "5821914cedc0ce9dcade0179e93b23486d44c6f9429a0653db77f91ceba04136",
+            "after": "03e2cbb7a014890c6cb40c223a1eaeaeb86b065cf6d91a1bbaa7be1f19d11300"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T22:01:31.820Z",
+            "after": "2026-11-03T22:04:26.270Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T22:01:31.820Z",
+            "after": "2026-11-03T22:04:26.270Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 237,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "848c26e78b10b5724524f5519f02a0a2d7f164d9",
+    "dataCommit": "de941ddc9896f079889f7164873ccf4e7a640888",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 771,
+  "goalComplete": false
+}
