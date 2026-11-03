@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 496 and 22 still awaiting those reviews.
+selected technical-field reviews for 499 and 19 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -435,6 +435,19 @@ both figures remain visible. temi V3 is a 12 kg, 100 x 35 x 45 cm indoor assista
 with a 13.3-inch display, 360-degree LiDAR, 5 cm / 2 inch navigation, eight hours
 per charge, 1 m/s speed and a 3 kg tray load that is not an overall payload rating.
 Robotemi publishes no numeric price or IP rating.
+
+Sanctuary AI Phoenix, Relay Robotics Relay and Ocado Intelligent Automation Chuck
+and Chuck+ now have selected field reviews. Sanctuary's current pages no longer
+document a Phoenix humanoid configuration; they describe hardware-agnostic Physical AI
+for industrial arms, custom end effectors, low-DOF grippers and a humanoid roadmap, so
+the old price, mass, size, payload, speed, battery and release-year values are cleared.
+Relay is an indoor delivery robot with a 41 L / 10 gallon compartment, autonomous
+elevator and security-door navigation and company-reported fleet and success figures;
+mass, dimensions, speed, runtime, IP rating and navigation accuracy remain unpublished.
+Chuck is a 69.9 kg warehouse AMR with 97.5 kg base capacity, 45.4 kg per shelf, up
+to 12 hours of operation and indoor floor limits; Chuck+ adds a 5.4 kg width extender,
+8.8 kg shelves and 75 x 91 cm shelf dimensions. Ocado publishes no numeric price,
+speed or IP rating, and staff still pick the items.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1301,20 +1314,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,034 fields across 1272 models, distinguishing documented, undisclosed, conflicting and
+24,104 fields across 1276 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,518 kB JSON response loads only for search or comparison;
+A separate 6,533 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,918 reviewed highlight statements as well as
+Catalog search now includes all 5,937 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing

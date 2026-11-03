@@ -12714,3 +12714,49 @@ Diese Exportlücken bleiben offen; Produktseiten, Suche, Vergleich und Queue sin
 
 808 Unit-Tests in 64 Dateien, 30 Browserfälle mit zwölf Axe-Prüfungen, 3.429 Build-Seiten, null Audit-Fehler
 und 1.245 Hinweise. Alle USPs, vollständigen Portfolios und eine Marktführerschaft bleiben unbelegt.
++
+## Ergänzung 155 – Sanctuary Phoenix, Relay und Ocado Chuck/Chuck+: Hardwarestatus, Liefervolumen und verteilte Traglast (3. November 2026)
+
+Vier bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus Hardware-, Zubehör- oder
+Variantenbezeichnungen erzeugt. Die Prüfung umfasst 70 Felder: 27 dokumentiert und 43 nicht dokumentiert.
+Hinzu kommen 19 Merkmalsaussagen, fünf zusätzliche Produktquellenverweise sowie zwei neue und ein
+aktualisierter Firmenfokus. Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten.
+2.374 andere Katalogzeilen und 1.272 frühere Feldprüfungen sind unverändert; von 156 früheren
+Firmenfokussen wurde einer aktualisiert, 155 blieben unverändert. Gesamt: 2.378 Katalogeinträge,
+1.311 datierte Merkmalssätze, 5.937 Aussagen, 2.831 Produktquellenverweise, 1.276 Feldprüfungen mit
+24.104 Feldern und 158 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen sind 499 technisch teilgeprüft;
+19 bleiben offen. Dauerbeleg: `reports/competitor-batch-155-evidence.json`.
+
+Elf HTTP-Antworten sind gehasht gesichert und als Text gelesen; acht waren nutzbar, zwei Seiten fehlten
+(HTTP 404) und eine blockierte Antwort leitete auf atom.com um. Kein PDF, kein Recherchebrowser, keine visuelle
+Prüfung, OCR oder Medienübernahme. Keine Formulare, Konten, Kontaktaufnahme, Nachrichten oder Transaktionen.
+Sanctuary AI beschreibt Phoenix auf den aktuellen Herstellerseiten nicht mehr als dokumentierte Humanoid-Konfiguration.
+Das Unternehmen nennt stattdessen hardware-agnostische Physical AI für Industrieroboterarme von FANUC und Universal
+Robots, eigene Endeffektoren und Low-DOF-Greifer, hydraulische Hände als künftige Konfiguration sowie Humanoid-
+Embodiment auf der Roadmap. Die früheren Werte 40.000 USD, 70 kg, 25 kg, 1,3 m/s, 3–4 Stunden, 2023 und „large“
+sind entfernt. Die genannten 99,5 Prozent Modellleistung, 2,54 Sekunden pro Stecker und 5,5 Stunden Teleoperation
+bleiben Unternehmensangaben; Preis, Masse, Maße, Nutzlast, Geschwindigkeit, Ausdauer, Erscheinungsjahr und IP-Schutz
+bleiben offen.
+
+Relay ist ein autonomer Innenraum-Lieferroboter für Krankenhäuser und Hotels. Das Fach fasst 41 l beziehungsweise
+10 Gallonen und nimmt mehrere Einsätze auf; die Temperatur bleibt laut Hersteller innerhalb eines Grads der Umgebung.
+Relay nennt autonome Navigation durch Menschenmengen, Sicherheitstüren und Aufzüge, autonomes Laden an einer Station
+sowie Kettennachverfolgung. Das Unternehmen berichtet 1,5 Millionen Lieferungen insgesamt, 25.000 pro Monat, 10.000 Meilen
+pro Jahr und 99,8 Prozent erfolgreiche Lieferungen. Diese Zahlen sind Unternehmensangaben. Numerischer Preis, Masse, Maße,
+Geschwindigkeit, Laufzeit, IP-Schutz und Navigationsgenauigkeit bleiben offen; das 41-l-Fach ist Volumen, keine Nutzlastmasse.
+
+Chuck ist ein kollaborativer Lager-AMR: 69,9 kg mit Akku beziehungsweise 57,6 kg ohne, 160 cm Gesamthöhe, 61 cm
+Basisbreite und 106,7 cm Basistiefe. Der Basiswagen trägt bis zu 97,5 kg, jedes Regal bis 45,4 kg; die Laufzeit beträgt
+bis zu 12 Stunden je nach Nutzlast. AI-Navigation, LiDAR, Kameras, Cloud-Orchestrierung und systemgesteuerte Hinweise führen
+das Personal; die Artikel werden weiterhin von Menschen entnommen. Chuck+ ist die breitere Lastkonfiguration auf derselben Basis:
+5,4 kg Breitenverlängerung, 8,8 kg pro Chuck+-Regal und 75 x 91 cm Regalfläche. Die gemeinsame Basis trägt bis zu 97,5 kg;
+das Gesamtgewicht von Chuck+ bleibt offen. Ocado nennt über 100 Standorte und mehr als eine Milliarde entnommene Einheiten;
+das sind Unternehmensangaben, keine unabhängigen Audits. Preis, Geschwindigkeit, IP-Schutz und Navigationsgenauigkeit
+bleiben offen.
+
+Der Model-Review-CSV-Export enthält Chuck+ nicht, weil die Zeile aus einer Herstellerkonfiguration und nicht aus einem
+separaten Verzeichnis-Modellhinweis stammt; die Markenseite rendert den Firmenfokus dennoch. Die Queue führt Chuck+ daher
+nicht als eigenes Verzeichnisziel. Diese Exportlücke bleibt offen; Produktseiten, Suche, Vergleich und Queue sind geprüft.
+
+808 Unit-Tests in 64 Dateien, 34 Browserfälle mit sechs Axe-Prüfungen, 3.429 Build-Seiten, null Audit-Fehler
+und 1.246 Hinweise. Alle USPs, vollständigen Portfolios und eine Marktführerschaft bleiben unbelegt.
