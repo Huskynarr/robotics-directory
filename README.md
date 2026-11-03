@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,362 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,366 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,326 fields across 1346 models, distinguishing documented, undisclosed, conflicting and
+25,398 fields across 1350 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,753 kB JSON response loads only for search or comparison;
+A separate 6,765 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,287 reviewed highlight statements as well as
+Catalog search now includes all 6,307 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1789,3 +1789,17 @@ labels, the S2 180 min battery label, the E28 218 min runtime and the C20 132 mi
 runtime are replaced or cleared. No reviewed page publishes a robot net weight, a
 battery capacity in mAh for the S2, E28 and E25, a travel speed or an IP rating;
 only the C20 page publishes an absolute charging time of 5.5 hours.
+
+SwitchBot's S20, K10+ Pro, K11+ and K20+ Pro now have selected field
+reviews. The manufacturer publishes 10 kPa (10,000 Pa) suction, 365 x 365 x
+115 mm dimensions, a 5.5 kg main unit, a 4,000 mAh battery of six 21700 cells
+and under 4 hours charging for the S20; 248 x 248 x 92 mm, about 2.3 kg and
+45 dB for the K10+ Pro; 6,000 Pa, 248 x 248 x 98.5 mm, 2.3 kg, a 3,200 mAh
+battery and under 5 hours charging for the K11+; and 4,000 Pa, 248 x 248 x
+92 mm, a 2.3 kg net weight, a 4 kg mobile base, a 3,500 mAh battery, about
+4 hours charging and 20 mm obstacle crossing for the K20+ Pro. Catalog prices
+of 800, 599, 399 and 700 USD, the medium size labels, the S20 180 min
+battery label, the K10+ Pro 150 min battery and runtime labels, the K20+ Pro
+150 min battery label and its 8 kg payload are replaced or cleared. No reviewed
+page publishes runtime in minutes or a water tank capacity, and the K10+ Pro page
+publishes no suction power in Pa, battery capacity, runtime or charging time.

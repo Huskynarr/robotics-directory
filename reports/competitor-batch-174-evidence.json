@@ -1,0 +1,883 @@
+{
+  "batch": 174,
+  "checkedAt": "2026-11-03",
+  "manufacturers": [
+    "SwitchBot"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 72,
+  "fieldStatuses": {
+    "documented": 30,
+    "not-documented": 42
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four existing catalog rows that previously had no field review were reviewed against current SwitchBot shop pages. S20, K10+ Pro, K11+ and K20+ Pro are four separate current models with their own product pages. No new model was created and no company focus was added because SwitchBot is not a source company with a company-authored focus. The reviewed pages publish current shop prices, so the catalog 800, 599, 399 and 700 USD values are replaced by 799.99, 459.99, 399.99 and 699.99 USD. The catalog medium size labels are replaced by reviewed dimensions, and the S20 180 min battery label, the K10+ Pro 150 min battery and runtime labels and the K20+ Pro 150 min battery label are replaced or cleared. The K20+ Pro 8 kg payload is cleared because the reviewed page publishes no payload rating.",
+  "pendingPortfolioLeads": [
+    {
+      "name": "SwitchBot runtime in minutes and water tank capacity",
+      "scope": "The S20, K10+ Pro, K11+ and K20+ Pro pages publish dimensions, mass, suction and, except for K10+ Pro, battery capacity and charging time, but no runtime in minutes and no clean or dirty water tank capacity. These remain unrecorded instead of substituting mode or station statements.",
+      "source": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20"
+    },
+    {
+      "name": "SwitchBot K10+ Pro suction power and battery capacity",
+      "scope": "The K10+ Pro page publishes only dimensions and weight in its specification block and names 45 dB operation and a 4 L dust bag. It publishes no suction power in Pa, battery capacity in mAh, runtime in minutes or absolute charging time; these remain unrecorded instead of copying figures from the K11+ page.",
+      "source": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20",
+      "finalUrl": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20",
+      "status": 200,
+      "checkedAt": "2026-11-03T23:55:00.000000+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "23b8b2d4d24ccc8f55eef86df8403893c8ca682f033ad590dc5c77c17ded4386",
+      "textFile": "source-1-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro",
+      "finalUrl": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro",
+      "status": 200,
+      "checkedAt": "2026-11-03T23:55:00.000000+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "033147f386a378958980e109860af40e911281a10bfeb51717d1075a242d6732",
+      "textFile": "source-2-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.switch-bot.com/products/switchbot-multitasking-household-robot-k20-pro",
+      "finalUrl": "https://www.switch-bot.com/products/switchbot-multitasking-household-robot-k20-pro",
+      "status": 200,
+      "checkedAt": "2026-11-03T23:55:00.000000+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "68d655b4f8fb79d97788a1c5448697ffbc5990d81f37dba2b26ee9915aa6fdfd",
+      "textFile": "source-3-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://us.switch-bot.com/products/switchbot-robot-vacuum-k11",
+      "finalUrl": "https://us.switch-bot.com/products/switchbot-robot-vacuum-k11",
+      "status": 200,
+      "checkedAt": "2026-11-03T23:55:00.000000+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "e21a2854dc970198ca1f63828dfb070865809c7898833dbcda3c2496fbc62385",
+      "textFile": "source-4-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "switchbot-s20",
+      "manufacturer": "SwitchBot",
+      "model": "S20",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "799.99 USD",
+        "weight": "5.5 kg",
+        "size": "365 x 365 x 115 mm",
+        "batteryLife": "4,000 mAh Li-ion (6 x 21700 cells)",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20",
+        "description": "The SwitchBot S20 is a vacuum and mop robot with 10 kPa (10,000 Pa) suction, a self-rinsing RevoRoll roller mop with about 1 kg downward pressure at 300 scrubs per minute, and carpet auto-boost to 10,000 Pa. Robot dimensions are 365 x 365 x 115 mm, the main unit weighs 5.5 kg and the charging station 5.2 kg. A 4,000 mAh Li-ion battery of six 21700 cells recharges at the station in under 4 hours. Navigation uses dToF LiDAR with an AI camera, front infrared sensor and side PSD. The station provides auto water supply and drainage, mop cleaning during operation, dust emptying every 90 days and hot-air mop drying. Current price is 799.99 USD. No runtime in minutes, payload, travel speed, IP rating or water tank capacity is published; the catalog 800 USD price, medium size label and 180 min battery label are replaced or cleared.",
+        "chargingTime": "<4 hours",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch174. Native manufacturer pages read as text only; no research browser, visual inspection, OCR or media reuse. Four separate SwitchBot models. Unsupported catalog price, size, battery and runtime values are cleared or replaced.",
+      "sources": [
+        {
+          "name": "SwitchBot - S20",
+          "type": "manufacturer",
+          "url": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The SwitchBot S20 delivers 10 kPa (10,000 Pa) suction with a self-rinsing RevoRoll roller mop.",
+        "Robot dimensions are 365 x 365 x 115 mm; the main unit weighs 5.5 kg and the charging station 5.2 kg.",
+        "A 4,000 mAh Li-ion battery (6 x 21700 cells) recharges at the station in under 4 hours.",
+        "The station provides auto water supply and drainage, mop cleaning, dust emptying every 90 days and hot-air mop drying.",
+        "The catalog 800 USD price, medium size label and 180 min battery label are replaced by 799.99 USD, reviewed dimensions and a 4,000 mAh battery."
+      ]
+    },
+    {
+      "robotId": "switchbot-k10-plus-pro",
+      "manufacturer": "SwitchBot",
+      "model": "K10+ Pro",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "459.99 USD",
+        "weight": "2.3 kg (main unit with brushes and mop plate)",
+        "size": "248 x 248 x 92 mm (9.8 x 9.8 x 3.6 in)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro",
+        "description": "The SwitchBot K10+ Pro is a mini robot vacuum with a 4 L antibacterial dust bag, an auto-empty station and 45 dB operation. Robot dimensions are 248 x 248 x 92 mm (9.8 x 9.8 x 3.6 in) and the main unit weighs about 2.3 kg with the multi-surface brush, edge-sweeping brush, mop plate and cloth. It pairs with Alexa and Google Assistant and stores dust for up to 90 days. Current price is 459.99 USD. The reviewed specification block publishes no suction power in Pa, battery capacity in mAh, runtime in minutes or absolute charging time; the catalog 599 USD price, 24.8x24.8x9.2 cm size and 150 min battery and runtime labels are replaced or cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch174. Native manufacturer pages read as text only; no research browser, visual inspection, OCR or media reuse. Four separate SwitchBot models. Unsupported catalog price, size, battery and runtime values are cleared or replaced.",
+      "sources": [
+        {
+          "name": "SwitchBot - K10+ Pro",
+          "type": "manufacturer",
+          "url": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The SwitchBot K10+ Pro is a mini robot vacuum with a 4 L antibacterial dust bag and 45 dB operation.",
+        "Robot dimensions are 248 x 248 x 92 mm (9.8 x 9.8 x 3.6 in) and the main unit weighs about 2.3 kg with its brushes and mop plate.",
+        "The auto-empty station stores dust for up to 90 days and the robot pairs with Alexa and Google Assistant.",
+        "No suction power in Pa, battery capacity in mAh, runtime in minutes or charging time is published in the reviewed specification block.",
+        "The catalog 599 USD price, 24.8x24.8x9.2 cm size and 150 min battery and runtime labels are replaced or cleared by 459.99 USD, reviewed dimensions and unpublished runtime."
+      ]
+    },
+    {
+      "robotId": "switchbot-k20-plus-pro",
+      "manufacturer": "SwitchBot",
+      "model": "K20+ Pro",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "699.99 USD",
+        "weight": "2.3 kg",
+        "size": "248 x 248 x 92 mm",
+        "batteryLife": "3,500 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; multitasking household robot on a mobile base",
+        "ageRange": "",
+        "website": "https://www.switch-bot.com/products/switchbot-multitasking-household-robot-k20-pro",
+        "description": "The SwitchBot K20+ Pro is a multitasking household robot whose 4,000 Pa suction module sits on a mobile base that weighs 4 kg. Robot dimensions are 248 x 248 x 92 mm and the net weight is 2.3 kg. A 3,500 mAh battery charges in about 4 hours, the robot crosses obstacles up to 20 mm and runs at 80 dB or less, with DTOF laser radar navigation plus app, Alexa and Google Assistant control and Matter support. Current price is 699.99 USD. The reviewed page publishes no runtime in minutes, payload rating, travel speed, IP rating or water tank capacity; the catalog 700 USD price, small size label, 150 min battery label and 8 kg payload are replaced or cleared.",
+        "chargingTime": "About 4 hours",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch174. Native manufacturer pages read as text only; no research browser, visual inspection, OCR or media reuse. Four separate SwitchBot models. Unsupported catalog price, size, battery and runtime values are cleared or replaced.",
+      "sources": [
+        {
+          "name": "SwitchBot - K20+ Pro",
+          "type": "manufacturer",
+          "url": "https://www.switch-bot.com/products/switchbot-multitasking-household-robot-k20-pro",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The SwitchBot K20+ Pro is a multitasking household robot with a 4,000 Pa suction module on a mobile base.",
+        "Robot dimensions are 248 x 248 x 92 mm, the net weight is 2.3 kg and the mobile base weighs 4 kg.",
+        "A 3,500 mAh battery charges in about 4 hours and the robot crosses obstacles up to 20 mm at 80 dB or less.",
+        "DTOF laser radar navigation supports app, Alexa and Google Assistant control with Matter.",
+        "The catalog 700 USD price, small size label, 150 min battery label and 8 kg payload are replaced or cleared by 699.99 USD, reviewed dimensions and no published payload."
+      ]
+    },
+    {
+      "robotId": "switchbot-k11-plus",
+      "manufacturer": "SwitchBot",
+      "model": "K11+",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "399.99 USD",
+        "weight": "2.3 kg",
+        "size": "248 x 248 x 98.5 mm",
+        "batteryLife": "3,200 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-robot-vacuum-k11",
+        "description": "The SwitchBot K11+ is a mini robot vacuum with 6,000 Pa maximum suction in Quiet, Standard, Strong and Max modes. Robot dimensions are 248 x 248 x 98.5 mm, the main unit weighs 2.3 kg and the charging station 4.2 kg. A 3,200 mAh battery recharges at the station in under 5 hours. Navigation uses LDS laser and SLAM with infrared and PSD cliff detection and auto-resume cleaning, and the 4 L dust bag stores dust for up to 90 days. Current price is 399.99 USD. No runtime in minutes, payload, travel speed, IP rating or water tank capacity is published; the catalog 399 USD price and 24.8x24.8x9.2 cm size are replaced by the reviewed price and dimensions.",
+        "chargingTime": "<5 hours",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch174. Native manufacturer pages read as text only; no research browser, visual inspection, OCR or media reuse. Four separate SwitchBot models. Unsupported catalog price, size, battery and runtime values are cleared or replaced.",
+      "sources": [
+        {
+          "name": "SwitchBot - K11+",
+          "type": "manufacturer",
+          "url": "https://us.switch-bot.com/products/switchbot-robot-vacuum-k11",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The SwitchBot K11+ delivers 6,000 Pa maximum suction in Quiet, Standard, Strong and Max modes.",
+        "Robot dimensions are 248 x 248 x 98.5 mm; the main unit weighs 2.3 kg and the charging station 4.2 kg.",
+        "A 3,200 mAh battery recharges at the charging station in under 5 hours.",
+        "LDS laser and SLAM navigation with infrared and PSD cliff detection plus auto-resume cleaning.",
+        "The catalog 399 USD price and 24.8x24.8x9.2 cm size are replaced by 399.99 USD and 248 x 248 x 98.5 mm."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "switchbot-s20",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "SwitchBot",
+        "model": "S20",
+        "price": "800 USD",
+        "weight": "5.5 kg",
+        "size": "medium",
+        "batteryLife": "180 min",
+        "maxRuntime": "",
+        "tags": "consumer;vacuum;mop;auto-empty;self-cleaning;obstacle-avoidance;ai-powered;app-control",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20",
+        "image": "images/cleaning/switchbot-s20.webp",
+        "video": "",
+        "gallery": "",
+        "description": "10,000Pa, fresh-water-fed roller mop, Matter support, optional plumbing water station, AI avoidance",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "SwitchBot",
+        "model": "S20",
+        "price": "799.99 USD",
+        "weight": "5.5 kg",
+        "size": "365 x 365 x 115 mm",
+        "batteryLife": "4,000 mAh Li-ion (6 x 21700 cells)",
+        "maxRuntime": "",
+        "tags": "consumer;vacuum;mop;auto-empty;self-cleaning;obstacle-avoidance;ai-powered;app-control",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20",
+        "image": "images/cleaning/switchbot-s20.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The SwitchBot S20 is a vacuum and mop robot with 10 kPa (10,000 Pa) suction, a self-rinsing RevoRoll roller mop with about 1 kg downward pressure at 300 scrubs per minute, and carpet auto-boost to 10,000 Pa. Robot dimensions are 365 x 365 x 115 mm, the main unit weighs 5.5 kg and the charging station 5.2 kg. A 4,000 mAh Li-ion battery of six 21700 cells recharges at the station in under 4 hours. Navigation uses dToF LiDAR with an AI camera, front infrared sensor and side PSD. The station provides auto water supply and drainage, mop cleaning during operation, dust emptying every 90 days and hot-air mop drying. Current price is 799.99 USD. No runtime in minutes, payload, travel speed, IP rating or water tank capacity is published; the catalog 800 USD price, medium size label and 180 min battery label are replaced or cleared.",
+        "releaseDate": "2025",
+        "chargingTime": "<4 hours",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "switchbot-k10-plus-pro",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "SwitchBot",
+        "model": "K10+ Pro",
+        "price": "599 USD",
+        "weight": "",
+        "size": "24.8x24.8x9.2 cm",
+        "batteryLife": "150 min",
+        "maxRuntime": "150 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro",
+        "image": "images/cleaning/switchbot-k10-plus-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Mini 3,000Pa vacuum with PSD obstacle sensing and 4L auto-empty.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "SwitchBot",
+        "model": "K10+ Pro",
+        "price": "459.99 USD",
+        "weight": "2.3 kg (main unit with brushes and mop plate)",
+        "size": "248 x 248 x 92 mm (9.8 x 9.8 x 3.6 in)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro",
+        "image": "images/cleaning/switchbot-k10-plus-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The SwitchBot K10+ Pro is a mini robot vacuum with a 4 L antibacterial dust bag, an auto-empty station and 45 dB operation. Robot dimensions are 248 x 248 x 92 mm (9.8 x 9.8 x 3.6 in) and the main unit weighs about 2.3 kg with the multi-surface brush, edge-sweeping brush, mop plate and cloth. It pairs with Alexa and Google Assistant and stores dust for up to 90 days. Current price is 459.99 USD. The reviewed specification block publishes no suction power in Pa, battery capacity in mAh, runtime in minutes or absolute charging time; the catalog 599 USD price, 24.8x24.8x9.2 cm size and 150 min battery and runtime labels are replaced or cleared.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "switchbot-k20-plus-pro",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "SwitchBot",
+        "model": "K20+ Pro",
+        "price": "700 USD",
+        "weight": "2.3 kg",
+        "size": "small",
+        "batteryLife": "150 min",
+        "maxRuntime": "",
+        "tags": "consumer;vacuum;auto-empty;lidar;delivery;monitoring;app-control;programmable",
+        "handType": "",
+        "dof": "",
+        "payload": "8 kg",
+        "speed": "",
+        "terrain": "Thresholds up to 2cm",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.switch-bot.com/products/switchbot-multitasking-household-robot-k20-pro",
+        "image": "images/cleaning/switchbot-k20-plus-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "25cm mini vacuum (4,000Pa) with FusionPlatform: carries 8kg modules — camera, purifier, fan, tray",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "SwitchBot",
+        "model": "K20+ Pro",
+        "price": "699.99 USD",
+        "weight": "2.3 kg",
+        "size": "248 x 248 x 92 mm",
+        "batteryLife": "3,500 mAh",
+        "maxRuntime": "",
+        "tags": "consumer;vacuum;auto-empty;lidar;delivery;monitoring;app-control;programmable",
+        "handType": "None; multitasking household robot on a mobile base",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Thresholds up to 2cm",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.switch-bot.com/products/switchbot-multitasking-household-robot-k20-pro",
+        "image": "images/cleaning/switchbot-k20-plus-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The SwitchBot K20+ Pro is a multitasking household robot whose 4,000 Pa suction module sits on a mobile base that weighs 4 kg. Robot dimensions are 248 x 248 x 92 mm and the net weight is 2.3 kg. A 3,500 mAh battery charges in about 4 hours, the robot crosses obstacles up to 20 mm and runs at 80 dB or less, with DTOF laser radar navigation plus app, Alexa and Google Assistant control and Matter support. Current price is 699.99 USD. The reviewed page publishes no runtime in minutes, payload rating, travel speed, IP rating or water tank capacity; the catalog 700 USD price, small size label, 150 min battery label and 8 kg payload are replaced or cleared.",
+        "releaseDate": "2025",
+        "chargingTime": "About 4 hours",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "switchbot-k11-plus",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "SwitchBot",
+        "model": "K11+",
+        "price": "399 USD",
+        "weight": "",
+        "size": "24.8x24.8x9.2 cm",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;smarthome",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-robot-vacuum-k11",
+        "image": "images/cleaning/switchbot-k11-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Compact Matter robot vacuum with LiDAR and 6,000Pa suction.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "SwitchBot",
+        "model": "K11+",
+        "price": "399.99 USD",
+        "weight": "2.3 kg",
+        "size": "248 x 248 x 98.5 mm",
+        "batteryLife": "3,200 mAh",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;smarthome",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.switch-bot.com/products/switchbot-robot-vacuum-k11",
+        "image": "images/cleaning/switchbot-k11-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The SwitchBot K11+ is a mini robot vacuum with 6,000 Pa maximum suction in Quiet, Standard, Strong and Max modes. Robot dimensions are 248 x 248 x 98.5 mm, the main unit weighs 2.3 kg and the charging station 4.2 kg. A 3,200 mAh battery recharges at the station in under 5 hours. Navigation uses LDS laser and SLAM with infrared and PSD cliff detection and auto-resume cleaning, and the 4 L dust bag stores dust for up to 90 days. Current price is 399.99 USD. No runtime in minutes, payload, travel speed, IP rating or water tank capacity is published; the catalog 399 USD price and 24.8x24.8x9.2 cm size are replaced by the reviewed price and dimensions.",
+        "releaseDate": "2025",
+        "chargingTime": "<5 hours",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "SwitchBot",
+      "model": "S20",
+      "changes": {
+        "price": {
+          "before": "800 USD",
+          "after": "799.99 USD"
+        },
+        "size": {
+          "before": "medium",
+          "after": "365 x 365 x 115 mm"
+        },
+        "batteryLife": {
+          "before": "180 min",
+          "after": "4,000 mAh Li-ion (6 x 21700 cells)"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "10,000Pa, fresh-water-fed roller mop, Matter support, optional plumbing water station, AI avoidance",
+          "after": "The SwitchBot S20 is a vacuum and mop robot with 10 kPa (10,000 Pa) suction, a self-rinsing RevoRoll roller mop with about 1 kg downward pressure at 300 scrubs per minute, and carpet auto-boost to 10,000 Pa. Robot dimensions are 365 x 365 x 115 mm, the main unit weighs 5.5 kg and the charging station 5.2 kg. A 4,000 mAh Li-ion battery of six 21700 cells recharges at the station in under 4 hours. Navigation uses dToF LiDAR with an AI camera, front infrared sensor and side PSD. The station provides auto water supply and drainage, mop cleaning during operation, dust emptying every 90 days and hot-air mop drying. Current price is 799.99 USD. No runtime in minutes, payload, travel speed, IP rating or water tank capacity is published; the catalog 800 USD price, medium size label and 180 min battery label are replaced or cleared."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "<4 hours"
+        }
+      }
+    },
+    {
+      "manufacturer": "SwitchBot",
+      "model": "K10+ Pro",
+      "changes": {
+        "price": {
+          "before": "599 USD",
+          "after": "459.99 USD"
+        },
+        "weight": {
+          "before": "",
+          "after": "2.3 kg (main unit with brushes and mop plate)"
+        },
+        "size": {
+          "before": "24.8x24.8x9.2 cm",
+          "after": "248 x 248 x 92 mm (9.8 x 9.8 x 3.6 in)"
+        },
+        "batteryLife": {
+          "before": "150 min",
+          "after": ""
+        },
+        "maxRuntime": {
+          "before": "150 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Mini 3,000Pa vacuum with PSD obstacle sensing and 4L auto-empty.",
+          "after": "The SwitchBot K10+ Pro is a mini robot vacuum with a 4 L antibacterial dust bag, an auto-empty station and 45 dB operation. Robot dimensions are 248 x 248 x 92 mm (9.8 x 9.8 x 3.6 in) and the main unit weighs about 2.3 kg with the multi-surface brush, edge-sweeping brush, mop plate and cloth. It pairs with Alexa and Google Assistant and stores dust for up to 90 days. Current price is 459.99 USD. The reviewed specification block publishes no suction power in Pa, battery capacity in mAh, runtime in minutes or absolute charging time; the catalog 599 USD price, 24.8x24.8x9.2 cm size and 150 min battery and runtime labels are replaced or cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "SwitchBot",
+      "model": "K20+ Pro",
+      "changes": {
+        "price": {
+          "before": "700 USD",
+          "after": "699.99 USD"
+        },
+        "size": {
+          "before": "small",
+          "after": "248 x 248 x 92 mm"
+        },
+        "batteryLife": {
+          "before": "150 min",
+          "after": "3,500 mAh"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; multitasking household robot on a mobile base"
+        },
+        "payload": {
+          "before": "8 kg",
+          "after": ""
+        },
+        "description": {
+          "before": "25cm mini vacuum (4,000Pa) with FusionPlatform: carries 8kg modules — camera, purifier, fan, tray",
+          "after": "The SwitchBot K20+ Pro is a multitasking household robot whose 4,000 Pa suction module sits on a mobile base that weighs 4 kg. Robot dimensions are 248 x 248 x 92 mm and the net weight is 2.3 kg. A 3,500 mAh battery charges in about 4 hours, the robot crosses obstacles up to 20 mm and runs at 80 dB or less, with DTOF laser radar navigation plus app, Alexa and Google Assistant control and Matter support. Current price is 699.99 USD. The reviewed page publishes no runtime in minutes, payload rating, travel speed, IP rating or water tank capacity; the catalog 700 USD price, small size label, 150 min battery label and 8 kg payload are replaced or cleared."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "About 4 hours"
+        }
+      }
+    },
+    {
+      "manufacturer": "SwitchBot",
+      "model": "K11+",
+      "changes": {
+        "price": {
+          "before": "399 USD",
+          "after": "399.99 USD"
+        },
+        "weight": {
+          "before": "",
+          "after": "2.3 kg"
+        },
+        "size": {
+          "before": "24.8x24.8x9.2 cm",
+          "after": "248 x 248 x 98.5 mm"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "3,200 mAh"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Compact Matter robot vacuum with LiDAR and 6,000Pa suction.",
+          "after": "The SwitchBot K11+ is a mini robot vacuum with 6,000 Pa maximum suction in Quiet, Standard, Strong and Max modes. Robot dimensions are 248 x 248 x 98.5 mm, the main unit weighs 2.3 kg and the charging station 4.2 kg. A 3,200 mAh battery recharges at the station in under 5 hours. Navigation uses LDS laser and SLAM with infrared and PSD cliff detection and auto-resume cleaning, and the 4 L dust bag stores dust for up to 90 days. Current price is 399.99 USD. No runtime in minutes, payload, travel speed, IP rating or water tank capacity is published; the catalog 399 USD price and 24.8x24.8x9.2 cm size are replaced by the reviewed price and dimensions."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "<5 hours"
+        }
+      }
+    }
+  ],
+  "companyFocus": [],
+  "totalProductHighlightRecords": 1366,
+  "totalHighlightStatements": 6307,
+  "totalProductSourceReferences": 2917,
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 34,
+    "axeCases": 8,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1248,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": [
+      {
+        "id": 1,
+        "bodyShaMatches": true,
+        "bodyBytes": 1791534,
+        "textChars": 67047,
+        "url": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20"
+      },
+      {
+        "id": 2,
+        "bodyShaMatches": true,
+        "bodyBytes": 1852454,
+        "textChars": 84028,
+        "url": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro"
+      },
+      {
+        "id": 3,
+        "bodyShaMatches": true,
+        "bodyBytes": 1887379,
+        "textChars": 40582,
+        "url": "https://www.switch-bot.com/products/switchbot-multitasking-household-robot-k20-pro"
+      },
+      {
+        "id": 4,
+        "bodyShaMatches": true,
+        "bodyBytes": 1799941,
+        "textChars": 90502,
+        "url": "https://us.switch-bot.com/products/switchbot-robot-vacuum-k11"
+      }
+    ],
+    "body-scope-check": {
+      "allNativeHtml": true,
+      "checks": [
+        {
+          "id": 1,
+          "bodyShaMatches": true,
+          "bodyBytes": 1791534,
+          "textChars": 67047,
+          "url": "https://us.switch-bot.com/products/switchbot-floor-cleaning-robot-s20"
+        },
+        {
+          "id": 2,
+          "bodyShaMatches": true,
+          "bodyBytes": 1852454,
+          "textChars": 84028,
+          "url": "https://us.switch-bot.com/products/switchbot-mini-robot-vacuum-k10-pro"
+        },
+        {
+          "id": 3,
+          "bodyShaMatches": true,
+          "bodyBytes": 1887379,
+          "textChars": 40582,
+          "url": "https://www.switch-bot.com/products/switchbot-multitasking-household-robot-k20-pro"
+        },
+        {
+          "id": 4,
+          "bodyShaMatches": true,
+          "bodyBytes": 1799941,
+          "textChars": 90502,
+          "url": "https://us.switch-bot.com/products/switchbot-robot-vacuum-k11"
+        }
+      ]
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "reviewedProducts": 4,
+      "selectedFields": 72,
+      "selectedFieldStatuses": {
+        "documented": 30,
+        "not-documented": 42
+      },
+      "specificationReviewModels": 1350,
+      "specificationFields": 25398,
+      "allFieldStatuses": {
+        "not-documented": 15567,
+        "documented": 9400,
+        "conflicting": 323,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1366,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 72,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 1
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1366,
+      "individualHighlights": 6307,
+      "productSourceReferences": 2917,
+      "specificationReviewModels": 1350,
+      "specificationFields": 25398,
+      "publicJsonBytes": 6764840,
+      "catalogScriptBytes": 2745860,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T22:48:04Z",
+            "after": "2026-11-03T22:51:15Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T22:48:03.435Z",
+            "after": "2026-11-03T22:51:14.494Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "cf97678c02be7823b1b9e8a2d9f7e8771e21e23768dbeb9de0dc32f7382a3926",
+            "after": "149601bdcf2a740fe92e2fcea118afe1d1a6f6355924f81cfa555ddf87e89a13"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T22:48:03.435Z",
+            "after": "2026-11-03T22:51:14.494Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T22:48:03.435Z",
+            "after": "2026-11-03T22:51:14.494Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 69,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "e6045346520fe9ff19b6ddf1f7cae39d7018e09d",
+    "dataCommit": "d2411f3ae3ce9bc1b719d7cdc29f3ea02ee7e0db",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 763,
+  "goalComplete": false
+}
