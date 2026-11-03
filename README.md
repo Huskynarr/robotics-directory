@@ -143,14 +143,14 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,309 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,311 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 484 and 34 still awaiting those reviews.
+selected technical-field reviews for 487 and 31 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -382,6 +382,17 @@ internal and 6,000 lb external), maximum airspeed 400 KTAS and flight endurance 
 The PW545B turbofan propulsion is documented; battery runtime is not applicable.
 MQ-20 autonomy demonstrations and the directory's Shield AI service listing are
 scoped to company tests and partner offerings, not proven fleet deployments.
+
+Greenfield Robotics BOTONY, Groove X Lovot and Hai Robotics HaiPick A42T-E2 now
+have selected field reviews. BOTONY is documented as an autonomous broadacre weeder in
+wheeled or tracked configurations; the issuer estimates about 7 acres per day under optimal
+conditions and publishes a 60-inch turn zone, a 15 km RTK range and centimeter-level field
+accuracy. LOVOT keeps 3.0 and 2.0 hardware separate: about 4.6 kg versus 4.3 kg, 599,500 JPY
+versus 449,900 JPY, a 30–45 minute operating cycle and 15–30 minutes of charging.
+HaiPick A42T-E2 is a second-generation telescopic case-handling robot rated for 30 kg
+per tote, up to three interlocked totes, a 12 m picking height, 0.93 m/s lifting speed,
+63 totes per hour, a 39-minute fast charge and at least 6.6 hours of full-charge life.
+System throughput, storage-density and safety-certification statements remain supplier claims.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1248,20 +1259,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-23,819 fields across 1260 models, distinguishing documented, undisclosed, conflicting and
+23,882 fields across 1263 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,466 kB JSON response loads only for search or comparison;
+A separate 6,482 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,856 reviewed highlight statements as well as
+Catalog search now includes all 5,871 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing

@@ -17,12 +17,12 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
 | Eigener Katalog vorher / nachher | 1.255 / 2.378 Modelle/Konfigurationen |
 | Neue Modelle mit Primärbelegen und Produktmerkmalen | 1124 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1309 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1311 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 144 |
+| Firmenfokus-Prüfungen mit Quellen | 147 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1124 ergänzte Modelle ergeben 2.378 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-144 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+147 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1309 Datensätze
+Modellseiten verlinken Markenprofile. Die 1311 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 484 haben ausgewählte Datenfeldprüfungen und 34
+haben datierte Merkmalsbelege; 487 haben ausgewählte Datenfeldprüfungen und 31
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -12571,3 +12571,37 @@ Bemannte-Unbemannte-Kollaboration) sind unternehmensinterne Erprobungsmeilenstei
 Zertifizierung einer Einsatzreife. Der buyandrentrobots-Eintrag führt Avenger als verfügbaren Dienst von
 Shield AI mit anfragebasiertem Preis („Request a quote“) und MQ-20-Zelle; er belegt weder einen Kaufpreis
 noch die Äquivalenz zu jeder GA-ASI-Serienkonfiguration.
+
+
+## Ergänzung 151 – Greenfield BOTONY, Groove X LOVOT und HaiPick A42T-E2: Feldfläche, Versionsmassen und Tote-Kapazität (3. November 2026)
+
+Drei bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus System-, Familien- oder
+Partnerbezeichnungen erzeugt. Die Prüfung umfasst 63 Felder: 24 dokumentiert und 39 nicht dokumentiert.
+Hinzu kommen 15 Merkmalsaussagen, sieben zusätzliche Produktquellenverweise und drei neue
+Firmenfokusse. Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten.
+2.375 andere Katalogzeilen, 1.260 frühere Feldprüfungen und 144 andere Firmenfokusse sind unverändert.
+Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze, 5.871 Aussagen, 2.814 Produktquellenverweise,
+1.263 Feldprüfungen mit 23.882 Feldern und 147 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen
+sind 487 technisch teilgeprüft; 31 bleiben offen. Dauerbeleg: `reports/competitor-batch-151-evidence.json`.
+
+Elf HTTP-Antworten sind gehasht gesichert und als Text gelesen; kein Recherchebrowser, keine visuelle
+Prüfung, OCR oder Medienübernahme. Keine Formulare, Konten, Kontaktaufnahme, Nachrichten oder
+Transaktionen. BOTONY bleibt eine Herstellerschätzung unter optimalen Bedingungen: etwa 7 Acres pro Tag,
+Schnitt bei 3–5 Zoll Unkraut, 60-Zoll-Wendespur, GreenTRIP-RTK mit 15 km Radius und
+zentimetergenauer Feldnavigation. Wheeled und tracked sind alternative Konfigurationen; die 2025er Flotte
+von 23 Robotern, 70 Bestellungen für 2026 und 60 ausgelieferte Roboter sind Unternehmensangaben,
+keine unabhängige Leistungsprüfung.
+
+LOVOT bleibt der Familienname; die Herstellerseite trennt LOVOT 3.0 und 2.0 ausdrücklich. Die
+Katalogzeile führt deshalb versionsbezogene Werte: rund 4,6 kg gegen 4,3 kg, 280 × 450 × 290 mm
+gegen 300 mm Fahrttiefe, 599.500 JPY gegen 449.900 JPY, jeweils Grundfarbe inklusive Steuer, sowie
+etwa 30–45 Minuten Betrieb und 15–30 Minuten Laden pro Normalzyklus. Diese Werte sind keine
+Dauerbetriebsgarantie und keine unabhängige therapeutische oder Sicherheitszertifizierung.
+
+Der HaiPick A42T-E2 ist als ACR der zweiten Generation mit einem einzelnen Greifhaken und Chain-Pick
+dokumentiert: 30 kg (66,1 lb) pro Tote, bis zu drei ineinandergreifende Toten gleichzeitig, acht Toten im
+Bordturm, 12 m maximale Entnahmehöhe, 0,93 m/s Hubgeschwindigkeit, 2,7 s Toten-Handling, 63 Toten pro
+Stunde, 40 mm Totenabstand, 3-fach tiefe Regale, 89 % Lagerraumoptimierung, LFP-62-Akku, 39 Minuten
+Schnellladung und mindestens 6,6 Stunden Vollladungsleben. 63 Toten pro Stunde und 89 % sind
+Systemaussagen des Anbieters, keine unabhängigen Benchmarks; CE/NRTL ist Produktkonformität, keine
+standortspezifische Sicherheitszertifizierung. Reisegeschwindigkeit, Gesamtmaße und Preis bleiben offen.

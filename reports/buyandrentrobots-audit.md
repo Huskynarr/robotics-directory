@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,378 catalog rows**, with 646 exact
-manufacturer spellings. Batch 150 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 151 refreshed the separate heuristic gap file offline
 against all 2,378 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -70,7 +70,7 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1309 dated records across the catalog, including
+Current product-highlight coverage: 1311 dated records across the catalog, including
 185 existing-model enrichments and 1124 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
 The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1124 task additions, totaling 2,378.
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 484 have selected-field reviews and 34 await those reviews. Family and
+highlights; 487 have selected-field reviews and 31 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,819 fields across 1260 catalog models: 8,751 documented,
-14,644 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
+Selected specification checks cover 23,882 fields across 1263 catalog models: 8,775 documented,
+14,683 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -10336,3 +10336,37 @@ Bemannte-Unbemannte-Kollaboration) sind unternehmensinterne Erprobungsmeilenstei
 Zertifizierung einer Einsatzreife. Der buyandrentrobots-Eintrag führt Avenger als verfügbaren Dienst von
 Shield AI mit anfragebasiertem Preis („Request a quote“) und MQ-20-Zelle; er belegt weder einen Kaufpreis
 noch die Äquivalenz zu jeder GA-ASI-Serienkonfiguration.
+
+
+## Ergänzung 151 – Greenfield BOTONY, Groove X LOVOT und HaiPick A42T-E2: Feldfläche, Versionsmassen und Tote-Kapazität (3. November 2026)
+
+Drei bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus System-, Familien- oder
+Partnerbezeichnungen erzeugt. Die Prüfung umfasst 63 Felder: 24 dokumentiert und 39 nicht dokumentiert.
+Hinzu kommen 15 Merkmalsaussagen, sieben zusätzliche Produktquellenverweise und drei neue
+Firmenfokusse. Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten.
+2.375 andere Katalogzeilen, 1.260 frühere Feldprüfungen und 144 andere Firmenfokusse sind unverändert.
+Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze, 5.871 Aussagen, 2.814 Produktquellenverweise,
+1.263 Feldprüfungen mit 23.882 Feldern und 147 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen
+sind 487 technisch teilgeprüft; 31 bleiben offen. Dauerbeleg: `reports/competitor-batch-151-evidence.json`.
+
+Elf HTTP-Antworten sind gehasht gesichert und als Text gelesen; kein Recherchebrowser, keine visuelle
+Prüfung, OCR oder Medienübernahme. Keine Formulare, Konten, Kontaktaufnahme, Nachrichten oder
+Transaktionen. BOTONY bleibt eine Herstellerschätzung unter optimalen Bedingungen: etwa 7 Acres pro Tag,
+Schnitt bei 3–5 Zoll Unkraut, 60-Zoll-Wendespur, GreenTRIP-RTK mit 15 km Radius und
+zentimetergenauer Feldnavigation. Wheeled und tracked sind alternative Konfigurationen; die 2025er Flotte
+von 23 Robotern, 70 Bestellungen für 2026 und 60 ausgelieferte Roboter sind Unternehmensangaben,
+keine unabhängige Leistungsprüfung.
+
+LOVOT bleibt der Familienname; die Herstellerseite trennt LOVOT 3.0 und 2.0 ausdrücklich. Die
+Katalogzeile führt deshalb versionsbezogene Werte: rund 4,6 kg gegen 4,3 kg, 280 × 450 × 290 mm
+gegen 300 mm Fahrttiefe, 599.500 JPY gegen 449.900 JPY, jeweils Grundfarbe inklusive Steuer, sowie
+etwa 30–45 Minuten Betrieb und 15–30 Minuten Laden pro Normalzyklus. Diese Werte sind keine
+Dauerbetriebsgarantie und keine unabhängige therapeutische oder Sicherheitszertifizierung.
+
+Der HaiPick A42T-E2 ist als ACR der zweiten Generation mit einem einzelnen Greifhaken und Chain-Pick
+dokumentiert: 30 kg (66,1 lb) pro Tote, bis zu drei ineinandergreifende Toten gleichzeitig, acht Toten im
+Bordturm, 12 m maximale Entnahmehöhe, 0,93 m/s Hubgeschwindigkeit, 2,7 s Toten-Handling, 63 Toten pro
+Stunde, 40 mm Totenabstand, 3-fach tiefe Regale, 89 % Lagerraumoptimierung, LFP-62-Akku, 39 Minuten
+Schnellladung und mindestens 6,6 Stunden Vollladungsleben. 63 Toten pro Stunde und 89 % sind
+Systemaussagen des Anbieters, keine unabhängigen Benchmarks; CE/NRTL ist Produktkonformität, keine
+standortspezifische Sicherheitszertifizierung. Reisegeschwindigkeit, Gesamtmaße und Preis bleiben offen.
