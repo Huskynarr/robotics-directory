@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 147 |
+| Firmenfokus-Prüfungen mit Quellen | 150 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1124 ergänzte Modelle ergeben 2.378 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-147 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+150 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1311 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 487 haben ausgewählte Datenfeldprüfungen und 31
+haben datierte Merkmalsbelege; 490 haben ausgewählte Datenfeldprüfungen und 28
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -12605,3 +12605,39 @@ Stunde, 40 mm Totenabstand, 3-fach tiefe Regale, 89 % Lagerraumoptimierung, LFP-
 Schnellladung und mindestens 6,6 Stunden Vollladungsleben. 63 Toten pro Stunde und 89 % sind
 Systemaussagen des Anbieters, keine unabhängigen Benchmarks; CE/NRTL ist Produktkonformität, keine
 standortspezifische Sicherheitszertifizierung. Reisegeschwindigkeit, Gesamtmaße und Preis bleiben offen.
+
+
+## Ergänzung 152 – Tesla Optimus, Misty II und ElliQ 3: Fabrikplanung, dokumentierte Hardware und Softwaregeneration (3. November 2026)
+
+Drei bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus System-, Familien- oder
+Partnerbezeichnungen erzeugt. Die Prüfung umfasst 49 Felder: 14 dokumentiert und 35 nicht dokumentiert.
+Hinzu kommen 15 Merkmalsaussagen, drei zusätzliche Produktquellenverweise und drei neue
+Firmenfokusse. Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten.
+2.375 andere Katalogzeilen, 1.263 frühere Feldprüfungen und 147 andere Firmenfokusse sind unverändert.
+Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze, 5.886 Aussagen, 2.817 Produktquellenverweise,
+1.266 Feldprüfungen mit 23.931 Feldern und 150 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen
+sind 490 technisch teilgeprüft; 28 bleiben offen. Dauerbeleg: `reports/competitor-batch-152-evidence.json`.
+
+Zehn HTTP-Antworten sind gehasht gesichert und als Text gelesen; ein PDF umfasst 35 Seiten. Drei
+Antworten waren blockiert (HTTP 403/429) und eine Seite fehlte (HTTP 404); kein Recherchebrowser,
+keine visuelle Prüfung, OCR oder Medienübernahme. Keine Formulare, Konten, Kontaktaufnahme,
+Nachrichten oder Transaktionen. Tesla Optimus bleibt ein Humanoid-Programm: Der Investorenbericht vom
+April 2026 nennt den Beginn der Vorbereitung für die erste Großserienfabrik im zweiten Quartal, eine
+erste Generation für 1 Million Roboter pro Jahr in Fremont und eine zweite Texas-Linie für langfristig
+10 Millionen Roboter pro Jahr. Das ist Bautätigkeit und Produktionsplanung, keine Kundenverfügbarkeit,
+keine ausgelieferte Flotte und keine unabhängige Leistungsprüfung; Preis, Masse, Nutzlast, Geschwindigkeit
+und Laufzeit bleiben offen. Die alten Werte 57 kg, 28 DOF, 20 kg, 5 km/h und 10–12 Stunden sind entfernt.
+
+Misty II ist als programmierbarer Sozialroboter für Bildung und Forschung dokumentiert: 35,56 cm Höhe,
+25,4 cm Tiefe, 20,32 cm Breite und 2,7 kg Masse, Snapdragon 820/410, Occipital Structure Core,
+4K-Kamera, acht IR-ToF- und zehn Bump-Sensoren, 4-Zoll-LCD, 3-DOF-Hals, bewegliche Arme, Raupenantrieb
+und Anhängerkupplung. Das Gefahrensystem erkennt Abstürze ab 60 mm und begrenzt die Geschwindigkeit auf
+etwa 450 mm/s; USB/UART und ein optionaler Arduino-Rucksack erweitern die Hardware. Laufzeit, Nutzlast,
+IP-Schutz und aktuelle Verfügbarkeit sind nicht belegt; der alte Preis von etwa 3.000 USD ist entfernt.
+
+ElliQ 3 ist die am 9. Januar 2024 vorgestellte Hardwaregeneration mit 36 % kleinerer Stellfläche,
+integriertem Bildschirm und MediaTek-Oktakern-plus-KI-SoC. Die generative KI-Software soll mit allen
+ElliQ-Hardwareversionen kompatibel sein; die Hardware war für Frühjahr 2024 angekündigt. ElliQ wird als
+geleastes Mitgliedschaftsangebot beschrieben. Die vom Unternehmen berichteten Werte zu Einsamkeit, Gesundheit
+und sozialer Verbundenheit sind keine unabhängigen klinischen Studien; numerischer Preis, Masse, Maße,
+Laufzeit und unabhängige Zertifizierung bleiben offen.

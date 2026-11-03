@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,378 catalog rows**, with 646 exact
-manufacturer spellings. Batch 151 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 152 refreshed the separate heuristic gap file offline
 against all 2,378 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 487 have selected-field reviews and 31 await those reviews. Family and
+highlights; 490 have selected-field reviews and 28 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,882 fields across 1263 catalog models: 8,775 documented,
-14,683 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
+Selected specification checks cover 23,931 fields across 1266 catalog models: 8,789 documented,
+14,718 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -10370,3 +10370,39 @@ Stunde, 40 mm Totenabstand, 3-fach tiefe Regale, 89 % Lagerraumoptimierung, LFP-
 Schnellladung und mindestens 6,6 Stunden Vollladungsleben. 63 Toten pro Stunde und 89 % sind
 Systemaussagen des Anbieters, keine unabhängigen Benchmarks; CE/NRTL ist Produktkonformität, keine
 standortspezifische Sicherheitszertifizierung. Reisegeschwindigkeit, Gesamtmaße und Preis bleiben offen.
+
+
+## Ergänzung 152 – Tesla Optimus, Misty II und ElliQ 3: Fabrikplanung, dokumentierte Hardware und Softwaregeneration (3. November 2026)
+
+Drei bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus System-, Familien- oder
+Partnerbezeichnungen erzeugt. Die Prüfung umfasst 49 Felder: 14 dokumentiert und 35 nicht dokumentiert.
+Hinzu kommen 15 Merkmalsaussagen, drei zusätzliche Produktquellenverweise und drei neue
+Firmenfokusse. Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten.
+2.375 andere Katalogzeilen, 1.263 frühere Feldprüfungen und 147 andere Firmenfokusse sind unverändert.
+Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze, 5.886 Aussagen, 2.817 Produktquellenverweise,
+1.266 Feldprüfungen mit 23.931 Feldern und 150 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen
+sind 490 technisch teilgeprüft; 28 bleiben offen. Dauerbeleg: `reports/competitor-batch-152-evidence.json`.
+
+Zehn HTTP-Antworten sind gehasht gesichert und als Text gelesen; ein PDF umfasst 35 Seiten. Drei
+Antworten waren blockiert (HTTP 403/429) und eine Seite fehlte (HTTP 404); kein Recherchebrowser,
+keine visuelle Prüfung, OCR oder Medienübernahme. Keine Formulare, Konten, Kontaktaufnahme,
+Nachrichten oder Transaktionen. Tesla Optimus bleibt ein Humanoid-Programm: Der Investorenbericht vom
+April 2026 nennt den Beginn der Vorbereitung für die erste Großserienfabrik im zweiten Quartal, eine
+erste Generation für 1 Million Roboter pro Jahr in Fremont und eine zweite Texas-Linie für langfristig
+10 Millionen Roboter pro Jahr. Das ist Bautätigkeit und Produktionsplanung, keine Kundenverfügbarkeit,
+keine ausgelieferte Flotte und keine unabhängige Leistungsprüfung; Preis, Masse, Nutzlast, Geschwindigkeit
+und Laufzeit bleiben offen. Die alten Werte 57 kg, 28 DOF, 20 kg, 5 km/h und 10–12 Stunden sind entfernt.
+
+Misty II ist als programmierbarer Sozialroboter für Bildung und Forschung dokumentiert: 35,56 cm Höhe,
+25,4 cm Tiefe, 20,32 cm Breite und 2,7 kg Masse, Snapdragon 820/410, Occipital Structure Core,
+4K-Kamera, acht IR-ToF- und zehn Bump-Sensoren, 4-Zoll-LCD, 3-DOF-Hals, bewegliche Arme, Raupenantrieb
+und Anhängerkupplung. Das Gefahrensystem erkennt Abstürze ab 60 mm und begrenzt die Geschwindigkeit auf
+etwa 450 mm/s; USB/UART und ein optionaler Arduino-Rucksack erweitern die Hardware. Laufzeit, Nutzlast,
+IP-Schutz und aktuelle Verfügbarkeit sind nicht belegt; der alte Preis von etwa 3.000 USD ist entfernt.
+
+ElliQ 3 ist die am 9. Januar 2024 vorgestellte Hardwaregeneration mit 36 % kleinerer Stellfläche,
+integriertem Bildschirm und MediaTek-Oktakern-plus-KI-SoC. Die generative KI-Software soll mit allen
+ElliQ-Hardwareversionen kompatibel sein; die Hardware war für Frühjahr 2024 angekündigt. ElliQ wird als
+geleastes Mitgliedschaftsangebot beschrieben. Die vom Unternehmen berichteten Werte zu Einsamkeit, Gesundheit
+und sozialer Verbundenheit sind keine unabhängigen klinischen Studien; numerischer Preis, Masse, Maße,
+Laufzeit und unabhängige Zertifizierung bleiben offen.

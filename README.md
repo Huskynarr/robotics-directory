@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 487 and 31 still awaiting those reviews.
+selected technical-field reviews for 490 and 28 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -393,6 +393,22 @@ HaiPick A42T-E2 is a second-generation telescopic case-handling robot rated for 
 per tote, up to three interlocked totes, a 12 m picking height, 0.93 m/s lifting speed,
 63 totes per hour, a 39-minute fast charge and at least 6.6 hours of full-charge life.
 System throughput, storage-density and safety-certification statements remain supplier claims.
+
+Tesla Optimus, Misty Robotics Misty II and Intuition Robotics ElliQ 3 now have
+selected field reviews. Tesla's April 2026 investor update describes preparations for a
+first large-scale Optimus factory in Q2, a first-generation line designed for 1 million
+robots a year in Fremont and a second-generation Texas line designed for long-term annual
+capacity of 10 million robots. Construction status is not customer availability, and the update
+publishes no price, mass, payload, speed, runtime or delivered fleet. Misty II is documented
+at 2.7 kg and 35.56 × 25.4 × 20.32 cm, with Snapdragon 820/410 processors, an Occipital
+Structure Core depth sensor, a 4K camera, eight IR time-of-flight and ten bump sensors, a
+3-degree-of-freedom neck, tracked drive, a 60 mm drop threshold and about 450 mm/s
+hazard-limited speed; runtime, payload and IP ratings remain unpublished. ElliQ 3 is the
+January 9, 2024 hardware generation with a 36% smaller footprint, integrated screen and
+MediaTek octa-core plus AI SoC. The generative-AI software is described as compatible with
+all hardware versions, hardware was expected in spring 2024, and the leased membership
+publishes no numeric price, mass or dimensions. Company-reported outcomes are not independent
+clinical certification.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1259,20 +1275,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-23,882 fields across 1263 models, distinguishing documented, undisclosed, conflicting and
+23,931 fields across 1266 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,482 kB JSON response loads only for search or comparison;
+A separate 6,494 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,871 reviewed highlight statements as well as
+Catalog search now includes all 5,886 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
