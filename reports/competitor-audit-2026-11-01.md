@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.344 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1090 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1275 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.345 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1091 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1276 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 132 |
+| Firmenfokus-Prüfungen mit Quellen | 133 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1090 ergänzte Modelle ergeben 2.344 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1091 ergänzte Modelle ergeben 2.345 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-132 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+133 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1275 Datensätze
+Modellseiten verlinken Markenprofile. Die 1276 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 471 haben ausgewählte Datenfeldprüfungen und 47
+haben datierte Merkmalsbelege; 472 haben ausgewählte Datenfeldprüfungen und 46
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11415,3 +11415,80 @@ Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ur
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Pro+-Hardwareversion, vollständige historische Portfolios, exklusive USPs
 und Rang Nr. 1 bleiben unbewiesen.
+
+
+## Ergänzung 138 – BotEyes: Pad-Quellenstände und Mini-Kamerakonfiguration (3. November 2026)
+
+BotEyes-Mini kommt als explizit benannte Kamerakonfiguration hinzu; BotEyes-Pad
+wird vertieft geprüft. Zwei Feldprüfungen umfassen 34 Felder: zwölf dokumentiert,
+20 nicht dokumentiert und zwei Quellenkonflikte. Sechs zusätzliche Merkmalsaussagen,
+fünf Produktquellenverweise und ein Firmenfokus kommen hinzu. Drei vorherige
+Pad-Merkmale, ID, Medien und Fund-URLs bleiben erhalten. Die übrigen 2.343 alten
+Katalogzeilen, 1.210 bisherigen Feldprüfungen und 132 Firmenfokusse sind unverändert.
+Gesamt: 2.345 Katalogzeilen, 1.276 datierte Merkmalsdatensätze, 5.669 Aussagen,
+2.630 Produktquellenverweise, 1.212 Feldprüfungen mit 22.973 Feldern und
+133 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben 472 ausgewählte
+Feldprüfungen; 46 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-138-evidence.json`.
+
+Neun HTTP-200-Herstellerantworten einschließlich einer achtseitigen PDF sind
+mit Hashes geprüft. Technische HTML-Zellen und die eigene BotEyes-Pad-Spalte der
+nativen PDF-Tabelle auf Seite sieben behalten ihre Zuordnung. Die PDF-Metadaten
+tragen den 16. März 2019; das ist kein gesicherter Publikations-, Versions- oder
+Erscheinungstermin. Es gab keine visuelle Prüfung, OCR, Anmeldung, Testfahrt,
+Fernsteuerung echter Hardware, Formularübermittlung, Nachricht, Transaktion oder
+Medienübernahme. Vorbereitete Anmelde-/Kontaktseiten sind keine tatsächlich
+benutzten Konten oder Versandbelege.
+
+Die aktuelle Webtabelle nennt 13,4 kg Robotergewicht, 142,5 cm Höhe mit Tablet
+und 29 × 39 cm Grundfläche. Die historische, weiterhin herstellergehostete
+Vergleichstabelle nennt unter demselben Pad-Namen zehn Kilogramm und 125 cm.
+Eine Zuordnung zu konkreten Hardwareversionen ist nicht belegt; Masse und Größe
+behalten beide Quellenstände mit Konfliktstatus. Aus einer unbenannten früheren
+Ausführung entsteht keine erfundene zusätzliche Modellgeneration. 25 kg und
+75 × 38 × 35 cm gehören zum Versandpaket. Die widersprüchlichen Dock-Maße mit
+problematischen Einheiten werden nicht als Roboter- oder Dock-Hüllmaß importiert.
+
+Zehn Betriebsstunden und zehn Stunden für vollständiges Laden sind zwei getrennte
+Zeilen der aktuellen Tabelle. Das zusätzliche „10+“ auf der Startseite behält
+seine unklaren Testbedingungen; Batterieenergie und USB-Tabletversorgung ergeben
+keine weitere Laufzeit. Variable Fahrt ist mit 0–2,5 km/h und zusätzlich
+0–1,5 mph beschriftet; die gerundeten Herstellerangaben werden nicht zu einer
+exakten Umrechnung oder unabhängig gemessenen Missionsgeschwindigkeit.
+Der Hersteller nennt bis 1,5 cm Türschwellen. Für Mini werden diese Zahlen nicht
+übernommen.
+
+Pad-Autodocking verlangt ein waagerechtes Tablet mit Orientierungssensor; mögliche
+iPad-Dockprobleme und Mikrofonverlust beim Kamerawechsel bleiben sichtbar.
+Aufzeichnung und Bildschirmteilen behalten Geräte-/OS-Grenzen. Kopfbewegung ist
+als 160 Grad nach oben plus 180 nach unten in der Liste, 160 Grad in der Tabelle
+und 120 Grad in der älteren PDF angegeben; die unterschiedlichen Geltungsbereiche
+werden nicht zu einer garantierten universellen Spanne oder Gelenkzahl erklärt.
+Absolute Stabilitäts-/Batteriesicherheitsformulierungen, Watchdog- und
+Verschlüsselungsetiketten sowie alte Browser-/Betriebssystemnamen belegen keine
+unabhängige Sicherheit, aktuelle Softwareunterstützung oder exklusive Überlegenheit.
+
+Der offizielle Supportindex verlinkt Mini als eigene benannte Kamerakonfiguration.
+CamHi/HiP2P bedient die Überwachungskamera, ein eigener Browser die Bewegung.
+Beide Ansichten müssen gleichzeitig sichtbar sein; die Anleitung nennt Desktop
+oder passenden geteilten Bildschirm. Historische iOS-9-Gerätebeispiele sind kein
+aktueller universeller Kompatibilitätsnachweis. Die Kameraausführung erbt weder
+Pad-Tabletmerkmale, Körpermaße, Masse, Laufzeit noch Autodocking. Aktueller Verkauf
+und exakte Mini-Hardwaregeneration bleiben unbewiesen. Pad+ und Pad++ unterscheiden
+Tablet-Pakete und werden nicht als weitere Chassis angelegt. Die Kontaktseite
+nennt US- und Georgia-Adressen; das ist keine unabhängige Registerprüfung.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle mit vier Axe-Prüfungen bestehen.
+Build: 3.396 Seiten. Audit: null Fehler, 1.222 Warnungen; eine neue Warnung betrifft
+das unbekannte Mini-Erscheinungsjahr. Zwei Produktseiten, 34 Felder, zwei
+Konfliktbadges, Quellen, Leerfelder, strukturierte Daten, Firmenfokus, Suche,
+Vergleich und Exporte sind geprüft. Eine Modell-Exportzeile und das ursprüngliche
+Pad-Queueziel enthalten je 17 Feldstatus-Einträge. Reimport: null Ergänzungen,
+32 getrackte Datendateien byteidentisch; Offline-Refresh semantisch idempotent.
+Eigene Testbrowser, Server und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `9b87e2cea69b258882205cc6bf3dcc37ad77489b` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische Portfolios, unabhängige USPs und Rang Nr. 1
+bleiben unbewiesen.

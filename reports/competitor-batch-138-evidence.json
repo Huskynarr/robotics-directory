@@ -1,0 +1,827 @@
+{
+  "batch": 138,
+  "checkedAt": "2026-11-03",
+  "manufacturer": "BotEyes",
+  "catalogModelsBefore": 2344,
+  "catalogModelsAfter": 2345,
+  "newModels": 1,
+  "existingModelsReviewed": 1,
+  "newSpecificationReviews": 2,
+  "selectedFields": 34,
+  "fieldStatuses": {
+    "documented": 12,
+    "conflicting": 2,
+    "not-documented": 20
+  },
+  "newCompanyFocusReviews": 1,
+  "newHighlightStatements": 6,
+  "previousHighlightsPreserved": true,
+  "totalProductHighlightRecords": 1276,
+  "totalHighlightStatements": 5669,
+  "totalProductSourceReferences": 2630,
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://boteyes.com/",
+      "finalUrl": "https://boteyes.com/",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:33.874615+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "586b7ace2b027adab04595408f2986b2fdd2a2191c6ff1d92b46717a500a0ae0",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 2,
+      "url": "https://boteyes.com/Features.html",
+      "finalUrl": "https://boteyes.com/Features.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:34.553009+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "8756a368de83a45ad17ff9b41c0e29d4cbf0841ad4773d0eb869babb7c110300",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 3,
+      "url": "https://boteyes.com/HelpEng.html",
+      "finalUrl": "https://boteyes.com/HelpEng.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:35.224472+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "a2916c6ba576034bf2157f905c08680192891bf2e0b1d816ea6180a19d21a5c3",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 4,
+      "url": "https://boteyes.com/Help/InstallingTablet.html",
+      "finalUrl": "https://boteyes.com/Help/InstallingTablet.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:35.780846+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "877ebd036d3c2c87e7d181f691502e1338722926bd6cb4d7c98165eb0856a145",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 5,
+      "url": "https://boteyes.com/Help/RobotControl.html",
+      "finalUrl": "https://boteyes.com/Help/RobotControl.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:36.321611+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "6b000a0e7fa3aa3e5ccf37036fb431e0753832a2823fe570740b0aed2668182c",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 6,
+      "url": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+      "finalUrl": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:53.105303+00:00",
+      "bodyFile": "source-6.html",
+      "bodySha256": "d46381bebc05155b9df6ac640b652f6ce857495877ebbafad98546d6ba4b6346",
+      "textFile": "source-6.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 7,
+      "url": "https://boteyes.com/AboutEng.html",
+      "finalUrl": "https://boteyes.com/AboutEng.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:53.676170+00:00",
+      "bodyFile": "source-7.html",
+      "bodySha256": "3bf76240b37da1bda326ccc221dd5bf24434fca99b6a24115d4f9fe474757add",
+      "textFile": "source-7.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 8,
+      "url": "https://boteyes.com/ToBuyEng.html",
+      "finalUrl": "https://boteyes.com/ToBuyEng.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:54.235558+00:00",
+      "bodyFile": "source-8.html",
+      "bodySha256": "b609573bd8ca8198b312f5462844e9ac99a5fe51f8373b3f257db59f28138230",
+      "textFile": "source-8.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 9,
+      "url": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+      "finalUrl": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+      "status": 200,
+      "checkedAt": "2026-11-03T09:13:55.616380+00:00",
+      "bodyFile": "source-9.pdf",
+      "bodySha256": "b564f4aacf7a7899ee20e69643cd71b1315afe45cb9b404bfda5d9d6bb97ed84",
+      "textFile": "source-9.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "application/pdf"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "boteyes-boteyes-pad",
+      "manufacturer": "BotEyes",
+      "model": "BotEyes-Pad",
+      "category": "commercial",
+      "new": false,
+      "fields": {
+        "price": "1999 USD displayed without tablet; dock included; checked November 3, 2026, live availability unverified",
+        "weight": "Current web table:13.4 kg robot; 2019-metadata survey:10 kg; hardware revision mapping unresolved",
+        "size": "Current web:29 x 39 cm footprint and 142.5 cm height with tablet; 2019-metadata survey:125 cm height; revision mapping unresolved",
+        "batteryLife": "10 h operating time in technical table; homepage advertises 10+ h; test conditions not specified",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0-2.5 km/h listed variable travel; table also labels 0-1.5 mph, rounded manufacturer units",
+        "terrain": "Wheeled use; manufacturer rates doorsteps up to 1.5 cm",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://boteyes.com/",
+        "description": "Remotely driven telepresence base with a separately supplied tablet and a separate chassis motion-control computer. Current web ratings and the older manufacturer-hosted survey disagree on body mass and height without a mapped hardware revision. The technical table distinguishes operating duration from full-charge duration; autodocking retains tablet orientation/sensor and iPad limitations.",
+        "releaseDate": "",
+        "chargingTime": "10 h full charge in technical table; separate from 10 h operating-time claim",
+        "driveMode": "Teleoperated wheeled base; separate chassis motion-control computer"
+      },
+      "states": {
+        "price": "documented",
+        "weight": "conflicting",
+        "size": "conflicting",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "documented",
+        "driveMode": "documented"
+      },
+      "notes": {
+        "price": "Read-only displayed base price and tablet exclusion; Pad+/Pad++ are differently priced tablet bundles, not distinct chassis. Historical survey 760USD is not current price.",
+        "weight": "Current technical table 13.4 kg versus native page7 Pad column 10 kg in PDF with March 16, 2019 metadata. No revision mapping established; current robot mass is not 25kg parcel mass. Imperial original kept in source evidence, not this kg filter string.",
+        "size": "Current height with tablet 142.5 cm and footprint 29x39cm versus historical-table 125 cm height. No revision mapping. Shipping box 75x38x35cm and malformed dock-unit labels are excluded.",
+        "batteryLife": "Current technical table gives 10 operating hours; homepage advertises 10+. Neither specifies workload, test method or a guaranteed lower bound; not charging duration.",
+        "maxRuntime": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "handType": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "dof": "Tilting-head degree labels disagree in scope across list/table/history. They do not establish an actuator/joint count.",
+        "payload": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "speed": "Manufacturer table simultaneously labels 0-1.5mph and0-2.5km/h; approximate units retained rather than treated as exact conversion or independently measured speed.",
+        "terrain": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement.",
+        "ipRating": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "ageRange": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "website": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement.",
+        "description": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement.",
+        "releaseDate": "March2019 PDF metadata does not establish release year or a separately named hardware generation.",
+        "chargingTime": "Exact full-charge duration 10 h, distinct from separate 10 h operating claim and USB tablet charging.",
+        "driveMode": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+      },
+      "sources": [
+        {
+          "name": "BotEyes — Pad technical table and compatibility notes",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Features.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — current Pad and tablet-bundle listings",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — tablet installation and separate motion-control computer",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/InstallingTablet.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — remote-control instructions and connection limitations",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/RobotControl.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — manufacturer-hosted telepresence survey;March2019 PDF metadata,not current model-generation proof",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "Browser-controlled telepresence base accepting a separately supplied tablet",
+        "Tilting tablet head and front/rear camera switching support remote visits",
+        "Automatic docking depends on tablet orientation and compatibility; manufacturer flags iPad limitations",
+        "Current web specifications list 13.4 kg and 142.5 cm height with tablet, whereas the survey PDF with 2019 metadata lists 10 kg and 125 cm under the same Pad name. Hardware revision mapping remains unresolved; shipping weight and dock dimensions are not substituted.",
+        "The technical table separately rates 10 h operation and 10 h full charging. Homepage10+hour wording has unspecified conditions; USB tablet power and173 Wh battery energy do not establish another endurance value.",
+        "Autodocking requires a horizontal tablet and orientation sensor; the manufacturer flags possible iPad docking failure and microphone loss after camera switching. Recording and screen-sharing functions also have OS/client limits rather than universal support.",
+        "Head travel is described as 160 degrees up plus 180 down in the feature list, 160 degrees in the table, and 120 degrees in the older survey. Those scopes remain unresolved, not an exact joint count or guaranteed universal head sweep; browser/watchdog/encryption labels are not independent security or safety certification."
+      ]
+    },
+    {
+      "robotId": "boteyes-boteyes-mini",
+      "manufacturer": "BotEyes",
+      "model": "BotEyes-Mini",
+      "category": "commercial",
+      "new": true,
+      "fields": {
+        "price": "Not disclosed; documented camera-head configuration, retail availability not established",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+        "description": "Documented BotEyes camera-head telepresence configuration using a Wi-Fi surveillance camera. CamHi/HiP2P handles the camera while a separate browser window controls robot motion. The guide recommends desktop use or a device that can show both apps simultaneously. It does not establish Pad tablet features, mass, dimensions, endurance or automatic docking for this configuration.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Remotely driven wheeled configuration; separate browser motion control and CamHi camera app"
+      },
+      "states": {
+        "price": "documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "driveMode": "documented"
+      },
+      "notes": {
+        "price": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement.",
+        "weight": "Camera-head configuration may change complete mass; no exact Mini weight established from its named guide.",
+        "size": "No complete Mini body envelope established; Pad tablet height and old survey values are not inherited.",
+        "batteryLife": "Same-use instructions do not independently identify a Mini battery/endurance specification.",
+        "maxRuntime": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "handType": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "dof": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "payload": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "speed": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "terrain": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "ipRating": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "ageRange": "No exact named-configuration value established. Shipping/dock measurements, other head configurations, tablet characteristics, battery energy and document dates do not establish this field.",
+        "website": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement.",
+        "description": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement.",
+        "releaseDate": "Historical iOS 9/device examples establish documentation context, not Mini launch or current retail availability.",
+        "chargingTime": "No exact Mini charge duration established; Pad ten-hour rating not transferred.",
+        "driveMode": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
+      },
+      "sources": [
+        {
+          "name": "BotEyes — BotEyes-Mini camera configuration and separate app workflow",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "BotEyes — official support index naming Mini",
+          "type": "manufacturer",
+          "url": "https://boteyes.com/HelpEng.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The official support index links a distinct BotEyes-Mini guide. It specifies a surveillance-camera head and CamHi/HiP2P camera software with separate browser movement control; this is not another Pad tablet-quality bundle.",
+        "Camera and drive interfaces must be visible together, using a desktop or supported split-screen device. The guide’s historical iOS 9/Split View examples do not prove support on every current device; Pad dimensions, runtime, tablet functions and docking conditions are not inherited."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "boteyes-boteyes-pad",
+      "before": {
+        "category": "commercial",
+        "manufacturer": "BotEyes",
+        "model": "BotEyes-Pad",
+        "price": "1999 USD (tablet excluded)",
+        "weight": "13.4 kg",
+        "size": "29 x 39 cm footprint; 142.5 cm height with tablet",
+        "batteryLife": "10 hours",
+        "maxRuntime": "",
+        "tags": "commercial;telepresence;teleoperated",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://boteyes.com/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Browser-controlled telepresence base accepting a separately supplied tablet. Tilting tablet head and front/rear camera switching support remote visits. Automatic docking depends on tablet orientation and compatibility; manufacturer flags iPad limitations.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "after": {
+        "category": "commercial",
+        "manufacturer": "BotEyes",
+        "model": "BotEyes-Pad",
+        "price": "1999 USD displayed without tablet; dock included; checked November 3, 2026, live availability unverified",
+        "weight": "Current web table:13.4 kg robot; 2019-metadata survey:10 kg; hardware revision mapping unresolved",
+        "size": "Current web:29 x 39 cm footprint and 142.5 cm height with tablet; 2019-metadata survey:125 cm height; revision mapping unresolved",
+        "batteryLife": "10 h operating time in technical table; homepage advertises 10+ h; test conditions not specified",
+        "maxRuntime": "",
+        "tags": "commercial;telepresence;teleoperated",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0-2.5 km/h listed variable travel; table also labels 0-1.5 mph, rounded manufacturer units",
+        "terrain": "Wheeled use; manufacturer rates doorsteps up to 1.5 cm",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://boteyes.com/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Remotely driven telepresence base with a separately supplied tablet and a separate chassis motion-control computer. Current web ratings and the older manufacturer-hosted survey disagree on body mass and height without a mapped hardware revision. The technical table distinguishes operating duration from full-charge duration; autodocking retains tablet orientation/sensor and iPad limitations.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "10 h full charge in technical table; separate from 10 h operating-time claim",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Teleoperated wheeled base; separate chassis motion-control computer",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "boteyes-boteyes-mini",
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "BotEyes",
+        "model": "BotEyes-Mini",
+        "price": "Not disclosed; documented camera-head configuration, retail availability not established",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;telepresence;teleoperated;camera-head",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Documented BotEyes camera-head telepresence configuration using a Wi-Fi surveillance camera. CamHi/HiP2P handles the camera while a separate browser window controls robot motion. The guide recommends desktop use or a device that can show both apps simultaneously. It does not establish Pad tablet features, mass, dimensions, endurance or automatic docking for this configuration.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Remotely driven wheeled configuration; separate browser motion control and CamHi camera app",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    }
+  ],
+  "companyFocus": {
+    "brandId": "boteyes",
+    "name": "BotEyes",
+    "role": "Browser-driven telepresence bases with tablet or documented surveillance-camera head configurations",
+    "website": "https://boteyes.com/AboutEng.html",
+    "checkedAt": "2026-11-03",
+    "highlights": [
+      "Pad is a tablet-head telepresence base with a separate motion-control computer. Pad+ and Pad++ are tablet bundles; the support index separately names Mini with a surveillance-camera workflow.",
+      "Browser motion control is distinct from video/camera communication. Mini uses CamHi/HiP2P plus a browser; Pad documentation qualifies recording, screen sharing, camera switching and autodocking by device, OS and orientation.",
+      "The contact page presents US and Georgia company contacts without independently proving corporate registration. Historical price/body differences, old OS/software names, absolute stability/battery-safety language and encryption labels do not establish present stock, universal compatibility, independent safety/security or exclusive superiority."
+    ],
+    "sources": [
+      {
+        "name": "BotEyes — manufacturer contact/profile page",
+        "type": "manufacturer",
+        "url": "https://boteyes.com/AboutEng.html",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "BotEyes — current Pad and tablet-bundle listings",
+        "type": "manufacturer",
+        "url": "https://boteyes.com/",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "BotEyes — Pad technical table and compatibility notes",
+        "type": "manufacturer",
+        "url": "https://boteyes.com/Features.html",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "BotEyes — tablet installation and separate motion-control computer",
+        "type": "manufacturer",
+        "url": "https://boteyes.com/Help/InstallingTablet.html",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "BotEyes — BotEyes-Mini camera configuration and separate app workflow",
+        "type": "manufacturer",
+        "url": "https://boteyes.com/Help/BotEyesMiniDifference.html",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "BotEyes — purchase/support and shipping-package scope",
+        "type": "manufacturer",
+        "url": "https://boteyes.com/ToBuyEng.html",
+        "checkedAt": "2026-11-03"
+      },
+      {
+        "name": "BotEyes — manufacturer-hosted telepresence survey;March2019 PDF metadata,not current model-generation proof",
+        "type": "manufacturer",
+        "url": "https://boteyes.com/Telepresence_Robots_Survey_Eng.pdf",
+        "checkedAt": "2026-11-03"
+      }
+    ],
+    "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-138/source-7.html",
+    "reviewNotes": "Batch138. Nine HTTP 200 manufacturer responses including one eight-page native PDF hash-checked. Native current technical-table cell ownership and page7 survey BotEyes-Pad column verified. Current13.4 kg/142.5 cm versus2019-metadata survey10 kg/125 cm remain version-unresolved field conflicts; not a new invented generation. Current10 h operating table and separate 10 h full charge retain distinct fields. Pad+/Pad++ are tablet bundles, while Mini is an explicitly named camera-head configuration with CamHi plus separate browser drive control. No Pad body, tablet, docking or endurance numbers inherited by Mini. Shipping25kg/75x38x35cm and inconsistent dock-dimension units excluded. Head-tilt list/table/survey scopes do not establish joint count or a resolved universal tilt range. Historical software/OS names and security labels do not establish current compatibility, independent security or safety. No login, test drive, remote hardware control, forms, messages, accounts, transactions, visual inspection, OCR or media reuse. Full portfolio, live stock, certified application safety and exclusive superiority remain unproven."
+  },
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 18,
+    "axeCases": 4,
+    "buildPages": 3396,
+    "dataErrors": 0,
+    "dataWarnings": 1222,
+    "warningChange": "One unknown-release-year warning for named Mini camera configuration;historical OS examples and survey metadata do not prove launch.",
+    "sourceCodeChanged": false,
+    "changedFileLint": "passed",
+    "changedFileFormat": "passed",
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 9,
+      "successfulResponses": 9,
+      "pdfs": 1,
+      "pdfPages": 8,
+      "sha256VerifiedResponses": 9,
+      "pdfNativeTextVerified": true,
+      "pdfMetadata": {
+        "format": "PDF 1.7",
+        "title": "",
+        "author": "vic",
+        "subject": "",
+        "keywords": "",
+        "creator": "Microsoft® Word 2016",
+        "producer": "Microsoft® Word 2016",
+        "creationDate": "D:20190316175343+03'00'",
+        "modDate": "D:20190316175343+03'00'",
+        "trapped": "",
+        "encryption": null
+      },
+      "pdfTableExtraction": "Native text table detection on page7;exact BotEyes-Pad column checked,not OCR or visual inspection.",
+      "inspection": "Native HTML/PDF text only;no visual inspection."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 1,
+          "selector": "body with named menu placeholders,forms and executable content removed;claims restricted to product headings and verified table cells",
+          "nativeTextSha256": "3704bb0dcbef1e88ae8cce87560a3f82404fda6ba732e60335285271061abb78",
+          "formSubmitted": false,
+          "remoteLoginOrTestDrive": false
+        },
+        {
+          "sourceId": 2,
+          "selector": "body with named menu placeholders,forms and executable content removed;claims restricted to product headings and verified table cells",
+          "nativeTextSha256": "f1c1c810aaa699a9aacc0392256c910a15b3bfed54f42cafacffb15c81e8829c",
+          "formSubmitted": false,
+          "remoteLoginOrTestDrive": false
+        },
+        {
+          "sourceId": 3,
+          "selector": "body with named menu placeholders,forms and executable content removed;claims restricted to product headings and verified table cells",
+          "nativeTextSha256": "e2eab76342b289b44f2bbfe732dc6d511a927833219aecdfaab944717e0f44e9",
+          "formSubmitted": false,
+          "remoteLoginOrTestDrive": false
+        },
+        {
+          "sourceId": 4,
+          "selector": "body with named menu placeholders,forms and executable content removed;claims restricted to product headings and verified table cells",
+          "nativeTextSha256": "4f138931b1da2dcd3f519462c95fddc2ae75c23a524c471c3bee255e3df4f9dd",
+          "formSubmitted": false,
+          "remoteLoginOrTestDrive": false
+        },
+        {
+          "sourceId": 5,
+          "selector": "body with named menu placeholders,forms and executable content removed;claims restricted to product headings and verified table cells",
+          "nativeTextSha256": "9b0110112718c80eb29ba89d34ed5a8c176fb71969636f42133e65a7f3b27854",
+          "formSubmitted": false,
+          "remoteLoginOrTestDrive": false
+        },
+        {
+          "sourceId": 6,
+          "selector": "body with named menu placeholders,forms and executable content removed;claims restricted to product headings and verified table cells",
+          "nativeTextSha256": "db5db9835c71d4c9793396b74ff0795c8de42f71e90ed9989a598e44a438fc38",
+          "formSubmitted": false,
+          "remoteLoginOrTestDrive": false
+        },
+        {
+          "sourceId": 7,
+          "selector": "body with named menu placeholders,forms and executable content removed;claims restricted to product headings and verified table cells",
+          "nativeTextSha256": "14c4432fb4c0201094367cf74361518b0d7efbce980038fb21d71880475c7c9f",
+          "formSubmitted": false,
+          "remoteLoginOrTestDrive": false
+        },
+        {
+          "sourceId": 8,
+          "selector": "body with named menu placeholders,forms and executable content removed;claims restricted to product headings and verified table cells",
+          "nativeTextSha256": "1c01f4c2378cb6d1acbcf2882d9f7ad35de5abff06662e92d0657d9b62e69a5d",
+          "formSubmitted": false,
+          "remoteLoginOrTestDrive": false
+        }
+      ],
+      "historicalPadColumn": {
+        "page": 7,
+        "header": "BotEyes-Pad",
+        "height": "125 cm",
+        "weight": "10 kg",
+        "metadataDate": "D:20190316175343+03'00'",
+        "hardwareRevisionMapping": "not established;no separately named historical model invented"
+      },
+      "excludedDimensions": "325x180x50cm dock labels have unresolved unit problems;75x38x35cm and25kg are shipping package,not robot",
+      "excludedRows": [
+        "Pad+ tablet bundle",
+        "Pad++ tablet bundle",
+        "dock accessory",
+        "unnamed historical Pad revision"
+      ],
+      "miniNonInheritance": "Camera-head Mini is explicitly named and linked from support index;Pad dimensions,mass,battery,endurance,tilt angles,tablet compatibility and autodocking not copied.",
+      "goalComplete": false,
+      "currentRatings": {
+        "heightWithTabletCm": 142.5,
+        "robotMassKg": 13.4,
+        "fullChargeHours": 10,
+        "runtimeHoursInTable": 10,
+        "variableTravelKmPerHour": [
+          0,
+          2.5
+        ],
+        "alternativeTravelMphLabels": [
+          0,
+          1.5
+        ],
+        "footprintCm": [
+          29,
+          39
+        ],
+        "batteryEnergyWh": 173,
+        "batteryNominalVolts": 12,
+        "dockingRequiresHorizontalTabletAndOrientationSensor": true,
+        "iPadExceptionsRetained": true,
+        "tableTiltLabelDegrees": 160,
+        "verbatimMarketingExcluded": true,
+        "nativeCellsSha256": "1694c8789320dd805aae2e1b8e243e08dc96dd593ca7f1440f20a908623fc073"
+      }
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2345,
+      "unselectedPriorRowsUnchanged": 2343,
+      "priorSpecificationReviewsUnchanged": 1210,
+      "priorCompanyFocusReviewsUnchanged": 132,
+      "newSpecificationReviews": 2,
+      "selectedFields": 34,
+      "selectedFieldStatuses": {
+        "documented": 12,
+        "conflicting": 2,
+        "not-documented": 20
+      },
+      "allFieldStatuses": {
+        "not-documented": 14154,
+        "documented": 8408,
+        "conflicting": 305,
+        "roadmap": 106
+      },
+      "sourceIdentityFilesByteIdentical": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-product-reviews.json"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 472,
+        "withoutSelectedFieldReview": 46,
+        "selectedFields": 8676,
+        "selectedFieldStatuses": {
+          "documented": 3451,
+          "not-documented": 5021,
+          "conflicting": 186,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 128,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      }
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPagesChecked": 2,
+      "selectedSpecificationFieldsChecked": 34,
+      "sourceBadgesChecked": 10,
+      "blankFieldsOmitted": 20,
+      "descriptionsChecked": 2,
+      "websitesChecked": 2,
+      "structuredSpecificationPropertiesChecked": 8,
+      "highlightStatementsChecked": 9,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 2,
+      "modelExportRowsChecked": 1,
+      "modelExportTargetsChecked": 1,
+      "modelExportFieldOccurrencesChecked": 17,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 1,
+      "researchQueueFieldsChecked": 17,
+      "scope": "BotEyes Pad and camera-head Mini pages, selected fields, source badges, conflicts, structured data, brand focus and CSV exports checked."
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 1276,
+      "individualHighlights": 5669,
+      "productSourceReferences": 2630,
+      "specificationReviewModels": 1212,
+      "specificationFields": 22973,
+      "publicJsonBytes": 6186196,
+      "catalogScriptBytes": 2606761,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T09:17:33Z",
+            "after": "2026-11-03T09:20:54Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T09:17:32.733Z",
+            "after": "2026-11-03T09:20:53.182Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "a274e19b2066ff1ee476c32a58e4fa5b5ea3f4a4278f48f84d0c914c26c776b6",
+            "after": "2be4f9e4798a181f52e1d1db6cc8dfeebc80a81fd22f066380b9c104e1f4a430"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T09:17:32.733Z",
+            "after": "2026-11-03T09:20:53.182Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T09:17:32.733Z",
+            "after": "2026-11-03T09:20:53.182Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 115,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "840501f7dbb5b428a459f1bc40660af61c49ee0f",
+    "dataCommit": "9b87e2cea69b258882205cc6bf3dcc37ad77489b",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 472,
+    "withoutSelectedFieldReview": 46,
+    "selectedFields": 8676,
+    "selectedFieldStatuses": {
+      "documented": 3451,
+      "not-documented": 5021,
+      "conflicting": 186,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 128,
+    "remainingModelIdentities": 3,
+    "remainingListingIdentities": 9
+  },
+  "remainingProductDetailContentChecks": 862,
+  "goalComplete": false
+}

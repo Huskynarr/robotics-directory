@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,344 catalog rows**, with 646 exact
-manufacturer spellings. Batch 137 refreshed the separate heuristic gap file offline
-against all 2,344 rows (638 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,345 catalog rows**, with 646 exact
+manufacturer spellings. Batch 138 refreshed the separate heuristic gap file offline
+against all 2,345 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1275 dated records across the catalog, including
-185 existing-model enrichments and 1090 task additions. All 430 catalog models
+Current product-highlight coverage: 1276 dated records across the catalog, including
+185 existing-model enrichments and 1091 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1090 task additions, totaling 2,344.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1091 task additions, totaling 2,345.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 471 have selected-field reviews and 47 await those reviews. Family and
+highlights; 472 have selected-field reviews and 46 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 22,939 fields across 1210 catalog models: 8,396 documented,
-14,134 not documented, 303 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 22,973 fields across 1212 catalog models: 8,408 documented,
+14,154 not documented, 305 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -9180,3 +9180,80 @@ Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ur
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Pro+-Hardwareversion, vollständige historische Portfolios, exklusive USPs
 und Rang Nr. 1 bleiben unbewiesen.
+
+
+## Ergänzung 138 – BotEyes: Pad-Quellenstände und Mini-Kamerakonfiguration (3. November 2026)
+
+BotEyes-Mini kommt als explizit benannte Kamerakonfiguration hinzu; BotEyes-Pad
+wird vertieft geprüft. Zwei Feldprüfungen umfassen 34 Felder: zwölf dokumentiert,
+20 nicht dokumentiert und zwei Quellenkonflikte. Sechs zusätzliche Merkmalsaussagen,
+fünf Produktquellenverweise und ein Firmenfokus kommen hinzu. Drei vorherige
+Pad-Merkmale, ID, Medien und Fund-URLs bleiben erhalten. Die übrigen 2.343 alten
+Katalogzeilen, 1.210 bisherigen Feldprüfungen und 132 Firmenfokusse sind unverändert.
+Gesamt: 2.345 Katalogzeilen, 1.276 datierte Merkmalsdatensätze, 5.669 Aussagen,
+2.630 Produktquellenverweise, 1.212 Feldprüfungen mit 22.973 Feldern und
+133 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben 472 ausgewählte
+Feldprüfungen; 46 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-138-evidence.json`.
+
+Neun HTTP-200-Herstellerantworten einschließlich einer achtseitigen PDF sind
+mit Hashes geprüft. Technische HTML-Zellen und die eigene BotEyes-Pad-Spalte der
+nativen PDF-Tabelle auf Seite sieben behalten ihre Zuordnung. Die PDF-Metadaten
+tragen den 16. März 2019; das ist kein gesicherter Publikations-, Versions- oder
+Erscheinungstermin. Es gab keine visuelle Prüfung, OCR, Anmeldung, Testfahrt,
+Fernsteuerung echter Hardware, Formularübermittlung, Nachricht, Transaktion oder
+Medienübernahme. Vorbereitete Anmelde-/Kontaktseiten sind keine tatsächlich
+benutzten Konten oder Versandbelege.
+
+Die aktuelle Webtabelle nennt 13,4 kg Robotergewicht, 142,5 cm Höhe mit Tablet
+und 29 × 39 cm Grundfläche. Die historische, weiterhin herstellergehostete
+Vergleichstabelle nennt unter demselben Pad-Namen zehn Kilogramm und 125 cm.
+Eine Zuordnung zu konkreten Hardwareversionen ist nicht belegt; Masse und Größe
+behalten beide Quellenstände mit Konfliktstatus. Aus einer unbenannten früheren
+Ausführung entsteht keine erfundene zusätzliche Modellgeneration. 25 kg und
+75 × 38 × 35 cm gehören zum Versandpaket. Die widersprüchlichen Dock-Maße mit
+problematischen Einheiten werden nicht als Roboter- oder Dock-Hüllmaß importiert.
+
+Zehn Betriebsstunden und zehn Stunden für vollständiges Laden sind zwei getrennte
+Zeilen der aktuellen Tabelle. Das zusätzliche „10+“ auf der Startseite behält
+seine unklaren Testbedingungen; Batterieenergie und USB-Tabletversorgung ergeben
+keine weitere Laufzeit. Variable Fahrt ist mit 0–2,5 km/h und zusätzlich
+0–1,5 mph beschriftet; die gerundeten Herstellerangaben werden nicht zu einer
+exakten Umrechnung oder unabhängig gemessenen Missionsgeschwindigkeit.
+Der Hersteller nennt bis 1,5 cm Türschwellen. Für Mini werden diese Zahlen nicht
+übernommen.
+
+Pad-Autodocking verlangt ein waagerechtes Tablet mit Orientierungssensor; mögliche
+iPad-Dockprobleme und Mikrofonverlust beim Kamerawechsel bleiben sichtbar.
+Aufzeichnung und Bildschirmteilen behalten Geräte-/OS-Grenzen. Kopfbewegung ist
+als 160 Grad nach oben plus 180 nach unten in der Liste, 160 Grad in der Tabelle
+und 120 Grad in der älteren PDF angegeben; die unterschiedlichen Geltungsbereiche
+werden nicht zu einer garantierten universellen Spanne oder Gelenkzahl erklärt.
+Absolute Stabilitäts-/Batteriesicherheitsformulierungen, Watchdog- und
+Verschlüsselungsetiketten sowie alte Browser-/Betriebssystemnamen belegen keine
+unabhängige Sicherheit, aktuelle Softwareunterstützung oder exklusive Überlegenheit.
+
+Der offizielle Supportindex verlinkt Mini als eigene benannte Kamerakonfiguration.
+CamHi/HiP2P bedient die Überwachungskamera, ein eigener Browser die Bewegung.
+Beide Ansichten müssen gleichzeitig sichtbar sein; die Anleitung nennt Desktop
+oder passenden geteilten Bildschirm. Historische iOS-9-Gerätebeispiele sind kein
+aktueller universeller Kompatibilitätsnachweis. Die Kameraausführung erbt weder
+Pad-Tabletmerkmale, Körpermaße, Masse, Laufzeit noch Autodocking. Aktueller Verkauf
+und exakte Mini-Hardwaregeneration bleiben unbewiesen. Pad+ und Pad++ unterscheiden
+Tablet-Pakete und werden nicht als weitere Chassis angelegt. Die Kontaktseite
+nennt US- und Georgia-Adressen; das ist keine unabhängige Registerprüfung.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle mit vier Axe-Prüfungen bestehen.
+Build: 3.396 Seiten. Audit: null Fehler, 1.222 Warnungen; eine neue Warnung betrifft
+das unbekannte Mini-Erscheinungsjahr. Zwei Produktseiten, 34 Felder, zwei
+Konfliktbadges, Quellen, Leerfelder, strukturierte Daten, Firmenfokus, Suche,
+Vergleich und Exporte sind geprüft. Eine Modell-Exportzeile und das ursprüngliche
+Pad-Queueziel enthalten je 17 Feldstatus-Einträge. Reimport: null Ergänzungen,
+32 getrackte Datendateien byteidentisch; Offline-Refresh semantisch idempotent.
+Eigene Testbrowser, Server und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `9b87e2cea69b258882205cc6bf3dcc37ad77489b` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische Portfolios, unabhängige USPs und Rang Nr. 1
+bleiben unbewiesen.
