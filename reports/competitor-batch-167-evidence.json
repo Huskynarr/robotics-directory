@@ -1,0 +1,1133 @@
+{
+  "batch": 167,
+  "checkedAt": "2026-11-03",
+  "manufacturers": [
+    "Roborock"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 72,
+  "fieldStatuses": {
+    "documented": 28,
+    "conflicting": 1,
+    "not-documented": 43
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four catalog rows that previously had no field review were reviewed against current ECOVACS US shop pages. X2 Omni, X5 Pro Omni, T50 Pro Omni and X12 OmniCyclone are four separate current models. No reviewed page publishes a robot price, so the catalog 1,500, 1,299, 399 and 1,499 USD values are cleared. The X2 Omni catalog ~4.5 kg mass conflicts with the published about 5 kg and stays visible; the X5 Pro Omni specification block publishes no robot net weight. The X2 Omni catalog ~4-hour battery label and the X5 Pro Omni 350 min runtime are replaced by capacity and runtime statements. The X12 OmniCyclone silent-sweep figure of 5,461 min over 5,236 m2 is implausible for a 4,000 mAh battery and no runtime is recorded. No new model was created and no company focus was added.",
+  "totalProductHighlightRecords": 1338,
+  "totalHighlightStatements": 6167,
+  "totalProductSourceReferences": 2889,
+  "pendingPortfolioLeads": [
+    {
+      "name": "Roborock full-charge runtime in minutes",
+      "scope": "The reviewed S8 MaxV Ultra, Qrevo MaxV and F25 Ultra pages publish suction, dimensions, masses and batteries, but no full-charge runtime in minutes. The F25 Ultra page describes an ultra-long runtime without a figure. The catalog 180, 180 and 60 min values are cleared.",
+      "source": "https://us.roborock.com/products/roborock-f25-ultra"
+    },
+    {
+      "name": "Roborock robot mass and absolute charging time",
+      "scope": "The S8 MaxV Ultra page publishes 32.19 lbs against the catalog 4.2 kg, and the F25 Ultra page publishes only a 21.38 +/- 0.66 lbs gross weight. The Qrevo MaxV page states 30% faster charging without an absolute charging time.",
+      "source": "https://us.roborock.com/products/roborock-s8-maxv-ultra"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x2-omni",
+      "finalUrl": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x2-omni",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:46:29.328362+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "ef7ee0aa8adb479234e564ae81e7fe5020f71ae2bfc6bb83d94fe8875a6ebaed",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni",
+      "finalUrl": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:46:30.429170+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "ef1b4933cbed03750274bffeeaef7a2c8041307a76f65acc0a62751fc0cbbed6",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+      "finalUrl": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:46:31.498287+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "8939d2d897d70d6c9f73d31793e89a7bcad43848f8c8b54897a70471cfd62da4",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x12-omnicyclone",
+      "finalUrl": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x12-omnicyclone",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:46:32.535693+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "95c02d15ad1ba7083f371f911308ca276ec905b6874d9e7a97888f00deb6bee4",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "ecovacs-deebot-x2-omni",
+      "manufacturer": "ECOVACS",
+      "model": "Deebot X2 Omni",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "≈5 kg manufacturer / ~4.5 kg catalog",
+        "size": "320 x 353 x 95 mm",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "212 min silent sweep; 186 min standard sweep; 161 min silent sweep and mop; 143 min standard sweep and mop",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x2-omni",
+        "description": "The ECOVACS DEEBOT X2 Omni is a square vacuum and mop robot with 8,000 Pa suction, OZMO Turbo 2.0 rotating mops and 15 mm intelligent mop lifting. It measures 320 x 353 x 95 mm, weighs about 5 kg and carries a 6,400 mAh Li-ion battery. The reviewed page publishes silent-mode sweep runs of 212 min over 435 m2, standard sweep 186 min over 272 m2, silent sweep and mop 161 min over 242 m2 and standard sweep and mop 143 min over 202 m2, plus 64.9 dB(A) standard-mode noise. Charging is described only as 45% faster than the X1 from 1% to 90%, without an absolute time. No payload, travel speed, water tank capacity or IP rating is published; the catalog ~4.5 kg mass and ~4-hour battery label are not confirmed.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "conflicting",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "No robot price is published in the reviewed native text; the catalog value is not confirmed.",
+        "weight": "Published robot mass and catalog value are shown separately.",
+        "size": "Robot dimensions from the reviewed specification block; station dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "Full-charge runtime statements from the reviewed specification block.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "ECOVACS DEEBOT X2 Omni is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "ECOVACS DEEBOT X2 Omni product page.",
+        "description": "ECOVACS DEEBOT X2 Omni page; suction, dimensions, masses, battery, runtime, charging and noise statements are manufacturer claims.",
+        "chargingTime": "No absolute charging time is published.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "ECOVACS - Deebot X2 Omni",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x2-omni",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The ECOVACS DEEBOT X2 Omni is a square vacuum and mop robot with 8,000 Pa suction and OZMO Turbo 2.0 rotating mops.",
+        "It measures 320 x 353 x 95 mm, weighs about 5 kg and carries a 6,400 mAh Li-ion battery.",
+        "The page publishes 212 min silent sweep over 435 m2 and 143 min standard sweep and mop over 202 m2.",
+        "Charging is described only as 45% faster than the X1 from 1% to 90%, without an absolute time.",
+        "The catalog ~4.5 kg mass and ~4-hour battery label are not confirmed by the reviewed page."
+      ]
+    },
+    {
+      "robotId": "ecovacs-deebot-x5-pro-omni",
+      "manufacturer": "ECOVACS",
+      "model": "Deebot X5 Pro Omni",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "313 x 346 x 95 mm",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "224 min silent sweep; 176 min standard sweep; 182 min silent sweep and mop; 152 min standard sweep and mop",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni",
+        "description": "The ECOVACS DEEBOT X5 Pro Omni is a vacuum and mop robot with 12,800 Pa suction, an auto-lift mop and a 200 mm main brush. It measures 313 x 346 x 95 mm and the Omni station 394 x 443 x 527.5 mm. A 6,400 mAh Li-ion battery charges in about 4 h 19 min and the page publishes silent-mode sweep runs of 224 min over 320 m2, standard sweep 176 min over 205 m2, silent sweep and mop 182 min over 200 m2 and standard sweep and mop 152 min over 173 m2, with 67.3 dB(A) standard sweep noise. No robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~4.5 kg mass and 350 min runtime are not confirmed.",
+        "chargingTime": "≈4 h 19 min",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "No robot price is published in the reviewed native text; the catalog value is not confirmed.",
+        "weight": "No robot net weight is published; the catalog value is not confirmed.",
+        "size": "Robot dimensions from the reviewed specification block; station dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "Full-charge runtime statements from the reviewed specification block.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "ECOVACS DEEBOT X5 Pro Omni is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "ECOVACS DEEBOT X5 Pro Omni product page.",
+        "description": "ECOVACS DEEBOT X5 Pro Omni page; suction, dimensions, masses, battery, runtime, charging and noise statements are manufacturer claims.",
+        "chargingTime": "Charging statement from the reviewed specification block.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "ECOVACS - Deebot X5 Pro Omni",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The ECOVACS DEEBOT X5 Pro Omni is a vacuum and mop robot with 12,800 Pa suction and an auto-lift mop.",
+        "It measures 313 x 346 x 95 mm and the Omni station 394 x 443 x 527.5 mm.",
+        "A 6,400 mAh battery charges in about 4 h 19 min and serves up to 224 min silent sweep.",
+        "Standard sweep runs 176 min over 205 m2, and sweep and mop runs 152 min over 173 m2.",
+        "No robot net weight, payload, travel speed, water tank capacity or IP rating is published."
+      ]
+    },
+    {
+      "robotId": "ecovacs-deebot-t50-pro-omni",
+      "manufacturer": "ECOVACS",
+      "model": "Deebot T50 Pro Omni",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "3.7 kg",
+        "size": "352.7 x 351.6 x 81 mm",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "255 min silent sweep; 215 min standard sweep; 185 min standard sweep and mop",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+        "description": "The ECOVACS DEEBOT T50 Pro Omni is a slim vacuum and mop robot with 15,000 Pa suction, a 10-in-1 station, dToF LiDAR and TruEdge 2.0 edge cleaning. It measures 352.7 x 351.6 x 81 mm and weighs 3.7 kg; the station weighs 7.6 kg. It carries a 6,400 mAh Li-ion battery, charges in about 3.7 h and publishes 255 min silent sweep, 215 min standard sweep and 185 min standard sweep-and-mop runtime at 63 dB(A). No payload, travel speed, water tank capacity or IP rating is published; the catalog 35 x 35 x 8 cm size and 215 min battery label are replaced by the reviewed values.",
+        "chargingTime": "≈3.7 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "No robot price is published in the reviewed native text; the catalog value is not confirmed.",
+        "weight": "Robot net weight from the reviewed specification block; station and gross weights are separate.",
+        "size": "Robot dimensions from the reviewed specification block; station dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "Full-charge runtime statements from the reviewed specification block.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "ECOVACS DEEBOT T50 Pro Omni is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "ECOVACS DEEBOT T50 Pro Omni product page.",
+        "description": "ECOVACS DEEBOT T50 Pro Omni page; suction, dimensions, masses, battery, runtime, charging and noise statements are manufacturer claims.",
+        "chargingTime": "Charging statement from the reviewed specification block.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "ECOVACS - Deebot T50 Pro Omni",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The ECOVACS DEEBOT T50 Pro Omni is a slim vacuum and mop robot with 15,000 Pa suction and dToF LiDAR.",
+        "It measures 352.7 x 351.6 x 81 mm, weighs 3.7 kg and the station 7.6 kg.",
+        "A 6,400 mAh battery charges in about 3.7 h and publishes 255 min silent sweep runtime.",
+        "Standard sweep runs 215 min and standard sweep and mop 185 min, at 63 dB(A).",
+        "The catalog 35 x 35 x 8 cm size and 215 min battery label are replaced by the reviewed values."
+      ]
+    },
+    {
+      "robotId": "ecovacs-deebot-x12-omnicyclone",
+      "manufacturer": "ECOVACS",
+      "model": "Deebot X12 OmniCyclone",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "5.5 kg",
+        "size": "353 x 351 x 98 mm",
+        "batteryLife": "4,000 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x12-omnicyclone",
+        "description": "The ECOVACS DEEBOT X12 OmniCyclone is a bagless vacuum and mop robot with a claimed 22,000 Pa suction, FocusJet, OZMO roller mopping and a 12-in-1 Omni station. It measures 353 x 351 x 98 mm and weighs 5.5 kg; the station weighs 10.3 kg. It carries a 4,000 mAh Li-ion battery, charges in 2 h 25 min at 17.8 V and runs at 61.1 dB(A) in standard sweep and 64.4 dB(A) in sweep and mop. The reviewed page publishes a silent-sweep figure of 5,461 min over 5,236 m2 that is implausible for a 4,000 mAh battery, so no full-charge runtime is recorded. No payload, travel speed, water tank capacity or IP rating is published.",
+        "chargingTime": "2 h 25 min",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "No robot price is published in the reviewed native text; the catalog value is not confirmed.",
+        "weight": "Robot net weight from the reviewed specification block; station and gross weights are separate.",
+        "size": "Robot dimensions from the reviewed specification block; station dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "No full-charge runtime is recorded; an implausible published figure is not substituted.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "ECOVACS DEEBOT X12 OmniCyclone is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "ECOVACS DEEBOT X12 OmniCyclone product page.",
+        "description": "ECOVACS DEEBOT X12 OmniCyclone page; suction, dimensions, masses, battery, runtime, charging and noise statements are manufacturer claims.",
+        "chargingTime": "Charging statement from the reviewed specification block.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "ECOVACS - Deebot X12 OmniCyclone",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x12-omnicyclone",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The ECOVACS DEEBOT X12 OmniCyclone is a bagless vacuum and mop robot with a claimed 22,000 Pa suction and OZMO roller mopping.",
+        "It measures 353 x 351 x 98 mm, weighs 5.5 kg and the Omni station 10.3 kg.",
+        "A 4,000 mAh battery charges in 2 h 25 min at 17.8 V and runs at 61.1 dB(A) in standard sweep.",
+        "The page publishes a 5,461 min silent-sweep figure over 5,236 m2 that is implausible for a 4,000 mAh battery.",
+        "No full-charge runtime, payload, travel speed, water tank capacity or IP rating is recorded."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "ecovacs-deebot-x2-omni",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot X2 Omni",
+        "price": "~1,500 USD",
+        "weight": "~4.5 kg",
+        "size": "",
+        "batteryLife": "~4 hours",
+        "maxRuntime": "",
+        "tags": "ai-powered;auto-empty;consumer;mop;obstacle-avoidance;vacuum",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/",
+        "image": "images/household/ecovacs-deebot-x2-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Vacuum and mop, auto-empty, AI obstacle avoidance",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot X2 Omni",
+        "price": "",
+        "weight": "≈5 kg manufacturer / ~4.5 kg catalog",
+        "size": "320 x 353 x 95 mm",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "212 min silent sweep; 186 min standard sweep; 161 min silent sweep and mop; 143 min standard sweep and mop",
+        "tags": "ai-powered;auto-empty;consumer;mop;obstacle-avoidance;vacuum",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x2-omni",
+        "image": "images/household/ecovacs-deebot-x2-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The ECOVACS DEEBOT X2 Omni is a square vacuum and mop robot with 8,000 Pa suction, OZMO Turbo 2.0 rotating mops and 15 mm intelligent mop lifting. It measures 320 x 353 x 95 mm, weighs about 5 kg and carries a 6,400 mAh Li-ion battery. The reviewed page publishes silent-mode sweep runs of 212 min over 435 m2, standard sweep 186 min over 272 m2, silent sweep and mop 161 min over 242 m2 and standard sweep and mop 143 min over 202 m2, plus 64.9 dB(A) standard-mode noise. Charging is described only as 45% faster than the X1 from 1% to 90%, without an absolute time. No payload, travel speed, water tank capacity or IP rating is published; the catalog ~4.5 kg mass and ~4-hour battery label are not confirmed.",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "ecovacs-deebot-x5-pro-omni",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot X5 Pro Omni",
+        "price": "1299 USD",
+        "weight": "~4.5 kg",
+        "size": "",
+        "batteryLife": "~5.8 hours",
+        "maxRuntime": "350 min",
+        "tags": "ai-powered;consumer;mop;vacuum",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni",
+        "image": "images/household/ecovacs-deebot-x5-pro-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Slim vacuum and mop with AI navigation and all-in-one Omni station",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot X5 Pro Omni",
+        "price": "",
+        "weight": "",
+        "size": "313 x 346 x 95 mm",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "224 min silent sweep; 176 min standard sweep; 182 min silent sweep and mop; 152 min standard sweep and mop",
+        "tags": "ai-powered;consumer;mop;vacuum",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni",
+        "image": "images/household/ecovacs-deebot-x5-pro-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The ECOVACS DEEBOT X5 Pro Omni is a vacuum and mop robot with 12,800 Pa suction, an auto-lift mop and a 200 mm main brush. It measures 313 x 346 x 95 mm and the Omni station 394 x 443 x 527.5 mm. A 6,400 mAh Li-ion battery charges in about 4 h 19 min and the page publishes silent-mode sweep runs of 224 min over 320 m2, standard sweep 176 min over 205 m2, silent sweep and mop 182 min over 200 m2 and standard sweep and mop 152 min over 173 m2, with 67.3 dB(A) standard sweep noise. No robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~4.5 kg mass and 350 min runtime are not confirmed.",
+        "releaseDate": "2024",
+        "chargingTime": "≈4 h 19 min",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "ecovacs-deebot-t50-pro-omni",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot T50 Pro Omni",
+        "price": "399 USD",
+        "weight": "3.7 kg",
+        "size": "35x35x8 cm",
+        "batteryLife": "215 min",
+        "maxRuntime": "215 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;hot-water-wash;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+        "image": "images/cleaning/ecovacs-deebot-t50-pro-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Ultra-slim 8.1cm flagship, 15,000Pa, AIVI 3D, 70C hot-water mop wash",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot T50 Pro Omni",
+        "price": "",
+        "weight": "3.7 kg",
+        "size": "352.7 x 351.6 x 81 mm",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "255 min silent sweep; 215 min standard sweep; 185 min standard sweep and mop",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;hot-water-wash;ai-powered",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni",
+        "image": "images/cleaning/ecovacs-deebot-t50-pro-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The ECOVACS DEEBOT T50 Pro Omni is a slim vacuum and mop robot with 15,000 Pa suction, a 10-in-1 station, dToF LiDAR and TruEdge 2.0 edge cleaning. It measures 352.7 x 351.6 x 81 mm and weighs 3.7 kg; the station weighs 7.6 kg. It carries a 6,400 mAh Li-ion battery, charges in about 3.7 h and publishes 255 min silent sweep, 215 min standard sweep and 185 min standard sweep-and-mop runtime at 63 dB(A). No payload, travel speed, water tank capacity or IP rating is published; the catalog 35 x 35 x 8 cm size and 215 min battery label are replaced by the reviewed values.",
+        "releaseDate": "2024",
+        "chargingTime": "≈3.7 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "ecovacs-deebot-x12-omnicyclone",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot X12 OmniCyclone",
+        "price": "1499 USD",
+        "weight": "",
+        "size": "medium",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;ai-powered",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x12-omnicyclone",
+        "image": "images/cleaning/ecovacs-deebot-x12-omnicyclone.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Bagless flagship robot vacuum with roller mop and 22,000Pa suction.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "ECOVACS",
+        "model": "Deebot X12 OmniCyclone",
+        "price": "",
+        "weight": "5.5 kg",
+        "size": "353 x 351 x 98 mm",
+        "batteryLife": "4,000 mAh",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;ai-powered",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x12-omnicyclone",
+        "image": "images/cleaning/ecovacs-deebot-x12-omnicyclone.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The ECOVACS DEEBOT X12 OmniCyclone is a bagless vacuum and mop robot with a claimed 22,000 Pa suction, FocusJet, OZMO roller mopping and a 12-in-1 Omni station. It measures 353 x 351 x 98 mm and weighs 5.5 kg; the station weighs 10.3 kg. It carries a 4,000 mAh Li-ion battery, charges in 2 h 25 min at 17.8 V and runs at 61.1 dB(A) in standard sweep and 64.4 dB(A) in sweep and mop. The reviewed page publishes a silent-sweep figure of 5,461 min over 5,236 m2 that is implausible for a 4,000 mAh battery, so no full-charge runtime is recorded. No payload, travel speed, water tank capacity or IP rating is published.",
+        "releaseDate": "2026",
+        "chargingTime": "2 h 25 min",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "ECOVACS",
+      "model": "Deebot X2 Omni",
+      "changes": {
+        "price": {
+          "before": "~1,500 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "~4.5 kg",
+          "after": "≈5 kg manufacturer / ~4.5 kg catalog"
+        },
+        "size": {
+          "before": "",
+          "after": "320 x 353 x 95 mm"
+        },
+        "batteryLife": {
+          "before": "~4 hours",
+          "after": "6,400 mAh"
+        },
+        "maxRuntime": {
+          "before": "",
+          "after": "212 min silent sweep; 186 min standard sweep; 161 min silent sweep and mop; 143 min standard sweep and mop"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "website": {
+          "before": "https://www.ecovacs.com/",
+          "after": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x2-omni"
+        },
+        "description": {
+          "before": "Vacuum and mop, auto-empty, AI obstacle avoidance",
+          "after": "The ECOVACS DEEBOT X2 Omni is a square vacuum and mop robot with 8,000 Pa suction, OZMO Turbo 2.0 rotating mops and 15 mm intelligent mop lifting. It measures 320 x 353 x 95 mm, weighs about 5 kg and carries a 6,400 mAh Li-ion battery. The reviewed page publishes silent-mode sweep runs of 212 min over 435 m2, standard sweep 186 min over 272 m2, silent sweep and mop 161 min over 242 m2 and standard sweep and mop 143 min over 202 m2, plus 64.9 dB(A) standard-mode noise. Charging is described only as 45% faster than the X1 from 1% to 90%, without an absolute time. No payload, travel speed, water tank capacity or IP rating is published; the catalog ~4.5 kg mass and ~4-hour battery label are not confirmed."
+        }
+      }
+    },
+    {
+      "manufacturer": "ECOVACS",
+      "model": "Deebot X5 Pro Omni",
+      "changes": {
+        "price": {
+          "before": "1299 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "~4.5 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "",
+          "after": "313 x 346 x 95 mm"
+        },
+        "batteryLife": {
+          "before": "~5.8 hours",
+          "after": "6,400 mAh"
+        },
+        "maxRuntime": {
+          "before": "350 min",
+          "after": "224 min silent sweep; 176 min standard sweep; 182 min silent sweep and mop; 152 min standard sweep and mop"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "website": {
+          "before": "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni",
+          "after": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni"
+        },
+        "description": {
+          "before": "Slim vacuum and mop with AI navigation and all-in-one Omni station",
+          "after": "The ECOVACS DEEBOT X5 Pro Omni is a vacuum and mop robot with 12,800 Pa suction, an auto-lift mop and a 200 mm main brush. It measures 313 x 346 x 95 mm and the Omni station 394 x 443 x 527.5 mm. A 6,400 mAh Li-ion battery charges in about 4 h 19 min and the page publishes silent-mode sweep runs of 224 min over 320 m2, standard sweep 176 min over 205 m2, silent sweep and mop 182 min over 200 m2 and standard sweep and mop 152 min over 173 m2, with 67.3 dB(A) standard sweep noise. No robot net weight, payload, travel speed, water tank capacity or IP rating is published; the catalog ~4.5 kg mass and 350 min runtime are not confirmed."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "≈4 h 19 min"
+        }
+      }
+    },
+    {
+      "manufacturer": "ECOVACS",
+      "model": "Deebot T50 Pro Omni",
+      "changes": {
+        "price": {
+          "before": "399 USD",
+          "after": ""
+        },
+        "size": {
+          "before": "35x35x8 cm",
+          "after": "352.7 x 351.6 x 81 mm"
+        },
+        "batteryLife": {
+          "before": "215 min",
+          "after": "6,400 mAh"
+        },
+        "maxRuntime": {
+          "before": "215 min",
+          "after": "255 min silent sweep; 215 min standard sweep; 185 min standard sweep and mop"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Ultra-slim 8.1cm flagship, 15,000Pa, AIVI 3D, 70C hot-water mop wash",
+          "after": "The ECOVACS DEEBOT T50 Pro Omni is a slim vacuum and mop robot with 15,000 Pa suction, a 10-in-1 station, dToF LiDAR and TruEdge 2.0 edge cleaning. It measures 352.7 x 351.6 x 81 mm and weighs 3.7 kg; the station weighs 7.6 kg. It carries a 6,400 mAh Li-ion battery, charges in about 3.7 h and publishes 255 min silent sweep, 215 min standard sweep and 185 min standard sweep-and-mop runtime at 63 dB(A). No payload, travel speed, water tank capacity or IP rating is published; the catalog 35 x 35 x 8 cm size and 215 min battery label are replaced by the reviewed values."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "≈3.7 h"
+        }
+      }
+    },
+    {
+      "manufacturer": "ECOVACS",
+      "model": "Deebot X12 OmniCyclone",
+      "changes": {
+        "price": {
+          "before": "1499 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "",
+          "after": "5.5 kg"
+        },
+        "size": {
+          "before": "medium",
+          "after": "353 x 351 x 98 mm"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "4,000 mAh"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Bagless flagship robot vacuum with roller mop and 22,000Pa suction.",
+          "after": "The ECOVACS DEEBOT X12 OmniCyclone is a bagless vacuum and mop robot with a claimed 22,000 Pa suction, FocusJet, OZMO roller mopping and a 12-in-1 Omni station. It measures 353 x 351 x 98 mm and weighs 5.5 kg; the station weighs 10.3 kg. It carries a 4,000 mAh Li-ion battery, charges in 2 h 25 min at 17.8 V and runs at 61.1 dB(A) in standard sweep and 64.4 dB(A) in sweep and mop. The reviewed page publishes a silent-sweep figure of 5,461 min over 5,236 m2 that is implausible for a 4,000 mAh battery, so no full-charge runtime is recorded. No payload, travel speed, water tank capacity or IP rating is published."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "2 h 25 min"
+        }
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "ecovacs",
+      "name": "Ecovacs",
+      "role": "Consumer and commercial cleaning and lawn-robot developer",
+      "highlights": [
+        "Consumer range includes DEEBOT floor cleaning, WINBOT glass cleaning and GOAT lawn mowing; ECOVACSCommercial separately describes K1 VAC andM1/M1 3D commercial cleaning platforms.",
+        "GOAT A3000 LiDAR PRO, A2000 LiDAR PRO andO1000 LiDAR PRO are separately named hardware models with TruEdge trimming, HoloScope 360 dual-LiDAR and AIVI 3D claims. Garage/blade accessory bundles are not extra robot models.",
+        "Commercial tables retain task-specific endurance, roller width, theoretical area rate and clean/recovery tank capacity. K1 charging and area-rate disagreements are exposed rather than averaged.",
+        "WINBOT robot mass, portable station battery duration, power-off protection, water tank and area-time rate are separate quantities. Exterior-window use retains the manual tether/weather conditions.",
+        "US product prices and stock are dated regional observations. OriginalA3000 out-of-stock status is not inherited byPRO models; model-selector/accessory prices are not substituted for the main product.",
+        "Navigation, obstacle avoidance, edge cutting and productivity remain manufacturer claims; no independently verified exclusivity, zero-risk guarantee or complete historical portfolio asserted.",
+        "The current US DEEBOT range adds T80 OMNI, X8 PRO OMNI, X9 PRO OMNI and X11 OmniCyclone with OZMO roller mopping, TruEdge edge cleaning and OMNI stations.",
+        "The reviewed DEEBOT pages publish 6,400 mAh batteries, 18,000 to 19,500 Pa suction, 4 h 37 min or less charging and 297 min or less silent sweep runtime."
+      ],
+      "sources": [
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacscommercial.com/technical-specification",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/winbot-window-cleaning-robot/winbot-w2-pro-omni",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/goat-robotic-lawn-mower/goat-a3000-lidar",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS - DEEBOT T80 OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t80-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X9 PRO OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x9-pro-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X8 PRO OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x8-pro-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X11 OmniCyclone",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewNotes": "Batch163. ECOVACS pages read as text only; no research browser, visual inspection, OCR or media reuse. T80 OMNI, X8 PRO OMNI, X9 PRO OMNI and X11 OmniCyclone are four separate current models. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven."
+    }
+  ],
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 36,
+    "axeCases": 8,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1248,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 4,
+      "successfulResponses": 4,
+      "usableResponses": 4,
+      "sha256VerifiedResponses": 4,
+      "nativeHtmlResponses": 4,
+      "nonHtmlSuccessfulResponses": 0,
+      "pdfDocuments": 0,
+      "pdfPages": 0,
+      "pdfSources": [],
+      "notFoundExcluded": [
+        "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-x1-omni (301 to a 404 shop URL)",
+        "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-x2-omni (301 to the shop URL)",
+        "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-t30-omni (301 to a 404 shop URL)",
+        "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-x5-pro-omni (301 to the shop URL)",
+        "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t50-omni (404)",
+        "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n30-pro-omni (404)",
+        "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n20-pro-plus (404)",
+        "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/winbot-w3-omni (404)"
+      ],
+      "blockedResponses": [],
+      "rateLimitedResponses": [],
+      "redirectResponses": [
+        "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/* -> https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/* (301; the shop URL is the reviewed target)"
+      ],
+      "unusedSuccessfulResponses": [],
+      "archivedResponses": [],
+      "inspection": "Native HTML read as text only. No research browser, visual inspection, OCR or media reuse. No login, forms, contact, messages or transactions."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 1,
+          "selector": "body",
+          "textSha256": "0c1ecd1c5ed27a9d2e87cdd9a63bc2d326381a087eb3b0426dcba818195dce04"
+        },
+        {
+          "sourceId": 2,
+          "selector": "body",
+          "textSha256": "a49b8df9e3bfe78bacafb1e13bea457bee19e68d3d4d0204508d5d880bf8faa7"
+        },
+        {
+          "sourceId": 3,
+          "selector": "body",
+          "textSha256": "5c37d0f71a44df292b6701b7d16d79f8dc07a741bc27887331184d2ddd916da5"
+        },
+        {
+          "sourceId": 4,
+          "selector": "body",
+          "textSha256": "fbf91f18327bacb20a64541c9913a176fcb2d2b81ab716db6bb1166ebcb94fab"
+        }
+      ],
+      "versionScopes": "DEEBOT X2 Omni, X5 Pro Omni, T50 Pro Omni and X12 OmniCyclone are four separate current ECOVACS models. The catalog rows are separate entries, not configurations of one model.",
+      "priceScopes": "None of the four reviewed pages publishes a robot price in the extracted native text; the catalog ~1,500, 1,299, 399 and 1,499 USD values are not confirmed. Page price strings are not substituted from accessory prices.",
+      "weightScopes": "The X2 Omni page publishes about 5 kg robot net weight against the catalog ~4.5 kg, the T50 Pro Omni page 3.7 kg, the X12 OmniCyclone page 5.5 kg. The X5 Pro Omni specification block publishes no robot net weight, so the catalog ~4.5 kg is cleared.",
+      "sizeScopes": "Robot dimensions are 320 x 353 x 95 mm for the X2 Omni, 313 x 346 x 95 mm for the X5 Pro Omni, 352.7 x 351.6 x 81 mm for the T50 Pro Omni and 353 x 351 x 98 mm for the X12 OmniCyclone. Station dimensions are separate and not merged into robot size.",
+      "payloadScopes": "No reviewed page publishes a payload rating; these are cleaning appliances without a manipulator or load rating.",
+      "enduranceScopes": "Battery capacity is 6,400 mAh for the X2 Omni, X5 Pro Omni and T50 Pro Omni and 4,000 mAh for the X12 OmniCyclone. Published runtimes are silent/standard sweep and sweep-and-mop minutes. The X2 Omni page gives only a relative charging statement. The X12 OmniCyclone silent-sweep figure of 5,461 min over 5,236 m2 is implausible for a 4,000 mAh battery and is not recorded.",
+      "autonomyScopes": "ECOVACS describes OZMO Turbo 2.0, AIVI/dToF navigation, mop lifting and OMNI stations. These are manufacturer descriptions, not independent safety certification or proof of unsupervised operation.",
+      "listingScopes": "The roboticsdir and buyandrentrobots listings name products and companies; they do not establish prices, current stock, delivered fleets or independent performance.",
+      "goalComplete": false
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "reviewedProducts": 4,
+      "selectedFields": 72,
+      "selectedFieldStatuses": {
+        "not-documented": 43,
+        "conflicting": 1,
+        "documented": 28
+      },
+      "specificationReviewModels": 1318,
+      "specificationFields": 24838,
+      "allFieldStatuses": {
+        "not-documented": 15291,
+        "documented": 9189,
+        "conflicting": 322,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1334,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 72,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 1
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1338,
+      "individualHighlights": 6167,
+      "productSourceReferences": 2889,
+      "specificationReviewModels": 1322,
+      "specificationFields": 24910,
+      "publicJsonBytes": 6683660,
+      "catalogScriptBytes": 2725295,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T20:48:59Z",
+            "after": "2026-11-03T20:49:52Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T20:48:58.468Z",
+            "after": "2026-11-03T20:49:51.981Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "26949d3e89c3d554516372d31eaf4b64ac772def97adaee7256e50ec35012222",
+            "after": "6c462ba5a9b02d76a936fffeb532825b5443a00821287640606fe1c4ac942d42"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T20:48:58.468Z",
+            "after": "2026-11-03T20:49:51.981Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T20:48:58.468Z",
+            "after": "2026-11-03T20:49:51.981Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 190,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "5bdcf6a8a5feb921c0ffe0075d4b6cab4a5cf3b0",
+    "dataCommit": "9a9fabb28046951d4ac73fd9bb79d7d0029b7e7a",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 791,
+  "goalComplete": false
+}

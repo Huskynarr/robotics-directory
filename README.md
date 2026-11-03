@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,334 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,338 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,838 fields across 1318 models, distinguishing documented, undisclosed, conflicting and
+24,910 fields across 1322 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,671 kB JSON response loads only for search or comparison;
+A separate 6,684 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,147 reviewed highlight statements as well as
+Catalog search now includes all 6,167 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1670,3 +1670,20 @@ mass is recorded. Catalog prices of 1,800, about 700 and 800 USD and the catalog
 runtimes of 180, 180 and 60 minutes are replaced or cleared by the reviewed
 values. No reviewed page publishes a full-charge runtime, charging time, payload,
 travel speed, water tank capacity or IP rating.
+
+ECOVACS's Deebot X2 Omni, X5 Pro Omni, T50 Pro Omni and X12 OmniCyclone now
+have selected field reviews. The manufacturer publishes 8,000 Pa, 320 x 353 x 95 mm,
+about 5 kg, 6,400 mAh and 212 min silent sweep over 435 m2 for the X2 Omni;
+12,800 Pa, 313 x 346 x 95 mm, 6,400 mAh, about 4 h 19 min charging and 224 min
+silent sweep over 320 m2 for the X5 Pro Omni; 15,000 Pa, 352.7 x 351.6 x 81 mm,
+3.7 kg, 6,400 mAh, about 3.7 h charging and 255 min silent sweep for the
+T50 Pro Omni; and a claimed 22,000 Pa, 353 x 351 x 98 mm, 5.5 kg, 4,000 mAh and
+2 h 25 min charging for the X12 OmniCyclone. The published X2 Omni mass of about
+5 kg conflicts with the catalog 4.5 kg and stays visible; the X5 Pro Omni page
+publishes no robot net weight. The X2 Omni charging statement is relative only,
+and the X12 silent-sweep figure of 5,461 min over 5,236 m2 is implausible for a
+4,000 mAh battery and is not recorded. Catalog prices of 1,500, 1,299, 399 and
+1,499 USD, the X2 Omni 4-hour battery label, the X5 Pro Omni 350 min runtime and
+the T50 Pro Omni 35 x 35 x 8 cm size are replaced or cleared by the reviewed
+values. No reviewed page publishes a robot price, payload, travel speed, water tank
+capacity or IP rating.
