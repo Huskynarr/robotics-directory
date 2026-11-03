@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.371 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1117 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1302 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.372 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1118 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1303 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 139 |
+| Firmenfokus-Prüfungen mit Quellen | 140 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1117 ergänzte Modelle ergeben 2.371 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1118 ergänzte Modelle ergeben 2.372 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-139 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+140 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1302 Datensätze
+Modellseiten verlinken Markenprofile. Die 1303 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 478 haben ausgewählte Datenfeldprüfungen und 40
+haben datierte Merkmalsbelege; 479 haben ausgewählte Datenfeldprüfungen und 39
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -12097,4 +12097,104 @@ Daten-Zwischencommit `9702b183a1af41b5f0e8973290cf2ad8e08fc93e` ist auf `codex/c
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
 Portfolios, alle historischen Hardwarestände und USPs sowie Marktführerschaft
+bleiben unbewiesen.
+
+
+## Ergänzung 145 – Dusty Robotics: FieldPrinter-Generationen, Vermessungsworkflow und Entwicklungsidentitäten (3. November 2026)
+
+FieldPrinter 1 ist ergänzt und FieldPrinter 2 technisch teilgeprüft. Zwei Prüfungen
+umfassen 34 Felder: 13 dokumentiert und 21 nicht dokumentiert. Zwölf neue
+Merkmalsaussagen, zehn zusätzliche Produktquellenverweise und ein Firmenfokus
+kommen hinzu. Drei alte wörtliche FP2-Merkmale, Fund-URLs, ID und Medien bleiben
+erhalten. 2.370 andere Ausgangszeilen, 1.244 frühere Feldprüfungen und 139 bisherige
+Firmenfokusse sind unverändert. Kein Anwendungs- oder CSV-Schemawechsel.
+Gesamt: 2.372 Einträge, 1.303 datierte Merkmalssätze, 5.776 Aussagen,
+2.733 Produktquellenverweise, 1.246 Feldprüfungen mit 23.561 Feldern und
+140 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen sind 479 technisch
+teilgeprüft; 39 bleiben offen. Dauerbeleg: `reports/competitor-batch-145-evidence.json`.
+
+18 Antworten sind gehasht gesichert: 14 HTTP 200, darunter zwei bytegleiche
+Antworten, weil die alte Produktadresse zur Plattformseite weiterleitet.
+Drei Hosts liefern HTTP 403: technische Supportseite, Manual-Mirror und verlinkte
+Construction-Dive-Mitteilung. Ein Einsatzbetreiber-Artikel bei JE Dunn liefert
+eine ausdrückliche Wordfence-Sperre mit HTTP 503. Nach jeder Ablehnung enden
+Anfragen an den Host. Diese Inhalte und Support-Suchvorschauen werden nicht als
+nativ gelesen ausgegeben oder als aktuelle Zahlenbelege importiert. Keine
+Challenge-, Proxy-, API-, Login- oder Formularumgehung, Kontakt-/Nachrichtenaktion,
+Transaktion oder Medienübernahme. Zwei native PDFs mit sieben Seiten sind über
+bestehende Textschichten geprüft; keine visuelle Prüfung oder OCR.
+
+Die Mitteilung vom 15. Juni 2021 datiert den ersten kommerziellen Rollout des
+ursprünglichen FieldPrinter auf Herbst 2020. Die November-2020-Produktionserzählung
+und der Juli-2020-Entwicklungsbericht bleiben getrennte Meilensteine. Der öffentliche
+Hersteller-Post mit nativem Veröffentlichungsdatum 18. Mai 2026 nennt ausdrücklich
+FieldPrinter 1 und kündigt dessen Ablösung durch FP2 an; ein genauer letzter
+Liefertag oder Supportablauf folgt daraus nicht. „Amber“ ist im Juli-2020-Beitrag
+der Codename einer internen zweiten Entwicklungsplattform, keine sichere Identität
+mit dem kommerziellen FieldPrinter 2 von 2024. Auch eine vollständige Gleichheit
+mit dem später FieldPrinter 1 genannten Serienstand ist nicht belegt. Der Hinweis
+bleibt als offene historische Hardware-Identität erhalten, ohne zusätzliche
+kommerzielle Modellkarte oder behauptete Dublettenauflösung.
+
+Die öffentliche Hersteller-CDN-Unterlage zum Arbeitsablauf trägt gemischte
+April-/Juni-2021-Revisionsfußzeilen und einen Confidential-Vermerk. Sie wird nicht
+weiterverteilt; wenige historische Fakten sind qualifiziert paraphrasiert. Externe
+Vermessungspunkte, vorbereitete CAD-/CSV-Dateien und menschliche Ergänzung in nicht
+erreichbaren Bereichen sind Teil dieses damaligen Workflows. Kontrollpunktgenauigkeit
+und Druckplatzierung sind unterschiedliche Größen; die 1/16-Zoll-Merkmalsangabe
+ist keine unbegrenzte absolute Gebäudegenauigkeit oder reine Fahrzeugpositions-
+/Sichtsystemgenauigkeit. Historische Wetterbedingungen werden nicht zu heutigen
+FP2-Grenzen. Die Gründerin berichtet selbst über Hindernisse, Fehlfunktionen,
+Ersatzgerät und geänderte Arbeitsabläufe; ihre Kontextangaben sind keine garantierte
+Flächenleistung oder Zusicherung völliger Fehlerfreiheit.
+
+Die eigene Ankündigung vom 23. Januar 2024 nennt FieldPrinter 2, 23 lb einschließlich
+Batterie und einen ein Zoll breiten Druckkopf bei 300 dpi. Für das Massefeld sind
+23×0,45359237 = 10,43262451 kg auf 10,43 kg gerundet; ohne zusätzlichen lb-Token
+bleibt die Filterauswertung korrekt. Es ist der datierte Einführungsspezifikations-
+Wert, keine aktuelle unabhängige Wägung oder Transportkoffer-Masse. Nicht gelesene
+Support-Vorschauen mit anderen Rundungen/Auflösungen ersetzen diesen Stand nicht.
+Power Hold bei Akkutausch beweist keine Lauf- oder Ladezeit. Edge Print, Shadow
+Print, Kurven- und Hindernisfunktionen liefern ohne genaue Spezifikation keine
+exakten Randabstände, Wetter-/IP-Zulassung oder Absturz-/Unfallfreiheit.
+
+Der vierseitige PMD-Zulieferbericht dokumentiert zwei aktive Vorderradantriebe,
+ein passives Hinterrad, IMU-/Encoder-Unterstützung bei verdeckter Tracker-Sicht,
+elektrisches Bremsen und Kommunikations-Watchdog. Die Rolle bleibt Integrationspartner,
+kein Hersteller- oder unabhängiger Sicherheitstest. Einachsige Motorregler ergeben
+keine Gesamt-Gelenkzahl. Controller-Maße, elektrische Bauteil-Leistungsgrenzen und
+Ingenieur-Anekdoten zu Wetter oder Verdeckungszeiten werden nicht zu Robotermaßen,
+Gesamtleistungsaufnahme, Temperaturzulassung oder universeller Blindfluggarantie.
+
+Der nativ datierte Beitrag vom 19. Oktober 2026 beschreibt Floor Elevation jetzt
+als enthaltene Funktion mit vorhandenem Roboter und Tracker, Live-Heatmaps,
+Punktmessungen, PDF-/CSV-Ausgabe und Zusammenführung mehrerer Stationierungen in
+der Cloud. Ein ASTM-E1155-Bericht wird dem Text zufolge vom Team oder Prüfpartner
+aus den Daten erstellt; das ist keine automatisch zertifizierte Ausgabe oder
+unabhängige Normkonformitätsbestätigung. Eine ältere Oktober-2024-GA-Überschrift
+im Presseindex wird wegen gesperrtem Zielinhalt nicht still mit diesem 2026-Stand
+harmonisiert. Floor Elevation, Portal, Plugins und Mess-/Funkzubehör sind keine
+zusätzlichen vollständigen Hardwaremodelle.
+
+Die aktuelle Preisseite beschreibt Nutzungstage, Plattformzugang und Einführung,
+inklusive Robotik, Tracker, iPad/Joystick und Schulung. Kein genauer öffentlicher
+Betrag ist belegt; Finanzierungsrunden sind kein Kaufpreis. Verfügbarkeit wird auf
+Nordamerika begrenzt. Aussagen wie zehnfache Produktivität, höchste Genauigkeit,
+Sicherheit oder vermiedene Nacharbeit bleiben Anbieterbehauptungen statt
+unabhängig bewiesener Einzigartigkeit oder Marktführerschaft.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.423 Seiten. Audit: null Fehler, 1.245 Warnungen; eine Warnung
+weniger durch das nun belegte FP2-Einführungsjahr. Zwei Detailseiten mit 34 Feldern,
+Quellenrollen, strukturierten Daten, Firmenfokus, Merkmalsuche und Vergleich sind
+geprüft. Eine ursprüngliche Modell-Exportzeile und ein Queueziel liefern je
+17 Feldstatus-Einträge. Bestehende Identitätsdateien und Firmenprodukt-Exporte
+bleiben byteidentisch. Reimport: null Ergänzungen und 32 getrackte Datendateien
+byteidentisch; Offline-Refresh semantisch idempotent. Eigene Browser, Testserver
+und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `2a3b6fff4f704f43bcd828916de2b9b678598bbb` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Amber und
+vollständige historische/regionale Portfolios, sämtliche USPs sowie Marktführerschaft
 bleiben unbewiesen.

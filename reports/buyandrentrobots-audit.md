@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,371 catalog rows**, with 646 exact
-manufacturer spellings. Batch 144 refreshed the separate heuristic gap file offline
-against all 2,371 rows (638 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,372 catalog rows**, with 646 exact
+manufacturer spellings. Batch 145 refreshed the separate heuristic gap file offline
+against all 2,372 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1302 dated records across the catalog, including
-185 existing-model enrichments and 1117 task additions. All 430 catalog models
+Current product-highlight coverage: 1303 dated records across the catalog, including
+185 existing-model enrichments and 1118 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1117 task additions, totaling 2,371.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1118 task additions, totaling 2,372.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 478 have selected-field reviews and 40 await those reviews. Family and
+highlights; 479 have selected-field reviews and 39 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,527 fields across 1244 catalog models: 8,625 documented,
-14,483 not documented, 313 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 23,561 fields across 1246 catalog models: 8,638 documented,
+14,504 not documented, 313 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -9862,4 +9862,104 @@ Daten-Zwischencommit `9702b183a1af41b5f0e8973290cf2ad8e08fc93e` ist auf `codex/c
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
 Portfolios, alle historischen Hardwarestände und USPs sowie Marktführerschaft
+bleiben unbewiesen.
+
+
+## Ergänzung 145 – Dusty Robotics: FieldPrinter-Generationen, Vermessungsworkflow und Entwicklungsidentitäten (3. November 2026)
+
+FieldPrinter 1 ist ergänzt und FieldPrinter 2 technisch teilgeprüft. Zwei Prüfungen
+umfassen 34 Felder: 13 dokumentiert und 21 nicht dokumentiert. Zwölf neue
+Merkmalsaussagen, zehn zusätzliche Produktquellenverweise und ein Firmenfokus
+kommen hinzu. Drei alte wörtliche FP2-Merkmale, Fund-URLs, ID und Medien bleiben
+erhalten. 2.370 andere Ausgangszeilen, 1.244 frühere Feldprüfungen und 139 bisherige
+Firmenfokusse sind unverändert. Kein Anwendungs- oder CSV-Schemawechsel.
+Gesamt: 2.372 Einträge, 1.303 datierte Merkmalssätze, 5.776 Aussagen,
+2.733 Produktquellenverweise, 1.246 Feldprüfungen mit 23.561 Feldern und
+140 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen sind 479 technisch
+teilgeprüft; 39 bleiben offen. Dauerbeleg: `reports/competitor-batch-145-evidence.json`.
+
+18 Antworten sind gehasht gesichert: 14 HTTP 200, darunter zwei bytegleiche
+Antworten, weil die alte Produktadresse zur Plattformseite weiterleitet.
+Drei Hosts liefern HTTP 403: technische Supportseite, Manual-Mirror und verlinkte
+Construction-Dive-Mitteilung. Ein Einsatzbetreiber-Artikel bei JE Dunn liefert
+eine ausdrückliche Wordfence-Sperre mit HTTP 503. Nach jeder Ablehnung enden
+Anfragen an den Host. Diese Inhalte und Support-Suchvorschauen werden nicht als
+nativ gelesen ausgegeben oder als aktuelle Zahlenbelege importiert. Keine
+Challenge-, Proxy-, API-, Login- oder Formularumgehung, Kontakt-/Nachrichtenaktion,
+Transaktion oder Medienübernahme. Zwei native PDFs mit sieben Seiten sind über
+bestehende Textschichten geprüft; keine visuelle Prüfung oder OCR.
+
+Die Mitteilung vom 15. Juni 2021 datiert den ersten kommerziellen Rollout des
+ursprünglichen FieldPrinter auf Herbst 2020. Die November-2020-Produktionserzählung
+und der Juli-2020-Entwicklungsbericht bleiben getrennte Meilensteine. Der öffentliche
+Hersteller-Post mit nativem Veröffentlichungsdatum 18. Mai 2026 nennt ausdrücklich
+FieldPrinter 1 und kündigt dessen Ablösung durch FP2 an; ein genauer letzter
+Liefertag oder Supportablauf folgt daraus nicht. „Amber“ ist im Juli-2020-Beitrag
+der Codename einer internen zweiten Entwicklungsplattform, keine sichere Identität
+mit dem kommerziellen FieldPrinter 2 von 2024. Auch eine vollständige Gleichheit
+mit dem später FieldPrinter 1 genannten Serienstand ist nicht belegt. Der Hinweis
+bleibt als offene historische Hardware-Identität erhalten, ohne zusätzliche
+kommerzielle Modellkarte oder behauptete Dublettenauflösung.
+
+Die öffentliche Hersteller-CDN-Unterlage zum Arbeitsablauf trägt gemischte
+April-/Juni-2021-Revisionsfußzeilen und einen Confidential-Vermerk. Sie wird nicht
+weiterverteilt; wenige historische Fakten sind qualifiziert paraphrasiert. Externe
+Vermessungspunkte, vorbereitete CAD-/CSV-Dateien und menschliche Ergänzung in nicht
+erreichbaren Bereichen sind Teil dieses damaligen Workflows. Kontrollpunktgenauigkeit
+und Druckplatzierung sind unterschiedliche Größen; die 1/16-Zoll-Merkmalsangabe
+ist keine unbegrenzte absolute Gebäudegenauigkeit oder reine Fahrzeugpositions-
+/Sichtsystemgenauigkeit. Historische Wetterbedingungen werden nicht zu heutigen
+FP2-Grenzen. Die Gründerin berichtet selbst über Hindernisse, Fehlfunktionen,
+Ersatzgerät und geänderte Arbeitsabläufe; ihre Kontextangaben sind keine garantierte
+Flächenleistung oder Zusicherung völliger Fehlerfreiheit.
+
+Die eigene Ankündigung vom 23. Januar 2024 nennt FieldPrinter 2, 23 lb einschließlich
+Batterie und einen ein Zoll breiten Druckkopf bei 300 dpi. Für das Massefeld sind
+23×0,45359237 = 10,43262451 kg auf 10,43 kg gerundet; ohne zusätzlichen lb-Token
+bleibt die Filterauswertung korrekt. Es ist der datierte Einführungsspezifikations-
+Wert, keine aktuelle unabhängige Wägung oder Transportkoffer-Masse. Nicht gelesene
+Support-Vorschauen mit anderen Rundungen/Auflösungen ersetzen diesen Stand nicht.
+Power Hold bei Akkutausch beweist keine Lauf- oder Ladezeit. Edge Print, Shadow
+Print, Kurven- und Hindernisfunktionen liefern ohne genaue Spezifikation keine
+exakten Randabstände, Wetter-/IP-Zulassung oder Absturz-/Unfallfreiheit.
+
+Der vierseitige PMD-Zulieferbericht dokumentiert zwei aktive Vorderradantriebe,
+ein passives Hinterrad, IMU-/Encoder-Unterstützung bei verdeckter Tracker-Sicht,
+elektrisches Bremsen und Kommunikations-Watchdog. Die Rolle bleibt Integrationspartner,
+kein Hersteller- oder unabhängiger Sicherheitstest. Einachsige Motorregler ergeben
+keine Gesamt-Gelenkzahl. Controller-Maße, elektrische Bauteil-Leistungsgrenzen und
+Ingenieur-Anekdoten zu Wetter oder Verdeckungszeiten werden nicht zu Robotermaßen,
+Gesamtleistungsaufnahme, Temperaturzulassung oder universeller Blindfluggarantie.
+
+Der nativ datierte Beitrag vom 19. Oktober 2026 beschreibt Floor Elevation jetzt
+als enthaltene Funktion mit vorhandenem Roboter und Tracker, Live-Heatmaps,
+Punktmessungen, PDF-/CSV-Ausgabe und Zusammenführung mehrerer Stationierungen in
+der Cloud. Ein ASTM-E1155-Bericht wird dem Text zufolge vom Team oder Prüfpartner
+aus den Daten erstellt; das ist keine automatisch zertifizierte Ausgabe oder
+unabhängige Normkonformitätsbestätigung. Eine ältere Oktober-2024-GA-Überschrift
+im Presseindex wird wegen gesperrtem Zielinhalt nicht still mit diesem 2026-Stand
+harmonisiert. Floor Elevation, Portal, Plugins und Mess-/Funkzubehör sind keine
+zusätzlichen vollständigen Hardwaremodelle.
+
+Die aktuelle Preisseite beschreibt Nutzungstage, Plattformzugang und Einführung,
+inklusive Robotik, Tracker, iPad/Joystick und Schulung. Kein genauer öffentlicher
+Betrag ist belegt; Finanzierungsrunden sind kein Kaufpreis. Verfügbarkeit wird auf
+Nordamerika begrenzt. Aussagen wie zehnfache Produktivität, höchste Genauigkeit,
+Sicherheit oder vermiedene Nacharbeit bleiben Anbieterbehauptungen statt
+unabhängig bewiesener Einzigartigkeit oder Marktführerschaft.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.423 Seiten. Audit: null Fehler, 1.245 Warnungen; eine Warnung
+weniger durch das nun belegte FP2-Einführungsjahr. Zwei Detailseiten mit 34 Feldern,
+Quellenrollen, strukturierten Daten, Firmenfokus, Merkmalsuche und Vergleich sind
+geprüft. Eine ursprüngliche Modell-Exportzeile und ein Queueziel liefern je
+17 Feldstatus-Einträge. Bestehende Identitätsdateien und Firmenprodukt-Exporte
+bleiben byteidentisch. Reimport: null Ergänzungen und 32 getrackte Datendateien
+byteidentisch; Offline-Refresh semantisch idempotent. Eigene Browser, Testserver
+und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `2a3b6fff4f704f43bcd828916de2b9b678598bbb` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Amber und
+vollständige historische/regionale Portfolios, sämtliche USPs sowie Marktführerschaft
 bleiben unbewiesen.

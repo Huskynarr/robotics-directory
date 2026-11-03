@@ -143,20 +143,20 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,371 model/configuration entries and 1,302 dated primary-source highlight
+groups. The catalog contains 2,372 model/configuration entries and 1,303 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 478 and 40 still awaiting those reviews.
+selected technical-field reviews for 479 and 39 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
-The heuristic gap file now compares all 2,371 rows using same-brand matches only.
+The heuristic gap file now compares all 2,372 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
 reviewed aliases, components and services; the strict unresolved counts remain
 three model identities and nine listings.
@@ -373,6 +373,15 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Dusty Robotics now has reviews for historical FieldPrinter 1 and FieldPrinter 2.
+FP2's January 2024 launch mass is dated and converted to metric. Print accuracy
+stays separate from robot pose accuracy; external tracking and surveyed control
+remain part of the workflow. Native October 2026 Floor Elevation information
+is separate from earlier announcements. PMD component ratings do not become
+whole-robot ratings, and Amber's 2020 development identity remains unresolved.
+Blocked support previews are not imported as verified dimensions, runtime, IP or
+speed. Exact current prices and complete historical hardware coverage remain open.
 
 Double Robotics now has four named generations/configurations: original Double,
 Double 2, Double 3 and the Double-2-based 360 Camera Dolly package. Double 3's
@@ -1198,18 +1207,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-23,527 fields across 1244 models, distinguishing documented, undisclosed, conflicting and
+23,561 fields across 1246 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 6,353 kB JSON response loads only for search or comparison;
+A separate 6,369 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,764 reviewed highlight statements as well as
+Catalog search now includes all 5,776 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
