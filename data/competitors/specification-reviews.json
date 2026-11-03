@@ -145334,6 +145334,506 @@
           "note": "No exact value established for this named generation. Hospital beds, fleet delivery totals, daily utilization, battery charge-speed percentages and sibling robot ratings do not establish this field."
         }
       }
+    },
+    {
+      "robotId": "double-robotics-double-3",
+      "manufacturer": "Double Robotics",
+      "model": "Double 3",
+      "sources": [
+        {
+          "name": "Double Robotics — Double 3 overview and future mapping",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/double3.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 3 technical specifications",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/tech-specs.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 3 FAQ: mass, height, battery and Wi-Fi",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/faq.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — developer resources and hardware",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/developer.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 2-to-3 head upgrade",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/upgrade.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — current Double 3 homepage; Sold Out",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — public D3 SDK documentation",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/doublerobotics/d3-sdk/master/README.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — public D3 software release history",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/doublerobotics/d3-sdk/master/RELEASE%20NOTES.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — SDK Click-to-Drive and docking",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/doublerobotics/d3-sdk/master/docs/Click-to-Drive.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — SDK performance and power modes",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/doublerobotics/d3-sdk/master/docs/Performance%20Model.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics co-founders interviewed by HackerNoon, September 10, 2019; attributed founder answers",
+          "type": "manufacturer",
+          "url": "https://hackernoon.com/telepresence-robots-are-the-future-for-remote-workers-an-interview-with-double-robotics-0t7b30iw",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Fleet Management plans and features",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/fleet-management.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-144/source-2.html",
+      "fields": {
+        "price": {
+          "value": "No current quote established; manufacturer homepage marked Sold Out",
+          "status": "documented",
+          "note": "Current manufacturer homepage says SoldOut. Historical3999USD founder quote is recorded only as dated context,not a current offer."
+        },
+        "weight": {
+          "value": "Approximately 7.3 kg per Double 3 FAQ",
+          "status": "documented",
+          "note": "FAQ says approximately16lb (7.3kg). Metric field keeps7.3kg without an lb token so mass filtering does not reconvert the already metric value."
+        },
+        "size": {
+          "value": "Adjustable height 47–60 in; FAQ approximates 120–150 cm; full footprint not established",
+          "status": "documented",
+          "note": "Only adjustable height47–60in is established; manufacturer FAQ rounds to approximately120–150cm. No complete footprint inferred from images or the old medium label."
+        },
+        "batteryLife": {
+          "value": "Up to 4 h of normal use per Double 3 FAQ",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "maxRuntime": {
+          "value": "Up to 4 h of normal use per Double 3 FAQ",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator/end-effector rating established; the prior none label is not treated as a numerical tool specification."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The9DoF value in tech specs belongs to the inertial sensor; not a count of mechanical joints."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Prior1.0m/s lacks an exact Double3 primary specification; removed. Double2 PowerDrive80percent is relative and cannot supply Double3 absolute speed."
+        },
+        "terrain": {
+          "value": "Indoor office/classroom corridors and doorways; 3D-sensor assisted obstacle avoidance, not all-weather terrain certification",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "website": {
+          "value": "https://www.doublerobotics.com/double3.html",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "description": {
+          "value": "Double 3 is a self-balancing two-wheel telepresence robot with an integrated screen, cameras and compute head. The remote driver selects visible floor targets through Click-to-Drive while local sensors assist navigation. It needs no separate iPad, and its head can upgrade a Double 2 base. The manufacturer homepage currently marks Double 3 Sold Out; retained software and product pages do not establish present service continuity.",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "releaseDate": {
+          "value": "2019",
+          "status": "documented",
+          "note": "2019 announcement/order year supported by named co-founder answers in interview dated September10,2019. Late-September shipping was a future plan,not independently confirmed first delivery."
+        },
+        "chargingTime": {
+          "value": "About 2 h to full capacity per Double 3 FAQ",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "driveMode": {
+          "value": "Remote telepresence with user-selected Click-to-Drive targets and local obstacle avoidance; Wi-Fi Internet connection per FAQ",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        }
+      }
+    },
+    {
+      "robotId": "double-robotics-double-2",
+      "manufacturer": "Double Robotics",
+      "model": "Double 2",
+      "sources": [
+        {
+          "name": "Double Robotics — Double 2 and optional Camera Kit",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/double2.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 2-to-3 head upgrade",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/upgrade.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — generic iPad-era user manual, Revision 13",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/Double-User-Manual.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-144/source-3.html",
+      "fields": {
+        "price": {
+          "value": "No current quote established on retained Double 2 manufacturer page",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact Double2 runtime established; current Double3FAQ four-hour figure is not inherited."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "CameraDolly top-load limit belongs to its configured camera mount,not a general Double2 platform payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "terrain": {
+          "value": "Office/classroom floors with cords, bumps and threshold changes addressed by lateral stability control; exact limits unspecified",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "website": {
+          "value": "https://www.doublerobotics.com/double2.html",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "description": {
+          "value": "Double 2 is the iPad-based telepresence generation described with lateral stability control and driver-operated Power Drive. The optional Camera Kit adds a wide-angle camera and always-on floor view. It remains separate from both the first-generation Double and a Double 2 base upgraded with a Double 3 head. Retained documentation does not establish current stock, account access or a support commitment.",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Upgrade chronology says Double3 was the first new hardware release since2016; it does not explicitly date Double2 launch in the selected source. No exact year assigned from secondary news."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Generic iPad-era Revision13manual says about2–3h but is not explicitly Double2-titled; not used as an exact Double2 charging value."
+        },
+        "driveMode": {
+          "value": "Remote driver control through an iPad-based telepresence setup; Power Drive selected by holding Shift while using arrow keys",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        }
+      }
+    },
+    {
+      "robotId": "double-robotics-double",
+      "manufacturer": "Double Robotics",
+      "model": "Double",
+      "sources": [
+        {
+          "name": "Double Robotics — issuer Apple Store release, November 12, 2013",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/press/Online-Apple-Store.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 2 and optional Camera Kit",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/double2.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — generic iPad-era user manual, Revision 13",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/Double-User-Manual.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-144/source-17.pdf",
+      "fields": {
+        "price": {
+          "value": "Historical first-generation product; no current manufacturer quote established",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Original press release describes mobile office telepresence but establishes no numerical terrain/environment limits. Later manual and sibling floor-obstacle claims are not inherited."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "website": {
+          "value": "https://www.doublerobotics.com/press/Online-Apple-Store.pdf",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "description": {
+          "value": "Double is Double Robotics’ original remotely controlled iPad-based telepresence robot. Its November 2013 issuer press release confirms customer shipments began in May 2013. The mobile base lets a remote user move the iPad-based video presence around a workplace. Later Double 2 and Double 3 hardware, sensor suites and runtime figures are not original-generation specifications.",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "releaseDate": {
+          "value": "2013",
+          "status": "documented",
+          "note": "Issuer PDF dated November12,2013 explicitly says shipping began May2013. This is shipping evidence,not merely a later website copyright year."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Revision13manual may cover later iPad-era hardware including PowerDrive; not securely original-generation numeric specification."
+        },
+        "driveMode": {
+          "value": "Remote-controlled mobile teleconferencing base using an iPad for video communication",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        }
+      }
+    },
+    {
+      "robotId": "double-robotics-360-camera-dolly",
+      "manufacturer": "Double Robotics",
+      "model": "360 Camera Dolly",
+      "sources": [
+        {
+          "name": "Double Robotics — 360 Camera Dolly package and top-load limit",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/360.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 2 and optional Camera Kit",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/double2.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-144/source-9.html",
+      "fields": {
+        "price": {
+          "value": "3000 USD package on undated manufacturer page; current stock/quote unverified; cameras and control device not listed as included",
+          "status": "documented",
+          "note": "Undated manufacturer package listing3000USD vs249USDmount-only. Not a confirmed present offer; excludes inferred camera/phone inclusion and is not general Double2 or Double3 price."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "payload": {
+          "value": "Up to 2.27 kg attached at top of rig; additional near-base attachment weight unspecified",
+          "status": "documented",
+          "note": "Manufacturer source9 says do not attach more than5lb at top of rig;5×0.45359237=2.26796185kg,rounded2.27kg. An unspecified few additional pounds near base is not summed into total platform payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Controlled set/public filming examples are not an explicit outdoor weather/IP or grade specification."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "website": {
+          "value": "https://www.doublerobotics.com/360.html",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "description": {
+          "value": "360 Camera Dolly is Double Robotics’ named filming configuration built around Double 2, a Universal 360 Camera Mount and a Pelican travel case. An operator uses an iPhone or iPod touch for remote camera-rig movement. The top attachment limit is five pounds, distinct from unspecified extra weight near the base. The camera mount alone is an accessory; current package availability and service operation are unverified.",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact initial release year established by the selected primary page; secondary2016press dates not imported."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact numeric or generation-specific value established. Sibling ratings,generic iPad-era manual,accessory prices,sensor-channel counts and relative performance claims do not establish this field."
+        },
+        "driveMode": {
+          "value": "Operator-controlled camera dolly through mounted iPhone/iPod touch; page describes LTE/4G, Wi-Fi or Bluetooth links",
+          "status": "documented",
+          "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
+        }
+      }
     }
   ]
 }

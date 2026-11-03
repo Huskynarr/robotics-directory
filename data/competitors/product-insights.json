@@ -14224,14 +14224,87 @@
       "highlights": [
         "Self-driving two-wheeled telepresence robot for remote work and education",
         "Click-to-Drive uses 3D sensing and overlays to guide remote navigation",
-        "Two cameras provide an adjustable pan, tilt and zoom view"
+        "Two cameras provide an adjustable pan, tilt and zoom view",
+        "The Double 3 FAQ gives approximately 7.3 kg (16 lb), up to four hours of normal-use runtime and about two hours for a full recharge. Remotely adjustable height is 47–60 inches, roughly 120–150 cm in the FAQ; this is a height range rather than complete length/width/height.",
+        "The integrated head combines two 13 MP cameras, six beamforming microphones, two RealSense D430 depth modules, five ultrasonic range finders and Jetson TX2-4GB compute. The listed nine-DoF IMU describes inertial sensing, not nine independently actuated robot joints.",
+        "Click-to-Drive accepts a driver-selected visible floor target and handles local obstacle avoidance. SDK documentation also describes clicking a charging-dock icon. Full-building automatic mapping and path planning remain future features on the overview page; collision-free operation is not independently guaranteed.",
+        "Double 3 uses Wi-Fi for Internet access according to the FAQ. Bluetooth 4.2 hardware does not establish native cellular service; the iPhone-mediated LTE/4G control described for the camera-dolly configuration is a different scope.",
+        "The manufacturer offers a Double 3 head upgrade for existing Double 2 bases. That head and the five trim colors are accessories/configuration choices, not additional complete robot generations. The developer page describes ROS connectors as a future possibility, not installed ROS support.",
+        "In their September 10, 2019 interview, the co-founders described Double 3 orders at 3999 USD with first shipments planned for late September. That historical announcement does not establish today’s price or actual shipment dates; the current homepage says Sold Out. The unsupported previous 1.0 m/s speed and generic medium size label are omitted.",
+        "Public SDK documents describe Ubuntu 18.04/aarch64 applications and power/performance modes; higher compute workloads can change power use. Published software history is not proof that accounts, cloud calling, updates or support remain available today. Professional Fleet Management is a separate software plan, not a hardware purchase price."
       ],
       "sources": [
         {
-          "name": "Double Robotics",
+          "name": "Double Robotics — Double 3 overview and future mapping",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/double3.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 3 technical specifications",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/tech-specs.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 3 FAQ: mass, height, battery and Wi-Fi",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/faq.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — developer resources and hardware",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/developer.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 2-to-3 head upgrade",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/upgrade.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — current Double 3 homepage; Sold Out",
           "type": "manufacturer",
           "url": "https://www.doublerobotics.com/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — public D3 SDK documentation",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/doublerobotics/d3-sdk/master/README.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — public D3 software release history",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/doublerobotics/d3-sdk/master/RELEASE%20NOTES.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — SDK Click-to-Drive and docking",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/doublerobotics/d3-sdk/master/docs/Click-to-Drive.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — SDK performance and power modes",
+          "type": "manufacturer",
+          "url": "https://raw.githubusercontent.com/doublerobotics/d3-sdk/master/docs/Performance%20Model.md",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics co-founders interviewed by HackerNoon, September 10, 2019; attributed founder answers",
+          "type": "manufacturer",
+          "url": "https://hackernoon.com/telepresence-robots-are-the-future-for-remote-workers-an-interview-with-double-robotics-0t7b30iw",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Fleet Management plans and features",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/fleet-management.html",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -37012,6 +37085,102 @@
       ],
       "discoveredIn": [
         "https://www.diligentrobots.com/blog/2020"
+      ]
+    },
+    {
+      "robotId": "double-robotics-double-2",
+      "manufacturer": "Double Robotics",
+      "model": "Double 2",
+      "highlights": [
+        "Lateral stability control is described as a shock-absorption mechanism for ordinary office/classroom floor obstructions. Power Drive is claimed to be up to 80 percent faster than normal driving; no exact absolute speed or general obstacle-climbing rating is established here.",
+        "The optional Camera Kit provides a five-megapixel, 150-degree wide-angle camera, always-on floor view and Adaptive HD. It uses the iPad Lightning connector and passes charging power through; camera-kit capability is not silently assigned to every bare Double 2.",
+        "The manufacturer states that Camera Kit also works with first-generation Double and that first-generation Charging Dock and Audio Kit accessories work with Double 2. Its Double 3 head upgrade fits Double 2 bases. Accessories and retrofits do not create a second duplicate identity for the same base.",
+        "The retained iPad-era Revision 13 manual explains Bluetooth pairing, keyboard driving and roughly two-to-three-hour charging, but is not explicitly generation-titled. Its generic values and Double 3’s newer four-hour runtime are not imported as exact Double 2 battery specifications. Current availability and an exact initial launch year remain unverified in the selected primary material."
+      ],
+      "sources": [
+        {
+          "name": "Double Robotics — Double 2 and optional Camera Kit",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/double2.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 2-to-3 head upgrade",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/upgrade.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — generic iPad-era user manual, Revision 13",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/Double-User-Manual.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.doublerobotics.com/double2.html"
+      ]
+    },
+    {
+      "robotId": "double-robotics-double",
+      "manufacturer": "Double Robotics",
+      "model": "Double",
+      "highlights": [
+        "The issuer’s November 12, 2013 Apple Store release states that customer shipments began in May 2013. That dates actual first-generation shipping rather than treating earlier preorder announcements or later Double 2 hardware as the original release.",
+        "The same historical release quotes an Apple Store price of 2499.95 USD and names iPad 2, third- and fourth-generation iPads, with iPad Air compatibility then described as coming soon. These are November 2013 price/compatibility statements, not a present offer or current supported-device list.",
+        "The Double 2 manufacturer page explicitly confirms Camera Kit compatibility with first-generation Double units. The accessory’s later wide-angle and floor-view functions do not prove that the original base shipped with that camera, Double 2 lateral stability control or Double 3 obstacle avoidance.",
+        "The undated iPad-era Revision 13 manual includes Power Drive and multiple iPad generations. It is not used to assign exact original Double mass, dimensions, endurance, recharge time or numerical joint count. Present stock, calling-service access and repair support remain unverified."
+      ],
+      "sources": [
+        {
+          "name": "Double Robotics — issuer Apple Store release, November 12, 2013",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/press/Online-Apple-Store.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 2 and optional Camera Kit",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/double2.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — generic iPad-era user manual, Revision 13",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/Double-User-Manual.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.doublerobotics.com/press/Online-Apple-Store.pdf"
+      ]
+    },
+    {
+      "robotId": "double-robotics-360-camera-dolly",
+      "manufacturer": "Double Robotics",
+      "model": "360 Camera Dolly",
+      "highlights": [
+        "The named package contains a Double 2 base, Universal 360 Camera Mount and customized Pelican travel case. The page lists 3000 USD for the package and 249 USD for the mount alone, without a publication date or verified current checkout. Neither the bare mount nor travel case is an extra robot model.",
+        "The manufacturer limits attachment weight at the top to five pounds, approximately 2.27 kg, and allows an unspecified few additional pounds near the base. This is a top-mount configuration limit, not a measured total chassis payload, lifting capacity or a load rating for other Double generations.",
+        "The aluminum mount uses a quarter-inch, twenty-thread attachment and holds an iPhone for driving from behind the scenes. The FAQ names an iPhone 6 or earlier, or iPod touch, for remote driving. This historical compatibility statement does not establish current apps, cellular service or operating-system support.",
+        "The six-GoPro rig and stitched sample footage illustrate an external camera setup; the package inclusion list names no camera. Quiet-operation marketing has no published decibel test here. The platform is remotely operated, without a claim of autonomous cinematography, obstacle avoidance or current support continuity."
+      ],
+      "sources": [
+        {
+          "name": "Double Robotics — 360 Camera Dolly package and top-load limit",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/360.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Double Robotics — Double 2 and optional Camera Kit",
+          "type": "manufacturer",
+          "url": "https://www.doublerobotics.com/double2.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.doublerobotics.com/360.html"
       ]
     }
   ]
