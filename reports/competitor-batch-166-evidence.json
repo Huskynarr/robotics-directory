@@ -1,0 +1,949 @@
+{
+  "batch": 166,
+  "checkedAt": "2026-11-03",
+  "manufacturers": [
+    "Roborock"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 3,
+  "newSpecificationReviews": 3,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 54,
+  "fieldStatuses": {
+    "documented": 18,
+    "conflicting": 1,
+    "not-documented": 35
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 15,
+  "extraProductSourceReferences": 3,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Three catalog rows that previously had no field review were reviewed against current US Roborock pages. S8 MaxV Ultra, Qrevo MaxV and F25 Ultra are three separate current models; the F25 Ultra is a wet and dry stick vacuum, not a floor robot. Catalog prices of 1,800, about 700 and 800 USD are replaced by the reviewed 799.99, 699.99 and 469.99 USD figures. The S8 MaxV Ultra catalog runtime of 180 min, Qrevo MaxV 180 min and F25 Ultra 60 min are cleared because no reviewed page publishes a full-charge runtime. The S8 MaxV Ultra published robot mass of 32.19 lbs conflicts with the catalog 4.2 kg and stays visible. The F25 Ultra page publishes only a gross weight and no robot mass. No new model was created and no company focus was added.",
+  "totalProductHighlightRecords": 1334,
+  "totalHighlightStatements": 6147,
+  "totalProductSourceReferences": 2885,
+  "pendingPortfolioLeads": [
+    {
+      "name": "Roborock full-charge runtime in minutes",
+      "scope": "The reviewed S8 MaxV Ultra, Qrevo MaxV and F25 Ultra pages publish suction, dimensions, masses and batteries, but no full-charge runtime in minutes. The F25 Ultra page describes an ultra-long runtime without a figure. The catalog 180, 180 and 60 min values are cleared.",
+      "source": "https://us.roborock.com/products/roborock-f25-ultra"
+    },
+    {
+      "name": "Roborock robot mass and absolute charging time",
+      "scope": "The S8 MaxV Ultra page publishes 32.19 lbs against the catalog 4.2 kg, and the F25 Ultra page publishes only a 21.38 +/- 0.66 lbs gross weight. The Qrevo MaxV page states 30% faster charging without an absolute charging time.",
+      "source": "https://us.roborock.com/products/roborock-s8-maxv-ultra"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://us.roborock.com/products/roborock-s8-maxv-ultra",
+      "finalUrl": "https://us.roborock.com/products/roborock-s8-maxv-ultra",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:24:26.220182+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "3a9cac9de950944a6251ba7bc80ccc945f1368d0a11fe8948cec825af86e45d6",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://us.roborock.com/products/roborock-qrevo-master",
+      "finalUrl": "https://us.roborock.com/products/roborock-qrevo-master",
+      "status": 301,
+      "checkedAt": "2026-11-03T20:24:26.611611+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://us.roborock.com/products/roborock-qrevo-maxv",
+      "finalUrl": "https://us.roborock.com/products/roborock-qrevo-maxv",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:24:27.565744+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "0d21bd02c3821a33ea430332c0244d3b1da3da5b9b4e03de8ded6f14c30eb2a5",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://us.roborock.com/products/roborock-qrevo-s-vacuum",
+      "finalUrl": "https://us.roborock.com/products/roborock-qrevo-s-vacuum",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:24:28.671459+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "e64b91dac6d4a04f0dcfad8194c867b186fdc99b3dacdc211f89773242177450",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 5,
+      "url": "https://us.roborock.com/products/roborock-q8-max-plus",
+      "finalUrl": "https://us.roborock.com/products/roborock-q8-max-plus",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:24:53.826690+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "845213c8684fe468e1582f746773361e50fd640c4347150445484b9d56a2e9a5",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 6,
+      "url": "https://us.roborock.com/products/roborock-f25-ultra",
+      "finalUrl": "https://us.roborock.com/products/roborock-f25-ultra",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:25:02.635050+00:00",
+      "bodyFile": "source-6.html",
+      "bodySha256": "528cc95bcd50828103b757c0d7f4600a4c57d98c6703820c3482d85d25e0712d",
+      "textFile": "source-6.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 7,
+      "url": "https://global.roborock.com/pages/roborock-qrevo-curv-series",
+      "finalUrl": "https://global.roborock.com/pages/roborock-qrevo-curv-series",
+      "status": 200,
+      "checkedAt": "2026-11-03T20:25:13.692738+00:00",
+      "bodyFile": "source-7.html",
+      "bodySha256": "6372e9cc812683e09cf1f7df3ce66eb6ee3890e97b2faf7b2ffb0c1d2cefc868",
+      "textFile": "source-7.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 8,
+      "url": "https://us.roborock.com/products/roborock-s8-pro-ultra",
+      "finalUrl": "https://us.roborock.com/products/roborock-s8-pro-ultra",
+      "status": 301,
+      "checkedAt": "2026-11-03T20:25:20.998101+00:00",
+      "bodyFile": "source-8.html",
+      "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "textFile": "source-8.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "roborock-s8-maxv-ultra",
+      "manufacturer": "Roborock",
+      "model": "S8 MaxV Ultra",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "799.99 USD",
+        "weight": "32.19 lbs manufacturer / 4.2 kg catalog",
+        "size": "350 x 353 x 103 mm",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous cleaning appliance",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-s8-maxv-ultra",
+        "description": "The Roborock S8 MaxV Ultra is a vacuum and mop robot with 10,000 Pa suction, VibraRise 3.0 mopping, a liftable brush and mop, and Reactive AI 2.0 obstacle recognition. The robot measures 13.8 x 13.9 x 4.06 in (about 350 x 353 x 103 mm); the RockDock Ultra measures 16.1 x 16.5 x 18.5 in. Roborock publishes a 5,200 mAh battery, hot-water mop washing and heated air drying. The published robot weight of 32.19 lbs conflicts with the catalog 4.2 kg and stays visible. The reviewed page publishes no full-charge runtime, charging time, payload, travel speed, water tank capacity or IP rating.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "conflicting",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "Roborock S8 MaxV Ultra US product page; the catalog value is not the current published price.",
+        "weight": "Roborock S8 MaxV Ultra page; published mass and catalog value are shown separately.",
+        "size": "Roborock S8 MaxV Ultra page dimensions; dock dimensions are separate.",
+        "batteryLife": "Roborock S8 MaxV Ultra page battery capacity.",
+        "maxRuntime": "Roborock S8 MaxV Ultra page publishes no full-charge runtime in minutes.",
+        "payload": "No payload rating is published; suction power is not payload.",
+        "speed": "No travel speed is published on the reviewed page.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Roborock S8 MaxV Ultra is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "Roborock S8 MaxV Ultra page.",
+        "description": "Roborock S8 MaxV Ultra page; suction, dimensions, mass, battery, charging and noise statements are manufacturer claims.",
+        "chargingTime": "The reviewed page publishes no charging time.",
+        "workingWidth": "No cleaning width is published.",
+        "areaRate": "No hourly area rate is published.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "Roborock - S8 MaxV Ultra",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-s8-maxv-ultra",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Roborock S8 MaxV Ultra is a vacuum and mop robot with 10,000 Pa suction, VibraRise 3.0 mopping and Reactive AI 2.0 obstacle recognition.",
+        "It measures 350 x 353 x 103 mm and the RockDock Ultra 16.1 x 16.5 x 18.5 in; the robot weighs 32.19 lbs.",
+        "A 5,200 mAh battery serves hot-water mop washing and heated air drying.",
+        "The published robot weight of 32.19 lbs conflicts with the catalog 4.2 kg and stays visible.",
+        "The reviewed page publishes no full-charge runtime, charging time, payload, travel speed, water tank capacity or IP rating."
+      ]
+    },
+    {
+      "robotId": "roborock-qrevo-maxv",
+      "manufacturer": "Roborock",
+      "model": "Qrevo MaxV",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "699.99 USD",
+        "weight": "12.3 kg (27.14 lbs)",
+        "size": "350 x 353 x 102 mm",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous cleaning appliance",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-qrevo-maxv",
+        "description": "The Roborock Qrevo MaxV is a vacuum and mop robot with 7,000 Pa HyperForce suction, dual spinning mops, a liftable brush and mops, and the Hello Rocky voice assistant. The robot measures 13.78 x 13.9 x 4.01 in (about 350 x 353 x 102 mm) and weighs 27.14 lbs; the dock measures 13.38 x 19.17 x 20.51 in. Roborock publishes a 5,200 mAh battery, hot-water mop washing, warm air drying and 30% faster charging than before. The reviewed page publishes no full-charge runtime, absolute charging time, payload, travel speed, water tank capacity or IP rating; the catalog 180 min runtime is cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "Roborock Qrevo MaxV US product page; the catalog value is not the current published price.",
+        "weight": "Roborock Qrevo MaxV page robot mass.",
+        "size": "Roborock Qrevo MaxV page dimensions; dock dimensions are separate.",
+        "batteryLife": "Roborock Qrevo MaxV page battery capacity.",
+        "maxRuntime": "Roborock Qrevo MaxV page publishes no full-charge runtime in minutes.",
+        "payload": "No payload rating is published; suction power is not payload.",
+        "speed": "No travel speed is published on the reviewed page.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Roborock Qrevo MaxV is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "Roborock Qrevo MaxV page.",
+        "description": "Roborock Qrevo MaxV page; suction, dimensions, mass, battery, charging and noise statements are manufacturer claims.",
+        "chargingTime": "The reviewed page publishes no charging time.",
+        "workingWidth": "No cleaning width is published.",
+        "areaRate": "No hourly area rate is published.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "Roborock - Qrevo MaxV",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-qrevo-maxv",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Roborock Qrevo MaxV is a vacuum and mop robot with 7,000 Pa HyperForce suction, dual spinning mops and a liftable brush.",
+        "It measures 350 x 353 x 102 mm and weighs 27.14 lbs; the dock measures 13.38 x 19.17 x 20.51 in.",
+        "A 5,200 mAh battery serves hot-water mop washing, warm air drying and 30% faster charging.",
+        "The robot supports the Hello Rocky voice assistant and real-time video.",
+        "The reviewed page publishes no full-charge runtime, absolute charging time, payload, travel speed, water tank capacity or IP rating; the catalog 180 min runtime is cleared."
+      ]
+    },
+    {
+      "robotId": "roborock-f25-ultra",
+      "manufacturer": "Roborock",
+      "model": "F25 Ultra",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "469.99 USD",
+        "weight": "",
+        "size": "265 x 246 x 1,096 mm",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous cleaning appliance",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-f25-ultra",
+        "description": "The Roborock F25 Ultra is a wet and dry stick vacuum with 22,000 Pa suction, VaporFlow and WaveFlow steam and high-temperature cleaning. Its product size is 10.43 x 9.69 x 43.15 in (about 265 x 246 x 1,096 mm); the package and box dimensions are separate. Roborock publishes a 21.38 +/- 0.66 lbs gross weight and an ultra-long runtime without a figure in minutes. The reviewed page publishes no robot mass, battery capacity, charging time, payload, travel speed, water tank capacity or IP rating; the catalog 60 min runtime and 800 USD price are cleared or replaced.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "not-documented",
+        "size": "documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "Roborock F25 Ultra US product page; the catalog value is not the current published price.",
+        "weight": "Roborock F25 Ultra page robot mass.",
+        "size": "Roborock F25 Ultra page dimensions; dock dimensions are separate.",
+        "batteryLife": "No battery capacity is published.",
+        "maxRuntime": "Roborock F25 Ultra page publishes no full-charge runtime in minutes.",
+        "payload": "No payload rating is published; suction power is not payload.",
+        "speed": "No travel speed is published on the reviewed page.",
+        "ipRating": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Roborock F25 Ultra is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "Roborock F25 Ultra page.",
+        "description": "Roborock F25 Ultra page; suction, dimensions, mass, battery, charging and noise statements are manufacturer claims.",
+        "chargingTime": "The reviewed page publishes no charging time.",
+        "workingWidth": "No cleaning width is published.",
+        "areaRate": "No hourly area rate is published.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "Roborock - F25 Ultra",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-f25-ultra",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Roborock F25 Ultra is a wet and dry stick vacuum with 22,000 Pa suction and VaporFlow and WaveFlow steam cleaning.",
+        "Its product size is 10.43 x 9.69 x 43.15 in; package and box dimensions are separate.",
+        "Roborock publishes a 21.38 +/- 0.66 lbs gross weight and an ultra-long runtime without a figure in minutes.",
+        "The reviewed page publishes no separate robot mass, battery capacity or charging time.",
+        "The catalog 60 min runtime and 800 USD price are cleared or replaced."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "roborock-s8-maxv-ultra",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "S8 MaxV Ultra",
+        "price": "1800 USD",
+        "weight": "4.2 kg",
+        "size": "",
+        "batteryLife": "3 hours",
+        "maxRuntime": "180 min",
+        "tags": "ai-powered;auto-empty;consumer;mop;obstacle-avoidance;self-cleaning;vacuum",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/",
+        "image": "images/household/roborock-s8-maxv-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "vacuum and mop, auto-empty, self-washing, ai obstacle avoidance",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "S8 MaxV Ultra",
+        "price": "799.99 USD",
+        "weight": "32.19 lbs manufacturer / 4.2 kg catalog",
+        "size": "350 x 353 x 103 mm",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "",
+        "tags": "ai-powered;auto-empty;consumer;mop;obstacle-avoidance;self-cleaning;vacuum",
+        "handType": "None; autonomous cleaning appliance",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-s8-maxv-ultra",
+        "image": "images/household/roborock-s8-maxv-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Roborock S8 MaxV Ultra is a vacuum and mop robot with 10,000 Pa suction, VibraRise 3.0 mopping, a liftable brush and mop, and Reactive AI 2.0 obstacle recognition. The robot measures 13.8 x 13.9 x 4.06 in (about 350 x 353 x 103 mm); the RockDock Ultra measures 16.1 x 16.5 x 18.5 in. Roborock publishes a 5,200 mAh battery, hot-water mop washing and heated air drying. The published robot weight of 32.19 lbs conflicts with the catalog 4.2 kg and stays visible. The reviewed page publishes no full-charge runtime, charging time, payload, travel speed, water tank capacity or IP rating.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "roborock-qrevo-maxv",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "Qrevo MaxV",
+        "price": "~700 USD",
+        "weight": "",
+        "size": "small",
+        "batteryLife": "180 min",
+        "maxRuntime": "180 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;hot-water-wash;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-qrevo-maxv",
+        "image": "images/cleaning/roborock-qrevo-maxv.webp",
+        "video": "",
+        "gallery": "",
+        "description": "7,000Pa vacuum-mop with AI camera, voice assistant and hot-water washing.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "Qrevo MaxV",
+        "price": "699.99 USD",
+        "weight": "12.3 kg (27.14 lbs)",
+        "size": "350 x 353 x 102 mm",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;hot-water-wash;ai-powered",
+        "handType": "None; autonomous cleaning appliance",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-qrevo-maxv",
+        "image": "images/cleaning/roborock-qrevo-maxv.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Roborock Qrevo MaxV is a vacuum and mop robot with 7,000 Pa HyperForce suction, dual spinning mops, a liftable brush and mops, and the Hello Rocky voice assistant. The robot measures 13.78 x 13.9 x 4.01 in (about 350 x 353 x 102 mm) and weighs 27.14 lbs; the dock measures 13.38 x 19.17 x 20.51 in. Roborock publishes a 5,200 mAh battery, hot-water mop washing, warm air drying and 30% faster charging than before. The reviewed page publishes no full-charge runtime, absolute charging time, payload, travel speed, water tank capacity or IP rating; the catalog 180 min runtime is cleared.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "roborock-f25-ultra",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "F25 Ultra",
+        "price": "800 USD",
+        "weight": "",
+        "size": "large",
+        "batteryLife": "1 hour",
+        "maxRuntime": "60 min",
+        "tags": "consumer;vacuum;mop;self-cleaning;app-control",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-f25-ultra",
+        "image": "images/cleaning/roborock-f25-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Cordless wet-dry floor washer: 20,000Pa, 180°C steam, 90°C self-clean roller, 60-min eco runtime",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "F25 Ultra",
+        "price": "469.99 USD",
+        "weight": "",
+        "size": "265 x 246 x 1,096 mm",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "consumer;vacuum;mop;self-cleaning;app-control",
+        "handType": "None; autonomous cleaning appliance",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-f25-ultra",
+        "image": "images/cleaning/roborock-f25-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Roborock F25 Ultra is a wet and dry stick vacuum with 22,000 Pa suction, VaporFlow and WaveFlow steam and high-temperature cleaning. Its product size is 10.43 x 9.69 x 43.15 in (about 265 x 246 x 1,096 mm); the package and box dimensions are separate. Roborock publishes a 21.38 +/- 0.66 lbs gross weight and an ultra-long runtime without a figure in minutes. The reviewed page publishes no robot mass, battery capacity, charging time, payload, travel speed, water tank capacity or IP rating; the catalog 60 min runtime and 800 USD price are cleared or replaced.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "Roborock",
+      "model": "S8 MaxV Ultra",
+      "changes": {
+        "price": {
+          "before": "1800 USD",
+          "after": "799.99 USD"
+        },
+        "weight": {
+          "before": "4.2 kg",
+          "after": "32.19 lbs manufacturer / 4.2 kg catalog"
+        },
+        "size": {
+          "before": "",
+          "after": "350 x 353 x 103 mm"
+        },
+        "batteryLife": {
+          "before": "3 hours",
+          "after": "5,200 mAh"
+        },
+        "maxRuntime": {
+          "before": "180 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous cleaning appliance"
+        },
+        "website": {
+          "before": "https://us.roborock.com/",
+          "after": "https://us.roborock.com/products/roborock-s8-maxv-ultra"
+        },
+        "description": {
+          "before": "vacuum and mop, auto-empty, self-washing, ai obstacle avoidance",
+          "after": "The Roborock S8 MaxV Ultra is a vacuum and mop robot with 10,000 Pa suction, VibraRise 3.0 mopping, a liftable brush and mop, and Reactive AI 2.0 obstacle recognition. The robot measures 13.8 x 13.9 x 4.06 in (about 350 x 353 x 103 mm); the RockDock Ultra measures 16.1 x 16.5 x 18.5 in. Roborock publishes a 5,200 mAh battery, hot-water mop washing and heated air drying. The published robot weight of 32.19 lbs conflicts with the catalog 4.2 kg and stays visible. The reviewed page publishes no full-charge runtime, charging time, payload, travel speed, water tank capacity or IP rating."
+        }
+      }
+    },
+    {
+      "manufacturer": "Roborock",
+      "model": "Qrevo MaxV",
+      "changes": {
+        "price": {
+          "before": "~700 USD",
+          "after": "699.99 USD"
+        },
+        "weight": {
+          "before": "",
+          "after": "12.3 kg (27.14 lbs)"
+        },
+        "size": {
+          "before": "small",
+          "after": "350 x 353 x 102 mm"
+        },
+        "batteryLife": {
+          "before": "180 min",
+          "after": "5,200 mAh"
+        },
+        "maxRuntime": {
+          "before": "180 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous cleaning appliance"
+        },
+        "description": {
+          "before": "7,000Pa vacuum-mop with AI camera, voice assistant and hot-water washing.",
+          "after": "The Roborock Qrevo MaxV is a vacuum and mop robot with 7,000 Pa HyperForce suction, dual spinning mops, a liftable brush and mops, and the Hello Rocky voice assistant. The robot measures 13.78 x 13.9 x 4.01 in (about 350 x 353 x 102 mm) and weighs 27.14 lbs; the dock measures 13.38 x 19.17 x 20.51 in. Roborock publishes a 5,200 mAh battery, hot-water mop washing, warm air drying and 30% faster charging than before. The reviewed page publishes no full-charge runtime, absolute charging time, payload, travel speed, water tank capacity or IP rating; the catalog 180 min runtime is cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "Roborock",
+      "model": "F25 Ultra",
+      "changes": {
+        "price": {
+          "before": "800 USD",
+          "after": "469.99 USD"
+        },
+        "size": {
+          "before": "large",
+          "after": "265 x 246 x 1,096 mm"
+        },
+        "batteryLife": {
+          "before": "1 hour",
+          "after": ""
+        },
+        "maxRuntime": {
+          "before": "60 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous cleaning appliance"
+        },
+        "description": {
+          "before": "Cordless wet-dry floor washer: 20,000Pa, 180°C steam, 90°C self-clean roller, 60-min eco runtime",
+          "after": "The Roborock F25 Ultra is a wet and dry stick vacuum with 22,000 Pa suction, VaporFlow and WaveFlow steam and high-temperature cleaning. Its product size is 10.43 x 9.69 x 43.15 in (about 265 x 246 x 1,096 mm); the package and box dimensions are separate. Roborock publishes a 21.38 +/- 0.66 lbs gross weight and an ultra-long runtime without a figure in minutes. The reviewed page publishes no robot mass, battery capacity, charging time, payload, travel speed, water tank capacity or IP rating; the catalog 60 min runtime and 800 USD price are cleared or replaced."
+        }
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "roborock",
+      "name": "Roborock",
+      "role": "Consumer cleaning and floor-care robot manufacturer",
+      "website": "https://us.roborock.com/products/roborock-saros-10",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "name": "Roborock - Saros 10",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-saros-10",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Roborock - Qrevo Edge",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-qrevo-edge",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Roborock - Qrevo Slim",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-qrevo-slim",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Roborock - Saros 10R",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-saros-10r",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-165/source-2.html",
+      "reviewNotes": "Batch165. Roborock pages read as text only; no research browser, visual inspection, OCR or media reuse. Saros 10, Qrevo Edge, Qrevo Slim and Saros 10R are four separate current models. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven.",
+      "highlights": [
+        "Roborock is a consumer cleaning and floor-care robot manufacturer whose reviewed US range includes the Saros 10, Saros 10R, Qrevo Edge and Qrevo Slim.",
+        "The reviewed pages publish 11,000 Pa suction for the Qrevo Slim, 18,500 Pa for the Qrevo Edge and 22,000 Pa for the Saros 10, with HyperForce and dual anti-tangle brush systems.",
+        "Battery capacity is 5,200 mAh for the Qrevo Slim and 6,400 mAh for the Saros 10, Qrevo Edge and Saros 10R; the Saros 10 and Saros 10R pages cite 2.5-hour fast charging.",
+        "The Saros 10 page publishes 52 dB(A) in quiet mopping and 72 dB(A) dock self-emptying, and the Qrevo Edge page 55 dB mopping with 75 C mop washing.",
+        "The reviewed pages publish no full-charge runtime, payload or IP rating; robot mass figures of 8.6, 9.04 and 36.38 lbs remain separate from the catalog values."
+      ]
+    }
+  ],
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 26,
+    "axeCases": 6,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1248,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 3,
+      "successfulResponses": 3,
+      "usableResponses": 3,
+      "sha256VerifiedResponses": 3,
+      "nativeHtmlResponses": 3,
+      "nonHtmlSuccessfulResponses": 0,
+      "pdfDocuments": 0,
+      "pdfPages": 0,
+      "pdfSources": [],
+      "notFoundExcluded": [],
+      "blockedResponses": [],
+      "rateLimitedResponses": [
+        "https://us.roborock.com/products/roborock-saros-z70 (transient 429 twice; excluded from this batch)"
+      ],
+      "redirectResponses": [
+        "https://us.roborock.com/products/roborock-qrevo-master -> https://us.roborock.com/products/roborock-qrevo-master (301; the target page returned no readable specification text and is excluded)",
+        "https://us.roborock.com/products/roborock-s8-pro-ultra -> https://us.roborock.com/products/roborock-s8-pro-ultra (301; target text empty and excluded)"
+      ],
+      "unusedSuccessfulResponses": [
+        "https://us.roborock.com/products/roborock-q8-max-plus (200 without readable specification table)",
+        "https://us.roborock.com/products/roborock-qrevo-s-vacuum (200 without readable specification table)",
+        "https://global.roborock.com/pages/roborock-qrevo-curv-series (200 without specification table)"
+      ],
+      "archivedResponses": [],
+      "inspection": "Native HTML read as text only. No research browser, visual inspection, OCR or media reuse. No login, forms, contact, messages or transactions."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 1,
+          "selector": "body",
+          "textSha256": "9e6ea51133fef076c07aa13b333253470a8ae0d378c250f4aba0b3fbb804c29c"
+        },
+        {
+          "sourceId": 3,
+          "selector": "body",
+          "textSha256": "df03b34740b51022c7a674fca62c84866185ebff2c6d3b7a48c2d23615a68081"
+        },
+        {
+          "sourceId": 6,
+          "selector": "body",
+          "textSha256": "c928eb3027e6a5379846a2e452e257b1f6a2f73dcd0aae9c5ea8d051c1b2f7ca"
+        }
+      ],
+      "versionScopes": "S8 MaxV Ultra, Qrevo MaxV and F25 Ultra are three separate current Roborock models. The S8 MaxV Ultra and Qrevo MaxV are floor robots; the F25 Ultra is a wet and dry stick vacuum, not a robot vacuum row.",
+      "priceScopes": "The reviewed US pages publish a 799.99 USD sale price against a 1,799.99 USD list for the S8 MaxV Ultra, 699.99 USD against 1,399.99 USD for the Qrevo MaxV and 469.99 USD against 699.99 USD for the F25 Ultra. The catalog values of 1,800, about 700 and 800 USD are not the current published prices.",
+      "weightScopes": "The S8 MaxV Ultra page publishes 32.19 lbs robot weight, which conflicts with the catalog 4.2 kg. The Qrevo MaxV page publishes 27.14 lbs, and the catalog has no value. The F25 Ultra page publishes only a 21.38 +/- 0.66 lbs gross weight, so no robot mass is recorded and the catalog empty value stays empty.",
+      "sizeScopes": "The S8 MaxV Ultra page publishes 13.8 x 13.9 x 4.06 in robot dimensions with a separate 16.1 x 16.5 x 18.5 in dock. The Qrevo MaxV page publishes 13.78 x 13.9 x 4.01 in with a separate 13.38 x 19.17 x 20.51 in dock. The F25 Ultra page publishes 10.43 x 9.69 x 43.15 in product size for the wet and dry vacuum.",
+      "payloadScopes": "No reviewed page publishes a payload rating; these are cleaning appliances without a manipulator or load rating.",
+      "enduranceScopes": "The S8 MaxV Ultra page publishes 5,200 mAh and the Qrevo MaxV page 5,200 mAh, both without a full-charge runtime in minutes. The F25 Ultra page publishes no battery capacity or runtime in minutes and only a gross weight. Suction is 10,000 Pa for the S8 MaxV Ultra, 7,000 Pa for the Qrevo MaxV and 22,000 Pa for the F25 Ultra.",
+      "autonomyScopes": "Roborock describes Reactive AI 2.0, VibraRise 3.0, DirTect, FlexiArm and intelligent voice assistance. These are manufacturer descriptions, not independent safety certification or proof of unsupervised operation.",
+      "listingScopes": "The roboticsdir and buyandrentrobots listings name products and companies; they do not establish prices, current stock, delivered fleets or independent performance.",
+      "goalComplete": false
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "reviewedProducts": 3,
+      "selectedFields": 54,
+      "selectedFieldStatuses": {
+        "documented": 18,
+        "conflicting": 1,
+        "not-documented": 35
+      },
+      "specificationReviewModels": 1315,
+      "specificationFields": 24784,
+      "allFieldStatuses": {
+        "not-documented": 15248,
+        "documented": 9161,
+        "conflicting": 321,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1331,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 3,
+      "selectedFields": 54,
+      "highlightStatements": 15,
+      "descriptions": 3,
+      "websites": 3,
+      "companyPages": 1
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1334,
+      "individualHighlights": 6147,
+      "productSourceReferences": 2885,
+      "specificationReviewModels": 1318,
+      "specificationFields": 24838,
+      "publicJsonBytes": 6671021,
+      "catalogScriptBytes": 2722447,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T20:29:47Z",
+            "after": "2026-11-03T20:39:13Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T20:29:46.737Z",
+            "after": "2026-11-03T20:39:12.907Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "e2fa6588f0cf6f9faf04433d5fdbc25c02a756a6562101f246aa8aa404ea8b52",
+            "after": "d318c1852bdbbc4ec783e012fcd5f0c854ac7cba152e05aaa4b85d5d7ee64882"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T20:29:46.737Z",
+            "after": "2026-11-03T20:39:12.907Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T20:29:46.737Z",
+            "after": "2026-11-03T20:39:12.907Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 57,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "a6064805daaa9d6ddcfaaa3ae8a1d0987c953652",
+    "dataCommit": "12fab760f5d2db54e02b7aaa6c5578ac08999844",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 795,
+  "goalComplete": false
+}

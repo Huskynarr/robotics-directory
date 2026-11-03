@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,331 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,334 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,784 fields across 1315 models, distinguishing documented, undisclosed, conflicting and
+24,838 fields across 1318 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,662 kB JSON response loads only for search or comparison;
+A separate 6,671 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,132 reviewed highlight statements as well as
+Catalog search now includes all 6,147 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1657,3 +1657,16 @@ the Saros 10R robot dimension string is internally inconsistent and is not recor
 Catalog prices of 1,600, 1,599, 1,400 and 1,600 USD and the Qrevo Edge catalog
 runtime of 240 minutes are replaced by the reviewed values. No reviewed page publishes
 a full-charge runtime, payload, travel speed, water tank capacity or IP rating.
+
+Roborock's S8 MaxV Ultra, Qrevo MaxV and F25 Ultra now have selected
+field reviews. The manufacturer publishes a 799.99 USD price against 1,799.99 USD
+list, 10,000 Pa, 350 x 353 x 103 mm, 5,200 mAh and a 32.19 lbs robot mass for
+the S8 MaxV Ultra; 699.99 USD against 1,399.99 USD list, 12.3 kg, 7,000 Pa and
+5,200 mAh for the Qrevo MaxV; and 469.99 USD against 699.99 USD list, 22,000 Pa
+and 265 x 246 x 1,096 mm for the F25 Ultra, a wet and dry stick vacuum. The
+published S8 MaxV Ultra robot mass of 32.19 lbs conflicts with the catalog 4.2 kg
+and stays visible; the F25 Ultra page publishes only a gross weight, so no robot
+mass is recorded. Catalog prices of 1,800, about 700 and 800 USD and the catalog
+runtimes of 180, 180 and 60 minutes are replaced or cleared by the reviewed
+values. No reviewed page publishes a full-charge runtime, charging time, payload,
+travel speed, water tank capacity or IP rating.
