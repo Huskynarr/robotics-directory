@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.376 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1122 |
-| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1307 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.378 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1124 |
+| Datierte Produktmerkmal-Datensätze einschließlich 185 bestehender Modelle | 1309 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 141 |
+| Firmenfokus-Prüfungen mit Quellen | 142 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1122 ergänzte Modelle ergeben 2.376 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1124 ergänzte Modelle ergeben 2.378 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-141 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+142 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1307 Datensätze
+Modellseiten verlinken Markenprofile. Die 1309 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 480 haben ausgewählte Datenfeldprüfungen und 38
+haben datierte Merkmalsbelege; 481 haben ausgewählte Datenfeldprüfungen und 37
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -12306,3 +12306,94 @@ Daten-Zwischencommit `36867fc377ec5a3c68a9cbb80dc7ba65331a53c4` ist auf `codex/c
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. V1.1-Abgrenzung,
 vollständige Portfolios, alle USPs und Marktführerschaft bleiben unbewiesen.
+
+
+## Ergänzung 147 – Exotec: Skypod-Generation, Skypicker und Systemgrenzen (3. November 2026)
+
+Der bestehende Skypod-Familieneintrag ist vertieft; der ausdrücklich neu konstruierte
+kompakte Next-Generation-Roboter und der Skypicker-Arm sind ergänzt. Drei Prüfungen
+umfassen 54 Felder: 24 dokumentiert, 29 nicht dokumentiert und eines widersprüchlich.
+Hinzu kommen 18 Merkmalsaussagen, 13 Produktquellenverweise und ein Firmenfokus.
+Die drei ursprünglichen Skypod-Merkmale, Fund-URL, ID und Medien bleiben erhalten;
+2.375 andere Ausgangszeilen, 1.251 frühere Feldprüfungen und 141 Firmenfokusse sind
+unverändert. Gesamt: 2.378 Katalogeinträge, 1.309 datierte Merkmalssätze,
+5.818 Aussagen, 2.775 Produktquellenverweise und 1.254 Feldprüfungen mit 23.705
+Feldern. Die 142 Firmenfokusse sind getrennt von den 1.037 Marken-/Firmenprofilen
+gezählt. Von 518 ursprünglichen Queue-Zielen sind 481 technisch teilgeprüft;
+37 bleiben offen. Dauerbeleg: `reports/competitor-batch-147-evidence.json`.
+Familien und explizite Generationen sind Katalogeinträge mit erläutertem Umfang;
+die Gesamtzahl behauptet keine überschneidungsfreie Anzahl eigenständiger Produkte.
+
+16 gespeicherte HTTP-Antworten sind SHA-256-geprüft: zwölf HTTP 200, darunter ein
+Hersteller-PDF mit 3 Seiten. Vier vermutete/veraltete Pfade lieferten 404 und
+sind ausgeschlossen. Keine Zugriffs- oder Ratenblockade in diesem Exotec-Batch.
+HTML, native Template-Inhalte und PDF sind als Text gelesen; keine visuelle Prüfung,
+OCR oder Medienübernahme. Die native Zeitleiste und FAQs liegen in HTML-Templates,
+die ausdrücklich dekodiert wurden; deren Inhalt wird nicht als Browserbeobachtung
+ausgegeben. Kein Recherchebrowser, keine Formulare, Konten, Kontaktaufnahme,
+Nachrichten oder Transaktionen.
+
+Die japanische Hersteller-Zeitleiste nennt 2017 für das erste kommerzielle System.
+Das bleibt ein Familienmeilenstein ohne erfundenen exakten Liefertag. Die Mitteilung
+vom 6. Februar 2025 führt ausdrücklich einen neuen kompakteren Skypod sowie neue
+Stationen, Exchanger und dichtere Lagerung ein. Sie berichtet über vorherige
+Stealth-Projekte: öffentlicher Marktstart ist nicht erste Installation. Andere
+historische Generationsbezeichnungen sind nicht ohne mechanische Abgrenzung als
+weitere Modelle angelegt. Die jetzige Familienseite nennt 30 kg Inventarlast,
+4 m/s, vier angetriebene Räder, bis 14 m Kletterhöhe und 0 bis +40 Grad Celsius.
+Diese aktuellen Angaben sind für die Generation zusammen mit der Einführung
+referenziert; die Quellen sind kein unabhängiger generationenspezifischer Lasttest.
+Die 12 m im PDF von 2022 bleiben historisch abgegrenzt. Kletterhöhe wird weder zu
+Roboterabmessungen noch 4 m/s pauschal zu einer separat belegten Vertikalgeschwindigkeit.
+
+Bis zu 600 Behälter pro Stunde sind eine Stationsangabe. Die beworbene Verbesserung
+um 50 Prozent an der Station und bis zu 30 Prozent bei der Lagerdichte vergleicht
+Systemgenerationen; daraus entstehen weder 50 Prozent schnellere Roboterfahrt noch
+exakte Fahrzeugmaße. Integrierter Puffer, Sequenzierung, Einzelstück-/Kartonkommissionierung
+und Pick-and-Pack bleiben Systemfunktionen. Mehr als 20 Projekte und 400 Millionen
+USD Projektwert laut Einführung sind weder Roboterzahl noch Roboterpreis. Die 20 cm
+Höhenverstellung der Station sind kein Hubweg des mobilen Roboters.
+
+Die native Lade-FAQ nennt etwa fünf Minuten Zwischenladen pro Betriebsstunde sowie
+Energierückgewinnung beim Bremsen und Absteigen. Vollladezeit, Akkukapazität oder
+55 Minuten belegte Laufzeit folgen daraus nicht. Deepsky-Orchestrierung und
+Liniennavigation sind belegt, exakte Ortungs-/Andockgenauigkeit bleibt unbekannt.
+Spitzenlastmiete, Wartung und 24/7-Support ergeben weder einen numerischen Mietpreis
+noch Batterielaufzeit. Historische Astar-Steuerung und heutige Deepsky-WES-Texte
+beweisen kein Retrofit jeder alten Anlage.
+
+Skypicker ist in französischen und englischen Mitteilungen vom 25. Januar 2021
+als neuer artikulierter Pickarm eingeführt. Französisch nennt starre greifbare
+Objekte unter 2 kg, mindestens 2 × 2 cm Greiffläche und 2 m/s Objekttransfer. PDF
+und niederländische Herstellerseite von 2022 nennen dagegen bis 2 kg. Der Unterschied
+an der strengen Obergrenze bleibt als Konflikt erhalten. Die Greiffläche sind keine
+Armabmessungen; vier parallele Aufträge sind keine vier Gelenke. Bis 600 Artikel
+pro Stunde sind von 600 Behältern pro Stunde der Skypod-Station getrennt. Getestete
+Klauengreifer werden nicht als später ausgelieferte Standardausstattung ausgegeben.
+Aktuelle Lieferbarkeit, Achszahl, Reichweite, Wiederholgenauigkeit, Masse und
+IP-Schutz bleiben offen. Die geschlossene Umgebung ist kein unabhängiger
+Sicherheitszertifizierungsbeleg. Software, Fördertechnik, Stationen, Exchanger und
+Regale werden nicht automatisch zu zusätzlichen Roboter-Modellen.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.429 Seiten. Datenaudit: null Fehler und 1245 Warnungen.
+Der erste Suchtest erwartete eine reine Merkmalstreffer-Vorschau für einen Begriff,
+der bereits in der normalen Beschreibung steht. Die Vorschau wird dort korrekt
+nicht gezeigt. Der Test verwendet nun einen ausschließlich in Merkmalen genannten
+Projektwert; der Anwendungscode bleibt unverändert.
+Drei Detailseiten mit 54 Feldern, strukturierte Daten ohne erfundene Preisangebote,
+Firmenfokus, Merkmalsuche und Vergleich sind geprüft. Zwei ursprüngliche Modell-
+Exportzeilen enthalten 36 Feldvorkommen für denselben Skypod; eine Firmenzeile und
+die Queue-Zeile sind geprüft. Die Firmenbeschreibungs-Familienreferenz bleibt
+byteidentisch und wird nicht zu einer exakten Next-Generation-Identität erweitert.
+Reimport ergänzt null Zeilen; 32 getrackte Datendateien bleiben byteidentisch.
+Offline-Refresh ist bis auf Zeitstempel und deren Digest semantisch idempotent.
+Geänderte Testdatei besteht ESLint/Prettier; kanonische Datenserialisierung ist
+geprüft. Keine Änderung am Anwendungscode oder CSV-Schema. Eigene Testbrowser,
+Server und Hilfsprozesse sind beendet und ihre Freigabe ist geprüft.
+
+Daten-Zwischencommit `e4abc70a2a9ad1ef35556a69b8d1ad5d1599dc34` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
+historische Portfolios, aktuelle Lieferbarkeit, alle USPs und Marktführerschaft
+sind weiterhin unbewiesen.
