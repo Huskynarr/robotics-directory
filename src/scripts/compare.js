@@ -111,6 +111,7 @@ async function renderCompareTable() {
 
   const specs = [
     { key: 'manufacturer', labelKey: 'spec.manufacturer', fb: 'Manufacturer' },
+    { key: 'releaseDate', labelKey: 'spec.releaseDate', fb: 'Release year' },
     { key: 'price', labelKey: 'spec.price', fb: 'Price' },
     { key: 'weight', labelKey: 'spec.weight', fb: 'Weight' },
     { key: 'size', labelKey: 'spec.size', fb: 'Size' },
@@ -157,8 +158,16 @@ async function renderCompareTable() {
   ];
 
   const renderTable = (evidence) => {
+    const needsQualification = (field) =>
+      field?.status === 'conflicting' || field?.status === 'roadmap';
     const rows = specs
-      .filter((spec) => robots.some((r) => r[spec.key] && r[spec.key].trim()))
+      .filter((spec) =>
+        robots.some(
+          (r) =>
+            r[spec.key]?.trim() ||
+            needsQualification(evidence?.specifications[r.id]?.fields[spec.key]),
+        ),
+      )
       .map((spec) => {
         const cells = robots.map((r) => {
           const val = r[spec.key] || '-';
@@ -167,7 +176,7 @@ async function renderCompareTable() {
           );
           const review = evidence?.specifications[r.id];
           const field = review?.fields[spec.key];
-          if (field && r[spec.key]?.trim()) {
+          if (field && (r[spec.key]?.trim() || needsQualification(field))) {
             const label =
               field.status === 'documented'
                 ? t('spec.sourceReview', 'Source review')

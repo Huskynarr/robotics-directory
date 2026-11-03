@@ -11967,26 +11967,68 @@
       "highlights": [
         "Open-source seven-DOF arm platform provides CAD, firmware, control code and simulation tools for physical-AI research",
         "Backdrivable QDD joints and bilateral force feedback support contact-rich teleoperation and data collection",
-        "Parallel gripper with an in-hand camera and CAN-FD control supports a modular research setup"
+        "Parallel gripper with an in-hand camera and CAN-FD control supports a modular research setup",
+        "The company dates OpenArm 2.0 launch to May 2026; the March 2026 OpenArm 02 announcement and GTC Cell demonstration are earlier milestones. Its 1.0 upgrade changes the gripper, J5 bracket and covers while retaining the arm structure, motors and electronics.",
+        "Nominal payload is 4.1 kg per arm held for one minute at maximum extension. Peak payload is 6.0 kg for a three-second move to that posture and a one-second hold. Both include the end effector: a 1.5 kg tool leaves 2.6 kg nominal and 4.5 kg peak for the object.",
+        "The current homepage gives 633 mm reach, 5.5 kg mass per arm and 1 kHz CAN-FD control. Its 6500 USD bill-of-materials estimate is distinct from a complete installed system quotation and supplier listing prices.",
+        "The redesigned compact parallel gripper carries an Arducam B0495 camera in each hand and replaceable fingers. Module resolution and lens field of view do not establish calibrated grasp precision or the effective view through the fingers, which the project explicitly leaves undocumented.",
+        "The detailed motor page states that the DM4340 series is not QDD, qualifying broader project language about backdrivable QDD joints. Individual motor torque, rpm and voltage ratings are not whole-arm Cartesian speed, payload endurance or independent safety certification.",
+        "Hardware is published under the strongly reciprocal CERN-OHL-S-2.0 license; software repositories have their own licenses. Open source does not mean every asset has a permissive license. The manufacturer directory distinguishes evaluated suppliers and warns that unassessed copies may be incompatible."
       ],
       "sources": [
         {
-          "name": "Enactic",
-          "type": "manufacturer",
-          "url": "https://docs.openarm.dev/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Enactic",
-          "type": "manufacturer",
-          "url": "https://openarm.dev/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Enactic",
+          "name": "OpenArm — version 2.0 payload definitions",
           "type": "manufacturer",
           "url": "https://docs.openarm.dev/hardware/openarm-2.0/general/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — OpenArm 2.0 homepage and KER preview",
+          "type": "manufacturer",
+          "url": "https://openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — current 2.0 project overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — 2.0 gripper and in-hand camera",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/gripper/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — 2.0 motor selection and component limits",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/motor/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — official 1.0 to 2.0 upgrade boundaries",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/upgrade-from-1.0/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -37265,6 +37307,218 @@
       ],
       "discoveredIn": [
         "https://www.prweb.com/releases/dusty-robotics-raises-16-5m-in-series-a-funding-863794545.html"
+      ]
+    },
+    {
+      "robotId": "enactic-openarm-1-0",
+      "manufacturer": "Enactic",
+      "model": "OpenArm 1.0",
+      "highlights": [
+        "The official archive identifies version 1.0 and says it is no longer actively maintained. The company names the first release OpenArm 01 in July 2025. Different July23/24 date labels are not silently turned into one exact shipping day.",
+        "The archived linkage-driven parallel gripper opens to 88 mm and uses 60 degrees of rotor movement between closed and open. Its ball-bearing guides support bilateral force feedback. Those figures do not describe the redesigned 2.0 gripper or count as an extra arm joint.",
+        "Archived payload definitions independently state 4.1 kg nominal for one minute at full extension and 6.0 kg peak for a three-second move and one-second hold, including the tool. The 2.0 upgrade keeps the arm structure, motors and electronics but replaces the gripper and J5 bracket.",
+        "The archived safety guide requires risk assessment, secure mounting and an accessible emergency stop. It warns that a held load can fall rapidly after power loss; compliance and backdrivability are not an independently certified safe-contact guarantee.",
+        "The archived 6500 USD bimanual price is historical. The current purchase index also names vendor V1.1 offers;it does not establish a universal Enactic 1.1 mechanical revision or prove that every vendor V1 unit matches 1.0."
+      ],
+      "sources": [
+        {
+          "name": "OpenArm — archived 1.0 payload definitions",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/1.0/hardware/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — archived 1.0 overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/1.0/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — archived 1.0 linkage gripper",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/1.0/hardware/specifications/gripper/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — official 1.0 to 2.0 upgrade boundaries",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/upgrade-from-1.0/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — archived 1.0 safety guide",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/1.0/getting-started/safety-guide/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://docs.openarm.dev/1.0/hardware/",
+        "https://docs.openarm.dev/1.0/",
+        "https://docs.openarm.dev/1.0/hardware/specifications/gripper/"
+      ]
+    },
+    {
+      "robotId": "enactic-openarm-ker",
+      "manufacturer": "Enactic",
+      "model": "OpenArm KER",
+      "highlights": [
+        "KER is a motorless leader arm with magnetic encoders and bearings, not a powered follower or autonomous robot. The project describes matching axis structure, 70-percent link lengths and direct motion mapping without retargeting.",
+        "The hardware guide states a 1.7 kg body, shoulder-mounted backpack design, attachment within 30 seconds without assistance and a foldable backpack section. These are project design claims, not independently measured fatigue reduction or an outer-dimension specification.",
+        "The homepage labels KER a forthcoming preview outside the current release, while the project manufacturer directory lists vendor prices and accepting-orders language. Availability remains conflicting; the listed 2599 USD WowRobo offer is not verified checkout stock.",
+        "The purchase index describes 16 magnetic encoder channels across the teaching setup. Channels do not become 16 powered arm joints or payload capacity. The separately sold encoder unit and CAD/BOM are components and manufacturing resources, not extra complete KER devices."
+      ],
+      "sources": [
+        {
+          "name": "OpenArm — KER passive leader specifications",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-ker/general/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — current 2.0 project overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — OpenArm 2.0 homepage and KER preview",
+          "type": "manufacturer",
+          "url": "https://openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://docs.openarm.dev/hardware/openarm-ker/general/",
+        "https://docs.openarm.dev/",
+        "https://openarm.dev/"
+      ]
+    },
+    {
+      "robotId": "enactic-openarm-cell",
+      "manufacturer": "Enactic",
+      "model": "OpenArm Cell",
+      "highlights": [
+        "The hardware repository provides Cell assembly, BOM, jig, wiring and integration with OpenArm 2.0. This is an integrated evaluation-workcell configuration, not a newly designed arm or a software-only benchmark.",
+        "Cell standardizes background, lighting, cameras, arm placement and calibration while a vertical Z-axis changes working height. The intended benefit is reproducible data collection and model comparison, not independently proven identical outcomes in every installation.",
+        "The project estimates approximately 100 kg and 480 W per Cell plus PC power, varying with configuration. Floor loading, electrical capacity and transport clearances must suit the installed system. Electrical power and advertised continuous evaluation are not battery runtime.",
+        "Area sensors detect workspace intrusion and shut off power. The documentation does not establish a performance level, SIL rating or certification of every installed configuration.",
+        "The project purchase index lists vendor Cell modular-kit prices and enclosure dimensions separately from the robot. Those offers are not a complete-system quote, full-system outer dimensions or the arm’s reach. The company’s March 2026 GTC demonstration is not an exact general shipment date."
+      ],
+      "sources": [
+        {
+          "name": "OpenArm — Cell integrated evaluation system",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-cell/general/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — current 2.0 project overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — OpenArm 2.0 homepage and KER preview",
+          "type": "manufacturer",
+          "url": "https://openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — version 2.0 payload definitions",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/general/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://docs.openarm.dev/hardware/openarm-cell/general/",
+        "https://github.com/enactic/openarm_hardware",
+        "https://docs.openarm.dev/"
+      ]
+    },
+    {
+      "robotId": "enactic-ena",
+      "manufacturer": "Enactic",
+      "model": "Ena",
+      "highlights": [
+        "The company homepage names Ena and advertises a beta launching in late 2026. This is a planned program milestone, not proof of general sale, customer shipment or a completed deployment as of November 3, 2026.",
+        "Manufacturer pages propose tray collection, laundry, restocking, cleaning and wellbeing monitoring to reduce routine staff workload. They do not provide validated task success rates, clinical efficacy or a guarantee that staff can be replaced.",
+        "The Japanese care site explicitly explains that partnership participation expresses support for development at no charge. Its100-plus organizations headline and other dated partner counts are not a robot fleet or number of installed care facilities.",
+        "The June 2, 2026 issuer release describes nursing-care validation with NVIDIA Isaac GR00T N1.7, starting from selected tasks and including physical and facility testing. It identifies OpenArm 2.0 as an evaluation platform, not evidence that every Ena unit has the same dimensions, payload, compute stack or software capabilities."
+      ],
+      "sources": [
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — Ena care assistant and partnership terms",
+          "type": "manufacturer",
+          "url": "https://care.enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — issuer nursing-care validation announcement, June 2, 2026",
+          "type": "manufacturer",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000166268.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://enactic.ai/",
+        "https://care.enactic.ai/",
+        "https://prtimes.jp/main/html/rd/p/000000006.000166268.html"
       ]
     }
   ]

@@ -146090,6 +146090,698 @@
           "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
         }
       }
+    },
+    {
+      "robotId": "enactic-openarm-2-0",
+      "manufacturer": "Enactic",
+      "model": "OpenArm 2.0",
+      "sources": [
+        {
+          "name": "OpenArm — version 2.0 payload definitions",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/general/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — OpenArm 2.0 homepage and KER preview",
+          "type": "manufacturer",
+          "url": "https://openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — current 2.0 project overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — 2.0 gripper and in-hand camera",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/gripper/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — 2.0 motor selection and component limits",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/motor/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — official 1.0 to 2.0 upgrade boundaries",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/upgrade-from-1.0/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-146/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Project manufacturer directory lists WowRobo V2 from 6500 USD; configuration, shipping and supplier terms vary",
+          "status": "documented",
+          "note": "Project directory lists WowRobo V2 from6500USD,RT byquotation and other supplier terms. Native supplier page returned429 andwas excluded;homepage6500USD BOM is not a second confirmed retail quote."
+        },
+        "weight": {
+          "value": "5.5 kg per arm; manufacturer homepage, not complete bimanual installation mass",
+          "status": "documented",
+          "note": "Native homepage counters rendered after normal scrolling and cross-checked with public page asset targets;5.5kg per arm,not complete dual-arm workcell."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "handType": {
+          "value": "Compact parallel gripper with one in-hand camera per arm and replaceable fingers",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "dof": {
+          "value": "7 per arm; gripper and full installation axis count separate",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "payload": {
+          "value": "4.1 kg nominal per arm for 1 minute at full extension; 6.0 kg peak for 3-second move and 1-second hold; includes end effector",
+          "status": "documented",
+          "note": "Version2.0 native payload definitions. Tool mass consumes the stated allowance;one-minute nominal and3s move+1s hold peak are not continuous-duty certification."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "terrain": {
+          "value": "Fixed research installation on a secured table/base; no mobile terrain rating established",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "website": {
+          "value": "https://docs.openarm.dev/hardware/openarm-2.0/general/",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "description": {
+          "value": "OpenArm 2.0 is Enactic’s open-source seven-DOF-per-arm platform for physical-AI research, teleoperation and reproducible evaluation. The company dates its launch to May 2026. A compact camera-equipped gripper and changed J5 bracket distinguish it from 1.0, while the upgrade guide retains arm structure, motors and electronics. Reach and mass are per arm; payload ratings include the end effector and depend on short specified tests. Hardware and software use different licenses.",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Company portfolio labels OpenArm2.0 launchedMay2026;Marchannouncement/demo remains distinct,no exact general shipmentday established."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "armReach": {
+          "value": "633 mm per arm; manufacturer homepage reach, not full Cell workspace",
+          "status": "documented",
+          "note": "Native homepage after counter animation:633mm arm reach. Not inferred from a camera/motor dimension or Cell enclosure."
+        },
+        "armRepeatability": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "enactic-openarm-1-0",
+      "manufacturer": "Enactic",
+      "model": "OpenArm 1.0",
+      "sources": [
+        {
+          "name": "OpenArm — archived 1.0 payload definitions",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/1.0/hardware/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — archived 1.0 overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/1.0/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — archived 1.0 linkage gripper",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/1.0/hardware/specifications/gripper/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — official 1.0 to 2.0 upgrade boundaries",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/upgrade-from-1.0/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — archived 1.0 safety guide",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/1.0/getting-started/safety-guide/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-146/source-14.html",
+      "fields": {
+        "price": {
+          "value": "Archived 1.0 overview states 6500 USD for a complete bimanual system; historical reference, not a current quote",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No version1.0 whole-arm mass established in reviewed native text;current2.0 homepage5.5kg not automatically inherited."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "handType": {
+          "value": "Linkage-driven parallel gripper; archived maximum jaw opening 88 mm",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "dof": {
+          "value": "7 per arm; actuator/gripper channels are separate",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "payload": {
+          "value": "4.1 kg nominal per arm for 1 minute at full extension; 6.0 kg peak for 3-second move and 1-second hold; includes end effector",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "terrain": {
+          "value": "Fixed table/base installation; archived safety guide requires secure mounting and controlled access",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "website": {
+          "value": "https://docs.openarm.dev/1.0/hardware/",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "description": {
+          "value": "OpenArm 1.0 is the historical Enactic dual-arm research platform, also called OpenArm 01 in the company portfolio and launched in July 2025. Its archived documentation is no longer actively maintained. A linkage-driven parallel gripper distinguishes it from the compact camera-equipped 2.0 gripper. Payload includes tooling and is limited by the stated posture and test duration; current vendor revision labels do not prove identical hardware.",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "releaseDate": {
+          "value": "2025",
+          "status": "documented",
+          "note": "Company portfolio labelsOpenArm01 launchedJuly2025;care news hasJuly23 andcompany newsJuly24. Year documented;exactday notharmonized."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Current633mm2.0 homepage reach not silently assigned to archived1.0;upgrade structural sameness does not prove all end-effector/reference-point dimensions identical."
+        },
+        "armRepeatability": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "enactic-openarm-ker",
+      "manufacturer": "Enactic",
+      "model": "OpenArm KER",
+      "sources": [
+        {
+          "name": "OpenArm — KER passive leader specifications",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-ker/general/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — current 2.0 project overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — OpenArm 2.0 homepage and KER preview",
+          "type": "manufacturer",
+          "url": "https://openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-146/source-6.html",
+      "fields": {
+        "price": {
+          "value": "Project vendor directory lists WowRobo KER from 2599 USD; availability conflict with homepage forthcoming label",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "weight": {
+          "value": "1.7 kg for the passive KER device described by the project; not follower-arm mass",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "70-percent link-length scaling and travelcase fit do not establish whole-device outerdimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "handType": {
+          "value": "Passive teleoperation leader input; motorless, not an actuated grasping hand",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "dof": {
+          "value": "7 passive arm joints per side by matching OpenArm 2.0 kinematics; encoder/gripper channels separate",
+          "status": "documented",
+          "note": "Derived from native statement that KER has exactly matchingOpenArm2.0 joint structure and native2.0overview7perarm. Passiveaxes,not poweredDOF;16encoderchannels not total robotjoints."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "A passive motion-input device has no established powered lifting payload;2.0followerpayload not imported."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "terrain": {
+          "value": "Shoulder-mounted backpack-style teaching device; no autonomous mobile terrain rating",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "website": {
+          "value": "https://docs.openarm.dev/hardware/openarm-ker/general/",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "description": {
+          "value": "OpenArm KER is Enactic’s Kinematic Equivalent Replica, a motorless wearable leader for controlling OpenArm 2.0. Magnetic encoders and bearings measure human-driven motion, with matching joint structure and links scaled to 70 percent. The project states 1.7 kg device mass and a folding backpack section. The homepage calls KER forthcoming while the purchase directory lists vendor offers; a confirmed common release date and availability remain unresolved.",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "conflicting",
+          "note": "Conflict retained:projecthomepage says forthcoming/notincluded;officialpurchaseindex lists acceptingorders. No shared releasedate established;vendor429body excluded."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "armRepeatability": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "enactic-openarm-cell",
+      "manufacturer": "Enactic",
+      "model": "OpenArm Cell",
+      "sources": [
+        {
+          "name": "OpenArm — Cell integrated evaluation system",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-cell/general/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — current 2.0 project overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — OpenArm 2.0 homepage and KER preview",
+          "type": "manufacturer",
+          "url": "https://openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — version 2.0 payload definitions",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/general/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-146/source-11.html",
+      "fields": {
+        "price": {
+          "value": "Integrated Cell system quote not established; project lists enclosure/modular-kit offers separately",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "weight": {
+          "value": "Approximately 100 kg per configured Cell; installed equipment changes actual mass",
+          "status": "documented",
+          "note": "NativeCellguide approximate100kg perCell,actual equipmentconfiguration varies. Do not replace with per-arm5.5kg or bareframe/shippingweight."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Supplier directory1100x926x1883mm is frameenclosure/modularkit,not verified fullinstalledsystem envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Approximately480W plusPC is powerdraw,not batterycapacity/runtime.24/7evaluationdesign is not one-charge endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "handType": {
+          "value": "Installed OpenArm 2.0 grippers; evaluation-cell configuration may vary",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "dof": {
+          "value": "7 per installed OpenArm 2.0 arm; Cell vertical Z-axis is separate",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "payload": {
+          "value": "Installed OpenArm 2.0 arm rating: 4.1 kg nominal / 6.0 kg peak including tool, under stated short tests; not workcell total payload",
+          "status": "documented",
+          "note": "Derived explicitCell integration withOpenArm2.0 anditsnative per-armpayloaddefinitions;not wholecellloadcapacity or unqualified continuousrating."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "terrain": {
+          "value": "Fixed laboratory evaluation workcell; site floor capacity, electrical supply and transport clearances require verification",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "website": {
+          "value": "https://docs.openarm.dev/hardware/openarm-cell/general/",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "description": {
+          "value": "OpenArm Cell is Enactic’s integrated evaluation-workcell configuration for OpenArm 2.0. Its enclosure, lighting, cameras, arm placement and vertically adjustable Z-axis support repeatable robot-policy experiments. The project gives roughly 100 kg and 480 W plus the installed PC, with configuration dependence. Area sensors cut power on workspace intrusion. A supplier enclosure-kit price or frame size does not establish the cost or outer bounds of a complete installed robot system.",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "armReach": {
+          "value": "633 mm per installed OpenArm 2.0 arm; Cell Z-axis expands workspace separately",
+          "status": "documented",
+          "note": "Installed2.0arm manufacturer633mm reach;verticalCellmotion isseparate,not summed into an invented reachradius."
+        },
+        "armRepeatability": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        }
+      }
+    },
+    {
+      "robotId": "enactic-ena",
+      "manufacturer": "Enactic",
+      "model": "Ena",
+      "sources": [
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — Ena care assistant and partnership terms",
+          "type": "manufacturer",
+          "url": "https://care.enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — issuer nursing-care validation announcement, June 2, 2026",
+          "type": "manufacturer",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000166268.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-146/source-3.html",
+      "fields": {
+        "price": {
+          "value": "Beta inquiry; no numeric public price or general commercial availability established",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "OpenArm5.5kg perarm andCell100kg notEna totalmass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exactEna mechanicaljointcount established;OpenArm7perarm not silently assigned."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "terrain": {
+          "value": "Intended for Japanese care-facility support tasks; numeric slopes, weather and site limits unverified",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "website": {
+          "value": "https://enactic.ai/",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "description": {
+          "value": "Ena is Enactic’s care-assistant humanoid program for routine support work such as tray handling, restocking, cleaning and laundry. The company advertises a beta planned for late 2026. These intended tasks and a foundation-model validation program do not establish full autonomous success rates, general commercial delivery or permission to perform clinical care. Development-support partnerships are not counts of deployed robots.",
+          "status": "documented",
+          "note": "Generation/configuration-specific manufacturer or project statement;not independently tested performance or current checkout stock."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "roadmap",
+          "note": "Roadmap:company saysEnaBeta launchinglate2026. AtNovember3,2026 noexactgeneralreleasedate orconfirmedbeta shipmentestablished inreviewedprimarytext."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "armReach": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-platform value established in the reviewed native material. Component ratings,other revisions and marketing of continuous operation are not substituted."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No native textual drivetrain orautonomylevel specification established;humanoidlabel anddemonstrations notproof ofbipedlocomotion orunsupervised operation."
+        }
+      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T10:35:58.504Z",
+  "generatedAt": "2026-11-03T10:52:12.546Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,12 +13,12 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 479,
-    "withoutSelectedFieldReview": 39,
-    "selectedFields": 8795,
+    "withSelectedFieldReview": 480,
+    "withoutSelectedFieldReview": 38,
+    "selectedFields": 8813,
     "selectedFieldStatuses": {
-      "documented": 3498,
-      "not-documented": 5093,
+      "documented": 3508,
+      "not-documented": 5101,
       "conflicting": 186,
       "roadmap": 18
     },
@@ -281,23 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "catalog-enactic-5dc6d26a7201",
-      "name": "Enactic",
-      "aliases": [],
-      "sourceUrls": [],
-      "catalogModels": 1,
-      "reviewedReferenceTargets": 1,
-      "withDatedHighlights": 1,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "enactic-openarm-2-0"
-      ]
-    },
     {
       "brandId": "exotec",
       "name": "Exotec",
@@ -3727,6 +3710,23 @@
       "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "dusty-robotics-fieldprinter-2"
+      ]
+    },
+    {
+      "brandId": "catalog-enactic-5dc6d26a7201",
+      "name": "Enactic",
+      "aliases": [],
+      "sourceUrls": [],
+      "catalogModels": 5,
+      "reviewedReferenceTargets": 1,
+      "withDatedHighlights": 1,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "enactic-openarm-2-0"
       ]
     }
   ],
@@ -25572,36 +25572,127 @@
       "brandId": "catalog-enactic-5dc6d26a7201",
       "category": "robotic-arm",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 9,
       "highlightSources": [
         {
-          "name": "Enactic",
-          "type": "manufacturer",
-          "url": "https://docs.openarm.dev/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Enactic",
-          "type": "manufacturer",
-          "url": "https://openarm.dev/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Enactic",
+          "name": "OpenArm — version 2.0 payload definitions",
           "type": "manufacturer",
           "url": "https://docs.openarm.dev/hardware/openarm-2.0/general/",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — OpenArm 2.0 homepage and KER preview",
+          "type": "manufacturer",
+          "url": "https://openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — current 2.0 project overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — 2.0 gripper and in-hand camera",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/gripper/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — 2.0 motor selection and component limits",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/motor/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — official 1.0 to 2.0 upgrade boundaries",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/upgrade-from-1.0/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 18,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 10,
+        "not-documented": 8,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "OpenArm — version 2.0 payload definitions",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/general/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — OpenArm 2.0 homepage and KER preview",
+          "type": "manufacturer",
+          "url": "https://openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — current 2.0 project overview",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — 2.0 gripper and in-hand camera",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/gripper/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — 2.0 motor selection and component limits",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/motor/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — official 1.0 to 2.0 upgrade boundaries",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/hardware/openarm-2.0/upgrade-from-1.0/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "OpenArm — project manufacturer directory and attributed prices",
+          "type": "manufacturer",
+          "url": "https://docs.openarm.dev/purchase/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — company portfolio and dated launch milestones",
+          "type": "manufacturer",
+          "url": "https://enactic.ai/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Enactic — hardware assemblies and CERN-OHL-S-2.0 license",
+          "type": "manufacturer",
+          "url": "https://github.com/enactic/openarm_hardware",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "listing-review",

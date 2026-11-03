@@ -5104,6 +5104,7 @@ export const translations = {
 };
 
 const directoryLabels = {
+  'spec.releaseDate': 'Release year',
   'search.loadingHighlights': 'Searching product highlights…',
   'search.highlightsFailed':
     'Product highlights could not be searched. Results currently use names, descriptions and tags.',
@@ -5204,6 +5205,7 @@ const directoryLabels = {
 };
 for (const table of Object.values(translations)) Object.assign(table, directoryLabels);
 Object.assign(translations.de, {
+  'spec.releaseDate': 'Erscheinungsjahr',
   'search.loadingHighlights': 'Produktmerkmale werden durchsucht…',
   'search.highlightsFailed':
     'Produktmerkmale konnten nicht durchsucht werden. Die Treffer nutzen derzeit Namen, Beschreibungen und Tags.',

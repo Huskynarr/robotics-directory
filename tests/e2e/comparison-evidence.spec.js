@@ -76,6 +76,52 @@ test('shows conflict qualifications beside the affected values without certifyin
   );
 });
 
+for (const lang of ['en', 'de', 'fr']) {
+  test(`release years retain roadmap and empty conflicting values in ${lang}`, async ({ page }) => {
+    await prepare(page, ['enactic-ena', 'enactic-openarm-ker'], lang);
+    const table = await openComparison(page);
+    const row = table.locator('tr').filter({
+      has: page.locator('[data-comparison-review="releaseDate"][data-review-status="roadmap"]'),
+    });
+    await expect(row.locator('td').first()).toHaveText(
+      lang === 'de' ? 'Erscheinungsjahr' : 'Release year',
+    );
+    const planned = row.locator('[data-review-status="roadmap"]');
+    await expect(planned).toContainText(lang === 'de' ? 'Roadmap-Angabe' : 'Roadmap claim');
+    expect(await planned.locator('..').evaluate((cell) => cell.firstChild.textContent.trim())).toBe(
+      '2026',
+    );
+    const conflict = row.locator('[data-review-status="conflicting"]');
+    await expect(conflict).toContainText(
+      lang === 'de' ? 'Widersprüchliche Quellen' : 'Conflicting sources',
+    );
+    expect(
+      await conflict.locator('..').evaluate((cell) => cell.firstChild.textContent.trim()),
+    ).toBe('-');
+    await expect(conflict.locator('p')).toContainText('No shared releasedate established');
+    await expect(conflict.locator('a')).toHaveAttribute(
+      'href',
+      'https://docs.openarm.dev/hardware/openarm-ker/general/',
+    );
+  });
+}
+
+test('keeps a conflicting release visible when neither year is known', async ({ page }) => {
+  await prepare(page, ['enactic-openarm-ker', 'enactic-openarm-cell']);
+  const table = await openComparison(page);
+  const conflict = table.locator(
+    '[data-comparison-review="releaseDate"][data-review-status="conflicting"]',
+  );
+  await expect(conflict).toHaveCount(1);
+  await expect(conflict).toContainText('No shared releasedate established');
+  expect(await conflict.locator('..').evaluate((cell) => cell.firstChild.textContent.trim())).toBe(
+    '-',
+  );
+  await expect(
+    table.locator('[data-comparison-review="releaseDate"][data-review-status="not-documented"]'),
+  ).toHaveCount(0);
+});
+
 test('distinguishes products without a highlight review and retains deployment source roles', async ({
   page,
 }) => {
