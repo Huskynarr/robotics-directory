@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,284 catalog rows**, with 644 exact
-manufacturer spellings. Batch 128 refreshed the separate heuristic gap file offline
-against all 2,284 rows (636 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,296 catalog rows**, with 645 exact
+manufacturer spellings. Batch 129 refreshed the separate heuristic gap file offline
+against all 2,296 rows (637 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1212 dated records across the catalog, including
-182 existing-model enrichments and 1030 task additions. All 430 catalog models
+Current product-highlight coverage: 1224 dated records across the catalog, including
+182 existing-model enrichments and 1042 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1030 task additions, totaling 2,284.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1042 task additions, totaling 2,296.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 460 have selected-field reviews and 58 await those reviews. Family and
+highlights; 461 have selected-field reviews and 57 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 21,567 fields across 1135 catalog models: 7,920 documented,
-13,254 not documented, 288 conflicting and 105 roadmap fields. They do not certify whole
+Selected specification checks cover 21,792 fields across 1148 catalog models: 7,957 documented,
+13,442 not documented, 288 conflicting and 105 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -8339,3 +8339,103 @@ remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein De
 Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
 Detailinhaltsprüfungen bleiben offen. Vollständige historische/aktuelle Portfolios,
 unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 129 – Apptronik-Portfolio, Apollo-Generationen und NASA Valkyrie (3. November 2026)
+
+Zwölf neue Modelle/Konfigurationen: Apollo 1, Apollo 2, QDH, Astra, QDB, QDA,
+Draco II, Draco III, Scorpio, Sagittarius, Apex und NASA Valkyrie (R5). Der bestehende
+Apollo-Familieneintrag erhält erstmals ausgewählte Datenfeldprüfungen. 13 Einträge
+umfassen 225 ausgewählte Felder: 37 dokumentiert und 188 unbekannt. Kommerzielle
+Felder sind nach Manipulator-/Wearable-Relevanz ausgewählt; keine zusätzlichen
+Flug-/Tauchfelder für Exoskelette. 29 neue Merkmalsaussagen, 17 Produktquellenverweise
+und zwei Firmenfokus-Prüfungen ergänzen den Bestand. Gesamt: 2.296 Katalogeinträge,
+1.224 datierte Merkmalsdatensätze, 5.433 Aussagen, 2.469 Quellenverweise und 125
+Firmenfokus-Prüfungen. 1.148 Modelle haben 21.792 ausgewählte Feldprüfungen:
+7.957 dokumentiert, 13.442 unbekannt, 288 widersprüchlich und 105 Roadmap.
+Von 518 ursprünglichen Recherchezielen haben 461 ausgewählte Feldprüfungen;
+57 bleiben offen. Diese Queue umfasst 8.462 Felder.
+
+Alle zehn nativen Our-Work-Karten haben Modell-/Herstellerentscheidungen. Die
+retrospektiv benannte Apollo-1-Plattform und die aktuelle Apollo-2-Seite bleiben
+getrennt vom generischen Apollo-Familieneintrag. Die Mitteilung vom 23. August 2023
+nennt 160 lb Masse, 5 ft 8 in Höhe, 55 lb Hubfähigkeit und vier Stunden pro
+wechselbarem Akku. Diese Werte stehen ausdrücklich als historische angekündigte
+Konfiguration auf der Familienzeile. Die Quelle nennt diese Ausführung nicht
+explizit Apollo 1; die Zahlen werden daher weder dort noch bei Apollo 2 pauschal
+eingetragen. Eine weitere IMTS-Seite wiederholt die Zahlen, ohne eine neue
+Generationszuordnung zu belegen. 50.000 USD und 1,2 m/s bleiben unbelegt und werden
+ausgelassen. Die Vorstellung 2023 wird nicht als erster belegter Verkauf behandelt.
+
+Apollo 2 unterscheidet bipedale und rollende Basisoptionen, Kommunikationslichter,
+Sprache und Brustdisplay. 7x22-Betrieb beruht auf Akkuwechsel, Zwischenladen und
+Kabelbetrieb; es sind keine 22 Stunden mit einer Akkuladung. Über 90 Prozent
+Effizienz beziehen sich auf die Aktuatorplattform, nicht Gesamtroboter-Laufzeit,
+Geschwindigkeit oder Batterieeffizienz. Artemis und Fleet Connect sind Steuerungs-
+beziehungsweise Flottensoftware. KI-Partnerschaften, Manipulationssprache und
+konfigurierbare Sicherheitszonen belegen weder vollständige autonome Aufgaben,
+Fingeranzahl, pauschalen Lieferumfang noch ein abgeschlossenes Ganzroboter-Zertifikat.
+
+QDH, Astra und QDA sind obere Körperplattformen beziehungsweise Testbeds; QDB wird
+als Quick Development Biped benannt. Rollen und Historie bleiben von vollständigen
+numerischen Hardwarewerten getrennt. Die gemeinsame Draco-II/III-Karte nennt eine
+flüssigkeitsgekühlte 10-DOF-Draco-Plattform und Echtzeit-Linux-/ROS-Unterstützung,
+belegt diesen vollständigen Wert aber nicht getrennt für beide benannten Generationen.
+Beide exakten DOF-Felder bleiben unbekannt; die gemeinsame Aussage ist als solche
+im Text sichtbar. Niedrige Steuerungsebenen bedeuten keine aktuelle Unterstützung
+oder serienreife autonome Anwendung.
+
+Scorpio ist ein mobiler Manipulationsansatz mit passiver Feder-Schwerkraftkompensation
+im elektrischen Arm. Mehr als das Arm-Eigengewicht zu heben liefert keine numerische
+Roboter-Nutzlast oder Lastquote des gesamten mobilen Systems. Sagittarius und Apex
+bleiben unterschiedliche Exoskelett-/Wearable-Projekte. Kraftableitung in den Boden,
+Bewegungsfreiheit und effiziente Aktuation sind keine Zahlen für Unterstützungs-
+kraft, sichere medizinische Nutzung, autonome Gehfähigkeit, DOF oder Batteriedauer.
+Historische Portfolioerwähnung belegt keinen aktuellen Verkauf oder Support.
+
+Valkyrie wird NASA zugeordnet, nicht als Apptronik-Produkt dupliziert. NASA benennt
+Johnson Space Center als Konstrukteur und R5 als Alias. Apptronik beschreibt
+Mitwirkung des Teams an Aktuatoren/Steuerung; das ist ein Entwicklungsbeitrag.
+NASA-Artikel und zweiseitiges Factsheet stimmen bei 300 lb, 6 ft 2 in, 44 DOF,
+vereinfachten Händen mit drei Fingern und Daumen sowie ungefähr einer Stunde
+Batteriebetrieb überein. 1,8 kWh sind Energie, kein Zeitraum; Netzbetrieb ist eine
+Alternative. Teilgelenklisten werden nicht zu einem abweichenden Gesamtwert addiert.
+Der DRC-Auftritt 2013 und das Artikeldatum 2015 sind Forschungs-/Publikations-
+meilensteine, kein belegter erster kommerzieller Verkauf. Spätere Hände-/Knöchel-
+Änderungen, Sensorik und Ziele in beschädigten Umgebungen belegen weder jede
+Folgeversion noch IP-Zulassung, Navigationsgenauigkeit oder Raumfahrteinsatz.
+NASA erhält ein neues abgeleitetes Herstellerprofil mit offizieller überprüfter
+Website; die Quellen-Marken-/Aliasdatei bleibt unverändert. Gesamt: 645 exakte
+CSV-Herstellerbezeichnungen, 1.037 Profile, davon 634 mit Modellen und 403 reine
+Quellenprofile. Die neue NASA-Fokusprüfung bestätigt kein vollständiges NASA-Portfolio;
+Robonaut 2 bleibt ein außerhalb dieser Prüfung liegender Herkunftshinweis.
+
+Zehn gespeicherte Abrufdatensätze: neun HTTP 200 einschließlich des NASA-PDFs und
+ein HTTP 404 für die Sitemap. Die fehlgeschlagene Sitemap ist keine Belegquelle.
+Alle Antwortkörper haben geprüfte SHA-256-Werte. Die zehn Portfolio-Karten und acht
+Apollo-2-Produktabschnitte wurden nach nativer DOM-Zugehörigkeit extrahiert;
+verborgene Webflow-Menü-/Agenturvorlagen und globale Navigation sind ausgeschlossen.
+NASA-Artikel und PDF wurden als Text geprüft, ohne visuelle Bild-/PDF-Prüfung.
+Keine Formulare, Konten, Transaktionen oder Umgehung. Abrufe am 2. November UTC;
+Review am 3. November Europe/Berlin. Dauerhafter Bericht:
+`reports/competitor-batch-129-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.347 Seiten. Datenaudit: null Fehler, 1.191 Warnungen; 13 zusätzliche
+Warnungen betreffen ausschließlich unbekannte Erscheinungsjahre. Geprüft: 13
+Produktseiten, 225 Felder, 11 Quellenbadges,
+188 ausgelassene Leerfelder, 32 Merkmalsaussagen und zwei Firmenfokus-Seiten.
+Modell-Export: zwei Quellenvorkommen mit 34 Feldvorkommen; ursprüngliche Queue:
+ein Ziel mit 17 Feldern. Die Firmenbeschreibungsreferenz behält ihre Zuordnung.
+NASA hat kein ursprüngliches Firmen-CSV-Quellenvorkommen; das neue Profil und dessen
+Fokus werden dennoch gerendert. Suche, Vergleich, strukturierte Eigenschaften,
+Pfund-/Laufzeitfilter, vollständiger Belegexport und byteidentischer Reimport der
+32 getrackten Datendateien geprüft. Eigene Browser, Testserver und Recherchehelfer
+beendet; fremde Ressourcen erhalten. Externe YouTube-/Axe-Befunde aus Batch106
+bleiben außerhalb dieser Prüfung offen.
+
+Daten-Zwischencommit `34a3eb141f6121bf79b0404337f901ba00d6f2d4` ist auf `codex/competitor-directory-expansion` gepusht und
+remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische/aktuelle Portfolios, unabhängige Leistung,
+exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.

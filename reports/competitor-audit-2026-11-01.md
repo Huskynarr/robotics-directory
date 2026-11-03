@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.284 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1030 |
-| Datierte Produktmerkmal-Datensätze einschließlich 182 bestehender Modelle | 1212 |
-| Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 644 |
-| Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.036 |
-| Davon mit Modellen / reine Quellen-Firmenprofile | 633 / 403 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.296 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1042 |
+| Datierte Produktmerkmal-Datensätze einschließlich 182 bestehender Modelle | 1224 |
+| Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 645 |
+| Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
+| Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 123 |
+| Firmenfokus-Prüfungen mit Quellen | 125 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1030 ergänzte Modelle ergeben 2.284 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1042 ergänzte Modelle ergeben 2.296 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -36,14 +36,14 @@ umfasst der aktuelle Bestand 591 Gruppen; die ursprünglichen Namen bleiben erha
 Alle 339 RoboticsDir-Einträge und alle 412 BuyAndRent-Firmennamen sind als Name oder
 Alias vertreten. Das sind keine 751 unterschiedlichen Hersteller: Mehrfachnennungen,
 Integratoren, Komponentenhersteller, Softwareanbieter und Medien gehören zum
-Quellenbestand. Auch die 1.036 Profile sind keine Anzahl geprüfter Roboterhersteller.
+Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterhersteller.
 
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-123 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+125 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1212 Datensätze
+Modellseiten verlinken Markenprofile. Die 1224 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 460 haben ausgewählte Datenfeldprüfungen und 58
+haben datierte Merkmalsbelege; 461 haben ausgewählte Datenfeldprüfungen und 57
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 495 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 497 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -10574,3 +10574,103 @@ remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein De
 Drei ursprüngliche Modellidentitäten, neun Listingidentitäten und 862
 Detailinhaltsprüfungen bleiben offen. Vollständige historische/aktuelle Portfolios,
 unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 129 – Apptronik-Portfolio, Apollo-Generationen und NASA Valkyrie (3. November 2026)
+
+Zwölf neue Modelle/Konfigurationen: Apollo 1, Apollo 2, QDH, Astra, QDB, QDA,
+Draco II, Draco III, Scorpio, Sagittarius, Apex und NASA Valkyrie (R5). Der bestehende
+Apollo-Familieneintrag erhält erstmals ausgewählte Datenfeldprüfungen. 13 Einträge
+umfassen 225 ausgewählte Felder: 37 dokumentiert und 188 unbekannt. Kommerzielle
+Felder sind nach Manipulator-/Wearable-Relevanz ausgewählt; keine zusätzlichen
+Flug-/Tauchfelder für Exoskelette. 29 neue Merkmalsaussagen, 17 Produktquellenverweise
+und zwei Firmenfokus-Prüfungen ergänzen den Bestand. Gesamt: 2.296 Katalogeinträge,
+1.224 datierte Merkmalsdatensätze, 5.433 Aussagen, 2.469 Quellenverweise und 125
+Firmenfokus-Prüfungen. 1.148 Modelle haben 21.792 ausgewählte Feldprüfungen:
+7.957 dokumentiert, 13.442 unbekannt, 288 widersprüchlich und 105 Roadmap.
+Von 518 ursprünglichen Recherchezielen haben 461 ausgewählte Feldprüfungen;
+57 bleiben offen. Diese Queue umfasst 8.462 Felder.
+
+Alle zehn nativen Our-Work-Karten haben Modell-/Herstellerentscheidungen. Die
+retrospektiv benannte Apollo-1-Plattform und die aktuelle Apollo-2-Seite bleiben
+getrennt vom generischen Apollo-Familieneintrag. Die Mitteilung vom 23. August 2023
+nennt 160 lb Masse, 5 ft 8 in Höhe, 55 lb Hubfähigkeit und vier Stunden pro
+wechselbarem Akku. Diese Werte stehen ausdrücklich als historische angekündigte
+Konfiguration auf der Familienzeile. Die Quelle nennt diese Ausführung nicht
+explizit Apollo 1; die Zahlen werden daher weder dort noch bei Apollo 2 pauschal
+eingetragen. Eine weitere IMTS-Seite wiederholt die Zahlen, ohne eine neue
+Generationszuordnung zu belegen. 50.000 USD und 1,2 m/s bleiben unbelegt und werden
+ausgelassen. Die Vorstellung 2023 wird nicht als erster belegter Verkauf behandelt.
+
+Apollo 2 unterscheidet bipedale und rollende Basisoptionen, Kommunikationslichter,
+Sprache und Brustdisplay. 7x22-Betrieb beruht auf Akkuwechsel, Zwischenladen und
+Kabelbetrieb; es sind keine 22 Stunden mit einer Akkuladung. Über 90 Prozent
+Effizienz beziehen sich auf die Aktuatorplattform, nicht Gesamtroboter-Laufzeit,
+Geschwindigkeit oder Batterieeffizienz. Artemis und Fleet Connect sind Steuerungs-
+beziehungsweise Flottensoftware. KI-Partnerschaften, Manipulationssprache und
+konfigurierbare Sicherheitszonen belegen weder vollständige autonome Aufgaben,
+Fingeranzahl, pauschalen Lieferumfang noch ein abgeschlossenes Ganzroboter-Zertifikat.
+
+QDH, Astra und QDA sind obere Körperplattformen beziehungsweise Testbeds; QDB wird
+als Quick Development Biped benannt. Rollen und Historie bleiben von vollständigen
+numerischen Hardwarewerten getrennt. Die gemeinsame Draco-II/III-Karte nennt eine
+flüssigkeitsgekühlte 10-DOF-Draco-Plattform und Echtzeit-Linux-/ROS-Unterstützung,
+belegt diesen vollständigen Wert aber nicht getrennt für beide benannten Generationen.
+Beide exakten DOF-Felder bleiben unbekannt; die gemeinsame Aussage ist als solche
+im Text sichtbar. Niedrige Steuerungsebenen bedeuten keine aktuelle Unterstützung
+oder serienreife autonome Anwendung.
+
+Scorpio ist ein mobiler Manipulationsansatz mit passiver Feder-Schwerkraftkompensation
+im elektrischen Arm. Mehr als das Arm-Eigengewicht zu heben liefert keine numerische
+Roboter-Nutzlast oder Lastquote des gesamten mobilen Systems. Sagittarius und Apex
+bleiben unterschiedliche Exoskelett-/Wearable-Projekte. Kraftableitung in den Boden,
+Bewegungsfreiheit und effiziente Aktuation sind keine Zahlen für Unterstützungs-
+kraft, sichere medizinische Nutzung, autonome Gehfähigkeit, DOF oder Batteriedauer.
+Historische Portfolioerwähnung belegt keinen aktuellen Verkauf oder Support.
+
+Valkyrie wird NASA zugeordnet, nicht als Apptronik-Produkt dupliziert. NASA benennt
+Johnson Space Center als Konstrukteur und R5 als Alias. Apptronik beschreibt
+Mitwirkung des Teams an Aktuatoren/Steuerung; das ist ein Entwicklungsbeitrag.
+NASA-Artikel und zweiseitiges Factsheet stimmen bei 300 lb, 6 ft 2 in, 44 DOF,
+vereinfachten Händen mit drei Fingern und Daumen sowie ungefähr einer Stunde
+Batteriebetrieb überein. 1,8 kWh sind Energie, kein Zeitraum; Netzbetrieb ist eine
+Alternative. Teilgelenklisten werden nicht zu einem abweichenden Gesamtwert addiert.
+Der DRC-Auftritt 2013 und das Artikeldatum 2015 sind Forschungs-/Publikations-
+meilensteine, kein belegter erster kommerzieller Verkauf. Spätere Hände-/Knöchel-
+Änderungen, Sensorik und Ziele in beschädigten Umgebungen belegen weder jede
+Folgeversion noch IP-Zulassung, Navigationsgenauigkeit oder Raumfahrteinsatz.
+NASA erhält ein neues abgeleitetes Herstellerprofil mit offizieller überprüfter
+Website; die Quellen-Marken-/Aliasdatei bleibt unverändert. Gesamt: 645 exakte
+CSV-Herstellerbezeichnungen, 1.037 Profile, davon 634 mit Modellen und 403 reine
+Quellenprofile. Die neue NASA-Fokusprüfung bestätigt kein vollständiges NASA-Portfolio;
+Robonaut 2 bleibt ein außerhalb dieser Prüfung liegender Herkunftshinweis.
+
+Zehn gespeicherte Abrufdatensätze: neun HTTP 200 einschließlich des NASA-PDFs und
+ein HTTP 404 für die Sitemap. Die fehlgeschlagene Sitemap ist keine Belegquelle.
+Alle Antwortkörper haben geprüfte SHA-256-Werte. Die zehn Portfolio-Karten und acht
+Apollo-2-Produktabschnitte wurden nach nativer DOM-Zugehörigkeit extrahiert;
+verborgene Webflow-Menü-/Agenturvorlagen und globale Navigation sind ausgeschlossen.
+NASA-Artikel und PDF wurden als Text geprüft, ohne visuelle Bild-/PDF-Prüfung.
+Keine Formulare, Konten, Transaktionen oder Umgehung. Abrufe am 2. November UTC;
+Review am 3. November Europe/Berlin. Dauerhafter Bericht:
+`reports/competitor-batch-129-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.347 Seiten. Datenaudit: null Fehler, 1.191 Warnungen; 13 zusätzliche
+Warnungen betreffen ausschließlich unbekannte Erscheinungsjahre. Geprüft: 13
+Produktseiten, 225 Felder, 11 Quellenbadges,
+188 ausgelassene Leerfelder, 32 Merkmalsaussagen und zwei Firmenfokus-Seiten.
+Modell-Export: zwei Quellenvorkommen mit 34 Feldvorkommen; ursprüngliche Queue:
+ein Ziel mit 17 Feldern. Die Firmenbeschreibungsreferenz behält ihre Zuordnung.
+NASA hat kein ursprüngliches Firmen-CSV-Quellenvorkommen; das neue Profil und dessen
+Fokus werden dennoch gerendert. Suche, Vergleich, strukturierte Eigenschaften,
+Pfund-/Laufzeitfilter, vollständiger Belegexport und byteidentischer Reimport der
+32 getrackten Datendateien geprüft. Eigene Browser, Testserver und Recherchehelfer
+beendet; fremde Ressourcen erhalten. Externe YouTube-/Axe-Befunde aus Batch106
+bleiben außerhalb dieser Prüfung offen.
+
+Daten-Zwischencommit `34a3eb141f6121bf79b0404337f901ba00d6f2d4` ist auf `codex/competitor-directory-expansion` gepusht und
+remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige historische/aktuelle Portfolios, unabhängige Leistung,
+exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.

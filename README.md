@@ -140,20 +140,20 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,284 model/configuration entries and 1,212 dated primary-source highlight
+groups. The catalog contains 2,296 model/configuration entries and 1,224 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 460 and 58 still awaiting those reviews.
+selected technical-field reviews for 461 and 57 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
-The heuristic gap file now compares all 2,284 rows using same-brand matches only.
+The heuristic gap file now compares all 2,296 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
 reviewed aliases, components and services; the strict unresolved counts remain
 three model identities and nine listings.
@@ -370,6 +370,17 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Apptronik and NASA now have 13 selected model/configuration reviews, including
+12 additions. All ten native Our Work cards have model/manufacturer decisions:
+upper-body platforms, bipeds, a mobile manipulator and wearable research systems
+remain distinct; Valkyrie/R5 retains NASA Johnson Space Center attribution.
+The 225 fields distinguish 37 documented and 188 unknown values. Historical
+2023 unnumbered Apollo specifications remain dated on the family record rather
+than inherited by Apollo 1/2. Apollo 2 swap-enabled uptime and actuator efficiency
+do not establish single-pack endurance. Shared Draco text does not separately
+certify both generations. NASA's article and two-page fact sheet agree on the
+selected R5 configuration. See `reports/competitor-batch-129-evidence.json`.
 
 Agility now has six selected family/generation/configuration reviews, including
 five additions: Digit 4, Digit 5, Cassie and Cassie Gen. 1/Gen. 2. The 102 fields
@@ -1056,18 +1067,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-21,567 fields across 1135 models, distinguishing documented, undisclosed, conflicting and
+21,792 fields across 1148 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 5,753 kB JSON response loads only for search or comparison;
+A separate 5,815 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,404 reviewed highlight statements as well as
+Catalog search now includes all 5,433 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
