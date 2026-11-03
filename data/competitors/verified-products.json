@@ -32792,29 +32792,76 @@
         "manufacturer": "Barrett Technology, LLC",
         "model": "Burt",
         "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;medical;rehabilitation;upper-limb;stationary",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://barrett.com/burt",
-        "description": "Upper-limb rehabilitation robot that supports arm weight and provides haptic activities with assistive or resistive forces under therapist control."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Therapist-controlled upper-limb rehabilitation robot with arm-weight support and haptic activities that can assist or resist movement. The current manufacturer page describes three planes of backdrivability, session scoring and strength assessments. Optional BurtWrist adds powered forearm rotation and grip sensing. These design/workflow features do not establish measured joint count, clinical efficacy or independent regulatory approval.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Supports the patient's arm weight during interactive upper-limb activities",
         "Haptic forces can assist or resist movement, with backdrivability in three planes",
-        "Therapist-selected activities and built-in strength assessments provide session scoring"
+        "Therapist-selected activities and built-in strength assessments provide session scoring",
+        "The manufacturer advertises about 60 seconds for base setup and left/right exchange, while optional BurtWrist has its own under-90-second setup claim. These are setup claims, not battery runtime or charging time; three backdrivability planes are not a measured joint count.",
+        "The same page lists eighteen activities in one section and twenty in another. The library count remains unresolved rather than chosen as a single current total; named games are software activities, not robot models.",
+        "Optional BurtWrist adds motorized pronation/supination, graded grip sensing and passive, active, assisted or resisted modes. It is an addition to Burt, not independently identified as another complete base robot.",
+        "Therapists select activity and difficulty, with session scoring and strength-assessment tools. BurtCare covers software/assessment updates, service and subscription support; testimonials and manufacturer regulatory/safety language are not independent clinical efficacy, approval or absolute-safety verification."
       ],
       "sources": [
         {
-          "name": "Barrett Technology, LLC — manufacturer product documentation",
+          "name": "Barrett Technology, LLC — Burt rehabilitation platform and optional BurtWrist",
           "type": "manufacturer",
           "url": "https://barrett.com/burt",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — BurtCare subscription and software updates",
+          "type": "manufacturer",
+          "url": "https://barrett.com/burtcare",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/companies/barrett-technology-llc"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-29/barrett.com-burt.json",
-      "reviewScope": "product-highlights",
-      "reviewNotes": "Device design and interaction features only; no clinical efficacy, guaranteed safety, regulatory approval or treatment recommendation is asserted. The same page lists 18 and 20 activities, so an activity count is omitted. Unknown dimensions, pricing and current availability are not inferred."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-1.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
     },
     {
       "row": {
@@ -75940,6 +75987,688 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-134/source-7.html",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch134. Native manufacturer product/portfolio pages and model-labelled PDF text hash-checked. T3/T3XL nine-hour effective runtime versus twelve-hour family headline remains conflicting. Material/cart capacity moves from generic payload to transportPayload; no arm flange rating inferred. Turning-envelope values are not silently divided into radius; Zena diagram/table radius wording remains qualified in highlights. Charger electrical ratings and dimensions are separate accessories. T2 TUG is a named historical predecessor, without inherited Zena or T3 specifications or inferred discontinuation date. Quadro/Quadro XL and T4H/T4E are not extra independent robot identities without dedicated evidence. Prior literal highlights, discoveredIn and source URLs preserved. Generated PDF images could not be visually inspected because image input is unavailable; ambiguous whole-body Zena dimensions excluded. No media reuse, sign-in, forms, accounts, transactions or browser. Historical completeness, current local stock and exclusive/independently tested superiority remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 4-DOF Standard",
+        "price": "Not disclosed",
+        "weight": "25 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "4 powered arm axes; optional hand and sensors separate",
+        "payload": "4 kg rated payload for 4-DOF Standard; tooling/load conditions not specified",
+        "speed": "3 m/s peak endtip velocity for Standard; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "4-axis WAM arm in the manufacturer’s named Standard configuration. The current table specifies 25 kg arm mass, 4 kg payload, 3 m/s peak endtip velocity and 1 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "1 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF Standard: 4 kg payload, 3 m/s peak endtip velocity and 1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 7-DOF Standard",
+        "price": "Not disclosed",
+        "weight": "27 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "7 powered arm axes; optional hand and sensors separate",
+        "payload": "3 kg rated payload for 7-DOF Standard; tooling/load conditions not specified",
+        "speed": "3 m/s peak endtip velocity for Standard; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "7-axis WAM arm in the manufacturer’s named Standard configuration. The current table specifies 27 kg arm mass, 3 kg payload, 3 m/s peak endtip velocity and 2 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "2 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF Standard: 3 kg payload, 3 m/s peak endtip velocity and 2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 4-DOF High Speed",
+        "price": "Not disclosed",
+        "weight": "25 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "4 powered arm axes; optional hand and sensors separate",
+        "payload": "4 kg rated payload for 4-DOF High Speed; tooling/load conditions not specified",
+        "speed": "5 m/s peak endtip velocity for High Speed; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "4-axis WAM arm in the manufacturer’s named High Speed configuration. The current table specifies 25 kg arm mass, 4 kg payload, 5 m/s peak endtip velocity and 1 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "1 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF High Speed: 4 kg payload, 5 m/s peak endtip velocity and 1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 7-DOF High Speed",
+        "price": "Not disclosed",
+        "weight": "27 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "7 powered arm axes; optional hand and sensors separate",
+        "payload": "3 kg rated payload for 7-DOF High Speed; tooling/load conditions not specified",
+        "speed": "5 m/s peak endtip velocity for High Speed; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "7-axis WAM arm in the manufacturer’s named High Speed configuration. The current table specifies 27 kg arm mass, 3 kg payload, 5 m/s peak endtip velocity and 2 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "2 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF High Speed: 3 kg payload, 5 m/s peak endtip velocity and 2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 4-DOF Ultra High Speed",
+        "price": "Not disclosed",
+        "weight": "25 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "4 powered arm axes; optional hand and sensors separate",
+        "payload": "4 kg rated payload for 4-DOF Ultra High Speed; tooling/load conditions not specified",
+        "speed": "15 m/s peak endtip velocity for Ultra High Speed; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "4-axis WAM arm in the manufacturer’s named Ultra High Speed configuration. The current table specifies 25 kg arm mass, 4 kg payload, 15 m/s peak endtip velocity and 1 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "1 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF Ultra High Speed: 4 kg payload, 15 m/s peak endtip velocity and 1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 7-DOF Ultra High Speed",
+        "price": "Not disclosed",
+        "weight": "27 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "7 powered arm axes; optional hand and sensors separate",
+        "payload": "3 kg rated payload for 7-DOF Ultra High Speed; tooling/load conditions not specified",
+        "speed": "15 m/s peak endtip velocity for Ultra High Speed; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "7-axis WAM arm in the manufacturer’s named Ultra High Speed configuration. The current table specifies 27 kg arm mass, 3 kg payload, 15 m/s peak endtip velocity and 2 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "2 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF Ultra High Speed: 3 kg payload, 15 m/s peak endtip velocity and 2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 4-DOF High Payload",
+        "price": "Not disclosed",
+        "weight": "25 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "4 powered arm axes; optional hand and sensors separate",
+        "payload": "8 kg rated payload for 4-DOF High Payload; tooling/load conditions not specified",
+        "speed": "3 m/s peak endtip velocity for High Payload; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "4-axis WAM arm in the manufacturer’s named High Payload configuration. The current table specifies 25 kg arm mass, 8 kg payload, 3 m/s peak endtip velocity and 1 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "1 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF High Payload: 8 kg payload, 3 m/s peak endtip velocity and 1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 7-DOF High Payload",
+        "price": "Not disclosed",
+        "weight": "27 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "7 powered arm axes; optional hand and sensors separate",
+        "payload": "6 kg rated payload for 7-DOF High Payload; tooling/load conditions not specified",
+        "speed": "3 m/s peak endtip velocity for High Payload; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "7-axis WAM arm in the manufacturer’s named High Payload configuration. The current table specifies 27 kg arm mass, 6 kg payload, 3 m/s peak endtip velocity and 2 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "2 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF High Payload: 6 kg payload, 3 m/s peak endtip velocity and 2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 4-DOF High Precision",
+        "price": "Not disclosed",
+        "weight": "25 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "4 powered arm axes; optional hand and sensors separate",
+        "payload": "4 kg rated payload for 4-DOF High Precision; tooling/load conditions not specified",
+        "speed": "3 m/s peak endtip velocity for High Precision; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "4-axis WAM arm in the manufacturer’s named High Precision configuration. The current table specifies 25 kg arm mass, 4 kg payload, 3 m/s peak endtip velocity and 0.1 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "0.1 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF High Precision: 4 kg payload, 3 m/s peak endtip velocity and 0.1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 7-DOF High Precision",
+        "price": "Not disclosed",
+        "weight": "27 kg arm; current all-configuration table, optional tooling separate",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "7 powered arm axes; optional hand and sensors separate",
+        "payload": "3 kg rated payload for 7-DOF High Precision; tooling/load conditions not specified",
+        "speed": "3 m/s peak endtip velocity for High Precision; not base travel or guaranteed full-load speed",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "7-axis WAM arm in the manufacturer’s named High Precision configuration. The current table specifies 27 kg arm mass, 3 kg payload, 3 m/s peak endtip velocity and 0.2 mm repeatability, with 1 m family reach. Gearless cable transmissions support backdrivability and force control; payload, speed and repeatability are separate manufacturer ratings with unspecified joint test conditions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "1000 mm manufacturer-rated reach; current WAM configuration table",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": "0.2 mm manufacturer-rated repeatability; method, load and ISO 9283 conditions not specified"
+      },
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF High Precision: 3 kg payload, 3 m/s peak endtip velocity and 0.2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-3.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://web.barrett.com/files/BarrettSystemComponents.pdf"
+      ],
+      "row": {
+        "category": "robotic-arm",
+        "manufacturer": "Barrett Technology, LLC",
+        "model": "WAM 4-DOF with 3-DOF Active Gimbals",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "research;industrial;programmable;haptics",
+        "handType": "",
+        "dof": "4 arm axes plus 3 active gimbal axes; historical 7-axis gimbals/master package, not standard WAM wrist",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://barrett.com/wam",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historically documented WAM master/haptic configuration combining a four-axis arm with three-axis active gimbals. The manufacturer component matrix separately identifies the active-gimbals assembly and conventional three-axis wrist. This package does not inherit ordinary seven-axis WAM mass, payload, peak velocity, reach or repeatability without exact configuration evidence.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "armReach": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "armRepeatability": ""
+      },
+      "highlights": [
+        "The manufacturer WAM datasheet explicitly names a four-DoF arm with three-DoF gimbals. The system matrix distinguishes the B3763 active gimbals from the B2607 conventional wrist and labels a gimbals/master package.",
+        "The four arm axes and three active gimbal axes describe this package structure. No ordinary seven-axis WAM mass, payload, endpoint reach, repeatability or velocity is transferred to this mechanically different configuration.",
+        "A gimbals-mounted hand controller is an optional component. Historical matrix dates establish documentation context, not product launch, current stock or present support; haptic/master use is not an independently certified clinical indication."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-135/source-8.pdf",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch135. Native manufacturer main content/current WAM table and four linked PDFs hash-checked. Ten explicit degree/configuration combinations retain column ownership; High Speed and Ultra High Speed share a column with distinct peak speeds, not a combined high-payload/high-precision variant. Historical active-gimbals/master package is separate from ordinary seven-axis WAM; no inherited exact mass/payload/end reach. WAM payload, peak endtip speed and repeatability are not assumed simultaneously achieved, ISO-tested or independent absolute accuracy. Body envelope is not workspace volume; 50 W active power is not battery hours. Burt three-plane backdrivability is not a joint count. Optional BurtWrist, BarrettHand, Puck, F/T/tactile sensors, games and BurtCare are not separate robot rows. Burt activity counts18/20 and WAM PDF September2023 versus copyright2034 remain qualified; neither becomes launch year. Prior literal highlights/source URLs/discoveredIn preserved. No visual inspection, media reuse, forms, sign-in, accounts or transactions. Clinical efficacy, regulatory approval, absolute safety, current stock, exclusive superiority and complete historical portfolio remain unproven."
     }
   ]
 }

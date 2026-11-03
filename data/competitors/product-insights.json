@@ -16303,14 +16303,24 @@
       "highlights": [
         "Supports the patient's arm weight during interactive upper-limb activities",
         "Haptic forces can assist or resist movement, with backdrivability in three planes",
-        "Therapist-selected activities and built-in strength assessments provide session scoring"
+        "Therapist-selected activities and built-in strength assessments provide session scoring",
+        "The manufacturer advertises about 60 seconds for base setup and left/right exchange, while optional BurtWrist has its own under-90-second setup claim. These are setup claims, not battery runtime or charging time; three backdrivability planes are not a measured joint count.",
+        "The same page lists eighteen activities in one section and twenty in another. The library count remains unresolved rather than chosen as a single current total; named games are software activities, not robot models.",
+        "Optional BurtWrist adds motorized pronation/supination, graded grip sensing and passive, active, assisted or resisted modes. It is an addition to Burt, not independently identified as another complete base robot.",
+        "Therapists select activity and difficulty, with session scoring and strength-assessment tools. BurtCare covers software/assessment updates, service and subscription support; testimonials and manufacturer regulatory/safety language are not independent clinical efficacy, approval or absolute-safety verification."
       ],
       "sources": [
         {
-          "name": "Barrett Technology, LLC — manufacturer product documentation",
+          "name": "Barrett Technology, LLC — Burt rehabilitation platform and optional BurtWrist",
           "type": "manufacturer",
           "url": "https://barrett.com/burt",
-          "checkedAt": "2026-11-02"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — BurtCare subscription and software updates",
+          "type": "manufacturer",
+          "url": "https://barrett.com/burtcare",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -35659,6 +35669,369 @@
       ],
       "discoveredIn": [
         "https://aethon.com/zena-rx/"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-4-dof-standard",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 4-DOF Standard",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF Standard: 4 kg payload, 3 m/s peak endtip velocity and 1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-7-dof-standard",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 7-DOF Standard",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF Standard: 3 kg payload, 3 m/s peak endtip velocity and 2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-4-dof-high-speed",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 4-DOF High Speed",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF High Speed: 4 kg payload, 5 m/s peak endtip velocity and 1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-7-dof-high-speed",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 7-DOF High Speed",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF High Speed: 3 kg payload, 5 m/s peak endtip velocity and 2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-4-dof-ultra-high-speed",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 4-DOF Ultra High Speed",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF Ultra High Speed: 4 kg payload, 15 m/s peak endtip velocity and 1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-7-dof-ultra-high-speed",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 7-DOF Ultra High Speed",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF Ultra High Speed: 3 kg payload, 15 m/s peak endtip velocity and 2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-4-dof-high-payload",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 4-DOF High Payload",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF High Payload: 8 kg payload, 3 m/s peak endtip velocity and 1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-7-dof-high-payload",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 7-DOF High Payload",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF High Payload: 6 kg payload, 3 m/s peak endtip velocity and 2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-4-dof-high-precision",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 4-DOF High Precision",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 4-DOF High Precision: 4 kg payload, 3 m/s peak endtip velocity and 0.1 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 4-DOF arm is listed at 25 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-7-dof-high-precision",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 7-DOF High Precision",
+      "highlights": [
+        "The current WAM table explicitly gives WAM 7-DOF High Precision: 3 kg payload, 3 m/s peak endtip velocity and 0.2 mm repeatability. These are separate ratings, not a tested simultaneous full-load operating point or absolute positioning accuracy.",
+        "The 7-DOF arm is listed at 27 kg. The shared 1 m reach and reported 3.5 cubic-metre workspace do not give a complete body envelope, while 50 W active power does not establish battery endurance.",
+        "Gearless cable drives support backdrivability, force control and direct-teach/trajectory playback. Hand, force/torque sensors, gimbals and Puck controllers retain component roles; extra finger axes or gripper capacity do not increase the base arm payload. Performance upgrades are kept in their own named configurations."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://barrett.com/wam"
+      ]
+    },
+    {
+      "robotId": "barrett-technology-llc-wam-4-dof-with-3-dof-active-gimbals",
+      "manufacturer": "Barrett Technology, LLC",
+      "model": "WAM 4-DOF with 3-DOF Active Gimbals",
+      "highlights": [
+        "The manufacturer WAM datasheet explicitly names a four-DoF arm with three-DoF gimbals. The system matrix distinguishes the B3763 active gimbals from the B2607 conventional wrist and labels a gimbals/master package.",
+        "The four arm axes and three active gimbal axes describe this package structure. No ordinary seven-axis WAM mass, payload, endpoint reach, repeatability or velocity is transferred to this mechanically different configuration.",
+        "A gimbals-mounted hand controller is an optional component. Historical matrix dates establish documentation context, not product launch, current stock or present support; haptic/master use is not an independently certified clinical indication."
+      ],
+      "sources": [
+        {
+          "name": "Barrett Technology, LLC — system-components matrix, updated 17 January 2019",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/files/BarrettSystemComponents.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — linked WAM family datasheet; contradictory date labels",
+          "type": "manufacturer",
+          "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Barrett Technology, LLC — current WAM configuration table",
+          "type": "manufacturer",
+          "url": "https://barrett.com/wam",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://web.barrett.com/files/BarrettSystemComponents.pdf"
       ]
     }
   ]
