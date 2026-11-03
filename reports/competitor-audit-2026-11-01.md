@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 131 |
+| Firmenfokus-Prüfungen mit Quellen | 132 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1090 ergänzte Modelle ergeben 2.344 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-131 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+132 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1275 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 470 haben ausgewählte Datenfeldprüfungen und 48
+haben datierte Merkmalsbelege; 471 haben ausgewählte Datenfeldprüfungen und 47
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11347,3 +11347,71 @@ Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ur
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben
 unbewiesen.
+
+
+## Ergänzung 137 – Blue Frog Robotics: BUDDY-Paket und widersprüchliche Höhenangaben (3. November 2026)
+
+Buddy Pro+ bleibt eine bestehende Modell-/Paketzeile. Eine neue Prüfung umfasst
+16 Felder: sieben dokumentiert, acht nicht dokumentiert und ein Quellenkonflikt.
+Vier Merkmalsaussagen, vier Produktquellenverweise und ein Firmenfokus kommen hinzu;
+die drei bisherigen Merkmale, Fund-URLs, ID und Medien bleiben erhalten.
+Die übrigen 2.343 Katalogzeilen, 1.209 früheren Feldprüfungen und 131 Firmenfokusse
+sind unverändert. Gesamt: 2.344 Katalogzeilen, 1.275 datierte Merkmalsdatensätze,
+5.663 Aussagen, 2.625 Produktquellenverweise, 1.210 Feldprüfungen mit 22.939 Feldern
+und 132 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben 471 ausgewählte
+Feldprüfungen; 47 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-137-evidence.json`.
+
+Acht HTTP-200-Herstellerantworten einschließlich dreier PDFs sind per Hash geprüft.
+Produkt-Hauptinhalte, Dokumentationsindex und das öffentlich ausgelieferte
+Angebotsmuster sind getrennt abgegrenzt. Eingabefelder werden nicht als Produktbeleg
+verwendet. Es gab nur lesende GET-Abrufe: kein Formularversand und keine Nachricht;
+der im HTML vorbereitete Erfolgstext ist kein Versandbeleg. Keine visuelle Prüfung,
+OCR oder Medienübernahme. Native PDF-Texte sind gegen die gespeicherten Bytes
+geprüft; unbeschriftet extrahierte Diagrammmaße bleiben ausgeschlossen.
+
+Bildungs- und Entwicklerdatenblatt sowie Spezifikationstabelle des Handbuchs
+nennen 560 × 350 × 350 mm und acht Kilogramm für die BUDDY-Plattform. Die aktuelle
+Übersichtsseite nennt 60 cm Höhe. Eine bestimmte Pro+-Hardwareversion oder eine
+belegte Rundungsregel löst diesen Unterschied nicht auf; das Größenfeld behält
+beide Angaben mit Konfliktstatus. Pro+ ist durch das Multi-Application-Angebot
+belegt. Generisches BUDDY, Bildungs-/Entwicklerpakete, TeleBuddy, MyBuddyApp,
+BuddyLab, Buddy Studio, SDK-Abos und Zubehör werden nicht zu weiteren Chassiszeilen.
+
+Das Handbuch nennt bis sechs Stunden Betrieb abhängig von der Nutzung, vorwärts
+höchstens 70 cm/s und rückwärts höchstens 35 cm/s. Die Werte sind ausdrücklich
+Plattformangaben bei nicht festgelegter Pro+-Hardwareversion; weder universelle
+Garantien noch Mission-Durchschnittswerte. Batterieenergie unter 100 Wh ergibt
+keine zweite Laufzeit. Es ist keine numerische Ladezeit belegt. Manuelles
+Anschließen und optionales Selbstparken sind getrennt; letzteres verlangt eine
+fixierte Station und Sichtnähe. Rollender Betrieb, fehlende Treppen-/Türfähigkeit,
+Blindzonen und die im Handbuch deaktivierte Hinderniserkennung bei Fernsteuerung
+bleiben erhalten. Sensorverhalten ist keine Garantie kollisionsfreier oder
+fehlersicherer Navigation. Motoren, Kopfdrehungen, zwei Zubehöranschlüsse und
+Sensor-Nummern begründen keine exakte Gelenkzahl oder serienmäßige Hand.
+
+TeleBuddy auf dem Roboter und MyBuddyApp auf Telefon/Tablet belegen die
+Fernpräsenz-Architektur. Das Angebotsmuster ist weiterhin auf den 28. März 2025
+datiert, einen Monat gültig und nennt EU-Bedingungen ohne Steuer und Versand.
+Seine 2.500-/480-Euro-Zahlen werden nicht als aktuelles vollständiges Angebot
+importiert; Preis bleibt auf Anfrage mit explizitem Ablaufhinweis. Optionen,
+SDK und jährliche Dienste behalten ihre Grenzen. Kindergartenbezug ist keine
+numerische Altersfreigabe; Bildungs-, Therapie-, Emotions- und Notfallbegriffe,
+Referenzberichte und Auszeichnungen belegen weder Bewusstsein, unabhängige
+klinische Wirkung, Notfallüberwachungs-Zulassung noch allgemeine Kindersicherheit.
+Dokument-, Preis- und Award-Daten sind kein Pro+-Erscheinungsjahr.
+
+808 Unit-Tests in 64 Dateien und 18 Browserfälle mit vier Axe-Prüfungen bestehen.
+Build: unverändert 3.395 Seiten. Audit: null Fehler, unverändert 1.221 Warnungen.
+Eine Produktseite, 16 Felder, Konfliktbadge, Quellen, Leerfelder, strukturierte
+Daten, Firmenfokus, Suche und Vergleich sind geprüft. Zwei Modell-Exportzeilen
+mit zusammen 32 Feldstatus-Vorkommen, eine Firmenprodukt-Zuordnung und das
+Queue-Ziel mit 16 Feldern sind nachvollzogen. Reimport: null Ergänzungen,
+32 getrackte Datendateien byteidentisch; Offline-Refresh semantisch idempotent.
+Eigene Testbrowser, Server und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `5860af50b68458158d4013b6dc4b9d2fa775ca3b` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Pro+-Hardwareversion, vollständige historische Portfolios, exklusive USPs
+und Rang Nr. 1 bleiben unbewiesen.
