@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 503 and 15 still awaiting those reviews.
+selected technical-field reviews for 507 and 11 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -464,6 +464,29 @@ physical robot. MQM-178 Firejet is a jet-powered aerial target with 0.69 Mach sp
 a 35,000 ft MSL ceiling, 70 lb internal payload, 130 lb dry weight, 320 lb maximum
 launch weight, pneumatic land or ship launch and parachute recovery. Kratos publishes
 no numeric price, battery endurance, IP rating or navigation accuracy.
+
+Lockheed Martin X-62A VISTA, Loop Robots SAM, Lucid Gravity Robotaxi and Miso
+Robotics Flippy now have selected field reviews. X-62A VISTA is a one-of-a-kind
+variable in-flight simulation test aircraft developed by Lockheed Martin Skunk Works
+with Calspan for the U.S. Air Force Test Pilot School; previously designated
+NF-16D, it was formally redesignated in June 2021, and its open systems
+architecture, Model Following Algorithm and SACS support third-party AI and autonomy
+testing. The 2021 date is a redesignation, not the first flight. SAM is a mobile UV-C
+room-disinfection robot that disinfects a room, including the bathroom, in one
+autonomous run without mapping; staff push it between rooms and start cycles from a
+tablet, and reports upload to a portal. Loop Robots claims a typical 25 m² cGMP
+class B/C/D cleanroom is decontaminated in 15 minutes; SAM is not a medical device
+and is not FDA-authorized for whole-room microbial reduction. The Lucid Gravity
+Robotaxi is a purpose-built autonomous ride-hailing vehicle developed by Lucid, Nuro
+and Uber, with the Nuro Driver, a 360-degree camera/lidar/radar array, NVIDIA DRIVE
+AGX Thor compute, a Halo passenger-identification display and up to six passenger
+seats. The partners announced on-road testing at CES 2026, a 2026 launch, Houston
+service in 2027 and 20,000 or more planned vehicles; up to 450 miles is vehicle
+range, not battery life. Flippy is a wall-powered AI fry station that works with
+Frymaster, Henny Penny and Pitco fryers, starts at 9.5 ft of wall space and is
+claimed to handle 100 baskets per hour versus 50 for human workers. The catalog
+Flippy price, mass and 2017 release date are not supported by the reviewed pages
+and are cleared.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1330,14 +1353,14 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,176 fields across 1280 models, distinguishing documented, undisclosed, conflicting and
+24,247 fields across 1284 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,547 kB JSON response loads only for search or comparison;
+A separate 6,561 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
