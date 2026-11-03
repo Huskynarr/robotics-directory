@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,327 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,331 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,712 fields across 1311 models, distinguishing documented, undisclosed, conflicting and
+24,784 fields across 1315 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,650 kB JSON response loads only for search or comparison;
+A separate 6,662 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,112 reviewed highlight statements as well as
+Catalog search now includes all 6,132 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1643,3 +1643,17 @@ Catalog prices of 1,700, 1,200, 2,000 and 1,600 USD, the L40 mass of about 4 kg
 and the X50 runtime of 210 minutes are replaced by the reviewed values. Matrix10 and
 Aqua10 publish no full-charge runtime; Aqua10 lists only top-up runs. No reviewed page
 publishes a dB noise rating, an absolute charging time, payload or an IP rating.
+
+Roborock's Saros 10, Qrevo Edge, Qrevo Slim and Saros 10R now have selected
+field reviews. The manufacturer publishes a 1,299.99 USD price against 1,599.99 USD
+list, 22,000 Pa, 350 x 353 x 79.8 mm, 6,400 mAh, 2.5-hour charging and
+52 dB(A) quiet mopping for the Saros 10; 1,599.99 USD, 18,500 Pa, 3.9 kg and
+353 x 348 x 104 mm for the Qrevo Edge; 1,399.99 USD, 11,000 Pa, 5,200 mAh,
+82 mm height and 9.04 lbs published robot mass for the Qrevo Slim; and
+1,099.99 USD against 1,599.99 USD list, 4.1 kg, 6,400 mAh and 2.5-hour charging
+for the Saros 10R. The published Saros 10 mass of 36.38 +/- 0.66 lbs and the
+Qrevo Slim 9.04 lbs conflict with the catalog 4.1 kg and 5 kg and stay visible;
+the Saros 10R robot dimension string is internally inconsistent and is not recorded.
+Catalog prices of 1,600, 1,599, 1,400 and 1,600 USD and the Qrevo Edge catalog
+runtime of 240 minutes are replaced by the reviewed values. No reviewed page publishes
+a full-charge runtime, payload, travel speed, water tank capacity or IP rating.
