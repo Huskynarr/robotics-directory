@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,444 fields across 1295 models, distinguishing documented, undisclosed, conflicting and
+24,524 fields across 1299 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,596 kB JSON response loads only for search or comparison;
+A separate 6,610 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,032 reviewed highlight statements as well as
+Catalog search now includes all 6,052 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1596,3 +1596,13 @@ Licensed under the MIT License - see [LICENSE](LICENSE).
 ## Contact
 
 For feedback and inquiries, reach out via [@Huskynarr](https://x.com/Huskynarr) on X.
+
+LionsBot's R5, R3 Scrub Pro, R3 Vac and R12 Rex CS now have selected field
+reviews. The manufacturer publishes 200 kg mass and 690 x 690 x 1,125 mm for the
+R5, 85.5 kg and 635 x 570 x 828 mm for the R3 Scrub Pro, and 53 kg and
+521 x 482 x 655 mm for the R3 Vac, with tank capacities, cleaning widths,
+efficiency, runtime, charging and noise for each current machine. The R12 Rex CS is a
+separate 2023 sweeper-scrubber with a 1,270 mm cleaning width, up to 95 kg brush
+pressure, 200 m 3D LiDAR and up to 100,000 square feet per charge. Unsupported
+catalog prices of about 75,750 USD and about 140 USD per month and unsupported
+420/600/300-minute runtimes are cleared rather than repeated.
