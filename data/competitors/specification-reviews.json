@@ -142514,6 +142514,118 @@
           "note": "Swappable battery does not establish exact recharge or swap duration."
         }
       }
+    },
+    {
+      "robotId": "construction-robotics-sam100",
+      "manufacturer": "Construction Robotics",
+      "model": "SAM100",
+      "sources": [
+        {
+          "name": "University of Nevada,Reno — 2018 project-owner SAM100 deployment report",
+          "type": "deployment",
+          "url": "https://www.unr.edu/nevada-today/news/2018/semi-automated-mason-robot",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Clark Construction — Superstructure Winter2015 firsthand SAM100 project report",
+          "type": "deployment",
+          "url": "https://www.clarkconstruction.com/sites/default/files/2023-01/Superstructure%20-%20Winter%202015%20-%20WEB.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-141/source-4.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed; current complete-system quote or sales availability not established",
+          "status": "documented",
+          "note": "The 35.5 million USD figure is the University Arts Building project cost, not robot price. Current 1465 USD/month financing belongs to MULE arm under its own conditions, not SAM100."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "MZ100 367 kg/340 kg masses belong to three/two-link hand-guided lifts; not SAM100 mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Building area, brick quantities, first-five-feet manual-work allowance and MULE dimensions do not establish robot outer dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "MULE 30 h/32 h battery ratings are not SAM100 endurance; no exact SAM100 battery runtime established."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "2018 project-month schedule and brick rate do not establish continuous robot runtime."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Robotic brick handling/mortar application is documented but exact gripper/tool model and interchangeability are not established."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact SAM100 independent joint/task count established from arm photographs, laser guidance or MULE link counts."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Brick quantities and MULE 100 lb/200 lb lifting claims do not establish SAM100 rated payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "About 8 seconds/brick is a site cycle observation, not linear travel speed. It is not converted into sustained 450 bricks/h."
+        },
+        "terrain": {
+          "value": "Prepared scaffold-based masonry workflow on long, uninterrupted wall sections; crews set up and align the installation",
+          "status": "documented",
+          "note": "Explicit historical project/deployment value or workflow with date and source role retained; not a current manufacturer datasheet or independent performance test."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact SAM100 value established by the selected historical deployment reports. Current MULE ratings, building dimensions, project schedule and site results do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact SAM100 value established by the selected historical deployment reports. Current MULE ratings, building dimensions, project schedule and site results do not establish this field."
+        },
+        "website": {
+          "value": "https://www.unr.edu/nevada-today/news/2018/semi-automated-mason-robot",
+          "status": "documented",
+          "note": "Explicit historical project/deployment value or workflow with date and source role retained; not a current manufacturer datasheet or independent performance test."
+        },
+        "description": {
+          "value": "Historical Semi-Automated Mason robot documented by Clark on its Lab School of Washington project in Winter 2015 and by the University of Nevada, Reno on its Arts Building in August 2018. A material feeder supplies bricks to a robotic arm for mortar application and laser-referenced placement. Crews set up, program, load and finish work and handle interruptions, corners and openings. Project-specific throughput is distinct from travel speed and guaranteed shift output. Current MULE lift-assist ratings are not SAM100 specifications; present sales/support remain unverified.",
+          "status": "documented",
+          "note": "Explicit historical project/deployment value or workflow with date and source role retained; not a current manufacturer datasheet or independent performance test."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Winter 2015 contractor issue proves historical deployment by that period, not exact initial release; 2018 article is a later deployment, not launch."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "MULE overview 3 h versus MZ-specific 3.5 h pertains to different equipment, not SAM100."
+        },
+        "driveMode": {
+          "value": "Programmed robotic brick placement with laser reference on prepared scaffolding; human setup, loading, alignment and finishing",
+          "status": "documented",
+          "note": "Explicit historical project/deployment value or workflow with date and source role retained; not a current manufacturer datasheet or independent performance test."
+        },
+        "throughput": {
+          "value": "200-250 bricks/h quoted in the August 2018 University of Nevada project report; not a guaranteed whole-shift or current-model rating",
+          "status": "documented",
+          "note": "Owner report separately says about 8 s/brick and 200-250 bricks/h; these scopes are not combined into a sustained 450/h rating. Human loading, finishing and downtime prevent cycle arithmetic from proving whole-shift output."
+        }
+      }
     }
   ]
 }

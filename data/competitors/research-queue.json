@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T09:39:32.972Z",
+  "generatedAt": "2026-11-03T09:49:08.856Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 474,
-    "withoutSelectedFieldReview": 44,
-    "selectedFields": 8709,
+    "withSelectedFieldReview": 475,
+    "withoutSelectedFieldReview": 43,
+    "selectedFields": 8727,
     "selectedFieldStatuses": {
-      "documented": 3462,
-      "not-documented": 5043,
+      "documented": 3468,
+      "not-documented": 5055,
       "conflicting": 186,
       "roadmap": 18
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 130,
+    "sourceGroupsWithCompanyAuthoredFocus": 131,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -281,26 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "construction-robotics",
-      "name": "Construction Robotics",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/construction-robotics"
-      ],
-      "catalogModels": 1,
-      "reviewedReferenceTargets": 1,
-      "withDatedHighlights": 1,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "construction-robotics-sam100"
-      ]
-    },
     {
       "brandId": "daifuku",
       "name": "Daifuku",
@@ -3728,6 +3708,26 @@
       "robotIds": [
         "coco-robotics-coco-2"
       ]
+    },
+    {
+      "brandId": "construction-robotics",
+      "name": "Construction Robotics",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/construction-robotics"
+      ],
+      "catalogModels": 1,
+      "reviewedReferenceTargets": 1,
+      "withDatedHighlights": 1,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "construction-robotics-sam100"
+      ]
     }
   ],
   "companies": [
@@ -5702,10 +5702,10 @@
       "reviewedReferenceTargets": 1,
       "withDatedHighlights": 1,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "construction-robotics-sam100"
       ]
@@ -21161,24 +21161,43 @@
       "brandId": "construction-robotics",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "University of Nevada, Reno — owner of the documented construction project",
+          "name": "University of Nevada,Reno — 2018 project-owner SAM100 deployment report",
           "type": "deployment",
           "url": "https://www.unr.edu/nevada-today/news/2018/semi-automated-mason-robot",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Clark Construction — Superstructure Winter2015 firsthand SAM100 project report",
+          "type": "deployment",
+          "url": "https://www.clarkconstruction.com/sites/default/files/2023-01/Superstructure%20-%20Winter%202015%20-%20WEB.pdf",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 18,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 6,
+        "not-documented": 12,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "University of Nevada,Reno — 2018 project-owner SAM100 deployment report",
+          "type": "deployment",
+          "url": "https://www.unr.edu/nevada-today/news/2018/semi-automated-mason-robot",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Clark Construction — Superstructure Winter2015 firsthand SAM100 project report",
+          "type": "deployment",
+          "url": "https://www.clarkconstruction.com/sites/default/files/2023-01/Superstructure%20-%20Winter%202015%20-%20WEB.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",
