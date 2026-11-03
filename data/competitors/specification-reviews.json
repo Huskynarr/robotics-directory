@@ -147166,6 +147166,340 @@
           "note": "No exact configuration-specific whole-robot value established in reviewed native material. System,station,object andcomponent ratings are not substituted."
         }
       }
+    },
+    {
+      "robotId": "farmdroid-fd20",
+      "manufacturer": "FarmDroid",
+      "model": "FD20",
+      "sources": [
+        {
+          "name": "FarmDroid — current FD20 specifications",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/products/farmdroid-fd20/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — 2026 FD20 factsheet, labeled 2025 v2.6",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/wp-content/uploads/Factsheet-FD20-metricimperial-2026.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — 2025 FD20 factsheet, labeled 2025 v2.5",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/wp-content/uploads/Factsheet-FD20-metricimperial-2025.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — historical 2023 FD20 factsheet",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/wp-content/uploads/Factsheet-FD20-Metricimperial-2023.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — model-specific operating and camera FAQs",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/faq/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — optional FD20 +Spray capabilities and compatibility",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/products/mikrospray-system/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — Power Bank capacity and dedicated charger",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/products/power-bank/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — +Seed 14 mm compatibility and validation",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/new-bigger-seeding-system/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — mechanical weeding tools and crop-coordinate requirement",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/products/mechanical-weeding-system/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — product overview with differing daily-capacity claim",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/products/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — five-year anniversary, March 30, 2023",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/news/farmdroid-turns-5-years/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — model-specific energy and operating advantages",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/advantages/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — July 16, 2024 milestone and black limited edition",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/news/celebrating-500-robots-now-working-worldwide/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-148/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Configuration and local-partner quotation; no numeric public complete-system price established",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "weight": {
+          "value": "1250 kg standard current configuration; up to 1800 kg with extras in v2.6 factsheet",
+          "status": "documented",
+          "note": "The current v2.6 factsheet gives 1250 kg standard and 1800 kg maximum with extras. The historical 2023 sheet gives 900 kg and 1050 kg total. Historical mass is not assigned to current hardware. The metric field contains no imperial token that could trigger unintended conversion."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The original 18-24 hour value describes daily operation with ongoing solar input. No exact current FD20 endurance on one onboard battery charge is established. Optional Power Bank runtime is separate."
+        },
+        "maxRuntime": {
+          "value": "18-24 hours of daily field operation with solar input; weather and task dependent,not one-charge endurance",
+          "status": "documented",
+          "note": "The daily operating window depends on solar input, weather, soil and task. It is not a battery-only test or an unconditional 24-hour guarantee."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "speed": {
+          "value": "950 m/hour maximum highly automated mode; 1100 m/hour maximum manual mode in current factsheet",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "terrain": {
+          "value": "Prepared row-crop soil; avoid rocky,muddy or flooded ground. FD20 slopes depend on Active Front Wheel configuration and soil conditions",
+          "status": "documented",
+          "note": "Current FD20 guidance distinguishes 8 percent pitch and 5 percent roll without Active Front Wheel from 10 percent on both axes with it, conditional on soil and wetness. These are percentage grades, not degree angles. FD60 limits are not inherited."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "website": {
+          "value": "https://farmdroid.com/products/farmdroid-fd20/",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "description": {
+          "value": "FD20 is FarmDroid’s solar-powered seeding and mechanical-weeding platform,first sold commercially in 2019. It records planted seed coordinates using RTK GPS to weed between rows and plants before emergence. Current configurations support 2-12 rows and up to 3.5 m working width,with different small- and large-seed modules. Optional +Spray adds targeted liquid application; solar operating windows and additional Power Bank energy are distinct from one-charge endurance. Older FD20 mass,width and capacity figures describe dated configurations.",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "releaseDate": {
+          "value": "2019",
+          "status": "documented",
+          "note": "The company timeline and March 30, 2023 anniversary release both place first commercial FD20 sales in 2019. The 2025 v2.5/v2.6 revision labels do not identify the first family launch."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The Power Bank page gives 10-12 hours for its dedicated charger. This optional accessory value is not established full-robot recharge time. No charging duration is calculated from ambiguous power/energy wording."
+        },
+        "workingWidth": {
+          "value": "Up to 3.5 m working width in current configuration; not outer chassis width",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "areaRate": {
+          "value": "Current detail page and v2.6 factsheet: up to 6 ha/day; live product overview: up to 6.5 ha/day",
+          "status": "conflicting",
+          "note": "The current detailed product page and 2026 v2.6 sheet say up to 6 ha/day. The live /products/ overview says 6.5 ha/day without a matching configuration; that discrepancy remains conflicting. The 2025 v2.5 value of 5 ha and 2023 value of 6.5 ha remain historical."
+        },
+        "navigationAccuracy": {
+          "value": "Manufacturer claims 8 mm RTK GPS seed-position precision; not independently established whole-route RMS accuracy",
+          "status": "documented",
+          "note": "The claimed 8 mm RTK GPS precision describes seeding and remembered plant coordinates. No independent RMS navigation test or absolute accuracy standard is provided."
+        },
+        "driveMode": {
+          "value": "Battery-electric field robot with onboard solar charging; stores seeded coordinates for automatic weeding",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        }
+      }
+    },
+    {
+      "robotId": "farmdroid-fd60",
+      "manufacturer": "FarmDroid",
+      "model": "FD60",
+      "sources": [
+        {
+          "name": "FarmDroid — FD60 specifications and planned January 2027 deliveries",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/products/farmdroid-fd60/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — current robot portfolio",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — model-specific operating and camera FAQs",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/faq/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — company and robot timeline",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/our-story/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — June 18, 2026 larger-platform delivery forecast",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/news/farmdroid-field-robot-featured-in-award-winning-clarksons-farm-autonomous-seeding-and-weeding-robot-in-the-spotlight-on-prime-video-series/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FarmDroid — +Seed 14 mm compatibility and validation",
+          "type": "manufacturer",
+          "url": "https://farmdroid.com/new-bigger-seeding-system/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-148/source-2.html",
+      "fields": {
+        "price": {
+          "value": "Orders open by configuration quotation; deliveries planned from January 2027",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact whole-FD60 mass is established in the reviewed native text. FD20 1250 kg and generic lighter-than-tractor claims are not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 6.75 m figure is working width and 4.60-6.70 m is wheel spacing. Neither establishes complete outer dimensions."
+        },
+        "batteryLife": {
+          "value": "Up to 10 hours of operation from the 23.5 kWh onboard battery; manufacturer estimate,task dependent",
+          "status": "documented",
+          "note": "The native FD60 battery block pairs 23.5 kWh with up to 10 operating hours. This supplier estimate is separate from 24 hours per day with solar and petrol-generator input. No independent endurance test was reviewed."
+        },
+        "maxRuntime": {
+          "value": "Up to 24 hours per day with solar and petrol Range Extender energy input; not one-charge endurance",
+          "status": "documented",
+          "note": "Up to 24 hours per day includes replenishment from solar and the Range Extender. It is not one-charge endurance, zero emissions or FD20 solar-only operation."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The manufacturer calls FD60 faster and describes three times the seasonal capacity. No exact numeric FD60 travel rate is established. FD20 950/1100 m/hour is neither inherited nor multiplied."
+        },
+        "terrain": {
+          "value": "Prepared row-crop fields; local partner confirms bed,tramline and crop configuration. Exact FD60 slope and ingress ratings unverified",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific whole-robot value established in reviewed native text; ratings of other models,accessories and continuous operation are not substituted."
+        },
+        "website": {
+          "value": "https://farmdroid.com/products/farmdroid-fd60/",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "description": {
+          "value": "FD60 is FarmDroid’s larger battery-driven seeding and mechanical-weeding platform,introduced in autumn 2026 with customer deliveries planned from January 2027. It supports up to 20 rows and 6.75 m working width,using the 14 mm seeding system and stored RTK GPS seed coordinates. Solar charging is supplemented by a petrol generator that recharges the battery. It does not support the FD20 +Spray option. Daily and seasonal area targets are planning claims; orders do not prove delivered units.",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "releaseDate": {
+          "value": "2027",
+          "status": "roadmap",
+          "note": "Roadmap: orders are open and the current product page plans delivery from January 2027. Autumn 2026 is introduction, not verified shipment. The June 18, 2026 announcement of an unnamed larger platform expected spring 2027; month differs, year agrees. No customer FD60 delivery is established as of November 3, 2026."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "A 3 kW generator and 23.5 kWh battery do not establish full-charge duration: charging conditions, concurrent work and losses are unspecified."
+        },
+        "workingWidth": {
+          "value": "Up to 6.75 m working width; 4.60-6.70 m wheel spacing is separate from outer body dimensions",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "areaRate": {
+          "value": "Up to 18 ha/day; around 60 ha per crop per season is a separate nominal planning capacity",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        },
+        "navigationAccuracy": {
+          "value": "Manufacturer claims 8 mm RTK GPS seed-position precision; not an independent whole-route accuracy test",
+          "status": "documented",
+          "note": "The 8 mm value is a manufacturer GPS seed-coordinate precision claim, not an independent all-condition RMS navigation accuracy test."
+        },
+        "driveMode": {
+          "value": "Battery-electric drive; onboard solar and automatic petrol generator charge the battery. Generator does not directly drive the robot",
+          "status": "documented",
+          "note": "Configuration-specific manufacturer statement, with operating conditions retained; not independently tested performance or confirmed availability."
+        }
+      }
     }
   ]
 }
