@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,374 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,378 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,542 fields across 1358 models, distinguishing documented, undisclosed, conflicting and
+25,610 fields across 1362 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,789 kB JSON response loads only for search or comparison;
+A separate 6,801 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,347 reviewed highlight statements as well as
+Catalog search now includes all 6,367 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1832,4 +1832,20 @@ weight for the Winbot W3 Omni. Catalog prices of about 500, 349, about 400 and
 180 min runtime values are replaced or cleared. No reviewed page publishes robot
 dimensions or mass for either WINBOT, travel speed, an IP rating, a cleaning
 width or a payload.
+
+ECOVACS's Winbot Mini 2, GOAT O1000 RTK, GOAT GX-600 and Winbot W2S Omni
+now have selected field reviews. The manufacturer publishes 215 x 215 x 55 mm,
+1.3 +/- 0.1 kg, 8,000 Pa maximum and 3,400 Pa moving suction, a 50 +/- 5 ml
+water tank and a 3,000 mAh battery that charges in about 3 hours for the
+Winbot Mini 2; 23.62 x 15.75 x 10.35 in, 24.25 lb, an 8.66 in cut, 45% slopes,
+a 4,000 mAh 18 V battery, about 100 min charging, about 65 min mowing and
+57 dBA for the GOAT O1000 RTK; a 22 cm blade disc at 2,300 rpm, 40% slopes,
+IPX6, 59 dB or lower, 600 m2 within 2 days and about 70-100 m2 per charge for
+the GOAT GX-600; and 270 x 270 x 76 mm, 1.95 +/- 0.1 kg, a 4,500 mAh
+battery, up to 3 hours charging, 110 min runtime, an 80 +/- 5 ml tank and
+68 dB for the Winbot W2S Omni. Catalog prices of about 200, 1000, 1300 and
+600 USD, the small and medium size labels, the 1.3 kg, ~10 kg and 20 kg masses,
+the ~2 hour, 85 min and 110 min battery labels and the 180 min runtime values
+are replaced or cleared. The GOAT GX-600 page publishes no price, mass,
+dimensions, battery capacity, charging time or runtime in minutes.
 
