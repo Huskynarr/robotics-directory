@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,346 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,350 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,054 fields across 1330 models, distinguishing documented, undisclosed, conflicting and
+25,126 fields across 1334 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,708 kB JSON response loads only for search or comparison;
+A separate 6,720 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,207 reviewed highlight statements as well as
+Catalog search now includes all 6,227 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1722,3 +1722,21 @@ size and 2,600 Pa label, the Winbot Mini 21.5 x 21.5 x 5.5 cm size and 1.3 kg ma
 and the X11 Pro Omni medium size and not-disclosed values are replaced or cleared
 by the reviewed values. No reviewed page publishes a robot price, payload, travel speed,
 water tank capacity or IP rating.
+
+Dreame's X30 Ultra, L40s Ultra, L50 Ultra and X40 Master now have selected
+field reviews. The manufacturer publishes 8,300 Pa, 350 x 350 x 97 mm,
+6,400 mAh and 899.99 USD for the X30 Ultra; 19,000 Pa, 350 x 350 x 97 mm,
+4.1 kg (9.04 lbs) and 499.99 USD for the L40s Ultra; 19,500 Pa,
+348 x 352 x 97 mm, 4.44 kg, 6,400 mAh, up to 200 min in Quiet Mode and
+899.99 USD for the L50 Ultra; and 12,000 Pa, 350 x 350 x 103.8 mm, 4.07 kg,
+6,400 mAh, 198 min in Standard Mode and 1,299.99 USD for the X40 Master.
+The X30 Ultra specification table lists 180 min runtime while its page text
+claims up to 260 min, so the value is marked conflicting. The L40s Ultra page
+publishes no runtime in minutes and only claims faster charging, and the L50 Ultra
+and X40 Master pages claim 30 percent faster charging without an absolute time.
+The base stations hold 4.5 L clean and 4.0 L dirty water tanks; the X30 Ultra
+adds a 3.2 L dust bag and an 80 ml robot tank, and the X40 Master a 4.2 L dust
+bag and a robot tank of at least 80 ml. Catalog prices of about 900, 600 and
+950 USD and 1299 USD, the small size labels, the L40s 180 min runtime and the
+X40 200 min runtime are replaced or cleared by the reviewed values. No reviewed
+page publishes a robot net weight for the X30 Ultra, payload, travel speed or IP rating.
