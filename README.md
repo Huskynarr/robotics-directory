@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 482 and 36 still awaiting those reviews.
+selected technical-field reviews for 483 and 35 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -373,6 +373,15 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
+a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
+in September 2026; unverified catalog price, mass, payload and speed claims are removed.
+Figure 03 current specifications reflect the manufacturer page: 5 ft 8 in height,
+61 kg mass, 20 kg payload, 1.2 m/s speed and five hours at peak performance from a
+2.3 kWh pack, with 2 kW inductive foot charging. Over 350 produced units and BMW
+Hall 52 sequencing demonstrations remain company-reported milestones, not proven customer
+deliveries or independent autonomy benchmarks. Helix AI systems are kept distinct from robot models.
 
 FarmDroid FD20 and FD60 now have field-level reviews. FD20 historical configuration
 ratings stay dated; its daily-capacity disagreement remains conflicting. Solar
@@ -1230,20 +1239,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-23,745 fields across 1256 models, distinguishing documented, undisclosed, conflicting and
+23,799 fields across 1259 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,444 kB JSON response loads only for search or comparison;
+A separate 6,460 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,834 reviewed highlight statements as well as
+Catalog search now includes all 5,850 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing

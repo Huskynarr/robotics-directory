@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,378 catalog rows**, with 646 exact
-manufacturer spellings. Batch 148 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 149 refreshed the separate heuristic gap file offline
 against all 2,378 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 482 have selected-field reviews and 36 await those reviews. Family and
+highlights; 483 have selected-field reviews and 35 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,745 fields across 1256 catalog models: 8,721 documented,
-14,600 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
+Selected specification checks cover 23,799 fields across 1259 catalog models: 8,742 documented,
+14,633 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -10250,3 +10250,52 @@ Daten-Zwischencommit `bd0dbe4d5aac45a9bfd893d672e1735bd8858e25` ist auf `codex/c
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Revisionsgeschichte,
 vollständige Portfolios, alle USPs und Marktführerschaft sind weiterhin unbewiesen.
+
+
+## Ergänzung 149 – Figure: Generationsabgrenzung, Produktions- und BMW-Einsatzdaten (3. November 2026)
+
+Figure 01, Figure 02 und Figure 03 sind vertieft, ohne neue Roboterzeilen aus KI-Systemen
+(Helix, Helix 02, Helix 2.5) oder Bauteilen abzuleiten. Drei Prüfungen umfassen 54 Felder:
+21 dokumentiert und 33 nicht dokumentiert (darunter entfernte unbelegte Katalogpreise und -werte).
+Hinzu kommen 16 Merkmalsaussagen, zwölf zusätzliche Produktquellenverweise und eine Vertiefung
+des bestehenden Figure-Firmenfokus. Alle drei bisherigen Merkmale von Figure 03, Fund-URLs, IDs
+und Medien bleiben erhalten. 2.375 andere Katalogzeilen, 1.256 frühere Feldprüfungen und 142
+andere Firmenfokusse sind unverändert. Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze,
+5.850 Aussagen, 2.804 Produktquellenverweise, 1.259 Feldprüfungen mit 23.799 Feldern und 143
+Firmenfokusse. Von 518 ursprünglichen Queue-Zielen sind 483 technisch teilgeprüft; 35 bleiben offen.
+Dauerbeleg: `reports/competitor-batch-149-evidence.json`.
+
+17 HTTP-Antworten sind gehasht gesichert und geprüft: 14 mit HTTP 200 (Herstellerseiten,
+Nachrichtenartikel und PRNewswire-Erstmitteilungen) sowie drei dokumentierte 404-Pfade für alte
+Einführungsseiten, die ausgeschlossen wurden. Alle Quellen sind als Text gelesen; kein
+Recherchebrowser, keine visuelle Prüfung, OCR oder Medienübernahme. Keine Formulare, Konten,
+Kontaktaufnahme, Nachrichten oder Transaktionen.
+
+Die Herstellerhistorie grenzt drei Generationen klar ab: Figure 01 wurde am 2. März 2023 enthüllt
+und machte laut Firmenzeitleiste im Mai 2023 erste Schritte. Die Batterie saß in einem externen
+Rucksack; Masse, Nutzlast, Geschwindigkeit und Laufzeit wurden im Erstmaterial nicht beziffert.
+Frühere Katalogwerte (60 kg, 20 kg, 1,2 m/s, 41 DOF, 300 min, 150.000 USD) hatten keine geprüfte
+Herstellergrundlage und wurden entfernt.
+
+Figure 02 wurde am 6. August 2024 vorgestellt. Die Mitteilung belegt einen 2,25-kWh-Rumpfakku,
+sechs RGB-Kameras, Hände der vierten Generation mit 16 Freiheitsgraden je Hand und dreifache
+Bordrechenleistung gegenüber Figure 01. Der elfmonatige BMW-Einsatz in Spartanburg lief im
+Zehnstundenschichtbetrieb, belud über 90.000 Blechteile, sammelte über 1.250 Laufzeitstunden und
+begleitete über 30.000 BMW X3. Die 5 mm Platziergenauigkeit in zwei Sekunden, über 99 Prozent
+Schichterfolg und null Interventionen waren gestellte Anforderungen und Zielwerte, keine unabhängig
+nachgewiesenen Dauermessungen. Die kumulierten 1.250 Stunden sind keine MTBF. Figure kündigte die
+Stilllegung am 19. November 2025 an; bis zum 30. September 2026 wurden fast alle Einheiten stillgelegt
+und in Finnland eingeschmolzen. Figure 02 ist eine historische, nicht mehr lieferbare Generation.
+Frühere Katalogwerte (70 kg, 20 kg, 1,2 m/s, ~6 h, 130.000 USD) wurden bereinigt.
+
+Figure 03 wurde am 9. Oktober 2025 vorgestellt und ist für Haushalt und Industrie konzipiert.
+Die aktuelle Herstellerseite nennt 5 ft 8 in Körpergröße (etwa 173 cm; die alte 168-cm-Katalogangabe
+war ungenau und ist abgelöst), 61 kg Masse, 20 kg Nutzlast, 1,2 m/s Geschwindigkeit und fünf
+Stunden Laufzeit bei Spitzenleistung aus einem 2,3-kWh-Akku. Induktive Fußspulen laden mit 2 kW;
+die Laderate ist keine Vollladedauer. Greifkraftsensoren erfassen Kräfte ab drei Gramm; Handballen-
+kameras und nachgiebige Fingerspitzen unterstützen das Greifen. UN38.3 wird als erreicht beschrieben,
+während UL2271 in Bearbeitung bleibt. Am 29. April 2026 meldete Figure über 350 produzierte Figure 03
+aus der Fabrik BotQ bei einer Rate von einem Roboter pro Stunde und über 80 Endprüfungen je Einheit.
+Produzierte Einheiten sind keine Kundenauslieferungen. Der am 30. Juni 2026 gemeldete Einsatz in Halle 52
+des BMW-Werks Spartanburg ist eine erste Ablauf-Demonstration (Sequencing), kein Nachweis einer breiten
+Flottenautonomie. Helix, Helix 02 und Helix 2.5 sind KI-Modelle, keine Robotergenerationen.
