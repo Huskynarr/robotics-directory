@@ -145834,6 +145834,262 @@
           "note": "Named-generation or qualified historical manufacturer statement; current operation,stock and independent performance are not established."
         }
       }
+    },
+    {
+      "robotId": "dusty-robotics-fieldprinter-2",
+      "manufacturer": "Dusty Robotics",
+      "model": "FieldPrinter 2",
+      "sources": [
+        {
+          "name": "Dusty Robotics — current FieldPrint Platform; legacy product URL redirects",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/fieldprint-platform",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — issuer FieldPrinter 2 announcement, January 23, 2024",
+          "type": "manufacturer",
+          "url": "https://www.prnewswire.com/news-releases/dusty-robotics-unveils-second-generation-robot-and-comprehensive-bim-to-field-automated-workflow-302041417.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — usage-based pricing and included equipment/training",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/pricing",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — Floor Elevation blog, October 19, 2026",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/blog/floor-elevation",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Performance Motion Devices — FieldPrinter 2 motion-control integration case study",
+          "type": "integrator",
+          "url": "https://info.pmdcorp.com/hubfs/Resources/Articles%20and%20Papers/dusty-robotics-case-study.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/fieldprinter",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-145/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Usage-based service; numeric public quote not established; manufacturer lists North America",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        },
+        "weight": {
+          "value": "Approximately 10.43 kg including battery, converted from January 2024 launch specification",
+          "status": "documented",
+          "note": "Jan23,2024issuer release:23lb including battery.23×0.45359237=10.43262451kg,rounded10.43kg. Metric field contains no lb token;not robot-kit shipping mass or current independent weighing."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact current dimensions appear only in blocked support search previews in this review;not imported or inferred from PMD controller footprint."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "PowerHold during batteryreplacement does not establish per-pack runtime. Search-index2–3h statement not read in native support body,so field remains omitted."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Single-axis PMD drive describes an actuator controller,not total mechanical robotDOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Printhead,inkcartridge,tracker and transportkit weights do not establish carrying/lifting payload."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Up-to10xlayoutproductivity is not travel speed,print-line velocity or a universal floorarea/hour rate."
+        },
+        "terrain": {
+          "value": "Construction jobsite floors with prepared coordinated models and external tracking; exact current environmental/IP limits not established",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact IP rating established in native available material. Blocked preview labels are not imported;weather anecdotes are not waterproofing certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "website": {
+          "value": "https://www.dustyrobotics.com/fieldprint-platform",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        },
+        "description": {
+          "value": "FieldPrinter 2 is Dusty Robotics’ second-generation commercial layout robot, announced in January 2024. It prints coordinated digital models at full scale on jobsite floors, controlled by a single operator through an iPad workflow with external laser tracking. Layout-to-model accuracy is stated as one-sixteenth of an inch. The current service includes hardware, platform access and implementation; exact current physical/range/runtime limits are not verified from the blocked support material.",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        },
+        "releaseDate": {
+          "value": "2024",
+          "status": "documented",
+          "note": "January23,2024issuer announcement establishes commercialFP2 introduction year. An older2024GAheadline and nativeOctober19,2026FloorElevationGAmetadata concern separate/unclear feature milestones;not reconciled into one shipment date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact charging duration established by available native primary sources;blocked support preview not imported."
+        },
+        "driveMode": {
+          "value": "Autonomous layout printing under single-operator iPad control with external laser tracking; supplier describes active front-wheel drives and passive rear wheel",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        }
+      }
+    },
+    {
+      "robotId": "dusty-robotics-fieldprinter-1",
+      "manufacturer": "Dusty Robotics",
+      "model": "FieldPrinter 1",
+      "sources": [
+        {
+          "name": "Dusty Robotics — issuer first-generation history, June 15, 2021",
+          "type": "manufacturer",
+          "url": "https://www.prweb.com/releases/dusty-robotics-raises-16-5m-in-series-a-funding-863794545.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — public FieldPrinter 1 retirement post, May 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.linkedin.com/posts/dusty-robotics_dustyrobotics-fieldprinter-constructiontech-activity-7462165288415899649-b7Fp",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — founder production account, November 19, 2020",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/blog/going-production",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — publicly retrievable historical working guide, April/June 2021",
+          "type": "manufacturer",
+          "url": "https://assets.website-files.com/619c2ebe3697c43076ded423/619d48fa22bea1f613b1a5c9_1%20-%20Working%20with%20Dusty%20Guide.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — Amber development account, July 16, 2020",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/blog/getting-dusty-in-the-field",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-145/source-7.html",
+      "fields": {
+        "price": {
+          "value": "Historical first-generation platform; retirement announced May 2026; no current commercial quote established",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "FieldPrinter2Jan2024mass not inherited;no exact original-generation mass established."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Sparebatteries and daylongscheduledcrewservice do not establish continuous single-charge runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "terrain": {
+          "value": "Historical construction-floor workflow; 2021 system guide excluded standing water and active rain, with surveyed control and manual layout of unreachable areas",
+          "status": "documented",
+          "note": "Publicly retrievable2021issuerPDF has mixed April/June revision footers and Confidentialmarking. Only qualified historical facts are paraphrased;not a claim of present operating limits or redistribution rights."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "website": {
+          "value": "https://www.prweb.com/releases/dusty-robotics-raises-16-5m-in-series-a-funding-863794545.html",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        },
+        "description": {
+          "value": "FieldPrinter 1 is the original commercial Dusty layout-printing generation, called FieldPrinter in early issuer material. A June 2021 release dates its first rollout to fall 2020, and Dusty announced its retirement in a public May 2026 post. It translated coordinated digital plans into full-scale construction-floor markings. Early development codenames and later FieldPrinter 2 physical, sensing and battery specifications are not silently merged into this original generation.",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        },
+        "releaseDate": {
+          "value": "2020",
+          "status": "documented",
+          "note": "Fall2020 firstrollout explicitly attributed by June15,2021issuerhistory. July2020Amber and Nov2020productionposts remain dated earlier development milestones,not a single exact initial shipmentday."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact generation-specific value established in the available native primary material. Blocked support-page previews,accessory/component ratings,historical sibling data and relative productivity do not establish this field."
+        },
+        "driveMode": {
+          "value": "Historical autonomous floor-layout printing with prepared CAD/model files, surveyed control and an on-site operating team",
+          "status": "documented",
+          "note": "Qualified named-generation manufacturer or integration-partner statement;not independent performance validation."
+        }
+      }
     }
   ]
 }

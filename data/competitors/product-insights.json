@@ -275,9 +275,46 @@
       "highlights": [
         "Prints coordinated layouts, labels and QR codes on the floor",
         "Manufacturer specifies 1/16-inch layout accuracy",
-        "Single-operator workflow with Autodesk AutoCAD and iPad tools"
+        "Single-operator workflow with Autodesk AutoCAD and iPad tools",
+        "The January 23, 2024 issuer announcement specifies a 23-pound mass including battery, approximately 10.43 kg. Its one-inch printhead and 300 dpi output are dated launch details; current support-page search previews were not imported as verified newer specifications.",
+        "The launch describes Edge Print near slab features, Shadow Print behind columns, curve printing, edge/obstacle sensing and Power Hold for battery changes. These named features do not establish exact edge clearance, uninterrupted battery runtime, charging duration or guaranteed fall/collision prevention.",
+        "The current platform combines robot, AutoCAD plugin, Dusty Portal and iPad operation. Its one-sixteenth-inch statement is layout-to-model accuracy with a coordinated/tracked workflow, not standalone robot pose accuracy or a guarantee that inaccurate surveyed control yields a correct building.",
+        "The October 19, 2026 Floor Elevation article says measurement is included in every package using the same robot and tracker. It describes live iPad heatmaps, point measurements, PDF/CSV exports and cloud stitching of multiple stations. An ASTM E1155 report remains something the customer or testing partner produces from the data, not an automatic certified output.",
+        "The PMD integration case study describes one motion-control drive per active front wheel, a passive rear wheel, IMU/encoder-assisted printing through occlusions, electronic braking and a communication watchdog. These supplier/engineer accounts are not independent safety certification or a universal blind-spot duration guarantee.",
+        "PMD’s compact single-axis drive and its electrical ratings are component specifications, not the robot’s body dimensions, power consumption or mechanical joint count. Engineer anecdotes about extreme weather do not establish formal FieldPrinter 2 operating limits or waterproofing.",
+        "Current pricing is based on utilization, platform access and implementation; included equipment covers the printer, tracker, iPad and joystick with operator/VDC training. No exact public price is established. North American availability and up-to-tenfold productivity are manufacturer statements, not worldwide stock or independently guaranteed output."
       ],
       "sources": [
+        {
+          "name": "Dusty Robotics — current FieldPrint Platform; legacy product URL redirects",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/fieldprint-platform",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — issuer FieldPrinter 2 announcement, January 23, 2024",
+          "type": "manufacturer",
+          "url": "https://www.prnewswire.com/news-releases/dusty-robotics-unveils-second-generation-robot-and-comprehensive-bim-to-field-automated-workflow-302041417.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — usage-based pricing and included equipment/training",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/pricing",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — Floor Elevation blog, October 19, 2026",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/blog/floor-elevation",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Performance Motion Devices — FieldPrinter 2 motion-control integration case study",
+          "type": "integrator",
+          "url": "https://info.pmdcorp.com/hubfs/Resources/Articles%20and%20Papers/dusty-robotics-case-study.pdf",
+          "checkedAt": "2026-11-03"
+        },
         {
           "name": "Dusty Robotics",
           "type": "manufacturer",
@@ -37181,6 +37218,53 @@
       ],
       "discoveredIn": [
         "https://www.doublerobotics.com/360.html"
+      ]
+    },
+    {
+      "robotId": "dusty-robotics-fieldprinter-1",
+      "manufacturer": "Dusty Robotics",
+      "model": "FieldPrinter 1",
+      "highlights": [
+        "The June 15, 2021 issuer release identifies FieldPrinter as the first product and dates its first rollout to fall 2020. Earlier 2020 development and production accounts are distinct milestones, not proof of identical commercial hardware across all prototypes.",
+        "Dusty’s public post dated May 18, 2026 explicitly calls FieldPrinter 1 the original automated layout robot and announces it is retiring as FieldPrinter 2 takes over. This supports the historical generation name without inventing an exact final-shipping or end-of-support date.",
+        "The historical 2021 working guide requires at least three non-collinear surveyed control points and prepared CAD or CSV files. It distinguishes control accuracy from print placement and describes manual completion where access or tracker line of sight prevents robotic work. These historical requirements are not automatically FieldPrinter 2 specifications.",
+        "The founder’s November 2020 production account describes clutter, malfunctions, a backup robot and joint changes to site conditions and print scope. Reported schedule savings and the 2021 up-to-tenfold speed claim are contextual vendor/customer accounts, not guaranteed throughput or absence of rework.",
+        "The July 16, 2020 development blog names Amber as an internal second-generation platform. That wording predates the commercial FieldPrinter 2 announced in 2024; it does not establish that Amber is that later product or exactly identical to retired FieldPrinter 1. The codename remains a historical identity lead without an extra commercial robot card."
+      ],
+      "sources": [
+        {
+          "name": "Dusty Robotics — issuer first-generation history, June 15, 2021",
+          "type": "manufacturer",
+          "url": "https://www.prweb.com/releases/dusty-robotics-raises-16-5m-in-series-a-funding-863794545.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — public FieldPrinter 1 retirement post, May 18, 2026",
+          "type": "manufacturer",
+          "url": "https://www.linkedin.com/posts/dusty-robotics_dustyrobotics-fieldprinter-constructiontech-activity-7462165288415899649-b7Fp",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — founder production account, November 19, 2020",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/blog/going-production",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — publicly retrievable historical working guide, April/June 2021",
+          "type": "manufacturer",
+          "url": "https://assets.website-files.com/619c2ebe3697c43076ded423/619d48fa22bea1f613b1a5c9_1%20-%20Working%20with%20Dusty%20Guide.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dusty Robotics — Amber development account, July 16, 2020",
+          "type": "manufacturer",
+          "url": "https://www.dustyrobotics.com/blog/getting-dusty-in-the-field",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://www.prweb.com/releases/dusty-robotics-raises-16-5m-in-series-a-funding-863794545.html"
       ]
     }
   ]
