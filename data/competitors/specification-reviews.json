@@ -148012,6 +148012,417 @@
           "note": "Pratt & Whitney PW545B turbofan with over 5,000 lb thrust. The under-5,000-ft runway figure is a manufacturer requirement, not a measured field performance."
         }
       }
+    },
+    {
+      "robotId": "greenfield-robotics-botony",
+      "manufacturer": "Greenfield Robotics",
+      "model": "BOTONY",
+      "sources": [
+        {
+          "name": "Greenfield Robotics — BOTONY farmer page",
+          "type": "manufacturer",
+          "url": "https://www.greenfieldincorporated.com/farmers",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Greenfield Robotics — September 3, 2026 offering statement (SEC-hosted)",
+          "type": "manufacturer",
+          "url": "https://www.sec.gov/Archives/edgar/data/1760404/000110465926104951/tm2617498d6_partiiandiii.htm",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Greenfield Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.greenfieldincorporated.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Greenfield Robotics — BOT#25 swarm page",
+          "type": "manufacturer",
+          "url": "https://www.greenfieldincorporated.com/bot-25",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-151/source-1.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Greenfield operates made-to-order and publishes no list price. A crowdfunding perk description of a BOTONY robot at an approximate $50,000 cash value is not a sale price."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The issuer discusses battery age and condition as a performance variable but publishes no battery capacity or endurance rating."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No one-charge runtime is published. The approximately 7 acres per day figure is a field-area estimate, not battery endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to a field robot; no manipulator hand is specified."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; no articulated degrees of freedom are published."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Broadacre crop fields and wheeled/tracked configurations are described, but no slope, surface or environmental rating is published."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for an agricultural field robot."
+        },
+        "website": {
+          "value": "https://www.greenfieldincorporated.com/farmers",
+          "status": "documented",
+          "note": "Manufacturer farmer page naming the 2026 Botony model; product details are in the issuer offering statement."
+        },
+        "description": {
+          "value": "BOTONY is Greenfield Robotics' autonomous agricultural robot for chemical-free mechanical weed control in broadacre crops such as soybeans, milo, cotton and corn. The manufacturer offers wheeled and tracked configurations and estimates approximately 7 acres per day per robot under optimal conditions. Cutting is optimally initiated when weeds reach 3–5 inches, with a specified 60-inch turn zone. Each robot uses the GreenTRIP RTK system for field mapping and autonomous navigation with a 15 km range radius and centimeter-level accuracy, onboard cameras with human-detection algorithms and geofencing, and the Operator software for remote monitoring and intervention. The company reports a 2025 leased fleet of 23 robots in seven states and 70 orders for 2026 delivery, and operates made-to-order without maintaining robot inventory.",
+          "status": "documented",
+          "note": "Company-authored offering statement and manufacturer pages; performance is explicitly described as estimated and condition-dependent, not independently verified."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "The manufacturer page names the 2026 Botony model and the issuer describes 2026 deliveries; no earlier model year is assigned."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to a surface field robot."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; this is a ground robot."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; this is a ground robot."
+        },
+        "navigationAccuracy": {
+          "value": "GreenTRIP RTK system with centimeter-level field accuracy and a 15 km range radius",
+          "status": "documented",
+          "note": "Issuer description of RTK field mapping and navigation; no independent RMS accuracy test or absolute standard is provided."
+        },
+        "driveMode": {
+          "value": "Wheeled or tracked autonomous field robot with RTK navigation and geofenced operation",
+          "status": "documented",
+          "note": "Issuer description; the two configurations are alternatives, not a claim that every unit has both."
+        },
+        "workingWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 60-inch figure is a turn zone for the main field, endrows and obstacles, not a cutting or working width."
+        },
+        "areaRate": {
+          "value": "Approximately 7 acres per day per robot (issuer estimate under optimal conditions)",
+          "status": "documented",
+          "note": "The issuer states this is an estimate under optimal conditions and that actual performance varies with battery, terrain, crop, soil and weather."
+        },
+        "throughput": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No measured throughput is published; the acres-per-day figure is an area-rate estimate, not a throughput test."
+        }
+      }
+    },
+    {
+      "robotId": "groove-x-lovot",
+      "manufacturer": "Groove X",
+      "model": "Lovot",
+      "sources": [
+        {
+          "name": "Groove X — LOVOT technology and version comparison",
+          "type": "manufacturer",
+          "url": "https://lovot.life/technology/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Groove X — LOVOT price page",
+          "type": "manufacturer",
+          "url": "https://lovot.life/pricing",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Groove X — LOVOT 3.0 product page",
+          "type": "manufacturer",
+          "url": "https://lovot.life/lovot-3",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Groove X — LOVOT English product page",
+          "type": "manufacturer",
+          "url": "https://lovot.life/en/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Groove X — company homepage (English)",
+          "type": "manufacturer",
+          "url": "https://groove-x.com/en/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-151/source-2.html",
+      "fields": {
+        "price": {
+          "value": "LOVOT 3.0: 599,500 JPY; LOVOT 2.0: 449,900 JPY (base color, tax included; options and monthly care plans extra)",
+          "status": "documented",
+          "note": "Manufacturer price page for the base color; color options, shipping, fees and monthly care plans are priced separately."
+        },
+        "weight": {
+          "value": "LOVOT 3.0: approx. 4.6 kg; LOVOT 2.0: approx. 4.3 kg (excluding clothes)",
+          "status": "documented",
+          "note": "Manufacturer comparison gives version-specific body mass excluding clothes; not a payload or shipping weight."
+        },
+        "size": {
+          "value": "LOVOT 3.0 driving: 280 × 450 × 290 mm; carrying: 280 × 430 × 260 mm. LOVOT 2.0 driving depth 300 mm",
+          "status": "documented",
+          "note": "Manufacturer comparison gives body dimensions in standard posture; the 3.0 and 2.0 depth differs. Not a complete shipping envelope."
+        },
+        "batteryLife": {
+          "value": "About 30–45 minutes of operation per normal operating cycle (both versions)",
+          "status": "documented",
+          "note": "Manufacturer normal operating cycle; not continuous operation and not a full-day rating."
+        },
+        "maxRuntime": {
+          "value": "About 30–45 minutes per normal operating cycle",
+          "status": "documented",
+          "note": "The manufacturer pairs this with about 15–30 minutes of charging and calls it a normal operating cycle, not uninterrupted runtime."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to a companion robot; no manipulator hand is specified."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; no articulated degrees of freedom are published."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No payload rating is published."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No travel speed is published; autonomous movement is described without a numeric speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Indoor home and workplace use is described, but no surface, slope or environmental rating is published."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No age range is published; LOVOT is marketed as a companion robot for homes and workplaces, not as a children's product with an age rating."
+        },
+        "website": {
+          "value": "https://lovot.life/lovot-3",
+          "status": "documented",
+          "note": "Manufacturer LOVOT 3.0 product page; the technology page carries the 2.0/3.0 comparison."
+        },
+        "description": {
+          "value": "LOVOT is Groove X's slow-relation companion robot, positioned as a home robot that responds to touch, voice and its surroundings rather than performing household tasks. The manufacturer describes a sensor horn with a hemispherical camera and microphone, illumination and thermal cameras, deep-learning decision making, six-layer eye displays with more than one billion combinations, a synthesized voice, a body covered in touch sensors, autonomous movement and return-to-nest charging. The reviewed pages compare LOVOT 3.0 and 2.0 hardware: OLED versus LCD eyes, different camera sets, compute and storage, and approximately 4.6 kg versus 4.3 kg body mass. Groove X reports more than 20,000 active contracts as of July 2026 and use in homes and more than 1,200 companies. The pages describe pilot deployments and a Shiseido joint study; they do not establish independent therapeutic efficacy or a safety certification.",
+          "status": "documented",
+          "note": "Manufacturer technology, product, price and English pages; company-reported figures and study descriptions are not independent audits."
+        },
+        "releaseDate": {
+          "value": "2019",
+          "status": "documented",
+          "note": "The manufacturer dates the slow-relation category and LOVOT to 2019; the reviewed pages do not give separate 2.0 or 3.0 launch dates."
+        },
+        "chargingTime": {
+          "value": "About 15–30 minutes per normal operating cycle",
+          "status": "documented",
+          "note": "Manufacturer normal operating cycle; not a full-charge time from empty and not a fast-charge claim."
+        }
+      }
+    },
+    {
+      "robotId": "hai-robotics-haipick-a42t-e2",
+      "manufacturer": "Hai Robotics",
+      "model": "HaiPick A42T-E2",
+      "sources": [
+        {
+          "name": "Hai Robotics — HaiPick A42T-E2 product page",
+          "type": "manufacturer",
+          "url": "https://www.hairobotics.com/robots/haipick-a42t-e2",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Hai Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.hairobotics.com/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-151/source-3.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric price is published on the reviewed manufacturer page; the flyer is gated behind a form that was not submitted."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "batteryLife": {
+          "value": "Full battery charge life ≥6.6 h (manufacturer)",
+          "status": "documented",
+          "note": "Manufacturer battery statement; not a duty-cycle guarantee and not a measured site endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The ≥6.6 h figure is full-charge battery life, not a separate continuous-run rating; no duty cycle is published."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The grappling hook is a tote-handling mechanism, not a humanoid or robotic-arm hand."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; no articulated degrees of freedom are published."
+        },
+        "payload": {
+          "value": "30 kg (66.1 lbs) per handled tote; up to three interlocking totes hauled at once",
+          "status": "documented",
+          "note": "Manufacturer model-page rating; the three-tote figure is a hauling capability, not a simultaneous total-load guarantee."
+        },
+        "speed": {
+          "value": "Lifting speed up to 0.93 m/s; 2.7 s tote ascending/descending handling speed; travel speed not published",
+          "status": "documented",
+          "note": "Manufacturer model-page figures; the 2.7 s value is a tote-handling time, not travel speed."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for a warehouse robot."
+        },
+        "website": {
+          "value": "https://www.hairobotics.com/robots/haipick-a42t-e2",
+          "status": "documented",
+          "note": "Manufacturer model page for the HaiPick A42T-E2."
+        },
+        "description": {
+          "value": "HaiPick A42T-E2 is Hai Robotics' second-generation telescopic automated case-handling mobile robot (ACR). Its single grappling hook and Chain-Pick system can haul up to three interlocking totes at once and carry up to eight in the onboard multi-storage tray tower. The manufacturer lists a 12 m maximum picking height, 30 kg (66.1 lbs) payload per tote, lifting speed up to 0.93 m/s, 2.7 s tote ascending/descending handling speed, 63 totes per hour, a 40 mm gap between totes, 3-deep tote racks and an 89% storage-space optimization claim. The robot uses an LFP 62 battery with a 39-minute fast charge and at least 6.6 hours of full-charge life, and includes LiDAR obstacle avoidance, automatic charging, four-direction emergency stops, anti-fall and hooking detection, audible/visual alarms and CE/NRTL certification. The page does not publish travel speed, overall dimensions or a numeric price.",
+          "status": "documented",
+          "note": "Manufacturer model page; throughput, storage-density and safety statements are supplier claims, not independent benchmarks or a site-specific certification."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The page calls the A42T-E2 second-generation but publishes no launch or release date."
+        },
+        "depthRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to a warehouse robot."
+        },
+        "flightTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; this is a ground robot."
+        },
+        "maxTakeoffWeight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; this is a ground robot."
+        },
+        "chargingTime": {
+          "value": "39 minutes fast charge",
+          "status": "documented",
+          "note": "Manufacturer battery statement; not a full charge from empty under all conditions."
+        },
+        "driveMode": {
+          "value": "Autonomous case-handling mobile robot with telescopic upright, LiDAR obstacle avoidance and automatic charging",
+          "status": "documented",
+          "note": "Manufacturer model-page description; no site-specific safety certification or measured navigation accuracy is established."
+        },
+        "throughput": {
+          "value": "63 totes per hour (manufacturer claim)",
+          "status": "documented",
+          "note": "Supplier system claim; not an independent benchmark and not a guaranteed site throughput."
+        },
+        "maxLiftHeight": {
+          "value": "12 m maximum picking height",
+          "status": "documented",
+          "note": "Manufacturer model-page figure; not a complete building-height or rack-height requirement."
+        },
+        "liftStroke": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No lift stroke length is published; 0.93 m/s is lifting speed and 2.7 s is tote handling time."
+        },
+        "minAisleWidth": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        }
+      }
     }
   ]
 }
