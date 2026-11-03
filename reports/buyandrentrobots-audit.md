@@ -49,9 +49,9 @@ records, with 466 supplied use cases across 95 records. These are shown separate
 from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
-The current strict audit includes **nine CSV files and 2,314 catalog rows**, with 646 exact
-manufacturer spellings. Batch 131 refreshed the separate heuristic gap file offline
-against all 2,314 rows (638 normalized manufacturer keys). Matches now require the
+The current strict audit includes **nine CSV files and 2,326 catalog rows**, with 646 exact
+manufacturer spellings. Batch 132 refreshed the separate heuristic gap file offline
+against all 2,326 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
 families, components and services. These are not 113 verified catalog gaps. Source
@@ -70,10 +70,10 @@ The initial collection wrote research files. The subsequent reviewed import adde
 manufacturer-supported products to the CSV catalog. Changes, business USPs,
 priorities and limitations are in [the consolidated audit](competitor-audit-2026-11-01.md).
 
-Current product-highlight coverage: 1244 dated records across the catalog, including
-184 existing-model enrichments and 1060 task additions. All 430 catalog models
+Current product-highlight coverage: 1256 dated records across the catalog, including
+184 existing-model enrichments and 1072 task additions. All 430 catalog models
 matched to named competitor mentions now have dated highlights.
-The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1060 task additions, totaling 2,314.
+The original JD Humanoid row duplicated canonical JD/SKU KI-0100; it was merged with image, old-link and saved-selection preservation. The corrected baseline is 1,254 original identities plus 1072 task additions, totaling 2,326.
 This is separate from identity/family resolution. The model-review export now
 provides primary highlights, supporting URLs, dates and complete/partial/missing/
 unmapped status, alongside the original directory claims. Existing specification
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 465 have selected-field reviews and 53 await those reviews. Family and
+highlights; 466 have selected-field reviews and 52 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 22,252 fields across 1172 catalog models: 8,119 documented,
-13,734 not documented, 293 conflicting and 106 roadmap fields. They do not certify whole
+Selected specification checks cover 22,486 fields across 1185 catalog models: 8,206 documented,
+13,876 not documented, 298 conflicting and 106 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -8677,6 +8677,150 @@ sind beendet; fremde Ressourcen bleiben erhalten. Die externen YouTube-/Axe-Befu
 aus Batch106 liegen weiterhin außerhalb dieses Prüfumfangs.
 
 Daten-Zwischencommit `580ca907bc562ea068343ddb56d4d26fd764dc52` ist auf `codex/competitor-directory-expansion` gepusht und remote
+geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
+historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben unbewiesen.
+
+
+## Ergänzung 132 – Engineered-Arts-Generationen, Desktop-Revisionen und historische Exponate (3. November 2026)
+
+Zwölf zusätzliche Modelle/Konfigurationen: Ameca Gen 1, Gen 2 und Gen 2.6;
+Ameca Desktop, Ami Desktop und Azi Desktop jeweils Gen 2 und Gen 3; Mesmer;
+SociBot Kiosk und Mini. Die vorhandenen Einträge Ameca und RoboThespian RT4
+sind überarbeitet. Alle 14 ausgewählten Einträge haben je 17 geprüfte Felder:
+90 dokumentiert, 143 unbekannt und fünf widersprüchlich. Die frühere Ameca-Prüfung
+mit vier Feldern ist erweitert; damit kommen netto 234 Feldprüfungen hinzu,
+13 neue Modellprüfungen und eine Erweiterung. Zwölf neue Merkmalsdatensätze und
+zwei Erweiterungen liefern 65 zusätzliche Aussagen und 37 Produktquellenverweise.
+Eine Firmenfokus-Prüfung kommt hinzu. Gesamt: 2.326 Modelle/Konfigurationen,
+1.256 datierte Merkmalsdatensätze, 5.580 Aussagen, 2.568 Produktquellenverweise und
+127 Firmenfokus-Prüfungen. 1.185 Modelle haben 22.486 ausgewählte Felder:
+8.206 dokumentiert, 13.876 unbekannt, 298 widersprüchlich und 106 Roadmap.
+Die ursprünglichen 518 Ziele haben 466 Feldprüfungen und 52 offene Ziele;
+8.570 Felder dieser Queue verteilen sich auf 3.409 dokumentierte, 4.961 unbekannte,
+182 widersprüchliche und 18 Roadmap-Werte. Hersteller-/Marken-Mappings ändern
+sich nicht; 646 exakte Herstellerlabels und 1.037 Profile bleiben erhalten.
+
+Die aktuelle Hersteller-Startseite leitet von engineeredarts.co.uk auf
+engineeredarts.com um. Alle fünf aktuellen Produktkarten sind abgeglichen:
+Ameca, Ameca Desktop, Ami Desktop, Azi Desktop und Mesmer. Auf den drei Desktop-
+Spezifikationsseiten werden beide sichtbaren Generation-Tabs getrennt gelesen,
+insgesamt sechs Tab-Inhalte. Die Gen-2-Snapshots dokumentieren den ausgewählten
+Tab; die öffentliche URL bleibt dabei dieselbe. Ein Link auf diese Quelle allein
+bedeutet daher nicht, dass die zunächst sichtbare Gen-3-Tabelle die historische
+Gen-2-Spezifikation darstellt. Cookie-Banner, Demo-/Kauf-/Loginformulare und private
+Dokumentation wurden nicht bedient. Die vier Recherche-Browser wurden nach der
+DOM-/Text-Erfassung in finally-Blöcken geschlossen.
+
+Ameca Gen 1 nennt 49 kg, 1.870 mm Höhe, 1.800 mm Armspannweite und 51 artikulierte
+Bewegungen; die daneben stehenden 52 Motoren sind keine 52 DoF. Gen 2 nennt
+62 kg und 61 Bewegungen. Die Wiki-Softwarezuordnung Tritium 2/3 ist kein Beweis
+für eine weitere gleichnamige Vollkörper-Hardwaregeneration. Der aktuelle Ameca-
+Familieneintrag nennt Release 2021; die Herstellerbroschüren bezeichnen Gen 1
+mit Januar beziehungsweise Anfang 2022. Die abweichende Meilensteinbasis bleibt
+als Widerspruch beim Familienjahr sichtbar. Gen 1 erhält das konkret belegte
+2022; kein stillschweigendes Überschreiben auf Basis eines PDF-Erstellungsdatums.
+Die allgemeine Wiki enthält keine vollständige historische Massentabelle;
+Generationenwerte stammen aus ihren jeweiligen Broschüren.
+
+Die aktuelle Vollkörper-Spezifikation nennt Ameca Gen 2.6 (2024), 62 kg,
+61 Bewegungen und 1.870 x 470 x 850 mm H/B/T, dazu getrennt 1.800 mm Armspannweite
+und 600 mm Basisdurchmesser. Das Versionslabel 2024, das Familienjahr 2021 und
+die Setup-Anleitung vom August 2026 sind verschiedene Meilensteine; ein exaktes
+Gen-2.6-Lieferdatum bleibt unbekannt. Die Gen-2.6-Tabellen enthalten auch Ethernet
+und Wi-Fi coming soon. Die erste Gen-2-Broschüre und deren aktueller offizieller
+Host besitzen identische Bytes; sie sind ein Dokument, keine unabhängigen Belege.
+Die Bildmaße anderer Teile der Broschürengrafik werden ohne klare Achsenzuordnung
+nicht als vollständiger Roboterumriss importiert. Eine nahezu bildbasierte weitere
+Produkt-Kurzbroschüre liefert zu wenig nativen Text für numerische Behauptungen
+und wird dafür nicht verwendet.
+
+Ameca/Ami/Azi Desktop Gen 3 haben ausdrücklich das Release-Datum 22. Juni 2026,
+8,5 kg, 525 x 420 x 260 mm und 32 Bewegungen, davon 27 im Gesicht/Kopf und fünf
+im Hals. Zwei Augenkameras, zusätzliche Brust-Weitwinkelkamera, mmWave-Radar und
+40-Watt-Audio gehören in die jeweilige aktuelle Konfiguration. Ethernet/Wi-Fi
+stehen in den aktuellen Detailtabellen; die zusätzlichen Bluetooth-/Port-Angaben
+von Azi werden nicht automatisch auf Ameca und Ami übertragen. Software-Agenten,
+Sprachanzahl und Cloud-Steuerung sind Herstellerfunktionen, keine unabhängig
+geprüfte Konversationsqualität oder weitere Hardwaremodelle.
+
+Die Gen-2-Tabs nennen jeweils 2023 und eigene Tabellen. Ameca nennt
+550 x 420 x 260 mm; Ami/Azi nennen 525 x 470 x 850 mm, jeweils mit separat
+aufgeführter 600-mm-Basis. Diese Angaben bleiben ausdrücklich tabellen-/generations-
+bezogen und werden nicht durch die aktuellen Gen-3-Maße ersetzt. Alle drei
+Gen-2-Gewichtszeilen paaren 8,5 kg mit 17,6 lb, also umgerechnet etwa 7,98 kg.
+Die Diskrepanz ist dreimal als Widerspruch erhalten; das Feld nutzt äquivalente
+kg-Werte, damit der vorhandene Gewichtsfilter keinen gemischten Pfundtext falsch
+umrechnet. Ameca/Ami Gen 2 nennen 20-Watt-Lautsprecher, Azi Gen 2 acht Watt,
+Gen 3 jeweils 40 Watt. Unübersetzte Schulter-/Sicherheits-Schlüssel belegen keine
+zusätzliche Ausstattung. Historisches Wi-Fi coming soon ist keine bestätigte
+Lieferfähigkeit. Netzspannung und Netzteil-Wattwerte liefern keine Akkulaufzeit.
+Die frühere Netzspannungsangabe im Ameca-Akkufeld wird in Beschreibung/Merkmalen
+gehalten; das Akkufeld bleibt ohne belegte Betriebsdauer leer.
+
+RT4 nennt 33 kg ohne Basis, 44 kg mit Basis, einen separaten 22-kg-Touchscreen-
+Kiosk und eine 11,5-kg-Basiszeile. Versandgewichte und optionale Kompressoren
+werden nicht zu Robotermasse oder -größe. Das Standardpaket nennt ausdrücklich
+27 angetriebene Kopf-/Arm-/Körperachsen; 18 proportionale Regelachsen und einzelne
+Aktuatorgruppen sind andere Zählweisen. Die Tabellen nennen 1.750 mm Höhe ohne,
+1.775 mm mit Basis. Eine Basisbreitenzeile paart 480 mm mit 23,5 Zoll; die separate
+Durchmesserzeile paart 480 mm mit 19 Zoll. Dieser Einheitenwiderspruch bleibt
+sichtbar. 840 mm von Rücken bis Fingerspitzen und Armspannweite sind keine
+konventionelle Schulter-/Werkzeugreichweite. RT4 benötigt 100–250 V AC und
+gefilterte, ungeölte Druckluft bei sechs bar; maximal 30 L/min sind Luftverbrauch,
+keine Akkudauer. Hard Face, Projected Face, adaptive Greifhände und kundenspezifische
+aktive Knie sind Optionen. Auch bei aktiven Beinen bleiben die Füße fixiert;
+kein Gehvermögen wird behauptet.
+
+SociBot ist in der Hersteller-Wiki ausdrücklich seit 2019 eingestellt.
+Dieses Datum wird nicht als Erscheinungsjahr verwendet. Kiosk und Mini teilen
+laut Matrix Halsbewegungen um drei Achsen, Projektionsgesicht, Kamera/Depth-Sensorik
+und Software. Nur Kiosk hat den 19-Zoll-Touchscreen und unbewegliche dekorative
+Arme; ungefähr 42 kg, 1.708 mm Höhe und 569 mm Breite gehören zur Kiosk-Tabelle.
+Mini ist kompakter und ohne Touchscreen; die Kioskmaße werden nicht übertragen.
+Mesmer ist aktuell als anpassbarer Vollkörpercharakter mit 62 kg/61 Bewegungen
+und Familienjahr 2017 belegt. Alfred, Cleo, Owen, Thoth und weitere historische
+Charaktere sind Auftritts-/Gestaltungsbeispiele ohne separat belegte Verkaufs-SKU.
+Tritium, Roles, Agents, Virtual Robot, InYaFace und TinMan sind Software, Dienste
+oder Optionen. RT2/RT3 in der Installationshistorie bleiben offene historische
+Versionshinweise. Die nicht erfolgreich auslesbare alte Unbounded-Route liefert
+keine verwendbare Hardware-Spezifikation; daraus wird kein Nichtbestehen oder
+Produktende abgeleitet.
+
+15 native HTTP-200-Antworten und 17 erfolgreiche gerenderte Hauptinhalts-
+Snapshots sind mit Hashes dokumentiert. Ein weiterer Rendering-Versuch auf der
+alten Unbounded-Route endete ohne geeigneten Hauptinhalt im 30-Sekunden-Wartefenster
+und ist ausgeschlossen. Das ist kein gesicherter HTTP-404-Status. Native Wiki-
+Produktinhalte, Tabellen und PDF-Seiten wurden abgegrenzt; keine visuelle Bild-/
+PDF-Prüfung, keine OCR, Medienübernahme, Anmeldung, Formulare, Konten, Transaktionen
+oder TLS-Umgehung. Die fremde .tech-Seite wurde nicht als Herstellerquelle benutzt.
+Dauerbeleg: `reports/competitor-batch-132-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 28 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.377 Seiten, Audit: null Fehler und 1.205 Warnungen. Die vier
+zusätzlichen Warnungen betreffen ausschließlich unbekannte Erscheinungsjahre.
+Die erste Firmenfokus-Struktur ließ Pflichtfelder name/role aus; die Validierung
+und erste Unit-Runde erkannten das. Nach Ergänzung des exakten bestehenden
+Markennamens und der recherchierten Rolle bestanden der erneute Refresh und alle
+808 Unit-Tests. Kein Anwendungsschema wurde gelockert. Die erste Browserrunde las die gespeicherte
+Ameca-Auswahl vor Abschluss der asynchronen ID-Migration; nach Umstellung auf
+eine pollende Prüfung bestanden alle Fälle, einschließlich des angepassten
+bestehenden Desktop-/Mobil-Regressionsfalls. Die Anwendung blieb unverändert. Der fertige Build ist
+gegen die endgültigen Daten geprüft: 14 Seiten, 238 Felder,
+67 Quellenbadges, 143 ausgelassene Leerfelder,
+71 Merkmalsaussagen, 54 strukturierte Eigenschaften und eine Firmenfokus-Seite.
+Vier Modell-Exportzeilen liefern 68 Feldvorkommen; zwei ursprüngliche Queue-Ziele
+enthalten 34 ausgewählte Felder. Alle 2.312 nicht ausgewählten Bestandszeilen,
+1.171 nicht ausgewählte Feldprüfungen, 126 frühere Firmenfokus-Prüfungen und
+1.961 Quellenidentitäten bleiben erhalten. Die bisherige Ameca-Prüfung mit vier
+Feldern ist als Vorzustand dokumentiert. Suche, Vierervergleich, alte Ameca-Links/
+gespeicherte IDs, Masse-/Laufzeitfilter, vollständiger Belegexport und byteidentischer
+Reimport aller 32 getrackten Datendateien geprüft. Offline-Refresh ist semantisch
+idempotent. Eigene Recherche-/Testbrowser, Server und Helfer sind beendet;
+fremde Ressourcen bleiben erhalten. Externe YouTube-/Axe-Befunde aus Batch106
+bleiben außerhalb dieses Prüfumfangs offen.
+
+Daten-Zwischencommit `73c920cc8f3af7e761319f29ea03589bfa09b849` ist auf `codex/competitor-directory-expansion` gepusht und remote
 geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
 historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben unbewiesen.
