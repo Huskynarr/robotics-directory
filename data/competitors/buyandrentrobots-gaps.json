@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "source": "https://buyandrentrobots.com/directory",
   "fetchedAt": "2026-11-01T17:58:29Z",
-  "comparedAt": "2026-11-03T18:09:12Z",
+  "comparedAt": "2026-11-03T18:32:54Z",
   "networkRequests": 0,
   "scope": "Saved-source comparison only. Legacy missingModels/missingBrands counts are heuristic hints, not verified gaps. Strict identity decisions and unresolved queues are separate. No source refetch or full product certification.",
   "comparison": {
@@ -23,7 +23,7 @@
     "method": "same-brand normalized exact match, then same-brand SequenceMatcher >= 0.92; candidate hints only"
   },
   "strictComparison": {
-    "coverageGeneratedAt": "2026-11-03T18:09:11.832Z",
+    "coverageGeneratedAt": "2026-11-03T18:32:53.441Z",
     "catalog": {
       "models": 2378,
       "manufacturers": 646,
@@ -43,8 +43,8 @@
       "reviewed-manual-appliance": 2,
       "reviewed-robotic-system": 5,
       "reviewed-named-unit": 1,
-      "reviewed-generic-family": 1,
-      "missing": 3
+      "reviewed-generic-family": 4,
+      "missing": 0
     },
     "unrepresentedSourceNames": [],
     "scope": "Reviewed families/context references do not establish exact configuration; company representation is not manufacturer certification"
@@ -56,10 +56,10 @@
     "heuristicBrandCandidates": 11,
     "competitorModels": 348,
     "competitorBrands": 99,
-    "strictUnresolvedModelMentions": 3,
+    "strictUnresolvedModelMentions": 0,
     "sourceUnclearListings": 122,
-    "reviewedUnclearListings": 113,
-    "strictUnresolvedListings": 9
+    "reviewedUnclearListings": 122,
+    "strictUnresolvedListings": 0
   },
   "models": [
     {
@@ -2793,9 +2793,27 @@
         "sourceUrls": [
           "https://buyandrentrobots.com/robot/d821fc39-3fa7-40aa-8edd-13e03e7aa0e2"
         ],
-        "status": "missing",
+        "status": "reviewed-generic-family",
         "catalogIds": [],
-        "note": ""
+        "note": "The source listing supplies only a generic security-robot description and no official product URL or specifications. Kawasaki's published robot portfolio and product overview name its series and models but no A700 security robot; the entry is recorded as a generic label, not a catalog model.",
+        "classificationReview": {
+          "source": "buyandrentrobots",
+          "brand": "Kawasaki Robotics",
+          "model": "A700",
+          "kind": "generic-family",
+          "checkedAt": "2026-11-03",
+          "evidence": [
+            {
+              "publisher": "Larraioz — Kawasaki integration partner product overview",
+              "url": "https://larraioz.com/downloads/Kawasaki/doc/Product_Overview_Kawasaki_ES.pdf"
+            },
+            {
+              "publisher": "Kawasaki Heavy Industries",
+              "url": "https://global.kawasaki.com/en/history/business/robot.html"
+            }
+          ],
+          "note": "The source listing supplies only a generic security-robot description and no official product URL or specifications. Kawasaki's published robot portfolio and product overview name its series and models but no A700 security robot; the entry is recorded as a generic label, not a catalog model."
+        }
       }
     },
     {
@@ -2917,9 +2935,27 @@
         "sourceUrls": [
           "https://buyandrentrobots.com/robot/d1ab00ed-6b3c-4313-a866-7a13ee5e73b2"
         ],
-        "status": "missing",
+        "status": "reviewed-generic-family",
         "catalogIds": [],
-        "note": ""
+        "note": "The source listing supplies only a generic humanoid-robot description and no official product URL or specifications. Kawasaki's published humanoid projects are RHP Kaleido, RHP Friends and Bex; no Kx model is published, so the entry is recorded as a generic label, not a catalog model.",
+        "classificationReview": {
+          "source": "buyandrentrobots",
+          "brand": "Kawasaki Robotics",
+          "model": "Kx",
+          "kind": "generic-family",
+          "checkedAt": "2026-11-03",
+          "evidence": [
+            {
+              "publisher": "Larraioz — Kawasaki integration partner product overview",
+              "url": "https://larraioz.com/downloads/Kawasaki/doc/Product_Overview_Kawasaki_ES.pdf"
+            },
+            {
+              "publisher": "Kawasaki Heavy Industries",
+              "url": "https://global.kawasaki.com/en/history/business/robot.html"
+            }
+          ],
+          "note": "The source listing supplies only a generic humanoid-robot description and no official product URL or specifications. Kawasaki's published humanoid projects are RHP Kaleido, RHP Friends and Bex; no Kx model is published, so the entry is recorded as a generic label, not a catalog model."
+        }
       }
     },
     {
@@ -3983,9 +4019,23 @@
         "sourceUrls": [
           "https://buyandrentrobots.com/robot/9265701e-6002-419e-bd44-0df1787ce584"
         ],
-        "status": "missing",
+        "status": "reviewed-generic-family",
         "catalogIds": [],
-        "note": ""
+        "note": "Parrot publishes CHUCK 3.0 in its current lineup, but no DV7 variant or entertainment-drone description matching this listing; the source entry supplies no official product URL or specifications. Recorded as an unverified family label, not a catalog model.",
+        "classificationReview": {
+          "source": "buyandrentrobots",
+          "brand": "Parrot",
+          "model": "CHUCK DV7",
+          "kind": "generic-family",
+          "checkedAt": "2026-11-03",
+          "evidence": [
+            {
+              "publisher": "Parrot",
+              "url": "https://www.parrot.com/en/chuck-30-technical-specifications"
+            }
+          ],
+          "note": "Parrot publishes CHUCK 3.0 in its current lineup, but no DV7 variant or entertainment-drone description matching this listing; the source entry supplies no official product URL or specifications. Recorded as an unverified family label, not a catalog model."
+        }
       }
     },
     {
@@ -5671,8 +5721,27 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/b080b0e7-73be-4152-ab0e-db2a00bcf242",
       "listingId": "b080b0e7-73be-4152-ab0e-db2a00bcf242",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "b080b0e7-73be-4152-ab0e-db2a00bcf242",
+        "name": "Delivery Bot",
+        "company": "Zhigu Tianchu",
+        "kind": "generic_product_family",
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "BuyAndRentRobots",
+            "url": "https://buyandrentrobots.com/robot/b080b0e7-73be-4152-ab0e-db2a00bcf242"
+          },
+          {
+            "publisher": "BuyAndRentRobots company profile",
+            "url": "https://buyandrentrobots.com/companies/zhigu-tianchu"
+          }
+        ],
+        "note": "The company profile lists Delivery Robot only as a robot type and publishes no product name, model page or official product URL. Recorded as a generic product family with no catalog model IDs; no Zhigu Tianchu hardware authorship or availability is claimed.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/b080b0e7-73be-4152-ab0e-db2a00bcf242",
+        "catalogIds": []
+      }
     },
     {
       "name": "DeliveryDrone",
@@ -5681,8 +5750,27 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/5d9a4b0c-2631-4b81-b4c0-7c0f2f794aa2",
       "listingId": "5d9a4b0c-2631-4b81-b4c0-7c0f2f794aa2",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "5d9a4b0c-2631-4b81-b4c0-7c0f2f794aa2",
+        "name": "DeliveryDrone",
+        "company": "XYZ Robotics",
+        "kind": "generic_product_family",
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "BuyAndRentRobots",
+            "url": "https://buyandrentrobots.com/robot/5d9a4b0c-2631-4b81-b4c0-7c0f2f794aa2"
+          },
+          {
+            "publisher": "BuyAndRentRobots company profile",
+            "url": "https://buyandrentrobots.com/companies/xyz-robotics"
+          }
+        ],
+        "note": "The company profile lists Delivery Robot only as a robot type and publishes no product name, model page or official product URL. Recorded as a generic product family with no catalog model IDs; the listed company website is a news link and does not establish a drone product.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/5d9a4b0c-2631-4b81-b4c0-7c0f2f794aa2",
+        "catalogIds": []
+      }
     },
     {
       "name": "Dog Robot",
@@ -5807,8 +5895,27 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/a4880484-c2db-4fb6-845b-493f34db3f34",
       "listingId": "a4880484-c2db-4fb6-845b-493f34db3f34",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "a4880484-c2db-4fb6-845b-493f34db3f34",
+        "name": "EduBot",
+        "company": "Zhigu Tianchu",
+        "kind": "generic_product_family",
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "BuyAndRentRobots",
+            "url": "https://buyandrentrobots.com/robot/a4880484-c2db-4fb6-845b-493f34db3f34"
+          },
+          {
+            "publisher": "BuyAndRentRobots company profile",
+            "url": "https://buyandrentrobots.com/companies/zhigu-tianchu"
+          }
+        ],
+        "note": "The company profile lists Education Robot only as a robot type and publishes no product name, model page or official product URL. Recorded as a generic product family with no catalog model IDs; no STEM product identity or availability is claimed.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/a4880484-c2db-4fb6-845b-493f34db3f34",
+        "catalogIds": []
+      }
     },
     {
       "name": "ER-FLEX",
@@ -6637,8 +6744,27 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/bdb7deea-839f-4d9e-a2da-b0502f136588",
       "listingId": "bdb7deea-839f-4d9e-a2da-b0502f136588",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "bdb7deea-839f-4d9e-a2da-b0502f136588",
+        "name": "SecurityGuard",
+        "company": "XYZ Robotics",
+        "kind": "generic_product_family",
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "BuyAndRentRobots",
+            "url": "https://buyandrentrobots.com/robot/bdb7deea-839f-4d9e-a2da-b0502f136588"
+          },
+          {
+            "publisher": "BuyAndRentRobots company profile",
+            "url": "https://buyandrentrobots.com/companies/xyz-robotics"
+          }
+        ],
+        "note": "The company profile lists Security Robot only as a robot type and publishes no product name, model page or official product URL. Recorded as a generic product family with no catalog model IDs; no patrol product identity or availability is claimed.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/bdb7deea-839f-4d9e-a2da-b0502f136588",
+        "catalogIds": []
+      }
     },
     {
       "name": "ServiceBot",
@@ -6647,8 +6773,27 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/7b7baa33-536d-40e1-9408-70a943acd79d",
       "listingId": "7b7baa33-536d-40e1-9408-70a943acd79d",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "7b7baa33-536d-40e1-9408-70a943acd79d",
+        "name": "ServiceBot",
+        "company": "XYZ Robotics",
+        "kind": "generic_product_family",
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "BuyAndRentRobots",
+            "url": "https://buyandrentrobots.com/robot/7b7baa33-536d-40e1-9408-70a943acd79d"
+          },
+          {
+            "publisher": "BuyAndRentRobots company profile",
+            "url": "https://buyandrentrobots.com/companies/xyz-robotics"
+          }
+        ],
+        "note": "The company profile lists Service Robot only as a robot type and publishes no product name, model page or official product URL. Recorded as a generic product family with no catalog model IDs; no hospitality product identity or availability is claimed.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/7b7baa33-536d-40e1-9408-70a943acd79d",
+        "catalogIds": []
+      }
     },
     {
       "name": "Six",
@@ -7582,8 +7727,29 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/5409d51c-256a-441a-9d99-4b1e9f6e2ae3",
       "listingId": "5409d51c-256a-441a-9d99-4b1e9f6e2ae3",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "5409d51c-256a-441a-9d99-4b1e9f6e2ae3",
+        "name": "Go2",
+        "company": "TGW Logistics",
+        "kind": "model-resolution",
+        "catalogManufacturer": "Unitree",
+        "catalogModels": [
+          "Go2"
+        ],
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "Unitree",
+            "url": "https://www.unitree.com/go2/"
+          }
+        ],
+        "note": "The source listing names Go2 as a greeter and attributes it to TGW Logistics, whose company page returns 404; no official product URL is published. Unitree identifies Go2 as its quadruped model; the review corrects the model identity only, without asserting a TGW reseller offer or availability.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/5409d51c-256a-441a-9d99-4b1e9f6e2ae3",
+        "catalogIds": [
+          "unitree-go2"
+        ]
+      }
     },
     {
       "name": "Go2",
@@ -7592,8 +7758,29 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/04b41f87-0793-4ef9-9396-f0914490cf33",
       "listingId": "04b41f87-0793-4ef9-9396-f0914490cf33",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "04b41f87-0793-4ef9-9396-f0914490cf33",
+        "name": "Go2",
+        "company": "Pilz GmbH",
+        "kind": "model-resolution",
+        "catalogManufacturer": "Unitree",
+        "catalogModels": [
+          "Go2"
+        ],
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "Unitree",
+            "url": "https://www.unitree.com/go2/"
+          }
+        ],
+        "note": "The source listing names Go2 as a greeter and attributes it to Pilz GmbH; no official product URL is published. Unitree identifies Go2 as its quadruped model; the review corrects the model identity only, without asserting a Pilz reseller offer or availability.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/04b41f87-0793-4ef9-9396-f0914490cf33",
+        "catalogIds": [
+          "unitree-go2"
+        ]
+      }
     },
     {
       "name": "Gopher",
@@ -8035,8 +8222,29 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/793c015f-f444-4446-9121-861f1f97d61a",
       "listingId": "793c015f-f444-4446-9121-861f1f97d61a",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "793c015f-f444-4446-9121-861f1f97d61a",
+        "name": "NEO",
+        "company": "TGW Logistics",
+        "kind": "model-resolution",
+        "catalogManufacturer": "1X Technologies",
+        "catalogModels": [
+          "NEO"
+        ],
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "1X Technologies",
+            "url": "https://www.1x.tech/neo"
+          }
+        ],
+        "note": "The source listing names NEO as a humanoid and attributes it to TGW Logistics, whose company page returns 404; no official product URL is published. 1X Technologies identifies NEO as its home humanoid; the review corrects the model identity only, without asserting a TGW reseller offer or availability.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/793c015f-f444-4446-9121-861f1f97d61a",
+        "catalogIds": [
+          "1x-technologies-neo"
+        ]
+      }
     },
     {
       "name": "NEO",
@@ -8045,8 +8253,29 @@
       "sourceUrl": "https://buyandrentrobots.com/robot/c290567c-91bc-4593-8c03-b431d3942278",
       "listingId": "c290567c-91bc-4593-8c03-b431d3942278",
       "reason": "Original listing was unclear; current review status is separate",
-      "reviewStatus": "identity-review-needed",
-      "strictReview": null
+      "reviewStatus": "reviewed",
+      "strictReview": {
+        "listingId": "c290567c-91bc-4593-8c03-b431d3942278",
+        "name": "NEO",
+        "company": "Pilz GmbH",
+        "kind": "model-resolution",
+        "catalogManufacturer": "1X Technologies",
+        "catalogModels": [
+          "NEO"
+        ],
+        "checkedAt": "2026-11-03",
+        "evidence": [
+          {
+            "publisher": "1X Technologies",
+            "url": "https://www.1x.tech/neo"
+          }
+        ],
+        "note": "The source listing names NEO as a humanoid and attributes it to Pilz GmbH; no official product URL is published. 1X Technologies identifies NEO as its home humanoid; the review corrects the model identity only, without asserting a Pilz reseller offer or availability.",
+        "sourceUrl": "https://buyandrentrobots.com/robot/c290567c-91bc-4593-8c03-b431d3942278",
+        "catalogIds": [
+          "1x-technologies-neo"
+        ]
+      }
     },
     {
       "name": "NEO 2.0 Brushless Motor",
@@ -8668,261 +8897,10 @@
       }
     }
   ],
-  "strictUnresolvedModels": [
-    {
-      "brand": "Kawasaki Robotics",
-      "model": "A700",
-      "sourceUrls": [
-        "https://buyandrentrobots.com/robot/d821fc39-3fa7-40aa-8edd-13e03e7aa0e2"
-      ],
-      "status": "missing",
-      "catalogIds": [],
-      "note": ""
-    },
-    {
-      "brand": "Kawasaki Robotics",
-      "model": "Kx",
-      "sourceUrls": [
-        "https://buyandrentrobots.com/robot/d1ab00ed-6b3c-4313-a866-7a13ee5e73b2"
-      ],
-      "status": "missing",
-      "catalogIds": [],
-      "note": ""
-    },
-    {
-      "brand": "Parrot",
-      "model": "CHUCK DV7",
-      "sourceUrls": [
-        "https://buyandrentrobots.com/robot/9265701e-6002-419e-bd44-0df1787ce584"
-      ],
-      "status": "missing",
-      "catalogIds": [],
-      "note": ""
-    }
-  ],
-  "strictUnresolvedListings": [
-    {
-      "listingId": "b080b0e7-73be-4152-ab0e-db2a00bcf242",
-      "name": "Delivery Bot",
-      "company": "Zhigu Tianchu",
-      "companySlug": "zhigu-tianchu",
-      "companyWebsite": "https://eu.36kr.com",
-      "companyCountry": "China",
-      "companyRole": "unknown",
-      "category": "delivery",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "food/parcel delivery",
-      "features": [
-        "food/parcel delivery"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/b080b0e7-73be-4152-ab0e-db2a00bcf242",
-      "companyUrl": "https://buyandrentrobots.com/companies/zhigu-tianchu",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    },
-    {
-      "listingId": "5d9a4b0c-2631-4b81-b4c0-7c0f2f794aa2",
-      "name": "DeliveryDrone",
-      "company": "XYZ Robotics",
-      "companySlug": "xyz-robotics",
-      "companyWebsite": "https://www.marketwatch.com",
-      "companyCountry": "USA",
-      "companyRole": "service_provider",
-      "category": "delivery",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "food/parcel delivery",
-      "features": [
-        "food/parcel delivery"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/5d9a4b0c-2631-4b81-b4c0-7c0f2f794aa2",
-      "companyUrl": "https://buyandrentrobots.com/companies/xyz-robotics",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    },
-    {
-      "listingId": "a4880484-c2db-4fb6-845b-493f34db3f34",
-      "name": "EduBot",
-      "company": "Zhigu Tianchu",
-      "companySlug": "zhigu-tianchu",
-      "companyWebsite": "https://eu.36kr.com",
-      "companyCountry": "China",
-      "companyRole": "unknown",
-      "category": "educational",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "STEM education",
-      "features": [
-        "STEM education"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/a4880484-c2db-4fb6-845b-493f34db3f34",
-      "companyUrl": "https://buyandrentrobots.com/companies/zhigu-tianchu",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    },
-    {
-      "listingId": "bdb7deea-839f-4d9e-a2da-b0502f136588",
-      "name": "SecurityGuard",
-      "company": "XYZ Robotics",
-      "companySlug": "xyz-robotics",
-      "companyWebsite": "https://www.marketwatch.com",
-      "companyCountry": "USA",
-      "companyRole": "service_provider",
-      "category": "security",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "patrol and surveillance",
-      "features": [
-        "patrol and surveillance"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/bdb7deea-839f-4d9e-a2da-b0502f136588",
-      "companyUrl": "https://buyandrentrobots.com/companies/xyz-robotics",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    },
-    {
-      "listingId": "7b7baa33-536d-40e1-9408-70a943acd79d",
-      "name": "ServiceBot",
-      "company": "XYZ Robotics",
-      "companySlug": "xyz-robotics",
-      "companyWebsite": "https://www.marketwatch.com",
-      "companyCountry": "USA",
-      "companyRole": "service_provider",
-      "category": "service",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "service tasks; hospitality",
-      "features": [
-        "service tasks",
-        "hospitality"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/7b7baa33-536d-40e1-9408-70a943acd79d",
-      "companyUrl": "https://buyandrentrobots.com/companies/xyz-robotics",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    },
-    {
-      "listingId": "5409d51c-256a-441a-9d99-4b1e9f6e2ae3",
-      "name": "Go2",
-      "company": "TGW Logistics",
-      "companySlug": "industry",
-      "companyWebsite": "https://tgw-group.com",
-      "companyCountry": "",
-      "companyRole": "unknown",
-      "category": "greeter",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "reception and greeting",
-      "features": [
-        "reception and greeting"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/5409d51c-256a-441a-9d99-4b1e9f6e2ae3",
-      "companyUrl": "https://buyandrentrobots.com/companies/industry",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    },
-    {
-      "listingId": "04b41f87-0793-4ef9-9396-f0914490cf33",
-      "name": "Go2",
-      "company": "Pilz GmbH",
-      "companySlug": "pilz-gmbh",
-      "companyWebsite": "https://pilz.com",
-      "companyCountry": "",
-      "companyRole": "unknown",
-      "category": "greeter",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "reception and greeting",
-      "features": [
-        "reception and greeting"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/04b41f87-0793-4ef9-9396-f0914490cf33",
-      "companyUrl": "https://buyandrentrobots.com/companies/pilz-gmbh",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    },
-    {
-      "listingId": "793c015f-f444-4446-9121-861f1f97d61a",
-      "name": "NEO",
-      "company": "TGW Logistics",
-      "companySlug": "industry",
-      "companyWebsite": "https://tgw-group.com",
-      "companyCountry": "",
-      "companyRole": "unknown",
-      "category": "humanoid",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "humanoid interaction; humanoid form",
-      "features": [
-        "humanoid interaction",
-        "humanoid form"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/793c015f-f444-4446-9121-861f1f97d61a",
-      "companyUrl": "https://buyandrentrobots.com/companies/industry",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    },
-    {
-      "listingId": "c290567c-91bc-4593-8c03-b431d3942278",
-      "name": "NEO",
-      "company": "Pilz GmbH",
-      "companySlug": "pilz-gmbh",
-      "companyWebsite": "https://pilz.com",
-      "companyCountry": "",
-      "companyRole": "unknown",
-      "category": "humanoid",
-      "entryType": "unclear",
-      "isConcreteModel": false,
-      "classificationStatus": "needs-review",
-      "brand": null,
-      "usp": "humanoid interaction; humanoid form",
-      "features": [
-        "humanoid interaction",
-        "humanoid form"
-      ],
-      "sourceUrl": "https://buyandrentrobots.com/robot/c290567c-91bc-4593-8c03-b431d3942278",
-      "companyUrl": "https://buyandrentrobots.com/companies/pilz-gmbh",
-      "officialProductUrl": "",
-      "officialProductUrlStatus": "not resolved",
-      "availability": "available",
-      "fetchedAt": "2026-11-01T17:58:29Z"
-    }
-  ],
+  "strictUnresolvedModels": [],
+  "strictUnresolvedListings": [],
   "inputSha256": {
     "inventory": "0a452a7fd650eef423be7e6d720df84956494f9713ce7a6f6da48cc9c0d62012",
-    "coverage": "0db0cd4bf9f29087fc0529ebe625b9bc9ab0458ea3487243540396bf1b655d8f"
+    "coverage": "b6933305f1777bccc966d9a9eccd109319f2a8d238dfcac47ce511c3c43be53a"
   }
 }
