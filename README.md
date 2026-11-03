@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,311 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,319 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-24,524 fields across 1299 models, distinguishing documented, undisclosed, conflicting and
+24,568 fields across 1303 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,610 kB JSON response loads only for search or comparison;
+A separate 6,623 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,052 reviewed highlight statements as well as
+Catalog search now includes all 6,072 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1606,3 +1606,14 @@ separate 2023 sweeper-scrubber with a 1,270 mm cleaning width, up to 95 kg brush
 pressure, 200 m 3D LiDAR and up to 100,000 square feet per charge. Unsupported
 catalog prices of about 75,750 USD and about 140 USD per month and unsupported
 420/600/300-minute runtimes are cleared rather than repeated.
+
+Mammotion's LUBA 3 AWD, LUBA mini AWD, YUKA mini 2 and YUKA 2000 now have
+selected field reviews. The manufacturer publishes an 80% (38.6°) slope rating,
+215 min runtime per charge from a 15 Ah battery and 41 lbs mass for the LUBA 3 AWD,
+160 min from a 6.1 Ah battery and 8 cm obstacle clearance for the LUBA mini AWD,
+a 6.1 Ah battery with 2,690 square feet per charge for the YUKA mini 2 and a
+45% (24°) slope rating for the YUKA 2000. The YUKA 2000 row now cites the EU
+page, which lists 1,699 EUR and marks the mower sold out; the reviewed US store
+redirects the old YUKA URL to the YUKA mini 2. Unsupported catalog masses of
+about 25 kg, 11 kg and about 22 kg, runtimes of 480 and about 90 minutes, and the
+1,799 USD YUKA price are cleared rather than repeated.
