@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.296 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1042 |
-| Datierte Produktmerkmal-Datensätze einschließlich 182 bestehender Modelle | 1224 |
-| Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 645 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.305 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1051 |
+| Datierte Produktmerkmal-Datensätze einschließlich 182 bestehender Modelle | 1233 |
+| Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 125 |
+| Firmenfokus-Prüfungen mit Quellen | 126 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1042 ergänzte Modelle ergeben 2.296 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1051 ergänzte Modelle ergeben 2.305 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -41,9 +41,9 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-125 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+126 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1224 Datensätze
+Modellseiten verlinken Markenprofile. Die 1233 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 461 haben ausgewählte Datenfeldprüfungen und 57
+haben datierte Merkmalsbelege; 463 haben ausgewählte Datenfeldprüfungen und 55
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 497 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 498 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -10674,3 +10674,127 @@ remote geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein De
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige historische/aktuelle Portfolios, unabhängige Leistung,
 exklusive USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 130 – Sanbot-Varianten, Herstellerrollen und historische Zollplattform (3. November 2026)
+
+Neun neue Modell-/Konfigurationszeilen: Sanbot Max, Professional, Standard und
+Economic; Sanbot Mini ELF, PRO, BASE und RETAIL; Sanbot Xiaohai 2.0. Nano und Elf
+sind überarbeitet und erstmals mit ausgewählten Datenfeldprüfungen versehen.
+Elf und Max haben je 20 ausgewählte Felder, Mini ELF und Nano je 16; Xiaohai 2.0
+hat 20. Insgesamt elf Einträge und 200 Felder: 58 dokumentiert, 141 unbekannt,
+eines widersprüchlich. 36 Merkmalsaussagen, 40 Produktquellenverweise und eine
+Firmenfokus-Prüfung kommen hinzu. Gesamtbestand: 2.305 Modelle/Konfigurationen,
+1.233 datierte Merkmalsdatensätze, 5.469 Aussagen, 2.509 Produktquellenverweise und
+126 Firmenfokus-Prüfungen. 1.159 Modelle haben 21.992 ausgewählte Feldprüfungen:
+8.015 dokumentiert, 13.583 unbekannt, 289 widersprüchlich und 105 Roadmap.
+Von 518 ursprünglichen Zielen haben 463 ausgewählte Feldprüfungen; 55 bleiben
+offen. Die ursprüngliche Queue umfasst 8.498 Felder: 3.380 dokumentiert,
+4.924 unbekannt, 176 widersprüchlich und 18 Roadmap.
+
+Alle vier Produktfamilien aus der nativen Navigation und die jeweils drei
+explizit benannten Max-/Mini-Konfigurationen haben Zuordnungsentscheidungen.
+QIHAN bleibt Herstellerbezeichnung auf den historischen Nano-/Elf-/Xiaohai-Zeilen;
+die native Brand Story nennt Sanbot Innovation als Hersteller. Max und Mini ELF
+nutzen diese Bezeichnung. Beide Herstellerlabels sind dem bestehenden Sanbot-
+Produktmarkenprofil zugeordnet. Dies behauptet keine rechtlich geprüfte Umfirmierung
+oder Firmenfusion. Nur der Sanbot-Markendatensatz erhält zusätzliches Mapping,
+Alias und Primärquelle; andere Markendatensätze bleiben gleich. Das Dateidatum
+ändert sich entsprechend; 591 Firmen-CSV-Zeilen erhalten dadurch ein neues
+Verzeichnisdatum, nur die Sanbot-Zeile ändert weitere inhaltliche Felder.
+Es bleiben 1.037 Marken-/Firmenprofile, davon 634 mit Modellen und 403 reine
+Quellenprofile; der CSV-Bestand hat 646 exakte Herstellerbezeichnungen.
+
+Nano nennt nativ 19 kg, 848,32 mm Höhe, 395,22 mm Tiefe, 420,59 mm Breite,
+maximal 0,8 m/s, vier Stunden Betrieb und über zehn Stunden Standby. Die historische
+Ankündigung nennt stattdessen 2,7 ft Höhe; der Unterschied bleibt als Widerspruch
+sichtbar. 2.800 USD ist der angekündigte Preis vom August 2017; geplante Oktober-
+Verfügbarkeit bestätigt weder tatsächlichen Erstverkauf noch ein aktuelles Angebot.
+Alexa, Q-Link und Apps sind historische Integrationen ohne bestätigten heutigen
+Support. 20 Ah/300 W ist ein uneindeutiges elektrisches Label, keine stillschweigend
+berechnete Wh-Zahl oder Ladezeit. Die Grade-Zeile in Zentimetern belegt keinen
+Steigungswinkel. Komponenten-DOF werden nicht zu einer Gesamtzahl addiert.
+
+Elf nennt 19 kg, 902 x 421 x 331 mm nach den Quellenlabels Länge/Breite/Tiefe,
+maximal 0,8 m/s und ungefähr zehn Stunden Betrieb; über 24 Stunden Standby sind
+separat. Der falsche Suffix 41,9in neben 19 kg liefert keinen zweiten Massenwert.
+Die spätere Ladepult-Sektion mit 1,35 kg, 250 x 118 x 248 mm, Wandmontage und
+0–5 m/180° Signalabdeckung wird nicht zu Robotermasse, Körpergröße, Dockinggenauigkeit
+oder Ladezeit. Projektor- und Displayangaben bleiben getrennt; 720p-/1920x720-/16:9-
+Texte liefern keine konsistente native Projektorauflösung. Ein unzugeordnetes 98%-
+Textelement belegt keine Erkennungsgenauigkeit oder Sicherheit.
+
+Max Professional nennt 100 kg, etwa 18 Stunden Betrieb und 75 kg Fracht-/Anbau-
+kapazität. Diese Last ist keine Arm-Nutzlast. Standard nennt etwa 90 kg und zehn
+Stunden Betrieb; Economic etwa 60 kg, 300 Wh und ausdrücklich manuelles Schieben
+statt motorisiertem Antrieb. Standard/Economic nennen keine Frachtfreigabe. Die
+5-m/s-Angabe gehört zu den motorisierten Spalten, nicht Economic. Arm-/Hand-DOF
+sind keine vollständigen Roboter-DOF. Kopf-Untertabellen widersprechen bei Standard
+und Economic ihrer Motorzeile; daraus wird kein verifizierter Gesamtwert gebildet.
+1,6 kWh beziehungsweise die 1548-Wh-Familienangabe sind Energie, keine Ladezeit.
+50 Stunden Standby und werbliche 24/7-Nutzung mit Nachladen bleiben von einzelner
+Akkulaufzeit getrennt. Die Ankündigung 2017 nennt ungefähr 4,8 ft und 165 lb Zuglast;
+die CES-Mitteilung 2018 nennt 4,7 ft, 220 lb, 165 lb Anbau- und 881 lb Zuglast.
+Datierte Konfigurationen und Lastarten bleiben getrennt. Keine dieser Angaben wird
+pauschal allen benannten Versionen zugeordnet.
+
+Mini ELF nennt in allen drei Versionsspalten 5 kg und zwei lageabhängige Umrisse:
+30 x 53 x 28 cm in Standardstellung, 30 x 59 x 30 cm bei maximalem Winkel. Netz-
+versorgung ist kein Akkuwert oder Beleg einer autonomen Fahrbasis. PRO führt eine
+3D-Kamera; BASE/RETAIL führen diesen Eintrag nicht. PRO/BASE haben Mikrofon-/Kamera-
+Sperrschalter; RETAIL vermerkt ausdrücklich nicht unterstützt. Die allgemeine
+Datenschutzwerbung wird daher nicht auf jede Variante übertragen. Geteilte Zeilen
+für Display und Gesichts-/Halsbewegung behalten ihren gemeinsamen Geltungsbereich;
+keine künstlichen Einzelzellen oder aufsummierte Gesamt-DOF. Die separate Temperatur-
+Anwendung bezeichnet die Infrarotmessung als ergänzend, ausdrücklich nicht als
+medizinische Detektion. Keine Diagnosegenauigkeit, Zulassung oder Standardausstattung
+aller Varianten wird daraus abgeleitet.
+
+Xiaohai 2.0 ist laut Hersteller eine größere angepasste Zollplattform mit Armen,
+Fingern und Thermalkamera, im August 2017 für Gongbei beschrieben. Vier Einsatz-
+aufgaben und zehn Übersetzungssprachen sind historische Herstellerangaben. Frühere
+Zusammenarbeit und tägliche Passagierzahlen sind Standortkontext, kein Roboter-
+Durchsatz oder unabhängig belegter Sicherheits-/Medizinerfolg. Exakte Hardware-
+werte und heutiger Betrieb bleiben unbestätigt. King Kong im Supporttext und
+kingkong.html in der Max-Mitteilung sind Identitätshinweise; genaue ausgestattete
+Gleichheit ist unbewiesen. Der unversionierte Sanbot-Text 2015 belegt kein weiteres
+unterschiedliches Modell neben Elf. Donkey ist dort nur als proprietäre Lösung
+benannt. MPS, Cloud, Apps und Temperatur-Anwendungen werden nicht als zusätzliche
+Roboter importiert. Vollständige historische Portfolios bleiben unbewiesen.
+
+27 gespeicherte Antworten: 24 HTTP 200 und drei HTTP 403. Zwei Transportfehler
+(TLS und Verbindung) werden getrennt dokumentiert. Sperrantworten und fehlgeschlagene
+Abrufe sind ausgeschlossen; betroffene gesperrte Hosts wurden nicht erneut angefragt.
+TLS-Prüfung wurde nicht abgeschaltet. Öffentlich verlinkte HTTP-Produktseiten der
+englischen Herstellerseite waren erreichbar. Zwei nicht passende alte Pfade
+leiten auf die Startseite; diese Antworten sind keine Produktspezifikationen.
+Alle Antwortkörper haben überprüfte SHA-256-Werte. Dreispaltige native DOM-Matrizen,
+geteilte Einzelzellen, Ladepult-Sektionen und vier Hersteller-Nachrichtentexte sind
+abgegrenzt. NTB zeigt eine QIHAN-Mitteilung, keine unabhängige NTB-Produktprüfung;
+angehängte fremde Nachrichten werden ausgeschlossen. Keine visuelle Bild-/PDF-
+Prüfung, Formulare, Konten oder Transaktionen. Dauerbeleg:
+`reports/competitor-batch-130-evidence.json`.
+
+808 Unit-Tests in 64 Dateien und 26 Browserfälle einschließlich vier Axe-Prüfungen
+bestanden. Build: 3.356 Seiten. Audit: null Fehler und 1.201 Warnungen, davon zehn
+zusätzliche ausschließlich für unbekannte Erscheinungsjahre. Ein erster Build
+mit 3.355 Seiten war beendet, bevor die zusätzlich gefundenen Hersteller-Nachrichten
+Xiaohai 2.0 und weitere Max-Abgrenzungen begründeten; danach Daten und abschließenden
+Build erneut geprüft. Geprüft sind elf Produktseiten, 200 Felder,
+37 Quellenbadges, 141 ausgelassene Leerfelder,
+42 Merkmalsaussagen und eine Firmenfokus-Seite. Beide ursprünglichen Queue-Ziele
+zeigen 36 ausgewählte Felder. Keine neuen Vorkommen im Modell-/Firmenbeschreibungsexport;
+die Listingidentitäten bleiben erhalten. Suche, Vierervergleich, strukturierte
+Eigenschaften, Laufzeit-/Massefilter, vollständiger Belegexport und byteidentischer
+Reimport der 32 getrackten Datendateien geprüft. Offline-Refresh ist semantisch
+idempotent. Die erste Browserrunde hatte zwei fehlerhafte Erwartungen im Suchtest: Die Abfrage
+traf bereits die Produktbeschreibung, sodass kein zusätzlicher Nur-Merkmal-Auszug
+erscheinen musste. Nach Umstellung auf eine ausschließlich im Merkmal vorkommende
+Phrase wurde der volle Prüfumfang erneut ausgeführt; Anwendung und Daten blieben
+dabei unverändert. Eigene Browser, Testserver und Recherchehelfer beendet. Externe
+YouTube-/Axe-Befunde aus Batch106 bleiben außerhalb dieser Prüfung offen.
+
+Daten-Zwischencommit `91aaa35418db43abb2e11771605a8477d2ef6ce2` ist auf `codex/competitor-directory-expansion` gepusht und remote
+geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Aktuelle
+Verfügbarkeit, unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind nicht belegt.

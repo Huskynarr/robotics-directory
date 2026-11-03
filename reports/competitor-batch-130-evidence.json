@@ -1,0 +1,3085 @@
+{
+  "batch": 130,
+  "checkedAt": "2026-11-03",
+  "sourceCaptureDateUTC": "2026-11-03",
+  "reviewTimezone": "Europe/Berlin",
+  "manufacturers": [
+    "QIHAN Technology",
+    "Sanbot Innovation"
+  ],
+  "catalogModelsBefore": 2296,
+  "catalogModelsAfter": 2305,
+  "newModels": 9,
+  "existingModelsReviewed": 2,
+  "newHighlightRecords": 9,
+  "existingHighlightRecordsEnriched": 2,
+  "newSpecificationReviews": 11,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 200,
+  "previousSelectedFields": 0,
+  "netNewSelectedFields": 200,
+  "fieldStatuses": {
+    "documented": 58,
+    "conflicting": 1,
+    "not-documented": 141
+  },
+  "newCompanyFocusReviews": 1,
+  "expandedCompanyFocusReviews": 0,
+  "newCsvFields": [],
+  "categoryTransfers": 0,
+  "allPreconditionsCheckedBeforeTrackedWrites": true,
+  "newProductHighlightRecords": 9,
+  "expandedProductHighlightRecords": 2,
+  "additionalHighlightStatements": 36,
+  "netAdditionalProductSourceReferences": 40,
+  "totalProductHighlightRecords": 1233,
+  "totalHighlightStatements": 5469,
+  "totalProductSourceReferences": 2509,
+  "sourceIntegrity": {
+    "allChecksPassed": true,
+    "sourceRecords": 27,
+    "successfulHttp200Responses": 24,
+    "http403Responses": 3,
+    "failedRequests": [
+      {
+        "url": "https://www.sanbot.com",
+        "errorType": "SSLError",
+        "message": "HTTPSConnectionPool(host='www.sanbot.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1029)')))",
+        "checkedAt": "2026-11-03T00:11:24.798028+00:00",
+        "responseSaved": false,
+        "usedAsEvidence": false
+      },
+      {
+        "url": "https://automationsfokus.dk/qihan-introduces-next-generation-humanoid-sanbot-king-kong-intelligent-service-robot/",
+        "errorType": "ConnectionError",
+        "message": "HTTPSConnectionPool(host='automationsfokus.dk', port=443): Max retries exceeded with url: /qihan-introduces-next-generation-humanoid-sanbot-king-kong-intelligent-service-robot/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7fa716fc8f50>: Failed to resolve 'automationsfokus.dk' ([Errno -2] Name or service not known)\"))",
+        "checkedAt": "2026-11-03T00:11:29.700959+00:00",
+        "responseSaved": false,
+        "usedAsEvidence": false
+      }
+    ],
+    "allSavedBodyHashesVerified": true,
+    "blockedHostsNotRetried": true,
+    "httpsVerificationNotBypassed": true,
+    "publicHttpManufacturerLinksUsed": true,
+    "failedOrBlockedResponsesExcluded": true,
+    "redirectedFallbackHomepageNotUsedAsProductSpecification": true
+  },
+  "bodyScopeCheck": {
+    "allChecksPassed": true,
+    "structuredMatrixSelector": ".par_info > dl; dt label; dd .m-row > .m-col-4 in column order",
+    "matrices": {
+      "14": {
+        "Design Size": [
+          ""
+        ],
+        "Product model": [
+          "Professional Version",
+          "Standard Version",
+          "Economic Version"
+        ],
+        "Battery": [
+          "Lithium capacity：1.6KWh； Voltage：36V； Working hours: normally about 18 hours, standby about 50 hours",
+          "Lithium capacity：1.0KWh； Voltage：36V； Working hours: normally about 10 hours",
+          "Lithium capacity：300Wh； Voltage：36V；"
+        ],
+        "Primary Sensors": [
+          "MIC, HD color camera, 3D camera, Visual camera, Touch sensor, HD camera, PIR, Ultrasonic, Gyroscope, Infrared, Pressure sensor, Magnetic sensor, RFID card reader",
+          "MIC, HD color camera, 3D camera, Visual camera, Touch sensor, HD camera, PIR, Ultrasonic, Gyroscope, Infrared",
+          "MIC, HD color camera, Touch sensor, HD camera, PIR"
+        ],
+        "Display": [
+          "1080P, 10.1 inch touchscreen"
+        ],
+        "Degrees of Freedom(motor)": [
+          "Head: x3（Horizontal 180 degree, Vertical 90 degree） Arm: x10 Palm: x10 Waist: x1 Chassis: x4",
+          "Head: x2（Horizontal 180 degree, Vertical 45 degree） Arm: x10 Palm: x10 Chassis: x4",
+          "Head: x2（Horizontal 180 degree, Vertical 45 degree） Chassis: 360 degree (no drive)"
+        ],
+        "OS": [
+          "Android / LINUX / ROS / RTOS"
+        ],
+        "Moving": [
+          "4-wheel drive (External wheel motor and Mecanum wheel)",
+          "External wheel motor and Mecanum wheelx4",
+          "Mecanum wheelx4"
+        ],
+        "Max Speed": [
+          "0~5m/s",
+          "0~5m/s",
+          "push manually"
+        ],
+        "Ground Clearance": [
+          "4.5cm",
+          "4.5cm",
+          "push manually"
+        ],
+        "Head": [
+          "Microphone: x7 Eye Display: OLED x2 Background lights: RGB x2 Speakers: Hi-Def Speakers x2 Degrees of movement: x3（Horizontal 180 degrees，Vertical 90 degrees） HD camera: 720Px1 Visual Camera: x1 3D Camera x1 Lighting: LED Light x1 Touch Sensor: x1",
+          "Microphone: x7 Eye Display: OLED x2 Background lights: RGB x2 Speakers: Hi-Def Speakers x2 Degrees of movement: x3（Horizontal 180 degrees，Vertical 90 degrees） HD camera: 720Px1 Visual Camera: x1 3D Camera x1 Lighting: LED Light x1 Touch Sensor: x1",
+          "Microphone: x7 Eye Display: OLED x2 Background lights: RGB x2 Speakers: Hi-Def Speakers x2 Degrees of movement: x3（Horizontal 180 degrees，Vertical 90 degrees） HD camera: 720Px1 Lighting: LED Light x1 Touch Sensor: x1"
+        ],
+        "Torso": [
+          "Display: 10.1 inch 1080P touchscreen HD Camera: x1 PIR: x2 Scanners: x2 Speakers: Treble speakersx2 subwoofer x1 Touch sensor: x2 Backside Cover: Type-A USB x2/Micro USB x1/Dial Switchx2 Front side cover: AC 220V Power Outlet x1/HDMI Port x1 Type-A USB x1/DC 12V Port x1 RJ45 Ethernet Port x1/AUDIO IN Port x1 I²C Interface x1 Bracket: Pressure Force Sensor x1",
+          "Display: 10.1 inch 1080P touchscreen HD Camera: x1 PIR: x2 Scanners: x2 Speakers: Treble speakersx2 Touch sensor: x2 Backside Cover: Type-A USB x2/Micro USB x1/Dial Switchx2 Front side cover: HDMI Port x1 Type-A USB x1 RJ45 Ethernet Port x1/AUDIO IN Port x1 I²C Interface x1",
+          "Display: 10.1 inch 1080P touchscreen HD Camera: x1 PIR: x2 Speakers: Treble speakersx2 Backside Cover: Type-A USB x2/Micro USB x1/Dial"
+        ],
+        "Arm (x2)": [
+          "Arm directions of movement: x5 Hand directions of movement: x5 Touch Sensor: x4 Infrared: Infrared Distance Sensor x3 Background Light: x1",
+          "Arm directions of movement: x5 Hand directions of movement: x5 Touch Sensor: x4 Infrared: Infrared Distance Sensor x3 Background Light: x1",
+          ""
+        ],
+        "Chassis": [
+          "Wheels: External Wheel Hub Motor + Mecanum Wheel） x4 Infrared: Infrared Distance Sensor x18 Ultrasonic Scanner: x6 3D Camera: x4 Vision Camera: x1 Trailer Hitch: x1 On/Off Switch: x1 Charging Port: x1 Charging Indicator Light: x1 Turn Signal: x3 Magnetic Sensor: x2 RFID: x1 RJ45Ethernet Port: x1 DC 12V Port: x1 AUDIO IN Port: x1",
+          "Wheels: External Wheel Hub Motor + Mecanum Wheel） x4 Infrared: Infrared Distance Sensor x18 Ultrasonic Scanner: x6 3D Camera: x4 Vision Camera: x1 On/Off Switch: x1 Charging Port: x1 Charging Indicator Light: x1 Turn Signal: x3",
+          "Wheels: Mecanum Wheel x4 On/Off Switch: x1 Charging Port: x1 Charging Indicator Light: x1 Trailer Hitch: x1 HDMI Port： x1"
+        ],
+        "Charging method": [
+          "Charging pile、Charging by power adapter",
+          "Charging pile、Charging by power adapter",
+          "Charging by power adapter"
+        ],
+        "Weight": [
+          "100KG",
+          "About 90kg",
+          "About 60kg"
+        ],
+        "Max Freight Weight": [
+          "75KG",
+          "None",
+          "None"
+        ]
+      },
+      "15": {
+        "Design Size": [
+          ""
+        ],
+        "Product model": [
+          "PRO",
+          "BASE",
+          "RETAIL"
+        ],
+        "Sensor": [
+          "RGB camera； 3D camera； Mic； PIR； infrared distance measurement；",
+          "RGB camera； Mic； PIR； infrared distance measurement；",
+          "RGB camera； Mic； PIR； infrared distance measurement；"
+        ],
+        "Display": [
+          "10.1 inch 1080P HD capacitance 10-point touch display；"
+        ],
+        "Moving parts": [
+          "Face: x2 (180° rotation, 58° up and down)；Neck: x3 (180° horizontal, 48° forth and back)；"
+        ],
+        "Touch button": [
+          "Turn on/ off backlight(Touch&Hold),Wake up(Short press), Volume up/down"
+        ],
+        "Touch switch": [
+          "Ban mic (light up) + Ban camera (light up)",
+          "Ban mic (light up) + Ban camera (light up)",
+          "Ban mic (not support) + Ban camera (not support)"
+        ],
+        "Atmosphere show": [
+          "LED (256 colors)",
+          "LED (256 colors)",
+          "LED (256 colors)"
+        ],
+        "Sound": [
+          "2xbass reflexfull-range (12W 2inch)",
+          "2xbass reflexfull-range (12W 2inch)",
+          "2xbass reflexfull-range (12W 2inch)"
+        ],
+        "Network": [
+          "RJ45+WIFI（IEEE 802.11 a/b/g/n(2.4GHz/5GHz)）"
+        ],
+        "Platform": [
+          "ROS1.2 Android 7.1",
+          "ROS1.2 Android 7.1",
+          "ROS1.2 Android 7.1"
+        ],
+        "Expansion port": [
+          "4xUSB 1xType-C",
+          "4xUSB 1xType-C",
+          "4xUSB 1xType-C"
+        ],
+        "Power supply": [
+          "AC220/110V",
+          "AC220/110V",
+          "AC220/110V"
+        ],
+        "Size": [
+          "30x53x28cm(standard angle) 30x59x30cm(max angle)",
+          "30x53x28cm(standard angle) 30x59x30cm(max angle)",
+          "30x53x28cm(standard angle) 30x59x30cm(max angle)"
+        ],
+        "Weight": [
+          "5kg",
+          "5kg",
+          "5kg"
+        ]
+      }
+    },
+    "flatSpecificationSelector": ".pro_par_itm",
+    "flatSpecifications": {
+      "12": [
+        "",
+        "Size and Weight",
+        "Size 848.32mm(Height)x 395.22mm(Depth)x 420.59mm(Width)",
+        "Weight 19kg",
+        "Battery Lithium battery Capacity: 20Ah/300W Running time(Full Charge): 4 hours runtime, over 10 hours on standby mode",
+        "Sensor Head Body Hand Leg Mic x 7, RGB Camera x 2, 3D sensor x 1, Touch sensor x 7 Gyroscope sensor x 1, Human body induction sensor x 2, IR evading obstacle sensor x 1,IR message receiving sensor x 6, Touch sensor x 4, electronic compass sensor x 1 IR evading obstacle sensor x 4, Touch sensor x 2 IR evading obstacle sensor x 10, Omni Wheel x 3",
+        "Moving parts Head Hand Leg 2 x DOF, Horzontal-180 degrees, vertical- 37 degrees 1x2(L/R) DOF, 270 degree swing back and forth 3 x DOF, Free angle",
+        "Video 8.0MP HD camera 1.0MP HD color camera with 140 degree aspheric surface angle",
+        "Display 10.1 inch 1080P HD capacitance 10-point touch display",
+        "Platform ROS1.1",
+        "Sound Voice control, 360 degree sound localization 2 x tweeter, 1 x Subwoofer",
+        "WIFI network IEEE 802.11 a/b/g/n(2.4GHz/5GHz)",
+        "Wireless network ZigBee",
+        "Lights 250 kinds customized colors, 2 cycles for ears , 2 pcs for hands, and 1 cycle for chassis",
+        "Moving speed 0.8m/s max",
+        "Grade 1.5cm max"
+      ],
+      "13": [
+        "Size and Weight",
+        "Size and Weight length Width Depth Weight 902mm (35.5in) 421mm (16.6in) 331mm (13in) 19kg (41.9in)",
+        "Battery Type Capacity Life Lithium battery 20Ah\\300W Runtime is about 10 hours; standby is over 24 hours",
+        "Sensor Head Body Hand Leg Mic x 7, RGB Camera x 2, 3D sensor x 1, Touch sensor x 7 Gyroscope sensor x 1, Human body induction sensor x 2, IR evading obstacle sensor x 1, IR message receiving sensor x 6, Touch sensor x 4, electronic compass sensor x 1 IR evading obstacle sensor x 4, Touch sensor x 2 IR evading obstacle sensor x 10, Omni Wheel x 3",
+        "Moving parts Head Hand Base 2 x DOF, 180 degree at horizontal direction, 30 degree at vertical direction 1x2(L/R) DOF, 270 degree swing back and forth 3x DOF wheel sets",
+        "Video 8.0MP HD camera 1.0MP HD color camera with 140 degree aspheric surface angle",
+        "Display 10.1 inch 1080P HD capacitance 10-point touch display",
+        "Projection Laser HD wide gamut output Aspect-ratio 1920 x 720 60Hz 16:9",
+        "Platform ROS1.1",
+        "Sound Voice control, 360 degree sound localization 2x tweeters, 1x subwoofer",
+        "WIFI network IEEE 802.11 a\\b\\g\\n(2.4GHz\\5GHz)",
+        "Wireless network Bluetooth4.0, ZigBee",
+        "Atmosphere lamp 250 kinds customized colors 2 cycles for ears , 2 pcs for hands, and 1 cycle for chassis",
+        "Moving speed 0.8m/s max",
+        "Grade 1.5cm max",
+        "Size and Weight",
+        "Size 250 x 118 x 248 mm (Weight 1.35 kg (2.9 lbs)",
+        "Weight 1.35kg ( with adaptor)",
+        "Input AC 100-240V 50/60Hz",
+        "Output DC 19V/4.75A",
+        "LED Indicator Red=battery lower than 30%, Yellow=battery is about 70%, Green=battery is higher than 80%",
+        "Temperature 0°C - +35°C(+32°F - +95°F)",
+        "Humidity 10%~90%",
+        "Auto recharge distance 0-5 m (0-16.4 ft), 180° signal covering",
+        "Installation Wall-mounted"
+      ]
+    },
+    "releaseBodyTextSha256": "6b8103fa73282d1b582955037565b51d33a2889e183a1553d6ce492222e319a5",
+    "newswireRelatedArticlesExcluded": true,
+    "miniSingleCellRowsKeptSharedWithoutInventedPerVariantCells": true,
+    "elfChargingStationSeparated": true,
+    "redirects": {
+      "unrecognizedElfIntroduction": "http://en.sanbot.com/index",
+      "unrecognizedGuessedMiniTemperaturePath": "http://en.sanbot.com/index"
+    },
+    "inspection": "Native HTML and model-scoped specification blocks. No visual inspection, video viewing, forms, accounts or transactions.",
+    "manufacturerNewsBodies": {
+      "22": {
+        "selector": ".news_right_cont",
+        "textSha256": "538edcec468a0a5b20406ebc3f9a9d0b83ec1ecb0d5527e8e824f7c634c78d68"
+      },
+      "23": {
+        "selector": ".news_right_cont",
+        "textSha256": "bda7b277920b548e0b0448a617f4249f692d083a61827f3311a821520ba5e203"
+      },
+      "26": {
+        "selector": ".news_right_cont",
+        "textSha256": "01b0047a0bd819e773e9c70285bf5e2edf2f5501ef26fe959e2cd98afb361a38"
+      },
+      "27": {
+        "selector": ".news_right_cont",
+        "textSha256": "3904dc1441e091eb3748559d351f8f465b5d32cefa423843e5c7ffdc9c0164e3"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+      "finalUrl": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:02.097597+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "90c3f07b90a6052bec51ceae6e7adec1e1d557f08486ba3f8d6c0d04f010299e",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.businesswire.com/news/home/20170830006395/en/Introducing-Sanbot-Nano-an-AI-Robot-for-the-Home",
+      "finalUrl": "https://www.businesswire.com/news/home/20170830006395/en/Introducing-Sanbot-Nano-an-AI-Robot-for-the-Home",
+      "status": 403,
+      "checkedAt": "2026-11-03T00:11:02.173172+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "9527c69e4c7aab98aa5c61ae7bb2c7961b5756b8c541e3f8abc935726f885457",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html"
+    },
+    {
+      "id": 3,
+      "url": "https://docs.rs-online.com/46c6/0900766b816cc43f.pdf",
+      "finalUrl": "https://docs.rs-online.com/46c6/0900766b816cc43f.pdf",
+      "status": 403,
+      "checkedAt": "2026-11-03T00:11:15.579485+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "4aaeb5c90965a9ece85925d366f79b91ac766eb87ba8f4987cceeebc8085e8ea",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html"
+    },
+    {
+      "id": 4,
+      "url": "http://en.sanbot.com/product/sanbot-elf/introduction",
+      "finalUrl": "http://en.sanbot.com/index",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:29.676416+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "6c5ace8911e3a2ad848e436e6ebb8f47c65a45a415e940c5597b64b9d9cbf58c",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 5,
+      "url": "https://medium.com/@sanbotrobotics/qihan-introduces-next-generation-robot-sanbot-king-kong-ae391681498a",
+      "finalUrl": "https://medium.com/@sanbotrobotics/qihan-introduces-next-generation-robot-sanbot-king-kong-ae391681498a",
+      "status": 403,
+      "checkedAt": "2026-11-03T00:11:29.787142+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "9c953c83937fc06a33f6ac546ebaaf3ee9cf09492b74cb2c54fa0e2a3597802f",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 6,
+      "url": "http://en.sanbot.com/product/sanbot-nano",
+      "finalUrl": "http://en.sanbot.com/product/sanbot-nano/performance",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:42.687098+00:00",
+      "bodyFile": "source-6.html",
+      "bodySha256": "76dca01a16ab6f78f8e488a9b1b072e9edd68d90718ccd23db1248a2989be208",
+      "textFile": "source-6.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 7,
+      "url": "http://en.sanbot.com/product/sanbot-elf",
+      "finalUrl": "http://en.sanbot.com/product/sanbot-elf/design",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:44.283970+00:00",
+      "bodyFile": "source-7.html",
+      "bodySha256": "8456a0417030456404a7cb80d304052080be5926456c22ab341a282d7b4fc4c4",
+      "textFile": "source-7.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 8,
+      "url": "http://en.sanbot.com/product/sanbot-max",
+      "finalUrl": "http://en.sanbot.com/product/sanbot-max/performance",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:46.203046+00:00",
+      "bodyFile": "source-8.html",
+      "bodySha256": "954173f9db6c2d087c53f8daa955f58736ce627963b2eaad164b5713352441df",
+      "textFile": "source-8.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 9,
+      "url": "http://en.sanbot.com/product/mini-elf",
+      "finalUrl": "http://en.sanbot.com/product/mini-elf/performance",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:49.076737+00:00",
+      "bodyFile": "source-9.html",
+      "bodySha256": "f9e3ac639b4040871f67d6121b4b98578a83cf822e6ddb566d0b0b57bea3cc7b",
+      "textFile": "source-9.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 10,
+      "url": "http://en.sanbot.com/about/brand-story",
+      "finalUrl": "http://en.sanbot.com/about/brand-story",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:50.278225+00:00",
+      "bodyFile": "source-10.html",
+      "bodySha256": "cd4afa930dfc38e8752c59776fb1c7add7b292371a5ceecfeb889c3396a70219",
+      "textFile": "source-10.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 11,
+      "url": "http://en.sanbot.com/support/",
+      "finalUrl": "http://en.sanbot.com/support/",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:51.358235+00:00",
+      "bodyFile": "source-11.html",
+      "bodySha256": "78eff274e9a01629ac1fba1768f99bb546840e4d1207e2cae7ee5528cbdc888c",
+      "textFile": "source-11.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 12,
+      "url": "http://en.sanbot.com/product/sanbot-nano/specification",
+      "finalUrl": "http://en.sanbot.com/product/sanbot-nano/specification",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:58.262805+00:00",
+      "bodyFile": "source-12.html",
+      "bodySha256": "2a3bd3ecd50127eee16a20d0140c8b24862b33d859ac4a66724de17d2361251f",
+      "textFile": "source-12.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 13,
+      "url": "http://en.sanbot.com/product/sanbot-elf/specification",
+      "finalUrl": "http://en.sanbot.com/product/sanbot-elf/specification",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:11:59.584963+00:00",
+      "bodyFile": "source-13.html",
+      "bodySha256": "01ff4bc473fc6208aea934af2b4893132c5243ec572f75bf48f700e197477848",
+      "textFile": "source-13.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 14,
+      "url": "http://en.sanbot.com/product/sanbot-max/specification",
+      "finalUrl": "http://en.sanbot.com/product/sanbot-max/specification",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:12:01.058380+00:00",
+      "bodyFile": "source-14.html",
+      "bodySha256": "606c9f676bd7c39bebe31c5166139094527a6e9a0c67cff22e8093ff44c298e6",
+      "textFile": "source-14.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 15,
+      "url": "http://en.sanbot.com/product/mini-elf/specification",
+      "finalUrl": "http://en.sanbot.com/product/mini-elf/specification",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:12:02.152688+00:00",
+      "bodyFile": "source-15.html",
+      "bodySha256": "fb2e1fcaadd82d260482549edf1f3bee7a482f7beb5f816d645a56d87631c3a3",
+      "textFile": "source-15.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 16,
+      "url": "http://en.sanbot.com/product/sanbot-elf/performance",
+      "finalUrl": "http://en.sanbot.com/product/sanbot-elf/performance",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:12:03.550894+00:00",
+      "bodyFile": "source-16.html",
+      "bodySha256": "aa6e6f4f8e4b341325cb982fde954d68ce0f64cb49881329eb75d2a4a17500aa",
+      "textFile": "source-16.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 17,
+      "url": "http://en.sanbot.com/product/mini-elf/temperature-measuring",
+      "finalUrl": "http://en.sanbot.com/index",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:12:05.239181+00:00",
+      "bodyFile": "source-17.html",
+      "bodySha256": "64ea08bb00f751c59b18ff318f94e1f770244cf09d184daa0a3ea633354a29cd",
+      "textFile": "source-17.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 18,
+      "url": "http://en.sanbot.com/product/sanbot-max/reception",
+      "finalUrl": "http://en.sanbot.com/product/sanbot-max/reception",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:12:06.518978+00:00",
+      "bodyFile": "source-18.html",
+      "bodySha256": "dcf044de0b2fbea82862b063e089a56befb2e9e10f2c3b57f611216625fe21ad",
+      "textFile": "source-18.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 19,
+      "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+      "finalUrl": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:12:37.022041+00:00",
+      "bodyFile": "source-19.html",
+      "bodySha256": "dbf5fe6039e5ccbcfb3fe87f33d8868d00dfd70fd7cd31d6d73a8353cdce9324",
+      "textFile": "source-19.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 20,
+      "url": "http://en.sanbot.com/news/press-release/",
+      "finalUrl": "http://en.sanbot.com/news/press-release/",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:17:33.608720+00:00",
+      "bodyFile": "source-20.html",
+      "bodySha256": "a63a5d081ce8a44d56ba76b8bf410a8103823f3f4f4ac04bb3c11251a56ebe6a",
+      "textFile": "source-20.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 21,
+      "url": "http://en.sanbot.com/news/brand-event/",
+      "finalUrl": "http://en.sanbot.com/news/brand-event/",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:17:34.719554+00:00",
+      "bodyFile": "source-21.html",
+      "bodySha256": "0a8fa9f438d37a4c8bb81b74c7231e56ac39c13727a4fc3c10a718f73e5d43de",
+      "textFile": "source-21.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 22,
+      "url": "http://en.sanbot.com/news/press-release/297",
+      "finalUrl": "http://en.sanbot.com/news/press-release/297",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:17:55.631528+00:00",
+      "bodyFile": "source-22.html",
+      "bodySha256": "e1b35b9895df3803cc4ac1010c0f50078c4a2b057ca81d8041b2caa3a533c699",
+      "textFile": "source-22.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 23,
+      "url": "http://en.sanbot.com/news/press-release/322",
+      "finalUrl": "http://en.sanbot.com/news/press-release/322",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:17:57.129837+00:00",
+      "bodyFile": "source-23.html",
+      "bodySha256": "20374f3db4e15ef041f5babd14fb7303d72c5d6a20114e610a2b78a4207b951d",
+      "textFile": "source-23.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 24,
+      "url": "http://en.sanbot.com/news/press-release/?page=2",
+      "finalUrl": "http://en.sanbot.com/news/press-release/?page=2",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:17:58.246299+00:00",
+      "bodyFile": "source-24.html",
+      "bodySha256": "797623d8429906d8a68e414e0a5c5071efe53c3e3bbf888bb254e6c3a50a6500",
+      "textFile": "source-24.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 25,
+      "url": "http://en.sanbot.com/news/press-release/?page=3",
+      "finalUrl": "http://en.sanbot.com/news/press-release/?page=3",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:17:59.625152+00:00",
+      "bodyFile": "source-25.html",
+      "bodySha256": "a326b03c3bb960aad1e32bf099e8aa453a8322f3449f9c3f3549d37ee90ac366",
+      "textFile": "source-25.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 26,
+      "url": "http://en.sanbot.com/news/press-release/296",
+      "finalUrl": "http://en.sanbot.com/news/press-release/296",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:18:20.654142+00:00",
+      "bodyFile": "source-26.html",
+      "bodySha256": "b840ec239c5e7e0c1a574e7ac06661f687869e686c59c7b36e3257c52050229f",
+      "textFile": "source-26.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 27,
+      "url": "http://en.sanbot.com/news/press-release/290",
+      "finalUrl": "http://en.sanbot.com/news/press-release/290",
+      "status": 200,
+      "checkedAt": "2026-11-03T00:18:22.089976+00:00",
+      "bodyFile": "source-27.html",
+      "bodySha256": "189b2ec9b0b30d27de4b87a26c48b5ee34d2f01d85d84591da21c8fa7f18dd4e",
+      "textFile": "source-27.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "failedRequests": [
+    {
+      "url": "https://www.sanbot.com",
+      "errorType": "SSLError",
+      "message": "HTTPSConnectionPool(host='www.sanbot.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1029)')))",
+      "checkedAt": "2026-11-03T00:11:24.798028+00:00",
+      "responseSaved": false,
+      "usedAsEvidence": false
+    },
+    {
+      "url": "https://automationsfokus.dk/qihan-introduces-next-generation-humanoid-sanbot-king-kong-intelligent-service-robot/",
+      "errorType": "ConnectionError",
+      "message": "HTTPSConnectionPool(host='automationsfokus.dk', port=443): Max retries exceeded with url: /qihan-introduces-next-generation-humanoid-sanbot-king-kong-intelligent-service-robot/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7fa716fc8f50>: Failed to resolve 'automationsfokus.dk' ([Errno -2] Name or service not known)\"))",
+      "checkedAt": "2026-11-03T00:11:29.700959+00:00",
+      "responseSaved": false,
+      "usedAsEvidence": false
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "qihan-technology-sanbot-nano",
+      "manufacturer": "QIHAN Technology",
+      "model": "Sanbot Nano",
+      "category": "smarthome",
+      "new": false,
+      "tags": "consumer;assistant;smart-home;app-control",
+      "fields": {
+        "price": "2800 USD announced launch price; August 31, 2017; not a current offer",
+        "weight": "19 kg",
+        "size": "848.32 mm height x 395.22 mm depth x 420.59 mm width; 2017 announcement instead says 2.7 ft tall",
+        "batteryLife": "4 h runtime; over 10 h standby is separate",
+        "maxRuntime": "240 min operating; workload unspecified",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.8 m/s maximum",
+        "terrain": "Indoor home use; Grade row states 1.5 cm max without explaining obstacle versus slope",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-nano/specification",
+        "description": "Historical QIHAN home-assistant robot introduced at IFA 2017 with Alexa, Q-Link remote monitoring, a touchscreen and omnidirectional wheels. The native specification gives 19 kg and four-hour operating endurance; its 848.32 mm height differs from the launch description of 2.7 ft. The 2800 USD announcement price and planned October availability do not establish a current offer, confirmed first sale or continuing cloud support.",
+        "releaseDate": "",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "conflicting",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "Historical manufacturer announcement specifies 2800 USD and planned October availability. No current sale offer or actual first-sale date established.",
+        "weight": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "size": "Native specification: 848.32 mm height. August 2017 manufacturer launch: 2.7 ft, approximately 823 mm. The discrepancy is not resolved by conversion; both source scopes are retained.",
+        "batteryLife": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "maxRuntime": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "Only subsystem motion/actuator counts are supplied. Head, arm, palm, neck and mobile-base labels are not silently summed as a certified whole-robot DOF total.",
+        "payload": "No exact manipulation payload established. Max Professional freight capacity concerns carried/attached equipment, not articulated arm lifting.",
+        "speed": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "terrain": "Home use is explicit. Grade: 1.5cm max is reproduced with unresolved physical meaning and is not converted into degrees or an obstacle guarantee.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time."
+      },
+      "highlights": [
+        "Launch design combined voice interaction, connected-home control and remote monitoring",
+        "Q-Link app supported remote video streaming and robot control",
+        "Manufacturer described automatic charging and Android SDK/App Store support at launch",
+        "The native Nano sheet lists 19 kg, maximum 0.8 m/s and four-hour operation versus over ten hours standby. Its 20 Ah/300 W text is retained as an ambiguous electrical label, not converted into Wh or charging duration.",
+        "The specification gives 848.32 mm height, 395.22 mm depth and 420.59 mm width, while the August 2017 announcement says 2.7 ft tall. The differing height claims remain visible rather than silently treated as equivalent unit conversions.",
+        "Nano uses a 10.1-inch 1080p touch display, cameras, head/arm motion and omnidirectional wheel hardware. Component motion counts are not added into an independently established complete-system DOF value; the 1.5 cm Grade entry is not a slope angle.",
+        "The 2017 release announces 2800 USD and planned purchase availability in October, while native pages describe Alexa and Q-Link. These historical claims do not establish an actual first-sale date, current pricing, maintained Android/ROS software, cloud access or current Alexa integration."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Nano Specification, Home Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-nano/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Smart Companion Robot, Smart Home Robot with IoT | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-nano/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "QIHAN Technology — historical August 31, 2017 manufacturer release distributed by Business Wire; NTB host",
+          "type": "manufacturer",
+          "url": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-12.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "qihan-technology-sanbot-elf",
+      "manufacturer": "QIHAN Technology",
+      "model": "Sanbot Elf",
+      "category": "commercial",
+      "new": false,
+      "tags": "commercial;service;retail;programming",
+      "fields": {
+        "price": "",
+        "weight": "19 kg; robot specification",
+        "size": "902 x 421 x 331 mm; listed length x width x depth",
+        "batteryLife": "About 10 h runtime; over 24 h standby is separate",
+        "maxRuntime": "About 600 min operating; workload unspecified",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.8 m/s maximum",
+        "terrain": "Indoor service use; Grade row states 1.5 cm max without a slope angle",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-elf/specification",
+        "description": "Historical QIHAN service robot with a touchscreen, cameras, animated arms, voice interaction and a head-mounted laser projector. Its native specification separates the 19 kg robot and about ten-hour operation from a 1.35 kg charging station and over 24-hour standby. Android SDK, app/cloud services and automatic recharging are historical manufacturer features; current support, safety approval and stock remain unconfirmed.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "transportPayload": "",
+        "driveMode": "Three omni-wheel sets; manufacturer describes in-place rotation",
+        "navigationAccuracy": "",
+        "dockingAccuracy": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "transportPayload": "not-documented",
+        "driveMode": "documented",
+        "navigationAccuracy": "not-documented",
+        "dockingAccuracy": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "Robot section states 19kg with an erroneous 41.9in suffix. The later 1.35kg value belongs to the charging pile, not another robot mass.",
+        "size": "Preserves the sheet labels length, width and depth. The separate 250 x118 x248mm value belongs to the charging pile, not the robot.",
+        "batteryLife": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "maxRuntime": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "Only subsystem motion/actuator counts are supplied. Head, arm, palm, neck and mobile-base labels are not silently summed as a certified whole-robot DOF total.",
+        "payload": "No exact manipulation payload established. Max Professional freight capacity concerns carried/attached equipment, not articulated arm lifting.",
+        "speed": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "terrain": "Indoor commercial scenarios are explicit. Grade:1.5cm max has unresolved physical meaning and is not interpreted as a slope angle.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time.",
+        "transportPayload": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "driveMode": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "navigationAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dockingAccuracy": "The 0-5m and 180-degree figures describe charging-beacon signal coverage, not final docking accuracy."
+      },
+      "highlights": [
+        "Service platform described for retail, hospitality and public-facing settings",
+        "Manufacturer identifies Android SDK and Sanbot App Store features",
+        "Automatic charging is explicitly described as an Elf feature inherited by Nano",
+        "The Elf sheet lists 19 kg robot mass, 902 x 421 x 331 mm dimensions, maximum 0.8 m/s and about ten-hour operating endurance. Over 24 hours standby is distinct; the printed 41.9in suffix beside 19 kg is not treated as a second mass value.",
+        "A later section on the same sheet describes the charging pile: 250 x 118 x 248 mm and 1.35 kg with adaptor. Its 0-5 m/180-degree beacon coverage, electrical output and wall mounting do not become robot dimensions, docking precision or charging time.",
+        "Elf combines a 10.1-inch touch display, animated arms, 3D camera and head projector. The design page claims 720p projection up to 65 inches; the specification separately prints 1920 x 720 and 16:9, so no consistent native projector resolution is inferred.",
+        "Voice interaction, face recognition, video chat and automatic return to charge are manufacturer features. The isolated 98% page text lacks an assigned metric and is not used as recognition accuracy, safety assurance, runtime or measured outcome."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Elf Specification, Open Source AI robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Patented Sanbot Robot, AI Robot Design | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-elf/design",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Cloud-enabled Service Robot, Advanced AI robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "QIHAN Technology — historical August 31, 2017 manufacturer release distributed by Business Wire; NTB host",
+          "type": "manufacturer",
+          "url": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-13.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;reception;interactive",
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-max/specification",
+        "description": "Sanbot commercial service-robot family with Professional, Standard and Economic configurations. The matrix distinguishes powered navigation hardware from a manually pushed Economic base and gives different mass and battery specifications. Family marketing for 75 kg freight, 18-hour operation, 50-hour standby and 20 arm/hand motion axes is not treated as a universal rating of all versions.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "transportPayload": "",
+        "driveMode": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "transportPayload": "not-documented",
+        "driveMode": "not-documented",
+        "navigationAccuracy": "not-documented",
+        "dockingAccuracy": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "size": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "batteryLife": "No exact operating duration established for this configuration. Energy capacity, standby, automatic recharging and 24/7 availability language are separate.",
+        "maxRuntime": "No exact continuous battery operating duration established for this configuration; standby, pack energy and service uptime are separate.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "No complete-system DOF established. The performance page’s 20 DOF concerns arms/hands. Standard/Economic motor-table head counts differ from their detailed head blocks; no whole-robot total is manufactured from overlapping counts.",
+        "payload": "The 75kg claim is freight/attached-equipment capacity restricted by the version matrix to Professional. It is not arm payload or a universal family rating.",
+        "speed": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time.",
+        "transportPayload": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "driveMode": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "navigationAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dockingAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings."
+      },
+      "highlights": [
+        "The native comparison names Professional, Standard and Economic versions. Professional alone lists 75 kg maximum freight; Standard and Economic say None. Freight or attached-equipment capacity is separate from articulated arm lifting.",
+        "Professional lists about 18 hours operation and 50 hours standby; Standard about ten hours operation; Economic provides 300 Wh capacity without operating duration. The reception page’s 24/7 language relies on recharging and is not per-charge endurance.",
+        "Professional and Standard list powered Mecanum-wheel hardware and 0-5 m/s, while Economic explicitly says push manually and no drive. Generic autonomous mapping, navigation and delivery claims are not copied to the unpowered version.",
+        "The performance page’s 20 DOF refers to arms/hands. The version matrix includes head, arm, palm, waist and chassis subcounts; Standard/Economic head detail blocks disagree with their motor-row counts. A complete-system numeric DOF total remains unestablished.",
+        "The August 2017 announcement describes a roughly 4.8 ft configuration and 165 lb towing; the January 2018 CES announcement instead gives 4.7 ft, 220 lb, 165 lb attached equipment and 881 lb towing. Dates, load modes and unspecified revisions remain separate; no one figure becomes a universal exact version rating.",
+        "The 2017 Max announcement names QIHAN and points to a kingkong.html URL, while the support FAQ uses Sanbot King Kong. This is an identity lead, not explicit proof of identical equipped hardware or a separate new model. First unveiling and the later CES introduction are not confirmed first commercial sale."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Humanoid Service Robot, Commercial Robot with Open Source | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max -- the 1st Service Robot Co-worker | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/reception",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — QIHAN Introduces Next Generation Robot -- Sanbot Max -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/297",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — QIHAN Introduces Revolutionary Service Robot, Sanbot Max, to the World at the 2018 International CES -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/322",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-14.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-professional",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Professional",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;reception;interactive;wheeled",
+      "fields": {
+        "price": "",
+        "weight": "100 kg",
+        "size": "",
+        "batteryLife": "About 18 h operating; version-specific claim",
+        "maxRuntime": "About 1080 min operating; workload unspecified",
+        "handType": "Articulated hands; five hand movement axes per arm listed, finger count unspecified",
+        "dof": "",
+        "payload": "",
+        "speed": "0-5 m/s listed maximum range; workload unspecified",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-max/specification",
+        "description": "Named Professional version in the Sanbot Max manufacturer comparison. Professional alone lists pressure/magnetic sensors, RFID and 75 kg freight capacity in the version comparison. Its 1.6 kWh/36 V battery row and family performance page’s 1548 Wh label are energy claims, not elapsed charging time. Current availability, ongoing cloud/software support, complete-system DOF and independent operating performance remain unconfirmed.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "transportPayload": "75 kg maximum freight/attached-equipment capacity; not arm lifting",
+        "driveMode": "Powered four-wheel Mecanum drive; 3D visual SLAM described for the family",
+        "navigationAccuracy": "",
+        "dockingAccuracy": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "not-documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "handType": "documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "transportPayload": "documented",
+        "driveMode": "documented",
+        "navigationAccuracy": "not-documented",
+        "dockingAccuracy": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "size": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "batteryLife": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "maxRuntime": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "handType": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "dof": "No complete-system DOF established. The performance page’s 20 DOF concerns arms/hands. Standard/Economic motor-table head counts differ from their detailed head blocks; no whole-robot total is manufactured from overlapping counts.",
+        "payload": "The 75kg claim is freight/attached-equipment capacity restricted by the version matrix to Professional. It is not arm payload or a universal family rating.",
+        "speed": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time.",
+        "transportPayload": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "driveMode": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "navigationAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dockingAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings."
+      },
+      "highlights": [
+        "Professional alone lists pressure/magnetic sensors, RFID and 75 kg freight capacity in the version comparison. Its 1.6 kWh/36 V battery row and family performance page’s 1548 Wh label are energy claims, not elapsed charging time.",
+        "The powered base supports manufacturer-described service/reception integration, but ports, recognition and custom software remain configuration/integration claims. Recharge-enabled 24/7 service does not establish single-pack endurance, certified safety or a current service agreement."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Humanoid Service Robot, Commercial Robot with Open Source | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max -- the 1st Service Robot Co-worker | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/reception",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-14.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-standard",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Standard",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;reception;interactive;wheeled",
+      "fields": {
+        "price": "",
+        "weight": "About 90 kg",
+        "size": "",
+        "batteryLife": "About 10 h operating; version-specific claim",
+        "maxRuntime": "About 600 min operating; workload unspecified",
+        "handType": "Articulated hands; five hand movement axes per arm listed, finger count unspecified",
+        "dof": "",
+        "payload": "",
+        "speed": "0-5 m/s listed maximum range; workload unspecified",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-max/specification",
+        "description": "Named Standard version in the Sanbot Max manufacturer comparison. Standard lists a 1.0 kWh/36 V battery and about ten-hour operation, not the Professional eighteen-hour rating. Max Freight Weight says None. Its head motor row says x2/45 degrees while its detailed head block says x3/90 degrees; no complete-system total is inferred. Current availability, ongoing cloud/software support, complete-system DOF and independent operating performance remain unconfirmed.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "transportPayload": "",
+        "driveMode": "Powered four-wheel Mecanum drive; configuration column lists wheel motors",
+        "navigationAccuracy": "",
+        "dockingAccuracy": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "not-documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "handType": "documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "transportPayload": "not-documented",
+        "driveMode": "documented",
+        "navigationAccuracy": "not-documented",
+        "dockingAccuracy": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "size": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "batteryLife": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "maxRuntime": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "handType": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "dof": "No complete-system DOF established. The performance page’s 20 DOF concerns arms/hands. Standard/Economic motor-table head counts differ from their detailed head blocks; no whole-robot total is manufactured from overlapping counts.",
+        "payload": "The 75kg claim is freight/attached-equipment capacity restricted by the version matrix to Professional. It is not arm payload or a universal family rating.",
+        "speed": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time.",
+        "transportPayload": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "driveMode": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "navigationAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dockingAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings."
+      },
+      "highlights": [
+        "Standard lists a 1.0 kWh/36 V battery and about ten-hour operation, not the Professional eighteen-hour rating. Max Freight Weight says None. Its head motor row says x2/45 degrees while its detailed head block says x3/90 degrees; no complete-system total is inferred.",
+        "The powered base supports manufacturer-described service/reception integration, but ports, recognition and custom software remain configuration/integration claims. Recharge-enabled 24/7 service does not establish single-pack endurance, certified safety or a current service agreement."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Humanoid Service Robot, Commercial Robot with Open Source | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max -- the 1st Service Robot Co-worker | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/reception",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-14.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-economic",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Economic",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;reception;interactive;manual-base",
+      "fields": {
+        "price": "",
+        "weight": "About 60 kg",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-max/specification",
+        "description": "Named Economic version in the Sanbot Max manufacturer comparison. Economic explicitly lists push manually and chassis no drive, plus 300 Wh/36 V without an operating-duration number. Autonomous base navigation, motorized arm hardware, 75 kg freight and the 18-hour Professional rating are not inferred. Current availability, ongoing cloud/software support, complete-system DOF and independent operating performance remain unconfirmed.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "transportPayload": "",
+        "driveMode": "Manually pushed Mecanum-wheel base; no powered drive",
+        "navigationAccuracy": "",
+        "dockingAccuracy": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "transportPayload": "not-documented",
+        "driveMode": "documented",
+        "navigationAccuracy": "not-documented",
+        "dockingAccuracy": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "size": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "batteryLife": "No exact operating duration established for this configuration. Energy capacity, standby, automatic recharging and 24/7 availability language are separate.",
+        "maxRuntime": "No exact continuous battery operating duration established for this configuration; standby, pack energy and service uptime are separate.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "No complete-system DOF established. The performance page’s 20 DOF concerns arms/hands. Standard/Economic motor-table head counts differ from their detailed head blocks; no whole-robot total is manufactured from overlapping counts.",
+        "payload": "The 75kg claim is freight/attached-equipment capacity restricted by the version matrix to Professional. It is not arm payload or a universal family rating.",
+        "speed": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time.",
+        "transportPayload": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "driveMode": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "navigationAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dockingAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings."
+      },
+      "highlights": [
+        "Economic explicitly lists push manually and chassis no drive, plus 300 Wh/36 V without an operating-duration number. Autonomous base navigation, motorized arm hardware, 75 kg freight and the 18-hour Professional rating are not inferred.",
+        "The Economic column lists adapter charging and does not specify a charging-pile option. Blank/no-arm entries and a manually pushed base remain distinct from other Max versions; a 300 Wh battery does not establish endurance or charging time."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Humanoid Service Robot, Commercial Robot with Open Source | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max -- the 1st Service Robot Co-worker | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/reception",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-14.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;reception;interactive",
+      "fields": {
+        "price": "",
+        "weight": "5 kg",
+        "size": "30 x 53 x 28 cm at standard angle; 30 x 59 x 30 cm at maximum angle",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/mini-elf/specification",
+        "description": "Compact mains-powered interactive Sanbot platform with an articulated display/neck, face tracking, speakers and peripheral interfaces. The specification names PRO, BASE and RETAIL variants with shared 5 kg mass and pose-dependent dimensions. Privacy switches and 3D sensing depend on variant; the separate temperature-measuring application explicitly excludes medical detection.",
+        "releaseDate": "",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "size": "Shared across all three columns:30x53x28cm standard angle;30x59x30cm maximum angle. These are pose-dependent envelopes, not arm reach or a screen diagonal.",
+        "batteryLife": "The matrix specifies AC220/110V power; it does not provide a battery or single-charge operating duration.",
+        "maxRuntime": "Mains power is specified. No battery runtime is supplied, and the moving face/neck does not establish an autonomous mobile base.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "A shared Moving parts row lists face x2 and neck x3, but no complete-platform DOF total is specified; actuator and range descriptions are not silently summed.",
+        "payload": "No exact manipulation payload established. Max Professional freight capacity concerns carried/attached equipment, not articulated arm lifting.",
+        "speed": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time."
+      },
+      "highlights": [
+        "The matrix names PRO, BASE and RETAIL and lists 5 kg plus 30 x 53 x 28 cm at standard angle or 30 x 59 x 30 cm at maximum angle for each. AC220/110V input is not battery endurance or evidence of an autonomous moving base.",
+        "PRO lists a 3D camera in addition to RGB; BASE and RETAIL do not list that 3D camera. PRO and BASE provide mic/camera ban switches, while RETAIL explicitly says those switches are not supported. The generic privacy claim is therefore not universal.",
+        "A shared specification row describes face/neck articulation and a 10.1-inch 1080p display; ROS1.2, Android 7.1 and peripheral ports are historical listed interfaces, not proof of maintained software, current cloud access or a current security guarantee.",
+        "The separate temperature-measuring application describes infrared auxiliary screening and explicitly says not medical detection. It does not establish diagnostic use, a certified accuracy, a distinct named SKU or default inclusion of that function in all three variants."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-15.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-pro",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF PRO",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;reception;interactive",
+      "fields": {
+        "price": "",
+        "weight": "5 kg",
+        "size": "30 x 53 x 28 cm at standard angle; 30 x 59 x 30 cm at maximum angle",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/mini-elf/specification",
+        "description": "Named PRO configuration of the compact Sanbot Mini ELF interactive platform. PRO lists RGB and 3D cameras plus mic/camera ban switches. The source describes physical touch controls; the manufacturer’s privacy assertion is not an independent security evaluation. The matrix gives 5 kg, pose-dependent dimensions and mains input; battery duration, a powered mobile base and medical certification are unestablished.",
+        "releaseDate": "",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "size": "Shared across all three columns:30x53x28cm standard angle;30x59x30cm maximum angle. These are pose-dependent envelopes, not arm reach or a screen diagonal.",
+        "batteryLife": "The matrix specifies AC220/110V power; it does not provide a battery or single-charge operating duration.",
+        "maxRuntime": "Mains power is specified. No battery runtime is supplied, and the moving face/neck does not establish an autonomous mobile base.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "A shared Moving parts row lists face x2 and neck x3, but no complete-platform DOF total is specified; actuator and range descriptions are not silently summed.",
+        "payload": "No exact manipulation payload established. Max Professional freight capacity concerns carried/attached equipment, not articulated arm lifting.",
+        "speed": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time."
+      },
+      "highlights": [
+        "PRO lists RGB and 3D cameras plus mic/camera ban switches. The source describes physical touch controls; the manufacturer’s privacy assertion is not an independent security evaluation.",
+        "The version column lists 5 kg, AC220/110V power, ROS1.2/Android7.1 and USB/Type-C interfaces. Shared face/neck and screen rows are not silently expanded into separate certified whole-robot DOF or additional per-version ratings.",
+        "Auxiliary temperature screening is described on a separate application page, expressly not medical detection. No default installed sensor package, clinical accuracy, autonomous navigation or currently maintained services are inferred for this variant."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-15.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-base",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF BASE",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;reception;interactive",
+      "fields": {
+        "price": "",
+        "weight": "5 kg",
+        "size": "30 x 53 x 28 cm at standard angle; 30 x 59 x 30 cm at maximum angle",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/mini-elf/specification",
+        "description": "Named BASE configuration of the compact Sanbot Mini ELF interactive platform. BASE lists RGB rather than the PRO 3D-camera entry and retains mic/camera ban switches. The omission of a 3D camera is not converted into an unsupported claim about every possible accessory. The matrix gives 5 kg, pose-dependent dimensions and mains input; battery duration, a powered mobile base and medical certification are unestablished.",
+        "releaseDate": "",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "size": "Shared across all three columns:30x53x28cm standard angle;30x59x30cm maximum angle. These are pose-dependent envelopes, not arm reach or a screen diagonal.",
+        "batteryLife": "The matrix specifies AC220/110V power; it does not provide a battery or single-charge operating duration.",
+        "maxRuntime": "Mains power is specified. No battery runtime is supplied, and the moving face/neck does not establish an autonomous mobile base.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "A shared Moving parts row lists face x2 and neck x3, but no complete-platform DOF total is specified; actuator and range descriptions are not silently summed.",
+        "payload": "No exact manipulation payload established. Max Professional freight capacity concerns carried/attached equipment, not articulated arm lifting.",
+        "speed": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time."
+      },
+      "highlights": [
+        "BASE lists RGB rather than the PRO 3D-camera entry and retains mic/camera ban switches. The omission of a 3D camera is not converted into an unsupported claim about every possible accessory.",
+        "The version column lists 5 kg, AC220/110V power, ROS1.2/Android7.1 and USB/Type-C interfaces. Shared face/neck and screen rows are not silently expanded into separate certified whole-robot DOF or additional per-version ratings.",
+        "Auxiliary temperature screening is described on a separate application page, expressly not medical detection. No default installed sensor package, clinical accuracy, autonomous navigation or currently maintained services are inferred for this variant."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-15.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-retail",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF RETAIL",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;reception;interactive",
+      "fields": {
+        "price": "",
+        "weight": "5 kg",
+        "size": "30 x 53 x 28 cm at standard angle; 30 x 59 x 30 cm at maximum angle",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/mini-elf/specification",
+        "description": "Named RETAIL configuration of the compact Sanbot Mini ELF interactive platform. RETAIL explicitly lists mic ban and camera ban switches as not supported, unlike PRO/BASE. The generic privacy-switch claim is not inherited; its sensor column lists RGB and omits the PRO 3D-camera entry. The matrix gives 5 kg, pose-dependent dimensions and mains input; battery duration, a powered mobile base and medical certification are unestablished.",
+        "releaseDate": "",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "size": "Shared across all three columns:30x53x28cm standard angle;30x59x30cm maximum angle. These are pose-dependent envelopes, not arm reach or a screen diagonal.",
+        "batteryLife": "The matrix specifies AC220/110V power; it does not provide a battery or single-charge operating duration.",
+        "maxRuntime": "Mains power is specified. No battery runtime is supplied, and the moving face/neck does not establish an autonomous mobile base.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "A shared Moving parts row lists face x2 and neck x3, but no complete-platform DOF total is specified; actuator and range descriptions are not silently summed.",
+        "payload": "No exact manipulation payload established. Max Professional freight capacity concerns carried/attached equipment, not articulated arm lifting.",
+        "speed": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time."
+      },
+      "highlights": [
+        "RETAIL explicitly lists mic ban and camera ban switches as not supported, unlike PRO/BASE. The generic privacy-switch claim is not inherited; its sensor column lists RGB and omits the PRO 3D-camera entry.",
+        "The version column lists 5 kg, AC220/110V power, ROS1.2/Android7.1 and USB/Type-C interfaces. Shared face/neck and screen rows are not silently expanded into separate certified whole-robot DOF or additional per-version ratings.",
+        "Auxiliary temperature screening is described on a separate application page, expressly not medical detection. No default installed sensor package, clinical accuracy, autonomous navigation or currently maintained services are inferred for this variant."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/performance",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-15.html",
+      "expandsExistingReview": false
+    },
+    {
+      "robotId": "qihan-technology-sanbot-xiaohai-2-0",
+      "manufacturer": "QIHAN Technology",
+      "model": "Sanbot Xiaohai 2.0",
+      "category": "commercial",
+      "new": true,
+      "tags": "commercial;service;customs;inspection;thermal;custom-configuration",
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/news/press-release/296",
+        "description": "Custom Sanbot customs-service configuration announced as deployed at Gongbei Port of Entry in August 2017. QIHAN distinguishes its taller body, articulated arms/fingers and thermal-imaging inspection function from the original Elf. Manufacturer-described passenger inspection, alerts, guidance and multilingual help do not establish exact dimensions, arm payload, thermal accuracy, clinical detection or independently verified security outcomes.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "transportPayload": "",
+        "driveMode": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "not-documented",
+        "ipRating": "not-documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "transportPayload": "not-documented",
+        "driveMode": "not-documented",
+        "navigationAccuracy": "not-documented",
+        "dockingAccuracy": "not-documented"
+      },
+      "notes": {
+        "price": "No current numerical unit offer established. The historical Nano announcement price is not a present offer for any Sanbot configuration.",
+        "weight": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "size": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "batteryLife": "No exact operating duration established for this configuration. Energy capacity, standby, automatic recharging and 24/7 availability language are separate.",
+        "maxRuntime": "No exact continuous battery operating duration established for this configuration; standby, pack energy and service uptime are separate.",
+        "handType": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dof": "Only subsystem motion/actuator counts are supplied. Head, arm, palm, neck and mobile-base labels are not silently summed as a certified whole-robot DOF total.",
+        "payload": "No exact manipulation payload established. Max Professional freight capacity concerns carried/attached equipment, not articulated arm lifting.",
+        "speed": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "terrain": "No quantified terrain specification established. The Nano/Elf Grade row uses centimetres, not a slope angle; Max ground clearance is not an obstacle or slope rating.",
+        "ipRating": "No exact ingress code established. Indoor use, sensor-based obstacle avoidance and temperature screening do not establish IP approval.",
+        "ageRange": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "website": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "description": "Named configuration value from the primary specification/announcement, with original scope retained; no independent performance, current availability, safe deployment or present software support inferred.",
+        "releaseDate": "No exact first commercial release established. The 2017 Nano introduction and planned October availability are not confirmed first sale; stale copyright text and pandemic application language do not date each model.",
+        "chargingTime": "No full recharge duration established. Automatic charging, input/output electrical ratings and battery runtime are not charging time.",
+        "transportPayload": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "driveMode": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "navigationAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings.",
+        "dockingAccuracy": "No exact configuration-specific value established in the selected manufacturer text. Other variants, subsystem characteristics, page dates and historical claims are not full product ratings."
+      },
+      "highlights": [
+        "The August 24, 2017 manufacturer announcement explicitly names Xiaohai 2.0 as a customized Sanbot customs robot, taller than the original Elf with arms/fingers and a thermal-imaging camera. This is a named customer configuration, not a universal Elf, Nano or Max specification.",
+        "QIHAN describes four tasks: passenger/luggage inspection, database-triggered alerts to officials, customs guidance and help-desk answers with translation in ten languages. These are historical manufacturer-described application functions, not independent threat-detection accuracy, medical screening or ongoing deployment evidence.",
+        "The account of earlier customs collaboration and average daily passenger flow is deployment context, not this robot’s throughput or a verified number of people autonomously screened. Exact mass, battery runtime, DOF, locomotion ratings, payload and present support remain unestablished."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — QIHAN’S Introduces New Customized Robot at Gongbei Port of Entry -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/296",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-26.html",
+      "expandsExistingReview": false
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "qihan-technology-sanbot-nano",
+      "manufacturer": "QIHAN Technology",
+      "model": "Sanbot Nano",
+      "category": "smarthome",
+      "new": false,
+      "before": {
+        "category": "smarthome",
+        "manufacturer": "QIHAN Technology",
+        "model": "Sanbot Nano",
+        "price": "2800 USD announced launch price; August 31, 2017",
+        "weight": "",
+        "size": "2.7 ft tall",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "consumer;assistant;smart-home;app-control",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "indoor",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical QIHAN home-assistant robot announced at IFA 2017. The launch describes Alexa Voice Service, connected-home control and Q-Link remote video/control, plus automatic charging and an Android SDK. Continued cloud access, Alexa integration, app availability and product support are not established for 2026.",
+        "releaseDate": "2017",
+        "chargingTime": ""
+      },
+      "after": {
+        "category": "smarthome",
+        "manufacturer": "QIHAN Technology",
+        "model": "Sanbot Nano",
+        "price": "2800 USD announced launch price; August 31, 2017; not a current offer",
+        "weight": "19 kg",
+        "size": "848.32 mm height x 395.22 mm depth x 420.59 mm width; 2017 announcement instead says 2.7 ft tall",
+        "batteryLife": "4 h runtime; over 10 h standby is separate",
+        "maxRuntime": "240 min operating; workload unspecified",
+        "tags": "consumer;assistant;smart-home;app-control",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.8 m/s maximum",
+        "terrain": "Indoor home use; Grade row states 1.5 cm max without explaining obstacle versus slope",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-nano/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical QIHAN home-assistant robot introduced at IFA 2017 with Alexa, Q-Link remote monitoring, a touchscreen and omnidirectional wheels. The native specification gives 19 kg and four-hour operating endurance; its 848.32 mm height differs from the launch description of 2.7 ft. The 2800 USD announcement price and planned October availability do not establish a current offer, confirmed first sale or continuing cloud support.",
+        "releaseDate": "",
+        "chargingTime": ""
+      }
+    },
+    {
+      "robotId": "qihan-technology-sanbot-elf",
+      "manufacturer": "QIHAN Technology",
+      "model": "Sanbot Elf",
+      "category": "commercial",
+      "new": false,
+      "before": {
+        "category": "commercial",
+        "manufacturer": "QIHAN Technology",
+        "model": "Sanbot Elf",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;retail;programming",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "indoor",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical QIHAN service robot identified in the manufacturer’s August 31, 2017 Sanbot Nano announcement. QIHAN describes retail, hospitality and public-service use of Elf and identifies its Android SDK, Sanbot App Store and automatic charging as features inherited by Nano. Current software support and availability are unconfirmed.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "after": {
+        "category": "commercial",
+        "manufacturer": "QIHAN Technology",
+        "model": "Sanbot Elf",
+        "price": "",
+        "weight": "19 kg; robot specification",
+        "size": "902 x 421 x 331 mm; listed length x width x depth",
+        "batteryLife": "About 10 h runtime; over 24 h standby is separate",
+        "maxRuntime": "About 600 min operating; workload unspecified",
+        "tags": "commercial;service;retail;programming",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "0.8 m/s maximum",
+        "terrain": "Indoor service use; Grade row states 1.5 cm max without a slope angle",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-elf/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Historical QIHAN service robot with a touchscreen, cameras, animated arms, voice interaction and a head-mounted laser projector. Its native specification separates the 19 kg robot and about ten-hour operation from a 1.35 kg charging station and over 24-hour standby. Android SDK, app/cloud services and automatic recharging are historical manufacturer features; current support, safety approval and stock remain unconfirmed.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Three omni-wheel sets; manufacturer describes in-place rotation",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Sanbot Innovation",
+        "model": "Sanbot Max",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;reception;interactive",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-max/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Sanbot commercial service-robot family with Professional, Standard and Economic configurations. The matrix distinguishes powered navigation hardware from a manually pushed Economic base and gives different mass and battery specifications. Family marketing for 75 kg freight, 18-hour operation, 50-hour standby and 20 arm/hand motion axes is not treated as a universal rating of all versions.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-professional",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Professional",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Sanbot Innovation",
+        "model": "Sanbot Max Professional",
+        "price": "",
+        "weight": "100 kg",
+        "size": "",
+        "batteryLife": "About 18 h operating; version-specific claim",
+        "maxRuntime": "About 1080 min operating; workload unspecified",
+        "tags": "commercial;service;reception;interactive;wheeled",
+        "handType": "Articulated hands; five hand movement axes per arm listed, finger count unspecified",
+        "dof": "",
+        "payload": "",
+        "speed": "0-5 m/s listed maximum range; workload unspecified",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-max/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Named Professional version in the Sanbot Max manufacturer comparison. Professional alone lists pressure/magnetic sensors, RFID and 75 kg freight capacity in the version comparison. Its 1.6 kWh/36 V battery row and family performance page’s 1548 Wh label are energy claims, not elapsed charging time. Current availability, ongoing cloud/software support, complete-system DOF and independent operating performance remain unconfirmed.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Powered four-wheel Mecanum drive; 3D visual SLAM described for the family",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "75 kg maximum freight/attached-equipment capacity; not arm lifting",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-standard",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Standard",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Sanbot Innovation",
+        "model": "Sanbot Max Standard",
+        "price": "",
+        "weight": "About 90 kg",
+        "size": "",
+        "batteryLife": "About 10 h operating; version-specific claim",
+        "maxRuntime": "About 600 min operating; workload unspecified",
+        "tags": "commercial;service;reception;interactive;wheeled",
+        "handType": "Articulated hands; five hand movement axes per arm listed, finger count unspecified",
+        "dof": "",
+        "payload": "",
+        "speed": "0-5 m/s listed maximum range; workload unspecified",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-max/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Named Standard version in the Sanbot Max manufacturer comparison. Standard lists a 1.0 kWh/36 V battery and about ten-hour operation, not the Professional eighteen-hour rating. Max Freight Weight says None. Its head motor row says x2/45 degrees while its detailed head block says x3/90 degrees; no complete-system total is inferred. Current availability, ongoing cloud/software support, complete-system DOF and independent operating performance remain unconfirmed.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Powered four-wheel Mecanum drive; configuration column lists wheel motors",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-max-economic",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Max Economic",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Sanbot Innovation",
+        "model": "Sanbot Max Economic",
+        "price": "",
+        "weight": "About 60 kg",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;reception;interactive;manual-base",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/sanbot-max/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Named Economic version in the Sanbot Max manufacturer comparison. Economic explicitly lists push manually and chassis no drive, plus 300 Wh/36 V without an operating-duration number. Autonomous base navigation, motorized arm hardware, 75 kg freight and the 18-hour Professional rating are not inferred. Current availability, ongoing cloud/software support, complete-system DOF and independent operating performance remain unconfirmed.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Manually pushed Mecanum-wheel base; no powered drive",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Sanbot Innovation",
+        "model": "Sanbot Mini ELF",
+        "price": "",
+        "weight": "5 kg",
+        "size": "30 x 53 x 28 cm at standard angle; 30 x 59 x 30 cm at maximum angle",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;reception;interactive",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/mini-elf/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Compact mains-powered interactive Sanbot platform with an articulated display/neck, face tracking, speakers and peripheral interfaces. The specification names PRO, BASE and RETAIL variants with shared 5 kg mass and pose-dependent dimensions. Privacy switches and 3D sensing depend on variant; the separate temperature-measuring application explicitly excludes medical detection.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-pro",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF PRO",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Sanbot Innovation",
+        "model": "Sanbot Mini ELF PRO",
+        "price": "",
+        "weight": "5 kg",
+        "size": "30 x 53 x 28 cm at standard angle; 30 x 59 x 30 cm at maximum angle",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;reception;interactive",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/mini-elf/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Named PRO configuration of the compact Sanbot Mini ELF interactive platform. PRO lists RGB and 3D cameras plus mic/camera ban switches. The source describes physical touch controls; the manufacturer’s privacy assertion is not an independent security evaluation. The matrix gives 5 kg, pose-dependent dimensions and mains input; battery duration, a powered mobile base and medical certification are unestablished.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-base",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF BASE",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Sanbot Innovation",
+        "model": "Sanbot Mini ELF BASE",
+        "price": "",
+        "weight": "5 kg",
+        "size": "30 x 53 x 28 cm at standard angle; 30 x 59 x 30 cm at maximum angle",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;reception;interactive",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/mini-elf/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Named BASE configuration of the compact Sanbot Mini ELF interactive platform. BASE lists RGB rather than the PRO 3D-camera entry and retains mic/camera ban switches. The omission of a 3D camera is not converted into an unsupported claim about every possible accessory. The matrix gives 5 kg, pose-dependent dimensions and mains input; battery duration, a powered mobile base and medical certification are unestablished.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "sanbot-innovation-sanbot-mini-elf-retail",
+      "manufacturer": "Sanbot Innovation",
+      "model": "Sanbot Mini ELF RETAIL",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Sanbot Innovation",
+        "model": "Sanbot Mini ELF RETAIL",
+        "price": "",
+        "weight": "5 kg",
+        "size": "30 x 53 x 28 cm at standard angle; 30 x 59 x 30 cm at maximum angle",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;reception;interactive",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/product/mini-elf/specification",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Named RETAIL configuration of the compact Sanbot Mini ELF interactive platform. RETAIL explicitly lists mic ban and camera ban switches as not supported, unlike PRO/BASE. The generic privacy-switch claim is not inherited; its sensor column lists RGB and omits the PRO 3D-camera entry. The matrix gives 5 kg, pose-dependent dimensions and mains input; battery duration, a powered mobile base and medical certification are unestablished.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "qihan-technology-sanbot-xiaohai-2-0",
+      "manufacturer": "QIHAN Technology",
+      "model": "Sanbot Xiaohai 2.0",
+      "category": "commercial",
+      "new": true,
+      "before": null,
+      "after": {
+        "category": "commercial",
+        "manufacturer": "QIHAN Technology",
+        "model": "Sanbot Xiaohai 2.0",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;service;customs;inspection;thermal;custom-configuration",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "http://en.sanbot.com/news/press-release/296",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Custom Sanbot customs-service configuration announced as deployed at Gongbei Port of Entry in August 2017. QIHAN distinguishes its taller body, articulated arms/fingers and thermal-imaging inspection function from the original Elf. Manufacturer-described passenger inspection, alerts, guidance and multilingual help do not establish exact dimensions, arm payload, thermal accuracy, clinical detection or independently verified security outcomes.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    }
+  ],
+  "portfolioDecisions": {
+    "allChecksPassed": true,
+    "nativeProductFamilies": 4,
+    "explicitMaxVersionColumns": 3,
+    "explicitMiniVersionColumns": 3,
+    "manufacturerNewsPagesChecked": 4,
+    "decisions": [
+      {
+        "label": "Sanbot Nano",
+        "catalogIds": [
+          "qihan-technology-sanbot-nano"
+        ],
+        "sourceId": 12,
+        "classification": "existing-home-platform"
+      },
+      {
+        "label": "Sanbot Elf",
+        "catalogIds": [
+          "qihan-technology-sanbot-elf"
+        ],
+        "sourceId": 13,
+        "classification": "existing-service-platform"
+      },
+      {
+        "label": "Sanbot Max",
+        "catalogIds": [
+          "sanbot-innovation-sanbot-max",
+          "sanbot-innovation-sanbot-max-professional",
+          "sanbot-innovation-sanbot-max-standard",
+          "sanbot-innovation-sanbot-max-economic"
+        ],
+        "sourceId": 14,
+        "classification": "family-and-three-explicit-configuration-columns"
+      },
+      {
+        "label": "Sanbot Mini ELF",
+        "catalogIds": [
+          "sanbot-innovation-sanbot-mini-elf",
+          "sanbot-innovation-sanbot-mini-elf-pro",
+          "sanbot-innovation-sanbot-mini-elf-base",
+          "sanbot-innovation-sanbot-mini-elf-retail"
+        ],
+        "sourceId": 15,
+        "classification": "family-and-three-explicit-configuration-columns"
+      },
+      {
+        "label": "Sanbot Xiaohai 2.0",
+        "catalogIds": [
+          "qihan-technology-sanbot-xiaohai-2-0"
+        ],
+        "sourceId": 26,
+        "classification": "named-customs-service-configuration; exact hardware ratings unknown"
+      },
+      {
+        "label": "Sanbot (unversioned 2015 account)",
+        "catalogIds": [],
+        "sourceId": 27,
+        "classification": "historical generic brand/platform account; separate identity from Elf unproven; not duplicated"
+      },
+      {
+        "label": "Donkey",
+        "catalogIds": [],
+        "sourceId": 27,
+        "classification": "proprietary-solution name; robot hardware/model identity unproven"
+      },
+      {
+        "label": "Sanbot King Kong",
+        "catalogIds": [],
+        "sourceId": 22,
+        "classification": "Max announcement points to kingkong.html and FAQ names King Kong; exact equipped alias or separate hardware remains unproven"
+      },
+      {
+        "label": "Mini ELF Temperature Measuring",
+        "catalogIds": [],
+        "sourceId": 19,
+        "classification": "application-with-no-distinct-named-sku; not medical detection"
+      },
+      {
+        "label": "Q-Link / Sanbot Online / MPS / App Store / Cloud",
+        "catalogIds": [],
+        "sourceId": 11,
+        "classification": "software-or-management-platform; not additional robot hardware"
+      },
+      {
+        "label": "Elf charging pile",
+        "catalogIds": [],
+        "sourceId": 13,
+        "classification": "accessory dimensions and mass excluded from robot rating"
+      }
+    ],
+    "scope": "All four native product families and six explicit configuration columns covered. King Kong identity, exact complete historical portfolio, temperature SKU/default equipment, current support and legal rename remain unproven."
+  },
+  "companyFocuses": [
+    {
+      "brandId": "sanbot-robots",
+      "name": "Sanbot Robots",
+      "checkedAt": "2026-11-03",
+      "role": "Sanbot service/interactive platforms; historical QIHAN attribution and Sanbot Innovation manufacturer text retained with configuration-specific limits",
+      "website": "http://en.sanbot.com/about/brand-story",
+      "highlights": [
+        "The native product navigation identifies Nano, Elf, Max and Mini ELF. Max has Professional/Standard/Economic columns and Mini ELF has PRO/BASE/RETAIL columns. Software, app, cloud and temperature-screening applications are not additional robot identities.",
+        "The 2017 manufacturer release identifies QIHAN Technology for Nano and Elf. The native Brand Story says Sanbot robots are manufactured by Sanbot Innovation; both catalog manufacturer labels share the Sanbot product-brand profile without asserting a verified legal rename or company merger.",
+        "Nano and Elf runtime, standby and charging hardware remain separate. Nano height differs between the announcement and specification; Elf robot mass/dimensions are not overwritten by the charging-pile section or erroneous secondary-unit suffix.",
+        "Max Professional freight, 18-hour endurance and powered navigation do not apply universally to Standard or manually pushed Economic. Arm/hand DOF, head-count inconsistencies, energy labels and 24/7 recharge-enabled service do not become complete-system performance ratings.",
+        "Mini ELF privacy switches and 3D sensing depend on variant. Its AC input, shared articulated face/neck and pose envelopes do not establish a mobile humanoid or battery rating. Auxiliary infrared screening is explicitly not medical detection.",
+        "The historical Max announcement links to kingkong.html while the support page says King Kong; exact equipped identity remains unproven. Xiaohai 2.0 is a named customized customs configuration. The unversioned 2015 Sanbot account does not establish a separate distinct model, and Donkey is only named as a proprietary solution. The retained 2016-2018 copyright, historical apps/partners and warranty text do not prove current production, ongoing cloud services, maintained Android/ROS software, independent outcomes, exclusive USPs or market leadership."
+      ],
+      "sources": [
+        {
+          "name": "Sanbot Innovation — Sanbot Brand Story, About Sanbot Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/about/brand-story",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Robotics | World's Leading Commercial Service Robots",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/index",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Nano Specification, Home Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-nano/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Elf Specification, Open Source AI robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Max Specification, Humanoid Service Robot | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/sanbot-max/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/specification",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Robot Support, Sanbot After-sale Service | Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/support/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — Sanbot Cloud-enabled Service Robot",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/product/mini-elf/temperatureMeasuring",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "QIHAN Technology — historical August 31, 2017 manufacturer release distributed by Business Wire; NTB host",
+          "type": "manufacturer",
+          "url": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — QIHAN Introduces Next Generation Robot -- Sanbot Max -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/297",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — QIHAN Introduces Revolutionary Service Robot, Sanbot Max, to the World at the 2018 International CES -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/322",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — QIHAN’S Introduces New Customized Robot at Gongbei Port of Entry -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/296",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Sanbot Innovation — About Qihan & Sanbot -- Sanbot Robotics",
+          "type": "manufacturer",
+          "url": "http://en.sanbot.com/news/press-release/290",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-130/source-10.html",
+      "reviewNotes": "Native public HTTP links discovered on the manufacturer site and in its historical announcement were fetched without TLS bypass. HTTPS www certificate failure and blocked third-party/newswire responses excluded; blocked hosts not retried. Model-specific native DOM matrices and separate charging-pile/variant scopes checked. No visual inspection, forms, accounts, downloads via script execution or transactions. Legal renaming, full historical portfolio, current software/security support and present availability remain unproven."
+    }
+  ],
+  "priorProductEvidence": [
+    {
+      "row": {
+        "category": "commercial",
+        "manufacturer": "QIHAN Technology",
+        "model": "Sanbot Elf",
+        "terrain": "indoor",
+        "website": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+        "tags": "commercial;service;retail;programming",
+        "description": "Historical QIHAN service robot identified in the manufacturer’s August 31, 2017 Sanbot Nano announcement. QIHAN describes retail, hospitality and public-service use of Elf and identifies its Android SDK, Sanbot App Store and automatic charging as features inherited by Nano. Current software support and availability are unconfirmed.",
+        "price": "Not disclosed"
+      },
+      "highlights": [
+        "Service platform described for retail, hospitality and public-facing settings",
+        "Manufacturer identifies Android SDK and Sanbot App Store features",
+        "Automatic charging is explicitly described as an Elf feature inherited by Nano"
+      ],
+      "sources": [
+        {
+          "name": "QIHAN Technology — August 31, 2017 manufacturer release distributed by Business Wire and hosted by NTB",
+          "type": "manufacturer",
+          "url": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://buyandrentrobots.com/robot/5ef94fcd-08a0-4b58-9d09-0624f461e9eb"
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-20/kommunikasjon.ntb.no-pressemelding-15790256-introducing-sanbot-nano-an-ai-robot-for-the-home-qea99d199e7.json",
+      "reviewNotes": "Manufacturer-authored launch release distributed by newswire; NTB is the host, not robot maker. Source explicitly distinguishes Nano and Elf. Nano-only height, price, sensor count and Alexa features are not transferred to Elf. Elf facts are restricted to the release’s explicit comparison. Historical announcement does not validate current software/cloud service, security updates, stock or support. Sanbot is QIHAN product branding; brand and manufacturer roles remain explicit."
+    },
+    {
+      "row": {
+        "category": "smarthome",
+        "manufacturer": "QIHAN Technology",
+        "model": "Sanbot Nano",
+        "terrain": "indoor",
+        "website": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+        "tags": "consumer;assistant;smart-home;app-control",
+        "description": "Historical QIHAN home-assistant robot announced at IFA 2017. The launch describes Alexa Voice Service, connected-home control and Q-Link remote video/control, plus automatic charging and an Android SDK. Continued cloud access, Alexa integration, app availability and product support are not established for 2026.",
+        "size": "2.7 ft tall",
+        "price": "2800 USD announced launch price; August 31, 2017",
+        "releaseDate": "2017"
+      },
+      "highlights": [
+        "Launch design combined voice interaction, connected-home control and remote monitoring",
+        "Q-Link app supported remote video streaming and robot control",
+        "Manufacturer described automatic charging and Android SDK/App Store support at launch"
+      ],
+      "sources": [
+        {
+          "name": "QIHAN Technology — August 31, 2017 manufacturer release distributed by Business Wire and hosted by NTB",
+          "type": "manufacturer",
+          "url": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "discoveredIn": [
+        "https://buyandrentrobots.com/robot/4e0f97e2-7e6e-4e27-a161-7cbbc2911619"
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-20/kommunikasjon.ntb.no-pressemelding-15790256-introducing-sanbot-nano-an-ai-robot-for-the-home-qea99d199e7.json",
+      "reviewNotes": "Manufacturer-authored launch release distributed by newswire; NTB is the host, not robot maker. Source explicitly distinguishes Nano and Elf. Nano-only height, price, sensor count and Alexa features are not transferred to Elf. Elf facts are restricted to the release’s explicit comparison. Historical announcement does not validate current software/cloud service, security updates, stock or support. Sanbot is QIHAN product branding; brand and manufacturer roles remain explicit."
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "robotId": "qihan-technology-sanbot-nano",
+      "changes": {
+        "price": {
+          "before": "2800 USD announced launch price; August 31, 2017",
+          "after": "2800 USD announced launch price; August 31, 2017; not a current offer"
+        },
+        "weight": {
+          "before": "",
+          "after": "19 kg"
+        },
+        "size": {
+          "before": "2.7 ft tall",
+          "after": "848.32 mm height x 395.22 mm depth x 420.59 mm width; 2017 announcement instead says 2.7 ft tall"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "4 h runtime; over 10 h standby is separate"
+        },
+        "maxRuntime": {
+          "before": "",
+          "after": "240 min operating; workload unspecified"
+        },
+        "speed": {
+          "before": "",
+          "after": "0.8 m/s maximum"
+        },
+        "terrain": {
+          "before": "indoor",
+          "after": "Indoor home use; Grade row states 1.5 cm max without explaining obstacle versus slope"
+        },
+        "website": {
+          "before": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+          "after": "http://en.sanbot.com/product/sanbot-nano/specification"
+        },
+        "description": {
+          "before": "Historical QIHAN home-assistant robot announced at IFA 2017. The launch describes Alexa Voice Service, connected-home control and Q-Link remote video/control, plus automatic charging and an Android SDK. Continued cloud access, Alexa integration, app availability and product support are not established for 2026.",
+          "after": "Historical QIHAN home-assistant robot introduced at IFA 2017 with Alexa, Q-Link remote monitoring, a touchscreen and omnidirectional wheels. The native specification gives 19 kg and four-hour operating endurance; its 848.32 mm height differs from the launch description of 2.7 ft. The 2800 USD announcement price and planned October availability do not establish a current offer, confirmed first sale or continuing cloud support."
+        },
+        "releaseDate": {
+          "before": "2017",
+          "after": ""
+        }
+      }
+    },
+    {
+      "robotId": "qihan-technology-sanbot-elf",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": ""
+        },
+        "weight": {
+          "before": "",
+          "after": "19 kg; robot specification"
+        },
+        "size": {
+          "before": "",
+          "after": "902 x 421 x 331 mm; listed length x width x depth"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "About 10 h runtime; over 24 h standby is separate"
+        },
+        "maxRuntime": {
+          "before": "",
+          "after": "About 600 min operating; workload unspecified"
+        },
+        "speed": {
+          "before": "",
+          "after": "0.8 m/s maximum"
+        },
+        "terrain": {
+          "before": "indoor",
+          "after": "Indoor service use; Grade row states 1.5 cm max without a slope angle"
+        },
+        "website": {
+          "before": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+          "after": "http://en.sanbot.com/product/sanbot-elf/specification"
+        },
+        "description": {
+          "before": "Historical QIHAN service robot identified in the manufacturer’s August 31, 2017 Sanbot Nano announcement. QIHAN describes retail, hospitality and public-service use of Elf and identifies its Android SDK, Sanbot App Store and automatic charging as features inherited by Nano. Current software support and availability are unconfirmed.",
+          "after": "Historical QIHAN service robot with a touchscreen, cameras, animated arms, voice interaction and a head-mounted laser projector. Its native specification separates the 19 kg robot and about ten-hour operation from a 1.35 kg charging station and over 24-hour standby. Android SDK, app/cloud services and automatic recharging are historical manufacturer features; current support, safety approval and stock remain unconfirmed."
+        },
+        "driveMode": {
+          "before": "",
+          "after": "Three omni-wheel sets; manufacturer describes in-place rotation"
+        }
+      }
+    }
+  ],
+  "brandMapping": {
+    "profileId": "sanbot-robots",
+    "manufacturerLabels": [
+      "QIHAN Technology",
+      "Sanbot Innovation"
+    ],
+    "nativeBrandStory": "http://en.sanbot.com/about/brand-story",
+    "legalRenameOrMergerVerified": false,
+    "unrelatedBrandRecordsUnchanged": true,
+    "companyExportDirectoryDateChanges": 591,
+    "companyExportSemanticRowsChanged": 1
+  },
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserTestCases": 26,
+    "browserPassed": 26,
+    "browserFailed": 0,
+    "axeCases": 4,
+    "browserWorkers": 1,
+    "sourceCodeChanged": false,
+    "productDataChanged": true,
+    "applicationAlgorithmChanged": false,
+    "newComparisonFields": [],
+    "newCsvColumns": [],
+    "manufacturerProfileMappingChanged": true,
+    "derivedManufacturerProfilesAdded": 0,
+    "testAggregateCountsUpdated": true,
+    "buildPages": 3356,
+    "buildSizeApproxMB": 498,
+    "dataErrors": 0,
+    "dataWarnings": 1201,
+    "dataWarningChange": 10,
+    "warningChange": {
+      "previousWarnings": 1191,
+      "currentWarnings": 1201,
+      "added": [
+        "qihan-technology-sanbot-nano: release year is not documented",
+        "qihan-technology-sanbot-xiaohai-2-0: release year is not documented",
+        "sanbot-innovation-sanbot-max-economic: release year is not documented",
+        "sanbot-innovation-sanbot-max-professional: release year is not documented",
+        "sanbot-innovation-sanbot-max-standard: release year is not documented",
+        "sanbot-innovation-sanbot-max: release year is not documented",
+        "sanbot-innovation-sanbot-mini-elf-base: release year is not documented",
+        "sanbot-innovation-sanbot-mini-elf-pro: release year is not documented",
+        "sanbot-innovation-sanbot-mini-elf-retail: release year is not documented",
+        "sanbot-innovation-sanbot-mini-elf: release year is not documented"
+      ],
+      "removed": []
+    },
+    "changedFileLint": "passed",
+    "changedFileFormat": "passed",
+    "reimportAdditions": 0,
+    "researchRefresh": "passed",
+    "renderedSanbotEvidenceCheck": {
+      "allChecksPassed": true,
+      "productPagesChecked": 11,
+      "selectedSpecificationFieldsChecked": 200,
+      "sourceBadgesChecked": 37,
+      "blankFieldsOmitted": 141,
+      "descriptionsChecked": 11,
+      "websitesChecked": 11,
+      "structuredSpecificationPropertiesChecked": 34,
+      "highlightStatementsChecked": 42,
+      "companyFocusPagesChecked": 1,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 11,
+      "modelExportRowsChecked": 0,
+      "modelExportTargetsChecked": 0,
+      "modelExportFieldOccurrencesChecked": 0,
+      "companyProductExportRowsChecked": 0,
+      "companyProductExportTargetsChecked": 0,
+      "companyExportRowsChecked": 1,
+      "researchQueueTargetsChecked": 2,
+      "researchQueueFieldsChecked": 36,
+      "scope": "Eleven Sanbot family/configuration records and200 selected fields; native version columns, Nano height conflict, Elf charging-pile separation, Max freight/manual-base scope and Mini privacy/mains-power limits. Public native HTML and historical manufacturer release text only; no visual inspection."
+    },
+    "inventoryCheck": {
+      "allChecksPassed": true,
+      "previousCatalogRows": 2296,
+      "catalogRows": 2305,
+      "unchangedPriorCatalogRows": 2294,
+      "reviewedExistingCatalogRows": 2,
+      "newCatalogRows": 9,
+      "newCsvColumns": [],
+      "categoryTransfers": 0,
+      "previousSpecificationReviewsEntirelyUnchanged": 1148,
+      "newSpecificationReviews": 11,
+      "expandedSpecificationReviews": 0,
+      "selectedFields": 200,
+      "previousCompanyFocusReviewsEntirelyUnchanged": 125,
+      "newCompanyFocusReviews": 1,
+      "expandedCompanyFocusReviews": 0,
+      "sourceIdentityRecordsPreserved": 1961,
+      "newDiscoveriesReferenceActualPrimarySources": true,
+      "unchangedDataFiles": [
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-description-reviews.json",
+        "data/competitors/company-mentions.json",
+        "data/competitors/company-descriptions.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/company-product-reviews.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/roboticsdir.json"
+      ],
+      "correctedRows": [
+        {
+          "robotId": "qihan-technology-sanbot-nano",
+          "changes": {
+            "price": {
+              "before": "2800 USD announced launch price; August 31, 2017",
+              "after": "2800 USD announced launch price; August 31, 2017; not a current offer"
+            },
+            "weight": {
+              "before": "",
+              "after": "19 kg"
+            },
+            "size": {
+              "before": "2.7 ft tall",
+              "after": "848.32 mm height x 395.22 mm depth x 420.59 mm width; 2017 announcement instead says 2.7 ft tall"
+            },
+            "batteryLife": {
+              "before": "",
+              "after": "4 h runtime; over 10 h standby is separate"
+            },
+            "maxRuntime": {
+              "before": "",
+              "after": "240 min operating; workload unspecified"
+            },
+            "speed": {
+              "before": "",
+              "after": "0.8 m/s maximum"
+            },
+            "terrain": {
+              "before": "indoor",
+              "after": "Indoor home use; Grade row states 1.5 cm max without explaining obstacle versus slope"
+            },
+            "website": {
+              "before": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+              "after": "http://en.sanbot.com/product/sanbot-nano/specification"
+            },
+            "description": {
+              "before": "Historical QIHAN home-assistant robot announced at IFA 2017. The launch describes Alexa Voice Service, connected-home control and Q-Link remote video/control, plus automatic charging and an Android SDK. Continued cloud access, Alexa integration, app availability and product support are not established for 2026.",
+              "after": "Historical QIHAN home-assistant robot introduced at IFA 2017 with Alexa, Q-Link remote monitoring, a touchscreen and omnidirectional wheels. The native specification gives 19 kg and four-hour operating endurance; its 848.32 mm height differs from the launch description of 2.7 ft. The 2800 USD announcement price and planned October availability do not establish a current offer, confirmed first sale or continuing cloud support."
+            },
+            "releaseDate": {
+              "before": "2017",
+              "after": ""
+            }
+          }
+        },
+        {
+          "robotId": "qihan-technology-sanbot-elf",
+          "changes": {
+            "price": {
+              "before": "Not disclosed",
+              "after": ""
+            },
+            "weight": {
+              "before": "",
+              "after": "19 kg; robot specification"
+            },
+            "size": {
+              "before": "",
+              "after": "902 x 421 x 331 mm; listed length x width x depth"
+            },
+            "batteryLife": {
+              "before": "",
+              "after": "About 10 h runtime; over 24 h standby is separate"
+            },
+            "maxRuntime": {
+              "before": "",
+              "after": "About 600 min operating; workload unspecified"
+            },
+            "speed": {
+              "before": "",
+              "after": "0.8 m/s maximum"
+            },
+            "terrain": {
+              "before": "indoor",
+              "after": "Indoor service use; Grade row states 1.5 cm max without a slope angle"
+            },
+            "website": {
+              "before": "https://kommunikasjon.ntb.no/pressemelding/15790256/introducing-sanbot-nano-an-ai-robot-for-the-home?publisherId=90063",
+              "after": "http://en.sanbot.com/product/sanbot-elf/specification"
+            },
+            "description": {
+              "before": "Historical QIHAN service robot identified in the manufacturer’s August 31, 2017 Sanbot Nano announcement. QIHAN describes retail, hospitality and public-service use of Elf and identifies its Android SDK, Sanbot App Store and automatic charging as features inherited by Nano. Current software support and availability are unconfirmed.",
+              "after": "Historical QIHAN service robot with a touchscreen, cameras, animated arms, voice interaction and a head-mounted laser projector. Its native specification separates the 19 kg robot and about ten-hour operation from a 1.35 kg charging station and over 24-hour standby. Android SDK, app/cloud services and automatic recharging are historical manufacturer features; current support, safety approval and stock remain unconfirmed."
+            },
+            "driveMode": {
+              "before": "",
+              "after": "Three omni-wheel sets; manufacturer describes in-place rotation"
+            }
+          }
+        }
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 463,
+        "withoutSelectedFieldReview": 55,
+        "selectedFields": 8498,
+        "selectedFieldStatuses": {
+          "documented": 3380,
+          "not-documented": 4924,
+          "conflicting": 176,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 121,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      }
+    },
+    "comparisonEvidenceCheck": {
+      "allChecksPassed": true,
+      "productHighlightRecords": 1233,
+      "individualHighlights": 5469,
+      "productSourceReferences": 2509,
+      "specificationReviewModels": 1159,
+      "specificationFields": 21992,
+      "publicJsonBytes": 5886107,
+      "catalogScriptBytes": 2542372,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimportCheck": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T00:19:51Z",
+            "after": "2026-11-03T00:22:31Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T00:19:50.320Z",
+            "after": "2026-11-03T00:22:30.465Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "bdc89e66ba65de8e4faac5cfbdda932deed86fe6400253a6c746f251c4ce4446",
+            "after": "7fe9ee468f65f294ccead68ab9fd9bd56f4bba241467fc1d5c88695d315ecc7f"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T00:19:50.320Z",
+            "after": "2026-11-03T00:22:30.465Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T00:19:50.320Z",
+            "after": "2026-11-03T00:22:30.465Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resourceCheck": {
+      "trackedOwnTestProcesses": 274,
+      "ownLiveTestProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    },
+    "ownTestAndResearchProcessesClosed": true,
+    "pdfVisualInspectionPerformed": false,
+    "imageVisualInspectionPerformed": false,
+    "videoViewed": false,
+    "pdfExtractedTextUsedForSelectedClaims": false,
+    "formsSubmitted": 0,
+    "inspection": "Native public HTTP Sanbot HTML and scoped historical manufacturer release hosted by NTB. Three-column matrices, single-cell shared rows, charging-pile ownership and dated manufacturer news checked. No visual inspection, forms, accounts or transactions. TLS verification not bypassed; three blocked response bodies and two failed transport requests excluded.",
+    "externalAccessibilityLimit": "Batch106 external live YouTube-frame findings remain unresolved; this batch covers four scoped Axe cases on Sanbot pages.",
+    "initialBuildBeforeNews": {
+      "command": [
+        "pnpm",
+        "build"
+      ],
+      "returncode": 0,
+      "trackedOwnProcesses": 4
+    },
+    "reasonForSecondBuild": "Additional manufacturer news established a named Xiaohai2.0 custom configuration and historical Max load/height scopes after the initial build completed. Data changed; final build and checks rerun.",
+    "initialBrowserTestCorrection": {
+      "initialPassed": 24,
+      "initialFailed": 2,
+      "affectedCase": "search excerpt on desktop/mobile",
+      "finding": "The initial query also matched the base catalog description, so the product was correctly found without a highlight-only excerpt. Test incorrectly required that optional excerpt for a base-text hit.",
+      "correction": "Use a phrase present only in the dated highlight, then require the complete matching excerpt. Application code and product data unchanged.",
+      "applicationBugFound": false,
+      "fullScopedBrowserRerun": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "ce31992d5c05436245969e540d84d6af693a01ce",
+    "dataCommit": "91aaa35418db43abb2e11771605a8477d2ef6ce2",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 463,
+    "withoutSelectedFieldReview": 55,
+    "selectedFields": 8498,
+    "selectedFieldStatuses": {
+      "documented": 3380,
+      "not-documented": 4924,
+      "conflicting": 176,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 121,
+    "remainingModelIdentities": 3,
+    "remainingListingIdentities": 9
+  },
+  "goalComplete": false
+}
