@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,382 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,386 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,682 fields across 1366 models, distinguishing documented, undisclosed, conflicting and
+25,746 fields across 1370 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,813 kB JSON response loads only for search or comparison;
+A separate 6,823 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,387 reviewed highlight statements as well as
+Catalog search now includes all 6,407 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1862,3 +1862,17 @@ Catalog prices of 275, ~275 and ~599 USD, the small size label, the 3.2 kg,
 dimensions, the 90 min, 75 min and 2 hour battery labels and the 120 min,
 90 min and 75 min runtime values are replaced or cleared. The Roomba 694 and
 i3+ pages publish no price, runtime in minutes or charging time.
+
+Aiper's Scuba S1 Pro, Aiper Scuba S1, EcoSurfer S2 and Aiper Surfer S1
+now have selected field reviews. The manufacturer publishes 6,000 GPH flow, a
+5 L debris basket, 180 um and 3 um filtration, four brushless motors, up to
+180 min runtime and 4 hours charging for the Scuba S1 Pro; 4,200 GPH flow, a
+5 L debris basket, up to 180 min runtime and 3-4 hours charging for the Scuba
+S1; a 4 L debris basket, 150 um filtration, 35 hours battery life and 4-6
+hours charging for the EcoSurfer S2; and 20 hours battery life, a 5 L filter
+basket and a 200 um filter for the Aiper Surfer S1. Catalog prices of ~1,099,
+799 and ~400 USD, the medium and small size labels, the 7.3 kg and 3.4 kg
+masses and the 180 min, 35 hr and up to 12 hours battery labels are cleared
+or replaced. No reviewed page publishes robot dimensions or mass, an IP rating,
+payload, travel speed, cleaning width, hourly area rate, water tank capacity or
+minimum aisle width.
