@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,378 catalog rows**, with 646 exact
-manufacturer spellings. Batch 153 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 154 refreshed the separate heuristic gap file offline
 against all 2,378 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 493 have selected-field reviews and 25 await those reviews. Family and
+highlights; 496 have selected-field reviews and 22 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,981 fields across 1269 catalog models: 8,809 documented,
-14,748 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
+Selected specification checks cover 24,034 fields across 1272 catalog models: 8,835 documented,
+14,774 not documented, 317 conflicting and 108 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -10440,3 +10440,42 @@ Fernunterstützung, bis zu drei Einkaufstaschen in einem isolierten Innenraum, 1
 3.000+ Roboter, über 10 Millionen Lieferungen, acht Länder und 125.000 Straßen- und Einfahrtsquerungen pro Tag
 sowie den Titel „undisputed #1 leader“; das sind Unternehmensangaben und -behauptungen, keine unabhängige
 Flottenprüfung oder gemessene Marktführerschaft. Preis, Masse, Maße und IP-Schutz bleiben offen.
+
+## Ergänzung 154 – ANAFI UKR, Bee-Bot und temi V3: Flugkonfigurationen, Befehlsspeicher und Innenraumassistenz (3. November 2026)
+
+Drei bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus Akku-, Zubehör- oder
+Variantenbezeichnungen erzeugt. Die Prüfung umfasst 53 Felder: 26 dokumentiert, 26 nicht dokumentiert
+und ein Widerspruch. Hinzu kommen 16 Merkmalsaussagen, sechs zusätzliche Produktquellenverweise und drei
+neue Firmenfokusse. Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten.
+2.375 andere Katalogzeilen, 1.269 frühere Feldprüfungen und 153 andere Firmenfokusse sind unverändert.
+Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze, 5.918 Aussagen, 2.826 Produktquellenverweise,
+1.272 Feldprüfungen mit 24.034 Feldern und 156 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen
+sind 496 technisch teilgeprüft; 22 bleiben offen. Dauerbeleg: `reports/competitor-batch-154-evidence.json`.
+
+Zwölf HTTP-Antworten sind gehasht gesichert und als Text gelesen, darunter ein PDF mit drei Seiten.
+Kein Recherchebrowser, keine visuelle Prüfung, OCR oder Medienübernahme. Keine Formulare, Konten,
+Kontaktaufnahme, Nachrichten oder Transaktionen. ANAFI UKR ist eine zusammenklappbare Micro-UAV:
+245 x 160 x 116 mm gefaltet, 350 x 665 x 116 mm entfaltet, unter 1.033 g mit Standard- und unter
+1.365 g mit XLR-Akku, 1.450 g MTOM, 38 Minuten Flugzeit mit Standard- oder 70 Minuten mit XLR-Akku,
+17 m/s Höchstgeschwindigkeit, IP53, 640-Thermalsensor und optische Navigation bei GNSS-Verlust.
+Standard- und XLR-Akku sind Konfigurationen, keine zusätzlichen Modelle. Preis und Nutzlast bleiben offen.
+
+Bee-Bot ist ein bildschirmfreier programmierbarer Bodenroboter für die frühe Grundschule. TTS nennt
+67,99 £ netto beziehungsweise 81,59 £ brutto unter Produktcode IT10380, vor allem für Kinder von vier bis
+sieben Jahren und geeignet ab drei Jahren unter Aufsicht. Die Produktseite nennt einen 256-Schritt-Speicher, die
+Hersteller-FAQ bis zu 200 Befehle; beide Angaben bleiben als Widerspruch sichtbar. Masse, Maße, Laufzeit,
+Geschwindigkeit und IP-Schutz bleiben offen.
+
+temi V3 ist ein 12 kg schwerer, 100 x 35 x 45 cm großer Innenraumassistent mit 13,3-Zoll-Display,
+360-Grad-LiDAR, zwei Tiefenkameras, RGB-Kamera, IMU und sechs Time-of-Flight-Sensoren. Die Navigation
+ist mit 5 cm / 2 Zoll angegeben, der Akku hält bis zu acht Stunden, die Geschwindigkeit beträgt bis zu 1 m/s
+und die Ablage trägt bis zu 3 kg je nach Aufbau. Die Ablage ist keine Gesamtnutzlast; Preis und IP-Schutz bleiben offen.
+Die vorhandene Größenangabe ohne Achsenbezug und das nicht belegte Erscheinungsjahr 2023 sind korrigiert beziehungsweise entfernt.
+
+Der Model-Review-CSV-Export enthält Bee-Bot nicht, weil die Zeile aus einer Firmenbeschreibungs-Identität und
+nicht aus einem Verzeichnis-Modellhinweis stammt; der TTS-Firmenfokus erscheint daher auch nicht im Firmen-Review-CSV,
+wohl die Markenseite ihn rendert. temi V3 ist im Model-Review-CSV doppelt als „Temi Robot“ und „temi V3“ vertreten.
+Diese Exportlücken bleiben offen; Produktseiten, Suche, Vergleich und Queue sind geprüft.
+
+808 Unit-Tests in 64 Dateien, 30 Browserfälle mit zwölf Axe-Prüfungen, 3.429 Build-Seiten, null Audit-Fehler
+und 1.245 Hinweise. Alle USPs, vollständigen Portfolios und eine Marktführerschaft bleiben unbelegt.

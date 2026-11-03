@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 493 and 25 still awaiting those reviews.
+selected technical-field reviews for 496 and 22 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -421,6 +421,20 @@ up to eight hours of operation, a 60 kg lifting capacity, a maximum working widt
 sidewalk delivery platform with Level 4 autonomy and remote assistance, 18 hours per
 charge, up to three shopping bags and a sensor suite with 12 cameras. Its 3,000+ robot,
 10M+ delivery and #1 leader figures are company claims, not independent audits.
+
+Parrot ANAFI UKR, TTS Bee-Bot and Robotemi temi V3 now have selected field
+reviews. ANAFI UKR is documented as a folding micro-UAV with a 245 x 160 x 116 mm
+folded and 350 x 665 x 116 mm unfolded envelope, below 1,033 g with the Standard
+battery or below 1,365 g with the XLR battery, a 1,450 g MTOM, 38 or 70 minutes of
+flight time, 17 m/s maximum airspeed, IP53, a 640 thermal sensor and optical
+navigation for GNSS-denied flight. Parrot publishes no numeric price or payload.
+Bee-Bot is documented at £67.99 ex VAT or £81.59 inc VAT for product code
+IT10380, primarily for ages 4-7 and suitable for ages 3 and up with supervision;
+its 256-step product-page memory conflicts with the FAQ's up to 200 commands, and
+both figures remain visible. temi V3 is a 12 kg, 100 x 35 x 45 cm indoor assistant
+with a 13.3-inch display, 360-degree LiDAR, 5 cm / 2 inch navigation, eight hours
+per charge, 1 m/s speed and a 3 kg tray load that is not an overall payload rating.
+Robotemi publishes no numeric price or IP rating.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1287,20 +1301,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-23,981 fields across 1269 models, distinguishing documented, undisclosed, conflicting and
+24,034 fields across 1272 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,506 kB JSON response loads only for search or comparison;
+A separate 6,518 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,902 reviewed highlight statements as well as
+Catalog search now includes all 5,918 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing

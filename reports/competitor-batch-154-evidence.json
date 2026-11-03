@@ -1,0 +1,1081 @@
+{
+  "batch": 154,
+  "checkedAt": "2026-11-03",
+  "manufacturers": [
+    "Parrot",
+    "TTS",
+    "Robotemi"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 3,
+  "newSpecificationReviews": 3,
+  "selectedFields": 53,
+  "fieldStatuses": {
+    "not-documented": 26,
+    "documented": 26,
+    "conflicting": 1
+  },
+  "newCompanyFocusReviews": 3,
+  "existingCompanyFocusReviewsUpdated": 0,
+  "newHighlightStatements": 16,
+  "extraProductSourceReferences": 6,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Three existing catalog rows reviewed. ANAFI UKR is one aircraft; Standard and XLR batteries are configurations, not models. Bee-Bot is one floor robot; Blue-Bot is a separate product. temi V3 is one generation; V2 units are not merged. TTS is the catalog-derived brand for its Bee-Bot row.",
+  "totalProductHighlightRecords": 1311,
+  "totalHighlightStatements": 5918,
+  "totalProductSourceReferences": 2826,
+  "pendingPortfolioLeads": [
+    {
+      "name": "Parrot ANAFI UKR independent performance and numeric commercial terms",
+      "scope": "The manufacturer publishes folded/unfolded dimensions, battery-dependent mass and flight time, MTOM, speed, IP53 and optical navigation, but no numeric price, payload or independent test.",
+      "source": "https://www.parrot.com/en/anafi-ukr-technical-specifications"
+    },
+    {
+      "name": "TTS Bee-Bot command-memory reconciliation and numeric physical data",
+      "scope": "The product page says 256-step memory while the manufacturer FAQ says up to 200 commands; price, age guidance and surface limits are published, but mass, dimensions, runtime, speed and IP rating are not.",
+      "source": "https://www.tts-group.co.uk/tts-bee-bot-programmable-floor-robot/IT10380.html"
+    },
+    {
+      "name": "Robotemi temi V3 independent performance and numeric commercial terms",
+      "scope": "Dimensions, 12 kg mass, eight-hour operation, 1 m/s speed, 3 kg tray load and 5 cm navigation accuracy are manufacturer specifications; no numeric price, IP rating or overall payload is published.",
+      "source": "https://www.robotemi.com/product/temi/"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.parrot.com/en/anafi-ukr-technical-specifications",
+      "finalUrl": "https://www.parrot.com/en/anafi-ukr-technical-specifications",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:32:47.060611+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "07d4e5e44c8e41f04384b10395e74da5eef3bac3f7100e0741e4a910a109cadb",
+      "textFile": "source-1.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.tts-group.co.uk/tts-bee-bot-programmable-floor-robot/IT10380.html",
+      "finalUrl": "https://www.tts-group.co.uk/tts-bee-bot-programmable-floor-robot/IT10380.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:32:47.659132+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "9463b1a42e97e68227195fa565da08fefb83e40d02a25c2304a160ed77f6cd9b",
+      "textFile": "source-2.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "id": 3,
+      "url": "https://blog.tts-group.co.uk/wp-content/uploads/2025/01/Bee-Bot-FAQS-Doc.pdf",
+      "finalUrl": "https://blog.tts-group.co.uk/wp-content/uploads/2025/01/Bee-Bot-FAQS-Doc.pdf",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:32:47.958653+00:00",
+      "bodyFile": "source-3.pdf",
+      "bodySha256": "bc9be65def77ef4b409b8f525281fabcfd9efa11cf85ede3fe07a2b8f0aa06c5",
+      "textFile": "source-3.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "application/pdf"
+    },
+    {
+      "id": 4,
+      "url": "https://www.robotemi.com/product/temi/",
+      "finalUrl": "https://www.robotemi.com/product/temi/",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:32:48.628274+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "c648c6e83fbe3867eebf4b0f6d09fb25383795ae44a66b49c7715a7de9842fc6",
+      "textFile": "source-4.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 5,
+      "url": "https://www.parrot.com/en",
+      "finalUrl": "https://www.parrot.com/en",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:37:54.809042+00:00",
+      "bodyFile": "source-5.html",
+      "bodySha256": "2d4011ba847930d2880b4e31d5ea613e704bac6a000309e941c5f83b2edb4c13",
+      "textFile": "source-5.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 6,
+      "url": "https://www.robotemi.com/about/",
+      "finalUrl": "https://www.robotemi.com/about/",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:37:56.302367+00:00",
+      "bodyFile": "source-6.html",
+      "bodySha256": "d9c25cb1b8e9bd1fd88b455df9057195d485bf168144e068b42be43d535c4091",
+      "textFile": "source-6.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 7,
+      "url": "https://www.parrot.com/en/corporate",
+      "finalUrl": "https://www.parrot.com/en/corporate",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:38:52.438345+00:00",
+      "bodyFile": "source-7.html",
+      "bodySha256": "62bf48afd07e1e7aae2373d71c8a35126fa807e68dd0dc5c1208d2b5def61011",
+      "textFile": "source-7.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 8,
+      "url": "https://www.parrot.com/en/newsroom/parrot-anafi-ukr-spoofing-resistant",
+      "finalUrl": "https://www.parrot.com/en/newsroom/parrot-anafi-ukr-spoofing-resistant",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:38:52.555713+00:00",
+      "bodyFile": "source-8.html",
+      "bodySha256": "a6451fe94e5d492d678e9fb30d8949b9eb4d8b62c21040f344897ec3fbda3de1",
+      "textFile": "source-8.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 9,
+      "url": "https://www.tts-group.co.uk/company/about-us/",
+      "finalUrl": "https://www.tts-group.co.uk/company/about-us/",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:38:53.031802+00:00",
+      "bodyFile": "source-9.html",
+      "bodySha256": "e997010d0f4eb0b679f6090161ccd97a06368e88430ed28ed645b5a504a6401a",
+      "textFile": "source-9.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "id": 10,
+      "url": "https://www.robotemi.com/press/",
+      "finalUrl": "https://www.robotemi.com/press/",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:38:54.834357+00:00",
+      "bodyFile": "source-10.html",
+      "bodySha256": "6c6593ba0c08307fd9b05fcadd786ae2f2adf1a74cd36c32bde783282acec3f4",
+      "textFile": "source-10.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 11,
+      "url": "https://www.robotemi.com/",
+      "finalUrl": "https://www.robotemi.com/",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:43:41.665113+00:00",
+      "bodyFile": "source-11.html",
+      "bodySha256": "d3687f86fda623da51130bd86e632884b59b7599a7ff215173a4d7b0dd6043ee",
+      "textFile": "source-11.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=UTF-8"
+    },
+    {
+      "id": 12,
+      "url": "https://www.tts-group.co.uk/",
+      "finalUrl": "https://www.tts-group.co.uk/",
+      "status": 200,
+      "checkedAt": "2026-11-03T14:47:13.789365+00:00",
+      "bodyFile": "source-12.html",
+      "bodySha256": "079533f198894285516a2722b76dc075591922d776c1f735f6b77da80afe0376",
+      "textFile": "source-12.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "parrot-anafi-ukr",
+      "manufacturer": "Parrot",
+      "model": "ANAFI UKR",
+      "category": "commercial",
+      "new": false,
+      "fields": {
+        "price": "Not disclosed",
+        "weight": "<1,033 g with Standard Smart battery; <1,365 g with XLR Smart battery",
+        "size": "245 x 160 x 116 mm folded; 350 x 665 x 116 mm unfolded",
+        "batteryLife": "6,800 mAh Standard Smart battery; 20,200 mAh XLR Smart battery",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "17 m/s maximum horizontal airspeed; 29.6 m/s Standard or 28.6 m/s XLR groundspeed",
+        "terrain": "",
+        "ipRating": "IP53 (rain and dust resistant)",
+        "ageRange": "",
+        "website": "https://www.parrot.com/en/anafi-ukr-technical-specifications",
+        "description": "ANAFI UKR is Parrot's compact folding micro-UAV for intelligence, surveillance and reconnaissance missions. The manufacturer lists a folded size of 245 x 160 x 116 mm, a mass below 1,033 g with the Standard Smart battery or below 1,365 g with the XLR battery, and a 1,450 g maximum take-off mass. Flight time is 38 minutes with the Standard battery at 6 m/s or 70 minutes with the XLR battery at 6.5 m/s; maximum flight distance is 23 km or 40 km respectively. The aircraft reaches 17 m/s maximum horizontal airspeed, 8 m/s ascent and descent, resists 15 m/s wind and is rated IP53. It combines a 640 thermal sensor with wide and telephoto EO sensors on a 3-axis stabilized gimbal, uses GPS, GLONASS, Galileo and BeiDou plus optical navigation for GNSS-denied flight, and can take off from and land in the operator's hand. Parrot publishes no numeric price or payload figure.",
+        "releaseDate": "",
+        "flightTime": "38 min with Standard battery at 6 m/s; 70 min with XLR battery at 6.5 m/s",
+        "maxTakeoffWeight": "1,450 g MTOM",
+        "chargingTime": "2 h 30 min Standard; 5 h XLR with included USB-PD charger",
+        "navigationAccuracy": "GNSS GPS/GLONASS/Galileo/BeiDou; optical navigation for GNSS-denied flight",
+        "driveMode": "Quadcopter with hand take-off and landing; no runway"
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "documented",
+        "terrain": "not-documented",
+        "ipRating": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "flightTime": "documented",
+        "maxTakeoffWeight": "documented",
+        "chargingTime": "documented",
+        "navigationAccuracy": "documented",
+        "driveMode": "documented"
+      },
+      "notes": {
+        "price": "Parrot publishes no numeric ANAFI UKR price; the catalog non-disclosure label is retained, not treated as a quote.",
+        "weight": "Manufacturer technical specifications; both figures are upper bounds and the 1,450 g MTOM is recorded separately.",
+        "size": "Manufacturer technical specifications; folded and unfolded envelopes are both published.",
+        "batteryLife": "Manufacturer technical specifications; capacity is not a runtime guarantee.",
+        "maxRuntime": "Flight endurance is published as flight time and recorded in the flightTime field; no separate continuous-runtime rating is given.",
+        "handType": "Not applicable; no manipulator hand is published for this aircraft.",
+        "dof": "Not applicable; the 3-axis gimbal is an imaging stabilizer, not a manipulator degree-of-freedom count.",
+        "payload": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "speed": "Manufacturer technical specifications; groundspeed differs by battery configuration and airspeed is not groundspeed.",
+        "terrain": "Not applicable; the aircraft is airborne and no surface or terrain rating is published.",
+        "ipRating": "Manufacturer rating; IP53 is not a guarantee of operation in every weather condition.",
+        "ageRange": "Not applicable or not published for a professional inspection aircraft.",
+        "website": "Manufacturer ANAFI UKR technical specifications page.",
+        "description": "Manufacturer technical specifications and spoofing-resistance note; performance, mass and environmental figures are manufacturer specifications, not independent tests.",
+        "releaseDate": "The reviewed pages publish no launch or release date.",
+        "flightTime": "Manufacturer technical specifications at stated airspeeds; not a universal endurance guarantee.",
+        "maxTakeoffWeight": "Manufacturer technical specifications; MTOM is not the same as operating mass with a particular battery.",
+        "chargingTime": "Manufacturer technical specifications with the included charger; charge time depends on the battery.",
+        "navigationAccuracy": "Manufacturer technical specifications; no independent accuracy or jamming-resistance certification is published.",
+        "driveMode": "Manufacturer technical specifications; hand take-off and landing are operator procedures, not autonomous flight certification."
+      },
+      "sources": [
+        {
+          "name": "Parrot — ANAFI UKR technical specifications",
+          "type": "manufacturer",
+          "url": "https://www.parrot.com/en/anafi-ukr-technical-specifications",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Parrot — Investors and shareholders",
+          "type": "manufacturer",
+          "url": "https://www.parrot.com/en/corporate",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Parrot — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.parrot.com/en",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Parrot — ANAFI UKR spoofing resistance",
+          "type": "manufacturer",
+          "url": "https://www.parrot.com/en/newsroom/parrot-anafi-ukr-spoofing-resistant",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "Folding inspection drone with stabilized visible and thermal imaging",
+        "Front and downward stereo cameras, inertial sensors and optical navigation support flight",
+        "Battery configurations have different flight times: 38 minutes standard or 70 minutes XLR at the specified test airspeeds",
+        "Parrot lists ANAFI UKR's folded size as 245 x 160 x 116 mm and its unfolded size as 350 x 665 x 116 mm.",
+        "The aircraft weighs less than 1,033 g with the Standard Smart battery or less than 1,365 g with the XLR battery, with a 1,450 g maximum take-off mass.",
+        "Flight time is 38 minutes with the Standard battery at 6 m/s or 70 minutes with the XLR battery at 6.5 m/s; maximum flight distance is 23 km or 40 km.",
+        "ANAFI UKR is rated IP53, resists winds up to 15 m/s and operates from -36 to +50 degrees Celsius with a 5,000 m service ceiling.",
+        "A 640 thermal sensor and a wide plus telephoto EO chain share a 3-axis stabilized gimbal with a -90 to +90 degree tilt range.",
+        "Optical navigation keeps the aircraft flying when GNSS is denied, and Parrot says it can be deployed in under two minutes and take off from or land in the operator's hand."
+      ]
+    },
+    {
+      "robotId": "tts-bee-bot",
+      "manufacturer": "TTS",
+      "model": "Bee-Bot",
+      "category": "educational",
+      "new": false,
+      "fields": {
+        "price": "£67.99 ex VAT; £81.59 inc VAT (product code IT10380)",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Flat, dry surface away from heat; outdoor use only on a suitable flat surface and stored indoors",
+        "ipRating": "",
+        "ageRange": "Primarily ages 4-7; suitable for ages 3+ with adult supervision",
+        "website": "https://www.tts-group.co.uk/tts-bee-bot-programmable-floor-robot/IT10380.html",
+        "description": "Bee-Bot is TTS's screen-free programmable floor robot for early primary education. Children enter sequences of forward, backward, turn-left and turn-right commands and can record custom audio feedback. The product page lists a 256-step memory and rechargeability up to approximately 500 times, while the manufacturer FAQ says Bee-Bot holds up to 200 commands; both figures are preserved as a documented conflict. TTS says the robot is primarily designed for ages 4-7, is suitable for ages 3 and up with adult supervision, operates on a flat, dry surface away from heat, may be used outside only on a suitable flat surface and should always be stored indoors. The product page lists £67.99 ex VAT or £81.59 inc VAT, product code IT10380, a 12-month warranty and USB or docking-station charging. No mass, dimensions, runtime, speed or IP rating is published.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Wheeled screen-free floor robot; 256-step memory on the product page but up to 200 commands in the FAQ"
+      },
+      "states": {
+        "price": "documented",
+        "weight": "not-documented",
+        "size": "not-documented",
+        "batteryLife": "not-documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "terrain": "documented",
+        "ipRating": "not-documented",
+        "ageRange": "documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented",
+        "driveMode": "conflicting"
+      },
+      "notes": {
+        "price": "TTS retail listing, in stock; this is a retail price, not a volume, distributor or education-authority price.",
+        "weight": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "size": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "batteryLife": "TTS says the robot is rechargeable up to approximately 500 times but publishes no runtime or capacity figure.",
+        "maxRuntime": "No one-charge runtime is published.",
+        "handType": "Not applicable; no manipulator hand is published.",
+        "dof": "Not applicable; no articulated degrees of freedom are published.",
+        "payload": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "speed": "No travel speed is published.",
+        "terrain": "Manufacturer FAQ; not an IP, slope or all-weather rating.",
+        "ipRating": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "ageRange": "Manufacturer FAQ; the product page also warns that the robot is not suitable under 36 months because of small parts.",
+        "website": "TTS Bee-Bot product page.",
+        "description": "TTS product page and manufacturer FAQ; the 200-command and 256-step figures conflict and are not reconciled, and no independent classroom study is published.",
+        "releaseDate": "The reviewed pages publish no launch or release date.",
+        "chargingTime": "TTS describes USB charging or a docking station but publishes no charge duration.",
+        "driveMode": "TTS product page and FAQ disagree on programming capacity (256 steps versus up to 200 commands); both claims are preserved and neither is selected as authoritative."
+      },
+      "sources": [
+        {
+          "name": "TTS — Bee-Bot product page",
+          "type": "manufacturer",
+          "url": "https://www.tts-group.co.uk/tts-bee-bot-programmable-floor-robot/IT10380.html",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "TTS — Bee-Bot FAQ",
+          "type": "manufacturer",
+          "url": "https://blog.tts-group.co.uk/wp-content/uploads/2025/01/Bee-Bot-FAQS-Doc.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "TTS — About Us",
+          "type": "manufacturer",
+          "url": "https://www.tts-group.co.uk/company/about-us/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "Screen-free button programming introduces directional commands, sequences and debugging",
+        "Custom audio recordings can play back as command feedback",
+        "A switchable proximity sensor supports interaction with nearby Bee-Bots and Blue-Bots",
+        "Rechargeable design supports USB charging and an optional docking station",
+        "TTS lists Bee-Bot at £67.99 ex VAT or £81.59 inc VAT under product code IT10380.",
+        "The product page says Bee-Bot has a 256-step memory and can be recharged up to approximately 500 times.",
+        "The manufacturer FAQ says Bee-Bot can hold up to 200 commands, which conflicts with the 256-step memory on the product page; both figures are preserved.",
+        "TTS says Bee-Bot is primarily designed for ages 4-7 and is suitable for ages 3 and up with adult supervision.",
+        "Bee-Bot operates on a flat, dry surface away from heat, may be used outside only on a suitable flat surface, and should always be stored indoors."
+      ]
+    },
+    {
+      "robotId": "robotemi-temi-v3",
+      "manufacturer": "Robotemi",
+      "model": "temi V3",
+      "category": "smarthome",
+      "new": false,
+      "fields": {
+        "price": "Not disclosed",
+        "weight": "12 kg / 26 lb",
+        "size": "100 H x 35 W x 45 D cm",
+        "batteryLife": "Up to 8 hours of operation per charge",
+        "maxRuntime": "",
+        "handType": "",
+        "dof": "",
+        "payload": "3 kg tray load depending on assembly",
+        "speed": "Up to 1 m/s",
+        "terrain": "Indoor hard floors, rugs and room transitions",
+        "ipRating": "",
+        "ageRange": "Children ages 3 and up with adult supervision at all times",
+        "website": "https://www.robotemi.com/product/temi/",
+        "description": "temi V3 is Robotemi's autonomous indoor personal assistant and telepresence robot. It stands 100 cm tall, is 35 cm wide and 45 cm deep, and weighs 12 kg. A 13.3-inch 1920 x 1080 IPS touch display tilts from -15 to +55 degrees, and the robot runs on an ARM hexa-core platform with Linux and a separate navigation computer. Navigation combines 360-degree LiDAR, two depth cameras, an RGB camera, an IMU and six time-of-flight linear sensors for 2D mapping, 3D localization and 5 cm / 2 inch accuracy, with obstacle avoidance, user detection and following. The lithium-ion battery provides up to eight hours of operation per charge and the robot returns autonomously to its charging dock. It offers Wi-Fi 5, Bluetooth 5.1 BLE, USB-C and USB-A, optional 4G/5G, a 13 MP 1080p camera, four microphones and 20 W audio. The tray carries up to 3 kg depending on assembly. Robotemi publishes no numeric price or IP rating.",
+        "releaseDate": "",
+        "chargingTime": ""
+      },
+      "states": {
+        "price": "not-documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "handType": "not-documented",
+        "dof": "not-documented",
+        "payload": "documented",
+        "speed": "documented",
+        "terrain": "documented",
+        "ipRating": "not-documented",
+        "ageRange": "documented",
+        "website": "documented",
+        "description": "documented",
+        "releaseDate": "not-documented",
+        "chargingTime": "not-documented"
+      },
+      "notes": {
+        "price": "Robotemi publishes no numeric temi price; the catalog non-disclosure label is retained, not treated as a quote.",
+        "weight": "Manufacturer product specifications.",
+        "size": "Manufacturer product specifications; the older catalog string lacked axis labels and is replaced.",
+        "batteryLife": "Manufacturer product specifications; not a duty-cycle guarantee in every environment.",
+        "maxRuntime": "The eight-hour figure is the published per-charge operating time and is recorded in batteryLife; no separate runtime rating is given.",
+        "handType": "Not applicable; no manipulator hand is published.",
+        "dof": "Not applicable; no articulated degrees of freedom are published.",
+        "payload": "Manufacturer product specifications; this is a tray load that depends on assembly, not an overall robot payload rating.",
+        "speed": "Manufacturer product specifications; not a guarantee on every floor surface.",
+        "terrain": "Manufacturer FAQ and product specifications; the robot stops at obstacles such as staircases and no IP rating is published.",
+        "ipRating": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted.",
+        "ageRange": "Manufacturer FAQ; supervision is required at all times and the robot is not a toy.",
+        "website": "Manufacturer temi product page.",
+        "description": "Manufacturer product page and FAQ; navigation accuracy, runtime and tray load are manufacturer specifications, not independent tests or an overall payload rating.",
+        "releaseDate": "The reviewed pages publish no launch or release date; the existing 2023 catalog value is not supported and is cleared.",
+        "chargingTime": "The robot returns autonomously to its charging dock, but no charge duration is published."
+      },
+      "sources": [
+        {
+          "name": "Robotemi — temi product page",
+          "type": "manufacturer",
+          "url": "https://www.robotemi.com/product/temi/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Robotemi — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.robotemi.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Robotemi — About Us",
+          "type": "manufacturer",
+          "url": "https://www.robotemi.com/about/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Robotemi",
+          "type": "manufacturer",
+          "url": "https://www.robotemi.com/product/temi-sales-contact/",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "highlights": [
+        "Manufacturer explicitly names temi robot V3 as a mobile video-oriented assistant",
+        "Saved destinations, user-following and telepresence support remote interaction",
+        "Third-party SDK and configurable tray attachments support application integration",
+        "Robotemi lists temi V3 at 100 cm tall, 35 cm wide and 45 cm deep, with a mass of 12 kg.",
+        "A 13.3-inch 1920 x 1080 IPS touch display tilts from -15 to +55 degrees.",
+        "Navigation combines 360-degree LiDAR, two depth cameras, an RGB camera, an IMU and six time-of-flight linear sensors for 5 cm / 2 inch accuracy.",
+        "The lithium-ion battery provides up to eight hours of operation per charge and the robot returns autonomously to its charging dock.",
+        "The tray carries up to 3 kg depending on assembly; Robotemi publishes no numeric price or IP rating."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "parrot-anafi-ukr",
+      "before": {
+        "category": "commercial",
+        "manufacturer": "Parrot",
+        "model": "ANAFI UKR",
+        "price": "Not disclosed",
+        "weight": "<1033 g (standard battery); <1365 g (XLR battery)",
+        "size": "350 x 665 x 116 mm (unfolded)",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;aerial;inspection;monitoring;autonomous-nav;thermal",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "up to 17 m/s (horizontal airspeed)",
+        "terrain": "",
+        "ipRating": "IP53",
+        "ageRange": "",
+        "website": "https://www.parrot.com/en/anafi-ukr-technical-specifications",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Folding inspection drone with stabilized visible and thermal imaging. Front and downward stereo cameras, inertial sensors and optical navigation support flight. Battery configurations have different flight times: 38 minutes standard or 70 minutes XLR at the specified test airspeeds.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "up to 38 min standard at 6 m/s; 70 min XLR at 6.5 m/s",
+        "maxTakeoffWeight": "1450 g",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "after": {
+        "category": "commercial",
+        "manufacturer": "Parrot",
+        "model": "ANAFI UKR",
+        "price": "Not disclosed",
+        "weight": "<1,033 g with Standard Smart battery; <1,365 g with XLR Smart battery",
+        "size": "245 x 160 x 116 mm folded; 350 x 665 x 116 mm unfolded",
+        "batteryLife": "6,800 mAh Standard Smart battery; 20,200 mAh XLR Smart battery",
+        "maxRuntime": "",
+        "tags": "commercial;aerial;inspection;monitoring;autonomous-nav;thermal",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "17 m/s maximum horizontal airspeed; 29.6 m/s Standard or 28.6 m/s XLR groundspeed",
+        "terrain": "",
+        "ipRating": "IP53 (rain and dust resistant)",
+        "ageRange": "",
+        "website": "https://www.parrot.com/en/anafi-ukr-technical-specifications",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "ANAFI UKR is Parrot's compact folding micro-UAV for intelligence, surveillance and reconnaissance missions. The manufacturer lists a folded size of 245 x 160 x 116 mm, a mass below 1,033 g with the Standard Smart battery or below 1,365 g with the XLR battery, and a 1,450 g maximum take-off mass. Flight time is 38 minutes with the Standard battery at 6 m/s or 70 minutes with the XLR battery at 6.5 m/s; maximum flight distance is 23 km or 40 km respectively. The aircraft reaches 17 m/s maximum horizontal airspeed, 8 m/s ascent and descent, resists 15 m/s wind and is rated IP53. It combines a 640 thermal sensor with wide and telephoto EO sensors on a 3-axis stabilized gimbal, uses GPS, GLONASS, Galileo and BeiDou plus optical navigation for GNSS-denied flight, and can take off from and land in the operator's hand. Parrot publishes no numeric price or payload figure.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "38 min with Standard battery at 6 m/s; 70 min with XLR battery at 6.5 m/s",
+        "maxTakeoffWeight": "1,450 g MTOM",
+        "chargingTime": "2 h 30 min Standard; 5 h XLR with included USB-PD charger",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "GNSS GPS/GLONASS/Galileo/BeiDou; optical navigation for GNSS-denied flight",
+        "dockingAccuracy": "",
+        "driveMode": "Quadcopter with hand take-off and landing; no runway",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      }
+    },
+    {
+      "robotId": "tts-bee-bot",
+      "before": {
+        "category": "educational",
+        "manufacturer": "TTS",
+        "model": "Bee-Bot",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;programmable;coding",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.tts-group.co.uk/tts-bee-bot-programmable-floor-robot/IT10380.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Screen-free programmable floor robot with recorded command feedback and proximity interaction with other Bee-Bots and Blue-Bots.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": ""
+      },
+      "after": {
+        "category": "educational",
+        "manufacturer": "TTS",
+        "model": "Bee-Bot",
+        "price": "£67.99 ex VAT; £81.59 inc VAT (product code IT10380)",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "educational;programmable;coding",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Flat, dry surface away from heat; outdoor use only on a suitable flat surface and stored indoors",
+        "ipRating": "",
+        "ageRange": "Primarily ages 4-7; suitable for ages 3+ with adult supervision",
+        "website": "https://www.tts-group.co.uk/tts-bee-bot-programmable-floor-robot/IT10380.html",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Bee-Bot is TTS's screen-free programmable floor robot for early primary education. Children enter sequences of forward, backward, turn-left and turn-right commands and can record custom audio feedback. The product page lists a 256-step memory and rechargeability up to approximately 500 times, while the manufacturer FAQ says Bee-Bot holds up to 200 commands; both figures are preserved as a documented conflict. TTS says the robot is primarily designed for ages 4-7, is suitable for ages 3 and up with adult supervision, operates on a flat, dry surface away from heat, may be used outside only on a suitable flat surface and should always be stored indoors. The product page lists £67.99 ex VAT or £81.59 inc VAT, product code IT10380, a 12-month warranty and USB or docking-station charging. No mass, dimensions, runtime, speed or IP rating is published.",
+        "releaseDate": "",
+        "chargingTime": "",
+        "driveMode": "Wheeled screen-free floor robot; 256-step memory on the product page but up to 200 commands in the FAQ"
+      }
+    },
+    {
+      "robotId": "robotemi-temi-v3",
+      "before": {
+        "category": "smarthome",
+        "manufacturer": "Robotemi",
+        "model": "temi V3",
+        "price": "Not disclosed",
+        "weight": "12 kg",
+        "size": "100x35x45 cm",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "telepresence;companion;ai-powered;service;autonomous-nav;consumer;home-assistant",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.robotemi.com/product/temi/",
+        "image": "images/smarthome/robotemi-temi-v3.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Mobile V3 platform for telepresence, saved-destination navigation and user following, with an SDK for third-party applications.",
+        "releaseDate": "2023",
+        "chargingTime": ""
+      },
+      "after": {
+        "category": "smarthome",
+        "manufacturer": "Robotemi",
+        "model": "temi V3",
+        "price": "Not disclosed",
+        "weight": "12 kg / 26 lb",
+        "size": "100 H x 35 W x 45 D cm",
+        "batteryLife": "Up to 8 hours of operation per charge",
+        "maxRuntime": "",
+        "tags": "telepresence;companion;ai-powered;service;autonomous-nav;consumer;home-assistant",
+        "handType": "",
+        "dof": "",
+        "payload": "3 kg tray load depending on assembly",
+        "speed": "Up to 1 m/s",
+        "terrain": "Indoor hard floors, rugs and room transitions",
+        "ipRating": "",
+        "ageRange": "Children ages 3 and up with adult supervision at all times",
+        "website": "https://www.robotemi.com/product/temi/",
+        "image": "images/smarthome/robotemi-temi-v3.webp",
+        "video": "",
+        "gallery": "",
+        "description": "temi V3 is Robotemi's autonomous indoor personal assistant and telepresence robot. It stands 100 cm tall, is 35 cm wide and 45 cm deep, and weighs 12 kg. A 13.3-inch 1920 x 1080 IPS touch display tilts from -15 to +55 degrees, and the robot runs on an ARM hexa-core platform with Linux and a separate navigation computer. Navigation combines 360-degree LiDAR, two depth cameras, an RGB camera, an IMU and six time-of-flight linear sensors for 2D mapping, 3D localization and 5 cm / 2 inch accuracy, with obstacle avoidance, user detection and following. The lithium-ion battery provides up to eight hours of operation per charge and the robot returns autonomously to its charging dock. It offers Wi-Fi 5, Bluetooth 5.1 BLE, USB-C and USB-A, optional 4G/5G, a 13 MP 1080p camera, four microphones and 20 W audio. The tray carries up to 3 kg depending on assembly. Robotemi publishes no numeric price or IP rating.",
+        "releaseDate": "",
+        "chargingTime": ""
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "parrot",
+      "name": "Parrot",
+      "role": "European professional micro-UAV and photogrammetry group",
+      "website": "https://www.parrot.com/en",
+      "checkedAt": "2026-11-03",
+      "highlights": [
+        "Parrot describes itself as Europe's leading group in professional micro-UAVs and 3D mapping and modeling solutions.",
+        "The group says it designs, develops and markets micro-UAVs and photogrammetry software for security forces, industrial and commercial operators and public authorities.",
+        "Parrot says it integrates artificial intelligence for autonomous flight, detection, tracking and analysis, and positions the ANAFI range for ISR, public safety and technical inspection.",
+        "Parrot owns Pix4D, a photogrammetry and geospatial software suite for surveying, construction, infrastructure, agriculture, public safety and environmental monitoring.",
+        "Parrot says it was founded in 1994, employs more than 400 people, generated €78 million in 2024 revenue and serves more than 50 countries; these are company statements."
+      ],
+      "sources": [
+        {
+          "name": "Parrot — Investors and shareholders",
+          "type": "manufacturer",
+          "url": "https://www.parrot.com/en/corporate",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Parrot — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.parrot.com/en",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Parrot — ANAFI UKR technical specifications",
+          "type": "manufacturer",
+          "url": "https://www.parrot.com/en/anafi-ukr-technical-specifications",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-154/source-7.html",
+      "reviewNotes": "Batch154. Native Parrot investor, company and ANAFI UKR pages read as text only; no research browser, visual inspection, OCR or media reuse. Revenue, headcount, country and leadership figures are company statements; no independent market ranking or complete portfolio is inferred."
+    },
+    {
+      "brandId": "robotemi",
+      "name": "Robotemi",
+      "role": "Robots-as-a-Service and personal assistant robot developer",
+      "website": "https://www.robotemi.com/",
+      "checkedAt": "2026-11-03",
+      "highlights": [
+        "Robotemi describes temi as a video-oriented, autonomous personal AI assistant robot that recognises and follows users, saves preset locations and navigates around homes and offices.",
+        "The manufacturer lists a 13.3-inch 1920 x 1080 IPS touch display, a 12 kg, 100 x 35 x 45 cm chassis and up to eight hours of operation per charge.",
+        "temi combines 360-degree LiDAR, two depth cameras, an RGB camera, an IMU and six time-of-flight sensors for 5 cm / 2 inch navigation.",
+        "The robot is an open platform with a full SDK and app store, plus Wi-Fi 5, Bluetooth 5.1, USB-C/USB-A and optional 4G/5G connectivity.",
+        "Robotemi says temi is safe for children ages three and up but must not be operated without adult supervision at all times."
+      ],
+      "sources": [
+        {
+          "name": "Robotemi — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.robotemi.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Robotemi — About Us",
+          "type": "manufacturer",
+          "url": "https://www.robotemi.com/about/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Robotemi — temi product page",
+          "type": "manufacturer",
+          "url": "https://www.robotemi.com/product/temi/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-154/source-6.html",
+      "reviewNotes": "Batch154. Native Robotemi company, about and temi product pages read as text only; no research browser, visual inspection, OCR or media reuse. Navigation accuracy, runtime, tray load and award claims are manufacturer statements; no independent test or complete portfolio is inferred."
+    },
+    {
+      "brandId": "catalog-tts-23de9b0a3421",
+      "name": "TTS",
+      "role": "Educational resources supplier and Bee-Bot developer",
+      "website": "https://www.tts-group.co.uk/",
+      "checkedAt": "2026-11-03",
+      "highlights": [
+        "TTS says it has supplied schools and learning environments across the globe with educational resources for 40 years.",
+        "The company says its teams design, develop and deliver thousands of products each year, and that resources are developed with teachers and educational experts.",
+        "TTS describes Bee-Bot as a TTS-developed programmable educational robot and lists it within a wider early-years, primary and secondary school range.",
+        "TTS is a trading name of RM Educational Resources Ltd, registered in Hucknall, Nottingham, and publishes service commitments including no minimum order value.",
+        "TTS says it collaborates with teachers, practitioners and educational experts worldwide; these are company statements, not independent efficacy research."
+      ],
+      "sources": [
+        {
+          "name": "TTS — About Us",
+          "type": "manufacturer",
+          "url": "https://www.tts-group.co.uk/company/about-us/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "TTS — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.tts-group.co.uk/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "TTS — Bee-Bot product page",
+          "type": "manufacturer",
+          "url": "https://www.tts-group.co.uk/tts-bee-bot-programmable-floor-robot/IT10380.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-154/source-9.html",
+      "reviewNotes": "Batch154. Native TTS company, about and Bee-Bot product pages read as text only; no research browser, visual inspection, OCR or media reuse. Company history, product-development and service statements are manufacturer claims; no independent efficacy study or complete portfolio is inferred."
+    }
+  ],
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 30,
+    "axeCases": 12,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1245,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 12,
+      "successfulResponses": 12,
+      "usableResponses": 12,
+      "sha256VerifiedResponses": 12,
+      "nativeHtmlResponses": 11,
+      "pdfDocuments": 1,
+      "pdfPages": 3,
+      "pdfSources": [
+        "https://blog.tts-group.co.uk/wp-content/uploads/2025/01/Bee-Bot-FAQS-Doc.pdf"
+      ],
+      "notFoundExcluded": [],
+      "blockedResponses": [],
+      "unusedSuccessfulResponses": [],
+      "inspection": "Native HTML and one PDF read as text only; no research browser, visual inspection, OCR or media reuse. No login, forms, contact, messages or transactions."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 1,
+          "selector": "main",
+          "textSha256": "424b8aaa1bf4a8604c27f2921797967da5f337b8d813a919644554579bd25b30"
+        },
+        {
+          "sourceId": 2,
+          "selector": "body",
+          "textSha256": "67ce9dd90f1a87c9ca641309819e64a543db3f9c644edfc394bcb5df7820651e"
+        },
+        {
+          "sourceId": 3,
+          "selector": "pdf-text",
+          "textSha256": "419041c07acdc6304c5b6db63b674e4f27fcac3805b40114377330402be9fbcb"
+        },
+        {
+          "sourceId": 4,
+          "selector": "main",
+          "textSha256": "b9b71152004b9208df2ee3ade18aca0611bbfd453cca7f08772f10a0b96f6965"
+        },
+        {
+          "sourceId": 5,
+          "selector": "main",
+          "textSha256": "8461aa398f5a7b4327614c3421303871540429b3c6932b4ed27403c5a22e592a"
+        },
+        {
+          "sourceId": 6,
+          "selector": "main",
+          "textSha256": "bc0dcbc2d69443a4bc0839226bf91c4171ff14014de7fbcb8e7a7c0817026a67"
+        },
+        {
+          "sourceId": 7,
+          "selector": "main",
+          "textSha256": "eb5c40a3f2780110a52ebbd22b37f297ec95880a7172ea84baba67b72e4b32a1"
+        },
+        {
+          "sourceId": 8,
+          "selector": "main",
+          "textSha256": "6efabb43919ff705a406d360bfbcf94f7d581510d3430cb1fb6098bc69228591"
+        },
+        {
+          "sourceId": 9,
+          "selector": "body",
+          "textSha256": "4192ae3859b34e49096d88a0ca4e612629b1f0c7394a7ccadf2c5287ffd039e0"
+        },
+        {
+          "sourceId": 10,
+          "selector": "main",
+          "textSha256": "7ca42d1338dff487ef076715d342cc13051e8bc5f702f04162d9f2e786ad182d"
+        },
+        {
+          "sourceId": 11,
+          "selector": "main",
+          "textSha256": "0f79c568eebd895332ef64d6841c81be7564552ae81a34094bf3a7b77d931ee0"
+        },
+        {
+          "sourceId": 12,
+          "selector": "body",
+          "textSha256": "001b8753da020cb68b3007ddd89125462f7d56401bc4a686dcb620e867015fd9"
+        }
+      ],
+      "versionScopes": "ANAFI UKR is one aircraft; Standard and XLR Smart batteries are configurations, not separate models, and ANAFI UKR GOV is a named variant that was not reviewed. Bee-Bot is one floor robot; Blue-Bot is a separate product and was not reviewed. temi V3 is one documented generation; V2 and upgraded V2 units are other generations and are not merged into V3.",
+      "priceScopes": "Parrot and Robotemi publish no numeric price on the reviewed pages. TTS lists a retail price of £67.99 ex VAT or £81.59 inc VAT for product code IT10380; this is a retail listing, not a volume or distributor price.",
+      "weightScopes": "Parrot publishes aircraft mass below 1,033 g with the Standard battery and below 1,365 g with the XLR battery, plus a 1,450 g MTOM. Bee-Bot publishes no mass. Robotemi publishes 12 kg / 26 lb for temi.",
+      "sizeScopes": "Parrot publishes folded and unfolded aircraft dimensions. Bee-Bot publishes no dimensions. Robotemi publishes 100 H x 35 W x 45 D cm; the older catalog string “100x35x45 cm” lacked the axis labels and is replaced.",
+      "payloadScopes": "Parrot publishes no payload figure. Bee-Bot publishes no payload figure. Robotemi publishes a 3 kg tray load that depends on assembly; it is not an overall robot payload rating.",
+      "enduranceScopes": "Parrot publishes 38 minutes with the Standard battery and 70 minutes with the XLR battery at stated airspeeds, plus 23 km or 40 km maximum flight distance. Bee-Bot publishes no runtime, only rechargeability up to approximately 500 times. Robotemi publishes up to eight hours of operation per charge.",
+      "autonomyScopes": "Parrot describes optical navigation that keeps the aircraft flying when GNSS is denied, plus hand take-off and landing; this is a manufacturer capability statement, not independent certification. Bee-Bot is user-programmed, not autonomous. Robotemi describes autonomous indoor navigation with 5 cm / 2 inch accuracy, obstacle avoidance, user detection and following; these are manufacturer specifications.",
+      "listingScopes": "The roboticsdir and buyandrentrobots listings name products and companies; they do not establish prices, current stock, delivered fleets or independent performance.",
+      "goalComplete": false
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "selectedCatalogRows": 3,
+      "priorSpecificationReviewsUnchanged": 1269,
+      "priorCompanyFocusReviewsUnchanged": 153,
+      "newSpecificationReviews": 3,
+      "selectedFields": 53,
+      "selectedFieldStatuses": {
+        "not-documented": 26,
+        "documented": 26,
+        "conflicting": 1
+      },
+      "allFieldStatuses": {
+        "not-documented": 14774,
+        "documented": 8835,
+        "conflicting": 317,
+        "roadmap": 108
+      },
+      "sourceIdentityFilesByteIdentical": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/company-product-reviews.json"
+      ],
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 496,
+        "withoutSelectedFieldReview": 22,
+        "selectedFields": 9104,
+        "selectedFieldStatuses": {
+          "documented": 3633,
+          "not-documented": 5265,
+          "conflicting": 188,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 148,
+        "remainingModelIdentities": 3,
+        "remainingListingIdentities": 9
+      }
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPagesChecked": 3,
+      "selectedSpecificationFieldsChecked": 53,
+      "sourceBadgesChecked": 23,
+      "blankFieldsOmitted": 24,
+      "descriptionsChecked": 3,
+      "websitesChecked": 3,
+      "structuredSpecificationPropertiesChecked": 15,
+      "highlightStatementsChecked": 26,
+      "companyFocusPagesChecked": 3,
+      "qualifiedOrUnknownPricesWithoutStructuredOffers": 3,
+      "modelExportRowsChecked": 3,
+      "modelExportTargetsChecked": 3,
+      "modelExportFieldOccurrencesChecked": 52,
+      "companyProductExportRowsChecked": 1,
+      "companyProductExportTargetsChecked": 1,
+      "companyExportRowsChecked": 2,
+      "researchQueueTargetsChecked": 3,
+      "researchQueueFieldsChecked": 53,
+      "scope": "Three existing catalog records; Parrot ANAFI UKR aircraft configurations, TTS Bee-Bot command-memory conflict and Robotemi temi V3 indoor assistant; structured data and exports checked."
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "parrotBatteryConfigurationsNotSeparateModels": true,
+      "beeBotCommandMemoryConflictPreserved": true,
+      "temiTrayLoadNotOverallPayload": true,
+      "metricWeightAndDurationFiltersChecked": true,
+      "productHighlightRecords": 1311,
+      "individualHighlights": 5918,
+      "productSourceReferences": 2826,
+      "specificationReviewModels": 1272,
+      "specificationFields": 24034,
+      "publicJsonBytes": 6518186,
+      "catalogScriptBytes": 2690718,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T14:47:54Z",
+            "after": "2026-11-03T15:13:38Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T14:47:53.678Z",
+            "after": "2026-11-03T15:13:37.555Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "3b69e76b3b07e66b6892772d2578b861ca823c6329e94c822e91b4eeaa8c53f0",
+            "after": "19a65c034558618abace7c7bb7519edf623e1d1d413a93f1289a81c2ae687abc"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T14:47:53.678Z",
+            "after": "2026-11-03T15:13:37.555Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T14:47:53.678Z",
+            "after": "2026-11-03T15:13:37.555Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 235,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "004574f2f055750bab3788d480280a137b289512",
+    "dataCommit": "3e777720c0699c7154abd93b0b9a6351fe2ee565",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 496,
+    "withoutSelectedFieldReview": 22,
+    "selectedFields": 9104,
+    "selectedFieldStatuses": {
+      "documented": 3633,
+      "not-documented": 5265,
+      "conflicting": 188,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 148,
+    "remainingModelIdentities": 3,
+    "remainingListingIdentities": 9
+  },
+  "remainingProductDetailContentChecks": 853,
+  "goalComplete": false
+}
