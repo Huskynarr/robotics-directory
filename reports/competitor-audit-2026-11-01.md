@@ -15,16 +15,16 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | BuyAndRentRobots: vorläufig bereinigte Modell-/Seriendatensätze | 348 |
 | Davon konkrete Modellkandidaten / Serien | 335 / 13 |
 | Aktuelle Wettbewerber-Firmengruppen nach Aliasabgleich | 591 |
-| Eigener Katalog vorher / nachher | 1.255 / 2.305 Modelle/Konfigurationen |
-| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1051 |
-| Datierte Produktmerkmal-Datensätze einschließlich 182 bestehender Modelle | 1233 |
+| Eigener Katalog vorher / nachher | 1.255 / 2.314 Modelle/Konfigurationen |
+| Neue Modelle mit Primärbelegen und Produktmerkmalen | 1060 |
+| Datierte Produktmerkmal-Datensätze einschließlich 184 bestehender Modelle | 1244 |
 | Exakte Herstellerbezeichnungen im eigenen CSV-Bestand | 646 |
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
 | Firmenfokus-Prüfungen mit Quellen | 126 |
 
-Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1051 ergänzte Modelle ergeben 2.305 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
+Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1060 ergänzte Modelle ergeben 2.314 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
 Percepto und Percepto Autonomous Solutions sind zu einer Firmengruppe zusammengeführt;
 dadurch sinkt die Zahl der Quellen-Firmengruppen von 596 auf 595. Beide Namen bleiben
@@ -43,7 +43,7 @@ bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Fir
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
 126 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
-Modellseiten verlinken Markenprofile. Die 1233 Datensätze
+Modellseiten verlinken Markenprofile. Die 1244 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
 Der Vergleich zeigt nun auch alle vorhandenen Produktmerkmale mit datierten
 Primärquellen und Quellenrollen. Geprüfte Datenfelder behalten ihren Status und
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 463 haben ausgewählte Datenfeldprüfungen und 55
+haben datierte Merkmalsbelege; 465 haben ausgewählte Datenfeldprüfungen und 53
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -82,7 +82,7 @@ Inspektions-, kommunale, Medizin-, Rehabilitations-, Arbeitsunterstützungs-, Ag
 Luft-, Forschungs- und Kochplattformen auf. Gewerbliche Reinigung hat einen eigenen Unterfilter.
 Finder und Navigation berücksichtigen sie. Der vollständige Katalog wird als
 gemeinsame Datei mit Inhaltsfingerabdruck ausgeliefert. Der lokale statische Build
-schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 498 MB. Das ist keine Messung von
+schrumpfte von ungefähr 1,4 GB auf aktuell ungefähr 500 MB. Das ist keine Messung von
 Core Web Vitals oder Suchrankings.
 
 Reine Firmenprofile ohne Modelle erhalten `noindex, follow` und erscheinen nicht
@@ -10798,3 +10798,120 @@ Daten-Zwischencommit `91aaa35418db43abb2e11771605a8477d2ef6ce2` ist auf `codex/c
 geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche Modellidentitäten,
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Aktuelle
 Verfügbarkeit, unabhängige Leistung, exklusive USPs und Rang Nr. 1 sind nicht belegt.
+
+
+## Ergänzung 131 – KEENON-Historie, C25 und getrennte MiR-Konfigurationen (3. November 2026)
+
+Neun neue Modelle/Konfigurationen: DINERBOT T1, T2, T5, T6 und T2 Pro, M1,
+GUIDERBOT G1, Xiaolang und MiR250 Dynamic. Vier bestehende Einträge sind überarbeitet:
+C25, M2, G2 und MiR100. 13 neue ausgewählte Feldprüfungen mit 260 Feldern:
+104 dokumentiert, 151 unbekannt, vier widersprüchlich und eine Roadmap. Elf neue
+Merkmalsdatensätze sowie zwei Erweiterungen liefern 46 zusätzliche Aussagen und
+22 zusätzliche Produktquellenverweise; zwei vorhandene Firmenfokus-Prüfungen
+sind erweitert. Gesamtbestand: 2.314 Modelle/Konfigurationen, 1.244 datierte
+Merkmalsdatensätze, 5.515 Aussagen und 2.531 Produktquellenverweise. 1.172 Modelle
+haben 22.252 ausgewählte Feldprüfungen: 8.119 dokumentiert, 13.734 unbekannt,
+293 widersprüchlich und 106 Roadmap. Von 518 ursprünglichen Zielen haben nun 465
+Feldprüfungen; 53 bleiben offen. Diese Queue umfasst 8.540 Felder: 3.399 dokumentiert,
+4.943 unbekannt, 180 widersprüchlich und 18 Roadmap. Es bleiben 126 Firmenfokus-
+Prüfungen und 1.037 Profile; Hersteller- und Marken-Mappings ändern sich nicht.
+
+Die historische KEENON-Broschüre nennt T1 mit 58 kg/30 kg Transportlast, T2 mit
+75 kg/40 kg, T5 mit 55 kg/40 kg und T6 mit 52 kg/35 kg. Einzellagen und bedingte
+unterste/oberste Lagen behalten ihre Grenzen. 12–15 Stunden sind die historische
+Akkuspanne; automatische Ladung liefert keine volle Ladedauer. T1 hat drei Trays,
+Touchscreen und Rückkehr auf Tastendruck; T5 nennt Flottenkommunikation und regionale
+Geschwindigkeitslimits; T6 nennt SLAM und Hindernisvermeidung. T2 hat eine geschlossene,
+beidseitig zugängliche Kabine. Deren 160 L sind Volumen, keine Kilogramm. IPX5 ist
+für innere Kabine und Hülle beschrieben, nicht pauschal für den ganzen Roboter.
+T2 Pro ist auf der historischen Übersicht ausdrücklich COMING SOON; technische
+T2-Werte und ein bestätigtes Lieferdatum werden nicht übertragen. Die Hersteller-
+Historie nennt T1 2016, T2 2018, T5/T6 2019, M1/M2 2020 und den raupengetriebenen
+Restaurant-Vorgänger Xiaolang 2013. Das sind benannte historische Meilensteine,
+keine durch das PDF-Datum erfundenen Erscheinungsjahre. M1 ist ein medizinischer
+Lieferroboter; M2-Desinfektionshardware wird nicht auf ihn übertragen.
+
+G2 nennt 70 kg, 600 x 500 x 1450 mm, 1,2 m/s, ein doppelseitiges 21,5-Zoll-
+1080p-Display und mindestens sieben Stunden Akkubetrieb. Die Untergrenze wird nicht
+zum maximalen Laufzeitwert. G1 ist als eigener historischer Name belegt, erhält
+aber keine G2-Hardwarewerte. Die Positionsdaten des nativen Broschürentexts ordnen
+den G1/G2-Start dem Jahr 2016 zu; die Nachbarzahl 2017 ist ein anderer Meilenstein.
+G2 wird aus Smart Home nach commercial verschoben, seine ID/Route und sein Bild
+bleiben erhalten. Der neue G1 wird direkt gewerblich einsortiert. Die erste Unit-
+Prüfung machte den zuvor unpassenden Unterfilter sichtbar; keine Wohnungsfunktion
+wurde als künstlicher Tag ergänzt.
+
+C25 nennt vier Reinigungsmodi, 4–6 Stunden Betrieb, 3–4 Stunden Laden, einen
+400-m²/h-Reinigungsanspruch sowie getrennte 10-L-Frischwasser- und 8-L-Abwassertanks.
+24-Stunden-Selbstladung ist keine Akkudauer; 5.000 m² Abdeckungswerbung ist keine
+belegte Fläche pro Ladung. Der Herstellerbeitrag bestätigt Modell und Funktionen;
+Fremdkommentare sind ausgeschlossen. Die zwei C25-PDF-Hosts haben identische Bytes
+und bilden nur ein Dokument. Modellzuordnung stützt sich auf PDF-Titelmetadaten,
+OCR des KEENON-Logos und den passenden Herstellerbeitrag. Die numerischen Tabellen
+wurden nativ extrahiert, nicht aus unsicherer Zahlen-OCR übernommen. M2 nennt
+60 kg, 500 x 500 x 1350 mm und 0,8 m/s. Mindestens zwölf Stunden sind ausdrücklich
+Standby; die frühere unbelegte aktive 240-Minuten-Laufzeit ist entfernt. UV-
+Bestrahlungsstärke, Sprühmenge, Tropfengröße und Desinfektionsflüssigkeit sind
+keine Reinigungswasser-Tankkapazität oder unabhängig bestätigte medizinische Wirkung.
+
+MiR100 hat vier Quellenkonflikte: Das Datenblatt vom Mai 2016 nennt 62,5 kg,
+900 x 600 x 358 mm und zehn Stunden/20 km; die Broschüre 2022 nennt 77 kg,
+890 x 580 x 352 mm und unbeladen bis neun Stunden Standard-/13 Stunden erweiterter
+Akku. Beide historischen Geltungsbereiche bleiben sichtbar. 100 kg sind Plattform-
+Transportlast, keine Arm-Nutzlast. Bis drei Stunden Vollladen, zwei Stunden bis 80%,
+10-cm-Positionsradius und 0,55-m-Mittendrehradius stammen aus 2016. Der Hersteller
+nennt erste Produktion und Verkäufe 2015; Gründung 2013 ist kein Modellstart.
+Der Massenwert steht vor der Jahresangabe, damit der vorhandene Gewichtsfilter
+62,5 kg statt 2016 als Zahl liest.
+
+Die separate MiR250-Dynamic-Spalte von 2022 nennt 97 kg, 250 kg Transportlast,
+800 x 580 x 300 mm und bis zwei m/s. Bis 13 Stunden gelten beladen, bis 17,5 Stunden
+unbeladen. 1:16 Gelegenheitsladung und zehn Minuten Laden für zwei Stunden vierzig
+Betrieb sind keine Vollladezeit. Positionsfahrt ±20 mm je X/Y-Achse bleibt von
+VL-Marker-Docking ±3 mm je Achse getrennt. Standard/minimierte Korridore und Türen,
+Steigungsbedingungen und optionale Reinraum-/ESD-Ausstattung bleiben getrennt.
+Die Nachbarspalten werden weder auf MiR100 noch automatisch auf heutige MiR250-
+Standardgeräte übertragen. Ein eigener Dynamic-Start und aktueller Lagerbestand
+sind nicht belegt. Zubehör, Software und die zuvor offenen XMAN-L1/X101/M102-
+Hinweise erzeugen keine zusätzlichen unbestätigten Roboterzeilen.
+
+14 gespeicherte aktuelle Antworten: neun HTTP 200, fünf HTTP 404. Drei Transport-
+fehler (ein Timeout, zwei DNS-Fehler) bleiben getrennt; sie sind keine erfolgreichen
+Abrufe. Das schon am 1. November 2026 gesicherte MiR100-Datenblatt wird mit seinem
+verifizierten SHA-256 und ursprünglichen Abrufdatum wiederverwendet. Der heutige
+Timeout wird nicht als frischer HTTP-200-Beleg ausgegeben. Alle gespeicherten
+Antwortkörper haben geprüfte Hashes. Native PDF-Seiten, Tabellen-Spalten und
+Hersteller-HTML wurden abgegrenzt. Ein Versuch visueller PDF-Prüfung wurde von der
+Umgebung wegen nicht unterstützter Bild-Eingabe abgewiesen; keine visuelle Prüfung
+wird behauptet. Logo-OCR und native Textprüfung sind ausdrücklich dokumentiert.
+Keine TLS-Umgehung, Formulare, Konten oder Transaktionen. Dauerbeleg:
+`reports/competitor-batch-131-evidence.json`.
+
+808 Unit-Tests in 64 Dateien, 26 Desktop-/Mobil-Browserfälle einschließlich vier
+Axe-Prüfungen, Build mit 3.365 Seiten und Daten-Audit mit null Fehlern/1.201 Warnungen
+bestanden. Zwei neue Warnungen für unbekannte Erscheinungsjahre werden durch zwei
+neu belegte alte Jahre ausgeglichen; andere Warnungen bleiben gleich. 13 Produkt-
+seiten, 260 Felder, 82 Quellenbadges,
+152 ausgelassene Leerfelder, 52 Merkmalsaussagen, 72 strukturierte
+Spezifikationseigenschaften und zwei Firmenfokus-Seiten sind abgeglichen. Zwei
+Modell-Exportzeilen und zwei ursprüngliche Queue-Ziele enthalten je 42 ausgewählte
+Felder. Frühere Firmenbeleg-Daten bleiben neben dem aktuellen Prüfdatum erhalten.
+Die erste Exportprüfung erwartete fälschlich nur ein Datum statt der aggregierten
+alten/neuen Quellen-Prüfdaten; die Prüfung wurde korrigiert. Die erste Browserrunde
+hatte vier Fehler wegen fehlender Leerzeichen in zwei Traglastwerten. Danach wurden
+die beiden Texte korrigiert und der komplette Build/Browserumfang erneut ausgeführt.
+Der erste Build war nach der Kategorienkorrektur gezielt beendet worden; kein
+abgebrochener oder veralteter Build gilt als Schlussprüfung.
+
+Alle 2.301 nicht ausgewählten Bestandszeilen, alle 1.159 vorherigen Feldprüfungen,
+124 nicht ausgewählte Firmenfokus-Prüfungen und alle 1.961 Quellenidentitäten bleiben
+erhalten. Suche, Vierervergleich, Laufzeit-/Massefilter, vollständige Belegauslieferung
+und byteidentischer Reimport aller 32 getrackten Datendateien sind geprüft. Der
+Offline-Refresh ist semantisch idempotent. Eigene Browser, Testserver und Helfer
+sind beendet; fremde Ressourcen bleiben erhalten. Die externen YouTube-/Axe-Befunde
+aus Batch106 liegen weiterhin außerhalb dieses Prüfumfangs.
+
+Daten-Zwischencommit `580ca907bc562ea068343ddb56d4d26fd764dc52` ist auf `codex/competitor-directory-expansion` gepusht und remote
+geprüft. Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
+historische Portfolios, exklusive USPs und Rang Nr. 1 bleiben unbewiesen.
