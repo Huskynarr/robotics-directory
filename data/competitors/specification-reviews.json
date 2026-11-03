@@ -150752,6 +150752,438 @@
           "note": "No charge duration is published; Flippy is wall powered."
         }
       }
+    },
+    {
+      "robotId": "mobsya-thymio-ii",
+      "manufacturer": "Mobsya",
+      "model": "Thymio II",
+      "sources": [
+        {
+          "name": "Thymio — home",
+          "type": "manufacturer",
+          "url": "https://www.thymio.org/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Thymio — product page",
+          "type": "manufacturer",
+          "url": "https://www.thymio.org/products/extend-learning-with-thymio/thymio/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Thymio — buy page",
+          "type": "manufacturer",
+          "url": "https://www.thymio.org/buy/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Mobsya — official Thymio II electronics repository",
+          "type": "developer",
+          "url": "https://github.com/Mobsya/electronics-thymio2",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-158/source-8.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No numeric Thymio II price is published; the buy page directs buyers to resellers and the catalog \"100 EUR\" value is cleared."
+        },
+        "weight": {
+          "value": "270 g",
+          "status": "documented",
+          "note": "Manufacturer product page for Thymio."
+        },
+        "size": {
+          "value": "11 x 11.2 x 5.3 cm",
+          "status": "documented",
+          "note": "Manufacturer product page for Thymio; box dimensions are separate."
+        },
+        "batteryLife": {
+          "value": "More than 2 hours",
+          "status": "documented",
+          "note": "Manufacturer product page; 3.7 V 1,500 mAh Li-Po battery."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The manufacturer publishes more than 2 hours of autonomy, recorded in batteryLife; the catalog 180 min value is not supported and is cleared."
+        },
+        "handType": {
+          "value": "None; mobile educational robot",
+          "status": "documented",
+          "note": "Manufacturer description; Thymio is a wheeled mobile robot without a manipulator."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No articulated degrees of freedom are published."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No payload mass is published; the pen holder and hook are accessories, not a payload rating."
+        },
+        "speed": {
+          "value": "14 cm/s maximum",
+          "status": "documented",
+          "note": "Manufacturer product page for Thymio."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No floor, slope or environmental rating is published."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric age range is published; the catalog 4-99 value is cleared."
+        },
+        "website": {
+          "value": "https://www.thymio.org/products/extend-learning-with-thymio/thymio/",
+          "status": "documented",
+          "note": "Manufacturer Thymio product page."
+        },
+        "description": {
+          "value": "Thymio II is an open-source educational mobile robot designed by EPFL researchers with ECAL and produced by Mobsya. The manufacturer lists 11 x 11.2 x 5.3 cm dimensions, 270 g mass, a 3.7 V 1,500 mAh Li-Po battery with more than two hours of autonomy, a 14 cm/s maximum speed, nine infrared sensors, five capacitive touch buttons, an accelerometer, thermometer, microphone, infrared receiver, 39 controllable LEDs, two wheel motors and a speaker. It supports VPL, VPL3, Scratch, Blockly, Aseba Studio and Python programming. No numeric price, payload, runtime, IP rating, navigation accuracy or release year is published; the current Thymio 2+ and Thymio 3 pages are separate products.",
+          "status": "documented",
+          "note": "Manufacturer Thymio product and buy pages; dimensions, mass, battery, speed and sensor counts are manufacturer specifications. The catalog 100 EUR, 180 min, 4-99 age range and 2011 release date are not supported by the reviewed pages and are cleared."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No Thymio II release date is published in the reviewed pages; the catalog 2011 date is cleared."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The robot recharges by micro-USB but no charge duration is published."
+        },
+        "driveMode": {
+          "value": "Two-wheel differential-drive mobile robot",
+          "status": "documented",
+          "note": "Manufacturer description; two DC motors are linked to the wheels."
+        }
+      }
+    },
+    {
+      "robotId": "rad-security-roameo",
+      "manufacturer": "RAD Security",
+      "model": "ROAMEO",
+      "sources": [
+        {
+          "name": "RAD Security — ROAMEO",
+          "type": "manufacturer",
+          "url": "https://radsecurity.com/roameo",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-158/source-2.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No numeric ROAMEO price is published; RAD sells a monthly service with a site-specific quote."
+        },
+        "weight": {
+          "value": "1,800 lb (816 kg)",
+          "status": "documented",
+          "note": "Manufacturer ROAMEO specification."
+        },
+        "size": {
+          "value": "L 71.2 in (1.8 m) x W 47.6 in (1.2 m) x H 80 in (2.0 m)",
+          "status": "documented",
+          "note": "Manufacturer ROAMEO specification."
+        },
+        "batteryLife": {
+          "value": "Up to 16 hours continuous; up to 80 mi per charge",
+          "status": "documented",
+          "note": "Manufacturer ROAMEO specification."
+        },
+        "maxRuntime": {
+          "value": "Up to 16 hours continuous",
+          "status": "documented",
+          "note": "Manufacturer ROAMEO specification."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator hand is published for a patrol vehicle."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No articulated degrees of freedom are published."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No payload mass is published; onboard sensors and software are not a payload rating."
+        },
+        "speed": {
+          "value": "Up to 10 mph; adjustable for pedestrian zones",
+          "status": "documented",
+          "note": "Manufacturer ROAMEO specification."
+        },
+        "terrain": {
+          "value": "Outdoor parking lots, campuses and industrial sites; 15° slopes; -4°F to 113°F",
+          "status": "documented",
+          "note": "Manufacturer operating description; all-weather vehicle without a published IP rating."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No IP rating is published; all-weather operation is not an IP classification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for a security patrol vehicle."
+        },
+        "website": {
+          "value": "https://radsecurity.com/roameo",
+          "status": "documented",
+          "note": "Manufacturer ROAMEO page."
+        },
+        "description": {
+          "value": "ROAMEO is RAD Security’s autonomous outdoor security patrol robot for parking lots, campuses and industrial sites. The 1,800 lb (816 kg) vehicle carries five solid-state 3D LiDAR sensors, cameras, GPS and an IMU, follows mapped lanes with geofences and safe-stop, and can climb 15° slopes in temperatures from -4°F to 113°F (-20°C to 45°C). It patrols up to 16 hours and 80 miles per charge at up to 10 mph, auto-docks, and sends events to SARA Agentic AI and RADSOC for verification, escalation and fleet control. RAD sells ROAMEO as a monthly service with a site-specific quote. No numeric price, dimensions beyond the published envelope, payload, IP rating, navigation accuracy or release year is published.",
+          "status": "documented",
+          "note": "Manufacturer ROAMEO page; runtime, range, speed, mass, dimensions and environmental limits are manufacturer specifications. Monthly service and detection claims are company statements, not independent performance or current deployment evidence."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No ROAMEO launch or release date is published."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "ROAMEO auto-docks but no charge duration is published."
+        },
+        "driveMode": {
+          "value": "Autonomous outdoor security patrol vehicle",
+          "status": "documented",
+          "note": "Manufacturer description; follows mapped lanes and geofences."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric navigation accuracy is published; precise positioning without GPS is qualitative."
+        }
+      }
+    },
+    {
+      "robotId": "rapid-robotics-3pro",
+      "manufacturer": "Rapid Robotics",
+      "model": "3PRO",
+      "sources": [
+        {
+          "name": "PickNik — Rapid Robotics 3PRO case study",
+          "type": "integrator",
+          "url": "https://picknik.ai/case-study-rapid-robotics/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-158/source-6.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No numeric 3PRO price is published in the reviewed case study."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No 3PRO mass is published."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No 3PRO dimensions are published; \"footprint of a human\" is qualitative."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No 3PRO battery endurance is published."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No 3PRO runtime is published."
+        },
+        "handType": {
+          "value": "Two-arm manipulator; bi-manual industrial robot",
+          "status": "documented",
+          "note": "Integrator case study describes a dual-arm industrial humanoid."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No articulated degrees of freedom are published."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric 3PRO payload is published; \"heavy payloads\" is qualitative."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No 3PRO speed is published."
+        },
+        "terrain": {
+          "value": "Industrial factory floor; stable base repositionable by operators",
+          "status": "documented",
+          "note": "Integrator case study describes the launch configuration; a mobile base is in development."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for an industrial humanoid."
+        },
+        "website": {
+          "value": "https://picknik.ai/case-study-rapid-robotics/",
+          "status": "documented",
+          "note": "PickNik case study with Rapid Robotics CEO statements."
+        },
+        "description": {
+          "value": "Rapid Robotics 3PRO is an industrial humanoid with two arms, a stable base that operators can reposition on the factory floor and a mobile base in development. Rapid positions it as a general-purpose robot with the footprint of a human that can perform multiple tasks at different locations, replacing fixed single-process arms and bulky frames. The robot integrates PickNik MoveIt Pro for motion planning, grasping, perception, behaviour sequencing and digital-twin simulation. Rapid says the design supports heavy payloads, fast and precise movement and multi-task operation; the case study publishes no numeric price, mass, dimensions, payload, speed, battery endurance, runtime, degrees of freedom, IP rating, navigation accuracy or release date.",
+          "status": "documented",
+          "note": "PickNik case study quoting Rapid Robotics’ CEO; this is an integration-partner account, not independent performance testing. The mobile base is in development and is not merged into the launch configuration."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No 3PRO launch or release date is published."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No 3PRO charge duration is published."
+        },
+        "driveMode": {
+          "value": "Stationary dual-arm industrial humanoid; mobile base in development",
+          "status": "documented",
+          "note": "Integrator case study describes the launch configuration and planned mobile base."
+        }
+      }
+    },
+    {
+      "robotId": "refraction-ai-rev-1",
+      "manufacturer": "Refraction AI",
+      "model": "REV-1",
+      "sources": [
+        {
+          "name": "Refraction AI — REV-1 Austin launch",
+          "type": "manufacturer",
+          "url": "https://www.prweb.com/releases/robot-delivery-debuts-in-austin-with-refraction-ai-s-rev-1-851091782.html",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-158/source-9.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "not-documented",
+          "note": "No numeric REV-1 price is published in the reviewed company announcement."
+        },
+        "weight": {
+          "value": "Approximately 150 lb",
+          "status": "documented",
+          "note": "Company announcement for REV-1."
+        },
+        "size": {
+          "value": "4.5 ft long x 30 in wide x 4.5 ft tall",
+          "status": "documented",
+          "note": "Company announcement for REV-1."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "REV-1 is fully electric but no battery endurance is published."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No REV-1 runtime is published."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No manipulator hand is published for a delivery robot."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No articulated degrees of freedom are published."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No payload mass is published; a 16 cubic foot cargo compartment and about six grocery bags are cargo capacity, not a mass rating."
+        },
+        "speed": {
+          "value": "Up to 15 mph",
+          "status": "documented",
+          "note": "Company announcement for REV-1."
+        },
+        "terrain": {
+          "value": "Roadside bike lanes, traffic lanes and sidewalks; outdoor",
+          "status": "documented",
+          "note": "Company announcement; operation is permitted in traffic lanes and on sidewalks as needed."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for a delivery robot."
+        },
+        "website": {
+          "value": "https://www.prweb.com/releases/robot-delivery-debuts-in-austin-with-refraction-ai-s-rev-1-851091782.html",
+          "status": "documented",
+          "note": "Refraction AI company announcement distributed by PRWeb."
+        },
+        "description": {
+          "value": "REV-1 is Refraction AI’s three-wheel autonomous last-mile delivery robot. The company announced an Austin pilot on June 14, 2021 with ten robots serving South Congress, Downtown and Travis Heights. It stands 4.5 ft tall, is 4.5 ft long and 30 in wide, weighs approximately 150 lb, reaches up to 15 mph and carries a 16 cubic foot cargo compartment holding about six grocery bags. It operates primarily in bike lanes or at the roadside and can use traffic lanes and sidewalks where permitted. Customers receive SMS updates and a unique code for curbside collection. Refraction launched in July 2019 and previously operated in Ann Arbor. No numeric price, battery endurance, runtime, payload mass, IP rating, navigation accuracy or per-unit production date is published.",
+          "status": "documented",
+          "note": "Refraction AI company announcement distributed by PRWeb; dimensions, mass, speed, cargo volume and the ten-robot Austin pilot are company statements. The pilot and 2021 expansion are historical, not evidence of current service or purchase availability."
+        },
+        "releaseDate": {
+          "value": "2019",
+          "status": "documented",
+          "note": "Company announcement says Refraction AI launched in July 2019; this is the company launch, not the Austin pilot date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No REV-1 charge duration is published."
+        },
+        "driveMode": {
+          "value": "Three-wheel autonomous delivery robot",
+          "status": "documented",
+          "note": "Company announcement; operates in bike lanes, traffic lanes and on sidewalks."
+        },
+        "navigationAccuracy": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No navigation accuracy is published."
+        }
+      }
     }
   ]
 }
