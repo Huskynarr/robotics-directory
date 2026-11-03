@@ -7932,29 +7932,89 @@
         "category": "commercial",
         "manufacturer": "CMR Surgical",
         "model": "Versius",
-        "price": "Not disclosed",
+        "price": "Not disclosed; complete-system quote not established",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
         "tags": "commercial;medical;surgery;teleoperated",
+        "handType": "Detachable fully wristed endoscopic surgical instruments; surgeon-controlled, with electrosurgical and non-electrosurgical tools",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
         "website": "https://cmrsurgical.com/versius",
-        "description": "Small modular surgical system with portable bedside units. V-wrist instruments support 360-degree wrist rotation and 3D HD vision. Open console can be used seated or standing."
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Modular robot-assisted surgical system with separately positioned instrument and visualization bedside units and an open surgeon console used sitting or standing. V-wrist rotation is a 360-degree manufacturer claim. The historical v15 UK manual gives component dimensions and restricted bedside-arm battery support, not a complete installation envelope or surgical runtime. US De Novo authorization DEN230078 was granted October 11, 2024 for cholecystectomy in eligible adults 22+; this is a dated jurisdiction-specific milestone.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Surgeon-controlled instruments at an open console; bedside carts positioned and wheeled manually, with brakes during use",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
       },
       "highlights": [
         "Small modular surgical system with portable bedside units",
         "V-wrist instruments support 360-degree wrist rotation and 3D HD vision",
-        "Open console can be used seated or standing"
+        "Open console can be used seated or standing",
+        "Separate bedside units support flexible laparoscopic port placement. The original FDA review describes a visualization unit and up to three instrument units; portable modularity is not autonomous navigation or autonomous surgery.",
+        "The historical UK v15 manual lists an approximately 180 kg console and approximately 100 kg per bedside unit. On printed page 4, console H/W/D is 1325–2085/840/1040 mm and bedside-unit H/W/D 1425/380/380 mm. These are component ratings, not summed complete-system mass or a fixed operating-room footprint, and are not inherited by Plus.",
+        "The v15 manual rates at least 20 minutes of bedside-arm battery support, with surgical mode unavailable. The console has no battery and uses mains power; the 20 minutes is not surgical operating endurance or a charge duration.",
+        "Original US authorization DEN230078 was granted October 11, 2024 for cholecystectomy in eligible patients 22+. The review describes 11 moving joints per instrument arm and J1–8 for the visualization arm; these are scoped mechanical counts, not an aggregate independent task-DOF rating or clearance for every internationally advertised procedure."
       ],
       "sources": [
         {
-          "name": "CMR Surgical",
+          "name": "CMR Surgical — original Versius architecture and V-wrist",
           "type": "manufacturer",
           "url": "https://cmrsurgical.com/versius",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Versius user manual v15;historical UK scope",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/wp-content/uploads/2022/11/U-00009v15-VersiusSurgicalSystem-UserManual-English-UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — original Versius DEN230078 decision review",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN230078.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — DEN230078 decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230078",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-4/cmrsurgical.com-versius.json",
-      "reviewNotes": "No patient outcome or regulatory approval claim is imported; availability varies by jurisdiction."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-139/source-1.html",
+      "reviewNotes": "Batch 139. Sixteen hashed public responses:15 HTTP 200 and one unused 404; three PDFs with 551 pages of existing text layers, not visual inspection or newly run OCR. Native main/body scope and manual page 32 component-column ownership checked. Three US paths redirect to global homepage and do not verify their requested article/safety content. Exact October 2026 expansion indications from cached search are discovery leads only; FDA K261252 native record verifies device identity and 21 October 2026 SEdecision without detailed label. K252111 December 2025 cholecystectomy scope is a dated milestone, not exhaustive current scope. Original manual component masses/dimensions and 20 minrestricted arm-support battery are not complete-system ratings or transferred to Plus. Instrument joint counts are not aggregate task DOF. vLimeLite, UltrasonicDissector, consoles, bedside units, Trainer and digital apps are components/software, not extra robots. Narrow two-console SecureBoot correction retained in research report, not a universal failure claim. No form, login, contact, message, transaction, patient advice, clinical-outcome guarantee, media reuse, autonomous-surgery or global-approval claim. Portfolio completeness, exclusive superiority and leadership unproven.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {
@@ -77105,6 +77165,105 @@
       "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-138/source-6.html",
       "reviewScope": "selected-fields-and-product-highlights",
       "reviewNotes": "Batch138. Nine HTTP 200 manufacturer responses including one eight-page native PDF hash-checked. Native current technical-table cell ownership and page7 survey BotEyes-Pad column verified. Current13.4 kg/142.5 cm versus2019-metadata survey10 kg/125 cm remain version-unresolved field conflicts; not a new invented generation. Current10 h operating table and separate 10 h full charge retain distinct fields. Pad+/Pad++ are tablet bundles, while Mini is an explicitly named camera-head configuration with CamHi plus separate browser drive control. No Pad body, tablet, docking or endurance numbers inherited by Mini. Shipping25kg/75x38x35cm and inconsistent dock-dimension units excluded. Head-tilt list/table/survey scopes do not establish joint count or a resolved universal tilt range. Historical software/OS names and security labels do not establish current compatibility, independent security or safety. No login, test drive, remote hardware control, forms, messages, accounts, transactions, visual inspection, OCR or media reuse. Full portfolio, live stock, certified application safety and exclusive superiority remain unproven."
+    },
+    {
+      "discoveredIn": [
+        "https://cmrsurgical.com/versius-plus"
+      ],
+      "row": {
+        "category": "commercial",
+        "manufacturer": "CMR Surgical",
+        "model": "Versius Plus",
+        "price": "Not disclosed; complete-system quote not established",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "commercial;medical;surgery;teleoperated",
+        "handType": "Detachable endoscopic surgical instruments; Ultrasonic Dissector availability is regional and is not approved for US sale",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://cmrsurgical.com/versius-plus",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Distinct Versius Plus platform with modular bedside units, open surgeon console, a 26-inch 3D HD screen and integrated vLimeLite near-infrared ICG visualization. FDA K252111 cleared the Plus configuration on December 16, 2025 for adult 22+ cholecystectomy; K261252 records a further substantially-equivalent decision on October 21, 2026. Exact later indication changes were not established from the retrieved record and the older scope is not presented as exhaustive current labeling. Components and instruments retain local regulatory limits.",
+        "releaseDate": "",
+        "depthRating": "",
+        "flightTime": "",
+        "maxTakeoffWeight": "",
+        "chargingTime": "",
+        "cookingCapacity": "",
+        "heatSource": "",
+        "navigationAccuracy": "",
+        "dockingAccuracy": "",
+        "driveMode": "Surgeon-controlled modular robot-assisted surgery with open console; portable bedside units, not self-driving operation",
+        "liftStroke": "",
+        "maxLiftHeight": "",
+        "armReach": "",
+        "transportPayload": "",
+        "visionPrecision": "",
+        "weldSpeed": "",
+        "workTableSize": "",
+        "minAisleWidth": "",
+        "turningRadius": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "throughput": "",
+        "stackingHeight": ""
+      },
+      "highlights": [
+        "Plus adds integrated vLimeLite near-infrared fluorescence visualization and a 26-inch 3D HD screen. Overlay/greyscale modes, green/cyan ICG colours and console thumbstick control are described; availability remains subject to local authorization.",
+        "The vision offering describes automatic video upload subject to a data-sharing agreement. Software updates and clinical/operational data apps are digital functions, not proof of autonomous surgical decision-making or improved patient outcomes.",
+        "The Ultrasonic Dissector is an instrument with a reusable transducer and single-use sterile chassis. Manufacturer claims include vessels up to 5 mm, 250 minutes transducer activation and at most 25 reprocessing cycles; these are not whole-robot runtime, payload or an independent clinical guarantee. The manufacturer explicitly excludes US sale.",
+        "FDA K252111 identifies Plus and documents NIR imaging, software and instrument changes relative to original DEN230078. The summary was prepared June 27, 2025 but clearance was December 16, 2025, with adult 22+ cholecystectomy scope at that time.",
+        "FDA K261252 records a further Versius Plus decision on October 21, 2026. Exact changes to the indications were not established from the retrieved decision record; the December 2025 cholecystectomy scope is a historical milestone rather than an exhaustive statement of current labeling."
+      ],
+      "sources": [
+        {
+          "name": "CMR Surgical — Versius Plus platform",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-plus",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Versius Plus vision and vLimeLite",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-vision-vlimelite",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Ultrasonic Dissector and regional limits",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-energy",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K252111 decision and Versius Plus 510(k) summary",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252111.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K252111 decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252111",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K261252 Versius Plus decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K261252",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-139/source-2.html",
+      "reviewScope": "selected-fields-and-product-highlights",
+      "reviewNotes": "Batch 139. Sixteen hashed public responses:15 HTTP 200 and one unused 404; three PDFs with 551 pages of existing text layers, not visual inspection or newly run OCR. Native main/body scope and manual page 32 component-column ownership checked. Three US paths redirect to global homepage and do not verify their requested article/safety content. Exact October 2026 expansion indications from cached search are discovery leads only; FDA K261252 native record verifies device identity and 21 October 2026 SEdecision without detailed label. K252111 December 2025 cholecystectomy scope is a dated milestone, not exhaustive current scope. Original manual component masses/dimensions and 20 minrestricted arm-support battery are not complete-system ratings or transferred to Plus. Instrument joint counts are not aggregate task DOF. vLimeLite, UltrasonicDissector, consoles, bedside units, Trainer and digital apps are components/software, not extra robots. Narrow two-console SecureBoot correction retained in research report, not a universal failure claim. No form, login, contact, message, transaction, patient advice, clinical-outcome guarantee, media reuse, autonomous-surgery or global-approval claim. Portfolio completeness, exclusive superiority and leadership unproven."
     }
   ]
 }

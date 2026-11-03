@@ -3909,14 +3909,36 @@
       "highlights": [
         "Small modular surgical system with portable bedside units",
         "V-wrist instruments support 360-degree wrist rotation and 3D HD vision",
-        "Open console can be used seated or standing"
+        "Open console can be used seated or standing",
+        "Separate bedside units support flexible laparoscopic port placement. The original FDA review describes a visualization unit and up to three instrument units; portable modularity is not autonomous navigation or autonomous surgery.",
+        "The historical UK v15 manual lists an approximately 180 kg console and approximately 100 kg per bedside unit. On printed page 4, console H/W/D is 1325–2085/840/1040 mm and bedside-unit H/W/D 1425/380/380 mm. These are component ratings, not summed complete-system mass or a fixed operating-room footprint, and are not inherited by Plus.",
+        "The v15 manual rates at least 20 minutes of bedside-arm battery support, with surgical mode unavailable. The console has no battery and uses mains power; the 20 minutes is not surgical operating endurance or a charge duration.",
+        "Original US authorization DEN230078 was granted October 11, 2024 for cholecystectomy in eligible patients 22+. The review describes 11 moving joints per instrument arm and J1–8 for the visualization arm; these are scoped mechanical counts, not an aggregate independent task-DOF rating or clearance for every internationally advertised procedure."
       ],
       "sources": [
         {
-          "name": "CMR Surgical",
+          "name": "CMR Surgical — original Versius architecture and V-wrist",
           "type": "manufacturer",
           "url": "https://cmrsurgical.com/versius",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Versius user manual v15;historical UK scope",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/wp-content/uploads/2022/11/U-00009v15-VersiusSurgicalSystem-UserManual-English-UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — original Versius DEN230078 decision review",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN230078.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — DEN230078 decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230078",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
@@ -36216,6 +36238,59 @@
       ],
       "discoveredIn": [
         "https://boteyes.com/Help/BotEyesMiniDifference.html"
+      ]
+    },
+    {
+      "robotId": "cmr-surgical-versius-plus",
+      "manufacturer": "CMR Surgical",
+      "model": "Versius Plus",
+      "highlights": [
+        "Plus adds integrated vLimeLite near-infrared fluorescence visualization and a 26-inch 3D HD screen. Overlay/greyscale modes, green/cyan ICG colours and console thumbstick control are described; availability remains subject to local authorization.",
+        "The vision offering describes automatic video upload subject to a data-sharing agreement. Software updates and clinical/operational data apps are digital functions, not proof of autonomous surgical decision-making or improved patient outcomes.",
+        "The Ultrasonic Dissector is an instrument with a reusable transducer and single-use sterile chassis. Manufacturer claims include vessels up to 5 mm, 250 minutes transducer activation and at most 25 reprocessing cycles; these are not whole-robot runtime, payload or an independent clinical guarantee. The manufacturer explicitly excludes US sale.",
+        "FDA K252111 identifies Plus and documents NIR imaging, software and instrument changes relative to original DEN230078. The summary was prepared June 27, 2025 but clearance was December 16, 2025, with adult 22+ cholecystectomy scope at that time.",
+        "FDA K261252 records a further Versius Plus decision on October 21, 2026. Exact changes to the indications were not established from the retrieved decision record; the December 2025 cholecystectomy scope is a historical milestone rather than an exhaustive statement of current labeling."
+      ],
+      "sources": [
+        {
+          "name": "CMR Surgical — Versius Plus platform",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-plus",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Versius Plus vision and vLimeLite",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-vision-vlimelite",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Ultrasonic Dissector and regional limits",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-energy",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K252111 decision and Versius Plus 510(k) summary",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252111.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K252111 decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252111",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K261252 Versius Plus decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K261252",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://cmrsurgical.com/versius-plus"
       ]
     }
   ]

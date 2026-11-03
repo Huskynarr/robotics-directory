@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T09:20:53.182Z",
+  "generatedAt": "2026-11-03T09:31:55.092Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 472,
-    "withoutSelectedFieldReview": 46,
-    "selectedFields": 8676,
+    "withSelectedFieldReview": 473,
+    "withoutSelectedFieldReview": 45,
+    "selectedFields": 8693,
     "selectedFieldStatuses": {
-      "documented": 3451,
-      "not-documented": 5021,
+      "documented": 3456,
+      "not-documented": 5033,
       "conflicting": 186,
       "roadmap": 18
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 128,
+    "sourceGroupsWithCompanyAuthoredFocus": 129,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -281,25 +281,6 @@
     }
   ],
   "manufacturerPriorities": [
-    {
-      "brandId": "cmr-surgical",
-      "name": "CMR Surgical",
-      "aliases": [],
-      "sourceUrls": [
-        "https://roboticsdir.com/"
-      ],
-      "catalogModels": 1,
-      "reviewedReferenceTargets": 1,
-      "withDatedHighlights": 1,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "cmr-surgical-versius"
-      ]
-    },
     {
       "brandId": "coco",
       "name": "Coco",
@@ -3728,6 +3709,25 @@
       "robotIds": [
         "boteyes-boteyes-pad"
       ]
+    },
+    {
+      "brandId": "cmr-surgical",
+      "name": "CMR Surgical",
+      "aliases": [],
+      "sourceUrls": [
+        "https://roboticsdir.com/"
+      ],
+      "catalogModels": 2,
+      "reviewedReferenceTargets": 1,
+      "withDatedHighlights": 1,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "cmr-surgical-versius"
+      ]
     }
   ],
   "companies": [
@@ -5518,14 +5518,14 @@
       "sourceUrls": [
         "https://roboticsdir.com/"
       ],
-      "catalogModels": 1,
+      "catalogModels": 2,
       "reviewedReferenceTargets": 1,
       "withDatedHighlights": 1,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "cmr-surgical-versius"
       ]
@@ -20997,24 +20997,67 @@
       "brandId": "cmr-surgical",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 7,
       "highlightSources": [
         {
-          "name": "CMR Surgical",
+          "name": "CMR Surgical — original Versius architecture and V-wrist",
           "type": "manufacturer",
           "url": "https://cmrsurgical.com/versius",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Versius user manual v15;historical UK scope",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/wp-content/uploads/2022/11/U-00009v15-VersiusSurgicalSystem-UserManual-English-UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — original Versius DEN230078 decision review",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN230078.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — DEN230078 decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230078",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 17,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
+        "documented": 5,
+        "not-documented": 12,
         "conflicting": 0,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "CMR Surgical — original Versius architecture and V-wrist",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Versius user manual v15;historical UK scope",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/wp-content/uploads/2022/11/U-00009v15-VersiusSurgicalSystem-UserManual-English-UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — original Versius DEN230078 decision review",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN230078.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — DEN230078 decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230078",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

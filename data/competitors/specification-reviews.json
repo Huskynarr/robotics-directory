@@ -142150,6 +142150,256 @@
           "note": "Manufacturer value with stated model, configuration and source-period scope; not an independent measurement."
         }
       }
+    },
+    {
+      "robotId": "cmr-surgical-versius",
+      "manufacturer": "CMR Surgical",
+      "model": "Versius",
+      "sources": [
+        {
+          "name": "CMR Surgical — original Versius architecture and V-wrist",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Versius user manual v15;historical UK scope",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/wp-content/uploads/2022/11/U-00009v15-VersiusSurgicalSystem-UserManual-English-UK.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — original Versius DEN230078 decision review",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN230078.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — DEN230078 decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=DEN230078",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-139/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed; complete-system quote not established",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manualv15 rates approximately 180 kg console and 100 kg per bedside unit; configuration count and included components prevent a complete-system mass. No Plus inheritance."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manualv15 printed page 4/PDF page 32 has separate console/bedside columns; these do not establish a single system envelope or OR footprint."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "At least 20 min supports a disconnected bedside arm; manual section 10.2 excludes surgical mode. Console has no battery. Not complete-system operating endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No continuous surgical endurance established from bedside backup support or annual case figures."
+        },
+        "handType": {
+          "value": "Detachable fully wristed endoscopic surgical instruments; surgeon-controlled, with electrosurgical and non-electrosurgical tools",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "FDA review lists 11 moving joints per instrument arm, J1–8 visualization arm; not independent task DOF or a complete-system total."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system value for this named generation established. Component ratings, instrument lifetimes, patient eligibility, document dates and regulatory milestones do not establish this field."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system value for this named generation established. Component ratings, instrument lifetimes, patient eligibility, document dates and regulatory milestones do not establish this field."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system value for this named generation established. Component ratings, instrument lifetimes, patient eligibility, document dates and regulatory milestones do not establish this field."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system value for this named generation established. Component ratings, instrument lifetimes, patient eligibility, document dates and regulatory milestones do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "22+ is patient eligibility in a dated US label, not a general robot-user recommended age."
+        },
+        "website": {
+          "value": "https://cmrsurgical.com/versius",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        },
+        "description": {
+          "value": "Modular robot-assisted surgical system with separately positioned instrument and visualization bedside units and an open surgeon console used sitting or standing. V-wrist rotation is a 360-degree manufacturer claim. The historical v15 UK manual gives component dimensions and restricted bedside-arm battery support, not a complete installation envelope or surgical runtime. US De Novo authorization DEN230078 was granted October 11, 2024 for cholecystectomy in eligible adults 22+; this is a dated jurisdiction-specific milestone.",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "De Novo grant October 11, 2024 and manual file metadata do not establish initial worldwide release."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Manual describes recharge through powered console without an exact complete-charge duration."
+        },
+        "driveMode": {
+          "value": "Surgeon-controlled instruments at an open console; bedside carts positioned and wheeled manually, with brakes during use",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        }
+      }
+    },
+    {
+      "robotId": "cmr-surgical-versius-plus",
+      "manufacturer": "CMR Surgical",
+      "model": "Versius Plus",
+      "sources": [
+        {
+          "name": "CMR Surgical — Versius Plus platform",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-plus",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Versius Plus vision and vLimeLite",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-vision-vlimelite",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "CMR Surgical — Ultrasonic Dissector and regional limits",
+          "type": "manufacturer",
+          "url": "https://cmrsurgical.com/versius-energy",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K252111 decision and Versius Plus 510(k) summary",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252111.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K252111 decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252111",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "FDA — K261252 Versius Plus decision record",
+          "type": "regulator",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K261252",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-139/source-2.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed; complete-system quote not established",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Originalv15 console and bedside masses are not transferred to Plus; no complete Plus installation mass established."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 26-inch display is a component screen size, not body dimensions. Originalv15 console/cart dimensions are not inherited."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Ultrasonic transducer 250 minutes activation and original bedside-arm 20 min support do not establish Plus operating endurance."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No whole-system mission runtime established; instrument activation lifetime and digital-system access are different scopes."
+        },
+        "handType": {
+          "value": "Detachable endoscopic surgical instruments; Ultrasonic Dissector availability is regional and is not approved for US sale",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Modular arm count and 360-degree wrist angle do not establish complete Plus independent task DOF."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system value for this named generation established. Component ratings, instrument lifetimes, patient eligibility, document dates and regulatory milestones do not establish this field."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system value for this named generation established. Component ratings, instrument lifetimes, patient eligibility, document dates and regulatory milestones do not establish this field."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system value for this named generation established. Component ratings, instrument lifetimes, patient eligibility, document dates and regulatory milestones do not establish this field."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No complete-system value for this named generation established. Component ratings, instrument lifetimes, patient eligibility, document dates and regulatory milestones do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Adult 22+ is historicalUS patient eligibility, not recommended operator age or exhaustive current patient labeling."
+        },
+        "website": {
+          "value": "https://cmrsurgical.com/versius-plus",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        },
+        "description": {
+          "value": "Distinct Versius Plus platform with modular bedside units, open surgeon console, a 26-inch 3D HD screen and integrated vLimeLite near-infrared ICG visualization. FDA K252111 cleared the Plus configuration on December 16, 2025 for adult 22+ cholecystectomy; K261252 records a further substantially-equivalent decision on October 21, 2026. Exact later indication changes were not established from the retrieved record and the older scope is not presented as exhaustive current labeling. Components and instruments retain local regulatory limits.",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "December 2025 and October 2026 FDA decisions are regulatory milestones, not initial global release dates."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact Plus full-charge duration established; original bedside-arm battery instructions not transferred."
+        },
+        "driveMode": {
+          "value": "Surgeon-controlled modular robot-assisted surgery with open console; portable bedside units, not self-driving operation",
+          "status": "documented",
+          "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
+        }
+      }
     }
   ]
 }
