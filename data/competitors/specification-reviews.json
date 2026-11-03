@@ -142400,6 +142400,120 @@
           "note": "Named configuration explicitly described by primary source; regional and source-period limits retained."
         }
       }
+    },
+    {
+      "robotId": "coco-robotics-coco-2",
+      "manufacturer": "Coco Robotics",
+      "model": "Coco 2",
+      "sources": [
+        {
+          "name": "Coco Robotics — Coco 2 technical headline and supervised navigation",
+          "type": "manufacturer",
+          "url": "https://www.cocodelivery.com/coco2",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Coco Robotics — Coco 2 launch announcement;February 26,2026",
+          "type": "manufacturer",
+          "url": "https://www.cocodelivery.com/blog/coco-robotics-launches-next-gen-autonomous-robots-for-urban-deliveries",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Coco Robotics — generic community and remote-pilot language",
+          "type": "manufacturer",
+          "url": "https://www.cocodelivery.com/community",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Coco Robotics — merchant delivery workflow and commercial service",
+          "type": "manufacturer",
+          "url": "https://www.cocodelivery.com/delivery",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-140/source-1.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed;service-fee claims do not establish robot purchase price",
+          "status": "documented",
+          "note": "Named Coco 2 specification or dated launch explicitly supported by the manufacturer; conditions remain scoped."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact body mass established. The community page comparison with a 3000 lb car is not robot mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Removed unsupported categorical medium size. Four 18-inch-pizza packing is not an outer robot envelope; no complete dimensions established."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "32 km is travel distance, not hours. Swappable batteries and up to 3x longer fleet uptime do not establish operating duration."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Under 25 min delivery advertising describes service duration; up to 3x uptime lacks baseline/test conditions; neither is battery endurance."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact Coco 2 value established. Distance range, delivery duration, fleet uptime, packaging capacity and other robot generations do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact Coco 2 value established. Distance range, delivery duration, fleet uptime, packaging capacity and other robot generations do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Packing for four 18-inch pizzas does not establish kg payload, volume or a mass-based transport limit."
+        },
+        "speed": {
+          "value": "21 km/h manufacturer technical rating;not a legal sidewalk operating speed",
+          "status": "documented",
+          "note": "Changed approximate 5.8 m/s to manufacturer 21 kph headline, with no claimed universal lawful sidewalk speed or independently measured mission speed."
+        },
+        "terrain": {
+          "value": "Urban delivery; manufacturer maximum grade 30%; bike lanes and roads only where permitted",
+          "status": "documented",
+          "note": "30% max grade is a percentage, not 30 degrees. The launch release restricts bike-lane/road expansion to where permitted; no universal city/operator approval inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Weather-resilience marketing and historical fleet experience do not establish an IP classification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact Coco 2 value established. Distance range, delivery duration, fleet uptime, packaging capacity and other robot generations do not establish this field."
+        },
+        "website": {
+          "value": "https://www.cocodelivery.com/coco2",
+          "status": "documented",
+          "note": "Named Coco 2 specification or dated launch explicitly supported by the manufacturer; conditions remain scoped."
+        },
+        "description": {
+          "value": "Urban delivery robot launched February 26, 2026, with NVIDIA Jetson Orin NX onboard computing, cameras, LiDAR, GPS and neural-network/mapping navigation. The current product page retains human oversight and a Pilot Terminal for intervention. Manufacturer ratings are 21 km/h, 32 km range and 30% maximum grade, with test conditions unspecified. Swappable batteries and four 18-inch-pizza packing do not establish operating hours, kg payload or robot dimensions.",
+          "status": "documented",
+          "note": "Named Coco 2 specification or dated launch explicitly supported by the manufacturer; conditions remain scoped."
+        },
+        "releaseDate": {
+          "value": "2026",
+          "status": "documented",
+          "note": "Manufacturer release explicitly says today launched Coco 2 on February 26, 2026. Year 2026 retained, not inferred from page metadata or founding 2020."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Swappable battery does not establish exact recharge or swap duration."
+        }
+      }
     }
   ]
 }
