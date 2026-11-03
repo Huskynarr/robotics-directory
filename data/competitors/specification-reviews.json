@@ -148423,6 +148423,323 @@
           "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
         }
       }
+    },
+    {
+      "robotId": "tesla-optimus",
+      "manufacturer": "Tesla",
+      "model": "Optimus",
+      "sources": [
+        {
+          "name": "Tesla — April 2026 investor update",
+          "type": "manufacturer",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-152/source-1.pdf",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric price is published in the April 2026 investor update; the existing prototype-stage label is not a sale price."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No mass is published. The existing 57 kg catalog value is not supported by the reviewed update."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No battery capacity or endurance is published; the existing 2.3 kWh value is not supported by the reviewed update."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No hand, end-effector or gripper type is published."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No degrees-of-freedom count is published; the existing 28 value is not supported by the reviewed update."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable or not published for a humanoid robot."
+        },
+        "website": {
+          "value": "https://ir.tesla.com/_flysystem/s3/sec/000162828026026551/tsla-20260422-gen.pdf",
+          "status": "documented",
+          "note": "Manufacturer investor update; the product site returned HTTP 403 and was not used as evidence."
+        },
+        "description": {
+          "value": "Optimus is Tesla's humanoid robot program. Tesla's April 2026 investor update says preparations for the first large-scale Optimus factory begin shortly in Q2 2026. The first-generation line, designed for 1 million robots a year, will replace the Model S and Model X lines in Fremont; Gigafactory Texas is being prepared for a second-generation line designed for long-term annual production capacity of 10 million robots. The factory-capacity table lists Optimus facilities in California and Texas with construction status. Tesla describes progress ahead of mass production, but the update publishes no price, mass, payload, speed, battery runtime, delivered fleet or independent performance result.",
+          "status": "documented",
+          "note": "Company-authored investor update; production plans and construction status are not delivered units, customer availability, retail prices or independent performance tests."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The reviewed update gives no launch or first-delivery date; production is described as forthcoming."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The update calls Optimus a humanoid robot but publishes no leg, wheel or drive architecture."
+        }
+      }
+    },
+    {
+      "robotId": "misty-robotics-misty-ii",
+      "manufacturer": "Misty Robotics",
+      "model": "Misty II",
+      "sources": [
+        {
+          "name": "Misty Robotics — Misty II overview and specifications",
+          "type": "manufacturer",
+          "url": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Misty Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.mistyrobotics.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Misty Robotics — hardware extensibility documentation",
+          "type": "manufacturer",
+          "url": "https://docs.mistyrobotics.com/misty-ii/robot/hardware-extensibility/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-152/source-5.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric price is published in the reviewed manufacturer documentation; the existing approximate $3,000 value is not supported."
+        },
+        "weight": {
+          "value": "2.7 kg",
+          "status": "documented",
+          "note": "Manufacturer specification for Misty II body mass (2.7 kg; 6 lb equivalent); not a payload rating."
+        },
+        "size": {
+          "value": "35.56 cm high × 25.4 cm deep × 20.32 cm wide (14 × 10 × 8 in)",
+          "status": "documented",
+          "note": "Manufacturer specification for the Misty II body; not a complete shipping or operating envelope."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The docs say Misty arrives charged and powers down below about 7 volts but publish no battery capacity or runtime."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No one-charge runtime is published."
+        },
+        "handType": {
+          "value": "Customizable moving arms; no end-effector or gripper specified",
+          "status": "documented",
+          "note": "Manufacturer description of moving arms; no manipulator hand, gripper or payload interface is specified."
+        },
+        "dof": {
+          "value": "Patent-pending 3-degree-of-freedom neck",
+          "status": "documented",
+          "note": "Manufacturer specification for the neck only; not a whole-robot or arm degrees-of-freedom count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "A trailer hitch can pull a payload, but no numeric payload rating is published."
+        },
+        "speed": {
+          "value": "About 450 mm/s maximum, limited by the hazard system",
+          "status": "documented",
+          "note": "Manufacturer safety limit for the hazard system; not an unrestricted or measured top speed."
+        },
+        "terrain": {
+          "value": "Indoor floor or tabletop use; hazard system detects drops of 60 mm or more",
+          "status": "documented",
+          "note": "Manufacturer operating guidance and drop-detection threshold; not an IP, slope or outdoor rating."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric age range is published; the homepage describes use by students, special education and research."
+        },
+        "website": {
+          "value": "https://docs.mistyrobotics.com/misty-ii/robot/misty-ii/",
+          "status": "documented",
+          "note": "Manufacturer Misty II overview and specifications."
+        },
+        "description": {
+          "value": "Misty II is Misty Robotics' programmable social robot for education and research. Manufacturer documentation lists a 35.56 cm height, 25.4 cm depth, 20.32 cm width and 2.7 kg mass, Qualcomm Snapdragon 820 and 410 processors, an Occipital Structure Core depth sensor, a 4K camera, Snapdragon neural processing, eight IR time-of-flight sensors, ten bump sensors, a 4-inch LCD and a patent-pending 3-degree-of-freedom neck with customizable moving arms. The tracked drive has a trailer hitch, and the hazard system detects drops of 60 mm or more and limits speed to about 450 mm/s. USB/UART expansion and an optional Arduino-compatible backpack support external hardware. The docs publish no battery runtime, payload rating, IP rating or current availability.",
+          "status": "documented",
+          "note": "Manufacturer overview, specifications and hardware-extensibility pages; no independent performance test, current stock or delivered-fleet evidence."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The reviewed manufacturer pages publish no launch or release date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wireless and wired charging are described, but no charge duration is published."
+        },
+        "driveMode": {
+          "value": "Tracked drive with a 3-degree-of-freedom neck and moving arms",
+          "status": "documented",
+          "note": "Manufacturer description; the trailer hitch is an accessory mounting point, not a towing rating."
+        }
+      }
+    },
+    {
+      "robotId": "intuition-robotics-elliq-3",
+      "manufacturer": "Intuition Robotics",
+      "model": "ElliQ 3",
+      "sources": [
+        {
+          "name": "Intuition Robotics — January 9, 2024 ElliQ 3 announcement",
+          "type": "manufacturer",
+          "url": "https://www.intuitionrobotics.com/post/new-year-new-elliq",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Intuition Robotics — company homepage",
+          "type": "manufacturer",
+          "url": "https://www.intuitionrobotics.com/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Intuition Robotics",
+          "type": "manufacturer",
+          "url": "https://elliq.com/products/membership",
+          "checkedAt": "2026-11-01"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-152/source-4.html",
+      "fields": {
+        "price": {
+          "value": "",
+          "status": "not-documented",
+          "note": "ElliQ is supplied through a leased membership service; the reviewed manufacturer pages publish no numeric price or complete plan cost."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The January 2024 announcement says the hardware is lighter but publishes no mass."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The announcement says the footprint is 36% smaller but publishes no dimensions."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "ElliQ is described as a stationary home device; no battery endurance is published."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to a stationary companion device; no battery runtime is published."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; no manipulator hand is published."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; no articulated degrees of freedom are published."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; no payload rating is published."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable; no drive or movement speed is published."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Indoor home and care settings are described, but no surface, slope or environmental rating is published."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact configuration-specific value is published in the reviewed native manufacturer text; family figures, other versions and system-level claims are not substituted."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No numeric age range is published; the manufacturer markets ElliQ to older adults."
+        },
+        "website": {
+          "value": "https://www.intuitionrobotics.com/",
+          "status": "documented",
+          "note": "Manufacturer company page with ElliQ product description; the elliq.com product domain returned HTTP 429 and was not used as evidence."
+        },
+        "description": {
+          "value": "ElliQ is Intuition Robotics' AI care companion for older adults. The manufacturer describes a stationary device with an integrated screen, proactive conversation, shared activities and a Relationship Orchestrator that combines multiple LLMs with context, memory, goals and real-time guardrails. The January 9, 2024 announcement identifies ElliQ 3 as a lighter hardware generation with a 36% smaller footprint, a fully integrated screen and a MediaTek octa-core plus AI chip SoC. It says the generative-AI software upgrade is compatible with all ElliQ hardware versions, while ElliQ 3 hardware was expected in spring 2024. The company reports loneliness, health and social-connection outcomes and describes a leased membership service; the reviewed pages publish no numeric price, mass, dimensions, battery runtime or independent clinical certification.",
+          "status": "documented",
+          "note": "Manufacturer announcement and company page; company-reported outcomes are not independent clinical trials, and no numeric price, dimensions or safety certification is established."
+        },
+        "releaseDate": {
+          "value": "2024",
+          "status": "documented",
+          "note": "ElliQ 3 was unveiled on January 9, 2024, with hardware expected in spring 2024; the announcement does not give a shipping date for every market."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Not applicable to a stationary device; no charging duration is published."
+        }
+      }
     }
   ]
 }
