@@ -25208,46 +25208,87 @@
         "category": "companion",
         "manufacturer": "Blue Frog Robotics",
         "model": "Buddy Pro+",
-        "website": "https://m.bluefrogrobotics.com/online-quote/",
-        "size": "560 × 350 × 350 mm; manufacturer Buddy platform datasheet",
-        "batteryLife": "",
+        "price": "On request; expired March 28, 2025 quote template is not a current offer",
+        "weight": "8 kg listed Buddy platform; exact PRO+ hardware revision not specified",
+        "size": "Technical sheets: 560 x 350 x 350 mm H x W x D; current overview: 60 cm tall; hardware revision/rounding unresolved",
+        "batteryLife": "up to 6 h depending on use; Buddy user-guide platform rating, PRO+ hardware revision unspecified",
         "maxRuntime": "",
-        "speed": "",
+        "tags": "companion;social;educational;telepresence;healthcare;commercial",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "Forward up to 70 cm/s; backward up to 35 cm/s; Buddy user-guide platform ratings",
+        "terrain": "Indoor use recommended; rolling base cannot climb stairs or open doors",
+        "ipRating": "",
         "ageRange": "",
+        "website": "https://m.bluefrogrobotics.com/online-quote/",
+        "image": "",
+        "video": "",
+        "gallery": "",
+        "description": "Buddy PRO+ multi-application companion package for education, inclusion, reception and telepresence. MyBuddyApp on a phone/tablet connects to TeleBuddy on the robot. The published Buddy platform guide gives mode-specific movement limits and conditional endurance; the quote does not identify an exact hardware revision. SDK access, training, docking equipment and application bundles keep their separate scopes.",
         "releaseDate": "",
-        "description": "Buddy PRO+ multi-application companion robot package for education, inclusion and reception. TeleBuddy and MyBuddyApp support remote video interaction; SDK access, training and docking equipment are offered separately."
+        "chargingTime": ""
       },
       "highlights": [
         "Manufacturer quote page explicitly offers the Buddy PRO + multi-application package",
         "TeleBuddy and MyBuddyApp support remote classroom attendance and video interaction from a phone or tablet",
-        "Programming SDK access, training and docking equipment are separately listed options"
+        "Programming SDK access, training and docking equipment are separately listed options",
+        "The technical sheets and guide table give a 560 mm platform height, while the current Buddy overview says 60 cm. This source difference remains unresolved; the PRO+ offer does not identify a hardware revision that reconciles it.",
+        "The Buddy platform guide rates endurance up to 6 h depending on use and specifies forward 70 cm/s versus backward 35 cm/s. Those scoped platform figures are not battery charging time or guaranteed ratings for every PRO+ revision.",
+        "The guide says remote piloting disables obstacle detection because the operator controls stopping. Cliff-sensor behavior and blind spots retain their limits; this is not a promise of collision-free or fail-safe navigation.",
+        "Optional self-parking requires a fixed charging station and visual proximity. Education/developer packs, apps, SDK subscriptions and accessories do not establish additional robot chassis; the old one-month EU quote template is not a current retail offer."
       ],
       "sources": [
         {
-          "name": "Blue Frog Robotics",
+          "name": "Blue Frog Robotics — Buddy native-text user guide;platform specifications and operating limits",
           "type": "manufacturer",
-          "url": "https://m.bluefrogrobotics.com/online-quote/",
-          "checkedAt": "2026-11-01"
+          "url": "https://m.bluefrogrobotics.com/wp-content/resources/guides/Userguide-Buddy_EN.pdf",
+          "checkedAt": "2026-11-03"
         },
         {
-          "name": "Blue Frog Robotics",
-          "type": "manufacturer",
-          "url": "https://m.bluefrogrobotics.com/our_applications/telebuddy-en/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Blue Frog Robotics",
+          "name": "Blue Frog Robotics — Buddy education/platform technical sheet",
           "type": "manufacturer",
           "url": "https://www.bluefrogrobotics.com/wp-content/resources/FichesProduit/FicheEducation-EN.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — Buddy developers/platform technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.bluefrogrobotics.com/wp-content/resources/FichesProduit/FicheDevlopers-EN.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — current Buddy overview",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/buddy-en/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — public Buddy PRO+ quote template;March28,2025 and one-month validity",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/online-quote/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — TeleBuddy and MyBuddyApp telepresence architecture",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/our_applications/telebuddy-en/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — official manuals and software documentation index",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/documentations-en/",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": [
         "https://buyandrentrobots.com/robot/dd282b18-ba37-4bbb-b2c5-14c6f1dc2c90",
         "https://roboticsdir.com/"
       ],
-      "reviewedFrom": "scratch/competitor-research/primary/batch-17/m.bluefrogrobotics.com-online-quote.json",
-      "reviewNotes": "Generic Buddy source title is resolved to the explicitly offered PRO+ package, not a guarantee of exact hardware generation. Quote template is dated March 28, 2025 with one-month validity and EU-only ex-tax prices, so its figures are not imported as a valid November 2026 offer or all-inclusive cost. Education PDF supports 8 kg platform mass and 560×350×350 mm dimensions; unsupported old runtime, speed, age range and release year are removed. Platform education/telepresence benefits are not claims of therapeutic efficacy or emergency monitoring certification. SDK/support/software subscriptions and equipment are not assumed free or bundled universally."
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-137/source-7.pdf",
+      "reviewNotes": "Batch137. Eight HTTP 200 manufacturer responses including three native PDFs hash-checked. Existing Buddy Pro+ ID, media, discovery URLs and three literal highlights preserved; no generic Buddy duplicate or application-pack robot rows added. Current60 cm overview conflicts with 560 mm technical-table height; exact Pro+ hardware generation and rounding remain unresolved. Platform mass, conditional 6h endurance and direction-specific 70/35 cm/s limits retain platform scope. Unlabelled diagram dimensions excluded without visual inspection. Optional docking has proximity/fixed-installation conditions; remote piloting disables obstacle detection. SDK/options/annual service scopes and expired March 28, 2025 one-month EU quote preserved. Read-only GET only; pre-rendered quote-success text not evidence of sending and no form submission. Awards, emotional design, education age stages, therapeutic language and testimonials do not establish sentience, independent clinical efficacy, emergency monitoring, safety certification, live stock, exclusive superiority or complete historical portfolio.",
+      "reviewScope": "selected-fields-and-product-highlights"
     },
     {
       "row": {

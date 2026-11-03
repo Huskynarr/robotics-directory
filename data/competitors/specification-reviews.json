@@ -141786,6 +141786,138 @@
           "note": "Aquatic research purpose does not establish rated operating depth."
         }
       }
+    },
+    {
+      "robotId": "blue-frog-robotics-buddy-pro-plus",
+      "manufacturer": "Blue Frog Robotics",
+      "model": "Buddy Pro+",
+      "sources": [
+        {
+          "name": "Blue Frog Robotics — Buddy native-text user guide;platform specifications and operating limits",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/wp-content/resources/guides/Userguide-Buddy_EN.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — Buddy education/platform technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.bluefrogrobotics.com/wp-content/resources/FichesProduit/FicheEducation-EN.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — Buddy developers/platform technical sheet",
+          "type": "manufacturer",
+          "url": "https://www.bluefrogrobotics.com/wp-content/resources/FichesProduit/FicheDevlopers-EN.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — current Buddy overview",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/buddy-en/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — public Buddy PRO+ quote template;March28,2025 and one-month validity",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/online-quote/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — TeleBuddy and MyBuddyApp telepresence architecture",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/our_applications/telebuddy-en/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Blue Frog Robotics — official manuals and software documentation index",
+          "type": "manufacturer",
+          "url": "https://m.bluefrogrobotics.com/documentations-en/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-137/source-7.pdf",
+      "fields": {
+        "price": {
+          "value": "On request; expired March 28, 2025 quote template is not a current offer",
+          "status": "documented",
+          "note": "Read-only quote template dated March 28, 2025 with one-month validity and EU-only ex-tax conditions. Displayed 2500/480 amounts are not treated as a current all-inclusive offer; no form submitted."
+        },
+        "weight": {
+          "value": "8 kg listed Buddy platform; exact PRO+ hardware revision not specified",
+          "status": "documented",
+          "note": "Manufacturer documents this Buddy platform or package value with the stated scope; no independent measurement or exact PRO+ hardware-revision guarantee."
+        },
+        "size": {
+          "value": "Technical sheets: 560 x 350 x 350 mm H x W x D; current overview: 60 cm tall; hardware revision/rounding unresolved",
+          "status": "conflicting",
+          "note": "Education and developer technical sheets plus user-guide specification table state 560 mm height; current Buddy overview says 60 cm. No proof that rounding or a different hardware revision explains the difference. Unlabelled diagram numbers are not assigned without visual inspection."
+        },
+        "batteryLife": {
+          "value": "up to 6 h depending on use; Buddy user-guide platform rating, PRO+ hardware revision unspecified",
+          "status": "documented",
+          "note": "User guide states up to 6 h depending on use; not a measured guarantee for every Pro+ revision. Battery energy below 100 Wh is not an independent duration."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No separate secondary endurance value established; the scoped operating figure stays in batteryLife."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Accessory arm connections are not proof of an included hand or manipulator."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Wheel/body motion, head rotations and accessory hubs do not explicitly establish an exact powered joint count."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact value established. Package names, education stages, accessory connections, battery energy, document dates and service subscriptions do not establish this field."
+        },
+        "speed": {
+          "value": "Forward up to 70 cm/s; backward up to 35 cm/s; Buddy user-guide platform ratings",
+          "status": "documented",
+          "note": "User guide distinguishes 70 cm/s forward and 35 cm/s reverse. Neither is interpreted as speech speed, guaranteed autonomous mission average or safe speed in every environment."
+        },
+        "terrain": {
+          "value": "Indoor use recommended; rolling base cannot climb stairs or open doors",
+          "status": "documented",
+          "note": "Manufacturer documents this Buddy platform or package value with the stated scope; no independent measurement or exact PRO+ hardware-revision guarantee."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Warnings about water/outdoor exposure are not an IP certification."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Use from kindergarten is not an explicit numeric age range or independent child-safety certification."
+        },
+        "website": {
+          "value": "https://m.bluefrogrobotics.com/online-quote/",
+          "status": "documented",
+          "note": "Manufacturer documents this Buddy platform or package value with the stated scope; no independent measurement or exact PRO+ hardware-revision guarantee."
+        },
+        "description": {
+          "value": "Buddy PRO+ multi-application companion package for education, inclusion, reception and telepresence. MyBuddyApp on a phone/tablet connects to TeleBuddy on the robot. The published Buddy platform guide gives mode-specific movement limits and conditional endurance; the quote does not identify an exact hardware revision. SDK access, training, docking equipment and application bundles keep their separate scopes.",
+          "status": "documented",
+          "note": "Manufacturer documents this Buddy platform or package value with the stated scope; no independent measurement or exact PRO+ hardware-revision guarantee."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Document metadata, 2014-2023 award dates, 2025 quote date and application OS version do not establish a PRO+ hardware launch year."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "User guide documents manual power and optional docking; no numeric charging duration established. Six-hour operating endurance is not charge time."
+        }
+      }
     }
   ]
 }
