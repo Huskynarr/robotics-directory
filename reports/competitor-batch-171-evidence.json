@@ -1,0 +1,1081 @@
+{
+  "batch": 171,
+  "checkedAt": "2026-11-03",
+  "manufacturers": [
+    "Roborock"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 72,
+  "fieldStatuses": {
+    "documented": 31,
+    "not-documented": 41
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four catalog rows that previously had no field review were reviewed against current Roborock US shop pages. Saros Z70, Q5 Max+, Q10 S5+ and S7 Max Ultra are four separate current models. The Q8 Max+ page was excluded because it states the product has not been launched yet, and the Qrevo Master URL redirects to a different Qrevo S5V model. The reviewed pages publish current US prices, so the catalog 2599, ~330, ~280 and 1299 USD values are replaced. The Saros Z70 page publishes only a 38.14 lbs robot-plus-dock weight, so the catalog ~4.5 kg mass is cleared; the page dimension text prints 133.89 in for the second figure, an evident typo for 13.89 in. The Saros Z70 runtime is about 135 min with the robotic arm disabled, and the catalog 180 min runtime and ~3 hours battery label are replaced by that statement and the 6,400 mAh capacity. The Q10 S5+ catalog 350 min battery and runtime labels are replaced by 5,200 mAh and up to 150 min. The S7 Max Ultra page publishes no full-charge runtime, so the catalog 180 min battery and runtime labels are replaced by 5,200 mAh and a cleared runtime. No new model was created and no company focus was added.",
+  "totalProductHighlightRecords": 1354,
+  "totalHighlightStatements": 6247,
+  "totalProductSourceReferences": 2905,
+  "pendingPortfolioLeads": [
+    {
+      "name": "Dreame robot net weight for X30 Ultra",
+      "scope": "The X30 Ultra specification table publishes dimensions, suction, battery, runtime, dust cabinet, integrated water tank, dust bag and station tanks, but no robot net weight. The catalog has no weight value, so none is recorded.",
+      "source": "https://www.dreametech.com/products/dreame-x30-ultra"
+    },
+    {
+      "name": "Dreame full-charge runtime and absolute charging time",
+      "scope": "The L40s Ultra page publishes no runtime in minutes and only claims faster charging. The L50 Ultra and X40 Master pages claim 30 percent faster charging without an absolute time. These remain unrecorded instead of substituting relative claims.",
+      "source": "https://www.dreametech.com/products/l40s-ultra-robot-vacuum"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://us.roborock.com/products/roborock-saros-z70",
+      "finalUrl": "https://us.roborock.com/products/roborock-saros-z70",
+      "status": 200,
+      "checkedAt": "2026-11-03T21:48:22.149820+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "18495f957308701338253c3ca6805f41e867c9484305f223573ced7206f5281b",
+      "textFile": "source-1-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://us.roborock.com/products/roborock-q5-max-plus",
+      "finalUrl": "https://us.roborock.com/products/roborock-q5-max-plus",
+      "status": 200,
+      "checkedAt": "2026-11-03T21:48:22.156425+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "3a695ab89e4e251efc22b8b1a35e915347ea18c3b198fc468cea561e1df11214",
+      "textFile": "source-2-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://us.roborock.com/products/roborock-q10-s5-plus",
+      "finalUrl": "https://us.roborock.com/products/roborock-q10-s5-plus",
+      "status": 200,
+      "checkedAt": "2026-11-03T21:48:22.161407+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "56f2bf59abeb7403826f2a6f6a6008532d090ffc3f3b798aae2da1e3ae0eff2f",
+      "textFile": "source-3-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://us.roborock.com/products/roborock-s7-max-ultra",
+      "finalUrl": "https://us.roborock.com/products/roborock-s7-max-ultra",
+      "status": 200,
+      "checkedAt": "2026-11-03T21:48:22.166258+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "464a63693c94c8eae1a5ee93dd7c104e36d8744bbcca2474be607a35c8e155f5",
+      "textFile": "source-4-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "roborock-saros-z70",
+      "manufacturer": "Roborock",
+      "model": "Saros Z70",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "999.99 USD",
+        "weight": "",
+        "size": "350 x 353 x 80 mm (13.78 x 13.89 x 3.14 in)",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "about 135 min with the robotic arm disabled",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-saros-z70",
+        "description": "The Roborock Saros Z70 is a vacuum and mop robot with a retractable robotic arm that picks up and moves items, 22,000 Pa HyperForce suction, dual all-rubber brushes and an integrated water tank. It measures 350 x 353 x 80 mm (13.78 x 13.89 x 3.14 in) and carries a 6,400 mAh lithium-ion battery that charges in 2.5 h. Roborock states about 135 min runtime with the robotic arm disabled and a mop-wash interval of 15 min, covering about 180 m2 per charge; with the arm enabled the stated coverage is about 150 m2. The robot and dock together weigh 38.14 lbs, but no separate robot net weight is published. It costs 999.99 USD. No payload, travel speed, IP rating or water tank capacity is published; the catalog 2599 USD price, ~4.5 kg mass, ~3 hours battery and 180 min runtime are replaced or cleared. The page prints 133.89 in for the second dimension figure, an evident typo for 13.89 in.",
+        "chargingTime": "2.5 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "not-documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "Current shop price from the reviewed product page.",
+        "weight": "No separate robot net weight is published; the catalog value is not confirmed.",
+        "size": "Robot dimensions from the reviewed specification block; dock dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "Full-charge runtime statement from the reviewed page.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No IP rating is published in the reviewed specification block.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Roborock Saros Z70 is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "Roborock Saros Z70 product page.",
+        "description": "Roborock Saros Z70 page; suction, dimensions, masses, battery, runtime, charging and tank statements are manufacturer claims.",
+        "chargingTime": "Absolute charging time from the reviewed page.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "Roborock - Saros Z70",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-saros-z70",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Roborock Saros Z70 is a vacuum and mop robot with a retractable robotic arm.",
+        "It delivers 22,000 Pa HyperForce suction and measures 350 x 353 x 80 mm.",
+        "A 6,400 mAh battery charges in 2.5 h and supports about 135 min runtime with the arm disabled.",
+        "The arm picks up socks, tissues and shoes under 300 g and moves obstacles aside.",
+        "The catalog 2599 USD price, ~4.5 kg mass and 180 min runtime are replaced or cleared; no robot net weight is published."
+      ]
+    },
+    {
+      "robotId": "roborock-q5-max-plus",
+      "manufacturer": "Roborock",
+      "model": "Q5 Max+",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "329.99 USD",
+        "weight": "7.3 kg (16 lbs)",
+        "size": "353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in)",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "up to 240 min",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-q5-max-plus",
+        "description": "The Roborock Q5 Max+ is a vacuum and mop robot with 5,500 Pa suction, a DuoRoller brush and PreciSense LiDAR navigation. It measures 353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in) and weighs 7.3 kg (16 lbs). A 5,200 mAh lithium-ion battery provides up to 240 min of cleaning, and the 770 ml dustbin feeds the auto-empty dock. It costs 329.99 USD. Only off-peak charging is described, so no absolute charging time is recorded. No payload, travel speed, IP rating or water tank capacity is published; the catalog ~330 USD price and small size label are replaced by the reviewed price and dimensions.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "Current shop price from the reviewed product page.",
+        "weight": "Robot net weight from the reviewed specification block; dock and package weights are separate.",
+        "size": "Robot dimensions from the reviewed specification block; dock dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "Full-charge runtime statement from the reviewed page.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No IP rating is published in the reviewed specification block.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Roborock Q5 Max+ is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "Roborock Q5 Max+ product page.",
+        "description": "Roborock Q5 Max+ page; suction, dimensions, masses, battery, runtime, charging and tank statements are manufacturer claims.",
+        "chargingTime": "Only a relative or off-peak charging statement is published; no absolute charging time is recorded.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "Roborock - Q5 Max+",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-q5-max-plus",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Roborock Q5 Max+ is a vacuum and mop robot with 5,500 Pa suction.",
+        "It measures 353 x 351 x 97 mm and weighs 7.3 kg (16 lbs).",
+        "A 5,200 mAh battery provides up to 240 min of cleaning.",
+        "The 770 ml dustbin feeds an auto-empty dock and the DuoRoller brush resists tangles.",
+        "The catalog ~330 USD price and small size label are replaced by 329.99 USD and the reviewed dimensions."
+      ]
+    },
+    {
+      "robotId": "roborock-q10-s5-plus",
+      "manufacturer": "Roborock",
+      "model": "Q10 S5+",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "329.99 USD",
+        "weight": "6.7 kg (14.8 lbs)",
+        "size": "353 x 353 x 99 mm (13.9 x 13.9 x 3.9 in)",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "up to 150 min",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-q10-s5-plus",
+        "description": "The Roborock Q10 S5+ is a vacuum and mop robot with 10,000 Pa HyperForce suction, a VibraRise mop and an auto-empty dock. It measures 353 x 353 x 99 mm (13.9 x 13.9 x 3.9 in) and weighs 6.7 kg (14.8 lbs). A 5,200 mAh lithium-ion battery provides up to 150 min of cleaning, and the dock measures 212 x 178 x 259 mm. It costs 329.99 USD. Only off-peak charging is described, so no absolute charging time is recorded. No payload, travel speed, IP rating or water tank capacity is published; the catalog ~280 USD price, small size label and 350 min battery and runtime labels are replaced or cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "Current shop price from the reviewed product page.",
+        "weight": "Robot net weight from the reviewed specification block; dock and package weights are separate.",
+        "size": "Robot dimensions from the reviewed specification block; dock dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "Full-charge runtime statement from the reviewed page.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No IP rating is published in the reviewed specification block.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Roborock Q10 S5+ is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "Roborock Q10 S5+ product page.",
+        "description": "Roborock Q10 S5+ page; suction, dimensions, masses, battery, runtime, charging and tank statements are manufacturer claims.",
+        "chargingTime": "Only a relative or off-peak charging statement is published; no absolute charging time is recorded.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "Roborock - Q10 S5+",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-q10-s5-plus",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Roborock Q10 S5+ is a vacuum and mop robot with 10,000 Pa HyperForce suction.",
+        "It measures 353 x 353 x 99 mm and weighs 6.7 kg (14.8 lbs).",
+        "A 5,200 mAh battery provides up to 150 min of cleaning.",
+        "The VibraRise mop lifts for carpets and the auto-empty dock holds the debris.",
+        "The catalog ~280 USD price, small size label and 350 min runtime are replaced or cleared by 329.99 USD, the reviewed dimensions and 150 min."
+      ]
+    },
+    {
+      "robotId": "roborock-s7-max-ultra",
+      "manufacturer": "Roborock",
+      "model": "S7 Max Ultra",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "1,299.99 USD",
+        "weight": "4.5 kg (10 lbs)",
+        "size": "353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in)",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-s7-max-ultra",
+        "description": "The Roborock S7 Max Ultra is a vacuum and mop robot with 5,500 Pa HyperForce suction, VibraRise sonic mopping and Reactive Tech obstacle avoidance. It measures 353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in) and weighs 4.5 kg (10 lbs). A 5,200 mAh lithium-ion battery serves the robot; the page publishes no full-charge runtime in minutes and only claims 30 percent faster charging, so no absolute charging time is recorded. The RockDock Ultra self-empties, washes the mop and refills the water tank, and the dust bag holds 2.5 L. It costs 1,299.99 USD. No payload, travel speed, IP rating or water tank capacity is published; the catalog 1299 USD price, small size label and 180 min battery and runtime labels are replaced or cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": {
+        "price": "documented",
+        "weight": "documented",
+        "size": "documented",
+        "batteryLife": "documented",
+        "maxRuntime": "not-documented",
+        "payload": "not-documented",
+        "speed": "not-documented",
+        "ipRating": "not-documented",
+        "dof": "not-documented",
+        "handType": "documented",
+        "ageRange": "not-documented",
+        "website": "documented",
+        "description": "documented",
+        "chargingTime": "not-documented",
+        "workingWidth": "not-documented",
+        "areaRate": "not-documented",
+        "waterTankCapacity": "not-documented",
+        "minAisleWidth": "not-documented"
+      },
+      "notes": {
+        "price": "Current shop price from the reviewed product page.",
+        "weight": "Robot net weight from the reviewed specification block; dock and package weights are separate.",
+        "size": "Robot dimensions from the reviewed specification block; dock dimensions are separate.",
+        "batteryLife": "Battery capacity from the reviewed specification block.",
+        "maxRuntime": "No full-charge runtime in minutes is published.",
+        "payload": "No payload rating is published; these are cleaning appliances.",
+        "speed": "No travel speed is published in the reviewed specification block.",
+        "ipRating": "No IP rating is published in the reviewed specification block.",
+        "dof": "No articulated degrees of freedom are published.",
+        "handType": "Roborock S7 Max Ultra is a cleaning appliance without a manipulator arm.",
+        "ageRange": "Not applicable to a cleaning appliance.",
+        "website": "Roborock S7 Max Ultra product page.",
+        "description": "Roborock S7 Max Ultra page; suction, dimensions, masses, battery, runtime, charging and tank statements are manufacturer claims.",
+        "chargingTime": "Only a relative or off-peak charging statement is published; no absolute charging time is recorded.",
+        "workingWidth": "No cleaning width is published in the extracted text.",
+        "areaRate": "No hourly area rate is recorded as a separate field.",
+        "waterTankCapacity": "No clean or dirty water tank capacity is published.",
+        "minAisleWidth": "No configuration-specific value is published in the reviewed native manufacturer text; family figures and system-level claims are not substituted."
+      },
+      "sources": [
+        {
+          "name": "Roborock - S7 Max Ultra",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-s7-max-ultra",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "highlights": [
+        "The Roborock S7 Max Ultra is a vacuum and mop robot with 5,500 Pa HyperForce suction.",
+        "It measures 353 x 351 x 97 mm and weighs 4.5 kg (10 lbs).",
+        "The RockDock Ultra self-empties, washes the mop and refills the water tank.",
+        "VibraRise sonic mopping scrubs at 3,000 times per minute.",
+        "The catalog 1299 USD price, small size label and 180 min battery and runtime labels are replaced or cleared; no full runtime is published."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "roborock-saros-z70",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "Saros Z70",
+        "price": "2599 USD",
+        "weight": "~4.5 kg",
+        "size": "",
+        "batteryLife": "~3 hours",
+        "maxRuntime": "180 min",
+        "tags": "consumer;mop;vacuum",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-saros-z70",
+        "image": "images/household/roborock-saros-z70.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Vacuum and mop with retractable robotic arm and multifunction dock",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "Saros Z70",
+        "price": "999.99 USD",
+        "weight": "",
+        "size": "350 x 353 x 80 mm (13.78 x 13.89 x 3.14 in)",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "about 135 min with the robotic arm disabled",
+        "tags": "consumer;mop;vacuum",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-saros-z70",
+        "image": "images/household/roborock-saros-z70.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Roborock Saros Z70 is a vacuum and mop robot with a retractable robotic arm that picks up and moves items, 22,000 Pa HyperForce suction, dual all-rubber brushes and an integrated water tank. It measures 350 x 353 x 80 mm (13.78 x 13.89 x 3.14 in) and carries a 6,400 mAh lithium-ion battery that charges in 2.5 h. Roborock states about 135 min runtime with the robotic arm disabled and a mop-wash interval of 15 min, covering about 180 m2 per charge; with the arm enabled the stated coverage is about 150 m2. The robot and dock together weigh 38.14 lbs, but no separate robot net weight is published. It costs 999.99 USD. No payload, travel speed, IP rating or water tank capacity is published; the catalog 2599 USD price, ~4.5 kg mass, ~3 hours battery and 180 min runtime are replaced or cleared. The page prints 133.89 in for the second dimension figure, an evident typo for 13.89 in.",
+        "releaseDate": "2025",
+        "chargingTime": "2.5 h",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "roborock-q5-max-plus",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "Q5 Max+",
+        "price": "~330 USD",
+        "weight": "",
+        "size": "small",
+        "batteryLife": "240 min",
+        "maxRuntime": "240 min",
+        "tags": "vacuum;consumer;app-control;wifi;mapping;lidar;auto-empty",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-q5-max-plus",
+        "image": "images/cleaning/roborock-q5-max-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Vacuum-only 5,500Pa robot with DuoRoller brush and auto-empty dock.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "Q5 Max+",
+        "price": "329.99 USD",
+        "weight": "7.3 kg (16 lbs)",
+        "size": "353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in)",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "up to 240 min",
+        "tags": "vacuum;consumer;app-control;wifi;mapping;lidar;auto-empty",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-q5-max-plus",
+        "image": "images/cleaning/roborock-q5-max-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Roborock Q5 Max+ is a vacuum and mop robot with 5,500 Pa suction, a DuoRoller brush and PreciSense LiDAR navigation. It measures 353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in) and weighs 7.3 kg (16 lbs). A 5,200 mAh lithium-ion battery provides up to 240 min of cleaning, and the 770 ml dustbin feeds the auto-empty dock. It costs 329.99 USD. Only off-peak charging is described, so no absolute charging time is recorded. No payload, travel speed, IP rating or water tank capacity is published; the catalog ~330 USD price and small size label are replaced by the reviewed price and dimensions.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "roborock-q10-s5-plus",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "Q10 S5+",
+        "price": "~280 USD",
+        "weight": "",
+        "size": "small",
+        "batteryLife": "up to 350 min",
+        "maxRuntime": "350 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-q10-s5-plus",
+        "image": "images/cleaning/roborock-q10-s5-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Budget 10,000Pa vacuum-mop with lifting mop and auto-empty dock.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "Q10 S5+",
+        "price": "329.99 USD",
+        "weight": "6.7 kg (14.8 lbs)",
+        "size": "353 x 353 x 99 mm (13.9 x 13.9 x 3.9 in)",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "up to 150 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-q10-s5-plus",
+        "image": "images/cleaning/roborock-q10-s5-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Roborock Q10 S5+ is a vacuum and mop robot with 10,000 Pa HyperForce suction, a VibraRise mop and an auto-empty dock. It measures 353 x 353 x 99 mm (13.9 x 13.9 x 3.9 in) and weighs 6.7 kg (14.8 lbs). A 5,200 mAh lithium-ion battery provides up to 150 min of cleaning, and the dock measures 212 x 178 x 259 mm. It costs 329.99 USD. Only off-peak charging is described, so no absolute charging time is recorded. No payload, travel speed, IP rating or water tank capacity is published; the catalog ~280 USD price, small size label and 350 min battery and runtime labels are replaced or cleared.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "roborock-s7-max-ultra",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "S7 Max Ultra",
+        "price": "1299 USD",
+        "weight": "",
+        "size": "small",
+        "batteryLife": "180 min",
+        "maxRuntime": "180 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-s7-max-ultra",
+        "image": "images/cleaning/roborock-s7-max-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "5,500Pa sonic-mopping flagship with washing, refilling, auto-empty RockDock.",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Roborock",
+        "model": "S7 Max Ultra",
+        "price": "1,299.99 USD",
+        "weight": "4.5 kg (10 lbs)",
+        "size": "353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in)",
+        "batteryLife": "5,200 mAh",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://us.roborock.com/products/roborock-s7-max-ultra",
+        "image": "images/cleaning/roborock-s7-max-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Roborock S7 Max Ultra is a vacuum and mop robot with 5,500 Pa HyperForce suction, VibraRise sonic mopping and Reactive Tech obstacle avoidance. It measures 353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in) and weighs 4.5 kg (10 lbs). A 5,200 mAh lithium-ion battery serves the robot; the page publishes no full-charge runtime in minutes and only claims 30 percent faster charging, so no absolute charging time is recorded. The RockDock Ultra self-empties, washes the mop and refills the water tank, and the dust bag holds 2.5 L. It costs 1,299.99 USD. No payload, travel speed, IP rating or water tank capacity is published; the catalog 1299 USD price, small size label and 180 min battery and runtime labels are replaced or cleared.",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "Roborock",
+      "model": "Saros Z70",
+      "changes": {
+        "price": {
+          "before": "2599 USD",
+          "after": "999.99 USD"
+        },
+        "weight": {
+          "before": "~4.5 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "",
+          "after": "350 x 353 x 80 mm (13.78 x 13.89 x 3.14 in)"
+        },
+        "batteryLife": {
+          "before": "~3 hours",
+          "after": "6,400 mAh"
+        },
+        "maxRuntime": {
+          "before": "180 min",
+          "after": "about 135 min with the robotic arm disabled"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Vacuum and mop with retractable robotic arm and multifunction dock",
+          "after": "The Roborock Saros Z70 is a vacuum and mop robot with a retractable robotic arm that picks up and moves items, 22,000 Pa HyperForce suction, dual all-rubber brushes and an integrated water tank. It measures 350 x 353 x 80 mm (13.78 x 13.89 x 3.14 in) and carries a 6,400 mAh lithium-ion battery that charges in 2.5 h. Roborock states about 135 min runtime with the robotic arm disabled and a mop-wash interval of 15 min, covering about 180 m2 per charge; with the arm enabled the stated coverage is about 150 m2. The robot and dock together weigh 38.14 lbs, but no separate robot net weight is published. It costs 999.99 USD. No payload, travel speed, IP rating or water tank capacity is published; the catalog 2599 USD price, ~4.5 kg mass, ~3 hours battery and 180 min runtime are replaced or cleared. The page prints 133.89 in for the second dimension figure, an evident typo for 13.89 in."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "2.5 h"
+        }
+      }
+    },
+    {
+      "manufacturer": "Roborock",
+      "model": "Q5 Max+",
+      "changes": {
+        "price": {
+          "before": "~330 USD",
+          "after": "329.99 USD"
+        },
+        "weight": {
+          "before": "",
+          "after": "7.3 kg (16 lbs)"
+        },
+        "size": {
+          "before": "small",
+          "after": "353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in)"
+        },
+        "batteryLife": {
+          "before": "240 min",
+          "after": "5,200 mAh"
+        },
+        "maxRuntime": {
+          "before": "240 min",
+          "after": "up to 240 min"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Vacuum-only 5,500Pa robot with DuoRoller brush and auto-empty dock.",
+          "after": "The Roborock Q5 Max+ is a vacuum and mop robot with 5,500 Pa suction, a DuoRoller brush and PreciSense LiDAR navigation. It measures 353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in) and weighs 7.3 kg (16 lbs). A 5,200 mAh lithium-ion battery provides up to 240 min of cleaning, and the 770 ml dustbin feeds the auto-empty dock. It costs 329.99 USD. Only off-peak charging is described, so no absolute charging time is recorded. No payload, travel speed, IP rating or water tank capacity is published; the catalog ~330 USD price and small size label are replaced by the reviewed price and dimensions."
+        }
+      }
+    },
+    {
+      "manufacturer": "Roborock",
+      "model": "Q10 S5+",
+      "changes": {
+        "price": {
+          "before": "~280 USD",
+          "after": "329.99 USD"
+        },
+        "weight": {
+          "before": "",
+          "after": "6.7 kg (14.8 lbs)"
+        },
+        "size": {
+          "before": "small",
+          "after": "353 x 353 x 99 mm (13.9 x 13.9 x 3.9 in)"
+        },
+        "batteryLife": {
+          "before": "up to 350 min",
+          "after": "5,200 mAh"
+        },
+        "maxRuntime": {
+          "before": "350 min",
+          "after": "up to 150 min"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Budget 10,000Pa vacuum-mop with lifting mop and auto-empty dock.",
+          "after": "The Roborock Q10 S5+ is a vacuum and mop robot with 10,000 Pa HyperForce suction, a VibraRise mop and an auto-empty dock. It measures 353 x 353 x 99 mm (13.9 x 13.9 x 3.9 in) and weighs 6.7 kg (14.8 lbs). A 5,200 mAh lithium-ion battery provides up to 150 min of cleaning, and the dock measures 212 x 178 x 259 mm. It costs 329.99 USD. Only off-peak charging is described, so no absolute charging time is recorded. No payload, travel speed, IP rating or water tank capacity is published; the catalog ~280 USD price, small size label and 350 min battery and runtime labels are replaced or cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "Roborock",
+      "model": "S7 Max Ultra",
+      "changes": {
+        "price": {
+          "before": "1299 USD",
+          "after": "1,299.99 USD"
+        },
+        "weight": {
+          "before": "",
+          "after": "4.5 kg (10 lbs)"
+        },
+        "size": {
+          "before": "small",
+          "after": "353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in)"
+        },
+        "batteryLife": {
+          "before": "180 min",
+          "after": "5,200 mAh"
+        },
+        "maxRuntime": {
+          "before": "180 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "5,500Pa sonic-mopping flagship with washing, refilling, auto-empty RockDock.",
+          "after": "The Roborock S7 Max Ultra is a vacuum and mop robot with 5,500 Pa HyperForce suction, VibraRise sonic mopping and Reactive Tech obstacle avoidance. It measures 353 x 351 x 97 mm (13.9 x 13.8 x 3.8 in) and weighs 4.5 kg (10 lbs). A 5,200 mAh lithium-ion battery serves the robot; the page publishes no full-charge runtime in minutes and only claims 30 percent faster charging, so no absolute charging time is recorded. The RockDock Ultra self-empties, washes the mop and refills the water tank, and the dust bag holds 2.5 L. It costs 1,299.99 USD. No payload, travel speed, IP rating or water tank capacity is published; the catalog 1299 USD price, small size label and 180 min battery and runtime labels are replaced or cleared."
+        }
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "roborock",
+      "name": "Roborock",
+      "role": "Consumer cleaning and floor-care robot manufacturer",
+      "website": "https://us.roborock.com/products/roborock-saros-10",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "name": "Roborock - Saros 10",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-saros-10",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Roborock - Qrevo Edge",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-qrevo-edge",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Roborock - Qrevo Slim",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-qrevo-slim",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Roborock - Saros 10R",
+          "type": "manufacturer",
+          "url": "https://us.roborock.com/products/roborock-saros-10r",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-165/source-2.html",
+      "reviewNotes": "Batch165. Roborock pages read as text only; no research browser, visual inspection, OCR or media reuse. Saros 10, Qrevo Edge, Qrevo Slim and Saros 10R are four separate current models. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven.",
+      "highlights": [
+        "Roborock is a consumer cleaning and floor-care robot manufacturer whose reviewed US range includes the Saros 10, Saros 10R, Qrevo Edge and Qrevo Slim.",
+        "The reviewed pages publish 11,000 Pa suction for the Qrevo Slim, 18,500 Pa for the Qrevo Edge and 22,000 Pa for the Saros 10, with HyperForce and dual anti-tangle brush systems.",
+        "Battery capacity is 5,200 mAh for the Qrevo Slim and 6,400 mAh for the Saros 10, Qrevo Edge and Saros 10R; the Saros 10 and Saros 10R pages cite 2.5-hour fast charging.",
+        "The Saros 10 page publishes 52 dB(A) in quiet mopping and 72 dB(A) dock self-emptying, and the Qrevo Edge page 55 dB mopping with 75 C mop washing.",
+        "The reviewed pages publish no full-charge runtime, payload or IP rating; robot mass figures of 8.6, 9.04 and 36.38 lbs remain separate from the catalog values."
+      ]
+    }
+  ],
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 36,
+    "axeCases": 8,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1248,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": {
+      "allChecksPassed": true,
+      "savedResponses": 4,
+      "successfulResponses": 4,
+      "usableResponses": 4,
+      "sha256VerifiedResponses": 4,
+      "nativeHtmlResponses": 4,
+      "nonHtmlSuccessfulResponses": 0,
+      "pdfDocuments": 0,
+      "pdfPages": 0,
+      "pdfSources": [],
+      "notFoundExcluded": [],
+      "blockedResponses": [],
+      "rateLimitedResponses": [
+        "https://us.roborock.com/products/roborock-qrevo-master (429, excluded)",
+        "https://us.roborock.com/products/roborock-s8-max-ultra (429, excluded)"
+      ],
+      "redirectResponses": [
+        "https://us.roborock.com/products/roborock-qrevo-master -> https://us.roborock.com/products/roborock-qrevo-s5v (301; the successor page is a different model and is excluded)"
+      ],
+      "unusedSuccessfulResponses": [],
+      "archivedResponses": [],
+      "inspection": "Native HTML read as text only. No research browser, visual inspection, OCR or media reuse. No login, forms, contact, messages or transactions."
+    },
+    "body-scope-check": {
+      "allChecksPassed": true,
+      "htmlScopes": [
+        {
+          "sourceId": 1,
+          "selector": "body",
+          "textSha256": "9b63808512b485774faf33c4e06eadf1081023fc40f2b9a631e5a21dada369b7"
+        },
+        {
+          "sourceId": 2,
+          "selector": "body",
+          "textSha256": "f7d9fc98289fd77baac632fdefce1e87077343e96135170fa6cbd8d90f886222"
+        },
+        {
+          "sourceId": 3,
+          "selector": "body",
+          "textSha256": "798eb2b146c3fb133f6ec301442f42b2dcd679e71ffa3d5386e00531839eda44"
+        },
+        {
+          "sourceId": 4,
+          "selector": "body",
+          "textSha256": "2eb607f146d4b979f98255864022c7651a49be6d6c00bed3c0483dbacdbfd902"
+        }
+      ],
+      "versionScopes": "Saros Z70, Q5 Max+, Q10 S5+ and S7 Max Ultra are four separate current Roborock cleaning robots. Q8 Max+ was excluded because its reviewed page states that the product has not been launched yet, and the Qrevo Master URL redirects to a different Qrevo S5V model.",
+      "priceScopes": "Current US shop prices are 999.99 USD for the Saros Z70, 329.99 USD for the Q5 Max+ and Q10 S5+, and 1,299.99 USD for the S7 Max Ultra. The catalog 2599, ~330, ~280 and 1299 USD values are not substituted for these reviewed prices.",
+      "weightScopes": "Robot net weights are 16 lbs (7.3 kg) for the Q5 Max+, 14.8 lbs (6.7 kg) for the Q10 S5+ and 10 lbs (4.5 kg) for the S7 Max Ultra. The Saros Z70 page publishes only a 38.14 lbs robot-plus-dock weight and no separate robot net weight, so the catalog ~4.5 kg value is cleared.",
+      "sizeScopes": "Robot dimensions are 350 x 353 x 80 mm for the Saros Z70, 353 x 351 x 97 mm for the Q5 Max+, 353 x 353 x 99 mm for the Q10 S5+ and 353 x 351 x 97 mm for the S7 Max Ultra. The Saros Z70 page prints 133.89 in for the second figure, an evident typo for 13.89 in; the conversion uses 13.89 in. Dock dimensions are separate.",
+      "payloadScopes": "No reviewed page publishes a payload rating; these are cleaning appliances without a load rating.",
+      "enduranceScopes": "Battery capacity is 6,400 mAh for the Saros Z70 and 5,200 mAh for the Q5 Max+, Q10 S5+ and S7 Max Ultra. The Saros Z70 publishes about 135 min runtime with the robotic arm disabled and about 2.5 h charging; the Q5 Max+ publishes up to 240 min and the Q10 S5+ up to 150 min. The S7 Max Ultra page publishes no full-charge runtime and only claims 30 percent faster charging; the Q5 Max+ and Q10 S5+ pages describe off-peak charging without an absolute time.",
+      "autonomyScopes": "Roborock describes robotic-arm object handling, LiDAR navigation, VibraRise or VibraWash mopping, auto-empty and dock washing and refilling. These are manufacturer descriptions, not independent safety certification or proof of unsupervised operation.",
+      "listingScopes": "The roboticsdir and buyandrentrobots listings name products and companies; they do not establish prices, current stock, delivered fleets or independent performance.",
+      "goalComplete": false
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "reviewedProducts": 4,
+      "selectedFields": 72,
+      "selectedFieldStatuses": {
+        "documented": 31,
+        "not-documented": 41
+      },
+      "specificationReviewModels": 1334,
+      "specificationFields": 25126,
+      "allFieldStatuses": {
+        "not-documented": 15459,
+        "documented": 9308,
+        "conflicting": 323,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1354,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 72,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 1
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1354,
+      "individualHighlights": 6247,
+      "productSourceReferences": 2905,
+      "specificationReviewModels": 1338,
+      "specificationFields": 25198,
+      "publicJsonBytes": 6731931,
+      "catalogScriptBytes": 2737228,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T21:49:09Z",
+            "after": "2026-11-03T21:51:20Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T21:49:08.214Z",
+            "after": "2026-11-03T21:51:19.591Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "fc7c171dd02d4692f7843cedd243b312856c76408c56d8080dfc475aec3f8182",
+            "after": "e22a72c62e9e5f7199dd42113cada63be36160d9176e2b215d42928471e7ce58"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T21:49:08.214Z",
+            "after": "2026-11-03T21:51:19.591Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T21:49:08.214Z",
+            "after": "2026-11-03T21:51:19.591Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 154,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "8c4b3b03b782a527da22b6b806f150002419be3b",
+    "dataCommit": "82782269661ad00e6363a41c87c9ca7b0028bd9d",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 775,
+  "goalComplete": false
+}

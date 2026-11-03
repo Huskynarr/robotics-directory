@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,350 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,354 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,126 fields across 1334 models, distinguishing documented, undisclosed, conflicting and
+25,198 fields across 1338 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,720 kB JSON response loads only for search or comparison;
+A separate 6,732 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,227 reviewed highlight statements as well as
+Catalog search now includes all 6,247 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1740,3 +1740,22 @@ bag and a robot tank of at least 80 ml. Catalog prices of about 900, 600 and
 950 USD and 1299 USD, the small size labels, the L40s 180 min runtime and the
 X40 200 min runtime are replaced or cleared by the reviewed values. No reviewed
 page publishes a robot net weight for the X30 Ultra, payload, travel speed or IP rating.
+
+Roborock's Saros Z70, Q5 Max+, Q10 S5+ and S7 Max Ultra now have selected
+field reviews. The manufacturer publishes 22,000 Pa, 350 x 353 x 80 mm,
+6,400 mAh, 2.5 h charging and about 135 min runtime with the robotic arm
+disabled for the Saros Z70; 5,500 Pa, 353 x 351 x 97 mm, 7.3 kg (16 lbs),
+5,200 mAh and up to 240 min for the Q5 Max+; 10,000 Pa, 353 x 353 x 99 mm,
+6.7 kg (14.8 lbs), 5,200 mAh and up to 150 min for the Q10 S5+; and
+5,500 Pa, 353 x 351 x 97 mm, 4.5 kg (10 lbs) and 5,200 mAh for the
+S7 Max Ultra. The Saros Z70 page publishes only a 38.14 lbs robot-plus-dock
+weight, and its 133.89 in second dimension figure is an evident typo for 13.89 in.
+The Q10 S5+ page publishes up to 150 min, replacing the catalog 350 min
+labels. The S7 Max Ultra page publishes no full-charge runtime and only claims
+30 percent faster charging, and the Q5 Max+ and Q10 S5+ pages describe off-peak
+charging without an absolute time. Catalog prices of 2599, about 330, about 280 and
+1299 USD, the small size labels, the Saros about 4.5 kg mass and about 3 hours
+battery label, the Saros 180 min runtime, the Q10 350 min battery and runtime
+labels, and the S7 180 min battery and runtime labels are replaced or cleared.
+No reviewed page publishes a robot net weight for the Saros Z70, payload, travel
+speed, water tank capacity or IP rating.
