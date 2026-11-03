@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,378 catalog rows**, with 646 exact
-manufacturer spellings. Batch 152 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 153 refreshed the separate heuristic gap file offline
 against all 2,378 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 490 have selected-field reviews and 28 await those reviews. Family and
+highlights; 493 have selected-field reviews and 25 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,931 fields across 1266 catalog models: 8,789 documented,
-14,718 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
+Selected specification checks cover 23,981 fields across 1269 catalog models: 8,809 documented,
+14,748 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -10406,3 +10406,37 @@ ElliQ-Hardwareversionen kompatibel sein; die Hardware war für Frühjahr 2024 an
 geleastes Mitgliedschaftsangebot beschrieben. Die vom Unternehmen berichteten Werte zu Einsamkeit, Gesundheit
 und sozialer Verbundenheit sind keine unabhängigen klinischen Studien; numerischer Preis, Masse, Maße,
 Laufzeit und unabhängige Zertifizierung bleiben offen.
+
+
+## Ergänzung 153 – Hugo RAS, Naïo Oz und Starship Robot: modulare Chirurgie, Feldtechnik und Lieferflotte (3. November 2026)
+
+Drei bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus Komponenten-, Werkzeug- oder
+Flottenbezeichnungen erzeugt. Die Prüfung umfasst 50 Felder: 20 dokumentiert und 30 nicht dokumentiert.
+Hinzu kommen 16 Merkmalsaussagen, drei zusätzliche Produktquellenverweise und drei neue
+Firmenfokusse. Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten.
+2.375 andere Katalogzeilen, 1.266 frühere Feldprüfungen und 150 andere Firmenfokusse sind unverändert.
+Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze, 5.902 Aussagen, 2.820 Produktquellenverweise,
+1.269 Feldprüfungen mit 23.981 Feldern und 153 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen
+sind 493 technisch teilgeprüft; 25 bleiben offen. Dauerbeleg: `reports/competitor-batch-153-evidence.json`.
+
+Elf HTTP-Antworten sind gehasht gesichert und als Text gelesen; eine Antwort war blockiert (HTTP 403),
+zwei Seiten fehlten (HTTP 404). Kein Recherchebrowser, keine visuelle Prüfung, OCR oder Medienübernahme.
+Keine Formulare, Konten, Kontaktaufnahme, Nachrichten oder Transaktionen. Hugo RAS bleibt ein
+modulares chirurgisches System: unabhängig positionierbare Armwagen mit mehreren Freiheitsgraden und
+Schwenkgelenk, offene Chirurgenkonsole, zentrale Systemturm-Einheit, 3D-HD-Endoskop und neun kompatible
+Instrumente mit Gelenk. Die Arme, Konsole, Turm, Instrumente und das Endoskop sind Komponenten, keine
+zusätzlichen Robotermodelle. Medtronic nennt mehr als 35 Länder nach über vier Jahren Nutzung; Preis,
+Masse, Maße, Nutzlast, Geschwindigkeit und Ausdauer bleiben offen.
+
+Naïo Oz ist ein autonomer Träger für Marktgarten- und Sonderkulturen: bis zu 8 Stunden Betrieb,
+60 kg Hubkapazität, maximal 100 cm Arbeitsbreite je Werkzeug, GNSS-RTK-Lenkung und über 35 kompatible
+Werkzeuge zum Säen, Reihenmarkieren und Jäten. Die Werkzeuge sind keine zusätzlichen Robotermodelle.
+Naïo nennt 40 zertifizierte Partner in über 20 Ländern und Fertigung in Frankreich; numerischer Preis,
+Masse, Maße, Fahrgeschwindigkeit und IP-Schutz bleiben offen.
+
+Starship Robot ist eine sechsrädrige autonome Lieferplattform für Gehwege: Level 4 mit menschlicher
+Fernunterstützung, bis zu drei Einkaufstaschen in einem isolierten Innenraum, 18 Stunden Betrieb pro Ladung,
+12 Kameras einschließlich Time-of-Flight sowie Radar, Ultraschall und neuronale Netze. Das Unternehmen nennt
+3.000+ Roboter, über 10 Millionen Lieferungen, acht Länder und 125.000 Straßen- und Einfahrtsquerungen pro Tag
+sowie den Titel „undisputed #1 leader“; das sind Unternehmensangaben und -behauptungen, keine unabhängige
+Flottenprüfung oder gemessene Marktführerschaft. Preis, Masse, Maße und IP-Schutz bleiben offen.

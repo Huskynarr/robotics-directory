@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 150 |
+| Firmenfokus-Prüfungen mit Quellen | 153 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1124 ergänzte Modelle ergeben 2.378 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-150 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+153 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1311 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 490 haben ausgewählte Datenfeldprüfungen und 28
+haben datierte Merkmalsbelege; 493 haben ausgewählte Datenfeldprüfungen und 25
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -12641,3 +12641,37 @@ ElliQ-Hardwareversionen kompatibel sein; die Hardware war für Frühjahr 2024 an
 geleastes Mitgliedschaftsangebot beschrieben. Die vom Unternehmen berichteten Werte zu Einsamkeit, Gesundheit
 und sozialer Verbundenheit sind keine unabhängigen klinischen Studien; numerischer Preis, Masse, Maße,
 Laufzeit und unabhängige Zertifizierung bleiben offen.
+
+
+## Ergänzung 153 – Hugo RAS, Naïo Oz und Starship Robot: modulare Chirurgie, Feldtechnik und Lieferflotte (3. November 2026)
+
+Drei bestehende Katalogzeilen sind technisch vertieft; keine neuen Modelle aus Komponenten-, Werkzeug- oder
+Flottenbezeichnungen erzeugt. Die Prüfung umfasst 50 Felder: 20 dokumentiert und 30 nicht dokumentiert.
+Hinzu kommen 16 Merkmalsaussagen, drei zusätzliche Produktquellenverweise und drei neue
+Firmenfokusse. Alle bisherigen Merkmale, Fund-URLs, IDs und Medien bleiben erhalten.
+2.375 andere Katalogzeilen, 1.266 frühere Feldprüfungen und 150 andere Firmenfokusse sind unverändert.
+Gesamt: 2.378 Katalogeinträge, 1.311 datierte Merkmalssätze, 5.902 Aussagen, 2.820 Produktquellenverweise,
+1.269 Feldprüfungen mit 23.981 Feldern und 153 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen
+sind 493 technisch teilgeprüft; 25 bleiben offen. Dauerbeleg: `reports/competitor-batch-153-evidence.json`.
+
+Elf HTTP-Antworten sind gehasht gesichert und als Text gelesen; eine Antwort war blockiert (HTTP 403),
+zwei Seiten fehlten (HTTP 404). Kein Recherchebrowser, keine visuelle Prüfung, OCR oder Medienübernahme.
+Keine Formulare, Konten, Kontaktaufnahme, Nachrichten oder Transaktionen. Hugo RAS bleibt ein
+modulares chirurgisches System: unabhängig positionierbare Armwagen mit mehreren Freiheitsgraden und
+Schwenkgelenk, offene Chirurgenkonsole, zentrale Systemturm-Einheit, 3D-HD-Endoskop und neun kompatible
+Instrumente mit Gelenk. Die Arme, Konsole, Turm, Instrumente und das Endoskop sind Komponenten, keine
+zusätzlichen Robotermodelle. Medtronic nennt mehr als 35 Länder nach über vier Jahren Nutzung; Preis,
+Masse, Maße, Nutzlast, Geschwindigkeit und Ausdauer bleiben offen.
+
+Naïo Oz ist ein autonomer Träger für Marktgarten- und Sonderkulturen: bis zu 8 Stunden Betrieb,
+60 kg Hubkapazität, maximal 100 cm Arbeitsbreite je Werkzeug, GNSS-RTK-Lenkung und über 35 kompatible
+Werkzeuge zum Säen, Reihenmarkieren und Jäten. Die Werkzeuge sind keine zusätzlichen Robotermodelle.
+Naïo nennt 40 zertifizierte Partner in über 20 Ländern und Fertigung in Frankreich; numerischer Preis,
+Masse, Maße, Fahrgeschwindigkeit und IP-Schutz bleiben offen.
+
+Starship Robot ist eine sechsrädrige autonome Lieferplattform für Gehwege: Level 4 mit menschlicher
+Fernunterstützung, bis zu drei Einkaufstaschen in einem isolierten Innenraum, 18 Stunden Betrieb pro Ladung,
+12 Kameras einschließlich Time-of-Flight sowie Radar, Ultraschall und neuronale Netze. Das Unternehmen nennt
+3.000+ Roboter, über 10 Millionen Lieferungen, acht Länder und 125.000 Straßen- und Einfahrtsquerungen pro Tag
+sowie den Titel „undisputed #1 leader“; das sind Unternehmensangaben und -behauptungen, keine unabhängige
+Flottenprüfung oder gemessene Marktführerschaft. Preis, Masse, Maße und IP-Schutz bleiben offen.

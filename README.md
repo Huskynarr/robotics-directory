@@ -150,7 +150,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 490 and 28 still awaiting those reviews.
+selected technical-field reviews for 493 and 25 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -409,6 +409,18 @@ MediaTek octa-core plus AI SoC. The generative-AI software is described as compa
 all hardware versions, hardware was expected in spring 2024, and the leased membership
 publishes no numeric price, mass or dimensions. Company-reported outcomes are not independent
 clinical certification.
+
+Medtronic Hugo RAS, Naïo Technologies Oz and Starship Technologies Starship
+Robot now have selected field reviews. Hugo is documented as a modular surgical
+system with independently positionable arm carts, an open surgeon console, a central
+tower, nine compatible wristed instruments and multiple degrees of freedom per cart;
+Medtronic publishes no numeric price, mass, dimensions, payload or endurance, and the
+system remains surgeon-controlled. Oz is an autonomous tool carrier with GNSS RTK,
+up to eight hours of operation, a 60 kg lifting capacity, a maximum working width of
+100 cm and more than 35 compatible implements. Starship Robot is a six-wheeled
+sidewalk delivery platform with Level 4 autonomy and remote assistance, 18 hours per
+charge, up to three shopping bags and a sensor suite with 12 cameras. Its 3,000+ robot,
+10M+ delivery and #1 leader figures are company claims, not independent audits.
 
 Figure 01, Figure 02 and Figure 03 now have field-level reviews. Figure 01 remains
 a historical milestone and Figure 02 a retired generation whose fleet was decommissioned
@@ -1275,20 +1287,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-23,931 fields across 1266 models, distinguishing documented, undisclosed, conflicting and
+23,981 fields across 1269 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,494 kB JSON response loads only for search or comparison;
+A separate 6,506 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,886 reviewed highlight statements as well as
+Catalog search now includes all 5,902 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
