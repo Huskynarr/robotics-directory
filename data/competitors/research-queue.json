@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T08:23:24.997Z",
+  "generatedAt": "2026-11-03T08:32:55.793Z",
   "sourceSnapshots": {
     "roboticsdir": "2026-11-01T17:49:32.229Z",
     "buyandrentrobots": "2026-11-01T17:58:29Z"
@@ -13,16 +13,16 @@
     "allReviewedReferenceTargets": 518,
     "withDatedHighlights": 518,
     "withoutDatedHighlights": 0,
-    "withSelectedFieldReview": 467,
-    "withoutSelectedFieldReview": 51,
-    "selectedFields": 8589,
+    "withSelectedFieldReview": 468,
+    "withoutSelectedFieldReview": 50,
+    "selectedFields": 8608,
     "selectedFieldStatuses": {
-      "documented": 3419,
-      "not-documented": 4970,
-      "conflicting": 182,
+      "documented": 3428,
+      "not-documented": 4979,
+      "conflicting": 183,
       "roadmap": 18
     },
-    "sourceGroupsWithCompanyAuthoredFocus": 123,
+    "sourceGroupsWithCompanyAuthoredFocus": 124,
     "remainingModelIdentities": 3,
     "remainingListingIdentities": 9
   },
@@ -299,28 +299,6 @@
       "robotIds": [
         "beatbot-aquasense-x",
         "beatbot-iskim"
-      ]
-    },
-    {
-      "brandId": "aethon",
-      "name": "Aethon",
-      "aliases": [
-        "Aethon Medical Robots"
-      ],
-      "sourceUrls": [
-        "https://roboticsdir.com/",
-        "https://buyandrentrobots.com/companies/aethon-medical-robots"
-      ],
-      "catalogModels": 2,
-      "reviewedReferenceTargets": 1,
-      "withDatedHighlights": 1,
-      "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
-      "robotIds": [
-        "aethon-t3"
       ]
     },
     {
@@ -3671,6 +3649,28 @@
       ]
     },
     {
+      "brandId": "aethon",
+      "name": "Aethon",
+      "aliases": [
+        "Aethon Medical Robots"
+      ],
+      "sourceUrls": [
+        "https://roboticsdir.com/",
+        "https://buyandrentrobots.com/companies/aethon-medical-robots"
+      ],
+      "catalogModels": 5,
+      "reviewedReferenceTargets": 1,
+      "withDatedHighlights": 1,
+      "withoutDatedHighlights": 0,
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
+      "robotIds": [
+        "aethon-t3"
+      ]
+    },
+    {
       "brandId": "agility-robotics",
       "name": "Agility Robotics",
       "aliases": [],
@@ -4021,14 +4021,14 @@
         "https://roboticsdir.com/",
         "https://buyandrentrobots.com/companies/aethon-medical-robots"
       ],
-      "catalogModels": 2,
+      "catalogModels": 5,
       "reviewedReferenceTargets": 1,
       "withDatedHighlights": 1,
       "withoutDatedHighlights": 0,
-      "withSelectedFieldReview": 0,
-      "withoutSelectedFieldReview": 1,
-      "hasCompanyAuthoredFocus": false,
-      "companyFocusCheckedAt": "",
+      "withSelectedFieldReview": 1,
+      "withoutSelectedFieldReview": 0,
+      "hasCompanyAuthoredFocus": true,
+      "companyFocusCheckedAt": "2026-11-03",
       "robotIds": [
         "aethon-t3"
       ]
@@ -15454,30 +15454,43 @@
       "brandId": "aethon",
       "category": "commercial",
       "hasDatedHighlights": true,
-      "highlightStatements": 3,
+      "highlightStatements": 8,
       "highlightSources": [
         {
-          "name": "Aethon",
-          "type": "manufacturer",
-          "url": "https://aethon.com/t3/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Aethon",
+          "name": "Aethon — T3 exact model specification",
           "type": "manufacturer",
           "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — T3/T3XL family webpage",
+          "type": "manufacturer",
+          "url": "https://aethon.com/t3/",
+          "checkedAt": "2026-11-03"
         }
       ],
-      "hasSelectedFieldReview": false,
-      "selectedFields": 0,
+      "hasSelectedFieldReview": true,
+      "selectedFields": 19,
       "selectedFieldStatuses": {
-        "documented": 0,
-        "not-documented": 0,
-        "conflicting": 0,
+        "documented": 9,
+        "not-documented": 9,
+        "conflicting": 1,
         "roadmap": 0
       },
-      "specificationSources": [],
+      "specificationSources": [
+        {
+          "name": "Aethon — T3 exact model specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — T3/T3XL family webpage",
+          "type": "manufacturer",
+          "url": "https://aethon.com/t3/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
       "sourceReferences": [
         {
           "layer": "model-mention",

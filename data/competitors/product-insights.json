@@ -3373,20 +3373,25 @@
       "highlights": [
         "Omnidirectional mobile robot automatically picks up and drops off carts",
         "Manufacturer-specific T3 datasheet rates cart capacity at 750 lb (340 kg)",
-        "Automatic docking and configurable building-system integration support indoor deliveries"
+        "Automatic docking and configurable building-system integration support indoor deliveries",
+        "The exact T3 sheet rates cart capacity at 340 kg and maximum cart dimensions at 44 x 32 in. Compatible existing carts use an adapted base; the shared 1000 lb headline is not the T3 rating.",
+        "The exact sheet gives nine effective battery hours; the common T3/T3XL page advertises twelve hours without matching operating conditions. Both remain visible as a source conflict; automatic docking is not uninterrupted battery endurance.",
+        "The sheet separates body width and floor-measured height from the 33.81 in / 85.86 cm lift-surface length. Its turning envelope is 49.43 in / 125.56 cm; that is not silently treated as a radius or complete body footprint.",
+        "The four-wheel omnidirectional drive supports lateral/diagonal motion, automatic cart exchange and configurable door/elevator integration. Navigation without AGV guide infrastructure does not remove building integration, Wi-Fi, mapping or operational planning.",
+        "The sheet specifies a 12.7 mm threshold, 31.75 mm gap and 1:12 slope, with automatic charging and 3.2-hour charge time. These are manufacturer limits rather than guaranteed loaded performance on every site."
       ],
       "sources": [
         {
-          "name": "Aethon",
-          "type": "manufacturer",
-          "url": "https://aethon.com/t3/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Aethon",
+          "name": "Aethon — T3 exact model specification",
           "type": "manufacturer",
           "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — T3/T3XL family webpage",
+          "type": "manufacturer",
+          "url": "https://aethon.com/t3/",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": []
@@ -3398,20 +3403,25 @@
       "highlights": [
         "Omnidirectional mobile robot automatically picks up and drops off carts",
         "Manufacturer-specific T3XL datasheet rates cart capacity at 1000 lb (454 kg)",
-        "Automatic docking and configurable building-system integration support indoor deliveries"
+        "Automatic docking and configurable building-system integration support indoor deliveries",
+        "The exact T3XL sheet rates cart capacity at 454 kg and maximum cart dimensions at 56 x 32 in. Compatible existing carts use an adapted base; the shared 1000 lb headline is not the T3 rating.",
+        "The exact sheet gives nine effective battery hours; the common T3/T3XL page advertises twelve hours without matching operating conditions. Both remain visible as a source conflict; automatic docking is not uninterrupted battery endurance.",
+        "The sheet separates body width and floor-measured height from the 45.9 in / 116.6 cm lift-surface length. Its turning envelope is 62 in / 157 cm; that is not silently treated as a radius or complete body footprint.",
+        "The four-wheel omnidirectional drive supports lateral/diagonal motion, automatic cart exchange and configurable door/elevator integration. Navigation without AGV guide infrastructure does not remove building integration, Wi-Fi, mapping or operational planning.",
+        "The sheet specifies a 12.7 mm threshold, 31.75 mm gap and 1:12 slope, with automatic charging and 3.2-hour charge time. These are manufacturer limits rather than guaranteed loaded performance on every site."
       ],
       "sources": [
         {
-          "name": "Aethon",
-          "type": "manufacturer",
-          "url": "https://aethon.com/t3/",
-          "checkedAt": "2026-11-01"
-        },
-        {
-          "name": "Aethon",
+          "name": "Aethon — T3XL exact model specification; legacy Quadro XL table label",
           "type": "manufacturer",
           "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3XL-1.pdf",
-          "checkedAt": "2026-11-01"
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — T3/T3XL family webpage",
+          "type": "manufacturer",
+          "url": "https://aethon.com/t3/",
+          "checkedAt": "2026-11-03"
         }
       ],
       "discoveredIn": []
@@ -35559,6 +35569,96 @@
       ],
       "discoveredIn": [
         "https://cdn.prod.website-files.com/694601eb982190a0a03ecc31/69a0d402c686fc94c2267b7a_IronBOT%20Specifications%20Sheet%202025.pdf"
+      ]
+    },
+    {
+      "robotId": "aethon-zena-rx",
+      "manufacturer": "Aethon",
+      "model": "Zena RX",
+      "highlights": [
+        "Four separately secured compartments support up to four delivery destinations per run. Optional employee PIN-plus-fingerprint access and arrangements with up to sixteen baskets are clinical workflow features, not a universal cybersecurity certification.",
+        "The exact model sheet gives 45 kg material capacity, ten-hour battery runtime and 3.2-hour charging. Payload mass is not unloaded robot weight; cabinet volume is not material mass or a water tank.",
+        "The center-drive chassis has lidar, side-curtain lidar, 3D sensors and sonar. Maximum 0.76 m/s travel, 12.7 mm thresholds, 31.75 mm gaps and 1:12 slopes remain deployment limits rather than independently tested all-site capability.",
+        "Standard compartments are 13 x 17 x 14 in W/D/H, or 27 x 17 x 14 in with the divider removed. The 34.7 in / 88 cm figure is a turning envelope in the table but labelled turning radius in the diagram; its geometric interpretation remains unresolved.",
+        "The charging dock is a separate accessory with its own dimensions, electrical ratings and compatibility list. Hardware/software elevator integration and remote Command Center support are services/configuration; T4H/T4E compatibility codes do not independently establish new robot models."
+      ],
+      "sources": [
+        {
+          "name": "Aethon — Zena RX exact model specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_ZenaRX-1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — Zena RX clinical product and T2 TUG predecessor",
+          "type": "manufacturer",
+          "url": "https://aethon.com/zena-rx/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — Zena charging dock compatibility and electrical specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2024/07/Aethon_ChargingDock_ZenaRX_Web-1.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_ZenaRX-1.pdf"
+      ]
+    },
+    {
+      "robotId": "aethon-zena",
+      "manufacturer": "Aethon",
+      "model": "Zena",
+      "highlights": [
+        "Guests receive a QR or PIN by mobile message to open the relevant secured compartment. Four compartments can serve different destinations or combine into two larger spaces; this access workflow does not inherit Zena RX fingerprint scanning.",
+        "The exact model sheet gives 45 kg material capacity, ten-hour battery runtime and 3.2-hour charging. Payload mass is not unloaded robot weight; cabinet volume is not material mass or a water tank.",
+        "The center-drive chassis has lidar, side-curtain lidar, 3D sensors and sonar. Maximum 0.76 m/s travel, 12.7 mm thresholds, 31.75 mm gaps and 1:12 slopes remain deployment limits rather than independently tested all-site capability.",
+        "Standard compartments are 13 x 17 x 14 in W/D/H, or 27 x 17 x 14 in with the divider removed. The 34.7 in / 88 cm figure is a turning envelope in the table but labelled turning radius in the diagram; its geometric interpretation remains unresolved.",
+        "The charging dock is a separate accessory with its own dimensions, electrical ratings and compatibility list. Hardware/software elevator integration and remote Command Center support are services/configuration; T4H/T4E compatibility codes do not independently establish new robot models."
+      ],
+      "sources": [
+        {
+          "name": "Aethon — Zena hospitality exact model specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_Zena-1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — Zena hospitality product",
+          "type": "manufacturer",
+          "url": "https://aethon.com/hospitality-robot-zena/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — Zena charging dock compatibility and electrical specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2024/07/Aethon_ChargingDock_ZenaRX_Web-1.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_Zena-1.pdf"
+      ]
+    },
+    {
+      "robotId": "aethon-t2-tug",
+      "manufacturer": "Aethon",
+      "model": "T2 TUG",
+      "highlights": [
+        "Aethon’s current Zena RX page explicitly names its own predecessor as T2 TUG. This is a historical model reference rather than a new name for Zena RX or an exact identity for every generic TUG mention.",
+        "No current Zena RX cabinet, battery, capacity or navigation specification is transferred to T2 TUG. Predecessor wording does not independently establish a launch date, discontinuation date or current support availability."
+      ],
+      "sources": [
+        {
+          "name": "Aethon — Zena RX clinical product and T2 TUG predecessor",
+          "type": "manufacturer",
+          "url": "https://aethon.com/zena-rx/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "discoveredIn": [
+        "https://aethon.com/zena-rx/"
       ]
     }
   ]

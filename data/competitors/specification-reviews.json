@@ -139235,6 +139235,597 @@
           "note": "Current generic family page calls 5000 lb/hour an average and elsewhere says over 5000. It does not establish that every V3.0 configuration achieves this over a full shift."
         }
       }
+    },
+    {
+      "robotId": "aethon-t3",
+      "manufacturer": "Aethon",
+      "model": "T3",
+      "sources": [
+        {
+          "name": "Aethon — T3 exact model specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — T3/T3XL family webpage",
+          "type": "manufacturer",
+          "url": "https://aethon.com/t3/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-134/source-3.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "size": {
+          "value": "57 cm body width; 122.09 cm height measured from floor; lift-surface length 33.81 in / 85.86 cm, not total body length",
+          "status": "documented",
+          "note": "Only text-labelled width, floor-measured height and lift-surface length retained. No unqualified overall body length reconstructed from native drawing layout."
+        },
+        "batteryLife": {
+          "value": "9 h effective runtime in exact model sheet vs 12 h unconditioned shared family page; unresolved",
+          "status": "conflicting",
+          "note": "Exact separately labelled model sheet: Effective Run-Time 9.0 hours. Shared family webpage: 12 HOUR RUN-TIME. Matching load, conditions and generation not established."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "750/1000 lb are cart/material capacity, now retained in transportPayload; not an arm flange payload."
+        },
+        "speed": {
+          "value": "0.76 m/s maximum travel (30 in/s, rounded)",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "terrain": {
+          "value": "Indoor; maximum 12.7 mm threshold, 31.75 mm gap and 1:12 slope (approximately 5 degrees)",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "website": {
+          "value": "https://aethon.com/t3/",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "description": {
+          "value": "Omnidirectional cart carrier with automatic under-cart pickup, securing clamps and release. The exact T3 sheet rates material capacity at 340 kg and provides travel, charging and terrain limits. Effective runtime differs from the shared family headline; cart retrofits and door/elevator integration require configuration.",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 2025/06 hosting path does not establish launch year."
+        },
+        "chargingTime": {
+          "value": "3.2 h from depleted battery",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "driveMode": {
+          "value": "4WD omnidirectional; lateral and diagonal movement",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "transportPayload": {
+          "value": "340 kg cart carrying capacity (750 lb manufacturer label); not arm-tool payload",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact sheet lists turning envelope, not a conventional radius. Kept in highlights; no silent halving."
+        }
+      }
+    },
+    {
+      "robotId": "aethon-t3xl",
+      "manufacturer": "Aethon",
+      "model": "T3XL",
+      "sources": [
+        {
+          "name": "Aethon — T3XL exact model specification; legacy Quadro XL table label",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3XL-1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — T3/T3XL family webpage",
+          "type": "manufacturer",
+          "url": "https://aethon.com/t3/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-134/source-4.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "size": {
+          "value": "57 cm body width; 122.09 cm height measured from floor; lift-surface length 45.9 in / 116.6 cm, not total body length",
+          "status": "documented",
+          "note": "Only text-labelled width, floor-measured height and lift-surface length retained. No unqualified overall body length reconstructed from native drawing layout."
+        },
+        "batteryLife": {
+          "value": "9 h effective runtime in exact model sheet vs 12 h unconditioned shared family page; unresolved",
+          "status": "conflicting",
+          "note": "Exact separately labelled model sheet: Effective Run-Time 9.0 hours. Shared family webpage: 12 HOUR RUN-TIME. Matching load, conditions and generation not established."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "750/1000 lb are cart/material capacity, now retained in transportPayload; not an arm flange payload."
+        },
+        "speed": {
+          "value": "0.76 m/s maximum travel (30 in/s, rounded)",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "terrain": {
+          "value": "Indoor; maximum 12.7 mm threshold, 31.75 mm gap and 1:12 slope (approximately 5 degrees)",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "website": {
+          "value": "https://aethon.com/t3/",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "description": {
+          "value": "Omnidirectional cart carrier with automatic under-cart pickup, securing clamps and release. The exact T3XL sheet rates material capacity at 454 kg and provides travel, charging and terrain limits. Effective runtime differs from the shared family headline; cart retrofits and door/elevator integration require configuration.",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "The 2025/06 hosting path does not establish launch year."
+        },
+        "chargingTime": {
+          "value": "3.2 h charge time; starting state not specified in exact sheet",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "driveMode": {
+          "value": "4WD omnidirectional; lateral and diagonal movement",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "transportPayload": {
+          "value": "454 kg cart carrying capacity (1000 lb manufacturer label); not arm-tool payload",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Exact sheet lists turning envelope, not a conventional radius. Kept in highlights; no silent halving."
+        }
+      }
+    },
+    {
+      "robotId": "aethon-zena-rx",
+      "manufacturer": "Aethon",
+      "model": "Zena RX",
+      "sources": [
+        {
+          "name": "Aethon — Zena RX exact model specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_ZenaRX-1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — Zena RX clinical product and T2 TUG predecessor",
+          "type": "manufacturer",
+          "url": "https://aethon.com/zena-rx/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — Zena charging dock compatibility and electrical specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2024/07/Aethon_ChargingDock_ZenaRX_Web-1.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-134/source-10.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "100 lb / 45 kg is payload weight, not robot mass; left empty."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Compartment W/D/H is explicit but not the outer robot envelope. Whole-body drawing layout could not be visually checked; no unqualified external size inferred."
+        },
+        "batteryLife": {
+          "value": "10 h continuous runtime; manufacturer rating",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cabinet-delivery material capacity belongs in transportPayload, not robot-arm tool load."
+        },
+        "speed": {
+          "value": "0.76 m/s maximum travel (30 in/s, rounded)",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "terrain": {
+          "value": "Indoor; maximum 12.7 mm threshold, 31.75 mm gap and 1:12 slope (approximately 5 degrees)",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "website": {
+          "value": "https://aethon.com/zena-rx/",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "description": {
+          "value": "Clinical delivery robot with four individually secured compartments and optional PIN-plus-fingerprint access. Configurable basket/divider arrangements support pharmacy, laboratory and surgical-material routes. The exact model sheet gives 45 kg carried material capacity and ten-hour runtime; robot mass and complete outer dimensions are not established by compartment or charger measurements.",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Hosting path 2025/06 and dock document path 2024/07 are not model release years."
+        },
+        "chargingTime": {
+          "value": "3.2 h for complete charge",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "driveMode": {
+          "value": "Center drive; not T3/T3XL omnidirectional 4WD",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "transportPayload": {
+          "value": "45 kg carried material capacity (100 lb manufacturer label); robot mass not established",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Table calls 34.7 in/88 cm a turning envelope, while drawing labels it turning radius. Highlight retains this unresolved basis; numeric radius is omitted."
+        }
+      }
+    },
+    {
+      "robotId": "aethon-zena",
+      "manufacturer": "Aethon",
+      "model": "Zena",
+      "sources": [
+        {
+          "name": "Aethon — Zena hospitality exact model specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_Zena-1.pdf",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — Zena hospitality product",
+          "type": "manufacturer",
+          "url": "https://aethon.com/hospitality-robot-zena/",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Aethon — Zena charging dock compatibility and electrical specification",
+          "type": "manufacturer",
+          "url": "https://cdn.aethon.com/wp-content/uploads/2024/07/Aethon_ChargingDock_ZenaRX_Web-1.pdf",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-134/source-12.pdf",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "100 lb / 45 kg is payload weight, not robot mass; left empty."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Compartment W/D/H is explicit but not the outer robot envelope. Whole-body drawing layout could not be visually checked; no unqualified external size inferred."
+        },
+        "batteryLife": {
+          "value": "10 h effective runtime; manufacturer rating",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Cabinet-delivery material capacity belongs in transportPayload, not robot-arm tool load."
+        },
+        "speed": {
+          "value": "0.76 m/s maximum travel (30 in/s, rounded)",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "terrain": {
+          "value": "Indoor; maximum 12.7 mm threshold, 31.75 mm gap and 1:12 slope (approximately 5 degrees)",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "website": {
+          "value": "https://aethon.com/hospitality-robot-zena/",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "description": {
+          "value": "Hospitality delivery robot with four secured compartments that can combine into larger spaces. Guests receive a QR or PIN code on a mobile device; configurable door/elevator integration supports hotel routes. The exact model sheet gives 45 kg carried material capacity and ten-hour runtime; robot mass and complete outer dimensions are not established by compartment or charger measurements.",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Hosting path 2025/06 and dock document path 2024/07 are not model release years."
+        },
+        "chargingTime": {
+          "value": "3.2 h for complete charge",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "driveMode": {
+          "value": "Center drive; not T3/T3XL omnidirectional 4WD",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "transportPayload": {
+          "value": "45 kg carried material capacity (100 lb manufacturer label); robot mass not established",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Table calls 34.7 in/88 cm a turning envelope, while drawing labels it turning radius. Highlight retains this unresolved basis; numeric radius is omitted."
+        }
+      }
+    },
+    {
+      "robotId": "aethon-t2-tug",
+      "manufacturer": "Aethon",
+      "model": "T2 TUG",
+      "sources": [
+        {
+          "name": "Aethon — Zena RX clinical product and T2 TUG predecessor",
+          "type": "manufacturer",
+          "url": "https://aethon.com/zena-rx/",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-134/source-7.html",
+      "fields": {
+        "price": {
+          "value": "Not disclosed",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "weight": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "size": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "batteryLife": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "maxRuntime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "handType": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "dof": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "payload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "speed": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "terrain": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "ipRating": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "ageRange": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "website": {
+          "value": "https://aethon.com/zena-rx/",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "description": {
+          "value": "Historical Aethon delivery robot explicitly named as the T2 TUG predecessor on the manufacturer’s current Zena RX page. This establishes the named predecessor, while its exact chassis dimensions, payload, runtime, release year and present availability remain undocumented in the selected source.",
+          "status": "documented",
+          "note": "Manufacturer documents this value with the stated configuration/operating scope; no independent test is inferred."
+        },
+        "releaseDate": {
+          "value": "",
+          "status": "not-documented",
+          "note": "Explicit predecessor wording establishes relative product history, not a calendar year or discontinuation date."
+        },
+        "chargingTime": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "driveMode": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "transportPayload": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        },
+        "turningRadius": {
+          "value": "",
+          "status": "not-documented",
+          "note": "No exact model value established in the selected sources. Cart capacity, compartment volume, accessory dimensions, family headlines and document dates do not establish this field."
+        }
+      }
     }
   ]
 }
