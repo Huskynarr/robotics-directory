@@ -22,7 +22,7 @@ vollständig gegen Hersteller geprüfter Produktbestand.
 | Marken-/Firmenprofile einschließlich des eigenen Bestands | 1.037 |
 | Davon mit Modellen / reine Quellen-Firmenprofile | 634 / 403 |
 | Beschreibungsnamen mit abgegrenzter Prüfentscheidung | 132 / 132 |
-| Firmenfokus-Prüfungen mit Quellen | 134 |
+| Firmenfokus-Prüfungen mit Quellen | 135 |
 
 Der ursprüngliche Bestand enthält eine inzwischen zusammengeführte JD-Dublette: 1.255 Ausgangszeilen minus eine Dublette plus 1092 ergänzte Modelle ergeben 2.346 Einträge. Alte Links und gespeicherte Auswahlen bleiben erhalten.
 
@@ -41,7 +41,7 @@ Quellenbestand. Auch die 1.037 Profile sind keine Anzahl geprüfter Roboterherst
 Die Übersicht unter `/brands/` durchsucht Namen, Aliasse, Kategorien, Merkmalsthemen und
 bereits zugeordnete Modelle. 553 Profile zeigen kontrollierte Quellenthemen; Firmen-
 beschreibungen und Einsatzfälle stehen getrennt von Produkt-/Dienstleistungslistings.
-134 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
+135 Firmenfokus-Prüfungen nutzen Firmen- oder Integrationspartnerquellen; für Zhigu Tianchu/T-Chef
 steht die überprüfte Firmenadresse getrennt vom Medienlink des Verzeichnisses.
 Modellseiten verlinken Markenprofile. Die 1277 Datensätze
 mit geprüften Produktmerkmalen zeigen Primärquellen und Prüfdatum.
@@ -71,7 +71,7 @@ fehlende oder noch nicht zugeordnete Merkmalsabdeckung.
 
 Die gemeinsame Rechercheliste berücksichtigt zusätzlich geprüfte Listing-Auflösungen
 und Firmenbeschreibungsreferenzen: 489 beziehungsweise 518 Katalogziele. Alle 518
-haben datierte Merkmalsbelege; 473 haben ausgewählte Datenfeldprüfungen und 45
+haben datierte Merkmalsbelege; 474 haben ausgewählte Datenfeldprüfungen und 44
 benötigen diese noch. Familien- und Kontextreferenzen behalten ihren jeweiligen
 Geltungsbereich. Sie werden nicht als exakte Modellidentitäten gewertet. Die Liste
 unter `data/competitors/robot-research-queue.csv` priorisiert die nächste Herstellerprüfung;
@@ -11582,6 +11582,79 @@ und das Versius-Queueziel haben je 17 Status-Einträge. Reimport: null Ergänzun
 Eigene Browser, Server und Hilfsprozesse sind beendet und geprüft.
 
 Daten-Zwischencommit `af7dc21e5c19ac1d7063e84170a3ef58d9ff2243` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
+Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
+offen. Vollständige Portfolios, alle USPs und Rang Nr. 1 sind weiterhin unbewiesen.
+
+
+## Ergänzung 140 – Coco Robotics: Coco 2 mit Reichweiten-, Autonomie- und Generationengrenzen (3. November 2026)
+
+Das vorhandene Coco-2-Modell erhält eine Prüfung von 16 Feldern: sechs dokumentiert,
+zehn nicht dokumentiert. Vier Merkmalsaussagen, drei zusätzliche Produktquellenverweise
+und ein Firmenfokus kommen hinzu; es gibt keinen neuen Modelleintrag. Alle drei alten
+Merkmalsformulierungen, Fund-URL, ID und Medien bleiben erhalten. 2.345 andere
+Katalogzeilen, 1.214 vorherige Feldprüfungen und 134 Firmenfokusse sind unverändert.
+Gesamt: 2.346 Katalogzeilen, 1.277 datierte Merkmalsdatensätze, 5.682 Aussagen,
+2.642 Produktquellenverweise, 1.215 Feldprüfungen mit 23.023 Feldern und
+135 Firmenfokusse. Von 518 ursprünglichen Queue-Zielen haben 474 ausgewählte
+Feldprüfungen; 44 sind noch offen. Dauerbeleg:
+`reports/competitor-batch-140-evidence.json`.
+
+Sieben Herstellerantworten mit HTTP 200 sind gesichert und mit SHA-256 geprüft.
+Die technische Seite wiederholt Inhalte für Animationen und responsive Ansichten.
+Die einzelnen Buchstaben wurden über die tatsächlichen DOM-Textknoten unter
+Beibehaltung nativer Leerzeichen und geschützter Leerzeichen zusammengesetzt;
+die Prüfung nutzt keine OCR, Bilder oder Videoansicht. Die acht numerischen
+Headline-Container sind mit ihrem eigenen Geschwindigkeits-/Reichweitenlabel
+abgeglichen. Es gab keine Anmeldung, Kontaktaufnahme, Formularübermittlung,
+Nachricht, Preisverhandlung, Transaktion oder Medienübernahme.
+
+Die Herstellerseite nennt 21 km/h technischen Geschwindigkeitswert und 32 km
+Reichweite. Die bisherige gerundete Angabe 5,8 m/s wird durch die Originaleinheit
+mit Einschränkung ersetzt. Das ist keine pauschal erlaubte Gehweggeschwindigkeit.
+32 km sind eine Distanz mit nicht ausgewiesenen Last-, Strecken- und
+Wetterbedingungen, keine Stundenlaufzeit. Die animierten Labels nennen 30 %
+maximale Steigung, Drehung auf der Stelle, wechselbare Batterien und Reifen sowie
+Platz für vier 18-Zoll-Pizzen. 30 % werden nicht zu 30 Grad; Pizzaverpackung wird
+nicht zu Kilogramm-Nutzlast, Litern oder Außenmaßen. Die alte unbelegte Größenklasse
+„medium“ wird entfernt. Eine 3.000-lb-Pkw-Vergleichsformulierung der Community-Seite
+liefert kein Robotergewicht. Es entstehen keine erfundenen Schutzarten oder
+Ladedauern aus Wetter- und Wechselakkuwerbung.
+
+Die offizielle Mitteilung trägt ausdrücklich den 26. Februar 2026 und bezeichnet
+Coco 2 als an diesem Tag eingeführt; das bereits eingetragene Jahr 2026 bleibt
+nun mit genau diesem Beleg erhalten. Jetson Orin NX ist Onboard-Rechnerhardware;
+NVIDIA Isaac Sim/Isaac Lab, Omniverse und Cosmos betreffen Simulation und Training,
+keine zusätzlichen Roboter. Die aktuelle Modellseite nennt Karten,
+Neuronetz-Navigation, Kameras, LiDAR, GPS und menschliche Aufsicht. Ein Pilot Terminal
+liefert ETA, Navigation, Hindernisalarme, Fehlerhilfe und Kartenanmerkungen bei
+notwendigem Eingriff. Die undatierte allgemeine Community-Seite spricht weiterhin
+von Fernpiloten; eine exakte Zuordnung zu historischen Hardwaregenerationen bleibt
+offen. Aus „full autonomy“ im Launchtext wird keine Garantie unbesetzter Operation
+in jeder Umgebung. Die Aussage zu Straßen und Radwegen behält „where permitted“.
+
+Bis zu dreifache Uptime im Launchtext hat keine angegebene Vergleichsbasis und
+ist kein Akku-Laufzeitwert. Unter-25-Minuten-Lieferwerbung betrifft die Dienstleistung,
+Gebühren-/Investitionswerbung keinen Roboterkaufpreis. Liefer- und Werbedienst,
+Urban Robotics Platform und Pilot Terminal bleiben von Hardwaremodellen getrennt.
+Der alte Produktpfad `/coco` führt zu `/coco2` und begründet keinen zweiten
+historischen „Coco 1“-Eintrag. Die Gründung 2020 ist kein Coco-2-Erscheinungsjahr.
+„World’s largest“, Flotten-/Lieferzahlen, Kosten-, Zuverlässigkeits-,
+Sicherheits- und Null-Emissionsaussagen sind Herstellerwerbung mit ihrem jeweiligen
+Geltungsbereich, keine unabhängige Marktführung, Lebenszyklusbilanz oder
+exklusive Überlegenheit. Vollständige historische Generationen und alle regionalen
+Betriebsgenehmigungen bleiben ungeprüft.
+
+808 Unit-Tests in 64 Dateien sowie 18 Browserfälle mit vier Axe-Prüfungen bestehen.
+Build: 3.397 Seiten. Audit: null Fehler und unverändert 1.223 Warnungen. Die
+Produktseite mit 16 Feldern, Leerfeldern, Quellen, strukturierten Daten,
+Firmenfokus, Merkmalssuche und Vergleich sowie Modell-/Firmen-/Queue-Exporte sind
+geprüft. Das ursprüngliche Modell-Exportziel und das Queueziel enthalten jeweils
+16 Feldstatus-Einträge. Reimport ergänzt null Modelle und lässt 32 getrackte
+Datendateien byteidentisch; der Offline-Refresh bleibt semantisch idempotent.
+Eigene Browser, Testserver und Hilfsprozesse sind beendet und geprüft.
+
+Daten-Zwischencommit `6e09fac28879b34960b1aff5f3f2cd2266514a39` wurde auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
 Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei ursprüngliche
 Modellidentitäten, neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben
 offen. Vollständige Portfolios, alle USPs und Rang Nr. 1 sind weiterhin unbewiesen.

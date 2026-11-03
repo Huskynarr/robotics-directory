@@ -147,7 +147,7 @@ dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
 company-description references: 518 catalog targets have dated highlights, with
-selected technical-field reviews for 473 and 45 still awaiting those reviews.
+selected technical-field reviews for 474 and 44 still awaiting those reviews.
 Family and contextual references retain their scope; they do not establish exact
 model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
@@ -370,6 +370,13 @@ nominal-width units remain in sourced highlights without inventing total treatme
 swath. Carbon Autonomy early access, remote human supervision and Carbon AI/apps
 remain company/retrofit/software findings. Claimed targeting, weed kill, savings
 and payback are not independently verified field outcomes.
+
+Coco 2 now has a selected technical-field review and a Coco company focus.
+The explicit February 26, 2026 launch supports its release year. Manufacturer
+ratings of 21 km/h, 32 km distance and 30% grade stay distinct from lawful sidewalk
+speed, battery hours and degrees. Human oversight and Pilot Terminal intervention
+remain visible; packing capacity and service uptime do not become robot mass,
+body dimensions or runtime. The legacy Coco route redirects to Coco 2.
 
 CMR Surgical now has selected reviews for original Versius and newly added
 Versius Plus. Component mass/dimensions and restricted bedside-arm battery support
@@ -1152,18 +1159,18 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-23,007 fields across 1214 models, distinguishing documented, undisclosed, conflicting and
+23,023 fields across 1215 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
-A separate 6,198 kB JSON response loads only for search or comparison;
+A separate 6,204 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 5,678 reviewed highlight statements as well as
+Catalog search now includes all 5,682 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
