@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,378 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,382 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,610 fields across 1362 models, distinguishing documented, undisclosed, conflicting and
+25,682 fields across 1366 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,801 kB JSON response loads only for search or comparison;
+A separate 6,813 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,367 reviewed highlight statements as well as
+Catalog search now includes all 6,387 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1849,3 +1849,16 @@ the ~2 hour, 85 min and 110 min battery labels and the 180 min runtime values
 are replaced or cleared. The GOAT GX-600 page publishes no price, mass,
 dimensions, battery capacity, charging time or runtime in minutes.
 
+iRobot's Roomba Combo Essential, Roomba 694, Roomba i3+ and Roomba Combo
+j5+ now have selected field reviews. The manufacturer publishes 12.99 x 12.99 x
+3.15 in, 6.17 lb, a lithium-ion battery and up to 120 min runtime for the
+Roomba Combo Essential; 13.4 in width x 3.54 in high, 6.77 lb and a
+lithium-ion battery for the Roomba 694; 13.26 in width x 3.63 in high, 7.44 lb,
+a lithium-ion battery and a Clean Base that holds 60 days of debris for the
+Roomba i3+; and 3.4 x 13.3 x 13.3 in, 7.5 lb, a lithium-ion battery and a
+Clean Base of 15.8 x 12.2 x 13.3 in and 8.7 lb for the Roomba Combo j5+.
+Catalog prices of 275, ~275 and ~599 USD, the small size label, the 3.2 kg,
+3.07 kg and 3.4 kg masses, the 34 x 34 x 9 cm and 34 x 34 x 9.2 cm
+dimensions, the 90 min, 75 min and 2 hour battery labels and the 120 min,
+90 min and 75 min runtime values are replaced or cleared. The Roomba 694 and
+i3+ pages publish no price, runtime in minutes or charging time.

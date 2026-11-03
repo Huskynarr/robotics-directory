@@ -1,0 +1,978 @@
+{
+  "batch": 178,
+  "checkedAt": "2026-11-04",
+  "manufacturers": [
+    "iRobot"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 72,
+  "fieldStatuses": {
+    "documented": 27,
+    "not-documented": 45
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four existing catalog rows that previously had no field review were reviewed against current iRobot US product pages. Roomba Combo Essential, Roomba 694, Roomba i3+ and Roomba Combo j5+ are four separate current models with their own product pages. No new model was created and no company focus was added; the existing iRobot company focus stays unchanged. The reviewed Combo Essential page publishes a 274.99 USD price, so the catalog 275 USD price and small size label are replaced; the Roomba 694 and i3+ pages show no price, so the catalog ~275 and ~599 USD prices are cleared. The Combo j5+ page publishes 729.99 USD, so the catalog ~599 USD price is replaced. The catalog 3.2 kg, 3.07 kg and 3.4 kg masses are replaced by reviewed masses where published and cleared where only a partial dimension pair is published; the catalog 34 x 34 cm and 34 x 34 x 9.2 cm dimensions are replaced or cleared; and the catalog 90 min, 75 min and 2 hour battery labels and 120 min, 90 min and 75 min runtime values are replaced or cleared. Only the Combo Essential page publishes a runtime in minutes.",
+  "pendingPortfolioLeads": [
+    {
+      "name": "iRobot Roomba 694 and i3+ runtime and charging time",
+      "scope": "The reviewed Roomba 694 and i3+ pages publish a lithium-ion battery type but no capacity in mAh, no runtime in minutes and no charging time. The catalog 90 min and 75 min battery and runtime values are cleared and these fields remain unrecorded.",
+      "source": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html"
+    },
+    {
+      "name": "iRobot Roomba 694 and i3+ price",
+      "scope": "The reviewed Roomba 694 and i3+ pages show no current price, while the Roomba Combo j5+ page lists 729.99 USD and the Combo Essential page 274.99 USD. The catalog ~275 and ~599 USD prices for the 694 and i3+ rows are cleared instead of carrying unverified prices.",
+      "source": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.irobot.com/en_US/roomba-combo-essential-robot/Y014020.html",
+      "finalUrl": "https://www.irobot.com/en_US/roomba-combo-essential-robot/Y014020.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T23:34:31.356347+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "cdf7f59f3cfe5ec8a8d87126bd943c3a5e89be2414e9017daab2186b85f24523",
+      "textFile": "source-1-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html",
+      "finalUrl": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T23:34:32.045351+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "b372e018d8532adaac0ca6811ef8753bebb4c6a561cd168cd5bef9f092e65076",
+      "textFile": "source-2-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html",
+      "finalUrl": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T23:34:32.877574+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "d6454a35118e5678a0232ae204b5cfdfd5c8e402e2d2ef25d7f7091ade21df04",
+      "textFile": "source-3-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "id": 4,
+      "url": "https://www.irobot.com/en_US/roomba-combo-j5plus-self-emptying-robot-vacuum-and-mop/J557020.html",
+      "finalUrl": "https://www.irobot.com/en_US/roomba-combo-j5plus-self-emptying-robot-vacuum-and-mop/J557020.html",
+      "status": 200,
+      "checkedAt": "2026-11-03T23:34:33.538585+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "96290e9b81656ebf3dd3a7f8031a09701b060ecd4e5eda019952a55f6e800d41",
+      "textFile": "source-4-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "irobot-roomba-combo-essential",
+      "manufacturer": "iRobot",
+      "model": "Roomba Combo Essential",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "274.99 USD",
+        "weight": "6.17 lb",
+        "size": "12.99 x 12.99 x 3.15 in",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "Up to 120 min per charge",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "Autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-combo-essential-robot/Y014020.html",
+        "description": "The iRobot Roomba Combo Essential is a 2-in-1 vacuum and mop robot measuring 12.99 x 12.99 x 3.15 in and weighing 6.17 lb. It offers three suction levels and three water levels, spot cleaning for up to 2 minutes, app and voice control and up to 120 minutes of cleaning on a single charge, after which it returns to its charging dock. The page publishes a lithium-ion battery type but no capacity in mAh and no charging time. Current price is 274.99 USD. No payload, travel speed, IP rating, degrees of freedom, cleaning width, hourly area rate, water tank capacity or minimum aisle width is published; the catalog 275 USD price and small size label are replaced by 274.99 USD and the reviewed dimensions.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch178. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate iRobot models. Unsupported catalog price, size, battery and runtime values are cleared or replaced.",
+      "sources": [
+        {
+          "name": "iRobot - Roomba Combo Essential",
+          "type": "manufacturer",
+          "url": "https://www.irobot.com/en_US/roomba-combo-essential-robot/Y014020.html",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The iRobot Roomba Combo Essential is a 2-in-1 vacuum and mop robot measuring 12.99 x 12.99 x 3.15 in and weighing 6.17 lb.",
+        "It offers three suction levels and three water levels and cleans for up to 120 minutes on a single charge before returning to its dock.",
+        "The page publishes a lithium-ion battery type but no capacity in mAh and no charging time.",
+        "Spot cleaning runs for up to 2 minutes, and the bin can be filled with water for wet mopping with the pad attached.",
+        "The catalog 275 USD price and small size label are replaced by 274.99 USD and the reviewed dimensions; no payload, travel speed or IP rating is published."
+      ]
+    },
+    {
+      "robotId": "irobot-roomba-694",
+      "manufacturer": "iRobot",
+      "model": "Roomba 694",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "6.77 lb",
+        "size": "13.4 in width x 3.54 in high",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "Autonomous vacuum robot",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html",
+        "description": "The iRobot Roomba 694 is a robot vacuum with a 3-Stage Cleaning System, an Edge-Sweeping Brush and iRobot Genius scheduling. The reviewed specification block publishes 13.4 in width x 3.54 in high robot dimensions, a 6.77 lb robot weight and a lithium-ion battery type, with retail box dimensions of 15.47 x 17.47 x 12.7. No price, runtime in minutes, battery capacity in mAh or charging time is published; the catalog ~275 USD price, 3.07 kg mass, 34 x 34 x 9 cm dimensions, 90 min battery and 90 min runtime values are cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch178. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate iRobot models. Unsupported catalog price, size, battery and runtime values are cleared or replaced.",
+      "sources": [
+        {
+          "name": "iRobot - Roomba 694",
+          "type": "manufacturer",
+          "url": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The iRobot Roomba 694 is a robot vacuum measuring 13.4 in width x 3.54 in high and weighing 6.77 lb.",
+        "It uses a 3-Stage Cleaning System, an Edge-Sweeping Brush and iRobot Genius scheduling with voice assistant support.",
+        "The reviewed specification block publishes a lithium-ion battery type but no capacity in mAh, no runtime in minutes and no charging time.",
+        "The catalog ~275 USD price, 3.07 kg mass, 34 x 34 x 9 cm dimensions, 90 min battery and 90 min runtime values are cleared.",
+        "No payload, travel speed, IP rating, cleaning width, hourly area rate, water tank capacity or minimum aisle width is published."
+      ]
+    },
+    {
+      "robotId": "irobot-roomba-i3-plus",
+      "manufacturer": "iRobot",
+      "model": "Roomba i3+",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "7.44 lb",
+        "size": "13.26 in width x 3.63 in high",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "Autonomous vacuum robot with self-emptying base",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html",
+        "description": "The iRobot Roomba i3+ EVO is a robot vacuum with 10x power-lifting suction, a 3-Stage Cleaning System and Imprint Link technology. The reviewed specification block publishes 13.26 in width x 3.63 in high robot dimensions, a 7.44 lb robot weight and a lithium-ion battery type, with a 21.56 lb box weight and a Clean Base measuring 12.2 x 15.1 x 19 in. The Clean Base empties the bin for up to 60 days. No price, runtime in minutes, battery capacity in mAh or charging time is published; the catalog ~599 USD price, 3.4 kg mass, 34 x 34 x 9.2 cm dimensions, 75 min battery and 75 min runtime values are cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch178. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate iRobot models. Unsupported catalog price, size, battery and runtime values are cleared or replaced.",
+      "sources": [
+        {
+          "name": "iRobot - Roomba i3+",
+          "type": "manufacturer",
+          "url": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The iRobot Roomba i3+ EVO is a robot vacuum measuring 13.26 in width x 3.63 in high and weighing 7.44 lb.",
+        "It delivers 10x power-lifting suction with a 3-Stage Cleaning System and Imprint Link technology.",
+        "The Clean Base automatic dirt disposal empties the bin into an enclosed bag that holds up to 60 days of debris.",
+        "The reviewed specification block publishes a lithium-ion battery type but no capacity in mAh, no runtime in minutes and no charging time.",
+        "The catalog ~599 USD price, 3.4 kg mass, 34 x 34 x 9.2 cm dimensions, 75 min battery and 75 min runtime values are cleared."
+      ]
+    },
+    {
+      "robotId": "irobot-roomba-combo-j5-plus",
+      "manufacturer": "iRobot",
+      "model": "Roomba Combo j5+",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "729.99 USD",
+        "weight": "7.5 lb",
+        "size": "3.4 x 13.3 x 13.3 in",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "Autonomous vacuum and mop robot with self-emptying base",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-combo-j5plus-self-emptying-robot-vacuum-and-mop/J557020.html",
+        "description": "The iRobot Roomba Combo j5+ is a vacuum and mop robot measuring 3.4 x 13.3 x 13.3 in and weighing 7.5 lb, with a Clean Base measuring 15.8 x 12.2 x 13.3 in and weighing 8.7 lb. It uses PrecisionVision Navigation for obstacle avoidance and No Mop Zones, and the Clean Base empties the vacuum bin into a bag that holds up to 60 days of debris. The page publishes a lithium-ion battery type but no capacity in mAh, no runtime in minutes and no charging time. Current price is 729.99 USD. No payload, travel speed, IP rating, degrees of freedom, cleaning width, hourly area rate, water tank capacity or minimum aisle width is published; the catalog ~599 USD price, 3.4 kg mass, 34 x 34 x 8.7 cm dimensions, 75 min battery and 75 min runtime values are replaced or cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch178. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate iRobot models. Unsupported catalog price, size, battery and runtime values are cleared or replaced.",
+      "sources": [
+        {
+          "name": "iRobot - Roomba Combo j5+",
+          "type": "manufacturer",
+          "url": "https://www.irobot.com/en_US/roomba-combo-j5plus-self-emptying-robot-vacuum-and-mop/J557020.html",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The iRobot Roomba Combo j5+ is a vacuum and mop robot measuring 3.4 x 13.3 x 13.3 in and weighing 7.5 lb.",
+        "Its Clean Base measures 15.8 x 12.2 x 13.3 in, weighs 8.7 lb and holds a bag with up to 60 days of debris.",
+        "PrecisionVision Navigation recognizes objects and avoids obstacles, and No Mop Zones keep carpets dry.",
+        "The reviewed specification block publishes a lithium-ion battery type but no capacity in mAh, no runtime in minutes and no charging time.",
+        "The catalog ~599 USD price, 3.4 kg mass, 34 x 34 x 8.7 cm dimensions, 75 min battery and 75 min runtime values are replaced by 729.99 USD and the reviewed values."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "irobot-roomba-combo-essential",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba Combo Essential",
+        "price": "275 USD",
+        "weight": "3.2 kg",
+        "size": "small",
+        "batteryLife": "2 hours",
+        "maxRuntime": "120 min",
+        "tags": "consumer;mapping;mop;vacuum;wifi",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-combo-essential-robot/Y014020.html",
+        "image": "images/household/irobot-roomba-combo-essential.webp",
+        "video": "",
+        "gallery": "",
+        "description": "4-Stage Cleaning, 18x suction, smart navigation, microfiber mop pad",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba Combo Essential",
+        "price": "274.99 USD",
+        "weight": "6.17 lb",
+        "size": "12.99 x 12.99 x 3.15 in",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "Up to 120 min per charge",
+        "tags": "consumer;mapping;mop;vacuum;wifi",
+        "handType": "Autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-combo-essential-robot/Y014020.html",
+        "image": "images/household/irobot-roomba-combo-essential.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The iRobot Roomba Combo Essential is a 2-in-1 vacuum and mop robot measuring 12.99 x 12.99 x 3.15 in and weighing 6.17 lb. It offers three suction levels and three water levels, spot cleaning for up to 2 minutes, app and voice control and up to 120 minutes of cleaning on a single charge, after which it returns to its charging dock. The page publishes a lithium-ion battery type but no capacity in mAh and no charging time. Current price is 274.99 USD. No payload, travel speed, IP rating, degrees of freedom, cleaning width, hourly area rate, water tank capacity or minimum aisle width is published; the catalog 275 USD price and small size label are replaced by 274.99 USD and the reviewed dimensions.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "irobot-roomba-694",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba 694",
+        "price": "~275 USD",
+        "weight": "3.07 kg",
+        "size": "34x34x9 cm",
+        "batteryLife": "90 min",
+        "maxRuntime": "90 min",
+        "tags": "vacuum;consumer;app-control;wifi",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "Power-Lifting Suction",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html",
+        "image": "images/cleaning/irobot-roomba-694.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Budget Wi-Fi Roomba with 3-stage cleaning for pet hair",
+        "releaseDate": "2020",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba 694",
+        "price": "",
+        "weight": "6.77 lb",
+        "size": "13.4 in width x 3.54 in high",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "",
+        "tags": "vacuum;consumer;app-control;wifi",
+        "handType": "Autonomous vacuum robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html",
+        "image": "images/cleaning/irobot-roomba-694.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The iRobot Roomba 694 is a robot vacuum with a 3-Stage Cleaning System, an Edge-Sweeping Brush and iRobot Genius scheduling. The reviewed specification block publishes 13.4 in width x 3.54 in high robot dimensions, a 6.77 lb robot weight and a lithium-ion battery type, with retail box dimensions of 15.47 x 17.47 x 12.7. No price, runtime in minutes, battery capacity in mAh or charging time is published; the catalog ~275 USD price, 3.07 kg mass, 34 x 34 x 9 cm dimensions, 90 min battery and 90 min runtime values are cleared.",
+        "releaseDate": "2020",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "irobot-roomba-i3-plus",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba i3+",
+        "price": "~599 USD",
+        "weight": "3.4 kg",
+        "size": "34x34x9.2 cm",
+        "batteryLife": "75 min",
+        "maxRuntime": "75 min",
+        "tags": "vacuum;consumer;app-control;wifi;mapping;auto-empty",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "Power-Lifting Suction",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html",
+        "image": "images/cleaning/irobot-roomba-i3-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Self-emptying Roomba with smart mapping and Clean Base",
+        "releaseDate": "2020",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba i3+",
+        "price": "",
+        "weight": "7.44 lb",
+        "size": "13.26 in width x 3.63 in high",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "",
+        "tags": "vacuum;consumer;app-control;wifi;mapping;auto-empty",
+        "handType": "Autonomous vacuum robot with self-emptying base",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html",
+        "image": "images/cleaning/irobot-roomba-i3-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The iRobot Roomba i3+ EVO is a robot vacuum with 10x power-lifting suction, a 3-Stage Cleaning System and Imprint Link technology. The reviewed specification block publishes 13.26 in width x 3.63 in high robot dimensions, a 7.44 lb robot weight and a lithium-ion battery type, with a 21.56 lb box weight and a Clean Base measuring 12.2 x 15.1 x 19 in. The Clean Base empties the bin for up to 60 days. No price, runtime in minutes, battery capacity in mAh or charging time is published; the catalog ~599 USD price, 3.4 kg mass, 34 x 34 x 9.2 cm dimensions, 75 min battery and 75 min runtime values are cleared.",
+        "releaseDate": "2020",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "irobot-roomba-combo-j5-plus",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba Combo j5+",
+        "price": "~599 USD",
+        "weight": "3.4 kg",
+        "size": "34x34x8.7 cm",
+        "batteryLife": "75 min",
+        "maxRuntime": "75 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;obstacle-avoidance;auto-empty;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "Power-Lifting Suction",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-combo-j5plus-self-emptying-robot-vacuum-and-mop/J557020.html",
+        "image": "images/cleaning/irobot-roomba-combo-j5-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Self-emptying 2-in-1 Roomba with PrecisionVision obstacle avoidance",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba Combo j5+",
+        "price": "729.99 USD",
+        "weight": "7.5 lb",
+        "size": "3.4 x 13.3 x 13.3 in",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;obstacle-avoidance;auto-empty;ai-powered",
+        "handType": "Autonomous vacuum and mop robot with self-emptying base",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-combo-j5plus-self-emptying-robot-vacuum-and-mop/J557020.html",
+        "image": "images/cleaning/irobot-roomba-combo-j5-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The iRobot Roomba Combo j5+ is a vacuum and mop robot measuring 3.4 x 13.3 x 13.3 in and weighing 7.5 lb, with a Clean Base measuring 15.8 x 12.2 x 13.3 in and weighing 8.7 lb. It uses PrecisionVision Navigation for obstacle avoidance and No Mop Zones, and the Clean Base empties the vacuum bin into a bag that holds up to 60 days of debris. The page publishes a lithium-ion battery type but no capacity in mAh, no runtime in minutes and no charging time. Current price is 729.99 USD. No payload, travel speed, IP rating, degrees of freedom, cleaning width, hourly area rate, water tank capacity or minimum aisle width is published; the catalog ~599 USD price, 3.4 kg mass, 34 x 34 x 8.7 cm dimensions, 75 min battery and 75 min runtime values are replaced or cleared.",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "iRobot",
+      "model": "Roomba Combo Essential",
+      "changes": {
+        "price": {
+          "before": "275 USD",
+          "after": "274.99 USD"
+        },
+        "weight": {
+          "before": "3.2 kg",
+          "after": "6.17 lb"
+        },
+        "size": {
+          "before": "small",
+          "after": "12.99 x 12.99 x 3.15 in"
+        },
+        "batteryLife": {
+          "before": "2 hours",
+          "after": "Lithium-ion"
+        },
+        "maxRuntime": {
+          "before": "120 min",
+          "after": "Up to 120 min per charge"
+        },
+        "handType": {
+          "before": "none",
+          "after": "Autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "4-Stage Cleaning, 18x suction, smart navigation, microfiber mop pad",
+          "after": "The iRobot Roomba Combo Essential is a 2-in-1 vacuum and mop robot measuring 12.99 x 12.99 x 3.15 in and weighing 6.17 lb. It offers three suction levels and three water levels, spot cleaning for up to 2 minutes, app and voice control and up to 120 minutes of cleaning on a single charge, after which it returns to its charging dock. The page publishes a lithium-ion battery type but no capacity in mAh and no charging time. Current price is 274.99 USD. No payload, travel speed, IP rating, degrees of freedom, cleaning width, hourly area rate, water tank capacity or minimum aisle width is published; the catalog 275 USD price and small size label are replaced by 274.99 USD and the reviewed dimensions."
+        }
+      }
+    },
+    {
+      "manufacturer": "iRobot",
+      "model": "Roomba 694",
+      "changes": {
+        "price": {
+          "before": "~275 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "3.07 kg",
+          "after": "6.77 lb"
+        },
+        "size": {
+          "before": "34x34x9 cm",
+          "after": "13.4 in width x 3.54 in high"
+        },
+        "batteryLife": {
+          "before": "90 min",
+          "after": "Lithium-ion"
+        },
+        "maxRuntime": {
+          "before": "90 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "Autonomous vacuum robot"
+        },
+        "speed": {
+          "before": "Power-Lifting Suction",
+          "after": ""
+        },
+        "description": {
+          "before": "Budget Wi-Fi Roomba with 3-stage cleaning for pet hair",
+          "after": "The iRobot Roomba 694 is a robot vacuum with a 3-Stage Cleaning System, an Edge-Sweeping Brush and iRobot Genius scheduling. The reviewed specification block publishes 13.4 in width x 3.54 in high robot dimensions, a 6.77 lb robot weight and a lithium-ion battery type, with retail box dimensions of 15.47 x 17.47 x 12.7. No price, runtime in minutes, battery capacity in mAh or charging time is published; the catalog ~275 USD price, 3.07 kg mass, 34 x 34 x 9 cm dimensions, 90 min battery and 90 min runtime values are cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "iRobot",
+      "model": "Roomba i3+",
+      "changes": {
+        "price": {
+          "before": "~599 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "3.4 kg",
+          "after": "7.44 lb"
+        },
+        "size": {
+          "before": "34x34x9.2 cm",
+          "after": "13.26 in width x 3.63 in high"
+        },
+        "batteryLife": {
+          "before": "75 min",
+          "after": "Lithium-ion"
+        },
+        "maxRuntime": {
+          "before": "75 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "Autonomous vacuum robot with self-emptying base"
+        },
+        "speed": {
+          "before": "Power-Lifting Suction",
+          "after": ""
+        },
+        "description": {
+          "before": "Self-emptying Roomba with smart mapping and Clean Base",
+          "after": "The iRobot Roomba i3+ EVO is a robot vacuum with 10x power-lifting suction, a 3-Stage Cleaning System and Imprint Link technology. The reviewed specification block publishes 13.26 in width x 3.63 in high robot dimensions, a 7.44 lb robot weight and a lithium-ion battery type, with a 21.56 lb box weight and a Clean Base measuring 12.2 x 15.1 x 19 in. The Clean Base empties the bin for up to 60 days. No price, runtime in minutes, battery capacity in mAh or charging time is published; the catalog ~599 USD price, 3.4 kg mass, 34 x 34 x 9.2 cm dimensions, 75 min battery and 75 min runtime values are cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "iRobot",
+      "model": "Roomba Combo j5+",
+      "changes": {
+        "price": {
+          "before": "~599 USD",
+          "after": "729.99 USD"
+        },
+        "weight": {
+          "before": "3.4 kg",
+          "after": "7.5 lb"
+        },
+        "size": {
+          "before": "34x34x8.7 cm",
+          "after": "3.4 x 13.3 x 13.3 in"
+        },
+        "batteryLife": {
+          "before": "75 min",
+          "after": "Lithium-ion"
+        },
+        "maxRuntime": {
+          "before": "75 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "Autonomous vacuum and mop robot with self-emptying base"
+        },
+        "speed": {
+          "before": "Power-Lifting Suction",
+          "after": ""
+        },
+        "description": {
+          "before": "Self-emptying 2-in-1 Roomba with PrecisionVision obstacle avoidance",
+          "after": "The iRobot Roomba Combo j5+ is a vacuum and mop robot measuring 3.4 x 13.3 x 13.3 in and weighing 7.5 lb, with a Clean Base measuring 15.8 x 12.2 x 13.3 in and weighing 8.7 lb. It uses PrecisionVision Navigation for obstacle avoidance and No Mop Zones, and the Clean Base empties the vacuum bin into a bag that holds up to 60 days of debris. The page publishes a lithium-ion battery type but no capacity in mAh, no runtime in minutes and no charging time. Current price is 729.99 USD. No payload, travel speed, IP rating, degrees of freedom, cleaning width, hourly area rate, water tank capacity or minimum aisle width is published; the catalog ~599 USD price, 3.4 kg mass, 34 x 34 x 8.7 cm dimensions, 75 min battery and 75 min runtime values are replaced or cleared."
+        }
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "ecovacs",
+      "name": "Ecovacs",
+      "role": "Consumer and commercial cleaning and lawn-robot developer",
+      "highlights": [
+        "Consumer range includes DEEBOT floor cleaning, WINBOT glass cleaning and GOAT lawn mowing; ECOVACSCommercial separately describes K1 VAC andM1/M1 3D commercial cleaning platforms.",
+        "GOAT A3000 LiDAR PRO, A2000 LiDAR PRO andO1000 LiDAR PRO are separately named hardware models with TruEdge trimming, HoloScope 360 dual-LiDAR and AIVI 3D claims. Garage/blade accessory bundles are not extra robot models.",
+        "Commercial tables retain task-specific endurance, roller width, theoretical area rate and clean/recovery tank capacity. K1 charging and area-rate disagreements are exposed rather than averaged.",
+        "WINBOT robot mass, portable station battery duration, power-off protection, water tank and area-time rate are separate quantities. Exterior-window use retains the manual tether/weather conditions.",
+        "US product prices and stock are dated regional observations. OriginalA3000 out-of-stock status is not inherited byPRO models; model-selector/accessory prices are not substituted for the main product.",
+        "Navigation, obstacle avoidance, edge cutting and productivity remain manufacturer claims; no independently verified exclusivity, zero-risk guarantee or complete historical portfolio asserted.",
+        "The current US DEEBOT range adds T80 OMNI, X8 PRO OMNI, X9 PRO OMNI and X11 OmniCyclone with OZMO roller mopping, TruEdge edge cleaning and OMNI stations.",
+        "The reviewed DEEBOT pages publish 6,400 mAh batteries, 18,000 to 19,500 Pa suction, 4 h 37 min or less charging and 297 min or less silent sweep runtime."
+      ],
+      "sources": [
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacscommercial.com/technical-specification",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/winbot-window-cleaning-robot/winbot-w2-pro-omni",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/goat-robotic-lawn-mower/goat-a3000-lidar",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS — manufacturer product/specifications",
+          "url": "https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro",
+          "type": "manufacturer",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "ECOVACS - DEEBOT T80 OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-t80-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X9 PRO OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x9-pro-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X8 PRO OMNI",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x8-pro-omni",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "ECOVACS - DEEBOT X11 OmniCyclone",
+          "type": "manufacturer",
+          "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-x11-omnicyclone",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewNotes": "Batch163. ECOVACS pages read as text only; no research browser, visual inspection, OCR or media reuse. T80 OMNI, X8 PRO OMNI, X9 PRO OMNI and X11 OmniCyclone are four separate current models. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven."
+    }
+  ],
+  "totalProductHighlightRecords": 1382,
+  "totalHighlightStatements": 6387,
+  "totalProductSourceReferences": 2933,
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 34,
+    "axeCases": 8,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1248,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": [
+      {
+        "id": 1,
+        "bodyShaMatches": true,
+        "bodyBytes": 254047,
+        "textChars": 15161,
+        "url": "https://www.irobot.com/en_US/roomba-combo-essential-robot/Y014020.html"
+      },
+      {
+        "id": 2,
+        "bodyShaMatches": true,
+        "bodyBytes": 201243,
+        "textChars": 9609,
+        "url": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html"
+      },
+      {
+        "id": 3,
+        "bodyShaMatches": true,
+        "bodyBytes": 210541,
+        "textChars": 10432,
+        "url": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html"
+      },
+      {
+        "id": 4,
+        "bodyShaMatches": true,
+        "bodyBytes": 248244,
+        "textChars": 18267,
+        "url": "https://www.irobot.com/en_US/roomba-combo-j5plus-self-emptying-robot-vacuum-and-mop/J557020.html"
+      }
+    ],
+    "body-scope-check": {
+      "allNativeHtml": true,
+      "checks": [
+        {
+          "id": 1,
+          "bodyShaMatches": true,
+          "bodyBytes": 254047,
+          "textChars": 15161,
+          "url": "https://www.irobot.com/en_US/roomba-combo-essential-robot/Y014020.html"
+        },
+        {
+          "id": 2,
+          "bodyShaMatches": true,
+          "bodyBytes": 201243,
+          "textChars": 9609,
+          "url": "https://www.irobot.com/en_US/roomba-vacuuming-robot-vacuum-irobot-roomba-69-4020/R694020.html"
+        },
+        {
+          "id": 3,
+          "bodyShaMatches": true,
+          "bodyBytes": 210541,
+          "textChars": 10432,
+          "url": "https://www.irobot.com/en_US/roomba-i3plus-evo-self-emptying-robot-vacuum/I355420.html"
+        },
+        {
+          "id": 4,
+          "bodyShaMatches": true,
+          "bodyBytes": 248244,
+          "textChars": 18267,
+          "url": "https://www.irobot.com/en_US/roomba-combo-j5plus-self-emptying-robot-vacuum-and-mop/J557020.html"
+        }
+      ]
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "reviewedProducts": 4,
+      "selectedFields": 72,
+      "selectedFieldStatuses": {
+        "documented": 27,
+        "not-documented": 45
+      },
+      "specificationReviewModels": 1366,
+      "specificationFields": 25682,
+      "allFieldStatuses": {
+        "not-documented": 15726,
+        "documented": 9525,
+        "conflicting": 323,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1382,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 72,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 1
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1382,
+      "individualHighlights": 6387,
+      "productSourceReferences": 2933,
+      "specificationReviewModels": 1366,
+      "specificationFields": 25682,
+      "publicJsonBytes": 6813108,
+      "catalogScriptBytes": 2757974,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-03T23:35:48Z",
+            "after": "2026-11-03T23:38:27Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-03T23:35:47.929Z",
+            "after": "2026-11-03T23:38:26.932Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "5def165c9114628f9d9f5f80cfa932b5905b7fe5bfaf2d4ae97f6cab548b061a",
+            "after": "634d0d5548f70cabe4e593de732be4701f9bcb68c3b5fea75511a7d17692ecc2"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T23:35:47.929Z",
+            "after": "2026-11-03T23:38:26.932Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-03T23:35:47.929Z",
+            "after": "2026-11-03T23:38:26.932Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 69,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "8fc955d9bff37bd442c20d5ee289beae1156387b",
+    "dataCommit": "8fc955d9bff37bd442c20d5ee289beae1156387b",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 747,
+  "goalComplete": false
+}
