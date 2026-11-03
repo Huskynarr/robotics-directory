@@ -50,7 +50,7 @@ from product/service listing themes. All counts include category positioning and
 do not establish uniqueness or exhaustive semantic extraction.
 
 The current strict audit includes **nine CSV files and 2,378 catalog rows**, with 646 exact
-manufacturer spellings. Batch 147 refreshed the separate heuristic gap file offline
+manufacturer spellings. Batch 148 refreshed the separate heuristic gap file offline
 against all 2,378 rows (638 normalized manufacturer keys). Matches now require the
 same brand; an identical model name under another manufacturer cannot count as exact.
 It flags 113 model and eleven brand search candidates, including reviewed aliases,
@@ -82,14 +82,14 @@ tables are not automatically verified by highlight-only enrichment.
 The combined saved-source research queue covers 518 catalog targets: 430 from
 explicit model mentions, 489 when reviewed listing resolutions are included and
 518 when reviewed company-description references are included. All 518 have dated
-highlights; 481 have selected-field reviews and 37 await those reviews. Family and
+highlights; 482 have selected-field reviews and 36 await those reviews. Family and
 context references remain labeled and do not become exact model identities. The
 queue also retains all 591 source company groups, including company-only profiles.
 Use `pnpm research:refresh` to refresh coverage, the JSON/CSV research queues,
 heuristic comparison and the four review exports without HTTP.
 
-Selected specification checks cover 23,705 fields across 1254 catalog models: 8,700 documented,
-14,583 not documented, 315 conflicting and 107 roadmap fields. They do not certify whole
+Selected specification checks cover 23,745 fields across 1256 catalog models: 8,721 documented,
+14,600 not documented, 316 conflicting and 108 roadmap fields. They do not certify whole
 products. The model-review CSV includes selected values, review states, URLs and dates.
 Charging time now has its own column; maxRuntime remains operating endurance.
 
@@ -10162,3 +10162,91 @@ Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Mo
 neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Vollständige
 historische Portfolios, aktuelle Lieferbarkeit, alle USPs und Marktführerschaft
 sind weiterhin unbewiesen.
+
+
+## Ergänzung 148 – FarmDroid: FD20-Konfigurationen, Solarbetrieb und geplante FD60-Lieferung (3. November 2026)
+
+FD20 und FD60 sind vertieft, ohne weitere Katalogzeilen aus Zubehör oder
+Revisionsbezeichnungen zu erzeugen. Zwei Prüfungen umfassen 40 Felder: 21 dokumentiert,
+17 nicht dokumentiert, eines widersprüchlich und eines Roadmap. Hinzu kommen 16
+Merkmalsaussagen, 17 Produktquellenverweise und ein Firmenfokus. Alle sechs bisherigen
+Merkmale, Fund-URLs, IDs und Medien bleiben erhalten. 2.376 andere Katalogzeilen,
+1.254 frühere Feldprüfungen und 142 Firmenfokusse sind unverändert. Gesamt: 2.378
+Katalogeinträge, 1.309 datierte Merkmalssätze, 5.834 Aussagen, 2.792 Produktquellenverweise,
+1.256 Feldprüfungen mit 23.745 Feldern und 143 Firmenfokusse. Von 518 ursprünglichen
+Queue-Zielen sind 482 technisch teilgeprüft; 36 bleiben offen. Dauerbeleg:
+`reports/competitor-batch-148-evidence.json`.
+
+17 HTTP-Antworten sind gehasht gesichert und geprüft; alle liefern HTTP 200.
+Darunter sind drei Hersteller-Datenblätter mit insgesamt sechs Seiten. HTML und PDF
+sind als Text gelesen; kein Recherchebrowser, keine visuelle Prüfung, OCR oder
+Medienübernahme. Keine Formulare, Konten, Kontaktaufnahme, Nachrichten oder Transaktionen.
+
+Die Herstellerhistorie und die Mitteilung vom 30. März 2023 belegen erste kommerzielle
+FD20-Verkäufe 2019. Die aktuelle v2.6-Tabelle nennt 1.250 kg Standardmasse und 1.800 kg
+mit Extras, bis 3,5 m Arbeitsbreite und 950 m/h hochautomatisiert beziehungsweise
+1.100 m/h manuell. Das ältere Blatt von 2023 nennt 900 kg und 3 m. Werte werden nicht
+versionsübergreifend vermischt; 2025 v2.5/v2.6 sind keine behaupteten ersten Marktstarts.
+Ohne Active Front Wheel nennt das aktuelle Blatt 8 Prozent Längs-/5 Prozent Querneigung,
+mit der Option 10 Prozent auf beiden Achsen, abhängig vom Boden. Prozent sind keine Grad.
+Arbeitsbreite und Radabstand sind keine vollständigen Außenabmessungen.
+
+FD20-Detailseite und v2.6-Blatt nennen bis 6 ha pro Tag, die weiterhin erreichbare
+Produktübersicht bis 6,5 ha. Dieser Unterschied bleibt widersprüchlich. Historische
+5 ha im v2.5-Blatt und 6,5 ha im Blatt von 2023 behalten ihre Quelle. Rund 20 ha je
+Kultur und Saison sind eine andere Planungsgröße mit wiederholten Arbeitsgängen.
+Die 8 mm sind herstellerbehauptete GPS-Saatpositionspräzision, kein unabhängiger
+allgemeiner RMS-Navigationstest. Die FAQ beschreibt ausdrücklich eine Kamera zur
+Fernansicht: Verzicht auf visuelle Pflanzenerkennung bedeutet nicht völlige Kamerafreiheit.
+
+Die bisherige FD20-Angabe 18–24 Stunden wechselt aus Batterielaufzeit in den erklärten
+täglichen Betriebszeitraum mit laufendem Solareintrag. Eine Akkuladung allein ist
+damit nicht belegt. Optionaler Power Bank: bis zwölf Zusatzstunden und 10–12 Stunden
+am eigenen Ladegerät; diese Angaben sind keine generelle Roboter-Ladezeit oder
+36-Stunden-Laufzeit. Die Texte enthalten dimensionsunklare Angaben „1.6 kWh output“
+und „kW per hour“; sie werden nicht still korrigiert oder zu Ladezeiten verrechnet.
+Die Vorteilsseite nennt separat 1,6 kWp Solarleistung, das aktuelle Blatt 6 kWh
+Kapazität. Stromleistung, gespeicherte Energie und täglicher Ertrag bleiben getrennt.
+
++Seed 6 mm und 14 mm haben unterschiedliche Saatgutgrößen und Konfigurationen;
+die 14-mm-Seite beschreibt acht Kundenroboter im Testjahr 2025. +Spray ist optional
+für FD20 und laut Hersteller für 2.4/2.5/2.6 nachrüstbar. 7 × 7 cm Mikroflecken,
+24 Stunden täglicher Spot- beziehungsweise zwölf Stunden Bandbetrieb sowie 5/2,5 ha
+je Tankfüllung sind Aufgaben-/Herstellerangaben, keine unabhängigen Laufzeit- oder
+Einsparnachweise. Die schwarze Sonderedition vom Juli 2024 ergänzt Service,
+Garantie und Werkzeug, ohne belegte weitere mechanische Plattform. Module, Power Bank,
+Werkzeuge, Transporthilfen, App und Odin werden nicht zu neuen Roboter-Modellen.
+
+FD60 ist im Herbst 2026 eingeführt; die aktuelle Seite nimmt Bestellungen an und
+kündigt Lieferungen ab Januar 2027 an. Das Jahr 2027 bleibt Roadmap. Die Mitteilung
+vom 18. Juni 2026 erwartete für eine damals unbenannte größere Plattform Frühjahr
+2027; der abweichende Monat wird nicht versteckt. Bestellungen und gemeinsame
+Plattformhistorie belegen keine ausgelieferte FD60-Flotte. Angekündigt sind bis
+20 Reihen, 6,75 m Arbeitsbreite, bis 18 ha pro Tag und rund 60 ha je Kultur/Saison.
+Nur das größere 14-mm-Saatsystem ist vorgesehen, +Spray ausdrücklich nicht kompatibel.
+FD20-Gewicht, Geschwindigkeit und Hanggrenzen werden nicht übernommen.
+
+Die FD60-Seite nennt acht Solarmodule mit 3,7 kW und bis 24 kWh Tagesertrag,
+23,5 kWh Batterie mit bis zehn Betriebsstunden sowie einen 3-kW-Benzingenerator mit
+zwölf Litern Tank. Der Generator lädt die Batterie und treibt die Räder nicht direkt.
+Bis 24 Stunden täglicher Betrieb enthalten weitere Energiezufuhr und sind weder
+24 Stunden allein aus Akku noch kraftstofffreier Betrieb. Herstellerangaben zu
+Amortisation, Ertrag, Chemikalienbedarf und Marktführerschaft bleiben attribuiert.
+
+808 Unit-Tests in 64 Dateien und 22 Browserfälle einschließlich vier Axe-Prüfungen
+bestehen. Build: 3.429 Seiten. Datenaudit: null Fehler und 1243 Warnungen.
+Zwei Detailseiten mit 40 Feldern, Quellenstatus, strukturierte Daten ohne erfundene
+Preisangebote, Firmenfokus, Merkmalsuche und Vergleich sind geprüft. Die ursprünglichen
+Modell- und Firmenbeschreibungs-Exporte enthalten keinen FarmDroid-Modellnamen;
+der FD20 kam aus einer getrennten Listingauflösung. Firmen- und Queue-Export sind
+geprüft; die Queue enthält 20 Feldstatus-Einträge. Identitätsdateien bleiben unverändert.
+Reimport: null Ergänzungen und 32 getrackte Datendateien byteidentisch. Offline-Refresh
+ist bis auf Zeitstempel und deren Digest semantisch idempotent. Geänderte Testdatei:
+ESLint/Prettier bestanden. Kanonische JSON-Serialisierung geprüft. Keine Änderung am
+Anwendungscode oder CSV-Schema. Eigene Browser, Testserver und Hilfsprozesse sind
+beendet und ihre Freigabe ist geprüft.
+
+Daten-Zwischencommit `bd0dbe4d5aac45a9bfd893d672e1735bd8858e25` ist auf `codex/competitor-directory-expansion` gepusht und remote bestätigt.
+Main bleibt `20a2844346914d8d28958aa3b4e51897c4e9e6ff`; kein Deployment. Drei Modellidentitäten,
+neun Listingidentitäten und 862 Detailinhaltsprüfungen bleiben offen. Revisionsgeschichte,
+vollständige Portfolios, alle USPs und Marktführerschaft sind weiterhin unbewiesen.
