@@ -1,0 +1,900 @@
+{
+  "batch": 187,
+  "checkedAt": "2026-11-04",
+  "manufacturers": [
+    "Eufy"
+  ],
+  "catalogModelsBefore": 2380,
+  "catalogModelsAfter": 2380,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 71,
+  "fieldStatuses": {
+    "documented": 29,
+    "not-documented": 42
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four existing catalog rows that previously had no field review were reviewed against current Eufy product and comparison pages. X10 Pro Omni, Omni S1 Pro, L60 and Robot Lawn Mower E15 are four separate models with their own pages. No new model was created and no Eufy company focus review exists. The X10 Pro Omni page marks the product as no longer available, publishes 899.99 USD, 8,000 Pa, dual rotating mop pads, 173 minutes of vacuum run time and 136 minutes of vacuum-and-mop run time, but publishes no robot mass or battery capacity, and its comparison table disagrees with the FAQ on robot dimensions. The Omni S1 Pro page lists the model as discontinued and publishes 1,499.99 USD, 8,000 Pa, HydroJet self-cleaning and ozone disinfection, but no dimensions, mass, battery or run time. The L60 page lists the series as discontinued and publishes 5,000 Pa, iPath navigation, a 3.9 in body, 120 minutes of run time and a 3 L dust bag, but no price, dimensions, mass or battery. The E15 page publishes 1,799.99 USD, 0.2 acres, an 8 in cutting width, 1 to 3 in cutting height, 18-degree slopes, 12.5 kg, 60.3 x 39.4 x 31.8 cm, IPX6, a 93.24 Wh battery and 90 to 110 minutes of mowing and charging. No reviewed page publishes payload, travel speed, hourly area rate or water tank capacity; the catalog values for those fields remain unrecorded.",
+  "pendingPortfolioLeads": [
+    {
+      "name": "Eufy X10 Pro Omni robot mass and battery capacity",
+      "scope": "The X10 Pro Omni page publishes no robot mass, battery capacity or charging time. The catalog 4.56 kg mass is cleared and these fields remain unrecorded; the page also publishes two different sets of robot dimensions, which stay visible as a conflict.",
+      "source": "https://www.eufy.com/products/t2351111"
+    },
+    {
+      "name": "Eufy Omni S1 Pro and L60 dimensions, mass and run time",
+      "scope": "The Omni S1 Pro and L60 pages publish no robot dimensions, mass, battery capacity or run time in minutes. The catalog size and run time values are cleared and these fields remain unrecorded; discontinued status is recorded as a page statement.",
+      "source": "https://www.eufy.com/products/t2080111"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.eufy.com/products/t2351111",
+      "finalUrl": "https://www.eufy.com/products/t2351111",
+      "status": 200,
+      "checkedAt": "2026-11-04T01:31:41.473540+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "5851159c2cb622d8e768f3cbf9eb504a68b4b841266db11ca78dac105db7171a",
+      "textFile": "source-1-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.eufy.com/products/t2080111",
+      "finalUrl": "https://www.eufy.com/blogs/robovac/eufy-s1-pro-discontinued",
+      "status": 200,
+      "checkedAt": "2026-11-04T01:31:42.505245+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "9d0aeddfd144f70edc40f5d537489aa35ba357187d877cf327f32ea3285d9d07",
+      "textFile": "source-2-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.eufy.com/products/t2277111",
+      "finalUrl": "https://www.eufy.com/blogs/robovac/eufy-l60-discontinued",
+      "status": 200,
+      "checkedAt": "2026-11-04T01:31:43.050191+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "f85cf5d07ebe2b89f00a4e2c968ed70212f49b68406c183345545228076e2aea",
+      "textFile": "source-3-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://www.eufy.com/products/t28801a1",
+      "finalUrl": "https://www.eufy.com/products/t28801a1",
+      "status": 200,
+      "checkedAt": "2026-11-04T01:31:44.157036+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "8e01beb4bb07e907e17165cdba7231664a32f555b8b4ec8c99d55036bd99f827",
+      "textFile": "source-4-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "eufy-x10-pro-omni",
+      "manufacturer": "Eufy",
+      "model": "X10 Pro Omni",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "899.99 USD",
+        "weight": "",
+        "size": "13.90 x 12.87 x 4.47 in",
+        "batteryLife": "173 min vacuum; 136 min vacuum and mop",
+        "maxRuntime": "173 min vacuum; 136 min vacuum and mop",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "Robotic vacuum and mop",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2351111",
+        "description": "The Eufy X10 Pro Omni is a robot vacuum and mop with 8,000 Pa suction, dual rotating mop pads at 1 kg pressure and 180 RPM, a Pro-Detangle Comb and RGB camera plus LED obstacle avoidance. It measures 13.90 x 12.87 x 4.47 in, clears obstacles up to 0.83 in and needs 5.12 in height and 13.78 in width around furniture. The all-in-one station measures 14.41 x 18.11 x 18.90 in, washes and dries the mops, refills the robot and empties the dust. Run time is 173 minutes in vacuum mode and 136 minutes in vacuum-and-mop mode in Standard mode, and the robot carries an 80 mL water tank with app, Bluetooth and Wi-Fi control. The page marks the product as no longer available. The page publishes no robot mass, battery capacity, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; the catalog mass and run time values are cleared or replaced.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "80 mL robot water tank",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch187. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate Eufy products. Catalog mass, size and run time values are cleared or replaced where the page is silent or publishes other values; the page itself shows conflicting robot dimensions.",
+      "sources": [
+        {
+          "name": "Eufy - X10 Pro Omni",
+          "type": "manufacturer",
+          "url": "https://www.eufy.com/products/t2351111",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Eufy X10 Pro Omni delivers 8,000 Pa suction with dual rotating mop pads at 180 RPM.",
+        "A Pro-Detangle Comb and RGB camera with LED handle obstacle avoidance.",
+        "It measures 13.90 x 12.87 x 4.47 in and needs 5.12 in height and 13.78 in width around furniture.",
+        "Run time is 173 minutes in vacuum mode and 136 minutes in vacuum-and-mop mode.",
+        "The all-in-one station washes, dries, refills and empties; the page marks the product as no longer available."
+      ]
+    },
+    {
+      "robotId": "eufy-robot-vacuum-omni-s1-pro",
+      "manufacturer": "Eufy",
+      "model": "Robot Vacuum Omni S1 Pro",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "1,499.99 USD",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "Robotic vacuum and mop",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2080111",
+        "description": "The Eufy Omni S1 Pro is a robot vacuum and mop with 8,000 Pa suction, a HydroJet rolling mop with real-time self-cleaning, Eco-Clean Ozone floor disinfection, 3D MatrixEye obstacle avoidance and a 10-in-1 UniClean station that washes and dries the mop. The reviewed page lists the model as discontinued. The page publishes no robot mass, dimensions, battery capacity, run time in minutes, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, water tank capacity or minimum aisle width; the catalog dimensions and run time values are cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch187. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate Eufy products. Catalog size and run time values are cleared because the reviewed page publishes none.",
+      "sources": [
+        {
+          "name": "Eufy - Omni S1 Pro",
+          "type": "manufacturer",
+          "url": "https://www.eufy.com/products/t2080111",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Eufy Omni S1 Pro delivers 8,000 Pa suction with a HydroJet rolling mop.",
+        "Real-time mop self-cleaning and Eco-Clean Ozone disinfection are included.",
+        "3D MatrixEye obstacle avoidance guides the robot around furniture.",
+        "A 10-in-1 UniClean station washes and dries the mop.",
+        "The reviewed page lists the model as discontinued and publishes no dimensions, mass or run time."
+      ]
+    },
+    {
+      "robotId": "eufy-l60-with-self-empty-station",
+      "manufacturer": "Eufy",
+      "model": "L60 with Self-Empty Station",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "Up to 120 min",
+        "maxRuntime": "120 min",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "Robotic vacuum",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2277111",
+        "description": "The Eufy RoboVac L60 is a robot vacuum with 5,000 Pa suction, iPath laser navigation and mapping, a 3.9 in body height, app and voice control and a 3 L dust bag. It launched in November 2023 and the reviewed page lists the series as discontinued. The page publishes no price, robot mass, dimensions, battery capacity, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, water tank capacity or minimum aisle width; the catalog price, size and battery values are cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch187. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate Eufy products. Catalog price, size and battery values are cleared because the reviewed page publishes none.",
+      "sources": [
+        {
+          "name": "Eufy - L60",
+          "type": "manufacturer",
+          "url": "https://www.eufy.com/products/t2277111",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Eufy RoboVac L60 delivers 5,000 Pa suction with iPath laser navigation and mapping.",
+        "It is 3.9 inches tall and runs for up to 120 minutes.",
+        "A 3 L dust bag handles self-emptying in the station.",
+        "App and voice control are included.",
+        "The reviewed page lists the series as discontinued and publishes no price, dimensions or battery capacity."
+      ]
+    },
+    {
+      "robotId": "eufy-robot-lawn-mower-e15",
+      "manufacturer": "Eufy",
+      "model": "Robot Lawn Mower E15",
+      "category": "outdoor",
+      "new": false,
+      "fields": {
+        "price": "1,799.99 USD",
+        "weight": "12.5 kg (27 lbs)",
+        "size": "60.3 x 39.4 x 31.8 cm (23.7 x 15.5 x 12.5 in)",
+        "batteryLife": "93.24 Wh",
+        "maxRuntime": "90 to 110 min",
+        "payload": "",
+        "speed": "",
+        "ipRating": "IPX6",
+        "dof": "",
+        "handType": "Robotic lawn mower",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t28801a1",
+        "description": "The Eufy Robot Lawn Mower E15 is a wire-free robotic mower for lawns up to 0.2 acres (8,700 sq ft) with an 8 in (203 mm) cutting width and a 1 to 3 in (25 to 75 mm) cutting height. It handles slopes up to 18 degrees and cuts grass under 3.5 in with a height difference under 1.2 in, and it is not recommended for St. Augustine or dense Zoysia grass. It measures 60.3 x 39.4 x 31.8 cm and weighs 12.5 kg, with a 93.24 Wh battery, 90 to 110 minutes of mowing per charge and 90 to 110 minutes of charging time. The robot is rated IPX6, emits under 56 dB, connects over Wi-Fi with app and OTA updates, and includes GPS, 4G and an anti-theft system plus automatic rain and low-light recall. The base station measures 72.7 x 48 x 45.2 cm, weighs 6.5 kg and is also rated IPX6. The page publishes no payload, travel speed, hourly area rate or water tank capacity.",
+        "chargingTime": "90 to 110 min",
+        "workingWidth": "8 in (203 mm)",
+        "areaRate": "",
+        "terrain": "Lawn; slopes up to 18 degrees"
+      },
+      "states": [],
+      "notes": "Batch187. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate Eufy products. Catalog price, weight, size label, battery, run time, charging time, protection, cutting width and terrain values are replaced from the reviewed page.",
+      "sources": [
+        {
+          "name": "Eufy - Robot Lawn Mower E15",
+          "type": "manufacturer",
+          "url": "https://www.eufy.com/products/t28801a1",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Eufy Robot Lawn Mower E15 covers up to 0.2 acres with an 8 in cutting width.",
+        "It handles slopes up to 18 degrees and cuts grass from 1 to 3 inches.",
+        "It measures 60.3 x 39.4 x 31.8 cm, weighs 12.5 kg and is rated IPX6.",
+        "A 93.24 Wh battery supports 90 to 110 minutes of mowing and charging.",
+        "GPS, 4G, an anti-theft system and automatic rain recall are included."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "eufy-x10-pro-omni",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Eufy",
+        "model": "X10 Pro Omni",
+        "price": "899 USD",
+        "weight": "4.56 kg",
+        "size": "35.3x32.7x11.4 cm",
+        "batteryLife": "180 min",
+        "maxRuntime": "180 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2351111",
+        "image": "images/cleaning/eufy-x10-pro-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "8,000Pa vacuum-mop with dual auto-lift mops and all-in-one station.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Eufy",
+        "model": "X10 Pro Omni",
+        "price": "899.99 USD",
+        "weight": "",
+        "size": "13.90 x 12.87 x 4.47 in",
+        "batteryLife": "173 min vacuum; 136 min vacuum and mop",
+        "maxRuntime": "173 min vacuum; 136 min vacuum and mop",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;ai-powered",
+        "handType": "Robotic vacuum and mop",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2351111",
+        "image": "images/cleaning/eufy-x10-pro-omni.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Eufy X10 Pro Omni is a robot vacuum and mop with 8,000 Pa suction, dual rotating mop pads at 1 kg pressure and 180 RPM, a Pro-Detangle Comb and RGB camera plus LED obstacle avoidance. It measures 13.90 x 12.87 x 4.47 in, clears obstacles up to 0.83 in and needs 5.12 in height and 13.78 in width around furniture. The all-in-one station measures 14.41 x 18.11 x 18.90 in, washes and dries the mops, refills the robot and empties the dust. Run time is 173 minutes in vacuum mode and 136 minutes in vacuum-and-mop mode in Standard mode, and the robot carries an 80 mL water tank with app, Bluetooth and Wi-Fi control. The page marks the product as no longer available. The page publishes no robot mass, battery capacity, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; the catalog mass and run time values are cleared or replaced.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "80 mL robot water tank",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "eufy-robot-vacuum-omni-s1-pro",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Eufy",
+        "model": "Robot Vacuum Omni S1 Pro",
+        "price": "1499 USD",
+        "weight": "",
+        "size": "34x32x9.6 cm",
+        "batteryLife": "216 min",
+        "maxRuntime": "216 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2080111",
+        "image": "images/cleaning/eufy-robot-vacuum-omni-s1-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Flagship with HydroJet roller mop, ozone water cleaning, 8,000Pa suction.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Eufy",
+        "model": "Robot Vacuum Omni S1 Pro",
+        "price": "1,499.99 USD",
+        "weight": "",
+        "size": "",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;ai-powered",
+        "handType": "Robotic vacuum and mop",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2080111",
+        "image": "images/cleaning/eufy-robot-vacuum-omni-s1-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Eufy Omni S1 Pro is a robot vacuum and mop with 8,000 Pa suction, a HydroJet rolling mop with real-time self-cleaning, Eco-Clean Ozone floor disinfection, 3D MatrixEye obstacle avoidance and a 10-in-1 UniClean station that washes and dries the mop. The reviewed page lists the model as discontinued. The page publishes no robot mass, dimensions, battery capacity, run time in minutes, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, water tank capacity or minimum aisle width; the catalog dimensions and run time values are cleared.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "eufy-l60-with-self-empty-station",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Eufy",
+        "model": "L60 with Self-Empty Station",
+        "price": "559 USD",
+        "weight": "",
+        "size": "33x33x10 cm",
+        "batteryLife": "120 min",
+        "maxRuntime": "",
+        "tags": "vacuum;consumer;app-control;wifi;mapping;lidar;auto-empty",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2277111",
+        "image": "images/cleaning/eufy-l60-with-self-empty-station.webp",
+        "video": "",
+        "gallery": "",
+        "description": "5,000Pa lidar vacuum with hair detangling and 60-day self-empty.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Eufy",
+        "model": "L60 with Self-Empty Station",
+        "price": "",
+        "weight": "",
+        "size": "",
+        "batteryLife": "Up to 120 min",
+        "maxRuntime": "120 min",
+        "tags": "vacuum;consumer;app-control;wifi;mapping;lidar;auto-empty",
+        "handType": "Robotic vacuum",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t2277111",
+        "image": "images/cleaning/eufy-l60-with-self-empty-station.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Eufy RoboVac L60 is a robot vacuum with 5,000 Pa suction, iPath laser navigation and mapping, a 3.9 in body height, app and voice control and a 3 L dust bag. It launched in November 2023 and the reviewed page lists the series as discontinued. The page publishes no price, robot mass, dimensions, battery capacity, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, water tank capacity or minimum aisle width; the catalog price, size and battery values are cleared.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "eufy-robot-lawn-mower-e15",
+      "before": {
+        "category": "outdoor",
+        "manufacturer": "Eufy",
+        "model": "Robot Lawn Mower E15",
+        "price": "1799 USD",
+        "weight": "11 kg",
+        "size": "medium",
+        "batteryLife": "110 min",
+        "maxRuntime": "",
+        "tags": "consumer;lawn-mow;ai-powered;autonomous-nav;obstacle-avoidance;app-control;self-charging;wifi",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Slopes up to 40% (18°)",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t28801a1",
+        "image": "images/outdoor/eufy-robot-lawn-mower-e15.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Pure-vision FSD mower for 800 m², no wire or RTK, 40% slopes, 2.5-7.5 cm cut, rain detection",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      },
+      "after": {
+        "category": "outdoor",
+        "manufacturer": "Eufy",
+        "model": "Robot Lawn Mower E15",
+        "price": "1,799.99 USD",
+        "weight": "12.5 kg (27 lbs)",
+        "size": "60.3 x 39.4 x 31.8 cm (23.7 x 15.5 x 12.5 in)",
+        "batteryLife": "93.24 Wh",
+        "maxRuntime": "90 to 110 min",
+        "tags": "consumer;lawn-mow;ai-powered;autonomous-nav;obstacle-avoidance;app-control;self-charging;wifi",
+        "handType": "Robotic lawn mower",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Lawn; slopes up to 18 degrees",
+        "ipRating": "IPX6",
+        "ageRange": "",
+        "website": "https://www.eufy.com/products/t28801a1",
+        "image": "images/outdoor/eufy-robot-lawn-mower-e15.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Eufy Robot Lawn Mower E15 is a wire-free robotic mower for lawns up to 0.2 acres (8,700 sq ft) with an 8 in (203 mm) cutting width and a 1 to 3 in (25 to 75 mm) cutting height. It handles slopes up to 18 degrees and cuts grass under 3.5 in with a height difference under 1.2 in, and it is not recommended for St. Augustine or dense Zoysia grass. It measures 60.3 x 39.4 x 31.8 cm and weighs 12.5 kg, with a 93.24 Wh battery, 90 to 110 minutes of mowing per charge and 90 to 110 minutes of charging time. The robot is rated IPX6, emits under 56 dB, connects over Wi-Fi with app and OTA updates, and includes GPS, 4G and an anti-theft system plus automatic rain and low-light recall. The base station measures 72.7 x 48 x 45.2 cm, weighs 6.5 kg and is also rated IPX6. The page publishes no payload, travel speed, hourly area rate or water tank capacity.",
+        "releaseDate": "2025",
+        "chargingTime": "90 to 110 min",
+        "workingWidth": "8 in (203 mm)",
+        "areaRate": "",
+        "assistPower": "",
+        "assistancePace": "",
+        "assistanceRange": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "Eufy",
+      "model": "X10 Pro Omni",
+      "changes": {
+        "price": {
+          "before": "899 USD",
+          "after": "899.99 USD"
+        },
+        "weight": {
+          "before": "4.56 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "35.3x32.7x11.4 cm",
+          "after": "13.90 x 12.87 x 4.47 in"
+        },
+        "batteryLife": {
+          "before": "180 min",
+          "after": "173 min vacuum; 136 min vacuum and mop"
+        },
+        "maxRuntime": {
+          "before": "180 min",
+          "after": "173 min vacuum; 136 min vacuum and mop"
+        },
+        "handType": {
+          "before": "",
+          "after": "Robotic vacuum and mop"
+        },
+        "description": {
+          "before": "8,000Pa vacuum-mop with dual auto-lift mops and all-in-one station.",
+          "after": "The Eufy X10 Pro Omni is a robot vacuum and mop with 8,000 Pa suction, dual rotating mop pads at 1 kg pressure and 180 RPM, a Pro-Detangle Comb and RGB camera plus LED obstacle avoidance. It measures 13.90 x 12.87 x 4.47 in, clears obstacles up to 0.83 in and needs 5.12 in height and 13.78 in width around furniture. The all-in-one station measures 14.41 x 18.11 x 18.90 in, washes and dries the mops, refills the robot and empties the dust. Run time is 173 minutes in vacuum mode and 136 minutes in vacuum-and-mop mode in Standard mode, and the robot carries an 80 mL water tank with app, Bluetooth and Wi-Fi control. The page marks the product as no longer available. The page publishes no robot mass, battery capacity, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; the catalog mass and run time values are cleared or replaced."
+        },
+        "waterTankCapacity": {
+          "before": "",
+          "after": "80 mL robot water tank"
+        }
+      }
+    },
+    {
+      "manufacturer": "Eufy",
+      "model": "Robot Vacuum Omni S1 Pro",
+      "changes": {
+        "price": {
+          "before": "1499 USD",
+          "after": "1,499.99 USD"
+        },
+        "size": {
+          "before": "34x32x9.6 cm",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "216 min",
+          "after": ""
+        },
+        "maxRuntime": {
+          "before": "216 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "Robotic vacuum and mop"
+        },
+        "description": {
+          "before": "Flagship with HydroJet roller mop, ozone water cleaning, 8,000Pa suction.",
+          "after": "The Eufy Omni S1 Pro is a robot vacuum and mop with 8,000 Pa suction, a HydroJet rolling mop with real-time self-cleaning, Eco-Clean Ozone floor disinfection, 3D MatrixEye obstacle avoidance and a 10-in-1 UniClean station that washes and dries the mop. The reviewed page lists the model as discontinued. The page publishes no robot mass, dimensions, battery capacity, run time in minutes, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, water tank capacity or minimum aisle width; the catalog dimensions and run time values are cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "Eufy",
+      "model": "L60 with Self-Empty Station",
+      "changes": {
+        "price": {
+          "before": "559 USD",
+          "after": ""
+        },
+        "size": {
+          "before": "33x33x10 cm",
+          "after": ""
+        },
+        "batteryLife": {
+          "before": "120 min",
+          "after": "Up to 120 min"
+        },
+        "maxRuntime": {
+          "before": "",
+          "after": "120 min"
+        },
+        "handType": {
+          "before": "",
+          "after": "Robotic vacuum"
+        },
+        "description": {
+          "before": "5,000Pa lidar vacuum with hair detangling and 60-day self-empty.",
+          "after": "The Eufy RoboVac L60 is a robot vacuum with 5,000 Pa suction, iPath laser navigation and mapping, a 3.9 in body height, app and voice control and a 3 L dust bag. It launched in November 2023 and the reviewed page lists the series as discontinued. The page publishes no price, robot mass, dimensions, battery capacity, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, water tank capacity or minimum aisle width; the catalog price, size and battery values are cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "Eufy",
+      "model": "Robot Lawn Mower E15",
+      "changes": {
+        "price": {
+          "before": "1799 USD",
+          "after": "1,799.99 USD"
+        },
+        "weight": {
+          "before": "11 kg",
+          "after": "12.5 kg (27 lbs)"
+        },
+        "size": {
+          "before": "medium",
+          "after": "60.3 x 39.4 x 31.8 cm (23.7 x 15.5 x 12.5 in)"
+        },
+        "batteryLife": {
+          "before": "110 min",
+          "after": "93.24 Wh"
+        },
+        "maxRuntime": {
+          "before": "",
+          "after": "90 to 110 min"
+        },
+        "handType": {
+          "before": "none",
+          "after": "Robotic lawn mower"
+        },
+        "terrain": {
+          "before": "Slopes up to 40% (18°)",
+          "after": "Lawn; slopes up to 18 degrees"
+        },
+        "ipRating": {
+          "before": "",
+          "after": "IPX6"
+        },
+        "description": {
+          "before": "Pure-vision FSD mower for 800 m², no wire or RTK, 40% slopes, 2.5-7.5 cm cut, rain detection",
+          "after": "The Eufy Robot Lawn Mower E15 is a wire-free robotic mower for lawns up to 0.2 acres (8,700 sq ft) with an 8 in (203 mm) cutting width and a 1 to 3 in (25 to 75 mm) cutting height. It handles slopes up to 18 degrees and cuts grass under 3.5 in with a height difference under 1.2 in, and it is not recommended for St. Augustine or dense Zoysia grass. It measures 60.3 x 39.4 x 31.8 cm and weighs 12.5 kg, with a 93.24 Wh battery, 90 to 110 minutes of mowing per charge and 90 to 110 minutes of charging time. The robot is rated IPX6, emits under 56 dB, connects over Wi-Fi with app and OTA updates, and includes GPS, 4G and an anti-theft system plus automatic rain and low-light recall. The base station measures 72.7 x 48 x 45.2 cm, weighs 6.5 kg and is also rated IPX6. The page publishes no payload, travel speed, hourly area rate or water tank capacity."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "90 to 110 min"
+        },
+        "workingWidth": {
+          "before": "",
+          "after": "8 in (203 mm)"
+        }
+      }
+    }
+  ],
+  "companyFocus": [],
+  "totalProductHighlightRecords": 1418,
+  "totalHighlightStatements": 6567,
+  "totalProductSourceReferences": 2969,
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 34,
+    "axeCases": 8,
+    "buildPages": 3431,
+    "dataErrors": 0,
+    "dataWarnings": 1250,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": [
+      {
+        "id": 1,
+        "bodyShaMatches": true,
+        "bodyBytes": 1662493,
+        "textChars": 4856,
+        "url": "https://www.eufy.com/products/t2351111"
+      },
+      {
+        "id": 2,
+        "bodyShaMatches": true,
+        "bodyBytes": 1396937,
+        "textChars": 14431,
+        "url": "https://www.eufy.com/products/t2080111"
+      },
+      {
+        "id": 3,
+        "bodyShaMatches": true,
+        "bodyBytes": 1357609,
+        "textChars": 10120,
+        "url": "https://www.eufy.com/products/t2277111"
+      },
+      {
+        "id": 4,
+        "bodyShaMatches": true,
+        "bodyBytes": 1789242,
+        "textChars": 8907,
+        "url": "https://www.eufy.com/products/t28801a1"
+      }
+    ],
+    "body-scope-check": {
+      "allNativeHtml": true,
+      "checks": [
+        {
+          "id": 1,
+          "bodyShaMatches": true,
+          "bodyBytes": 1662493,
+          "textChars": 4856,
+          "url": "https://www.eufy.com/products/t2351111"
+        },
+        {
+          "id": 2,
+          "bodyShaMatches": true,
+          "bodyBytes": 1396937,
+          "textChars": 14431,
+          "url": "https://www.eufy.com/products/t2080111"
+        },
+        {
+          "id": 3,
+          "bodyShaMatches": true,
+          "bodyBytes": 1357609,
+          "textChars": 10120,
+          "url": "https://www.eufy.com/products/t2277111"
+        },
+        {
+          "id": 4,
+          "bodyShaMatches": true,
+          "bodyBytes": 1789242,
+          "textChars": 8907,
+          "url": "https://www.eufy.com/products/t28801a1"
+        }
+      ]
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2380,
+      "reviewedProducts": 4,
+      "selectedFields": 71,
+      "selectedFieldStatuses": {
+        "documented": 29,
+        "not-documented": 42
+      },
+      "specificationReviewModels": 1402,
+      "specificationFields": 26309,
+      "allFieldStatuses": {
+        "not-documented": 16110,
+        "documented": 9768,
+        "conflicting": 323,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1418,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 71,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 0
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1418,
+      "individualHighlights": 6567,
+      "productSourceReferences": 2969,
+      "specificationReviewModels": 1402,
+      "specificationFields": 26309,
+      "publicJsonBytes": 6910466,
+      "catalogScriptBytes": 2784566,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-04T01:34:04Z",
+            "after": "2026-11-04T01:38:53Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-04T01:34:03.832Z",
+            "after": "2026-11-04T01:38:52.473Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "7b12af128d5829d53268a926975bd065cbe13d151fd2b5a3c8b0d19fb2ea6d8e",
+            "after": "5293088cbf8668d9ef3dcc13afdfaa8ee1ca4df542dc60596e3b9d79a728a75b"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-04T01:34:03.832Z",
+            "after": "2026-11-04T01:38:52.473Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-04T01:34:03.832Z",
+            "after": "2026-11-04T01:38:52.473Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 154,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "a10a735a4402251bbb002af3b1c8fb8b0a533daa",
+    "dataCommit": "9d5d40b0f28e4f7da7f3200b38bc4556512fc72d",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 711,
+  "goalComplete": false
+}
