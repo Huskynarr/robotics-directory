@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,398 dated primary-source highlight
+groups. The catalog contains 2,378 model/configuration entries and 1,402 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-25,962 fields across 1382 models, distinguishing documented, undisclosed, conflicting and
+26,034 fields across 1386 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,856 kB JSON response loads only for search or comparison;
+A separate 6,867 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,467 reviewed highlight statements as well as
+Catalog search now includes all 6,487 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1882,3 +1882,5 @@ Eufy's Robot Vacuum Omni E35, Omni C30 Edge, Omni C30 and Omni S2 Pro now have s
 Roborock's S8 Max Ultra, Q8 Max+, Qrevo Curv and Saros 20 now have selected field reviews. The manufacturer publishes 1,599.99 USD, 8,000 Pa suction, an 8-in-1 RockDock Ultra, VibraRise 3.0, a FlexiArm side brush and PreciSense LiDAR for the S8 Max Ultra; 819.99 USD, 5,500 Pa suction, a DuoRoller brush and Reactive Tech obstacle avoidance for the Q8 Max+; 849.99 USD current and 1,599.99 USD original price, 18,500 Pa HyperForce, DuoDivide and dual anti-tangle brushes, an AdaptiLift chassis and a Multifunctional Dock 3.0 with 75 C hot-water mop washing for the Qrevo Curv; and 1,599.99 USD, 36,000 Pa HyperForce, an AdaptiLift Chassis 3.0 with 3.46 in double-layer lift, StarSight Autonomous System 2.0 and a RockDock with hot-water self-cleaning for the Saros 20. Catalog size, weight, battery and run time labels are cleared, and the Q8 Max+ ~600 USD and Qrevo Curv 1,600 USD prices are replaced. No reviewed page publishes robot mass, dimensions, battery capacity, run time, charging time, an IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width; all USPs, full portfolios and market leadership remain unproven.
 
 iRobot's Roomba j7+, Roomba j9+, Braava jet m6 and Roomba Combo 10 Max now have selected field reviews. The manufacturer publishes 799.99 USD, 7.49 lb and 13.3 in width by 3.4 in height for the Roomba j7+; 8.98 lb and 13.7 x 13.7 x 3.4 in for the Roomba j9+; 4.85 lb and 10.6 in width by 3.5 in height for the Braava jet m6; and 1,299.99 USD, 11 lb, 13.3 x 13.3 x 3.4 in and a 4200 mAh LFP battery for the Roomba Combo 10 Max. The j7+ and Braava jet m6 pages publish no price, and the j9+ page directs buyers to select retailers; the catalog 999 and 499 USD prices are cleared. No page publishes a run time in minutes, battery capacity beyond the battery type or a charging time, so the catalog 105, 120, 150 and 90 min run times are cleared. All USPs, full portfolios and market leadership remain unproven.
+
+Dreame's L20 Ultra, X40 Ultra, D20 Plus and D20 Pro Plus now have selected field reviews. The manufacturer publishes 899.99 USD, 7,000 Pa Vormax suction, 4.3 kg and 350 x 350 x 103.8 mm, a 6,400 mAh battery, an 80 mL water tank and up to 210 min vacuum-only runtime for the L20 Ultra; 539.99 USD current and 1,199.99 USD regular price, 12,000 Pa Vormax suction, a 6,400 mAh battery and 158 F hot-water mop washing for the X40 Ultra; and 309.99 USD current and 369.99 USD regular price, 7.7 lb, 13.8 x 13.8 x 3.8 in, a 5,200 mAh battery and a 5 L dust bag for the D20 Plus, with 359.99 USD current and 365.99 USD regular price for the D20 Pro Plus. Catalog prices, sizes, weights, battery and run time labels are replaced or cleared where the reviewed pages are silent. No reviewed page publishes a charging time, IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; all USPs, full portfolios and market leadership remain unproven.
