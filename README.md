@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-04, all source company names are represented in 591 competitor
-groups. The catalog contains 2,380 model/configuration entries and 1,418 dated primary-source highlight
+groups. The catalog contains 2,380 model/configuration entries and 1,422 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,7 +1401,7 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-26,309 fields across 1402 models, distinguishing documented, undisclosed, conflicting and
+26,377 fields across 1406 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
@@ -1414,7 +1414,7 @@ on-demand request and page-session cache. Missing reviews and failed source load
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,567 reviewed highlight statements as well as
+Catalog search now includes all 6,587 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1892,3 +1892,5 @@ Husqvarna's Automower 450X EPOS, 440 iQ, 415X and 310 Mark II now have selected 
 Narwal's Freo X10 Pro, Freo X Plus, Freo Z10 Turbo and Flow now have selected field reviews. The manufacturer publishes 449.99 USD, 11,000 Pa suction, a 5,000 mAh battery, 355 x 350 x 107.7 mm, 3,700 g and a 120-day dust bag for the Freo X10 Pro; 339.99 USD, 4,250 g, 35.0 x 35.5 x 10.7 cm and seven weeks of compressed dust storage for the Freo X Plus; 549.99 USD, 25,000 Pa, 5,200 mAh, 4.5 kg, 13.98 x 13.78 x 4.24 in and a 161.6 F mop wash for the Freo Z10 Turbo; and 1,499.99 USD, 22,000 Pa, a 6,400 mAh battery, 355 x 350 x 107.7 mm, about 4.6 kg and 40 mm threshold clearance for the Flow. Catalog prices, sizes, weights, battery and run time labels are replaced or cleared where the reviewed pages are silent. No reviewed page publishes run time in minutes, charging time, an IP rating, payload, travel speed, cleaning width, hourly area rate, water tank capacity or minimum aisle width. All USPs, full portfolios and market leadership remain unproven.
 
 Eufy's X10 Pro Omni, Omni S1 Pro, L60 and Robot Lawn Mower E15 now have selected field reviews. The manufacturer publishes 899.99 USD, 8,000 Pa, dual rotating mop pads, a 173-minute vacuum run time, 136-minute vacuum-and-mop run time and an 80 mL water tank for the X10 Pro Omni; 1,499.99 USD, 8,000 Pa and HydroJet self-cleaning for the Omni S1 Pro; 5,000 Pa, iPath navigation, a 3.9 in body and 120-minute run time for the L60; and 1,799.99 USD, 0.2 acres, an 8 in cutting width, 18-degree slopes, 12.5 kg, IPX6, a 93.24 Wh battery and 90 to 110 minutes of mowing and charging for the E15. The X10 Pro Omni page marks the model as no longer available and its comparison table disagrees with the FAQ on robot dimensions; the Omni S1 Pro and L60 pages list their series as discontinued. Catalog prices, sizes, weights, battery and run time labels are replaced or cleared where the reviewed pages are silent. No reviewed page publishes payload, travel speed, hourly area rate or water tank capacity, and the X10 Pro Omni also publishes no robot mass, battery capacity or charging time. All USPs, full portfolios and market leadership remain unproven.
+
+Aiper's Scuba X1 Pro Max, Scuba V3, Scuba X1 and Scuba E1 now have selected field reviews. The manufacturer publishes up to 300 min floor and 600 min skimming runtime, 8,500 GPH suction, 9 brushless motors, 40 sensors, a 4-hour charge and IPX8 for the Scuba X1 Pro Max; 4,800 GPH suction, VisionPath navigation with AI vision and dToF, JetAssist waterline cleaning, and 18.1 lbs (8.2 kg) weight for the Scuba V3; up to 180 min runtime, 6,600 GPH suction, 4 brushless motors, 14 sensors, a 4-hour charge and IPX8 for the Scuba X1; and up to 100 min runtime, 3,600 GPH suction, a tri-motor system and 3-hour charge for the Scuba E1. Catalog prices, sizes, weights, battery and run time labels are replaced or cleared where the reviewed pages are silent. No reviewed page publishes robot dimensions, payload, travel speed, cleaning width, hourly area rate or terrain, and the Scuba V3 publishes no run time in minutes or charging time. Aiper's Euromonitor sales claim is not treated as independent market leadership evidence. All USPs, full portfolios and market leadership remain unproven.
