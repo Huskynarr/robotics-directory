@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-04, all source company names are represented in 591 competitor
-groups. The catalog contains 2,380 model/configuration entries and 1,434 dated primary-source highlight
+groups. The catalog contains 2,380 model/configuration entries and 1,438 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-26,593 fields across 1418 models, distinguishing documented, undisclosed, conflicting and
+26,665 fields across 1422 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,964 kB JSON response loads only for search or comparison;
+A separate 6,976 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,647 reviewed highlight statements as well as
+Catalog search now includes all 6,667 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1900,3 +1900,5 @@ Xiaomi's Robot Vacuum 5 Pro, X20 Max, X20 Pro and S20 now have selected field re
 Xiaomi's Robot Vacuum X20+, S40, S40 Pro and S40C now have selected field reviews. The manufacturer publishes 6,000 Pa suction, 180 rpm rotational mopping, 10-second dust collection, 140 minutes of vacuuming and mopping, 3.67 kg and a 4 L clean water tank for the X20+; 10,000 Pa, anti-tangle brushes, 180 minutes, 4.12 kg and a 520 mL dust box with a 270 mL water tank for the S40; 15,000 Pa, a 0 mm corner reach, a 129-degree structured light field, 180 m2 per charge, 4.2 kg and a 310 mL water tank for the S40 Pro; and 5,000 Pa, LDS navigation, 3.44 kg and a 520 mL dustbin with a 260 mL water tank for the S40C. Catalog prices are cleared because no reviewed page publishes one, and the S40 battery label is replaced by the 5200 mAh nominal capacity. No reviewed page publishes a run time in minutes for the S40 Pro or S40C, a charging time, IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width. All USPs, full portfolios and market leadership remain unproven.
 
 Xiaomi's Robot Vacuum S10+, E10, E5 and Robot Vacuum 5 now have selected field reviews. The manufacturer publishes 4,000 Pa, dual-pad pressure mopping, a 200 mL water tank, 120 minutes, 3.8 kg and about 6 hours of charging for the S10+; 4,000 Pa, 110 minutes, 2600 mAh and a 325 mm by 80 mm body for the E10; 2,000 Pa, 110 minutes, 2.3 kg and a 300 mm by 70 mm body for the E5; and 20,000 Pa, a 9.5 cm retractable radar, 80 C hot-water mop washing, 140 minutes, 3.75 kg, a 4 L tank and a 2.5 L dust bag for the Robot Vacuum 5. Catalog prices are cleared because no reviewed page publishes one. No reviewed page publishes an IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; the E10 and E5 pages publish no robot mass or tank capacity, and only the S10+ publishes a charging time. All USPs, full portfolios and market leadership remain unproven.
+
+Dreame's Aqua10 Ultra Roller Complete, Matrix10 Pro, W10 Pro and X60 Ultra now have selected field reviews. The manufacturer publishes 30,000 Pa, a continuously rinsed roller, 240+ recognised objects, a 3.2 L dust bag for 100 days and 899.99 USD for the Aqua10 Ultra Roller Complete; 30,000 Pa, a three-mop switching dock, 40 mm obstacle crossing, 4.1 kg, a 3.2 L dust bag and 1,499.99 USD for the Matrix10 Pro; 4,000 Pa, 180 RPM, 160 minutes, 200 m2, 6,400 mAh and 4.5 L plus 4.0 L tanks for the W10 Pro; and 35,000 Pa, a 79.5 mm retractable sensor, 230 RPM, 15 N, 8.8 cm obstacle crossing, 80 minutes of charging from 9 to 80 percent, 4.7 kg and 1,349.99 USD for the X60 Ultra. The W10 Pro price and mass are cleared because the page publishes neither; the X60 Ultra battery and runtime labels and the Aqua10 Complete regular-price entry are replaced by the reviewed values. No reviewed page publishes a full-charge runtime for the Aqua10 Ultra Roller Complete, Matrix10 Pro or X60 Ultra, or an IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; only the X60 Ultra publishes a charging time. All USPs, full portfolios and market leadership remain unproven.

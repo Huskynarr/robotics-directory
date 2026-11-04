@@ -1,0 +1,951 @@
+{
+  "batch": 192,
+  "checkedAt": "2026-11-04",
+  "manufacturers": [
+    "Dreame"
+  ],
+  "catalogModelsBefore": 2380,
+  "catalogModelsAfter": 2380,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 72,
+  "fieldStatuses": {
+    "documented": 32,
+    "not-documented": 40
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four existing catalog rows in the cleaning category that previously had no field review were reviewed against current Dreame product pages. Aqua10 Ultra Roller Complete, Matrix10 Pro, W10 Pro and X60 Ultra are separate catalog rows; the Complete row is the bundle variant of the already reviewed Aqua10 Ultra Roller and shares its product page. No new model was created and no Dreame company focus review exists. The Aqua10 Ultra Roller Complete page publishes 30,000 Pa, a continuously rinsed FluffRoll roller, AutoSeal, ProLeap, OmniSight 2.0 for 240+ objects, 6,400 mAh, a 220 ml dust box, 100/140 ml water boxes, 4 L/3.5 L station tanks, 100 C washing, about four hours of drying, a 3.2 L bag for 100 days, a 350 x 350 x 97.5 mm body at 5.8 kg, a 16.54 x 17.32 x 19.88 in base station at 11.1 kg and 899.99 USD against 1,599.99 USD. The Matrix10 Pro page publishes 30,000 Pa, a three-mop switching dock, a three-solution compartment, Dual Flex Arm, a HyperStream DuoBrush, 100 C ThermoHub washing, 10.5 mm mop lifting, 40/22 mm obstacle crossing, 280+ objects, 4.1 kg, a 350 x 350 x 104 mm body, a 416 x 457 x 590 mm station at 16.1 kg, 6,400 mAh, a 250 ml dust box, a 3.2 L bag, 5.5/4.0 L tanks, 100 days of auto-empty and 1,499.99 USD against 1,624.99 USD. The W10 Pro page publishes 4,000 Pa, 180 RPM, a 19.2 cm roller, a 334 x 314 x 105.5 mm body, a 450 ml dust box, a 375 x 400 x 430 mm station with 4.5/4.0 L tanks, 6,400 mAh, 160 minutes over 200 m2 and three floor plans, but no price or robot mass. The X60 Ultra page publishes 35,000 Pa, a 79.5 mm retractable sensor, 40 C mopping at 230 RPM and 15 N, 100 C mop washing, 8.8/4.5 cm obstacle crossing, 280+ objects, 4.7 kg, a 350 x 350 x 79.5 mm body, a 390 x 423 x 499 mm station at 10.6 kg, a 235 ml dust box, a 3.2 L bag, 4.2/3.0 L tanks, 100 days of auto-empty, 80 minutes from 9 to 80 percent and 1,349.99 USD against 1,499.99 USD. None of the reviewed pages publishes a full-charge runtime for the Complete, Matrix10 Pro or X60 Ultra; only the X60 Ultra publishes a charging time; none publishes an IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width.",
+  "pendingPortfolioLeads": [
+    {
+      "name": "Dreame full-charge runtime for the reviewed models",
+      "scope": "The reviewed pages publish no full-charge runtime for the Aqua10 Ultra Roller Complete, Matrix10 Pro or X60 Ultra; the Aqua10 page lists only top-up runs and the X60 page only a charging time.",
+      "source": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum"
+    },
+    {
+      "name": "Dreame W10 Pro price and robot mass",
+      "scope": "The W10 Pro page publishes neither a price nor a robot or station mass, so the catalog ~1089 USD price and 4.5 kg weight are cleared.",
+      "source": "https://global.dreametech.com/products/dreamebot-w10-pro"
+    },
+    {
+      "name": "Dreame cleaning width, hourly area rate and IP rating",
+      "scope": "None of the four reviewed pages publishes a cleaning width, hourly area rate, IP rating, payload, travel speed or minimum aisle width.",
+      "source": "https://www.dreametech.com/products/x60-ultra-robot-vacuum"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+      "finalUrl": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+      "status": 200,
+      "checkedAt": "2026-11-04T02:18:12.602098+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "1fed99b82a7505293211120a9f46f0581fd3a581c80c72b78ed9a6d8642637a3",
+      "textFile": "source-1-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum",
+      "finalUrl": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum",
+      "status": 200,
+      "checkedAt": "2026-11-04T02:18:44.764121+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "0ad2905c6e8c1187b034fc794e7c69423f44167a76c8ce504d27a4cf6f56e6c8",
+      "textFile": "source-2-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 3,
+      "url": "https://global.dreametech.com/products/dreamebot-w10-pro",
+      "finalUrl": "https://global.dreametech.com/products/dreamebot-w10-pro",
+      "status": 200,
+      "checkedAt": "2026-11-04T02:19:05.743961+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "07d0fde8c661cb2b1874d804eae360aa4f3e2182020fa7fd1904f0ee1d57e7b6",
+      "textFile": "source-3-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "id": 4,
+      "url": "https://www.dreametech.com/products/x60-ultra-robot-vacuum",
+      "finalUrl": "https://www.dreametech.com/products/x60-ultra-robot-vacuum",
+      "status": 200,
+      "checkedAt": "2026-11-04T02:20:38.408390+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "5682eed0a959def497fd95f277583c5ec5e28a34424af18141e98d04daa84d5f",
+      "textFile": "source-4-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "dreame-aqua10-ultra-roller-complete",
+      "manufacturer": "Dreame",
+      "model": "Aqua10 Ultra Roller Complete",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "899.99 USD sale (1,599.99 USD regular price)",
+        "weight": "12.79 lbs (about 5.8 kg) robot; 24.47 lbs (about 11.1 kg) base station",
+        "size": "350 x 350 x 97.5 mm (13.78 x 13.78 x 3.84 in) with LDS retracted; 350 x 350 x 120 mm (13.78 x 13.78 x 4.72 in) with LDS lifted",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and roller mop robot",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+        "description": "The Dreame Aqua10 Ultra Roller Complete is a vacuum and roller mop robot with up to 30,000 Pa Vormax suction, a continuously rinsed FluffRoll roller mop, an AutoSeal roller guard, ProLeap retractable legs and OmniSight 2.0 obstacle avoidance for 240+ objects. The robot measures 13.78 x 13.78 x 3.84 in (about 350 x 350 x 97.5 mm) with the LDS retracted and 4.72 in (120 mm) with it lifted, and weighs 12.79 lbs (about 5.8 kg); the base station measures 16.54 x 17.32 x 19.88 in and weighs 24.47 lbs (about 11.1 kg). A 6,400 mAh battery serves a 220 ml dust box, 100 ml clean and 140 ml used water boxes, and 4 L clean plus 3.5 L used station tanks; the dock washes the roller at up to 100 C, dries the mop pads in about four hours and empties dust into a 3.2 L bag for up to 100 days. The page lists 899.99 USD against a 1,599.99 USD regular price and publishes only top-up runs of about 48, 37 and 20 min at low, medium and high water levels, and no full-charge runtime, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width. The catalog row is the Complete bundle; the reviewed page is the shared Aqua10 Ultra Roller product page.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "4 L clean / 3.5 L used water at the base station",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch192. Native manufacturer product page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate Dreame cleaning models. The catalog row is the Complete bundle of the already reviewed Aqua10 Ultra Roller and shares its product page. Catalog 1599 USD regular-price entry is replaced by the reviewed sale and regular prices.",
+      "sources": [
+        {
+          "name": "Dreame - Aqua10 Ultra Roller",
+          "type": "manufacturer",
+          "url": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Dreame Aqua10 Ultra Roller continuously rinses its FluffRoll roller mop with fresh water while the AutoSeal roller guard lifts it 0.55 in on carpets.",
+        "Up to 30,000 Pa Vormax suction lifts heavy debris, and ProLeap retractable legs cross obstacles up to 3.15 in.",
+        "OmniSight 2.0 pairs two AI cameras with a retracting LDS to avoid 240+ object types, including cables as thin as 0.04 in.",
+        "The dock washes the roller at up to 100 C, dries the mop pads in about four hours and empties dust into a 3.2 L bag for up to 100 days.",
+        "The page lists 899.99 USD against a 1,599.99 USD regular price and publishes no full-charge runtime, charging time or IP rating."
+      ]
+    },
+    {
+      "robotId": "dreame-matrix10-pro",
+      "manufacturer": "Dreame",
+      "model": "Matrix10 Pro",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "1,499.99 USD sale (1,624.99 USD regular price)",
+        "weight": "4.1 kg robot; 16.1 kg base station",
+        "size": "350 x 350 x 104 mm (13.78 x 13.78 x 4.09 in)",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum",
+        "description": "The Dreame Matrix10 Pro is a vacuum and mop robot with 30,000 Pa Vormax suction, a multi-mop switching dock that swaps three specialized mop pairs, a three-solution compartment, Dual Flex Arm edge cleaning, a HyperStream detangling DuoBrush and ThermoHub mop self-cleaning at 212 F (100 C). The robot measures 13.78 x 13.78 x 4.09 in (350 x 350 x 104 mm) and weighs 4.1 kg; the base station measures 16.4 x 18.0 x 23.2 in (416 x 457 x 590 mm) and weighs 16.1 kg. A 6,400 mAh battery serves a 250 ml dust box, a 3.2 L dust bag and 5.5 L clean plus 4.0 L used water tanks, with 10.5 mm mop lifting, 40 mm double-layer and 22 mm single-layer obstacle crossing, 280+ recognized object types and up to 100 days of auto-empty. The page lists 1,499.99 USD against a 1,624.99 USD regular price and publishes no runtime, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "5.5 L clean / 4.0 L used water at the base station",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch192. Native manufacturer product page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate Dreame cleaning models. Catalog medium size label and Not disclosed price are replaced by reviewed dimensions and prices.",
+      "sources": [
+        {
+          "name": "Dreame - Matrix10 Pro",
+          "type": "manufacturer",
+          "url": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Dreame Matrix10 Pro delivers 30,000 Pa Vormax suction and a multi-mop switching dock that selects thermal, nylon scrubbing or sponge mop pads per room.",
+        "A three-solution compartment dispenses floor, pet-odor and wood-floor care solutions automatically.",
+        "Dual Flex Arm technology extends the anti-tangle side brush and mop pad to edges and corners, while the robot crosses 40 mm double-layer and 22 mm single-layer obstacles.",
+        "ThermoHub washes the mops with 212 F (100 C) water, the dock dries them at 113 F (45 C) and auto-empty runs for up to 100 days.",
+        "The robot measures 350 x 350 x 104 mm at 4.1 kg with a 6,400 mAh battery and 5.5 L clean plus 4.0 L used water tanks; the page lists 1,499.99 USD against a 1,624.99 USD regular price."
+      ]
+    },
+    {
+      "robotId": "dreame-w10-pro",
+      "manufacturer": "Dreame",
+      "model": "W10 Pro",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "",
+        "size": "334 x 314 x 105.5 mm (13.74 x 12.36 x 4.15 in)",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "160 min",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://global.dreametech.com/products/dreamebot-w10-pro",
+        "description": "The Dreame W10 Pro is a D-shaped vacuum and mop robot with 4,000 Pa suction, 180 RPM mop rotation, a 19.2 cm (7.48 in) roller brush, ultrasonic carpet detection, LiDAR navigation and hot-air mop drying in as little as 2 hours. The robot measures 334 x 314 x 105.5 mm (13.74 x 12.36 x 4.15 in) with a 450 ml dust box; the self-wash base measures 375 x 400 x 430 mm (14.76 x 15.74 x 16.92 in) and holds 4.5 L clean and 4.0 L used water. A 6,400 mAh battery provides up to 160 minutes of vacuuming and mopping over up to 200 m2 (2,152 ft2), and the robot stores up to 3 floor plans. The page publishes no price, robot mass, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "4.5 L clean / 4.0 L used water at the base station",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch192. Native manufacturer product page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate Dreame cleaning models. Catalog price and weight are cleared because the page publishes neither.",
+      "sources": [
+        {
+          "name": "Dreame - W10 Pro",
+          "type": "manufacturer",
+          "url": "https://global.dreametech.com/products/dreamebot-w10-pro",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Dreame W10 Pro is a D-shaped vacuum and mop robot with 4,000 Pa suction, 180 RPM mop rotation and a 19.2 cm roller brush.",
+        "The self-wash base sprays and spins the mop pads against grooves, drains dirty water into the used tank and dries the pads with hot air in as little as 2 hours.",
+        "Ultrasonic carpet detection avoids carpets while mopping and boosts suction while vacuuming, and LiDAR mapping stores up to 3 floor plans.",
+        "A 6,400 mAh battery provides up to 160 minutes of vacuuming and mopping over up to 200 m2, with 4.5 L clean and 4.0 L used water tanks.",
+        "The robot measures 334 x 314 x 105.5 mm; the page publishes no price, robot mass, charging time, cleaning width or IP rating, so the catalog ~1089 USD price and 4.5 kg weight are cleared."
+      ]
+    },
+    {
+      "robotId": "dreame-x60-ultra",
+      "manufacturer": "Dreame",
+      "model": "X60 Ultra",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "1,349.99 USD sale (1,499.99 USD regular price)",
+        "weight": "4.7 kg robot; 10.6 kg base station",
+        "size": "350 x 350 x 79.5 mm (13.78 x 13.78 x 3.13 in) with sensor retracted; 350 x 350 x 103 mm (4.05 in) with sensor lifted",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/x60-ultra-robot-vacuum",
+        "description": "The Dreame X60 Ultra is a vacuum and mop robot with 35,000 Pa Vormax suction, a VersaLift DToF sensor that lowers the robot to 3.13 in (79.5 mm), dual omni-scrub mop pads with 40 C hot water, 230 RPM and 15 N downforce, and 100 C mop self-cleaning. The robot measures 350 x 350 x 79.5 mm with the sensor retracted and 350 x 350 x 103 mm with it lifted, and weighs 4.7 kg; the base station measures 390 x 423 x 499 mm and weighs 10.6 kg. A 6,400 mAh battery serves a 235 ml dust box, a 3.2 L dust bag, 4.2 L clean and 3.0 L used water tanks and up to 100 days of auto-empty, and charges from 9 to 80 percent in about 80 minutes. The robot crosses 8.8 cm double-layer and 4.5 cm single-layer obstacles and recognizes 280+ object types. The page lists 1,349.99 USD against a 1,499.99 USD regular price and publishes no full-charge runtime, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width.",
+        "chargingTime": "About 80 min from 9 to 80 percent",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "4.2 L clean / 3.0 L used water at the base station",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch192. Native manufacturer product page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate Dreame cleaning models. Catalog small size label, ~1350 USD price, 180 min runtime and 180 min battery values are replaced or cleared by the reviewed values.",
+      "sources": [
+        {
+          "name": "Dreame - X60 Ultra",
+          "type": "manufacturer",
+          "url": "https://www.dreametech.com/products/x60-ultra-robot-vacuum",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Dreame X60 Ultra delivers 35,000 Pa Vormax suction and a VersaLift DToF sensor that lowers the robot to 3.13 in (79.5 mm) for low spaces.",
+        "Dual omni-scrub mop pads apply 40 C hot water, 230 RPM and 15 N downforce, and the dock washes them with 100 C water.",
+        "A 6,400 mAh battery charges from 9 to 80 percent in about 80 minutes, with charge protection that can stop between 80 and 100 percent.",
+        "The robot crosses 8.8 cm double-layer and 4.5 cm single-layer obstacles and recognizes 280+ object types with two AI cameras and LED lighting.",
+        "The robot measures 350 x 350 x 79.5 mm at 4.7 kg with a 3.2 L dust bag, 4.2 L clean and 3.0 L used water tanks and up to 100 days of auto-empty; the page lists 1,349.99 USD against a 1,499.99 USD regular price."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "dreame-aqua10-ultra-roller-complete",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Dreame",
+        "model": "Aqua10 Ultra Roller Complete",
+        "price": "1599 USD",
+        "weight": "",
+        "size": "medium",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;ai-powered",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+        "image": "images/cleaning/dreame-aqua10-ultra-roller-complete.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Roller-mop robot vacuum with fresh-water rinsing and 30,000Pa suction.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Dreame",
+        "model": "Aqua10 Ultra Roller Complete",
+        "price": "899.99 USD sale (1,599.99 USD regular price)",
+        "weight": "12.79 lbs (about 5.8 kg) robot; 24.47 lbs (about 11.1 kg) base station",
+        "size": "350 x 350 x 97.5 mm (13.78 x 13.78 x 3.84 in) with LDS retracted; 350 x 350 x 120 mm (13.78 x 13.78 x 4.72 in) with LDS lifted",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;ai-powered",
+        "handType": "None; autonomous vacuum and roller mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+        "image": "images/cleaning/dreame-aqua10-ultra-roller-complete.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Dreame Aqua10 Ultra Roller Complete is a vacuum and roller mop robot with up to 30,000 Pa Vormax suction, a continuously rinsed FluffRoll roller mop, an AutoSeal roller guard, ProLeap retractable legs and OmniSight 2.0 obstacle avoidance for 240+ objects. The robot measures 13.78 x 13.78 x 3.84 in (about 350 x 350 x 97.5 mm) with the LDS retracted and 4.72 in (120 mm) with it lifted, and weighs 12.79 lbs (about 5.8 kg); the base station measures 16.54 x 17.32 x 19.88 in and weighs 24.47 lbs (about 11.1 kg). A 6,400 mAh battery serves a 220 ml dust box, 100 ml clean and 140 ml used water boxes, and 4 L clean plus 3.5 L used station tanks; the dock washes the roller at up to 100 C, dries the mop pads in about four hours and empties dust into a 3.2 L bag for up to 100 days. The page lists 899.99 USD against a 1,599.99 USD regular price and publishes only top-up runs of about 48, 37 and 20 min at low, medium and high water levels, and no full-charge runtime, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width. The catalog row is the Complete bundle; the reviewed page is the shared Aqua10 Ultra Roller product page.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "4 L clean / 3.5 L used water at the base station",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "dreame-matrix10-pro",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Dreame",
+        "model": "Matrix10 Pro",
+        "price": "Not disclosed",
+        "weight": "",
+        "size": "medium",
+        "batteryLife": "",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;ai-powered",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum",
+        "image": "images/cleaning/dreame-matrix10-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Robot vacuum with auto-swappable multi-mop system and Vormax suction.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Dreame",
+        "model": "Matrix10 Pro",
+        "price": "1,499.99 USD sale (1,624.99 USD regular price)",
+        "weight": "4.1 kg robot; 16.1 kg base station",
+        "size": "350 x 350 x 104 mm (13.78 x 13.78 x 4.09 in)",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;ai-powered",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum",
+        "image": "images/cleaning/dreame-matrix10-pro.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Dreame Matrix10 Pro is a vacuum and mop robot with 30,000 Pa Vormax suction, a multi-mop switching dock that swaps three specialized mop pairs, a three-solution compartment, Dual Flex Arm edge cleaning, a HyperStream detangling DuoBrush and ThermoHub mop self-cleaning at 212 F (100 C). The robot measures 13.78 x 13.78 x 4.09 in (350 x 350 x 104 mm) and weighs 4.1 kg; the base station measures 16.4 x 18.0 x 23.2 in (416 x 457 x 590 mm) and weighs 16.1 kg. A 6,400 mAh battery serves a 250 ml dust box, a 3.2 L dust bag and 5.5 L clean plus 4.0 L used water tanks, with 10.5 mm mop lifting, 40 mm double-layer and 22 mm single-layer obstacle crossing, 280+ recognized object types and up to 100 days of auto-empty. The page lists 1,499.99 USD against a 1,624.99 USD regular price and publishes no runtime, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width.",
+        "releaseDate": "2025",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "5.5 L clean / 4.0 L used water at the base station",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "dreame-w10-pro",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Dreame",
+        "model": "W10 Pro",
+        "price": "~1089 USD",
+        "weight": "4.5 kg",
+        "size": "large",
+        "batteryLife": "210 min",
+        "maxRuntime": "210 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;self-wash;obstacle-avoidance",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "4000 Pa suction",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://global.dreametech.com/products/dreamebot-w10-pro",
+        "image": "https://global.dreametech.com/cdn/shop/files/11_ea070590-4705-4f1c-af83-9fbd5a3324b2_600x.png?v=1669882820",
+        "video": "",
+        "gallery": "",
+        "description": "Self-washing and self-drying D-shaped vacuum-mop with LiDAR navigation and AI obstacle avoidance.",
+        "releaseDate": "2022",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Dreame",
+        "model": "W10 Pro",
+        "price": "",
+        "weight": "",
+        "size": "334 x 314 x 105.5 mm (13.74 x 12.36 x 4.15 in)",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "160 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;self-wash;obstacle-avoidance",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://global.dreametech.com/products/dreamebot-w10-pro",
+        "image": "https://global.dreametech.com/cdn/shop/files/11_ea070590-4705-4f1c-af83-9fbd5a3324b2_600x.png?v=1669882820",
+        "video": "",
+        "gallery": "",
+        "description": "The Dreame W10 Pro is a D-shaped vacuum and mop robot with 4,000 Pa suction, 180 RPM mop rotation, a 19.2 cm (7.48 in) roller brush, ultrasonic carpet detection, LiDAR navigation and hot-air mop drying in as little as 2 hours. The robot measures 334 x 314 x 105.5 mm (13.74 x 12.36 x 4.15 in) with a 450 ml dust box; the self-wash base measures 375 x 400 x 430 mm (14.76 x 15.74 x 16.92 in) and holds 4.5 L clean and 4.0 L used water. A 6,400 mAh battery provides up to 160 minutes of vacuuming and mopping over up to 200 m2 (2,152 ft2), and the robot stores up to 3 floor plans. The page publishes no price, robot mass, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width.",
+        "releaseDate": "2022",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "4.5 L clean / 4.0 L used water at the base station",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "dreame-x60-ultra",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "Dreame",
+        "model": "X60 Ultra",
+        "price": "~1350 USD",
+        "weight": "",
+        "size": "small",
+        "batteryLife": "~180 min",
+        "maxRuntime": "180 min",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;hot-water-wash;ai-powered",
+        "handType": "",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/x60-ultra-robot-vacuum",
+        "image": "images/cleaning/dreame-x60-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "35,000Pa 2026 flagship crossing 8.8cm thresholds, hot-water dock.",
+        "releaseDate": "2026",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "Dreame",
+        "model": "X60 Ultra",
+        "price": "1,349.99 USD sale (1,499.99 USD regular price)",
+        "weight": "4.7 kg robot; 10.6 kg base station",
+        "size": "350 x 350 x 79.5 mm (13.78 x 13.78 x 3.13 in) with sensor retracted; 350 x 350 x 103 mm (4.05 in) with sensor lifted",
+        "batteryLife": "6,400 mAh",
+        "maxRuntime": "",
+        "tags": "vacuum;mop;consumer;app-control;wifi;mapping;lidar;obstacle-avoidance;auto-empty;self-wash;hot-water-wash;ai-powered",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.dreametech.com/products/x60-ultra-robot-vacuum",
+        "image": "images/cleaning/dreame-x60-ultra.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The Dreame X60 Ultra is a vacuum and mop robot with 35,000 Pa Vormax suction, a VersaLift DToF sensor that lowers the robot to 3.13 in (79.5 mm), dual omni-scrub mop pads with 40 C hot water, 230 RPM and 15 N downforce, and 100 C mop self-cleaning. The robot measures 350 x 350 x 79.5 mm with the sensor retracted and 350 x 350 x 103 mm with it lifted, and weighs 4.7 kg; the base station measures 390 x 423 x 499 mm and weighs 10.6 kg. A 6,400 mAh battery serves a 235 ml dust box, a 3.2 L dust bag, 4.2 L clean and 3.0 L used water tanks and up to 100 days of auto-empty, and charges from 9 to 80 percent in about 80 minutes. The robot crosses 8.8 cm double-layer and 4.5 cm single-layer obstacles and recognizes 280+ object types. The page lists 1,349.99 USD against a 1,499.99 USD regular price and publishes no full-charge runtime, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width.",
+        "releaseDate": "2026",
+        "chargingTime": "About 80 min from 9 to 80 percent",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "4.2 L clean / 3.0 L used water at the base station",
+        "minAisleWidth": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "Dreame",
+      "model": "Aqua10 Ultra Roller Complete",
+      "changes": {
+        "price": {
+          "before": "1599 USD",
+          "after": "899.99 USD sale (1,599.99 USD regular price)"
+        },
+        "weight": {
+          "before": "",
+          "after": "12.79 lbs (about 5.8 kg) robot; 24.47 lbs (about 11.1 kg) base station"
+        },
+        "size": {
+          "before": "medium",
+          "after": "350 x 350 x 97.5 mm (13.78 x 13.78 x 3.84 in) with LDS retracted; 350 x 350 x 120 mm (13.78 x 13.78 x 4.72 in) with LDS lifted"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "6,400 mAh"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and roller mop robot"
+        },
+        "description": {
+          "before": "Roller-mop robot vacuum with fresh-water rinsing and 30,000Pa suction.",
+          "after": "The Dreame Aqua10 Ultra Roller Complete is a vacuum and roller mop robot with up to 30,000 Pa Vormax suction, a continuously rinsed FluffRoll roller mop, an AutoSeal roller guard, ProLeap retractable legs and OmniSight 2.0 obstacle avoidance for 240+ objects. The robot measures 13.78 x 13.78 x 3.84 in (about 350 x 350 x 97.5 mm) with the LDS retracted and 4.72 in (120 mm) with it lifted, and weighs 12.79 lbs (about 5.8 kg); the base station measures 16.54 x 17.32 x 19.88 in and weighs 24.47 lbs (about 11.1 kg). A 6,400 mAh battery serves a 220 ml dust box, 100 ml clean and 140 ml used water boxes, and 4 L clean plus 3.5 L used station tanks; the dock washes the roller at up to 100 C, dries the mop pads in about four hours and empties dust into a 3.2 L bag for up to 100 days. The page lists 899.99 USD against a 1,599.99 USD regular price and publishes only top-up runs of about 48, 37 and 20 min at low, medium and high water levels, and no full-charge runtime, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width. The catalog row is the Complete bundle; the reviewed page is the shared Aqua10 Ultra Roller product page."
+        },
+        "waterTankCapacity": {
+          "before": "",
+          "after": "4 L clean / 3.5 L used water at the base station"
+        }
+      }
+    },
+    {
+      "manufacturer": "Dreame",
+      "model": "Matrix10 Pro",
+      "changes": {
+        "price": {
+          "before": "Not disclosed",
+          "after": "1,499.99 USD sale (1,624.99 USD regular price)"
+        },
+        "weight": {
+          "before": "",
+          "after": "4.1 kg robot; 16.1 kg base station"
+        },
+        "size": {
+          "before": "medium",
+          "after": "350 x 350 x 104 mm (13.78 x 13.78 x 4.09 in)"
+        },
+        "batteryLife": {
+          "before": "",
+          "after": "6,400 mAh"
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "Robot vacuum with auto-swappable multi-mop system and Vormax suction.",
+          "after": "The Dreame Matrix10 Pro is a vacuum and mop robot with 30,000 Pa Vormax suction, a multi-mop switching dock that swaps three specialized mop pairs, a three-solution compartment, Dual Flex Arm edge cleaning, a HyperStream detangling DuoBrush and ThermoHub mop self-cleaning at 212 F (100 C). The robot measures 13.78 x 13.78 x 4.09 in (350 x 350 x 104 mm) and weighs 4.1 kg; the base station measures 16.4 x 18.0 x 23.2 in (416 x 457 x 590 mm) and weighs 16.1 kg. A 6,400 mAh battery serves a 250 ml dust box, a 3.2 L dust bag and 5.5 L clean plus 4.0 L used water tanks, with 10.5 mm mop lifting, 40 mm double-layer and 22 mm single-layer obstacle crossing, 280+ recognized object types and up to 100 days of auto-empty. The page lists 1,499.99 USD against a 1,624.99 USD regular price and publishes no runtime, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width."
+        },
+        "waterTankCapacity": {
+          "before": "",
+          "after": "5.5 L clean / 4.0 L used water at the base station"
+        }
+      }
+    },
+    {
+      "manufacturer": "Dreame",
+      "model": "W10 Pro",
+      "changes": {
+        "price": {
+          "before": "~1089 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "4.5 kg",
+          "after": ""
+        },
+        "size": {
+          "before": "large",
+          "after": "334 x 314 x 105.5 mm (13.74 x 12.36 x 4.15 in)"
+        },
+        "batteryLife": {
+          "before": "210 min",
+          "after": "6,400 mAh"
+        },
+        "maxRuntime": {
+          "before": "210 min",
+          "after": "160 min"
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "speed": {
+          "before": "4000 Pa suction",
+          "after": ""
+        },
+        "description": {
+          "before": "Self-washing and self-drying D-shaped vacuum-mop with LiDAR navigation and AI obstacle avoidance.",
+          "after": "The Dreame W10 Pro is a D-shaped vacuum and mop robot with 4,000 Pa suction, 180 RPM mop rotation, a 19.2 cm (7.48 in) roller brush, ultrasonic carpet detection, LiDAR navigation and hot-air mop drying in as little as 2 hours. The robot measures 334 x 314 x 105.5 mm (13.74 x 12.36 x 4.15 in) with a 450 ml dust box; the self-wash base measures 375 x 400 x 430 mm (14.76 x 15.74 x 16.92 in) and holds 4.5 L clean and 4.0 L used water. A 6,400 mAh battery provides up to 160 minutes of vacuuming and mopping over up to 200 m2 (2,152 ft2), and the robot stores up to 3 floor plans. The page publishes no price, robot mass, charging time, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width."
+        },
+        "waterTankCapacity": {
+          "before": "",
+          "after": "4.5 L clean / 4.0 L used water at the base station"
+        }
+      }
+    },
+    {
+      "manufacturer": "Dreame",
+      "model": "X60 Ultra",
+      "changes": {
+        "price": {
+          "before": "~1350 USD",
+          "after": "1,349.99 USD sale (1,499.99 USD regular price)"
+        },
+        "weight": {
+          "before": "",
+          "after": "4.7 kg robot; 10.6 kg base station"
+        },
+        "size": {
+          "before": "small",
+          "after": "350 x 350 x 79.5 mm (13.78 x 13.78 x 3.13 in) with sensor retracted; 350 x 350 x 103 mm (4.05 in) with sensor lifted"
+        },
+        "batteryLife": {
+          "before": "~180 min",
+          "after": "6,400 mAh"
+        },
+        "maxRuntime": {
+          "before": "180 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "description": {
+          "before": "35,000Pa 2026 flagship crossing 8.8cm thresholds, hot-water dock.",
+          "after": "The Dreame X60 Ultra is a vacuum and mop robot with 35,000 Pa Vormax suction, a VersaLift DToF sensor that lowers the robot to 3.13 in (79.5 mm), dual omni-scrub mop pads with 40 C hot water, 230 RPM and 15 N downforce, and 100 C mop self-cleaning. The robot measures 350 x 350 x 79.5 mm with the sensor retracted and 350 x 350 x 103 mm with it lifted, and weighs 4.7 kg; the base station measures 390 x 423 x 499 mm and weighs 10.6 kg. A 6,400 mAh battery serves a 235 ml dust box, a 3.2 L dust bag, 4.2 L clean and 3.0 L used water tanks and up to 100 days of auto-empty, and charges from 9 to 80 percent in about 80 minutes. The robot crosses 8.8 cm double-layer and 4.5 cm single-layer obstacles and recognizes 280+ object types. The page lists 1,349.99 USD against a 1,499.99 USD regular price and publishes no full-charge runtime, dB rating, payload, travel speed, cleaning width, hourly area rate, IP rating or minimum aisle width."
+        },
+        "chargingTime": {
+          "before": "",
+          "after": "About 80 min from 9 to 80 percent"
+        },
+        "waterTankCapacity": {
+          "before": "",
+          "after": "4.2 L clean / 3.0 L used water at the base station"
+        }
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "catalog-dreame-24de5c86e99b",
+      "name": "Dreame",
+      "role": "Consumer cleaning and floor-care robot manufacturer",
+      "website": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+      "checkedAt": "2026-11-03",
+      "sources": [
+        {
+          "name": "Dreame - X50 Ultra",
+          "type": "manufacturer",
+          "url": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dreame - L40 Ultra",
+          "type": "manufacturer",
+          "url": "https://www.dreametech.com/products/l40ultra-robot-vacuum",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dreame - Matrix10 Ultra",
+          "type": "manufacturer",
+          "url": "https://www.dreametech.com/products/matrix10-ultra-robot-vacuum",
+          "checkedAt": "2026-11-03"
+        },
+        {
+          "name": "Dreame - Aqua10 Ultra Roller",
+          "type": "manufacturer",
+          "url": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+          "checkedAt": "2026-11-03"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-164/source-1.html",
+      "reviewNotes": "Batch164. Dreame pages read as text only; no research browser, visual inspection, OCR or media reuse. X50 Ultra, L40 Ultra, Matrix10 Ultra and Aqua10 Ultra Roller are four separate current models. No login, forms, contact, messages or transactions. All USPs, complete portfolios and leadership remain unproven.",
+      "highlights": [
+        "Dreame is a consumer cleaning and floor-care robot manufacturer whose current US range includes the X50 Ultra, L40 Ultra, Matrix10 Ultra and Aqua10 Ultra Roller.",
+        "Its robot vacuum lines use different mop systems: multi-mop switching on the Matrix10 Ultra, a self-rinsing roller mop on the Aqua10 Ultra Roller, MopExtend RoboSwing on the L40 Ultra and a retractable VersaLift sensor on the X50 Ultra.",
+        "The reviewed pages publish 11,000 Pa suction for the L40 Ultra, 20,000 Pa for the X50 Ultra and 30,000 Pa for the Matrix10 Ultra and Aqua10 Ultra Roller.",
+        "Battery capacity is 5,200 mAh for the L40 Ultra and 6,400 mAh for the other three; the X50 Ultra page cites up to 220 min of cleaning and 205 m2 per charge, the L40 Ultra page up to 194 min.",
+        "The reviewed pages publish no dB noise rating, absolute charging time, payload or IP rating; prices are dated US sale observations against regular prices."
+      ]
+    }
+  ],
+  "totalProductHighlightRecords": 1438,
+  "totalHighlightStatements": 6667,
+  "totalProductSourceReferences": 3001,
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 34,
+    "axeCases": 8,
+    "buildPages": 3431,
+    "dataErrors": 0,
+    "dataWarnings": 1250,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": [
+      {
+        "id": 1,
+        "url": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+        "bodyFile": "source-1.html",
+        "bodyShaMatches": true,
+        "sha256": "1fed99b82a7505293211120a9f46f0581fd3a581c80c72b78ed9a6d8642637a3"
+      },
+      {
+        "id": 2,
+        "url": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum",
+        "bodyFile": "source-2.html",
+        "bodyShaMatches": true,
+        "sha256": "0ad2905c6e8c1187b034fc794e7c69423f44167a76c8ce504d27a4cf6f56e6c8"
+      },
+      {
+        "id": 3,
+        "url": "https://global.dreametech.com/products/dreamebot-w10-pro",
+        "bodyFile": "source-3.html",
+        "bodyShaMatches": true,
+        "sha256": "07d0fde8c661cb2b1874d804eae360aa4f3e2182020fa7fd1904f0ee1d57e7b6"
+      },
+      {
+        "id": 4,
+        "url": "https://www.dreametech.com/products/x60-ultra-robot-vacuum",
+        "bodyFile": "source-4.html",
+        "bodyShaMatches": true,
+        "sha256": "5682eed0a959def497fd95f277583c5ec5e28a34424af18141e98d04daa84d5f"
+      }
+    ],
+    "body-scope-check": {
+      "allNativeHtml": true,
+      "checks": [
+        {
+          "id": 1,
+          "url": "https://www.dreametech.com/products/aqua10-ultra-roller-robot-vacuum",
+          "bodyShaMatches": true,
+          "bodyBytes": 3064450,
+          "textChars": 26437
+        },
+        {
+          "id": 2,
+          "url": "https://www.dreametech.com/products/matrix10-pro-robot-vacuum",
+          "bodyShaMatches": true,
+          "bodyBytes": 3002011,
+          "textChars": 23293
+        },
+        {
+          "id": 3,
+          "url": "https://global.dreametech.com/products/dreamebot-w10-pro",
+          "bodyShaMatches": true,
+          "bodyBytes": 957783,
+          "textChars": 3994
+        },
+        {
+          "id": 4,
+          "url": "https://www.dreametech.com/products/x60-ultra-robot-vacuum",
+          "bodyShaMatches": true,
+          "bodyBytes": 3095699,
+          "textChars": 22150
+        }
+      ]
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2380,
+      "reviewedProducts": 4,
+      "selectedFields": 72,
+      "selectedFieldStatuses": {
+        "documented": 32,
+        "not-documented": 40
+      },
+      "specificationReviewModels": 1422,
+      "specificationFields": 26665,
+      "allFieldStatuses": {
+        "not-documented": 16319,
+        "documented": 9915,
+        "conflicting": 323,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1438,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 72,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 0
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1438,
+      "individualHighlights": 6667,
+      "productSourceReferences": 3001,
+      "specificationReviewModels": 1422,
+      "specificationFields": 26665,
+      "publicJsonBytes": 6976801,
+      "catalogScriptBytes": 2801604,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-04T02:27:07Z",
+            "after": "2026-11-04T02:32:46Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-04T02:27:07.063Z",
+            "after": "2026-11-04T02:32:45.331Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "975a3bf115120b2d66b80d2b25c80ca30319422b101ad14ee27f7b70996a1393",
+            "after": "6a56203f396ca933df608adf389e59b9919c7293a3e498c8fd00f72f0dc85b40"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-04T02:27:07.063Z",
+            "after": "2026-11-04T02:32:45.331Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-04T02:27:07.063Z",
+            "after": "2026-11-04T02:32:45.331Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 75,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "5d473de7745a3048528e47a777972be8521d2db2",
+    "dataCommit": "5ad771ede5ba64e346f85383c439edf800c63b9f",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 691,
+  "goalComplete": false
+}
