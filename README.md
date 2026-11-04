@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-04, all source company names are represented in 591 competitor
-groups. The catalog contains 2,380 model/configuration entries and 1,410 dated primary-source highlight
+groups. The catalog contains 2,380 model/configuration entries and 1,414 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-26,166 fields across 1394 models, distinguishing documented, undisclosed, conflicting and
+26,238 fields across 1398 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,888 kB JSON response loads only for search or comparison;
+A separate 6,899 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,527 reviewed highlight statements as well as
+Catalog search now includes all 6,547 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1888,3 +1888,5 @@ Dreame's L20 Ultra, X40 Ultra, D20 Plus and D20 Pro Plus now have selected field
 Wybot's S2, C2 Vision, C2 and F1 now have selected field reviews. S2 and C2 are new catalog rows: the existing S2 Pro row describes a different robot and its product URL returns 404, while the catalog previously listed only the C2 Vision variant. The manufacturer publishes 759.99 USD, up to 210 min runtime, up to 3,229 sq ft coverage, a 3 h quick charge, 6 app paths and 7 app modes for the S2; 629.99 USD, 2,152 sq ft, a 180 min Eco Mode runtime, 3,883 GPH and 180 um plus 10 um filtration for the C2 Vision; 499.99 USD, 3,592 GPH, a 3 L basket, 7 modes and 6 paths for the C2; and 299.98 USD, 33 W solar power, a 7 L basket and 8 h Standard Mode runtime for the F1. Catalog prices, size labels, battery and run time values are replaced or cleared where the reviewed pages are silent. No reviewed page publishes robot mass, dimensions or battery capacity, and only the S2 publishes a charging time; no page publishes an IP rating, payload, travel speed, cleaning width, hourly area rate or water tank capacity. All USPs, full portfolios and market leadership remain unproven.
 
 Husqvarna's Automower 450X EPOS, 440 iQ, 415X and 310 Mark II now have selected field reviews. The manufacturer publishes a 2.5 acre working area, a 9.45 in cutting width, 15% boundary and 45% inside slope limits, 31.7 lb, 28.3 x 22 x 12.6 in, IPX4, 65 dB(A) and about 210 min per charge for the 450X EPOS; 4,299.99 USD, EPOS wire-free positioning, a 7.5 Ah battery, 138 min runtime, 54 min charging time, 9.4 in cutting width, 39 lb, 29.6 x 21.4 x 11.1 in and IPX5 for the 440 iQ; a 0.37 acre working area, 8.7 in cutting width, 50 min runtime, 21.4 lb and IPX5 for the 415X; and 1,014.30 GBP campaign price, a 1,000 m2 working area, 22 cm cutting width, a 2.1 Ah battery, 60 min runtime, 60 min charging time, 9.4 kg, 57 x 43 x 25 cm and IPX5 for the 310 Mark II. Catalog prices, sizes, weights, battery and run time labels are replaced or cleared where the reviewed pages are silent. No reviewed page publishes payload, travel speed, hourly area rate or water tank capacity, and only the 310 Mark II publishes a charging time. All USPs, full portfolios and market leadership remain unproven; the manufacturer's own ranking claim is not treated as independent evidence.
+
+Narwal's Freo X10 Pro, Freo X Plus, Freo Z10 Turbo and Flow now have selected field reviews. The manufacturer publishes 449.99 USD, 11,000 Pa suction, a 5,000 mAh battery, 355 x 350 x 107.7 mm, 3,700 g and a 120-day dust bag for the Freo X10 Pro; 339.99 USD, 4,250 g, 35.0 x 35.5 x 10.7 cm and seven weeks of compressed dust storage for the Freo X Plus; 549.99 USD, 25,000 Pa, 5,200 mAh, 4.5 kg, 13.98 x 13.78 x 4.24 in and a 161.6 F mop wash for the Freo Z10 Turbo; and 1,499.99 USD, 22,000 Pa, a 6,400 mAh battery, 355 x 350 x 107.7 mm, about 4.6 kg and 40 mm threshold clearance for the Flow. Catalog prices, sizes, weights, battery and run time labels are replaced or cleared where the reviewed pages are silent. No reviewed page publishes run time in minutes, charging time, an IP rating, payload, travel speed, cleaning width, hourly area rate, water tank capacity or minimum aisle width. All USPs, full portfolios and market leadership remain unproven.
