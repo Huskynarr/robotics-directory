@@ -1,0 +1,965 @@
+{
+  "batch": 182,
+  "checkedAt": "2026-11-04",
+  "manufacturers": [
+    "iRobot"
+  ],
+  "catalogModelsBefore": 2378,
+  "catalogModelsAfter": 2378,
+  "newModels": 0,
+  "existingModelsReviewed": 4,
+  "newSpecificationReviews": 4,
+  "expandedSpecificationReviews": 0,
+  "selectedFields": 72,
+  "fieldStatuses": {
+    "documented": 26,
+    "not-documented": 46
+  },
+  "newCompanyFocusReviews": 0,
+  "updatedCompanyFocusReviews": 0,
+  "newHighlightStatements": 20,
+  "extraProductSourceReferences": 4,
+  "previousHighlightsPreserved": true,
+  "identityScope": "Four existing catalog rows that previously had no field review were reviewed against current iRobot US product pages. Roomba j7+, Roomba j9+, Braava jet m6 and Roomba Combo 10 Max are four separate current models with their own product pages. No new model was created and the existing iRobot company focus review was left unchanged. The reviewed pages publish robot mass, robot dimensions, battery type and, for the Combo 10 Max, battery capacity, so the catalog sizes and weights are replaced and the battery labels are replaced or cleared. The j7+ page publishes 799.99 USD and the Combo 10 Max page 1299.99 USD, while the j9+ and Braava jet m6 pages direct buyers to select retailers and publish no price, so the catalog 999 and 499 USD prices are cleared. Run times in minutes are published on none of the four pages, so the catalog 105, 120, 150 and 90 min values are cleared. The j7+ and Braava jet m6 pages publish no robot depth; their dimensions are recorded as published.",
+  "pendingPortfolioLeads": [
+    {
+      "name": "iRobot run time and charging time",
+      "scope": "None of the four reviewed iRobot product pages publishes a run time in minutes or a charging time. The catalog 105, 120, 150 and 90 min run times are cleared and both fields remain unrecorded.",
+      "source": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html"
+    },
+    {
+      "name": "iRobot j9+ and Braava jet m6 prices",
+      "scope": "The j9+ and Braava jet m6 pages direct buyers to select retailers and publish no price. The catalog 999 and 499 USD prices are cleared and both fields remain unrecorded.",
+      "source": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html"
+    }
+  ],
+  "allSources": [
+    {
+      "id": 1,
+      "url": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html",
+      "finalUrl": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html",
+      "status": 200,
+      "checkedAt": "2026-11-04T00:31:26.511073+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "dd11abb191c055324caa39445d2f4b157398df56c5f40135f39c256e4ab7fb91",
+      "textFile": "source-1-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "id": 2,
+      "url": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html",
+      "finalUrl": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html",
+      "status": 200,
+      "checkedAt": "2026-11-04T00:31:32.160781+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "1e1c99631ba0d36ba34b8f6035fcb279e266094d753a4abe51bea20b69e4fc27",
+      "textFile": "source-2-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "id": 3,
+      "url": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/m6-Robot-Mops.html",
+      "finalUrl": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/m6-Robot-Mops.html",
+      "status": 200,
+      "checkedAt": "2026-11-04T00:31:37.806517+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "787e2db2e17850c8fd94f5f79ad21dc03ae45fb0a0bcf8e33a36297f76b4163f",
+      "textFile": "source-3-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    },
+    {
+      "id": 4,
+      "url": "https://www.irobot.com/en_US/roomba-combo-10-max-robot-with-autowash-dock/X085020.html",
+      "finalUrl": "https://www.irobot.com/en_US/roomba-combo-10-max-robot-with-autowash-dock/X085020.html",
+      "status": 200,
+      "checkedAt": "2026-11-04T00:31:43.633078+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "ed0eab769cbdbdebde7b4c4d5851a584cdeb3b6e325f56da808cf5cf515768bf",
+      "textFile": "source-4-main.txt",
+      "inspection": "extracted text only; no visual inspection",
+      "contentType": "text/html;charset=UTF-8"
+    }
+  ],
+  "reviewedProducts": [
+    {
+      "robotId": "irobot-roomba-j7-plus",
+      "manufacturer": "iRobot",
+      "model": "Roomba j7+",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "799.99 USD",
+        "weight": "7.49 lb",
+        "size": "13.3 in width x 3.4 in high",
+        "batteryLife": "Lithium Ion",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum robot",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html",
+        "description": "The iRobot Roomba j7+ is a self-emptying robot vacuum with a Clean Base Automatic Dirt Disposal, iRobot OS software, obstacle identification and avoidance for pet waste and cords, and a 3-stage cleaning system with 10x power-lifting suction. It measures 13.3 in in width and 3.4 in in height and weighs 7.49 lb. The page publishes a Lithium Ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch182. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate iRobot models. Unsupported catalog price, size, weight, battery and run time values are replaced or cleared.",
+      "sources": [
+        {
+          "name": "iRobot - Roomba j7+",
+          "type": "manufacturer",
+          "url": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The iRobot Roomba j7+ identifies and avoids obstacles such as pet waste and cords.",
+        "A Clean Base provides automatic dirt disposal and the robot resumes cleaning after recharging.",
+        "The 3-stage cleaning system delivers 10x power-lifting suction.",
+        "iRobot OS adds mapping and targeted cleaning routines.",
+        "The robot weighs 7.49 lb and measures 13.3 in wide by 3.4 in high; no run time in minutes is published."
+      ]
+    },
+    {
+      "robotId": "irobot-roomba-j9-plus",
+      "manufacturer": "iRobot",
+      "model": "Roomba j9+",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "8.98 lb",
+        "size": "13.7 x 13.7 x 3.4 in",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum robot",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html",
+        "description": "The iRobot Roomba j9+ is a self-emptying robot vacuum with 100% stronger suction, a 3-stage cleaning system with Dual Multi-Surface Rubber Brushes and an Edge-Sweeping Brush, Dirt Detective room prioritization and iRobot OS software. It measures 13.7 x 13.7 x 3.4 in and weighs 8.98 lb. The page publishes a Lithium-ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth beyond the listed dimensions, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width. The page lists no price and directs buyers to select retailers, so the catalog 999 USD price is cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch182. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate iRobot models. Unsupported catalog price, size, weight, battery and run time values are replaced or cleared.",
+      "sources": [
+        {
+          "name": "iRobot - Roomba j9+",
+          "type": "manufacturer",
+          "url": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The iRobot Roomba j9+ delivers 100% stronger suction through a 3-stage cleaning system.",
+        "Dirt Detective prioritizes the dirtiest rooms first, and iRobot OS supports the cleaning plan.",
+        "Dual Multi-Surface Rubber Brushes and an Edge-Sweeping Brush handle floors and corners.",
+        "A Clean Base automatically empties the robot, which weighs 8.98 lb and measures 13.7 x 13.7 x 3.4 in.",
+        "The page publishes no price, run time in minutes or battery capacity, so the catalog 999 USD and 120 min values are cleared."
+      ]
+    },
+    {
+      "robotId": "irobot-braava-jet-m6",
+      "manufacturer": "iRobot",
+      "model": "Braava jet m6",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "",
+        "weight": "4.85 lb",
+        "size": "10.6 in width x 3.5 in high",
+        "batteryLife": "Lithium Ion",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous mopping robot",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/m6-Robot-Mops.html",
+        "description": "The iRobot Braava jet m6 is a Wi-Fi connected robot mop with Imprint Smart Mapping, wet mopping and dry sweeping modes, Smart Charge and Resume, and a Home Base. It measures 10.6 in in width and 3.5 in in height and weighs 4.85 lb. The page publishes a Lithium Ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width. The page lists no price and directs buyers to select retailers, so the catalog 499 USD price is cleared.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch182. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate iRobot models. Unsupported catalog price, size, weight, battery and run time values are replaced or cleared.",
+      "sources": [
+        {
+          "name": "iRobot - Braava jet m6",
+          "type": "manufacturer",
+          "url": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/m6-Robot-Mops.html",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The iRobot Braava jet m6 is a Wi-Fi connected robot mop with Imprint Smart Mapping.",
+        "Wet mopping and dry sweeping modes cover hard floors, with a Braava jet Hard Floor Cleaning Solution option.",
+        "Smart Charge and Resume recharges the robot for the time needed to finish the job.",
+        "A Home Base recharges the m6 automatically, and the robot weighs 4.85 lb at 10.6 in wide by 3.5 in high.",
+        "The page publishes no price, battery capacity, run time in minutes or charging time, so the catalog 499 USD and 150 min values are cleared."
+      ]
+    },
+    {
+      "robotId": "irobot-roomba-combo-10-max",
+      "manufacturer": "iRobot",
+      "model": "Roomba Combo 10 Max",
+      "category": "cleaning",
+      "new": false,
+      "fields": {
+        "price": "1299.99 USD",
+        "weight": "11 lb",
+        "size": "13.3 x 13.3 x 3.4 in",
+        "batteryLife": "4200 mAh Lithium Iron Phosphate (LFP) battery",
+        "maxRuntime": "",
+        "payload": "",
+        "speed": "",
+        "ipRating": "",
+        "dof": "",
+        "handType": "None; autonomous vacuum and mop robot",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-combo-10-max-robot-with-autowash-dock/X085020.html",
+        "description": "The iRobot Roomba Combo 10 Max robot with AutoWash dock is a vacuum and mop robot with a 4-Stage Cleaning System, an Edge-Sweeping Brush, Dual Rubber Brushes and SmartScrub back-and-forth mopping. The AutoWash dock self-empties the bin, washes and dries the mop pad, and the robot uses detection sensors and a camera to recognize rooms and areas and avoid obstacles. It measures 13.3 x 13.3 x 3.4 in and weighs 11 lb, with a 4200 mAh Lithium Iron Phosphate (LFP) battery. The page publishes no run time in minutes, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width.",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "states": [],
+      "notes": "Batch182. Native manufacturer page read as text only; no research browser, visual inspection, OCR or media reuse. Four separate iRobot models. Catalog price, size, weight, battery and run time values are replaced or cleared.",
+      "sources": [
+        {
+          "name": "iRobot - Roomba Combo 10 Max",
+          "type": "manufacturer",
+          "url": "https://www.irobot.com/en_US/roomba-combo-10-max-robot-with-autowash-dock/X085020.html",
+          "checkedAt": "2026-11-04"
+        }
+      ],
+      "highlights": [
+        "The Roomba Combo 10 Max pairs powerful vacuuming with deep-scrub mopping and a 4-Stage Cleaning System.",
+        "Its AutoWash dock self-empties the bin and washes and dries the mop pad.",
+        "An Edge-Sweeping Brush, Dual Rubber Brushes and SmartScrub cover corners and stuck-on dirt.",
+        "Detection sensors and a camera recognize rooms and areas and avoid stairs, cords and pet bowls.",
+        "The robot weighs 11 lb, measures 13.3 x 13.3 x 3.4 in and uses a 4200 mAh LFP battery; no run time is published."
+      ]
+    }
+  ],
+  "productDecisions": [
+    {
+      "robotId": "irobot-roomba-j7-plus",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba j7+",
+        "price": "800 USD",
+        "weight": "3.4 kg",
+        "size": "small",
+        "batteryLife": "1.75 hours",
+        "maxRuntime": "105 min",
+        "tags": "app-control;auto-empty;consumer;mapping;obstacle-avoidance;vacuum;wifi",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/",
+        "image": "images/household/irobot-roomba-j7-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "PrecisionVision, auto-empty, obstacle avoidance",
+        "releaseDate": "2021",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba j7+",
+        "price": "799.99 USD",
+        "weight": "7.49 lb",
+        "size": "13.3 in width x 3.4 in high",
+        "batteryLife": "Lithium Ion",
+        "maxRuntime": "",
+        "tags": "app-control;auto-empty;consumer;mapping;obstacle-avoidance;vacuum;wifi",
+        "handType": "None; autonomous vacuum robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html",
+        "image": "images/household/irobot-roomba-j7-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The iRobot Roomba j7+ is a self-emptying robot vacuum with a Clean Base Automatic Dirt Disposal, iRobot OS software, obstacle identification and avoidance for pet waste and cords, and a 3-stage cleaning system with 10x power-lifting suction. It measures 13.3 in in width and 3.4 in in height and weighs 7.49 lb. The page publishes a Lithium Ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width.",
+        "releaseDate": "2021",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "irobot-roomba-j9-plus",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba j9+",
+        "price": "999 USD",
+        "weight": "3.5 kg",
+        "size": "small",
+        "batteryLife": "2 hours",
+        "maxRuntime": "120 min",
+        "tags": "auto-empty;consumer;vacuum;wifi",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/",
+        "image": "images/household/irobot-roomba-j9-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "100% stronger suction, Dirt Detective, auto-empty 60 days, PrecisionVision, P.O.O.P.",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba j9+",
+        "price": "",
+        "weight": "8.98 lb",
+        "size": "13.7 x 13.7 x 3.4 in",
+        "batteryLife": "Lithium-ion",
+        "maxRuntime": "",
+        "tags": "auto-empty;consumer;vacuum;wifi",
+        "handType": "None; autonomous vacuum robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html",
+        "image": "images/household/irobot-roomba-j9-plus.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The iRobot Roomba j9+ is a self-emptying robot vacuum with 100% stronger suction, a 3-stage cleaning system with Dual Multi-Surface Rubber Brushes and an Edge-Sweeping Brush, Dirt Detective room prioritization and iRobot OS software. It measures 13.7 x 13.7 x 3.4 in and weighs 8.98 lb. The page publishes a Lithium-ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth beyond the listed dimensions, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width. The page lists no price and directs buyers to select retailers, so the catalog 999 USD price is cleared.",
+        "releaseDate": "2023",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "irobot-braava-jet-m6",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Braava jet m6",
+        "price": "499 USD",
+        "weight": "2.2 kg",
+        "size": "small",
+        "batteryLife": "150 min",
+        "maxRuntime": "150 min",
+        "tags": "app-control;consumer;mapping;mop;wifi",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/",
+        "image": "images/household/irobot-braava-jet-m6.webp",
+        "video": "",
+        "gallery": "",
+        "description": "Precision Jet Spray, smart mapping, Imprint Link, works with Roomba s9+",
+        "releaseDate": "2019",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Braava jet m6",
+        "price": "",
+        "weight": "4.85 lb",
+        "size": "10.6 in width x 3.5 in high",
+        "batteryLife": "Lithium Ion",
+        "maxRuntime": "",
+        "tags": "app-control;consumer;mapping;mop;wifi",
+        "handType": "None; autonomous mopping robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/m6-Robot-Mops.html",
+        "image": "images/household/irobot-braava-jet-m6.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The iRobot Braava jet m6 is a Wi-Fi connected robot mop with Imprint Smart Mapping, wet mopping and dry sweeping modes, Smart Charge and Resume, and a Home Base. It measures 10.6 in in width and 3.5 in in height and weighs 4.85 lb. The page publishes a Lithium Ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width. The page lists no price and directs buyers to select retailers, so the catalog 499 USD price is cleared.",
+        "releaseDate": "2019",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    },
+    {
+      "robotId": "irobot-roomba-combo-10-max",
+      "before": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba Combo 10 Max",
+        "price": "1399 USD",
+        "weight": "5.0 kg",
+        "size": "small",
+        "batteryLife": "1.5 hours",
+        "maxRuntime": "90 min",
+        "tags": "app-control;auto-empty;consumer;mop;obstacle-avoidance;vacuum;wifi;self-cleaning",
+        "handType": "none",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Indoor floors",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com",
+        "image": "images/cleaning/irobot-roomba-combo-10-max.webp",
+        "video": "",
+        "gallery": "",
+        "description": "iRobot's premium vacuum-mop robot with the AutoWash Dock that self-empties, washes, and dries the retracting mop pad, plus smart kitchen-centric Dirt Detective.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      },
+      "after": {
+        "category": "cleaning",
+        "manufacturer": "iRobot",
+        "model": "Roomba Combo 10 Max",
+        "price": "1299.99 USD",
+        "weight": "11 lb",
+        "size": "13.3 x 13.3 x 3.4 in",
+        "batteryLife": "4200 mAh Lithium Iron Phosphate (LFP) battery",
+        "maxRuntime": "",
+        "tags": "app-control;auto-empty;consumer;mop;obstacle-avoidance;vacuum;wifi;self-cleaning",
+        "handType": "None; autonomous vacuum and mop robot",
+        "dof": "",
+        "payload": "",
+        "speed": "",
+        "terrain": "Indoor floors",
+        "ipRating": "",
+        "ageRange": "",
+        "website": "https://www.irobot.com/en_US/roomba-combo-10-max-robot-with-autowash-dock/X085020.html",
+        "image": "images/cleaning/irobot-roomba-combo-10-max.webp",
+        "video": "",
+        "gallery": "",
+        "description": "The iRobot Roomba Combo 10 Max robot with AutoWash dock is a vacuum and mop robot with a 4-Stage Cleaning System, an Edge-Sweeping Brush, Dual Rubber Brushes and SmartScrub back-and-forth mopping. The AutoWash dock self-empties the bin, washes and dries the mop pad, and the robot uses detection sensors and a camera to recognize rooms and areas and avoid obstacles. It measures 13.3 x 13.3 x 3.4 in and weighs 11 lb, with a 4200 mAh Lithium Iron Phosphate (LFP) battery. The page publishes no run time in minutes, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width.",
+        "releaseDate": "2024",
+        "chargingTime": "",
+        "workingWidth": "",
+        "areaRate": "",
+        "waterTankCapacity": "",
+        "minAisleWidth": ""
+      }
+    }
+  ],
+  "catalogFieldCorrections": [
+    {
+      "manufacturer": "iRobot",
+      "model": "Roomba j7+",
+      "changes": {
+        "price": {
+          "before": "800 USD",
+          "after": "799.99 USD"
+        },
+        "weight": {
+          "before": "3.4 kg",
+          "after": "7.49 lb"
+        },
+        "size": {
+          "before": "small",
+          "after": "13.3 in width x 3.4 in high"
+        },
+        "batteryLife": {
+          "before": "1.75 hours",
+          "after": "Lithium Ion"
+        },
+        "maxRuntime": {
+          "before": "105 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum robot"
+        },
+        "website": {
+          "before": "https://www.irobot.com/",
+          "after": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html"
+        },
+        "description": {
+          "before": "PrecisionVision, auto-empty, obstacle avoidance",
+          "after": "The iRobot Roomba j7+ is a self-emptying robot vacuum with a Clean Base Automatic Dirt Disposal, iRobot OS software, obstacle identification and avoidance for pet waste and cords, and a 3-stage cleaning system with 10x power-lifting suction. It measures 13.3 in in width and 3.4 in in height and weighs 7.49 lb. The page publishes a Lithium Ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width."
+        }
+      }
+    },
+    {
+      "manufacturer": "iRobot",
+      "model": "Roomba j9+",
+      "changes": {
+        "price": {
+          "before": "999 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "3.5 kg",
+          "after": "8.98 lb"
+        },
+        "size": {
+          "before": "small",
+          "after": "13.7 x 13.7 x 3.4 in"
+        },
+        "batteryLife": {
+          "before": "2 hours",
+          "after": "Lithium-ion"
+        },
+        "maxRuntime": {
+          "before": "120 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum robot"
+        },
+        "website": {
+          "before": "https://www.irobot.com/",
+          "after": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html"
+        },
+        "description": {
+          "before": "100% stronger suction, Dirt Detective, auto-empty 60 days, PrecisionVision, P.O.O.P.",
+          "after": "The iRobot Roomba j9+ is a self-emptying robot vacuum with 100% stronger suction, a 3-stage cleaning system with Dual Multi-Surface Rubber Brushes and an Edge-Sweeping Brush, Dirt Detective room prioritization and iRobot OS software. It measures 13.7 x 13.7 x 3.4 in and weighs 8.98 lb. The page publishes a Lithium-ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth beyond the listed dimensions, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width. The page lists no price and directs buyers to select retailers, so the catalog 999 USD price is cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "iRobot",
+      "model": "Braava jet m6",
+      "changes": {
+        "price": {
+          "before": "499 USD",
+          "after": ""
+        },
+        "weight": {
+          "before": "2.2 kg",
+          "after": "4.85 lb"
+        },
+        "size": {
+          "before": "small",
+          "after": "10.6 in width x 3.5 in high"
+        },
+        "batteryLife": {
+          "before": "150 min",
+          "after": "Lithium Ion"
+        },
+        "maxRuntime": {
+          "before": "150 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous mopping robot"
+        },
+        "website": {
+          "before": "https://www.irobot.com/",
+          "after": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/m6-Robot-Mops.html"
+        },
+        "description": {
+          "before": "Precision Jet Spray, smart mapping, Imprint Link, works with Roomba s9+",
+          "after": "The iRobot Braava jet m6 is a Wi-Fi connected robot mop with Imprint Smart Mapping, wet mopping and dry sweeping modes, Smart Charge and Resume, and a Home Base. It measures 10.6 in in width and 3.5 in in height and weighs 4.85 lb. The page publishes a Lithium Ion battery type but no battery capacity, run time in minutes or charging time, and no robot depth, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width. The page lists no price and directs buyers to select retailers, so the catalog 499 USD price is cleared."
+        }
+      }
+    },
+    {
+      "manufacturer": "iRobot",
+      "model": "Roomba Combo 10 Max",
+      "changes": {
+        "price": {
+          "before": "1399 USD",
+          "after": "1299.99 USD"
+        },
+        "weight": {
+          "before": "5.0 kg",
+          "after": "11 lb"
+        },
+        "size": {
+          "before": "small",
+          "after": "13.3 x 13.3 x 3.4 in"
+        },
+        "batteryLife": {
+          "before": "1.5 hours",
+          "after": "4200 mAh Lithium Iron Phosphate (LFP) battery"
+        },
+        "maxRuntime": {
+          "before": "90 min",
+          "after": ""
+        },
+        "handType": {
+          "before": "none",
+          "after": "None; autonomous vacuum and mop robot"
+        },
+        "website": {
+          "before": "https://www.irobot.com",
+          "after": "https://www.irobot.com/en_US/roomba-combo-10-max-robot-with-autowash-dock/X085020.html"
+        },
+        "description": {
+          "before": "iRobot's premium vacuum-mop robot with the AutoWash Dock that self-empties, washes, and dries the retracting mop pad, plus smart kitchen-centric Dirt Detective.",
+          "after": "The iRobot Roomba Combo 10 Max robot with AutoWash dock is a vacuum and mop robot with a 4-Stage Cleaning System, an Edge-Sweeping Brush, Dual Rubber Brushes and SmartScrub back-and-forth mopping. The AutoWash dock self-empties the bin, washes and dries the mop pad, and the robot uses detection sensors and a camera to recognize rooms and areas and avoid obstacles. It measures 13.3 x 13.3 x 3.4 in and weighs 11 lb, with a 4200 mAh Lithium Iron Phosphate (LFP) battery. The page publishes no run time in minutes, charging time, IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width."
+        }
+      }
+    }
+  ],
+  "companyFocus": [
+    {
+      "brandId": "irobot",
+      "name": "iRobot",
+      "checkedAt": "2026-11-02",
+      "role": "Consumer robotic floor care and historical enterprise telepresence; prototype systems, non-robot appliances and dock/software roles separated",
+      "highlights": [
+        "Selected primary releases distinguish historical Ava 500; 2025 Max 705 Combo; 2026 Max 875/775 Combo, Max 715 Vacuum, Plus 678/575/515/415 Combo and Mini; and the Duo prototype. This selection does not establish iRobot’s full historical cleaning, educational, defense or commercial robot portfolio.",
+        "The September 2026 release separates Max 875 suction 35,000 Pa/airflow 20 L/s from Plus 678 suction 30,000 Pa/18 L/s and the latter’s 40,000 Pa spray pretreatment. ThermaMist/DriLift/18 N/300 RPM and SprayForce/15 N/10 mm carpet lift remain model-specific; supplier comparisons retain their stated baselines.",
+        "Duo was unveiled as a prototype at IFA, with a main floor washer, deployment arm, Plus 575-based companion and shared mobile dock. The companion’s 8.35 cm height and 29.8 cm width are not complete Duo dimensions. No commercial Duo price or release is established.",
+        "The July 2026 North American release separately names Max 775, vacuum-only Max 715, Plus 575, Plus 515 and Plus 415 at dated MSRPs. Its Roomba Electro Plus is explicitly a user-operated non-robot cleaner and is not imported as an autonomous robot. Dock names, color variants and app/AI functions are not extra robot identities.",
+        "Plus 515 battery copy contradicts itself: 295 minutes versus about 10 hours. Both duration fields are left blank with conflicting evidence status. The 2,000 sq ft per-charge coverage is not a universal area rate; pad RPM, contact force, suction, roller extension and service intervals remain separate physical quantities.",
+        "Mini was already introduced in Japan in mid-February 2026 before the March 10 UK/European launch at€399/£379. Four colors are variants. Physical-button start without Wi-Fi is distinct from connected app/voice functions; disposable pads are distinct from AutoWash heated-roller care.",
+        "Ava 500’s March 2014 delivery statement and Cisco EX60/Aironet 1600 integration are historical. They do not establish present availability, support, safety/cleanroom certification or specifications of later Ava Robotics products. Current prices/stock, independent performance, exclusive USPs and market/search leadership remain unproven."
+      ],
+      "sources": [
+        {
+          "name": "iRobot — March 17, 2014 Ava 500 delivery announcement",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/2014-03-17-iRobot-Announces-Availability-of-Ava-500",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "iRobot — historical Ava 500 solution overview, Cisco video/navigation roles",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/download/iRobot-Ava-500-Solution-Overview.pdf",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "iRobot — July 22, 2025 Max 705 European pre-sale, dated comparative suction conditions",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/2025-07-22-iRobot-Launches-Roomba-R-Max-705-Combo-Robot-AutoWash-TM-Dock-The-Companys-Most-Advanced-2-in-1-Cleaning-System",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "iRobot — July 7, 2026 five named robot introductions, regional pre-sale and Electro non-robot distinction",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/2026-07-07-iRobot-Redefines-Floor-Care-with-the-Introduction-of-a-5-in-1-Disinfecting-Hard-Floor-Cleaner-Along-with-a-New-Generation-of-Roomba-Robots",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "iRobot — March 10, 2026 Mini UK/Europe launch, prior Japan introduction and regional prices",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/2026-03-10-iRobot-Launches-Roomba-R-Mini-Robot-Vacuum-Mop-AutoEmpty-TM-Dock-in-UK-and-Europe",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "iRobot — September 2, 2026 Max 875 and Plus 678 launch, model-specific features and MSRP",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/2026-09-02-iRobot-Redefines-Hands-Free-Cleaning-with-its-Most-Powerful-Robot-Ever,-the-Roomba-R-Max-875-Combo",
+          "checkedAt": "2026-11-02"
+        },
+        {
+          "name": "iRobot — September 4, 2026 Duo prototype unveiling, separate Plus 575 companion specifications",
+          "type": "manufacturer",
+          "url": "https://media.irobot.com/2026-09-04-iRobot-Unveils-Roomba-R-Duo-at-IFA-2026,-Proving-the-Future-of-Floor-Care-Has-a-Familiar-Name",
+          "checkedAt": "2026-11-02"
+        }
+      ],
+      "reviewedFrom": "/home/huskynarr/robotics-directory/scratch/competitor-research/primary/batch-120/source-6.html",
+      "reviewNotes": "Fourteen public HTTP 200 responses saved and hashed; six raw release title/canonical/body datelines and historical Ava native PDF text/block coordinates checked. No visual inspection, forms, contacts or transactions. Archive pages show only first-five links and do not establish exhaustive portfolio coverage. Six new named robot identities; five existing catalog rows reviewed, two existing highlight prefixes/discovery preserved. Prototypes, non-robotElectro, pad/roller/dock quantities, regional introductions and conflicting 515runtime remain scoped."
+    }
+  ],
+  "totalProductHighlightRecords": 1398,
+  "totalHighlightStatements": 6467,
+  "totalProductSourceReferences": 2949,
+  "validation": {
+    "unitTests": 808,
+    "unitTestFiles": 64,
+    "browserCases": 34,
+    "axeCases": 8,
+    "buildPages": 3429,
+    "dataErrors": 0,
+    "dataWarnings": 1248,
+    "sourceCodeChanged": false,
+    "csvSchemaChanged": false,
+    "coverageExpectationTestUpdated": true,
+    "source-integrity-check": [
+      {
+        "id": 1,
+        "bodyShaMatches": true,
+        "bodyBytes": 229710,
+        "textChars": 12158,
+        "url": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html"
+      },
+      {
+        "id": 2,
+        "bodyShaMatches": true,
+        "bodyBytes": 209778,
+        "textChars": 14075,
+        "url": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html"
+      },
+      {
+        "id": 3,
+        "bodyShaMatches": true,
+        "bodyBytes": 221308,
+        "textChars": 14229,
+        "url": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/m6-Robot-Mops.html"
+      },
+      {
+        "id": 4,
+        "bodyShaMatches": true,
+        "bodyBytes": 232380,
+        "textChars": 15894,
+        "url": "https://www.irobot.com/en_US/roomba-combo-10-max-robot-with-autowash-dock/X085020.html"
+      }
+    ],
+    "body-scope-check": {
+      "allNativeHtml": true,
+      "checks": [
+        {
+          "id": 1,
+          "bodyShaMatches": true,
+          "bodyBytes": 229710,
+          "textChars": 12158,
+          "url": "https://www.irobot.com/en_US/roomba-j7plus-self-emptying-robot-vacuum/J755020.html"
+        },
+        {
+          "id": 2,
+          "bodyShaMatches": true,
+          "bodyBytes": 209778,
+          "textChars": 14075,
+          "url": "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html"
+        },
+        {
+          "id": 3,
+          "bodyShaMatches": true,
+          "bodyBytes": 221308,
+          "textChars": 14229,
+          "url": "https://www.irobot.com/en_US/irobot-braava-jet-m6-robot-mop/m6-Robot-Mops.html"
+        },
+        {
+          "id": 4,
+          "bodyShaMatches": true,
+          "bodyBytes": 232380,
+          "textChars": 15894,
+          "url": "https://www.irobot.com/en_US/roomba-combo-10-max-robot-with-autowash-dock/X085020.html"
+        }
+      ]
+    },
+    "inventory-check": {
+      "allChecksPassed": true,
+      "catalogRows": 2378,
+      "reviewedProducts": 4,
+      "selectedFields": 72,
+      "selectedFieldStatuses": {
+        "documented": 26,
+        "not-documented": 46
+      },
+      "specificationReviewModels": 1382,
+      "specificationFields": 25962,
+      "allFieldStatuses": {
+        "not-documented": 15917,
+        "documented": 9614,
+        "conflicting": 323,
+        "roadmap": 108
+      },
+      "productHighlightRecords": 1398,
+      "companyFocusReviews": 181,
+      "researchQueueSummary": {
+        "sourceCompanyGroups": 591,
+        "explicitModelMentionTargets": 430,
+        "targetsIncludingListingReviews": 489,
+        "allReviewedReferenceTargets": 518,
+        "withDatedHighlights": 518,
+        "withoutDatedHighlights": 0,
+        "withSelectedFieldReview": 518,
+        "withoutSelectedFieldReview": 0,
+        "selectedFields": 9496,
+        "selectedFieldStatuses": {
+          "documented": 3768,
+          "not-documented": 5521,
+          "conflicting": 189,
+          "roadmap": 18
+        },
+        "sourceGroupsWithCompanyAuthoredFocus": 166,
+        "remainingModelIdentities": 0,
+        "remainingListingIdentities": 0
+      },
+      "unchangedIdentityFiles": [
+        "data/competitors/roboticsdir.json",
+        "data/competitors/buyandrentrobots.json",
+        "data/competitors/listing-reviews.json",
+        "data/competitors/model-resolutions.json",
+        "data/competitors/model-classifications.json",
+        "data/competitors/company-product-reviews.json"
+      ]
+    },
+    "evidence-check": {
+      "allChecksPassed": true,
+      "productPages": 4,
+      "selectedFields": 72,
+      "highlightStatements": 20,
+      "descriptions": 4,
+      "websites": 4,
+      "companyPages": 0
+    },
+    "comparison-evidence-check": {
+      "allChecksPassed": true,
+      "guardianXOHistorical": true,
+      "guardianXTNotMerged": true,
+      "ozmoRelativeSpeedClaim": true,
+      "makoApplicationsNotSeparateSystems": true,
+      "syreboBrochureImageOnly": true,
+      "rosieMassConflictVisible": true,
+      "shelfobotPayloadAndBattery": true,
+      "rosaKneeOneSystem": true,
+      "productHighlightRecords": 1398,
+      "individualHighlights": 6467,
+      "productSourceReferences": 2949,
+      "specificationReviewModels": 1382,
+      "specificationFields": 25962,
+      "publicJsonBytes": 6856730,
+      "catalogScriptBytes": 2768155,
+      "catalogScriptMatchesCurrentRows": true,
+      "internalResearchMetadataExcluded": true,
+      "scope": "Exact claim/source/status delivery; runtime tests separately verify comparison rendering and load behavior."
+    },
+    "reimport-check": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 32,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true,
+      "refreshMetadataChanges": {
+        "data/competitors/buyandrentrobots-gaps.json": [
+          {
+            "path": ".comparedAt",
+            "before": "2026-11-04T00:38:03Z",
+            "after": "2026-11-04T00:38:14Z"
+          },
+          {
+            "path": ".strictComparison.coverageGeneratedAt",
+            "before": "2026-11-04T00:38:02.323Z",
+            "after": "2026-11-04T00:38:13.888Z"
+          },
+          {
+            "path": ".inputSha256.coverage",
+            "before": "3b19051b053bf1d0c127b26204bdf982290babc628c205724a3abff2747aa30e",
+            "after": "a648134f858d39c27c1cf9708b15ae989b321dd7d6b3a761f4f612c9c68c564b"
+          }
+        ],
+        "data/competitors/coverage.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-04T00:38:02.323Z",
+            "after": "2026-11-04T00:38:13.888Z"
+          }
+        ],
+        "data/competitors/research-queue.json": [
+          {
+            "path": ".generatedAt",
+            "before": "2026-11-04T00:38:02.323Z",
+            "after": "2026-11-04T00:38:13.888Z"
+          }
+        ]
+      },
+      "scope": "Importer leaves every tracked data byte unchanged. Offline refresh may update only generation/comparison timestamps and the digest of timestamp-bearing coverage."
+    },
+    "resource-check": {
+      "trackedOwnTestProcesses": 154,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "publication": {
+    "branch": "codex/competitor-directory-expansion",
+    "baselineCommit": "f85ab9f9ef13d71aaaf7c123f9ef55932736f68e",
+    "dataCommit": "10847322d0e384bc6cb60d416c2604e22f635da6",
+    "dataPushVerified": true,
+    "mainCommit": "20a2844346914d8d28958aa3b4e51897c4e9e6ff",
+    "mainUnchanged": true,
+    "deployed": false,
+    "pushVerified": true
+  },
+  "remainingResearch": {
+    "sourceCompanyGroups": 591,
+    "explicitModelMentionTargets": 430,
+    "targetsIncludingListingReviews": 489,
+    "allReviewedReferenceTargets": 518,
+    "withDatedHighlights": 518,
+    "withoutDatedHighlights": 0,
+    "withSelectedFieldReview": 518,
+    "withoutSelectedFieldReview": 0,
+    "selectedFields": 9496,
+    "selectedFieldStatuses": {
+      "documented": 3768,
+      "not-documented": 5521,
+      "conflicting": 189,
+      "roadmap": 18
+    },
+    "sourceGroupsWithCompanyAuthoredFocus": 166,
+    "remainingModelIdentities": 0,
+    "remainingListingIdentities": 0
+  },
+  "remainingProductDetailContentChecks": 731,
+  "goalComplete": false
+}
