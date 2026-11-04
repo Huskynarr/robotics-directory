@@ -143,9 +143,10 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-04, all source company names are represented in 591 competitor
-groups. The catalog contains 2,380 model/configuration entries and 1,438 dated primary-source highlight
-records. Review remains open for 3 source model/family mentions and 9 originally
-unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
+groups. The catalog contains 2,380 model/configuration entries and 1,440 dated primary-source highlight
+records. All originally unclear listings have recorded resolutions or scoped classifications;
+no model or listing identity remains unresolved in the saved competitor queue.
+Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
 specification tables; inventory completeness does not imply full product verification.
 The combined research queue also includes reviewed listing resolutions and reviewed
@@ -158,8 +159,8 @@ Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
 The heuristic gap file now compares all 2,380 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
-reviewed aliases, components and services; the strict unresolved counts remain
-three model identities and nine listings.
+reviewed aliases, components and services; the strict unresolved counts are zero
+for model identities and listings in the saved inventories.
 Gausium and Gaussian Robotics now share one manufacturer-evidenced brand profile;
 the original company names and directory URLs are retained and the former profile
 redirects to the canonical page. Twenty-three Gausium model/configuration entries
@@ -1401,20 +1402,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-26,665 fields across 1422 models, distinguishing documented, undisclosed, conflicting and
+26,701 fields across 1424 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,976 kB JSON response loads only for search or comparison;
+A separate 6,986 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,667 reviewed highlight statements as well as
+Catalog search now includes all 6,675 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1879,7 +1880,7 @@ minimum aisle width.
 
 Eufy's Robot Vacuum Omni E35, Omni C30 Edge, Omni C30 and Omni S2 Pro now have selected field reviews. The manufacturer publishes 1,299.99 USD, 12.83 x 14.17 x 4.58 in robot and 14.57 x 17.60 x 16.18 in station dimensions, 188 min vacuum and 134 min vacuum and mop runtime, a 3 L dust bag plus 2.5 L clean and 1.8 L dirty water for the Omni E35; 899.99 USD, 12.95 x 14.08 x 4.43 in robot and 12.99 x 19.69 x 12.38 in station dimensions, 195 min vacuum and 105 min vacuum and mop runtime for the Omni C30 Edge; 799.99 USD and the same dimensions and run times for the Omni C30; and 1,699.99 USD, 12.83 x 14.09 x 3.86 in robot and 15.24 x 18.74 x 26.38 in station dimensions, 40,000 Pa, UV-C and electrolyzed-water disinfection for the Omni S2 Pro. Catalog size labels, the S2 Pro ~1599 USD price and the S2 Pro Not disclosed runtime are replaced or cleared. No reviewed page publishes robot mass, battery capacity, charging time, an IP rating, payload, travel speed, cleaning width, hourly area rate, station tank capacity or minimum aisle width; all USPs, full portfolios and market leadership remain unproven.
 
-Roborock's S8 Max Ultra, Q8 Max+, Qrevo Curv and Saros 20 now have selected field reviews. The manufacturer publishes 1,599.99 USD, 8,000 Pa suction, an 8-in-1 RockDock Ultra, VibraRise 3.0, a FlexiArm side brush and PreciSense LiDAR for the S8 Max Ultra; 819.99 USD, 5,500 Pa suction, a DuoRoller brush and Reactive Tech obstacle avoidance for the Q8 Max+; 849.99 USD current and 1,599.99 USD original price, 18,500 Pa HyperForce, DuoDivide and dual anti-tangle brushes, an AdaptiLift chassis and a Multifunctional Dock 3.0 with 75 C hot-water mop washing for the Qrevo Curv; and 1,599.99 USD, 36,000 Pa HyperForce, an AdaptiLift Chassis 3.0 with 3.46 in double-layer lift, StarSight Autonomous System 2.0 and a RockDock with hot-water self-cleaning for the Saros 20. Catalog size, weight, battery and run time labels are cleared, and the Q8 Max+ ~600 USD and Qrevo Curv 1,600 USD prices are replaced. No reviewed page publishes robot mass, dimensions, battery capacity, run time, charging time, an IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width; all USPs, full portfolios and market leadership remain unproven.
+Roborock's S8 Max Ultra, Q8 Max+, Qrevo Curv and Saros 20 now have selected field reviews. The manufacturer publishes 1,599.99 USD, 8,000 Pa suction, an 8-in-1 RockDock Ultra, VibraRise 3.0, a FlexiArm side brush and PreciSense LiDAR for the S8 Max Ultra; 819.99 USD, 5,500 Pa suction, a DuoRoller brush and Reactive Tech obstacle avoidance for the Q8 Max+; 849.99 USD current and 1,599.99 USD original price, 18,500 Pa HyperForce, DuoDivide and dual anti-tangle brushes, an AdaptiLift chassis and a Multifunctional Dock 3.0 with 75 C hot-water mop washing for the Qrevo Curv; and 1,599.99 USD, 36,000 Pa HyperForce, an AdaptiLift Chassis 3.0 with 3.46 in double-layer lift, StarSight Autonomous System 2.0 and a RockDock with hot-water self-cleaning for the Saros 20. Catalog size, weight, battery and run time labels are cleared, and the Q8 Max+ ~600 USD and Qrevo Curv 1,600 USD prices are replaced. No reviewed page publishes robot mass, dimensions, battery capacity, run time, charging time, an IP rating, payload, travel speed, cleaning width, hourly area rate, tank capacity or minimum aisle width; all USPs, full portfolios and market leadership remain unproven. The Q8 Max+ statements above describe the earlier batch 181 scope. Batch 193 adds the global overview, qualified dimensions and runtime, and withdraws the generic price because the shop title includes TT.
 
 iRobot's Roomba j7+, Roomba j9+, Braava jet m6 and Roomba Combo 10 Max now have selected field reviews. The manufacturer publishes 799.99 USD, 7.49 lb and 13.3 in width by 3.4 in height for the Roomba j7+; 8.98 lb and 13.7 x 13.7 x 3.4 in for the Roomba j9+; 4.85 lb and 10.6 in width by 3.5 in height for the Braava jet m6; and 1,299.99 USD, 11 lb, 13.3 x 13.3 x 3.4 in and a 4200 mAh LFP battery for the Roomba Combo 10 Max. The j7+ and Braava jet m6 pages publish no price, and the j9+ page directs buyers to select retailers; the catalog 999 and 499 USD prices are cleared. No page publishes a run time in minutes, battery capacity beyond the battery type or a charging time, so the catalog 105, 120, 150 and 90 min run times are cleared. All USPs, full portfolios and market leadership remain unproven.
 
@@ -1901,4 +1902,6 @@ Xiaomi's Robot Vacuum X20+, S40, S40 Pro and S40C now have selected field review
 
 Xiaomi's Robot Vacuum S10+, E10, E5 and Robot Vacuum 5 now have selected field reviews. The manufacturer publishes 4,000 Pa, dual-pad pressure mopping, a 200 mL water tank, 120 minutes, 3.8 kg and about 6 hours of charging for the S10+; 4,000 Pa, 110 minutes, 2600 mAh and a 325 mm by 80 mm body for the E10; 2,000 Pa, 110 minutes, 2.3 kg and a 300 mm by 70 mm body for the E5; and 20,000 Pa, a 9.5 cm retractable radar, 80 C hot-water mop washing, 140 minutes, 3.75 kg, a 4 L tank and a 2.5 L dust bag for the Robot Vacuum 5. Catalog prices are cleared because no reviewed page publishes one. No reviewed page publishes an IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; the E10 and E5 pages publish no robot mass or tank capacity, and only the S10+ publishes a charging time. All USPs, full portfolios and market leadership remain unproven.
 
-Dreame's Aqua10 Ultra Roller Complete, Matrix10 Pro, W10 Pro and X60 Ultra now have selected field reviews. The manufacturer publishes 30,000 Pa, a continuously rinsed roller, 240+ recognised objects, a 3.2 L dust bag for 100 days and 899.99 USD for the Aqua10 Ultra Roller Complete; 30,000 Pa, a three-mop switching dock, 40 mm obstacle crossing, 4.1 kg, a 3.2 L dust bag and 1,499.99 USD for the Matrix10 Pro; 4,000 Pa, 180 RPM, 160 minutes, 200 m2, 6,400 mAh and 4.5 L plus 4.0 L tanks for the W10 Pro; and 35,000 Pa, a 79.5 mm retractable sensor, 230 RPM, 15 N, 8.8 cm obstacle crossing, 80 minutes of charging from 9 to 80 percent, 4.7 kg and 1,349.99 USD for the X60 Ultra. The W10 Pro price and mass are cleared because the page publishes neither; the X60 Ultra battery and runtime labels and the Aqua10 Complete regular-price entry are replaced by the reviewed values. No reviewed page publishes a full-charge runtime for the Aqua10 Ultra Roller Complete, Matrix10 Pro or X60 Ultra, or an IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; only the X60 Ultra publishes a charging time. All USPs, full portfolios and market leadership remain unproven.
+The Dreame Matrix10 Pro and X60 Ultra have selected field reviews. The Aqua10 Ultra Roller Complete identity is unresolved: its linked page names the standard Aqua10 Ultra Roller, so its standard-model offer and specifications are not inherited. The W10 Pro metric and imperial first dimensions conflict (334 mm versus 13.74 in, approximately 349 mm); both are qualified in its review. Batch 193 supersedes the corresponding batch 192 assumptions.
+
+Roborock Qrevo Master and Qrevo Pro now have exact-model overview reviews; the Master shop redirect to Qrevo S5V is excluded. Q8 Max+ now has 5,200 mAh, 350 x 353 x 96.5 mm and up to 240 minutes in Quiet mode on hard floors, with its TT shop offer left unresolved. The Q5 Max+ compatible tank and mop are sold separately; its earlier mass and price retain their November 3, 2026 source date. See [batch 193 evidence](reports/competitor-batch-193-evidence.json) for corrections and rejected sources. There are still 956 catalog rows without selected-field reviews; neither the saved-inventory coverage nor manufacturer claims establish full market coverage or leadership.
