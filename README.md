@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-04, all source company names are represented in 591 competitor
-groups. The catalog contains 2,380 model/configuration entries and 1,451 dated primary-source highlight
+groups. The catalog contains 2,380 model/configuration entries and 1,460 dated primary-source highlight
 records. All originally unclear listings have recorded resolutions or scoped classifications;
 no model or listing identity remains unresolved in the saved competitor queue.
 Of the 430 catalog models matched to named source mentions, all 430 have
@@ -1402,20 +1402,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-26,901 fields across 1435 models, distinguishing documented, undisclosed, conflicting and
+27,063 fields across 1444 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 7,029 kB JSON response loads only for search or comparison;
+A separate 7,063 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,730 reviewed highlight statements as well as
+Catalog search now includes all 6,775 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1904,8 +1904,10 @@ Xiaomi's Robot Vacuum S10+, E10, E5 and Robot Vacuum 5 now have selected field r
 
 The Dreame Matrix10 Pro and X60 Ultra have selected field reviews. The Aqua10 Ultra Roller Complete identity is unresolved: its linked page names the standard Aqua10 Ultra Roller, so its standard-model offer and specifications are not inherited. The W10 Pro metric and imperial first dimensions conflict (334 mm versus 13.74 in, approximately 349 mm); both are qualified in its review. Batch 193 supersedes the corresponding batch 192 assumptions.
 
-Roborock Qrevo Master and Qrevo Pro now have exact-model overview reviews; the Master shop redirect to Qrevo S5V is excluded. Q8 Max+ now has 5,200 mAh, 350 x 353 x 96.5 mm and up to 240 minutes in Quiet mode on hard floors, with its TT shop offer left unresolved. The Q5 Max+ compatible tank and mop are sold separately; its earlier mass and price retain their November 3, 2026 source date. See [batch 193 evidence](reports/competitor-batch-193-evidence.json) for corrections and rejected sources. There are still 945 catalog rows without selected-field reviews; neither the saved-inventory coverage nor manufacturer claims establish full market coverage or leadership.
+Roborock Qrevo Master and Qrevo Pro now have exact-model overview reviews; the Master shop redirect to Qrevo S5V is excluded. Q8 Max+ now has 5,200 mAh, 350 x 353 x 96.5 mm and up to 240 minutes in Quiet mode on hard floors, with its TT shop offer left unresolved. The Q5 Max+ compatible tank and mop are sold separately; its earlier mass and price retain their November 3, 2026 source date. See [batch 193 evidence](reports/competitor-batch-193-evidence.json) for corrections and rejected sources. There are still 936 catalog rows without selected-field reviews; neither the saved-inventory coverage nor manufacturer claims establish full market coverage or leadership.
 
 Roborock S5 Max, S7, Q7 Max, Qrevo Curv 2 Flow and Qrevo Edge 3 Pro now have selected field reviews. S5 Max and S7 three-hour runtimes retain Quiet-mode and no-mop test conditions. Suction pressure is removed from travel-speed fields. The standard S7 and Q7 Max do not inherit included auto-empty docks from plus bundles; Q7 Max also does not inherit plus-model tank or battery figures. Its listed 159.99 USD offer is marked sold out. The Curv 2 Flow 270 mm roller width and Edge 3 Pro physical dimensions are kept separate from whole-machine coverage and low-clearance claims. Redirected model pages, missing translations and failed responses remain excluded. See [batch 194 evidence](reports/competitor-batch-194-evidence.json).
 
 Hiwonder ROSPug, MaxArm, MasterPi, xArm 2.0, ArmPi FPV and LeArm AI now have selected field reviews. MaxArm is corrected to 4 DOF with a suction nozzle; MasterPi is specified as 4 DOF plus a gripper. MasterPi and ArmPi FPV entry prices exclude the Raspberry Pi board. ArmPi FPV grab weight is kept posture-dependent, and its optional ArmPi Pro 12,000 mAh chassis is not treated as standard equipment. ROSPug battery capacity is not converted into runtime, and package/module dimensions are not substituted for robot dimensions. xArm 1S remains unreviewed after HTTP 429 responses. See [batch 195 evidence](reports/competitor-batch-195-evidence.json).
+
+MOVA V50 Ultra Complete, P50 Pro Ultra, Z60 Ultra Roller Complete, P10 Pro Ultra, P10 Pro Ultra Gen2, E30 Pro+, E40 Ultra, Mobius 60 and P50 Ultra now have selected field reviews. Dock clean/used-water tanks are kept separate from robot water-tank capacity. The Z60 10.08 in roller width is not treated as whole-machine cleaning width. E40's 22 mm figure is a height difference before and after mop lifting, not a threshold rating. V50 offers are marked out of stock. See [batch 196 evidence](reports/competitor-batch-196-evidence.json).
