@@ -142,8 +142,8 @@ A source listing does not verify availability, specifications or a manufacturer'
 See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
-As of 2026-11-03, all source company names are represented in 591 competitor
-groups. The catalog contains 2,378 model/configuration entries and 1,402 dated primary-source highlight
+As of 2026-11-04, all source company names are represented in 591 competitor
+groups. The catalog contains 2,380 model/configuration entries and 1,406 dated primary-source highlight
 records. Review remains open for 3 source model/family mentions and 9 originally
 unclear listings. Of the 430 catalog models matched to named source mentions, all 430 have
 dated highlights. Highlight checks do not certify the existing
@@ -156,7 +156,7 @@ model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
-The heuristic gap file now compares all 2,378 rows using same-brand matches only.
+The heuristic gap file now compares all 2,380 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
 reviewed aliases, components and services; the strict unresolved counts remain
 three model identities and nine listings.
@@ -1401,20 +1401,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-26,034 fields across 1386 models, distinguishing documented, undisclosed, conflicting and
+26,098 fields across 1390 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 6,867 kB JSON response loads only for search or comparison;
+A separate 6,877 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,487 reviewed highlight statements as well as
+Catalog search now includes all 6,507 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1884,3 +1884,5 @@ Roborock's S8 Max Ultra, Q8 Max+, Qrevo Curv and Saros 20 now have selected fiel
 iRobot's Roomba j7+, Roomba j9+, Braava jet m6 and Roomba Combo 10 Max now have selected field reviews. The manufacturer publishes 799.99 USD, 7.49 lb and 13.3 in width by 3.4 in height for the Roomba j7+; 8.98 lb and 13.7 x 13.7 x 3.4 in for the Roomba j9+; 4.85 lb and 10.6 in width by 3.5 in height for the Braava jet m6; and 1,299.99 USD, 11 lb, 13.3 x 13.3 x 3.4 in and a 4200 mAh LFP battery for the Roomba Combo 10 Max. The j7+ and Braava jet m6 pages publish no price, and the j9+ page directs buyers to select retailers; the catalog 999 and 499 USD prices are cleared. No page publishes a run time in minutes, battery capacity beyond the battery type or a charging time, so the catalog 105, 120, 150 and 90 min run times are cleared. All USPs, full portfolios and market leadership remain unproven.
 
 Dreame's L20 Ultra, X40 Ultra, D20 Plus and D20 Pro Plus now have selected field reviews. The manufacturer publishes 899.99 USD, 7,000 Pa Vormax suction, 4.3 kg and 350 x 350 x 103.8 mm, a 6,400 mAh battery, an 80 mL water tank and up to 210 min vacuum-only runtime for the L20 Ultra; 539.99 USD current and 1,199.99 USD regular price, 12,000 Pa Vormax suction, a 6,400 mAh battery and 158 F hot-water mop washing for the X40 Ultra; and 309.99 USD current and 369.99 USD regular price, 7.7 lb, 13.8 x 13.8 x 3.8 in, a 5,200 mAh battery and a 5 L dust bag for the D20 Plus, with 359.99 USD current and 365.99 USD regular price for the D20 Pro Plus. Catalog prices, sizes, weights, battery and run time labels are replaced or cleared where the reviewed pages are silent. No reviewed page publishes a charging time, IP rating, payload, travel speed, cleaning width, hourly area rate or minimum aisle width; all USPs, full portfolios and market leadership remain unproven.
+
+Wybot's S2, C2 Vision, C2 and F1 now have selected field reviews. S2 and C2 are new catalog rows: the existing S2 Pro row describes a different robot and its product URL returns 404, while the catalog previously listed only the C2 Vision variant. The manufacturer publishes 759.99 USD, up to 210 min runtime, up to 3,229 sq ft coverage, a 3 h quick charge, 6 app paths and 7 app modes for the S2; 629.99 USD, 2,152 sq ft, a 180 min Eco Mode runtime, 3,883 GPH and 180 um plus 10 um filtration for the C2 Vision; 499.99 USD, 3,592 GPH, a 3 L basket, 7 modes and 6 paths for the C2; and 299.98 USD, 33 W solar power, a 7 L basket and 8 h Standard Mode runtime for the F1. Catalog prices, size labels, battery and run time values are replaced or cleared where the reviewed pages are silent. No reviewed page publishes robot mass, dimensions or battery capacity, and only the S2 publishes a charging time; no page publishes an IP rating, payload, travel speed, cleaning width, hourly area rate or water tank capacity. All USPs, full portfolios and market leadership remain unproven.
