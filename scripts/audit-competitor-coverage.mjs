@@ -11,6 +11,7 @@ import { getCompanyDescriptionInventory } from '../src/data/company-product-ment
 import { getCompanyProductReviewIndex } from '../src/data/company-product-reviews.js';
 import { COMPANY_PRODUCT_REVIEW_SCOPE } from '../src/utils/company-product-reviews.js';
 import { normalizeBrand } from './reconcile-competitors.mjs';
+import { summarizeDetailContentChecks } from './lib/competitor-detail-content.mjs';
 import { normalizeCompetitorModel as normalizeModel } from './lib/competitor-model-name.mjs';
 import { indexModelResolutions, applyModelResolution } from './lib/competitor-resolutions.mjs';
 import { reviewUnclearListings } from './lib/competitor-listing-reviews.mjs';
@@ -273,6 +274,14 @@ const report = {
   },
   listingReviews,
   specificationEvidenceCoverage: getSpecificationReviewCoverage(),
+  sourceDetailContentCoverage: summarizeDetailContentChecks(
+    buy.listings,
+    fs.existsSync('data/competitors/detail-content-reviews.json')
+      ? read('detail-content-reviews')
+      : { checks: [] },
+    new Set(allRobots.map((robot) => robot.id)),
+    read('model-classifications').decisions,
+  ),
   remaining: [...roboticsMentions, ...buyModels].filter(
     (entry) =>
       ![

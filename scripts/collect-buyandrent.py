@@ -70,6 +70,7 @@ def fetch(url: str, timeout: int = 45, retries: int = 3) -> dict:
                 body = response.read()
                 return {
                     "url": url,
+                    "finalUrl": response.geturl(),
                     "status": response.status,
                     "contentType": response.headers.get("content-type", ""),
                     "body": body,
