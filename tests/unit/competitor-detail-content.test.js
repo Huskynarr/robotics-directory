@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import { describe, expect, it } from 'vitest';
 import { summarizeDetailContentChecks } from '../../scripts/lib/competitor-detail-content.mjs';
 import { getAllRobots } from '../../src/data/robots.js';
@@ -164,8 +165,8 @@ describe('per-URL directory detail content coverage', () => {
     expect(() => summarize([modelReference])).toThrow(/Invalid detail/);
   });
 
-  it('binds company-only decisions to saved non-product or service inventory entries', () => {
-    for (const entryType of ['non_product', 'service']) {
+  it('binds company and brand decisions without inventing a catalog model', () => {
+    for (const entryType of ['non_product', 'service', 'brand']) {
       const listing = { ...row, entryType };
       const companyScope = Object.fromEntries(
         ['listingId', 'name', 'company', 'companySlug', 'entryType', 'sourceUrl'].map((key) => [
@@ -184,6 +185,45 @@ describe('per-URL directory detail content coverage', () => {
       entry.review.companyScope = companyScope;
       listing.entryType = companyScope.entryType = 'model';
       expect(summarize).toThrow(/Invalid detail/);
+    }
+  });
+
+  it('rejects a paraphrase or unrelated text labelled as an exact API comparison', () => {
+    const claim = 'Original directory description';
+    const entry = {
+      ...check(),
+      content: {
+        ...check().content,
+        descriptionSha256: createHash('sha256').update(claim).digest('hex'),
+      },
+      savedApiComparison: {
+        claim,
+        identicalToApiSnapshot: true,
+        apiSnapshotSha256: 'c'.repeat(64),
+      },
+      review: { ...decision(), directoryClaims: [claim] },
+    };
+    const summarize = () => summarizeDetailContentChecks([row], { checks: [entry] });
+    expect(summarize().reviewedDetailContents).toBe(1);
+    entry.savedApiComparison.claim = 'An invented or rewritten description';
+    expect(summarize).toThrow(/Invalid saved API claim/);
+    entry.savedApiComparison.claim = claim;
+    entry.review.directoryClaims = ['A different review statement'];
+    expect(summarize).toThrow(/Invalid saved API claim/);
+  });
+
+  it('keeps failed HTTP requests out of primary evidence for reviewed decisions', () => {
+    for (const failure of [{ error: 'ReadTimeout' }, { status: 403 }, { status: null }]) {
+      const entry = {
+        ...check(),
+        review: {
+          ...decision(),
+          primarySources: [{ ...decision().primarySources[0], ...failure }],
+        },
+      };
+      expect(() => summarizeDetailContentChecks([row], { checks: [entry] })).toThrow(
+        /Invalid detail/,
+      );
     }
   });
 

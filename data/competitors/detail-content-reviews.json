@@ -35866,7 +35866,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The SOTO is an autonomous tugger train that picks and transports small load carriers in industrial environments."
+          "The SOTO is an autonomous tugger train that picks and transports up to 24 small load carriers around the clock."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -35874,40 +35874,52 @@
         ],
         "primarySources": [
           {
+            "name": "Magazino — SOTO manufacturer page:250 kg, 20 kg per tote and aisle/energy conditions",
+            "type": "manufacturer",
+            "url": "https://www.magazino.eu/en/production-logistics/",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Jungheinrich — Jungheinrich SOTO German technical data, revision 12.2023, text only",
+            "type": "manufacturer",
+            "url": "https://media-live2.prod.scw.jungheinrichcloud.com/resource/blob/1684414/44dc1ae5747aab5c880552694be9f887/download-technical-data-amr-soto-data.pdf",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Jungheinrich — Jungheinrich UK SOTO page:240 kg and 1.5 h charging",
+            "type": "manufacturer",
+            "url": "https://www.jungheinrich.co.uk/automation/mobile-robots/soto-1684506",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Magazino — linked company evidence",
             "url": "https://www.magazino.eu",
             "checkedAt": "2026-11-05",
             "bodySha256": "df1b390370d6d221221406db338c933ce0221d51da48b3794f3f09ace16cc307",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Magazino",
-            "url": "https://www.magazino.eu/en/production-logistics/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Magazino",
-            "url": "https://media-live2.prod.scw.jungheinrichcloud.com/resource/blob/1684414/44dc1ae5747aab5c880552694be9f887/download-technical-data-amr-soto-data.pdf",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Magazino",
-            "url": "https://www.jungheinrich.co.uk/automation/mobile-robots/soto-1684506",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Magazino documents SOTO as an autonomous mobile robot for small load carrier intralogistics. Catalog model magazino-soto represents this hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Magazino documents SOTO for KLT transfer between warehouse and production. Configurable 8–24-tote capacity, per-tote load limits and total payload remain separate; around-the-clock language is not continuous battery endurance. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The SOTO is an autonomous tugger train that picks and transports small load carriers in industrial environments.",
+        "claim": "The SOTO is an autonomous tugger train that picks and transports up to 24 small load carriers around the clock.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://www.magazino.eu",
+        "finalUrl": "https://www.magazino.eu/",
+        "checkedAt": "2026-11-05T13:21:12.265130+00:00",
+        "status": 200,
+        "bodySha256": "df1b390370d6d221221406db338c933ce0221d51da48b3794f3f09ace16cc307",
+        "bodyBytes": 140481,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -35964,34 +35976,46 @@
         ],
         "primarySources": [
           {
+            "name": "Daifuku — SOTR-M mobile conveyor case/tote transport",
+            "type": "manufacturer",
+            "url": "https://www.daifuku.com/solution/intralogistics/products/vehicle/sotr-m/",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Daifuku — Profile 2026;named robots and component ownership",
+            "type": "manufacturer",
+            "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
+            "checkedAt": "2026-11-03"
+          },
+          {
             "name": "Daifuku — linked company evidence",
             "url": "https://www.daifuku.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "a7eb40070a0c3bd8c904a63ed61238aed579fb5a305fa933e89af747f271b711",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Daifuku",
-            "url": "https://www.daifuku.com/solution/intralogistics/products/vehicle/sotr-m/",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Daifuku",
-            "url": "https://www.daifuku.com/ir/assets/profile2026_en.pdf",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
           }
         ],
-        "note": "Daifuku documents the SOTR-M sorting transfer robot. Catalog model daifuku-sotr-m corresponds to manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Daifuku documents the SOTR-M sorting transfer robot. Catalog model daifuku-sotr-m corresponds to manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
         "claim": "A flexible automation solution tailored for intralogistics.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://www.daifuku.com",
+        "finalUrl": "https://www.daifuku.com/",
+        "checkedAt": "2026-11-05T13:21:12.266094+00:00",
+        "status": 200,
+        "bodySha256": "a7eb40070a0c3bd8c904a63ed61238aed579fb5a305fa933e89af747f271b711",
+        "bodyBytes": 103719,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36040,7 +36064,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "Sparky is the ultimate event robot designed to entertain audiences and elevate brand experiences at conferences and trade shows."
+          "Sparky is the ultimate event robot designed to entertain audiences with interactive performances and charming personality, making events unforgettable."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [],
@@ -36050,11 +36074,11 @@
             "url": "https://event-robot.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "aafa20339c445116b1351f798f90cdec23a81627a1cd6047b8d8c276f9f06a7c",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "Event-Robot.com provides Sparky as an event engagement and rental entertainment robot service. Recorded under service classification without catalog robot assignment. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "Event-Robot.com provides Sparky as an event engagement and rental entertainment robot service. Recorded under service classification without catalog robot assignment. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "f7efe2f0-ae52-45ba-8e6a-78e10681c8e6",
           "name": "Sparky",
@@ -36062,14 +36086,25 @@
           "companySlug": "event-robot-com",
           "entryType": "service",
           "sourceUrl": "https://buyandrentrobots.com/robot/f7efe2f0-ae52-45ba-8e6a-78e10681c8e6"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
-        "claim": "Sparky is the ultimate event robot designed to entertain audiences and elevate brand experiences at conferences and trade shows.",
+        "claim": "Sparky is the ultimate event robot designed to entertain audiences with interactive performances and charming personality, making events unforgettable.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://event-robot.com",
+        "finalUrl": "https://event-robot.com/",
+        "checkedAt": "2026-11-05T13:21:12.266964+00:00",
+        "status": 200,
+        "bodySha256": "aafa20339c445116b1351f798f90cdec23a81627a1cd6047b8d8c276f9f06a7c",
+        "bodyBytes": 248035,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36118,7 +36153,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "Starship robots are 99% autonomous, designed for last-mile delivery of food and groceries on sidewalks and campuses."
+          "Starship robots are 99% autonomous, designed for last-mile delivery of groceries and hot food, known for navigating urban environments effectively."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -36126,34 +36161,46 @@
         ],
         "primarySources": [
           {
+            "name": "Starship Technologies — Our Robots",
+            "type": "manufacturer",
+            "url": "https://www.starship.xyz/our-robots/",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Starship Technologies — company homepage",
+            "type": "manufacturer",
+            "url": "https://www.starship.xyz/",
+            "checkedAt": "2026-11-03"
+          },
+          {
             "name": "Starship Technologies — linked company evidence",
             "url": "https://www.starship.xyz",
             "checkedAt": "2026-11-05",
             "bodySha256": "313294936b317604bb18a574f82f0847200174497c268df7f24acc31671b6064",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Starship Technologies",
-            "url": "https://www.starship.xyz/our-robots/",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Starship Technologies",
-            "url": "https://www.starship.xyz/",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
           }
         ],
-        "note": "Starship Technologies documents the Starship autonomous sidewalk delivery robot. Catalog model starship-technologies-starship-robot covers this delivery robot. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Starship Technologies documents the Starship autonomous sidewalk delivery robot. Catalog model starship-technologies-starship-robot covers this delivery robot. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "Starship robots are 99% autonomous, designed for last-mile delivery of food and groceries on sidewalks and campuses.",
+        "claim": "Starship robots are 99% autonomous, designed for last-mile delivery of groceries and hot food, known for navigating urban environments effectively.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://www.starship.xyz",
+        "finalUrl": "https://www.starship.xyz/",
+        "checkedAt": "2026-11-05T13:21:12.270826+00:00",
+        "status": 200,
+        "bodySha256": "313294936b317604bb18a574f82f0847200174497c268df7f24acc31671b6064",
+        "bodyBytes": 449144,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36202,7 +36249,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "StockBot is an autonomous RFID robot designed for precise tag reading and inventory tracking in retail stores."
+          "StockBot is an autonomous RFID robot designed for precise tag positioning and real-time data in retail operations."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -36210,34 +36257,46 @@
         ],
         "primarySources": [
           {
+            "name": "PAL Robotics",
+            "type": "manufacturer",
+            "url": "https://pal-robotics.com/robot/stockbot/",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "PAL Robotics",
+            "type": "manufacturer",
+            "url": "https://pal-robotics.com/datasheet/stockbot/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "PAL Robotics — linked company evidence",
             "url": "https://pal-robotics.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "fecf0f6137f94ab4a52bc3ca7d4e48acff7668996acf9dac418a54f0f2ba8f42",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "PAL Robotics",
-            "url": "https://pal-robotics.com/robot/stockbot/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "PAL Robotics",
-            "url": "https://pal-robotics.com/datasheet/stockbot/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "PAL Robotics documents StockBot as an autonomous retail inventory tracking robot combining RFID and vision. Catalog model pal-robotics-stockbot matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "PAL Robotics documents StockBot as an autonomous retail inventory tracking robot combining RFID and vision. Catalog model pal-robotics-stockbot matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "StockBot is an autonomous RFID robot designed for precise tag reading and inventory tracking in retail stores.",
+        "claim": "StockBot is an autonomous RFID robot designed for precise tag positioning and real-time data in retail operations.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://pal-robotics.com",
+        "finalUrl": "https://pal-robotics.com/",
+        "checkedAt": "2026-11-05T13:21:12.542990+00:00",
+        "status": 200,
+        "bodySha256": "fecf0f6137f94ab4a52bc3ca7d4e48acff7668996acf9dac418a54f0f2ba8f42",
+        "bodyBytes": 173729,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36296,11 +36355,11 @@
             "url": "https://symbotic.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "5cbc7f43cca8eb00735e794234ca236cf3b8f374d274b3b22e9c9fbc8c23fc34",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "The directory listing title 'Symbotic Robot' is a corporate placeholder for symbotic.com's automated supply-chain warehouse platform, not a discrete mobile robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "The directory listing title 'Symbotic Robot' is a corporate placeholder for symbotic.com's automated supply-chain warehouse platform, not a discrete mobile robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "643bc9ae-ed66-443a-a043-6f83ce846fa1",
           "name": "Symbotic Robot",
@@ -36308,14 +36367,25 @@
           "companySlug": "symbotic",
           "entryType": "non_product",
           "sourceUrl": "https://buyandrentrobots.com/robot/643bc9ae-ed66-443a-a043-6f83ce846fa1"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by Symbotic",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://symbotic.com",
+        "finalUrl": "https://www.symbotic.com/",
+        "checkedAt": "2026-11-05T13:21:12.546579+00:00",
+        "status": 200,
+        "bodySha256": "5cbc7f43cca8eb00735e794234ca236cf3b8f374d274b3b22e9c9fbc8c23fc34",
+        "bodyBytes": 357754,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36364,7 +36434,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The T3 robot is designed for delivering food and amenities directly to guests and patients, navigating dynamically through corridors and elevators."
+          "The T3 robot is designed for delivering food and amenities directly to guest rooms in hospitality environments, ensuring a seamless guest experience."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -36372,34 +36442,46 @@
         ],
         "primarySources": [
           {
+            "name": "Aethon — T3 exact model specification",
+            "type": "manufacturer",
+            "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Aethon — T3/T3XL family webpage",
+            "type": "manufacturer",
+            "url": "https://aethon.com/t3/",
+            "checkedAt": "2026-11-03"
+          },
+          {
             "name": "Aethon Medical Robots — linked company evidence",
             "url": "https://aethon.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "e513370d5ce2866ffabebdcbeba5ebd6cc67b4455827923f554c8732bb3627ac",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Aethon Medical Robots",
-            "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Aethon Medical Robots",
-            "url": "https://aethon.com/t3/",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
           }
         ],
-        "note": "Aethon Medical Robots documents the T3 autonomous hospital delivery robot. Catalog model aethon-t3 represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Aethon Medical Robots documents the T3 autonomous hospital delivery robot. Catalog model aethon-t3 represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The T3 robot is designed for delivering food and amenities directly to guests and patients, navigating dynamically through corridors and elevators.",
+        "claim": "The T3 robot is designed for delivering food and amenities directly to guest rooms in hospitality environments, ensuring a seamless guest experience.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://aethon.com",
+        "finalUrl": "https://aethon.com/",
+        "checkedAt": "2026-11-05T13:21:12.773435+00:00",
+        "status": 200,
+        "bodySha256": "e513370d5ce2866ffabebdcbeba5ebd6cc67b4455827923f554c8732bb3627ac",
+        "bodyBytes": 392810,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36456,40 +36538,52 @@
         ],
         "primarySources": [
           {
+            "name": "Simbe Robotics — current Tally RFID page: throughput claims and conflicting 35/40-foot range text",
+            "type": "manufacturer",
+            "url": "https://www.simberobotics.com/store-intelligence/tally-rfid",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Simbe Robotics — July 18, 2018 RFID integration announcement and dated supplier claims",
+            "type": "manufacturer",
+            "url": "https://www.simberobotics.com/about/newsroom/simbe-robotics-reveals-rfid-and-machine-learning-capabilities-in-the-latest-iteration-of-their-autonomous-inventory-robot-tally",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Simbe Robotics — current Tally page: 4.0-era capabilities and named-generation timeline",
+            "type": "manufacturer",
+            "url": "https://www.simberobotics.com/store-intelligence/tally",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Simbe Robotics — linked company evidence",
             "url": "https://www.simberobotics.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "834bddd5366946877a52e4921c61d8ec6c52f96a2273d5f3c5e0ee414129c483",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Simbe Robotics",
-            "url": "https://www.simberobotics.com/store-intelligence/tally-rfid",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Simbe Robotics",
-            "url": "https://www.simberobotics.com/about/newsroom/simbe-robotics-reveals-rfid-and-machine-learning-capabilities-in-the-latest-iteration-of-their-autonomous-inventory-robot-tally",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Simbe Robotics",
-            "url": "https://www.simberobotics.com/store-intelligence/tally",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Simbe Robotics documents Tally RFID as an autonomous shelf-auditing and RFID inventory robot. Catalog model simbe-robotics-tally-rfid matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Simbe Robotics documents Tally RFID as an autonomous shelf-auditing and RFID inventory robot. Catalog model simbe-robotics-tally-rfid matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
         "claim": "Advanced RFID sensors designed for soft goods and apparel.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://www.simberobotics.com",
+        "finalUrl": "https://www.simberobotics.com/",
+        "checkedAt": "2026-11-05T13:21:12.892640+00:00",
+        "status": 200,
+        "bodySha256": "834bddd5366946877a52e4921c61d8ec6c52f96a2273d5f3c5e0ee414129c483",
+        "bodyBytes": 330985,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36548,11 +36642,11 @@
             "url": "https://fischertechnik.de",
             "checkedAt": "2026-11-05",
             "bodySha256": "b92f35f997b98bf3b0866971aa9d7e78bf77bfcc41737ba02cae6a0a83c17c49",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "The directory listing title 'Technik spielend begreifen' is fischertechnik's educational brand slogan on fischertechnik.de, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "The directory listing title 'Technik spielend begreifen' is fischertechnik's educational brand slogan on fischertechnik.de, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "ffa21ff1-b0c7-48d1-a0fe-bab451d29cae",
           "name": "Technik spielend begreifen",
@@ -36560,14 +36654,25 @@
           "companySlug": "fischertechnik",
           "entryType": "non_product",
           "sourceUrl": "https://buyandrentrobots.com/robot/ffa21ff1-b0c7-48d1-a0fe-bab451d29cae"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by fischertechnik",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://fischertechnik.de",
+        "finalUrl": "https://www.fischertechnik.de/de-de",
+        "checkedAt": "2026-11-05T13:21:13.250967+00:00",
+        "status": 200,
+        "bodySha256": "b92f35f997b98bf3b0866971aa9d7e78bf77bfcc41737ba02cae6a0a83c17c49",
+        "bodyBytes": 166485,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36626,11 +36731,11 @@
             "url": "https://ocadogroup.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "a9839c92d8fc42c2c1d0b10cafdd1f402190da419d910253506587c0749a59dc",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "The directory listing title 'Technology & Automation of Online Grocery and Beyond' is an Ocado Group corporate marketing header on ocadogroup.com, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "The directory listing title 'Technology & Automation of Online Grocery and Beyond' is an Ocado Group corporate marketing header on ocadogroup.com, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "28297568-3f89-49ad-b557-61dde5402271",
           "name": "Technology & Automation of Online Grocery and Beyond",
@@ -36638,14 +36743,25 @@
           "companySlug": "ocado-group",
           "entryType": "non_product",
           "sourceUrl": "https://buyandrentrobots.com/robot/28297568-3f89-49ad-b557-61dde5402271"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by Ocado Group",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://ocadogroup.com",
+        "finalUrl": "https://www.ocadogroup.com/",
+        "checkedAt": "2026-11-05T13:21:13.435149+00:00",
+        "status": 200,
+        "bodySha256": "a9839c92d8fc42c2c1d0b10cafdd1f402190da419d910253506587c0749a59dc",
+        "bodyBytes": 221989,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36694,30 +36810,67 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "Temi is a personal robot designed to assist with various tasks and enhance home interaction."
+          "Temi is a personal robot designed to assist with various tasks in a smart home or office setting."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
-          "temi-temi-robot"
+          "robotemi-temi-v3"
         ],
         "primarySources": [
+          {
+            "name": "Robotemi — temi product page",
+            "type": "manufacturer",
+            "url": "https://www.robotemi.com/product/temi/",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Robotemi — company homepage",
+            "type": "manufacturer",
+            "url": "https://www.robotemi.com/",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Robotemi — About Us",
+            "type": "manufacturer",
+            "url": "https://www.robotemi.com/about/",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Robotemi",
+            "type": "manufacturer",
+            "url": "https://www.robotemi.com/product/temi-sales-contact/",
+            "checkedAt": "2026-11-01"
+          },
           {
             "name": "360 Bright Media — linked company evidence",
             "url": "https://360brightmedia.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "54ccb5ddcbb7e792b5b86cad22340e7014224fbafd244c6e22b7ce894dfd8b08",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "360 Bright Media offers the Temi personal telepresence robot for commercial events. Catalog model temi-temi-robot represents the underlying hardware under service/rental offering. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "360 Bright Media explicitly offers Temi Robot for event bookings. The established family reference points to the separately documented Robotemi temi V3; the service offer does not identify the generation of a supplied unit or establish manufacture by 360 Bright Media. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "family-reference",
+        "identityQualification": "Manufacturer explicitly names temi robot V3 and distinguishes V2/upgraded versus V3 tray hardware on its general page. This resolves one documented generation of the generic temi source family, not exact identity of every older temi unit. The older 2018 catalog row is not silently merged into V3, and current price or optional cellular equipment is not inferred."
       },
       "savedApiComparison": {
-        "claim": "Temi is a personal robot designed to assist with various tasks and enhance home interaction.",
+        "claim": "Temi is a personal robot designed to assist with various tasks in a smart home or office setting.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://360brightmedia.com",
+        "finalUrl": "https://360brightmedia.com/",
+        "checkedAt": "2026-11-05T13:21:13.868611+00:00",
+        "status": 200,
+        "bodySha256": "54ccb5ddcbb7e792b5b86cad22340e7014224fbafd244c6e22b7ce894dfd8b08",
+        "bodyBytes": 381015,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36766,54 +36919,58 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "Temi V3 is a personal robot assistant that autonomously navigates your home, offering hands-free communication and smart control."
+          "Temi V3 is a personal robot assistant that autonomously navigates spaces, supports video calling, smart home integration, and autonomous patrol and delivery tasks."
         ],
-        "assessment": "consistent-with-primary-scope",
+        "assessment": "directory-conflict-recorded",
         "catalogIds": [
           "robotemi-temi-v3"
         ],
         "primarySources": [
           {
-            "name": "Temi Robot — linked company evidence",
-            "url": "https://temi.com",
-            "checkedAt": "2026-11-05",
-            "bodySha256": "52aa668eadf4266b180e88e8a4951e2bbc4351242e43652192bb1f19254a8654",
+            "name": "Robotemi — temi product page",
             "type": "manufacturer",
-            "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Temi Robot",
             "url": "https://www.robotemi.com/product/temi/",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
+            "checkedAt": "2026-11-03"
           },
           {
-            "name": "Temi Robot",
+            "name": "Robotemi — company homepage",
+            "type": "manufacturer",
             "url": "https://www.robotemi.com/",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
+            "checkedAt": "2026-11-03"
           },
           {
-            "name": "Temi Robot",
+            "name": "Robotemi — About Us",
+            "type": "manufacturer",
             "url": "https://www.robotemi.com/about/",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
+            "checkedAt": "2026-11-03"
           },
           {
-            "name": "Temi Robot",
+            "name": "Robotemi",
+            "type": "manufacturer",
             "url": "https://www.robotemi.com/product/temi-sales-contact/",
-            "checkedAt": "2026-11-01",
-            "type": "manufacturer"
+            "checkedAt": "2026-11-01"
           }
         ],
-        "note": "Robotemi documents Temi V3 as an autonomous personal assistant and telepresence robot. Catalog model robotemi-temi-v3 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "The linked temi.com domain redirects to a transcription service at /try-rev; it is not usable robot manufacturer evidence. The robotemi.com manufacturer pages document temi V3. Navigation/video-call functions remain manufacturer statements; the source link is recorded as a domain conflict. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "Temi V3 is a personal robot assistant that autonomously navigates your home, offering hands-free communication and smart control.",
+        "claim": "Temi V3 is a personal robot assistant that autonomously navigates spaces, supports video calling, smart home integration, and autonomous patrol and delivery tasks.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://temi.com",
+        "finalUrl": "https://www.temi.com/try-rev",
+        "checkedAt": "2026-11-05T13:21:13.957920+00:00",
+        "status": 200,
+        "bodySha256": "52aa668eadf4266b180e88e8a4951e2bbc4351242e43652192bb1f19254a8654",
+        "bodyBytes": 10113,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36876,7 +37033,7 @@
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "The directory listing title 'The Autonomous Delivery Network' is Matternet's drone delivery platform tagline on mttr.net, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "The directory listing title 'The Autonomous Delivery Network' is Matternet's drone delivery platform tagline on mttr.net, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "3b532e55-913d-4014-9c55-bbf8f8fd4d6a",
           "name": "The Autonomous Delivery Network",
@@ -36884,14 +37041,25 @@
           "companySlug": "matternet-com",
           "entryType": "non_product",
           "sourceUrl": "https://buyandrentrobots.com/robot/3b532e55-913d-4014-9c55-bbf8f8fd4d6a"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by Matternet.com",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://mttr.net",
+        "finalUrl": "https://www.matternet.com",
+        "checkedAt": "2026-11-05T13:21:14.145617+00:00",
+        "status": 200,
+        "bodySha256": "54dfecdb085de1fade4ea498a5601c61faebd48e3562ecb5dc3f344468096a54",
+        "bodyBytes": 210086,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -36950,11 +37118,11 @@
             "url": "https://dexterity.ai",
             "checkedAt": "2026-11-05",
             "bodySha256": "4452d33d4ccaf06dd575d2a90690be45a79e572c6628747c52fecb129a02e406",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "The directory listing title 'The Future isPhysical' is Dexterity's corporate marketing slogan on dexterity.ai, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "The directory listing title 'The Future isPhysical' is Dexterity's corporate marketing slogan on dexterity.ai, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "258edb70-706e-46e7-8c24-99e27081553f",
           "name": "The Future isPhysical",
@@ -36962,14 +37130,25 @@
           "companySlug": "dexterity",
           "entryType": "non_product",
           "sourceUrl": "https://buyandrentrobots.com/robot/258edb70-706e-46e7-8c24-99e27081553f"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by Dexterity",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://dexterity.ai",
+        "finalUrl": "https://dexterity.ai/",
+        "checkedAt": "2026-11-05T13:21:14.221810+00:00",
+        "status": 200,
+        "bodySha256": "4452d33d4ccaf06dd575d2a90690be45a79e572c6628747c52fecb129a02e406",
+        "bodyBytes": 54524,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37032,7 +37211,7 @@
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "The directory listing title 'The future of home help is here' is Figure's promotional headline on figure.ai, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "The directory listing title 'The future of home help is here' is Figure's promotional headline on figure.ai, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "e63a9235-1b1a-4846-8684-b9567d7f9d73",
           "name": "The future of home help is here",
@@ -37040,14 +37219,25 @@
           "companySlug": "figure",
           "entryType": "non_product",
           "sourceUrl": "https://buyandrentrobots.com/robot/e63a9235-1b1a-4846-8684-b9567d7f9d73"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by Figure",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://www.figure.ai",
+        "finalUrl": "https://www.figure.ai/",
+        "checkedAt": "2026-11-05T13:21:14.399137+00:00",
+        "status": 200,
+        "bodySha256": "484b861d5611495be9c735e3f8a142e99167c0dfce1a9a0814181bec40752a5b",
+        "bodyBytes": 39173,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37096,7 +37286,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "Interactive entertainment robots that engage the audience with personalized messages and performances."
+          "Interactive entertainment robots that engage the audience with performances and demonstrations."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [],
@@ -37106,7 +37296,7 @@
             "url": "https://altusentertainment.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "71be72b1b4040b26399018457f8d27533faf8557187789c5a4034ed050a4d147",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           },
           {
@@ -37116,20 +37306,31 @@
             "type": "manufacturer"
           }
         ],
-        "note": "Altus Entertainment provides The Showbots as live performance and entertainment booking services with costumed characters and animatronic props, not manufactured autonomous robot hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "Altus Entertainment provides The Showbots as live performance and entertainment booking services with costumed characters and animatronic props, not manufactured autonomous robot hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "listingReview": {
           "listingId": "1c356d95-c6a5-469d-b364-61b9fa14fcfd",
           "name": "The Showbots",
           "company": "Altus Entertainment",
           "kind": "non_robot_service"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
-        "claim": "Interactive entertainment robots that engage the audience with personalized messages and performances.",
+        "claim": "Interactive entertainment robots that engage the audience with performances and demonstrations.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://altusentertainment.com",
+        "finalUrl": "https://altusentertainment.com/",
+        "checkedAt": "2026-11-05T13:21:14.481246+00:00",
+        "status": 200,
+        "bodySha256": "71be72b1b4040b26399018457f8d27533faf8557187789c5a4034ed050a4d147",
+        "bodyBytes": 95991,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37178,7 +37379,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "A powerful industrial robot that enhances efficiency and precision in automated operations."
+          "A powerful industrial robot that enhances efficiency and productivity in various applications, including manufacturing."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -37186,28 +37387,40 @@
         ],
         "primarySources": [
           {
+            "name": "Richtech Robotics — titan",
+            "type": "manufacturer",
+            "url": "https://richtechrobotics.com/solutions/titan",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Richtech Robotics — linked company evidence",
             "url": "https://richtechrobotics.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "49ba66df24ddf9356918a346668fea7ac28a3d057a0c8d49ad995b74c96ec868",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Richtech Robotics",
-            "url": "https://richtechrobotics.com/solutions/titan",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Richtech Robotics documents Titan as an autonomous transport and material-handling robot. Catalog model richtech-robotics-titan matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Richtech Robotics documents Titan as an autonomous transport and material-handling robot. Catalog model richtech-robotics-titan matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "A powerful industrial robot that enhances efficiency and precision in automated operations.",
+        "claim": "A powerful industrial robot that enhances efficiency and productivity in various applications, including manufacturing.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://richtechrobotics.com",
+        "finalUrl": "https://richtechrobotics.com/",
+        "checkedAt": "2026-11-05T13:21:14.637900+00:00",
+        "status": 200,
+        "bodySha256": "49ba66df24ddf9356918a346668fea7ac28a3d057a0c8d49ad995b74c96ec868",
+        "bodyBytes": 261255,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37256,7 +37469,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The TMC300 cart solution enhances material transport capabilities with high efficiency and adaptable design."
+          "The TMC300 cart solution enhances material transport capabilities, making complex system deployment quick and efficient."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [],
@@ -37266,7 +37479,7 @@
             "url": "https://roeq.dk",
             "checkedAt": "2026-11-05",
             "bodySha256": "49517b827fb4f1dd6aa9cbb90ef15b7efde76a679249ec50c9c360d2dcc3fed3",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           },
           {
@@ -37276,20 +37489,31 @@
             "type": "manufacturer"
           }
         ],
-        "note": "ROEQ documents TMC300 as a top module conveyor component designed for integration onto MiR mobile robots, not an independent autonomous robot. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "ROEQ documents a cart-locking top module for compatible MiR mobile robots. TMC300 is not a conveyor or a complete autonomous robot; the host robot and cart are separate. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "listingReview": {
           "listingId": "1e05e939-ea57-4489-8fe5-e1285c01c6e7",
           "name": "TMC300",
           "company": "Robotic Equipment",
           "kind": "non_robot_component"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
-        "claim": "The TMC300 cart solution enhances material transport capabilities with high efficiency and adaptable design.",
+        "claim": "The TMC300 cart solution enhances material transport capabilities, making complex system deployment quick and efficient.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://roeq.dk",
+        "finalUrl": "https://roeq.dk/",
+        "checkedAt": "2026-11-05T13:21:14.648543+00:00",
+        "status": 200,
+        "bodySha256": "49517b827fb4f1dd6aa9cbb90ef15b7efde76a679249ec50c9c360d2dcc3fed3",
+        "bodyBytes": 312436,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37348,11 +37572,11 @@
             "url": "https://ttidelivers.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "c9bd33803499de82d6200a313258c0dd00169d9ac7ca4b754ba3b9d46526d6fa",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "The directory listing 'Top Logistics and Shipping Company Near Me' links to a freight logistics blog article on ttidelivers.com, misrepresenting a third-party editorial publication as a robot manufacturer and model. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "The directory listing 'Top Logistics and Shipping Company Near Me' links to a freight logistics blog article on ttidelivers.com, misrepresenting a third-party editorial publication as a robot manufacturer and model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "a0a8a763-e71c-42da-8e95-76d4ebedc662",
           "name": "Top Logistics and Shipping Company Near Me",
@@ -37360,14 +37584,25 @@
           "companySlug": "last-mile-delivery-robots-fact-or-fiction-are-sidewalk-bots-the-",
           "entryType": "non_product",
           "sourceUrl": "https://buyandrentrobots.com/robot/a0a8a763-e71c-42da-8e95-76d4ebedc662"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by Last-Mile Delivery Robots: Fact or Fiction, Are Sidewalk Bots the ...",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://ttidelivers.com",
+        "finalUrl": "https://ttidelivers.com/",
+        "checkedAt": "2026-11-05T13:21:14.772715+00:00",
+        "status": 200,
+        "bodySha256": "c9bd33803499de82d6200a313258c0dd00169d9ac7ca4b754ba3b9d46526d6fa",
+        "bodyBytes": 937994,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37413,39 +37648,42 @@
         "scope": "Directory listing identity and visible content only; not manufacturer identity, availability or product performance verification."
       },
       "review": {
-        "status": "reviewed",
-        "reviewedAt": "2026-11-05",
+        "status": "pending",
+        "inspectedAt": "2026-11-05",
         "directoryClaims": [
           "Robot by Tortoise (sidewalk)"
         ],
-        "assessment": "consistent-with-primary-scope",
-        "catalogIds": [],
-        "primarySources": [
+        "note": "Linked tortoise.dev returned an empty body. A successful HTTP status does not support the former teleoperated-cart interpretation; usable primary content is still required.",
+        "primaryAttempts": [
           {
-            "name": "Tortoise (sidewalk) — linked company evidence",
             "url": "https://tortoise.dev",
-            "checkedAt": "2026-11-05",
+            "finalUrl": "https://tortoise.dev/",
+            "checkedAt": "2026-11-05T13:21:15.082619+00:00",
+            "status": 200,
             "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-            "type": "manufacturer",
-            "inspection": "Extracted native text only; no visual inspection."
+            "bodyBytes": 0,
+            "error": null,
+            "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
           }
         ],
-        "note": "The directory listing title 'Tortoise Starts' is an introductory header for Tortoise's teleoperated sidewalk delivery cart platform on tortoise.dev, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
-        "companyScope": {
-          "listingId": "cf95daae-2789-42e9-a8af-448b043560f2",
-          "name": "Tortoise Starts",
-          "company": "Tortoise (sidewalk)",
-          "companySlug": "tortoise-sidewalk",
-          "entryType": "non_product",
-          "sourceUrl": "https://buyandrentrobots.com/robot/cf95daae-2789-42e9-a8af-448b043560f2"
-        }
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by Tortoise (sidewalk)",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://tortoise.dev",
+        "finalUrl": "https://tortoise.dev/",
+        "checkedAt": "2026-11-05T13:21:15.082619+00:00",
+        "status": 200,
+        "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bodyBytes": 0,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37494,7 +37732,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The TORU is a 24/7 commissioning specialist that reliably picks and places shoeboxes in e-commerce fulfillment."
+          "The TORU is a 24/7 commissioning specialist that reliably picks up boxes or standardized containers from shelf racks."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -37502,34 +37740,46 @@
         ],
         "primarySources": [
           {
+            "name": "Magazino — TORU manufacturer page:gripping envelope, backpack and daily operation",
+            "type": "manufacturer",
+            "url": "https://www.magazino.eu/en/shoe-logistics/",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Magazino — TORU within NEO system, February 6, 2025:application and system-level performance",
+            "type": "manufacturer",
+            "url": "https://www.magazino.eu/en/tech-articles/commissioning-robot-toru-neointralogistics/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Magazino — linked company evidence",
             "url": "https://www.magazino.eu",
             "checkedAt": "2026-11-05",
             "bodySha256": "df1b390370d6d221221406db338c933ce0221d51da48b3794f3f09ace16cc307",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Magazino",
-            "url": "https://www.magazino.eu/en/shoe-logistics/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Magazino",
-            "url": "https://www.magazino.eu/en/tech-articles/commissioning-robot-toru-neointralogistics/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Magazino documents TORU as an autonomous mobile robot for shoe box and carton picking. Catalog model magazino-toru represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Magazino documents TORU as an autonomous mobile robot for shoe box and carton picking. Catalog model magazino-toru represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The TORU is a 24/7 commissioning specialist that reliably picks and places shoeboxes in e-commerce fulfillment.",
+        "claim": "The TORU is a 24/7 commissioning specialist that reliably picks up boxes or standardized containers from shelf racks.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://www.magazino.eu",
+        "finalUrl": "https://www.magazino.eu/",
+        "checkedAt": "2026-11-05T13:21:12.265130+00:00",
+        "status": 200,
+        "bodySha256": "df1b390370d6d221221406db338c933ce0221d51da48b3794f3f09ace16cc307",
+        "bodyBytes": 140481,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37578,18 +37828,11 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "Real-time tracking solution for drones, providing telemetry data to FlightLine."
+          "Real-time tracking solution for drones, providing telemetry data to enhance fleet visibility."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [],
         "primarySources": [
-          {
-            "name": "Iris Automation — probed company website",
-            "url": "https://irisonboard.com",
-            "checkedAt": "2026-11-05",
-            "error": "HTTP 403",
-            "type": "manufacturer"
-          },
           {
             "name": "uAvionix — manufacturer-authored documentation hosted by Manuals.plus",
             "url": "https://manuals.plus/m/639893cdf5a68f684de7e313c21d9f0a6b6b1ed55cc08975777ebd129342cfb7.pdf",
@@ -37597,20 +37840,33 @@
             "type": "manufacturer"
           }
         ],
-        "note": "Manufacturer Trakr documentation confirms Trakr is an onboard UAS tracking transmitter/device within a monitoring ecosystem, not an autonomous mobile robot. Retained under component classification. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "Manufacturer Trakr documentation confirms Trakr is an onboard UAS tracking transmitter/device within a monitoring ecosystem, not an autonomous mobile robot. Retained under component classification. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "classification": {
           "source": "buyandrentrobots",
           "brand": "Iris Automation",
           "model": "Trakr",
           "kind": "component"
-        }
+        },
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference",
+        "identityQualification": "Manufacturer TrakrStation datasheet explicitly distinguishes ground receivers from Trakr devices onboard UAS that broadcast position data to FlightLine. Trakr is tracking transmitter/device hardware within a monitoring ecosystem, not the drone itself. No TrakrStation specifications are transferred to Trakr. Original competitor company attribution is retained as source data; this classification does not merge Iris Automation and every uAvionix product into one robot manufacturer."
       },
       "savedApiComparison": {
-        "claim": "Real-time tracking solution for drones, providing telemetry data to FlightLine.",
+        "claim": "Real-time tracking solution for drones, providing telemetry data to enhance fleet visibility.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://irisonboard.com",
+        "finalUrl": "https://uavionix.com/uncrewed-aircraft-systems/uas-surveillance/",
+        "checkedAt": "2026-11-05T13:21:15.144102+00:00",
+        "status": 403,
+        "bodySha256": "b8c5d9ce90e769af95ce95cc1789b77b518fdb0b7ecb0568f89a8d8d773650c0",
+        "bodyBytes": 1525,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37669,11 +37925,11 @@
             "url": "https://trossenrobotics.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "d1805442a4c883b8322440faa1a1306fd07f9ea3539006ee53297659d4935228",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
           }
         ],
-        "note": "The directory listing title 'Trossen Robotics Robot' is a placeholder entry on trossenrobotics.com for Trossen's research manipulator and mobile platform business, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs.",
+        "note": "The directory listing title 'Trossen Robotics Robot' is a placeholder entry on trossenrobotics.com for Trossen's research manipulator and mobile platform business, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
         "companyScope": {
           "listingId": "9c6efdcc-1911-46a6-bbec-758fbe945aab",
           "name": "Trossen Robotics Robot",
@@ -37681,14 +37937,25 @@
           "companySlug": "trossen-robotics",
           "entryType": "non_product",
           "sourceUrl": "https://buyandrentrobots.com/robot/9c6efdcc-1911-46a6-bbec-758fbe945aab"
-        }
+        },
+        "correctionBatch": 215
       },
       "savedApiComparison": {
         "claim": "Robot by Trossen Robotics",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://trossenrobotics.com",
+        "finalUrl": "https://www.trossenrobotics.com/",
+        "checkedAt": "2026-11-05T13:21:15.331210+00:00",
+        "status": 200,
+        "bodySha256": "d1805442a4c883b8322440faa1a1306fd07f9ea3539006ee53297659d4935228",
+        "bodyBytes": 1346445,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37737,13 +38004,25 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "TUG robots are designed for autonomous delivery of various items in healthcare settings, including meals and linens."
+          "TUG robots are designed for autonomous delivery of various items within healthcare facilities, including medications and supplies, thereby improving efficiency and reducing labor costs."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
-          "aethon-t2-tug"
+          "aethon-t3"
         ],
         "primarySources": [
+          {
+            "name": "Aethon — T3 exact model specification",
+            "type": "manufacturer",
+            "url": "https://cdn.aethon.com/wp-content/uploads/2025/06/Aethon_SpecSheet_T3-1.pdf",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Aethon — T3/T3XL family webpage",
+            "type": "manufacturer",
+            "url": "https://aethon.com/t3/",
+            "checkedAt": "2026-11-03"
+          },
           {
             "name": "Aethon Medical Robots — linked company evidence",
             "url": "https://aethon.com",
@@ -37759,14 +38038,27 @@
             "type": "manufacturer"
           }
         ],
-        "note": "Aethon Medical Robots documents the TUG autonomous hospital and industrial delivery robot line. Catalog model aethon-t2-tug represents this platform. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Aethon explicitly documents hospital TUG T3 robots. The generic TUG listing is a family reference to T3, not exact identity with the historical T2 TUG. Do not transfer successor or predecessor specifications. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "family-reference",
+        "identityQualification": "Manufacturer report explicitly calls its hospital units TUG T3 robots. Aethon Medical Robots is the source company label; the generic TUG family includes the primary-supported T3. This is a family resolution, not exact configuration identity for the source listing or proof of all historical/current variants. Older TUG datasheet capacities are not substituted for current T3 ratings."
       },
       "savedApiComparison": {
-        "claim": "TUG robots are designed for autonomous delivery of various items in healthcare settings, including meals and linens.",
+        "claim": "TUG robots are designed for autonomous delivery of various items within healthcare facilities, including medications and supplies, thereby improving efficiency and reducing labor costs.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://aethon.com",
+        "finalUrl": "https://aethon.com/",
+        "checkedAt": "2026-11-05T13:21:12.773435+00:00",
+        "status": 200,
+        "bodySha256": "e513370d5ce2866ffabebdcbeba5ebd6cc67b4455827923f554c8732bb3627ac",
+        "bodyBytes": 392810,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37815,7 +38107,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "A small, low-cost open source robot designed for education and research, based on the iRobot Create 3 platform."
+          "A small, low-cost open source robot designed for education and research, equipped with advanced sensors."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -37823,28 +38115,40 @@
         ],
         "primarySources": [
           {
+            "name": "Clearpath Robotics — turtlebot manufacturer manual",
+            "type": "manufacturer",
+            "url": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Clearpath Robotics — linked company evidence",
             "url": "https://clearpathrobotics.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "cc7222c987b4cfb0c320d647d0b8eb1074b2d2e6be81d3fc561190fe7b36209b",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Clearpath Robotics",
-            "url": "https://turtlebot.github.io/turtlebot4-user-manual/overview/features.html",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Clearpath Robotics documents TurtleBot 4 as an open-source ROS 2 educational mobile robotics platform built on iRobot Create 3. Catalog model clearpath-robotics-turtlebot-4 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Clearpath Robotics documents TurtleBot 4 as an open-source ROS 2 educational mobile robotics platform built on iRobot Create 3. Catalog model clearpath-robotics-turtlebot-4 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "A small, low-cost open source robot designed for education and research, based on the iRobot Create 3 platform.",
+        "claim": "A small, low-cost open source robot designed for education and research, equipped with advanced sensors.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://clearpathrobotics.com",
+        "finalUrl": "https://clearpathrobotics.com/",
+        "checkedAt": "2026-11-05T13:21:15.654458+00:00",
+        "status": 200,
+        "bodySha256": "cc7222c987b4cfb0c320d647d0b8eb1074b2d2e6be81d3fc561190fe7b36209b",
+        "bodyBytes": 123268,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37893,13 +38197,25 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "An innovative delivery robot designed for efficient transport of goods across challenging terrains."
+          "An innovative delivery robot designed for efficient transportation of goods in urban environments."
         ],
-        "assessment": "consistent-with-primary-scope",
+        "assessment": "directory-conflict-recorded",
         "catalogIds": [
           "quantum-systems-twister"
         ],
         "primarySources": [
+          {
+            "name": "Quantum Systems — manufacturer model information",
+            "url": "https://quantum-systems.com/twister/",
+            "type": "manufacturer",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Quantum Systems — manufacturer model information",
+            "url": "https://lp.quantum-systems.com/hubfs/Downloadables/Downloadables%20GmbH/QS_Twister_Techsheet_250508_Screen_EN.pdf?hsLang=en",
+            "type": "manufacturer",
+            "checkedAt": "2026-11-02"
+          },
           {
             "name": "Quantum Systems — linked company evidence",
             "url": "https://quantum-systems.com",
@@ -37907,28 +38223,28 @@
             "bodySha256": "e42582d525a987e7abcb0637ccfcb19a39609b4240f83117abebaa223e9b358c",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Quantum Systems",
-            "url": "https://quantum-systems.com/twister/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Quantum Systems",
-            "url": "https://lp.quantum-systems.com/hubfs/Downloadables/Downloadables%20GmbH/QS_Twister_Techsheet_250508_Screen_EN.pdf?hsLang=en",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Quantum Systems documents the Twister tactical mapping UAS. Catalog model quantum-systems-twister represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "The directory describes urban goods delivery, whereas Quantum Systems documents Twister as an ISR reconnaissance UAS. Its 90-minute flight endurance and surveillance payload context do not substantiate parcel transport. Retain the named aircraft identity and record the application conflict. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "An innovative delivery robot designed for efficient transport of goods across challenging terrains.",
+        "claim": "An innovative delivery robot designed for efficient transportation of goods in urban environments.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://quantum-systems.com",
+        "finalUrl": "https://quantum-systems.com/",
+        "checkedAt": "2026-11-05T13:21:15.917417+00:00",
+        "status": 200,
+        "bodySha256": "e42582d525a987e7abcb0637ccfcb19a39609b4240f83117abebaa223e9b358c",
+        "bodyBytes": 264151,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -37987,51 +38303,57 @@
         ],
         "primarySources": [
           {
-            "name": "OrionStar Robotics — probed company website",
-            "url": "https://orionstar.com",
-            "checkedAt": "2026-11-05",
-            "error": "ReadTimeout",
-            "type": "manufacturer"
-          },
-          {
-            "name": "OrionStar Robotics",
+            "name": "UFACTORY — manufacturer manual/technical sheet",
             "url": "https://www.ufactory.cc/upfiles/products/202610/FI63GZHEZPW9.pdf",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
+            "type": "manufacturer",
+            "checkedAt": "2026-11-02"
           },
           {
-            "name": "OrionStar Robotics",
+            "name": "UFACTORY — manufacturer manual/technical sheet",
             "url": "https://www.ufactory.cc/upfiles/download/202606/UD72FEF224J3.pdf",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
+            "type": "manufacturer",
+            "checkedAt": "2026-11-02"
           },
           {
-            "name": "OrionStar Robotics",
+            "name": "UFACTORY — manufacturer product/support information",
             "url": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
+            "type": "manufacturer",
+            "checkedAt": "2026-11-02"
           },
           {
-            "name": "OrionStar Robotics",
+            "name": "UFACTORY — manufacturer product/support information",
             "url": "https://docs.supportarticle.ufactory.cc/support_articles/hardware/the-difference-between-ufactory-xarm5-xarm6-and-xarm7.html",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
+            "type": "manufacturer",
+            "checkedAt": "2026-11-02"
           },
           {
-            "name": "OrionStar Robotics",
+            "name": "UFACTORY — manufacturer product/support information",
             "url": "https://docs.supportarticle.ufactory.cc/support_articles/developer/collision-detection-in-ufactory-robotic-arms-current-and-dynamic-model-based-feature.html",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
+            "type": "manufacturer",
+            "checkedAt": "2026-11-02"
           }
         ],
-        "note": "The directory listing 'UFactory xArm' links to OrionStar Robotics, misattributing the collaborative robot arm manufactured by UFACTORY (ufactory.cc) to OrionStar Robotics (orionstar.com). Catalog models represent the verified UFACTORY arms. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "UFACTORY documents the xArm family with 5-, 6- and 7-axis variants. The source assigns it to OrionStar Robotics; retain the manufacturer attribution conflict and the family relationship. The timed-out source-company probe is not product evidence. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "family-reference",
+        "identityQualification": "OrionStar links to the UFACTORY manufacturer website. The xArm family belongs to UFACTORY and has three named 5-, 6- and 7-axis variants. Generic reseller/source attribution is corrected; the family is not counted as a fourth model."
       },
       "savedApiComparison": {
         "claim": "Collaborative Robotic Arm aimed at educational and industrial applications.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://orionstar.com",
+        "finalUrl": null,
+        "checkedAt": "2026-11-05T13:21:16.132879+00:00",
+        "status": null,
+        "bodySha256": null,
+        "bodyBytes": 0,
+        "error": "ReadTimeout",
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38080,7 +38402,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The Unitree A2 is a stellar explorer designed for engaging educational and interactive experiences."
+          "The Unitree A2 is a stellar explorer designed for engaging entertainment applications in various environments."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -38088,28 +38410,40 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree A2 manufacturer specifications",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/A2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Unitree Robotics — linked company evidence",
             "url": "https://unitree.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/A2/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Unitree Robotics documents the A2 wheeled-legged quadruped robot. Catalog model unitree-a2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Unitree A2 is a legged quadruped. A2-W is a separately named wheeled configuration; no wheels are inferred for A2. Manufacturer load/sensor statements do not verify the directory entertainment positioning. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The Unitree A2 is a stellar explorer designed for engaging educational and interactive experiences.",
+        "claim": "The Unitree A2 is a stellar explorer designed for engaging entertainment applications in various environments.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://unitree.com",
+        "finalUrl": "https://www.unitree.com/",
+        "checkedAt": "2026-11-05T13:21:16.827697+00:00",
+        "status": 200,
+        "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
+        "bodyBytes": 70025,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38158,7 +38492,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The Unitree As2 is a compact-sized robot designed for industrial applications, capable of autonomous patrol and inspection tasks."
+          "The Unitree As2 is a compact-sized robot designed for industrial capabilities, making it suitable for various service applications."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -38169,28 +38503,41 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree As2 manufacturer specifications",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/As2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Unitree Robotics — linked company evidence",
             "url": "https://unitree.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/As2/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Unitree Robotics documents the As2 quadruped platform series (AIR, PRO, X, EDU). Catalog models represent these configurations. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Unitree Robotics documents the As2 quadruped platform series (AIR, PRO, X, EDU). Catalog models represent these configurations. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "family-reference",
+        "identityQualification": "Manufacturer explicitly identifies four legged As2 variants and separates feature/rating columns. AIR does not inherit PRO/X/EDU protection, following, batteries or developer access. The generic source mention is not exact identity of one variant, and the existing wheel-legged AS2-W is not substituted for the legged family."
       },
       "savedApiComparison": {
-        "claim": "The Unitree As2 is a compact-sized robot designed for industrial applications, capable of autonomous patrol and inspection tasks.",
+        "claim": "The Unitree As2 is a compact-sized robot designed for industrial capabilities, making it suitable for various service applications.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://unitree.com",
+        "finalUrl": "https://www.unitree.com/",
+        "checkedAt": "2026-11-05T13:21:16.827697+00:00",
+        "status": 200,
+        "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
+        "bodyBytes": 70025,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38239,7 +38586,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The Unitree B2 is built to go beyond the limits, designed for rugged terrains and complex tasks."
+          "The Unitree B2 is built to go beyond the limits, designed for versatile service applications across industries."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -38247,28 +38594,40 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree b2 manufacturer specifications",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/b2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Unitree Robotics — linked company evidence",
             "url": "https://unitree.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/b2/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Unitree Robotics documents B2 as an industrial heavy-duty quadruped robot for all-terrain inspection. Catalog model unitree-b2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Unitree Robotics documents B2 as an industrial heavy-duty quadruped robot for all-terrain inspection. Catalog model unitree-b2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The Unitree B2 is built to go beyond the limits, designed for rugged terrains and complex tasks.",
+        "claim": "The Unitree B2 is built to go beyond the limits, designed for versatile service applications across industries.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://unitree.com",
+        "finalUrl": "https://www.unitree.com/",
+        "checkedAt": "2026-11-05T13:21:16.827697+00:00",
+        "status": 200,
+        "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
+        "bodyBytes": 70025,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38317,7 +38676,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The Unitree G1 serves as a humanoid agent AI avatar, designed for advanced interaction and mobility."
+          "The Unitree G1 serves as a humanoid agent AI avatar, designed for rich interactions in various applications."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -38325,34 +38684,46 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree — G1 / G1 EDU manufacturer specification table",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/g1/",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Unitree boxing manufacturer product page",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/boxing",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Unitree Robotics — linked company evidence",
             "url": "https://unitree.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/g1/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/boxing",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Unitree Robotics documents the G1 humanoid agent for dynamic locomotion and manipulation. Catalog model unitree-g1 represents this humanoid robot. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Unitree Robotics documents the G1 humanoid agent for dynamic locomotion and manipulation. Catalog model unitree-g1 represents this humanoid robot. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The Unitree G1 serves as a humanoid agent AI avatar, designed for advanced interaction and mobility.",
+        "claim": "The Unitree G1 serves as a humanoid agent AI avatar, designed for rich interactions in various applications.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://unitree.com",
+        "finalUrl": "https://www.unitree.com/",
+        "checkedAt": "2026-11-05T13:21:16.827697+00:00",
+        "status": 200,
+        "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
+        "bodyBytes": 70025,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38409,34 +38780,46 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree — G1 / G1 EDU manufacturer specification table",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/g1/",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Unitree boxing manufacturer product page",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/boxing",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Robotics Center of Silicon Valley — linked company evidence",
             "url": "https://www.roboticscenter.ai",
             "checkedAt": "2026-11-05",
             "bodySha256": "b6a1c82c4012bddfe1da4281bd543c1ca2b83d36abc722baad7a000aab7f5ab0",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Robotics Center of Silicon Valley",
-            "url": "https://www.unitree.com/g1/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Robotics Center of Silicon Valley",
-            "url": "https://www.unitree.com/boxing",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Robotics Center of Silicon Valley distributes the Unitree G1 humanoid robot. Catalog model unitree-g1 represents the underlying hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Robotics Center of Silicon Valley distributes the Unitree G1 humanoid robot. Catalog model unitree-g1 represents the underlying hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
         "claim": "A humanoid robot that combines high mobility with advanced AI capabilities.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://www.roboticscenter.ai",
+        "finalUrl": "https://www.roboticscenter.ai/",
+        "checkedAt": "2026-11-05T13:21:18.006720+00:00",
+        "status": 200,
+        "bodySha256": "b6a1c82c4012bddfe1da4281bd543c1ca2b83d36abc722baad7a000aab7f5ab0",
+        "bodyBytes": 270576,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38485,7 +38868,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The Unitree Go2 represents a new creature of embodied AI, designed to enhance user experience through intelligent interactions."
+          "The Unitree Go2 represents a new creature of embodied AI, designed for advanced service functionalities."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -38493,28 +38876,40 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree — Go2 AIR / PRO / X / EDU manufacturer specification table",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/go2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Unitree Robotics — linked company evidence",
             "url": "https://unitree.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/go2/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Unitree Robotics documents the Go2 intelligent quadruped robot equipped with 4D LiDAR. Catalog model unitree-go2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Unitree Robotics documents the Go2 intelligent quadruped robot equipped with 4D LiDAR. Catalog model unitree-go2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The Unitree Go2 represents a new creature of embodied AI, designed to enhance user experience through intelligent interactions.",
+        "claim": "The Unitree Go2 represents a new creature of embodied AI, designed for advanced service functionalities.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://unitree.com",
+        "finalUrl": "https://www.unitree.com/",
+        "checkedAt": "2026-11-05T13:21:16.827697+00:00",
+        "status": 200,
+        "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
+        "bodyBytes": 70025,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38571,28 +38966,40 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree — Go2 AIR / PRO / X / EDU manufacturer specification table",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/go2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Robotics Center of Silicon Valley — linked company evidence",
             "url": "https://www.roboticscenter.ai",
             "checkedAt": "2026-11-05",
             "bodySha256": "b6a1c82c4012bddfe1da4281bd543c1ca2b83d36abc722baad7a000aab7f5ab0",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Robotics Center of Silicon Valley",
-            "url": "https://www.unitree.com/go2/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Robotics Center of Silicon Valley distributes the Unitree Go2 quadruped robot. Catalog model unitree-go2 represents the underlying hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Robotics Center of Silicon Valley distributes the Unitree Go2 quadruped robot. Catalog model unitree-go2 represents the underlying hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
         "claim": "A robust quadruped robot designed for agility and stability in various environments.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://www.roboticscenter.ai",
+        "finalUrl": "https://www.roboticscenter.ai/",
+        "checkedAt": "2026-11-05T13:21:18.006720+00:00",
+        "status": 200,
+        "bodySha256": "b6a1c82c4012bddfe1da4281bd543c1ca2b83d36abc722baad7a000aab7f5ab0",
+        "bodyBytes": 270576,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38641,7 +39048,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The Unitree Go2-W is a versatile robot designed for driving efficiency, adapting to various terrains with ease."
+          "The Unitree Go2-W is a versatile robot designed for driving across all terrains, ideal for delivery tasks."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -38649,28 +39056,40 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/go2-w/",
+            "checkedAt": "2026-11-01"
+          },
+          {
             "name": "Unitree Robotics — linked company evidence",
             "url": "https://unitree.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/go2-w/",
-            "checkedAt": "2026-11-01",
-            "type": "manufacturer"
           }
         ],
-        "note": "Unitree Robotics documents Go2-W as a wheeled quadruped combining legs with wheels for versatile mobility. Catalog model unitree-go2-w represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Unitree Robotics documents Go2-W as a wheeled quadruped combining legs with wheels for versatile mobility. Catalog model unitree-go2-w represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The Unitree Go2-W is a versatile robot designed for driving efficiency, adapting to various terrains with ease.",
+        "claim": "The Unitree Go2-W is a versatile robot designed for driving across all terrains, ideal for delivery tasks.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://unitree.com",
+        "finalUrl": "https://www.unitree.com/",
+        "checkedAt": "2026-11-05T13:21:16.827697+00:00",
+        "status": 200,
+        "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
+        "bodyBytes": 70025,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38719,7 +39138,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The Unitree H2 features a design focused on destiny awakening, ideal for various applications."
+          "The Unitree H2 features a design focused on destiny awakening, offering advanced humanoid functionalities for interaction and research purposes."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -38727,28 +39146,40 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree H2 manufacturer specifications",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/H2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Unitree Robotics — linked company evidence",
             "url": "https://unitree.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/H2/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Unitree Robotics documents the H2 full-sized humanoid robot. Catalog model unitree-h2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Unitree Robotics documents the H2 full-sized humanoid robot. Catalog model unitree-h2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The Unitree H2 features a design focused on destiny awakening, ideal for various applications.",
+        "claim": "The Unitree H2 features a design focused on destiny awakening, offering advanced humanoid functionalities for interaction and research purposes.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://unitree.com",
+        "finalUrl": "https://www.unitree.com/",
+        "checkedAt": "2026-11-05T13:21:16.827697+00:00",
+        "status": 200,
+        "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
+        "bodyBytes": 70025,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38797,7 +39228,7 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "The Unitree R1 is an ultra-lightweight robot ideal for educational and research tasks."
+          "The Unitree R1 is an ultra-lightweight robot ideal for educational purposes, providing innovative learning experiences."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
@@ -38805,28 +39236,40 @@
         ],
         "primarySources": [
           {
+            "name": "Unitree R1 manufacturer specifications",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/R1/",
+            "checkedAt": "2026-11-02"
+          },
+          {
             "name": "Unitree Robotics — linked company evidence",
             "url": "https://unitree.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Unitree Robotics",
-            "url": "https://www.unitree.com/R1/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "Unitree Robotics documents the R1 lightweight bipedal humanoid robot. Catalog model unitree-r1 represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "Unitree Robotics documents the R1 lightweight bipedal humanoid robot. Catalog model unitree-r1 represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "model-reference"
       },
       "savedApiComparison": {
-        "claim": "The Unitree R1 is an ultra-lightweight robot ideal for educational and research tasks.",
+        "claim": "The Unitree R1 is an ultra-lightweight robot ideal for educational purposes, providing innovative learning experiences.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://unitree.com",
+        "finalUrl": "https://www.unitree.com/",
+        "checkedAt": "2026-11-05T13:21:16.827697+00:00",
+        "status": 200,
+        "bodySha256": "f2d11bd852eb047a097a33914c9bab050222330ff5ddae6e51af8e0cc76ea201",
+        "bodyBytes": 70025,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38875,20 +39318,17 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "Unitree Robot is designed for various service applications, enhancing productivity and user experience."
+          "Unitree Robot is designed for various service applications, showcasing advanced robotics technology."
         ],
         "assessment": "directory-conflict-recorded",
-        "catalogIds": [
-          "unitree-go2",
-          "unitree-b2"
-        ],
+        "catalogIds": [],
         "primarySources": [
           {
             "name": "Zhigu Tianchu — linked company evidence",
             "url": "https://eu.36kr.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "069aeb262d3cce2c3f4025b291d5f11719c957ad6d69d81df2ad82c4a8337fe4",
-            "type": "manufacturer",
+            "type": "media",
             "inspection": "Extracted native text only; no visual inspection."
           },
           {
@@ -38904,14 +39344,34 @@
             "type": "manufacturer"
           }
         ],
-        "note": "The directory listing 'Unitree Robot' lists Zhigu Tianchu with company website eu.36kr.com, which is a tech media/news outlet (36Kr) rather than a robot manufacturer or authorized vendor. Catalog models represent the underlying hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "The source is a generic Unitree brand reference attributed to Zhigu Tianchu. Its linked domain eu.36kr.com identifies a news outlet, not the Unitree manufacturer. No named model, Go2/B2 mapping, vendor authorization or manufacturing relationship is established. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "brand-reference-only",
+        "companyScope": {
+          "listingId": "33e09ee8-fb34-4f31-994f-ced2421bc2b3",
+          "name": "Unitree Robot",
+          "company": "Zhigu Tianchu",
+          "companySlug": "zhigu-tianchu",
+          "entryType": "brand",
+          "sourceUrl": "https://buyandrentrobots.com/robot/33e09ee8-fb34-4f31-994f-ced2421bc2b3"
+        }
       },
       "savedApiComparison": {
-        "claim": "Unitree Robot is designed for various service applications, enhancing productivity and user experience.",
+        "claim": "Unitree Robot is designed for various service applications, showcasing advanced robotics technology.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://eu.36kr.com",
+        "finalUrl": "https://eu.36kr.com/",
+        "checkedAt": "2026-11-05T13:21:18.141957+00:00",
+        "status": 200,
+        "bodySha256": "069aeb262d3cce2c3f4025b291d5f11719c957ad6d69d81df2ad82c4a8337fe4",
+        "bodyBytes": 71247,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -38960,43 +39420,73 @@
         "status": "reviewed",
         "reviewedAt": "2026-11-05",
         "directoryClaims": [
-          "These are legged robots designed for mobility in rugged terrains and various operational tasks."
+          "These are legged robots designed for mobility in rugged terrains, ideal for research and development projects."
         ],
         "assessment": "consistent-with-primary-scope",
         "catalogIds": [
           "unitree-go2",
-          "unitree-b2"
+          "unitree-b2",
+          "unitree-a2",
+          "unitree-as2-air",
+          "unitree-as2-pro",
+          "unitree-as2-x",
+          "unitree-as2-edu"
         ],
         "primarySources": [
+          {
+            "name": "Unitree — Go2 AIR / PRO / X / EDU manufacturer specification table",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/go2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Unitree b2 manufacturer specifications",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/b2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Unitree A2 manufacturer specifications",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/A2/",
+            "checkedAt": "2026-11-02"
+          },
+          {
+            "name": "Unitree As2 manufacturer specifications",
+            "type": "manufacturer",
+            "url": "https://www.unitree.com/As2/",
+            "checkedAt": "2026-11-02"
+          },
           {
             "name": "InDro Robotics — linked company evidence",
             "url": "https://indrorobotics.ca",
             "checkedAt": "2026-11-05",
             "bodySha256": "b26dc3068155bd85e63d88a0fc61e15ee2c35f700afc3bff4e3b94bb60640dc3",
-            "type": "manufacturer",
+            "type": "provider",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "InDro Robotics",
-            "url": "https://www.unitree.com/go2/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
-          },
-          {
-            "name": "InDro Robotics",
-            "url": "https://www.unitree.com/b2/",
-            "checkedAt": "2026-11-02",
-            "type": "manufacturer"
           }
         ],
-        "note": "InDro Robotics is a Canadian systems integrator offering commercial deployment and sensor payload integration on Unitree quadruped platforms. Catalog models unitree-go2 and unitree-b2 represent the deployed hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "InDro describes integration of Unitree quadrupeds. The established reference links separately documented Unitree platforms at family level; it does not prove that InDro offers every linked configuration or identify one robot model. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "family-reference",
+        "identityQualification": "This broad source product-range mention resolves to individually documented current quadruped platforms/configurations. It is not one additional robot and does not prove every historical or wheel-legged variant is covered. Existing unsourced variants are not automatically included as verified targets. Ratings, development access and optional sensor/dock equipment remain model-specific."
       },
       "savedApiComparison": {
-        "claim": "These are legged robots designed for mobility in rugged terrains and various operational tasks.",
+        "claim": "These are legged robots designed for mobility in rugged terrains, ideal for research and development projects.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://indrorobotics.ca",
+        "finalUrl": "https://indrorobotics.ca/",
+        "checkedAt": "2026-11-05T13:21:18.193753+00:00",
+        "status": 200,
+        "bodySha256": "b26dc3068155bd85e63d88a0fc61e15ee2c35f700afc3bff4e3b94bb60640dc3",
+        "bodyBytes": 488470,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     },
     {
@@ -39054,76 +39544,89 @@
         ],
         "primarySources": [
           {
+            "name": "Blue Ocean Robotics / UVD Robots — UVD Robots: Leading the Way in Advanced UV Disinfection Technology",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/about",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Blue Ocean Robotics / UVD Robots — UVD Robot | Autonomous UV-C Light Disinfection",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/facilities",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Blue Ocean Robotics / UVD Robots — UVD Robots Features",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/features",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Blue Ocean Robotics / UVD Robots — UVD Robot FAQ | UV-C Disinfection Robot Questions Answered",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/faq",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Blue Ocean Robotics / UVD Robots — UVD Robot Pharma | Cleanroom Disinfection",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/pharma",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Blue Ocean Robotics / UVD Robots — Explore the Features of the UVD Robot Pharma for Disinfection",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/pharma-features",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Blue Ocean Robotics / UVD Robots — UVD Robot Pharma FAQ | UV-C Disinfection for GMP Cleanrooms",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/pharma-faq",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Blue Ocean Robotics / UVD Robots — UVD GMP Validation Package",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/uvd-gmp-validation-package",
+            "checkedAt": "2026-11-03"
+          },
+          {
+            "name": "Blue Ocean Robotics / UVD Robots — Documentation on UV Light - ultraviolet cleaning robots",
+            "type": "manufacturer",
+            "url": "https://uvd.blue-ocean-robotics.com/pharma-documentation",
+            "checkedAt": "2026-11-03"
+          },
+          {
             "name": "Blue Ocean Robotics — linked company evidence",
             "url": "https://uvd.blue-ocean-robotics.com",
             "checkedAt": "2026-11-05",
             "bodySha256": "d84cf83e9eca96bd7beca4c036f59b00ddf812ca5da19550eaaf3e60e7e84f6e",
             "type": "manufacturer",
             "inspection": "Extracted native text only; no visual inspection."
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/about",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/facilities",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/features",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/faq",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/pharma",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/pharma-features",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/pharma-faq",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/uvd-gmp-validation-package",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
-          },
-          {
-            "name": "Blue Ocean Robotics",
-            "url": "https://uvd.blue-ocean-robotics.com/pharma-documentation",
-            "checkedAt": "2026-11-03",
-            "type": "manufacturer"
           }
         ],
-        "note": "Blue Ocean Robotics and UVD Robots document autonomous mobile UV-C disinfection robots for infection control. Catalog models blue-ocean-robotics-uvd-robot-model-c and blue-ocean-robotics-uvd-robot-pharma represent this product line. This content decision does not certify current availability, price, independent performance or exclusive USPs."
+        "note": "The broad UVD name links Model C and Pharma at family level. It identifies neither generation nor a delivered configuration; UV-C disinfection is not floor scrubbing and does not certify treatment results. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability.",
+        "correctionBatch": 215,
+        "catalogMatchScope": "family-reference",
+        "identityQualification": "Manufacturer history names Model C as the third-generation UVD Robot; current product range separately offers UVD Robot and UVD Robot Pharma. Generic UVD Robot title is resolved at family level to the documented entries. This does not identify the source listing generation or transfer Pharma-specific software/validation claims to Model C."
       },
       "savedApiComparison": {
         "claim": "Automate disinfection across various facilities.",
         "identicalToApiSnapshot": true,
         "apiSnapshotSha256": "6038d0807d3686535f06cdde03cef8c17096152a89b3b46da24308285f84b396",
         "apiSnapshotAt": "2026-11-01T17:58:29Z",
-        "scope": "Exact normalized description comparison only; an unchanged directory claim is not independent product evidence."
+        "scope": "Exact normalized source description only; not independent verification of its assertions."
+      },
+      "sourceLinkObservation": {
+        "url": "https://uvd.blue-ocean-robotics.com",
+        "finalUrl": "https://uvd.blue-ocean-robotics.com/",
+        "checkedAt": "2026-11-05T13:21:18.301353+00:00",
+        "status": 200,
+        "bodySha256": "d84cf83e9eca96bd7beca4c036f59b00ddf812ca5da19550eaaf3e60e7e84f6e",
+        "bodyBytes": 95502,
+        "error": null,
+        "scope": "Observation of the linked company domain; HTTP 200 alone is not usable manufacturer evidence."
       }
     }
   ],
