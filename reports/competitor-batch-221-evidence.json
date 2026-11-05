@@ -1,0 +1,192 @@
+{
+  "batch": 221,
+  "checkedAt": "2026-11-05",
+  "baselineCommit": "1f63ee95e49ff54804682dc1b2aca702241b12df",
+  "dataCommit": "fd8f3cca0348c56082057a22e9cc2d94e8d03302",
+  "dataPushVerified": true,
+  "catalogModels": 2382,
+  "newModels": 2,
+  "newModelIdentities": [
+    "dji-mavic-3",
+    "moon-surgical-maestro"
+  ],
+  "sourceDetailContentCoverage": {
+    "inventoryListings": 862,
+    "attemptedListings": 862,
+    "unattemptedListings": 0,
+    "matchedIdentityResponses": 862,
+    "reviewedDetailContents": 833,
+    "remainingDetailContentReviews": 29,
+    "pendingPrimaryFollowUps": 47,
+    "directoryConflicts": 63,
+    "reviewedNonModelListings": 435,
+    "staleInventoryReferences": 0,
+    "trackedAttempts": 862,
+    "scope": "Per-URL visible detail content and explicit decisions. HTTP success and automatic parsing are not content review. Directory claims are not exclusive USPs or manufacturer-verified specifications; primary-source dates remain separate."
+  },
+  "ledgerSha256": "3ffd2b485c3f4071368702e701f8fbdbdf0876704967e3b7a31e6f9ca6050c48",
+  "primaryResponses": [
+    {
+      "id": 1,
+      "name": "Moon Surgical Maestro",
+      "url": "https://moonsurgical.com/maestro-system",
+      "finalUrl": "https://moonsurgical.com/maestro-system",
+      "status": 200,
+      "checkedAt": "2026-11-05T14:09:04.656694+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "177e2b1fdb866c0d8d6755b09adfea7f4c85687f859369a1214979d7c4a618fb",
+      "textFile": "source-1-main.txt",
+      "contentType": "text/html; charset=UTF-8",
+      "inspection": "Extracted native text only; no visual inspection, OCR or media reuse."
+    },
+    {
+      "id": 2,
+      "name": "DJI original Mavic 3 support specifications",
+      "url": "https://www.dji.com/support/product/mavic-3",
+      "finalUrl": "https://www.dji.com/de/support/product/mavic-3",
+      "status": 200,
+      "checkedAt": "2026-11-05T14:09:04.657338+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "91f3919cc39a726fbe880d08b760548b253dce291c65e2cad602f3ce76156053",
+      "textFile": "source-2-main.txt",
+      "contentType": "text/html;charset=utf-8",
+      "inspection": "Extracted native text only; no visual inspection, OCR or media reuse."
+    }
+  ],
+  "decisions": [
+    {
+      "listingId": "bf4afa34-1728-45ae-b053-35fbd43c3418",
+      "name": "Maestro®",
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "moon-surgical-maestro"
+      ],
+      "note": "Moon Surgical's current page identifies Maestro as a real surgical-assistance platform with ScoPilot scope control and gravity-defying arm support for standard 5 mm/10 mm instruments. Mapped to catalog model moon-surgical-maestro; the registered trademark is not a separate hardware model."
+    },
+    {
+      "listingId": "364c8ed0-d63d-4ef5-b833-36fb8e373924",
+      "name": "Maestro™",
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "moon-surgical-maestro"
+      ],
+      "note": "The Maestro trademark spelling refers to the same Moon Surgical surgical-assistance platform. Mapped to catalog model moon-surgical-maestro; no duplicate robot or separate clinical indication is inferred."
+    },
+    {
+      "listingId": "1c606ff6-1397-4216-b3b6-bd0919fa86a2",
+      "name": "Maestro™",
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "moon-surgical-maestro"
+      ],
+      "note": "This third Maestro source URL repeats the trademark spelling. Mapped to catalog model moon-surgical-maestro; the redundant listing does not represent an additional surgical robot."
+    },
+    {
+      "listingId": "5bb5f72b-fb7f-4719-a546-22f85603eff0",
+      "name": "MAVIC 3",
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "dji-mavic-3"
+      ],
+      "note": "MAVIC 3 is a named DJI camera drone platform mislabeled as non-product in the source directory. Primary specifications confirmed from manufacturer support records; cataloged under dji-mavic-3 with standard 895 g takeoff mass, Hasselblad dual camera, and 46 min flight endurance, distinct from Mavic 3 Pro models."
+    },
+    {
+      "listingId": "e6ac28a5-ce1f-400c-b520-5b623babce36",
+      "name": "MAVIC 3",
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "dji-mavic-3"
+      ],
+      "note": "This second MAVIC 3 URL references the same base DJI Mavic 3 platform. Mapped to catalog model dji-mavic-3; the duplicated listing does not create an additional airframe or variant."
+    }
+  ],
+  "validation": {
+    "unitTests": 820,
+    "unitFiles": 65,
+    "pythonTests": 27,
+    "dataErrors": 0,
+    "dataWarnings": 1254,
+    "evidence": {
+      "checksPassed": 5,
+      "checks": [
+        {
+          "listingId": "bf4afa34-1728-45ae-b053-35fbd43c3418",
+          "name": "Maestro®",
+          "status": "reviewed",
+          "assessment": "consistent-with-primary-scope",
+          "bodyAndContentVerified": true,
+          "apiClaimVerified": true
+        },
+        {
+          "listingId": "364c8ed0-d63d-4ef5-b833-36fb8e373924",
+          "name": "Maestro™",
+          "status": "reviewed",
+          "assessment": "consistent-with-primary-scope",
+          "bodyAndContentVerified": true,
+          "apiClaimVerified": true
+        },
+        {
+          "listingId": "1c606ff6-1397-4216-b3b6-bd0919fa86a2",
+          "name": "Maestro™",
+          "status": "reviewed",
+          "assessment": "consistent-with-primary-scope",
+          "bodyAndContentVerified": true,
+          "apiClaimVerified": true
+        },
+        {
+          "listingId": "5bb5f72b-fb7f-4719-a546-22f85603eff0",
+          "name": "MAVIC 3",
+          "status": "reviewed",
+          "assessment": "consistent-with-primary-scope",
+          "bodyAndContentVerified": true,
+          "apiClaimVerified": true
+        },
+        {
+          "listingId": "e6ac28a5-ce1f-400c-b520-5b623babce36",
+          "name": "MAVIC 3",
+          "status": "reviewed",
+          "assessment": "consistent-with-primary-scope",
+          "bodyAndContentVerified": true,
+          "apiClaimVerified": true
+        }
+      ]
+    },
+    "offlineReplay": {
+      "allChecksPassed": true,
+      "networkRequests": 0,
+      "offlineReplayedResponses": 5,
+      "priorAttemptsPreserved": true,
+      "unchangedContentRetainsReview": true,
+      "pendingDecisionsRemainPending": true,
+      "productionLedgerByteIdentical": true
+    },
+    "reimport": {
+      "allChecksPassed": true,
+      "reimportTrackedDataFilesByteIdentical": 33,
+      "reimportAdditions": 0,
+      "offlineResearchRefreshSemanticallyIdempotent": true
+    },
+    "resources": {
+      "trackedOwnTestProcesses": 285,
+      "ownLiveTestProcesses": [],
+      "ownLiveTaggedProcesses": [],
+      "researchBrowsersOpened": 0,
+      "ownLiveResearchBrowserProcesses": [],
+      "ownLiveResearchHelpers": [],
+      "testServerPort4321Open": false,
+      "otherTasksResourcesPreserved": true
+    }
+  },
+  "goalComplete": false,
+  "limitations": [
+    "Inventory snapshot remains November 1, 2026.",
+    "29 content decisions remain pending across the full ledger; errors, empty pages, soft 404s and parked domains are not primary evidence.",
+    "Existing exact/family references do not independently establish current provider stock or every delivered configuration.",
+    "Manufacturer and directory statements do not establish independent performance, exclusive USPs or market leadership."
+  ]
+}
