@@ -143,7 +143,7 @@ See [the competitor audit](reports/competitor-audit-2026-11-01.md) for coverage,
 limitations, differentiation and the remaining review queue.
 
 As of 2026-11-04, all source company names are represented in 591 competitor
-groups. The catalog contains 2,380 model/configuration entries and 1,477 dated primary-source highlight
+groups. The catalog contains 2,380 model/configuration entries and 1,484 dated primary-source highlight
 records. All originally unclear listings have recorded resolutions or scoped classifications;
 no model or listing identity remains unresolved in the saved competitor queue.
 Of the 430 catalog models matched to named source mentions, all 430 have
@@ -1402,20 +1402,20 @@ variants remain outside this selected review.
 
 The model-review CSV includes separate primary highlights, evidence URLs, dates and
 complete/partial/missing/unmapped statuses. Selected specification reviews cover
-27,370 fields across 1461 models, distinguishing documented, undisclosed, conflicting and
+27,495 fields across 1468 models, distinguishing documented, undisclosed, conflicting and
 roadmap values. Field sources appear on product pages, including reviewed launch years; the review export includes
 those values and evidence. Unmarked fields remain unverified.
 The model comparison now includes every available reviewed highlight, dated primary
 sources and publisher roles, plus field-level review statuses and qualifications.
 Release years now keep their review status. Empty conflicting or roadmap values
 also retain their source links and qualifications in the comparison.
-A separate 7,118 kB JSON response loads only for search or comparison;
+A separate 7,141 kB JSON response loads only for search or comparison;
 evidence stays separate from the shared catalog data script. Search and comparison share the same
 on-demand request and page-session cache. Missing reviews and failed source loads
 have distinct messages, with retry and model-page links available. Conflicting
 values stay qualified beside the numeric cells. English labels are available as
 fallback for all 28 UI languages; German labels are localized.
-Catalog search now includes all 6,860 reviewed highlight statements as well as
+Catalog search now includes all 6,895 reviewed highlight statements as well as
 names, descriptions and tags. Highlight-only matches show the entire matching
 statement and link to the model's highlight/source section. Full manufacturer/model
 names and case/accent/whitespace/dash normalization improve lookup without changing
@@ -1904,7 +1904,7 @@ Xiaomi's Robot Vacuum S10+, E10, E5 and Robot Vacuum 5 now have selected field r
 
 The Dreame Matrix10 Pro and X60 Ultra have selected field reviews. The Aqua10 Ultra Roller Complete identity is unresolved: its linked page names the standard Aqua10 Ultra Roller, so its standard-model offer and specifications are not inherited. The W10 Pro metric and imperial first dimensions conflict (334 mm versus 13.74 in, approximately 349 mm); both are qualified in its review. Batch 193 supersedes the corresponding batch 192 assumptions.
 
-Roborock Qrevo Master and Qrevo Pro now have exact-model overview reviews; the Master shop redirect to Qrevo S5V is excluded. Q8 Max+ now has 5,200 mAh, 350 x 353 x 96.5 mm and up to 240 minutes in Quiet mode on hard floors, with its TT shop offer left unresolved. The Q5 Max+ compatible tank and mop are sold separately; its earlier mass and price retain their November 3, 2026 source date. See [batch 193 evidence](reports/competitor-batch-193-evidence.json) for corrections and rejected sources. There are still 919 catalog rows without selected-field reviews; neither the saved-inventory coverage nor manufacturer claims establish full market coverage or leadership.
+Roborock Qrevo Master and Qrevo Pro now have exact-model overview reviews; the Master shop redirect to Qrevo S5V is excluded. Q8 Max+ now has 5,200 mAh, 350 x 353 x 96.5 mm and up to 240 minutes in Quiet mode on hard floors, with its TT shop offer left unresolved. The Q5 Max+ compatible tank and mop are sold separately; its earlier mass and price retain their November 3, 2026 source date. See [batch 193 evidence](reports/competitor-batch-193-evidence.json) for corrections and rejected sources. There are still 912 catalog rows without selected-field reviews; neither the saved-inventory coverage nor manufacturer claims establish full market coverage or leadership.
 
 Roborock S5 Max, S7, Q7 Max, Qrevo Curv 2 Flow and Qrevo Edge 3 Pro now have selected field reviews. S5 Max and S7 three-hour runtimes retain Quiet-mode and no-mop test conditions. Suction pressure is removed from travel-speed fields. The standard S7 and Q7 Max do not inherit included auto-empty docks from plus bundles; Q7 Max also does not inherit plus-model tank or battery figures. Its listed 159.99 USD offer is marked sold out. The Curv 2 Flow 270 mm roller width and Edge 3 Pro physical dimensions are kept separate from whole-machine coverage and low-clearance claims. Redirected model pages, missing translations and failed responses remain excluded. See [batch 194 evidence](reports/competitor-batch-194-evidence.json).
 
@@ -1917,3 +1917,5 @@ HOBOT S7 Pro, HOBOT-SP10, HOBOT-2S, HOBOT-R3 and HOBOT-388 now have selected fie
 ECOVACS DEEBOT mini, GOAT G1, GOAT G1-800, GOAT O500 Panorama, GOAT A1600 RTK and GOAT O800 RTK now have selected field reviews. Station dimensions (38.5 cm OMNI height; 706 x 430 x 327 mm GOAT station) and 32 V platform voltage are kept distinct from robot dimensions and battery capacity. Blade speeds (3,000 rpm) and daily coverage (600 m2/day) are not recorded as travel speeds. See [batch 200 evidence](reports/competitor-batch-200-evidence.json).
 
 Dreame D10s Plus, L10 Pro, Roboticmower A1 Pro and A2 plus Roborock QV 35S and RockMow Z1 now have selected field reviews. Station dimensions (403 x 403 x 483 mm on D10s Plus; 778 x 490 x 309 mm on Dreame mowers) are kept distinct from robot dimensions, and the 4 L station tank is not recorded as robot water-tank capacity. Retail box size and weight are not robot dimensions, and mop-pad rotation (180-200 rpm) and 24-hour mowing claims are not recorded as travel speed or hourly rates. See [batch 201 evidence](reports/competitor-batch-201-evidence.json).
+
+Eureka J15 Max Ultra and J12 Ultra, Segway Navimow i110N, H210 and i2 LiDAR (i215), Worx WR206E and Shark RV2820ZE now have selected field reviews. Conflicting suction values, future OTA features, optional accessories and runtime test conditions are retained. i105 comparison specifications and H220 daily efficiency are not inherited by other variants. Combined robot/station specifications remain distinct from robot-only fields. See [batch 202 evidence](reports/competitor-batch-202-evidence.json).
