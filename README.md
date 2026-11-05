@@ -157,6 +157,18 @@ model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
+Detail-page content has a separate per-URL ledger in
+`data/competitors/detail-content-reviews.json`. As of 2026-11-05, 30 of the 862
+saved listing URLs have explicit content decisions; 832 are not yet covered by
+this ledger. The older 684-outstanding scalar is superseded because it was not
+supported by a complete URL decision list. This count is separate from catalog
+field reviews and does not discount earlier investigations awaiting reconciliation.
+Two directory claims are qualified (A011 payload and Pixel description); A700
+still needs exact primary product evidence. See [batch 203 evidence](reports/competitor-batch-203-evidence.json).
+Run `python3 scripts/collect-buyandrent-details.py --limit 25` to collect the next
+unattempted detail pages with two-second spacing. Parsing leaves each content
+review pending until an explicit dated decision is recorded; HTTP 429 stops the run.
+
 The heuristic gap file now compares all 2,380 rows using same-brand matches only.
 Its 113 model and eleven brand candidates are search hints, including already
 reviewed aliases, components and services; the strict unresolved counts are zero
