@@ -1,0 +1,528 @@
+{
+  "batch": 215,
+  "checkedAt": "2026-11-05",
+  "purpose": "Correct source fidelity and identity scope of batch 214; historical batch 214 claims are superseded by this correction.",
+  "previousGoalTurnAssessment": "progress",
+  "baselineCommit": "9e5bd04f227f6fb9dd57eed59db6a789d5e0455e",
+  "dataCommit": "e2701399be7c423dcab54da8c1db146fe733089e",
+  "dataPushVerified": true,
+  "correctedExactApiClaims": 25,
+  "reviewedListingsReconciled": 40,
+  "newDetailPages": 0,
+  "catalogModels": 2380,
+  "newModels": 0,
+  "sourceDetailContentCoverage": {
+    "inventoryListings": 862,
+    "attemptedListings": 470,
+    "unattemptedListings": 392,
+    "matchedIdentityResponses": 470,
+    "reviewedDetailContents": 466,
+    "remainingDetailContentReviews": 396,
+    "pendingPrimaryFollowUps": 38,
+    "directoryConflicts": 41,
+    "reviewedNonModelListings": 195,
+    "staleInventoryReferences": 0,
+    "trackedAttempts": 470,
+    "scope": "Per-URL visible detail content and explicit decisions. HTTP success and automatic parsing are not content review. Directory claims are not exclusive USPs or manufacturer-verified specifications; primary-source dates remain separate."
+  },
+  "ledgerSha256": "d012c96755ed16367c98b5dad55a3a7118c8a43f3541c6d211553b78066a7acb",
+  "primaryResponses": [
+    {
+      "id": 1,
+      "name": "temi / Robotemi",
+      "url": "https://www.robotemi.com/product/temi/",
+      "finalUrl": "https://www.robotemi.com/product/temi/",
+      "status": 200,
+      "checkedAt": "2026-11-05T13:40:52.286121+00:00",
+      "bodyFile": "source-1.html",
+      "bodySha256": "d096f0efb8ead9b6682ad571c651854c21ceb9c04e28026afb58660efde36e3f",
+      "textFile": "source-1-main.txt",
+      "contentType": "text/html; charset=UTF-8",
+      "inspection": "Extracted native text only; no visual inspection, OCR or media reuse."
+    },
+    {
+      "id": 2,
+      "name": "Quantum Systems",
+      "url": "https://quantum-systems.com/twister/",
+      "finalUrl": "https://quantum-systems.com/twister/",
+      "status": 200,
+      "checkedAt": "2026-11-05T13:40:52.286758+00:00",
+      "bodyFile": "source-2.html",
+      "bodySha256": "5a196c64d1a17ec65ec4c998d0233fbf653e499c9d4a5d6da543b0aaa2a9fe62",
+      "textFile": "source-2-main.txt",
+      "contentType": "text/html; charset=UTF-8",
+      "inspection": "Extracted native text only; no visual inspection, OCR or media reuse."
+    },
+    {
+      "id": 3,
+      "name": "UFACTORY",
+      "url": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+      "finalUrl": "https://www.ufactory.cc/en-us/products/ufactory-xarm-series",
+      "status": 200,
+      "checkedAt": "2026-11-05T13:40:52.292653+00:00",
+      "bodyFile": "source-3.html",
+      "bodySha256": "d81adb5c09e7d4f8e94003dc395629fb1acb1fd1376647df0ad1215d7d6401c9",
+      "textFile": "source-3-main.txt",
+      "contentType": "text/html; charset=UTF-8",
+      "inspection": "Extracted native text only; no visual inspection, OCR or media reuse."
+    },
+    {
+      "id": 4,
+      "name": "ROEQ",
+      "url": "https://roeq.dk/solutions/products-for-mir200/",
+      "finalUrl": "https://roeq.dk/solutions/products-for-mir200/",
+      "status": 200,
+      "checkedAt": "2026-11-05T13:40:52.294161+00:00",
+      "bodyFile": "source-4.html",
+      "bodySha256": "74a25ef8f7bf91637a1aa0748ca1098344a9472e3e612609c9d832f6dfef41eb",
+      "textFile": "source-4-main.txt",
+      "contentType": "text/html; charset=UTF-8",
+      "inspection": "Extracted native text only; no visual inspection, OCR or media reuse."
+    }
+  ],
+  "changes": [
+    {
+      "listingId": "d9e9c99f-7097-4632-a753-0e9d1fc6ca16",
+      "name": "SOTO",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "magazino-soto"
+      ],
+      "note": "Magazino documents SOTO for KLT transfer between warehouse and production. Configurable 8–24-tote capacity, per-tote load limits and total payload remain separate; around-the-clock language is not continuous battery endurance. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "c1455915-b363-4243-aead-7a7e5454c4fe",
+      "name": "SOTR-M",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "daifuku-sotr-m"
+      ],
+      "note": "Daifuku documents the SOTR-M sorting transfer robot. Catalog model daifuku-sotr-m corresponds to manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "f7efe2f0-ae52-45ba-8e6a-78e10681c8e6",
+      "name": "Sparky",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "Event-Robot.com provides Sparky as an event engagement and rental entertainment robot service. Recorded under service classification without catalog robot assignment. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "69b98b98-f8f8-403a-a974-56f0703d3c03",
+      "name": "Starship Robot",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "starship-technologies-starship-robot"
+      ],
+      "note": "Starship Technologies documents the Starship autonomous sidewalk delivery robot. Catalog model starship-technologies-starship-robot covers this delivery robot. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "5490c042-b017-476d-8285-d184a7cd8510",
+      "name": "StockBot",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "pal-robotics-stockbot"
+      ],
+      "note": "PAL Robotics documents StockBot as an autonomous retail inventory tracking robot combining RFID and vision. Catalog model pal-robotics-stockbot matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "643bc9ae-ed66-443a-a043-6f83ce846fa1",
+      "name": "Symbotic Robot",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "The directory listing title 'Symbotic Robot' is a corporate placeholder for symbotic.com's automated supply-chain warehouse platform, not a discrete mobile robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "85b1e62d-6e5f-4d50-9c8e-4133279a310b",
+      "name": "T3",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "aethon-t3"
+      ],
+      "note": "Aethon Medical Robots documents the T3 autonomous hospital delivery robot. Catalog model aethon-t3 represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "1301d545-2e22-4fe3-9439-dff7c79e1236",
+      "name": "Tally RFID",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "simbe-robotics-tally-rfid"
+      ],
+      "note": "Simbe Robotics documents Tally RFID as an autonomous shelf-auditing and RFID inventory robot. Catalog model simbe-robotics-tally-rfid matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "ffa21ff1-b0c7-48d1-a0fe-bab451d29cae",
+      "name": "Technik spielend begreifen",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "The directory listing title 'Technik spielend begreifen' is fischertechnik's educational brand slogan on fischertechnik.de, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "28297568-3f89-49ad-b557-61dde5402271",
+      "name": "Technology & Automation of Online Grocery and Beyond",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "The directory listing title 'Technology & Automation of Online Grocery and Beyond' is an Ocado Group corporate marketing header on ocadogroup.com, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "4cd09098-811c-4121-bdb5-f18c8413cffd",
+      "name": "Temi Robot",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "robotemi-temi-v3"
+      ],
+      "note": "360 Bright Media explicitly offers Temi Robot for event bookings. The established family reference points to the separately documented Robotemi temi V3; the service offer does not identify the generation of a supplied unit or establish manufacture by 360 Bright Media. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "d2f7f691-8aeb-4f3e-8bf5-d115c1886804",
+      "name": "Temi V3",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "directory-conflict-recorded",
+      "catalogIds": [
+        "robotemi-temi-v3"
+      ],
+      "note": "The linked temi.com domain redirects to a transcription service at /try-rev; it is not usable robot manufacturer evidence. The robotemi.com manufacturer pages document temi V3. Navigation/video-call functions remain manufacturer statements; the source link is recorded as a domain conflict. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "3b532e55-913d-4014-9c55-bbf8f8fd4d6a",
+      "name": "The Autonomous Delivery Network",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "The directory listing title 'The Autonomous Delivery Network' is Matternet's drone delivery platform tagline on mttr.net, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "258edb70-706e-46e7-8c24-99e27081553f",
+      "name": "The Future isPhysical",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "The directory listing title 'The Future isPhysical' is Dexterity's corporate marketing slogan on dexterity.ai, not an individual robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "e63a9235-1b1a-4846-8684-b9567d7f9d73",
+      "name": "The future of home help is here",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "The directory listing title 'The future of home help is here' is Figure's promotional headline on figure.ai, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "1c356d95-c6a5-469d-b364-61b9fa14fcfd",
+      "name": "The Showbots",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "Altus Entertainment provides The Showbots as live performance and entertainment booking services with costumed characters and animatronic props, not manufactured autonomous robot hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "360b5efb-2756-431b-ae08-f79fc8626404",
+      "name": "Titan",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "richtech-robotics-titan"
+      ],
+      "note": "Richtech Robotics documents Titan as an autonomous transport and material-handling robot. Catalog model richtech-robotics-titan matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "1e05e939-ea57-4489-8fe5-e1285c01c6e7",
+      "name": "TMC300",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "ROEQ documents a cart-locking top module for compatible MiR mobile robots. TMC300 is not a conveyor or a complete autonomous robot; the host robot and cart are separate. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "a0a8a763-e71c-42da-8e95-76d4ebedc662",
+      "name": "Top Logistics and Shipping Company Near Me",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "directory-conflict-recorded",
+      "catalogIds": [],
+      "note": "The directory listing 'Top Logistics and Shipping Company Near Me' links to a freight logistics blog article on ttidelivers.com, misrepresenting a third-party editorial publication as a robot manufacturer and model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "cf95daae-2789-42e9-a8af-448b043560f2",
+      "name": "Tortoise Starts",
+      "exactClaimCorrected": false,
+      "status": "pending",
+      "assessment": null,
+      "catalogIds": null,
+      "note": "Linked tortoise.dev returned an empty body. A successful HTTP status does not support the former teleoperated-cart interpretation; usable primary content is still required."
+    },
+    {
+      "listingId": "2672f165-d2df-49f3-bcc9-8529a024d164",
+      "name": "TORU",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "magazino-toru"
+      ],
+      "note": "Magazino documents TORU as an autonomous mobile robot for shoe box and carton picking. Catalog model magazino-toru represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "fec0fd20-c904-4646-af04-94d91b605346",
+      "name": "Trakr",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "Manufacturer Trakr documentation confirms Trakr is an onboard UAS tracking transmitter/device within a monitoring ecosystem, not an autonomous mobile robot. Retained under component classification. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "9c6efdcc-1911-46a6-bbec-758fbe945aab",
+      "name": "Trossen Robotics Robot",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [],
+      "note": "The directory listing title 'Trossen Robotics Robot' is a placeholder entry on trossenrobotics.com for Trossen's research manipulator and mobile platform business, not a discrete robot model. Recorded under company scope. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "84fd04aa-05b9-4215-bb60-38d5df47ff8b",
+      "name": "TUG",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "aethon-t3"
+      ],
+      "note": "Aethon explicitly documents hospital TUG T3 robots. The generic TUG listing is a family reference to T3, not exact identity with the historical T2 TUG. Do not transfer successor or predecessor specifications. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "caa1f623-fa3d-4028-8fbb-778a0a2cc01c",
+      "name": "TurtleBot 4",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "clearpath-robotics-turtlebot-4"
+      ],
+      "note": "Clearpath Robotics documents TurtleBot 4 as an open-source ROS 2 educational mobile robotics platform built on iRobot Create 3. Catalog model clearpath-robotics-turtlebot-4 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "2882f73f-74b6-4f2e-a1f9-aca7b6320797",
+      "name": "Twister",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "directory-conflict-recorded",
+      "catalogIds": [
+        "quantum-systems-twister"
+      ],
+      "note": "The directory describes urban goods delivery, whereas Quantum Systems documents Twister as an ISR reconnaissance UAS. Its 90-minute flight endurance and surveillance payload context do not substantiate parcel transport. Retain the named aircraft identity and record the application conflict. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "12ec9729-cae7-4f07-b5da-a12ae7c5cc83",
+      "name": "UFactory xArm",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "directory-conflict-recorded",
+      "catalogIds": [
+        "ufactory-xarm-5",
+        "ufactory-xarm-6",
+        "ufactory-xarm-7"
+      ],
+      "note": "UFACTORY documents the xArm family with 5-, 6- and 7-axis variants. The source assigns it to OrionStar Robotics; retain the manufacturer attribution conflict and the family relationship. The timed-out source-company probe is not product evidence. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "c7168b7c-57f8-47d2-b183-3d2d05244c37",
+      "name": "Unitree A2",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-a2"
+      ],
+      "note": "Unitree A2 is a legged quadruped. A2-W is a separately named wheeled configuration; no wheels are inferred for A2. Manufacturer load/sensor statements do not verify the directory entertainment positioning. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "a1aec1e7-bba9-4b9d-b187-ca42aa29f630",
+      "name": "Unitree As2",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-as2-air",
+        "unitree-as2-pro",
+        "unitree-as2-x",
+        "unitree-as2-edu"
+      ],
+      "note": "Unitree Robotics documents the As2 quadruped platform series (AIR, PRO, X, EDU). Catalog models represent these configurations. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "d1353598-48f4-4c80-8ac9-58373ee509ce",
+      "name": "Unitree B2",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-b2"
+      ],
+      "note": "Unitree Robotics documents B2 as an industrial heavy-duty quadruped robot for all-terrain inspection. Catalog model unitree-b2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "2963e02f-96a4-4f9c-af8e-2aec0793e190",
+      "name": "Unitree G1",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-g1"
+      ],
+      "note": "Unitree Robotics documents the G1 humanoid agent for dynamic locomotion and manipulation. Catalog model unitree-g1 represents this humanoid robot. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "4b372f6e-2dae-4749-ad80-104eeaa3e474",
+      "name": "Unitree G1",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-g1"
+      ],
+      "note": "Robotics Center of Silicon Valley distributes the Unitree G1 humanoid robot. Catalog model unitree-g1 represents the underlying hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "75351664-585b-4016-9a77-360703d64ae4",
+      "name": "Unitree Go2",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-go2"
+      ],
+      "note": "Unitree Robotics documents the Go2 intelligent quadruped robot equipped with 4D LiDAR. Catalog model unitree-go2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "4260d870-41dd-4ee1-b37e-e01ba2c969ce",
+      "name": "Unitree Go2",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-go2"
+      ],
+      "note": "Robotics Center of Silicon Valley distributes the Unitree Go2 quadruped robot. Catalog model unitree-go2 represents the underlying hardware. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "4328ed85-4143-48d5-952d-27647a959907",
+      "name": "Unitree Go2-W",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-go2-w"
+      ],
+      "note": "Unitree Robotics documents Go2-W as a wheeled quadruped combining legs with wheels for versatile mobility. Catalog model unitree-go2-w represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "59d65ee0-d3df-4dcc-b1f3-13ee37a8b3f1",
+      "name": "Unitree H2",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-h2"
+      ],
+      "note": "Unitree Robotics documents the H2 full-sized humanoid robot. Catalog model unitree-h2 matches manufacturer documentation. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "da0d7d66-11e3-4e13-8b34-fba05c2dbd87",
+      "name": "Unitree R1",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-r1"
+      ],
+      "note": "Unitree Robotics documents the R1 lightweight bipedal humanoid robot. Catalog model unitree-r1 represents this model. This content decision does not certify current availability, price, independent performance or exclusive USPs. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "33e09ee8-fb34-4f31-994f-ced2421bc2b3",
+      "name": "Unitree Robot",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "directory-conflict-recorded",
+      "catalogIds": [],
+      "note": "The source is a generic Unitree brand reference attributed to Zhigu Tianchu. Its linked domain eu.36kr.com identifies a news outlet, not the Unitree manufacturer. No named model, Go2/B2 mapping, vendor authorization or manufacturing relationship is established. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "2822a362-7002-4de0-9815-1cc988d8f36d",
+      "name": "Unitree Robotics quadrupeds",
+      "exactClaimCorrected": true,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "unitree-go2",
+        "unitree-b2",
+        "unitree-a2",
+        "unitree-as2-air",
+        "unitree-as2-pro",
+        "unitree-as2-x",
+        "unitree-as2-edu"
+      ],
+      "note": "InDro describes integration of Unitree quadrupeds. The established reference links separately documented Unitree platforms at family level; it does not prove that InDro offers every linked configuration or identify one robot model. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    },
+    {
+      "listingId": "0f85b56b-ee14-4db9-9345-f2a67f5c75df",
+      "name": "UVD Robot",
+      "exactClaimCorrected": false,
+      "status": "reviewed",
+      "assessment": "consistent-with-primary-scope",
+      "catalogIds": [
+        "blue-ocean-robotics-uvd-robot-model-c",
+        "blue-ocean-robotics-uvd-robot-pharma"
+      ],
+      "note": "The broad UVD name links Model C and Pharma at family level. It identifies neither generation nor a delivered configuration; UV-C disinfection is not floor scrubbing and does not certify treatment results. Directory claims, manufacturer statements and family context do not establish exclusive USPs, independent performance or current availability."
+    }
+  ],
+  "validation": {
+    "unitTests": 820,
+    "unitFiles": 65,
+    "pythonTests": 27,
+    "dataErrors": 0,
+    "dataWarnings": 1252,
+    "sourceHashesVerified": true,
+    "previous430ChecksUnchanged": true,
+    "unrelatedCatalogDataByteIdentical": true,
+    "lintPassed": true
+  },
+  "goalComplete": false,
+  "limitations": [
+    "The snapshot dates remain November 1, 2026.",
+    "No new robot or specification is established by a source-domain response.",
+    "A brand reference with no named model carries no catalog model IDs.",
+    "Empty Tortoise content remains pending; a current transcription-domain redirect is not evidence for a robot.",
+    "Manufacturer claims do not establish exclusive USPs or market leadership."
+  ]
+}
