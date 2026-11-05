@@ -145,7 +145,10 @@ describe('per-URL directory detail content coverage', () => {
       company: row.company,
       kind: 'generic_product_family',
     };
-    const entry = { ...check(), review: { ...decision(), catalogIds: [], listingReview: reference } };
+    const entry = {
+      ...check(),
+      review: { ...decision(), catalogIds: [], listingReview: reference },
+    };
     const summarize = (reviews, inventoryRow = listing) =>
       summarizeDetailContentChecks([inventoryRow], { checks: [entry] }, new Set(), [], reviews);
     expect(summarize([reference]).reviewedNonModelListings).toBe(1);
