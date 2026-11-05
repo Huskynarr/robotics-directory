@@ -37,7 +37,7 @@ export function summarizeDetailContentChecks(
       ['url', 'title', 'company', 'companyLink', 'description', 'uniqueVisibleFields'].every(
         (key) => check.identity.fields?.[key] === true,
       ) &&
-      check.content?.title === row.name &&
+      (check.content?.title === row.name || check.content?.title === row.name.replace(/\s+/g, ' ')) &&
       check.content.company === row.company &&
       check.content.companyPath === `/companies/${row.companySlug}` &&
       /^[a-f0-9]{64}$/.test(check.content.descriptionSha256) &&
