@@ -110,7 +110,7 @@ describe('HWArobotics cargo, individual shuttle and warehouse system scope', () 
   });
   it('connects sourced company focuses to all canonical brand cards', () => {
     for (const [id, count] of [
-      ['dji', 11],
+      ['dji', 12],
       ['hwarobotics', 7],
     ]) {
       const brand = getAllBrands().find((b) => b.id === id);
