@@ -157,14 +157,8 @@ model identities. See `data/competitors/research-queue.json` and
 `data/competitors/robot-research-queue.csv` for source references and manufacturer priorities.
 Run `pnpm research:refresh` after catalog or evidence changes. It refreshes the
 comparison against the saved inventories without replacing their original dates.
-Detail-page content has a separate per-URL ledger in
-`data/competitors/detail-content-reviews.json`. As of 2026-11-05, 30 of the 862
-saved listing URLs have explicit content decisions; 832 are not yet covered by
-this ledger. The older 684-outstanding scalar is superseded because it was not
-supported by a complete URL decision list. This count is separate from catalog
-field reviews and does not discount earlier investigations awaiting reconciliation.
-Two directory claims are qualified (A011 payload and Pixel description); A700
-still needs exact primary product evidence. See [batch 203 evidence](reports/competitor-batch-203-evidence.json).
+Detail-page content has a separate per-URL ledger in `data/competitors/detail-content-reviews.json`. As of 2026-11-05, 70 of the 862 saved listing URLs have been fetched and 67 have explicit content decisions; 795 are not yet covered by current URL decisions, including 792 not yet fetched and three fetched pages left pending for lack of usable primary evidence. The older 684-outstanding scalar is superseded because it was not supported by a complete URL decision list. This count is separate from catalog field reviews and does not discount earlier investigations awaiting reconciliation. AstroRinse is recorded as a dock-versus-robot product-type conflict; A011, Pixel, Aibo and the ADAM provider attributions retain their separate qualifications. See [batch 204 evidence](reports/competitor-batch-204-evidence.json).
+
 Run `python3 scripts/collect-buyandrent-details.py --limit 25` to collect the next
 unattempted detail pages with two-second spacing. Parsing leaves each content
 review pending until an explicit dated decision is recorded; HTTP 429 stops the run.
