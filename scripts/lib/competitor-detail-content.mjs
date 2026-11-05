@@ -1,5 +1,11 @@
 /** Per-listing content coverage stays separate from catalog field evidence. */
-export function summarizeDetailContentChecks(listings, ledger, catalogIds, classifications = []) {
+export function summarizeDetailContentChecks(
+  listings,
+  ledger,
+  catalogIds,
+  classifications = [],
+  listingReviews = [],
+) {
   const inventory = new Map(listings.map((row) => [row.listingId, row]));
   const latest = new Map();
   for (const check of ledger.checks) {
@@ -42,10 +48,32 @@ export function summarizeDetailContentChecks(listings, ledger, catalogIds, class
     if (review?.status !== 'reviewed') continue;
     const classified =
       review.classification &&
+      review.classification.source === 'buyandrentrobots' &&
+      review.classification.model === row.name &&
+      [row.brand, row.company].includes(review.classification.brand) &&
       classifications.some((decision) =>
         ['source', 'brand', 'model', 'kind'].every(
           (key) => decision[key] === review.classification[key],
         ),
+      );
+    const listingReviewed =
+      review.listingReview &&
+      row.entryType === 'unclear' &&
+      !['family-resolution', 'model-resolution'].includes(review.listingReview.kind) &&
+      review.listingReview.listingId === id &&
+      review.listingReview.name === row.name &&
+      review.listingReview.company === row.company &&
+      listingReviews.some((decision) =>
+        ['listingId', 'name', 'company', 'kind'].every(
+          (key) => decision[key] === review.listingReview[key],
+        ),
+      );
+    // Company headings and service offers do not imply a catalog robot identity.
+    const companyScoped =
+      review.companyScope &&
+      ['non_product', 'service'].includes(row.entryType) &&
+      ['listingId', 'name', 'company', 'companySlug', 'entryType', 'sourceUrl'].every(
+        (key) => review.companyScope[key] === row[key],
       );
     if (
       !/^\d{4}-\d{2}-\d{2}$/.test(review.reviewedAt) ||
@@ -54,7 +82,7 @@ export function summarizeDetailContentChecks(listings, ledger, catalogIds, class
       !review.directoryClaims.length ||
       review.directoryClaims.some((claim) => typeof claim !== 'string' || !claim.trim()) ||
       !Array.isArray(review.catalogIds) ||
-      (!review.catalogIds.length && !classified) ||
+      (!review.catalogIds.length && !classified && !listingReviewed && !companyScoped) ||
       review.catalogIds.some((catalogId) => catalogIds && !catalogIds.has(catalogId)) ||
       ![
         'consistent-with-primary-scope',

@@ -281,6 +281,7 @@ const report = {
       : { checks: [] },
     new Set(allRobots.map((robot) => robot.id)),
     read('model-classifications').decisions,
+    read('listing-reviews').reviews,
   ),
   remaining: [...roboticsMentions, ...buyModels].filter(
     (entry) =>

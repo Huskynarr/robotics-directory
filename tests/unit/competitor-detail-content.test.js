@@ -124,6 +124,66 @@ describe('per-URL directory detail content coverage', () => {
     });
   });
 
+  it('binds classification evidence to the reviewed listing identity', () => {
+    const classification = {
+      source: 'buyandrentrobots',
+      brand: 'Another provider',
+      model: 'Another model',
+      kind: 'service',
+    };
+    const entry = { ...check(), review: { ...decision(), catalogIds: [], classification } };
+    expect(() =>
+      summarizeDetailContentChecks([row], { checks: [entry] }, new Set(), [classification]),
+    ).toThrow(/Invalid detail/);
+  });
+
+  it('accepts an existing non-model listing decision only for the same listing and kind', () => {
+    const listing = { ...row, entryType: 'unclear' };
+    const reference = {
+      listingId: row.listingId,
+      name: row.name,
+      company: row.company,
+      kind: 'generic_product_family',
+    };
+    const entry = { ...check(), review: { ...decision(), catalogIds: [], listingReview: reference } };
+    const summarize = (reviews, inventoryRow = listing) =>
+      summarizeDetailContentChecks([inventoryRow], { checks: [entry] }, new Set(), [], reviews);
+    expect(summarize([reference]).reviewedNonModelListings).toBe(1);
+    expect(() => summarize([])).toThrow(/Invalid detail/);
+    for (const key of ['listingId', 'name', 'company', 'kind']) {
+      expect(() => summarize([{ ...reference, [key]: 'unrelated' }])).toThrow(/Invalid detail/);
+    }
+    expect(() => summarize([reference], { ...listing, entryType: 'model' })).toThrow(
+      /Invalid detail/,
+    );
+    const modelReference = { ...reference, kind: 'model-resolution' };
+    entry.review.listingReview = modelReference;
+    expect(() => summarize([modelReference])).toThrow(/Invalid detail/);
+  });
+
+  it('binds company-only decisions to saved non-product or service inventory entries', () => {
+    for (const entryType of ['non_product', 'service']) {
+      const listing = { ...row, entryType };
+      const companyScope = Object.fromEntries(
+        ['listingId', 'name', 'company', 'companySlug', 'entryType', 'sourceUrl'].map((key) => [
+          key,
+          listing[key],
+        ]),
+      );
+      const entry = { ...check(), review: { ...decision(), catalogIds: [], companyScope } };
+      const summarize = () =>
+        summarizeDetailContentChecks([listing], { checks: [entry] }, new Set());
+      expect(summarize().reviewedNonModelListings).toBe(1);
+      for (const key of Object.keys(companyScope)) {
+        entry.review.companyScope = { ...companyScope, [key]: 'unrelated' };
+        expect(summarize).toThrow(/Invalid detail/);
+      }
+      entry.review.companyScope = companyScope;
+      listing.entryType = companyScope.entryType = 'model';
+      expect(summarize).toThrow(/Invalid detail/);
+    }
+  });
+
   it('publishes the ledger-derived coverage while preserving catalog evidence counts', () => {
     const read = (name) => JSON.parse(fs.readFileSync(`data/competitors/${name}.json`, 'utf8'));
     const inventory = read('buyandrentrobots');
@@ -133,6 +193,7 @@ describe('per-URL directory detail content coverage', () => {
       ledger,
       new Set(getAllRobots().allRobots.map((robot) => robot.id)),
       read('model-classifications').decisions,
+      read('listing-reviews').reviews,
     );
     expect(read('coverage').sourceDetailContentCoverage).toEqual(expected);
     expect(read('coverage').specificationEvidenceCoverage.reviewedCatalogModels).toBe(1468);
