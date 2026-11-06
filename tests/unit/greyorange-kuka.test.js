@@ -122,7 +122,7 @@ describe('KUKA named cobot variants and standard-only technical values', () => {
   it('connects canonical company focuses to the verified model inventories', () => {
     for (const [id, count] of [
       ['greyorange', 4],
-      ['kuka', 11],
+      ['kuka', 13],
     ]) {
       const brand = getAllBrands().find((b) => b.id === id);
       expect(brand.robots).toHaveLength(count);

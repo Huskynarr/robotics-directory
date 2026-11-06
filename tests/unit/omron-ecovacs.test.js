@@ -118,7 +118,7 @@ describe('ECOVACS task quantities and consumer model boundaries', () => {
       expect(getPriceValue(r.price)).toBeGreaterThan(400);
       expect(review(r).fields.price.status).toBe('documented');
     }
-    expect(getAllBrands().find((b) => b.id === 'ecovacs').modelCount).toBe(51);
+    expect(getAllBrands().find((b) => b.id === 'ecovacs').modelCount).toBe(55);
     expect(eco('GOAT O1000 LiDAR PRO + Garage')).toBeUndefined();
   });
 });
