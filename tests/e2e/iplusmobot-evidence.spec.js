@@ -175,7 +175,8 @@ test('highlight-only precision qualification remains searchable with source link
 }) => {
   await page.goto('/?category=commercial&q=exact%20column%20lists');
   const cards = page.locator('#robotsGrid .robot-card');
-  await expect(cards).toHaveCount(3);
+  // Three iplusmobot NERA rows plus six Unitree -D/R1 rows whose highlights use the same wording.
+  await expect(cards).toHaveCount(9);
   const link = cards.locator('a[href="/robot/iplusmobot-nera-a12-uf/#product-highlights"]');
   await expect(link).toBeVisible();
   await link.click();

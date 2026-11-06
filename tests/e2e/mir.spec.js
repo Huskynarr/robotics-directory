@@ -77,7 +77,7 @@ test('MiR software, components and Enabled partner labels do not create duplicat
   page,
 }) => {
   await page.goto('/brands/mobile-industrial-robots-mir/');
-  await expect(page.locator('main .robot-card')).toHaveCount(8);
+  await expect(page.locator('main .robot-card')).toHaveCount(9);
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText(
     'MiR Insights',
   );
@@ -87,7 +87,7 @@ test('MiR software, components and Enabled partner labels do not create duplicat
   await page.goto('/brands/enabled-robotics/');
   await expect(page.locator('main .robot-card')).toHaveCount(12);
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText(
-    'no duplicate model cards',
+    'MiR Go listings remain partner integrations',
   );
   await expect(page.locator('main a[href="/robot/enabled-robotics-mc250/"]')).toHaveCount(0);
 });

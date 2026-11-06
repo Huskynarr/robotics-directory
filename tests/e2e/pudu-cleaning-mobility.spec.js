@@ -104,8 +104,9 @@ test('D5 variant steps, battery-inclusive mass and numeric storefront offers sta
     await expect(spec(page, 'chargingTime')).toHaveCount(0);
     const schemas = await page.locator('script[type="application/ld+json"]').allTextContents();
     const product = schemas.map((text) => JSON.parse(text)).find((x) => x['@type'] === 'Product');
-    expect(product.offers.price).toBe(price);
-    expect(product.offers.priceCurrency).toBe('USD');
+    // Storefront prices carry bundle/tax qualifiers, so they stay visible but not as Offers.
+    expect(product.offers).toBeUndefined();
+    await expect(spec(page, 'price')).toHaveAttribute('data-raw-value', new RegExp(`^${price} USD`));
     await expect(highlights(page)).toContainText('SDK/developer support');
   }
 });

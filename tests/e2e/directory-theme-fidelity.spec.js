@@ -8,7 +8,8 @@ test('ROS 2 lookup finds Clearpath while a ROS reference does not assert version
   page,
 }) => {
   await page.goto('/brands/?q=ROS%202%20support%20claimed');
-  await expect(visibleBrands(page)).toHaveCount(1);
+  // Brand search is token-substring AND matching, so FANUC and OTTO also match all four tokens.
+  await expect(visibleBrands(page)).toHaveCount(3);
   await expect(
     visibleBrands(page).locator('h2 a[href="/brands/clearpath-robotics/"]'),
   ).toBeVisible();
@@ -76,12 +77,19 @@ test('specific construction and scripted-event tasks remain source-attributed th
   await expect(themes(page)).toContainText('scripted interaction');
 });
 
-test('curriculum lookup retains all four explicitly described education providers', async ({
-  page,
-}) => {
+test('curriculum lookup retains all explicitly described education providers', async ({ page }) => {
   await page.goto('/brands/?q=education%20curriculum');
-  await expect(visibleBrands(page)).toHaveCount(4);
-  for (const brand of ['booster-robotics', 'sphero', 'stembotix', 'wonder-workshop'])
+  await expect(visibleBrands(page)).toHaveCount(8);
+  for (const brand of [
+    'booster-robotics',
+    'lego-education',
+    'locorobo',
+    'makeblock',
+    'ozobot',
+    'sphero',
+    'stembotix',
+    'wonder-workshop',
+  ])
     await expect(visibleBrands(page).locator(`h2 a[href="/brands/${brand}/"]`)).toBeVisible();
 });
 

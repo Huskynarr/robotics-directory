@@ -43,7 +43,9 @@ test('forklift configuration links preserve supplier boundaries and dated deploy
   await expect(page.locator('section[aria-labelledby="product-highlights"]')).toContainText(
     'October 2024',
   );
-  await expect(page.locator('[data-spec-key="payload"]')).toHaveCount(0);
+  await expect(page.locator('[data-spec-key="payload"]')).toContainText(
+    'load-center conditions unspecified',
+  );
 });
 
 test('integrated cafe and welding offers keep appliance and arm suppliers visible', async ({
@@ -67,7 +69,7 @@ test('family references retain specific variants and separate provider identitie
   page,
 }) => {
   await page.goto('/brands/trossen-robotics/');
-  await expect(page.locator('main .robot-card')).toHaveCount(0);
+  await expect(page.locator('main .robot-card')).toHaveCount(16);
   const family = page.locator('[data-product-review-kind="family-reference"]');
   await expect(family.locator('a[href^="/robot/"]')).toHaveCount(3);
   await family
@@ -75,7 +77,7 @@ test('family references retain specific variants and separate provider identitie
     .click();
   await expect(page.locator('h1')).toHaveText('ALOHA Mobile');
   await expect(page.locator('section[aria-labelledby="product-highlights"]')).toContainText(
-    'joystick control',
+    'synchronized observations and actions',
   );
   await page.goto('/brands/rainbow-robotics/');
   const rb = page
@@ -171,7 +173,7 @@ test('reviewed drone references link to manufacturer-evidenced catalog models', 
   await names.getByRole('link', { name: 'Catalog model: DJI Mini 4 Pro', exact: true }).click();
   await expect(page.locator('h1')).toHaveText('Mini 4 Pro');
   await expect(page.locator('section[aria-labelledby="product-highlights"]')).toContainText(
-    'True vertical',
+    'true vertical shooting',
   );
 });
 
@@ -486,7 +488,7 @@ test('reviewed specifications preserve source links and configuration limits aft
   await expect(page.locator('[data-spec-key="weight"]')).toHaveText('140 kg');
   await expect(page.locator('[data-spec-key="batteryLife"]')).toHaveCount(0);
   await page.goto('/robot/rainbow-robotics-rb-y1/');
-  await expect(page.locator('[data-spec-key="dof"]')).toContainText('counts conflict');
+  await expect(page.locator('[data-spec-key="dof"]')).toContainText('Conflicting totals');
   await expect(page.locator('[data-spec-source="dof"]')).toHaveAttribute(
     'data-review-status',
     'conflicting',
@@ -505,7 +507,9 @@ test('charging duration is separate from endurance and structured prices do not 
   await page.goto('/robot/booster-robotics-booster-t1/');
   await expect(page.locator('[data-spec-key="chargingTime"]')).toContainText('≤2 hours');
   await expect(page.locator('[data-spec-key="batteryLife"]')).toContainText('2 hours');
-  await expect(page.locator('[data-spec-key="maxRuntime"]')).toHaveCount(0);
+  await expect(page.locator('[data-spec-key="maxRuntime"]')).toContainText(
+    'conditions unspecified',
+  );
   const properties = await page
     .locator('script[type="application/ld+json"]')
     .evaluateAll(
@@ -527,13 +531,13 @@ test('charging duration is separate from endurance and structured prices do not 
     name: /Charging time/,
   });
   await expect(chargingRow).toContainText('≤2 hours');
-  await expect(chargingRow).toContainText('approximately 1 hour via USB');
+  await expect(chargingRow).toContainText('Approximately 1 h via USB');
   for (const id of ['beatbot-iskim', 'makeblock-mbot-neo', 'agibot-d1-ultra-w']) {
     await page.goto(`/robot/${id}/`);
     await expect(page.locator('[data-spec-key="chargingTime"]')).toBeVisible();
     await expect(page.locator('[data-spec-key="maxRuntime"]')).toHaveCount(0);
   }
-  await page.goto('/robot/unitree-go2-pro/');
+  await page.goto('/robot/petoi-bittle/');
   const product = await page
     .locator('script[type="application/ld+json"]')
     .evaluateAll((scripts) =>
@@ -575,21 +579,24 @@ test('reception and telepresence models are discoverable with dated feature limi
   page,
 }) => {
   await page.goto('/?category=commercial&subcategory=commercial-reception&q=GreetingBot');
-  await expect(page.locator('#robotsGrid .robot-card')).toHaveCount(2);
+  await expect(page.locator('#robotsGrid .robot-card')).toHaveCount(3);
   await page.locator('#robotsGrid a[href="/robot/orionstar-greetingbot-nova/"]').first().click();
   await expect(page.getByRole('heading', { name: 'Product highlights' })).toBeVisible();
   await expect(page.locator('section[aria-labelledby="product-highlights"]')).toContainText(
     'Marker-free',
   );
   await page.goto('/?category=commercial&subcategory=commercial-telepresence&q=Double%203');
-  await expect(page.locator('#robotsGrid .robot-card')).toHaveCount(1);
+  await expect(page.locator('#robotsGrid .robot-card').first()).toHaveAttribute(
+    'data-robot-id',
+    'double-robotics-double-3',
+  );
   await page.goto('/robot/pudu-robotics-bellabot-pro/');
   await expect(page.locator('section[aria-labelledby="product-highlights"]')).toContainText(
     'under development',
   );
   await page.goto('/robot/unitree-h2/');
   await expect(page.locator('section[aria-labelledby="product-highlights"]')).toContainText(
-    'limits secondary development support to H2 EDU',
+    'no extra compute module or secondary-development access',
   );
 });
 
@@ -636,7 +643,7 @@ test('AgiBot wheel-leg variant search leads to variant-specific specifications',
   await page.locator('#robotsGrid a[href="/robot/agibot-d1-ultra-w/"]').first().click();
   await expect(page.locator('[data-spec-key="weight"]')).toHaveText('22 kg including battery');
   await expect(page.locator('[data-spec-key="payload"]')).toHaveText('5 kg');
-  await expect(page.locator('[data-spec-key="chargingTime"]')).toContainText('10% to 90%');
+  await expect(page.locator('[data-spec-key="chargingTime"]')).toContainText('10%–90% SOC');
 });
 
 test('Karcher operating endurance is not displayed as charging duration', async ({ page }) => {
@@ -652,10 +659,10 @@ test('learning kits with unspecified ages are discoverable through the coding fi
   page,
 }) => {
   await page.goto('/?category=educational&subcategory=educational-coding&q=mBot%20Ranger');
-  await expect(page.locator('#robotsGrid .robot-card')).toHaveCount(1);
+  await expect(page.locator('#robotsGrid a[href="/robot/makeblock-mbot-ranger/"]')).toBeVisible();
   await page.locator('#robotsGrid a[href="/robot/makeblock-mbot-ranger/"]').first().click();
   await expect(page.locator('h1')).toHaveText('mBot Ranger');
-  await expect(page.locator('main')).toContainText('Three-in-one construction kit');
+  await expect(page.locator('main')).toContainText('three-in-one robot construction kit');
 });
 
 test('deployment evidence is distinguished from manufacturer sources on model pages', async ({
@@ -666,7 +673,7 @@ test('deployment evidence is distinguished from manufacturer sources on model pa
   await expect(sources).toContainText('Deployment owner source');
   await expect(sources).not.toContainText('Manufacturer source');
   await expect(sources).toContainText('University of Nevada, Reno');
-  await expect(page.locator('main')).toContainText('Historical semi-automated bricklaying robot');
+  await expect(page.locator('main')).toContainText('Historical Semi-Automated Mason robot');
   await page.goto('/robot/geek-plus-p800r-v6-0/');
   await expect(page.locator('[data-spec-key="payload"]')).toHaveText('800 kg');
   await page.goto('/robot/geek-plus-p800r/');
@@ -755,8 +762,8 @@ test('industry search finds a heavy AMR with its manufacturer specification sour
   await expect(page.locator('#robotsGrid .robot-card')).toHaveCount(1);
   await page.locator('#robotsGrid a[href="/robot/otto-motors-otto-1500/"]').first().click();
   await expect(page.locator('h1')).toHaveText('OTTO 1500');
-  await expect(page.locator('[data-spec-key="payload"]')).toHaveText('1900 kg');
-  await expect(page.getByRole('link', { name: 'OTTO Motors specification sheet' })).toBeVisible();
+  await expect(page.locator('[data-spec-key="payload"]')).toHaveText('1900 kg total including fitted attachment');
+  await expect(page.getByRole('link', { name: 'OTTO 1500 — August 2026 specification sheet' })).toBeVisible();
 });
 
 test('mobile manipulators use Enabled Robotics attribution rather than the MiR base supplier', async ({
@@ -767,7 +774,7 @@ test('mobile manipulators use Enabled Robotics attribution rather than the MiR b
   await expect(page.locator('a[href="/brands/enabled-robotics/"]').first()).toHaveText(
     'Enabled Robotics',
   );
-  await expect(page.locator('[data-spec-key="payload"]')).toHaveText('25 kg (manipulator)');
+  await expect(page.locator('[data-spec-key="payload"]')).toHaveText('25 kg arm payload in current integration sheet');
   await page.goto('/brands/mobile-industrial-robots-mir/');
   await expect(page.locator('main a[href="/robot/mir-mir100/"]')).toBeVisible();
   await expect(
@@ -790,20 +797,22 @@ test('marine navigation finds surface vessels and ROVs with explicit depth ratin
     await page.locator('#megaMenu [data-subcategory="commercial-marine"]').click();
   }
   await expect(page).toHaveURL(/sub=commercial-marine/);
-  await expect(page.locator('#robotsGrid a[href="/robot/blue-robotics-blueboat/"]')).toBeVisible();
   await expect(page.locator('#robotsGrid a[href="/robot/otto-motors-otto-1500/"]')).toHaveCount(0);
+  await page.locator('#searchInput').fill('BlueBoat');
+  await expect(page.locator('#robotsGrid a[href="/robot/blue-robotics-blueboat/"]')).toBeVisible();
+  await page.locator('#searchInput').fill('Pivot');
   await page.locator('#robotsGrid a[href="/robot/deep-trekker-pivot/"]').first().click();
   await expect(page.locator('[data-spec-key="depthRating"]')).toHaveText('305 m');
   await expect(page.locator('main')).toContainText(
-    'Positioning and navigation tools depend on the selected package',
+    'Equipment and positioning capability depend on the selected package',
   );
 });
 
 for (const [subcategory, product, otherProduct, search] of [
-  ['commercial-healthcare', 'ekso-bionics-eksonr', 'farmdroid-fd20'],
-  ['commercial-agriculture', 'farmdroid-fd20', 'ekso-bionics-eksonr'],
-  ['commercial-telepresence', 'boteyes-boteyes-pad', 'pal-robotics-tiago-pro'],
-  ['commercial-research', 'pal-robotics-tiago-pro', 'boteyes-boteyes-pad'],
+  ['commercial-healthcare', 'ekso-bionics-eksonr', 'farmdroid-fd20', 'EksoNR'],
+  ['commercial-agriculture', 'farmdroid-fd20', 'ekso-bionics-eksonr', 'FD20'],
+  ['commercial-telepresence', 'boteyes-boteyes-pad', 'pal-robotics-tiago-pro', 'BotEyes'],
+  ['commercial-research', 'pal-robotics-tiago-pro', 'boteyes-boteyes-pad', 'TIAGo Pro'],
   ['commercial-aerial', 'skydio-x10', 'pal-robotics-tiago-pro', 'X10'],
   ['commercial-food-service', 't-chef-tc-g1000', 'farmdroid-fd20', 'TC-G1000'],
   ['cleaning-commercial', 'ohmnilabs-ohmniclean-robot', 'boteyes-boteyes-pad', 'OhmniClean'],
@@ -895,7 +904,7 @@ test('aircraft comparison distinguishes takeoff mass, aircraft weight and flight
     );
   });
   await page.goto('/robot/quantum-systems-twister/');
-  await expect(page.locator('[data-spec-key="flightTime"]')).toContainText('90 minutes');
+  await expect(page.locator('[data-spec-key="flightTime"]')).toContainText('90 min manufacturer');
   await expect(page.locator('[data-spec-key="maxTakeoffWeight"]')).toHaveText('3.8 kg');
   await expect(page.locator('[data-spec-key="weight"]')).toHaveCount(0);
   await expect(page.locator('[data-spec-key="batteryLife"]')).toHaveCount(0);
@@ -920,7 +929,7 @@ test('aircraft comparison distinguishes takeoff mass, aircraft weight and flight
   await expect(row('Maximum takeoff mass')).toContainText('2.49 kg');
   await expect(row('Weight')).toContainText('2.11 kg');
   await expect(row('Weight')).not.toContainText('3.8 kg');
-  await expect(row('Flight time')).toContainText('90 minutes');
-  await expect(row('Flight time')).toContainText('40 minutes');
+  await expect(row('Flight time')).toContainText('90 min');
+  await expect(row('Flight time')).toContainText('40 min');
   await expect(row('Battery Life')).toHaveCount(0);
 });

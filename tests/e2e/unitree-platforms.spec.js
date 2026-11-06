@@ -155,8 +155,12 @@ test('structured offers retain qualified published prices without adding unknown
       await page.locator('script[type="application/ld+json"]').allTextContents()
     ).map(JSON.parse);
     const product = schemas.find((s) => s['@type'] === 'Product');
-    if (amount) expect(String(product.offers.price)).toBe(amount);
-    else expect(product.offers).toBeUndefined();
+    // Tax/shipping-qualified prices stay visible without becoming universal structured offers.
+    expect(product.offers).toBeUndefined();
+    if (amount)
+      await expect(page.locator('[data-spec-key="price"]')).toHaveText(
+        `${amount} USD excluding tax and shipping`,
+      );
   }
 });
 

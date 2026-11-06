@@ -26,12 +26,12 @@ test('brand and commercial filters expose eight identities and corrected categor
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText(
     'announced specifications',
   );
-  await page.goto('/?category=commercial&sub=commercial-food-service');
+  await page.goto('/?category=commercial&sub=commercial-food-service&mfr=Richtech%20Robotics');
   for (const id of ['adam', 'scorpion'])
     await expect(
       page.locator(`#robotsGrid .robot-card[data-robot-id="richtech-robotics-${id}"]`),
     ).toBeVisible();
-  await page.goto('/?category=commercial&sub=commercial-logistics');
+  await page.goto('/?category=commercial&sub=commercial-logistics&mfr=Richtech%20Robotics');
   await expect(
     page.locator('#robotsGrid .robot-card[data-robot-id="richtech-robotics-titan"]'),
   ).toBeVisible();

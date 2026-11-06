@@ -58,10 +58,10 @@ test.describe('All 9 categories filter correctly', () => {
   });
 });
 
-for (const [category, subcategory, robotId] of [
-  ['outdoor', 'outdoor-exoskeleton', 'hypershell-x-ultra-s'],
-  ['educational', 'educational-drones', 'locorobo-locodrone-x'],
-  ['commercial', 'commercial-mobility', 'lucid-gravity-robotaxi'],
+for (const [category, subcategory, robotId, checkedAt] of [
+  ['outdoor', 'outdoor-exoskeleton', 'hypershell-x-ultra-s', '2026-11-02'],
+  ['educational', 'educational-drones', 'locorobo-locodrone-x', '2026-11-02'],
+  ['commercial', 'commercial-mobility', 'lucid-gravity-robotaxi', '2026-11-03'],
 ]) {
   test(`shared subcategory URL finds ${subcategory} and opens its sourced model`, async ({
     page,
@@ -76,6 +76,6 @@ for (const [category, subcategory, robotId] of [
     await expect(link).toBeVisible();
     await link.click();
     await expect(page.getByRole('heading', { name: 'Product highlights' })).toBeVisible();
-    await expect(page.locator('main')).toContainText('2026-11-01');
+    await expect(page.locator('main')).toContainText(checkedAt);
   });
 }

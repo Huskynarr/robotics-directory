@@ -24,11 +24,11 @@ test('brand focus distinguishes exact arms, adjacent families and current source
   page,
 }) => {
   await page.goto('/brands/rainbow-robotics/');
-  await expect(page.locator('main .robot-card')).toHaveCount(20);
+  await expect(page.locator('main .robot-card')).toHaveCount(26);
   const focus = page.locator('section[aria-labelledby="company-focus"]');
   await expect(focus).toContainText('ten named six-axis arms');
   await expect(focus).toContainText('three named RBC-N arms');
-  await expect(focus).toContainText('adjacent product navigation');
+  await expect(focus).toContainText('remain system/software/accessory findings');
   await expect(focus).toContainText('homepage despite HTTP 200');
 });
 

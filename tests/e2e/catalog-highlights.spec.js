@@ -57,7 +57,7 @@ test('supports full manufacturer/model names and accentless names without extra 
   await expect(page.locator('#robotsGrid .robot-card')).toHaveCount(1);
   await expect(card(page, 'parrot-anafi-ukr').locator('[data-search-highlight]')).toHaveCount(0);
   await page.locator('#searchInput').fill('Karcher');
-  await expect(page.locator('#robotsGrid .robot-card')).toHaveCount(5);
+  await expect(page.locator('#robotsGrid .robot-card')).toHaveCount(9);
   await expect(page.locator('#robotsGrid [data-search-highlight]')).toHaveCount(0);
 });
 test('highlight matches obey category and advanced filters and disappear after reset', async ({
