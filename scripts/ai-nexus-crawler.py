@@ -31,8 +31,12 @@ DATA_DIR: Final = ROOT / "data"
 REPORT_PATH: Final = ROOT / "reports" / "ai-nexus-youtube.md"
 CSV_CATEGORIES: Final = (
     "humanoid", "quadruped", "companion", "cleaning",
-    "outdoor", "educational", "smarthome", "robotic-arm",
+    "outdoor", "educational", "smarthome", "robotic-arm", "commercial",
 )
+GENERIC_MAKER_WORDS: Final = frozenset({
+    "robot", "robots", "robotics", "technology", "technologies", "intelligent",
+    "intelligence", "systems", "dynamics", "the", "group", "smart", "home",
+})
 
 
 @dataclass(frozen=True, slots=True)
@@ -42,6 +46,8 @@ class RobotAlias:
     manufacturer: str
     model: str
     aliases: tuple[str, ...]
+    weak_aliases: tuple[str, ...] = ()
+    maker_terms: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True, slots=True)
@@ -77,13 +83,29 @@ def load_aliases() -> tuple[RobotAlias, ...]:
                 manufacturer = row["manufacturer"].strip()
                 model = row["model"].strip()
                 phrases = [normalize(f"{manufacturer} {model}")]
+                weak: list[str] = []
                 normalized_model = normalize(model)
                 if len(normalized_model) >= 4:
-                    phrases.append(normalized_model)
+                    # Word-only names ("Atlas", "Blade", "Companion") are common English and
+                    # only count when the maker is also named; digit-bearing names stand alone.
+                    (phrases if re.search(r"\d", normalized_model) else weak).append(normalized_model)
                 if manufacturer.casefold() == "agibot" and model.casefold() == "a3":
                     phrases.append("expedition a3")
-                aliases.append(RobotAlias(manufacturer, model, tuple(dict.fromkeys(phrases))))
+                aliases.append(RobotAlias(
+                    manufacturer, model, tuple(dict.fromkeys(phrases)),
+                    tuple(weak), maker_terms(manufacturer),
+                ))
     return tuple(aliases)
+
+
+def maker_terms(manufacturer: str) -> tuple[str, ...]:
+    """Return the full maker name plus its first distinctive word as evidence phrases."""
+    full = normalize(manufacturer)
+    first = next(
+        (word for word in full.split() if len(word) >= 4 and word not in GENERIC_MAKER_WORDS),
+        "",
+    )
+    return tuple(dict.fromkeys(term for term in (full, first) if term))
 
 
 def fetch_feed(url: str = FEED_URL) -> bytes:
@@ -134,9 +156,13 @@ def parse_entries(xml_bytes: bytes) -> tuple[FeedEntry, ...]:
 def match_robots(title: str, aliases: tuple[RobotAlias, ...]) -> tuple[RobotAlias, ...]:
     """Return catalog robots whose aliases occur as complete title words."""
     normalized_title = normalize(title)
+
+    def found(phrases: tuple[str, ...]) -> bool:
+        return any(re.search(rf"\b{re.escape(phrase)}\b", normalized_title) for phrase in phrases)
+
     return tuple(
         robot for robot in aliases
-        if any(re.search(rf"\b{re.escape(alias)}\b", normalized_title) for alias in robot.aliases)
+        if found(robot.aliases) or (found(robot.weak_aliases) and found(robot.maker_terms))
     )
 
 

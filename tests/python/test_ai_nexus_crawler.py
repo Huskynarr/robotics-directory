@@ -49,6 +49,19 @@ class AiNexusCrawlerTests(unittest.TestCase):
         self.assertEqual(matches, tuple(aliases))
         self.assertEqual(unrelated, ())
 
+    def test_word_only_model_names_require_the_maker(self) -> None:
+        atlas = MODULE.RobotAlias(
+            manufacturer="Boston Dynamics",
+            model="Atlas",
+            aliases=("boston dynamics atlas",),
+            weak_aliases=("atlas",),
+            maker_terms=MODULE.maker_terms("Boston Dynamics"),
+        )
+
+        self.assertEqual(MODULE.match_robots("Boston's new Atlas robot", [atlas]), (atlas,))
+        self.assertEqual(MODULE.match_robots("An atlas of fighting robots", [atlas]), ())
+        self.assertEqual(MODULE.maker_terms("Holiday Robotics"), ("holiday robotics", "holiday"))
+
     def test_build_report_contains_matches_and_source_urls(self) -> None:
         entries = [
             MODULE.FeedEntry(
