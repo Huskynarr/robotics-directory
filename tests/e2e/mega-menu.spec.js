@@ -99,3 +99,41 @@ test.describe('Mega menu - mobile accordion', () => {
     await expect(viewAll).toBeAttached();
   });
 });
+
+test.describe('Category row overflow', () => {
+  test('all categories fit on wide desktop without a More menu', async ({ page, viewport }) => {
+    if (viewport.width < 768) return;
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto('/');
+    await expect(page.locator('#categoryMoreToggle')).toBeHidden();
+    await expect(page.locator('[data-megatab="commercial"]')).toBeVisible();
+  });
+
+  test('narrow desktop moves trailing categories into More instead of clipping', async ({
+    page,
+    viewport,
+  }) => {
+    if (viewport.width < 768) return;
+    await page.addInitScript(() => localStorage.setItem('lang', 'fr'));
+    await page.setViewportSize({ width: 820, height: 900 });
+    await page.goto('/');
+
+    const navBox = await page.locator('#categoryNav').boundingBox();
+    for (const tab of await page.locator('#categoryNav .mega-tab:visible').all()) {
+      const box = await tab.boundingBox();
+      expect(box.x + box.width).toBeLessThanOrEqual(navBox.x + navBox.width + 1);
+    }
+
+    const toggle = page.locator('#categoryMoreToggle');
+    await expect(toggle).toBeVisible();
+    await expect(page.locator('[data-megatab="commercial"]')).toBeHidden();
+    await toggle.click();
+    const item = page.locator('#categoryMoreMenu [data-more-for="commercial"]');
+    await expect(item).toBeVisible();
+    await expect(page.locator('#categoryMoreMenu [data-more-for="humanoid"]')).toBeHidden();
+
+    await item.click();
+    await expect(page.locator('#megaMenu')).toHaveClass(/open/);
+    await expect(page.locator('[data-panel="commercial"]')).toBeVisible();
+  });
+});

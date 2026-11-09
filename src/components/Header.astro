@@ -51,84 +51,40 @@ const mobileData = CATEGORIES.map((cat) => {
 ---
 
 <header
-  class="sticky top-0 z-30 backdrop-blur-md border-b border-border bg-surface/90"
+  class="site-header sticky top-0 z-30 backdrop-blur-md border-b border-border bg-surface/90"
   role="banner"
 >
+  <!-- Row 1: brand and utilities -->
   <div class="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
-    <!-- Logo -->
-    <a href="/" class="flex items-center gap-2 shrink-0 no-underline">
-      <i class="fas fa-robot text-primary text-xl"></i>
+    <a href="/" class="flex items-center gap-2.5 shrink-0 min-w-0 no-underline">
       <span
-        class="font-heading font-semibold text-text-base text-sm md:text-base"
+        class="w-8 h-8 rounded-lg bg-primary text-white flex items-center justify-center shrink-0"
+        aria-hidden="true"
+      >
+        <i class="fas fa-robot text-sm"></i>
+      </span>
+      <span
+        class="font-heading font-semibold text-text-base text-sm md:text-base tracking-tight truncate"
         data-i18n="app.title">{t['app.title']}</span
       >
     </a>
 
-    <!-- Desktop mega tabs -->
-    <nav
-      class="hidden md:flex items-center gap-0.5 overflow-x-auto scrollbar-hide flex-1 min-w-0 justify-start"
-      aria-label="Category navigation"
-      role="tablist"
-    >
-      <button
-        class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent active"
-        data-category="all"
-        role="tab"
-        aria-selected="true"
-        data-i18n="nav.all"
-      >
-        {t['nav.all']}
-      </button>
-      {
-        CATEGORIES.map((cat) => (
-          <button
-            class="mega-tab inline-flex items-center gap-1 px-3 py-1.5 text-sm font-medium cursor-pointer select-none whitespace-nowrap relative border-b-2 border-transparent"
-            data-category={cat.id}
-            data-megatab={cat.id}
-            role="tab"
-            aria-selected="false"
-            aria-haspopup="true"
-            aria-expanded="false"
-            aria-controls={`megapanel-${cat.id}`}
-            id={`megatab-${cat.id}`}
-            data-i18n={`nav.${cat.id}`}
-          >
-            {t[`nav.${cat.id}`]}
-            <i class="fas fa-chevron-down text-[0.6rem] transition-transform duration-200" />
-          </button>
-        ))
-      }
-    </nav>
-
-    <!-- Desktop controls -->
-    <div class="hidden md:flex items-center gap-2 shrink-0">
-      <a
-        href="/brands/"
-        class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
-        aria-label="Brands"
-        data-i18n-aria="nav.brands"
-        title="Brands"
-      >
-        <i class="fas fa-building"></i>
-      </a>
-      <a
-        href="/finder/"
-        class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
-        aria-label="Robot Finder"
-        data-i18n-aria="finder.title"
-        title="Robot Finder"
-      >
-        <i class="fas fa-wand-magic-sparkles"></i>
-      </a>
-      <a
-        href="/stats/"
-        class="w-9 h-9 rounded-lg flex items-center justify-center transition-colors hover:bg-bg text-text-secondary"
-        aria-label="Statistics"
-        data-i18n-aria="stats.title"
-        title="Statistics"
-      >
-        <i class="fas fa-chart-column"></i>
-      </a>
+    <div class="hidden md:flex items-center gap-1 shrink-0">
+      <nav class="flex items-center gap-0.5" aria-label="Site">
+        <a href="/brands/" class="header-link" title="Brands">
+          <i class="fas fa-building" aria-hidden="true"></i>
+          <span class="header-link-label" data-i18n="nav.brands">{t['nav.brands']}</span>
+        </a>
+        <a href="/finder/" class="header-link" title="Robot Finder">
+          <i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i>
+          <span class="header-link-label" data-i18n="finder.title">{t['finder.title']}</span>
+        </a>
+        <a href="/stats/" class="header-link" title="Statistics">
+          <i class="fas fa-chart-column" aria-hidden="true"></i>
+          <span class="header-link-label" data-i18n="stats.title">{t['stats.title']}</span>
+        </a>
+      </nav>
+      <span class="w-px h-6 bg-border mx-2" aria-hidden="true"></span>
       <select
         id="languageSelect"
         class="form-control form-select text-sm rounded-lg pl-2.5 py-1.5 bg-surface"
@@ -167,6 +123,84 @@ const mobileData = CATEGORIES.map((cat) => {
     >
       <i class="fas fa-bars text-lg"></i>
     </button>
+  </div>
+
+  <!-- Row 2: category navigation (desktop). Tabs that do not fit move into "More". -->
+  <div class="hidden md:block border-t border-border/70">
+    <div class="max-w-7xl mx-auto px-4 h-11 flex items-stretch gap-1">
+      <nav
+        id="categoryNav"
+        class="flex items-stretch gap-0.5 flex-1 min-w-0 overflow-hidden"
+        aria-label="Category navigation"
+        role="tablist"
+      >
+        <button
+          class="mega-tab inline-flex items-center gap-1.5 px-2.5 text-sm font-medium cursor-pointer select-none whitespace-nowrap relative shrink-0 active"
+          data-category="all"
+          role="tab"
+          aria-selected="true"
+          data-i18n="nav.all"
+        >
+          {t['nav.all']}
+        </button>
+        {
+          CATEGORIES.map((cat) => (
+            <button
+              class="mega-tab inline-flex items-center gap-1.5 px-2.5 text-sm font-medium cursor-pointer select-none whitespace-nowrap relative shrink-0"
+              data-category={cat.id}
+              data-megatab={cat.id}
+              role="tab"
+              aria-selected="false"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-controls={`megapanel-${cat.id}`}
+              id={`megatab-${cat.id}`}
+            >
+              <i class={`fas ${cat.icon} mega-tab-icon`} aria-hidden="true" />
+              <span data-i18n={`nav.${cat.id}`}>{t[`nav.${cat.id}`]}</span>
+              <i
+                class="fas fa-chevron-down mega-tab-chevron text-[0.55rem] transition-transform duration-200"
+                aria-hidden="true"
+              />
+            </button>
+          ))
+        }
+      </nav>
+
+      <div id="categoryMore" class="relative shrink-0 flex items-stretch is-collapsed">
+        <button
+          id="categoryMoreToggle"
+          class="mega-tab inline-flex items-center gap-1.5 px-3 text-sm font-medium cursor-pointer select-none whitespace-nowrap relative"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          aria-controls="categoryMoreMenu"
+        >
+          <span data-i18n="nav.more">{t['nav.more']}</span>
+          <i
+            class="fas fa-chevron-down mega-tab-chevron text-[0.55rem] transition-transform duration-200"
+            aria-hidden="true"></i>
+        </button>
+        <div
+          id="categoryMoreMenu"
+          class="category-more-menu absolute right-0 top-full mt-1 min-w-56 rounded-xl border border-border bg-surface p-1.5 shadow-lg"
+          role="menu"
+          hidden
+        >
+          {
+            CATEGORIES.map((cat) => (
+              <button
+                class="category-more-item w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm text-left text-text-secondary cursor-pointer"
+                data-more-for={cat.id}
+                role="menuitem"
+              >
+                <i class={`fas ${cat.icon} w-4 text-center text-text-muted`} aria-hidden="true" />
+                <span data-i18n={`nav.${cat.id}`}>{t[`nav.${cat.id}`]}</span>
+              </button>
+            ))
+          }
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Mega Menu panels (desktop) -->
@@ -318,6 +352,7 @@ const mobileData = CATEGORIES.map((cat) => {
 
 <script>
   import '../scripts/header-navigation.js';
+  import '../scripts/category-overflow.js';
 </script>
 
 <style>
@@ -378,8 +413,68 @@ const mobileData = CATEGORIES.map((cat) => {
     background: #93c5fd;
     box-shadow: 0 0 8px rgba(147, 197, 253, 0.35);
   }
-  .mega-tab:global(.mega-tab-open) i {
+  .mega-tab:global(.mega-tab-open) .mega-tab-chevron {
     transform: rotate(180deg);
+  }
+
+  /* Utility links in the brand row: icon-only on md, labelled from lg */
+  .header-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 2.25rem;
+    padding: 0 0.625rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    white-space: nowrap;
+    transition:
+      background-color 160ms ease,
+      color 160ms ease;
+  }
+  .header-link:hover {
+    background: var(--color-bg);
+    color: var(--color-text-base);
+  }
+  .header-link-label {
+    display: none;
+  }
+  @media (min-width: 1024px) {
+    .header-link-label {
+      display: inline;
+    }
+  }
+
+  /* Category row: icons only where there is room, overflow goes to "More" */
+  .mega-tab-icon {
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+  #categoryNav.is-compact .mega-tab-icon {
+    display: none;
+  }
+  .mega-tab.is-overflowed,
+  #categoryMore.is-collapsed,
+  .category-more-item.is-inline {
+    display: none !important;
+  }
+  .category-more-item:hover,
+  .category-more-item:focus-visible {
+    background: var(--color-bg);
+    color: var(--color-text-base);
+    outline: none;
+  }
+  .category-more-item.active {
+    color: var(--color-primary);
+    font-weight: 600;
+  }
+  #categoryMoreToggle[aria-expanded='true'] .mega-tab-chevron {
+    transform: rotate(180deg);
+  }
+  :global(.dark) .category-more-menu {
+    background: #0f172a;
   }
 
   /* Mobile nav active state */
