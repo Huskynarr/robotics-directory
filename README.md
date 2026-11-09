@@ -45,24 +45,25 @@ pnpm dev          # http://localhost:4321
 
 ### Scripts
 
-| Command            | Description                                   |
-|--------------------|-----------------------------------------------|
-| `pnpm dev`         | Start the dev server                          |
-| `pnpm build`       | Build the static site to `dist/`              |
-| `pnpm preview`     | Preview the production build locally          |
-| `pnpm lint`        | Run ESLint                                     |
-| `pnpm format`      | Format `src/` with Prettier                   |
-| `pnpm test:unit`   | Run unit tests (Vitest)                       |
-| `pnpm test:e2e`    | Run end-to-end tests (Playwright)             |
-| `pnpm test`        | Run unit and E2E tests                        |
+| Command                 | Description                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------ |
+| `pnpm dev`              | Start the dev server                                                           |
+| `pnpm build`            | Build the static site to `dist/`                                               |
+| `pnpm preview`          | Preview the production build locally                                           |
+| `pnpm lint`             | Run ESLint                                                                     |
+| `pnpm format`           | Format `src/` with Prettier                                                    |
+| `pnpm test:unit`        | Run unit tests (Vitest)                                                        |
+| `pnpm test:e2e`         | Run end-to-end tests (Playwright)                                              |
+| `pnpm test`             | Run unit and E2E tests                                                         |
 | `pnpm research:refresh` | Refresh saved-source coverage, research queues and review exports without HTTP |
 
 ## Deployment
 
 Pushes to `main` are built and deployed to GitHub Pages by the
-[`deploy`](.github/workflows/deploy.yml) workflow: it runs lint, unit tests,
-the build and E2E tests, then publishes `dist/` to the custom domain configured
-via `CNAME`.
+[`deploy`](.github/workflows/deploy.yml) workflow on the self-hosted server
+runner (label `robotics-directory`): it runs lint, unit tests, the build and E2E
+tests, then force-pushes the tested `dist/` to the `gh-pages` branch, which
+GitHub Pages serves on the custom domain configured via `CNAME`.
 
 ## Project Structure
 
