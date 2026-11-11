@@ -1,0 +1,29 @@
+name: News radar
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: news-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    name: Report new robot announcements
+    # Dedicated server runner, so radar checks never wait behind a deploy.
+    runs-on: [news-radar]
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Scan feeds and post new candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/news-radar.py --issues
