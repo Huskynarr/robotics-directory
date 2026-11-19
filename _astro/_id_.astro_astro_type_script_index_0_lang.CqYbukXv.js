@@ -1,0 +1,1 @@
+import"./dark-mode.BvTwiiDc.js";import"./favorites.DfBQOBgZ.js";import"./compare.c_EGNYiB.js";document.querySelectorAll(`.robot-card .favorite-btn`).forEach(e=>{e.addEventListener(`click`,t=>{t.preventDefault(),t.stopPropagation(),e.dataset.robotId&&window.__toggleFavorite&&window.__toggleFavorite(e.dataset.robotId)})});
