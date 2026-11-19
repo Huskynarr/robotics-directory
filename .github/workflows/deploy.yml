@@ -45,6 +45,8 @@ jobs:
 
       - name: Build production site
         run: pnpm build
+        env:
+          PUBLIC_SENTRY_RELEASE: robotics-directory@${{ github.sha }}
 
       - name: Install Playwright browser
         run: pnpm exec playwright install chromium
