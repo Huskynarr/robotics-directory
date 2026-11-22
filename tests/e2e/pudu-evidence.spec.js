@@ -8,7 +8,7 @@ test('Pudu brand contains manufacturer configurations and the qualified company 
   page,
 }) => {
   await page.goto('/brands/pudu-robotics/');
-  await expect(page.locator('main .robot-card')).toHaveCount(40);
+  await expect(page.locator('main .robot-card')).toHaveCount(42);
   for (const id of [
     'pudu-t150-lifting',
     'pudu-t300-standard',

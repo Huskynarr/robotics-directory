@@ -46,7 +46,7 @@ describe('Elephant version, operating-mode and companion boundaries', () => {
     expect(robot('mycobot-280-m5').payload).toBe('0.25 kg');
     expect(robot('mycobot-280-m5').weight).toBe('850 g');
     expect(text('mycobot-280-m5')).toContain('2023 dual-screen package');
-    expect(all.filter((r) => r.manufacturer === 'Elephant Robotics')).toHaveLength(13);
+    expect(all.filter((r) => r.manufacturer === 'Elephant Robotics')).toHaveLength(22);
   });
   it('does not relabel lifespan or joint angular speed as endurance or TCP speed', () => {
     for (const id of ['mycobot-280-m5', 'mycobot-320-m5', 'mycobot-320-pi', 'mycobot-pro-630']) {
@@ -109,7 +109,10 @@ describe('Elephant version, operating-mode and companion boundaries', () => {
       (r) => r.manufacturer === 'Elephant Robotics' && r.model !== 'metaCat AI',
     )) {
       expect(r.price).toBe('Not disclosed');
-      expect(getSpecificationReview(r.id).fields.price.note).toMatch(/region|global/i);
+      // Models added after the field review keep the policy; their shop price is dated in the description.
+      const review = getSpecificationReview(r.id);
+      if (review) expect(review.fields.price.note).toMatch(/region|global/i);
+      else expect(r.description).toMatch(/regional prices/);
     }
     expect(text('myagv-pi-2023')).toContain('USD 949');
     expect(text('metacat')).toContain('USD 159');
@@ -121,7 +124,7 @@ describe('Elephant version, operating-mode and companion boundaries', () => {
     expect(focus.highlights.join(' ')).toContain('separately named LLM edition');
     expect(
       all.some(
-        (r) => r.manufacturer === 'Elephant Robotics' && ['metaDog', 'metaPanda'].includes(r.model),
+        (r) => r.manufacturer === 'Elephant Robotics' && r.model === 'metaPanda',
       ),
     ).toBe(false);
   });

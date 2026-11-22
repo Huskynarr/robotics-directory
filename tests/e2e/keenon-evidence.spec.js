@@ -150,10 +150,12 @@ test('XMAN wheeled and bipedal poster facts are sourced without numeric price of
 test('brand keeps three navigation leads distinct from verified model cards', async ({ page }) => {
   await page.goto('/brands/keenon-robotics/');
   const focus = page.locator('section[aria-labelledby="company-focus"]');
-  for (const name of ['XMAN-L1', 'X101', 'M102']) {
+  for (const name of ['X101', 'M102']) {
     await expect(focus).toContainText(name);
     await expect(page.locator('.robot-card h3').filter({ hasText: name })).toHaveCount(0);
   }
+  // XMAN-L1 gained an official product page and is now a verified model card.
+  await expect(page.locator('.robot-card h3').filter({ hasText: 'XMAN-L1' })).toHaveCount(1);
   await expect(page.locator('.robot-card a[href="/robot/keenon-xman-f1/"]').first()).toBeVisible();
   await expect(focus).toContainText('404');
 });

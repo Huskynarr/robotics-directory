@@ -104,7 +104,9 @@ describe('KEENON manufacturer and configuration boundaries', () => {
     }
     const brand = getAllBrands().find((b) => b.id === 'keenon-robotics');
     const { primary } = getCompanyInsights(brand);
-    for (const model of ['XMAN-L1', 'X101', 'M102']) {
+    // XMAN-L1 now has an official product page and is listed; the others remain leads.
+    expect(brand.robots.some((r) => r.model === 'XMAN-L1')).toBe(true);
+    for (const model of ['X101', 'M102']) {
       expect(brand.robots.some((r) => r.model === model)).toBe(false);
       expect(primary.highlights.join(' ')).toContain(model);
     }
