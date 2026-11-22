@@ -25,7 +25,7 @@ test('company page keeps legacy models and all three newly evidenced configurati
   page,
 }) => {
   await page.goto(brand);
-  await expect(page.locator('main .robot-card')).toHaveCount(17);
+  await expect(page.locator('main .robot-card')).toHaveCount(19);
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText('M20_Piper');
   for (const id of ['lite3-venture', 'lite3-edu', 'dr02-standard'])
     await expect(

@@ -46,7 +46,7 @@ describe('Elephant version, operating-mode and companion boundaries', () => {
     expect(robot('mycobot-280-m5').payload).toBe('0.25 kg');
     expect(robot('mycobot-280-m5').weight).toBe('850 g');
     expect(text('mycobot-280-m5')).toContain('2023 dual-screen package');
-    expect(all.filter((r) => r.manufacturer === 'Elephant Robotics')).toHaveLength(22);
+    expect(all.filter((r) => r.manufacturer === 'Elephant Robotics')).toHaveLength(23);
   });
   it('does not relabel lifespan or joint angular speed as endurance or TCP speed', () => {
     for (const id of ['mycobot-280-m5', 'mycobot-320-m5', 'mycobot-320-pi', 'mycobot-pro-630']) {
@@ -122,10 +122,10 @@ describe('Elephant version, operating-mode and companion boundaries', () => {
     const focus = getCompanyInsights(brand).primary;
     expect(focus.highlights.join(' ')).toContain('HTTP 429');
     expect(focus.highlights.join(' ')).toContain('separately named LLM edition');
-    expect(
-      all.some(
-        (r) => r.manufacturer === 'Elephant Robotics' && r.model === 'metaPanda',
-      ),
-    ).toBe(false);
+    // Both pets were later confirmed on official shop pages and keep the regional price policy.
+    for (const model of ['metaDog', 'metaPanda']) {
+      const pet = all.find((r) => r.manufacturer === 'Elephant Robotics' && r.model === model);
+      expect(pet.price).toBe('Not disclosed');
+    }
   });
 });

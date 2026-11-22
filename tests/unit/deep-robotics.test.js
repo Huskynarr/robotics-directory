@@ -13,7 +13,7 @@ const highlights = (name) => getProductInsights(robot(name).id).highlights.join(
 describe('DEEP Robotics platform, component and SDK boundaries', () => {
   it('keeps all 17 catalog models and attaches the bounded company focus', () => {
     const brand = getAllBrands().find((b) => b.id === 'deep-robotics');
-    expect(brand.modelCount).toBe(17);
+    expect(brand.modelCount).toBe(19);
     expect(getCompanyInsights(brand).primary.name).toBe('Deep Robotics');
     expect(all.some((r) => r.manufacturer === 'DEEP Robotics' && r.model === 'M20_Piper')).toBe(
       false,

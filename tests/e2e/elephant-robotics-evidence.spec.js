@@ -25,11 +25,11 @@ test('company focus keeps unconfirmed AI and rate-limited search leads distinct 
   page,
 }) => {
   await page.goto('/brands/elephant-robotics/');
-  await expect(page.locator('main .robot-card')).toHaveCount(22);
+  await expect(page.locator('main .robot-card')).toHaveCount(23);
   const focus = page.locator('section[aria-labelledby="company-focus"]');
   await expect(focus).toContainText('separately named LLM edition');
   await expect(focus).toContainText('HTTP 429');
-  await expect(focus).toContainText('metaPanda remains an unverified lead');
+  await expect(focus).toContainText('metaDog and metaPanda were later confirmed');
 });
 
 test('original myAGV exposes conflicts and separates work, standby and charge duration', async ({

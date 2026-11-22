@@ -24,7 +24,7 @@ test('brand exposes six additional named configurations and dated manufacturer f
   page,
 }) => {
   await page.goto(brand);
-  await expect(page.locator('main .robot-card')).toHaveCount(58);
+  await expect(page.locator('main .robot-card')).toHaveCount(63);
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText(
     'separate developer configurations',
   );

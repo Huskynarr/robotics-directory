@@ -158,7 +158,8 @@ test('Bee-Bot links to TTS and Thymio keeps its generation-qualified reference',
     'href',
     '/robot/mobsya-thymio-ii/',
   );
-  await expect(page.locator('section[aria-labelledby="brand-models"] .robot-card')).toHaveCount(1);
+  // Thymio II plus the 2026 successor Thymio 3 (thymio.org/thymio-3).
+  await expect(page.locator('section[aria-labelledby="brand-models"] .robot-card')).toHaveCount(2);
 });
 
 test('reviewed drone references link to manufacturer-evidenced catalog models', async ({

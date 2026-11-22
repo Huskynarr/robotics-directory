@@ -16,7 +16,7 @@ describe('Unitree variant, load and development boundaries', () => {
     for (const model of ['A2-PRO', 'As2-W X', 'As2-W EDU', 'R1 AIR', 'R1 EDU', 'H1-2'])
       expect(robot(model), model).toBeDefined();
     const brand = getAllBrands().find((b) => b.id === 'unitree-robotics');
-    expect(brand.modelCount).toBe(58);
+    expect(brand.modelCount).toBe(63);
     expect(getCompanyInsights(brand).primary.highlights.join(' ')).toContain(
       'separate developer configurations',
     );
