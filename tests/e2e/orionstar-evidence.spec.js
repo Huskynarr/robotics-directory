@@ -24,7 +24,7 @@ test('brand lists twelve English model cards and the separately retained regiona
   page,
 }) => {
   await page.goto('/brands/orionstar-robotics/');
-  await expect(page.locator('main .robot-card')).toHaveCount(13);
+  await expect(page.locator('main .robot-card')).toHaveCount(19);
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText(
     'regional/revision equivalence is not certified',
   );

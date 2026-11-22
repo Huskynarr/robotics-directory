@@ -123,10 +123,10 @@ describe('Geek+ model identity and measured scope', () => {
   });
   it('keeps cycle life, resource dates and ROI wording out of robot lifetime, launch and offers', () => {
     const geek = all.filter((r) => r.manufacturer === 'Geek+');
-    expect(geek).toHaveLength(32);
+    expect(geek).toHaveLength(33);
     for (const r of geek) {
-      // Gino 1's year is its press-documented unveiling (10 Feb 2026), not a resource date.
-      if (r.model !== 'Gino 1') expect(r.releaseDate).toBe('');
+      // Press-documented launches (Gino 1: 10 Feb 2026, RoboShuttle Hyper: 12 Aug 2026), not resource dates.
+      if (!['Gino 1', 'RoboShuttle Hyper'].includes(r.model)) expect(r.releaseDate).toBe('');
       expect(r.ipRating).toBe('');
       expect(getStructuredOffer(r.price)).toBeNull();
       expect(r.batteryLife).not.toMatch(/2000|years|24x7/);

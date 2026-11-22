@@ -5,7 +5,7 @@ const badge = (p, k) => p.locator('[data-spec-source="' + k + '"]');
 const high = (p) => p.locator('section[aria-labelledby="product-highlights"]');
 test('Geek brand exposes all named configurations and sourced company focus', async ({ page }) => {
   await page.goto('/brands/geek/');
-  await expect(page.locator('main .robot-card')).toHaveCount(32);
+  await expect(page.locator('main .robot-card')).toHaveCount(33);
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText(
     'Six named families',
   );

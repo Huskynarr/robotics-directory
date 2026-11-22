@@ -14,7 +14,7 @@ const legacy = () => all.find((r) => r.id === 'orion-star-lucki-zhaocaibao');
 
 describe('OrionStar current lineup and regional specification boundaries', () => {
   it('adds five named robots without treating accessories or software as new models', () => {
-    expect(all.filter((r) => r.manufacturer === 'OrionStar')).toHaveLength(12);
+    expect(all.filter((r) => r.manufacturer === 'OrionStar')).toHaveLength(18);
     for (const id of [
       'greetingbot-ad',
       'cleanibot-s55-pro',
@@ -135,7 +135,7 @@ describe('OrionStar current lineup and regional specification boundaries', () =>
       expect(matchesSubcategoryFilter(robot(id), commercialCleaning.filter)).toBe(true);
     }
     const brand = getAllBrands().find((b) => b.id === 'orionstar-robotics');
-    expect(brand.robots).toHaveLength(13);
+    expect(brand.robots).toHaveLength(19);
     expect(getCompanyInsights(brand).primary.highlights.join(' ')).toContain(
       'regional/revision equivalence is not certified',
     );
