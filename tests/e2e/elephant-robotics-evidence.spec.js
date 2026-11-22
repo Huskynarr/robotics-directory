@@ -25,7 +25,7 @@ test('company focus keeps unconfirmed AI and rate-limited search leads distinct 
   page,
 }) => {
   await page.goto('/brands/elephant-robotics/');
-  await expect(page.locator('main .robot-card')).toHaveCount(23);
+  await expect(page.locator('main .robot-card')).toHaveCount(24);
   const focus = page.locator('section[aria-labelledby="company-focus"]');
   await expect(focus).toContainText('separately named LLM edition');
   await expect(focus).toContainText('HTTP 429');

@@ -9,7 +9,7 @@ const highlights = (page) => page.locator('section[aria-labelledby="product-high
 test('brand pages expose distinct robot variants and sourced company focuses', async ({ page }) => {
   for (const [brand, count, term] of [
     ['omron', 15, 'ESD'],
-    ['ecovacs', 68, 'TruEdge'],
+    ['ecovacs', 69, 'TruEdge'],
   ]) {
     await page.goto('/brands/' + brand + '/');
     await expect(page.locator('main .robot-card')).toHaveCount(count);

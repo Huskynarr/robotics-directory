@@ -46,7 +46,7 @@ describe('Elephant version, operating-mode and companion boundaries', () => {
     expect(robot('mycobot-280-m5').payload).toBe('0.25 kg');
     expect(robot('mycobot-280-m5').weight).toBe('850 g');
     expect(text('mycobot-280-m5')).toContain('2023 dual-screen package');
-    expect(all.filter((r) => r.manufacturer === 'Elephant Robotics')).toHaveLength(23);
+    expect(all.filter((r) => r.manufacturer === 'Elephant Robotics')).toHaveLength(24);
   });
   it('does not relabel lifespan or joint angular speed as endurance or TCP speed', () => {
     for (const id of ['mycobot-280-m5', 'mycobot-320-m5', 'mycobot-320-pi', 'mycobot-pro-630']) {

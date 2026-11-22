@@ -13,7 +13,7 @@ const highlights = (model) => getProductInsights(robot(model).id).highlights.joi
 
 describe('FANUC CR/CRX exact load modes and named variants', () => {
   it('represents six CR arms and twelve new CRX/Food/Paint configurations', () => {
-    expect(getAllBrands().find((b) => b.id === 'fanuc').modelCount).toBe(19);
+    expect(getAllBrands().find((b) => b.id === 'fanuc').modelCount).toBe(20);
     for (const model of [
       'CRX-3iA',
       'CRX-30iA',

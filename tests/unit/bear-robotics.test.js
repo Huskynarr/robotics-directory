@@ -112,7 +112,7 @@ describe('Bear Robotics exact models and qualified partner evidence', () => {
   });
   it('keeps Kinisi and fleet claims qualified in the company focus', () => {
     const brand = getAllBrands().find((b) => b.id === 'bear-robotics');
-    expect(brand.robots).toHaveLength(12);
+    expect(brand.robots).toHaveLength(14);
     const focus = getCompanyInsights(brand).primary;
     expect(focus.highlights.join(' ')).toContain('to be confirmed at launch');
     expect(focus.highlights.join(' ')).toContain('no duplicate Kinisi hardware card');

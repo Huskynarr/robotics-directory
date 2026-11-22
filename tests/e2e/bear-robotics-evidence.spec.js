@@ -25,7 +25,7 @@ test('Bear brand has twelve models with partner and provisional Kinisi scope in 
   page,
 }) => {
   await page.goto('/brands/bear-robotics/');
-  await expect(page.locator('main .robot-card')).toHaveCount(12);
+  await expect(page.locator('main .robot-card')).toHaveCount(14);
   const focus = page.locator('section[aria-labelledby="company-focus"]');
   await expect(focus).toContainText('LG B9 is explicitly an LG collaboration');
   await expect(focus).toContainText('to be confirmed at launch');

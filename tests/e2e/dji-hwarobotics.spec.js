@@ -7,7 +7,7 @@ test('company pages expose canonical aircraft and system counts with sourced foc
   page,
 }) => {
   for (const [id, count, term] of [
-    ['dji', 29, 'Cine'],
+    ['dji', 32, 'Cine'],
     ['hwarobotics', 7, 'SLS900'],
   ]) {
     await page.goto('/brands/' + id + '/');
