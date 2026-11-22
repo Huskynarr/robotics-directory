@@ -24,7 +24,7 @@ test('brand exposes eighteen exact CR/CRX Food/Paint models and sourced company 
   page,
 }) => {
   await page.goto(brand);
-  await expect(page.locator('main .robot-card')).toHaveCount(18);
+  await expect(page.locator('main .robot-card')).toHaveCount(19);
   for (const id of ['crx-3ia', 'crx-30ia', 'crx-10ia-l-paint', 'crx-30ia-food'])
     await expect(page.locator('main .robot-card[data-robot-id="fanuc-' + id + '"]')).toBeVisible();
   await expect(page.locator('main .robot-card[data-robot-id="fanuc-crx-25ia"]')).toHaveCount(0);

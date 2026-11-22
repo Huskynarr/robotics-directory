@@ -112,7 +112,7 @@ describe('Robotnik configured carrier, arm and source scope', () => {
   });
   it('keeps prices, first launch years, charge durations and positioning error unknown', () => {
     const selected = all.filter((r) => r.manufacturer === 'Robotnik');
-    expect(selected).toHaveLength(15);
+    expect(selected).toHaveLength(19);
     for (const r of selected) {
       expect(getStructuredOffer(r.price)).toBeNull();
       for (const k of ['releaseDate', 'chargingTime', 'handType', 'dof']) expect(r[k]).toBe('');

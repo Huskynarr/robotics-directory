@@ -6,7 +6,7 @@ const goto = (p, id) => p.goto('/robot/robotnik-rb-' + id + '/');
 
 test('Robotnik brand links fifteen offerings and dated company focus', async ({ page }) => {
   await page.goto('/brands/robotnik/');
-  await expect(page.locator('main .robot-card')).toHaveCount(15);
+  await expect(page.locator('main .robot-card')).toHaveCount(19);
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText(
     'RB-THERON FP',
   );

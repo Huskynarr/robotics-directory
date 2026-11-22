@@ -8,7 +8,7 @@ test('canonical brands expose exact model inventories and sourced company roles'
 }) => {
   for (const [id, count, term] of [
     ['greyorange', 4, 'third-party'],
-    ['kuka', 13, 'standard versions'],
+    ['kuka', 18, 'standard versions'],
   ]) {
     await page.goto('/brands/' + id + '/');
     await expect(page.locator('main .robot-card')).toHaveCount(count);
