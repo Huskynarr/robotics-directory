@@ -33,7 +33,7 @@ test('Gaussian alias finds the merged company and old profile directs to its can
     'href',
     /\/brands\/gausium-robotics\/$/,
   );
-  await expect(page.locator('.robot-card')).toHaveCount(23);
+  await expect(page.locator('.robot-card')).toHaveCount(25);
   await expect(page.locator('section[aria-labelledby="company-focus"]')).toContainText('alias');
   await expect(page.locator('.robot-card h3').filter({ hasText: 'Phantas Extra' })).toHaveCount(0);
 });

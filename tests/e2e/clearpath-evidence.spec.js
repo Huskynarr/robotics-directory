@@ -8,7 +8,7 @@ test('Clearpath brand links all named platforms without resolving the generic so
   page,
 }) => {
   await page.goto('/brands/clearpath-robotics/');
-  await expect(page.locator('main .robot-card')).toHaveCount(13);
+  await expect(page.locator('main .robot-card')).toHaveCount(15);
   for (const id of ['husky-a200', 'husky-amp', 'husky-observer', 'dingo-d', 'dingo-o'])
     await expect(
       page.locator(`main .robot-card a[href="/robot/clearpath-robotics-${id}/"]`),
