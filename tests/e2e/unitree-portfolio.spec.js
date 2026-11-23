@@ -26,7 +26,7 @@ async function comparison(page) {
 }
 test('brand exposes named platform, arm and teleoperation-kit configurations', async ({ page }) => {
   await page.goto(brand);
-  await expect(page.locator('main .robot-card')).toHaveCount(63);
+  await expect(page.locator('main .robot-card')).toHaveCount(64);
   for (const id of [
     'a2-w-pro',
     'h2-x-edu',

@@ -12,7 +12,7 @@ const highlights = (model) => getProductInsights(robot(model).id).highlights.joi
 
 describe('Unitree portfolio model and package boundaries', () => {
   it('represents the named platform/arm/kit configurations without creating a boxing robot', () => {
-    expect(getAllBrands().find((b) => b.id === 'unitree-robotics').modelCount).toBe(63);
+    expect(getAllBrands().find((b) => b.id === 'unitree-robotics').modelCount).toBe(64);
     for (const model of [
       'A2-W PRO',
       'H2-X EDU',
