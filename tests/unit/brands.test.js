@@ -230,11 +230,16 @@ describe('brand catalog integration', () => {
         .map((entry) => entry.id)
         .sort(),
     ).toEqual(allRobots.map((entry) => entry.id).sort());
+    const catalogRobots = new Map();
+    for (const item of allRobots) {
+      if (!catalogRobots.has(item.manufacturer)) catalogRobots.set(item.manufacturer, []);
+      catalogRobots.get(item.manufacturer).push(item);
+    }
     for (const manufacturer of manufacturers) {
       const entry = getBrandForManufacturer(manufacturer, brands);
       expect(entry.catalogManufacturers).toContain(manufacturer);
       expect(entry.robots.filter((item) => item.manufacturer === manufacturer)).toEqual(
-        allRobots.filter((item) => item.manufacturer === manufacturer),
+        catalogRobots.get(manufacturer),
       );
     }
     expect(getBrandForManufacturer(manufacturers[0]).id).toBe(

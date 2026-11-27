@@ -48,11 +48,12 @@ describe('SROD component and configuration boundaries', () => {
     expect(s('S190DHD').payload).toContain('65 kg');
     expect(s('S150AF').payload).toContain('Not less than 50 kg');
     for (const model of ['S150A', 'S190DHD', 'S150AF']) {
+      const robot = s(model);
       expect(
-        robots.filter((r) => r.manufacturer === s(model).manufacturer && r.model === model),
+        robots.filter((r) => r.manufacturer === robot.manufacturer && r.model === model),
       ).toHaveLength(1);
-      expect(review(s(model)).sources).toHaveLength(2);
-      expect(high(s(model))).toContain('identical technical parameter block');
+      expect(review(robot).sources).toHaveLength(2);
+      expect(high(robot)).toContain('identical technical parameter block');
     }
   });
   it('separates D800F support equipment terminal battery traction pump flow and hazardous-area options', () => {

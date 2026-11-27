@@ -105,20 +105,21 @@ describe('company themes preserve evidence scope', () => {
   });
 
   it('exposes every source theme on the exact profile retaining the source name', () => {
-    const brands = getAllBrands();
+    const byName = new Map();
+    for (const brand of getAllBrands()) {
+      for (const name of [brand.name, ...brand.aliases])
+        if (!byName.has(name)) byName.set(name, brand);
+    }
     for (const entry of read('roboticsdir').entries) {
-      const brand = brands.find((brand) => [brand.name, ...brand.aliases].includes(entry.name));
-      const themes = getCompanyInsights(brand).roboticsdirFeatureThemes;
+      const themes = getCompanyInsights(byName.get(entry.name)).roboticsdirFeatureThemes;
       for (const theme of entry.features) expect(themes, entry.name).toContain(theme);
     }
     for (const entry of read('buyandrentrobots').listings) {
-      const brand = brands.find((brand) => [brand.name, ...brand.aliases].includes(entry.company));
-      const themes = getCompanyInsights(brand).buyandrentListingThemes;
+      const themes = getCompanyInsights(byName.get(entry.company)).buyandrentListingThemes;
       for (const theme of entry.features) expect(themes, entry.company).toContain(theme);
     }
     for (const entry of read('buyandrentrobots').companies) {
-      const brand = brands.find((brand) => [brand.name, ...brand.aliases].includes(entry.name));
-      const insights = getCompanyInsights(brand);
+      const insights = getCompanyInsights(byName.get(entry.name));
       for (const theme of entry.features || [])
         expect(insights.buyandrentCompanyThemes, entry.name).toContain(theme);
       for (const useCase of entry.useCases || [])
